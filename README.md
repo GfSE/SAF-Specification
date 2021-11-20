@@ -15,8 +15,15 @@ To be done
 
 # Viewpoints
 ## Operational Domain
+* [Operational Story Viewpoint](viewpoints/Operational-Story-Viewpoint.md)
+* add viewpoints to show here..
+* ..
 ## Functional Domain
+* [System Story Viewpoint](viewpoints/System-Story-Viewpoint.md)
+* add viewpoints to show here..
+* ..
 ## Logical Domain
+## Physical Domain
 
 # Conceptual Model
 [Concepts](concepts.md)
