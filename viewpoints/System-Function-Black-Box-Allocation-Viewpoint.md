@@ -1,6 +1,7 @@
 # System Function Black Box Allocation Viewpoint
 *Domain:* **Functional** *Aspect:* **Crossreference and Mapping**
 ## Example
+![FFDS Context Definition Allocation of Usage](../diagrams/FFDS-Context-Definition-Allocation-of-Usage.svg)
 ## Purpose
 The System Function Black Box Allocation Viewpoint specifies the allocation of System Function(s) to the SOI element(s) together with the allocation of Context Function(s) to Context Element(s). It dissects functionality explicitly between the SOI and its environment elements.
 ## Applicability

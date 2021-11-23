@@ -1,6 +1,7 @@
 # Operational Process Traceability Viewpoint
 *Domain:* **Operational** *Aspect:* **Crossreference and Mapping**
 ## Example
+![SAR & FDN Operational Process Traceability Table](../diagrams/SAR-&-FDN-Operational-Process-Traceability-Table.svg)
 ## Purpose
 The Operational Process Traceability Viewpoint describes the relationship(s) of Operational Process(es). The reasoning for Operational Process(es) from Operational Story(s) and their contribution to Capability(s) is described. The assignment of Operational Process(es) to Operational Performer(s) is captured.
 ## Applicability

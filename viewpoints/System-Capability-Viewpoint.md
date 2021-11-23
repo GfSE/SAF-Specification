@@ -1,6 +1,7 @@
 # System Capability Viewpoint
 *Domain:* **Functional** *Aspect:* **Structure**
 ## Example
+![FFDS Capability Definition](../diagrams/FFDS-Capability-Definition.svg)
 ## Purpose
 The System Capability Viewpoint defines a taxonomy of Capability(s) including composition, specialization, and dependency relationship(s) between System Capability(s).
 ## Applicability

@@ -1,6 +1,7 @@
 # Physical Context Definition Viewpoint
 *Domain:* **Physical** *Aspect:* **Context**
 ## Example
+*none*
 ## Purpose
 The physical context definition Viewpoint identifies the different context the SOI is used in, along with the associated external entities sharing a physical interface with the SOI. For each context the applicable environmental conditions may be defined. The physical context helps in discovering the interface requirement(s) needed to integrate a SOI into its environment in a specific context.
 NOTE: For each candidate SOI architecture, the physical context Viewpoint is elaborated forming the baseline for the later assessment of the different system architecture solutions.

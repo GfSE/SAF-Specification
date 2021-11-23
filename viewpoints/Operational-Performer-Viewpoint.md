@@ -1,6 +1,7 @@
 # Operational Performer Viewpoint
 *Domain:* **Operational** *Aspect:* **Structure**
 ## Example
+![Operational Performer Definition](../diagrams/Operational-Performer-Definition.svg)
 ## Purpose
 The Operational Performer Viewpoint represents the taxonomy of the identified Operational Performer(s), if existing and relevant for the understanding of the operation of the intended solution. 
 

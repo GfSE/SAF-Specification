@@ -1,6 +1,7 @@
 # Stakeholder Requirement Viewpoint
 *Domain:* **Operational** *Aspect:* **Requirement**
 ## Example
+![Stakeholder Requirement Definition Table](../diagrams/Stakeholder-Requirement-Definition-Table.svg)
 ## Purpose
 The Stakeholder Requirement Viewpoint specifies all properties that the intended solution shall possess or expose from the perspective of the stakeholders. The Stakeholder Requirement Viewpoint determines capability(s), function(s), non-functional property(s), and constraint(s).
 ## Applicability

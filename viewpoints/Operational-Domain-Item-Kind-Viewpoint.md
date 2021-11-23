@@ -1,6 +1,7 @@
 # Operational Domain Item Kind Viewpoint
 *Domain:* **Operational** *Aspect:* **Structure**
 ## Example
+![Operational Domain Item Definition](../diagrams/Operational-Domain-Item-Definition.svg)
 ## Purpose
 The Operational Domain Item Kind Viewpoint collects type definition(s) for any exchanged item of the Operational Domain. Its purpose is to define those item type(s) and their relationship(s).
 ## Applicability

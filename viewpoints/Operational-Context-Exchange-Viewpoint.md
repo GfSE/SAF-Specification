@@ -1,6 +1,7 @@
 # Operational Context Exchange Viewpoint
 *Domain:* **Operational** *Aspect:* **Context**
 ## Example
+![FDN Context Exchange](../diagrams/FDN-Context-Exchange.svg)
 ## Purpose
 The Operational Context Exchange Viewpoint defines connectivity and exchange between Operational Performer(s).
 ## Applicability

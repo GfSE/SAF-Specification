@@ -1,6 +1,7 @@
 # System Process Viewpoint
 *Domain:* **Functional** *Aspect:* **Behavior**
 ## Example
+![FFDS A Day in the Life of FFDS](../diagrams/FFDS-A-Day-in-the-Life-of-FFDS.svg)
 ## Purpose
 The System Process Viewpoint provides the functional representation of the system using a black-box approach
 * the representation of the SOI and all Context Element(s)

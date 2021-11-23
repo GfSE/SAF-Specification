@@ -1,6 +1,7 @@
 # Physical Structure Viewpoint
 *Domain:* **Physical** *Aspect:* **Structure**
 ## Example
+*none*
 ## Purpose
 The physical structure Viewpoint is used to model the internal structure of the SOI and to identify the internal system elements making up the SOI. The SOI breakdown structure identifies system elements and finally on implementation level hardware, software, mechanics. The SOI breakdown structure determines items that are reused and make or buy (COTS) items. 
 The physical structure Viewpoint is elaborated for each candidate physical SOI architecture. It provides the basis for further assessment of the architecture candidates by identifying the system elements in each candidate solution.

@@ -1,6 +1,7 @@
 # Operational Story Viewpoint
 *Domain:* **Operational** *Aspect:* **Context**
 ## Example
+![Exemplary Operational Story](../diagrams/Exemplary-Operational-Story.svg)
 ## Purpose
 The Operational Story Viewpoint
 * identifies the Operational Story(s) and their relation to Operational Performer(s) enabling operational storytelling

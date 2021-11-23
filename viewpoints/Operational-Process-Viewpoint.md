@@ -1,6 +1,7 @@
 # Operational Process Viewpoint
 *Domain:* **Operational** *Aspect:* **Behavior**
 ## Example
+![Fire Detection and Notification Process](../diagrams/Fire-Detection-and-Notification-Process.svg)
 ## Purpose
 The Operational Process Viewpoint describes the Operational Process Activity(s) related to a specific Operational Story, the sequence of execution and/or their operational exchange. The assignment of Operational Process Activity(s) to Operational Performer(s) is captured.
 ## Applicability

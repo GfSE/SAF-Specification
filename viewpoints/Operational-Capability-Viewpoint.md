@@ -1,6 +1,7 @@
 # Operational Capability Viewpoint
 *Domain:* **Operational** *Aspect:* **Structure**
 ## Example
+![SAR & FDN Capability Definition](../diagrams/SAR-&-FDN-Capability-Definition.svg)
 ## Purpose
 The Operational Capability Viewpoint defines a taxonomy of Capability(s) from a Stakeholder’s perspective including composition, specialization, and dependency relationship(s) between Operational Capability(s).
 ## Applicability

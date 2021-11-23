@@ -1,6 +1,7 @@
 # System Requirement Viewpoint
 *Domain:* **Functional** *Aspect:* **Requirement**
 ## Example
+![System Requirement Definition Table](../diagrams/System-Requirement-Definition-Table.svg)
 ## Purpose
 The System Requirement Viewpoint specifies function(s), non-functional property(s), or constraint(s) of the system. System Requirement(s) are captured, the interrelationships between functional and non-functional requirement(s) on the same level of abstraction and the traceability to Stakeholder Requirement(s) are depicted.
 ## Applicability

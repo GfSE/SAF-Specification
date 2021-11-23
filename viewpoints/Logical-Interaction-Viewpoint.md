@@ -1,6 +1,7 @@
 # Logical Interaction Viewpoint
 *Domain:* **Logical** *Aspect:* **Interaction and Collaboration**
 ## Example
+![FFDS Internal Interaction](../diagrams/FFDS-Internal-Interaction.svg)
 ## Purpose
 The Logical Interaction Viewpoint describes system internal behavior based on the exchange between the logical component(s) of the SOI. It depicts the sequence of interactions between the logical components and the exchanged data item(s) needed to accomplish a given system function.
 ## Applicability

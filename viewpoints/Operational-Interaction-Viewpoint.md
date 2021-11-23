@@ -1,6 +1,7 @@
 # Operational Interaction Viewpoint
 *Domain:* **Operational** *Aspect:* **Interaction and Collaboration**
 ## Example
+*none*
 ## Purpose
 The Operational Interaction Viewpoint defines single threads of interaction between roles of Operational Performer(s) in an Operational Context on operational level. The Operational Interaction Viewpoint refines an Operational Story.
 ## Applicability

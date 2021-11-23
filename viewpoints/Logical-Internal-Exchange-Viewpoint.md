@@ -1,6 +1,7 @@
 # Logical Internal Exchange Viewpoint
 *Domain:* **Logical** *Aspect:* **Interaction and Collaboration**
 ## Example
+![FFDS Logical Internal Exchange](../diagrams/FFDS-Logical-Internal-Exchange.svg)
 ## Purpose
 The Logical Internal Exchange Viewpoint serves for the identification and definition of interface(s) of element(s) of the SOI. Also, the delegation of SOI element interface(s) to SOI boundary interface(s) is covered.
 The Logical Internal Exchange Viewpoint

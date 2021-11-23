@@ -1,6 +1,7 @@
 # System Story Viewpoint
 *Domain:* **Functional** *Aspect:* **Context**
 ## Example
+![FFDS Use Case A Day in Life of the System](../diagrams/FFDS-Use-Case-A-Day-in-Life-of-the-System.svg)
 ## Purpose
 The System Story Viewpoint provides an outside view on the System Functionality from the perspective of the System User(s) and contributes to the definition of System Requirement(s) and System Usage. The intended system use may be captured as free text use case description, a storytelling approach on a coarse detail level. The main System Exchange Partner(s) participating in the intended system use are identified. System use case(s) are related to a specific System Context.
 ## Applicability

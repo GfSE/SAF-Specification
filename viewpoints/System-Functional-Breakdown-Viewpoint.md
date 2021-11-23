@@ -1,6 +1,7 @@
 # System Functional Breakdown Viewpoint
 *Domain:* **Functional** *Aspect:* **Crossreference and Mapping**
 ## Example
+![FFDS Function Breakdown Structure Definition](../diagrams/FFDS-Function-Breakdown-Structure-Definition.svg)
 ## Purpose
 The System Functional Breakdown Viewpoint defines the functional hierarchy of the SoI beginning with identified System Function(s) further down to decomposed partial Function(s). The reuse of partial Function(s) over Function Trees of the SoI is demonstrated.
 ## Applicability

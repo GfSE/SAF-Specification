@@ -1,6 +1,7 @@
 # System Context Definition Viewpoint
 *Domain:* **Functional** *Aspect:* **Context**
 ## Example
+![FFDS Context Definition](../diagrams/FFDS-Context-Definition.svg)
 ## Purpose
 The System Context Definition Viewpoint defines how the SOI is embedded in its Environment, i.e. where the boundary of the SOI is and who the External Entity(s) are the SOI interacts with (e.g. User(s), other External System(s), Environmental Condition(s), etc.). The SOI provides and requests Context Function(s). The SOI shall be able handle Event(s) and Effect(s) from the outside.
 ## Applicability

@@ -1,6 +1,7 @@
 # Operational Context Definition Viewpoint
 *Domain:* **Operational** *Aspect:* **Context**
 ## Example
+![FDN Context Definition](../diagrams/FDN-Context-Definition.svg)
 ## Purpose
 The Operational Context Definition Viewpoint defines the Operational Context(s) and the involved Operational Performer(s).
 ## Applicability

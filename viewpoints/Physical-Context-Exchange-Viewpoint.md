@@ -1,6 +1,7 @@
 # Physical Context Exchange Viewpoint
 *Domain:* **Physical** *Aspect:* **Context**
 ## Example
+*none*
 ## Purpose
 The physical context exchange Viewpoint focuses on the identification of the physical interface(s) with external entities and the identification of relevant documentation. It is used to capture interface requirement(s) for IRS, applicable standard(s), protocol(s) and format specification(s) that are agreed upon the interface(s).
 NOTE: Trace physical interface(s) to logical interface(s) 
