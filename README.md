@@ -3,15 +3,16 @@
 
 **thats the reason for making the repository private**
 
-This is working, but needs polishing
+This is done, but needs polishing
 * conceptual model
 * stereotypes
+* stakeholders
 
 To be done 
 * viewpoints
 * domain documentation
-* stakeholders
-* concerns
+* concept area diagrams
+* concerns by categories
 
 # Viewpoints
 ## Operational Domain
@@ -34,6 +35,8 @@ To be done
 ## Logical Domain
 ## Physical Domain
 
+# Stakeholders
+[Stakeholders](stakeholders.md)
 # Conceptual Model
 [Concepts](concepts.md)
 
