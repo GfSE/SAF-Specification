@@ -21,50 +21,50 @@ implements concept [derivingFROM](concepts.md#derivingFROM)
 
 
 ## SAF_FV01a_SystemStoryDiagram
-implements concept [System Story Viewpoint](concepts.md#System-Story-Viewpoint)
+implements viewpoint [System Story Viewpoint](viewpoints/System-Story-Viewpoint.md)
 
 *please add description*
 ## SAF_FV01b_SystemContextDefinitionDiagram
-implements concept [System Context Definition Viewpoint](concepts.md#System-Context-Definition-Viewpoint)
+implements viewpoint [System Context Definition Viewpoint](viewpoints/System-Context-Definition-Viewpoint.md)
 
 *please add description*
 ## SAF_FV01c_SystemContextExchangeDiagram
-implements concept [System Context Exchange Viewpoint](concepts.md#System-Context-Exchange-Viewpoint)
+implements viewpoint [System Context Exchange Viewpoint](viewpoints/System-Context-Exchange-Viewpoint.md)
 
 *please add description*
 ## SAF_FV02a_SystemDomainKindDiagram
-implements concept [System Domain Item Kind Viewpoint](concepts.md#System-Domain-Item-Kind-Viewpoint)
+implements viewpoint [System Domain Item Kind Viewpoint](viewpoints/System-Domain-Item-Kind-Viewpoint.md)
 
 contains taxonomy of domain kinds in the functional and logical domain
 ## SAF_FV02b_SystemCapabilityDiagram
-implements concept [System Capability Viewpoint](concepts.md#System-Capability-Viewpoint)
+implements viewpoint [System Capability Viewpoint](viewpoints/System-Capability-Viewpoint.md)
 
 *please add description*
 ## SAF_FV02c_SystemFunctionalBreakdownDiagram
-implements concept [System Functional Breakdown Viewpoint](concepts.md#System-Functional-Breakdown-Viewpoint)
+implements viewpoint [System Functional Breakdown Viewpoint](viewpoints/System-Functional-Breakdown-Viewpoint.md)
 
 *please add description*
 ## SAF_FV03a_SystemProcessDiagram
-implements concept [System Process Viewpoint](concepts.md#System-Process-Viewpoint)
+implements viewpoint [System Process Viewpoint](viewpoints/System-Process-Viewpoint.md)
 
 *please add description*
 ## SAF_FV03b_SystemStateMachineDiagram
-implements concept [System State Viewpoint](concepts.md#System-State-Viewpoint)
+implements viewpoint [System State Viewpoint](viewpoints/System-State-Viewpoint.md)
 
 *please add description*
 ## SAF_FV04a_SystemContextInteractionDiagram
-implements concept [System Context Interaction Viewpoint](concepts.md#System-Context-Interaction-Viewpoint)
+implements viewpoint [System Context Interaction Viewpoint](viewpoints/System-Context-Interaction-Viewpoint.md)
 
 The SAF LogicalInternalInteractionDiagram contains a Sequence Diagram. It documents the interaction between parts of the logical SOI.
 It contains
 * Life Lines typed by parts of the logical SOI
 * Synchronous or asynchronous messages representing the sequence of interactions between the parts of the logical SOI
 ## SAF_FV06a_SystemRequirementDiagram
-implements concept [System Requirement Viewpoint](concepts.md#System-Requirement-Viewpoint)
+implements viewpoint [System Requirement Viewpoint](viewpoints/System-Requirement-Viewpoint.md)
 
 *please add description*
 ## SAF_FV08a_SystemRequirementDependencyDiagram
-implements concept [System Requirement Traceability Viewpoint](concepts.md#System-Requirement-Traceability-Viewpoint)
+implements viewpoint [System Requirement Traceability Viewpoint](viewpoints/System-Requirement-Traceability-Viewpoint.md)
 
 *please add description*
 ## SAF_FunctionAction
@@ -76,18 +76,18 @@ implements concept [Hardware Element](concepts.md#Hardware-Element)
 
 *please add description*
 ## SAF_LV02a_LogicalStructureDiagram
-implements concept [Logical Structure Viewpoint](concepts.md#Logical-Structure-Viewpoint)
+implements viewpoint [Logical Structure Viewpoint](viewpoints/Logical-Structure-Viewpoint.md)
 
 *please add description*
 ## SAF_LV04a_LogicalInternalInteractionDiagram
-implements concept [Logical Interaction Viewpoint](concepts.md#Logical-Interaction-Viewpoint)
+implements viewpoint [Logical Interaction Viewpoint](viewpoints/Logical-Interaction-Viewpoint.md)
 
 The SAF Logical Internal Interaction Diagram contains a Sequence Diagram. It documents the interaction between parts of the logical SOI.
 It contains
 * Life Lines typed by parts of the logical SOI
 * Synchronous or asynchronous messages representing the sequence of interactions between the parts of the logical SOI
 ## SAF_LV04b_LogicalInternalExchangeDiagram
-implements concept [Logical Internal Exchange Viewpoint](concepts.md#Logical-Internal-Exchange-Viewpoint)
+implements viewpoint [Logical Internal Exchange Viewpoint](viewpoints/Logical-Internal-Exchange-Viewpoint.md)
 
 *please add description*
 ## SAF_LogicalContext
@@ -125,50 +125,50 @@ implements concept [Logical User](concepts.md#Logical-User)
 
 *please add description*
 ## SAF_OV01a_OperationalStoryDiagram
-implements concept [Operational Story Viewpoint](concepts.md#Operational-Story-Viewpoint)
+implements viewpoint [Operational Story Viewpoint](viewpoints/Operational-Story-Viewpoint.md)
 
 *please add description*
 ## SAF_OV01b_OperationalContextDefinitionDiagram
-implements concept [Operational Context Definition Viewpoint](concepts.md#Operational-Context-Definition-Viewpoint)
+implements viewpoint [Operational Context Definition Viewpoint](viewpoints/Operational-Context-Definition-Viewpoint.md)
 
 *please add description*
 ## SAF_OV01c_OperationalContextExchangeDiagram
-implements concept [Operational Context Exchange Viewpoint](concepts.md#Operational-Context-Exchange-Viewpoint)
+implements viewpoint [Operational Context Exchange Viewpoint](viewpoints/Operational-Context-Exchange-Viewpoint.md)
 
 *please add description*
 ## SAF_OV02a_OperationalDomainKindDiagram
-implements concept [Operational Domain Item Kind Viewpoint](concepts.md#Operational-Domain-Item-Kind-Viewpoint)
+implements viewpoint [Operational Domain Item Kind Viewpoint](viewpoints/Operational-Domain-Item-Kind-Viewpoint.md)
 
 Contains taxonomy of domain kinds in the operational domain
 ## SAF_OV02b_OperationalPerformerDiagram
-implements concept [Operational Performer Viewpoint](concepts.md#Operational-Performer-Viewpoint)
+implements viewpoint [Operational Performer Viewpoint](viewpoints/Operational-Performer-Viewpoint.md)
 
 *please add description*
 ## SAF_OV02c_OperationalCapabilityDiagram
-implements concept [Operational Capability Viewpoint](concepts.md#Operational-Capability-Viewpoint)
+implements viewpoint [Operational Capability Viewpoint](viewpoints/Operational-Capability-Viewpoint.md)
 
 *please add description*
 ## SAF_OV03a_OperationalProcessDiagram
-implements concept [Operational Process Viewpoint](concepts.md#Operational-Process-Viewpoint)
+implements viewpoint [Operational Process Viewpoint](viewpoints/Operational-Process-Viewpoint.md)
 
 *please add description*
 ## SAF_OV04a_OperationalInteractionDiagram
-implements concept [Operational Interaction Viewpoint](concepts.md#Operational-Interaction-Viewpoint)
+implements viewpoint [Operational Interaction Viewpoint](viewpoints/Operational-Interaction-Viewpoint.md)
 
 The SAF Operational Interaction Diagram contains a Sequence Diagram. It is a refinement of an Operational Story.
 It contains
 * lifelines typed by roles from the Operational Context 
 * messages representing the sequence of interactions between the roles of an Operational Context
 ## SAF_OV06a_StakeholderRequirementDiagram
-implements concept [Stakeholder Requirement Viewpoint](concepts.md#Stakeholder-Requirement-Viewpoint)
+implements viewpoint [Stakeholder Requirement Viewpoint](viewpoints/Stakeholder-Requirement-Viewpoint.md)
 
 *please add description*
 ## SAF_OV08a_OperationalCapabilityTraceabilityDiagram
-implements concept [Operational Capability Traceability Viewpoint](concepts.md#Operational-Capability-Traceability-Viewpoint)
+implements viewpoint [Operational Capability Traceability Viewpoint](viewpoints/Operational-Capability-Traceability-Viewpoint.md)
 
 *please add description*
 ## SAF_OV08b_OperationalProcessTraceabilityDiagram
-implements concept [Operational Process Traceability Viewpoint](concepts.md#Operational-Process-Traceability-Viewpoint)
+implements viewpoint [Operational Process Traceability Viewpoint](viewpoints/Operational-Process-Traceability-Viewpoint.md)
 
 *please add description*
 ## SAF_OperationalCapability
