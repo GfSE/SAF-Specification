@@ -128,11 +128,11 @@ exposed in viewpoint [Logical Internal Exchange Viewpoint](viewpoints/Logical-In
 
 exposed in viewpoint [System Requirement Traceability Viewpoint](viewpoints/System-Requirement-Traceability-Viewpoint.md)
 
-realized by Stereotype [ProxyPort](stereotypes.md#ProxyPort)
+realized by Stereotype ProxyPort
 
 Specifies the existence of an interaction point (interface) on Logical level.
 ## Logical Interface Property
-realized by Stereotype [FlowProperty](stereotypes.md#FlowProperty)
+realized by Stereotype FlowProperty
 
 Specifies a detail of an interaction point on Logical level.
 ## Logical Interface Specification
@@ -140,7 +140,7 @@ exposed in viewpoint [System Context Exchange Viewpoint](viewpoints/System-Conte
 
 exposed in viewpoint [Logical Internal Exchange Viewpoint](viewpoints/Logical-Internal-Exchange-Viewpoint.md)
 
-realized by Stereotype [InterfaceBlock](stereotypes.md#InterfaceBlock)
+realized by Stereotype InterfaceBlock
 
 Specifies a certain kind of an interaction point (interface) on Logical level.
 ## Logical Item Exchange
@@ -148,7 +148,7 @@ exposed in viewpoint [System Context Exchange Viewpoint](viewpoints/System-Conte
 
 exposed in viewpoint [Logical Internal Exchange Viewpoint](viewpoints/Logical-Internal-Exchange-Viewpoint.md)
 
-realized by Stereotype [ItemFlow](stereotypes.md#ItemFlow)
+realized by Stereotype ItemFlow
 
 Specifies the exchange that is supposed to happen for an Logical Interface Connection.
 ## Logical SOI
@@ -232,7 +232,7 @@ Ordered sequence of exchanges of information, energy or material between Operati
 ## Operational Item Exchange
 exposed in viewpoint [Operational Context Exchange Viewpoint](viewpoints/Operational-Context-Exchange-Viewpoint.md)
 
-realized by Stereotype [ItemFlow](stereotypes.md#ItemFlow)
+realized by Stereotype ItemFlow
 
 Exchange between Operational Context Constituents over an Operational Connection.
 
@@ -519,7 +519,7 @@ Specifies the fact that an Operational Process is realized by a System Function,
 ## SFCallocatedTO
 1..* [System Function](#System-Function) SFCallocatedTO 1 [Logical SOI](#Logical-SOI) 
 
-realized by Stereotype [Allocate](stereotypes.md#Allocate)
+realized by Stereotype Allocate
 
 Specifies the fact that a System Function is assigned to a Logical SOI.
 Note, that this can be derived from Function usages of System Functions allocated to Logical Soi Constituents in System Contexts.
@@ -565,7 +565,7 @@ Specifies the fact that a Logical Item Exchange is allowed on the Connection of 
 ## allowing
 1 [Operational Connection](#Operational-Connection) allowing 0..* [Operational Item Exchange](#Operational-Item-Exchange) 
 
-realized by Stereotype [ItemFlow](stereotypes.md#ItemFlow)
+realized by Stereotype ItemFlow
 
 Specifies the fact that an Operational Exchange takes place over a certain Operational Connection.
 ## applyingTO
@@ -909,7 +909,7 @@ exposed in viewpoint [System Process Viewpoint](viewpoints/System-Process-Viewpo
 
 exposed in viewpoint [System Function Black Box Allocation Viewpoint](viewpoints/System-Function-Black-Box-Allocation-Viewpoint.md)
 
-realized by Stereotype [Allocate](stereotypes.md#Allocate)
+realized by Stereotype Allocate
 
 Defines, that the External Function is expected to carried out by the Logical Context element in that context.
 ## performingSystemTSK
@@ -919,7 +919,7 @@ exposed in viewpoint [System Process Viewpoint](viewpoints/System-Process-Viewpo
 
 exposed in viewpoint [System Function Black Box Allocation Viewpoint](viewpoints/System-Function-Black-Box-Allocation-Viewpoint.md)
 
-realized by Stereotype [Allocate](stereotypes.md#Allocate)
+realized by Stereotype Allocate
 
 Defines that the System function is carried out by the SOI in this context
 ## performingTSK
@@ -927,7 +927,7 @@ Defines that the System function is carried out by the SOI in this context
 
 exposed in viewpoint [Operational Process Viewpoint](viewpoints/Operational-Process-Viewpoint.md)
 
-realized by Stereotype [Allocate](stereotypes.md#Allocate)
+realized by Stereotype Allocate
 
 Specifies that an operational context constituent performs an operational activity in the context of an other operational activity.
 ## realizingELM
