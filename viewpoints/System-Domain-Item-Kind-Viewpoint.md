@@ -19,7 +19,7 @@ Note:
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
 ## Presentation
-Domain Item Kind(s) are managed in the domain knowledge package of the SOI, the Domain Item Kind(s) are visible and usable to all sub elements of the SOI. Domain Item Kind(s) shall be value type(s) or block(s). A BBD diagram featuring Domain Item Kind(s) and their relationship(s) in terms of generalization, composition or general association shall be used.
+Domain Item Kind(s) are managed in the domain knowledge package of the SOI, the Domain Item Kind(s) are visible and usable to all sub elements of the SOI. Domain Item Kind(s) shall be value type(s) or block(s). A BDD diagram featuring Domain Item Kind(s) and their relationship(s) in terms of generalization, composition or general association shall be used.
 
 ## Profile Model Reference
 ## Input from other Viewpoints
