@@ -22,6 +22,18 @@ Note:
 Domain Item Kind(s) are managed in the domain knowledge package of the SOI, the Domain Item Kind(s) are visible and usable to all sub elements of the SOI. Domain Item Kind(s) shall be value type(s) or block(s). A BBD diagram featuring Domain Item Kind(s) and their relationship(s) in terms of generalization, composition or general association shall be used.
 
 ## Profile Model Reference
+|Stereotype | Description|realized Concept
+|---|---|---|
+|State||[State](concepts.md#State)|
+|[SAF_DomainKindComposition](stereotypes.md#SAF_DomainKindComposition)|[tbd]|[composedOF](concepts.md#composedOF)|
+|FlowProperty||[Logical Interface Property](concepts.md#Logical-Interface-Property)|
+|[SAF_DomainKindDerivation](stereotypes.md#SAF_DomainKindDerivation)||[derivingFROM](concepts.md#derivingFROM)|
+|[SAF_FV02a_SystemDomainKindDiagram](stereotypes.md#SAF_FV02a_SystemDomainKindDiagram)|contains taxonomy of domain kinds in the functional and logical domain|[System Domain Item Kind Viewpoint](concepts.md#System-Domain-Item-Kind-Viewpoint)|
+|[SAF_DomainKind](stereotypes.md#SAF_DomainKind)|[tbd]|[System Domain Kind](concepts.md#System-Domain-Kind)|
+|ItemFlow||[Logical Item Exchange](concepts.md#Logical-Item-Exchange)|
+|Pin||[Functional Parameter](concepts.md#Functional-Parameter)|
+|[SAF_OperationalDomainKind](stereotypes.md#SAF_OperationalDomainKind)|[tbd]|[Operational Domain Kind](concepts.md#Operational-Domain-Kind)|
+|Parameter||[Functional Parameter](concepts.md#Functional-Parameter)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

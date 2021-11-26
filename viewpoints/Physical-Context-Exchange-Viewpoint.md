@@ -38,6 +38,8 @@ B) A physical context interface table provides a list of all the defined externa
 C) A context interface table is used to define the applicable standard(s), protocol(s) and format(s) for the item flow(s) exchanged via the identified interface(s)
 
 ## Profile Model Reference
+|Stereotype | Description|realized Concept
+|---|---|---|
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

@@ -29,6 +29,17 @@ A) The physical context definition diagram defines the elements available in the
 * composition relationship(s) attaching the Physical Context Elements and the Physical SOI to the Physical System Context block
 
 ## Profile Model Reference
+|Stereotype | Description|realized Concept
+|---|---|---|
+|Association||[Physic SOI Constituent](concepts.md#Physic-SOI-Constituent)|
+|Association||[Physic Context Constituent](concepts.md#Physic-Context-Constituent)|
+|[SAF_PhysicalExternalSystem](stereotypes.md#SAF_PhysicalExternalSystem)|[tbd]|[Physical External System](concepts.md#Physical-External-System)|
+|Property||[Physic Context Constituent](concepts.md#Physic-Context-Constituent)|
+|[SAF_PhysicalUser](stereotypes.md#SAF_PhysicalUser)|[tbd]|[Physical User](concepts.md#Physical-User)|
+|Property||[Physic SOI Constituent](concepts.md#Physic-SOI-Constituent)|
+|[SAF_PhysicalEnvironment](stereotypes.md#SAF_PhysicalEnvironment)|[tbd]|[Physical Environment](concepts.md#Physical-Environment)|
+|[SAF_PhysicalContext](stereotypes.md#SAF_PhysicalContext)|[tbd]|[Physical System Context](concepts.md#Physical-System-Context)|
+|[SAF_PhysicalSOI](stereotypes.md#SAF_PhysicalSOI)|[tbd]|[Physical SOI](concepts.md#Physical-SOI)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

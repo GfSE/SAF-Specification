@@ -46,6 +46,8 @@ Note:
 The following artifact(s) support the modeling activities:
 
 ## Profile Model Reference
+|Stereotype | Description|realized Concept
+|---|---|---|
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

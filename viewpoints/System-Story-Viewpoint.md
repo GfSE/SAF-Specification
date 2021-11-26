@@ -26,6 +26,18 @@ A use case diagram depicting model elements representing System Story(s) and Sys
 Note: [tbd]
 
 ## Profile Model Reference
+|Stereotype | Description|realized Concept
+|---|---|---|
+|[SAF_LogicalExternalSystem](stereotypes.md#SAF_LogicalExternalSystem)|[tbd]|[Logical External System](concepts.md#Logical-External-System)|
+|[SAF_SystemStoryContribution](stereotypes.md#SAF_SystemStoryContribution)|[tbd]
+|[contributingTO](concepts.md#contributingTO)|
+|[SAF_LogicalEnvironment](stereotypes.md#SAF_LogicalEnvironment)|[tbd]|[Logical Environment](concepts.md#Logical-Environment)|
+|[SAF_SystemStory](stereotypes.md#SAF_SystemStory)|[tbd]|[taking_placeIN](concepts.md#taking_placeIN)|
+|Include||[includingUC](concepts.md#includingUC)|
+|[SAF_FV01a_SystemStoryDiagram](stereotypes.md#SAF_FV01a_SystemStoryDiagram)|[tbd]|[System Story Viewpoint](concepts.md#System-Story-Viewpoint)|
+|[SAF_SystemStory](stereotypes.md#SAF_SystemStory)|[tbd]|[System Story](concepts.md#System-Story)|
+|[SAF_LogicalUser](stereotypes.md#SAF_LogicalUser)|[tbd]|[Logical User](concepts.md#Logical-User)|
+|[SAF_LogicalContextElementActing](stereotypes.md#SAF_LogicalContextElementActing)|[tbd]|[actingIN](concepts.md#actingIN)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Stakeholder Requirement Viewpoint](Stakeholder-Requirement-Viewpoint.md)

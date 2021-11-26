@@ -36,6 +36,16 @@ Note:
 One or more IBD featuring the logical element(s) of the SOI, and the SOI boundary, containing connector(s) for each identified SOI interface delegation to SOI element(s), as well as connector(s) between related interface(s) of SOI parts. An interface is a connection resource for hooking on the logical SOI element(s) to other logical SOI element(s). Item flows are defined for each exchange on the identified interface.  Recommendation: Use more than one IBD focused on different areas of interest to keep the view comprehensive. Depending on the Stakeholder concern(s) the logical item exchange information might be suppressed.
 
 ## Profile Model Reference
+|Stereotype | Description|realized Concept
+|---|---|---|
+|[SAF_LogicalElement](stereotypes.md#SAF_LogicalElement)|[tbd]|[Logical Element](concepts.md#Logical-Element)|
+|InterfaceBlock||[Logical Interface Specification](concepts.md#Logical-Interface-Specification)|
+|ProxyPort||[Logical Interface](concepts.md#Logical-Interface)|
+|[SAF_LV04b_LogicalInternalExchangeDiagram](stereotypes.md#SAF_LV04b_LogicalInternalExchangeDiagram)|[tbd]|[Logical Internal Exchange Viewpoint](concepts.md#Logical-Internal-Exchange-Viewpoint)|
+|Property||[applyingTO](concepts.md#applyingTO)|
+|[SAF_DomainKind](stereotypes.md#SAF_DomainKind)|[tbd]|[System Domain Kind](concepts.md#System-Domain-Kind)|
+|Connector||[Logical Interface Connection](concepts.md#Logical-Interface-Connection)|
+|ItemFlow||[Logical Item Exchange](concepts.md#Logical-Item-Exchange)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [System Domain Item Kind Viewpoint](System-Domain-Item-Kind-Viewpoint.md)

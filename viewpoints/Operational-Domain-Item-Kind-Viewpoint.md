@@ -22,6 +22,13 @@ Note:
 Operational Domain Item Kind(s) are managed in the domain knowledge package of Enterprise. Operational Domain Item Kind(s) shall be value type(s) or block(s). A BBD diagram featuring Operational Domain Item Kind(s) and their relationship(s) in terms of generalization, composition or general association shall be used.
 
 ## Profile Model Reference
+|Stereotype | Description|realized Concept
+|---|---|---|
+|[SAF_OV02a_OperationalDomainKindDiagram](stereotypes.md#SAF_OV02a_OperationalDomainKindDiagram)|Contains taxonomy of domain kinds in the operational domain|[Operational Domain Item Kind Viewpoint](concepts.md#Operational-Domain-Item-Kind-Viewpoint)|
+|ObjectFlow||[Operational Process Exchange](concepts.md#Operational-Process-Exchange)|
+|ItemFlow||[Operational Item Exchange](concepts.md#Operational-Item-Exchange)|
+|[SAF_OperationalDomainKind](stereotypes.md#SAF_OperationalDomainKind)|[tbd]|[Operational Domain Kind](concepts.md#Operational-Domain-Kind)|
+|[SAF_OperationalDomainKindComposition](stereotypes.md#SAF_OperationalDomainKindComposition)|[tbd]|[composedOF](concepts.md#composedOF)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

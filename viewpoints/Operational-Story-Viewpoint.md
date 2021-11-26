@@ -21,6 +21,13 @@ Note:
 A use case diagram depicting model elements representing Operational Story(s) and Operational Performer(s) shall be used. In addition, an illustration (drawing, sketch, etc.) and/or a description in free text may provide a comprehensive understanding of the operational background.
 
 ## Profile Model Reference
+|Stereotype | Description|realized Concept
+|---|---|---|
+|[SAF_OperationalSketch](stereotypes.md#SAF_OperationalSketch)|[tbd]|[Operational Sketch](concepts.md#Operational-Sketch)|
+|[SAF_OperationalStory](stereotypes.md#SAF_OperationalStory)|[tbd]|[Operational Story](concepts.md#Operational-Story)|
+|[SAF_OV01a_OperationalStoryDiagram](stereotypes.md#SAF_OV01a_OperationalStoryDiagram)|[tbd]|[Operational Story Viewpoint](concepts.md#Operational-Story-Viewpoint)|
+|[SAF_OperationalPerformer](stereotypes.md#SAF_OperationalPerformer)|[tbd]|[Operational Performer](concepts.md#Operational-Performer)|
+|[SAF_OperationalPerformerActing](stereotypes.md#SAF_OperationalPerformerActing)|[tbd]|[actingIN](concepts.md#actingIN)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*
