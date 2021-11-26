@@ -22,11 +22,11 @@ Note: In addition, the block definition diagram may identify the Operational Cap
 ## Profile Model Reference
 |Stereotype | Description|realized Concept
 |---|---|---|
-|Association||[Operational Context Constituent](concepts.md#Operational-Context-Constituent)|
-|[SAF_OV01b_OperationalContextDefinitionDiagram](stereotypes.md#SAF_OV01b_OperationalContextDefinitionDiagram)|[tbd]|[Operational Context Definition Viewpoint](concepts.md#Operational-Context-Definition-Viewpoint)|
-|[SAF_OperationalPerformer](stereotypes.md#SAF_OperationalPerformer)|[tbd]|[Operational Performer](concepts.md#Operational-Performer)|
-|[SAF_OperationalRole](stereotypes.md#SAF_OperationalRole)|[tbd]|[Operational Context Constituent](concepts.md#Operational-Context-Constituent)|
-|[SAF_OperationalContext](stereotypes.md#SAF_OperationalContext)|[tbd]|[Operational Context](concepts.md#Operational-Context)|
+|Association||[Operational Context Constituent](../concepts.md#Operational-Context-Constituent)|
+|[SAF_OV01b_OperationalContextDefinitionDiagram](../stereotypes.md#SAF_OV01b_OperationalContextDefinitionDiagram)|[tbd]|[Operational Context Definition Viewpoint](../concepts.md#Operational-Context-Definition-Viewpoint)|
+|[SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)|[tbd]|[Operational Performer](../concepts.md#Operational-Performer)|
+|[SAF_OperationalRole](../stereotypes.md#SAF_OperationalRole)|[tbd]|[Operational Context Constituent](../concepts.md#Operational-Context-Constituent)|
+|[SAF_OperationalContext](../stereotypes.md#SAF_OperationalContext)|[tbd]|[Operational Context](../concepts.md#Operational-Context)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Operational Story Viewpoint](Operational-Story-Viewpoint.md)

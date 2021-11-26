@@ -27,11 +27,11 @@ A BDD features the logical System block and logical blocks for each kind of Logi
 ## Profile Model Reference
 |Stereotype | Description|realized Concept
 |---|---|---|
-|[SAF_LogicalSOI](stereotypes.md#SAF_LogicalSOI)|[tbd]|[Logical SOI](concepts.md#Logical-SOI)|
-|Property||[Logical Constituent](concepts.md#Logical-Constituent)|
-|[SAF_LogicalElement](stereotypes.md#SAF_LogicalElement)|[tbd]|[Logical Element](concepts.md#Logical-Element)|
-|Association||[Logical Constituent](concepts.md#Logical-Constituent)|
-|[SAF_LV02a_LogicalStructureDiagram](stereotypes.md#SAF_LV02a_LogicalStructureDiagram)|[tbd]|[Logical Structure Viewpoint](concepts.md#Logical-Structure-Viewpoint)|
+|[SAF_LogicalSOI](../stereotypes.md#SAF_LogicalSOI)|[tbd]|[Logical SOI](../concepts.md#Logical-SOI)|
+|Property||[Logical Constituent](../concepts.md#Logical-Constituent)|
+|[SAF_LogicalElement](../stereotypes.md#SAF_LogicalElement)|[tbd]|[Logical Element](../concepts.md#Logical-Element)|
+|Association||[Logical Constituent](../concepts.md#Logical-Constituent)|
+|[SAF_LV02a_LogicalStructureDiagram](../stereotypes.md#SAF_LV02a_LogicalStructureDiagram)|[tbd]|[Logical Structure Viewpoint](../concepts.md#Logical-Structure-Viewpoint)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [System Functional Breakdown Viewpoint](System-Functional-Breakdown-Viewpoint.md)

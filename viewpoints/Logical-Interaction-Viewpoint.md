@@ -32,15 +32,15 @@ The Logical Interaction Viewpoint is modeled as a sequence diagram. It describes
 ## Profile Model Reference
 |Stereotype | Description|realized Concept
 |---|---|---|
-|Interaction||[Internal Logical Interaction Scenario](concepts.md#Internal-Logical-Interaction-Scenario)|
-|Property||[Logical Constituent](concepts.md#Logical-Constituent)|
-|Lifeline||[Internal Logical Scenario Participation](concepts.md#Internal-Logical-Scenario-Participation)|
-|Association||[Logical Constituent](concepts.md#Logical-Constituent)|
-|[SAF_LV04a_LogicalInternalInteractionDiagram](stereotypes.md#SAF_LV04a_LogicalInternalInteractionDiagram)|The SAF Logical Internal Interaction Diagram contains a Sequence Diagram. It documents the interaction between parts of the logical SOI.
+|Interaction||[Internal Logical Interaction Scenario](../concepts.md#Internal-Logical-Interaction-Scenario)|
+|Property||[Logical Constituent](../concepts.md#Logical-Constituent)|
+|Lifeline||[Internal Logical Scenario Participation](../concepts.md#Internal-Logical-Scenario-Participation)|
+|Association||[Logical Constituent](../concepts.md#Logical-Constituent)|
+|[SAF_LV04a_LogicalInternalInteractionDiagram](../stereotypes.md#SAF_LV04a_LogicalInternalInteractionDiagram)|The SAF Logical Internal Interaction Diagram contains a Sequence Diagram. It documents the interaction between parts of the logical SOI.
 It contains
 * Life Lines typed by parts of the logical SOI
-* Synchronous or asynchronous messages representing the sequence of interactions between the parts of the logical SOI|[Logical Interaction Viewpoint](concepts.md#Logical-Interaction-Viewpoint)|
-|Message||[Internal Logical Chronological Message](concepts.md#Internal-Logical-Chronological-Message)|
+* Synchronous or asynchronous messages representing the sequence of interactions between the parts of the logical SOI|[Logical Interaction Viewpoint](../concepts.md#Logical-Interaction-Viewpoint)|
+|Message||[Internal Logical Chronological Message](../concepts.md#Internal-Logical-Chronological-Message)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Logical Structure Viewpoint](Logical-Structure-Viewpoint.md)

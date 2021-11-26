@@ -38,14 +38,14 @@ One or more IBD featuring the logical element(s) of the SOI, and the SOI boundar
 ## Profile Model Reference
 |Stereotype | Description|realized Concept
 |---|---|---|
-|[SAF_LogicalElement](stereotypes.md#SAF_LogicalElement)|[tbd]|[Logical Element](concepts.md#Logical-Element)|
-|InterfaceBlock||[Logical Interface Specification](concepts.md#Logical-Interface-Specification)|
-|ProxyPort||[Logical Interface](concepts.md#Logical-Interface)|
-|[SAF_LV04b_LogicalInternalExchangeDiagram](stereotypes.md#SAF_LV04b_LogicalInternalExchangeDiagram)|[tbd]|[Logical Internal Exchange Viewpoint](concepts.md#Logical-Internal-Exchange-Viewpoint)|
-|Property||[applyingTO](concepts.md#applyingTO)|
-|[SAF_DomainKind](stereotypes.md#SAF_DomainKind)|[tbd]|[System Domain Kind](concepts.md#System-Domain-Kind)|
-|Connector||[Logical Interface Connection](concepts.md#Logical-Interface-Connection)|
-|ItemFlow||[Logical Item Exchange](concepts.md#Logical-Item-Exchange)|
+|[SAF_LogicalElement](../stereotypes.md#SAF_LogicalElement)|[tbd]|[Logical Element](../concepts.md#Logical-Element)|
+|InterfaceBlock||[Logical Interface Specification](../concepts.md#Logical-Interface-Specification)|
+|ProxyPort||[Logical Interface](../concepts.md#Logical-Interface)|
+|[SAF_LV04b_LogicalInternalExchangeDiagram](../stereotypes.md#SAF_LV04b_LogicalInternalExchangeDiagram)|[tbd]|[Logical Internal Exchange Viewpoint](../concepts.md#Logical-Internal-Exchange-Viewpoint)|
+|Property||[applyingTO](../concepts.md#applyingTO)|
+|[SAF_DomainKind](../stereotypes.md#SAF_DomainKind)|[tbd]|[System Domain Kind](../concepts.md#System-Domain-Kind)|
+|Connector||[Logical Interface Connection](../concepts.md#Logical-Interface-Connection)|
+|ItemFlow||[Logical Item Exchange](../concepts.md#Logical-Item-Exchange)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [System Domain Item Kind Viewpoint](System-Domain-Item-Kind-Viewpoint.md)

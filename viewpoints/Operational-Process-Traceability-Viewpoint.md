@@ -20,13 +20,13 @@ The relationship(s) of Operational Process Activity(s) to Operational Story(s) a
 ## Profile Model Reference
 |Stereotype | Description|realized Concept
 |---|---|---|
-|[SAF_OV08b_OperationalProcessTraceabilityDiagram](stereotypes.md#SAF_OV08b_OperationalProcessTraceabilityDiagram)|[tbd]|[Operational Process Traceability Viewpoint](concepts.md#Operational-Process-Traceability-Viewpoint)|
-|[SAF_OperationalProcessRefinement](stereotypes.md#SAF_OperationalProcessRefinement)|[tbd]|[refiningSTRY](concepts.md#refiningSTRY)|
-|[SAF_OperationalProcess](stereotypes.md#SAF_OperationalProcess)|[tbd]|[Operational Process](concepts.md#Operational-Process)|
-|[SAF_OperationalCapability](stereotypes.md#SAF_OperationalCapability)|[tbd]|[Operational Capability](concepts.md#Operational-Capability)|
-|[SAF_OperationalStory](stereotypes.md#SAF_OperationalStory)|[tbd]|[Operational Story](concepts.md#Operational-Story)|
-|[SAF_OperationalProcessMapping](stereotypes.md#SAF_OperationalProcessMapping)|[tbd]|[mappingTO](concepts.md#mappingTO)|
-|[SAF_OperationalPerformer](stereotypes.md#SAF_OperationalPerformer)|[tbd]|[Operational Performer](concepts.md#Operational-Performer)|
+|[SAF_OV08b_OperationalProcessTraceabilityDiagram](../stereotypes.md#SAF_OV08b_OperationalProcessTraceabilityDiagram)|[tbd]|[Operational Process Traceability Viewpoint](../concepts.md#Operational-Process-Traceability-Viewpoint)|
+|[SAF_OperationalProcessRefinement](../stereotypes.md#SAF_OperationalProcessRefinement)|[tbd]|[refiningSTRY](../concepts.md#refiningSTRY)|
+|[SAF_OperationalProcess](../stereotypes.md#SAF_OperationalProcess)|[tbd]|[Operational Process](../concepts.md#Operational-Process)|
+|[SAF_OperationalCapability](../stereotypes.md#SAF_OperationalCapability)|[tbd]|[Operational Capability](../concepts.md#Operational-Capability)|
+|[SAF_OperationalStory](../stereotypes.md#SAF_OperationalStory)|[tbd]|[Operational Story](../concepts.md#Operational-Story)|
+|[SAF_OperationalProcessMapping](../stereotypes.md#SAF_OperationalProcessMapping)|[tbd]|[mappingTO](../concepts.md#mappingTO)|
+|[SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)|[tbd]|[Operational Performer](../concepts.md#Operational-Performer)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Operational Process Viewpoint](Operational-Process-Viewpoint.md)

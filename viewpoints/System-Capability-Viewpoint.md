@@ -20,13 +20,13 @@ The result of the [tbd] process is one or more block definition diagram(s) (BDD)
 ## Profile Model Reference
 |Stereotype | Description|realized Concept
 |---|---|---|
-|[SAF_FV02b_SystemCapabilityDiagram](stereotypes.md#SAF_FV02b_SystemCapabilityDiagram)|[tbd]|[System Capability Viewpoint](concepts.md#System-Capability-Viewpoint)|
-|[SAF_SystemCapabilityGeneralization](stereotypes.md#SAF_SystemCapabilityGeneralization)|[tbd]|[specializedBY](concepts.md#specializedBY)|
-|[SAF_SystemCapabilityMapping](stereotypes.md#SAF_SystemCapabilityMapping)|[tbd]
-|[mappingTO](concepts.md#mappingTO)|
-|[SAF_SystemCapabilityComposition](stereotypes.md#SAF_SystemCapabilityComposition)|[tbd]|[composedOF](concepts.md#composedOF)|
-|[SAF_SystemCapability](stereotypes.md#SAF_SystemCapability)|[tbd]|[System Capability](concepts.md#System-Capability)|
-|[SAF_SystemCapabilityDependency](stereotypes.md#SAF_SystemCapabilityDependency)|[tbd]|[dependingON](concepts.md#dependingON)|
+|[SAF_FV02b_SystemCapabilityDiagram](../stereotypes.md#SAF_FV02b_SystemCapabilityDiagram)|[tbd]|[System Capability Viewpoint](../concepts.md#System-Capability-Viewpoint)|
+|[SAF_SystemCapabilityGeneralization](../stereotypes.md#SAF_SystemCapabilityGeneralization)|[tbd]|[specializedBY](../concepts.md#specializedBY)|
+|[SAF_SystemCapabilityMapping](../stereotypes.md#SAF_SystemCapabilityMapping)|[tbd]
+|[mappingTO](../concepts.md#mappingTO)|
+|[SAF_SystemCapabilityComposition](../stereotypes.md#SAF_SystemCapabilityComposition)|[tbd]|[composedOF](../concepts.md#composedOF)|
+|[SAF_SystemCapability](../stereotypes.md#SAF_SystemCapability)|[tbd]|[System Capability](../concepts.md#System-Capability)|
+|[SAF_SystemCapabilityDependency](../stereotypes.md#SAF_SystemCapabilityDependency)|[tbd]|[dependingON](../concepts.md#dependingON)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [System Story Viewpoint](System-Story-Viewpoint.md)

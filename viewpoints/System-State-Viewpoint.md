@@ -24,15 +24,15 @@ Note:
 ## Profile Model Reference
 |Stereotype | Description|realized Concept
 |---|---|---|
-|[SAF_LogicalElement](stereotypes.md#SAF_LogicalElement)|[tbd]|[Logical Element](concepts.md#Logical-Element)|
-|State||[State](concepts.md#State)|
-|StateMachine||[beeingINstate](concepts.md#beeingINstate)|
-|[SAF_FV03b_SystemStateMachineDiagram](stereotypes.md#SAF_FV03b_SystemStateMachineDiagram)|[tbd]|[System State Viewpoint](concepts.md#System-State-Viewpoint)|
-|[SAF_SystemFunction](stereotypes.md#SAF_SystemFunction)|[tbd]|[System Function](concepts.md#System-Function)|
-|[SAF_DomainKind](stereotypes.md#SAF_DomainKind)|[tbd]|[System Domain Kind](concepts.md#System-Domain-Kind)|
-|Transition||[State Transition](concepts.md#State-Transition)|
-|StateMachine||[beeingINstate](concepts.md#beeingINstate)|
-|Event||[Triggering Event](concepts.md#Triggering-Event)|
+|[SAF_LogicalElement](../stereotypes.md#SAF_LogicalElement)|[tbd]|[Logical Element](../concepts.md#Logical-Element)|
+|State||[State](../concepts.md#State)|
+|StateMachine||[beeingINstate](../concepts.md#beeingINstate)|
+|[SAF_FV03b_SystemStateMachineDiagram](../stereotypes.md#SAF_FV03b_SystemStateMachineDiagram)|[tbd]|[System State Viewpoint](../concepts.md#System-State-Viewpoint)|
+|[SAF_SystemFunction](../stereotypes.md#SAF_SystemFunction)|[tbd]|[System Function](../concepts.md#System-Function)|
+|[SAF_DomainKind](../stereotypes.md#SAF_DomainKind)|[tbd]|[System Domain Kind](../concepts.md#System-Domain-Kind)|
+|Transition||[State Transition](../concepts.md#State-Transition)|
+|StateMachine||[beeingINstate](../concepts.md#beeingINstate)|
+|Event||[Triggering Event](../concepts.md#Triggering-Event)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Stakeholder Requirement Viewpoint](Stakeholder-Requirement-Viewpoint.md)

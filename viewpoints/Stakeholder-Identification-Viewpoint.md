@@ -28,11 +28,11 @@ The results of the Stakeholder Analysis are identified Stakeholder(s). A Stakeho
 ## Profile Model Reference
 |Stereotype | Description|realized Concept
 |---|---|---|
-|[SAF_Stakeholder](stereotypes.md#SAF_Stakeholder)|[tbd]|[System of Interest Stakeholder](concepts.md#System-of-Interest-Stakeholder)|
-|[SAF_ContextElementCharacterization](stereotypes.md#SAF_ContextElementCharacterization)|[tbd]|[characterisedBY](concepts.md#characterisedBY)|
-|[SAF_StakeholderRelation](stereotypes.md#SAF_StakeholderRelation)|[tbd]|[relatedTO](concepts.md#relatedTO)|
-|[SAF_SystemOfInterestInvolvement](stereotypes.md#SAF_SystemOfInterestInvolvement)|[tbd]|[Stakeholder Involement Constituent](concepts.md#Stakeholder-Involement-Constituent)|
-|[SAF_SystemOfInterestConcern](stereotypes.md#SAF_SystemOfInterestConcern)|[tbd]|[System of Interest Concern](concepts.md#System-of-Interest-Concern)|
+|[SAF_Stakeholder](../stereotypes.md#SAF_Stakeholder)|[tbd]|[System of Interest Stakeholder](../concepts.md#System-of-Interest-Stakeholder)|
+|[SAF_ContextElementCharacterization](../stereotypes.md#SAF_ContextElementCharacterization)|[tbd]|[characterisedBY](../concepts.md#characterisedBY)|
+|[SAF_StakeholderRelation](../stereotypes.md#SAF_StakeholderRelation)|[tbd]|[relatedTO](../concepts.md#relatedTO)|
+|[SAF_SystemOfInterestInvolvement](../stereotypes.md#SAF_SystemOfInterestInvolvement)|[tbd]|[Stakeholder Involement Constituent](../concepts.md#Stakeholder-Involement-Constituent)|
+|[SAF_SystemOfInterestConcern](../stereotypes.md#SAF_SystemOfInterestConcern)|[tbd]|[System of Interest Concern](../concepts.md#System-of-Interest-Concern)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

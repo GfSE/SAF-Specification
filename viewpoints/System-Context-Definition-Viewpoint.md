@@ -30,16 +30,16 @@ A BDD featuring the following elements
 ## Profile Model Reference
 |Stereotype | Description|realized Concept
 |---|---|---|
-|Association||[Logical SOI Constituent](concepts.md#Logical-SOI-Constituent)|
-|[SAF_LogicalRole](stereotypes.md#SAF_LogicalRole)|[tbd]|[Logical Context Constituent](concepts.md#Logical-Context-Constituent)|
-|[SAF_LogicalSOI](stereotypes.md#SAF_LogicalSOI)|[tbd]|[Logical SOI](concepts.md#Logical-SOI)|
-|[SAF_LogicalExternalSystem](stereotypes.md#SAF_LogicalExternalSystem)|[tbd]|[Logical External System](concepts.md#Logical-External-System)|
-|[SAF_LogicalRole](stereotypes.md#SAF_LogicalRole)|[tbd]|[Logical SOI Constituent](concepts.md#Logical-SOI-Constituent)|
-|[SAF_LogicalEnvironment](stereotypes.md#SAF_LogicalEnvironment)|[tbd]|[Logical Environment](concepts.md#Logical-Environment)|
-|Association||[Logical Context Constituent](concepts.md#Logical-Context-Constituent)|
-|[SAF_LogicalContext](stereotypes.md#SAF_LogicalContext)|[tbd]|[Logical System Context](concepts.md#Logical-System-Context)|
-|[SAF_FV01b_SystemContextDefinitionDiagram](stereotypes.md#SAF_FV01b_SystemContextDefinitionDiagram)|[tbd]|[System Context Definition Viewpoint](concepts.md#System-Context-Definition-Viewpoint)|
-|[SAF_LogicalUser](stereotypes.md#SAF_LogicalUser)|[tbd]|[Logical User](concepts.md#Logical-User)|
+|Association||[Logical SOI Constituent](../concepts.md#Logical-SOI-Constituent)|
+|[SAF_LogicalRole](../stereotypes.md#SAF_LogicalRole)|[tbd]|[Logical Context Constituent](../concepts.md#Logical-Context-Constituent)|
+|[SAF_LogicalSOI](../stereotypes.md#SAF_LogicalSOI)|[tbd]|[Logical SOI](../concepts.md#Logical-SOI)|
+|[SAF_LogicalExternalSystem](../stereotypes.md#SAF_LogicalExternalSystem)|[tbd]|[Logical External System](../concepts.md#Logical-External-System)|
+|[SAF_LogicalRole](../stereotypes.md#SAF_LogicalRole)|[tbd]|[Logical SOI Constituent](../concepts.md#Logical-SOI-Constituent)|
+|[SAF_LogicalEnvironment](../stereotypes.md#SAF_LogicalEnvironment)|[tbd]|[Logical Environment](../concepts.md#Logical-Environment)|
+|Association||[Logical Context Constituent](../concepts.md#Logical-Context-Constituent)|
+|[SAF_LogicalContext](../stereotypes.md#SAF_LogicalContext)|[tbd]|[Logical System Context](../concepts.md#Logical-System-Context)|
+|[SAF_FV01b_SystemContextDefinitionDiagram](../stereotypes.md#SAF_FV01b_SystemContextDefinitionDiagram)|[tbd]|[System Context Definition Viewpoint](../concepts.md#System-Context-Definition-Viewpoint)|
+|[SAF_LogicalUser](../stereotypes.md#SAF_LogicalUser)|[tbd]|[Logical User](../concepts.md#Logical-User)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [System Story Viewpoint](System-Story-Viewpoint.md)
