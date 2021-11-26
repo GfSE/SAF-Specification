@@ -92,25 +92,25 @@ General part of a logical System Context
 ## Logical Context Element
 Abstract element of a System Context in the Logical Domain, outside the SOI scope, interacting with the SOI.
 ## Logical Element
-exposed in viewpoint [Logical Structure Viewpoint](viewpoints/Logical-Structure-Viewpoint.md)
-
 exposed in viewpoint [Logical Internal Exchange Viewpoint](viewpoints/Logical-Internal-Exchange-Viewpoint.md)
+
+exposed in viewpoint [Logical Structure Viewpoint](viewpoints/Logical-Structure-Viewpoint.md)
 
 realized by Stereotype [SAF_LogicalElement](stereotypes.md#SAF_LogicalElement)
 
 Describes a logical, conceptual system as specification for an implementation of a system, or system part.
 ## Logical Environment
-exposed in viewpoint [System Story Viewpoint](viewpoints/System-Story-Viewpoint.md)
-
 exposed in viewpoint [System Context Definition Viewpoint](viewpoints/System-Context-Definition-Viewpoint.md)
+
+exposed in viewpoint [System Story Viewpoint](viewpoints/System-Story-Viewpoint.md)
 
 realized by Stereotype [SAF_LogicalEnvironment](stereotypes.md#SAF_LogicalEnvironment)
 
 The Environmental Element in the Logical Domain, outside the SOI scope, interacting with the SOI. E.g. air, dirt, sun, road.
 ## Logical External System
-exposed in viewpoint [System Story Viewpoint](viewpoints/System-Story-Viewpoint.md)
-
 exposed in viewpoint [System Context Definition Viewpoint](viewpoints/System-Context-Definition-Viewpoint.md)
+
+exposed in viewpoint [System Story Viewpoint](viewpoints/System-Story-Viewpoint.md)
 
 realized by Stereotype [SAF_LogicalExternalSystem](stereotypes.md#SAF_LogicalExternalSystem)
 
@@ -122,9 +122,9 @@ realized by Metaclass Interaction
 
 Ordered sequence of exchanges of information, energy or material between Scenario Participants.
 ## Logical Interface
-exposed in viewpoint [System Context Exchange Viewpoint](viewpoints/System-Context-Exchange-Viewpoint.md)
-
 exposed in viewpoint [Logical Internal Exchange Viewpoint](viewpoints/Logical-Internal-Exchange-Viewpoint.md)
+
+exposed in viewpoint [System Context Exchange Viewpoint](viewpoints/System-Context-Exchange-Viewpoint.md)
 
 exposed in viewpoint [System Requirement Traceability Viewpoint](viewpoints/System-Requirement-Traceability-Viewpoint.md)
 
@@ -136,17 +136,17 @@ realized by Stereotype FlowProperty
 
 Specifies a detail of an interaction point on Logical level.
 ## Logical Interface Specification
-exposed in viewpoint [System Context Exchange Viewpoint](viewpoints/System-Context-Exchange-Viewpoint.md)
-
 exposed in viewpoint [Logical Internal Exchange Viewpoint](viewpoints/Logical-Internal-Exchange-Viewpoint.md)
+
+exposed in viewpoint [System Context Exchange Viewpoint](viewpoints/System-Context-Exchange-Viewpoint.md)
 
 realized by Stereotype InterfaceBlock
 
 Specifies a certain kind of an interaction point (interface) on Logical level.
 ## Logical Item Exchange
-exposed in viewpoint [System Context Exchange Viewpoint](viewpoints/System-Context-Exchange-Viewpoint.md)
-
 exposed in viewpoint [Logical Internal Exchange Viewpoint](viewpoints/Logical-Internal-Exchange-Viewpoint.md)
+
+exposed in viewpoint [System Context Exchange Viewpoint](viewpoints/System-Context-Exchange-Viewpoint.md)
 
 realized by Stereotype ItemFlow
 
@@ -160,17 +160,17 @@ realized by Stereotype [SAF_LogicalSOI](stereotypes.md#SAF_LogicalSOI)
 
 Represents the SOI in the Logical Domain.
 ## Logical System Context
-exposed in viewpoint [System Context Exchange Viewpoint](viewpoints/System-Context-Exchange-Viewpoint.md)
-
 exposed in viewpoint [System Context Definition Viewpoint](viewpoints/System-Context-Definition-Viewpoint.md)
+
+exposed in viewpoint [System Context Exchange Viewpoint](viewpoints/System-Context-Exchange-Viewpoint.md)
 
 realized by Stereotype [SAF_LogicalContext](stereotypes.md#SAF_LogicalContext)
 
 Defines a context for a System of Interest on Logical level.
 ## Logical User
-exposed in viewpoint [System Story Viewpoint](viewpoints/System-Story-Viewpoint.md)
-
 exposed in viewpoint [System Context Definition Viewpoint](viewpoints/System-Context-Definition-Viewpoint.md)
+
+exposed in viewpoint [System Story Viewpoint](viewpoints/System-Story-Viewpoint.md)
 
 realized by Stereotype [SAF_LogicalUser](stereotypes.md#SAF_LogicalUser)
 
@@ -187,11 +187,11 @@ realized by Stereotype [SAF_SystemNonFunctionalRequirement](stereotypes.md#SAF_S
 
 Specifies the fact that [tbd]
 ## Operational Capability
+exposed in viewpoint [Operational Capability Traceability Viewpoint](viewpoints/Operational-Capability-Traceability-Viewpoint.md)
+
 exposed in viewpoint [Operational Capability Viewpoint](viewpoints/Operational-Capability-Viewpoint.md)
 
 exposed in viewpoint [Operational Process Traceability Viewpoint](viewpoints/Operational-Process-Traceability-Viewpoint.md)
-
-exposed in viewpoint [Operational Capability Traceability Viewpoint](viewpoints/Operational-Capability-Traceability-Viewpoint.md)
 
 exposed in viewpoint [System Capability Viewpoint](viewpoints/System-Capability-Viewpoint.md)
 
@@ -216,9 +216,9 @@ UAF::HighLevelOperationalConcept
 ## Operational Domain Kind
 exposed in viewpoint [Operational Context Exchange Viewpoint](viewpoints/Operational-Context-Exchange-Viewpoint.md)
 
-exposed in viewpoint [Operational Process Viewpoint](viewpoints/Operational-Process-Viewpoint.md)
-
 exposed in viewpoint [Operational Domain Item Kind Viewpoint](viewpoints/Operational-Domain-Item-Kind-Viewpoint.md)
+
+exposed in viewpoint [Operational Process Viewpoint](viewpoints/Operational-Process-Viewpoint.md)
 
 realized by Stereotype [SAF_OperationalDomainKind](stereotypes.md#SAF_OperationalDomainKind)
 
@@ -239,17 +239,17 @@ Exchange between Operational Context Constituents over an Operational Connection
 Aliases:
 UAF::OperationalExchange
 ## Operational Performer
-exposed in viewpoint [Operational Story Viewpoint](viewpoints/Operational-Story-Viewpoint.md)
+exposed in viewpoint [Operational Capability Traceability Viewpoint](viewpoints/Operational-Capability-Traceability-Viewpoint.md)
 
 exposed in viewpoint [Operational Context Definition Viewpoint](viewpoints/Operational-Context-Definition-Viewpoint.md)
 
 exposed in viewpoint [Operational Performer Viewpoint](viewpoints/Operational-Performer-Viewpoint.md)
 
+exposed in viewpoint [Operational Process Traceability Viewpoint](viewpoints/Operational-Process-Traceability-Viewpoint.md)
+
 exposed in viewpoint [Operational Process Viewpoint](viewpoints/Operational-Process-Viewpoint.md)
 
-exposed in viewpoint [Operational Capability Traceability Viewpoint](viewpoints/Operational-Capability-Traceability-Viewpoint.md)
-
-exposed in viewpoint [Operational Process Traceability Viewpoint](viewpoints/Operational-Process-Traceability-Viewpoint.md)
+exposed in viewpoint [Operational Story Viewpoint](viewpoints/Operational-Story-Viewpoint.md)
 
 realized by Stereotype [SAF_OperationalPerformer](stereotypes.md#SAF_OperationalPerformer)
 
@@ -258,11 +258,11 @@ An Operational Performer is an element of the Operational Context that is capabl
 Aliases:
 UAF::OperationalPerformer
 ## Operational Process
+exposed in viewpoint [Operational Capability Traceability Viewpoint](viewpoints/Operational-Capability-Traceability-Viewpoint.md)
+
 exposed in viewpoint [Operational Process Traceability Viewpoint](viewpoints/Operational-Process-Traceability-Viewpoint.md)
 
 exposed in viewpoint [Operational Process Viewpoint](viewpoints/Operational-Process-Viewpoint.md)
-
-exposed in viewpoint [Operational Capability Traceability Viewpoint](viewpoints/Operational-Capability-Traceability-Viewpoint.md)
 
 realized by Stereotype [SAF_OperationalProcess](stereotypes.md#SAF_OperationalProcess)
 
@@ -278,11 +278,11 @@ realized by Stereotype [SAF_OperationalSketch](stereotypes.md#SAF_OperationalSke
 
 A free form sketch depicting a concept.
 ## Operational Story
-exposed in viewpoint [Operational Story Viewpoint](viewpoints/Operational-Story-Viewpoint.md)
+exposed in viewpoint [Operational Capability Traceability Viewpoint](viewpoints/Operational-Capability-Traceability-Viewpoint.md)
 
 exposed in viewpoint [Operational Process Traceability Viewpoint](viewpoints/Operational-Process-Traceability-Viewpoint.md)
 
-exposed in viewpoint [Operational Capability Traceability Viewpoint](viewpoints/Operational-Capability-Traceability-Viewpoint.md)
+exposed in viewpoint [Operational Story Viewpoint](viewpoints/Operational-Story-Viewpoint.md)
 
 exposed in viewpoint [Stakeholder Requirement Viewpoint](viewpoints/Stakeholder-Requirement-Viewpoint.md)
 
@@ -398,9 +398,9 @@ Pure Software Element(s) (under own design). Similarity to the V-Model "software
 ## Stakeholder Requirement
 exposed in viewpoint [Stakeholder Requirement Viewpoint](viewpoints/Stakeholder-Requirement-Viewpoint.md)
 
-exposed in viewpoint [System Requirement Viewpoint](viewpoints/System-Requirement-Viewpoint.md)
-
 exposed in viewpoint [System Requirement Traceability Viewpoint](viewpoints/System-Requirement-Traceability-Viewpoint.md)
+
+exposed in viewpoint [System Requirement Viewpoint](viewpoints/System-Requirement-Viewpoint.md)
 
 realized by Stereotype [SAF_StakeholderRequirement](stereotypes.md#SAF_StakeholderRequirement)
 
@@ -439,9 +439,9 @@ realized by Stereotype [SAF_DomainKind](stereotypes.md#SAF_DomainKind)
 
 Specification for any kind of exchange on Functional, and Logical level, focus on what kind of information is exchanged (information, material, energy).The Domain Item Kind is agnostic to any Physical realization.
 ## System Function
-exposed in viewpoint [System Process Viewpoint](viewpoints/System-Process-Viewpoint.md)
-
 exposed in viewpoint [System Functional Breakdown Viewpoint](viewpoints/System-Functional-Breakdown-Viewpoint.md)
+
+exposed in viewpoint [System Process Viewpoint](viewpoints/System-Process-Viewpoint.md)
 
 exposed in viewpoint [System Requirement Traceability Viewpoint](viewpoints/System-Requirement-Traceability-Viewpoint.md)
 
@@ -462,17 +462,17 @@ realized by Stereotype [SAF_SystemProcess](stereotypes.md#SAF_SystemProcess)
 
 Refines a system story into a sequence of Action(s) or Task(s) carried out by the SoI or an External Entity.
 ## System Requirement
-exposed in viewpoint [System Requirement Viewpoint](viewpoints/System-Requirement-Viewpoint.md)
-
 exposed in viewpoint [System Requirement Traceability Viewpoint](viewpoints/System-Requirement-Traceability-Viewpoint.md)
+
+exposed in viewpoint [System Requirement Viewpoint](viewpoints/System-Requirement-Viewpoint.md)
 
 realized by Stereotype [SAF_SystemRequirement](stereotypes.md#SAF_SystemRequirement)
 
 Specifies the fact that [tbd]
 ## System Story
-exposed in viewpoint [System Story Viewpoint](viewpoints/System-Story-Viewpoint.md)
-
 exposed in viewpoint [System Requirement Traceability Viewpoint](viewpoints/System-Requirement-Traceability-Viewpoint.md)
+
+exposed in viewpoint [System Story Viewpoint](viewpoints/System-Story-Viewpoint.md)
 
 realized by Stereotype [SAF_SystemStory](stereotypes.md#SAF_SystemStory)
 
@@ -487,9 +487,9 @@ realized by Stereotype [SAF_SystemOfInterestConcern](stereotypes.md#SAF_SystemOf
 Any kind of interest a Stakeholder has. 
 Noe: Redundant with the meaning of "Need"?
 ## System of Interest Stakeholder
-exposed in viewpoint [Stakeholder Identification Viewpoint](viewpoints/Stakeholder-Identification-Viewpoint.md)
-
 exposed in viewpoint [Operational Performer Viewpoint](viewpoints/Operational-Performer-Viewpoint.md)
+
+exposed in viewpoint [Stakeholder Identification Viewpoint](viewpoints/Stakeholder-Identification-Viewpoint.md)
 
 exposed in viewpoint [Stakeholder Requirement Viewpoint](viewpoints/Stakeholder-Requirement-Viewpoint.md)
 
@@ -589,9 +589,9 @@ Specifies the fact that a Physical Interface applies to a Physical Item.
 ## applyingTO
 0..* [Logical Interface](#Logical-Interface) applyingTO 1 [Logical Element](#Logical-Element) 
 
-exposed in viewpoint [System Context Exchange Viewpoint](viewpoints/System-Context-Exchange-Viewpoint.md)
-
 exposed in viewpoint [Logical Internal Exchange Viewpoint](viewpoints/Logical-Internal-Exchange-Viewpoint.md)
+
+exposed in viewpoint [System Context Exchange Viewpoint](viewpoints/System-Context-Exchange-Viewpoint.md)
 
 realized by Metaclass Property
 
@@ -625,9 +625,9 @@ Specifies the fact that a functional Flow appears within the usage of a function
 ## boundedBY
 0..* [Functional Requirement](#Functional-Requirement) boundedBY 0..* [Nonfunctional Requirement](#Nonfunctional-Requirement) 
 
-exposed in viewpoint [System Requirement Viewpoint](viewpoints/System-Requirement-Viewpoint.md)
-
 exposed in viewpoint [System Requirement Traceability Viewpoint](viewpoints/System-Requirement-Traceability-Viewpoint.md)
+
+exposed in viewpoint [System Requirement Viewpoint](viewpoints/System-Requirement-Viewpoint.md)
 
 realized by Stereotype [SAF_SystemFunctionalRequirementConstraint](stereotypes.md#SAF_SystemFunctionalRequirementConstraint)
 
@@ -668,9 +668,9 @@ Specifies the fact that an Operational Performer consists of one or more Operati
 ## composedOF
 1 [Operational Capability](#Operational-Capability) composedOF 0..* [Operational Capability](#Operational-Capability) 
 
-exposed in viewpoint [Operational Capability Viewpoint](viewpoints/Operational-Capability-Viewpoint.md)
-
 exposed in viewpoint [Operational Capability Traceability Viewpoint](viewpoints/Operational-Capability-Traceability-Viewpoint.md)
+
+exposed in viewpoint [Operational Capability Viewpoint](viewpoints/Operational-Capability-Viewpoint.md)
 
 realized by Stereotype [SAF_OperationalCapabilityComposition](stereotypes.md#SAF_OperationalCapabilityComposition)
 
@@ -778,9 +778,9 @@ Specifies an ordering of execution of Function(s).
 ## dependingON
 0..* [Operational Capability](#Operational-Capability) dependingON 0..* [Operational Capability](#Operational-Capability) 
 
-exposed in viewpoint [Operational Capability Viewpoint](viewpoints/Operational-Capability-Viewpoint.md)
-
 exposed in viewpoint [Operational Capability Traceability Viewpoint](viewpoints/Operational-Capability-Traceability-Viewpoint.md)
+
+exposed in viewpoint [Operational Capability Viewpoint](viewpoints/Operational-Capability-Viewpoint.md)
 
 realized by Stereotype [SAF_OperationalCapabilityDependency](stereotypes.md#SAF_OperationalCapabilityDependency)
 
@@ -808,9 +808,9 @@ Specifies the fact that (a subset of) a Capability is derived into Stakeholder R
 ## derivingREQ
 0..* [System Requirement](#System-Requirement) derivingREQ 0..* [Stakeholder Requirement](#Stakeholder-Requirement) 
 
-exposed in viewpoint [System Requirement Viewpoint](viewpoints/System-Requirement-Viewpoint.md)
-
 exposed in viewpoint [System Requirement Traceability Viewpoint](viewpoints/System-Requirement-Traceability-Viewpoint.md)
+
+exposed in viewpoint [System Requirement Viewpoint](viewpoints/System-Requirement-Viewpoint.md)
 
 realized by Stereotype [SAF_SystemRequirementDerivation](stereotypes.md#SAF_SystemRequirementDerivation)
 
@@ -878,9 +878,9 @@ Specifies the fact that [tbd]
 ## mappingTO
 0..* [Operational Process](#Operational-Process) mappingTO 0..* [Operational Capability](#Operational-Capability) 
 
-exposed in viewpoint [Operational Process Traceability Viewpoint](viewpoints/Operational-Process-Traceability-Viewpoint.md)
-
 exposed in viewpoint [Operational Capability Traceability Viewpoint](viewpoints/Operational-Capability-Traceability-Viewpoint.md)
+
+exposed in viewpoint [Operational Process Traceability Viewpoint](viewpoints/Operational-Process-Traceability-Viewpoint.md)
 
 realized by Stereotype [SAF_OperationalProcessMapping](stereotypes.md#SAF_OperationalProcessMapping)
 
@@ -905,9 +905,9 @@ Specifies the fact that the Function is only provided in distinct State(s). The 
 ## performingContextTSK
 0..* [Logical Context Constituent](#Logical-Context-Constituent) performingContextTSK 0..* [Functional Usage](#Functional-Usage) 
 
-exposed in viewpoint [System Process Viewpoint](viewpoints/System-Process-Viewpoint.md)
-
 exposed in viewpoint [System Function Black Box Allocation Viewpoint](viewpoints/System-Function-Black-Box-Allocation-Viewpoint.md)
+
+exposed in viewpoint [System Process Viewpoint](viewpoints/System-Process-Viewpoint.md)
 
 realized by Stereotype Allocate
 
@@ -915,9 +915,9 @@ Defines, that the External Function is expected to carried out by the Logical Co
 ## performingSystemTSK
 1..* [Logical SOI Constituent](#Logical-SOI-Constituent) performingSystemTSK 1..* [Functional Usage](#Functional-Usage) 
 
-exposed in viewpoint [System Process Viewpoint](viewpoints/System-Process-Viewpoint.md)
-
 exposed in viewpoint [System Function Black Box Allocation Viewpoint](viewpoints/System-Function-Black-Box-Allocation-Viewpoint.md)
+
+exposed in viewpoint [System Process Viewpoint](viewpoints/System-Process-Viewpoint.md)
 
 realized by Stereotype Allocate
 
@@ -1046,9 +1046,9 @@ Defines the output(s) of a Function.
 ## specializedBY
 1 [Operational Capability](#Operational-Capability) specializedBY 0..* [Operational Capability](#Operational-Capability) 
 
-exposed in viewpoint [Operational Capability Viewpoint](viewpoints/Operational-Capability-Viewpoint.md)
-
 exposed in viewpoint [Operational Capability Traceability Viewpoint](viewpoints/Operational-Capability-Traceability-Viewpoint.md)
+
+exposed in viewpoint [Operational Capability Viewpoint](viewpoints/Operational-Capability-Viewpoint.md)
 
 realized by Stereotype [SAF_OperationalCapabilityGeneralization](stereotypes.md#SAF_OperationalCapabilityGeneralization)
 
