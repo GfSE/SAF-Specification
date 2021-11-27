@@ -1,9 +1,8 @@
 # The SAF Specification
-**for now this is a proof of concept to validate the generation of markdown**
+**aim: proof of concept to validate the generation of markdown**
+**repository status: private**
 
-**thats the reason for making the repository private**
-
-This is done, but needs polishing
+Partly done
 * conceptual model
 * stereotypes
 * stakeholders
@@ -37,6 +36,7 @@ To be done
 
 # Stakeholders
 [Stakeholders](stakeholders.md)
+
 # Conceptual Model
 [Concepts](concepts.md)
 
