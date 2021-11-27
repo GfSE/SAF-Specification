@@ -4,12 +4,12 @@
 **repository status: private**
 
 Partly done
+* viewpoints
 * conceptual model
 * stereotypes
 * stakeholders
 
-To be done 
-* viewpoints
+To be done
 * domain documentation
 * concept area diagrams
 * concerns by categories
