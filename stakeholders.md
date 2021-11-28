@@ -1,3 +1,5 @@
+<div style="text-align: right; font-family: courier; color:gray;font-size: 50%">SAF_Cameo_Profile#343</div>
+
 # Acquirer
 Definition - Acquirer:
 stakeholder that acquires or procures a product or service from a supplier, [ISO/IEC 15288:2015 - Systems engineering - System life-cycle processes]
