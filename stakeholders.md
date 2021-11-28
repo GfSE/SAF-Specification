@@ -1,4 +1,4 @@
-<div style="text-align: right; font-family: courier; color:gray;font-size: 50%">SAF_Cameo_Profile#343</div>
+<div align="right">SAF_Cameo_Profile#343</div>
 
 # Acquirer
 Definition - Acquirer:

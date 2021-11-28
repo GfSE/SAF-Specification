@@ -1,4 +1,4 @@
-<div style="text-align: right; font-family: courier; color:gray;font-size: 50%">SAF_FFDS#244,SAF_Cameo_Profile#343</div>
+<div align="right">SAF_FFDS#244,SAF_Cameo_Profile#343</div>
 
 # Physical Context Definition Viewpoint
 *Domain:* **Physical** *Aspect:* **Context**
