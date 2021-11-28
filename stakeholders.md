@@ -1,5 +1,12 @@
 <div align="right">SAF_Cameo_Profile#343</div>
 
+![SAF_Stakeholder_Definition](diagrams/SAF_stakeholder_definition.svg)
+This section provides a list of the Stakeholder roles considered in the development of the architecture described by SAF. For each, the section lists the concerns that the Stakeholder has that can be addressed by the information in this SAF framework.
+Each Stakeholder of a system - customer, user, project manager, coder, analyst, tester, and so on - is concerned with different characteristics of the system that are affected by its architecture. For example, the user is concerned that the system is reliable and available when needed; the customer is concerned that the architecture can be implemented on schedule and to budget; the manager is worried (in addition to cost and schedule) that the architecture will allow teams to work largely independently, interacting in disciplined and controlled ways. The system architect is worried about strategies to achieve all of those goals. The security analyst is concerned that the system will meet its information assurance requirements, and the performance analyst is similarly concerned with it satisfying real-time deadlines.
+
+
+The following subchapters describe the stakeholders and their concerns:
+
 # Acquirer
 Definition - Acquirer:
 stakeholder that acquires or procures a product or service from a supplier, [ISO/IEC 15288:2015 - Systems engineering - System life-cycle processes]
