@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#244,SAF_Cameo_Profile#343</div>
+<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#345</div>
 
 # Operational Process Viewpoint
 *Domain:* **Operational** *Aspect:* **Behavior**
@@ -28,7 +28,7 @@ Note: Operational Process Activity(s) are assigned to Operational Role(s) and th
 |InputPin||[TO](../concepts.md#TO)|
 |ObjectFlow||[Operational Process Exchange](../concepts.md#Operational-Process-Exchange)|
 |OutputPin||[FROM](../concepts.md#FROM)|
-|[SAF_OperationalProcessAction](../stereotypes.md#SAF_OperationalProcessAction)|[tbd]|[Operational Usage](../concepts.md#Operational-Usage)|
+|[SAF_OperationalProcessAction](../stereotypes.md#SAF_OperationalProcessAction)|[tbd]|[Operational Process Usage](../concepts.md#Operational-Process-Usage)|
 |ControlFlow||[controlledAFTER](../concepts.md#controlledAFTER)|
 |[SAF_OV03a_OperationalProcessDiagram](../stereotypes.md#SAF_OV03a_OperationalProcessDiagram)|[tbd]|[Operational Process Viewpoint](../concepts.md#Operational-Process-Viewpoint)|
 |[SAF_OperationalProcess](../stereotypes.md#SAF_OperationalProcess)|[tbd]|[Operational Process](../concepts.md#Operational-Process)|

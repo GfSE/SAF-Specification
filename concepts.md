@@ -1,4 +1,4 @@
-<div align="right">SAF_Cameo_Profile#343</div>
+<div align="right">SAF_Cameo_Profile#345</div>
 
 # Class Concepts
 ## Abstract Concept
@@ -508,16 +508,268 @@ realized by Metaclass Event
 Representation for a human in the Logical Domain, outside the SOI scope, interacting with the SOI.
 Note: This seems to be highly redundant with definition "Role".
 # Association Concepts
-## FROM
-1 [Functional Flow](#Functional-Flow) FROM 1 [Functional Parameter](#Functional-Parameter) 
+## FFfromFP
+1 [Functional Flow](#Functional-Flow) FFfromFP 1 [Functional Parameter](#Functional-Parameter) 
 
 realized by Metaclass OutputPin
 
 Specifies the fact that a Functional Flow comes from a Functional Parameter
+## FFtoFP
+1 [Functional Flow](#Functional-Flow) FFtoFP 1 [Functional Parameter](#Functional-Parameter) 
+
+realized by Metaclass InputPin
+
+Specifies the fact that a Functional Flow goes to a Functional Parameter
+## FRboundedBY
+0..* [Functional Requirement](#Functional-Requirement) FRboundedBY 0..* [Nonfunctional Requirement](#Nonfunctional-Requirement) 
+
+exposed in viewpoint [System Requirement Traceability Viewpoint](viewpoints/System-Requirement-Traceability-Viewpoint.md)
+
+exposed in viewpoint [System Requirement Viewpoint](viewpoints/System-Requirement-Viewpoint.md)
+
+realized by Stereotype [SAF_SystemFunctionalRequirementConstraint](stereotypes.md#SAF_SystemFunctionalRequirementConstraint)
+
+Specifies the fact that a Nonfunctional Requirement constrains a Functional Requirement.
+## FRrefiningSFC
+1..* [Functional Requirement](#Functional-Requirement) FRrefiningSFC 1 [System Function](#System-Function) 
+
+exposed in viewpoint [System Requirement Traceability Viewpoint](viewpoints/System-Requirement-Traceability-Viewpoint.md)
+
+realized by Stereotype [SAF_SystemFunctionalRequirementRefinement](stereotypes.md#SAF_SystemFunctionalRequirementRefinement)
+
+Specifies the fact that an Functional Activity is refined by an Functional Requirement.
 ## FSCcontributingTO
 0..* [System Process](#System-Process) FSCcontributingTO 0..1 [Operational Process](#Operational-Process) 
 
 Specifies the fact that an Operational Process is realized by a System Function, a Functional Activity.
+## ILIScontainingILCM
+1 [Internal Logical Interaction Scenario](#Internal-Logical-Interaction-Scenario) ILIScontainingILCM 0..* [Internal Logical Chronological Message](#Internal-Logical-Chronological-Message) 
+
+Specifies, that Internal Logical Interaction Scenario contains a Internal Logical Chronological Message
+## LESconceptingPES
+1..* [Logical External System](#Logical-External-System) LESconceptingPES 1..* [Physical External System](#Physical-External-System) 
+
+Specifies that the Logical System is a concept for a Physical System.
+## LEactingInSSTRY
+1..* [Logical Context Element](#Logical-Context-Element) LEactingInSSTRY 1..* [System Story](#System-Story) 
+
+exposed in viewpoint [System Story Viewpoint](viewpoints/System-Story-Viewpoint.md)
+
+realized by Stereotype [SAF_LogicalContextElementActing](stereotypes.md#SAF_LogicalContextElementActing)
+
+Specifies the fact that one or more Logical Context Elements act in one or more System stories.
+## LEbeeingINstate
+0..* [Logical Element](#Logical-Element) LEbeeingINstate 0..* [State](#State) 
+
+exposed in viewpoint [System State Viewpoint](viewpoints/System-State-Viewpoint.md)
+
+realized by Metaclass StateMachine
+
+Specifies the fact that a Logical Element can be in one distinct State(s).
+## LEconceptingPE
+1..* [Logical Environment](#Logical-Environment) LEconceptingPE 1..* [Physical Environment](#Physical-Environment) 
+
+Specifies the fact that a logical Environment Entity is a concept for a Physical Environment Entity.
+## LICallowingLIE
+1 [Logical Interface Connection](#Logical-Interface-Connection) LICallowingLIE 0..* [Logical Item Exchange](#Logical-Item-Exchange) 
+
+Specifies the fact that a Logical Item Exchange is allowed on the Connection of Logical Interfaces.
+## LIPspecifyingDetailOfLIS
+1..* [Logical Interface Property](#Logical-Interface-Property) LIPspecifyingDetailOfLIS 1 [Logical Interface Specification](#Logical-Interface-Specification) 
+
+Specifies the fact that a Logical Interface Property is a detail of a Logical Interface Specification.
+## LIScontainingLCM
+1 [Logical Interaction Scenario](#Logical-Interaction-Scenario) LIScontainingLCM 0..* [Logical Chronological Message](#Logical-Chronological-Message) 
+
+Specifies, that  Logical Interaction Scenario contains a Logical Chronological Message
+## LISspecifyingDetailOdLI
+1 [Logical Interface Specification](#Logical-Interface-Specification) LISspecifyingDetailOdLI 0..* [Logical Interface](#Logical-Interface) 
+
+Specifies the fact that a Logical Interface Specification is a detail of a Logical Interface.
+## LIapplyingToLE
+0..* [Logical Interface](#Logical-Interface) LIapplyingToLE 1 [Logical Element](#Logical-Element) 
+
+exposed in viewpoint [Logical Internal Exchange Viewpoint](viewpoints/Logical-Internal-Exchange-Viewpoint.md)
+
+exposed in viewpoint [System Context Exchange Viewpoint](viewpoints/System-Context-Exchange-Viewpoint.md)
+
+realized by Metaclass Property
+
+realized by Metaclass Property
+
+Specifies the fact that a Logical Interface applies to a Logical System Element.
+## LUconceptingPU
+1..* [Logical User](#Logical-User) LUconceptingPU 1..* [Physical User](#Physical-User) 
+
+Specifies that the Logical user is a concept for a Physical User.
+## OCallowingOIE
+1 [Operational Connection](#Operational-Connection) OCallowingOIE 0..* [Operational Item Exchange](#Operational-Item-Exchange) 
+
+realized by Stereotype ItemFlow
+
+Specifies the fact that an Operational Exchange takes place over a certain Operational Connection.
+## OCcomposedOF
+1 [Operational Capability](#Operational-Capability) OCcomposedOF 0..* [Operational Capability](#Operational-Capability) 
+
+exposed in viewpoint [Operational Capability Traceability Viewpoint](viewpoints/Operational-Capability-Traceability-Viewpoint.md)
+
+exposed in viewpoint [Operational Capability Viewpoint](viewpoints/Operational-Capability-Viewpoint.md)
+
+realized by Stereotype [SAF_OperationalCapabilityComposition](stereotypes.md#SAF_OperationalCapabilityComposition)
+
+Specifies the fact that an Operational Capability consists of a sub Operational Capability(s).
+## OCdependingON
+0..* [Operational Capability](#Operational-Capability) OCdependingON 0..* [Operational Capability](#Operational-Capability) 
+
+exposed in viewpoint [Operational Capability Traceability Viewpoint](viewpoints/Operational-Capability-Traceability-Viewpoint.md)
+
+exposed in viewpoint [Operational Capability Viewpoint](viewpoints/Operational-Capability-Viewpoint.md)
+
+realized by Stereotype [SAF_OperationalCapabilityDependency](stereotypes.md#SAF_OperationalCapabilityDependency)
+
+Specifies the fact that an Operational Capability requires another Operational Capability(s).
+## OCspecializedBY
+1 [Operational Capability](#Operational-Capability) OCspecializedBY 0..* [Operational Capability](#Operational-Capability) 
+
+exposed in viewpoint [Operational Capability Traceability Viewpoint](viewpoints/Operational-Capability-Traceability-Viewpoint.md)
+
+exposed in viewpoint [Operational Capability Viewpoint](viewpoints/Operational-Capability-Viewpoint.md)
+
+realized by Stereotype [SAF_OperationalCapabilityGeneralization](stereotypes.md#SAF_OperationalCapabilityGeneralization)
+
+Specifies the fact that an Operational Capability is specialized by another Operational Capability(s).
+## OCsupportingOPSTRY
+0..* [Operational Capability](#Operational-Capability) OCsupportingOPSTRY 0..* [Operational Story](#Operational-Story) 
+
+exposed in viewpoint [Operational Capability Traceability Viewpoint](viewpoints/Operational-Capability-Traceability-Viewpoint.md)
+
+realized by Stereotype [SAF_OperationalCapabilitySupport](stereotypes.md#SAF_OperationalCapabilitySupport)
+
+Specifies the fact that an Operational Story is supported by a Operational Capability(s).
+## ODKtypifyingOIE
+1 [Operational Domain Kind](#Operational-Domain-Kind) ODKtypifyingOIE 1..* [Operational Item Exchange](#Operational-Item-Exchange) 
+
+Specifies the fact that an operational domain kind typifies an operational item exchange
+## OIScontainingOCM
+1 [Operational Interaction Scenario](#Operational-Interaction-Scenario) OIScontainingOCM 0..* [Operational Chronological Message](#Operational-Chronological-Message) 
+
+
+## OPSTRYtaking_placeIN
+1..* [Operational Story](#Operational-Story) OPSTRYtaking_placeIN 1 [Operational Context](#Operational-Context) 
+
+Specifies the fact that an Operational Story happens in a certain Operational Context. If parts of Operational Story happen in several contexts, they shall be duplicated.
+## OPactingIN
+1..* [Operational Performer](#Operational-Performer) OPactingIN 1..* [Operational Story](#Operational-Story) 
+
+exposed in viewpoint [Operational Story Viewpoint](viewpoints/Operational-Story-Viewpoint.md)
+
+realized by Stereotype [SAF_OperationalPerformerActing](stereotypes.md#SAF_OperationalPerformerActing)
+
+Specifies the fact that an Operational Performer acts in an Operational Story.
+## OPcomposedOF
+1 [Operational Performer](#Operational-Performer) OPcomposedOF 0..* [Operational Performer](#Operational-Performer) 
+
+exposed in viewpoint [Operational Performer Viewpoint](viewpoints/Operational-Performer-Viewpoint.md)
+
+realized by Stereotype [SAF_OperationalPerformerComposition](stereotypes.md#SAF_OperationalPerformerComposition)
+
+Specifies the fact that an Operational Performer consists of one or more Operational Performer(s).
+## OPcontributesToOC
+0..* [Operational Process](#Operational-Process) OPcontributesToOC 0..* [Operational Capability](#Operational-Capability) 
+
+exposed in viewpoint [Operational Capability Traceability Viewpoint](viewpoints/Operational-Capability-Traceability-Viewpoint.md)
+
+exposed in viewpoint [Operational Process Traceability Viewpoint](viewpoints/Operational-Process-Traceability-Viewpoint.md)
+
+realized by Stereotype [SAF_OperationalProcessMapping](stereotypes.md#SAF_OperationalProcessMapping)
+
+Specifies the fact that an Operational Process contributes to providing an Operational Capability(s).
+
+Aliases:
+UAF::MapsToCapability
+## OPexhibitingOC
+1 [Operational Performer](#Operational-Performer) OPexhibitingOC 0..* [Operational Capability](#Operational-Capability) 
+
+exposed in viewpoint [Operational Capability Traceability Viewpoint](viewpoints/Operational-Capability-Traceability-Viewpoint.md)
+
+realized by Stereotype [SAF_OperationalPerformerExhibit](stereotypes.md#SAF_OperationalPerformerExhibit)
+
+Specifies the fact that an Operational Performer exhibits an Operational Capability under specific environmental conditions.
+## OPrefiningOPSTRY
+0..* [Operational Process](#Operational-Process) OPrefiningOPSTRY 0..* [Operational Story](#Operational-Story) 
+
+exposed in viewpoint [Operational Process Traceability Viewpoint](viewpoints/Operational-Process-Traceability-Viewpoint.md)
+
+realized by Stereotype [SAF_OperationalProcessRefinement](stereotypes.md#SAF_OperationalProcessRefinement)
+
+Specifies the fact that Operational Storys are refined by  Operational Processes.
+## PEbeeingINstate
+0..* [Physical Item](#Physical-Item) PEbeeingINstate 0..* [State](#State) 
+
+Specifies the fact that a Pysical System Element can be in one distinct states
+## PIrealizingSDK
+1..* [Physical Item](#Physical-Item) PIrealizingSDK 1 [System Domain Kind](#System-Domain-Kind) 
+
+Specifies the fact that a System Domain Kind is realized by a Physical Interface Item.
+## SCEactingFor
+0..* [System Context Element](#System-Context-Element) SCEactingFor 1 [Operational Performer](#Operational-Performer) 
+
+Specifies the fact that a System Context Element is acting for the benefit of a Operational Performer.
+## SCcomposedOF
+1 [System Capability](#System-Capability) SCcomposedOF 0..* [System Capability](#System-Capability) 
+
+exposed in viewpoint [System Capability Viewpoint](viewpoints/System-Capability-Viewpoint.md)
+
+realized by Stereotype [SAF_SystemCapabilityComposition](stereotypes.md#SAF_SystemCapabilityComposition)
+
+Specifies the fact that an System Capability consists of a sub System Capability(s).
+## SCdependingON
+0..* [System Capability](#System-Capability) SCdependingON 0..* [System Capability](#System-Capability) 
+
+exposed in viewpoint [System Capability Viewpoint](viewpoints/System-Capability-Viewpoint.md)
+
+realized by Stereotype [SAF_SystemCapabilityDependency](stereotypes.md#SAF_SystemCapabilityDependency)
+
+Specifies the fact that an System Capability requires another System Capability(s).
+## SCmappingTO
+0..* [System Capability](#System-Capability) SCmappingTO 1 [Operational Capability](#Operational-Capability) 
+
+exposed in viewpoint [System Capability Viewpoint](viewpoints/System-Capability-Viewpoint.md)
+
+realized by Stereotype [SAF_SystemCapabilityMapping](stereotypes.md#SAF_SystemCapabilityMapping)
+
+Specifies the fact that an Operational Capability may integrate System Capability(s) to produce a specific outcome to achieve a mission objective
+## SCspecializedBY
+1 [System Capability](#System-Capability) SCspecializedBY 0..* [System Capability](#System-Capability) 
+
+exposed in viewpoint [System Capability Viewpoint](viewpoints/System-Capability-Viewpoint.md)
+
+realized by Stereotype [SAF_SystemCapabilityGeneralization](stereotypes.md#SAF_SystemCapabilityGeneralization)
+
+Specifies the fact that an System Capability is specialized by another System Capability(s).
+## SCsupportingSTRY
+0..* [System Capability](#System-Capability) SCsupportingSTRY 0..* [System Story](#System-Story) 
+
+Specifies the fact that an Functional Story is supported by a System Capability(s).
+## SDKbeeingINstate
+0..1 [System Domain Kind](#System-Domain-Kind) SDKbeeingINstate 0..* [State](#State) 
+
+exposed in viewpoint [System State Viewpoint](viewpoints/System-State-Viewpoint.md)
+
+realized by Metaclass StateMachine
+
+Specifies that a System Domain Kind can have certain states.
+
+Note:
+Of course an item is in only one distinct state at a certain time. The multiplicity means that an Item can have a set of possible states, and a state can be used to specify possible State(s) for several domain items.
+## SDKderivingFromODK
+0..* [System Domain Kind](#System-Domain-Kind) SDKderivingFromODK 1 [Operational Domain Kind](#Operational-Domain-Kind) 
+
+exposed in viewpoint [System Domain Item Kind Viewpoint](viewpoints/System-Domain-Item-Kind-Viewpoint.md)
+
+realized by Stereotype [SAF_DomainKindDerivation](stereotypes.md#SAF_DomainKindDerivation)
+
+Specifies the fact that a domain kind on system level is derived from an operational domain kind.
 ## SFCallocatedTO
 1..* [System Function](#System-Function) SFCallocatedTO 1 [Logical SOI](#Logical-SOI) 
 
@@ -529,47 +781,75 @@ Note, that this can be derived from Function usages of System Functions allocate
 1..* [System Function](#System-Function) SFCallocatedTO 1 [Physical Item](#Physical-Item) 
 
 Specifies the fact that a relationship is derived from the assignment of Function(s) to Logical Element(s) and the assignment of Logical Element(s) to Physical Element(s).
-## TO
-1 [Functional Flow](#Functional-Flow) TO 1 [Functional Parameter](#Functional-Parameter) 
+## SFresultingINstate
+0..* [System Function](#System-Function) SFresultingINstate 0..* [State](#State) 
 
-realized by Metaclass InputPin
+exposed in viewpoint [System State Viewpoint](viewpoints/System-State-Viewpoint.md)
 
-Specifies the fact that a Functional Flow goes to a Functional Parameter
+Specifies the fact that a Function can perform a certain set of State Transition(s).
+## SFsupportsSC
+0..* [System Function](#System-Function) SFsupportsSC 0..* [System Capability](#System-Capability) 
+
+Specifies the fact that a System Function supports a System Capability
+## SOIactionFor
+0..* [System Of Interest](#System-Of-Interest) SOIactionFor 1 [Operational Performer](#Operational-Performer) 
+
+Specifies the fact that a SOI is acting for the benefit of a Operational Performer.
+## SPcontainingSFC
+0..* [System Process](#System-Process) SPcontainingSFC 1..* [System Function](#System-Function) 
+
+exposed in viewpoint [System Requirement Traceability Viewpoint](viewpoints/System-Requirement-Traceability-Viewpoint.md)
+
+Specifies the Fact, that a System Function can appear in zero or more System Processes, and a System Process, can have one or more System Functions.
+## SRrefiningOPSTRY
+0..* [Stakeholder Requirement](#Stakeholder-Requirement) SRrefiningOPSTRY 0..* [Operational Story](#Operational-Story) 
+
+exposed in viewpoint [Stakeholder Requirement Viewpoint](viewpoints/Stakeholder-Requirement-Viewpoint.md)
+
+realized by Stereotype [SAF_StakeholderRequirementRefinement](stereotypes.md#SAF_StakeholderRequirementRefinement)
+
+Specifies the fact that an Stakeholder Requirement is refined by an Operational Story.
+## SRrefiningSSTRY
+0..* [System Requirement](#System-Requirement) SRrefiningSSTRY 0..* [System Story](#System-Story) 
+
+exposed in viewpoint [System Requirement Traceability Viewpoint](viewpoints/System-Requirement-Traceability-Viewpoint.md)
+
+realized by Stereotype [SAF_SystemRequirementRefinement](stereotypes.md#SAF_SystemRequirementRefinement)
+
+Specifies the fact that an System Requirement is refines a System Story.
+## SSTRYtakingPlaceInLSC
+1..* [System Story](#System-Story) SSTRYtakingPlaceInLSC 1 [Logical System Context](#Logical-System-Context) 
+
+exposed in viewpoint [System Story Viewpoint](viewpoints/System-Story-Viewpoint.md)
+
+realized by Stereotype [SAF_SystemStory](stereotypes.md#SAF_SystemStory)
+
+Specifies the fact that one or more System Stories take place in a Logical System Context
+## SScontributingToOS
+0..* [System Story](#System-Story) SScontributingToOS 0..* [Operational Story](#Operational-Story) 
+
+exposed in viewpoint [System Requirement Traceability Viewpoint](viewpoints/System-Requirement-Traceability-Viewpoint.md)
+
+exposed in viewpoint [System Story Viewpoint](viewpoints/System-Story-Viewpoint.md)
+
+realized by Stereotype [SAF_SystemStoryContribution](stereotypes.md#SAF_SystemStoryContribution)
+
+Specifies the fact that a System Story(s) is contributes to an Operational Story(s).
+## STperformingSF
+0..* [State](#State) STperformingSF 0..* [System Function](#System-Function) 
+
+exposed in viewpoint [System State Viewpoint](viewpoints/System-State-Viewpoint.md)
+
+Specifies the fact that the Function is only provided in distinct State(s). The state is a precondition for the Function to be able to perform.
 ## USEAGEallocatedTO
 1..* [Functional Usage](#Functional-Usage) USEAGEallocatedTO 1 [Logical Constituent](#Logical-Constituent) 
 
 Specifies the allocation of "Usage of Function" to "Usage of System Element".
 See[SYSMLGUIDE] for use cases and further recommendations.
-## actingIN
-1..* [Logical Context Element](#Logical-Context-Element) actingIN 1..* [System Story](#System-Story) 
-
-exposed in viewpoint [System Story Viewpoint](viewpoints/System-Story-Viewpoint.md)
-
-realized by Stereotype [SAF_LogicalContextElementActing](stereotypes.md#SAF_LogicalContextElementActing)
-
-Specifies the fact that one or more Logical Context Elements act in one or more System stories.
-## actingIN
-1..* [Operational Performer](#Operational-Performer) actingIN 1..* [Operational Story](#Operational-Story) 
-
-exposed in viewpoint [Operational Story Viewpoint](viewpoints/Operational-Story-Viewpoint.md)
-
-realized by Stereotype [SAF_OperationalPerformerActing](stereotypes.md#SAF_OperationalPerformerActing)
-
-Specifies the fact that an Operational Performer acts in an Operational Story.
 ## allowing
 1 [Physical Usage](#Physical-Usage) allowing 0..* [Physical Item Exchange](#Physical-Item-Exchange) 
 
 Specifies the fact that a Physical Item Exchange is allowed by the Usage of Physical Interface.
-## allowing
-1 [Logical Interface Connection](#Logical-Interface-Connection) allowing 0..* [Logical Item Exchange](#Logical-Item-Exchange) 
-
-Specifies the fact that a Logical Item Exchange is allowed on the Connection of Logical Interfaces.
-## allowing
-1 [Operational Connection](#Operational-Connection) allowing 0..* [Operational Item Exchange](#Operational-Item-Exchange) 
-
-realized by Stereotype ItemFlow
-
-Specifies the fact that an Operational Exchange takes place over a certain Operational Connection.
 ## applyingTO
 0..* [Logical Interface](#Logical-Interface) applyingTO 1..* [Logical Context Element](#Logical-Context-Element) 
 
@@ -588,52 +868,10 @@ Specifies the fact that a Physical Interface applies to a Physical Context Eleme
 exposed in viewpoint [Physical Context Exchange Viewpoint](viewpoints/Physical-Context-Exchange-Viewpoint.md)
 
 Specifies the fact that a Physical Interface applies to a Physical Item.
-## applyingTO
-0..* [Logical Interface](#Logical-Interface) applyingTO 1 [Logical Element](#Logical-Element) 
-
-exposed in viewpoint [Logical Internal Exchange Viewpoint](viewpoints/Logical-Internal-Exchange-Viewpoint.md)
-
-exposed in viewpoint [System Context Exchange Viewpoint](viewpoints/System-Context-Exchange-Viewpoint.md)
-
-realized by Metaclass Property
-
-realized by Metaclass Property
-
-Specifies the fact that a Logical Interface applies to a Logical System Element.
-## beeingINstate
-0..* [Logical Element](#Logical-Element) beeingINstate 0..* [State](#State) 
-
-exposed in viewpoint [System State Viewpoint](viewpoints/System-State-Viewpoint.md)
-
-realized by Metaclass StateMachine
-
-Specifies the fact that a Logical Element can be in one distinct State(s).
-## beeingINstate
-0..* [Physical Item](#Physical-Item) beeingINstate 0..* [State](#State) 
-
-Specifies the fact that a Pysical System Element can be in one distinct states
-## beeingINstate
-0..1 [System Domain Kind](#System-Domain-Kind) beeingINstate 0..* [State](#State) 
-
-exposed in viewpoint [System State Viewpoint](viewpoints/System-State-Viewpoint.md)
-
-realized by Metaclass StateMachine
-
-Of course an item is in only one distinct state at a certain time. The multiplicity means that an Item can have a set of possible states, and a state can be used to specify possible State(s) for several domain items.
 ## being_partOF
 0..* [Functional Flow](#Functional-Flow) being_partOF 1 [Functional Usage](#Functional-Usage) 
 
 Specifies the fact that a functional Flow appears within the usage of a function
-## boundedBY
-0..* [Functional Requirement](#Functional-Requirement) boundedBY 0..* [Nonfunctional Requirement](#Nonfunctional-Requirement) 
-
-exposed in viewpoint [System Requirement Traceability Viewpoint](viewpoints/System-Requirement-Traceability-Viewpoint.md)
-
-exposed in viewpoint [System Requirement Viewpoint](viewpoints/System-Requirement-Viewpoint.md)
-
-realized by Stereotype [SAF_SystemFunctionalRequirementConstraint](stereotypes.md#SAF_SystemFunctionalRequirementConstraint)
-
-Specifies the fact that a Nonfunctional Requirement constrains a Functional Requirement.
 ## capableOFperformingIN
 0..* [Operational Performer](#Operational-Performer) capableOFperformingIN 0..* [Operational Process](#Operational-Process) 
 
@@ -643,14 +881,6 @@ Specifies the fact that an Operational Performer can perform an Operational Acti
 
 Aliases:
 UAF::IsCapableToPerform
-## characterisedBY
-1..* [System Context Element](#System-Context-Element) characterisedBY 0..* [System of Interest Stakeholder](#System-of-Interest-Stakeholder) 
-
-exposed in viewpoint [Stakeholder Identification Viewpoint](viewpoints/Stakeholder-Identification-Viewpoint.md)
-
-realized by Stereotype [SAF_ContextElementCharacterization](stereotypes.md#SAF_ContextElementCharacterization)
-
-Specifies the fact that a SOI Stakeholder can represent a system context element
 ## composedOF
 1 [Operational Domain Kind](#Operational-Domain-Kind) composedOF 0..* [Operational Domain Kind](#Operational-Domain-Kind) 
 
@@ -660,24 +890,6 @@ realized by Stereotype [SAF_OperationalDomainKindComposition](stereotypes.md#SAF
 
 
 ## composedOF
-1 [Operational Performer](#Operational-Performer) composedOF 0..* [Operational Performer](#Operational-Performer) 
-
-exposed in viewpoint [Operational Performer Viewpoint](viewpoints/Operational-Performer-Viewpoint.md)
-
-realized by Stereotype [SAF_OperationalPerformerComposition](stereotypes.md#SAF_OperationalPerformerComposition)
-
-Specifies the fact that an Operational Performer consists of one or more Operational Performer(s).
-## composedOF
-1 [Operational Capability](#Operational-Capability) composedOF 0..* [Operational Capability](#Operational-Capability) 
-
-exposed in viewpoint [Operational Capability Traceability Viewpoint](viewpoints/Operational-Capability-Traceability-Viewpoint.md)
-
-exposed in viewpoint [Operational Capability Viewpoint](viewpoints/Operational-Capability-Viewpoint.md)
-
-realized by Stereotype [SAF_OperationalCapabilityComposition](stereotypes.md#SAF_OperationalCapabilityComposition)
-
-Specifies the fact that an Operational Capability consists of a sub Operational Capability(s).
-## composedOF
 1 [System Domain Kind](#System-Domain-Kind) composedOF 0..* [System Domain Kind](#System-Domain-Kind) 
 
 exposed in viewpoint [System Domain Item Kind Viewpoint](viewpoints/System-Domain-Item-Kind-Viewpoint.md)
@@ -685,42 +897,10 @@ exposed in viewpoint [System Domain Item Kind Viewpoint](viewpoints/System-Domai
 realized by Stereotype [SAF_DomainKindComposition](stereotypes.md#SAF_DomainKindComposition)
 
 
-## composedOF
-1 [System Capability](#System-Capability) composedOF 0..* [System Capability](#System-Capability) 
-
-exposed in viewpoint [System Capability Viewpoint](viewpoints/System-Capability-Viewpoint.md)
-
-realized by Stereotype [SAF_SystemCapabilityComposition](stereotypes.md#SAF_SystemCapabilityComposition)
-
-Specifies the fact that an System Capability consists of a sub System Capability(s).
-## concepting
-1..* [Logical Environment](#Logical-Environment) concepting 1..* [Physical Environment](#Physical-Environment) 
-
-Specifies the fact that a logical Environment Entity is a concept for a Physical Environment Entity.
-## concepting
-1..* [Logical External System](#Logical-External-System) concepting 1..* [Physical External System](#Physical-External-System) 
-
-Specifies that the Logical System is a concept for a Physical System.
-## concepting
-1..* [Logical User](#Logical-User) concepting 1..* [Physical User](#Physical-User) 
-
-Specifies that the Logical user is a concept for a Physical User.
 ## confirmingREQ
 1 [Compliance Statement](#Compliance-Statement) confirmingREQ 1 [Stakeholder Requirement](#Stakeholder-Requirement) 
 
 Specifies the fact that a Stakeholder Requirement has a certain State of Compliance.
-## containing
-1 [Internal Logical Interaction Scenario](#Internal-Logical-Interaction-Scenario) containing 0..* [Internal Logical Chronological Message](#Internal-Logical-Chronological-Message) 
-
-Specifies, that Internal Logical Interaction Scenario contains a Internal Logical Chronological Message
-## containing
-1 [Operational Interaction Scenario](#Operational-Interaction-Scenario) containing 0..* [Operational Chronological Message](#Operational-Chronological-Message) 
-
-
-## containing
-1 [Logical Interaction Scenario](#Logical-Interaction-Scenario) containing 0..* [Logical Chronological Message](#Logical-Chronological-Message) 
-
-Specifies, that  Logical Interaction Scenario contains a Logical Chronological Message
 ## containingCFC
 1..* [System Process](#System-Process) containingCFC 0..* [Context Function](#Context-Function) 
 
@@ -742,25 +922,9 @@ realized by Metaclass Association
 
 Specifies the fact that a Functional Breakdown Structure contains general Functions
 ## containingSFC
-0..* [System Process](#System-Process) containingSFC 1..* [System Function](#System-Function) 
-
-exposed in viewpoint [System Requirement Traceability Viewpoint](viewpoints/System-Requirement-Traceability-Viewpoint.md)
-
-Specifies the Fact, that a System Function can appear in zero or more System Processes, and a System Process, can have one or more System Functions.
-## containingSFC
 1..* [Functional Breakdown Structure](#Functional-Breakdown-Structure) containingSFC 1..* [System Function](#System-Function) 
 
 Specifies the fact that a Functional Breakdown Structure contains system functions.
-## contributingTO
-0..* [System Story](#System-Story) contributingTO 0..* [Operational Story](#Operational-Story) 
-
-exposed in viewpoint [System Requirement Traceability Viewpoint](viewpoints/System-Requirement-Traceability-Viewpoint.md)
-
-exposed in viewpoint [System Story Viewpoint](viewpoints/System-Story-Viewpoint.md)
-
-realized by Stereotype [SAF_SystemStoryContribution](stereotypes.md#SAF_SystemStoryContribution)
-
-Specifies the fact that a System Story(s) is derived from Operational Story(s).
 ## controlledAFTER
 1 [Operational Process](#Operational-Process) controlledAFTER 1 [Operational Process](#Operational-Process) 
 
@@ -777,32 +941,6 @@ exposed in viewpoint [System Process Viewpoint](viewpoints/System-Process-Viewpo
 realized by Metaclass ControlFlow
 
 Specifies an ordering of execution of Function(s).
-## dependingON
-0..* [Operational Capability](#Operational-Capability) dependingON 0..* [Operational Capability](#Operational-Capability) 
-
-exposed in viewpoint [Operational Capability Traceability Viewpoint](viewpoints/Operational-Capability-Traceability-Viewpoint.md)
-
-exposed in viewpoint [Operational Capability Viewpoint](viewpoints/Operational-Capability-Viewpoint.md)
-
-realized by Stereotype [SAF_OperationalCapabilityDependency](stereotypes.md#SAF_OperationalCapabilityDependency)
-
-Specifies the fact that an Operational Capability requires another Operational Capability(s).
-## dependingON
-0..* [System Capability](#System-Capability) dependingON 0..* [System Capability](#System-Capability) 
-
-exposed in viewpoint [System Capability Viewpoint](viewpoints/System-Capability-Viewpoint.md)
-
-realized by Stereotype [SAF_SystemCapabilityDependency](stereotypes.md#SAF_SystemCapabilityDependency)
-
-Specifies the fact that an System Capability requires another System Capability(s).
-## derivingFROM
-0..* [System Domain Kind](#System-Domain-Kind) derivingFROM 1 [Operational Domain Kind](#Operational-Domain-Kind) 
-
-exposed in viewpoint [System Domain Item Kind Viewpoint](viewpoints/System-Domain-Item-Kind-Viewpoint.md)
-
-realized by Stereotype [SAF_DomainKindDerivation](stereotypes.md#SAF_DomainKindDerivation)
-
-Specifies the fact that a domain kind on system level is derived from an operational domain kind.
 ## derivingFROM
 0..* [Stakeholder Requirement](#Stakeholder-Requirement) derivingFROM 0..* [Operational Capability](#Operational-Capability) 
 
@@ -827,14 +965,6 @@ exposed in viewpoint [System Requirement Viewpoint](viewpoints/System-Requiremen
 realized by Stereotype [SAF_SystemRequirementDerivation](stereotypes.md#SAF_SystemRequirementDerivation)
 
 This is the relationship of requirement(s) of different architectural levels, while the team responsible for the subsystem has direct access to the full upstream requirement(s) set, and no subcontractor relationship needs to be established.
-## exhibiting
-1 [Operational Performer](#Operational-Performer) exhibiting 0..* [Operational Capability](#Operational-Capability) 
-
-exposed in viewpoint [Operational Capability Traceability Viewpoint](viewpoints/Operational-Capability-Traceability-Viewpoint.md)
-
-realized by Stereotype [SAF_OperationalPerformerExhibit](stereotypes.md#SAF_OperationalPerformerExhibit)
-
-Specifies the fact that an Operational Performer demonstrates a Capability under specific environmental conditions.
 ## havingCNRN
 1 [System of Interest Stakeholder](#System-of-Interest-Stakeholder) havingCNRN 1..* [System of Interest Concern](#System-of-Interest-Concern) 
 
@@ -843,14 +973,6 @@ exposed in viewpoint [Stakeholder Identification Viewpoint](viewpoints/Stakehold
 exposed in viewpoint [Stakeholder Requirement Viewpoint](viewpoints/Stakeholder-Requirement-Viewpoint.md)
 
 Specifies the fact that a Stakeholder has a certain Concern.
-## implementing
-0..* [System Context Element](#System-Context-Element) implementing 1 [Operational Performer](#Operational-Performer) 
-
-Specifies the fact that a System Context element is acting for the benefit of a Operational Performer.
-## implementing
-0..* [System Of Interest](#System-Of-Interest) implementing 1 [Operational Performer](#Operational-Performer) 
-
-Specifies the fact that a SOI is acting for the benefit of a Operational Performer.
 ## imposedBY
 0..* [Stakeholder Requirement](#Stakeholder-Requirement) imposedBY 1 [System of Interest Stakeholder](#System-of-Interest-Stakeholder) 
 
@@ -861,49 +983,12 @@ realized by Stereotype [SAF_StakeholderRequirementImposition](stereotypes.md#SAF
 realized by Metaclass Package
 
 Specifies the fact that a Stakeholder Requirement is provided by a Stakeholder.
-## includingUC
-1 [System Story](#System-Story) includingUC 0..* [System Story](#System-Story) 
+## includingSSTRY
+1 [System Story](#System-Story) includingSSTRY 0..* [System Story](#System-Story) 
 
 realized by Metaclass Include
 
 Specifies the fact that a system story includes other system story(s). The included story is then no longer a full system story, but a partial system story.
-## is of kind
-0..* [Operational Process Exchange](#Operational-Process-Exchange) is of kind 1 [Operational Domain Kind](#Operational-Domain-Kind) 
-
-exposed in viewpoint [Operational Process Viewpoint](viewpoints/Operational-Process-Viewpoint.md)
-
-specifies the kind of an operational process exchange 
-## mappingTO
-0..* [System Function](#System-Function) mappingTO 0..* [System Capability](#System-Capability) 
-
-Specifies the fact that [tbd]
-## mappingTO
-0..* [Operational Process](#Operational-Process) mappingTO 0..* [Operational Capability](#Operational-Capability) 
-
-exposed in viewpoint [Operational Capability Traceability Viewpoint](viewpoints/Operational-Capability-Traceability-Viewpoint.md)
-
-exposed in viewpoint [Operational Process Traceability Viewpoint](viewpoints/Operational-Process-Traceability-Viewpoint.md)
-
-realized by Stereotype [SAF_OperationalProcessMapping](stereotypes.md#SAF_OperationalProcessMapping)
-
-Specifies the fact that an Operational Process contributes to providing an Operational Capability(s).
-
-Aliases:
-UAF::MapsToCapability
-## mappingTO
-0..* [System Capability](#System-Capability) mappingTO 1 [Operational Capability](#Operational-Capability) 
-
-exposed in viewpoint [System Capability Viewpoint](viewpoints/System-Capability-Viewpoint.md)
-
-realized by Stereotype [SAF_SystemCapabilityMapping](stereotypes.md#SAF_SystemCapabilityMapping)
-
-Specifies the fact that an Operational Capability may integrate System Capability(s) to produce a specific outcome to achieve a mission objective
-## performing
-0..* [State](#State) performing 0..* [System Function](#System-Function) 
-
-exposed in viewpoint [System State Viewpoint](viewpoints/System-State-Viewpoint.md)
-
-Specifies the fact that the Function is only provided in distinct State(s). The state is a precondition for the Function to be able to perform.
 ## performingContextTSK
 0..* [Logical Context Constituent](#Logical-Context-Constituent) performingContextTSK 0..* [Functional Usage](#Functional-Usage) 
 
@@ -925,7 +1010,7 @@ realized by Stereotype Allocate
 
 Defines that the System function is carried out by the SOI in this context
 ## performingTSK
-0..* [Operational Context Constituent](#Operational-Context-Constituent) performingTSK 0..* [Operational Usage](#Operational-Usage) 
+0..* [Operational Context Constituent](#Operational-Context-Constituent) performingTSK 0..* [Operational Process Usage](#Operational-Process-Usage) 
 
 exposed in viewpoint [Operational Process Viewpoint](viewpoints/Operational-Process-Viewpoint.md)
 
@@ -941,10 +1026,6 @@ Rationale:
 If the Logical Element would be not realized at all then the physical system would not implement all specified functionality.
 If more than one Physical Element would offer to realize the functionality specified by a Logical Element the responsibility would be ambiguous.
 It is okay to assign several Logical Element(s) to one Physical Element. This means all specified functionality assigned to the Logical Element(s) is to be implemented by the Physical Element.
-## realizingITM
-1..* [Physical Item](#Physical-Item) realizingITM 1 [System Domain Kind](#System-Domain-Kind) 
-
-Specifies the fact that a Domain Item is realized by a Physical Interface Item.
 ## receivingINPUT
 1 [General Function](#General-Function) receivingINPUT 0..* [Functional Parameter](#Functional-Parameter) 
 
@@ -969,42 +1050,10 @@ exposed in viewpoint [Stakeholder Requirement Viewpoint](viewpoints/Stakeholder-
 realized by Stereotype [SAF_StakeholderRequirementRefinement](stereotypes.md#SAF_StakeholderRequirementRefinement)
 
 Specifies the fact that a Concern is refined by Stakeholder Requirement.
-## refiningSFC
-1..* [Functional Requirement](#Functional-Requirement) refiningSFC 1 [System Function](#System-Function) 
-
-exposed in viewpoint [System Requirement Traceability Viewpoint](viewpoints/System-Requirement-Traceability-Viewpoint.md)
-
-realized by Stereotype [SAF_SystemFunctionalRequirementRefinement](stereotypes.md#SAF_SystemFunctionalRequirementRefinement)
-
-Specifies the fact that an Functional Activity is refined by an Functional Requirement.
 ## refiningSTORY
 1..* [Operational Interaction Scenario](#Operational-Interaction-Scenario) refiningSTORY 1 [Operational Story](#Operational-Story) 
 
 Specifies the fact that one or more Operational Interaction Scenario(s) are used to refine an Operational Story.
-## refiningSTRY
-0..* [System Requirement](#System-Requirement) refiningSTRY 0..* [System Story](#System-Story) 
-
-exposed in viewpoint [System Requirement Traceability Viewpoint](viewpoints/System-Requirement-Traceability-Viewpoint.md)
-
-realized by Stereotype [SAF_SystemRequirementRefinement](stereotypes.md#SAF_SystemRequirementRefinement)
-
-Specifies the fact that an System Requirement is refined by an System Story.
-## refiningSTRY
-0..* [Operational Process](#Operational-Process) refiningSTRY 0..* [Operational Story](#Operational-Story) 
-
-exposed in viewpoint [Operational Process Traceability Viewpoint](viewpoints/Operational-Process-Traceability-Viewpoint.md)
-
-realized by Stereotype [SAF_OperationalProcessRefinement](stereotypes.md#SAF_OperationalProcessRefinement)
-
-Specifies the fact that an Operational Story is refined by an Operational Process.
-## refiningSTRY
-0..* [Stakeholder Requirement](#Stakeholder-Requirement) refiningSTRY 0..* [Operational Story](#Operational-Story) 
-
-exposed in viewpoint [Stakeholder Requirement Viewpoint](viewpoints/Stakeholder-Requirement-Viewpoint.md)
-
-realized by Stereotype [SAF_StakeholderRequirementRefinement](stereotypes.md#SAF_StakeholderRequirementRefinement)
-
-Specifies the fact that an Stakeholder Requirement is refined by an Operational Story.
 ## refiningSTRY
 0..* [System Process](#System-Process) refiningSTRY 0..1 [System Story](#System-Story) 
 
@@ -1026,17 +1075,19 @@ exposed in viewpoint [Operational Performer Viewpoint](viewpoints/Operational-Pe
 
 realized by Stereotype [SAF_OperationalStakeholderRepresentation](stereotypes.md#SAF_OperationalStakeholderRepresentation)
 
-Specifies the fact that a SOI Stakeholder represents an Operational Performer
+Specifies the fact that a SOI Stakeholder can represent an Operational Performer
+## representingSCE
+1..* [System Context Element](#System-Context-Element) representingSCE 0..* [System of Interest Stakeholder](#System-of-Interest-Stakeholder) 
+
+exposed in viewpoint [Stakeholder Identification Viewpoint](viewpoints/Stakeholder-Identification-Viewpoint.md)
+
+realized by Stereotype [SAF_ContextElementCharacterization](stereotypes.md#SAF_ContextElementCharacterization)
+
+Specifies the fact that a SOI Stakeholder can represent a system context element
 ## representingUSR
 1 [System of Interest Stakeholder](#System-of-Interest-Stakeholder) representingUSR 0..* [User](#User) 
 
 Specifies the fact that an User is represented by a Stakeholder.
-## resultingINstate
-0..* [System Function](#System-Function) resultingINstate 0..* [State](#State) 
-
-exposed in viewpoint [System State Viewpoint](viewpoints/System-State-Viewpoint.md)
-
-Specifies the fact that a Function can perform a certain set of State Transition(s).
 ## satisfyingREQ
 1 [Any SAF Element](#Any-SAF-Element) satisfyingREQ 1..* [Stakeholder Requirement](#Stakeholder-Requirement) 
 
@@ -1045,32 +1096,6 @@ Specifies the fact that a Stakeholder Requirement is satisfied by a SAF Model El
 1 [General Function](#General-Function) sendingOUPUT 1..* [Functional Parameter](#Functional-Parameter) 
 
 Defines the output(s) of a Function.
-## specializedBY
-1 [Operational Capability](#Operational-Capability) specializedBY 0..* [Operational Capability](#Operational-Capability) 
-
-exposed in viewpoint [Operational Capability Traceability Viewpoint](viewpoints/Operational-Capability-Traceability-Viewpoint.md)
-
-exposed in viewpoint [Operational Capability Viewpoint](viewpoints/Operational-Capability-Viewpoint.md)
-
-realized by Stereotype [SAF_OperationalCapabilityGeneralization](stereotypes.md#SAF_OperationalCapabilityGeneralization)
-
-Specifies the fact that an Operational Capability is specialized by another Operational Capability(s).
-## specializedBY
-1 [System Capability](#System-Capability) specializedBY 0..* [System Capability](#System-Capability) 
-
-exposed in viewpoint [System Capability Viewpoint](viewpoints/System-Capability-Viewpoint.md)
-
-realized by Stereotype [SAF_SystemCapabilityGeneralization](stereotypes.md#SAF_SystemCapabilityGeneralization)
-
-Specifies the fact that an System Capability is specialized by another System Capability(s).
-## specifying
-1..* [Logical Interface Property](#Logical-Interface-Property) specifying 1 [Logical Interface Specification](#Logical-Interface-Specification) 
-
-Specifies the fact that a Logical Interface Property is a detail of a Logical Interface Specification.
-## specifying
-1 [Logical Interface Specification](#Logical-Interface-Specification) specifying 0..* [Logical Interface](#Logical-Interface) 
-
-Specifies the fact that a Logical Interface Specification is a detail of a Logical Interface.
 ## specifying
 1 [Physical Interface Specification](#Physical-Interface-Specification) specifying 0..* [Physical Interface](#Physical-Interface) 
 
@@ -1079,18 +1104,6 @@ Specifies that Physical Interface Specification is a detail of a Physical Interf
 1..* [Physical Interface Property](#Physical-Interface-Property) specifying 1 [Physical Interface Specification](#Physical-Interface-Specification) 
 
 Specifies that Physical Interface Property is a detail of a Physical Interface Specification.
-## supportingSTRY
-0..* [Operational Capability](#Operational-Capability) supportingSTRY 0..* [Operational Story](#Operational-Story) 
-
-exposed in viewpoint [Operational Capability Traceability Viewpoint](viewpoints/Operational-Capability-Traceability-Viewpoint.md)
-
-realized by Stereotype [SAF_OperationalCapabilitySupport](stereotypes.md#SAF_OperationalCapabilitySupport)
-
-Specifies the fact that an Operational Story is supported by a Operational Capability(s).
-## supportingSTRY
-0..* [System Capability](#System-Capability) supportingSTRY 0..* [System Story](#System-Story) 
-
-Specifies the fact that an Functional Story is supported by a System Capability(s).
 ## synthesizingCFC
 1..* [System Story](#System-Story) synthesizingCFC 0..* [Context Function](#Context-Function) 
 
@@ -1099,28 +1112,18 @@ Specifies the fact that an External Function is used in a System Story, e.g. as 
 0..* [System Story](#System-Story) synthesizingSFC 0..* [System Function](#System-Function) 
 
 Specifies the fact that a System Function can be used in one or more System Story(s) as a Task or Action related to the System. This is a derived relationship.
-## taking_placeIN
-1..* [Operational Story](#Operational-Story) taking_placeIN 1 [Operational Context](#Operational-Context) 
-
-Specifies the fact that an Operational Story happens in a certain Operational Context. If parts of Operational Story happen in several contexts, they shall be duplicated.
-## taking_placeIN
-1..* [System Story](#System-Story) taking_placeIN 1 [Logical System Context](#Logical-System-Context) 
-
-exposed in viewpoint [System Story Viewpoint](viewpoints/System-Story-Viewpoint.md)
-
-realized by Stereotype [SAF_SystemStory](stereotypes.md#SAF_SystemStory)
-
-Specifies the fact that one or more System Stories take place in a Logical System Context
 ## triggering
 0..1 [Triggering Event](#Triggering-Event) triggering 0..* [State Transition](#State-Transition) 
 
 exposed in viewpoint [System State Viewpoint](viewpoints/System-State-Viewpoint.md)
 
 
-## typifyingITM
-1 [Operational Domain Kind](#Operational-Domain-Kind) typifyingITM 1..* [Operational Item Exchange](#Operational-Item-Exchange) 
+## typifiyingOPE
+0..* [Operational Process Exchange](#Operational-Process-Exchange) typifiyingOPE 1 [Operational Domain Kind](#Operational-Domain-Kind) 
 
-Specifies the fact that an operational exchange kind typifies an operational exchange
+exposed in viewpoint [Operational Process Viewpoint](viewpoints/Operational-Process-Viewpoint.md)
+
+Specifies the kind of an operational process exchange 
 ## typingITEM
 0..* [Physical Item Exchange](#Physical-Item-Exchange) typingITEM 1 [Physical Item](#Physical-Item) 
 
@@ -1128,11 +1131,11 @@ Specifies the fact that a Physical Interface Item defines the type of a Physical
 ## typingITM
 1 [System Domain Kind](#System-Domain-Kind) typingITM 1..* [Logical Item Exchange](#Logical-Item-Exchange) 
 
-Specifies the fact that a Domain Item defines the type of a Logical Item Exchange.
+Specifies the fact that a System Domain Kind defines the type of a Logical Item Exchange.
 ## typingPRM
 1 [System Domain Kind](#System-Domain-Kind) typingPRM 1..* [Functional Parameter](#Functional-Parameter) 
 
-Specifies the fact that a Domain Item defines the type of a Function Parameter
+Specifies the fact that a System Domain Kind defines the type of a Function Parameter
 ## typingPROP
 1 [Physical Item](#Physical-Item) typingPROP 0..* [Physical Interface Property](#Physical-Interface-Property) 
 
@@ -1140,4 +1143,4 @@ Specifies the fact that a Physical Interface Item defines the type of a Physical
 ## typingPRP
 1 [System Domain Kind](#System-Domain-Kind) typingPRP 1..* [Logical Interface Property](#Logical-Interface-Property) 
 
-Specifies the fact that a Domain Item defines the type of a Logical Interface Property Exchange.
+Specifies the fact that a System Domain Kind defines the type of a Logical Interface Property.

@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#244,SAF_Cameo_Profile#343</div>
+<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#345</div>
 
 # System State Viewpoint
 *Domain:* **Functional** *Aspect:* **Behavior**
@@ -28,12 +28,12 @@ Note:
 |---|---|---|
 |[SAF_LogicalElement](../stereotypes.md#SAF_LogicalElement)|[tbd]|[Logical Element](../concepts.md#Logical-Element)|
 |State||[State](../concepts.md#State)|
-|StateMachine||[beeingINstate](../concepts.md#beeingINstate)|
+|StateMachine||[SDKbeeingINstate](../concepts.md#SDKbeeingINstate)|
 |[SAF_FV03b_SystemStateMachineDiagram](../stereotypes.md#SAF_FV03b_SystemStateMachineDiagram)|[tbd]|[System State Viewpoint](../concepts.md#System-State-Viewpoint)|
 |[SAF_SystemFunction](../stereotypes.md#SAF_SystemFunction)|[tbd]|[System Function](../concepts.md#System-Function)|
 |[SAF_DomainKind](../stereotypes.md#SAF_DomainKind)|[tbd]|[System Domain Kind](../concepts.md#System-Domain-Kind)|
 |Transition||[State Transition](../concepts.md#State-Transition)|
-|StateMachine||[beeingINstate](../concepts.md#beeingINstate)|
+|StateMachine||[LEbeeingINstate](../concepts.md#LEbeeingINstate)|
 |Event||[Triggering Event](../concepts.md#Triggering-Event)|
 ## Input from other Viewpoints
 ### Required Viewpoints

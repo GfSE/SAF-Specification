@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#244,SAF_Cameo_Profile#343</div>
+<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#345</div>
 
 # Stakeholder Identification Viewpoint
 *Domain:* **Operational** *Aspect:* **Structure**
@@ -31,7 +31,7 @@ The results of the Stakeholder Analysis are identified Stakeholder(s). A Stakeho
 |Stereotype | Description|realized Concept
 |---|---|---|
 |[SAF_Stakeholder](../stereotypes.md#SAF_Stakeholder)|[tbd]|[System of Interest Stakeholder](../concepts.md#System-of-Interest-Stakeholder)|
-|[SAF_ContextElementCharacterization](../stereotypes.md#SAF_ContextElementCharacterization)|[tbd]|[characterisedBY](../concepts.md#characterisedBY)|
+|[SAF_ContextElementCharacterization](../stereotypes.md#SAF_ContextElementCharacterization)|[tbd]|[representingSCE](../concepts.md#representingSCE)|
 |[SAF_StakeholderRelation](../stereotypes.md#SAF_StakeholderRelation)|[tbd]|[relatedTO](../concepts.md#relatedTO)|
 |[SAF_SystemOfInterestInvolvement](../stereotypes.md#SAF_SystemOfInterestInvolvement)|[tbd]|[Stakeholder Involement Constituent](../concepts.md#Stakeholder-Involement-Constituent)|
 |[SAF_SystemOfInterestConcern](../stereotypes.md#SAF_SystemOfInterestConcern)|[tbd]|[System of Interest Concern](../concepts.md#System-of-Interest-Concern)|

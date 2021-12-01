@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#244,SAF_Cameo_Profile#343</div>
+<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#345</div>
 
 # System Story Viewpoint
 *Domain:* **Functional** *Aspect:* **Context**
@@ -32,14 +32,14 @@ Note: [tbd]
 |---|---|---|
 |[SAF_LogicalExternalSystem](../stereotypes.md#SAF_LogicalExternalSystem)|[tbd]|[Logical External System](../concepts.md#Logical-External-System)|
 |[SAF_SystemStoryContribution](../stereotypes.md#SAF_SystemStoryContribution)|[tbd]
-|[contributingTO](../concepts.md#contributingTO)|
+|[SScontributingToOS](../concepts.md#SScontributingToOS)|
 |[SAF_LogicalEnvironment](../stereotypes.md#SAF_LogicalEnvironment)|[tbd]|[Logical Environment](../concepts.md#Logical-Environment)|
-|[SAF_SystemStory](../stereotypes.md#SAF_SystemStory)|[tbd]|[taking_placeIN](../concepts.md#taking_placeIN)|
-|Include||[includingUC](../concepts.md#includingUC)|
+|[SAF_SystemStory](../stereotypes.md#SAF_SystemStory)|[tbd]|[SSTRYtakingPlaceInLSC](../concepts.md#SSTRYtakingPlaceInLSC)|
+|Include||[includingSSTRY](../concepts.md#includingSSTRY)|
 |[SAF_FV01a_SystemStoryDiagram](../stereotypes.md#SAF_FV01a_SystemStoryDiagram)|[tbd]|[System Story Viewpoint](../concepts.md#System-Story-Viewpoint)|
 |[SAF_SystemStory](../stereotypes.md#SAF_SystemStory)|[tbd]|[System Story](../concepts.md#System-Story)|
 |[SAF_LogicalUser](../stereotypes.md#SAF_LogicalUser)|[tbd]|[Logical User](../concepts.md#Logical-User)|
-|[SAF_LogicalContextElementActing](../stereotypes.md#SAF_LogicalContextElementActing)|[tbd]|[actingIN](../concepts.md#actingIN)|
+|[SAF_LogicalContextElementActing](../stereotypes.md#SAF_LogicalContextElementActing)|[tbd]|[LEactingInSSTRY](../concepts.md#LEactingInSSTRY)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Stakeholder Requirement Viewpoint](Stakeholder-Requirement-Viewpoint.md)

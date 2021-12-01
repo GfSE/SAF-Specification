@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#244,SAF_Cameo_Profile#343</div>
+<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#345</div>
 
 # Operational Story Viewpoint
 *Domain:* **Operational** *Aspect:* **Context**
@@ -29,7 +29,7 @@ A use case diagram depicting model elements representing Operational Story(s) an
 |[SAF_OperationalStory](../stereotypes.md#SAF_OperationalStory)|[tbd]|[Operational Story](../concepts.md#Operational-Story)|
 |[SAF_OV01a_OperationalStoryDiagram](../stereotypes.md#SAF_OV01a_OperationalStoryDiagram)|[tbd]|[Operational Story Viewpoint](../concepts.md#Operational-Story-Viewpoint)|
 |[SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)|[tbd]|[Operational Performer](../concepts.md#Operational-Performer)|
-|[SAF_OperationalPerformerActing](../stereotypes.md#SAF_OperationalPerformerActing)|[tbd]|[actingIN](../concepts.md#actingIN)|
+|[SAF_OperationalPerformerActing](../stereotypes.md#SAF_OperationalPerformerActing)|[tbd]|[OPactingIN](../concepts.md#OPactingIN)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

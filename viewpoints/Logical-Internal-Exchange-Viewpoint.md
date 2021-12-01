@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#244,SAF_Cameo_Profile#343</div>
+<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#345</div>
 
 # Logical Internal Exchange Viewpoint
 *Domain:* **Logical** *Aspect:* **Interaction and Collaboration**
@@ -44,7 +44,7 @@ One or more IBD featuring the logical element(s) of the SOI, and the SOI boundar
 |InterfaceBlock||[Logical Interface Specification](../concepts.md#Logical-Interface-Specification)|
 |ProxyPort||[Logical Interface](../concepts.md#Logical-Interface)|
 |[SAF_LV04b_LogicalInternalExchangeDiagram](../stereotypes.md#SAF_LV04b_LogicalInternalExchangeDiagram)|[tbd]|[Logical Internal Exchange Viewpoint](../concepts.md#Logical-Internal-Exchange-Viewpoint)|
-|Property||[applyingTO](../concepts.md#applyingTO)|
+|Property||[LIapplyingToLE](../concepts.md#LIapplyingToLE)|
 |[SAF_DomainKind](../stereotypes.md#SAF_DomainKind)|[tbd]|[System Domain Kind](../concepts.md#System-Domain-Kind)|
 |Connector||[Logical Interface Connection](../concepts.md#Logical-Interface-Connection)|
 |ItemFlow||[Logical Item Exchange](../concepts.md#Logical-Item-Exchange)|

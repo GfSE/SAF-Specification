@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#244,SAF_Cameo_Profile#343</div>
+<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#345</div>
 
 # Stakeholder Requirement Viewpoint
 *Domain:* **Operational** *Aspect:* **Requirement**
@@ -34,7 +34,7 @@ Note 2: Even if different Stakeholder may have intersecting interests and / or c
 |[SAF_OV06a_StakeholderRequirementDiagram](../stereotypes.md#SAF_OV06a_StakeholderRequirementDiagram)|[tbd]|[Stakeholder Requirement Viewpoint](../concepts.md#Stakeholder-Requirement-Viewpoint)|
 |[SAF_StakeholderRequirement](../stereotypes.md#SAF_StakeholderRequirement)|[tbd]|[Stakeholder Requirement](../concepts.md#Stakeholder-Requirement)|
 |[SAF_StakeholderRequirementRefinement](../stereotypes.md#SAF_StakeholderRequirementRefinement)|[tbd]
-|[refiningSTRY](../concepts.md#refiningSTRY)|
+|[SRrefiningOPSTRY](../concepts.md#SRrefiningOPSTRY)|
 |[SAF_SystemOfInterestConcern](../stereotypes.md#SAF_SystemOfInterestConcern)|[tbd]|[System of Interest Concern](../concepts.md#System-of-Interest-Concern)|
 |Package||[imposedBY](../concepts.md#imposedBY)|
 ## Input from other Viewpoints

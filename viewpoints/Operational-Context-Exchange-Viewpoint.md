@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#244,SAF_Cameo_Profile#343</div>
+<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#345</div>
 
 # Operational Context Exchange Viewpoint
 *Domain:* **Operational** *Aspect:* **Context**
@@ -24,7 +24,7 @@ An internal block diagram (IBD) associated to an Operational Context showing the
 |---|---|---|
 |Connector||[Operational Connection](../concepts.md#Operational-Connection)|
 |[SAF_OV01c_OperationalContextExchangeDiagram](../stereotypes.md#SAF_OV01c_OperationalContextExchangeDiagram)|[tbd]|[Operational Context Exchange Viewpoint](../concepts.md#Operational-Context-Exchange-Viewpoint)|
-|ItemFlow||[allowing](../concepts.md#allowing)|
+|ItemFlow||[OCallowingOIE](../concepts.md#OCallowingOIE)|
 |ItemFlow||[Operational Item Exchange](../concepts.md#Operational-Item-Exchange)|
 |[SAF_OperationalDomainKind](../stereotypes.md#SAF_OperationalDomainKind)|[tbd]|[Operational Domain Kind](../concepts.md#Operational-Domain-Kind)|
 |[SAF_OperationalRole](../stereotypes.md#SAF_OperationalRole)|[tbd]|[Operational Context Constituent](../concepts.md#Operational-Context-Constituent)|

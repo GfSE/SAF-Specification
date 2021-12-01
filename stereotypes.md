@@ -1,7 +1,7 @@
-<div align="right">SAF_Cameo_Profile#343</div>
+<div align="right">SAF_Cameo_Profile#345</div>
 
 ## SAF_ContextElementCharacterization 
-implements concept [characterisedBY](concepts.md#characterisedBY)
+implements concept [representingSCE](concepts.md#representingSCE)
 
 *please add description*
 ## SAF_ContextFunction![icon](icons/SAF_ContextFunction.svg)
@@ -19,7 +19,7 @@ implements concept [composedOF](concepts.md#composedOF)
 
 *please add description*
 ## SAF_DomainKindDerivation 
-implements concept [derivingFROM](concepts.md#derivingFROM)
+implements concept [SDKderivingFromODK](concepts.md#SDKderivingFromODK)
 
 
 ## SAF_FV01a_SystemStoryDiagram![icon](icons/SAF_FV01a_SystemStoryDiagram.svg)
@@ -97,7 +97,7 @@ implements concept [Logical System Context](concepts.md#Logical-System-Context)
 
 *please add description*
 ## SAF_LogicalContextElementActing 
-implements concept [actingIN](concepts.md#actingIN)
+implements concept [LEactingInSSTRY](concepts.md#LEactingInSSTRY)
 
 *please add description*
 ## SAF_LogicalElement![icon](icons/SAF_LogicalElement.svg)
@@ -178,19 +178,19 @@ implements concept [Operational Capability](concepts.md#Operational-Capability)
 
 *please add description*
 ## SAF_OperationalCapabilityComposition 
-implements concept [composedOF](concepts.md#composedOF)
+implements concept [OCcomposedOF](concepts.md#OCcomposedOF)
 
 *please add description*
 ## SAF_OperationalCapabilityDependency 
-implements concept [dependingON](concepts.md#dependingON)
+implements concept [OCdependingON](concepts.md#OCdependingON)
 
 *please add description*
 ## SAF_OperationalCapabilityGeneralization 
-implements concept [specializedBY](concepts.md#specializedBY)
+implements concept [OCspecializedBY](concepts.md#OCspecializedBY)
 
 *please add description*
 ## SAF_OperationalCapabilitySupport 
-implements concept [supportingSTRY](concepts.md#supportingSTRY)
+implements concept [OCsupportingOPSTRY](concepts.md#OCsupportingOPSTRY)
 
 *please add description*
 ## SAF_OperationalContext![icon](icons/SAF_OperationalContext.svg)
@@ -210,15 +210,15 @@ implements concept [Operational Performer](concepts.md#Operational-Performer)
 
 *please add description*
 ## SAF_OperationalPerformerActing 
-implements concept [actingIN](concepts.md#actingIN)
+implements concept [OPactingIN](concepts.md#OPactingIN)
 
 *please add description*
 ## SAF_OperationalPerformerComposition 
-implements concept [composedOF](concepts.md#composedOF)
+implements concept [OPcomposedOF](concepts.md#OPcomposedOF)
 
 *please add description*
 ## SAF_OperationalPerformerExhibit![icon](icons/SAF_OperationalPerformerExhibit.svg)
-implements concept [exhibiting](concepts.md#exhibiting)
+implements concept [OPexhibitingOC](concepts.md#OPexhibitingOC)
 
 *please add description*
 ## SAF_OperationalProcess![icon](icons/SAF_OperationalProcess.svg)
@@ -226,15 +226,15 @@ implements concept [Operational Process](concepts.md#Operational-Process)
 
 *please add description*
 ## SAF_OperationalProcessAction![icon](icons/SAF_OperationalProcessAction.svg)
-implements concept [Operational Usage](concepts.md#Operational-Usage)
+implements concept [Operational Process Usage](concepts.md#Operational-Process-Usage)
 
 *please add description*
 ## SAF_OperationalProcessMapping 
-implements concept [mappingTO](concepts.md#mappingTO)
+implements concept [OPcontributesToOC](concepts.md#OPcontributesToOC)
 
 *please add description*
 ## SAF_OperationalProcessRefinement 
-implements concept [refiningSTRY](concepts.md#refiningSTRY)
+implements concept [OPrefiningOPSTRY](concepts.md#OPrefiningOPSTRY)
 
 *please add description*
 ## SAF_OperationalRole![icon](icons/SAF_OperationalRole.svg)
@@ -303,7 +303,7 @@ implements concept [imposedBY](concepts.md#imposedBY)
 ## SAF_StakeholderRequirementRefinement 
 implements concept [refiningCNRN](concepts.md#refiningCNRN)
 
-implements concept [refiningSTRY](concepts.md#refiningSTRY)
+implements concept [SRrefiningOPSTRY](concepts.md#SRrefiningOPSTRY)
 
 *please add description*
 
@@ -312,19 +312,19 @@ implements concept [System Capability](concepts.md#System-Capability)
 
 *please add description*
 ## SAF_SystemCapabilityComposition 
-implements concept [composedOF](concepts.md#composedOF)
+implements concept [SCcomposedOF](concepts.md#SCcomposedOF)
 
 *please add description*
 ## SAF_SystemCapabilityDependency 
-implements concept [dependingON](concepts.md#dependingON)
+implements concept [SCdependingON](concepts.md#SCdependingON)
 
 *please add description*
 ## SAF_SystemCapabilityGeneralization 
-implements concept [specializedBY](concepts.md#specializedBY)
+implements concept [SCspecializedBY](concepts.md#SCspecializedBY)
 
 *please add description*
 ## SAF_SystemCapabilityMapping 
-implements concept [mappingTO](concepts.md#mappingTO)
+implements concept [SCmappingTO](concepts.md#SCmappingTO)
 
 *please add description*
 
@@ -341,11 +341,11 @@ implements concept [Functional Requirement](concepts.md#Functional-Requirement)
 
 *please add description*
 ## SAF_SystemFunctionalRequirementConstraint 
-implements concept [boundedBY](concepts.md#boundedBY)
+implements concept [FRboundedBY](concepts.md#FRboundedBY)
 
 *please add description*
 ## SAF_SystemFunctionalRequirementRefinement 
-implements concept [refiningSFC](concepts.md#refiningSFC)
+implements concept [FRrefiningSFC](concepts.md#FRrefiningSFC)
 
 *please add description*
 ## SAF_SystemNonFunctionalRequirement![icon](icons/SAF_SystemNonFunctionalRequirement.svg)
@@ -378,18 +378,18 @@ implements concept [derivingREQ](concepts.md#derivingREQ)
 ## SAF_SystemRequirementRefinement 
 implements concept [refiningCIF](concepts.md#refiningCIF)
 
-implements concept [refiningSTRY](concepts.md#refiningSTRY)
+implements concept [SRrefiningSSTRY](concepts.md#SRrefiningSSTRY)
 
 *please add description*
 
 ## SAF_SystemStory![icon](icons/SAF_SystemStory.svg)
 implements concept [System Story](concepts.md#System-Story)
 
-implements concept [taking_placeIN](concepts.md#taking_placeIN)
+implements concept [SSTRYtakingPlaceInLSC](concepts.md#SSTRYtakingPlaceInLSC)
 
 *please add description*
 ## SAF_SystemStoryContribution 
-implements concept [contributingTO](concepts.md#contributingTO)
+implements concept [SScontributingToOS](concepts.md#SScontributingToOS)
 
 *please add description*
 

@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#244,SAF_Cameo_Profile#343</div>
+<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#345</div>
 
 # System Process Viewpoint
 *Domain:* **Functional** *Aspect:* **Behavior**
@@ -44,14 +44,14 @@ Note: It is recommended to compile separate activity diagrams refining Use Case 
 |Association||[Logical SOI Constituent](../concepts.md#Logical-SOI-Constituent)|
 |[SAF_SystemFunction](../stereotypes.md#SAF_SystemFunction)|[tbd]|[System Function](../concepts.md#System-Function)|
 |ObjectFlow||[Functional Flow](../concepts.md#Functional-Flow)|
-|InputPin||[TO](../concepts.md#TO)|
+|InputPin||[FFtoFP](../concepts.md#FFtoFP)|
 |Association||[Logical Context Constituent](../concepts.md#Logical-Context-Constituent)|
 |[SAF_FV03a_SystemProcessDiagram](../stereotypes.md#SAF_FV03a_SystemProcessDiagram)|[tbd]|[System Process Viewpoint](../concepts.md#System-Process-Viewpoint)|
 |[SAF_FunctionAction](../stereotypes.md#SAF_FunctionAction)|[tbd]|[Functional Usage](../concepts.md#Functional-Usage)|
 |Allocate||[performingSystemTSK](../concepts.md#performingSystemTSK)|
 |ControlFlow||[controlledAFTER](../concepts.md#controlledAFTER)|
 |[SAF_ContextFunction](../stereotypes.md#SAF_ContextFunction)|[tbd]|[Context Function](../concepts.md#Context-Function)|
-|OutputPin||[FROM](../concepts.md#FROM)|
+|OutputPin||[FFfromFP](../concepts.md#FFfromFP)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Stakeholder Requirement Viewpoint](Stakeholder-Requirement-Viewpoint.md)

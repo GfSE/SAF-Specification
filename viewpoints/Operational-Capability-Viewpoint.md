@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#244,SAF_Cameo_Profile#343</div>
+<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#345</div>
 
 # Operational Capability Viewpoint
 *Domain:* **Operational** *Aspect:* **Structure**
@@ -23,10 +23,10 @@ The result of the business and mission analysis is one or more block definition 
 ## Profile Model Reference
 |Stereotype | Description|realized Concept
 |---|---|---|
-|[SAF_OperationalCapabilityDependency](../stereotypes.md#SAF_OperationalCapabilityDependency)|[tbd]|[dependingON](../concepts.md#dependingON)|
+|[SAF_OperationalCapabilityDependency](../stereotypes.md#SAF_OperationalCapabilityDependency)|[tbd]|[OCdependingON](../concepts.md#OCdependingON)|
 |[SAF_OV02c_OperationalCapabilityDiagram](../stereotypes.md#SAF_OV02c_OperationalCapabilityDiagram)|[tbd]|[Operational Capability Viewpoint](../concepts.md#Operational-Capability-Viewpoint)|
-|[SAF_OperationalCapabilityComposition](../stereotypes.md#SAF_OperationalCapabilityComposition)|[tbd]|[composedOF](../concepts.md#composedOF)|
-|[SAF_OperationalCapabilityGeneralization](../stereotypes.md#SAF_OperationalCapabilityGeneralization)|[tbd]|[specializedBY](../concepts.md#specializedBY)|
+|[SAF_OperationalCapabilityComposition](../stereotypes.md#SAF_OperationalCapabilityComposition)|[tbd]|[OCcomposedOF](../concepts.md#OCcomposedOF)|
+|[SAF_OperationalCapabilityGeneralization](../stereotypes.md#SAF_OperationalCapabilityGeneralization)|[tbd]|[OCspecializedBY](../concepts.md#OCspecializedBY)|
 |[SAF_OperationalCapability](../stereotypes.md#SAF_OperationalCapability)|[tbd]|[Operational Capability](../concepts.md#Operational-Capability)|
 ## Input from other Viewpoints
 ### Required Viewpoints

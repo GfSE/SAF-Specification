@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#244,SAF_Cameo_Profile#343</div>
+<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#345</div>
 
 # System Capability Viewpoint
 *Domain:* **Functional** *Aspect:* **Structure**
@@ -23,12 +23,12 @@ The result of the [tbd] process is one or more block definition diagram(s) (BDD)
 |Stereotype | Description|realized Concept
 |---|---|---|
 |[SAF_FV02b_SystemCapabilityDiagram](../stereotypes.md#SAF_FV02b_SystemCapabilityDiagram)|[tbd]|[System Capability Viewpoint](../concepts.md#System-Capability-Viewpoint)|
-|[SAF_SystemCapabilityGeneralization](../stereotypes.md#SAF_SystemCapabilityGeneralization)|[tbd]|[specializedBY](../concepts.md#specializedBY)|
+|[SAF_SystemCapabilityGeneralization](../stereotypes.md#SAF_SystemCapabilityGeneralization)|[tbd]|[SCspecializedBY](../concepts.md#SCspecializedBY)|
 |[SAF_SystemCapabilityMapping](../stereotypes.md#SAF_SystemCapabilityMapping)|[tbd]
-|[mappingTO](../concepts.md#mappingTO)|
-|[SAF_SystemCapabilityComposition](../stereotypes.md#SAF_SystemCapabilityComposition)|[tbd]|[composedOF](../concepts.md#composedOF)|
+|[SCmappingTO](../concepts.md#SCmappingTO)|
+|[SAF_SystemCapabilityComposition](../stereotypes.md#SAF_SystemCapabilityComposition)|[tbd]|[SCcomposedOF](../concepts.md#SCcomposedOF)|
 |[SAF_SystemCapability](../stereotypes.md#SAF_SystemCapability)|[tbd]|[System Capability](../concepts.md#System-Capability)|
-|[SAF_SystemCapabilityDependency](../stereotypes.md#SAF_SystemCapabilityDependency)|[tbd]|[dependingON](../concepts.md#dependingON)|
+|[SAF_SystemCapabilityDependency](../stereotypes.md#SAF_SystemCapabilityDependency)|[tbd]|[SCdependingON](../concepts.md#SCdependingON)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [System Story Viewpoint](System-Story-Viewpoint.md)
