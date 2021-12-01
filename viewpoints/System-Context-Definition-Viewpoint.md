@@ -33,8 +33,8 @@ A BDD featuring the following elements
 |Stereotype | Description|realized Concept
 |---|---|---|
 |Association||[Logical SOI Constituent](../concepts.md#Logical-SOI-Constituent)|
-|[SAF_LogicalRole](../stereotypes.md#SAF_LogicalRole)|[tbd]|[Logical Context Constituent](../concepts.md#Logical-Context-Constituent)|
 |[SAF_LogicalSOI](../stereotypes.md#SAF_LogicalSOI)|[tbd]|[Logical SOI](../concepts.md#Logical-SOI)|
+|[SAF_LogicalRole](../stereotypes.md#SAF_LogicalRole)|[tbd]|[Logical Context Constituent](../concepts.md#Logical-Context-Constituent)|
 |[SAF_LogicalExternalSystem](../stereotypes.md#SAF_LogicalExternalSystem)|[tbd]|[Logical External System](../concepts.md#Logical-External-System)|
 |[SAF_LogicalRole](../stereotypes.md#SAF_LogicalRole)|[tbd]|[Logical SOI Constituent](../concepts.md#Logical-SOI-Constituent)|
 |[SAF_LogicalEnvironment](../stereotypes.md#SAF_LogicalEnvironment)|[tbd]|[Logical Environment](../concepts.md#Logical-Environment)|
@@ -50,3 +50,8 @@ A BDD featuring the following elements
 * [Operational Process Viewpoint](Operational-Process-Viewpoint.md)
 * [Operational Interaction Viewpoint](Operational-Interaction-Viewpoint.md)
 * [System Functional Breakdown Viewpoint](System-Functional-Breakdown-Viewpoint.md)
+# Viewpoint Concept and Profile Diagrams
+## Concept
+![System Context Definition Concept](System-Context-Definition-Concept.svg)
+## Profile
+![System Context Definition Profile](System-Context-Definition-Profile.svg)

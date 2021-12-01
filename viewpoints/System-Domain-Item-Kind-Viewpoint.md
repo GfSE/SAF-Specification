@@ -41,3 +41,8 @@ Domain Item Kind(s) are managed in the domain knowledge package of the SOI, the 
 *none*
 ### Recommended Viewpoints
 *none*
+# Viewpoint Concept and Profile Diagrams
+## Concept
+![System Domain Item Kind Concept](System-Domain-Item-Kind-Concept.svg)
+## Profile
+![System Domain Item Kind Profile](System-Domain-Item-Kind-Profile.svg)

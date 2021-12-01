@@ -36,3 +36,8 @@ Operational Domain Item Kind(s) are managed in the domain knowledge package of E
 *none*
 ### Recommended Viewpoints
 *none*
+# Viewpoint Concept and Profile Diagrams
+## Concept
+![Operational Domain Item Kind Concept](Operational-Domain-Item-Kind-Concept.svg)
+## Profile
+![Operational Domain Item Kind Profile](Operational-Domain-Item-Kind-Profile.svg)

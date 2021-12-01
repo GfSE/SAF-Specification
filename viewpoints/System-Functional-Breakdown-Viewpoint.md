@@ -41,3 +41,8 @@ The result of the [tbd] process is one or more block definition diagram(s) (BDD)
 *none*
 ### Recommended Viewpoints
 * [System Process Viewpoint](System-Process-Viewpoint.md)
+# Viewpoint Concept and Profile Diagrams
+## Concept
+![System Functional Breakdown Concept](System-Functional-Breakdown-Concept.svg)
+## Profile
+![System Functional Breakdown Profile](System-Functional-Breakdown-Profile.svg)

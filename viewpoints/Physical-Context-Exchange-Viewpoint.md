@@ -47,3 +47,8 @@ C) A context interface table is used to define the applicable standard(s), proto
 *none*
 ### Recommended Viewpoints
 *none*
+# Viewpoint Concept and Profile Diagrams
+## Concept
+![Physical Context Exchange Concept](Physical-Context-Exchange-Concept.svg)
+## Profile
+*none*

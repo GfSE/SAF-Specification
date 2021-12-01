@@ -35,3 +35,8 @@ Note: Identified Stakeholders are related to Operational Performer(s) if appropr
 * [Operational Context Definition Viewpoint](Operational-Context-Definition-Viewpoint.md)
 ### Recommended Viewpoints
 * [Operational Capability Viewpoint](Operational-Capability-Viewpoint.md)
+# Viewpoint Concept and Profile Diagrams
+## Concept
+![Operational Performer Concept](Operational-Performer-Concept.svg)
+## Profile
+![Operational Performer Profile](Operational-Performer-Profile.svg)

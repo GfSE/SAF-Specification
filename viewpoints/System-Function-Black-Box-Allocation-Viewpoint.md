@@ -45,3 +45,8 @@ A System Function Black Box Allocation Matrix featuring
 * [Operational Process Viewpoint](Operational-Process-Viewpoint.md)
 * [Operational Interaction Viewpoint](Operational-Interaction-Viewpoint.md)
 * [System Functional Breakdown Viewpoint](System-Functional-Breakdown-Viewpoint.md)
+# Viewpoint Concept and Profile Diagrams
+## Concept
+![System Function Black Box Allocation Concept](System-Function-Black-Box-Allocation-Concept.svg)
+## Profile
+![System Function Black Box Allocation Profile](System-Function-Black-Box-Allocation-Profile.svg)

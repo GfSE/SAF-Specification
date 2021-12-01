@@ -41,3 +41,8 @@ The results of the Stakeholder Analysis are identified Stakeholder(s). A Stakeho
 ### Recommended Viewpoints
 * [Operational Story Viewpoint](Operational-Story-Viewpoint.md)
 * [Operational Performer Viewpoint](Operational-Performer-Viewpoint.md)
+# Viewpoint Concept and Profile Diagrams
+## Concept
+![Stakeholder Identification Concept](Stakeholder-Identification-Concept.svg)
+## Profile
+![Stakeholder Identification Profile](Stakeholder-Identification-Profile.svg)

@@ -37,3 +37,8 @@ The relationship(s) of Operational Capability(s) to Operational Story(s) and to 
 * [Operational Capability Viewpoint](Operational-Capability-Viewpoint.md)
 ### Recommended Viewpoints
 *none*
+# Viewpoint Concept and Profile Diagrams
+## Concept
+![Operational Capability Traceability Concept](Operational-Capability-Traceability-Concept.svg)
+## Profile
+![Operational Capability Traceability Profile](Operational-Capability-Traceability-Profile.svg)

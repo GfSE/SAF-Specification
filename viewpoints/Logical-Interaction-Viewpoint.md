@@ -48,3 +48,8 @@ It contains
 * [Logical Structure Viewpoint](Logical-Structure-Viewpoint.md)
 ### Recommended Viewpoints
 * [System Process Viewpoint](System-Process-Viewpoint.md)
+# Viewpoint Concept and Profile Diagrams
+## Concept
+![Logical Interaction Concept](Logical-Interaction-Concept.svg)
+## Profile
+![Logical Interaction Profile](Logical-Interaction-Profile.svg)

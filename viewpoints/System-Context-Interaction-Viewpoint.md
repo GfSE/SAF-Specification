@@ -40,3 +40,8 @@ It contains
 ### Recommended Viewpoints
 * [Operational Context Definition Viewpoint](Operational-Context-Definition-Viewpoint.md)
 * [Operational Process Viewpoint](Operational-Process-Viewpoint.md)
+# Viewpoint Concept and Profile Diagrams
+## Concept
+![System Context Interaction Concept](System-Context-Interaction-Concept.svg)
+## Profile
+![System Context Interaction Profile](System-Context-Interaction-Profile.svg)

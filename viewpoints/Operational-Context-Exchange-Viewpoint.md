@@ -35,3 +35,8 @@ An internal block diagram (IBD) associated to an Operational Context showing the
 * [Operational Domain Item Kind Viewpoint](Operational-Domain-Item-Kind-Viewpoint.md)
 ### Recommended Viewpoints
 *none*
+# Viewpoint Concept and Profile Diagrams
+## Concept
+![Operational Context Exchange Concept](Operational-Context-Exchange-Concept.svg)
+## Profile
+![Operational Context Exchange Profile](Operational-Context-Exchange-Profile.svg)

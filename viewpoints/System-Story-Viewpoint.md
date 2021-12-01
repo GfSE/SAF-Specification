@@ -31,9 +31,9 @@ Note: [tbd]
 |Stereotype | Description|realized Concept
 |---|---|---|
 |[SAF_LogicalExternalSystem](../stereotypes.md#SAF_LogicalExternalSystem)|[tbd]|[Logical External System](../concepts.md#Logical-External-System)|
+|[SAF_LogicalEnvironment](../stereotypes.md#SAF_LogicalEnvironment)|[tbd]|[Logical Environment](../concepts.md#Logical-Environment)|
 |[SAF_SystemStoryContribution](../stereotypes.md#SAF_SystemStoryContribution)|[tbd]
 |[SScontributingToOS](../concepts.md#SScontributingToOS)|
-|[SAF_LogicalEnvironment](../stereotypes.md#SAF_LogicalEnvironment)|[tbd]|[Logical Environment](../concepts.md#Logical-Environment)|
 |[SAF_SystemStory](../stereotypes.md#SAF_SystemStory)|[tbd]|[SSTRYtakingPlaceInLSC](../concepts.md#SSTRYtakingPlaceInLSC)|
 |Include||[includingSSTRY](../concepts.md#includingSSTRY)|
 |[SAF_FV01a_SystemStoryDiagram](../stereotypes.md#SAF_FV01a_SystemStoryDiagram)|[tbd]|[System Story Viewpoint](../concepts.md#System-Story-Viewpoint)|
@@ -48,3 +48,8 @@ Note: [tbd]
 * [Operational Capability Viewpoint](Operational-Capability-Viewpoint.md)
 * [Operational Process Viewpoint](Operational-Process-Viewpoint.md)
 * [Operational Interaction Viewpoint](Operational-Interaction-Viewpoint.md)
+# Viewpoint Concept and Profile Diagrams
+## Concept
+![System Story Concept](System-Story-Concept.svg)
+## Profile
+![System Story Profile](System-Story-Profile.svg)

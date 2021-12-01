@@ -43,3 +43,8 @@ Note:
 * [Operational Process Viewpoint](Operational-Process-Viewpoint.md)
 * [Operational Interaction Viewpoint](Operational-Interaction-Viewpoint.md)
 * [System Functional Breakdown Viewpoint](System-Functional-Breakdown-Viewpoint.md)
+# Viewpoint Concept and Profile Diagrams
+## Concept
+![System State Concept](System-State-Concept.svg)
+## Profile
+![System State Profile](System-State-Profile.svg)

@@ -30,8 +30,8 @@ Note: Operational Process Activity(s) are assigned to Operational Role(s) and th
 |OutputPin||[FROM](../concepts.md#FROM)|
 |[SAF_OperationalProcessAction](../stereotypes.md#SAF_OperationalProcessAction)|[tbd]|[Operational Process Usage](../concepts.md#Operational-Process-Usage)|
 |ControlFlow||[controlledAFTER](../concepts.md#controlledAFTER)|
-|[SAF_OV03a_OperationalProcessDiagram](../stereotypes.md#SAF_OV03a_OperationalProcessDiagram)|[tbd]|[Operational Process Viewpoint](../concepts.md#Operational-Process-Viewpoint)|
 |[SAF_OperationalProcess](../stereotypes.md#SAF_OperationalProcess)|[tbd]|[Operational Process](../concepts.md#Operational-Process)|
+|[SAF_OV03a_OperationalProcessDiagram](../stereotypes.md#SAF_OV03a_OperationalProcessDiagram)|[tbd]|[Operational Process Viewpoint](../concepts.md#Operational-Process-Viewpoint)|
 |[SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)|[tbd]|[Operational Performer](../concepts.md#Operational-Performer)|
 |[SAF_OperationalRole](../stereotypes.md#SAF_OperationalRole)|[tbd]|[Operational Context Constituent](../concepts.md#Operational-Context-Constituent)|
 ## Input from other Viewpoints
@@ -39,3 +39,8 @@ Note: Operational Process Activity(s) are assigned to Operational Role(s) and th
 * [Operational Context Exchange Viewpoint](Operational-Context-Exchange-Viewpoint.md)
 ### Recommended Viewpoints
 *none*
+# Viewpoint Concept and Profile Diagrams
+## Concept
+![Operational Process Concept](Operational-Process-Concept.svg)
+## Profile
+![Operational Process Profile](Operational-Process-Profile.svg)

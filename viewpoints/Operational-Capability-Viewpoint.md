@@ -34,3 +34,8 @@ The result of the business and mission analysis is one or more block definition 
 * [Operational Performer Viewpoint](Operational-Performer-Viewpoint.md)
 ### Recommended Viewpoints
 *none*
+# Viewpoint Concept and Profile Diagrams
+## Concept
+![Operational Capability Concept](Operational-Capability-Concept.svg)
+## Profile
+![Operational Capability Profile](Operational-Capability-Profile.svg)

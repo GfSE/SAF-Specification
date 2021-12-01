@@ -34,3 +34,8 @@ Note: In addition, the block definition diagram may identify the Operational Cap
 * [Operational Story Viewpoint](Operational-Story-Viewpoint.md)
 ### Recommended Viewpoints
 * [Operational Capability Viewpoint](Operational-Capability-Viewpoint.md)
+# Viewpoint Concept and Profile Diagrams
+## Concept
+![Operational Context Definition Concept](Operational-Context-Definition-Concept.svg)
+## Profile
+![Operational Context Definition Profile](Operational-Context-Definition-Profile.svg)

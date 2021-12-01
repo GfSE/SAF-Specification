@@ -36,3 +36,8 @@ It contains
 * [Operational Context Exchange Viewpoint](Operational-Context-Exchange-Viewpoint.md)
 ### Recommended Viewpoints
 *none*
+# Viewpoint Concept and Profile Diagrams
+## Concept
+![Operational Interaction Concept](Operational-Interaction-Concept.svg)
+## Profile
+![Operational Interaction Profile](Operational-Interaction-Profile.svg)

@@ -54,3 +54,8 @@ One or more IBD featuring the logical element(s) of the SOI, and the SOI boundar
 * [Logical Structure Viewpoint](Logical-Structure-Viewpoint.md)
 ### Recommended Viewpoints
 * [System Process Viewpoint](System-Process-Viewpoint.md)
+# Viewpoint Concept and Profile Diagrams
+## Concept
+![Logical Internal Exchange Concept](Logical-Internal-Exchange-Concept.svg)
+## Profile
+![Logical Internal Exchange Profile](Logical-Internal-Exchange-Profile.svg)

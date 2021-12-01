@@ -55,3 +55,8 @@ The following artifact(s) support the modeling activities:
 *none*
 ### Recommended Viewpoints
 *none*
+# Viewpoint Concept and Profile Diagrams
+## Concept
+![Physical Structure Concept](Physical-Structure-Concept.svg)
+## Profile
+*none*

@@ -47,3 +47,8 @@ A) The physical context definition diagram defines the elements available in the
 *none*
 ### Recommended Viewpoints
 *none*
+# Viewpoint Concept and Profile Diagrams
+## Concept
+![Physical Context Definition Concept](Physical-Context-Definition-Concept.svg)
+## Profile
+![Physical Context Definition Profile](Physical-Context-Definition-Profile.svg)

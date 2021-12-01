@@ -38,8 +38,8 @@ Note: more than one IBD focused on different areas of interest may be used in od
 |InterfaceBlock||[Logical Interface Specification](../concepts.md#Logical-Interface-Specification)|
 |[SAF_FV01c_SystemContextExchangeDiagram](../stereotypes.md#SAF_FV01c_SystemContextExchangeDiagram)|[tbd]|[System Context Exchange Viewpoint](../concepts.md#System-Context-Exchange-Viewpoint)|
 |ProxyPort||[Logical Interface](../concepts.md#Logical-Interface)|
-|[SAF_LogicalRole](../stereotypes.md#SAF_LogicalRole)|[tbd]|[Logical Context Constituent](../concepts.md#Logical-Context-Constituent)|
 |[SAF_LogicalSOI](../stereotypes.md#SAF_LogicalSOI)|[tbd]|[Logical SOI](../concepts.md#Logical-SOI)|
+|[SAF_LogicalRole](../stereotypes.md#SAF_LogicalRole)|[tbd]|[Logical Context Constituent](../concepts.md#Logical-Context-Constituent)|
 |[SAF_LogicalExternalSystem](../stereotypes.md#SAF_LogicalExternalSystem)|[tbd]|[Logical External System](../concepts.md#Logical-External-System)|
 |[SAF_LogicalRole](../stereotypes.md#SAF_LogicalRole)|[tbd]|[Logical SOI Constituent](../concepts.md#Logical-SOI-Constituent)|
 |[SAF_LogicalEnvironment](../stereotypes.md#SAF_LogicalEnvironment)|[tbd]|[Logical Environment](../concepts.md#Logical-Environment)|
@@ -56,3 +56,8 @@ Note: more than one IBD focused on different areas of interest may be used in od
 * [Operational Process Viewpoint](Operational-Process-Viewpoint.md)
 * [Operational Interaction Viewpoint](Operational-Interaction-Viewpoint.md)
 * [System Functional Breakdown Viewpoint](System-Functional-Breakdown-Viewpoint.md)
+# Viewpoint Concept and Profile Diagrams
+## Concept
+![System Context Exchange Concept](System-Context-Exchange-Concept.svg)
+## Profile
+![System Context Exchange Profile](System-Context-Exchange-Profile.svg)

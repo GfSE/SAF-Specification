@@ -59,3 +59,8 @@ Note: It is recommended to compile separate activity diagrams refining Use Case 
 * [System Domain Item Kind Viewpoint](System-Domain-Item-Kind-Viewpoint.md)
 ### Recommended Viewpoints
 *none*
+# Viewpoint Concept and Profile Diagrams
+## Concept
+![System Process Concept](System-Process-Concept.svg)
+## Profile
+![System Process Profile](System-Process-Profile.svg)

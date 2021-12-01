@@ -69,3 +69,8 @@ Referring to a Stakeholder Requirement the dependency relation is <<derive>>, ot
 * [System Requirement Viewpoint](System-Requirement-Viewpoint.md)
 ### Recommended Viewpoints
 * [System Context Interaction Viewpoint](System-Context-Interaction-Viewpoint.md)
+# Viewpoint Concept and Profile Diagrams
+## Concept
+![System Requirement Traceability Concept](System-Requirement-Traceability-Concept.svg)
+## Profile
+![System Requirement Traceability Profile](System-Requirement-Traceability-Profile.svg)

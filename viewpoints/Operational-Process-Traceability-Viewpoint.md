@@ -26,11 +26,16 @@ The relationship(s) of Operational Process Activity(s) to Operational Story(s) a
 |[SAF_OperationalProcessRefinement](../stereotypes.md#SAF_OperationalProcessRefinement)|[tbd]|[OPrefiningOPSTRY](../concepts.md#OPrefiningOPSTRY)|
 |[SAF_OperationalProcess](../stereotypes.md#SAF_OperationalProcess)|[tbd]|[Operational Process](../concepts.md#Operational-Process)|
 |[SAF_OperationalCapability](../stereotypes.md#SAF_OperationalCapability)|[tbd]|[Operational Capability](../concepts.md#Operational-Capability)|
-|[SAF_OperationalStory](../stereotypes.md#SAF_OperationalStory)|[tbd]|[Operational Story](../concepts.md#Operational-Story)|
 |[SAF_OperationalProcessMapping](../stereotypes.md#SAF_OperationalProcessMapping)|[tbd]|[OPcontributesToOC](../concepts.md#OPcontributesToOC)|
+|[SAF_OperationalStory](../stereotypes.md#SAF_OperationalStory)|[tbd]|[Operational Story](../concepts.md#Operational-Story)|
 |[SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)|[tbd]|[Operational Performer](../concepts.md#Operational-Performer)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Operational Process Viewpoint](Operational-Process-Viewpoint.md)
 ### Recommended Viewpoints
 * [Operational Context Definition Viewpoint](Operational-Context-Definition-Viewpoint.md)
+# Viewpoint Concept and Profile Diagrams
+## Concept
+![Operational Process Traceability Concept](Operational-Process-Traceability-Concept.svg)
+## Profile
+![Operational Process Traceability Profile](Operational-Process-Traceability-Profile.svg)

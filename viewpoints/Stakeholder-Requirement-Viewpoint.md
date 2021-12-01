@@ -43,3 +43,8 @@ Note 2: Even if different Stakeholder may have intersecting interests and / or c
 ### Recommended Viewpoints
 * [Operational Story Viewpoint](Operational-Story-Viewpoint.md)
 * [Operational Performer Viewpoint](Operational-Performer-Viewpoint.md)
+# Viewpoint Concept and Profile Diagrams
+## Concept
+![Stakeholder Requirement Concept](Stakeholder-Requirement-Concept.svg)
+## Profile
+![Stakeholder Requirement Profile](Stakeholder-Requirement-Profile.svg)

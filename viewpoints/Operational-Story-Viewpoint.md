@@ -35,3 +35,8 @@ A use case diagram depicting model elements representing Operational Story(s) an
 *none*
 ### Recommended Viewpoints
 * [Operational Capability Viewpoint](Operational-Capability-Viewpoint.md)
+# Viewpoint Concept and Profile Diagrams
+## Concept
+![Operational Story Concept](Operational-Story-Concept.svg)
+## Profile
+![Operational Story Profile](Operational-Story-Profile.svg)

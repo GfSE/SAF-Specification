@@ -35,3 +35,8 @@ The result of the [tbd] process is one or more block definition diagram(s) (BDD)
 ### Recommended Viewpoints
 * [Operational Story Viewpoint](Operational-Story-Viewpoint.md)
 * [Operational Process Viewpoint](Operational-Process-Viewpoint.md)
+# Viewpoint Concept and Profile Diagrams
+## Concept
+![System Capability Concept](System-Capability-Concept.svg)
+## Profile
+![System Capability Profile](System-Capability-Profile.svg)
