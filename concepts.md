@@ -1144,3 +1144,267 @@ Specifies the fact that a Physical Interface Item defines the type of a Physical
 1 [System Domain Kind](#System-Domain-Kind) typingPRP 1..* [Logical Interface Property](#Logical-Interface-Property) 
 
 Specifies the fact that a System Domain Kind defines the type of a Logical Interface Property.
+# Association Class Concepts
+## Functional Usage
+1 [General Function](#General-Function) Functional Usage 0..* [General Function](#General-Function) 
+
+exposed in viewpoint [System Function Black Box Allocation Viewpoint](viewpoints/System-Function-Black-Box-Allocation-Viewpoint.md)
+
+exposed in viewpoint [System Process Viewpoint](viewpoints/System-Process-Viewpoint.md)
+
+realized by Stereotype [SAF_FunctionAction](stereotypes.md#SAF_FunctionAction)
+
+Usage of a Function by one or more other Function(s).
+## General Chronological Message
+1 [General Scenario Participation](#General-Scenario-Participation) General Chronological Message 1 [General Scenario Participation](#General-Scenario-Participation) 
+
+
+## General Scenario Participation
+0..* [General Scenario Participant](#General-Scenario-Participant) General Scenario Participation 0..* [General Interaction Scenario](#General-Interaction-Scenario) 
+
+
+## Generic Context Constituent
+1..* [General Context Element](#General-Context-Element) Generic Context Constituent 1..* [General Context](#General-Context) 
+
+Specifies the fact that a general context element is bound by a context.
+Bound by can mean 
+ - "exists only in this context"
+ - "happens only in this context"
+The meaning is left to specialisations of bound by
+## Hardware Constituent
+1 [Hardware Element](#Hardware-Element) Hardware Constituent 0..* [Hardware Element](#Hardware-Element) 
+
+Specifies the fact that a Hardware Element contains Hardware Element(s).
+## Hardware Constituent
+1 [Physical Element](#Physical-Element) Hardware Constituent 0..* [Hardware Element](#Hardware-Element) 
+
+exposed in viewpoint [Physical Structure Viewpoint](viewpoints/Physical-Structure-Viewpoint.md)
+
+Specifies the fact that an assembly contains any number of Hardware Element(s).
+## Internal Logical Chronological Message
+1 [Internal Logical Scenario Participation](#Internal-Logical-Scenario-Participation) Internal Logical Chronological Message 1 [Internal Logical Scenario Participation](#Internal-Logical-Scenario-Participation) 
+
+exposed in viewpoint [Logical Interaction Viewpoint](viewpoints/Logical-Interaction-Viewpoint.md)
+
+realized by Metaclass Message
+
+The sequential occurrence of exchange between Internal Logical Interaction Scenario Participations.
+## Internal Logical Scenario Participation
+0..* [Logical Constituent](#Logical-Constituent) Internal Logical Scenario Participation 0..* [Internal Logical Interaction Scenario](#Internal-Logical-Interaction-Scenario) 
+
+exposed in viewpoint [Logical Interaction Viewpoint](viewpoints/Logical-Interaction-Viewpoint.md)
+
+realized by Metaclass Lifeline
+
+Specifies the fact that a Logical Element role participates in an Internal Logical Interaction Scenario.
+## Logical Chronological Message
+1 [Logical Scenario Participation](#Logical-Scenario-Participation) Logical Chronological Message 1 [Logical Scenario Participation](#Logical-Scenario-Participation) 
+
+exposed in viewpoint [System Context Interaction Viewpoint](viewpoints/System-Context-Interaction-Viewpoint.md)
+
+realized by Metaclass Message
+
+The sequential occurrence of exchange between Logical Context Interaction Scenario Participations.
+## Logical Constituent
+1 [Logical Element](#Logical-Element) Logical Constituent 0..* [Logical Element](#Logical-Element) 
+
+exposed in viewpoint [Logical Interaction Viewpoint](viewpoints/Logical-Interaction-Viewpoint.md)
+
+exposed in viewpoint [Logical Structure Viewpoint](viewpoints/Logical-Structure-Viewpoint.md)
+
+realized by Metaclass Association
+
+realized by Metaclass Property
+
+Specifies the fact that a Logical Element contains any number of Logical Element(s).
+## Logical Context Constituent
+1..* [Logical Context Element](#Logical-Context-Element) Logical Context Constituent 1..* [Logical System Context](#Logical-System-Context) 
+
+exposed in viewpoint [System Context Definition Viewpoint](viewpoints/System-Context-Definition-Viewpoint.md)
+
+exposed in viewpoint [System Context Exchange Viewpoint](viewpoints/System-Context-Exchange-Viewpoint.md)
+
+exposed in viewpoint [System Context Interaction Viewpoint](viewpoints/System-Context-Interaction-Viewpoint.md)
+
+exposed in viewpoint [System Function Black Box Allocation Viewpoint](viewpoints/System-Function-Black-Box-Allocation-Viewpoint.md)
+
+exposed in viewpoint [System Process Viewpoint](viewpoints/System-Process-Viewpoint.md)
+
+realized by Stereotype [SAF_LogicalRole](stereotypes.md#SAF_LogicalRole)
+
+realized by Metaclass Association
+
+Specifies the fact that a Logical Context Element exists in a specific Logical Context.
+## Logical Interface Connection
+1 [Logical Interface](#Logical-Interface) Logical Interface Connection 1 [Logical Interface](#Logical-Interface) 
+
+exposed in viewpoint [Logical Internal Exchange Viewpoint](viewpoints/Logical-Internal-Exchange-Viewpoint.md)
+
+exposed in viewpoint [System Context Exchange Viewpoint](viewpoints/System-Context-Exchange-Viewpoint.md)
+
+realized by Metaclass Connector
+
+Specifies that two Logical interfaces are connected.
+## Logical SOI Constituent
+1 [Logical SOI](#Logical-SOI) Logical SOI Constituent 1..* [Logical System Context](#Logical-System-Context) 
+
+exposed in viewpoint [System Context Definition Viewpoint](viewpoints/System-Context-Definition-Viewpoint.md)
+
+exposed in viewpoint [System Context Exchange Viewpoint](viewpoints/System-Context-Exchange-Viewpoint.md)
+
+exposed in viewpoint [System Context Interaction Viewpoint](viewpoints/System-Context-Interaction-Viewpoint.md)
+
+exposed in viewpoint [System Function Black Box Allocation Viewpoint](viewpoints/System-Function-Black-Box-Allocation-Viewpoint.md)
+
+exposed in viewpoint [System Process Viewpoint](viewpoints/System-Process-Viewpoint.md)
+
+realized by Stereotype [SAF_LogicalRole](stereotypes.md#SAF_LogicalRole)
+
+realized by Metaclass Association
+
+Specifies the fact that a Logical SOI exists in a specific Logical Context.
+## Logical Scenario Participation
+0..* [Logical Constituent](#Logical-Constituent) Logical Scenario Participation 0..* [Logical Interaction Scenario](#Logical-Interaction-Scenario) 
+
+exposed in viewpoint [System Context Interaction Viewpoint](viewpoints/System-Context-Interaction-Viewpoint.md)
+
+realized by Metaclass Lifeline
+
+Specifies the fact that a logical system context role participates in a Logical Interaction Scenario.
+## Operational Chronological Message
+1 [Operational Scenario Participant](#Operational-Scenario-Participant) Operational Chronological Message 1 [Operational Scenario Participant](#Operational-Scenario-Participant) 
+
+exposed in viewpoint [Operational Interaction Viewpoint](viewpoints/Operational-Interaction-Viewpoint.md)
+
+realized by Metaclass Message
+
+The sequential occurrence of exchange between Operational Scenario Participations
+## Operational Connection
+1 [Operational Context Constituent](#Operational-Context-Constituent) Operational Connection 1 [Operational Context Constituent](#Operational-Context-Constituent) 
+
+exposed in viewpoint [Operational Context Exchange Viewpoint](viewpoints/Operational-Context-Exchange-Viewpoint.md)
+
+realized by Metaclass Connector
+
+A connection between Operational Context Constituents in an Operational Context allowing Operational Exchange.
+
+Aliases:
+UAF::OperationalConnector
+## Operational Context Constituent
+1..* [Operational Performer](#Operational-Performer) Operational Context Constituent 1..* [Operational Context](#Operational-Context) 
+
+exposed in viewpoint [Operational Context Definition Viewpoint](viewpoints/Operational-Context-Definition-Viewpoint.md)
+
+exposed in viewpoint [Operational Context Exchange Viewpoint](viewpoints/Operational-Context-Exchange-Viewpoint.md)
+
+exposed in viewpoint [Operational Interaction Viewpoint](viewpoints/Operational-Interaction-Viewpoint.md)
+
+exposed in viewpoint [Operational Process Viewpoint](viewpoints/Operational-Process-Viewpoint.md)
+
+realized by Stereotype [SAF_OperationalRole](stereotypes.md#SAF_OperationalRole)
+
+realized by Metaclass Association
+
+The Operational Context Constituent represents a participant in the Operational Activity executing one or more of its atomic action(s) interacting with other constituents of the identified Operational Context. Specific characteristics and features or, in case of persons or organizational units, knowledge and skills are assigned to a constituent necessary for the execution of the allocated actions.
+## Operational Process Exchange
+1 [Operational Process](#Operational-Process) Operational Process Exchange 1 [Operational Process](#Operational-Process) 
+
+exposed in viewpoint [Operational Process Viewpoint](viewpoints/Operational-Process-Viewpoint.md)
+
+realized by Metaclass ObjectFlow
+
+Specifies the fact that an Operational Process Exchange(s) has an  Exchange with another Operational Process.
+## Operational Process Usage
+1 [Operational Process](#Operational-Process) Operational Process Usage 0..* [Operational Process](#Operational-Process) 
+
+exposed in viewpoint [Operational Process Viewpoint](viewpoints/Operational-Process-Viewpoint.md)
+
+realized by Stereotype [SAF_OperationalProcessAction](stereotypes.md#SAF_OperationalProcessAction)
+
+Specifies the fact that an Operational Process is used in context of another Operational Process.
+
+Aliases:
+UAF::OperationalAction
+## Operational Scenario Participant
+0..* [Operational Context Constituent](#Operational-Context-Constituent) Operational Scenario Participant 0..* [Operational Interaction Scenario](#Operational-Interaction-Scenario) 
+
+exposed in viewpoint [Operational Interaction Viewpoint](viewpoints/Operational-Interaction-Viewpoint.md)
+
+realized by Metaclass Lifeline
+
+Specifies the fact that an Operational Role participates in an Operational Interaction Scenario.
+## Physic Context Constituent
+1..* [Physical Context Element](#Physical-Context-Element) Physic Context Constituent 1..* [Physical System Context](#Physical-System-Context) 
+
+exposed in viewpoint [Physical Context Definition Viewpoint](viewpoints/Physical-Context-Definition-Viewpoint.md)
+
+realized by Metaclass Association
+
+realized by Metaclass Property
+
+Specifies the fact that a Physical Context Element exists in a specific Physical Context.
+## Physic SOI Constituent
+1..* [Physical SOI](#Physical-SOI) Physic SOI Constituent 1 [Physical System Context](#Physical-System-Context) 
+
+exposed in viewpoint [Physical Context Definition Viewpoint](viewpoints/Physical-Context-Definition-Viewpoint.md)
+
+realized by Metaclass Association
+
+realized by Metaclass Property
+
+Specifies the fact that a Physical SOI exists in a specific Physical Context.
+## Physical Constituent
+1 [Physical Element](#Physical-Element) Physical Constituent 0..* [Physical Element](#Physical-Element) 
+
+exposed in viewpoint [Physical Structure Viewpoint](viewpoints/Physical-Structure-Viewpoint.md)
+
+Specifies the fact that a system element may contain any number of system elements.
+## Physical Usage
+1 [Physical Interface](#Physical-Interface) Physical Usage 1 [Physical Interface](#Physical-Interface) 
+
+exposed in viewpoint [Physical Context Exchange Viewpoint](viewpoints/Physical-Context-Exchange-Viewpoint.md)
+
+
+## Software Constituent
+1 [Software Element](#Software-Element) Software Constituent 0..* [Software Element](#Software-Element) 
+
+Specifies the fact that a Software Element contains  Software Element(s).
+## Software Constituent
+1 [Physical Element](#Physical-Element) Software Constituent 0..* [Software Element](#Software-Element) 
+
+exposed in viewpoint [Physical Structure Viewpoint](viewpoints/Physical-Structure-Viewpoint.md)
+
+Specifies the fact that an assembly contains any number of Software Element(s).
+## Stakeholder Involement Constituent
+1..* [System Of Interest](#System-Of-Interest) Stakeholder Involement Constituent 1 [System of Interest Stakeholder](#System-of-Interest-Stakeholder) 
+
+exposed in viewpoint [Stakeholder Identification Viewpoint](viewpoints/Stakeholder-Identification-Viewpoint.md)
+
+realized by Stereotype [SAF_SystemOfInterestInvolvement](stereotypes.md#SAF_SystemOfInterestInvolvement)
+
+Stakeholder Involvement captures the influence of a project specific Stakeholder on the system. Stakeholder Involvement is characterized by
+* Contact Person
+* Kind of involvement
+* Life Cycle Phases involved
+* Relevance decision if and up to which degree Stakeholder is considered
+* Rationale for decision if Stakeholder is not considered 
+## State Transition
+1 [State](#State) State Transition 1 [State](#State) 
+
+exposed in viewpoint [System State Viewpoint](viewpoints/System-State-Viewpoint.md)
+
+realized by Metaclass Transition
+
+Describes an allowed transition between two states of an item that can be in distinct State(s).
+## Systemic Context Constituent
+1..* [System Context Element](#System-Context-Element) Systemic Context Constituent 1..* [System Context](#System-Context) 
+
+Specifies the fact that a context element exists in a certain system context.
+## Systemic SOI Constituent
+1..* [System Of Interest](#System-Of-Interest) Systemic SOI Constituent 1 [System Context](#System-Context) 
+
+Specifies the fact that a system of interest exists in a certain system context.
+## transits to State
+1 [State](#State) transits to State 1 [State](#State) 
+
+
