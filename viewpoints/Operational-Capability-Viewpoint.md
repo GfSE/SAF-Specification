@@ -23,11 +23,11 @@ The result of the business and mission analysis is one or more block definition 
 ## Profile Model Reference
 |Stereotype | Description|realized Concept
 |---|---|---|
-|[SAF_OperationalCapabilityDependency](../stereotypes.md#SAF_OperationalCapabilityDependency)|[tbd]|[OCdependingON](../concepts.md#OCdependingON)|
 |[SAF_OV02c_OperationalCapabilityDiagram](../stereotypes.md#SAF_OV02c_OperationalCapabilityDiagram)|[tbd]|[Operational Capability Viewpoint](../concepts.md#Operational-Capability-Viewpoint)|
-|[SAF_OperationalCapabilityComposition](../stereotypes.md#SAF_OperationalCapabilityComposition)|[tbd]|[OCcomposedOF](../concepts.md#OCcomposedOF)|
-|[SAF_OperationalCapabilityGeneralization](../stereotypes.md#SAF_OperationalCapabilityGeneralization)|[tbd]|[OCspecializedBY](../concepts.md#OCspecializedBY)|
 |[SAF_OperationalCapability](../stereotypes.md#SAF_OperationalCapability)|[tbd]|[Operational Capability](../concepts.md#Operational-Capability)|
+|[SAF_OperationalCapabilityComposition](../stereotypes.md#SAF_OperationalCapabilityComposition)|[tbd]|[OCcomposedOF](../concepts.md#OCcomposedOF)|
+|[SAF_OperationalCapabilityDependency](../stereotypes.md#SAF_OperationalCapabilityDependency)|[tbd]|[OCdependingON](../concepts.md#OCdependingON)|
+|[SAF_OperationalCapabilityGeneralization](../stereotypes.md#SAF_OperationalCapabilityGeneralization)|[tbd]|[OCspecializedBY](../concepts.md#OCspecializedBY)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Operational Story Viewpoint](Operational-Story-Viewpoint.md)

@@ -23,12 +23,12 @@ An internal block diagram (IBD) associated to an Operational Context showing the
 |Stereotype | Description|realized Concept
 |---|---|---|
 |Connector||[Operational Connection](../concepts.md#Operational-Connection)|
-|[SAF_OV01c_OperationalContextExchangeDiagram](../stereotypes.md#SAF_OV01c_OperationalContextExchangeDiagram)|[tbd]|[Operational Context Exchange Viewpoint](../concepts.md#Operational-Context-Exchange-Viewpoint)|
 |ItemFlow||[OCallowingOIE](../concepts.md#OCallowingOIE)|
 |ItemFlow||[Operational Item Exchange](../concepts.md#Operational-Item-Exchange)|
+|[SAF_OV01c_OperationalContextExchangeDiagram](../stereotypes.md#SAF_OV01c_OperationalContextExchangeDiagram)|[tbd]|[Operational Context Exchange Viewpoint](../concepts.md#Operational-Context-Exchange-Viewpoint)|
+|[SAF_OperationalContext](../stereotypes.md#SAF_OperationalContext)|[tbd]|[Operational Context](../concepts.md#Operational-Context)|
 |[SAF_OperationalDomainKind](../stereotypes.md#SAF_OperationalDomainKind)|[tbd]|[Operational Domain Kind](../concepts.md#Operational-Domain-Kind)|
 |[SAF_OperationalRole](../stereotypes.md#SAF_OperationalRole)|[tbd]|[Operational Context Constituent](../concepts.md#Operational-Context-Constituent)|
-|[SAF_OperationalContext](../stereotypes.md#SAF_OperationalContext)|[tbd]|[Operational Context](../concepts.md#Operational-Context)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Operational Context Definition Viewpoint](Operational-Context-Definition-Viewpoint.md)

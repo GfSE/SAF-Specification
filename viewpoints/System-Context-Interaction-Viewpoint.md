@@ -26,14 +26,14 @@ The System Context Interaction Viewpoint is modeled as a sequence diagram. It de
 ## Profile Model Reference
 |Stereotype | Description|realized Concept
 |---|---|---|
+|Interaction||[Logical Interaction Scenario](../concepts.md#Logical-Interaction-Scenario)|
+|Lifeline||[Logical Scenario Participation](../concepts.md#Logical-Scenario-Participation)|
 |Message||[Logical Chronological Message](../concepts.md#Logical-Chronological-Message)|
 |Property||[Logical Constituent](../concepts.md#Logical-Constituent)|
 |[SAF_FV04a_SystemContextInteractionDiagram](../stereotypes.md#SAF_FV04a_SystemContextInteractionDiagram)|The SAF LogicalInternalInteractionDiagram contains a Sequence Diagram. It documents the interaction between parts of the logical SOI.
 It contains
 * Life Lines typed by parts of the logical SOI
 * Synchronous or asynchronous messages representing the sequence of interactions between the parts of the logical SOI|[System Context Interaction Viewpoint](../concepts.md#System-Context-Interaction-Viewpoint)|
-|Lifeline||[Logical Scenario Participation](../concepts.md#Logical-Scenario-Participation)|
-|Interaction||[Logical Interaction Scenario](../concepts.md#Logical-Interaction-Scenario)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [System Context Definition Viewpoint](System-Context-Definition-Viewpoint.md)

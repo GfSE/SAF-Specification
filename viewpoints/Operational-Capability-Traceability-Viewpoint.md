@@ -22,16 +22,16 @@ The relationship(s) of Operational Capability(s) to Operational Story(s) and to 
 ## Profile Model Reference
 |Stereotype | Description|realized Concept
 |---|---|---|
-|[SAF_OperationalCapabilityDependency](../stereotypes.md#SAF_OperationalCapabilityDependency)|[tbd]|[OCdependingON](../concepts.md#OCdependingON)|
 |[SAF_OV08a_OperationalCapabilityTraceabilityDiagram](../stereotypes.md#SAF_OV08a_OperationalCapabilityTraceabilityDiagram)|[tbd]|[Operational Capability Traceability Viewpoint](../concepts.md#Operational-Capability-Traceability-Viewpoint)|
-|[SAF_OperationalStory](../stereotypes.md#SAF_OperationalStory)|[tbd]|[Operational Story](../concepts.md#Operational-Story)|
+|[SAF_OperationalCapability](../stereotypes.md#SAF_OperationalCapability)|[tbd]|[Operational Capability](../concepts.md#Operational-Capability)|
+|[SAF_OperationalCapabilityComposition](../stereotypes.md#SAF_OperationalCapabilityComposition)|[tbd]|[OCcomposedOF](../concepts.md#OCcomposedOF)|
+|[SAF_OperationalCapabilityDependency](../stereotypes.md#SAF_OperationalCapabilityDependency)|[tbd]|[OCdependingON](../concepts.md#OCdependingON)|
+|[SAF_OperationalCapabilityGeneralization](../stereotypes.md#SAF_OperationalCapabilityGeneralization)|[tbd]|[OCspecializedBY](../concepts.md#OCspecializedBY)|
+|[SAF_OperationalCapabilitySupport](../stereotypes.md#SAF_OperationalCapabilitySupport)|[tbd]|[OCsupportingOPSTRY](../concepts.md#OCsupportingOPSTRY)|
 |[SAF_OperationalPerformerExhibit](../stereotypes.md#SAF_OperationalPerformerExhibit)|[tbd]|[OPexhibitingOC](../concepts.md#OPexhibitingOC)|
 |[SAF_OperationalProcess](../stereotypes.md#SAF_OperationalProcess)|[tbd]|[Operational Process](../concepts.md#Operational-Process)|
-|[SAF_OperationalCapabilityComposition](../stereotypes.md#SAF_OperationalCapabilityComposition)|[tbd]|[OCcomposedOF](../concepts.md#OCcomposedOF)|
-|[SAF_OperationalCapabilityGeneralization](../stereotypes.md#SAF_OperationalCapabilityGeneralization)|[tbd]|[OCspecializedBY](../concepts.md#OCspecializedBY)|
-|[SAF_OperationalCapability](../stereotypes.md#SAF_OperationalCapability)|[tbd]|[Operational Capability](../concepts.md#Operational-Capability)|
 |[SAF_OperationalProcessMapping](../stereotypes.md#SAF_OperationalProcessMapping)|[tbd]|[OPcontributesToOC](../concepts.md#OPcontributesToOC)|
-|[SAF_OperationalCapabilitySupport](../stereotypes.md#SAF_OperationalCapabilitySupport)|[tbd]|[OCsupportingOPSTRY](../concepts.md#OCsupportingOPSTRY)|
+|[SAF_OperationalStory](../stereotypes.md#SAF_OperationalStory)|[tbd]|[Operational Story](../concepts.md#Operational-Story)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Operational Capability Viewpoint](Operational-Capability-Viewpoint.md)

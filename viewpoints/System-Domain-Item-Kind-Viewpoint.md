@@ -26,16 +26,16 @@ Domain Item Kind(s) are managed in the domain knowledge package of the SOI, the 
 ## Profile Model Reference
 |Stereotype | Description|realized Concept
 |---|---|---|
-|State||[State](../concepts.md#State)|
-|[SAF_DomainKindComposition](../stereotypes.md#SAF_DomainKindComposition)|[tbd]|[composedOF](../concepts.md#composedOF)|
 |FlowProperty||[Logical Interface Property](../concepts.md#Logical-Interface-Property)|
+|ItemFlow||[Logical Item Exchange](../concepts.md#Logical-Item-Exchange)|
+|Parameter||[Functional Parameter](../concepts.md#Functional-Parameter)|
+|Pin||[Functional Parameter](../concepts.md#Functional-Parameter)|
+|[SAF_DomainKind](../stereotypes.md#SAF_DomainKind)|[tbd]|[System Domain Kind](../concepts.md#System-Domain-Kind)|
+|[SAF_DomainKindComposition](../stereotypes.md#SAF_DomainKindComposition)|[tbd]|[composedOF](../concepts.md#composedOF)|
 |[SAF_DomainKindDerivation](../stereotypes.md#SAF_DomainKindDerivation)||[SDKderivingFromODK](../concepts.md#SDKderivingFromODK)|
 |[SAF_FV02a_SystemDomainKindDiagram](../stereotypes.md#SAF_FV02a_SystemDomainKindDiagram)|contains taxonomy of domain kinds in the functional and logical domain|[System Domain Item Kind Viewpoint](../concepts.md#System-Domain-Item-Kind-Viewpoint)|
-|[SAF_DomainKind](../stereotypes.md#SAF_DomainKind)|[tbd]|[System Domain Kind](../concepts.md#System-Domain-Kind)|
-|ItemFlow||[Logical Item Exchange](../concepts.md#Logical-Item-Exchange)|
-|Pin||[Functional Parameter](../concepts.md#Functional-Parameter)|
 |[SAF_OperationalDomainKind](../stereotypes.md#SAF_OperationalDomainKind)|[tbd]|[Operational Domain Kind](../concepts.md#Operational-Domain-Kind)|
-|Parameter||[Functional Parameter](../concepts.md#Functional-Parameter)|
+|State||[State](../concepts.md#State)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

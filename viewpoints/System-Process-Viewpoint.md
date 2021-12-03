@@ -39,19 +39,19 @@ Note: It is recommended to compile separate activity diagrams refining Use Case 
 ## Profile Model Reference
 |Stereotype | Description|realized Concept
 |---|---|---|
-|[SAF_SystemProcess](../stereotypes.md#SAF_SystemProcess)|[tbd]|[System Process](../concepts.md#System-Process)|
 |Allocate||[performingContextTSK](../concepts.md#performingContextTSK)|
+|Allocate||[performingSystemTSK](../concepts.md#performingSystemTSK)|
 |Association||[Logical SOI Constituent](../concepts.md#Logical-SOI-Constituent)|
-|[SAF_SystemFunction](../stereotypes.md#SAF_SystemFunction)|[tbd]|[System Function](../concepts.md#System-Function)|
-|ObjectFlow||[Functional Flow](../concepts.md#Functional-Flow)|
-|InputPin||[FFtoFP](../concepts.md#FFtoFP)|
 |Association||[Logical Context Constituent](../concepts.md#Logical-Context-Constituent)|
+|ControlFlow||[controlledAFTER](../concepts.md#controlledAFTER)|
+|InputPin||[FFtoFP](../concepts.md#FFtoFP)|
+|ObjectFlow||[Functional Flow](../concepts.md#Functional-Flow)|
+|OutputPin||[FFfromFP](../concepts.md#FFfromFP)|
+|[SAF_ContextFunction](../stereotypes.md#SAF_ContextFunction)|[tbd]|[Context Function](../concepts.md#Context-Function)|
 |[SAF_FV03a_SystemProcessDiagram](../stereotypes.md#SAF_FV03a_SystemProcessDiagram)|[tbd]|[System Process Viewpoint](../concepts.md#System-Process-Viewpoint)|
 |[SAF_FunctionAction](../stereotypes.md#SAF_FunctionAction)|[tbd]|[Functional Usage](../concepts.md#Functional-Usage)|
-|Allocate||[performingSystemTSK](../concepts.md#performingSystemTSK)|
-|ControlFlow||[controlledAFTER](../concepts.md#controlledAFTER)|
-|[SAF_ContextFunction](../stereotypes.md#SAF_ContextFunction)|[tbd]|[Context Function](../concepts.md#Context-Function)|
-|OutputPin||[FFfromFP](../concepts.md#FFfromFP)|
+|[SAF_SystemFunction](../stereotypes.md#SAF_SystemFunction)|[tbd]|[System Function](../concepts.md#System-Function)|
+|[SAF_SystemProcess](../stereotypes.md#SAF_SystemProcess)|[tbd]|[System Process](../concepts.md#System-Process)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Stakeholder Requirement Viewpoint](Stakeholder-Requirement-Viewpoint.md)

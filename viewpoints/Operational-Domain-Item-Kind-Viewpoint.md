@@ -26,9 +26,9 @@ Operational Domain Item Kind(s) are managed in the domain knowledge package of E
 ## Profile Model Reference
 |Stereotype | Description|realized Concept
 |---|---|---|
-|[SAF_OV02a_OperationalDomainKindDiagram](../stereotypes.md#SAF_OV02a_OperationalDomainKindDiagram)|Contains taxonomy of domain kinds in the operational domain|[Operational Domain Item Kind Viewpoint](../concepts.md#Operational-Domain-Item-Kind-Viewpoint)|
-|ObjectFlow||[Operational Process Exchange](../concepts.md#Operational-Process-Exchange)|
 |ItemFlow||[Operational Item Exchange](../concepts.md#Operational-Item-Exchange)|
+|ObjectFlow||[Operational Process Exchange](../concepts.md#Operational-Process-Exchange)|
+|[SAF_OV02a_OperationalDomainKindDiagram](../stereotypes.md#SAF_OV02a_OperationalDomainKindDiagram)|Contains taxonomy of domain kinds in the operational domain|[Operational Domain Item Kind Viewpoint](../concepts.md#Operational-Domain-Item-Kind-Viewpoint)|
 |[SAF_OperationalDomainKind](../stereotypes.md#SAF_OperationalDomainKind)|[tbd]|[Operational Domain Kind](../concepts.md#Operational-Domain-Kind)|
 |[SAF_OperationalDomainKindComposition](../stereotypes.md#SAF_OperationalDomainKindComposition)|[tbd]|[composedOF](../concepts.md#composedOF)|
 ## Input from other Viewpoints

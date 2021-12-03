@@ -24,12 +24,12 @@ The Operational Interaction shows in a sequence diagram the flow of control or d
 |Stereotype | Description|realized Concept
 |---|---|---|
 |Interaction||[Operational Interaction Scenario](../concepts.md#Operational-Interaction-Scenario)|
+|Lifeline||[Operational Scenario Participant](../concepts.md#Operational-Scenario-Participant)|
+|Message||[Operational Chronological Message](../concepts.md#Operational-Chronological-Message)|
 |[SAF_OV04a_OperationalInteractionDiagram](../stereotypes.md#SAF_OV04a_OperationalInteractionDiagram)|The SAF Operational Interaction Diagram contains a Sequence Diagram. It is a refinement of an Operational Story.
 It contains
 * lifelines typed by roles from the Operational Context 
 * messages representing the sequence of interactions between the roles of an Operational Context|[Operational Interaction Viewpoint](../concepts.md#Operational-Interaction-Viewpoint)|
-|Lifeline||[Operational Scenario Participant](../concepts.md#Operational-Scenario-Participant)|
-|Message||[Operational Chronological Message](../concepts.md#Operational-Chronological-Message)|
 |[SAF_OperationalRole](../stereotypes.md#SAF_OperationalRole)|[tbd]|[Operational Context Constituent](../concepts.md#Operational-Context-Constituent)|
 ## Input from other Viewpoints
 ### Required Viewpoints
