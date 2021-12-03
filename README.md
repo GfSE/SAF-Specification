@@ -1,19 +1,5 @@
 # The SAF Specification
-**aim: proof of concept to validate the generation of markdown**
-
-**repository status: private**
-
-Partly done
-* viewpoints
-* conceptual model
-* stereotypes
-* stakeholders
-
-To be done
-* domain documentation
-* concept area diagrams
-* concerns by categories
-
+The specification for the System Architecture Framework is work in progress.
 # Viewpoints
 ## Operational Domain
 ### Operational Domain Objective
