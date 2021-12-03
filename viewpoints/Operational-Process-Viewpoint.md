@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#345</div>
+<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#346</div>
 
 # Operational Process Viewpoint
 *Domain:* **Operational** *Aspect:* **Behavior**
@@ -22,25 +22,20 @@ The Operational Process related to an Operational Story is represented in an act
 Note: Operational Process Activity(s) are assigned to Operational Role(s) and therefore in a more general manner to the Operational Performer(s).
 
 ## Profile Model Reference
-|Stereotype | Description|realized Concept
-|---|---|---|
-|Allocate||[performingTSK](../concepts.md#performingTSK)|
-|ControlFlow||[controlledAFTER](../concepts.md#controlledAFTER)|
-|InputPin||[TO](../concepts.md#TO)|
-|ObjectFlow||[Operational Process Exchange](../concepts.md#Operational-Process-Exchange)|
-|OutputPin||[FROM](../concepts.md#FROM)|
-|[SAF_OV03a_OperationalProcessDiagram](../stereotypes.md#SAF_OV03a_OperationalProcessDiagram)|[tbd]|[Operational Process Viewpoint](../concepts.md#Operational-Process-Viewpoint)|
-|[SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)|[tbd]|[Operational Performer](../concepts.md#Operational-Performer)|
-|[SAF_OperationalProcess](../stereotypes.md#SAF_OperationalProcess)|[tbd]|[Operational Process](../concepts.md#Operational-Process)|
-|[SAF_OperationalProcessAction](../stereotypes.md#SAF_OperationalProcessAction)|[tbd]|[Operational Process Usage](../concepts.md#Operational-Process-Usage)|
-|[SAF_OperationalRole](../stereotypes.md#SAF_OperationalRole)|[tbd]|[Operational Context Constituent](../concepts.md#Operational-Context-Constituent)|
+|Stereotype | Description|
+|---|---|
+|Allocate||
+|ControlFlow||
+|InputPin||
+|ObjectFlow||
+|OutputPin||
+|[SAF_OV03a_OperationalProcessDiagram](../stereotypes.md#SAF_OV03a_OperationalProcessDiagram)|[tbd]|
+|[SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)|[tbd]|
+|[SAF_OperationalProcess](../stereotypes.md#SAF_OperationalProcess)|[tbd]|
+|[SAF_OperationalProcessAction](../stereotypes.md#SAF_OperationalProcessAction)|[tbd]|
+|[SAF_OperationalRole](../stereotypes.md#SAF_OperationalRole)|[tbd]|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Operational Context Exchange Viewpoint](Operational-Context-Exchange-Viewpoint.md)
 ### Recommended Viewpoints
 *none*
-# Viewpoint Concept and Profile Diagrams
-## Concept
-![Operational Process Concept](Operational-Process-Concept.svg)
-## Profile
-![Operational Process Profile](Operational-Process-Profile.svg)

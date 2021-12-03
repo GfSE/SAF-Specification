@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#345</div>
+<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#346</div>
 
 # Logical Structure Viewpoint
 *Domain:* **Logical** *Aspect:* **Structure**
@@ -27,20 +27,15 @@ Note:
 A BDD features the logical System block and logical blocks for each kind of Logical Element the system is composed of. The elements are connected to the system block by means of aggregation relationships. Multiple relationship(s) to a kind of element are allowed meaning, that this kind of element is used in several roles. 
 
 ## Profile Model Reference
-|Stereotype | Description|realized Concept
-|---|---|---|
-|Association||[Logical Constituent](../concepts.md#Logical-Constituent)|
-|Property||[Logical Constituent](../concepts.md#Logical-Constituent)|
-|[SAF_LV02a_LogicalStructureDiagram](../stereotypes.md#SAF_LV02a_LogicalStructureDiagram)|[tbd]|[Logical Structure Viewpoint](../concepts.md#Logical-Structure-Viewpoint)|
-|[SAF_LogicalElement](../stereotypes.md#SAF_LogicalElement)|[tbd]|[Logical Element](../concepts.md#Logical-Element)|
-|[SAF_LogicalSOI](../stereotypes.md#SAF_LogicalSOI)|[tbd]|[Logical SOI](../concepts.md#Logical-SOI)|
+|Stereotype | Description|
+|---|---|
+|Association||
+|Property||
+|[SAF_LV02a_LogicalStructureDiagram](../stereotypes.md#SAF_LV02a_LogicalStructureDiagram)|[tbd]|
+|[SAF_LogicalElement](../stereotypes.md#SAF_LogicalElement)|[tbd]|
+|[SAF_LogicalSOI](../stereotypes.md#SAF_LogicalSOI)|[tbd]|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [System Functional Breakdown Viewpoint](System-Functional-Breakdown-Viewpoint.md)
 ### Recommended Viewpoints
 * [System Process Viewpoint](System-Process-Viewpoint.md)
-# Viewpoint Concept and Profile Diagrams
-## Concept
-![Logical Structure Concept](Logical-Structure-Concept.svg)
-## Profile
-![Logical Structure Profile](Logical-Structure-Profile.svg)

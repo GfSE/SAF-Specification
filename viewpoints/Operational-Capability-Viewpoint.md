@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#345</div>
+<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#346</div>
 
 # Operational Capability Viewpoint
 *Domain:* **Operational** *Aspect:* **Structure**
@@ -21,21 +21,16 @@ Note:
 The result of the business and mission analysis is one or more block definition diagram(s) (BDD) featuring Operational Capability(s) and their composition, specialization and dependency relationship(s).
 
 ## Profile Model Reference
-|Stereotype | Description|realized Concept
-|---|---|---|
-|[SAF_OV02c_OperationalCapabilityDiagram](../stereotypes.md#SAF_OV02c_OperationalCapabilityDiagram)|[tbd]|[Operational Capability Viewpoint](../concepts.md#Operational-Capability-Viewpoint)|
-|[SAF_OperationalCapability](../stereotypes.md#SAF_OperationalCapability)|[tbd]|[Operational Capability](../concepts.md#Operational-Capability)|
-|[SAF_OperationalCapabilityComposition](../stereotypes.md#SAF_OperationalCapabilityComposition)|[tbd]|[OCcomposedOF](../concepts.md#OCcomposedOF)|
-|[SAF_OperationalCapabilityDependency](../stereotypes.md#SAF_OperationalCapabilityDependency)|[tbd]|[OCdependingON](../concepts.md#OCdependingON)|
-|[SAF_OperationalCapabilityGeneralization](../stereotypes.md#SAF_OperationalCapabilityGeneralization)|[tbd]|[OCspecializedBY](../concepts.md#OCspecializedBY)|
+|Stereotype | Description|
+|---|---|
+|[SAF_OV02c_OperationalCapabilityDiagram](../stereotypes.md#SAF_OV02c_OperationalCapabilityDiagram)|[tbd]|
+|[SAF_OperationalCapability](../stereotypes.md#SAF_OperationalCapability)|[tbd]|
+|[SAF_OperationalCapabilityComposition](../stereotypes.md#SAF_OperationalCapabilityComposition)|[tbd]|
+|[SAF_OperationalCapabilityDependency](../stereotypes.md#SAF_OperationalCapabilityDependency)|[tbd]|
+|[SAF_OperationalCapabilityGeneralization](../stereotypes.md#SAF_OperationalCapabilityGeneralization)|[tbd]|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Operational Story Viewpoint](Operational-Story-Viewpoint.md)
 * [Operational Performer Viewpoint](Operational-Performer-Viewpoint.md)
 ### Recommended Viewpoints
 *none*
-# Viewpoint Concept and Profile Diagrams
-## Concept
-![Operational Capability Concept](Operational-Capability-Concept.svg)
-## Profile
-![Operational Capability Profile](Operational-Capability-Profile.svg)

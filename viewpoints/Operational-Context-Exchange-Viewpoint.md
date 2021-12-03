@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#345</div>
+<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#346</div>
 
 # Operational Context Exchange Viewpoint
 *Domain:* **Operational** *Aspect:* **Context**
@@ -20,23 +20,18 @@ Note:
 An internal block diagram (IBD) associated to an Operational Context showing the connected Operational Performer(s) in their respective Operational Role and the Operational Exchange per connection.
 
 ## Profile Model Reference
-|Stereotype | Description|realized Concept
-|---|---|---|
-|Connector||[Operational Connection](../concepts.md#Operational-Connection)|
-|ItemFlow||[OCallowingOIE](../concepts.md#OCallowingOIE)|
-|ItemFlow||[Operational Item Exchange](../concepts.md#Operational-Item-Exchange)|
-|[SAF_OV01c_OperationalContextExchangeDiagram](../stereotypes.md#SAF_OV01c_OperationalContextExchangeDiagram)|[tbd]|[Operational Context Exchange Viewpoint](../concepts.md#Operational-Context-Exchange-Viewpoint)|
-|[SAF_OperationalContext](../stereotypes.md#SAF_OperationalContext)|[tbd]|[Operational Context](../concepts.md#Operational-Context)|
-|[SAF_OperationalDomainKind](../stereotypes.md#SAF_OperationalDomainKind)|[tbd]|[Operational Domain Kind](../concepts.md#Operational-Domain-Kind)|
-|[SAF_OperationalRole](../stereotypes.md#SAF_OperationalRole)|[tbd]|[Operational Context Constituent](../concepts.md#Operational-Context-Constituent)|
+|Stereotype | Description|
+|---|---|
+|Connector||
+|ItemFlow||
+|ItemFlow||
+|[SAF_OV01c_OperationalContextExchangeDiagram](../stereotypes.md#SAF_OV01c_OperationalContextExchangeDiagram)|[tbd]|
+|[SAF_OperationalContext](../stereotypes.md#SAF_OperationalContext)|[tbd]|
+|[SAF_OperationalDomainKind](../stereotypes.md#SAF_OperationalDomainKind)|[tbd]|
+|[SAF_OperationalRole](../stereotypes.md#SAF_OperationalRole)|[tbd]|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Operational Context Definition Viewpoint](Operational-Context-Definition-Viewpoint.md)
 * [Operational Domain Item Kind Viewpoint](Operational-Domain-Item-Kind-Viewpoint.md)
 ### Recommended Viewpoints
 *none*
-# Viewpoint Concept and Profile Diagrams
-## Concept
-![Operational Context Exchange Concept](Operational-Context-Exchange-Concept.svg)
-## Profile
-![Operational Context Exchange Profile](Operational-Context-Exchange-Profile.svg)

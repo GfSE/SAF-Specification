@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#345</div>
+<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#346</div>
 
 # System Context Definition Viewpoint
 *Domain:* **Functional** *Aspect:* **Context**
@@ -30,18 +30,18 @@ A BDD featuring the following elements
 * a Composition relationship from Context block to the SOI
 
 ## Profile Model Reference
-|Stereotype | Description|realized Concept
-|---|---|---|
-|Association||[Logical SOI Constituent](../concepts.md#Logical-SOI-Constituent)|
-|Association||[Logical Context Constituent](../concepts.md#Logical-Context-Constituent)|
-|[SAF_FV01b_SystemContextDefinitionDiagram](../stereotypes.md#SAF_FV01b_SystemContextDefinitionDiagram)|[tbd]|[System Context Definition Viewpoint](../concepts.md#System-Context-Definition-Viewpoint)|
-|[SAF_LogicalContext](../stereotypes.md#SAF_LogicalContext)|[tbd]|[Logical System Context](../concepts.md#Logical-System-Context)|
-|[SAF_LogicalEnvironment](../stereotypes.md#SAF_LogicalEnvironment)|[tbd]|[Logical Environment](../concepts.md#Logical-Environment)|
-|[SAF_LogicalExternalSystem](../stereotypes.md#SAF_LogicalExternalSystem)|[tbd]|[Logical External System](../concepts.md#Logical-External-System)|
-|[SAF_LogicalRole](../stereotypes.md#SAF_LogicalRole)|[tbd]|[Logical Context Constituent](../concepts.md#Logical-Context-Constituent)|
-|[SAF_LogicalRole](../stereotypes.md#SAF_LogicalRole)|[tbd]|[Logical SOI Constituent](../concepts.md#Logical-SOI-Constituent)|
-|[SAF_LogicalSOI](../stereotypes.md#SAF_LogicalSOI)|[tbd]|[Logical SOI](../concepts.md#Logical-SOI)|
-|[SAF_LogicalUser](../stereotypes.md#SAF_LogicalUser)|[tbd]|[Logical User](../concepts.md#Logical-User)|
+|Stereotype | Description|
+|---|---|
+|Association||
+|Association||
+|[SAF_FV01b_SystemContextDefinitionDiagram](../stereotypes.md#SAF_FV01b_SystemContextDefinitionDiagram)|[tbd]|
+|[SAF_LogicalContext](../stereotypes.md#SAF_LogicalContext)|[tbd]|
+|[SAF_LogicalEnvironment](../stereotypes.md#SAF_LogicalEnvironment)|[tbd]|
+|[SAF_LogicalExternalSystem](../stereotypes.md#SAF_LogicalExternalSystem)|[tbd]|
+|[SAF_LogicalRole](../stereotypes.md#SAF_LogicalRole)|[tbd]|
+|[SAF_LogicalRole](../stereotypes.md#SAF_LogicalRole)|[tbd]|
+|[SAF_LogicalSOI](../stereotypes.md#SAF_LogicalSOI)|[tbd]|
+|[SAF_LogicalUser](../stereotypes.md#SAF_LogicalUser)|[tbd]|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [System Story Viewpoint](System-Story-Viewpoint.md)
@@ -50,8 +50,3 @@ A BDD featuring the following elements
 * [Operational Process Viewpoint](Operational-Process-Viewpoint.md)
 * [Operational Interaction Viewpoint](Operational-Interaction-Viewpoint.md)
 * [System Functional Breakdown Viewpoint](System-Functional-Breakdown-Viewpoint.md)
-# Viewpoint Concept and Profile Diagrams
-## Concept
-![System Context Definition Concept](System-Context-Definition-Concept.svg)
-## Profile
-![System Context Definition Profile](System-Context-Definition-Profile.svg)

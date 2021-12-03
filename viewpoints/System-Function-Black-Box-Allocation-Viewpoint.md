@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#345</div>
+<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#346</div>
 
 # System Function Black Box Allocation Viewpoint
 *Domain:* **Functional** *Aspect:* **Crossreference and Mapping**
@@ -29,15 +29,15 @@ A System Function Black Box Allocation Matrix featuring
 * the part property(s) representing usage of SOI Element(s)
 
 ## Profile Model Reference
-|Stereotype | Description|realized Concept
-|---|---|---|
-|Allocate||[performingContextTSK](../concepts.md#performingContextTSK)|
-|Allocate||[performingSystemTSK](../concepts.md#performingSystemTSK)|
-|Association||[Logical SOI Constituent](../concepts.md#Logical-SOI-Constituent)|
-|Association||[Logical Context Constituent](../concepts.md#Logical-Context-Constituent)|
-|[SAF_FunctionAction](../stereotypes.md#SAF_FunctionAction)|[tbd]|[Functional Usage](../concepts.md#Functional-Usage)|
-|[SAF_LogicalRole](../stereotypes.md#SAF_LogicalRole)|[tbd]|[Logical Context Constituent](../concepts.md#Logical-Context-Constituent)|
-|[SAF_LogicalRole](../stereotypes.md#SAF_LogicalRole)|[tbd]|[Logical SOI Constituent](../concepts.md#Logical-SOI-Constituent)|
+|Stereotype | Description|
+|---|---|
+|Allocate||
+|Allocate||
+|Association||
+|Association||
+|[SAF_FunctionAction](../stereotypes.md#SAF_FunctionAction)|[tbd]|
+|[SAF_LogicalRole](../stereotypes.md#SAF_LogicalRole)|[tbd]|
+|[SAF_LogicalRole](../stereotypes.md#SAF_LogicalRole)|[tbd]|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [System Process Viewpoint](System-Process-Viewpoint.md)
@@ -45,8 +45,3 @@ A System Function Black Box Allocation Matrix featuring
 * [Operational Process Viewpoint](Operational-Process-Viewpoint.md)
 * [Operational Interaction Viewpoint](Operational-Interaction-Viewpoint.md)
 * [System Functional Breakdown Viewpoint](System-Functional-Breakdown-Viewpoint.md)
-# Viewpoint Concept and Profile Diagrams
-## Concept
-![System Function Black Box Allocation Concept](System-Function-Black-Box-Allocation-Concept.svg)
-## Profile
-![System Function Black Box Allocation Profile](System-Function-Black-Box-Allocation-Profile.svg)

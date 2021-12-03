@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#345</div>
+<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#346</div>
 
 # Logical Internal Exchange Viewpoint
 *Domain:* **Logical** *Aspect:* **Interaction and Collaboration**
@@ -38,24 +38,19 @@ Note:
 One or more IBD featuring the logical element(s) of the SOI, and the SOI boundary, containing connector(s) for each identified SOI interface delegation to SOI element(s), as well as connector(s) between related interface(s) of SOI parts. An interface is a connection resource for hooking on the logical SOI element(s) to other logical SOI element(s). Item flows are defined for each exchange on the identified interface.  Recommendation: Use more than one IBD focused on different areas of interest to keep the view comprehensive. Depending on the Stakeholder concern(s) the logical item exchange information might be suppressed.
 
 ## Profile Model Reference
-|Stereotype | Description|realized Concept
-|---|---|---|
-|Connector||[Logical Interface Connection](../concepts.md#Logical-Interface-Connection)|
-|InterfaceBlock||[Logical Interface Specification](../concepts.md#Logical-Interface-Specification)|
-|ItemFlow||[Logical Item Exchange](../concepts.md#Logical-Item-Exchange)|
-|Property||[LIapplyingToLE](../concepts.md#LIapplyingToLE)|
-|ProxyPort||[Logical Interface](../concepts.md#Logical-Interface)|
-|[SAF_DomainKind](../stereotypes.md#SAF_DomainKind)|[tbd]|[System Domain Kind](../concepts.md#System-Domain-Kind)|
-|[SAF_LV04b_LogicalInternalExchangeDiagram](../stereotypes.md#SAF_LV04b_LogicalInternalExchangeDiagram)|[tbd]|[Logical Internal Exchange Viewpoint](../concepts.md#Logical-Internal-Exchange-Viewpoint)|
-|[SAF_LogicalElement](../stereotypes.md#SAF_LogicalElement)|[tbd]|[Logical Element](../concepts.md#Logical-Element)|
+|Stereotype | Description|
+|---|---|
+|Connector||
+|InterfaceBlock||
+|ItemFlow||
+|Property||
+|ProxyPort||
+|[SAF_DomainKind](../stereotypes.md#SAF_DomainKind)|[tbd]|
+|[SAF_LV04b_LogicalInternalExchangeDiagram](../stereotypes.md#SAF_LV04b_LogicalInternalExchangeDiagram)|[tbd]|
+|[SAF_LogicalElement](../stereotypes.md#SAF_LogicalElement)|[tbd]|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [System Domain Item Kind Viewpoint](System-Domain-Item-Kind-Viewpoint.md)
 * [Logical Structure Viewpoint](Logical-Structure-Viewpoint.md)
 ### Recommended Viewpoints
 * [System Process Viewpoint](System-Process-Viewpoint.md)
-# Viewpoint Concept and Profile Diagrams
-## Concept
-![Logical Internal Exchange Concept](Logical-Internal-Exchange-Concept.svg)
-## Profile
-![Logical Internal Exchange Profile](Logical-Internal-Exchange-Profile.svg)

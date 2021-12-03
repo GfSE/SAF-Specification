@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#345</div>
+<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#346</div>
 
 # Stakeholder Identification Viewpoint
 *Domain:* **Operational** *Aspect:* **Structure**
@@ -28,21 +28,16 @@ Note:
 The results of the Stakeholder Analysis are identified Stakeholder(s). A Stakeholder Identification diagram (BDD) depicts the relations of the identified Stakeholder(s) towards the Intended Solution.
 
 ## Profile Model Reference
-|Stereotype | Description|realized Concept
-|---|---|---|
-|[SAF_ContextElementCharacterization](../stereotypes.md#SAF_ContextElementCharacterization)|[tbd]|[representingSCE](../concepts.md#representingSCE)|
-|[SAF_Stakeholder](../stereotypes.md#SAF_Stakeholder)|[tbd]|[System of Interest Stakeholder](../concepts.md#System-of-Interest-Stakeholder)|
-|[SAF_StakeholderRelation](../stereotypes.md#SAF_StakeholderRelation)|[tbd]|[relatedTO](../concepts.md#relatedTO)|
-|[SAF_SystemOfInterestConcern](../stereotypes.md#SAF_SystemOfInterestConcern)|[tbd]|[System of Interest Concern](../concepts.md#System-of-Interest-Concern)|
-|[SAF_SystemOfInterestInvolvement](../stereotypes.md#SAF_SystemOfInterestInvolvement)|[tbd]|[Stakeholder Involement Constituent](../concepts.md#Stakeholder-Involement-Constituent)|
+|Stereotype | Description|
+|---|---|
+|[SAF_ContextElementCharacterization](../stereotypes.md#SAF_ContextElementCharacterization)|[tbd]|
+|[SAF_Stakeholder](../stereotypes.md#SAF_Stakeholder)|[tbd]|
+|[SAF_StakeholderRelation](../stereotypes.md#SAF_StakeholderRelation)|[tbd]|
+|[SAF_SystemOfInterestConcern](../stereotypes.md#SAF_SystemOfInterestConcern)|[tbd]|
+|[SAF_SystemOfInterestInvolvement](../stereotypes.md#SAF_SystemOfInterestInvolvement)|[tbd]|
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*
 ### Recommended Viewpoints
 * [Operational Story Viewpoint](Operational-Story-Viewpoint.md)
 * [Operational Performer Viewpoint](Operational-Performer-Viewpoint.md)
-# Viewpoint Concept and Profile Diagrams
-## Concept
-![Stakeholder Identification Concept](Stakeholder-Identification-Concept.svg)
-## Profile
-![Stakeholder Identification Profile](Stakeholder-Identification-Profile.svg)

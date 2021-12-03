@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#345</div>
+<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#346</div>
 
 # System Domain Item Kind Viewpoint
 *Domain:* **Functional** *Aspect:* **Structure**
@@ -24,25 +24,20 @@ Note:
 Domain Item Kind(s) are managed in the domain knowledge package of the SOI, the Domain Item Kind(s) are visible and usable to all sub elements of the SOI. Domain Item Kind(s) shall be value type(s) or block(s). A BDD diagram featuring Domain Item Kind(s) and their relationship(s) in terms of generalization, composition or general association shall be used.
 
 ## Profile Model Reference
-|Stereotype | Description|realized Concept
-|---|---|---|
-|FlowProperty||[Logical Interface Property](../concepts.md#Logical-Interface-Property)|
-|ItemFlow||[Logical Item Exchange](../concepts.md#Logical-Item-Exchange)|
-|Parameter||[Functional Parameter](../concepts.md#Functional-Parameter)|
-|Pin||[Functional Parameter](../concepts.md#Functional-Parameter)|
-|[SAF_DomainKind](../stereotypes.md#SAF_DomainKind)|[tbd]|[System Domain Kind](../concepts.md#System-Domain-Kind)|
-|[SAF_DomainKindComposition](../stereotypes.md#SAF_DomainKindComposition)|[tbd]|[composedOF](../concepts.md#composedOF)|
-|[SAF_DomainKindDerivation](../stereotypes.md#SAF_DomainKindDerivation)||[SDKderivingFromODK](../concepts.md#SDKderivingFromODK)|
-|[SAF_FV02a_SystemDomainKindDiagram](../stereotypes.md#SAF_FV02a_SystemDomainKindDiagram)|contains taxonomy of domain kinds in the functional and logical domain|[System Domain Item Kind Viewpoint](../concepts.md#System-Domain-Item-Kind-Viewpoint)|
-|[SAF_OperationalDomainKind](../stereotypes.md#SAF_OperationalDomainKind)|[tbd]|[Operational Domain Kind](../concepts.md#Operational-Domain-Kind)|
-|State||[State](../concepts.md#State)|
+|Stereotype | Description|
+|---|---|
+|FlowProperty||
+|ItemFlow||
+|Parameter||
+|Pin||
+|[SAF_DomainKind](../stereotypes.md#SAF_DomainKind)|[tbd]|
+|[SAF_DomainKindComposition](../stereotypes.md#SAF_DomainKindComposition)|[tbd]|
+|[SAF_DomainKindDerivation](../stereotypes.md#SAF_DomainKindDerivation)||
+|[SAF_FV02a_SystemDomainKindDiagram](../stereotypes.md#SAF_FV02a_SystemDomainKindDiagram)|contains taxonomy of domain kinds in the functional and logical domain|
+|[SAF_OperationalDomainKind](../stereotypes.md#SAF_OperationalDomainKind)|[tbd]|
+|State||
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*
 ### Recommended Viewpoints
 *none*
-# Viewpoint Concept and Profile Diagrams
-## Concept
-![System Domain Item Kind Concept](System-Domain-Item-Kind-Concept.svg)
-## Profile
-![System Domain Item Kind Profile](System-Domain-Item-Kind-Profile.svg)

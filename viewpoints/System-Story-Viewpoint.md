@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#345</div>
+<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#346</div>
 
 # System Story Viewpoint
 *Domain:* **Functional** *Aspect:* **Context**
@@ -28,18 +28,18 @@ A use case diagram depicting model elements representing System Story(s) and Sys
 Note: [tbd]
 
 ## Profile Model Reference
-|Stereotype | Description|realized Concept
-|---|---|---|
-|Include||[includingSSTRY](../concepts.md#includingSSTRY)|
-|[SAF_FV01a_SystemStoryDiagram](../stereotypes.md#SAF_FV01a_SystemStoryDiagram)|[tbd]|[System Story Viewpoint](../concepts.md#System-Story-Viewpoint)|
-|[SAF_LogicalContextElementActing](../stereotypes.md#SAF_LogicalContextElementActing)|[tbd]|[LEactingInSSTRY](../concepts.md#LEactingInSSTRY)|
-|[SAF_LogicalEnvironment](../stereotypes.md#SAF_LogicalEnvironment)|[tbd]|[Logical Environment](../concepts.md#Logical-Environment)|
-|[SAF_LogicalExternalSystem](../stereotypes.md#SAF_LogicalExternalSystem)|[tbd]|[Logical External System](../concepts.md#Logical-External-System)|
-|[SAF_LogicalUser](../stereotypes.md#SAF_LogicalUser)|[tbd]|[Logical User](../concepts.md#Logical-User)|
-|[SAF_SystemStory](../stereotypes.md#SAF_SystemStory)|[tbd]|[SSTRYtakingPlaceInLSC](../concepts.md#SSTRYtakingPlaceInLSC)|
-|[SAF_SystemStory](../stereotypes.md#SAF_SystemStory)|[tbd]|[System Story](../concepts.md#System-Story)|
+|Stereotype | Description|
+|---|---|
+|Include||
+|[SAF_FV01a_SystemStoryDiagram](../stereotypes.md#SAF_FV01a_SystemStoryDiagram)|[tbd]|
+|[SAF_LogicalContextElementActing](../stereotypes.md#SAF_LogicalContextElementActing)|[tbd]|
+|[SAF_LogicalEnvironment](../stereotypes.md#SAF_LogicalEnvironment)|[tbd]|
+|[SAF_LogicalExternalSystem](../stereotypes.md#SAF_LogicalExternalSystem)|[tbd]|
+|[SAF_LogicalUser](../stereotypes.md#SAF_LogicalUser)|[tbd]|
+|[SAF_SystemStory](../stereotypes.md#SAF_SystemStory)|[tbd]|
+|[SAF_SystemStory](../stereotypes.md#SAF_SystemStory)|[tbd]|
 |[SAF_SystemStoryContribution](../stereotypes.md#SAF_SystemStoryContribution)|[tbd]
-|[SScontributingToOS](../concepts.md#SScontributingToOS)|
+|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Stakeholder Requirement Viewpoint](Stakeholder-Requirement-Viewpoint.md)
@@ -48,8 +48,3 @@ Note: [tbd]
 * [Operational Capability Viewpoint](Operational-Capability-Viewpoint.md)
 * [Operational Process Viewpoint](Operational-Process-Viewpoint.md)
 * [Operational Interaction Viewpoint](Operational-Interaction-Viewpoint.md)
-# Viewpoint Concept and Profile Diagrams
-## Concept
-![System Story Concept](System-Story-Concept.svg)
-## Profile
-![System Story Profile](System-Story-Profile.svg)

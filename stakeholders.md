@@ -1,8 +1,15 @@
-<div align="right">SAF_Cameo_Profile#345</div>
+<div align="right">SAF_Cameo_Profile#346</div>
 
 ![SAF_Stakeholder_Definition](diagrams/SAF_stakeholder_definition.svg)
 This section provides a list of the Stakeholder roles considered in the development of the architecture described by SAF. For each, the section lists the concerns that the Stakeholder has that can be addressed by the information in this SAF framework.
-Each Stakeholder of a system - customer, user, project manager, coder, analyst, tester, and so on - is concerned with different characteristics of the system that are affected by its architecture. For example, the user is concerned that the system is reliable and available when needed; the customer is concerned that the architecture can be implemented on schedule and to budget; the manager is worried (in addition to cost and schedule) that the architecture will allow teams to work largely independently, interacting in disciplined and controlled ways. The system architect is worried about strategies to achieve all of those goals. The security analyst is concerned that the system will meet its information assurance requirements, and the performance analyst is similarly concerned with it satisfying real-time deadlines.
+
+Each Stakeholder of a system - customer, user, project manager, coder, analyst, tester, and so on - is concerned with different characteristics of the system that are affected by its architecture.
+
+For example, the user is concerned that the system is reliable and available when needed; the customer is concerned that the architecture can be implemented on schedule and to budget; the manager is worried (in addition to cost and schedule) that the architecture will allow teams to work largely independently, interacting in disciplined and controlled ways.
+
+The system architect is worried about strategies to achieve all of those goals.
+
+The security analyst is concerned that the system will meet its information assurance requirements, and the performance analyst is similarly concerned with it satisfying real-time deadlines.
 
 
 The following subchapters describe the stakeholders and their concerns:
@@ -10,7 +17,10 @@ The following subchapters describe the stakeholders and their concerns:
 # Acquirer
 Definition - Acquirer:
 stakeholder that acquires or procures a product or service from a supplier, [ISO/IEC 15288:2015 - Systems engineering - System life-cycle processes]
-The Acquirer is a Stakeholder that acquires or procures a product or service from a supplier. The Acquirer may be an organization or an individual acting on behalf of the customer or the user. He is responsible for providing a feasible solution within a given budget. The Acquirer must plan and control the delivery of the system-of-interest as well as other systems together with necessary infrastructure, equipment or training. He must plan the integration of all the procured items to provide a complete solution ready for operation. For large enterprises standardization is an issue. Therefore, the acquirer is interested that standard items are considered in the system architecture.
+
+The Acquirer is a Stakeholder that acquires or procures a product or service from a supplier. The Acquirer may be an organization or an individual acting on behalf of the customer or the user.
+
+He is responsible for providing a feasible solution within a given budget. The Acquirer must plan and control the delivery of the system-of-interest as well as other systems together with necessary infrastructure, equipment or training. He must plan the integration of all the procured items to provide a complete solution ready for operation. For large enterprises standardization is an issue. Therefore, the acquirer is interested that standard items are considered in the system architecture.
 
 ## Concern
 * What are necessary inputs for operating the SOI expected to be provided by other external entity(s)?
@@ -45,7 +55,8 @@ The Acquirer is a Stakeholder that acquires or procures a product or service fro
 # Architecture Framework Stakeholder
 Definition - Architecture Framework Stakeholder:
 The Architecture Framework Stakeholder is a generic Stakeholder class more specific Stakeholder(s). The derived Stakeholder(s) have concern(s) regarding the architecture framework description(s). Most of these concern(s) are addressed by SAF Viewpoint(s).
-Note: Den Framework Stakeholder braucht SAF für die SAF Entwicklung, denn ein Architecture Framework Stakeholder ist dann ein solcher, wenn er, der Architecture Framework Stakeholder, Requirement(s) / Concern(s) hat, die zu VP führen bzw. durch VP befriedigt werden.
+
+*Note: Den Framework Stakeholder braucht SAF für die SAF Entwicklung, denn ein Architecture Framework Stakeholder ist dann ein solcher, wenn er, der Architecture Framework Stakeholder, Requirement(s) / Concern(s) hat, die zu VP führen bzw. durch VP befriedigt werden.*
 
 ## Concern
 # Customer
@@ -161,8 +172,18 @@ The Developer is a group or an individual implementing the system parts accordin
 # Operator
 Definition - Operator:
 individual or organization that performs the operations of a system, [ISO/IEC 15288:2015 –Systems engineering - System life-cycle processes]
-The Operator is an individual or organization that uses knowledge, skills and procedures to perform the functions of the system to provide the benefit, product or service. An individual Operator combined with knowledge, skills, and procedures may be considered as an element of the system. The role of the operator and the role of the user can be delegated to a single individual or may be simultaneously instantiated in the same organization. 
-For example: Air passengers are the user of the air transport system while a single flight is operated by an air carrier like the Lufthansa using aircrafts of various types to provide the transport service. To provide the service to the passengers the carrier’s organization must implement lots of services utilizing several other enabling systems. The individual aircraft is operated by the pilot who uses the on-board systems to control the aircraft and to navigate during that flight. The example illustrates, that the roles user and operator are depending heavily on the definition of the SOI?
+
+The Operator is an individual or organization that uses knowledge, skills and procedures to perform the functions of the system to provide the benefit, product or service. 
+
+An individual Operator combined with knowledge, skills, and procedures may be considered as an element of the system. The role of the operator and the role of the user can be delegated to a single individual or may be simultaneously instantiated in the same organization. 
+
+*For example: Air passengers are the user of the air transport system while a single flight is operated by an air carrier like the Lufthansa using aircrafts of various types to provide the transport service. 
+
+To provide the service to the passengers the carrier’s organization must implement lots of services utilizing several other enabling systems. 
+
+The individual aircraft is operated by the pilot who uses the on-board systems to control the aircraft and to navigate during that flight. 
+
+The example illustrates, that the roles user and operator are depending heavily on the definition of the SOI Scope.*
 
 ## Concern
 * What are the scenarios a system function is utilized in?
@@ -172,8 +193,13 @@ For example: Air passengers are the user of the air transport system while a sin
 * What are necessary inputs for operating the SOI expected to be provided by other external entity(s)?
 * How does a system function interact with its environment?
 # Project Manager
-Definition - Project Manager:
-The responsibility of the technical manager is to make the right resources with the right skills available in time to get the identified work done. The Project Manager controls that the work packages are completed in time and agreed milestones are met. A clear definition of the solution for the stated problem allows planning to be done properly. Systems Engineering creates a clear and manageable system structure, which is the basis for project planning and task assignment.
+Definition - Project Manager: The responsibility of the Project Manager is to make the right resources with the right skills available in time to get the identified work done. 
+
+The Project Manager controls that the work packages are completed in time and agreed milestones are met.
+
+A clear definition of the solution for the stated problem allows planning to be done properly.
+
+Systems Engineering creates a clear and manageable system structure, which is the basis for project planning and task assignment.
 
 ## Concern
 * What are the Function(s) and service(s) to be implemented?
@@ -192,8 +218,13 @@ The responsibility of the technical manager is to make the right resources with 
 * How will the system be used or utilized to satisfy the user needs?
 # Regulation Authority
 Definition - Regulation Authority:
-Regulation Authorities can have impact by imposing Stakeholder requirements against the system and by their involvement in the development and acceptance phases (e.g. safety or IT security acceptance audits). The term “authorities” also refers to current applicable regulations and laws.
-The requirements stipulated on the system are diverse. It can be functional and non-functional requirements. Systems Engineering must adhere to relevant standards and needs to demonstrate compliance with those standards and requirements. Functional requirements need to be reflected by the system architecture or a rational need to be provided if requirements are not implemented.
+Regulation Authorities can have impact by imposing Stakeholder requirements against the system and by their involvement in the development and acceptance phases (e.g. safety or IT security acceptance audits). 
+
+The term “authorities” also refers to current applicable regulations and laws.
+
+The requirements stipulated on the system are diverse. They can be functional and non-functional requirements.
+
+Systems Engineering must adhere to relevant standards and needs to demonstrate compliance with those standards and requirements.
 
 ## Concern
 * How are applicable requirement(s) considered in the system architecture?

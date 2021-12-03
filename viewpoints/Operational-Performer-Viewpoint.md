@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#345</div>
+<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#346</div>
 
 # Operational Performer Viewpoint
 *Domain:* **Operational** *Aspect:* **Structure**
@@ -22,21 +22,16 @@ A block definition diagram (BDD) depicts Operational Performer(s) and their rela
 Note: Identified Stakeholders are related to Operational Performer(s) if appropriate.
 
 ## Profile Model Reference
-|Stereotype | Description|realized Concept
-|---|---|---|
-|[SAF_OV02b_OperationalPerformerDiagram](../stereotypes.md#SAF_OV02b_OperationalPerformerDiagram)|[tbd]|[Operational Performer Viewpoint](../concepts.md#Operational-Performer-Viewpoint)|
-|[SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)|[tbd]|[Operational Performer](../concepts.md#Operational-Performer)|
-|[SAF_OperationalPerformerComposition](../stereotypes.md#SAF_OperationalPerformerComposition)|[tbd]|[OPcomposedOF](../concepts.md#OPcomposedOF)|
-|[SAF_OperationalStakeholderRepresentation](../stereotypes.md#SAF_OperationalStakeholderRepresentation)|[tbd]|[representingPFR](../concepts.md#representingPFR)|
-|[SAF_Stakeholder](../stereotypes.md#SAF_Stakeholder)|[tbd]|[System of Interest Stakeholder](../concepts.md#System-of-Interest-Stakeholder)|
+|Stereotype | Description|
+|---|---|
+|[SAF_OV02b_OperationalPerformerDiagram](../stereotypes.md#SAF_OV02b_OperationalPerformerDiagram)|[tbd]|
+|[SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)|[tbd]|
+|[SAF_OperationalPerformerComposition](../stereotypes.md#SAF_OperationalPerformerComposition)|[tbd]|
+|[SAF_OperationalStakeholderRepresentation](../stereotypes.md#SAF_OperationalStakeholderRepresentation)|[tbd]|
+|[SAF_Stakeholder](../stereotypes.md#SAF_Stakeholder)|[tbd]|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Operational Story Viewpoint](Operational-Story-Viewpoint.md)
 * [Operational Context Definition Viewpoint](Operational-Context-Definition-Viewpoint.md)
 ### Recommended Viewpoints
 * [Operational Capability Viewpoint](Operational-Capability-Viewpoint.md)
-# Viewpoint Concept and Profile Diagrams
-## Concept
-![Operational Performer Concept](Operational-Performer-Concept.svg)
-## Profile
-![Operational Performer Profile](Operational-Performer-Profile.svg)

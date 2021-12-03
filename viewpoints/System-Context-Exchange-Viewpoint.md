@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#345</div>
+<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#346</div>
 
 # System Context Exchange Viewpoint
 *Domain:* **Functional** *Aspect:* **Context**
@@ -33,20 +33,20 @@ An IBD featuring the SOI, the System Context Element(s) and Connector(s) for eac
 Note: more than one IBD focused on different areas of interest may be used in oder to keep the view comprehensive. Depending on the Stakeholder Concern(s) the Item Exchange information might be suppressed.
 
 ## Profile Model Reference
-|Stereotype | Description|realized Concept
-|---|---|---|
-|Connector||[Logical Interface Connection](../concepts.md#Logical-Interface-Connection)|
-|InterfaceBlock||[Logical Interface Specification](../concepts.md#Logical-Interface-Specification)|
-|ItemFlow||[Logical Item Exchange](../concepts.md#Logical-Item-Exchange)|
-|ProxyPort||[Logical Interface](../concepts.md#Logical-Interface)|
-|[SAF_DomainKind](../stereotypes.md#SAF_DomainKind)|[tbd]|[System Domain Kind](../concepts.md#System-Domain-Kind)|
-|[SAF_FV01c_SystemContextExchangeDiagram](../stereotypes.md#SAF_FV01c_SystemContextExchangeDiagram)|[tbd]|[System Context Exchange Viewpoint](../concepts.md#System-Context-Exchange-Viewpoint)|
-|[SAF_LogicalEnvironment](../stereotypes.md#SAF_LogicalEnvironment)|[tbd]|[Logical Environment](../concepts.md#Logical-Environment)|
-|[SAF_LogicalExternalSystem](../stereotypes.md#SAF_LogicalExternalSystem)|[tbd]|[Logical External System](../concepts.md#Logical-External-System)|
-|[SAF_LogicalRole](../stereotypes.md#SAF_LogicalRole)|[tbd]|[Logical Context Constituent](../concepts.md#Logical-Context-Constituent)|
-|[SAF_LogicalRole](../stereotypes.md#SAF_LogicalRole)|[tbd]|[Logical SOI Constituent](../concepts.md#Logical-SOI-Constituent)|
-|[SAF_LogicalSOI](../stereotypes.md#SAF_LogicalSOI)|[tbd]|[Logical SOI](../concepts.md#Logical-SOI)|
-|[SAF_LogicalUser](../stereotypes.md#SAF_LogicalUser)|[tbd]|[Logical User](../concepts.md#Logical-User)|
+|Stereotype | Description|
+|---|---|
+|Connector||
+|InterfaceBlock||
+|ItemFlow||
+|ProxyPort||
+|[SAF_DomainKind](../stereotypes.md#SAF_DomainKind)|[tbd]|
+|[SAF_FV01c_SystemContextExchangeDiagram](../stereotypes.md#SAF_FV01c_SystemContextExchangeDiagram)|[tbd]|
+|[SAF_LogicalEnvironment](../stereotypes.md#SAF_LogicalEnvironment)|[tbd]|
+|[SAF_LogicalExternalSystem](../stereotypes.md#SAF_LogicalExternalSystem)|[tbd]|
+|[SAF_LogicalRole](../stereotypes.md#SAF_LogicalRole)|[tbd]|
+|[SAF_LogicalRole](../stereotypes.md#SAF_LogicalRole)|[tbd]|
+|[SAF_LogicalSOI](../stereotypes.md#SAF_LogicalSOI)|[tbd]|
+|[SAF_LogicalUser](../stereotypes.md#SAF_LogicalUser)|[tbd]|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [System Story Viewpoint](System-Story-Viewpoint.md)
@@ -56,8 +56,3 @@ Note: more than one IBD focused on different areas of interest may be used in od
 * [Operational Process Viewpoint](Operational-Process-Viewpoint.md)
 * [Operational Interaction Viewpoint](Operational-Interaction-Viewpoint.md)
 * [System Functional Breakdown Viewpoint](System-Functional-Breakdown-Viewpoint.md)
-# Viewpoint Concept and Profile Diagrams
-## Concept
-![System Context Exchange Concept](System-Context-Exchange-Concept.svg)
-## Profile
-![System Context Exchange Profile](System-Context-Exchange-Profile.svg)

@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#345</div>
+<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#346</div>
 
 # System Process Viewpoint
 *Domain:* **Functional** *Aspect:* **Behavior**
@@ -37,21 +37,21 @@ The Functional Scenario Activity(s) and their sequence related to a System Story
 Note: It is recommended to compile separate activity diagrams refining Use Case and System Context.
 
 ## Profile Model Reference
-|Stereotype | Description|realized Concept
-|---|---|---|
-|Allocate||[performingContextTSK](../concepts.md#performingContextTSK)|
-|Allocate||[performingSystemTSK](../concepts.md#performingSystemTSK)|
-|Association||[Logical SOI Constituent](../concepts.md#Logical-SOI-Constituent)|
-|Association||[Logical Context Constituent](../concepts.md#Logical-Context-Constituent)|
-|ControlFlow||[controlledAFTER](../concepts.md#controlledAFTER)|
-|InputPin||[FFtoFP](../concepts.md#FFtoFP)|
-|ObjectFlow||[Functional Flow](../concepts.md#Functional-Flow)|
-|OutputPin||[FFfromFP](../concepts.md#FFfromFP)|
-|[SAF_ContextFunction](../stereotypes.md#SAF_ContextFunction)|[tbd]|[Context Function](../concepts.md#Context-Function)|
-|[SAF_FV03a_SystemProcessDiagram](../stereotypes.md#SAF_FV03a_SystemProcessDiagram)|[tbd]|[System Process Viewpoint](../concepts.md#System-Process-Viewpoint)|
-|[SAF_FunctionAction](../stereotypes.md#SAF_FunctionAction)|[tbd]|[Functional Usage](../concepts.md#Functional-Usage)|
-|[SAF_SystemFunction](../stereotypes.md#SAF_SystemFunction)|[tbd]|[System Function](../concepts.md#System-Function)|
-|[SAF_SystemProcess](../stereotypes.md#SAF_SystemProcess)|[tbd]|[System Process](../concepts.md#System-Process)|
+|Stereotype | Description|
+|---|---|
+|Allocate||
+|Allocate||
+|Association||
+|Association||
+|ControlFlow||
+|InputPin||
+|ObjectFlow||
+|OutputPin||
+|[SAF_ContextFunction](../stereotypes.md#SAF_ContextFunction)|[tbd]|
+|[SAF_FV03a_SystemProcessDiagram](../stereotypes.md#SAF_FV03a_SystemProcessDiagram)|[tbd]|
+|[SAF_FunctionAction](../stereotypes.md#SAF_FunctionAction)|[tbd]|
+|[SAF_SystemFunction](../stereotypes.md#SAF_SystemFunction)|[tbd]|
+|[SAF_SystemProcess](../stereotypes.md#SAF_SystemProcess)|[tbd]|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Stakeholder Requirement Viewpoint](Stakeholder-Requirement-Viewpoint.md)
@@ -59,8 +59,3 @@ Note: It is recommended to compile separate activity diagrams refining Use Case 
 * [System Domain Item Kind Viewpoint](System-Domain-Item-Kind-Viewpoint.md)
 ### Recommended Viewpoints
 *none*
-# Viewpoint Concept and Profile Diagrams
-## Concept
-![System Process Concept](System-Process-Concept.svg)
-## Profile
-![System Process Profile](System-Process-Profile.svg)

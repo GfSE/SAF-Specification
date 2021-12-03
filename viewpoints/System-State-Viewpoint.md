@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#345</div>
+<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#346</div>
 
 # System State Viewpoint
 *Domain:* **Functional** *Aspect:* **Behavior**
@@ -24,17 +24,17 @@ Note:
 Note:
 
 ## Profile Model Reference
-|Stereotype | Description|realized Concept
-|---|---|---|
-|Event||[Triggering Event](../concepts.md#Triggering-Event)|
-|[SAF_DomainKind](../stereotypes.md#SAF_DomainKind)|[tbd]|[System Domain Kind](../concepts.md#System-Domain-Kind)|
-|[SAF_FV03b_SystemStateMachineDiagram](../stereotypes.md#SAF_FV03b_SystemStateMachineDiagram)|[tbd]|[System State Viewpoint](../concepts.md#System-State-Viewpoint)|
-|[SAF_LogicalElement](../stereotypes.md#SAF_LogicalElement)|[tbd]|[Logical Element](../concepts.md#Logical-Element)|
-|[SAF_SystemFunction](../stereotypes.md#SAF_SystemFunction)|[tbd]|[System Function](../concepts.md#System-Function)|
-|State||[State](../concepts.md#State)|
-|StateMachine||[SDKbeeingINstate](../concepts.md#SDKbeeingINstate)|
-|StateMachine||[LEbeeingINstate](../concepts.md#LEbeeingINstate)|
-|Transition||[State Transition](../concepts.md#State-Transition)|
+|Stereotype | Description|
+|---|---|
+|Event||
+|[SAF_DomainKind](../stereotypes.md#SAF_DomainKind)|[tbd]|
+|[SAF_FV03b_SystemStateMachineDiagram](../stereotypes.md#SAF_FV03b_SystemStateMachineDiagram)|[tbd]|
+|[SAF_LogicalElement](../stereotypes.md#SAF_LogicalElement)|[tbd]|
+|[SAF_SystemFunction](../stereotypes.md#SAF_SystemFunction)|[tbd]|
+|State||
+|StateMachine||
+|StateMachine||
+|Transition||
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Stakeholder Requirement Viewpoint](Stakeholder-Requirement-Viewpoint.md)
@@ -43,8 +43,3 @@ Note:
 * [Operational Process Viewpoint](Operational-Process-Viewpoint.md)
 * [Operational Interaction Viewpoint](Operational-Interaction-Viewpoint.md)
 * [System Functional Breakdown Viewpoint](System-Functional-Breakdown-Viewpoint.md)
-# Viewpoint Concept and Profile Diagrams
-## Concept
-![System State Concept](System-State-Concept.svg)
-## Profile
-![System State Profile](System-State-Profile.svg)

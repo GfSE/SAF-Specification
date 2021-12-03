@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#345</div>
+<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#346</div>
 
 # System Functional Breakdown Viewpoint
 *Domain:* **Functional** *Aspect:* **Crossreference and Mapping**
@@ -27,22 +27,17 @@ Note:
 The result of the [tbd] process is one or more block definition diagram(s) (BDD) featuring [tbd].
 
 ## Profile Model Reference
-|Stereotype | Description|realized Concept
-|---|---|---|
-|Activity||[General Function](../concepts.md#General-Function)|
-|Association||[containingGFC](../concepts.md#containingGFC)|
-|Association||[containingFCusage](../concepts.md#containingFCusage)|
-|Property||[containingFCusage](../concepts.md#containingFCusage)|
-|[SAF_FV02c_SystemFunctionalBreakdownDiagram](../stereotypes.md#SAF_FV02c_SystemFunctionalBreakdownDiagram)|[tbd]|[System Functional Breakdown Viewpoint](../concepts.md#System-Functional-Breakdown-Viewpoint)|
-|[SAF_FunctionAction](../stereotypes.md#SAF_FunctionAction)|[tbd]|[Functional Usage](../concepts.md#Functional-Usage)|
-|[SAF_SystemFunction](../stereotypes.md#SAF_SystemFunction)|[tbd]|[System Function](../concepts.md#System-Function)|
+|Stereotype | Description|
+|---|---|
+|Activity||
+|Association||
+|Association||
+|Property||
+|[SAF_FV02c_SystemFunctionalBreakdownDiagram](../stereotypes.md#SAF_FV02c_SystemFunctionalBreakdownDiagram)|[tbd]|
+|[SAF_FunctionAction](../stereotypes.md#SAF_FunctionAction)|[tbd]|
+|[SAF_SystemFunction](../stereotypes.md#SAF_SystemFunction)|[tbd]|
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*
 ### Recommended Viewpoints
 * [System Process Viewpoint](System-Process-Viewpoint.md)
-# Viewpoint Concept and Profile Diagrams
-## Concept
-![System Functional Breakdown Concept](System-Functional-Breakdown-Concept.svg)
-## Profile
-![System Functional Breakdown Profile](System-Functional-Breakdown-Profile.svg)

@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#345</div>
+<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#346</div>
 
 # System Capability Viewpoint
 *Domain:* **Functional** *Aspect:* **Structure**
@@ -20,23 +20,18 @@ Note:
 The result of the [tbd] process is one or more block definition diagram(s) (BDD) featuring System Capability(s) and their composition, specialization and dependency relationship(s).
 
 ## Profile Model Reference
-|Stereotype | Description|realized Concept
-|---|---|---|
-|[SAF_FV02b_SystemCapabilityDiagram](../stereotypes.md#SAF_FV02b_SystemCapabilityDiagram)|[tbd]|[System Capability Viewpoint](../concepts.md#System-Capability-Viewpoint)|
-|[SAF_SystemCapability](../stereotypes.md#SAF_SystemCapability)|[tbd]|[System Capability](../concepts.md#System-Capability)|
-|[SAF_SystemCapabilityComposition](../stereotypes.md#SAF_SystemCapabilityComposition)|[tbd]|[SCcomposedOF](../concepts.md#SCcomposedOF)|
-|[SAF_SystemCapabilityDependency](../stereotypes.md#SAF_SystemCapabilityDependency)|[tbd]|[SCdependingON](../concepts.md#SCdependingON)|
-|[SAF_SystemCapabilityGeneralization](../stereotypes.md#SAF_SystemCapabilityGeneralization)|[tbd]|[SCspecializedBY](../concepts.md#SCspecializedBY)|
+|Stereotype | Description|
+|---|---|
+|[SAF_FV02b_SystemCapabilityDiagram](../stereotypes.md#SAF_FV02b_SystemCapabilityDiagram)|[tbd]|
+|[SAF_SystemCapability](../stereotypes.md#SAF_SystemCapability)|[tbd]|
+|[SAF_SystemCapabilityComposition](../stereotypes.md#SAF_SystemCapabilityComposition)|[tbd]|
+|[SAF_SystemCapabilityDependency](../stereotypes.md#SAF_SystemCapabilityDependency)|[tbd]|
+|[SAF_SystemCapabilityGeneralization](../stereotypes.md#SAF_SystemCapabilityGeneralization)|[tbd]|
 |[SAF_SystemCapabilityMapping](../stereotypes.md#SAF_SystemCapabilityMapping)|[tbd]
-|[SCmappingTO](../concepts.md#SCmappingTO)|
+|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [System Story Viewpoint](System-Story-Viewpoint.md)
 ### Recommended Viewpoints
 * [Operational Story Viewpoint](Operational-Story-Viewpoint.md)
 * [Operational Process Viewpoint](Operational-Process-Viewpoint.md)
-# Viewpoint Concept and Profile Diagrams
-## Concept
-![System Capability Concept](System-Capability-Concept.svg)
-## Profile
-![System Capability Profile](System-Capability-Profile.svg)

@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#345</div>
+<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#346</div>
 
 # Operational Interaction Viewpoint
 *Domain:* **Operational** *Aspect:* **Interaction and Collaboration**
@@ -21,23 +21,18 @@ Note:
 The Operational Interaction shows in a sequence diagram the flow of control or data (Operational Exchange) between Operational Role(s) of an Operational Context to achieve one outcome of an Operational Story. This diagram represents the sending and receiving of messages or data between the Operational Role(s) along with the executed Operational Activity(s).
 
 ## Profile Model Reference
-|Stereotype | Description|realized Concept
-|---|---|---|
-|Interaction||[Operational Interaction Scenario](../concepts.md#Operational-Interaction-Scenario)|
-|Lifeline||[Operational Scenario Participant](../concepts.md#Operational-Scenario-Participant)|
-|Message||[Operational Chronological Message](../concepts.md#Operational-Chronological-Message)|
+|Stereotype | Description|
+|---|---|
+|Interaction||
+|Lifeline||
+|Message||
 |[SAF_OV04a_OperationalInteractionDiagram](../stereotypes.md#SAF_OV04a_OperationalInteractionDiagram)|The SAF Operational Interaction Diagram contains a Sequence Diagram. It is a refinement of an Operational Story.
 It contains
 * lifelines typed by roles from the Operational Context 
-* messages representing the sequence of interactions between the roles of an Operational Context|[Operational Interaction Viewpoint](../concepts.md#Operational-Interaction-Viewpoint)|
-|[SAF_OperationalRole](../stereotypes.md#SAF_OperationalRole)|[tbd]|[Operational Context Constituent](../concepts.md#Operational-Context-Constituent)|
+* messages representing the sequence of interactions between the roles of an Operational Context|
+|[SAF_OperationalRole](../stereotypes.md#SAF_OperationalRole)|[tbd]|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Operational Context Exchange Viewpoint](Operational-Context-Exchange-Viewpoint.md)
 ### Recommended Viewpoints
 *none*
-# Viewpoint Concept and Profile Diagrams
-## Concept
-![Operational Interaction Concept](Operational-Interaction-Concept.svg)
-## Profile
-![Operational Interaction Profile](Operational-Interaction-Profile.svg)

@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#345</div>
+<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#346</div>
 
 # Operational Story Viewpoint
 *Domain:* **Operational** *Aspect:* **Context**
@@ -23,20 +23,15 @@ Note:
 A use case diagram depicting model elements representing Operational Story(s) and Operational Performer(s) shall be used. In addition, an illustration (drawing, sketch, etc.) and/or a description in free text may provide a comprehensive understanding of the operational background.
 
 ## Profile Model Reference
-|Stereotype | Description|realized Concept
-|---|---|---|
-|[SAF_OV01a_OperationalStoryDiagram](../stereotypes.md#SAF_OV01a_OperationalStoryDiagram)|[tbd]|[Operational Story Viewpoint](../concepts.md#Operational-Story-Viewpoint)|
-|[SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)|[tbd]|[Operational Performer](../concepts.md#Operational-Performer)|
-|[SAF_OperationalPerformerActing](../stereotypes.md#SAF_OperationalPerformerActing)|[tbd]|[OPactingIN](../concepts.md#OPactingIN)|
-|[SAF_OperationalSketch](../stereotypes.md#SAF_OperationalSketch)|[tbd]|[Operational Sketch](../concepts.md#Operational-Sketch)|
-|[SAF_OperationalStory](../stereotypes.md#SAF_OperationalStory)|[tbd]|[Operational Story](../concepts.md#Operational-Story)|
+|Stereotype | Description|
+|---|---|
+|[SAF_OV01a_OperationalStoryDiagram](../stereotypes.md#SAF_OV01a_OperationalStoryDiagram)|[tbd]|
+|[SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)|[tbd]|
+|[SAF_OperationalPerformerActing](../stereotypes.md#SAF_OperationalPerformerActing)|[tbd]|
+|[SAF_OperationalSketch](../stereotypes.md#SAF_OperationalSketch)|[tbd]|
+|[SAF_OperationalStory](../stereotypes.md#SAF_OperationalStory)|[tbd]|
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*
 ### Recommended Viewpoints
 * [Operational Capability Viewpoint](Operational-Capability-Viewpoint.md)
-# Viewpoint Concept and Profile Diagrams
-## Concept
-![Operational Story Concept](Operational-Story-Concept.svg)
-## Profile
-![Operational Story Profile](Operational-Story-Profile.svg)

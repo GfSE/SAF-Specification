@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#345</div>
+<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#346</div>
 
 # Operational Process Traceability Viewpoint
 *Domain:* **Operational** *Aspect:* **Crossreference and Mapping**
@@ -20,22 +20,17 @@ Note:
 The relationship(s) of Operational Process Activity(s) to Operational Story(s) and to Operational Performer(s) are represented in a table format.
 
 ## Profile Model Reference
-|Stereotype | Description|realized Concept
-|---|---|---|
-|[SAF_OV08b_OperationalProcessTraceabilityDiagram](../stereotypes.md#SAF_OV08b_OperationalProcessTraceabilityDiagram)|[tbd]|[Operational Process Traceability Viewpoint](../concepts.md#Operational-Process-Traceability-Viewpoint)|
-|[SAF_OperationalCapability](../stereotypes.md#SAF_OperationalCapability)|[tbd]|[Operational Capability](../concepts.md#Operational-Capability)|
-|[SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)|[tbd]|[Operational Performer](../concepts.md#Operational-Performer)|
-|[SAF_OperationalProcess](../stereotypes.md#SAF_OperationalProcess)|[tbd]|[Operational Process](../concepts.md#Operational-Process)|
-|[SAF_OperationalProcessMapping](../stereotypes.md#SAF_OperationalProcessMapping)|[tbd]|[OPcontributesToOC](../concepts.md#OPcontributesToOC)|
-|[SAF_OperationalProcessRefinement](../stereotypes.md#SAF_OperationalProcessRefinement)|[tbd]|[OPrefiningOPSTRY](../concepts.md#OPrefiningOPSTRY)|
-|[SAF_OperationalStory](../stereotypes.md#SAF_OperationalStory)|[tbd]|[Operational Story](../concepts.md#Operational-Story)|
+|Stereotype | Description|
+|---|---|
+|[SAF_OV08b_OperationalProcessTraceabilityDiagram](../stereotypes.md#SAF_OV08b_OperationalProcessTraceabilityDiagram)|[tbd]|
+|[SAF_OperationalCapability](../stereotypes.md#SAF_OperationalCapability)|[tbd]|
+|[SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)|[tbd]|
+|[SAF_OperationalProcess](../stereotypes.md#SAF_OperationalProcess)|[tbd]|
+|[SAF_OperationalProcessMapping](../stereotypes.md#SAF_OperationalProcessMapping)|[tbd]|
+|[SAF_OperationalProcessRefinement](../stereotypes.md#SAF_OperationalProcessRefinement)|[tbd]|
+|[SAF_OperationalStory](../stereotypes.md#SAF_OperationalStory)|[tbd]|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Operational Process Viewpoint](Operational-Process-Viewpoint.md)
 ### Recommended Viewpoints
 * [Operational Context Definition Viewpoint](Operational-Context-Definition-Viewpoint.md)
-# Viewpoint Concept and Profile Diagrams
-## Concept
-![Operational Process Traceability Concept](Operational-Process-Traceability-Concept.svg)
-## Profile
-![Operational Process Traceability Profile](Operational-Process-Traceability-Profile.svg)

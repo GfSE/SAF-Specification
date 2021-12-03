@@ -1,26 +1,16 @@
-<div align="right">SAF_Cameo_Profile#345</div>
+<div align="right">SAF_Cameo_Profile#346</div>
 
 ## SAF_ContextElementCharacterization 
-implements concept [representingSCE](concepts.md#representingSCE)
-
 *please add description*
 ## SAF_ContextFunction![icon](icons/SAF_ContextFunction.svg)
-implements concept [Context Function](concepts.md#Context-Function)
-
 *please add description*
 ## SAF_DocumentReference![icon](icons/SAF_DocumentReference.svg)
 *please add description*
 ## SAF_DomainKind![icon](icons/SAF_DomainKind.svg)
-implements concept [System Domain Kind](concepts.md#System-Domain-Kind)
-
 *please add description*
 ## SAF_DomainKindComposition 
-implements concept [composedOF](concepts.md#composedOF)
-
 *please add description*
 ## SAF_DomainKindDerivation 
-implements concept [SDKderivingFromODK](concepts.md#SDKderivingFromODK)
-
 
 ## SAF_FV01a_SystemStoryDiagram![icon](icons/SAF_FV01a_SystemStoryDiagram.svg)
 implements viewpoint [System Story Viewpoint](viewpoints/System-Story-Viewpoint.md)
@@ -70,12 +60,8 @@ implements viewpoint [System Requirement Traceability Viewpoint](viewpoints/Syst
 
 *please add description*
 ## SAF_FunctionAction![icon](icons/SAF_FunctionAction.svg)
-implements concept [Functional Usage](concepts.md#Functional-Usage)
-
 *please add description*
 ## SAF_HardwareElement![icon](icons/SAF_HardwareElement.svg)
-implements concept [Hardware Element](concepts.md#Hardware-Element)
-
 *please add description*
 ## SAF_LV02a_LogicalStructureDiagram![icon](icons/SAF_LV02a_LogicalStructureDiagram.svg)
 implements viewpoint [Logical Structure Viewpoint](viewpoints/Logical-Structure-Viewpoint.md)
@@ -93,38 +79,20 @@ implements viewpoint [Logical Internal Exchange Viewpoint](viewpoints/Logical-In
 
 *please add description*
 ## SAF_LogicalContext![icon](icons/SAF_LogicalContext.svg)
-implements concept [Logical System Context](concepts.md#Logical-System-Context)
-
 *please add description*
 ## SAF_LogicalContextElementActing 
-implements concept [LEactingInSSTRY](concepts.md#LEactingInSSTRY)
-
 *please add description*
 ## SAF_LogicalElement![icon](icons/SAF_LogicalElement.svg)
-implements concept [Logical Element](concepts.md#Logical-Element)
-
 *please add description*
 ## SAF_LogicalEnvironment![icon](icons/SAF_LogicalEnvironment.svg)
-implements concept [Logical Environment](concepts.md#Logical-Environment)
-
 *please add description*
 ## SAF_LogicalExternalSystem![icon](icons/SAF_LogicalExternalSystem.svg)
-implements concept [Logical External System](concepts.md#Logical-External-System)
-
 *please add description*
 ## SAF_LogicalRole![icon](icons/SAF_LogicalRole.svg)
-implements concept [Logical Context Constituent](concepts.md#Logical-Context-Constituent)
-
-implements concept [Logical SOI Constituent](concepts.md#Logical-SOI-Constituent)
-
 *please add description*
 ## SAF_LogicalSOI![icon](icons/SAF_LogicalSOI.svg)
-implements concept [Logical SOI](concepts.md#Logical-SOI)
-
 *please add description*
 ## SAF_LogicalUser![icon](icons/SAF_LogicalUser.svg)
-implements concept [Logical User](concepts.md#Logical-User)
-
 *please add description*
 ## SAF_OV01a_OperationalStoryDiagram![icon](icons/SAF_OV01a_OperationalStoryDiagram.svg)
 implements viewpoint [Operational Story Viewpoint](viewpoints/Operational-Story-Viewpoint.md)
@@ -174,223 +142,115 @@ implements viewpoint [Operational Process Traceability Viewpoint](viewpoints/Ope
 
 *please add description*
 ## SAF_OperationalCapability![icon](icons/SAF_OperationalCapability.svg)
-implements concept [Operational Capability](concepts.md#Operational-Capability)
-
 *please add description*
 ## SAF_OperationalCapabilityComposition 
-implements concept [OCcomposedOF](concepts.md#OCcomposedOF)
-
 *please add description*
 ## SAF_OperationalCapabilityDependency 
-implements concept [OCdependingON](concepts.md#OCdependingON)
-
 *please add description*
 ## SAF_OperationalCapabilityGeneralization 
-implements concept [OCspecializedBY](concepts.md#OCspecializedBY)
-
 *please add description*
 ## SAF_OperationalCapabilitySupport 
-implements concept [OCsupportingOPSTRY](concepts.md#OCsupportingOPSTRY)
-
 *please add description*
 ## SAF_OperationalContext![icon](icons/SAF_OperationalContext.svg)
-implements concept [Operational Context](concepts.md#Operational-Context)
-
 *please add description*
 ## SAF_OperationalDomainKind![icon](icons/SAF_OperationalDomainKind.svg)
-implements concept [Operational Domain Kind](concepts.md#Operational-Domain-Kind)
-
 *please add description*
 ## SAF_OperationalDomainKindComposition 
-implements concept [composedOF](concepts.md#composedOF)
-
 *please add description*
 ## SAF_OperationalPerformer![icon](icons/SAF_OperationalPerformer.svg)
-implements concept [Operational Performer](concepts.md#Operational-Performer)
-
 *please add description*
 ## SAF_OperationalPerformerActing 
-implements concept [OPactingIN](concepts.md#OPactingIN)
-
 *please add description*
 ## SAF_OperationalPerformerComposition 
-implements concept [OPcomposedOF](concepts.md#OPcomposedOF)
-
 *please add description*
 ## SAF_OperationalPerformerExhibit![icon](icons/SAF_OperationalPerformerExhibit.svg)
-implements concept [OPexhibitingOC](concepts.md#OPexhibitingOC)
-
 *please add description*
 ## SAF_OperationalProcess![icon](icons/SAF_OperationalProcess.svg)
-implements concept [Operational Process](concepts.md#Operational-Process)
-
 *please add description*
 ## SAF_OperationalProcessAction![icon](icons/SAF_OperationalProcessAction.svg)
-implements concept [Operational Process Usage](concepts.md#Operational-Process-Usage)
-
 *please add description*
 ## SAF_OperationalProcessMapping 
-implements concept [OPcontributesToOC](concepts.md#OPcontributesToOC)
-
 *please add description*
 ## SAF_OperationalProcessRefinement 
-implements concept [OPrefiningOPSTRY](concepts.md#OPrefiningOPSTRY)
-
 *please add description*
 ## SAF_OperationalRole![icon](icons/SAF_OperationalRole.svg)
-implements concept [Operational Context Constituent](concepts.md#Operational-Context-Constituent)
-
 *please add description*
 ## SAF_OperationalSketch![icon](icons/SAF_OperationalSketch.svg)
-implements concept [Operational Sketch](concepts.md#Operational-Sketch)
-
 *please add description*
 ## SAF_OperationalStakeholderRepresentation 
-implements concept [representingPFR](concepts.md#representingPFR)
-
 *please add description*
 ## SAF_OperationalStory![icon](icons/SAF_OperationalStory.svg)
-implements concept [Operational Story](concepts.md#Operational-Story)
-
 *please add description*
 ## SAF_PhysicalContext![icon](icons/SAF_PhysicalContext.svg)
-implements concept [Physical System Context](concepts.md#Physical-System-Context)
-
 *please add description*
 ## SAF_PhysicalElement![icon](icons/SAF_PhysicalElement.svg)
-implements concept [Physical Element](concepts.md#Physical-Element)
-
 *please add description*
 ## SAF_PhysicalEnvironment![icon](icons/SAF_PhysicalEnvironment.svg)
-implements concept [Physical Environment](concepts.md#Physical-Environment)
-
 *please add description*
 ## SAF_PhysicalExternalSystem![icon](icons/SAF_PhysicalExternalSystem.svg)
-implements concept [Physical External System](concepts.md#Physical-External-System)
-
 *please add description*
 ## SAF_PhysicalItem![icon](icons/SAF_PhysicalItem.svg)
 *please add description*
 ## SAF_PhysicalSOI![icon](icons/SAF_PhysicalSOI.svg)
-implements concept [Physical SOI](concepts.md#Physical-SOI)
-
 *please add description*
 ## SAF_PhysicalUser![icon](icons/SAF_PhysicalUser.svg)
-implements concept [Physical User](concepts.md#Physical-User)
-
 *please add description*
 ## SAF_SoftwareElement![icon](icons/SAF_SoftwareElement.svg)
-implements concept [Software Element](concepts.md#Software-Element)
-
 *please add description*
 ## SAF_Stakeholder![icon](icons/SAF_Stakeholder.svg)
-implements concept [System of Interest Stakeholder](concepts.md#System-of-Interest-Stakeholder)
-
 *please add description*
 ## SAF_StakeholderRelation 
-implements concept [relatedTO](concepts.md#relatedTO)
-
 *please add description*
 ## SAF_StakeholderRequirement![icon](icons/SAF_StakeholderRequirement.svg)
-implements concept [Stakeholder Requirement](concepts.md#Stakeholder-Requirement)
-
 *please add description*
 ## SAF_StakeholderRequirementImposition 
-implements concept [imposedBY](concepts.md#imposedBY)
-
 *please add description*
 
 ## SAF_StakeholderRequirementRefinement 
-implements concept [refiningCNRN](concepts.md#refiningCNRN)
-
-implements concept [SRrefiningOPSTRY](concepts.md#SRrefiningOPSTRY)
-
 *please add description*
 
 ## SAF_SystemCapability![icon](icons/SAF_SystemCapability.svg)
-implements concept [System Capability](concepts.md#System-Capability)
-
 *please add description*
 ## SAF_SystemCapabilityComposition 
-implements concept [SCcomposedOF](concepts.md#SCcomposedOF)
-
 *please add description*
 ## SAF_SystemCapabilityDependency 
-implements concept [SCdependingON](concepts.md#SCdependingON)
-
 *please add description*
 ## SAF_SystemCapabilityGeneralization 
-implements concept [SCspecializedBY](concepts.md#SCspecializedBY)
-
 *please add description*
 ## SAF_SystemCapabilityMapping 
-implements concept [SCmappingTO](concepts.md#SCmappingTO)
-
 *please add description*
 
 ## SAF_SystemCapabilitySupport 
 *please add description*
 ## SAF_SystemFunction![icon](icons/SAF_SystemFunction.svg)
-implements concept [System Function](concepts.md#System-Function)
-
 *please add description*
 ## SAF_SystemFunctionMapping 
 *please add description*
 ## SAF_SystemFunctionalRequirement![icon](icons/SAF_SystemFunctionalRequirement.svg)
-implements concept [Functional Requirement](concepts.md#Functional-Requirement)
-
 *please add description*
 ## SAF_SystemFunctionalRequirementConstraint 
-implements concept [FRboundedBY](concepts.md#FRboundedBY)
-
 *please add description*
 ## SAF_SystemFunctionalRequirementRefinement 
-implements concept [FRrefiningSFC](concepts.md#FRrefiningSFC)
-
 *please add description*
 ## SAF_SystemNonFunctionalRequirement![icon](icons/SAF_SystemNonFunctionalRequirement.svg)
-implements concept [Nonfunctional Requirement](concepts.md#Nonfunctional-Requirement)
-
 *please add description*
 ## SAF_SystemOfInterestConcern![icon](icons/SAF_SystemOfInterestConcern.svg)
-implements concept [System of Interest Concern](concepts.md#System-of-Interest-Concern)
-
 *please add description*
 ## SAF_SystemOfInterestInvolvement 
-implements concept [Stakeholder Involement Constituent](concepts.md#Stakeholder-Involement-Constituent)
-
 *please add description*
 ## SAF_SystemProcess![icon](icons/SAF_SystemProcess.svg)
-implements concept [System Process](concepts.md#System-Process)
-
 *please add description*
 ## SAF_SystemRequirement![icon](icons/SAF_SystemRequirement.svg)
-implements concept [System Requirement](concepts.md#System-Requirement)
-
 *please add description*
 ## SAF_SystemRequirementDerivation 
-implements concept [derivingREQ](concepts.md#derivingREQ)
-
-implements concept [derivingREQ](concepts.md#derivingREQ)
-
 *please add description*
 
 ## SAF_SystemRequirementRefinement 
-implements concept [refiningCIF](concepts.md#refiningCIF)
-
-implements concept [SRrefiningSSTRY](concepts.md#SRrefiningSSTRY)
-
 *please add description*
 
 ## SAF_SystemStory![icon](icons/SAF_SystemStory.svg)
-implements concept [System Story](concepts.md#System-Story)
-
-implements concept [SSTRYtakingPlaceInLSC](concepts.md#SSTRYtakingPlaceInLSC)
-
 *please add description*
 ## SAF_SystemStoryContribution 
-implements concept [SScontributingToOS](concepts.md#SScontributingToOS)
-
 *please add description*
 
 ## SAF_VPQuery 

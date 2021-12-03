@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#345</div>
+<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#346</div>
 
 # Physical Structure Viewpoint
 *Domain:* **Physical** *Aspect:* **Structure**
@@ -48,15 +48,10 @@ Note:
 The following artifact(s) support the modeling activities:
 
 ## Profile Model Reference
-|Stereotype | Description|realized Concept
-|---|---|---|
+|Stereotype | Description|
+|---|---|
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*
 ### Recommended Viewpoints
-*none*
-# Viewpoint Concept and Profile Diagrams
-## Concept
-![Physical Structure Concept](Physical-Structure-Concept.svg)
-## Profile
 *none*
