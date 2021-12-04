@@ -39,9 +39,7 @@ A System Requirement Table (RVTM) featuring
 |[SAF_SystemNonFunctionalRequirement](../stereotypes.md#SAF_SystemNonFunctionalRequirement)|[tbd]|
 |[SAF_SystemRequirement](../stereotypes.md#SAF_SystemRequirement)|[tbd]|
 |[SAF_SystemRequirementDerivation](../stereotypes.md#SAF_SystemRequirementDerivation)|[tbd]
-|
-|[SAF_SystemRequirementDerivation](../stereotypes.md#SAF_SystemRequirementDerivation)|[tbd]
-|
+
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Stakeholder Requirement Viewpoint](Stakeholder-Requirement-Viewpoint.md)
