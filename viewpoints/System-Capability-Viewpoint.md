@@ -28,7 +28,7 @@ The result of the [tbd] process is one or more block definition diagram(s) (BDD)
 |[SAF_SystemCapabilityDependency](../stereotypes.md#SAF_SystemCapabilityDependency)|[tbd]|
 |[SAF_SystemCapabilityGeneralization](../stereotypes.md#SAF_SystemCapabilityGeneralization)|[tbd]|
 |[SAF_SystemCapabilityMapping](../stereotypes.md#SAF_SystemCapabilityMapping)|[tbd]
-|
+
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [System Story Viewpoint](System-Story-Viewpoint.md)
