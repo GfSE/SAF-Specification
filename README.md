@@ -1,5 +1,5 @@
 # The SAF Specification
-** The System Architecture Framework is a work in progress specification. **
+* Disclaimer * **The System Architecture Framework is a work in progress specification.**
 
 # Viewpoints
 
