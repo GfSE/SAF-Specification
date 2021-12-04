@@ -39,7 +39,7 @@ Note: [tbd]
 |[SAF_SystemStory](../stereotypes.md#SAF_SystemStory)|[tbd]|
 |[SAF_SystemStory](../stereotypes.md#SAF_SystemStory)|[tbd]|
 |[SAF_SystemStoryContribution](../stereotypes.md#SAF_SystemStoryContribution)|[tbd]
-|
+
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Stakeholder Requirement Viewpoint](Stakeholder-Requirement-Viewpoint.md)
