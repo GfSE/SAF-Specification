@@ -1,7 +1,7 @@
 <div align="right">SAF_FFDS#245,SAF_Cameo_Profile#346</div>
 
 # System Functional Breakdown Viewpoint
-*Domain:* **Functional** *Aspect:* **Crossreference and Mapping**
+*Domain:* **Functional** *Aspect:* **Strcture**
 ## Example
 ![FFDS Function Breakdown Structure Definition](../diagrams/FFDS-Function-Breakdown-Structure-Definition.svg)
 ## Purpose
