@@ -1,5 +1,5 @@
 # The SAF Specification
-The specification for the System Architecture Framework is work in progress.
+** The System Architecture Framework is a work in progress specification. **
 
 # Viewpoints
 
@@ -21,22 +21,22 @@ By identifying Stakeholder(s) and their Requirement(s) the SAF Operational Domai
 
 ### Operational Domain Viewpoints
 
-#### Aspect Context
+#### Operational Domain Aspect Context
 * [Operational Story Viewpoint](viewpoints/Operational-Story-Viewpoint.md)
 * [Operational Context Definition Viewpoint](viewpoints/Operational-Context-Definition-Viewpoint.md)
 * [Operational Context Exchange Viewpoint](viewpoints/Operational-Context-Exchange-Viewpoint.md)
-#### Aspect Structure
+#### Operational Domain Aspect Structure
 * [Operational Performer Viewpoint](viewpoints/Operational-Performer-Viewpoint.md)
 * [Operational Domain Item Kind Viewpoint](viewpoints/Operational-Domain-Item-Kind-Viewpoint.md)
 * [Operational Capability Viewpoint](viewpoints/Operational-Capability-Viewpoint.md)
-#### Aspect Behavior
+#### Operational Domain Aspect Behavior
 * [Operational Process Viewpoint](viewpoints/Operational-Process-Viewpoint.md)
 * [Operational Interaction Viewpoint](viewpoints/Operational-Interaction-Viewpoint.md)
-#### Aspect Interaction and Collaboration
+#### Operational Domain Aspect Interaction and Collaboration
 * [Operational Interaction Viewpoint](viewpoints/Operational-Interaction-Viewpoint.md)
-#### Aspect Requirement
+#### Operational Domain Aspect Requirement
 * [Stakeholder Requirement Viewpoint](viewpoints/Stakeholder-Requirement-Viewpoint.md)
-#### Aspect Crossreference and Mapping
+#### Operational Domain Aspect Crossreference and Mapping
 * [Operational Process Traceability Viewpoint](viewpoints/Operational-Process-Traceability-Viewpoint.md)
 * [Operational Capability Traceability Viewpoint](viewpoints/Operational-Capability-Traceability-Viewpoint.md)
 
@@ -57,20 +57,20 @@ The result of the Functional Domain Viewpoint elaboration is a comprehensive Sys
 
 ### Functional Domain Viewpoints
 
-#### Aspect Context
+#### Functional Domain Aspect Context
 * [System Story Viewpoint](viewpoints/System-Story-Viewpoint.md)
 * [System Context Definition Viewpoint](viewpoints/System-Context-Definition-Viewpoint.md)
 * [System Context Exchange Viewpoint](viewpoints/System-Context-Exchange-Viewpoint.md)
-#### Aspect Structure
+#### Functional Domain Aspect Structure
 * [System Domain Item Kind Viewpoint](viewpoints/System-Domain-Item-Kind-Viewpoint.md)
 * [System Capability Viewpoint](viewpoints/System-Capability-Viewpoint.md)
 * [System Functional Breakdown Viewpoint](viewpoints/System-Functional-Breakdown-Viewpoint.md)
-#### Aspect Behavior
+#### Functional Domain Aspect Behavior
 * [System Process Viewpoint](viewpoints/System-Process-Viewpoint.md)
 * [System State Viewpoint](viewpoints/System-State-Viewpoint.md)
-#### Aspect Interaction and Collaboration
+#### Functional Domain Aspect Interaction and Collaboration
 * [System Context Interaction Viewpoint](viewpoints/System-Context-Interaction-Viewpoint.md)
-#### Aspect Requirement
+#### Functional Domain Aspect Requirement
 * [System Requirement Viewpoint](viewpoints/System-Requirement-Viewpoint.md)
 
 ## Logical Domain
