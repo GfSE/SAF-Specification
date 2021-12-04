@@ -1,7 +1,10 @@
 # The SAF Specification
 The specification for the System Architecture Framework is work in progress.
+
 # Viewpoints
+
 ## Operational Domain
+
 ### Operational Domain Objective
 
 The SAF Operational Domain supports the model-based development of a [CONOPS](https://www.sebokwiki.org/wiki/Concept_of_Operations_(ConOps)_(glossary)) - as well as an [OPSCON](https://www.sebokwiki.org/wiki/Business_or_Mission_Analysis) and related life cycle concepts - for an organization or operational entity seeking for an improvement of existing capability(s) or establishing new ones.
@@ -9,6 +12,7 @@ The SAF Operational Domain supports the model-based development of a [CONOPS](ht
 The SAF Operational Domain therefore aims to get an understanding of required organizational or operational entity capability(s). The viewpoints of the SAF Operational Domain assist the "Business or Mission Analysis Process" and the "Stakeholder Needs and Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1, § 4.2].
 
 By identifying Stakeholder(s) and their Requirement(s) the SAF Operational Domain supports the derivation of a complete and consolidated set of Stakeholder Requirement(s) based on operational activities and exchanges.
+
 ### Operational Domain Concern
 
 * Gain a comprehensive understanding of the operating environment that an intended solution needs to support
@@ -27,8 +31,7 @@ By identifying Stakeholder(s) and their Requirement(s) the SAF Operational Domai
 * [Operational Capability Viewpoint](viewpoints/Operational-Capability-Viewpoint.md)
 #### Aspect Behavior
 * [Operational Process Viewpoint](viewpoints/Operational-Process-Viewpoint.md)
-* [Operational Operational Interaction Viewpoint](viewpoints/Operational-Interaction-Viewpoint.md)
-
+* [Operational Interaction Viewpoint](viewpoints/Operational-Interaction-Viewpoint.md)
 #### Aspect Interaction and Collaboration
 * [Operational Interaction Viewpoint](viewpoints/Operational-Interaction-Viewpoint.md)
 #### Aspect Requirement
@@ -36,6 +39,7 @@ By identifying Stakeholder(s) and their Requirement(s) the SAF Operational Domai
 #### Aspect Crossreference and Mapping
 * [Operational Process Traceability Viewpoint](viewpoints/Operational-Process-Traceability-Viewpoint.md)
 * [Operational Capability Traceability Viewpoint](viewpoints/Operational-Capability-Traceability-Viewpoint.md)
+
 ## Functional Domain
 
 ### Functional Domain Objective
@@ -52,13 +56,14 @@ The result of the Functional Domain Viewpoint elaboration is a comprehensive Sys
 * Understanding functional interrelationship(s): collecting and analyzing the exchange between different (sub-)functionality(s)
 
 ### Functional Domain Viewpoints
+
 #### Aspect Context
 * [System Story Viewpoint](viewpoints/System-Story-Viewpoint.md)
 * [System Context Definition Viewpoint](viewpoints/System-Context-Definition-Viewpoint.md)
 * [System Context Exchange Viewpoint](viewpoints/System-Context-Exchange-Viewpoint.md)
 #### Aspect Structure
-* [System Capability Viewpoint](viewpoints/System-Capability-Viewpoint.md)
 * [System Domain Item Kind Viewpoint](viewpoints/System-Domain-Item-Kind-Viewpoint.md)
+* [System Capability Viewpoint](viewpoints/System-Capability-Viewpoint.md)
 * [System Functional Breakdown Viewpoint](viewpoints/System-Functional-Breakdown-Viewpoint.md)
 #### Aspect Behavior
 * [System Process Viewpoint](viewpoints/System-Process-Viewpoint.md)
@@ -69,9 +74,17 @@ The result of the Functional Domain Viewpoint elaboration is a comprehensive Sys
 * [System Requirement Viewpoint](viewpoints/System-Requirement-Viewpoint.md)
 
 ## Logical Domain
+
+** UpComing **
+
 ## Physical Domain
 
-# Stakeholders
+** UpComing **
+
+# Stakeholder Definition
+
 [Stakeholders](stakeholders.md)
+
 # Profile Model
+
 [Stereotypes](stereotypes.md)
