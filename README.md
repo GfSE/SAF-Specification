@@ -1,9 +1,10 @@
-# The SAF Specification
+# SAF Specification
 Disclaimer: **The System Architecture Framework is a work in progress specification.**
 
-# Viewpoints
+# Viewpoint Grid
 This is the grid of Viewpoints organized in Domains as rows and Aspects as columns
 ![SAF Grid](diagrams/SAF-Viewpoint-Grid.svg)
+
 ## Operational Domain
 
 ### Operational Domain Objective
@@ -76,11 +77,11 @@ The result of the Functional Domain Viewpoint elaboration is a comprehensive Sys
 
 ## Logical Domain
 
-** UpComing **
+** UpComming **
 
 ## Physical Domain
 
-** UpComing **
+** UpComming **
 
 # Stakeholder Definition
 
