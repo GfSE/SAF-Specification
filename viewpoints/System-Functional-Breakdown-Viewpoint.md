@@ -1,7 +1,7 @@
-<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#346</div>
+<div align="right">SAF_FFDS#246,SAF_Cameo_Profile#346</div>
 
 # System Functional Breakdown Viewpoint
-*Domain:* **Functional** *Aspect:* **Strcture**
+*Domain:* **Functional** *Aspect:* **Crossreference and Mapping**
 ## Example
 ![FFDS Function Breakdown Structure Definition](../diagrams/FFDS-Function-Breakdown-Structure-Definition.svg)
 ## Purpose
@@ -27,15 +27,13 @@ Note:
 The result of the [tbd] process is one or more block definition diagram(s) (BDD) featuring [tbd].
 
 ## Profile Model Reference
-|Stereotype | Description|
-|---|---|
-|Activity||
-|Association||
-|Association||
-|Property||
-|[SAF_FV02c_SystemFunctionalBreakdownDiagram](../stereotypes.md#SAF_FV02c_SystemFunctionalBreakdownDiagram)|[tbd]|
-|[SAF_FunctionAction](../stereotypes.md#SAF_FunctionAction)|[tbd]|
-|[SAF_SystemFunction](../stereotypes.md#SAF_SystemFunction)|[tbd]|
+* Activity [UML_Standard_Profile]
+* Association [UML_Standard_Profile]
+* Association [UML_Standard_Profile]
+* Property [UML_Standard_Profile]
+* [SAF_FV02c_SystemFunctionalBreakdownDiagram](../stereotypes.md#SAF_FV02c_SystemFunctionalBreakdownDiagram)
+* [SAF_FunctionAction](../stereotypes.md#SAF_FunctionAction)
+* [SAF_SystemFunction](../stereotypes.md#SAF_SystemFunction)
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

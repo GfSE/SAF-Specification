@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#346</div>
+<div align="right">SAF_FFDS#246,SAF_Cameo_Profile#346</div>
 
 # Physical Context Definition Viewpoint
 *Domain:* **Physical** *Aspect:* **Context**
@@ -31,17 +31,15 @@ A) The physical context definition diagram defines the elements available in the
 * composition relationship(s) attaching the Physical Context Elements and the Physical SOI to the Physical System Context block
 
 ## Profile Model Reference
-|Stereotype | Description|
-|---|---|
-|Association||
-|Association||
-|Property||
-|Property||
-|[SAF_PhysicalContext](../stereotypes.md#SAF_PhysicalContext)|[tbd]|
-|[SAF_PhysicalEnvironment](../stereotypes.md#SAF_PhysicalEnvironment)|[tbd]|
-|[SAF_PhysicalExternalSystem](../stereotypes.md#SAF_PhysicalExternalSystem)|[tbd]|
-|[SAF_PhysicalSOI](../stereotypes.md#SAF_PhysicalSOI)|[tbd]|
-|[SAF_PhysicalUser](../stereotypes.md#SAF_PhysicalUser)|[tbd]|
+* Association [UML_Standard_Profile]
+* Association [UML_Standard_Profile]
+* Property [UML_Standard_Profile]
+* Property [UML_Standard_Profile]
+* [SAF_PhysicalContext](../stereotypes.md#SAF_PhysicalContext)
+* [SAF_PhysicalEnvironment](../stereotypes.md#SAF_PhysicalEnvironment)
+* [SAF_PhysicalExternalSystem](../stereotypes.md#SAF_PhysicalExternalSystem)
+* [SAF_PhysicalSOI](../stereotypes.md#SAF_PhysicalSOI)
+* [SAF_PhysicalUser](../stereotypes.md#SAF_PhysicalUser)
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

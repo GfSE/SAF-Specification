@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#346</div>
+<div align="right">SAF_FFDS#246,SAF_Cameo_Profile#346</div>
 
 # System Function Black Box Allocation Viewpoint
 *Domain:* **Functional** *Aspect:* **Crossreference and Mapping**
@@ -29,15 +29,13 @@ A System Function Black Box Allocation Matrix featuring
 * the part property(s) representing usage of SOI Element(s)
 
 ## Profile Model Reference
-|Stereotype | Description|
-|---|---|
-|Allocate||
-|Allocate||
-|Association||
-|Association||
-|[SAF_FunctionAction](../stereotypes.md#SAF_FunctionAction)|[tbd]|
-|[SAF_LogicalRole](../stereotypes.md#SAF_LogicalRole)|[tbd]|
-|[SAF_LogicalRole](../stereotypes.md#SAF_LogicalRole)|[tbd]|
+* Allocate [SysML Profile]
+* Allocate [SysML Profile]
+* Association [UML_Standard_Profile]
+* Association [UML_Standard_Profile]
+* [SAF_FunctionAction](../stereotypes.md#SAF_FunctionAction)
+* [SAF_LogicalRole](../stereotypes.md#SAF_LogicalRole)
+* [SAF_LogicalRole](../stereotypes.md#SAF_LogicalRole)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [System Process Viewpoint](System-Process-Viewpoint.md)

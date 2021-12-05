@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#346</div>
+<div align="right">SAF_FFDS#246,SAF_Cameo_Profile#346</div>
 
 # Logical Structure Viewpoint
 *Domain:* **Logical** *Aspect:* **Structure**
@@ -27,13 +27,11 @@ Note:
 A BDD features the logical System block and logical blocks for each kind of Logical Element the system is composed of. The elements are connected to the system block by means of aggregation relationships. Multiple relationship(s) to a kind of element are allowed meaning, that this kind of element is used in several roles. 
 
 ## Profile Model Reference
-|Stereotype | Description|
-|---|---|
-|Association||
-|Property||
-|[SAF_LV02a_LogicalStructureDiagram](../stereotypes.md#SAF_LV02a_LogicalStructureDiagram)|[tbd]|
-|[SAF_LogicalElement](../stereotypes.md#SAF_LogicalElement)|[tbd]|
-|[SAF_LogicalSOI](../stereotypes.md#SAF_LogicalSOI)|[tbd]|
+* Association [UML_Standard_Profile]
+* Property [UML_Standard_Profile]
+* [SAF_LV02a_LogicalStructureDiagram](../stereotypes.md#SAF_LV02a_LogicalStructureDiagram)
+* [SAF_LogicalElement](../stereotypes.md#SAF_LogicalElement)
+* [SAF_LogicalSOI](../stereotypes.md#SAF_LogicalSOI)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [System Functional Breakdown Viewpoint](System-Functional-Breakdown-Viewpoint.md)

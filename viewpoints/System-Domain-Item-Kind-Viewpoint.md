@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#346</div>
+<div align="right">SAF_FFDS#246,SAF_Cameo_Profile#346</div>
 
 # System Domain Item Kind Viewpoint
 *Domain:* **Functional** *Aspect:* **Structure**
@@ -24,18 +24,16 @@ Note:
 Domain Item Kind(s) are managed in the domain knowledge package of the SOI, the Domain Item Kind(s) are visible and usable to all sub elements of the SOI. Domain Item Kind(s) shall be value type(s) or block(s). A BDD diagram featuring Domain Item Kind(s) and their relationship(s) in terms of generalization, composition or general association shall be used.
 
 ## Profile Model Reference
-|Stereotype | Description|
-|---|---|
-|FlowProperty||
-|ItemFlow||
-|Parameter||
-|Pin||
-|[SAF_DomainKind](../stereotypes.md#SAF_DomainKind)|[tbd]|
-|[SAF_DomainKindComposition](../stereotypes.md#SAF_DomainKindComposition)|[tbd]|
-|[SAF_DomainKindDerivation](../stereotypes.md#SAF_DomainKindDerivation)||
-|[SAF_FV02a_SystemDomainKindDiagram](../stereotypes.md#SAF_FV02a_SystemDomainKindDiagram)|contains taxonomy of domain kinds in the functional and logical domain|
-|[SAF_OperationalDomainKind](../stereotypes.md#SAF_OperationalDomainKind)|[tbd]|
-|State||
+* FlowProperty [SysML Profile]
+* ItemFlow [SysML Profile]
+* Parameter [UML_Standard_Profile]
+* Pin [UML_Standard_Profile]
+* [SAF_DomainKind](../stereotypes.md#SAF_DomainKind)
+* [SAF_DomainKindComposition](../stereotypes.md#SAF_DomainKindComposition)
+* [SAF_DomainKindDerivation](../stereotypes.md#SAF_DomainKindDerivation)
+* [SAF_FV02a_SystemDomainKindDiagram](../stereotypes.md#SAF_FV02a_SystemDomainKindDiagram)
+* [SAF_OperationalDomainKind](../stereotypes.md#SAF_OperationalDomainKind)
+* State [UML_Standard_Profile]
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

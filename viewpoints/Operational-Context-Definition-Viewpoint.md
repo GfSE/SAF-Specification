@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#346</div>
+<div align="right">SAF_FFDS#246,SAF_Cameo_Profile#346</div>
 
 # Operational Context Definition Viewpoint
 *Domain:* **Operational** *Aspect:* **Context**
@@ -22,13 +22,11 @@ A block definition diagram (BDD) identifying the Operational Performer(s) playin
 Note: In addition, the block definition diagram may identify the Operational Capability(s) the Operational Context is related to.
 
 ## Profile Model Reference
-|Stereotype | Description|
-|---|---|
-|Association||
-|[SAF_OV01b_OperationalContextDefinitionDiagram](../stereotypes.md#SAF_OV01b_OperationalContextDefinitionDiagram)|[tbd]|
-|[SAF_OperationalContext](../stereotypes.md#SAF_OperationalContext)|[tbd]|
-|[SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)|[tbd]|
-|[SAF_OperationalRole](../stereotypes.md#SAF_OperationalRole)|[tbd]|
+* Association [UML_Standard_Profile]
+* [SAF_OV01b_OperationalContextDefinitionDiagram](../stereotypes.md#SAF_OV01b_OperationalContextDefinitionDiagram)
+* [SAF_OperationalContext](../stereotypes.md#SAF_OperationalContext)
+* [SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)
+* [SAF_OperationalRole](../stereotypes.md#SAF_OperationalRole)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Operational Story Viewpoint](Operational-Story-Viewpoint.md)

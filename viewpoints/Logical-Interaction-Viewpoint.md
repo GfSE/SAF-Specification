@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#346</div>
+<div align="right">SAF_FFDS#246,SAF_Cameo_Profile#346</div>
 
 # Logical Interaction Viewpoint
 *Domain:* **Logical** *Aspect:* **Interaction and Collaboration**
@@ -32,17 +32,12 @@ Note:
 The Logical Interaction Viewpoint is modeled as a sequence diagram. It describes the flow of control between logical components of the SOI.This diagram represents the sending and receiving of messages between the interacting entities called lifelines where time is represented along the vertical axis. The elements on the lifelines are part properties typed by logical system elements.
 
 ## Profile Model Reference
-|Stereotype | Description|
-|---|---|
-|Association||
-|Interaction||
-|Lifeline||
-|Message||
-|Property||
-|[SAF_LV04a_LogicalInternalInteractionDiagram](../stereotypes.md#SAF_LV04a_LogicalInternalInteractionDiagram)|The SAF Logical Internal Interaction Diagram contains a Sequence Diagram. It documents the interaction between parts of the logical SOI.
-It contains
-* Life Lines typed by parts of the logical SOI
-* Synchronous or asynchronous messages representing the sequence of interactions between the parts of the logical SOI|
+* Association [UML_Standard_Profile]
+* Interaction [UML_Standard_Profile]
+* Lifeline [UML_Standard_Profile]
+* Message [UML_Standard_Profile]
+* Property [UML_Standard_Profile]
+* [SAF_LV04a_LogicalInternalInteractionDiagram](../stereotypes.md#SAF_LV04a_LogicalInternalInteractionDiagram)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Logical Structure Viewpoint](Logical-Structure-Viewpoint.md)

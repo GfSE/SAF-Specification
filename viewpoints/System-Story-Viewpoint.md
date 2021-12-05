@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#346</div>
+<div align="right">SAF_FFDS#246,SAF_Cameo_Profile#346</div>
 
 # System Story Viewpoint
 *Domain:* **Functional** *Aspect:* **Context**
@@ -28,18 +28,15 @@ A use case diagram depicting model elements representing System Story(s) and Sys
 Note: [tbd]
 
 ## Profile Model Reference
-|Stereotype | Description|
-|---|---|
-|Include||
-|[SAF_FV01a_SystemStoryDiagram](../stereotypes.md#SAF_FV01a_SystemStoryDiagram)|[tbd]|
-|[SAF_LogicalContextElementActing](../stereotypes.md#SAF_LogicalContextElementActing)|[tbd]|
-|[SAF_LogicalEnvironment](../stereotypes.md#SAF_LogicalEnvironment)|[tbd]|
-|[SAF_LogicalExternalSystem](../stereotypes.md#SAF_LogicalExternalSystem)|[tbd]|
-|[SAF_LogicalUser](../stereotypes.md#SAF_LogicalUser)|[tbd]|
-|[SAF_SystemStory](../stereotypes.md#SAF_SystemStory)|[tbd]|
-|[SAF_SystemStory](../stereotypes.md#SAF_SystemStory)|[tbd]|
-|[SAF_SystemStoryContribution](../stereotypes.md#SAF_SystemStoryContribution)|[tbd]
-
+* Include [UML_Standard_Profile]
+* [SAF_FV01a_SystemStoryDiagram](../stereotypes.md#SAF_FV01a_SystemStoryDiagram)
+* [SAF_LogicalContextElementActing](../stereotypes.md#SAF_LogicalContextElementActing)
+* [SAF_LogicalEnvironment](../stereotypes.md#SAF_LogicalEnvironment)
+* [SAF_LogicalExternalSystem](../stereotypes.md#SAF_LogicalExternalSystem)
+* [SAF_LogicalUser](../stereotypes.md#SAF_LogicalUser)
+* [SAF_SystemStory](../stereotypes.md#SAF_SystemStory)
+* [SAF_SystemStory](../stereotypes.md#SAF_SystemStory)
+* [SAF_SystemStoryContribution](../stereotypes.md#SAF_SystemStoryContribution)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Stakeholder Requirement Viewpoint](Stakeholder-Requirement-Viewpoint.md)

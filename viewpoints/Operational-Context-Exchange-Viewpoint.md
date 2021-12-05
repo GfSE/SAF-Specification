@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#346</div>
+<div align="right">SAF_FFDS#246,SAF_Cameo_Profile#346</div>
 
 # Operational Context Exchange Viewpoint
 *Domain:* **Operational** *Aspect:* **Context**
@@ -20,15 +20,13 @@ Note:
 An internal block diagram (IBD) associated to an Operational Context showing the connected Operational Performer(s) in their respective Operational Role and the Operational Exchange per connection.
 
 ## Profile Model Reference
-|Stereotype | Description|
-|---|---|
-|Connector||
-|ItemFlow||
-|ItemFlow||
-|[SAF_OV01c_OperationalContextExchangeDiagram](../stereotypes.md#SAF_OV01c_OperationalContextExchangeDiagram)|[tbd]|
-|[SAF_OperationalContext](../stereotypes.md#SAF_OperationalContext)|[tbd]|
-|[SAF_OperationalDomainKind](../stereotypes.md#SAF_OperationalDomainKind)|[tbd]|
-|[SAF_OperationalRole](../stereotypes.md#SAF_OperationalRole)|[tbd]|
+* Connector [UML_Standard_Profile]
+* ItemFlow [SysML Profile]
+* ItemFlow [SysML Profile]
+* [SAF_OV01c_OperationalContextExchangeDiagram](../stereotypes.md#SAF_OV01c_OperationalContextExchangeDiagram)
+* [SAF_OperationalContext](../stereotypes.md#SAF_OperationalContext)
+* [SAF_OperationalDomainKind](../stereotypes.md#SAF_OperationalDomainKind)
+* [SAF_OperationalRole](../stereotypes.md#SAF_OperationalRole)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Operational Context Definition Viewpoint](Operational-Context-Definition-Viewpoint.md)

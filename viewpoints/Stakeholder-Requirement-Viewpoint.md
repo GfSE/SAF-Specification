@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#346</div>
+<div align="right">SAF_FFDS#246,SAF_Cameo_Profile#346</div>
 
 # Stakeholder Requirement Viewpoint
 *Domain:* **Operational** *Aspect:* **Requirement**
@@ -24,19 +24,14 @@ Note 1: "One requirement package for each Stakeholder" is a best-practice modeli
 Note 2: Even if different Stakeholder may have intersecting interests and / or concern(s) resulting in a similar set of requirements, each Stakeholder shall have its own set managed in a dedicated requirement package. Requirement(s) shall not be shared because of their different life cycles. Resolving duplications and conflicts is subject of the requirements analysis resulting in an agreed set of system requirement(s).
 
 ## Profile Model Reference
-|Stereotype | Description|
-|---|---|
-|Package||
-|[SAF_OV06a_StakeholderRequirementDiagram](../stereotypes.md#SAF_OV06a_StakeholderRequirementDiagram)|[tbd]|
-|[SAF_Stakeholder](../stereotypes.md#SAF_Stakeholder)|[tbd]|
-|[SAF_StakeholderRequirement](../stereotypes.md#SAF_StakeholderRequirement)|[tbd]|
-|[SAF_StakeholderRequirementImposition](../stereotypes.md#SAF_StakeholderRequirementImposition)|[tbd]
-|
-|[SAF_StakeholderRequirementRefinement](../stereotypes.md#SAF_StakeholderRequirementRefinement)|[tbd]
-|
-|[SAF_StakeholderRequirementRefinement](../stereotypes.md#SAF_StakeholderRequirementRefinement)|[tbd]
-|
-|[SAF_SystemOfInterestConcern](../stereotypes.md#SAF_SystemOfInterestConcern)|[tbd]|
+* Package [UML_Standard_Profile]
+* [SAF_OV06a_StakeholderRequirementDiagram](../stereotypes.md#SAF_OV06a_StakeholderRequirementDiagram)
+* [SAF_Stakeholder](../stereotypes.md#SAF_Stakeholder)
+* [SAF_StakeholderRequirement](../stereotypes.md#SAF_StakeholderRequirement)
+* [SAF_StakeholderRequirementImposition](../stereotypes.md#SAF_StakeholderRequirementImposition)
+* [SAF_StakeholderRequirementRefinement](../stereotypes.md#SAF_StakeholderRequirementRefinement)
+* [SAF_StakeholderRequirementRefinement](../stereotypes.md#SAF_StakeholderRequirementRefinement)
+* [SAF_SystemOfInterestConcern](../stereotypes.md#SAF_SystemOfInterestConcern)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Stakeholder Identification Viewpoint](Stakeholder-Identification-Viewpoint.md)

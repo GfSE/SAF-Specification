@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#346</div>
+<div align="right">SAF_FFDS#246,SAF_Cameo_Profile#346</div>
 
 # Operational Performer Viewpoint
 *Domain:* **Operational** *Aspect:* **Structure**
@@ -22,13 +22,11 @@ A block definition diagram (BDD) depicts Operational Performer(s) and their rela
 Note: Identified Stakeholders are related to Operational Performer(s) if appropriate.
 
 ## Profile Model Reference
-|Stereotype | Description|
-|---|---|
-|[SAF_OV02b_OperationalPerformerDiagram](../stereotypes.md#SAF_OV02b_OperationalPerformerDiagram)|[tbd]|
-|[SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)|[tbd]|
-|[SAF_OperationalPerformerComposition](../stereotypes.md#SAF_OperationalPerformerComposition)|[tbd]|
-|[SAF_OperationalStakeholderRepresentation](../stereotypes.md#SAF_OperationalStakeholderRepresentation)|[tbd]|
-|[SAF_Stakeholder](../stereotypes.md#SAF_Stakeholder)|[tbd]|
+* [SAF_OV02b_OperationalPerformerDiagram](../stereotypes.md#SAF_OV02b_OperationalPerformerDiagram)
+* [SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)
+* [SAF_OperationalPerformerComposition](../stereotypes.md#SAF_OperationalPerformerComposition)
+* [SAF_OperationalStakeholderRepresentation](../stereotypes.md#SAF_OperationalStakeholderRepresentation)
+* [SAF_Stakeholder](../stereotypes.md#SAF_Stakeholder)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Operational Story Viewpoint](Operational-Story-Viewpoint.md)

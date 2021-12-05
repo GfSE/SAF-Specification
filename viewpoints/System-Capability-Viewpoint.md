@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#346</div>
+<div align="right">SAF_FFDS#246,SAF_Cameo_Profile#346</div>
 
 # System Capability Viewpoint
 *Domain:* **Functional** *Aspect:* **Structure**
@@ -20,15 +20,12 @@ Note:
 The result of the [tbd] process is one or more block definition diagram(s) (BDD) featuring System Capability(s) and their composition, specialization and dependency relationship(s).
 
 ## Profile Model Reference
-|Stereotype | Description|
-|---|---|
-|[SAF_FV02b_SystemCapabilityDiagram](../stereotypes.md#SAF_FV02b_SystemCapabilityDiagram)|[tbd]|
-|[SAF_SystemCapability](../stereotypes.md#SAF_SystemCapability)|[tbd]|
-|[SAF_SystemCapabilityComposition](../stereotypes.md#SAF_SystemCapabilityComposition)|[tbd]|
-|[SAF_SystemCapabilityDependency](../stereotypes.md#SAF_SystemCapabilityDependency)|[tbd]|
-|[SAF_SystemCapabilityGeneralization](../stereotypes.md#SAF_SystemCapabilityGeneralization)|[tbd]|
-|[SAF_SystemCapabilityMapping](../stereotypes.md#SAF_SystemCapabilityMapping)|[tbd]
-
+* [SAF_FV02b_SystemCapabilityDiagram](../stereotypes.md#SAF_FV02b_SystemCapabilityDiagram)
+* [SAF_SystemCapability](../stereotypes.md#SAF_SystemCapability)
+* [SAF_SystemCapabilityComposition](../stereotypes.md#SAF_SystemCapabilityComposition)
+* [SAF_SystemCapabilityDependency](../stereotypes.md#SAF_SystemCapabilityDependency)
+* [SAF_SystemCapabilityGeneralization](../stereotypes.md#SAF_SystemCapabilityGeneralization)
+* [SAF_SystemCapabilityMapping](../stereotypes.md#SAF_SystemCapabilityMapping)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [System Story Viewpoint](System-Story-Viewpoint.md)

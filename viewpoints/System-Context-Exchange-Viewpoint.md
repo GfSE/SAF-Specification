@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#346</div>
+<div align="right">SAF_FFDS#246,SAF_Cameo_Profile#346</div>
 
 # System Context Exchange Viewpoint
 *Domain:* **Functional** *Aspect:* **Context**
@@ -33,20 +33,18 @@ An IBD featuring the SOI, the System Context Element(s) and Connector(s) for eac
 Note: more than one IBD focused on different areas of interest may be used in oder to keep the view comprehensive. Depending on the Stakeholder Concern(s) the Item Exchange information might be suppressed.
 
 ## Profile Model Reference
-|Stereotype | Description|
-|---|---|
-|Connector||
-|InterfaceBlock||
-|ItemFlow||
-|ProxyPort||
-|[SAF_DomainKind](../stereotypes.md#SAF_DomainKind)|[tbd]|
-|[SAF_FV01c_SystemContextExchangeDiagram](../stereotypes.md#SAF_FV01c_SystemContextExchangeDiagram)|[tbd]|
-|[SAF_LogicalEnvironment](../stereotypes.md#SAF_LogicalEnvironment)|[tbd]|
-|[SAF_LogicalExternalSystem](../stereotypes.md#SAF_LogicalExternalSystem)|[tbd]|
-|[SAF_LogicalRole](../stereotypes.md#SAF_LogicalRole)|[tbd]|
-|[SAF_LogicalRole](../stereotypes.md#SAF_LogicalRole)|[tbd]|
-|[SAF_LogicalSOI](../stereotypes.md#SAF_LogicalSOI)|[tbd]|
-|[SAF_LogicalUser](../stereotypes.md#SAF_LogicalUser)|[tbd]|
+* Connector [UML_Standard_Profile]
+* InterfaceBlock [SysML Profile]
+* ItemFlow [SysML Profile]
+* ProxyPort [SysML Profile]
+* [SAF_DomainKind](../stereotypes.md#SAF_DomainKind)
+* [SAF_FV01c_SystemContextExchangeDiagram](../stereotypes.md#SAF_FV01c_SystemContextExchangeDiagram)
+* [SAF_LogicalEnvironment](../stereotypes.md#SAF_LogicalEnvironment)
+* [SAF_LogicalExternalSystem](../stereotypes.md#SAF_LogicalExternalSystem)
+* [SAF_LogicalRole](../stereotypes.md#SAF_LogicalRole)
+* [SAF_LogicalRole](../stereotypes.md#SAF_LogicalRole)
+* [SAF_LogicalSOI](../stereotypes.md#SAF_LogicalSOI)
+* [SAF_LogicalUser](../stereotypes.md#SAF_LogicalUser)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [System Story Viewpoint](System-Story-Viewpoint.md)

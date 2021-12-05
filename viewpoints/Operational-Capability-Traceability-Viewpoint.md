@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#346</div>
+<div align="right">SAF_FFDS#246,SAF_Cameo_Profile#346</div>
 
 # Operational Capability Traceability Viewpoint
 *Domain:* **Operational** *Aspect:* **Crossreference and Mapping**
@@ -20,18 +20,16 @@ Note:
 The relationship(s) of Operational Capability(s) to Operational Story(s) and to Operational Performer(s) are represented in a table format.
 
 ## Profile Model Reference
-|Stereotype | Description|
-|---|---|
-|[SAF_OV08a_OperationalCapabilityTraceabilityDiagram](../stereotypes.md#SAF_OV08a_OperationalCapabilityTraceabilityDiagram)|[tbd]|
-|[SAF_OperationalCapability](../stereotypes.md#SAF_OperationalCapability)|[tbd]|
-|[SAF_OperationalCapabilityComposition](../stereotypes.md#SAF_OperationalCapabilityComposition)|[tbd]|
-|[SAF_OperationalCapabilityDependency](../stereotypes.md#SAF_OperationalCapabilityDependency)|[tbd]|
-|[SAF_OperationalCapabilityGeneralization](../stereotypes.md#SAF_OperationalCapabilityGeneralization)|[tbd]|
-|[SAF_OperationalCapabilitySupport](../stereotypes.md#SAF_OperationalCapabilitySupport)|[tbd]|
-|[SAF_OperationalPerformerExhibit](../stereotypes.md#SAF_OperationalPerformerExhibit)|[tbd]|
-|[SAF_OperationalProcess](../stereotypes.md#SAF_OperationalProcess)|[tbd]|
-|[SAF_OperationalProcessMapping](../stereotypes.md#SAF_OperationalProcessMapping)|[tbd]|
-|[SAF_OperationalStory](../stereotypes.md#SAF_OperationalStory)|[tbd]|
+* [SAF_OV08a_OperationalCapabilityTraceabilityDiagram](../stereotypes.md#SAF_OV08a_OperationalCapabilityTraceabilityDiagram)
+* [SAF_OperationalCapability](../stereotypes.md#SAF_OperationalCapability)
+* [SAF_OperationalCapabilityComposition](../stereotypes.md#SAF_OperationalCapabilityComposition)
+* [SAF_OperationalCapabilityDependency](../stereotypes.md#SAF_OperationalCapabilityDependency)
+* [SAF_OperationalCapabilityGeneralization](../stereotypes.md#SAF_OperationalCapabilityGeneralization)
+* [SAF_OperationalCapabilitySupport](../stereotypes.md#SAF_OperationalCapabilitySupport)
+* [SAF_OperationalPerformerExhibit](../stereotypes.md#SAF_OperationalPerformerExhibit)
+* [SAF_OperationalProcess](../stereotypes.md#SAF_OperationalProcess)
+* [SAF_OperationalProcessMapping](../stereotypes.md#SAF_OperationalProcessMapping)
+* [SAF_OperationalStory](../stereotypes.md#SAF_OperationalStory)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Operational Capability Viewpoint](Operational-Capability-Viewpoint.md)

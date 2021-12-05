@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#346</div>
+<div align="right">SAF_FFDS#246,SAF_Cameo_Profile#346</div>
 
 # Operational Story Viewpoint
 *Domain:* **Operational** *Aspect:* **Context**
@@ -23,13 +23,11 @@ Note:
 A use case diagram depicting model elements representing Operational Story(s) and Operational Performer(s) shall be used. In addition, an illustration (drawing, sketch, etc.) and/or a description in free text may provide a comprehensive understanding of the operational background.
 
 ## Profile Model Reference
-|Stereotype | Description|
-|---|---|
-|[SAF_OV01a_OperationalStoryDiagram](../stereotypes.md#SAF_OV01a_OperationalStoryDiagram)|[tbd]|
-|[SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)|[tbd]|
-|[SAF_OperationalPerformerActing](../stereotypes.md#SAF_OperationalPerformerActing)|[tbd]|
-|[SAF_OperationalSketch](../stereotypes.md#SAF_OperationalSketch)|[tbd]|
-|[SAF_OperationalStory](../stereotypes.md#SAF_OperationalStory)|[tbd]|
+* [SAF_OV01a_OperationalStoryDiagram](../stereotypes.md#SAF_OV01a_OperationalStoryDiagram)
+* [SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)
+* [SAF_OperationalPerformerActing](../stereotypes.md#SAF_OperationalPerformerActing)
+* [SAF_OperationalSketch](../stereotypes.md#SAF_OperationalSketch)
+* [SAF_OperationalStory](../stereotypes.md#SAF_OperationalStory)
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

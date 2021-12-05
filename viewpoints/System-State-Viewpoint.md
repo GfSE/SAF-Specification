@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#346</div>
+<div align="right">SAF_FFDS#246,SAF_Cameo_Profile#346</div>
 
 # System State Viewpoint
 *Domain:* **Functional** *Aspect:* **Behavior**
@@ -24,17 +24,15 @@ Note:
 Note:
 
 ## Profile Model Reference
-|Stereotype | Description|
-|---|---|
-|Event||
-|[SAF_DomainKind](../stereotypes.md#SAF_DomainKind)|[tbd]|
-|[SAF_FV03b_SystemStateMachineDiagram](../stereotypes.md#SAF_FV03b_SystemStateMachineDiagram)|[tbd]|
-|[SAF_LogicalElement](../stereotypes.md#SAF_LogicalElement)|[tbd]|
-|[SAF_SystemFunction](../stereotypes.md#SAF_SystemFunction)|[tbd]|
-|State||
-|StateMachine||
-|StateMachine||
-|Transition||
+* Event [UML_Standard_Profile]
+* [SAF_DomainKind](../stereotypes.md#SAF_DomainKind)
+* [SAF_FV03b_SystemStateMachineDiagram](../stereotypes.md#SAF_FV03b_SystemStateMachineDiagram)
+* [SAF_LogicalElement](../stereotypes.md#SAF_LogicalElement)
+* [SAF_SystemFunction](../stereotypes.md#SAF_SystemFunction)
+* State [UML_Standard_Profile]
+* StateMachine [UML_Standard_Profile]
+* StateMachine [UML_Standard_Profile]
+* Transition [UML_Standard_Profile]
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Stakeholder Requirement Viewpoint](Stakeholder-Requirement-Viewpoint.md)

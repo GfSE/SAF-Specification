@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#346</div>
+<div align="right">SAF_FFDS#246,SAF_Cameo_Profile#346</div>
 
 # Operational Process Viewpoint
 *Domain:* **Operational** *Aspect:* **Behavior**
@@ -22,18 +22,16 @@ The Operational Process related to an Operational Story is represented in an act
 Note: Operational Process Activity(s) are assigned to Operational Role(s) and therefore in a more general manner to the Operational Performer(s).
 
 ## Profile Model Reference
-|Stereotype | Description|
-|---|---|
-|Allocate||
-|ControlFlow||
-|InputPin||
-|ObjectFlow||
-|OutputPin||
-|[SAF_OV03a_OperationalProcessDiagram](../stereotypes.md#SAF_OV03a_OperationalProcessDiagram)|[tbd]|
-|[SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)|[tbd]|
-|[SAF_OperationalProcess](../stereotypes.md#SAF_OperationalProcess)|[tbd]|
-|[SAF_OperationalProcessAction](../stereotypes.md#SAF_OperationalProcessAction)|[tbd]|
-|[SAF_OperationalRole](../stereotypes.md#SAF_OperationalRole)|[tbd]|
+* Allocate [SysML Profile]
+* ControlFlow [UML_Standard_Profile]
+* InputPin [UML_Standard_Profile]
+* ObjectFlow [UML_Standard_Profile]
+* OutputPin [UML_Standard_Profile]
+* [SAF_OV03a_OperationalProcessDiagram](../stereotypes.md#SAF_OV03a_OperationalProcessDiagram)
+* [SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)
+* [SAF_OperationalProcess](../stereotypes.md#SAF_OperationalProcess)
+* [SAF_OperationalProcessAction](../stereotypes.md#SAF_OperationalProcessAction)
+* [SAF_OperationalRole](../stereotypes.md#SAF_OperationalRole)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Operational Context Exchange Viewpoint](Operational-Context-Exchange-Viewpoint.md)

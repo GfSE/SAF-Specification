@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#346</div>
+<div align="right">SAF_FFDS#246,SAF_Cameo_Profile#346</div>
 
 # Operational Process Traceability Viewpoint
 *Domain:* **Operational** *Aspect:* **Crossreference and Mapping**
@@ -20,15 +20,13 @@ Note:
 The relationship(s) of Operational Process Activity(s) to Operational Story(s) and to Operational Performer(s) are represented in a table format.
 
 ## Profile Model Reference
-|Stereotype | Description|
-|---|---|
-|[SAF_OV08b_OperationalProcessTraceabilityDiagram](../stereotypes.md#SAF_OV08b_OperationalProcessTraceabilityDiagram)|[tbd]|
-|[SAF_OperationalCapability](../stereotypes.md#SAF_OperationalCapability)|[tbd]|
-|[SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)|[tbd]|
-|[SAF_OperationalProcess](../stereotypes.md#SAF_OperationalProcess)|[tbd]|
-|[SAF_OperationalProcessMapping](../stereotypes.md#SAF_OperationalProcessMapping)|[tbd]|
-|[SAF_OperationalProcessRefinement](../stereotypes.md#SAF_OperationalProcessRefinement)|[tbd]|
-|[SAF_OperationalStory](../stereotypes.md#SAF_OperationalStory)|[tbd]|
+* [SAF_OV08b_OperationalProcessTraceabilityDiagram](../stereotypes.md#SAF_OV08b_OperationalProcessTraceabilityDiagram)
+* [SAF_OperationalCapability](../stereotypes.md#SAF_OperationalCapability)
+* [SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)
+* [SAF_OperationalProcess](../stereotypes.md#SAF_OperationalProcess)
+* [SAF_OperationalProcessMapping](../stereotypes.md#SAF_OperationalProcessMapping)
+* [SAF_OperationalProcessRefinement](../stereotypes.md#SAF_OperationalProcessRefinement)
+* [SAF_OperationalStory](../stereotypes.md#SAF_OperationalStory)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Operational Process Viewpoint](Operational-Process-Viewpoint.md)

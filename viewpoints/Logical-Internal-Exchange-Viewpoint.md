@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#346</div>
+<div align="right">SAF_FFDS#246,SAF_Cameo_Profile#346</div>
 
 # Logical Internal Exchange Viewpoint
 *Domain:* **Logical** *Aspect:* **Interaction and Collaboration**
@@ -38,16 +38,14 @@ Note:
 One or more IBD featuring the logical element(s) of the SOI, and the SOI boundary, containing connector(s) for each identified SOI interface delegation to SOI element(s), as well as connector(s) between related interface(s) of SOI parts. An interface is a connection resource for hooking on the logical SOI element(s) to other logical SOI element(s). Item flows are defined for each exchange on the identified interface.  Recommendation: Use more than one IBD focused on different areas of interest to keep the view comprehensive. Depending on the Stakeholder concern(s) the logical item exchange information might be suppressed.
 
 ## Profile Model Reference
-|Stereotype | Description|
-|---|---|
-|Connector||
-|InterfaceBlock||
-|ItemFlow||
-|Property||
-|ProxyPort||
-|[SAF_DomainKind](../stereotypes.md#SAF_DomainKind)|[tbd]|
-|[SAF_LV04b_LogicalInternalExchangeDiagram](../stereotypes.md#SAF_LV04b_LogicalInternalExchangeDiagram)|[tbd]|
-|[SAF_LogicalElement](../stereotypes.md#SAF_LogicalElement)|[tbd]|
+* Connector [UML_Standard_Profile]
+* InterfaceBlock [SysML Profile]
+* ItemFlow [SysML Profile]
+* Property [UML_Standard_Profile]
+* ProxyPort [SysML Profile]
+* [SAF_DomainKind](../stereotypes.md#SAF_DomainKind)
+* [SAF_LV04b_LogicalInternalExchangeDiagram](../stereotypes.md#SAF_LV04b_LogicalInternalExchangeDiagram)
+* [SAF_LogicalElement](../stereotypes.md#SAF_LogicalElement)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [System Domain Item Kind Viewpoint](System-Domain-Item-Kind-Viewpoint.md)

@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#346</div>
+<div align="right">SAF_FFDS#246,SAF_Cameo_Profile#346</div>
 
 # Physical Context Exchange Viewpoint
 *Domain:* **Physical** *Aspect:* **Context**
@@ -40,8 +40,6 @@ B) A physical context interface table provides a list of all the defined externa
 C) A context interface table is used to define the applicable standard(s), protocol(s) and format(s) for the item flow(s) exchanged via the identified interface(s)
 
 ## Profile Model Reference
-|Stereotype | Description|
-|---|---|
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

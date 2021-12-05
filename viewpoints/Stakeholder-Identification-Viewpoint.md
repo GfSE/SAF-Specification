@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#245,SAF_Cameo_Profile#346</div>
+<div align="right">SAF_FFDS#246,SAF_Cameo_Profile#346</div>
 
 # Stakeholder Identification Viewpoint
 *Domain:* **Operational** *Aspect:* **Structure**
@@ -28,13 +28,11 @@ Note:
 The results of the Stakeholder Analysis are identified Stakeholder(s). A Stakeholder Identification diagram (BDD) depicts the relations of the identified Stakeholder(s) towards the Intended Solution.
 
 ## Profile Model Reference
-|Stereotype | Description|
-|---|---|
-|[SAF_ContextElementCharacterization](../stereotypes.md#SAF_ContextElementCharacterization)|[tbd]|
-|[SAF_Stakeholder](../stereotypes.md#SAF_Stakeholder)|[tbd]|
-|[SAF_StakeholderRelation](../stereotypes.md#SAF_StakeholderRelation)|[tbd]|
-|[SAF_SystemOfInterestConcern](../stereotypes.md#SAF_SystemOfInterestConcern)|[tbd]|
-|[SAF_SystemOfInterestInvolvement](../stereotypes.md#SAF_SystemOfInterestInvolvement)|[tbd]|
+* [SAF_ContextElementCharacterization](../stereotypes.md#SAF_ContextElementCharacterization)
+* [SAF_Stakeholder](../stereotypes.md#SAF_Stakeholder)
+* [SAF_StakeholderRelation](../stereotypes.md#SAF_StakeholderRelation)
+* [SAF_SystemOfInterestConcern](../stereotypes.md#SAF_SystemOfInterestConcern)
+* [SAF_SystemOfInterestInvolvement](../stereotypes.md#SAF_SystemOfInterestInvolvement)
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*
