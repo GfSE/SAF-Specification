@@ -77,11 +77,11 @@ The result of the Functional Domain Viewpoint elaboration is a comprehensive Sys
 
 ## Logical Domain
 
-** UpComming **
+(**UpComing**)
 
 ## Physical Domain
 
-** UpComming **
+(**UpComing**)
 
 # Stakeholder Definition
 
