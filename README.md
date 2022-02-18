@@ -72,6 +72,7 @@ The result of the Functional Domain Viewpoint elaboration is a comprehensive Sys
 * [System State Viewpoint](viewpoints/System-State-Viewpoint.md)
 #### Functional Domain Aspect Interaction and Collaboration
 * [System Context Interaction Viewpoint](viewpoints/System-Context-Interaction-Viewpoint.md)
+* System Logical Internal Exchange Viewpoint
 #### Functional Domain Aspect Requirement
 * [System Requirement Viewpoint](viewpoints/System-Requirement-Viewpoint.md)
 
