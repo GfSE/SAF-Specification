@@ -46,9 +46,7 @@ By identifying Stakeholder(s) and their Requirement(s) the SAF Operational Domai
 
 ### Functional Domain Objective
 
-The Functional Domain Viewpoints translate Operational Domain usage into the notion of System Function(s) defining the demanded system behavior and quality attributes - performance, safety, security, etc.; the demanded system behavior as it is perceived by the User or other Entity(s) at the System Boundary (known as usage behavior).
-
-The result of the Functional Domain Viewpoint elaboration is a comprehensive System Specification.
+The Functional Domain Viewpoints translate Operational Domain usage into the notion of System Function(s) defining the demanded system behavior and quality attributes - performance, safety, security, etc.; the demanded system behavior as it is perceived by the User or other Entity(s) at the System Boundary (known as usage behavior). The result of the Functional Domain Viewpoint elaboration is a comprehensive System Specification.
 
 ### Functional Domain Concern
 
