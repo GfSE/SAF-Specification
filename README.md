@@ -94,6 +94,7 @@ The Logical Domain Viewpoints describe the Logical Structure and the distributio
 #### Logical Domain Aspect Structure
 * [Logical Structure Definition Viewpoint](viewpoints/Logical-Structure-Viewpoint.md)
 #### Logical Domain Aspect Interaction and Collaboration
+* [Logical Internal Interaction Viewpoint](viewpoints/Logical-Interaction-Viewpoint.md)
 * [Logical Internal Exchange Viewpoint](viewpoints/Logical-Internal-Exchange-Viewpoint.md)
 
 ## Physical Domain
