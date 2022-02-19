@@ -1,5 +1,5 @@
 # SAF Specification
-Disclaimer: **The System Architecture Framework is a work in progress specification.**
+Disclaimer: **The System Architecture Framework specification is a work in progress document.**
 
 # Viewpoint Grid
 This is the grid of Viewpoints organized in Domains as rows and Aspects as columns
