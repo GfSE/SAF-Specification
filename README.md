@@ -40,7 +40,7 @@ By identifying Stakeholder(s) and their Requirement(s) the SAF Operational Domai
 * [Stakeholder Requirement Viewpoint](viewpoints/Stakeholder-Requirement-Viewpoint.md)
 #### Operational Domain Aspect Crossreference and Mapping
 * [Operational Process Traceability Viewpoint](viewpoints/Operational-Process-Traceability-Viewpoint.md)
-* [Operational Capability Traceability Viewpoint](viewpoints/Operational-Capability-Traceability-Viewpoint.md)
+* Operational Capability Traceability Viewpoint
 
 ## Functional Domain
 
