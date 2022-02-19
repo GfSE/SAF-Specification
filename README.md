@@ -49,10 +49,14 @@ The Functional Domain Viewpoints translate Operational Domain usage into the not
 
 ### Functional Domain Concern
 
-* Consolidating Functional Requirement(s): formally specifying the requirements of the system behavior using a black box approach
-* Mastering functional dependency: detection and resolution of inconsistencies within the Functional Requirement(s) (known as feature interaction)
-* Reducing functional complexity: structuring the functionality from the System's point of view
-* Understanding functional interrelationship(s): collecting and analyzing the exchange between different (sub-)functionality(s)
+* Consolidating Functional Requirement(s): 
+  * formally specifying the requirements of the system behavior using a black box approach
+* Mastering functional dependency: 
+  * detection and resolution of inconsistencies within the Functional Requirement(s) (known as feature interaction)
+* Reducing functional complexity: 
+  * structuring the functionality from the System's point of view
+* Understanding functional interrelationship(s): 
+  * collecting and analyzing the exchange between different (sub-)functionality(s)
 
 ### Functional Domain Viewpoints
 
