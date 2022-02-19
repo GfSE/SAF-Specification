@@ -1,6 +1,6 @@
 <div align="right">SAF_Cameo_Profile#346</div>
 
-![SAF_Stakeholder_Definition](diagrams/SAF_stakeholder_definition.svg)
+![SAF_Stakeholder_Definition](diagrams/SAF-Stakeholder-Definition.svg)
 This section provides a list of the Stakeholder roles considered in the development of the architecture described by SAF. For each, the section lists the concerns that the Stakeholder has that can be addressed by the information in this SAF framework.
 
 Each Stakeholder of a system - customer, user, project manager, coder, analyst, tester, and so on - is concerned with different characteristics of the system that are affected by its architecture.
