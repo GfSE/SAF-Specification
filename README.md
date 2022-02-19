@@ -33,7 +33,6 @@ By identifying Stakeholder(s) and their Requirement(s) the SAF Operational Domai
 * [Operational Capability Viewpoint](viewpoints/Operational-Capability-Viewpoint.md)
 #### Operational Domain Aspect Behavior
 * [Operational Process Viewpoint](viewpoints/Operational-Process-Viewpoint.md)
-* [Operational Interaction Viewpoint](viewpoints/Operational-Interaction-Viewpoint.md)
 #### Operational Domain Aspect Interaction and Collaboration
 * [Operational Interaction Viewpoint](viewpoints/Operational-Interaction-Viewpoint.md)
 #### Operational Domain Aspect Requirement
