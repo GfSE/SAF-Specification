@@ -79,7 +79,15 @@ The result of the Functional Domain Viewpoint elaboration is a comprehensive Sys
 
 ### Logical Domain Objective
 
+The Logical Domain Viewpoints describe the Logical Structure and the distribution of responsibility(s) for the Functionality of the SOI by means of a network of interacting Logical Element(s) that are responsible for a set of desired Function(s). These Logical Element(s) and their Interaction(s) are arranged in the Logical Architecture of the SOI. The structure of the Logical Architecture is in general influenced by nonfunctional criteria, e.g., maintainability, safety, and reliability.
+
 ### Logical Domain Concern
+
+* Describing the Internal Logical Structure of the SOI by partitioning the SOI into communicating Logical Element(s)
+* Describing the Logical Interface(s) & Data Exchange(s) between the interacting Logical Element(s) in a way that the Logical Interface(s) are independent from their implementation
+* Allocating desired Function(s) to cohesive Logical Element(s)
+* Supporting the reuse of already existent Logical Element(s) and designing Logical Element(s) such that future reuse is facilitated
+* Defining the emerging behavior of the system (in contrast to the partial behavior specified in the of Functional Domain Viewpoints) and enabling a complete simulation of the entire system
 
 ### Logical Domain Viewpoints
 
