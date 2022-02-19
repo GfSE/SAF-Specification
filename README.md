@@ -90,7 +90,7 @@ The Logical Domain Viewpoints describe the Logical Structure and the distributio
 ### Logical Domain Viewpoints
 
 * [Logical Structure Definition Viewpoint](viewpoints/Logical-Structure-Viewpoint.md)
-* [Logical Internal Exchange Definition Viewpoint](Logical-Internal-Exchange-Viewpoint.md)
+* [Logical Internal Exchange Definition Viewpoint](viewpoints/Logical-Internal-Exchange-Viewpoint.md)
 
 ## Physical Domain
 
