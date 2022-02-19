@@ -1,6 +1,6 @@
 <div align="right">SAF_FFDS#246,SAF_Cameo_Profile#346</div>
 
-# Logical Internal Exchange Definition Viewpoint
+# Logical Internal Exchange Viewpoint
 *Domain:* **Logical** *Aspect:* **Interaction and Collaboration**
 ## Example
 ![FFDS Logical Internal Exchange](../diagrams/FFDS-Logical-Internal-Exchange.svg)
