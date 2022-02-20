@@ -3,7 +3,7 @@ Disclaimer: **The System Architecture Framework specification is a work in progr
 
 # Viewpoint Grid
 This is the grid of Viewpoints organized in Domains as rows and Aspects as columns
-[SAF Grid](diagrams/SAF_FFDS_view_grid.svg)
+![SAF Grid](diagrams/SAF_FFDS_view_grid.svg)
 
 ## Operational Domain
 
