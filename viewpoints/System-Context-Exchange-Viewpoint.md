@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#246,SAF_Cameo_Profile#346</div>
+<div align="right">SAF_FFDS#285,SAF_Cameo_Profile#353</div>
 
 # System Context Exchange Viewpoint
 *Domain:* **Functional** *Aspect:* **Context**
@@ -9,7 +9,7 @@ The System Context Exchange Viewpoint serves for the identification and definiti
 * identifies System Interface(s) on a functional level
 * states to which External Entity(s) the System Interface(s) are connected to
 * assigns Interface Document(s) to System Interface(s)
-* defines the usage of interface(s), e.g. if only a subset of the interlace is used
+* defines the usage of interface(s), e.g. if only a subset of the interface is used
 ## Applicability
 The System Context Exchange Viewpoint supports the "Prepare for Requirement Definition" activity included in "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.3] and contributes to the System Functional Interface identification.
 Note:

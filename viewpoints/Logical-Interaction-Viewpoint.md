@@ -1,6 +1,6 @@
-<div align="right">SAF_FFDS#246,SAF_Cameo_Profile#346</div>
+<div align="right">SAF_FFDS#285,SAF_Cameo_Profile#353</div>
 
-# Logical Interaction Viewpoint
+# Logical Internal Interaction Viewpoint
 *Domain:* **Logical** *Aspect:* **Interaction and Collaboration**
 ## Example
 ![FFDS Internal Interaction](../diagrams/FFDS-Internal-Interaction.svg)

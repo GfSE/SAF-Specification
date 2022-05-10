@@ -1,6 +1,6 @@
-<div align="right">SAF_FFDS#246,SAF_Cameo_Profile#346</div>
+<div align="right">SAF_FFDS#285,SAF_Cameo_Profile#353</div>
 
-# Logical Structure Viewpoint
+# Logical Structure Definition Viewpoint
 *Domain:* **Logical** *Aspect:* **Structure**
 ## Example
 ![FFDS Logical Architecture Definition](../diagrams/FFDS-Logical-Architecture-Definition.svg)
