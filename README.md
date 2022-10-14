@@ -62,7 +62,7 @@ The Functional Domain Viewpoints translate Operational Domain usage into the not
 ### Functional Domain Viewpoints
 
 #### Functional Domain Aspect Context
-* [System Story Viewpoint](viewpoints/System-Story-Viewpoint.md)
+* [System Use Case Viewpoint](viewpoints/System-UseCase-Viewpoint.md)
 * [System Context Definition Viewpoint](viewpoints/System-Context-Definition-Viewpoint.md)
 * [System Context Exchange Viewpoint](viewpoints/System-Context-Exchange-Viewpoint.md)
 #### Functional Domain Aspect Structure
