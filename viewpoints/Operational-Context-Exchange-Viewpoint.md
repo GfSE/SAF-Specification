@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#311,SAF_Cameo_Profile#397</div>
+<div align="right">SAF_FFDS#311,SAF_Cameo_Profile#399</div>
 
 # Operational Context Exchange Viewpoint
 *Domain:* **Operational** *Aspect:* **Context**
@@ -15,7 +15,7 @@ Note:
 * [Supplier](../stakeholders.md#Supplier)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* What Operational Exchange the Operational Performer(s) need to consume or provide?
+* What Operational Exchange the Operational Performers need to consume or provide?
 ## Presentation
 An internal block diagram (IBD) associated to an Operational Context showing the connected Operational Performer(s) in their respective Operational Role and the Operational Exchange per connection.
 

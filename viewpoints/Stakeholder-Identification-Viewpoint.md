@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#311,SAF_Cameo_Profile#397</div>
+<div align="right">SAF_FFDS#311,SAF_Cameo_Profile#399</div>
 
 # Stakeholder Identification Viewpoint
 *Domain:* **Operational** *Aspect:* **Structure**
@@ -15,14 +15,14 @@ Note:
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
 * What concerns does a Stakeholder have?
-* In which life cycle(s) is a Stakeholder involved in the project?
 * What are the consequences not considering a Stakeholder?
 * Which external entities (external systems, roles, environment, etc.) does a Stakeholder represent?
-* What relevant relations and influences exist between Stakeholder(s)?
 * How to involve a Stakeholder and to what degree?
 * What impact does a Stakeholder have on the project?
-* Who are the Stakeholder(s) involved in the intended solution?
 * Which Stakeholder are relevant to the system and might impose requirements?
+* In which life cycles is a Stakeholder involved in the project?
+* What relevant relations and influences exist between Stakeholders?
+* Who are the Stakeholders involved in the intended solution?
 ## Presentation
 The results of the Stakeholder Identification are selected Stakeholder(s). A Stakeholder Identification diagram (BDD) depicts the relations of the identified Stakeholder(s) towards the Intended Solution.
 

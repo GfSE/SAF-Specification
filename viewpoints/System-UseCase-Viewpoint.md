@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#311,SAF_Cameo_Profile#397</div>
+<div align="right">SAF_FFDS#311,SAF_Cameo_Profile#399</div>
 
 # System UseCase Viewpoint
 *Domain:* **Functional** *Aspect:* **Context**
@@ -15,9 +15,9 @@ Note:
 * [System Architect](../stakeholders.md#System-Architect)
 * [User](../stakeholders.md#User)
 ## Concern
-* How will the System be used by whom and which contextual elements are involved?
-* What are the External Entities the System interacts with in the respective context?
 * How is the system being used or utilized and interacting with other external systems to satisfy user needs?
+* How will the system be used by whom and which contextual elements are involved?
+* What are the external entities the system interacts with in the respective context?
 ## Presentation
 A use case diagram depicting model elements representing System Story(s) and System Context Element(s) shall be used.
 Note: [tbd]

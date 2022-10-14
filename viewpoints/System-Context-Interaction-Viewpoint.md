@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#311,SAF_Cameo_Profile#397</div>
+<div align="right">SAF_FFDS#311,SAF_Cameo_Profile#399</div>
 
 # System Context Interaction Viewpoint
 *Domain:* **Functional** *Aspect:* **Interaction and Collaboration**
@@ -17,11 +17,11 @@ Note:
 * [User](../stakeholders.md#User)
 ## Concern
 * What is the necessary response time for an interface or a service?
-* What are the item(s) exchanged at the boundary of the SOI with External Entity(s)?
-* How does the SOI or a SOI element interact with the test environment?
-* What additional information the SOI or a SOI element needs to generate to enable testing?
-* What is the sequence of interactions among the System and context elements
 * How is the system being used or utilized and interacting with other external systems to satisfy user needs?
+* What are the items exchanged at the boundary of the system with external entities?
+* What is the sequence of interactions among the system and context elements
+* How does the system or a system element interact with the test environment?
+* What additional information the system or a system element needs to generate to enable testing?
 ## Presentation
 The System Context Interaction Viewpoint is modeled as a sequence diagram. It describes the flow of control between SOI and Context Element(s). This diagram represents the sending and receiving of messages between the interacting entities called lifelines, where time is represented along the vertical axis. The elements on the lifelines are part properties of a System Context.
 

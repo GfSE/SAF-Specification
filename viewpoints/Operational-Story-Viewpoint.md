@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#311,SAF_Cameo_Profile#397</div>
+<div align="right">SAF_FFDS#311,SAF_Cameo_Profile#399</div>
 
 # Operational Story Viewpoint
 *Domain:* **Operational** *Aspect:* **Context**
@@ -18,7 +18,7 @@ Note:
 * [System Architect](../stakeholders.md#System-Architect)
 * [User](../stakeholders.md#User)
 ## Concern
-* Which is the Operational Story task accomplished by which operational entity(s) in the Operational Context?
+* Which is the Operational Story task accomplished by which operational entities in the Operational Context?
 ## Presentation
 A use case diagram depicting model elements representing Operational Story(s) and Operational Performer(s) shall be used. In addition, an illustration (drawing, sketch, etc.) and/or a description in free text may provide a comprehensive understanding of the operational background.
 

@@ -1,4 +1,4 @@
-<div align="right">SAF_Cameo_Profile#397</div>
+<div align="right">SAF_Cameo_Profile#399</div>
 
 ![SAF_Stakeholder_Definition](diagrams/SAF_stakeholder_definition.svg)
 This section provides a list of the Stakeholder roles considered in the development of the architecture described by SAF. For each, the section lists the concerns that the Stakeholder has that can be addressed by the information in this SAF framework.
@@ -23,9 +23,9 @@ The Acquirer is a Stakeholder that acquires or procures a product or service fro
 He is responsible for providing a feasible solution within a given budget. The Acquirer must plan and control the delivery of the system-of-interest as well as other systems together with necessary infrastructure, equipment or training. He must plan the integration of all the procured items to provide a complete solution ready for operation. For large enterprises standardization is an issue. Therefore, the acquirer is interested that standard items are considered in the system architecture.
 
 ## Concern
-* What are necessary inputs for operating the SOI expected to be provided by other External Entity(s)?
+* What are necessary inputs for operating the system expected to be provided by other external entitys?
 * How is the system being used or utilized and interacting with other external systems to satisfy user needs?
-* What service(s) are expected from External Entity(s)?
+* What service(s) are expected from external entities?
 * Are defined standard items considered in the architecture?
 * What is the cost for each required function?
 * What is the priority of each function?
@@ -36,21 +36,21 @@ He is responsible for providing a feasible solution within a given budget. The A
 * What shall be validated to the customer at system level?
 * What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
 * What are the normal and extreme environmental conditions for normal operation, for not operational, for storage and for transport?
-* Which information is exchanged between the SOI and External Entity(s)?
+* Which information is exchanged between the system and external entitys?
 * What is the necessary response time for an interface or a service?
 * What are the scenarios a system function is utilized in?
 * How does a system function interact with its environment?
-* What are the External Entities the System interacts with in the respective context?
-* Who provides the input(s) to a critical function?
+* What are the external entities the system interacts with in the respective context?
+* Who provides the inputs to a critical function?
 * What are the planned architectural means for risk mitigation?
-* What are the different contexts the SOI is embedded and utilized in?
-* What are the Capabilities that are supported by the System?
+* What are the different contexts the system is embedded and utilized in?
+* What are the Capabilities that are supported by the system?
 * What is the lack / deficiency / gap in current Capability implementation that is addressed with the intended solution?
-* Who are the Stakeholder(s) involved in the intended solution?
+* Who are the Stakeholders involved in the intended solution?
 * What are the geographical and physical locations of the intended / proposed elements of the solution?
-* What Performer(s) or Resource(s) are necessary to operate the intended solution?
+* What Performers or Resources are necessary to operate the intended solution?
 * What existing elements of the organization, enterprise, or operational entity need to be integrated in the intended solution?
-* Which function(s) will the SOI provide?
+* Which functions will the system provide?
 # Architecture Framework Stakeholder
 Definition - Architecture Framework Stakeholder:
 The Architecture Framework Stakeholder is a generic Stakeholder class more specific Stakeholder(s). The derived Stakeholder(s) have concern(s) regarding the architecture framework description(s). Most of these concern(s) are addressed by SAF Viewpoint(s).
@@ -64,24 +64,24 @@ organization or person that receives a product or service, [ISO/IEC 15288:2015 �
 The Customer is an organization or person that receives a product. Examples: Consumer, client, end user, retailer, beneficiary, and purchaser. A customer can be internal or external to the organization. Customer is a broader reference than Acquirer, operator, or user and includes those roles as well as others. However, the Customer provides the funding.
 
 ## Concern
-* Who provides the input(s) to a critical function?
+* Who provides the inputs to a critical function?
 * What is the rational if requirements are not considered?
-* What are the different contexts the SOI is embedded and utilized in?
+* What are the different contexts the system is embedded and utilized in?
 * How is the system being used or utilized and interacting with other external systems to satisfy user needs?
 * How does a system function interact with its environment?
 * What are the scenarios a system function is utilized in?
 * What is the System Boundary definition?
 * What are necessary enabling systems?
 * What shall be validated to the customer at system level?
-* What are necessary inputs for operating the SOI expected to be provided by other External Entity(s)?
-* What are the External Entities the System interacts with in the respective context?
+* What are necessary inputs for operating the system expected to be provided by other external entitys?
+* What are the external entities the system interacts with in the respective context?
 * What is the necessary response time for an interface or a service?
-* Which information is exchanged between the SOI and External Entity(s)?
+* Which information is exchanged between the system and external entitys?
 * What are the planned architectural means for risk mitigation?
-* What service(s) are expected from External Entity(s)?
+* What service(s) are expected from external entities?
 * What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
 * What are the normal and extreme environmental conditions for normal operation, for not operational, for storage and for transport?
-* Which function(s) will the SOI provide?
+* Which functions will the system provide?
 # Customer (Representative)
 Definition - Customer (Representative):
 (1) [SAF] The primary goal in a Customer (Representative) role is to represent the end-user, an individual, organization, or enterprise that benefits from the operation of the system. In this role the Customer (Representative) provides usage scenario(s), user need(s) and requirement(s).
@@ -119,33 +119,35 @@ The Developer is a group or an individual implementing the system parts accordin
 * What is the allocated power consumption?
 * What is the allocated reliability for a single function?
 * What is the necessary response time for an interface or a service?
-* How does the SOI or a SOI element interact with the test environment?
+* How does the system or a system element interact with the test environment?
 * What are the encryption means used for an exchange?
-* What additional information the SOI or a SOI element needs to generate to enable testing?
-* How are Error State(s) handled?
-* Which Mode(s) and State(s) do the SOI have?
-* Who provides the input(s) to a critical function?
+* What additional information the system or a system element needs to generate to enable testing?
+* How are error states handled?
+* Which modes and states does
+ the system have?
+* Who provides the inputs to a critical function?
 * What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
-* What is the sequence of interactions among the System and context elements
+* What is the sequence of interactions among the system and context elements
 # IV&V Engineer
 Definition - IV&V Engineer
 Individuals or groups responsible for integration, verification and validation. [tbd]
 IV&V Engineers are individuals or groups responsible for integration, validation and verification during development of the system. Integration, Verification and Validation are activities that are performed simultaneously, and alternately i.e. virtual integration is used to validate requirements, verification of prototypes is performed to validate requirements and design decisions, verification of interfaces is performed during integration on various integration levels allowing to gather enough test coverage.
 
 ## Concern
-* How does the SOI or a SOI element interact with the test environment?
-* What additional interface(s) are necessary to expose internal properties, states and modes for testing?
+* How does the system or a system element interact with the test environment?
+* What additional interfaces are necessary to expose internal properties, states and modes for testing?
 * What kind of test equipment is necessary to test the system elements?
 * What shall be validated to the customer at system level?
-* What additional information the SOI or a SOI element needs to generate to enable testing?
+* What additional information the system or a system element needs to generate to enable testing?
 * How does the elements of the test environment interact with each other?
-* How are Error State(s) handled?
+* How are error states handled?
 * What is the necessary response time for an interface or a service?
-* Who provides the input(s) to a critical function?
+* Who provides the inputs to a critical function?
 * What is the flow of critical information and data through the system?
-* Are safety related design principle(s) followed e.g. segregation of monitors or independence or redundant elements?
-* Which Mode(s) and State(s) do the SOI have?
-* What is the sequence of interactions among the System and context elements
+* Are safety related design principles) followed e.g. segregation of monitors or independence or redundant elements?
+* Which modes and states does
+ the system have?
+* What is the sequence of interactions among the system and context elements
 # Maintainer
 Definition - Maintainer
 individual or organization that performs maintenance activities, [ISO/IEC 12207:2008]
@@ -157,9 +159,10 @@ The Maintainer is an individual, group or organization responsible to maintain t
 * How to connect the system or a system element to a test equipment?
 * How to ensure full Operational Capability of the system after maintenance activities with a system element or component? 
 * What are the replaceable system components?
-* Which Mode(s) and State(s) do the SOI have?
+* Which modes and states does
+ the system have?
 * What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
-* How are Error State(s) handled?
+* How are error states handled?
 # Mechanic Developer
 Definition - Developer:
 organization that performs development tasks (including requirements analysis, design, testing through acceptance) during a life cycle process. [ISO/IEC 12207:2008]
@@ -186,7 +189,7 @@ The example illustrates, that the roles user and operator are depending heavily 
 * What are the scenarios a system function is utilized in?
 * What is the necessary response time for an interface or a service?
 * How is the system being used or utilized and interacting with other external systems to satisfy user needs?
-* What are necessary inputs for operating the SOI expected to be provided by other External Entity(s)?
+* What are necessary inputs for operating the system expected to be provided by other external entitys?
 * How does a system function interact with its environment?
 # Project Manager
 Definition - Project Manager: The responsibility of the Project Manager is to make the right resources with the right skills available in time to get the identified work done. 
@@ -206,9 +209,9 @@ Systems Engineering creates a clear and manageable system structure, which is th
 * What are the system delivery standards?
 * What is the risk involved with each development item?
 * What is the rational if requirements are not considered?
-* What service(s) are expected from External Entity(s)?
-* Who provides the input(s) to a critical function?
-* Which function(s) will the SOI provide?
+* What service(s) are expected from external entities?
+* Who provides the inputs to a critical function?
+* Which functions will the system provide?
 # Regulation Authority
 Definition - Regulation Authority:
 Regulation Authorities can have impact by imposing Stakeholder requirements against the system and by their involvement in the development and acceptance phases (e.g. safety or IT security acceptance audits). 
@@ -220,11 +223,12 @@ The requirements stipulated on the system are diverse. They can be functional an
 Systems Engineering must adhere to relevant standards and needs to demonstrate compliance with those standards and requirements.
 
 ## Concern
-* How are applicable requirement(s) considered in the system architecture?
+* How are applicable requirements considered in the system architecture?
 * What is the rational if requirements are not considered?
-* What additional information the SOI or a SOI element needs to generate to enable testing?
-* Which Mode(s) and State(s) do the SOI have?
-* How are Error State(s) handled?
+* What additional information the system or a system element needs to generate to enable testing?
+* Which modes and states does
+ the system have?
+* How are error states handled?
 # Safety Expert
 Definition - Safety Specialist:
 Safety is one subject matter of specialty engineering but important enough to be treated separately. 
@@ -232,14 +236,14 @@ The safety experts evaluate a proposed system architecture and design for safety
 
 ## Concern
 * How is a critical function decomposed and allocated?
-* Who provides the input(s) to a critical function?
+* Who provides the inputs to a critical function?
 * What are the planned architectural means for risk mitigation?
 * How does criticality propagate down the system hierarchy?
 * What are the hazards of a system function in an identified situation (context + scenario)?
 * What are the inputs to a critical function?
 * What are the scenarios a system function is utilized in?
 * What is the possible harm in utilizing the system?
-* Are safety related design principle(s) followed e.g. segregation of monitors or independence or redundant elements?
+* Are safety related design principles) followed e.g. segregation of monitors or independence or redundant elements?
 * How does a system function interact with its environment?
 * How are safety features verified?
 * What are the contributors (SW and HW items contributing to a critical function) to a critical function?
@@ -247,17 +251,18 @@ The safety experts evaluate a proposed system architecture and design for safety
 * What is the flow of critical information and data through the system?
 * What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
 * What is the necessary response time for an interface or a service?
-* How are Error State(s) handled?
+* How are error states handled?
 * How do internal system elements interact with each other to provide the system function or service?
 * What shall be validated to the customer at system level?
-* Which information is exchanged between the SOI and External Entity(s)?
-* What additional information the SOI or a SOI element needs to generate to enable testing?
-* Which Mode(s) and State(s) do the SOI have?
+* Which information is exchanged between the system and external entitys?
+* What additional information the system or a system element needs to generate to enable testing?
+* Which modes and states does
+ the system have?
 * What are the encryption means used for an exchange?
-* What are the External Entities the System interacts with in the respective context?
+* What are the external entities the system interacts with in the respective context?
 * What is the rational if requirements are not considered?
-* Which function(s) will the SOI provide?
-* What is the sequence of interactions among the System and context elements
+* Which functions will the system provide?
+* What is the sequence of interactions among the system and context elements
 # Security Expert
 Definition - Security Specialist:
 Security is one subject matter of specialty engineering but important enough to be treated separately.
@@ -265,7 +270,7 @@ The IT-Security experts evaluate a proposed system architecture and design for I
 
 ## Concern
 * What are the requirements for security relevant IT-equipment?
-* Which information is exchanged between the SOI and External Entity(s)?
+* Which information is exchanged between the system and external entitys?
 * What are the protocols used for exchanging information?
 * What are the interfaces between different domains?
 * How is the interface between different domains protected?
@@ -277,42 +282,44 @@ The IT-Security experts evaluate a proposed system architecture and design for I
 * What is the necessary response time for an interface or a service?
 * How do internal system elements interact with each other to provide the system function or service?
 * What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
-* Which Mode(s) and State(s) do the SOI have?
-* How are Error State(s) handled?
-* What additional information the SOI or a SOI element needs to generate to enable testing?
+* Which modes and states does
+ the system have?
+* How are error states handled?
+* What additional information the system or a system element needs to generate to enable testing?
 * What are the scenarios a system function is utilized in?
 * What shall be validated to the customer at system level?
 * What is the rational if requirements are not considered?
-* What are necessary inputs for operating the SOI expected to be provided by other External Entity(s)?
-* Which function(s) will the SOI provide?
-* What is the sequence of interactions among the System and context elements
+* What are necessary inputs for operating the system expected to be provided by other external entitys?
+* Which functions will the system provide?
+* What is the sequence of interactions among the system and context elements
 # Software Developer
 Definition - Developer:
 organization that performs development tasks (including requirements analysis, design, testing through acceptance) during a life cycle process. [ISO/IEC 12207:2008]
 The Developer is a group or an individual implementing the system parts according to defined requirements. On the lowest level of the system architecture there are the Software Developer responsible for implementing the software components.
 
 ## Concern
-* What are data / information item(s) exchanged?
+* What are data / information items exchanged?
 * What are the algorithms to be implemented?
-* Which function(s) and service(s) need to be implemented in SW?
+* Which functions and services need to be implemented in SW?
 * What are the protocols for exchanging items on an interface?
 * What are precision and accuracy requirements for presentation of data items on an interface?
 * What is the necessary performance for processing?
 * What are precision and accuracy requirements for processing of data items?
 * What are the non-functional requirements applying to SW (e.g. with regard to SW quality, modularization, changeability or reuse)?
 * What is the necessary response time for an interface or a service?
-* Which SW interface(s) are necessary?
+* Which SW interfaces are necessary?
 * What are the interface requirements regarding bandwidth, data throughput and latency?
 * What are the formats of the exchanged items?
 * What are the encryption means used for an exchange?
 * What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
-* What additional information the SOI or a SOI element needs to generate to enable testing?
-* How are Error State(s) handled?
-* Who provides the input(s) to a critical function?
+* What additional information the system or a system element needs to generate to enable testing?
+* How are error states handled?
+* Who provides the inputs to a critical function?
 * What is the necessary accuracy and resolution for processing?
-* How does the SOI or a SOI element interact with the test environment?
-* Which Mode(s) and State(s) do the SOI have?
-* What is the sequence of interactions among the System and context elements
+* How does the system or a system element interact with the test environment?
+* Which modes and states does
+ the system have?
+* What is the sequence of interactions among the system and context elements
 # Supplier
 Definition - Supplier:
 organization or an individual that enters into an agreement with the Acquirer for the supply of a product or service, [ISO/IEC 15288:2015 –Systems engineering - System life-cycle processes]
@@ -320,15 +327,15 @@ The Supplier is the organization or individual that enters into an agreement wit
 
 ## Concern
 * What are the scenarios a system function is utilized in?
-* What are the External Entities the System interacts with in the respective context?
-* What are necessary inputs for operating the SOI expected to be provided by other External Entity(s)?
+* What are the external entities the system interacts with in the respective context?
+* What are necessary inputs for operating the system expected to be provided by other external entitys?
 * What are necessary enabling systems?
-* What service(s) are expected from External Entity(s)?
+* What service(s) are expected from external entities?
 * What is the System Boundary definition?
 * What are the normal and extreme environmental conditions for normal operation, for not operational, for storage and for transport?
-* What are the Capabilities that are supported by the System?
+* What are the Capabilities that are supported by the system?
 * What is the lack / deficiency / gap in current Capability implementation that is addressed with the intended solution?
-* Who are the Stakeholder(s) involved in the intended solution?
+* Who are the Stakeholders involved in the intended solution?
 * What are the geographical and physical locations of the intended / proposed elements of the solution?
 # System Architect
 Definition - System Architect:
@@ -340,55 +347,56 @@ The System Architect as an individual or group performing the systems engineerin
 * Which system functions are dependent of a systems state?
 * Which Stakeholder are relevant to the system and might impose requirements?
 * What are the configuration items in the physical architecture?
-* What are the External Entities the System interacts with in the respective context?
+* What are the external entities the system interacts with in the respective context?
 * What are the physical components?
 * What system elements are make-items, reuse items or COTS?
-* What is the breakdown of function(s) into sub-function(s)?
+* What is the breakdown of functions into sub-functions?
 * What is the allocation of functions to the physical architecture?
 * What are the consequences, if the Stakeholder’s concerns are not considered?
 * What is the physical breakdown of the system?
 * What are the system delivery standards?
 * How do internal system elements interact with each other to provide the system function or service?
-* What are the different contexts the SOI is embedded and utilized in?
+* What are the different contexts the system is embedded and utilized in?
 * What is the System Boundary definition?
 * What are the encryption means used for an exchange?
 * How does criticality propagate down the system hierarchy?
-* Which Mode(s) and State(s) do the SOI have?
-* How are Error State(s) handled?
-* How are applicable requirement(s) considered in the system architecture?
+* Which modes and states does
+ the system have?
+* How are error states handled?
+* How are applicable requirements considered in the system architecture?
 * What are necessary enabling systems?
 * What is the necessary response time for an interface or a service?
 * How does a system function interact with its environment?
-* Which information is exchanged between the SOI and External Entity(s)?
+* Which information is exchanged between the system and external entitys?
 * What is the flow of critical information and data through the system?
 * What are the normal and extreme environmental conditions for normal operation, for not operational, for storage and for transport?
-* How does the SOI or a SOI element interact with the test environment?
+* How does the system or a system element interact with the test environment?
 * How is a critical function decomposed and allocated?
 * What are the planned architectural means for risk mitigation?
 * What is the functional scope of each system delivery standard?
 * Have the logical decomposition guidelines been followed?
 * What shall be validated to the customer at system level?
 * How does the elements of the test environment interact with each other?
-* Who provides the input(s) to a critical function?
+* Who provides the inputs to a critical function?
 * How is the system being used or utilized and interacting with other external systems to satisfy user needs?
-* What are necessary inputs for operating the SOI expected to be provided by other External Entity(s)?
+* What are necessary inputs for operating the system expected to be provided by other external entitys?
 * What are the scenarios a system function is utilized in?
-* Are safety related design principle(s) followed e.g. segregation of monitors or independence or redundant elements?
+* Are safety related design principles) followed e.g. segregation of monitors or independence or redundant elements?
 * What is the necessary accuracy and resolution for processing?
-* What additional information the SOI or a SOI element needs to generate to enable testing?
+* What additional information the system or a system element needs to generate to enable testing?
 * Which system function is addressed by system requirement?
-* What service(s) are expected from External Entity(s)?
+* What service(s) are expected from external entities?
 * What is the rational if requirements are not considered?
-* What are the Capabilities that are supported by the System?
+* What are the Capabilities that are supported by the system?
 * What is the lack / deficiency / gap in current Capability implementation that is addressed with the intended solution?
-* Who are the Stakeholder(s) involved in the intended solution?
+* Who are the Stakeholders involved in the intended solution?
 * What are the geographical and physical locations of the intended / proposed elements of the solution?
-* What Performer(s) or Resource(s) are necessary to operate the intended solution?
+* What Performers or Resources are necessary to operate the intended solution?
 * What existing elements of the organization, enterprise, or operational entity need to be integrated in the intended solution?
 * What is the context of the organization, enterprise, or operational entity?
 * What is the task executed by an organization, enterprise, or operational entity in the Operational Context?
-* Which function(s) will the SOI provide?
-* What is the sequence of interactions among the System and context elements
+* Which functions will the system provide?
+* What is the sequence of interactions among the system and context elements
 # System of Interest Stakeholder
 Definition - System of Interest Stakeholder:
 [SAF] the SOI Stakeholder is a generic Stakeholder. Imposes Stakeholder Requirement(s) on the system. The derived Stakeholder(s) have concern(s).
@@ -405,4 +413,4 @@ The User is the individual, organization or group that benefits from the operati
 * What is the necessary response time for an interface or a service?
 * How is the system being used or utilized and interacting with other external systems to satisfy user needs?
 * How does a system function interact with its environment?
-* What are necessary inputs for operating the SOI expected to be provided by other External Entity(s)?
+* What are necessary inputs for operating the system expected to be provided by other external entitys?

@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#311,SAF_Cameo_Profile#397</div>
+<div align="right">SAF_FFDS#311,SAF_Cameo_Profile#399</div>
 
 # Operational Performer Viewpoint
 *Domain:* **Operational** *Aspect:* **Structure**
@@ -15,8 +15,8 @@ Note:
 * [Customer](../stakeholders.md#Customer)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* What are the relationship(s) between the party(s) involved in the operation of the intended solution?
-* What party(s) of the organization, enterprise, or operational entity are needed to achieve an intended Operational Capability?
+* What are the relationships between the partys involved in the operation of the intended solution?
+* What partys of the organization, enterprise, or operational entity are needed to achieve an intended Operational Capability?
 ## Presentation
 A block definition diagram (BDD) depicts Operational Performer(s) and their relation(s) in terms of decomposition or generalization at a level of detail required for the understanding and analysis. 
 Note: Identified Stakeholders are related to Operational Performer(s) if appropriate.

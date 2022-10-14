@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#311,SAF_Cameo_Profile#397</div>
+<div align="right">SAF_FFDS#311,SAF_Cameo_Profile#399</div>
 
 # Logical Interaction Viewpoint
 *Domain:* **Logical** *Aspect:* **Interaction and Collaboration**
@@ -23,9 +23,9 @@ Note:
 * What kind of information is exchanged and processed within the system?
 * What is the necessary response time for an interface or a service?
 * How do internal system elements interact with each other to provide the system function or service?
-* What are the item(s) exchanged between the logical system elements during the interaction?
-* How does the SOI or a SOI element interact with the test environment?
-* What additional information the SOI or a SOI element needs to generate to enable testing?
+* What are the items exchanged between the logical system elements during the interaction?
+* How does the system or a system element interact with the test environment?
+* What additional information the system or a system element needs to generate to enable testing?
 ## Presentation
 The Logical Interaction Viewpoint is modeled as a sequence diagram. It describes the flow of control between logical components of the SOI.This diagram represents the sending and receiving of messages between the interacting entities called lifelines where time is represented along the vertical axis. The elements on the lifelines are part properties typed by logical system elements.
 

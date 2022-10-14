@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#311,SAF_Cameo_Profile#397</div>
+<div align="right">SAF_FFDS#311,SAF_Cameo_Profile#399</div>
 
 # System Requirement Traceability Viewpoint
 *Domain:* **Functional** *Aspect:* **Crossreference and Mapping**
@@ -35,7 +35,7 @@ Note:
 * Which System Interface is addressed by a System Requirement?
 * Which System Function is addressed by a System Requirement?
 * What is the rationale for this System Requirement?
-* Which Stakeholder Requirement(s) is addressed by a System Requirement?
+* Which Stakeholder Requirements are addressed by a System Requirement?
 ## Presentation
 A System Requirement Dependency Matrix featuring relationship(s) from every SOI System Requirement(s) to element(s) such as
 * System Story

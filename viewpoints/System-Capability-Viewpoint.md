@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#311,SAF_Cameo_Profile#397</div>
+<div align="right">SAF_FFDS#311,SAF_Cameo_Profile#399</div>
 
 # System Capability Viewpoint
 *Domain:* **Functional** *Aspect:* **Structure**
@@ -15,7 +15,7 @@ Note:
 * [System Architect](../stakeholders.md#System-Architect)
 * [User](../stakeholders.md#User)
 ## Concern
-* What are the Capabilities that are supported by the System?
+* What are the Capabilities that are supported by the system?
 ## Presentation
 The result of the [tbd] process is one or more block definition diagram(s) (BDD) featuring System Capability(s) and their composition, specialization and dependency relationship(s).
 

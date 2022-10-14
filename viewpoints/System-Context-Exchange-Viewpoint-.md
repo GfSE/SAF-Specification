@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#311,SAF_Cameo_Profile#397</div>
+<div align="right">SAF_FFDS#311,SAF_Cameo_Profile#399</div>
 
 # System Context Exchange Viewpoint 
 *Domain:* **Functional** *Aspect:* **Context**
@@ -21,13 +21,13 @@ Note:
 * [System Architect](../stakeholders.md#System-Architect)
 * [User](../stakeholders.md#User)
 ## Concern
-* What are the item(s) exchanged at the boundary of the SOI with External Entity(s)?
-* What are the functional interface(s) of the SOI?
-* How does the SOI or a SOI element interact with the test environment?
-* Which information is exchanged between the SOI and External Entity(s)?
-* What are the Interface Requirement(s) imposed on the SOI?
 * What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
-* How is the System interacting with the identified external entities?
+* Which information is exchanged between the system and external entitys?
+* What are the items exchanged at the boundary of the system with external entities?
+* How is the system interacting with the identified external entities?
+* What are the functional interfaces of the system?
+* What are the Interface Requirements imposed on the system?
+* How does the system or a system element interact with the test environment?
 ## Presentation
 An IBD featuring the SOI, the System Context Element(s) and Connector(s) for each identified Interface from SOI to the respective Context Element(s). An Interface is a connection resource for hooking on the SOI to other Context Element(s). Item flow(s) are defined for each exchange on the identified Interface. Connectors/ports may contain reference to the Interface Document(s) if applicable.
 Note: more than one IBD focused on different areas of interest may be used in oder to keep the view comprehensive. Depending on the Stakeholder Concern(s) the Item Exchange information might be suppressed.

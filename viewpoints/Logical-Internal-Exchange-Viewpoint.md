@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#311,SAF_Cameo_Profile#397</div>
+<div align="right">SAF_FFDS#311,SAF_Cameo_Profile#399</div>
 
 # Logical Internal Exchange Viewpoint
 *Domain:* **Logical** *Aspect:* **Interaction and Collaboration**
@@ -24,14 +24,14 @@ Note:
 * [Supplier](../stakeholders.md#Supplier)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* Which requirement(s) apply to a logical interface?
 * How do internal system elements interact with each other to provide the system function or service?
 * How do the logical system elements interact to fulfill the designated system function?
 * Which interface partners does a SW item have?
-* What are the item(s) exchanged between the logical system elements during the interaction?
-* What are data / information item(s) exchanged?
-* What additional information the SOI or a SOI element needs to generate to enable testing?
+* What are the items exchanged between the logical system elements during the interaction?
 * Which interfaces are necessary?
+* What are data / information items exchanged?
+* Which requirements apply to a logical interface?
+* What additional information the system or a system element needs to generate to enable testing?
 ## Presentation
 One or more IBD featuring the logical element(s) of the SOI, and the SOI boundary, containing connector(s) for each identified SOI interface delegation to SOI element(s), as well as connector(s) between related interface(s) of SOI parts. An interface is a connection resource for hooking on the logical SOI element(s) to other logical SOI element(s). Item flows are defined for each exchange on the identified interface.  Recommendation: Use more than one IBD focused on different areas of interest to keep the view comprehensive. Depending on the Stakeholder concern(s) the logical item exchange information might be suppressed.
 

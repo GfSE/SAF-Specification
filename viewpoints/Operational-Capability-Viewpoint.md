@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#311,SAF_Cameo_Profile#397</div>
+<div align="right">SAF_FFDS#311,SAF_Cameo_Profile#399</div>
 
 # Operational Capability Viewpoint
 *Domain:* **Operational** *Aspect:* **Structure**
@@ -15,7 +15,7 @@ Note:
 * [Supplier](../stakeholders.md#Supplier)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* What Operational Capability(s) are required for each phase and mode of operation?
+* What Operational Capabilitys are required for each phase and mode of operation?
 * What is the lack / deficiency / gap in current Capability implementation that is addressed with the intended solution?
 ## Presentation
 The result of the business and mission analysis is one or more block definition diagram(s) (BDD) featuring Operational Capability(s) and their composition, specialization and dependency relationship(s).

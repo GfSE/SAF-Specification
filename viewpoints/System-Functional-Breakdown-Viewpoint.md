@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#311,SAF_Cameo_Profile#397</div>
+<div align="right">SAF_FFDS#311,SAF_Cameo_Profile#399</div>
 
 # System Functional Breakdown Viewpoint
 *Domain:* **Functional** *Aspect:* **Structure**
@@ -15,10 +15,10 @@ Note:
 * [System Architect](../stakeholders.md#System-Architect)
 * [User](../stakeholders.md#User)
 ## Concern
-* What is the breakdown of function(s) into sub-function(s)?
-* How are the system function(s )into sub-function(s) decomposed? 
-* Which function(s) will the SOI provide?
-* What are the Capabilities that are supported by the System?
+* How are the system functions decomposed into sub-functions decomposed? 
+* Which functions will the system provide?
+* What is the breakdown of functions into sub-functions?
+* What are the Capabilities that are supported by the system?
 ## Presentation
 The result of the [tbd] process is one or more block definition diagram(s) (BDD) featuring [tbd].
 

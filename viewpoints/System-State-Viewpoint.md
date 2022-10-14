@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#311,SAF_Cameo_Profile#397</div>
+<div align="right">SAF_FFDS#311,SAF_Cameo_Profile#399</div>
 
 # System State Viewpoint
 *Domain:* **Functional** *Aspect:* **Behavior**
@@ -17,7 +17,8 @@ Note:
 * [System Architect](../stakeholders.md#System-Architect)
 * [User](../stakeholders.md#User)
 ## Concern
-* Which Mode(s) and State(s) do the SOI have?
+* Which modes and states does
+ the system have?
 ## Presentation
 [tbd]
 Note:

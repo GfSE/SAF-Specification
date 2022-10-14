@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#311,SAF_Cameo_Profile#397</div>
+<div align="right">SAF_FFDS#311,SAF_Cameo_Profile#399</div>
 
 # Operational Context Definition Viewpoint
 *Domain:* **Operational** *Aspect:* **Context**
@@ -15,7 +15,7 @@ Note:
 * [Supplier](../stakeholders.md#Supplier)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* What Performer(s) or Resource(s) are necessary to operate the intended solution?
+* What Performers or Resources are necessary to operate the intended solution?
 * What is the Operational Context to achieve an Operational Story?
 ## Presentation
 A block definition diagram (BDD) identifying the Operational Performer(s) playing a role in the addressed Operational Context.
