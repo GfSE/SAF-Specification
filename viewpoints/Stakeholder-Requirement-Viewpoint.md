@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#285,SAF_Cameo_Profile#353</div>
+<div align="right">SAF_FFDS#311,SAF_Cameo_Profile#397</div>
 
 # Stakeholder Requirement Viewpoint
 *Domain:* **Operational** *Aspect:* **Requirement**
@@ -18,6 +18,8 @@ Note:
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
 * What defines a valid solution towards the customer?
+* What are the requirement(s) that a Stakeholder imposes to the system?
+* What are the normal and extreme environmental conditions for normal operation, for not operational, for storage and for transport?
 ## Presentation
 Stakeholder Requirement(s) are structured in a way that the Stakeholder behind a requirement is identifiable. As appropriate, the identified Stakeholder Requirement(s) are receiving a Derivation Link from the justifying model artefact(s), namely Operational Performer, Operational Activity, and Operational Exchange.
 Note 1: "One requirement package for each Stakeholder" is a best-practice modeling rule. A package contains the requirement(s) specific for one Stakeholder.
@@ -25,7 +27,7 @@ Note 2: Even if different Stakeholder may have intersecting interests and / or c
 
 ## Profile Model Reference
 * Package [UML_Standard_Profile]
-* [SAF_OV06a_StakeholderRequirementDiagram](../stereotypes.md#SAF_OV06a_StakeholderRequirementDiagram)
+* [SAF_SOV06a_View](../stereotypes.md#SAF_SOV06a_View)
 * [SAF_Stakeholder](../stereotypes.md#SAF_Stakeholder)
 * [SAF_StakeholderRequirement](../stereotypes.md#SAF_StakeholderRequirement)
 * [SAF_StakeholderRequirementImposition](../stereotypes.md#SAF_StakeholderRequirementImposition)

@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#246,SAF_Cameo_Profile#346</div>
+<div align="right">SAF_FFDS#311,SAF_Cameo_Profile#397</div>
 
 # Operational Context Definition Viewpoint
 *Domain:* **Operational** *Aspect:* **Context**
@@ -23,12 +23,12 @@ Note: In addition, the block definition diagram may identify the Operational Cap
 
 ## Profile Model Reference
 * Association [UML_Standard_Profile]
-* [SAF_OV01b_OperationalContextDefinitionDiagram](../stereotypes.md#SAF_OV01b_OperationalContextDefinitionDiagram)
 * [SAF_OperationalContext](../stereotypes.md#SAF_OperationalContext)
 * [SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)
 * [SAF_OperationalRole](../stereotypes.md#SAF_OperationalRole)
+* [SAF_SOV01b_View](../stereotypes.md#SAF_SOV01b_View)
 ## Input from other Viewpoints
 ### Required Viewpoints
-* [Operational Story Viewpoint](Operational-Story-Viewpoint.md)
+* [Operational Performer Viewpoint](Operational-Performer-Viewpoint.md)
 ### Recommended Viewpoints
-* [Operational Capability Viewpoint](Operational-Capability-Viewpoint.md)
+*none*

@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#246,SAF_Cameo_Profile#346</div>
+<div align="right">SAF_FFDS#311,SAF_Cameo_Profile#397</div>
 
 # Operational Capability Viewpoint
 *Domain:* **Operational** *Aspect:* **Structure**
@@ -21,14 +21,14 @@ Note:
 The result of the business and mission analysis is one or more block definition diagram(s) (BDD) featuring Operational Capability(s) and their composition, specialization and dependency relationship(s).
 
 ## Profile Model Reference
-* [SAF_OV02c_OperationalCapabilityDiagram](../stereotypes.md#SAF_OV02c_OperationalCapabilityDiagram)
 * [SAF_OperationalCapability](../stereotypes.md#SAF_OperationalCapability)
 * [SAF_OperationalCapabilityComposition](../stereotypes.md#SAF_OperationalCapabilityComposition)
 * [SAF_OperationalCapabilityDependency](../stereotypes.md#SAF_OperationalCapabilityDependency)
 * [SAF_OperationalCapabilityGeneralization](../stereotypes.md#SAF_OperationalCapabilityGeneralization)
+* [SAF_SOV02c_View](../stereotypes.md#SAF_SOV02c_View)
 ## Input from other Viewpoints
 ### Required Viewpoints
-* [Operational Story Viewpoint](Operational-Story-Viewpoint.md)
-* [Operational Performer Viewpoint](Operational-Performer-Viewpoint.md)
-### Recommended Viewpoints
 *none*
+### Recommended Viewpoints
+* [Operational Story Viewpoint](Operational-Story-Viewpoint.md)
+* [Operational Process Viewpoint](Operational-Process-Viewpoint.md)

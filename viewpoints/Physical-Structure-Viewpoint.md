@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#246,SAF_Cameo_Profile#346</div>
+<div align="right">SAF_FFDS#311,SAF_Cameo_Profile#397</div>
 
 # Physical Structure Viewpoint
 *Domain:* **Physical** *Aspect:* **Structure**
@@ -24,26 +24,14 @@ Note:
 * [Security Expert](../stakeholders.md#Security-Expert)
 ## Concern
 * What are the configuration items in the physical architecture?
-* Are defined standard items considered in the architecture?
-* What is the configuration or version of each configuration item?
-* What are the system delivery standards?
 * What is the physical breakdown of the system?
-* What is the allocated weight?
-* What delivery standards need to be provided?
 * What are the HW components to be provided?
 * What are the physical components?
-* What system elements are make-items, reuse items or COTS?
-* What is the order information for each identified system element or component?
-* Which variants of a HW item need to be provided?
-* What are the replaceable system components?
 * Which physical items the SOI is built of?
-* What is the allocated power consumption?
-* What are the system delivery standards?
-* What is the scope of a delivery standard?
 * What are the SW components to be provided?
 * What physical items are used building up the system?
 * what is the decomposition hierarchy of the system/logical elements
-* What are necessary enabling system(s)?
+* What are necessary enabling systems?
 ## Presentation
 The following artifact(s) support the modeling activities:
 

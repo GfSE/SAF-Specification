@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#246,SAF_Cameo_Profile#346</div>
+<div align="right">SAF_FFDS#311,SAF_Cameo_Profile#397</div>
 
 # Operational Domain Item Kind Viewpoint
 *Domain:* **Operational** *Aspect:* **Structure**
@@ -26,11 +26,11 @@ Operational Domain Item Kind(s) are managed in the domain knowledge package of E
 ## Profile Model Reference
 * ItemFlow [SysML Profile]
 * ObjectFlow [UML_Standard_Profile]
-* [SAF_OV02a_OperationalDomainKindDiagram](../stereotypes.md#SAF_OV02a_OperationalDomainKindDiagram)
 * [SAF_OperationalDomainKind](../stereotypes.md#SAF_OperationalDomainKind)
 * [SAF_OperationalDomainKindComposition](../stereotypes.md#SAF_OperationalDomainKindComposition)
+* [SAF_SOV02a_View](../stereotypes.md#SAF_SOV02a_View)
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*
 ### Recommended Viewpoints
-*none*
+* [Operational Story Viewpoint](Operational-Story-Viewpoint.md)

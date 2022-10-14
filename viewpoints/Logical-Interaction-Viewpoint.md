@@ -1,6 +1,6 @@
-<div align="right">SAF_FFDS#285,SAF_Cameo_Profile#353</div>
+<div align="right">SAF_FFDS#311,SAF_Cameo_Profile#397</div>
 
-# Logical Internal Interaction Viewpoint
+# Logical Interaction Viewpoint
 *Domain:* **Logical** *Aspect:* **Interaction and Collaboration**
 ## Example
 ![FFDS Internal Interaction](../diagrams/FFDS-Internal-Interaction.svg)
@@ -22,10 +22,8 @@ Note:
 ## Concern
 * What kind of information is exchanged and processed within the system?
 * What is the necessary response time for an interface or a service?
-* What is the flow of critical information and data through the system?
 * How do internal system elements interact with each other to provide the system function or service?
 * What are the item(s) exchanged between the logical system elements during the interaction?
-* Who provides the input(s) to a critical function?
 * How does the SOI or a SOI element interact with the test environment?
 * What additional information the SOI or a SOI element needs to generate to enable testing?
 ## Presentation
@@ -37,7 +35,7 @@ The Logical Interaction Viewpoint is modeled as a sequence diagram. It describes
 * Lifeline [UML_Standard_Profile]
 * Message [UML_Standard_Profile]
 * Property [UML_Standard_Profile]
-* [SAF_LV04a_LogicalInternalInteractionDiagram](../stereotypes.md#SAF_LV04a_LogicalInternalInteractionDiagram)
+* [SAF_SLV04a_View](../stereotypes.md#SAF_SLV04a_View)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Logical Structure Viewpoint](Logical-Structure-Viewpoint.md)

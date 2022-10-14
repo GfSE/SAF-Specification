@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#246,SAF_Cameo_Profile#346</div>
+<div align="right">SAF_FFDS#311,SAF_Cameo_Profile#397</div>
 
 # Operational Context Exchange Viewpoint
 *Domain:* **Operational** *Aspect:* **Context**
@@ -23,13 +23,13 @@ An internal block diagram (IBD) associated to an Operational Context showing the
 * Connector [UML_Standard_Profile]
 * ItemFlow [SysML Profile]
 * ItemFlow [SysML Profile]
-* [SAF_OV01c_OperationalContextExchangeDiagram](../stereotypes.md#SAF_OV01c_OperationalContextExchangeDiagram)
 * [SAF_OperationalContext](../stereotypes.md#SAF_OperationalContext)
 * [SAF_OperationalDomainKind](../stereotypes.md#SAF_OperationalDomainKind)
 * [SAF_OperationalRole](../stereotypes.md#SAF_OperationalRole)
+* [SAF_SOV01c_View](../stereotypes.md#SAF_SOV01c_View)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Operational Context Definition Viewpoint](Operational-Context-Definition-Viewpoint.md)
 * [Operational Domain Item Kind Viewpoint](Operational-Domain-Item-Kind-Viewpoint.md)
 ### Recommended Viewpoints
-*none*
+* [Operational Story Viewpoint](Operational-Story-Viewpoint.md)

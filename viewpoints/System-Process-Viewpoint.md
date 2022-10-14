@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#285,SAF_Cameo_Profile#353</div>
+<div align="right">SAF_FFDS#311,SAF_Cameo_Profile#397</div>
 
 # System Process Viewpoint
 *Domain:* **Functional** *Aspect:* **Behavior**
@@ -23,17 +23,15 @@ Note:
 * [User](../stakeholders.md#User)
 ## Concern
 * What is the functional scope of the SOI?
-* How is the SOI interacting with the identified external entities?
-* Which function(s) will the SOI provide?
-* What kind of physical item(s) (energy, material, information) are exchanged between the SOI and external entity(s)?
 * What are the functional interface(s) of the SOI?
-* What is the functional scope of each system delivery standard?
-* What Function(s) do the SOI provide?
-* What are the System Function(s) and service(s)?
-* What are the Functional Requirement(s) imposed on the SOI?
-* What are the Function(s) and service(s) to be implemented?
+* What service(s) are expected from External Entity(s)?
+* What are necessary inputs for operating the SOI expected to be provided by other External Entity(s)?
+* Which function(s) are out of scope of the SOI?
+* How does a system function interact with its environment?
+* Which function(s) will the SOI provide?
+* How is the System interacting with the identified external entities?
 ## Presentation
-The Functional Scenario Activity(s) and their sequence related to a System Story are represented in activity diagram(s) featuring swim lanes. The swim lanes are typed with Context Element(s) and SOI usage from the System Context(s). 
+The Functional Scenario Activity(s) and their sequence related to a System UseCase are represented in activity diagram(s) featuring swim lanes. The swim lanes are typed with Context Element(s) and SOI usage from the System Context(s). 
 Note: It is recommended to compile separate activity diagrams refining Use Case and System Context.
 
 ## Profile Model Reference
@@ -46,14 +44,15 @@ Note: It is recommended to compile separate activity diagrams refining Use Case 
 * ObjectFlow [UML_Standard_Profile]
 * OutputPin [UML_Standard_Profile]
 * [SAF_ContextFunction](../stereotypes.md#SAF_ContextFunction)
-* [SAF_FV03a_SystemProcessDiagram](../stereotypes.md#SAF_FV03a_SystemProcessDiagram)
 * [SAF_FunctionAction](../stereotypes.md#SAF_FunctionAction)
+* [SAF_SFV03a_View](../stereotypes.md#SAF_SFV03a_View)
 * [SAF_SystemFunction](../stereotypes.md#SAF_SystemFunction)
 * [SAF_SystemProcess](../stereotypes.md#SAF_SystemProcess)
 ## Input from other Viewpoints
 ### Required Viewpoints
-* [Stakeholder Requirement Viewpoint](Stakeholder-Requirement-Viewpoint.md)
-* [System Story Viewpoint](System-Story-Viewpoint.md)
-* [System Domain Item Kind Viewpoint](System-Domain-Item-Kind-Viewpoint.md)
-### Recommended Viewpoints
 *none*
+### Recommended Viewpoints
+* [Operational Context Definition Viewpoint](Operational-Context-Definition-Viewpoint.md)
+* [Operational Domain Item Kind Viewpoint](Operational-Domain-Item-Kind-Viewpoint.md)
+* [System Context Definition Viewpoint](System-Context-Definition-Viewpoint.md)
+* [System Domain Item Kind Viewpoint](System-Domain-Item-Kind-Viewpoint.md)

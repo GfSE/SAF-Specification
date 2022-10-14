@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#246,SAF_Cameo_Profile#346</div>
+<div align="right">SAF_FFDS#311,SAF_Cameo_Profile#397</div>
 
 # Logical Internal Exchange Viewpoint
 *Domain:* **Logical** *Aspect:* **Interaction and Collaboration**
@@ -29,11 +29,9 @@ Note:
 * How do the logical system elements interact to fulfill the designated system function?
 * Which interface partners does a SW item have?
 * What are the item(s) exchanged between the logical system elements during the interaction?
-* Which interface(s) are necessary?
-* What additional interface(s) are necessary to expose internal properties, states and modes for testing?
-* Which SW interface(s) are necessary?
 * What are data / information item(s) exchanged?
 * What additional information the SOI or a SOI element needs to generate to enable testing?
+* Which interfaces are necessary?
 ## Presentation
 One or more IBD featuring the logical element(s) of the SOI, and the SOI boundary, containing connector(s) for each identified SOI interface delegation to SOI element(s), as well as connector(s) between related interface(s) of SOI parts. An interface is a connection resource for hooking on the logical SOI element(s) to other logical SOI element(s). Item flows are defined for each exchange on the identified interface.  Recommendation: Use more than one IBD focused on different areas of interest to keep the view comprehensive. Depending on the Stakeholder concern(s) the logical item exchange information might be suppressed.
 
@@ -44,8 +42,8 @@ One or more IBD featuring the logical element(s) of the SOI, and the SOI boundar
 * Property [UML_Standard_Profile]
 * ProxyPort [SysML Profile]
 * [SAF_DomainKind](../stereotypes.md#SAF_DomainKind)
-* [SAF_LV04b_LogicalInternalExchangeDiagram](../stereotypes.md#SAF_LV04b_LogicalInternalExchangeDiagram)
 * [SAF_LogicalElement](../stereotypes.md#SAF_LogicalElement)
+* [SAF_SLV04b_View](../stereotypes.md#SAF_SLV04b_View)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [System Domain Item Kind Viewpoint](System-Domain-Item-Kind-Viewpoint.md)

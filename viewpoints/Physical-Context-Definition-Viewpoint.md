@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#246,SAF_Cameo_Profile#346</div>
+<div align="right">SAF_FFDS#311,SAF_Cameo_Profile#397</div>
 
 # Physical Context Definition Viewpoint
 *Domain:* **Physical** *Aspect:* **Context**
@@ -17,11 +17,10 @@ NOTE: Only those external entities are identified that share a physical interfac
 * [Acquirer](../stakeholders.md#Acquirer)
 ## Concern
 * What kind of test equipment is necessary to test the system elements?
-* What are the external entity(s) the SOI interacts with in the respective context?
-* What is the SOI boundary definition?
-* What are necessary enabling system(s)?
 * What is the System Boundary definition?
 * How does the SOI or a SOI element interact with the test environment?
+* What are necessary enabling systems?
+* What are the External Entities the System interacts with in the respective context?
 ## Presentation
 The following artifact(s) support the modeling activities: 
 A) The physical context definition diagram defines the elements available in the context. At least one context definition diagram is generated per identified context. For each identified context a BDD featuring:

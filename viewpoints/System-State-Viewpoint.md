@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#285,SAF_Cameo_Profile#353</div>
+<div align="right">SAF_FFDS#311,SAF_Cameo_Profile#397</div>
 
 # System State Viewpoint
 *Domain:* **Functional** *Aspect:* **Behavior**
@@ -18,7 +18,6 @@ Note:
 * [User](../stakeholders.md#User)
 ## Concern
 * Which Mode(s) and State(s) do the SOI have?
-* How are Error State(s) handled?
 ## Presentation
 [tbd]
 Note:
@@ -26,8 +25,8 @@ Note:
 ## Profile Model Reference
 * Event [UML_Standard_Profile]
 * [SAF_DomainKind](../stereotypes.md#SAF_DomainKind)
-* [SAF_FV03b_SystemStateMachineDiagram](../stereotypes.md#SAF_FV03b_SystemStateMachineDiagram)
 * [SAF_LogicalElement](../stereotypes.md#SAF_LogicalElement)
+* [SAF_SFV03b_View](../stereotypes.md#SAF_SFV03b_View)
 * [SAF_SystemFunction](../stereotypes.md#SAF_SystemFunction)
 * State [UML_Standard_Profile]
 * StateMachine [UML_Standard_Profile]
@@ -35,9 +34,8 @@ Note:
 * Transition [UML_Standard_Profile]
 ## Input from other Viewpoints
 ### Required Viewpoints
-* [Stakeholder Requirement Viewpoint](Stakeholder-Requirement-Viewpoint.md)
-* [System Process Viewpoint](System-Process-Viewpoint.md)
+*none*
 ### Recommended Viewpoints
-* [Operational Process Viewpoint](Operational-Process-Viewpoint.md)
-* [Operational Interaction Viewpoint](Operational-Interaction-Viewpoint.md)
-* [System Functional Breakdown Viewpoint](System-Functional-Breakdown-Viewpoint.md)
+* [System Context Definition Viewpoint](System-Context-Definition-Viewpoint.md)
+* [System Domain Item Kind Viewpoint](System-Domain-Item-Kind-Viewpoint.md)
+* [System Process Viewpoint](System-Process-Viewpoint.md)

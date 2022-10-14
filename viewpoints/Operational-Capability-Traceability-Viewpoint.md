@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#246,SAF_Cameo_Profile#346</div>
+<div align="right">SAF_FFDS#311,SAF_Cameo_Profile#397</div>
 
 # Operational Capability Traceability Viewpoint
 *Domain:* **Operational** *Aspect:* **Crossreference and Mapping**
@@ -20,7 +20,6 @@ Note:
 The relationship(s) of Operational Capability(s) to Operational Story(s) and to Operational Performer(s) are represented in a table format.
 
 ## Profile Model Reference
-* [SAF_OV08a_OperationalCapabilityTraceabilityDiagram](../stereotypes.md#SAF_OV08a_OperationalCapabilityTraceabilityDiagram)
 * [SAF_OperationalCapability](../stereotypes.md#SAF_OperationalCapability)
 * [SAF_OperationalCapabilityComposition](../stereotypes.md#SAF_OperationalCapabilityComposition)
 * [SAF_OperationalCapabilityDependency](../stereotypes.md#SAF_OperationalCapabilityDependency)
@@ -30,8 +29,10 @@ The relationship(s) of Operational Capability(s) to Operational Story(s) and to 
 * [SAF_OperationalProcess](../stereotypes.md#SAF_OperationalProcess)
 * [SAF_OperationalProcessMapping](../stereotypes.md#SAF_OperationalProcessMapping)
 * [SAF_OperationalStory](../stereotypes.md#SAF_OperationalStory)
+* [SAF_SOV08a_View](../stereotypes.md#SAF_SOV08a_View)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Operational Capability Viewpoint](Operational-Capability-Viewpoint.md)
 ### Recommended Viewpoints
-*none*
+* [Operational Story Viewpoint](Operational-Story-Viewpoint.md)
+* [Operational Process Viewpoint](Operational-Process-Viewpoint.md)
