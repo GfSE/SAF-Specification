@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#311,SAF_Cameo_Profile#399</div>
+<div align="right">SAF_FFDS#313,SAF_Cameo_Profile#404</div>
 
 # Stakeholder Requirement Viewpoint
 *Domain:* **Operational** *Aspect:* **Requirement**
@@ -20,6 +20,8 @@ Note:
 * What defines a valid solution towards the customer?
 * What are the normal and extreme environmental conditions for normal operation, for not operational, for storage and for transport?
 * What are the requirements that a Stakeholder imposes to the system?
+* What are the Requirements of environmental conditions imposed on the system?
+* What is the range of acceptable system performance, i.e. the critical, top-level Performance Requirements derived from the Operational Needs?
 ## Presentation
 Stakeholder Requirement(s) are structured in a way that the Stakeholder behind a requirement is identifiable. As appropriate, the identified Stakeholder Requirement(s) are receiving a Derivation Link from the justifying model artefact(s), namely Operational Performer, Operational Activity, and Operational Exchange.
 Note 1: "One requirement package for each Stakeholder" is a best-practice modeling rule. A package contains the requirement(s) specific for one Stakeholder.

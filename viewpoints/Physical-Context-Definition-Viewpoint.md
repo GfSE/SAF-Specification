@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#311,SAF_Cameo_Profile#399</div>
+<div align="right">SAF_FFDS#313,SAF_Cameo_Profile#404</div>
 
 # Physical Context Definition Viewpoint
 *Domain:* **Physical** *Aspect:* **Context**
@@ -20,7 +20,7 @@ NOTE: Only those external entities are identified that share a physical interfac
 * What is the System Boundary definition?
 * How does the system or a system element interact with the test environment?
 * What are necessary enabling systems?
-* What are the external entities the system interacts with in the respective context?
+* What are the external physical entities the system interacts with in the respective context?
 ## Presentation
 The following artifact(s) support the modeling activities: 
 A) The physical context definition diagram defines the elements available in the context. At least one context definition diagram is generated per identified context. For each identified context a BDD featuring:

@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#311,SAF_Cameo_Profile#399</div>
+<div align="right">SAF_FFDS#313,SAF_Cameo_Profile#404</div>
 
 # System Context Definition Viewpoint
 *Domain:* **Functional** *Aspect:* **Context**
@@ -19,7 +19,10 @@ Note:
 * Which interface partners does the system have?
 * What are necessary enabling systems?
 * What are the different contexts the system is embedded and utilized in?
-* What are the external entities the system interacts with in the respective context?
+* What are the external conceptual entities the system interacts with in the respective context?
+* Which classes of users (roles) will interact with the system?
+* What is the support environment for the system?
+* What are the geographical and physical locations of the intended / proposed elements of the solution?
 ## Presentation
 A BDD featuring the following elements
 * a Logical Element block representing SOI in the logical domain

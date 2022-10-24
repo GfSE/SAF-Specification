@@ -1,4 +1,4 @@
-<div align="right">SAF_Cameo_Profile#399</div>
+<div align="right">SAF_Cameo_Profile#404</div>
 
 ![SAF_Stakeholder_Definition](diagrams/SAF_stakeholder_definition.svg)
 This section provides a list of the Stakeholder roles considered in the development of the architecture described by SAF. For each, the section lists the concerns that the Stakeholder has that can be addressed by the information in this SAF framework.
@@ -40,7 +40,7 @@ He is responsible for providing a feasible solution within a given budget. The A
 * What is the necessary response time for an interface or a service?
 * What are the scenarios a system function is utilized in?
 * How does a system function interact with its environment?
-* What are the external entities the system interacts with in the respective context?
+* What are the external physical entities the system interacts with in the respective context?
 * Who provides the inputs to a critical function?
 * What are the planned architectural means for risk mitigation?
 * What are the different contexts the system is embedded and utilized in?
@@ -74,7 +74,7 @@ The Customer is an organization or person that receives a product. Examples: Con
 * What are necessary enabling systems?
 * What shall be validated to the customer at system level?
 * What are necessary inputs for operating the system expected to be provided by other external entitys?
-* What are the external entities the system interacts with in the respective context?
+* What are the external physical entities the system interacts with in the respective context?
 * What is the necessary response time for an interface or a service?
 * Which information is exchanged between the system and external entitys?
 * What are the planned architectural means for risk mitigation?
@@ -259,7 +259,7 @@ The safety experts evaluate a proposed system architecture and design for safety
 * Which modes and states does
  the system have?
 * What are the encryption means used for an exchange?
-* What are the external entities the system interacts with in the respective context?
+* What are the external physical entities the system interacts with in the respective context?
 * What is the rational if requirements are not considered?
 * Which functions will the system provide?
 * What is the sequence of interactions among the system and context elements
@@ -327,7 +327,7 @@ The Supplier is the organization or individual that enters into an agreement wit
 
 ## Concern
 * What are the scenarios a system function is utilized in?
-* What are the external entities the system interacts with in the respective context?
+* What are the external physical entities the system interacts with in the respective context?
 * What are necessary inputs for operating the system expected to be provided by other external entitys?
 * What are necessary enabling systems?
 * What service(s) are expected from external entities?
@@ -344,10 +344,10 @@ The System Architect as an individual or group performing the systems engineerin
 ## Concern
 * What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
 * What is the configuration or version of each configuration item?
-* Which system functions are dependent of a systems state?
+* Which system functions are dependent on a systems mode or state?
 * Which Stakeholder are relevant to the system and might impose requirements?
 * What are the configuration items in the physical architecture?
-* What are the external entities the system interacts with in the respective context?
+* What are the external physical entities the system interacts with in the respective context?
 * What are the physical components?
 * What system elements are make-items, reuse items or COTS?
 * What is the breakdown of functions into sub-functions?

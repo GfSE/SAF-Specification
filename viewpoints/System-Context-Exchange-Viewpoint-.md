@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#311,SAF_Cameo_Profile#399</div>
+<div align="right">SAF_FFDS#313,SAF_Cameo_Profile#404</div>
 
 # System Context Exchange Viewpoint 
 *Domain:* **Functional** *Aspect:* **Context**
@@ -28,6 +28,7 @@ Note:
 * What are the functional interfaces of the system?
 * What are the Interface Requirements imposed on the system?
 * How does the system or a system element interact with the test environment?
+* What are the external conceptual entities the system interacts with in the respective context?
 ## Presentation
 An IBD featuring the SOI, the System Context Element(s) and Connector(s) for each identified Interface from SOI to the respective Context Element(s). An Interface is a connection resource for hooking on the SOI to other Context Element(s). Item flow(s) are defined for each exchange on the identified Interface. Connectors/ports may contain reference to the Interface Document(s) if applicable.
 Note: more than one IBD focused on different areas of interest may be used in oder to keep the view comprehensive. Depending on the Stakeholder Concern(s) the Item Exchange information might be suppressed.

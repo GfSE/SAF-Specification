@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#311,SAF_Cameo_Profile#399</div>
+<div align="right">SAF_FFDS#313,SAF_Cameo_Profile#404</div>
 
 # Physical Structure Viewpoint
 *Domain:* **Physical** *Aspect:* **Structure**
@@ -32,6 +32,7 @@ Note:
 * What physical items are used building up the system?
 * what is the decomposition hierarchy of the system/logical elements
 * What are necessary enabling systems?
+* What are the major system elements?
 ## Presentation
 The following artifact(s) support the modeling activities:
 

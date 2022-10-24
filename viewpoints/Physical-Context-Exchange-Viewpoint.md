@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#311,SAF_Cameo_Profile#399</div>
+<div align="right">SAF_FFDS#313,SAF_Cameo_Profile#404</div>
 
 # Physical Context Exchange Viewpoint
 *Domain:* **Physical** *Aspect:* **Context**
@@ -23,8 +23,8 @@ Note:
 * How to connect the system or a system element to a test equipment?
 * Which SW interfaces are necessary?
 * Which interfaces are necessary?
-* What are the external entities the system interacts with in the respective context?
 * How does the system or a system element interact with the test environment?
+* What are the external physical entities the system interacts with in the respective context?
 ## Presentation
 The following artifact(s) support the modeling activities:
 A) For each identified context a physical context interface IBD is used to identify the physical interface(s), the item flow(s) that are exchanged on that interface and related documentation 
