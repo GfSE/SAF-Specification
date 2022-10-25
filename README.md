@@ -1,5 +1,8 @@
 # SAF Specification
 Disclaimer: **The System Architecture Framework specification is a work in progress document.**
+The Fire Forest Detection example, SAF_FFDS, is based on the following publication 
+**SYSMOD - The Systems Modeling Toolbox, 3rd edition** 
+**Pragmatic MBSE with SysML, Tim Weilkiens**
 
 # Viewpoint Grid
 This is the grid of Viewpoints organized in Domains as rows and Aspects as columns
