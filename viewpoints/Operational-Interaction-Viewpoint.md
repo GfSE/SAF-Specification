@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#246,SAF_Cameo_Profile#346</div>
+<div align="right">SAF_FFDS#313,SAF_Cameo_Profile#404</div>
 
 # Operational Interaction Viewpoint
 *Domain:* **Operational** *Aspect:* **Interaction and Collaboration**
@@ -16,7 +16,7 @@ Note:
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
 * What validation scenarios have to be carried out to check on the solution validity?
-* What possible threads of Operational Process Activity(s) have to be carried out to achieve the Operational Story main and alternative goals?
+* What possible threads of Operational Process Activities have to be carried out to achieve the Operational Story main and alternative goals?
 ## Presentation
 The Operational Interaction shows in a sequence diagram the flow of control or data (Operational Exchange) between Operational Role(s) of an Operational Context to achieve one outcome of an Operational Story. This diagram represents the sending and receiving of messages or data between the Operational Role(s) along with the executed Operational Activity(s).
 
@@ -24,10 +24,10 @@ The Operational Interaction shows in a sequence diagram the flow of control or d
 * Interaction [UML_Standard_Profile]
 * Lifeline [UML_Standard_Profile]
 * Message [UML_Standard_Profile]
-* [SAF_OV04a_OperationalInteractionDiagram](../stereotypes.md#SAF_OV04a_OperationalInteractionDiagram)
 * [SAF_OperationalRole](../stereotypes.md#SAF_OperationalRole)
+* [SAF_SOV04a_View](../stereotypes.md#SAF_SOV04a_View)
 ## Input from other Viewpoints
 ### Required Viewpoints
-* [Operational Context Exchange Viewpoint](Operational-Context-Exchange-Viewpoint.md)
+* [Operational Context Definition Viewpoint](Operational-Context-Definition-Viewpoint.md)
 ### Recommended Viewpoints
 *none*

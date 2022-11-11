@@ -1,5 +1,8 @@
 # SAF Specification
 Disclaimer: **The System Architecture Framework specification is a work in progress document.**
+The Fire Forest Detection example, SAF_FFDS, is based on the following publication 
+**SYSMOD - The Systems Modeling Toolbox, 3rd edition** 
+**Pragmatic MBSE with SysML, Tim Weilkiens**
 
 # Viewpoint Grid
 This is the grid of Viewpoints organized in Domains as rows and Aspects as columns
@@ -62,7 +65,7 @@ The Functional Domain Viewpoints translate Operational Domain usage into the not
 ### Functional Domain Viewpoints
 
 #### Functional Domain Aspect Context
-* [System Story Viewpoint](viewpoints/System-Story-Viewpoint.md)
+* [System Use Case Viewpoint](viewpoints/System-UseCase-Viewpoint.md)
 * [System Context Definition Viewpoint](viewpoints/System-Context-Definition-Viewpoint.md)
 * [System Context Exchange Viewpoint](viewpoints/System-Context-Exchange-Viewpoint.md)
 #### Functional Domain Aspect Structure

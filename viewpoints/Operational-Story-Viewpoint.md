@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#246,SAF_Cameo_Profile#346</div>
+<div align="right">SAF_FFDS#313,SAF_Cameo_Profile#404</div>
 
 # Operational Story Viewpoint
 *Domain:* **Operational** *Aspect:* **Context**
@@ -18,18 +18,18 @@ Note:
 * [System Architect](../stakeholders.md#System-Architect)
 * [User](../stakeholders.md#User)
 ## Concern
-* Which is the Operational Story task accomplished by which operational entity(s) in the Operational Context?
+* Which is the Operational Story task accomplished by which operational entities in the Operational Context?
 ## Presentation
 A use case diagram depicting model elements representing Operational Story(s) and Operational Performer(s) shall be used. In addition, an illustration (drawing, sketch, etc.) and/or a description in free text may provide a comprehensive understanding of the operational background.
 
 ## Profile Model Reference
-* [SAF_OV01a_OperationalStoryDiagram](../stereotypes.md#SAF_OV01a_OperationalStoryDiagram)
 * [SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)
 * [SAF_OperationalPerformerActing](../stereotypes.md#SAF_OperationalPerformerActing)
 * [SAF_OperationalSketch](../stereotypes.md#SAF_OperationalSketch)
 * [SAF_OperationalStory](../stereotypes.md#SAF_OperationalStory)
+* [SAF_SOV01a_View](../stereotypes.md#SAF_SOV01a_View)
 ## Input from other Viewpoints
 ### Required Viewpoints
-*none*
+* [Operational Performer Viewpoint](Operational-Performer-Viewpoint.md)
 ### Recommended Viewpoints
-* [Operational Capability Viewpoint](Operational-Capability-Viewpoint.md)
+*none*

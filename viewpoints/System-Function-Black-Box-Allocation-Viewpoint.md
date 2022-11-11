@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#285,SAF_Cameo_Profile#353</div>
+<div align="right">SAF_FFDS#313,SAF_Cameo_Profile#404</div>
 
 # System Function Black Box Allocation Viewpoint
 *Domain:* **Functional** *Aspect:* **Crossreference and Mapping**
@@ -14,11 +14,7 @@ Note:
 * [Safety Expert](../stakeholders.md#Safety-Expert)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* What is the functional scope of each system delivery standard?
-* What are the Function(s) and service(s) to be implemented?
-* What service(s) are expected from external entity(s)?
-* What are the System Function(s) and service(s)?
-* What Function(s) do the SOI provide?
+* What service(s) are expected from external entities?
 ## Presentation
 A System Function Black Box Allocation Matrix featuring
 * the Context Element(s) and Context Function(s) and
@@ -40,6 +36,7 @@ A System Function Black Box Allocation Matrix featuring
 ### Required Viewpoints
 * [System Process Viewpoint](System-Process-Viewpoint.md)
 ### Recommended Viewpoints
-* [Operational Process Viewpoint](Operational-Process-Viewpoint.md)
-* [Operational Interaction Viewpoint](Operational-Interaction-Viewpoint.md)
-* [System Functional Breakdown Viewpoint](System-Functional-Breakdown-Viewpoint.md)
+* [Operational Context Definition Viewpoint](Operational-Context-Definition-Viewpoint.md)
+* [Operational Domain Item Kind Viewpoint](Operational-Domain-Item-Kind-Viewpoint.md)
+* [System Context Definition Viewpoint](System-Context-Definition-Viewpoint.md)
+* [System Domain Item Kind Viewpoint](System-Domain-Item-Kind-Viewpoint.md)

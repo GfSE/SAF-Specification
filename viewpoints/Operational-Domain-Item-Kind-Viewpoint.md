@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#246,SAF_Cameo_Profile#346</div>
+<div align="right">SAF_FFDS#313,SAF_Cameo_Profile#404</div>
 
 # Operational Domain Item Kind Viewpoint
 *Domain:* **Operational** *Aspect:* **Structure**
@@ -19,18 +19,18 @@ Note:
 * [Software Developer](../stakeholders.md#Software-Developer)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* What Operational Exchange the Operational Performer(s) need to consume or provide?
+* What Operational Exchange the Operational Performers need to consume or provide?
 ## Presentation
 Operational Domain Item Kind(s) are managed in the domain knowledge package of Enterprise. Operational Domain Item Kind(s) shall be value type(s) or block(s). A BBD diagram featuring Operational Domain Item Kind(s) and their relationship(s) in terms of generalization, composition or general association shall be used.
 
 ## Profile Model Reference
 * ItemFlow [SysML Profile]
 * ObjectFlow [UML_Standard_Profile]
-* [SAF_OV02a_OperationalDomainKindDiagram](../stereotypes.md#SAF_OV02a_OperationalDomainKindDiagram)
 * [SAF_OperationalDomainKind](../stereotypes.md#SAF_OperationalDomainKind)
 * [SAF_OperationalDomainKindComposition](../stereotypes.md#SAF_OperationalDomainKindComposition)
+* [SAF_SOV02a_View](../stereotypes.md#SAF_SOV02a_View)
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*
 ### Recommended Viewpoints
-*none*
+* [Operational Story Viewpoint](Operational-Story-Viewpoint.md)

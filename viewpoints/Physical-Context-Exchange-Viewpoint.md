@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#246,SAF_Cameo_Profile#346</div>
+<div align="right">SAF_FFDS#313,SAF_Cameo_Profile#404</div>
 
 # Physical Context Exchange Viewpoint
 *Domain:* **Physical** *Aspect:* **Context**
@@ -19,16 +19,12 @@ Note:
 * [Maintainer](../stakeholders.md#Maintainer)
 * [Hardware Developer](../stakeholders.md#Hardware-Developer)
 ## Concern
-* What are the provided power inputs?
-* What is the allocated space?
 * What are the interface requirements regarding bandwidth, data throughput and latency?
-* How does the elements of the test environment interact with each other?
 * How to connect the system or a system element to a test equipment?
-* What are the interface requirements regarding bandwidth, data throughput and latency?
-* How does the SOI or a SOI element interact with the test environment?
-* What are the external entity(s) the SOI interacts with in the respective context?
-* Which interface(s) are necessary?
-* What additional interface(s) are necessary to expose internal properties, states and modes for testing?
+* Which SW interfaces are necessary?
+* Which interfaces are necessary?
+* How does the system or a system element interact with the test environment?
+* What are the external physical entities the system interacts with in the respective context?
 ## Presentation
 The following artifact(s) support the modeling activities:
 A) For each identified context a physical context interface IBD is used to identify the physical interface(s), the item flow(s) that are exchanged on that interface and related documentation 

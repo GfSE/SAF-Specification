@@ -1,6 +1,6 @@
-<div align="right">SAF_FFDS#285,SAF_Cameo_Profile#353</div>
+<div align="right">SAF_FFDS#313,SAF_Cameo_Profile#404</div>
 
-# Logical Structure Definition Viewpoint
+# Logical Structure Viewpoint
 *Domain:* **Logical** *Aspect:* **Structure**
 ## Example
 ![FFDS Logical Architecture Definition](../diagrams/FFDS-Logical-Architecture-Definition.svg)
@@ -18,20 +18,17 @@ Note:
 * [Security Expert](../stakeholders.md#Security-Expert)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* Have the logical decomposition guidelines been followed?
-* What are the planned architectural means for risk mitigation?
 * What are the logical components the system is composed of?
-* How are applicable requirement(s) considered in the system architecture?
-* Are safety related design principle(s) followed e.g. segregation of monitors or independence or redundant elements?
+* How are applicable requirements considered in the system architecture?
 ## Presentation
 A BDD features the logical System block and logical blocks for each kind of Logical Element the system is composed of. The elements are connected to the system block by means of aggregation relationships. Multiple relationship(s) to a kind of element are allowed meaning, that this kind of element is used in several roles. 
 
 ## Profile Model Reference
 * Association [UML_Standard_Profile]
 * Property [UML_Standard_Profile]
-* [SAF_LV02a_LogicalStructureDiagram](../stereotypes.md#SAF_LV02a_LogicalStructureDiagram)
 * [SAF_LogicalElement](../stereotypes.md#SAF_LogicalElement)
 * [SAF_LogicalSOI](../stereotypes.md#SAF_LogicalSOI)
+* [SAF_SLV02a_View](../stereotypes.md#SAF_SLV02a_View)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [System Functional Breakdown Viewpoint](System-Functional-Breakdown-Viewpoint.md)

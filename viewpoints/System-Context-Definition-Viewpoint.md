@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#285,SAF_Cameo_Profile#353</div>
+<div align="right">SAF_FFDS#313,SAF_Cameo_Profile#404</div>
 
 # System Context Definition Viewpoint
 *Domain:* **Functional** *Aspect:* **Context**
@@ -15,12 +15,14 @@ Note:
 * [System Architect](../stakeholders.md#System-Architect)
 * [User](../stakeholders.md#User)
 ## Concern
-* What is the SOI boundary definition?
-* What are the external entity(s) the SOI interacts with in the respective context?
-* What are the different context(s) the SOI is embedded and utilized in?
-* What are the different context(s) the SOI is embedded and utilized in?
-* What are necessary enabling system(s)?
 * What is the System Boundary definition?
+* Which interface partners does the system have?
+* What are necessary enabling systems?
+* What are the different contexts the system is embedded and utilized in?
+* What are the external conceptual entities the system interacts with in the respective context?
+* Which classes of users (roles) will interact with the system?
+* What is the support environment for the system?
+* What are the geographical and physical locations of the intended / proposed elements of the solution?
 ## Presentation
 A BDD featuring the following elements
 * a Logical Element block representing SOI in the logical domain
@@ -32,7 +34,6 @@ A BDD featuring the following elements
 ## Profile Model Reference
 * Association [UML_Standard_Profile]
 * Association [UML_Standard_Profile]
-* [SAF_FV01b_SystemContextDefinitionDiagram](../stereotypes.md#SAF_FV01b_SystemContextDefinitionDiagram)
 * [SAF_LogicalContext](../stereotypes.md#SAF_LogicalContext)
 * [SAF_LogicalEnvironment](../stereotypes.md#SAF_LogicalEnvironment)
 * [SAF_LogicalExternalSystem](../stereotypes.md#SAF_LogicalExternalSystem)
@@ -40,11 +41,9 @@ A BDD featuring the following elements
 * [SAF_LogicalRole](../stereotypes.md#SAF_LogicalRole)
 * [SAF_LogicalSOI](../stereotypes.md#SAF_LogicalSOI)
 * [SAF_LogicalUser](../stereotypes.md#SAF_LogicalUser)
+* [SAF_SFV01b_View](../stereotypes.md#SAF_SFV01b_View)
 ## Input from other Viewpoints
 ### Required Viewpoints
-* [System Story Viewpoint](System-Story-Viewpoint.md)
-* [System Process Viewpoint](System-Process-Viewpoint.md)
+*none*
 ### Recommended Viewpoints
-* [Operational Process Viewpoint](Operational-Process-Viewpoint.md)
-* [Operational Interaction Viewpoint](Operational-Interaction-Viewpoint.md)
-* [System Functional Breakdown Viewpoint](System-Functional-Breakdown-Viewpoint.md)
+* [Operational Context Definition Viewpoint](Operational-Context-Definition-Viewpoint.md)

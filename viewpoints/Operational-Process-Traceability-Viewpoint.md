@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#246,SAF_Cameo_Profile#346</div>
+<div align="right">SAF_FFDS#313,SAF_Cameo_Profile#404</div>
 
 # Operational Process Traceability Viewpoint
 *Domain:* **Operational** *Aspect:* **Crossreference and Mapping**
@@ -15,20 +15,21 @@ Note:
 * [Supplier](../stakeholders.md#Supplier)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* Show in a concise manner the relationship(s) from Operational Process to Operational Story and to Operational Performer.
+* Show in a concise manner the relationships from Operational Process to Operational Story and to Operational Performer.
 ## Presentation
 The relationship(s) of Operational Process Activity(s) to Operational Story(s) and to Operational Performer(s) are represented in a table format.
 
 ## Profile Model Reference
-* [SAF_OV08b_OperationalProcessTraceabilityDiagram](../stereotypes.md#SAF_OV08b_OperationalProcessTraceabilityDiagram)
 * [SAF_OperationalCapability](../stereotypes.md#SAF_OperationalCapability)
 * [SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)
 * [SAF_OperationalProcess](../stereotypes.md#SAF_OperationalProcess)
 * [SAF_OperationalProcessMapping](../stereotypes.md#SAF_OperationalProcessMapping)
 * [SAF_OperationalProcessRefinement](../stereotypes.md#SAF_OperationalProcessRefinement)
 * [SAF_OperationalStory](../stereotypes.md#SAF_OperationalStory)
+* [SAF_SOV08b_View](../stereotypes.md#SAF_SOV08b_View)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Operational Process Viewpoint](Operational-Process-Viewpoint.md)
 ### Recommended Viewpoints
 * [Operational Context Definition Viewpoint](Operational-Context-Definition-Viewpoint.md)
+* [Operational Domain Item Kind Viewpoint](Operational-Domain-Item-Kind-Viewpoint.md)

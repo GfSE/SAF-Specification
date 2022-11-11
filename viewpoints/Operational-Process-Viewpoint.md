@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#246,SAF_Cameo_Profile#346</div>
+<div align="right">SAF_FFDS#313,SAF_Cameo_Profile#404</div>
 
 # Operational Process Viewpoint
 *Domain:* **Operational** *Aspect:* **Behavior**
@@ -16,7 +16,7 @@ Note:
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
 * Which Operational Activity shall be executed by which Operational Performer in the Operational Story?
-* What Operational Process Activity(s) shall be executed during the execution of an Operational Story?
+* What Operational Process Activitys shall be executed during the execution of an Operational Story?
 ## Presentation
 The Operational Process related to an Operational Story is represented in an activity diagram showing the ordered execution of Operational Process Activity(s). Operational Process Activity(s) may be linked in terms of control flow and/or data flow visualizing Operational Exchange needed. 
 Note: Operational Process Activity(s) are assigned to Operational Role(s) and therefore in a more general manner to the Operational Performer(s).
@@ -27,13 +27,14 @@ Note: Operational Process Activity(s) are assigned to Operational Role(s) and th
 * InputPin [UML_Standard_Profile]
 * ObjectFlow [UML_Standard_Profile]
 * OutputPin [UML_Standard_Profile]
-* [SAF_OV03a_OperationalProcessDiagram](../stereotypes.md#SAF_OV03a_OperationalProcessDiagram)
 * [SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)
 * [SAF_OperationalProcess](../stereotypes.md#SAF_OperationalProcess)
 * [SAF_OperationalProcessAction](../stereotypes.md#SAF_OperationalProcessAction)
 * [SAF_OperationalRole](../stereotypes.md#SAF_OperationalRole)
+* [SAF_SOV03a_View](../stereotypes.md#SAF_SOV03a_View)
 ## Input from other Viewpoints
 ### Required Viewpoints
-* [Operational Context Exchange Viewpoint](Operational-Context-Exchange-Viewpoint.md)
-### Recommended Viewpoints
 *none*
+### Recommended Viewpoints
+* [Operational Context Definition Viewpoint](Operational-Context-Definition-Viewpoint.md)
+* [Operational Domain Item Kind Viewpoint](Operational-Domain-Item-Kind-Viewpoint.md)

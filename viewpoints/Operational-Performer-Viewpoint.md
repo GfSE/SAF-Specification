@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#246,SAF_Cameo_Profile#346</div>
+<div align="right">SAF_FFDS#313,SAF_Cameo_Profile#404</div>
 
 # Operational Performer Viewpoint
 *Domain:* **Operational** *Aspect:* **Structure**
@@ -15,21 +15,20 @@ Note:
 * [Customer](../stakeholders.md#Customer)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* What are the relationship(s) between the party(s) involved in the operation of the intended solution?
-* What party(s) of the organization, enterprise, or operational entity are needed to achieve an intended Operational Capability?
+* What are the relationships between the partys involved in the operation of the intended solution?
+* What partys of the organization, enterprise, or operational entity are needed to achieve an intended Operational Capability?
 ## Presentation
 A block definition diagram (BDD) depicts Operational Performer(s) and their relation(s) in terms of decomposition or generalization at a level of detail required for the understanding and analysis. 
 Note: Identified Stakeholders are related to Operational Performer(s) if appropriate.
 
 ## Profile Model Reference
-* [SAF_OV02b_OperationalPerformerDiagram](../stereotypes.md#SAF_OV02b_OperationalPerformerDiagram)
 * [SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)
 * [SAF_OperationalPerformerComposition](../stereotypes.md#SAF_OperationalPerformerComposition)
 * [SAF_OperationalStakeholderRepresentation](../stereotypes.md#SAF_OperationalStakeholderRepresentation)
+* [SAF_SOV02b_View](../stereotypes.md#SAF_SOV02b_View)
 * [SAF_Stakeholder](../stereotypes.md#SAF_Stakeholder)
 ## Input from other Viewpoints
 ### Required Viewpoints
-* [Operational Story Viewpoint](Operational-Story-Viewpoint.md)
-* [Operational Context Definition Viewpoint](Operational-Context-Definition-Viewpoint.md)
+*none*
 ### Recommended Viewpoints
-* [Operational Capability Viewpoint](Operational-Capability-Viewpoint.md)
+*none*

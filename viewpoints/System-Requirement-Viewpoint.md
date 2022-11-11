@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#285,SAF_Cameo_Profile#353</div>
+<div align="right">SAF_FFDS#313,SAF_Cameo_Profile#404</div>
 
 # System Requirement Viewpoint
 *Domain:* **Functional** *Aspect:* **Requirement**
@@ -17,12 +17,13 @@ Note:
 * [Security Expert](../stakeholders.md#Security-Expert)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* What is the range of acceptable SOI performance, i.e. the critical, top-level Performance Requirement(s) derived from the Operational Need(s)?
-* What are the Non-Functional Requirement(s) imposed on the SOI?
-* What are the Interface Requirement(s) imposed on the SOI?
-* What are the Functional Requirement(s) imposed on the SOI?
-* What are the Exchange Requirement(s) imposed on the SOI?
-* What are the Requirement(s) of environmental condition(s) imposed on the SOI?
+* What are the interface requirements regarding bandwidth, data throughput and latency?
+* What are the Functional Requirements imposed on the systemI?
+* What are the Requirements of environmental conditions imposed on the system?
+* What are the Exchange Requirements imposed on the system?
+* What are the Non-Functional Requirements imposed on the system?
+* What is the range of acceptable system performance, i.e. the critical, top-level Performance Requirements derived from the Operational Needs?
+* What are the Interface Requirements imposed on the system?
 ## Presentation
 A System Requirement Table (RVTM) featuring
 * unique requirement ID, text and attributes
@@ -30,7 +31,7 @@ A System Requirement Table (RVTM) featuring
 * traceability reference to depended requirement(s) on the same abstraction level
 
 ## Profile Model Reference
-* [SAF_FV06a_SystemRequirementDiagram](../stereotypes.md#SAF_FV06a_SystemRequirementDiagram)
+* [SAF_SFV06a_View](../stereotypes.md#SAF_SFV06a_View)
 * [SAF_StakeholderRequirement](../stereotypes.md#SAF_StakeholderRequirement)
 * [SAF_SystemFunctionalRequirement](../stereotypes.md#SAF_SystemFunctionalRequirement)
 * [SAF_SystemFunctionalRequirementConstraint](../stereotypes.md#SAF_SystemFunctionalRequirementConstraint)
@@ -41,8 +42,11 @@ A System Requirement Table (RVTM) featuring
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Stakeholder Requirement Viewpoint](Stakeholder-Requirement-Viewpoint.md)
-* [System Process Viewpoint](System-Process-Viewpoint.md)
 ### Recommended Viewpoints
+* [Operational Story Viewpoint](Operational-Story-Viewpoint.md)
+* [Operational Context Exchange Viewpoint](Operational-Context-Exchange-Viewpoint.md)
+* [Operational Capability Viewpoint](Operational-Capability-Viewpoint.md)
 * [Operational Process Viewpoint](Operational-Process-Viewpoint.md)
 * [Operational Interaction Viewpoint](Operational-Interaction-Viewpoint.md)
-* [System Functional Breakdown Viewpoint](System-Functional-Breakdown-Viewpoint.md)
+* [Operational Capability Traceability Viewpoint](Operational-Capability-Traceability-Viewpoint.md)
+* [Operational Process Traceability Viewpoint](Operational-Process-Traceability-Viewpoint.md)
