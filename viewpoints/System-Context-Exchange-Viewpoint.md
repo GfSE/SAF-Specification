@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#285,SAF_Cameo_Profile#353</div>
+<div align="right">SAF_FFDS#316,SAF_Cameo_Profile#411</div>
 
 # System Context Exchange Viewpoint
 *Domain:* **Functional** *Aspect:* **Context**
@@ -21,13 +21,14 @@ Note:
 * [System Architect](../stakeholders.md#System-Architect)
 * [User](../stakeholders.md#User)
 ## Concern
-* What are the item(s) exchanged at the boundary of the SOI with external entity(s)?
-* What kind of physical item(s) (energy, material, information) are exchanged between the SOI and external entity(s)?
-* What are the functional interface(s) of the SOI?
-* How is the SOI interacting with the identified external entities?
-* How does the SOI or a SOI element interact with the test environment?
-* Which information is exchanged between the SOI and external entity(s)?
-* What are the Interface Requirement(s) imposed on the SOI?
+* What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
+* Which information is exchanged between the system and external entitys?
+* What are the items exchanged at the boundary of the system with external entities?
+* How is the system interacting with the identified external entities?
+* What are the functional interfaces of the system?
+* What are the Interface Requirements imposed on the system?
+* How does the system or a system element interact with the test environment?
+* What are the external conceptual entities the system interacts with in the respective context?
 ## Presentation
 An IBD featuring the SOI, the System Context Element(s) and Connector(s) for each identified Interface from SOI to the respective Context Element(s). An Interface is a connection resource for hooking on the SOI to other Context Element(s). Item flow(s) are defined for each exchange on the identified Interface. Connectors/ports may contain reference to the Interface Document(s) if applicable.
 Note: more than one IBD focused on different areas of interest may be used in oder to keep the view comprehensive. Depending on the Stakeholder Concern(s) the Item Exchange information might be suppressed.
@@ -38,19 +39,16 @@ Note: more than one IBD focused on different areas of interest may be used in od
 * ItemFlow [SysML Profile]
 * ProxyPort [SysML Profile]
 * [SAF_DomainKind](../stereotypes.md#SAF_DomainKind)
-* [SAF_FV01c_SystemContextExchangeDiagram](../stereotypes.md#SAF_FV01c_SystemContextExchangeDiagram)
 * [SAF_LogicalEnvironment](../stereotypes.md#SAF_LogicalEnvironment)
 * [SAF_LogicalExternalSystem](../stereotypes.md#SAF_LogicalExternalSystem)
 * [SAF_LogicalRole](../stereotypes.md#SAF_LogicalRole)
 * [SAF_LogicalRole](../stereotypes.md#SAF_LogicalRole)
 * [SAF_LogicalSOI](../stereotypes.md#SAF_LogicalSOI)
 * [SAF_LogicalUser](../stereotypes.md#SAF_LogicalUser)
+* [SAF_SFV01c_View](../stereotypes.md#SAF_SFV01c_View)
 ## Input from other Viewpoints
 ### Required Viewpoints
-* [System Story Viewpoint](System-Story-Viewpoint.md)
+* [System Context Definition Viewpoint](System-Context-Definition-Viewpoint.md)
 * [System Domain Item Kind Viewpoint](System-Domain-Item-Kind-Viewpoint.md)
-* [System Process Viewpoint](System-Process-Viewpoint.md)
 ### Recommended Viewpoints
-* [Operational Process Viewpoint](Operational-Process-Viewpoint.md)
-* [Operational Interaction Viewpoint](Operational-Interaction-Viewpoint.md)
-* [System Functional Breakdown Viewpoint](System-Functional-Breakdown-Viewpoint.md)
+* [Operational Domain Item Kind Viewpoint](Operational-Domain-Item-Kind-Viewpoint.md)

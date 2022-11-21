@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#313,SAF_Cameo_Profile#404</div>
+<div align="right">SAF_FFDS#316,SAF_Cameo_Profile#411</div>
 
 # System Process Viewpoint
 *Domain:* **Functional** *Aspect:* **Behavior**
@@ -29,7 +29,7 @@ Note:
 * What is the functional scope of the system?
 * Which functions are out of scope of the system?
 * What are the functional interfaces of the system?
-* What service(s) are expected from external entities?
+* What services are expected from external entities?
 ## Presentation
 The Functional Scenario Activity(s) and their sequence related to a System UseCase are represented in activity diagram(s) featuring swim lanes. The swim lanes are typed with Context Element(s) and SOI usage from the System Context(s). 
 Note: It is recommended to compile separate activity diagrams refining Use Case and System Context.

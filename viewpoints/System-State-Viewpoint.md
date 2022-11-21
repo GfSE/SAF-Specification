@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#313,SAF_Cameo_Profile#404</div>
+<div align="right">SAF_FFDS#316,SAF_Cameo_Profile#411</div>
 
 # System State Viewpoint
 *Domain:* **Functional** *Aspect:* **Behavior**
@@ -17,9 +17,8 @@ Note:
 * [System Architect](../stakeholders.md#System-Architect)
 * [User](../stakeholders.md#User)
 ## Concern
-* Which modes and states does
- the system have?
 * Which system functions are dependent on a systems mode or state?
+* Which modes and states does the system have?
 ## Presentation
 [tbd]
 Note:

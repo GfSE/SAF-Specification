@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#313,SAF_Cameo_Profile#404</div>
+<div align="right">SAF_FFDS#316,SAF_Cameo_Profile#411</div>
 
 # System Function Black Box Allocation Viewpoint
 *Domain:* **Functional** *Aspect:* **Crossreference and Mapping**
@@ -14,7 +14,7 @@ Note:
 * [Safety Expert](../stakeholders.md#Safety-Expert)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* What service(s) are expected from external entities?
+* What services are expected from external entities?
 ## Presentation
 A System Function Black Box Allocation Matrix featuring
 * the Context Element(s) and Context Function(s) and

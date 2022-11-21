@@ -1,4 +1,4 @@
-<div align="right">SAF_Cameo_Profile#404</div>
+<div align="right">SAF_Cameo_Profile#411</div>
 
 ![SAF_Stakeholder_Definition](diagrams/SAF_stakeholder_definition.svg)
 This section provides a list of the Stakeholder roles considered in the development of the architecture described by SAF. For each, the section lists the concerns that the Stakeholder has that can be addressed by the information in this SAF framework.
@@ -25,7 +25,7 @@ He is responsible for providing a feasible solution within a given budget. The A
 ## Concern
 * What are necessary inputs for operating the system expected to be provided by other external entitys?
 * How is the system being used or utilized and interacting with other external systems to satisfy user needs?
-* What service(s) are expected from external entities?
+* What services are expected from external entities?
 * Are defined standard items considered in the architecture?
 * What is the cost for each required function?
 * What is the priority of each function?
@@ -78,7 +78,7 @@ The Customer is an organization or person that receives a product. Examples: Con
 * What is the necessary response time for an interface or a service?
 * Which information is exchanged between the system and external entitys?
 * What are the planned architectural means for risk mitigation?
-* What service(s) are expected from external entities?
+* What services are expected from external entities?
 * What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
 * What are the normal and extreme environmental conditions for normal operation, for not operational, for storage and for transport?
 * Which functions will the system provide?
@@ -123,8 +123,7 @@ The Developer is a group or an individual implementing the system parts accordin
 * What are the encryption means used for an exchange?
 * What additional information the system or a system element needs to generate to enable testing?
 * How are error states handled?
-* Which modes and states does
- the system have?
+* Which modes and states does the system have?
 * Who provides the inputs to a critical function?
 * What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
 * What is the sequence of interactions among the system and context elements
@@ -145,8 +144,7 @@ IV&V Engineers are individuals or groups responsible for integration, validation
 * Who provides the inputs to a critical function?
 * What is the flow of critical information and data through the system?
 * Are safety related design principles) followed e.g. segregation of monitors or independence or redundant elements?
-* Which modes and states does
- the system have?
+* Which modes and states does the system have?
 * What is the sequence of interactions among the system and context elements
 # Maintainer
 Definition - Maintainer
@@ -159,8 +157,7 @@ The Maintainer is an individual, group or organization responsible to maintain t
 * How to connect the system or a system element to a test equipment?
 * How to ensure full Operational Capability of the system after maintenance activities with a system element or component? 
 * What are the replaceable system components?
-* Which modes and states does
- the system have?
+* Which modes and states does the system have?
 * What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
 * How are error states handled?
 # Mechanic Developer
@@ -209,7 +206,7 @@ Systems Engineering creates a clear and manageable system structure, which is th
 * What are the system delivery standards?
 * What is the risk involved with each development item?
 * What is the rational if requirements are not considered?
-* What service(s) are expected from external entities?
+* What services are expected from external entities?
 * Who provides the inputs to a critical function?
 * Which functions will the system provide?
 # Regulation Authority
@@ -226,8 +223,7 @@ Systems Engineering must adhere to relevant standards and needs to demonstrate c
 * How are applicable requirements considered in the system architecture?
 * What is the rational if requirements are not considered?
 * What additional information the system or a system element needs to generate to enable testing?
-* Which modes and states does
- the system have?
+* Which modes and states does the system have?
 * How are error states handled?
 # Safety Expert
 Definition - Safety Specialist:
@@ -256,8 +252,7 @@ The safety experts evaluate a proposed system architecture and design for safety
 * What shall be validated to the customer at system level?
 * Which information is exchanged between the system and external entitys?
 * What additional information the system or a system element needs to generate to enable testing?
-* Which modes and states does
- the system have?
+* Which modes and states does the system have?
 * What are the encryption means used for an exchange?
 * What are the external physical entities the system interacts with in the respective context?
 * What is the rational if requirements are not considered?
@@ -282,8 +277,7 @@ The IT-Security experts evaluate a proposed system architecture and design for I
 * What is the necessary response time for an interface or a service?
 * How do internal system elements interact with each other to provide the system function or service?
 * What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
-* Which modes and states does
- the system have?
+* Which modes and states does the system have?
 * How are error states handled?
 * What additional information the system or a system element needs to generate to enable testing?
 * What are the scenarios a system function is utilized in?
@@ -317,8 +311,7 @@ The Developer is a group or an individual implementing the system parts accordin
 * Who provides the inputs to a critical function?
 * What is the necessary accuracy and resolution for processing?
 * How does the system or a system element interact with the test environment?
-* Which modes and states does
- the system have?
+* Which modes and states does the system have?
 * What is the sequence of interactions among the system and context elements
 # Supplier
 Definition - Supplier:
@@ -330,7 +323,7 @@ The Supplier is the organization or individual that enters into an agreement wit
 * What are the external physical entities the system interacts with in the respective context?
 * What are necessary inputs for operating the system expected to be provided by other external entitys?
 * What are necessary enabling systems?
-* What service(s) are expected from external entities?
+* What services are expected from external entities?
 * What is the System Boundary definition?
 * What are the normal and extreme environmental conditions for normal operation, for not operational, for storage and for transport?
 * What are the Capabilities that are supported by the system?
@@ -360,8 +353,7 @@ The System Architect as an individual or group performing the systems engineerin
 * What is the System Boundary definition?
 * What are the encryption means used for an exchange?
 * How does criticality propagate down the system hierarchy?
-* Which modes and states does
- the system have?
+* Which modes and states does the system have?
 * How are error states handled?
 * How are applicable requirements considered in the system architecture?
 * What are necessary enabling systems?
@@ -385,7 +377,7 @@ The System Architect as an individual or group performing the systems engineerin
 * What is the necessary accuracy and resolution for processing?
 * What additional information the system or a system element needs to generate to enable testing?
 * Which system function is addressed by system requirement?
-* What service(s) are expected from external entities?
+* What services are expected from external entities?
 * What is the rational if requirements are not considered?
 * What are the Capabilities that are supported by the system?
 * What is the lack / deficiency / gap in current Capability implementation that is addressed with the intended solution?

@@ -1,4 +1,4 @@
-<div align="right">SAF_Cameo_Profile#404</div>
+<div align="right">SAF_Cameo_Profile#411</div>
 
 ## SAF_ContextElementCharacterization 
 *please add description*
@@ -97,7 +97,7 @@ implements viewpoint [System Context Definition Viewpoint](viewpoints/System-Con
 
 *please add description*
 ## SAF_SFV01c_View 
-implements viewpoint [System Context Exchange Viewpoint ](viewpoints/System-Context-Exchange-Viewpoint-.md)
+implements viewpoint [System Context Exchange Viewpoint](viewpoints/System-Context-Exchange-Viewpoint.md)
 
 *please add description*
 ## SAF_SFV02a_View 
@@ -153,42 +153,44 @@ implements viewpoint [Logical Internal Exchange Viewpoint](viewpoints/Logical-In
 ## SAF_SOV01a_View 
 implements viewpoint [Operational Story Viewpoint](viewpoints/Operational-Story-Viewpoint.md)
 
-*please add description*
+The SAF Operational Story Diagram is a  use case diagram depicting model elements representing Operational Stories and within their operational context. Operational Performer(s) shall be used. In addition, an illustration (drawing, sketch, etc.) and/or a description in free text may provide a comprehensive understanding of the operational background.
 ## SAF_SOV01b_View 
 implements viewpoint [Operational Context Definition Viewpoint](viewpoints/Operational-Context-Definition-Viewpoint.md)
 
-*please add description*
+The SAF Operational Context Definition Diagram is a block definition diagram (BDD) identifying the Operational Performer(s) playing a role in a specific Operational Context.
 ## SAF_SOV01c_View 
 implements viewpoint [Operational Context Exchange Viewpoint](viewpoints/Operational-Context-Exchange-Viewpoint.md)
 
-*please add description*
+The SAF Operational Context Exchange Diagram is an internal block diagram (IBD) within to an Operational Context showing the connected Operational Performer(s) in their respective Operational Role and the Operational Exchange per connection.
 ## SAF_SOV02a_View 
 implements viewpoint [Operational Domain Item Kind Viewpoint](viewpoints/Operational-Domain-Item-Kind-Viewpoint.md)
 
-Contains taxonomy of domain kinds in the operational domain
+The SAF Operational Domain Item Diagram is a block definition diagram ( BDD) containing taxonomy of domain kinds in the operational domain.
 ## SAF_SOV02b_View 
 implements viewpoint [Operational Performer Viewpoint](viewpoints/Operational-Performer-Viewpoint.md)
 
-*please add description*
+The SAF Operational Performer Diagram  is a block definition diagram (BDD) depicting Operational Performer) and their relations in terms of decomposition or generalization at a level of detail required for the understanding and analysis. 
+Note: Identified Stakeholders are related to Operational Performer(s) if appropriate.
 ## SAF_SOV02c_View 
 implements viewpoint [Operational Capability Viewpoint](viewpoints/Operational-Capability-Viewpoint.md)
 
-*please add description*
+The SAF Operational Capability Diagram is a block definition diagram (BDD) featuring Operational Capabiliies and their composition, specialization and dependency relationships.
 ## SAF_SOV03a_View 
 implements viewpoint [Operational Process Viewpoint](viewpoints/Operational-Process-Viewpoint.md)
 
-*please add description*
+The SAF Operational Process Diagram is a activity diagram showing the ordered execution of Operational Process Activities. Operational Process Activities may be linked in terms of control flow and/or data flow visualizing Operational Exchange needed. 
+Note:
+Operational Process Activities are assigned to Operational Roles and therefore in a more general manner to the Operational Performers.
 ## SAF_SOV04a_View 
 implements viewpoint [Operational Interaction Viewpoint](viewpoints/Operational-Interaction-Viewpoint.md)
 
-The SAF Operational Interaction Diagram contains a Sequence Diagram. It is a refinement of an Operational Story.
-It contains
-* lifelines typed by roles from the Operational Context 
-* messages representing the sequence of interactions between the roles of an Operational Context
+The SAF Operational Interaction Diagram is a Sequence Diagram. It is a refinement of an Operational Story.
+It contains lifelines typed by roles from the Operational Context 
+and messages representing the sequence of interactions between the roles of an Operational Context.
 ## SAF_SOV06a_View 
 implements viewpoint [Stakeholder Requirement Viewpoint](viewpoints/Stakeholder-Requirement-Viewpoint.md)
 
-*please add description*
+The SAF Stakeholder Requirement Diagram is a Table containing Stakeholder Requirements.
 ## SAF_SOV08a_View 
 implements viewpoint [Operational Capability Traceability Viewpoint](viewpoints/Operational-Capability-Traceability-Viewpoint.md)
 

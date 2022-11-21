@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#313,SAF_Cameo_Profile#404</div>
+<div align="right">SAF_FFDS#316,SAF_Cameo_Profile#411</div>
 
 # Operational Context Definition Viewpoint
 *Domain:* **Operational** *Aspect:* **Context**
@@ -19,7 +19,6 @@ Note:
 * What is the Operational Context to achieve an Operational Story?
 ## Presentation
 A block definition diagram (BDD) identifying the Operational Performer(s) playing a role in the addressed Operational Context.
-Note: In addition, the block definition diagram may identify the Operational Capability(s) the Operational Context is related to.
 
 ## Profile Model Reference
 * Association [UML_Standard_Profile]
