@@ -3,7 +3,7 @@ name: Docs to PDF
 on:
   push:
     branches:
-      - main
+      - dev
     # Paths can be used to only trigger actions when you have edited certain files, such as a file within the /docs directory
     paths:
       - 'viewpoints/**.md'
