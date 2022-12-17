@@ -41,3 +41,5 @@ The Logical Interaction Viewpoint is modeled as a sequence diagram. It describes
 * [Logical Structure Viewpoint](Logical-Structure-Viewpoint.md)
 ### Recommended Viewpoints
 * [System Process Viewpoint](System-Process-Viewpoint.md)
+
+test
