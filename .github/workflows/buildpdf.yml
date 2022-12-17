@@ -1,5 +1,5 @@
 name: Docs to PDF
-# test This workflow is triggered on pushes to the repository.
+# This workflow is triggered on pushes to the repository.
 on:
   push:
     branches:
@@ -21,11 +21,10 @@ jobs:
           input_dir: viewpoints
           output_dir: pdfs
           images_dir: diagrams
-          # for example <img src="./images/file-name.png">
-          image_import: ./diagrams
+          image_import: ../diagrams
           # Default is true, can set to false to only get PDF files
           build_html: false
-      - uses: actions/upload-artifact@v1
+      - uses: EndBug/add-and-commit@v9
         with:
-          name: docs
-          path: pdfs
+          default_author: github_actions
+          add: '*.pdf'
