@@ -1,4 +1,4 @@
-![System Architecture Framework](../graphics/Logo_SAF.png)
+![System Architecture Framework](../diagrams/Logo_SAF.png)
 # System Requirement Traceability Viewpoint
 *Domain:* **Functional** *Aspect:* **Crossreference and Mapping**
 ## Example

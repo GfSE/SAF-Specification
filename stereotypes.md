@@ -1,4 +1,4 @@
-![System Architecture Framework](graphics/Logo_SAF.png)
+![System Architecture Framework](diagrams/Logo_SAF.png)
 # SAF Stereotypes
 ## SAF_ContextElementCharacterization 
 *please add description*

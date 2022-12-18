@@ -1,4 +1,4 @@
-![System Architecture Framework](../graphics/Logo_SAF.png)
+![System Architecture Framework](../diagrams/Logo_SAF.png)
 # Operational Process Traceability Viewpoint
 *Domain:* **Operational** *Aspect:* **Crossreference and Mapping**
 ## Example

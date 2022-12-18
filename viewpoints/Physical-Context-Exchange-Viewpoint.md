@@ -1,4 +1,4 @@
-![System Architecture Framework](../graphics/Logo_SAF.png)
+![System Architecture Framework](../diagrams/Logo_SAF.png)
 # Physical Context Exchange Viewpoint
 *Domain:* **Physical** *Aspect:* **Context**
 ## Example
