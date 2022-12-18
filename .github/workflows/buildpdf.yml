@@ -9,6 +9,7 @@ on:
       - 'viewpoints/**.md'
       - 'diagrams/**'
       - '**.md'
+      - '**.yml'
 
 jobs:
   converttopdf:
