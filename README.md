@@ -1,11 +1,10 @@
 # SAF Specification Dev Branch
-Disclaimer: **The System Architecture Framework specification is a work in progress document.**
-The Fire Forest Detection example, SAF_FFDS, is based on the following publication 
-**SYSMOD - The Systems Modeling Toolbox, 3rd edition** 
-**Pragmatic MBSE with SysML, Tim Weilkiens**
+This is the System Architecture Framework specification. **It is work in progress.**
+
+The Fire Forest Detection example, SAF_FFDS, is based on the publication **SYSMOD - The Systems Modeling Toolbox, 3rd edition Pragmatic MBSE with SysML, Tim Weilkiens**
 
 # Viewpoint Grid
-This is the grid of Viewpoints organized in Domains as rows and Aspects as columns
+The Viewpoints are organized a Grid, havin **Domains** as rows and **Aspects** as columns
 
 ![SAF Grid](diagrams/SAF_FFDS_view_grid.svg)
 
@@ -13,13 +12,13 @@ This is the grid of Viewpoints organized in Domains as rows and Aspects as colum
 
 ### Operational Domain Objective
 
-The SAF Operational Domain supports the model-based development of a [CONOPS](https://www.sebokwiki.org/wiki/Concept_of_Operations_(ConOps)_(glossary)) - as well as an [OPSCON](https://www.sebokwiki.org/wiki/Business_or_Mission_Analysis) and related life cycle concepts - for an organization or operational entity seeking for an improvement of existing capability(s) or in establishing new ones.
+The SAF Operational Domain aims to get an understanding of required organizational or operational entity capability(s), as a foundation for to systems to be acuired or developed. The viewpoints of the SAF Operational Domain assist the "Business or Mission Analysis Process" and the "Stakeholder Needs and Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1, § 4.2].
 
-The SAF Operational Domain therefore aims to get an understanding of required organizational or operational entity capability(s). The viewpoints of the SAF Operational Domain assist the "Business or Mission Analysis Process" and the "Stakeholder Needs and Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1, § 4.2].
+The SAF Operational Domain supports the model-based development of a [CONOPS](https://www.sebokwiki.org/wiki/Concept_of_Operations_(ConOps)_(glossary)) - as well as an [OPSCON](https://www.sebokwiki.org/wiki/Business_or_Mission_Analysis) and related life cycle concepts - for an organization or operational entity seeking for an improvement of existing capability(s) or in establishing new ones.
 
 By identifying Stakeholder(s) and their Requirement(s) the SAF Operational Domain supports the derivation of a complete and consolidated set of Stakeholder Requirement(s) based on operational activities and exchanges.
 
-### Operational Domain Concern
+### Operational Domain Concerns
 
 * Gain a comprehensive understanding of the operating environment that an intended solution needs to support
 * Promote the freedom of development by preventing premature commitment to solutions
@@ -49,10 +48,12 @@ By identifying Stakeholder(s) and their Requirement(s) the SAF Operational Domai
 
 ### Functional Domain Objective
 
-The Functional Domain Viewpoints translate Operational Domain usage into the notion of System Function(s) defining the demanded system behavior and quality attributes - performance, safety, security, etc.; the demanded system behavior as it is perceived by the User or other Entity(s) at the System Boundary (known as usage behavior). The result of the Functional Domain Viewpoint elaboration is a comprehensive System Specification.
+The Functional Domain Viewpoints translate Operational Domain usage into the notion of System Function(s) defining the demanded system behavior and quality attributes - performance, safety, security, etc.; the demanded system behavior as it is perceived by the User or other Entity(s) at the System Boundary (known as usage behavior). The result of the elaboration of the viewpoints in the Functional Domain is a comprehensive System Specification.
 
-### Functional Domain Concern
+### Functional Domain Concerns
 
+* Defining the System Boundary
+  * identifcation of interaction partners and functional interfaces
 * Consolidating Functional Requirement(s): 
   * formally specifying the requirements of the system behavior using a black box approach
 * Mastering functional dependency: 
