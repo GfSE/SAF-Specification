@@ -1,5 +1,3 @@
-<div align="right">SAF_FFDS#322,SAF_Cameo_Profile#413</div>
-
 # System Function Black Box Allocation Viewpoint
 *Domain:* **Functional** *Aspect:* **Crossreference and Mapping**
 ## Example
