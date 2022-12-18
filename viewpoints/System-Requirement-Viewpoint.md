@@ -1,3 +1,4 @@
+![System Architecture Framework](../graphics/Logo_SAF.png)
 # System Requirement Viewpoint
 *Domain:* **Functional** *Aspect:* **Requirement**
 ## Example

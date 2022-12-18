@@ -1,5 +1,5 @@
-<div align="right">SAF_Cameo_Profile#413</div>
-
+![System Architecture Framework](graphics/Logo_SAF.png)
+# SAF Stereotypes
 ## SAF_ContextElementCharacterization 
 *please add description*
 ## SAF_ContextFunction 

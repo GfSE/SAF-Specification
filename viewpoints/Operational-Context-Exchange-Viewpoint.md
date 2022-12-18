@@ -1,3 +1,4 @@
+![System Architecture Framework](../graphics/Logo_SAF.png)
 # Operational Context Exchange Viewpoint
 *Domain:* **Operational** *Aspect:* **Context**
 ## Example

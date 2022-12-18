@@ -1,3 +1,4 @@
+![System Architecture Framework](../graphics/Logo_SAF.png)
 # System Process Viewpoint
 *Domain:* **Functional** *Aspect:* **Behavior**
 ## Example

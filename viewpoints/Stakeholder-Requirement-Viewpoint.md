@@ -1,3 +1,4 @@
+![System Architecture Framework](../graphics/Logo_SAF.png)
 # Stakeholder Requirement Viewpoint
 *Domain:* **Operational** *Aspect:* **Requirement**
 ## Example

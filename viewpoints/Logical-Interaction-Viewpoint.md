@@ -1,3 +1,4 @@
+![System Architecture Framework](../graphics/Logo_SAF.png)
 # Logical Interaction Viewpoint
 *Domain:* **Logical** *Aspect:* **Interaction and Collaboration**
 ## Example

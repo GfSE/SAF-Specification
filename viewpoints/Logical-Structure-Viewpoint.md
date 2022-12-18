@@ -1,3 +1,4 @@
+![System Architecture Framework](../graphics/Logo_SAF.png)
 # Logical Structure Viewpoint
 *Domain:* **Logical** *Aspect:* **Structure**
 ## Example

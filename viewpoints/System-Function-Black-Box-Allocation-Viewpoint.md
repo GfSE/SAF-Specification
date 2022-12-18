@@ -1,3 +1,4 @@
+![System Architecture Framework](../graphics/Logo_SAF.png)
 # System Function Black Box Allocation Viewpoint
 *Domain:* **Functional** *Aspect:* **Crossreference and Mapping**
 ## Example

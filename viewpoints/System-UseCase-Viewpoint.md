@@ -1,3 +1,4 @@
+![System Architecture Framework](../graphics/Logo_SAF.png)
 # System UseCase Viewpoint
 *Domain:* **Functional** *Aspect:* **Context**
 ## Example

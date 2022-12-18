@@ -1,3 +1,4 @@
+![System Architecture Framework](graphics/Logo_SAF.png)
 # Viewpoint Concerns
 |Package|Concern|Stakeholder|Viewpoint|
 | --- | --- | --- | --- |

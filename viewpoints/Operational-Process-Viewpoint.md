@@ -1,3 +1,4 @@
+![System Architecture Framework](../graphics/Logo_SAF.png)
 # Operational Process Viewpoint
 *Domain:* **Operational** *Aspect:* **Behavior**
 ## Example

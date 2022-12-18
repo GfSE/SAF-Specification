@@ -1,3 +1,4 @@
+![System Architecture Framework](../graphics/Logo_SAF.png)
 # Stakeholder Identification Viewpoint
 *Domain:* **Operational** *Aspect:* **Structure**
 ## Example

@@ -1,3 +1,4 @@
+![System Architecture Framework](../graphics/Logo_SAF.png)
 # Physical Context Definition Viewpoint
 *Domain:* **Physical** *Aspect:* **Context**
 ## Example

@@ -1,3 +1,4 @@
+![System Architecture Framework](../graphics/Logo_SAF.png)
 # Operational Interaction Viewpoint
 *Domain:* **Operational** *Aspect:* **Interaction and Collaboration**
 ## Example

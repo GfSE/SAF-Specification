@@ -1,3 +1,4 @@
+![System Architecture Framework](../graphics/Logo_SAF.png)
 # System Context Interaction Viewpoint
 *Domain:* **Functional** *Aspect:* **Interaction and Collaboration**
 ## Example

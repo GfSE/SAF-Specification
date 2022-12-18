@@ -1,3 +1,4 @@
+![System Architecture Framework](../graphics/Logo_SAF.png)
 # System Capability Viewpoint
 *Domain:* **Functional** *Aspect:* **Structure**
 ## Example
