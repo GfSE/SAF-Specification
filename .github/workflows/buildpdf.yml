@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Cheap Trick to cover also concerns.md et al
+      - name: Cheap Trick to convert also concerns.md et al
         run: cp *.md viewpoints
       - uses: baileyjm02/markdown-to-pdf@v1
         with:
