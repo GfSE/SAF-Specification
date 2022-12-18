@@ -7,7 +7,6 @@
 The Operational Process Traceability Viewpoint describes the relationship(s) of Operational Process(es). The reasoning for Operational Process(es) from Operational Story(s) and their contribution to Capability(s) is described. The assignment of Operational Process(es) to Operational Performer(s) is captured.
 ## Applicability
 The Operational Process Traceability Viewpoint supports the "Business or Mission Analysis Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1] and contributes to the definition of operational scenario(s).
-Note:
 ## Stakeholder
 * [Acquirer](../stakeholders.md#Acquirer)
 * [Customer](../stakeholders.md#Customer)

@@ -175,6 +175,8 @@ Note: Identified Stakeholders are related to Operational Performer(s) if appropr
 implements viewpoint [Operational Capability Viewpoint](viewpoints/Operational-Capability-Viewpoint.md)
 
 The SAF Operational Capability Diagram is a block definition diagram (BDD) featuring Operational Capabiliies and their composition, specialization and dependency relationships.
+## SAF_SOV02d_View 
+The SAF Operational Capability Diagram is a block definition diagram (BDD) featuring Operational Capabiliies and their composition, specialization and dependency relationships.
 ## SAF_SOV03a_View 
 implements viewpoint [Operational Process Viewpoint](viewpoints/Operational-Process-Viewpoint.md)
 

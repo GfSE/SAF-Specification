@@ -7,7 +7,6 @@
 The Stakeholder Requirement Viewpoint specifies all properties that the intended solution shall possess or expose from the perspective of the stakeholders. The Stakeholder Requirement Viewpoint determines capability(s), function(s), non-functional property(s), and constraint(s).
 ## Applicability
 The Stakeholder Requirement Viewpoint supports the "Stakeholder Needs and Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.2] and contributes to the identification of solution constraint(s).
-Note:
 ## Stakeholder
 * [Acquirer](../stakeholders.md#Acquirer)
 * [Customer](../stakeholders.md#Customer)

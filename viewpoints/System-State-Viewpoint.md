@@ -7,7 +7,6 @@
 The System State Viewpoint defines the condition(s) of the SOI or parts of it that constrain the execution of System Function(s). A System State is a pre-condition or post-condition of a Use Case, or is used in Requirement(s). The valid transition(s) between System State(s) and the condition(s) for transitioning are specified.
 ## Applicability
 [tbd]
-Note:
 ## Stakeholder
 * [Customer](../stakeholders.md#Customer)
 * [Maintainer](../stakeholders.md#Maintainer)
@@ -20,7 +19,6 @@ Note:
 * Which modes and states does the system have?
 ## Presentation
 [tbd]
-Note:
 
 ## Profile Model Reference
 * Event [UML_Standard_Profile]

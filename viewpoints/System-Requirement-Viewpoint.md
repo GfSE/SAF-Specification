@@ -7,7 +7,6 @@
 The System Requirement Viewpoint specifies function(s), non-functional property(s), or constraint(s) of the system. System Requirement(s) are captured, the interrelationships between functional and non-functional requirement(s) on the same level of abstraction and the traceability to Stakeholder Requirement(s) are depicted.
 ## Applicability
 The System Requirement Viewpoint supports the "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§4.3] and contributes to the system requirements verification and traceability matrix (RVTM).
-Note:
 ## Stakeholder
 * [Customer](../stakeholders.md#Customer)
 * [Project Manager](../stakeholders.md#Project-Manager)

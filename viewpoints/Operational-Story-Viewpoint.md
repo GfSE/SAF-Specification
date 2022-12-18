@@ -11,7 +11,6 @@ The Operational Story Viewpoint
 * fosters the communication among different Stakeholder(s)
 ## Applicability
 The Operational Story Viewpoint supports the "Business or Mission Analysis Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1] and contributes to the problem or opportunity statement.
-Note:
 ## Stakeholder
 * [Acquirer](../stakeholders.md#Acquirer)
 * [System Architect](../stakeholders.md#System-Architect)

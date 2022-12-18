@@ -7,7 +7,6 @@
 The Operational Domain Item Kind Viewpoint collects type definition(s) for any exchanged item of the Operational Domain. Its purpose is to define those item type(s) and their relationship(s).
 ## Applicability
 The Operational Domain Item Kind Viewpoint supports [tbd].
-Note:
 ## Stakeholder
 * [Customer](../stakeholders.md#Customer)
 * [Hardware Developer](../stakeholders.md#Hardware-Developer)

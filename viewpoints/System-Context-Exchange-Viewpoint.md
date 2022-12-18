@@ -11,7 +11,6 @@ The System Context Exchange Viewpoint serves for the identification and definiti
 * defines the usage of interface(s), e.g. if only a subset of the interface is used
 ## Applicability
 The System Context Exchange Viewpoint supports the "Prepare for Requirement Definition" activity included in "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.3] and contributes to the System Functional Interface identification.
-Note:
 ## Stakeholder
 * [Acquirer](../stakeholders.md#Acquirer)
 * [Customer](../stakeholders.md#Customer)

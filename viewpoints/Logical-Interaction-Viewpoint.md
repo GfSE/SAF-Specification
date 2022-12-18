@@ -7,7 +7,6 @@
 The Logical Interaction Viewpoint describes system internal behavior based on the exchange between the logical component(s) of the SOI. It depicts the sequence of interactions between the logical components and the exchanged data item(s) needed to accomplish a given system function.
 ## Applicability
 The Logical Interaction Viewpoint supports the "Develop Architecture Viewpoints" and the "Develop Models and Views of Candidate Architectures" activity included in the "Architecture Definition process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.4] and contributes to the artifact "System Architecture Description".
-Note:
 ## Stakeholder
 * [Hardware Developer](../stakeholders.md#Hardware-Developer)
 * [IV&V Engineer](../stakeholders.md#IV&V-Engineer)

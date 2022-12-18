@@ -13,7 +13,6 @@ The Logical Internal Exchange Viewpoint
 * defines the delegation of SOI element interface(s) to SOI boundary interface(s)
 ## Applicability
 The Logical Internal Exchange Viewpoint supports the "Develop Models and Views of Candidate Architecture" activity included in the "Architecture Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.4] and contributes to the preliminary interface definition and system architecture description.
-Note:
 ## Stakeholder
 * [Hardware Developer](../stakeholders.md#Hardware-Developer)
 * [IV&V Engineer](../stakeholders.md#IV&V-Engineer)

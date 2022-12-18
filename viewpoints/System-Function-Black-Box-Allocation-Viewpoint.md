@@ -7,7 +7,6 @@
 The System Function Black Box Allocation Viewpoint specifies the allocation of System Function(s) to the SOI element(s) together with the allocation of Context Function(s) to Context Element(s). It dissects functionality explicitly between the SOI and its environment elements.
 ## Applicability
 The System Function Black Box Allocation Viewpoint supports the "System Requirements Definition process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.3] and contributes to the System Function Definition and the system Functional Interface identification.
-Note:
 ## Stakeholder
 * [Acquirer](../stakeholders.md#Acquirer)
 * [Safety Expert](../stakeholders.md#Safety-Expert)

@@ -8,7 +8,6 @@ The System Domain Item Kind Viewpoint collects type definition(s) for any exchan
 Note: Domain Item Kind(s) are used as type(s) of function input and output in the Functional Domain and for type(s) of interface(s) in the logical domain. They specify what is to be exchanged, but not how.
 ## Applicability
 The System Domain Item Kind Viewpoint supports [tbd].
-Note:
 ## Stakeholder
 * [Customer](../stakeholders.md#Customer)
 * [Hardware Developer](../stakeholders.md#Hardware-Developer)
