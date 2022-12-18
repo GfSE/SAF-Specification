@@ -8,6 +8,10 @@ The Viewpoints are organized a Grid, havin **Domains** as rows and **Aspects** a
 
 ![SAF Grid](diagrams/SAF_FFDS_view_grid.svg)
 
+The subsequent chapters give an overview over the SAF viewpoints.
+
+There are also [specifications of the view points in PDF ](./pdfs)format.
+
 ## Operational Domain
 
 ### Operational Domain Objective
