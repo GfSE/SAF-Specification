@@ -1,4 +1,4 @@
-<div align="right">SAF_FFDS#320,SAF_Cameo_Profile#413</div>
+<div align="right">SAF_FFDS#321,SAF_Cameo_Profile#413</div>
 
 # Logical Interaction Viewpoint
 *Domain:* **Logical** *Aspect:* **Interaction and Collaboration**
@@ -41,5 +41,3 @@ The Logical Interaction Viewpoint is modeled as a sequence diagram. It describes
 * [Logical Structure Viewpoint](Logical-Structure-Viewpoint.md)
 ### Recommended Viewpoints
 * [System Process Viewpoint](System-Process-Viewpoint.md)
-
-test test
