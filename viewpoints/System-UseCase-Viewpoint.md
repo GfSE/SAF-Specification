@@ -1,6 +1,6 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
 # System UseCase Viewpoint
-*Domain:* **Functional** *Aspect:* **Context**
+*Domain:* **Functional** *Aspect:* **Context & Exchange**
 ## Example
 ![FFDS Use Case A Day in Life of the System](../diagrams/FFDS-Use-Case-A-Day-in-Life-of-the-System.svg)
 ## Purpose

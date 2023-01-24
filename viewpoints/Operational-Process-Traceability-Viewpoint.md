@@ -1,6 +1,6 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
 # Operational Process Traceability Viewpoint
-*Domain:* **Operational** *Aspect:* **Crossreference and Mapping**
+*Domain:* **Operational** *Aspect:* **Mapping & Crossreference**
 ## Example
 ![SAR and FDN Operational Process Traceability Table](../diagrams/SAR-and-FDN-Operational-Process-Traceability-Table.svg)
 ## Purpose

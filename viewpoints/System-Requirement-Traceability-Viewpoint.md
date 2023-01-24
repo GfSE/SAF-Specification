@@ -1,6 +1,6 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
 # System Requirement Traceability Viewpoint
-*Domain:* **Functional** *Aspect:* **Crossreference and Mapping**
+*Domain:* **Functional** *Aspect:* **Mapping & Crossreference**
 ## Example
 *none*
 ## Purpose
@@ -30,10 +30,10 @@ The System Requirement Traceability Viewpoint supports the "System Requirements 
 * [Security Expert](../stakeholders.md#Security-Expert)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* Which System Interface is addressed by a System Requirement?
-* Which System Function is addressed by a System Requirement?
 * What is the rationale for this System Requirement?
 * Which Stakeholder Requirements are addressed by a System Requirement?
+* Which System Function is addressed by a System Requirement?
+* Which System Interface is addressed by a System Requirement?
 ## Presentation
 A System Requirement Dependency Matrix featuring relationship(s) from every SOI System Requirement(s) to element(s) such as
 * System Story

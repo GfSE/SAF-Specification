@@ -14,9 +14,9 @@ The System Functional Breakdown Viewpoint supports the "System Requirements Defi
 * [User](../stakeholders.md#User)
 ## Concern
 * How are the system functions decomposed into sub-functions decomposed? 
-* Which functions will the system provide?
-* What is the breakdown of functions into sub-functions?
 * What are the Capabilities that are supported by the system?
+* What is the breakdown of functions into sub-functions?
+* Which functions will the system provide?
 ## Presentation
 The result of the [tbd] process is one or more block definition diagram(s) (BDD) featuring [tbd].
 

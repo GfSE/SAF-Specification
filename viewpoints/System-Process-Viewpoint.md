@@ -1,6 +1,6 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
 # System Process Viewpoint
-*Domain:* **Functional** *Aspect:* **Behavior**
+*Domain:* **Functional** *Aspect:* **Process & Behavior**
 ## Example
 ![FFDS A Day in the Life of FFDS](../diagrams/FFDS-A-Day-in-the-Life-of-FFDS.svg)
 ## Purpose
@@ -21,13 +21,13 @@ The System Process Viewpoint supports the "System Requirements Definition Proces
 * [User](../stakeholders.md#User)
 ## Concern
 * How does a system function interact with its environment?
-* Which functions will the system provide?
 * How is the system interacting with the identified external entities?
 * What are necessary inputs for operating the system expected to be provided by other external entitys?
-* What is the functional scope of the system?
-* Which functions are out of scope of the system?
 * What are the functional interfaces of the system?
+* What is the functional scope of the system?
 * What services are expected from external entities?
+* Which functions are out of scope of the system?
+* Which functions will the system provide?
 ## Presentation
 The Functional Scenario Activity(s) and their sequence related to a System UseCase are represented in activity diagram(s) featuring swim lanes. The swim lanes are typed with Context Element(s) and SOI usage from the System Context(s). 
 Note: It is recommended to compile separate activity diagrams refining Use Case and System Context.

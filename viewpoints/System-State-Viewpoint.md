@@ -1,6 +1,6 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
 # System State Viewpoint
-*Domain:* **Functional** *Aspect:* **Behavior**
+*Domain:* **Functional** *Aspect:* **Process & Behavior**
 ## Example
 ![FFDS System Modes and States](../diagrams/FFDS-System-Modes-and-States.svg)
 ## Purpose
@@ -15,8 +15,8 @@ The System State Viewpoint defines the condition(s) of the SOI or parts of it th
 * [System Architect](../stakeholders.md#System-Architect)
 * [User](../stakeholders.md#User)
 ## Concern
-* Which system functions are dependent on a systems mode or state?
 * Which modes and states does the system have?
+* Which system functions are dependent on a systems mode or state?
 ## Presentation
 [tbd]
 

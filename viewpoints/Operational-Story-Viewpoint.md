@@ -1,6 +1,6 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
 # Operational Story Viewpoint
-*Domain:* **Operational** *Aspect:* **Context**
+*Domain:* **Operational** *Aspect:* **Context & Exchange**
 ## Example
 ![Exemplary Operational Story](../diagrams/Exemplary-Operational-Story.svg)
 ## Purpose

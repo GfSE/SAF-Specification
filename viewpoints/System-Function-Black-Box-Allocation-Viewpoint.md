@@ -1,6 +1,6 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
 # System Function Black Box Allocation Viewpoint
-*Domain:* **Functional** *Aspect:* **Crossreference and Mapping**
+*Domain:* **Functional** *Aspect:* **Mapping & Crossreference**
 ## Example
 ![FFDS Context Definition Allocation of Usage](../diagrams/FFDS-Context-Definition-Allocation-of-Usage.svg)
 ## Purpose
@@ -27,7 +27,6 @@ A System Function Black Box Allocation Matrix featuring
 * Allocate [SysML Profile]
 * Association [UML_Standard_Profile]
 * Association [UML_Standard_Profile]
-* [SAF_FunctionAction](../stereotypes.md#SAF_FunctionAction)
 * [SAF_LogicalRole](../stereotypes.md#SAF_LogicalRole)
 * [SAF_LogicalRole](../stereotypes.md#SAF_LogicalRole)
 ## Input from other Viewpoints

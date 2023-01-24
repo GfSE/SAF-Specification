@@ -13,6 +13,7 @@ The Operational Capability Viewpoint supports the "Business or Mission Analysis 
 * [Supplier](../stakeholders.md#Supplier)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
+* What Operational Capabilitys are defined?
 * What Operational Capabilitys are required for each phase and mode of operation?
 ## Presentation
 The result of the business and mission analysis is one or more block definition diagram(s) (BDD) featuring Operational Capability(s) and their composition, specialization and dependency relationship(s).

@@ -1,6 +1,6 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
 # Logical Interaction Viewpoint
-*Domain:* **Logical** *Aspect:* **Interaction and Collaboration**
+*Domain:* **Logical** *Aspect:* **Interaction & Collaboration**
 ## Example
 ![FFDS Internal Interaction](../diagrams/FFDS-Internal-Interaction.svg)
 ## Purpose
@@ -18,12 +18,12 @@ The Logical Interaction Viewpoint supports the "Develop Architecture Viewpoints"
 * [Supplier](../stakeholders.md#Supplier)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* What kind of information is exchanged and processed within the system?
-* What is the necessary response time for an interface or a service?
 * How do internal system elements interact with each other to provide the system function or service?
-* What are the items exchanged between the logical system elements during the interaction?
 * How does the system or a system element interact with the test environment?
 * What additional information the system or a system element needs to generate to enable testing?
+* What are the items exchanged between the logical system elements during the interaction?
+* What is the necessary response time for an interface or a service?
+* What kind of information is exchanged and processed within the system?
 ## Presentation
 The Logical Interaction Viewpoint is modeled as a sequence diagram. It describes the flow of control between logical components of the SOI.This diagram represents the sending and receiving of messages between the interacting entities called lifelines where time is represented along the vertical axis. The elements on the lifelines are part properties typed by logical system elements.
 

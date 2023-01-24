@@ -1,6 +1,6 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
 # System Context Definition Viewpoint
-*Domain:* **Functional** *Aspect:* **Context**
+*Domain:* **Functional** *Aspect:* **Context & Exchange**
 ## Example
 ![FFDS Context Definition](../diagrams/FFDS-Context-Definition.svg)
 ## Purpose
@@ -13,14 +13,14 @@ The System Context Definition Viewpoint supports the "Prepare for Requirement De
 * [System Architect](../stakeholders.md#System-Architect)
 * [User](../stakeholders.md#User)
 ## Concern
-* What is the System Boundary definition?
-* Which interface partners does the system have?
 * What are necessary enabling systems?
 * What are the different contexts the system is embedded and utilized in?
 * What are the external conceptual entities the system interacts with in the respective context?
-* Which classes of users (roles) will interact with the system?
-* What is the support environment for the system?
 * What are the geographical and physical locations of the intended / proposed elements of the solution?
+* What is the System Boundary definition?
+* What is the support environment for the system?
+* Which classes of users (roles) will interact with the system?
+* Which interface partners does the system have?
 ## Presentation
 A BDD featuring the following elements
 * a Logical Element block representing SOI in the logical domain

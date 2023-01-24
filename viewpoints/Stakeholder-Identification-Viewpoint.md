@@ -13,14 +13,14 @@ Note:
 * [Supplier](../stakeholders.md#Supplier)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* What concerns does a Stakeholder have?
-* What are the consequences not considering a Stakeholder?
-* Which external entities (external systems, roles, environment, etc.) does a Stakeholder represent?
 * How to involve a Stakeholder and to what degree?
-* What impact does a Stakeholder have on the project?
-* Which Stakeholder are relevant to the system and might impose requirements?
 * In which life cycles is a Stakeholder involved in the project?
+* What are the consequences not considering a Stakeholder?
+* What concerns does a Stakeholder have?
+* What impact does a Stakeholder have on the project?
 * What relevant relations and influences exist between Stakeholders?
+* Which Stakeholder are relevant to the system and might impose requirements?
+* Which external entities (external systems, roles, environment, etc.) does a Stakeholder represent?
 * Who are the Stakeholders involved in the intended solution?
 ## Presentation
 The results of the Stakeholder Identification are selected Stakeholder(s). A Stakeholder Identification diagram (BDD) depicts the relations of the identified Stakeholder(s) towards the Intended Solution.

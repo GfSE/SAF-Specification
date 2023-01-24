@@ -1,6 +1,6 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
 # Operational Interaction Viewpoint
-*Domain:* **Operational** *Aspect:* **Interaction and Collaboration**
+*Domain:* **Operational** *Aspect:* **Interaction & Collaboration**
 ## Example
 *none*
 ## Purpose
@@ -13,8 +13,8 @@ The Operational Interaction Viewpoint supports the "Business or Mission Analysis
 * [Supplier](../stakeholders.md#Supplier)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* What validation scenarios have to be carried out to check on the solution validity?
 * What possible threads of Operational Process Activities have to be carried out to achieve the Operational Story main and alternative goals?
+* What validation scenarios have to be carried out to check on the solution validity?
 ## Presentation
 The Operational Interaction shows in a sequence diagram the flow of control or data (Operational Exchange) between Operational Role(s) of an Operational Context to achieve one outcome of an Operational Story. This diagram represents the sending and receiving of messages or data between the Operational Role(s) along with the executed Operational Activity(s).
 

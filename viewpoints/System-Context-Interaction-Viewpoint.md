@@ -1,6 +1,6 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
 # System Context Interaction Viewpoint
-*Domain:* **Functional** *Aspect:* **Interaction and Collaboration**
+*Domain:* **Functional** *Aspect:* **Interaction & Collaboration**
 ## Example
 ![FFDS Context Interaction](../diagrams/FFDS-Context-Interaction.svg)
 ## Purpose
@@ -14,12 +14,12 @@ The System Context Interaction Viewpoint supports "Prepare for Requirement Defin
 * [System Architect](../stakeholders.md#System-Architect)
 * [User](../stakeholders.md#User)
 ## Concern
-* What is the necessary response time for an interface or a service?
-* How is the system being used or utilized and interacting with other external systems to satisfy user needs?
-* What are the items exchanged at the boundary of the system with external entities?
-* What is the sequence of interactions among the system and context elements
 * How does the system or a system element interact with the test environment?
+* How is the system being used or utilized and interacting with other external systems to satisfy user needs?
 * What additional information the system or a system element needs to generate to enable testing?
+* What are the items exchanged at the boundary of the system with external entities?
+* What is the necessary response time for an interface or a service?
+* What is the sequence of interactions among the system and context elements
 ## Presentation
 The System Context Interaction Viewpoint is modeled as a sequence diagram. It describes the flow of control between SOI and Context Element(s). This diagram represents the sending and receiving of messages between the interacting entities called lifelines, where time is represented along the vertical axis. The elements on the lifelines are part properties of a System Context.
 
