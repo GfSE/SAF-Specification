@@ -21,7 +21,6 @@ The physical structure Viewpoint supports the "Allocation and Partitioning of Lo
 * [Supplier](../stakeholders.md#Supplier)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* What are necessary enabling systems?
 * What are the HW components to be provided?
 * What are the SW components to be provided?
 * What are the configuration items in the physical architecture?
