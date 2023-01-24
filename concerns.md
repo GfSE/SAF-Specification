@@ -1,6 +1,6 @@
 ![System Architecture Framework](diagrams/Logo_SAF.png)
 # Viewpoint Concerns
-|Package|Concern|Stakeholder|Viewpoint|
+|Package|Concern|Stakeholder & Rationale|Viewpoint|
 | --- | --- | --- | --- |
 |29148 specific concerns|How do system capabilities depend on system modes?|||
 |29148 specific concerns|To which proposed system does the OpsCon apply?|||
@@ -68,7 +68,7 @@
 |boundary / context|Which requirements apply to a logical interface?||[Logical Internal Exchange Viewpoint](viewpoints/Logical-Internal-Exchange-Viewpoint.md)|
 |boundary / context|Which standards, protocols and format specifications are associated with a specific interface?|||
 |capability|How are Operational Capabilities allocated and flowed down to system entities - namely the subsystem - at various levels of abstraction?|||
-|capability|What Operational Capabilitys are defined?|[Customer](stakeholders.md#Customer)|[Operational Capability Viewpoint](viewpoints/Operational-Capability-Viewpoint.md)|
+|capability|What Operational Capabilitys are defined?|[Customer](stakeholders.md#Customer) ***Needed because the definition of capabilities allows communication about what is to achieved to seperate from how it is achieved on operational level.***|[Operational Capability Viewpoint](viewpoints/Operational-Capability-Viewpoint.md)|
 |capability|What Operational Capabilitys are required for each phase and mode of operation?||[Operational Capability Viewpoint](viewpoints/Operational-Capability-Viewpoint.md)|
 |capability|What are the Capabilities that are supported by the system?|[System Architect](stakeholders.md#System-Architect), [Acquirer](stakeholders.md#Acquirer), [Supplier](stakeholders.md#Supplier)|[System Capability Viewpoint](viewpoints/System-Capability-Viewpoint.md), [System Functional Breakdown Viewpoint](viewpoints/System-Functional-Breakdown-Viewpoint.md)|
 |capability|What is the lack / deficiency / gap in current Capability implementation that is addressed with the intended solution?|[System Architect](stakeholders.md#System-Architect), [Acquirer](stakeholders.md#Acquirer), [Supplier](stakeholders.md#Supplier)||
