@@ -191,6 +191,13 @@ The example illustrates, that the roles user and operator are depending heavily 
 * What are necessary inputs for operating the system expected to be provided by other external entitys?
 * What are the scenarios a system function is utilized in?
 * What is the necessary response time for an interface or a service?
+# Portfolio Manager
+
+
+## Concern
+* What Operational Capabilitys are defined? 
+
+  ***Rationale:  I need to plan the systems capabilities to support operational capabilities.***
 # Project Manager
 Definition - Project Manager: The responsibility of the Project Manager is to make the right resources with the right skills available in time to get the identified work done. 
 

@@ -21,6 +21,7 @@ The Logical Interaction Viewpoint supports the "Develop Architecture Viewpoints"
 * How do internal system elements interact with each other to provide the system function or service?
 * How does the system or a system element interact with the test environment?
 * What additional information the system or a system element needs to generate to enable testing?
+* What are the connections between the major system elements?
 * What are the items exchanged between the logical system elements during the interaction?
 * What is the necessary response time for an interface or a service?
 * What kind of information is exchanged and processed within the system?

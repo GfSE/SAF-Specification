@@ -16,6 +16,7 @@ The Operational Story Viewpoint supports the "Business or Mission Analysis Proce
 * [System Architect](../stakeholders.md#System-Architect)
 * [User](../stakeholders.md#User)
 ## Concern
+* What are the operational scenarios(Operational Stories) relevant to the system?
 * Which is the Operational Story task accomplished by which operational entities in the Operational Context?
 ## Presentation
 A use case diagram depicting model elements representing Operational Story(s) and Operational Performer(s) shall be used. In addition, an illustration (drawing, sketch, etc.) and/or a description in free text may provide a comprehensive understanding of the operational background.
