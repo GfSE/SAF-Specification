@@ -95,19 +95,21 @@
 ## SAF_PhysicalContext 
 
 ## SAF_PhysicalElement 
-
+General system element, may consist of hardware and software subsystems.
 ## SAF_PhysicalEnvironment 
 
+## SAF_PhysicalExchangeType 
+typifies physical exchange.
 ## SAF_PhysicalExternalSystem 
 
 ## SAF_PhysicalHardwareElement 
-
+System element implemented in hardware.
 ## SAF_PhysicalItem 
-
+Abstract. Not to be intended to be used in a system model
 ## SAF_PhysicalSOI 
 
 ## SAF_PhysicalSoftwareElement 
-
+System element implemented in software.
 ## SAF_PhysicalUser 
 
 ## SAF_SCV02a_View 
@@ -225,6 +227,10 @@ implements viewpoint [Operational Capability Traceability Viewpoint](viewpoints/
 
 ## SAF_SOV08b_View 
 implements viewpoint [Operational Process Traceability Viewpoint](viewpoints/Operational-Process-Traceability-Viewpoint.md)
+
+
+## SAF_SPV01a_View 
+implements viewpoint [Physical Context Definition Viewpoint](viewpoints/Physical-Context-Definition-Viewpoint.md)
 
 
 ## SAF_Stakeholder 

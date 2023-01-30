@@ -13,7 +13,7 @@ The Operational Process Traceability Viewpoint supports the "Business or Mission
 * [Supplier](../stakeholders.md#Supplier)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* Show in a concise manner the relationships from Operational Process to Operational Story and to Operational Performer.
+* Show in a concise manner the relationships from operational process to operational story and to operational performer.
 ## Presentation
 The relationship(s) of Operational Process Activity(s) to Operational Story(s) and to Operational Performer(s) are represented in a table format.
 

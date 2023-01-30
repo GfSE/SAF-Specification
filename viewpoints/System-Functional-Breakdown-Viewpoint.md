@@ -14,7 +14,6 @@ The System Functional Breakdown Viewpoint supports the "System Requirements Defi
 * [User](../stakeholders.md#User)
 ## Concern
 * How are the system functions decomposed into sub-functions decomposed? 
-* What are the Capabilities that are supported by the system?
 * What is the breakdown of functions into sub-functions?
 * Which functions will the system provide?
 ## Presentation

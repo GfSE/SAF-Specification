@@ -38,6 +38,7 @@ A) The physical context definition diagram defines the elements available in the
 * [SAF_PhysicalExternalSystem](../stereotypes.md#SAF_PhysicalExternalSystem)
 * [SAF_PhysicalSOI](../stereotypes.md#SAF_PhysicalSOI)
 * [SAF_PhysicalUser](../stereotypes.md#SAF_PhysicalUser)
+* [SAF_SPV01a_View](../stereotypes.md#SAF_SPV01a_View)
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

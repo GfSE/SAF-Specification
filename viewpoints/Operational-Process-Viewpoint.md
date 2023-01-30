@@ -13,8 +13,8 @@ The Operational Process Viewpoint supports the "Business or Mission Analysis Pro
 * [Supplier](../stakeholders.md#Supplier)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* What Operational Process Activitys shall be executed during the execution of an Operational Story?
-* Which Operational Activity shall be executed by which Operational Performer in the Operational Story?
+* What operational process activitys shall be executed during the execution of an operational story?
+* Which operational activity shall be executed by which operational performer in the operational story?
 ## Presentation
 The Operational Process related to an Operational Story is represented in an activity diagram showing the ordered execution of Operational Process Activity(s). Operational Process Activity(s) may be linked in terms of control flow and/or data flow visualizing Operational Exchange needed. 
 Note: Operational Process Activity(s) are assigned to Operational Role(s) and therefore in a more general manner to the Operational Performer(s).

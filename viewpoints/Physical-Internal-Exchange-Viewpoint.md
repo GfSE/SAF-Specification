@@ -26,8 +26,8 @@ The Logical Internal Exchange Viewpoint supports the "Develop Models and Views o
 * What additional information the system or a system element needs to generate to enable testing?
 * What are data / information items exchanged?
 * What kind of information is exchanged and processed within the system?
-* Which Interface Design Items are on an interface of a Physical Architecture Element?
 * Which SW interfaces are necessary?
+* Which interface design items are on an interface of a physical architecture element?
 * Which interface partners does a HW item have?
 * Which interface partners does a SW item have?
 * Which interfaces are necessary?

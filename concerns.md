@@ -2,24 +2,24 @@
 # Viewpoint Concerns
 |Package|Concern|Stakeholder & Rationale|Viewpoint|
 | --- | --- | --- | --- |
-|29148 specific concerns|How do system capabilities depend on system modes?|[ISO 29148 OpsCon](stakeholders.md#ISO-29148-OpsCon)||
-|29148 specific concerns|To which proposed system does the OpsCon apply?|[ISO 29148 OpsCon](stakeholders.md#ISO-29148-OpsCon)||
-|29148 specific concerns|What are assumptions and constraints imposed on the system?|[ISO 29148 OpsCon](stakeholders.md#ISO-29148-OpsCon)||
-|29148 specific concerns|What are the connections between the major system elements?|[ISO 29148 OpsCon](stakeholders.md#ISO-29148-OpsCon)|[Logical Interaction Viewpoint](viewpoints/Logical-Interaction-Viewpoint.md)|
-|29148 specific concerns|What are the interactions among the systems users / user classes?|[ISO 29148 OpsCon](stakeholders.md#ISO-29148-OpsCon)|[System Context Exchange Viewpoint](viewpoints/System-Context-Exchange-Viewpoint.md)|
-|29148 specific concerns|What are the major system elements?|[ISO 29148 OpsCon](stakeholders.md#ISO-29148-OpsCon)|[Physical Structure Viewpoint](viewpoints/Physical-Structure-Viewpoint.md)|
-|29148 specific concerns|What are the operational scenarios(Operational Stories) relevant to the system?|[ISO 29148 OpsCon](stakeholders.md#ISO-29148-OpsCon)|[Operational Story Viewpoint](viewpoints/Operational-Story-Viewpoint.md)|
-|29148 specific concerns|What are the priorities(e.g. essential,desirable,optional)  of capabilities for the system?|[ISO 29148 OpsCon](stakeholders.md#ISO-29148-OpsCon)||
-|29148 specific concerns|What is  the future/proposed system?|[ISO 29148 OpsCon](stakeholders.md#ISO-29148-OpsCon)||
-|29148 specific concerns|What is the current system to be changed or upgraded?|[ISO 29148 OpsCon](stakeholders.md#ISO-29148-OpsCon)||
-|29148 specific concerns|What is the organizational structure of systems users / user classes?|[ISO 29148 OpsCon](stakeholders.md#ISO-29148-OpsCon)||
-|29148 specific concerns|What is the purpose of the system?|[ISO 29148 OpsCon](stakeholders.md#ISO-29148-OpsCon)||
-|29148 specific concerns|What is the support environment for the system?|[ISO 29148 OpsCon](stakeholders.md#ISO-29148-OpsCon)|[System Context Definition Viewpoint](viewpoints/System-Context-Definition-Viewpoint.md)|
-|29148 specific concerns|What operational impacts does the system impose to its operational environment?|[ISO 29148 OpsCon](stakeholders.md#ISO-29148-OpsCon)||
-|29148 specific concerns|Which Operational Performer will operate or run the system?|[ISO 29148 OpsCon](stakeholders.md#ISO-29148-OpsCon)|[Operational Performer Viewpoint](viewpoints/Operational-Performer-Viewpoint.md)|
-|29148 specific concerns|Which classes of users (roles) will interact with the system?|[ISO 29148 OpsCon](stakeholders.md#ISO-29148-OpsCon)|[System Context Definition Viewpoint](viewpoints/System-Context-Definition-Viewpoint.md)|
-|29148 specific concerns|Which operational policies and constraints apply to the system?|[ISO 29148 OpsCon](stakeholders.md#ISO-29148-OpsCon)||
-|29148 specific concerns|Which operational policies and constraints do exist?|[ISO 29148 OpsCon](stakeholders.md#ISO-29148-OpsCon)||
+|_ISO29148|How do system capabilities depend on system modes?||[ISO 29148 OpsCon](viewpoints/ISO-29148-OpsCon.md)|
+|_ISO29148|To which proposed system does the OpsCon apply?||[ISO 29148 OpsCon](viewpoints/ISO-29148-OpsCon.md)|
+|_ISO29148|What are assumptions and constraints imposed on the system?||[ISO 29148 OpsCon](viewpoints/ISO-29148-OpsCon.md)|
+|_ISO29148|What are the connections between the major system elements?||[ISO 29148 OpsCon](viewpoints/ISO-29148-OpsCon.md), [Logical Interaction Viewpoint](viewpoints/Logical-Interaction-Viewpoint.md)|
+|_ISO29148|What are the interactions among the systems users / user classes?||[ISO 29148 OpsCon](viewpoints/ISO-29148-OpsCon.md), [System Context Exchange Viewpoint](viewpoints/System-Context-Exchange-Viewpoint.md)|
+|_ISO29148|What are the major system elements?||[ISO 29148 OpsCon](viewpoints/ISO-29148-OpsCon.md), [Physical Structure Viewpoint](viewpoints/Physical-Structure-Viewpoint.md)|
+|_ISO29148|What are the operational scenarios(Operational Stories) relevant to the system?||[ISO 29148 OpsCon](viewpoints/ISO-29148-OpsCon.md), [Operational Story Viewpoint](viewpoints/Operational-Story-Viewpoint.md)|
+|_ISO29148|What are the priorities(e.g. essential,desirable,optional)  of capabilities for the system?||[ISO 29148 OpsCon](viewpoints/ISO-29148-OpsCon.md)|
+|_ISO29148|What is  the future/proposed system?||[ISO 29148 OpsCon](viewpoints/ISO-29148-OpsCon.md)|
+|_ISO29148|What is the current system to be changed or upgraded?||[ISO 29148 OpsCon](viewpoints/ISO-29148-OpsCon.md)|
+|_ISO29148|What is the organizational structure of systems users / user classes?||[ISO 29148 OpsCon](viewpoints/ISO-29148-OpsCon.md)|
+|_ISO29148|What is the purpose of the system?||[ISO 29148 OpsCon](viewpoints/ISO-29148-OpsCon.md)|
+|_ISO29148|What is the support environment for the system?||[ISO 29148 OpsCon](viewpoints/ISO-29148-OpsCon.md), [System Context Definition Viewpoint](viewpoints/System-Context-Definition-Viewpoint.md)|
+|_ISO29148|What operational impacts does the system impose to its operational environment?||[ISO 29148 OpsCon](viewpoints/ISO-29148-OpsCon.md)|
+|_ISO29148|Which Operational Performer will operate or run the system?||[ISO 29148 OpsCon](viewpoints/ISO-29148-OpsCon.md), [Operational Performer Viewpoint](viewpoints/Operational-Performer-Viewpoint.md)|
+|_ISO29148|Which classes of users (roles) will interact with the system?||[ISO 29148 OpsCon](viewpoints/ISO-29148-OpsCon.md), [System Context Definition Viewpoint](viewpoints/System-Context-Definition-Viewpoint.md)|
+|_ISO29148|Which operational policies and constraints apply to the system?||[ISO 29148 OpsCon](viewpoints/ISO-29148-OpsCon.md)|
+|_ISO29148|Which operational policies and constraints do exist?||[ISO 29148 OpsCon](viewpoints/ISO-29148-OpsCon.md)|
 |_repository (to be sorted)|How are error states handled?|[Hardware Developer](stakeholders.md#Hardware-Developer), [IV&V Engineer](stakeholders.md#IV&V-Engineer), [Maintainer](stakeholders.md#Maintainer), [Regulation Authority](stakeholders.md#Regulation-Authority), [Safety Expert](stakeholders.md#Safety-Expert), [Security Expert](stakeholders.md#Security-Expert), [Software Developer](stakeholders.md#Software-Developer), [System Architect](stakeholders.md#System-Architect)||
 |_repository (to be sorted)|How does the elements of the test environment interact with each other?|[IV&V Engineer](stakeholders.md#IV&V-Engineer), [System Architect](stakeholders.md#System-Architect)||
 |_repository (to be sorted)|What additional interfaces are necessary to expose internal properties, states and modes for testing?|[IV&V Engineer](stakeholders.md#IV&V-Engineer)||
@@ -30,53 +30,52 @@
 |_repository (to be sorted)|What is the necessary performance for processing?|[Software Developer](stakeholders.md#Software-Developer)||
 |_repository (to be sorted)|What shall be validated to the customer at system level?|[Acquirer](stakeholders.md#Acquirer), [Customer](stakeholders.md#Customer), [IV&V Engineer](stakeholders.md#IV&V-Engineer), [Safety Expert](stakeholders.md#Safety-Expert), [Security Expert](stakeholders.md#Security-Expert), [System Architect](stakeholders.md#System-Architect)||
 |_repository (to be sorted)|Which functions need to be realized by HW?|[Hardware Developer](stakeholders.md#Hardware-Developer)||
-|_unclear_need_explanation|Are defined standard items considered in the architecture?|[Acquirer](stakeholders.md#Acquirer)||
-|_unclear_need_explanation|How to ensure full Operational Capability of the system after maintenance activities with a system element or component? |[Maintainer](stakeholders.md#Maintainer)||
-|_unclear_need_explanation|How to install / de-install components to / from the system?|[Maintainer](stakeholders.md#Maintainer)||
-|_unclear_need_explanation|What are the algorithms to be implemented?|[Software Developer](stakeholders.md#Software-Developer)||
-|_unclear_need_explanation|What are the provided power inputs?|[Hardware Developer](stakeholders.md#Hardware-Developer)||
-|_unclear_need_explanation|What are the replaceable system components?|[Maintainer](stakeholders.md#Maintainer)||
-|_unclear_need_explanation|What are the system delivery standards?|[System Architect](stakeholders.md#System-Architect)||
-|_unclear_need_explanation|What are the system delivery standards?|[Project Manager](stakeholders.md#Project-Manager)||
-|_unclear_need_explanation|What delivery standards need to be provided?|[Hardware Developer](stakeholders.md#Hardware-Developer)||
-|_unclear_need_explanation|What is the functional scope of each delivery standard?|||
-|_unclear_need_explanation|What is the functional scope of each system delivery standard?|[Project Manager](stakeholders.md#Project-Manager), [System Architect](stakeholders.md#System-Architect)||
-|_unclear_need_explanation|What is the order information for each identified system element or component?|[Maintainer](stakeholders.md#Maintainer)||
-|_unclear_need_explanation|What is the scope of a delivery standard?|[Hardware Developer](stakeholders.md#Hardware-Developer)||
-|boundary / context|How is the system being used or utilized and interacting with other external systems to satisfy user needs?|[Acquirer](stakeholders.md#Acquirer), [Customer](stakeholders.md#Customer), [Operator](stakeholders.md#Operator), [System Architect](stakeholders.md#System-Architect), [User](stakeholders.md#User)|[System Context Interaction Viewpoint](viewpoints/System-Context-Interaction-Viewpoint.md), [System UseCase Viewpoint](viewpoints/System-UseCase-Viewpoint.md)|
-|boundary / context|How is the system interacting with the identified external entities?||[System Context Exchange Viewpoint](viewpoints/System-Context-Exchange-Viewpoint.md), [System Process Viewpoint](viewpoints/System-Process-Viewpoint.md)|
-|boundary / context|How to connect the system or a system element to a test equipment?|[Maintainer](stakeholders.md#Maintainer)|[Physical Context Exchange Viewpoint](viewpoints/Physical-Context-Exchange-Viewpoint.md)|
-|boundary / context|How will the system be used by whom and which contextual elements are involved?||[System UseCase Viewpoint](viewpoints/System-UseCase-Viewpoint.md)|
-|boundary / context|What are necessary enabling systems?|[Acquirer](stakeholders.md#Acquirer), [Customer](stakeholders.md#Customer), [Supplier](stakeholders.md#Supplier), [System Architect](stakeholders.md#System-Architect)|[Physical Context Definition Viewpoint](viewpoints/Physical-Context-Definition-Viewpoint.md), [System Context Definition Viewpoint](viewpoints/System-Context-Definition-Viewpoint.md)|
-|boundary / context|What are the Interface Requirements imposed on the system?||[System Context Exchange Viewpoint](viewpoints/System-Context-Exchange-Viewpoint.md), [System Requirement Viewpoint](viewpoints/System-Requirement-Viewpoint.md)|
-|boundary / context|What are the different contexts the system is embedded and utilized in?|[Acquirer](stakeholders.md#Acquirer), [Customer](stakeholders.md#Customer), [System Architect](stakeholders.md#System-Architect)|[System Context Definition Viewpoint](viewpoints/System-Context-Definition-Viewpoint.md)|
-|boundary / context|What are the external conceptual entities the system interacts with in the respective context?||[System Context Definition Viewpoint](viewpoints/System-Context-Definition-Viewpoint.md), [System Context Exchange Viewpoint](viewpoints/System-Context-Exchange-Viewpoint.md)|
-|boundary / context|What are the external physical entities the system interacts with in the respective context?|[Acquirer](stakeholders.md#Acquirer), [Customer](stakeholders.md#Customer), [Safety Expert](stakeholders.md#Safety-Expert), [Supplier](stakeholders.md#Supplier), [System Architect](stakeholders.md#System-Architect)|[Physical Context Definition Viewpoint](viewpoints/Physical-Context-Definition-Viewpoint.md), [Physical Context Exchange Viewpoint](viewpoints/Physical-Context-Exchange-Viewpoint.md)|
-|boundary / context|What are the functional interfaces of the system?||[System Context Exchange Viewpoint](viewpoints/System-Context-Exchange-Viewpoint.md), [System Process Viewpoint](viewpoints/System-Process-Viewpoint.md)|
-|boundary / context|What are the geographical and physical locations of the intended / proposed elements of the solution?|[Acquirer](stakeholders.md#Acquirer), [Supplier](stakeholders.md#Supplier), [System Architect](stakeholders.md#System-Architect)|[System Context Definition Viewpoint](viewpoints/System-Context-Definition-Viewpoint.md)|
-|boundary / context|What are the items exchanged at the boundary of the system with external entities?||[System Context Exchange Viewpoint](viewpoints/System-Context-Exchange-Viewpoint.md), [System Context Interaction Viewpoint](viewpoints/System-Context-Interaction-Viewpoint.md)|
-|boundary / context|What is the Operational Context to achieve an Operational Story?||[Operational Context Definition Viewpoint](viewpoints/Operational-Context-Definition-Viewpoint.md)|
-|boundary / context|What is the System Boundary definition?|[Acquirer](stakeholders.md#Acquirer), [Customer](stakeholders.md#Customer), [Supplier](stakeholders.md#Supplier), [System Architect](stakeholders.md#System-Architect)|[Physical Context Definition Viewpoint](viewpoints/Physical-Context-Definition-Viewpoint.md), [System Context Definition Viewpoint](viewpoints/System-Context-Definition-Viewpoint.md)|
-|boundary / context|What is the operational environment that an intended solution will need to support?|||
-|boundary / context|What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?|[Acquirer](stakeholders.md#Acquirer), [Customer](stakeholders.md#Customer), [Hardware Developer](stakeholders.md#Hardware-Developer), [Maintainer](stakeholders.md#Maintainer), [Safety Expert](stakeholders.md#Safety-Expert), [Security Expert](stakeholders.md#Security-Expert), [Software Developer](stakeholders.md#Software-Developer), [System Architect](stakeholders.md#System-Architect)|[System Context Exchange Viewpoint](viewpoints/System-Context-Exchange-Viewpoint.md)|
-|boundary / context|What kind of physical items (energy, material, information) are exchanged between the system and external entitys?|||
-|boundary / context|What kind of test equipment is necessary to test the system elements?|[IV&V Engineer](stakeholders.md#IV&V-Engineer)|[Physical Context Definition Viewpoint](viewpoints/Physical-Context-Definition-Viewpoint.md)|
-|boundary / context|Which information is exchanged between the system and external entitys?|[Acquirer](stakeholders.md#Acquirer), [Customer](stakeholders.md#Customer), [Safety Expert](stakeholders.md#Safety-Expert), [Security Expert](stakeholders.md#Security-Expert), [System Architect](stakeholders.md#System-Architect)|[System Context Exchange Viewpoint](viewpoints/System-Context-Exchange-Viewpoint.md)|
-|boundary / context|Which interface partners does the system have?||[System Context Definition Viewpoint](viewpoints/System-Context-Definition-Viewpoint.md)|
-|boundary / context|Which interfaces are necessary?|[Hardware Developer](stakeholders.md#Hardware-Developer)|[Logical Internal Exchange Viewpoint](viewpoints/Logical-Internal-Exchange-Viewpoint.md), [Physical Context Exchange Viewpoint](viewpoints/Physical-Context-Exchange-Viewpoint.md), [Physical Internal Exchange Viewpoint](viewpoints/Physical-Internal-Exchange-Viewpoint.md), [System Context Exchange Viewpoint](viewpoints/System-Context-Exchange-Viewpoint.md)|
-|boundary / context|Which requirement(s) apply to a physical interface?|||
-|boundary / context|Which requirements apply to a logical interface?||[Logical Internal Exchange Viewpoint](viewpoints/Logical-Internal-Exchange-Viewpoint.md)|
-|boundary / context|Which standards, protocols and format specifications are associated with a specific interface?|||
-|capability|How are Operational Capabilities allocated and flowed down to system entities - namely the subsystem - at various levels of abstraction?|||
-|capability|What Operational Capabilitys are defined?|[Customer](stakeholders.md#Customer) ***Needed because the definition of capabilities allows communication about what is to achieved to seperate from how it is achieved on operational level.***, [Portfolio Manager](stakeholders.md#Portfolio-Manager) ***I need to plan the systems capabilities to support operational capabilities.***|[Operational Capability Viewpoint](viewpoints/Operational-Capability-Viewpoint.md)|
-|capability|What Operational Capabilitys are required for each phase and mode of operation?||[Operational Capability Viewpoint](viewpoints/Operational-Capability-Viewpoint.md)|
-|capability|What are the Capabilities that are supported by the system?|[Acquirer](stakeholders.md#Acquirer), [Supplier](stakeholders.md#Supplier), [System Architect](stakeholders.md#System-Architect)|[System Capability Viewpoint](viewpoints/System-Capability-Viewpoint.md), [System Functional Breakdown Viewpoint](viewpoints/System-Functional-Breakdown-Viewpoint.md)|
-|capability|What is the lack / deficiency / gap in current Capability implementation that is addressed with the intended solution?|[Acquirer](stakeholders.md#Acquirer), [Supplier](stakeholders.md#Supplier), [System Architect](stakeholders.md#System-Architect)||
+|_unclear (need of explanation)|Are defined standard items considered in the architecture?|[Acquirer](stakeholders.md#Acquirer)||
+|_unclear (need of explanation)|How to ensure full Operational Capability of the system after maintenance activities with a system element or component? |[Maintainer](stakeholders.md#Maintainer)||
+|_unclear (need of explanation)|How to install / de-install components to / from the system?|[Maintainer](stakeholders.md#Maintainer)||
+|_unclear (need of explanation)|What are the algorithms to be implemented?|[Software Developer](stakeholders.md#Software-Developer)||
+|_unclear (need of explanation)|What are the provided power inputs?|[Hardware Developer](stakeholders.md#Hardware-Developer)||
+|_unclear (need of explanation)|What are the replaceable system components?|[Maintainer](stakeholders.md#Maintainer)||
+|_unclear (need of explanation)|What are the system delivery standards?|[System Architect](stakeholders.md#System-Architect)||
+|_unclear (need of explanation)|What are the system delivery standards?|[Project Manager](stakeholders.md#Project-Manager)||
+|_unclear (need of explanation)|What delivery standards need to be provided?|[Hardware Developer](stakeholders.md#Hardware-Developer)||
+|_unclear (need of explanation)|What is the functional scope of each delivery standard?|||
+|_unclear (need of explanation)|What is the functional scope of each system delivery standard?|[Project Manager](stakeholders.md#Project-Manager), [System Architect](stakeholders.md#System-Architect)||
+|_unclear (need of explanation)|What is the order information for each identified system element or component?|[Maintainer](stakeholders.md#Maintainer)||
+|_unclear (need of explanation)|What is the scope of a delivery standard?|[Hardware Developer](stakeholders.md#Hardware-Developer)||
+|boundary & context|How is the system being used or utilized and interacting with other external systems to satisfy user needs?|[Acquirer](stakeholders.md#Acquirer), [Customer](stakeholders.md#Customer), [Operator](stakeholders.md#Operator), [System Architect](stakeholders.md#System-Architect), [User](stakeholders.md#User)|[System Context Interaction Viewpoint](viewpoints/System-Context-Interaction-Viewpoint.md), [System UseCase Viewpoint](viewpoints/System-UseCase-Viewpoint.md)|
+|boundary & context|How is the system interacting with the identified external entities?||[System Context Exchange Viewpoint](viewpoints/System-Context-Exchange-Viewpoint.md), [System Process Viewpoint](viewpoints/System-Process-Viewpoint.md)|
+|boundary & context|How to connect the system or a system element to a test equipment?|[Maintainer](stakeholders.md#Maintainer)|[Physical Context Exchange Viewpoint](viewpoints/Physical-Context-Exchange-Viewpoint.md)|
+|boundary & context|How will the system be used by whom and which contextual elements are involved?||[System UseCase Viewpoint](viewpoints/System-UseCase-Viewpoint.md)|
+|boundary & context|What are necessary enabling systems?|[Acquirer](stakeholders.md#Acquirer), [Customer](stakeholders.md#Customer), [Supplier](stakeholders.md#Supplier), [System Architect](stakeholders.md#System-Architect)|[Physical Context Definition Viewpoint](viewpoints/Physical-Context-Definition-Viewpoint.md), [System Context Definition Viewpoint](viewpoints/System-Context-Definition-Viewpoint.md)|
+|boundary & context|What are the Interface Requirements imposed on the system?||[System Context Exchange Viewpoint](viewpoints/System-Context-Exchange-Viewpoint.md), [System Requirement Viewpoint](viewpoints/System-Requirement-Viewpoint.md)|
+|boundary & context|What are the different contexts the system is embedded and utilized in?|[Acquirer](stakeholders.md#Acquirer), [Customer](stakeholders.md#Customer), [System Architect](stakeholders.md#System-Architect)|[System Context Definition Viewpoint](viewpoints/System-Context-Definition-Viewpoint.md)|
+|boundary & context|What are the external conceptual entities the system interacts with in the respective context?||[System Context Definition Viewpoint](viewpoints/System-Context-Definition-Viewpoint.md), [System Context Exchange Viewpoint](viewpoints/System-Context-Exchange-Viewpoint.md)|
+|boundary & context|What are the external physical entities the system interacts with in the respective context?|[Acquirer](stakeholders.md#Acquirer), [Customer](stakeholders.md#Customer), [Safety Expert](stakeholders.md#Safety-Expert), [Supplier](stakeholders.md#Supplier), [System Architect](stakeholders.md#System-Architect)|[Physical Context Definition Viewpoint](viewpoints/Physical-Context-Definition-Viewpoint.md), [Physical Context Exchange Viewpoint](viewpoints/Physical-Context-Exchange-Viewpoint.md)|
+|boundary & context|What are the functional interfaces of the system?||[System Context Exchange Viewpoint](viewpoints/System-Context-Exchange-Viewpoint.md), [System Process Viewpoint](viewpoints/System-Process-Viewpoint.md)|
+|boundary & context|What are the geographical and physical locations of the intended / proposed elements of the solution?|[Acquirer](stakeholders.md#Acquirer), [Supplier](stakeholders.md#Supplier), [System Architect](stakeholders.md#System-Architect)|[System Context Definition Viewpoint](viewpoints/System-Context-Definition-Viewpoint.md)|
+|boundary & context|What are the items exchanged at the boundary of the system with external entities?||[System Context Exchange Viewpoint](viewpoints/System-Context-Exchange-Viewpoint.md), [System Context Interaction Viewpoint](viewpoints/System-Context-Interaction-Viewpoint.md)|
+|boundary & context|What is the Operational Context to achieve an Operational Story?||[Operational Context Definition Viewpoint](viewpoints/Operational-Context-Definition-Viewpoint.md)|
+|boundary & context|What is the System Boundary definition?|[Acquirer](stakeholders.md#Acquirer), [Customer](stakeholders.md#Customer), [Supplier](stakeholders.md#Supplier), [System Architect](stakeholders.md#System-Architect)|[Physical Context Definition Viewpoint](viewpoints/Physical-Context-Definition-Viewpoint.md), [System Context Definition Viewpoint](viewpoints/System-Context-Definition-Viewpoint.md)|
+|boundary & context|What is the operational environment that an intended solution will need to support?|||
+|boundary & context|What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?|[Acquirer](stakeholders.md#Acquirer), [Customer](stakeholders.md#Customer), [Hardware Developer](stakeholders.md#Hardware-Developer), [Maintainer](stakeholders.md#Maintainer), [Safety Expert](stakeholders.md#Safety-Expert), [Security Expert](stakeholders.md#Security-Expert), [Software Developer](stakeholders.md#Software-Developer), [System Architect](stakeholders.md#System-Architect)|[System Context Exchange Viewpoint](viewpoints/System-Context-Exchange-Viewpoint.md)|
+|boundary & context|What kind of physical items (energy, material, information) are exchanged between the system and external entitys?|||
+|boundary & context|What kind of test equipment is necessary to test the system elements?|[IV&V Engineer](stakeholders.md#IV&V-Engineer)|[Physical Context Definition Viewpoint](viewpoints/Physical-Context-Definition-Viewpoint.md)|
+|boundary & context|Which information is exchanged between the system and external entitys?|[Acquirer](stakeholders.md#Acquirer), [Customer](stakeholders.md#Customer), [Safety Expert](stakeholders.md#Safety-Expert), [Security Expert](stakeholders.md#Security-Expert), [System Architect](stakeholders.md#System-Architect)|[System Context Exchange Viewpoint](viewpoints/System-Context-Exchange-Viewpoint.md)|
+|boundary & context|Which interface partners does the system have?||[System Context Definition Viewpoint](viewpoints/System-Context-Definition-Viewpoint.md)|
+|boundary & context|Which interfaces are necessary?|[Hardware Developer](stakeholders.md#Hardware-Developer)|[Logical Internal Exchange Viewpoint](viewpoints/Logical-Internal-Exchange-Viewpoint.md), [Physical Context Exchange Viewpoint](viewpoints/Physical-Context-Exchange-Viewpoint.md), [Physical Internal Exchange Viewpoint](viewpoints/Physical-Internal-Exchange-Viewpoint.md), [System Context Exchange Viewpoint](viewpoints/System-Context-Exchange-Viewpoint.md)|
+|boundary & context|Which requirements apply to a logical interface?||[Logical Internal Exchange Viewpoint](viewpoints/Logical-Internal-Exchange-Viewpoint.md)|
+|boundary & context|Which requirements apply to a physical interface?|||
+|boundary & context|Which standards, protocols and format specifications are associated with a specific interface?|||
+|capability|How are operational capabilities allocated and flowed down to system entities - namely the subsystem - at various levels of abstraction?|||
+|capability|What are the capabilities that are supported by the system?|[Acquirer](stakeholders.md#Acquirer), [Supplier](stakeholders.md#Supplier), [System Architect](stakeholders.md#System-Architect)|[System Capability Viewpoint](viewpoints/System-Capability-Viewpoint.md)|
+|capability|What is the lack / deficiency / gap in current capability implementation that is addressed with the intended solution?|[Acquirer](stakeholders.md#Acquirer), [Supplier](stakeholders.md#Supplier), [System Architect](stakeholders.md#System-Architect)||
+|capability|What operational capabilities are defined?|[Customer](stakeholders.md#Customer) ***(Operational capability) In my role, I need to specify capabilities because the definition of capabilities allows communication about what is to be achieved to be separated from how it is achieved at an operational level. ***, [Portfolio Manager](stakeholders.md#Portfolio-Manager) ***(System capability) In my role, I need to plan the system capabilities to support operational capabilities.***|[Operational Capability Viewpoint](viewpoints/Operational-Capability-Viewpoint.md)|
+|capability|What operational capabilitys are required for each phase and mode of operation?||[Operational Capability Viewpoint](viewpoints/Operational-Capability-Viewpoint.md)|
 |evidence|How is a evidence-based claim supported?||[Evidence Viewpoint](viewpoints/Evidence-Viewpoint.md)|
-|exchange|What Operational Exchange the Operational Performers need to consume or provide?||[Operational Context Exchange Viewpoint](viewpoints/Operational-Context-Exchange-Viewpoint.md), [Operational Domain Item Kind Viewpoint](viewpoints/Operational-Domain-Item-Kind-Viewpoint.md)|
 |exchange|What amount of interface bandwidth of the interfaces of an HW item will be consumed by the allocated software in the system?|||
 |exchange|What are data / information items exchanged?|[Software Developer](stakeholders.md#Software-Developer)|[Logical Internal Exchange Viewpoint](viewpoints/Logical-Internal-Exchange-Viewpoint.md), [Physical Internal Exchange Viewpoint](viewpoints/Physical-Internal-Exchange-Viewpoint.md)|
-|exchange|What are the Exchange Requirements imposed on the system?||[System Requirement Viewpoint](viewpoints/System-Requirement-Viewpoint.md)|
+|exchange|What are the exchange requirements imposed on the system?||[System Requirement Viewpoint](viewpoints/System-Requirement-Viewpoint.md)|
 |exchange|What are the formats of the exchanged items?|[Software Developer](stakeholders.md#Software-Developer)||
 |exchange|What are the interface requirements regarding bandwidth, data throughput and latency?|[Hardware Developer](stakeholders.md#Hardware-Developer)|[Physical Context Exchange Viewpoint](viewpoints/Physical-Context-Exchange-Viewpoint.md)|
 |exchange|What are the items exchanged between the logical system elements during the interaction?||[Logical Interaction Viewpoint](viewpoints/Logical-Interaction-Viewpoint.md), [Logical Internal Exchange Viewpoint](viewpoints/Logical-Internal-Exchange-Viewpoint.md)|
@@ -84,25 +83,25 @@
 |exchange|What are the protocols used for exchanging information?|[Security Expert](stakeholders.md#Security-Expert)||
 |exchange|What is the necessary accuracy and resolution for processing?|[Hardware Developer](stakeholders.md#Hardware-Developer), [Software Developer](stakeholders.md#Software-Developer), [System Architect](stakeholders.md#System-Architect)||
 |exchange|What kind of information is exchanged and processed within the system?|[Security Expert](stakeholders.md#Security-Expert)|[Logical Interaction Viewpoint](viewpoints/Logical-Interaction-Viewpoint.md), [Physical Internal Exchange Viewpoint](viewpoints/Physical-Internal-Exchange-Viewpoint.md)|
-|exchange|Which Interface Design Items are on an interface of a Physical Architecture Element?||[Physical Internal Exchange Viewpoint](viewpoints/Physical-Internal-Exchange-Viewpoint.md)|
+|exchange|What operational exchange the operational performers need to consume or provide?||[Operational Context Exchange Viewpoint](viewpoints/Operational-Context-Exchange-Viewpoint.md), [Operational Domain Item Kind Viewpoint](viewpoints/Operational-Domain-Item-Kind-Viewpoint.md)|
 |exchange|Which SW interfaces are necessary?|[Software Developer](stakeholders.md#Software-Developer)|[Physical Context Exchange Viewpoint](viewpoints/Physical-Context-Exchange-Viewpoint.md), [Physical Internal Exchange Viewpoint](viewpoints/Physical-Internal-Exchange-Viewpoint.md)|
+|exchange|Which interface design items are on an interface of a physical architecture element?||[Physical Internal Exchange Viewpoint](viewpoints/Physical-Internal-Exchange-Viewpoint.md)|
 |exchange|Which interface partners does a HW item have?||[Physical Internal Exchange Viewpoint](viewpoints/Physical-Internal-Exchange-Viewpoint.md)|
 |exchange|Which interface partners does a SW item have?||[Logical Internal Exchange Viewpoint](viewpoints/Logical-Internal-Exchange-Viewpoint.md), [Physical Internal Exchange Viewpoint](viewpoints/Physical-Internal-Exchange-Viewpoint.md)|
 |exchange|Which requirements apply to an HW interface?|||
 |functional|How are the interactions and dependencies between the different identified sub-functions described?|||
 |functional|How are the sub-functions implementing associated requirements documented?|||
 |functional|How are the system functions decomposed into sub-functions decomposed? ||[System Functional Breakdown Viewpoint](viewpoints/System-Functional-Breakdown-Viewpoint.md)|
-|functional|How does a system function interact with its environment?|[Acquirer](stakeholders.md#Acquirer), [Customer](stakeholders.md#Customer), [Operator](stakeholders.md#Operator), [Safety Expert](stakeholders.md#Safety-Expert), [System Architect](stakeholders.md#System-Architect), [User](stakeholders.md#User)||
-|functional|How does a system function interact with its environment?||[System Process Viewpoint](viewpoints/System-Process-Viewpoint.md)|
-|functional|What Operational Process Activitys shall be executed during the execution of an Operational Story?||[Operational Process Viewpoint](viewpoints/Operational-Process-Viewpoint.md)|
+|functional|How does a system function interact with its environment?|[Acquirer](stakeholders.md#Acquirer), [Customer](stakeholders.md#Customer), [IV&V Engineer](stakeholders.md#IV&V-Engineer) ***(Environment interaction) In my role, I need to perform the integration of the system into its deployment environment.***, [Operator](stakeholders.md#Operator), [Safety Expert](stakeholders.md#Safety-Expert), [System Architect](stakeholders.md#System-Architect) ***(Environment interaction) In my role, I need to delegate the realization of interfaces to subsystems.***, [User](stakeholders.md#User)|[System Process Viewpoint](viewpoints/System-Process-Viewpoint.md)|
 |functional|What are necessary inputs for operating the system expected to be provided by other external entitys?|[Acquirer](stakeholders.md#Acquirer), [Customer](stakeholders.md#Customer), [Operator](stakeholders.md#Operator), [Security Expert](stakeholders.md#Security-Expert), [Supplier](stakeholders.md#Supplier), [System Architect](stakeholders.md#System-Architect), [User](stakeholders.md#User)|[System Process Viewpoint](viewpoints/System-Process-Viewpoint.md)|
 |functional|What is the breakdown of functions into sub-functions?|[System Architect](stakeholders.md#System-Architect)|[System Functional Breakdown Viewpoint](viewpoints/System-Functional-Breakdown-Viewpoint.md)|
 |functional|What is the functional scope of the system?||[System Process Viewpoint](viewpoints/System-Process-Viewpoint.md)|
+|functional|What operational process activitys shall be executed during the execution of an operational story?||[Operational Process Viewpoint](viewpoints/Operational-Process-Viewpoint.md)|
 |functional|What services are expected from external entities?|[Acquirer](stakeholders.md#Acquirer), [Customer](stakeholders.md#Customer), [Project Manager](stakeholders.md#Project-Manager), [Supplier](stakeholders.md#Supplier), [System Architect](stakeholders.md#System-Architect)|[System Function Black Box Allocation Viewpoint](viewpoints/System-Function-Black-Box-Allocation-Viewpoint.md), [System Process Viewpoint](viewpoints/System-Process-Viewpoint.md)|
-|functional|Which Operational Activity shall be executed by which Operational Performer in the Operational Story?||[Operational Process Viewpoint](viewpoints/Operational-Process-Viewpoint.md)|
 |functional|Which functions are out of scope of the system?||[System Process Viewpoint](viewpoints/System-Process-Viewpoint.md)|
-|functional|Which functions will the system provide?|[Acquirer](stakeholders.md#Acquirer), [Customer](stakeholders.md#Customer), [Project Manager](stakeholders.md#Project-Manager), [Safety Expert](stakeholders.md#Safety-Expert), [Security Expert](stakeholders.md#Security-Expert), [System Architect](stakeholders.md#System-Architect)|[System Functional Breakdown Viewpoint](viewpoints/System-Functional-Breakdown-Viewpoint.md), [System Process Viewpoint](viewpoints/System-Process-Viewpoint.md)|
-|functional|Which modes and states does the system have?|[Hardware Developer](stakeholders.md#Hardware-Developer), [IV&V Engineer](stakeholders.md#IV&V-Engineer), [Maintainer](stakeholders.md#Maintainer), [Regulation Authority](stakeholders.md#Regulation-Authority), [Safety Expert](stakeholders.md#Safety-Expert), [Security Expert](stakeholders.md#Security-Expert), [Software Developer](stakeholders.md#Software-Developer), [System Architect](stakeholders.md#System-Architect)|[System State Viewpoint](viewpoints/System-State-Viewpoint.md)|
+|functional|Which functions will the system provide?|[Acquirer](stakeholders.md#Acquirer), [Customer](stakeholders.md#Customer), [IV&V Engineer](stakeholders.md#IV&V-Engineer) ***(System function) In my role, I need to understand the system in order to put it into operation.***, [Project Manager](stakeholders.md#Project-Manager), [Safety Expert](stakeholders.md#Safety-Expert), [Security Expert](stakeholders.md#Security-Expert), [System Architect](stakeholders.md#System-Architect) ***(System function) In my role, I need to break these down further to be able to delegate sub-functions to subsystems.***|[System Functional Breakdown Viewpoint](viewpoints/System-Functional-Breakdown-Viewpoint.md), [System Process Viewpoint](viewpoints/System-Process-Viewpoint.md)|
+|functional|Which modes and states does the system have?|[Hardware Developer](stakeholders.md#Hardware-Developer), [IV&V Engineer](stakeholders.md#IV&V-Engineer) ***(Mode and state) in my role, I need to understand the system in order to put it into operation.***, [Maintainer](stakeholders.md#Maintainer), [Regulation Authority](stakeholders.md#Regulation-Authority), [Safety Expert](stakeholders.md#Safety-Expert), [Security Expert](stakeholders.md#Security-Expert), [Software Developer](stakeholders.md#Software-Developer), [System Architect](stakeholders.md#System-Architect) ***(Mode and state) in my role, I need to understand the required system behavior in order to further design the system.***|[System State Viewpoint](viewpoints/System-State-Viewpoint.md)|
+|functional|Which operational activity shall be executed by which operational performer in the operational story?||[Operational Process Viewpoint](viewpoints/Operational-Process-Viewpoint.md)|
 |functional|Which services will the system provide?|||
 |interaction|How do internal system elements interact with each other to provide the system function or service?|[Safety Expert](stakeholders.md#Safety-Expert), [Security Expert](stakeholders.md#Security-Expert), [System Architect](stakeholders.md#System-Architect)|[Logical Interaction Viewpoint](viewpoints/Logical-Interaction-Viewpoint.md), [Logical Internal Exchange Viewpoint](viewpoints/Logical-Internal-Exchange-Viewpoint.md), [Physical Internal Exchange Viewpoint](viewpoints/Physical-Internal-Exchange-Viewpoint.md)|
 |interaction|How does the system or a system element interact with the test environment?|[Hardware Developer](stakeholders.md#Hardware-Developer), [IV&V Engineer](stakeholders.md#IV&V-Engineer), [Software Developer](stakeholders.md#Software-Developer), [System Architect](stakeholders.md#System-Architect)|[Logical Interaction Viewpoint](viewpoints/Logical-Interaction-Viewpoint.md), [Physical Context Definition Viewpoint](viewpoints/Physical-Context-Definition-Viewpoint.md), [Physical Context Exchange Viewpoint](viewpoints/Physical-Context-Exchange-Viewpoint.md), [System Context Exchange Viewpoint](viewpoints/System-Context-Exchange-Viewpoint.md), [System Context Interaction Viewpoint](viewpoints/System-Context-Interaction-Viewpoint.md)|
@@ -111,13 +110,13 @@
 |interaction|What is the sequence of interactions among the system and context elements|[Hardware Developer](stakeholders.md#Hardware-Developer), [IV&V Engineer](stakeholders.md#IV&V-Engineer), [Safety Expert](stakeholders.md#Safety-Expert), [Security Expert](stakeholders.md#Security-Expert), [Software Developer](stakeholders.md#Software-Developer), [System Architect](stakeholders.md#System-Architect)|[System Context Interaction Viewpoint](viewpoints/System-Context-Interaction-Viewpoint.md)|
 |interaction|What possible threads of Operational Process Activities have to be carried out to achieve the Operational Story main and alternative goals?||[Operational Interaction Viewpoint](viewpoints/Operational-Interaction-Viewpoint.md)|
 |interaction|What validation scenarios have to be carried out to check on the solution validity?||[Operational Interaction Viewpoint](viewpoints/Operational-Interaction-Viewpoint.md)|
-|nonfunctional|What are the Requirements of environmental conditions imposed on the system?||[Stakeholder Requirement Viewpoint](viewpoints/Stakeholder-Requirement-Viewpoint.md), [System Requirement Viewpoint](viewpoints/System-Requirement-Viewpoint.md)|
+|nonfunctional|What are the requirements of environmental conditions imposed on the system?||[Stakeholder Requirement Viewpoint](viewpoints/Stakeholder-Requirement-Viewpoint.md), [System Requirement Viewpoint](viewpoints/System-Requirement-Viewpoint.md)|
 |nonfunctional|What is the range of acceptable system performance, i.e. the critical, top-level Performance Requirements derived from the Operational Needs?||[Stakeholder Requirement Viewpoint](viewpoints/Stakeholder-Requirement-Viewpoint.md), [System Requirement Viewpoint](viewpoints/System-Requirement-Viewpoint.md)|
 |organization|Have the logical decomposition guidelines been followed?|[System Architect](stakeholders.md#System-Architect)||
-|organization|In which systems (Projects) is the HW item used?|||
+|organization|In which systems (projects?) is the HW item used?|||
 |organization|What Performers or Resources are necessary to operate the intended solution?|[Acquirer](stakeholders.md#Acquirer), [System Architect](stakeholders.md#System-Architect)|[Operational Context Definition Viewpoint](viewpoints/Operational-Context-Definition-Viewpoint.md)|
 |organization|What are the differences of the HW item in different projects
-(clarify, is this the same as the question for variants ? )|||
+(clarify, is this the same as the question for variants?)|||
 |organization|What are the normal and extreme environmental conditions for normal operation, for not operational, for storage and for transport?|[Acquirer](stakeholders.md#Acquirer), [Customer](stakeholders.md#Customer), [Hardware Developer](stakeholders.md#Hardware-Developer), [Supplier](stakeholders.md#Supplier), [System Architect](stakeholders.md#System-Architect)|[Stakeholder Requirement Viewpoint](viewpoints/Stakeholder-Requirement-Viewpoint.md)|
 |organization|What are the relationships between the partys involved in the operation of the intended solution?||[Operational Performer Viewpoint](viewpoints/Operational-Performer-Viewpoint.md)|
 |organization|What existing elements of the organization, enterprise, or operational entity need to be integrated in the intended solution?|[Acquirer](stakeholders.md#Acquirer), [System Architect](stakeholders.md#System-Architect)||
@@ -128,14 +127,18 @@
 |organization|What is the risk involved with each development item?|[Project Manager](stakeholders.md#Project-Manager)||
 |organization|What is the task executed by an organization, enterprise, or operational entity in the Operational Context?|[System Architect](stakeholders.md#System-Architect)||
 |organization|What is the time schedule for delivering the functions?|[Acquirer](stakeholders.md#Acquirer)||
-|organization|What partys of the organization, enterprise, or operational entity are needed to achieve an intended Operational Capability?||[Operational Performer Viewpoint](viewpoints/Operational-Performer-Viewpoint.md)|
+|organization|What partys of the organization, enterprise, or operational entity are needed to achieve an intended operational capability?||[Operational Performer Viewpoint](viewpoints/Operational-Performer-Viewpoint.md)|
 |organization|What system elements are make-items, reuse items or COTS?|[System Architect](stakeholders.md#System-Architect)||
 |organization|When do product functions or features become available?|[Project Manager](stakeholders.md#Project-Manager)||
 |organization|Which development effort is associated with each individual element?|[Project Manager](stakeholders.md#Project-Manager)||
 |organization|Which functions/functional requirements are assigned to a HW item?|||
 |organization|Which variants of a HW item need to be provided?|[Hardware Developer](stakeholders.md#Hardware-Developer)||
 |organization|Which versions of a HW item exist?
-(are versions the same as variants ? or does it mean revisions ? clarification needed!)|||
+(are versions the same as variants ? or does it mean revisions? clarification needed!)|||
+|reliability|What are the reliability requirements of functions assigned to SW that is allocated to the HW item?|||
+|reliability|What are the reliability requirements of functions assigned to the HW items?|||
+|reliability|What is the allocated reliability for a single function?|[Hardware Developer](stakeholders.md#Hardware-Developer)||
+|reliability|What is the allocated reliability for the complete item?|[Hardware Developer](stakeholders.md#Hardware-Developer)||
 |requirement|What are precision and accuracy requirements for presentation of data items on an interface?|[Software Developer](stakeholders.md#Software-Developer)||
 |requirement|What are precision and accuracy requirements for processing of data items?|[Software Developer](stakeholders.md#Software-Developer)||
 |requirement|What are the Functional Requirements imposed on the systemI?||[System Requirement Viewpoint](viewpoints/System-Requirement-Viewpoint.md)|
@@ -146,31 +149,27 @@
 |requirement|What is the necessary processing performance?|[Hardware Developer](stakeholders.md#Hardware-Developer)||
 |requirement|What is the priority of upper level requirements the HW item depends of?|||
 |requirement|what has to be validated to the customer at system level?|||
-|safety / reliability|Analyse architecture with safety in mind e.g.: isolate safety critical parts with the goal to reduce overall criticality|||
-|safety / reliability|Are safety related design principles) followed e.g. segregation of monitors or independence or redundant elements?|[IV&V Engineer](stakeholders.md#IV&V-Engineer), [Safety Expert](stakeholders.md#Safety-Expert), [System Architect](stakeholders.md#System-Architect)||
-|safety / reliability|Collect and maintain building blocks for safety analysis: opscon, typical hazards, typical harm scenarios, typical failure modes |||
-|safety / reliability|Conduct impact analysis on safety when architecture changes (clarify - also vice versa?)|||
-|safety / reliability|Conduct safety audit on SITP, having traceability to safety analysis in SITP - SITP shows that level of rigor is derived from safety analysis - SITP allows review of safety relevant test actions |||
-|safety / reliability|Full traceability of safety information over requirements, architecture into design artifacts. Supports "rechtssichere dokumentation"|||
-|safety / reliability|How are safety features verified?|[Safety Expert](stakeholders.md#Safety-Expert)||
-|safety / reliability|How does criticality propagate down the system hierarchy?|[Safety Expert](stakeholders.md#Safety-Expert), [System Architect](stakeholders.md#System-Architect)||
-|safety / reliability|How is a critical function decomposed and allocated?|[Safety Expert](stakeholders.md#Safety-Expert), [System Architect](stakeholders.md#System-Architect)||
-|safety / reliability|Prove product safety to customer|||
-|safety / reliability|Rechtssichere Dokumentation aufgrund Beweislastumkehr aus prodHaftG. und prodSG.|||
-|safety / reliability|Reuse safety analysis on reuse of architecture elements, conduct analysis|||
-|safety / reliability|What are the contributors (SW and HW items contributing to a critical function) to a critical function?|[Safety Expert](stakeholders.md#Safety-Expert)||
-|safety / reliability|What are the failure modes of a system function?|[Safety Expert](stakeholders.md#Safety-Expert)||
-|safety / reliability|What are the hazards of a system function in an identified situation (context + scenario)?|[Safety Expert](stakeholders.md#Safety-Expert)||
-|safety / reliability|What are the inputs to a critical function?|[Safety Expert](stakeholders.md#Safety-Expert)||
-|safety / reliability|What are the planned architectural means for risk mitigation?|[Acquirer](stakeholders.md#Acquirer), [Customer](stakeholders.md#Customer), [Safety Expert](stakeholders.md#Safety-Expert), [System Architect](stakeholders.md#System-Architect)||
-|safety / reliability|What are the reliability requirements of functions assigned to SW that is allocated to the HW item?|||
-|safety / reliability|What are the reliability requirements of functions assigned to the HW items?|||
-|safety / reliability|What is the allocated reliability for a single function?|[Hardware Developer](stakeholders.md#Hardware-Developer)||
-|safety / reliability|What is the allocated reliability for the complete item?|[Hardware Developer](stakeholders.md#Hardware-Developer)||
-|safety / reliability|What is the criticality (in terms of safety) of the HW item?|||
-|safety / reliability|What is the possible harm in utilizing the system?|[Safety Expert](stakeholders.md#Safety-Expert)||
-|safety / reliability|Which upper level hazards can be caused by the HW item because of assigned functions?|||
-|safety / reliability|Who provides the inputs to a critical function?|[Acquirer](stakeholders.md#Acquirer), [Customer](stakeholders.md#Customer), [Hardware Developer](stakeholders.md#Hardware-Developer), [IV&V Engineer](stakeholders.md#IV&V-Engineer), [Project Manager](stakeholders.md#Project-Manager), [Safety Expert](stakeholders.md#Safety-Expert), [Software Developer](stakeholders.md#Software-Developer), [System Architect](stakeholders.md#System-Architect)||
+|safety|Analyse architecture with safety in mind e.g.: isolate safety critical parts with the goal to reduce overall criticality|||
+|safety|Are safety related design principles) followed e.g. segregation of monitors or independence or redundant elements?|[IV&V Engineer](stakeholders.md#IV&V-Engineer), [Safety Expert](stakeholders.md#Safety-Expert), [System Architect](stakeholders.md#System-Architect)||
+|safety|Collect and maintain building blocks for safety analysis: opscon, typical hazards, typical harm scenarios, typical failure modes |||
+|safety|Conduct impact analysis on safety when architecture changes (clarify - also vice versa?)|||
+|safety|Conduct safety audit on SITP, having traceability to safety analysis in SITP - SITP shows that level of rigor is derived from safety analysis - SITP allows review of safety relevant test actions |||
+|safety|Full traceability of safety information over requirements, architecture into design artifacts. Supports "rechtssichere dokumentation"|||
+|safety|How are safety features verified?|[Safety Expert](stakeholders.md#Safety-Expert)||
+|safety|How does criticality propagate down the system hierarchy?|[Safety Expert](stakeholders.md#Safety-Expert), [System Architect](stakeholders.md#System-Architect)||
+|safety|How is a critical function decomposed and allocated?|[Safety Expert](stakeholders.md#Safety-Expert), [System Architect](stakeholders.md#System-Architect)||
+|safety|Prove product safety to customer|||
+|safety|Rechtssichere Dokumentation aufgrund Beweislastumkehr aus prodHaftG. und prodSG.|||
+|safety|Reuse safety analysis on reuse of architecture elements, conduct analysis|||
+|safety|What are the contributors (SW and HW items contributing to a critical function) to a critical function?|[Safety Expert](stakeholders.md#Safety-Expert)||
+|safety|What are the failure modes of a system function?|[Safety Expert](stakeholders.md#Safety-Expert)||
+|safety|What are the hazards of a system function in an identified situation (context + scenario)?|[Safety Expert](stakeholders.md#Safety-Expert)||
+|safety|What are the inputs to a critical function?|[Safety Expert](stakeholders.md#Safety-Expert)||
+|safety|What are the planned architectural means for risk mitigation?|[Acquirer](stakeholders.md#Acquirer), [Customer](stakeholders.md#Customer), [Safety Expert](stakeholders.md#Safety-Expert), [System Architect](stakeholders.md#System-Architect)||
+|safety|What is the criticality (in terms of safety) of the HW item?|||
+|safety|What is the possible harm in utilizing the system?|[Safety Expert](stakeholders.md#Safety-Expert)||
+|safety|Which upper level hazards can be caused by the HW item because of assigned functions?|||
+|safety|Who provides the inputs to a critical function?|[Acquirer](stakeholders.md#Acquirer), [Customer](stakeholders.md#Customer), [Hardware Developer](stakeholders.md#Hardware-Developer), [IV&V Engineer](stakeholders.md#IV&V-Engineer), [Project Manager](stakeholders.md#Project-Manager), [Safety Expert](stakeholders.md#Safety-Expert), [Software Developer](stakeholders.md#Software-Developer), [System Architect](stakeholders.md#System-Architect)||
 |security|How is the interface between different domains protected?|[Security Expert](stakeholders.md#Security-Expert)||
 |security|How to identify and record security flaws and breaches of the system?|||
 |security|How to penetrate the system?|||
@@ -193,7 +192,10 @@
 |stakeholder|Which Stakeholder are relevant to the system and might impose requirements?|[System Architect](stakeholders.md#System-Architect)|[Stakeholder Identification Viewpoint](viewpoints/Stakeholder-Identification-Viewpoint.md)|
 |stakeholder|Which external entities (external systems, roles, environment, etc.) does a Stakeholder represent?||[Stakeholder Identification Viewpoint](viewpoints/Stakeholder-Identification-Viewpoint.md)|
 |stakeholder|Who are the Stakeholders involved in the intended solution?|[Acquirer](stakeholders.md#Acquirer), [Supplier](stakeholders.md#Supplier), [System Architect](stakeholders.md#System-Architect)|[Stakeholder Identification Viewpoint](viewpoints/Stakeholder-Identification-Viewpoint.md)|
-|story|Which is the Operational Story task accomplished by which operational entities in the Operational Context?||[Operational Story Viewpoint](viewpoints/Operational-Story-Viewpoint.md)|
+|story|For what purpose is the system of interest developed or adapted?|[Project Manager](stakeholders.md#Project-Manager) ***(User Story) In my role, I need to check if the project order is implemented correctly.***, [System Architect](stakeholders.md#System-Architect) ***(User Story) In my role, I need to know this in order to be able to further design the system in an appropriate way.***|[System UseCase Viewpoint](viewpoints/System-UseCase-Viewpoint.md)|
+|story|For what purpose is the system of systems developed or adapted?|||
+|story|Which is the operational scenario, i.e., course of action, for the mission and the context in which the system of systems solution will exist?||[Operational Story Viewpoint](viewpoints/Operational-Story-Viewpoint.md)|
+|story|Which is the system scenario, i.e., course of action, for the context in which the system of interest solution will exist?|[System Architect](stakeholders.md#System-Architect) ***(User Story) In my role, I need to know this in order to be able to further design the system in an appropriate way.***|[System UseCase Viewpoint](viewpoints/System-UseCase-Viewpoint.md)|
 |structure|What are the HW components to be provided?|[Project Manager](stakeholders.md#Project-Manager)|[Physical Structure Viewpoint](viewpoints/Physical-Structure-Viewpoint.md)|
 |structure|What are the SW components to be provided?|[Project Manager](stakeholders.md#Project-Manager)|[Physical Structure Viewpoint](viewpoints/Physical-Structure-Viewpoint.md)|
 |structure|What are the configuration items in the physical architecture?|[System Architect](stakeholders.md#System-Architect)|[Physical Structure Viewpoint](viewpoints/Physical-Structure-Viewpoint.md)|
@@ -205,26 +207,23 @@
 |structure|What physical items are used building up the system?|[Security Expert](stakeholders.md#Security-Expert)|[Physical Structure Viewpoint](viewpoints/Physical-Structure-Viewpoint.md)|
 |structure|Which physical items the SOI is built of?|[Acquirer](stakeholders.md#Acquirer)|[Physical Structure Viewpoint](viewpoints/Physical-Structure-Viewpoint.md)|
 |structure|what is the decomposition hierarchy of the system/logical elements||[Physical Structure Viewpoint](viewpoints/Physical-Structure-Viewpoint.md)|
-|traceability / allocation|How are applicable requirements considered in the system architecture?|[Regulation Authority](stakeholders.md#Regulation-Authority), [System Architect](stakeholders.md#System-Architect)|[Logical Structure Viewpoint](viewpoints/Logical-Structure-Viewpoint.md)|
-|traceability / allocation|How do the logical system elements interact to fulfill the designated system function?||[Logical Internal Exchange Viewpoint](viewpoints/Logical-Internal-Exchange-Viewpoint.md)|
-|traceability / allocation|Provide tabular overview of main SOV artefacts for checks on completeness and consistency.|||
-|traceability / allocation|Show in a concise manner the relationships from Operational Capability to Operational Story, to Operational Activity, and to Operational Performer.||[Operational Capability Traceability Viewpoint](viewpoints/Operational-Capability-Traceability-Viewpoint.md)|
-|traceability / allocation|Show in a concise manner the relationships from Operational Process to Operational Story and to Operational Performer.||[Operational Process Traceability Viewpoint](viewpoints/Operational-Process-Traceability-Viewpoint.md)|
-|traceability / allocation|What amount of processing resources of an HW item will be consumed by the allocated software?|||
-|traceability / allocation|What are the scenarios a system function is utilized in?|[Acquirer](stakeholders.md#Acquirer), [Customer](stakeholders.md#Customer), [Operator](stakeholders.md#Operator), [Safety Expert](stakeholders.md#Safety-Expert), [Security Expert](stakeholders.md#Security-Expert), [Supplier](stakeholders.md#Supplier), [System Architect](stakeholders.md#System-Architect), [User](stakeholders.md#User)||
-|traceability / allocation|What is the allocation of functions to the physical architecture?|[System Architect](stakeholders.md#System-Architect)||
-|traceability / allocation|What is the rational if requirements are not considered?|[Customer](stakeholders.md#Customer), [Project Manager](stakeholders.md#Project-Manager), [Regulation Authority](stakeholders.md#Regulation-Authority), [Safety Expert](stakeholders.md#Safety-Expert), [Security Expert](stakeholders.md#Security-Expert), [System Architect](stakeholders.md#System-Architect)||
-|traceability / allocation|What is the rationale for this System Requirement?||[System Requirement Traceability Viewpoint](viewpoints/System-Requirement-Traceability-Viewpoint.md)|
-|traceability / allocation|Which Stakeholder Requirements are addressed by a System Requirement?||[System Requirement Traceability Viewpoint](viewpoints/System-Requirement-Traceability-Viewpoint.md)|
-|traceability / allocation|Which Stakeholder requirements are addressed by System requirements|||
-|traceability / allocation|Which System Function is addressed by a System Requirement?||[System Requirement Traceability Viewpoint](viewpoints/System-Requirement-Traceability-Viewpoint.md)|
-|traceability / allocation|Which System Interface is addressed by a System Requirement?||[System Requirement Traceability Viewpoint](viewpoints/System-Requirement-Traceability-Viewpoint.md)|
-|traceability / allocation|Which System function is addressed by System requirements?|||
-|traceability / allocation|Which functions and services need to be implemented in SW?|[Software Developer](stakeholders.md#Software-Developer)||
-|traceability / allocation|Which functions/functional requirements are assigned to a logical item?|||
-|traceability / allocation|Which interface data types depends a SW item of?|||
-|traceability / allocation|Which logical system elements are involved in a interaction for the designated system function?  |||
-|traceability / allocation|Which system function is addressed by system requirement?|[System Architect](stakeholders.md#System-Architect)||
-|traceability / allocation|Which system functions are dependent on a systems mode or state?|[System Architect](stakeholders.md#System-Architect)|[System State Viewpoint](viewpoints/System-State-Viewpoint.md)|
-|traceability / allocation|Which upper requirements, including Stakeholder Requirements does the HW item depend on?|||
-|traceability / allocation|Which upper requirements, including Stakeholder Requirements does the logical item depend on?|||
+|traceability & allocation|How are applicable requirements considered in the system architecture?|[Regulation Authority](stakeholders.md#Regulation-Authority), [System Architect](stakeholders.md#System-Architect)|[Logical Structure Viewpoint](viewpoints/Logical-Structure-Viewpoint.md)|
+|traceability & allocation|How do the logical system elements interact to fulfill the designated system function?||[Logical Internal Exchange Viewpoint](viewpoints/Logical-Internal-Exchange-Viewpoint.md)|
+|traceability & allocation|Provide tabular overview of main SOV artefacts for checks on completeness and consistency.|||
+|traceability & allocation|Show in a concise manner the relationships from operational capability to operational story, to operational activity, and to operational performer.||[Operational Capability Traceability Viewpoint](viewpoints/Operational-Capability-Traceability-Viewpoint.md)|
+|traceability & allocation|Show in a concise manner the relationships from operational process to operational story and to operational performer.||[Operational Process Traceability Viewpoint](viewpoints/Operational-Process-Traceability-Viewpoint.md)|
+|traceability & allocation|What amount of processing resources of an HW item will be consumed by the allocated software?|||
+|traceability & allocation|What are the scenarios a system function is utilized in?|[Acquirer](stakeholders.md#Acquirer), [Customer](stakeholders.md#Customer), [Operator](stakeholders.md#Operator), [Safety Expert](stakeholders.md#Safety-Expert), [Security Expert](stakeholders.md#Security-Expert), [Supplier](stakeholders.md#Supplier), [System Architect](stakeholders.md#System-Architect), [User](stakeholders.md#User)||
+|traceability & allocation|What is the allocation of functions to the physical architecture?|[System Architect](stakeholders.md#System-Architect)||
+|traceability & allocation|What is the rational if requirements are not considered?|[Customer](stakeholders.md#Customer), [Project Manager](stakeholders.md#Project-Manager), [Regulation Authority](stakeholders.md#Regulation-Authority), [Safety Expert](stakeholders.md#Safety-Expert), [Security Expert](stakeholders.md#Security-Expert), [System Architect](stakeholders.md#System-Architect)||
+|traceability & allocation|What is the rationale for this System Requirement?||[System Requirement Traceability Viewpoint](viewpoints/System-Requirement-Traceability-Viewpoint.md)|
+|traceability & allocation|Which functions and services need to be implemented in SW?|[Software Developer](stakeholders.md#Software-Developer)||
+|traceability & allocation|Which functions/functional requirements are assigned to a logical item?|||
+|traceability & allocation|Which interface data types depends a SW item of?|||
+|traceability & allocation|Which logical system elements are involved in a interaction for the designated system function?  |||
+|traceability & allocation|Which stakeholder requirements are addressed by system requirements?|||
+|traceability & allocation|Which system Interface is addressed by a system requirement?||[System Requirement Traceability Viewpoint](viewpoints/System-Requirement-Traceability-Viewpoint.md)|
+|traceability & allocation|Which system function is addressed by system requirement?|[System Architect](stakeholders.md#System-Architect)||
+|traceability & allocation|Which system functions are dependent on a systems mode or state?|[System Architect](stakeholders.md#System-Architect)|[System State Viewpoint](viewpoints/System-State-Viewpoint.md)|
+|traceability & allocation|Which upper requirements, including Stakeholder Requirements does the HW item depend on?|||
+|traceability & allocation|Which upper requirements, including stakeholder requirements does the logical item depend on?|||

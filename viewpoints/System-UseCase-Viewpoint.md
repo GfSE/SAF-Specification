@@ -13,8 +13,10 @@ The Sytem Story Viewpoint supports the "Stakeholder Needs and Requirements Defin
 * [System Architect](../stakeholders.md#System-Architect)
 * [User](../stakeholders.md#User)
 ## Concern
+* For what purpose is the system of interest developed or adapted?
 * How is the system being used or utilized and interacting with other external systems to satisfy user needs?
 * How will the system be used by whom and which contextual elements are involved?
+* Which is the system scenario, i.e., course of action, for the context in which the system of interest solution will exist?
 ## Presentation
 A use case diagram depicting model elements representing System Story(s) and System Context Element(s) shall be used.
 

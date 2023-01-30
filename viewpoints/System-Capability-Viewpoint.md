@@ -13,7 +13,7 @@ The System Capability Viewpoint supports the "[tbd]" activities of the INCOSE SY
 * [System Architect](../stakeholders.md#System-Architect)
 * [User](../stakeholders.md#User)
 ## Concern
-* What are the Capabilities that are supported by the system?
+* What are the capabilities that are supported by the system?
 ## Presentation
 The result of the [tbd] process is one or more block definition diagram(s) (BDD) featuring System Capability(s) and their composition, specialization and dependency relationship(s).
 

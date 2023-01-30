@@ -31,9 +31,7 @@ The System Requirement Traceability Viewpoint supports the "System Requirements 
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
 * What is the rationale for this System Requirement?
-* Which Stakeholder Requirements are addressed by a System Requirement?
-* Which System Function is addressed by a System Requirement?
-* Which System Interface is addressed by a System Requirement?
+* Which system Interface is addressed by a system requirement?
 ## Presentation
 A System Requirement Dependency Matrix featuring relationship(s) from every SOI System Requirement(s) to element(s) such as
 * System Story

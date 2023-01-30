@@ -14,7 +14,7 @@ The Operational Performer Viewpoint supports the "Business or Mission Analysis P
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
 * What are the relationships between the partys involved in the operation of the intended solution?
-* What partys of the organization, enterprise, or operational entity are needed to achieve an intended Operational Capability?
+* What partys of the organization, enterprise, or operational entity are needed to achieve an intended operational capability?
 * Which Operational Performer will operate or run the system?
 ## Presentation
 A block definition diagram (BDD) depicts Operational Performer(s) and their relation(s) in terms of decomposition or generalization at a level of detail required for the understanding and analysis. 

@@ -1,15 +1,13 @@
 ![System Architecture Framework](diagrams/Logo_SAF.png)
 # SAF Stakeholders
 ![SAF_Stakeholder_Definition](diagrams/SAF_stakeholder_definition.svg)
-This section provides a list of the Stakeholder roles considered in the development of the architecture described by SAF. For each, the section lists the concerns that the Stakeholder has that can be addressed by the information in this SAF framework.
+This section provides a list of the Stakeholder roles considered for the elicitaiton of converns for SAF viewpoints. For each, the section lists the concerns that the Stakeholder has that can be addressed by the information in this SAF framework.
 
 Each Stakeholder of a system - customer, user, project manager, coder, analyst, tester, and so on - is concerned with different characteristics of the system that are affected by its architecture.
 
-For example, the user is concerned that the system is reliable and available when needed; the customer is concerned that the architecture can be implemented on schedule and to budget; the manager is worried (in addition to cost and schedule) that the architecture will allow teams to work largely independently, interacting in disciplined and controlled ways.
+For example, the user has specific concerns which interactions he or sh has with the system.; the customer is has a concern if and how the operational capabilities are supported by the system.
 
-The system architect is worried about strategies to achieve all of those goals.
-
-The security analyst is concerned that the system will meet its information assurance requirements, and the performance analyst is similarly concerned with it satisfying real-time deadlines.
+The stakeholders concerns vary with project phases, e.g. the system architect needs to make sure before a PDR, that the systems function are delegated to subsystems completely, and to communicate this to subsystem responsibles.
 
 
 The following subchapters describe the stakeholders and their concerns:
@@ -29,7 +27,7 @@ He is responsible for providing a feasible solution within a given budget. The A
 * What Performers or Resources are necessary to operate the intended solution?
 * What are necessary enabling systems?
 * What are necessary inputs for operating the system expected to be provided by other external entitys?
-* What are the Capabilities that are supported by the system?
+* What are the capabilities that are supported by the system?
 * What are the different contexts the system is embedded and utilized in?
 * What are the external physical entities the system interacts with in the respective context?
 * What are the geographical and physical locations of the intended / proposed elements of the solution?
@@ -39,7 +37,7 @@ He is responsible for providing a feasible solution within a given budget. The A
 * What existing elements of the organization, enterprise, or operational entity need to be integrated in the intended solution?
 * What is the System Boundary definition?
 * What is the cost for each required function?
-* What is the lack / deficiency / gap in current Capability implementation that is addressed with the intended solution?
+* What is the lack / deficiency / gap in current capability implementation that is addressed with the intended solution?
 * What is the necessary response time for an interface or a service?
 * What is the priority of each function?
 * What is the time schedule for delivering the functions?
@@ -51,13 +49,6 @@ He is responsible for providing a feasible solution within a given budget. The A
 * Which physical items the SOI is built of?
 * Who are the Stakeholders involved in the intended solution?
 * Who provides the inputs to a critical function?
-# Architecture Framework Stakeholder
-Definition - Architecture Framework Stakeholder:
-The Architecture Framework Stakeholder is a generic Stakeholder class more specific Stakeholder(s). The derived Stakeholder(s) have concern(s) regarding the architecture framework description(s). Most of these concern(s) are addressed by SAF Viewpoint(s).
-
-*Note: Den Framework Stakeholder braucht SAF für die SAF Entwicklung, denn ein Architecture Framework Stakeholder ist dann ein solcher, wenn er, der Architecture Framework Stakeholder, Requirement(s) / Concern(s) hat, die zu VP führen bzw. durch VP befriedigt werden.*
-
-## Concern
 # Customer
 Definition - Customer (also Acquirer):
 organization or person that receives a product or service, [ISO/IEC 15288:2015 –Systems engineering - System life-cycle processes]
@@ -66,9 +57,6 @@ The Customer is an organization or person that receives a product. Examples: Con
 ## Concern
 * How does a system function interact with its environment?
 * How is the system being used or utilized and interacting with other external systems to satisfy user needs?
-* What Operational Capabilitys are defined? 
-
-  ***Rationale:  Needed because the definition of capabilities allows communication about what is to achieved to seperate from how it is achieved on operational level.***
 * What are necessary enabling systems?
 * What are necessary inputs for operating the system expected to be provided by other external entitys?
 * What are the different contexts the system is embedded and utilized in?
@@ -80,6 +68,9 @@ The Customer is an organization or person that receives a product. Examples: Con
 * What is the necessary response time for an interface or a service?
 * What is the rational if requirements are not considered?
 * What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
+* What operational capabilities are defined? 
+
+  ***Rationale:  (Operational capability) In my role, I need to specify capabilities because the definition of capabilities allows communication about what is to be achieved to be separated from how it is achieved at an operational level. ***
 * What services are expected from external entities?
 * What shall be validated to the customer at system level?
 * Which functions will the system provide?
@@ -138,6 +129,9 @@ IV&V Engineers are individuals or groups responsible for integration, validation
 ## Concern
 * Are safety related design principles) followed e.g. segregation of monitors or independence or redundant elements?
 * How are error states handled?
+* How does a system function interact with its environment? 
+
+  ***Rationale:  (Environment interaction) In my role, I need to perform the integration of the system into its deployment environment.***
 * How does the elements of the test environment interact with each other?
 * How does the system or a system element interact with the test environment?
 * What additional information the system or a system element needs to generate to enable testing?
@@ -147,7 +141,12 @@ IV&V Engineers are individuals or groups responsible for integration, validation
 * What is the sequence of interactions among the system and context elements
 * What kind of test equipment is necessary to test the system elements?
 * What shall be validated to the customer at system level?
-* Which modes and states does the system have?
+* Which functions will the system provide? 
+
+  ***Rationale:  (System function) In my role, I need to understand the system in order to put it into operation.***
+* Which modes and states does the system have? 
+
+  ***Rationale:  (Mode and state) in my role, I need to understand the system in order to put it into operation.***
 * Who provides the inputs to a critical function?
 # Maintainer
 Definition - Maintainer
@@ -195,9 +194,9 @@ The example illustrates, that the roles user and operator are depending heavily 
 
 
 ## Concern
-* What Operational Capabilitys are defined? 
+* What operational capabilities are defined? 
 
-  ***Rationale:  I need to plan the systems capabilities to support operational capabilities.***
+  ***Rationale:  (System capability) In my role, I need to plan the system capabilities to support operational capabilities.***
 # Project Manager
 Definition - Project Manager: The responsibility of the Project Manager is to make the right resources with the right skills available in time to get the identified work done. 
 
@@ -208,6 +207,9 @@ A clear definition of the solution for the stated problem allows planning to be 
 Systems Engineering creates a clear and manageable system structure, which is the basis for project planning and task assignment.
 
 ## Concern
+* For what purpose is the system of interest developed or adapted? 
+
+  ***Rationale:  (User Story) In my role, I need to check if the project order is implemented correctly.***
 * What are the HW components to be provided?
 * What are the SW components to be provided?
 * What are the system delivery standards?
@@ -331,13 +333,13 @@ The Supplier is the organization or individual that enters into an agreement wit
 ## Concern
 * What are necessary enabling systems?
 * What are necessary inputs for operating the system expected to be provided by other external entitys?
-* What are the Capabilities that are supported by the system?
+* What are the capabilities that are supported by the system?
 * What are the external physical entities the system interacts with in the respective context?
 * What are the geographical and physical locations of the intended / proposed elements of the solution?
 * What are the normal and extreme environmental conditions for normal operation, for not operational, for storage and for transport?
 * What are the scenarios a system function is utilized in?
 * What is the System Boundary definition?
-* What is the lack / deficiency / gap in current Capability implementation that is addressed with the intended solution?
+* What is the lack / deficiency / gap in current capability implementation that is addressed with the intended solution?
 * What services are expected from external entities?
 * Who are the Stakeholders involved in the intended solution?
 # System Architect
@@ -346,11 +348,16 @@ The System Architect as an individual or group performing the systems engineerin
 
 ## Concern
 * Are safety related design principles) followed e.g. segregation of monitors or independence or redundant elements?
+* For what purpose is the system of interest developed or adapted? 
+
+  ***Rationale:  (User Story) In my role, I need to know this in order to be able to further design the system in an appropriate way.***
 * Have the logical decomposition guidelines been followed?
 * How are applicable requirements considered in the system architecture?
 * How are error states handled?
 * How do internal system elements interact with each other to provide the system function or service?
-* How does a system function interact with its environment?
+* How does a system function interact with its environment? 
+
+  ***Rationale:  (Environment interaction) In my role, I need to delegate the realization of interfaces to subsystems.***
 * How does criticality propagate down the system hierarchy?
 * How does the elements of the test environment interact with each other?
 * How does the system or a system element interact with the test environment?
@@ -360,7 +367,7 @@ The System Architect as an individual or group performing the systems engineerin
 * What additional information the system or a system element needs to generate to enable testing?
 * What are necessary enabling systems?
 * What are necessary inputs for operating the system expected to be provided by other external entitys?
-* What are the Capabilities that are supported by the system?
+* What are the capabilities that are supported by the system?
 * What are the configuration items in the physical architecture?
 * What are the consequences, if the Stakeholder’s concerns are not considered?
 * What are the different contexts the system is embedded and utilized in?
@@ -380,7 +387,7 @@ The System Architect as an individual or group performing the systems engineerin
 * What is the context of the organization, enterprise, or operational entity?
 * What is the flow of critical information and data through the system?
 * What is the functional scope of each system delivery standard?
-* What is the lack / deficiency / gap in current Capability implementation that is addressed with the intended solution?
+* What is the lack / deficiency / gap in current capability implementation that is addressed with the intended solution?
 * What is the necessary accuracy and resolution for processing?
 * What is the necessary response time for an interface or a service?
 * What is the physical breakdown of the system?
@@ -392,19 +399,20 @@ The System Architect as an individual or group performing the systems engineerin
 * What shall be validated to the customer at system level?
 * What system elements are make-items, reuse items or COTS?
 * Which Stakeholder are relevant to the system and might impose requirements?
-* Which functions will the system provide?
+* Which functions will the system provide? 
+
+  ***Rationale:  (System function) In my role, I need to break these down further to be able to delegate sub-functions to subsystems.***
 * Which information is exchanged between the system and external entitys?
-* Which modes and states does the system have?
+* Which is the system scenario, i.e., course of action, for the context in which the system of interest solution will exist? 
+
+  ***Rationale:  (User Story) In my role, I need to know this in order to be able to further design the system in an appropriate way.***
+* Which modes and states does the system have? 
+
+  ***Rationale:  (Mode and state) in my role, I need to understand the required system behavior in order to further design the system.***
 * Which system function is addressed by system requirement?
 * Which system functions are dependent on a systems mode or state?
 * Who are the Stakeholders involved in the intended solution?
 * Who provides the inputs to a critical function?
-# System of Interest Stakeholder
-Definition - System of Interest Stakeholder:
-[SAF] the SOI Stakeholder is a generic Stakeholder. Imposes Stakeholder Requirement(s) on the system. The derived Stakeholder(s) have concern(s).
-Note: Der SOI Stakeholder könnte SAF für SAF Entwicklung egal sein, denn SOI Stakeholder haben Requirement(s) / Concern(s) bezüglich eines mit dem SAF Framework zu entwickelnden Systems.
-
-## Concern
 # User
 Definition - User:
 individual or group that interacts with a system or benefits from a system during its utilization, [ISO/IEC 15288:2015 - Systems engineering - System life-cycle processes]

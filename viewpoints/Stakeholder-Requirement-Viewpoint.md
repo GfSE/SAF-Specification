@@ -15,8 +15,8 @@ The Stakeholder Requirement Viewpoint supports the "Stakeholder Needs and Requir
 * [Supplier](../stakeholders.md#Supplier)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* What are the Requirements of environmental conditions imposed on the system?
 * What are the normal and extreme environmental conditions for normal operation, for not operational, for storage and for transport?
+* What are the requirements of environmental conditions imposed on the system?
 * What are the requirements that a Stakeholder imposes to the system?
 * What defines a valid solution towards the customer?
 * What is the range of acceptable system performance, i.e. the critical, top-level Performance Requirements derived from the Operational Needs?

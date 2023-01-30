@@ -13,7 +13,7 @@ The Operational Capability Traceability Viewpoint supports the "Business or Miss
 * [Supplier](../stakeholders.md#Supplier)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* Show in a concise manner the relationships from Operational Capability to Operational Story, to Operational Activity, and to Operational Performer.
+* Show in a concise manner the relationships from operational capability to operational story, to operational activity, and to operational performer.
 ## Presentation
 The relationship(s) of Operational Capability(s) to Operational Story(s) and to Operational Performer(s) are represented in a table format.
 
