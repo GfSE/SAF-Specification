@@ -28,6 +28,7 @@ The Common Evidence Pattern Viewpoint supports the ability to present an evidenc
 * [SAF_EvidenceArgumentReinforcement](../stereotypes.md#SAF_EvidenceArgumentReinforcement)
 * [SAF_SCV02a_View](../stereotypes.md#SAF_SCV02a_View)
 * [SAF_Stakeholder](../stereotypes.md#SAF_Stakeholder)
+* [SAF_Stakeholder](../stereotypes.md#SAF_Stakeholder)
 * [SAF_Subject](../stereotypes.md#SAF_Subject)
 ## Input from other Viewpoints
 ### Required Viewpoints

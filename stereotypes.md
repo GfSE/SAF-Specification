@@ -233,6 +233,10 @@ implements viewpoint [Operational Process Traceability Viewpoint](viewpoints/Ope
 implements viewpoint [Physical Context Definition Viewpoint](viewpoints/Physical-Context-Definition-Viewpoint.md)
 
 
+## SAF_SPV04b_View 
+implements viewpoint [Physical Internal Exchange Viewpoint](viewpoints/Physical-Internal-Exchange-Viewpoint.md)
+
+
 ## SAF_Stakeholder 
 Stakeholder imposing stakeholder requirements to a system.
 ## SAF_StakeholderRelation 

@@ -66,11 +66,11 @@ The Customer is an organization or person that receives a product. Examples: Con
 * What are the scenarios a system function is utilized in?
 * What is the System Boundary definition?
 * What is the necessary response time for an interface or a service?
-* What is the rational if requirements are not considered?
+* What is the rationale when requirements are not considered?
 * What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
 * What operational capabilities are defined? 
 
-  ***Rationale:  (Operational capability) In my role, I need to specify capabilities because the definition of capabilities allows communication about what is to be achieved to be separated from how it is achieved at an operational level. ***
+  ***Rationale:  In my role, I need to specify capabilities because the definition of capabilities allows communication about what is to be achieved to be separated from how it is achieved at an operational level. ***
 * What services are expected from external entities?
 * What shall be validated to the customer at system level?
 * Which functions will the system provide?
@@ -131,11 +131,17 @@ IV&V Engineers are individuals or groups responsible for integration, validation
 * How are error states handled?
 * How does a system function interact with its environment? 
 
-  ***Rationale:  (Environment interaction) In my role, I need to perform the integration of the system into its deployment environment.***
+  ***Rationale:  In my role, I need to perform the integration of the system into its deployment environment.***
 * How does the elements of the test environment interact with each other?
 * How does the system or a system element interact with the test environment?
 * What additional information the system or a system element needs to generate to enable testing?
 * What additional interfaces are necessary to expose internal properties, states and modes for testing?
+* What are the functional requirements imposed on the system? 
+
+  ***Rationale:  In my role, I need to prove system requirements via test cases.***
+* What are the non-functional requirements imposed on the system? 
+
+  ***Rationale:  In my role, I need to prove system requirements via test cases.***
 * What is the flow of critical information and data through the system?
 * What is the necessary response time for an interface or a service?
 * What is the sequence of interactions among the system and context elements
@@ -143,10 +149,10 @@ IV&V Engineers are individuals or groups responsible for integration, validation
 * What shall be validated to the customer at system level?
 * Which functions will the system provide? 
 
-  ***Rationale:  (System function) In my role, I need to understand the system in order to put it into operation.***
+  ***Rationale:  In my role, I need to understand the system in order to put it into operation.***
 * Which modes and states does the system have? 
 
-  ***Rationale:  (Mode and state) in my role, I need to understand the system in order to put it into operation.***
+  ***Rationale:  In my role, I need to understand the system in order to put it into operation.***
 * Who provides the inputs to a critical function?
 # Maintainer
 Definition - Maintainer
@@ -196,7 +202,7 @@ The example illustrates, that the roles user and operator are depending heavily 
 ## Concern
 * What operational capabilities are defined? 
 
-  ***Rationale:  (System capability) In my role, I need to plan the system capabilities to support operational capabilities.***
+  ***Rationale:  In my role, I need to plan the system capabilities to support operational capabilities.***
 # Project Manager
 Definition - Project Manager: The responsibility of the Project Manager is to make the right resources with the right skills available in time to get the identified work done. 
 
@@ -209,17 +215,20 @@ Systems Engineering creates a clear and manageable system structure, which is th
 ## Concern
 * For what purpose is the system of interest developed or adapted? 
 
-  ***Rationale:  (User Story) In my role, I need to check if the project order is implemented correctly.***
+  ***Rationale:  In my role, I need to check if the project order is implemented correctly.***
 * What are the HW components to be provided?
 * What are the SW components to be provided?
 * What are the system delivery standards?
 * What is the functional scope of each system delivery standard?
-* What is the rational if requirements are not considered?
+* What is the rationale when requirements are not considered?
 * What is the risk involved with each development item?
 * What services are expected from external entities?
 * When do product functions or features become available?
 * Which development effort is associated with each individual element?
 * Which functions will the system provide?
+* Which stakeholder requirements are addressed by system requirements? 
+
+  ***Rationale:  In my role, I need to check if we fulfill our contract.***
 * Who provides the inputs to a critical function?
 # Regulation Authority
 Definition - Regulation Authority:
@@ -235,7 +244,7 @@ Systems Engineering must adhere to relevant standards and needs to demonstrate c
 * How are applicable requirements considered in the system architecture?
 * How are error states handled?
 * What additional information the system or a system element needs to generate to enable testing?
-* What is the rational if requirements are not considered?
+* What is the rationale when requirements are not considered?
 * Which modes and states does the system have?
 # Safety Expert
 Definition - Safety Specialist:
@@ -262,7 +271,7 @@ The safety experts evaluate a proposed system architecture and design for safety
 * What is the flow of critical information and data through the system?
 * What is the necessary response time for an interface or a service?
 * What is the possible harm in utilizing the system?
-* What is the rational if requirements are not considered?
+* What is the rationale when requirements are not considered?
 * What is the sequence of interactions among the system and context elements
 * What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
 * What shall be validated to the customer at system level?
@@ -289,7 +298,7 @@ The IT-Security experts evaluate a proposed system architecture and design for I
 * What are the requirements for security relevant IT-equipment?
 * What are the scenarios a system function is utilized in?
 * What is the necessary response time for an interface or a service?
-* What is the rational if requirements are not considered?
+* What is the rationale when requirements are not considered?
 * What is the sequence of interactions among the system and context elements
 * What kind of information is exchanged and processed within the system?
 * What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
@@ -350,14 +359,14 @@ The System Architect as an individual or group performing the systems engineerin
 * Are safety related design principles) followed e.g. segregation of monitors or independence or redundant elements?
 * For what purpose is the system of interest developed or adapted? 
 
-  ***Rationale:  (User Story) In my role, I need to know this in order to be able to further design the system in an appropriate way.***
+  ***Rationale:  In my role, I need to know this in order to be able to further design the system in an appropriate way.***
 * Have the logical decomposition guidelines been followed?
 * How are applicable requirements considered in the system architecture?
 * How are error states handled?
 * How do internal system elements interact with each other to provide the system function or service?
 * How does a system function interact with its environment? 
 
-  ***Rationale:  (Environment interaction) In my role, I need to delegate the realization of interfaces to subsystems.***
+  ***Rationale:  In my role, I need to delegate the realization of interfaces to subsystems.***
 * How does criticality propagate down the system hierarchy?
 * How does the elements of the test environment interact with each other?
 * How does the system or a system element interact with the test environment?
@@ -367,13 +376,21 @@ The System Architect as an individual or group performing the systems engineerin
 * What additional information the system or a system element needs to generate to enable testing?
 * What are necessary enabling systems?
 * What are necessary inputs for operating the system expected to be provided by other external entitys?
-* What are the capabilities that are supported by the system?
+* What are the capabilities that are supported by the system? 
+
+  ***Rationale:  In my role, I need to identify suitable basic components on the grounds of the required system capabilities..***
 * What are the configuration items in the physical architecture?
 * What are the consequences, if the Stakeholder’s concerns are not considered?
 * What are the different contexts the system is embedded and utilized in?
 * What are the encryption means used for an exchange?
 * What are the external physical entities the system interacts with in the respective context?
+* What are the functional requirements imposed on the system? 
+
+  ***Rationale:  In my role, I need to check if the system design realizes the system requirements.***
 * What are the geographical and physical locations of the intended / proposed elements of the solution?
+* What are the non-functional requirements imposed on the system? 
+
+  ***Rationale:  In my role, I need to check if the system design realizes the system requirements.***
 * What are the normal and extreme environmental conditions for normal operation, for not operational, for storage and for transport?
 * What are the physical components?
 * What are the planned architectural means for risk mitigation?
@@ -391,7 +408,7 @@ The System Architect as an individual or group performing the systems engineerin
 * What is the necessary accuracy and resolution for processing?
 * What is the necessary response time for an interface or a service?
 * What is the physical breakdown of the system?
-* What is the rational if requirements are not considered?
+* What is the rationale when requirements are not considered?
 * What is the sequence of interactions among the system and context elements
 * What is the task executed by an organization, enterprise, or operational entity in the Operational Context?
 * What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
@@ -401,14 +418,14 @@ The System Architect as an individual or group performing the systems engineerin
 * Which Stakeholder are relevant to the system and might impose requirements?
 * Which functions will the system provide? 
 
-  ***Rationale:  (System function) In my role, I need to break these down further to be able to delegate sub-functions to subsystems.***
+  ***Rationale:  In my role, I need to break these down further to be able to delegate sub-functions to subsystems.***
 * Which information is exchanged between the system and external entitys?
 * Which is the system scenario, i.e., course of action, for the context in which the system of interest solution will exist? 
 
-  ***Rationale:  (User Story) In my role, I need to know this in order to be able to further design the system in an appropriate way.***
+  ***Rationale:  In my role, I need to know this in order to be able to further design the system in an appropriate way.***
 * Which modes and states does the system have? 
 
-  ***Rationale:  (Mode and state) in my role, I need to understand the required system behavior in order to further design the system.***
+  ***Rationale:  In my role, I need to understand the required system behavior in order to further design the system.***
 * Which system function is addressed by system requirement?
 * Which system functions are dependent on a systems mode or state?
 * Who are the Stakeholders involved in the intended solution?

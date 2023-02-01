@@ -37,7 +37,6 @@ One or more IBD featuring the logical element(s) of the SOI, and the SOI boundar
 * Connector [UML_Standard_Profile]
 * InterfaceBlock [SysML Profile]
 * ItemFlow [SysML Profile]
-* Property [UML_Standard_Profile]
 * ProxyPort [SysML Profile]
 * [SAF_DomainKind](../stereotypes.md#SAF_DomainKind)
 * [SAF_LogicalElement](../stereotypes.md#SAF_LogicalElement)
