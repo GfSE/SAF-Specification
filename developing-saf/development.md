@@ -30,19 +30,14 @@ The inner architecture follows the concepts of ISO 42010.
 
 Within the conceptual model the following elements can be recognized.
 
-* Stakeholders
-  Stakeholders are classes of users having an interest on the information that is maintained in a SAF System Model.
-* Concerns
-  Concerns sketch out the information need of Stakeholders, which in turn should be adressed by a SAF System Model.
-* Rationale
-  Rationale expains why a Stakeholder has abovementionend information need resulting in a Concern
-* Concepts
-  Concepts are the conceptual definition of items and their relationships forming an information network to be kept in a SAF System Model, in order to give answers to the Stakeholders Concerns.
-* Viewpoints
-  Viewpoints select a set of Concepts in order to adress the information need expressed by a certain set of Stakeholers Concerns.
+* **Stakeholders** are classes of users having an interest on the information that is maintained in a SAF System Model.
+* **Concerns** sketch out the information need of Stakeholders, which in turn should be adressed by a SAF System Model.
+* **Rationale** expains why a Stakeholder has abovementionend information need resulting in a Concern
+* **Concepts** are the conceptual definition of items and their relationships forming an information network to be kept in a SAF System Model, in order to give answers to the Stakeholders Concerns.
+* **Viewpoints** select a set of Concepts in order to adress the information need expressed by a certain set of Stakeholers Concerns.
   In SAF the size of Viewpoints should be optimized to support tailoring by selection of viewpoints appropriate to the engineering problem at hand. This  means that SAF Viewpoints should adress only a small number of well defined Concerns.
-* Information Items
-  Information Items are like Viewpoints but at a larger scale. They can group Viewpoints while constraining them further. They also can be nested.
+  
+* **Information Items** are like Viewpoints but at a larger scale. They can group Viewpoints while constraining them further. They also can be nested.
   This allows to specify Information Items like an ISO 29148 SyRS by breaking it down into smaller Information Items and finally into Viewpoints.
   This allows to define which concerns are to be adressed by a SyRS document and which viewpoints are needed for it.
   The goal is, to precisely define the needed model work for certain points in an engieering project.
