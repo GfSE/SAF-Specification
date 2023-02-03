@@ -3,6 +3,8 @@ This is the System Architecture Framework specification. **It is work in progres
 
 The Fire Forest Detection example, SAF_FFDS, is based on the publication **SYSMOD - The Systems Modeling Toolbox, 3rd edition Pragmatic MBSE with SysML, Tim Weilkiens**
 
+It is possible to contribute to SAF, see [contributing](contributing.md). To understand how SAF is developed, see [development](developing-saf/development.md).
+
 # Viewpoint Grid
 The Viewpoints are organized a Grid, havin **Domains** as rows and **Aspects** as columns
 
