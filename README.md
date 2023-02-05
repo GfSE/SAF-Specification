@@ -137,6 +137,16 @@ For traceability the Physical Domain defines diagrams showing the mapping of the
 * Allocate a safety criticality to the elements of the physical architecture.
 
 ### Physical Domain Viewpoints
+#### Story & Context
+* [Physical Context Definition Viewpoint](viewpoints/Physical-Context-Definition-Viewpoint.md)
+* [Physical Context Exchange Viewpoint](viewpoints/Physical-Context-Exchange-Viewpoint.md)
+#### Structure
+* [Physical Structure Viewpoint](viewpoints/Physical-Structure-Viewpoint.md)
+#### Process & Behavior
+#### Interaction & Collaboration
+* [Physical Internal Interaction Viewpoint](viewpoints/Physical-Internal-Exchange-Viewpoint.md)
+#### Interface
+
 
 # Stakeholder Definition
 [Stakeholders](stakeholders.md)
