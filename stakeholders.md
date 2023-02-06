@@ -68,9 +68,10 @@ The Customer is an organization or person that receives a product. Examples: Con
 * What is the necessary response time for an interface or a service?
 * What is the rationale when requirements are not considered?
 * What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
-* What operational capabilities are defined? 
+* What operational capabilities are defined?
 
-  ***Rationale:  In my role, I need to specify capabilities because the definition of capabilities allows communication about what is to be achieved to be separated from how it is achieved at an operational level. ***
+  ***Rationale:  In my role, I need to specify capabilities because the definition of capabilities allows communication about what is to be achieved to be separated from how it is achieved at an operational level.***
+
 * What services are expected from external entities?
 * What shall be validated to the customer at system level?
 * Which functions will the system provide?
@@ -129,17 +130,17 @@ IV&V Engineers are individuals or groups responsible for integration, validation
 ## Concern
 * Are safety related design principles) followed e.g. segregation of monitors or independence or redundant elements?
 * How are error states handled?
-* How does a system function interact with its environment? 
+* How does a system function interact with its environment?
 
   ***Rationale:  In my role, I need to perform the integration of the system into its deployment environment.***
 * How does the elements of the test environment interact with each other?
 * How does the system or a system element interact with the test environment?
 * What additional information the system or a system element needs to generate to enable testing?
 * What additional interfaces are necessary to expose internal properties, states and modes for testing?
-* What are the functional requirements imposed on the system? 
+* What are the functional requirements imposed on the system?
 
   ***Rationale:  In my role, I need to prove system requirements via test cases.***
-* What are the non-functional requirements imposed on the system? 
+* What are the non-functional requirements imposed on the system?
 
   ***Rationale:  In my role, I need to prove system requirements via test cases.***
 * What is the flow of critical information and data through the system?
@@ -147,10 +148,10 @@ IV&V Engineers are individuals or groups responsible for integration, validation
 * What is the sequence of interactions among the system and context elements
 * What kind of test equipment is necessary to test the system elements?
 * What shall be validated to the customer at system level?
-* Which functions will the system provide? 
+* Which functions will the system provide?
 
   ***Rationale:  In my role, I need to understand the system in order to put it into operation.***
-* Which modes and states does the system have? 
+* Which modes and states does the system have?
 
   ***Rationale:  In my role, I need to understand the system in order to put it into operation.***
 * Who provides the inputs to a critical function?
@@ -162,7 +163,7 @@ The Maintainer is an individual, group or organization responsible to maintain t
 ## Concern
 * How are error states handled?
 * How to connect the system or a system element to a test equipment?
-* How to ensure full Operational Capability of the system after maintenance activities with a system element or component? 
+* How to ensure full Operational Capability of the system after maintenance activities with a system element or component?
 * How to install / de-install components to / from the system?
 * What are the replaceable system components?
 * What is the order information for each identified system element or component?
@@ -178,15 +179,15 @@ The Developer is a group or an individual implementing the system parts accordin
 Definition - Operator:
 individual or organization that performs the operations of a system, [ISO/IEC 15288:2015 –Systems engineering - System life-cycle processes]
 
-The Operator is an individual or organization that uses knowledge, skills and procedures to perform the functions of the system to provide the benefit, product or service. 
+The Operator is an individual or organization that uses knowledge, skills and procedures to perform the functions of the system to provide the benefit, product or service.
 
-An individual Operator combined with knowledge, skills, and procedures may be considered as an element of the system. The role of the operator and the role of the user can be delegated to a single individual or may be simultaneously instantiated in the same organization. 
+An individual Operator combined with knowledge, skills, and procedures may be considered as an element of the system. The role of the operator and the role of the user can be delegated to a single individual or may be simultaneously instantiated in the same organization.
 
-*For example: Air passengers are the user of the air transport system while a single flight is operated by an air carrier like the Lufthansa using aircrafts of various types to provide the transport service. 
+*For example: Air passengers are the user of the air transport system while a single flight is operated by an air carrier like the Lufthansa using aircrafts of various types to provide the transport service.
 
-To provide the service to the passengers the carrier’s organization must implement lots of services utilizing several other enabling systems. 
+To provide the service to the passengers the carrier’s organization must implement lots of services utilizing several other enabling systems.
 
-The individual aircraft is operated by the pilot who uses the on-board systems to control the aircraft and to navigate during that flight. 
+The individual aircraft is operated by the pilot who uses the on-board systems to control the aircraft and to navigate during that flight.
 
 The example illustrates, that the roles user and operator are depending heavily on the definition of the SOI Scope.*
 
@@ -200,11 +201,11 @@ The example illustrates, that the roles user and operator are depending heavily 
 
 
 ## Concern
-* What operational capabilities are defined? 
+* What operational capabilities are defined?
 
   ***Rationale:  In my role, I need to plan the system capabilities to support operational capabilities.***
 # Project Manager
-Definition - Project Manager: The responsibility of the Project Manager is to make the right resources with the right skills available in time to get the identified work done. 
+Definition - Project Manager: The responsibility of the Project Manager is to make the right resources with the right skills available in time to get the identified work done.
 
 The Project Manager controls that the work packages are completed in time and agreed milestones are met.
 
@@ -213,7 +214,7 @@ A clear definition of the solution for the stated problem allows planning to be 
 Systems Engineering creates a clear and manageable system structure, which is the basis for project planning and task assignment.
 
 ## Concern
-* For what purpose is the system of interest developed or adapted? 
+* For what purpose is the system of interest developed or adapted?
 
   ***Rationale:  In my role, I need to check if the project order is implemented correctly.***
 * What are the HW components to be provided?
@@ -226,13 +227,13 @@ Systems Engineering creates a clear and manageable system structure, which is th
 * When do product functions or features become available?
 * Which development effort is associated with each individual element?
 * Which functions will the system provide?
-* Which stakeholder requirements are addressed by system requirements? 
+* Which stakeholder requirements are addressed by system requirements?
 
   ***Rationale:  In my role, I need to check if we fulfill our contract.***
 * Who provides the inputs to a critical function?
 # Regulation Authority
 Definition - Regulation Authority:
-Regulation Authorities can have impact by imposing Stakeholder requirements against the system and by their involvement in the development and acceptance phases (e.g. safety or IT security acceptance audits). 
+Regulation Authorities can have impact by imposing Stakeholder requirements against the system and by their involvement in the development and acceptance phases (e.g. safety or IT security acceptance audits).
 
 The term “authorities” also refers to current applicable regulations and laws.
 
@@ -248,7 +249,7 @@ Systems Engineering must adhere to relevant standards and needs to demonstrate c
 * Which modes and states does the system have?
 # Safety Expert
 Definition - Safety Specialist:
-Safety is one subject matter of specialty engineering but important enough to be treated separately. 
+Safety is one subject matter of specialty engineering but important enough to be treated separately.
 The safety experts evaluate a proposed system architecture and design for safety applying different analysis considering the criticality of the system functions. The result of the activity are safety requirements that need to be considered in the system design.
 
 ## Concern
@@ -357,14 +358,14 @@ The System Architect as an individual or group performing the systems engineerin
 
 ## Concern
 * Are safety related design principles) followed e.g. segregation of monitors or independence or redundant elements?
-* For what purpose is the system of interest developed or adapted? 
+* For what purpose is the system of interest developed or adapted?
 
   ***Rationale:  In my role, I need to know this in order to be able to further design the system in an appropriate way.***
 * Have the logical decomposition guidelines been followed?
 * How are applicable requirements considered in the system architecture?
 * How are error states handled?
 * How do internal system elements interact with each other to provide the system function or service?
-* How does a system function interact with its environment? 
+* How does a system function interact with its environment?
 
   ***Rationale:  In my role, I need to delegate the realization of interfaces to subsystems.***
 * How does criticality propagate down the system hierarchy?
@@ -376,7 +377,7 @@ The System Architect as an individual or group performing the systems engineerin
 * What additional information the system or a system element needs to generate to enable testing?
 * What are necessary enabling systems?
 * What are necessary inputs for operating the system expected to be provided by other external entitys?
-* What are the capabilities that are supported by the system? 
+* What are the capabilities that are supported by the system?
 
   ***Rationale:  In my role, I need to identify suitable basic components on the grounds of the required system capabilities..***
 * What are the configuration items in the physical architecture?
@@ -384,11 +385,11 @@ The System Architect as an individual or group performing the systems engineerin
 * What are the different contexts the system is embedded and utilized in?
 * What are the encryption means used for an exchange?
 * What are the external physical entities the system interacts with in the respective context?
-* What are the functional requirements imposed on the system? 
+* What are the functional requirements imposed on the system?
 
   ***Rationale:  In my role, I need to check if the system design realizes the system requirements.***
 * What are the geographical and physical locations of the intended / proposed elements of the solution?
-* What are the non-functional requirements imposed on the system? 
+* What are the non-functional requirements imposed on the system?
 
   ***Rationale:  In my role, I need to check if the system design realizes the system requirements.***
 * What are the normal and extreme environmental conditions for normal operation, for not operational, for storage and for transport?
@@ -416,14 +417,14 @@ The System Architect as an individual or group performing the systems engineerin
 * What shall be validated to the customer at system level?
 * What system elements are make-items, reuse items or COTS?
 * Which Stakeholder are relevant to the system and might impose requirements?
-* Which functions will the system provide? 
+* Which functions will the system provide?
 
   ***Rationale:  In my role, I need to break these down further to be able to delegate sub-functions to subsystems.***
 * Which information is exchanged between the system and external entitys?
-* Which is the system scenario, i.e., course of action, for the context in which the system of interest solution will exist? 
+* Which is the system scenario, i.e., course of action, for the context in which the system of interest solution will exist?
 
   ***Rationale:  In my role, I need to know this in order to be able to further design the system in an appropriate way.***
-* Which modes and states does the system have? 
+* Which modes and states does the system have?
 
   ***Rationale:  In my role, I need to understand the required system behavior in order to further design the system.***
 * Which system function is addressed by system requirement?
@@ -441,3 +442,17 @@ The User is the individual, organization or group that benefits from the operati
 * What are necessary inputs for operating the system expected to be provided by other external entitys?
 * What are the scenarios a system function is utilized in?
 * What is the necessary response time for an interface or a service?
+
+# Common Concerns
+There are concerns that are common to all the stakeholders or at least cannot be clearly allocated to a single stakeholder.
+
+## Concerns
+* Which standards and specifications are applicable to the system of interest or its system elements and their interfaces and interactions?
+* What are the relevant issues or versions of the standards to be used for the development of the system?
+* What is the complete identification of a standard or a specification?
+* Which other standards are referenced or referred to by applicable standards?
+* What is the exact meaning of used terms within this model?
+
+  ***Rationale: Different interpretation of a term among the stakeholders often leads to misunderstandings.***
+
+

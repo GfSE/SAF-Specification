@@ -144,7 +144,7 @@ For traceability the Physical Domain defines diagrams showing the mapping of the
 * [Physical Structure Viewpoint](viewpoints/Physical-Structure-Viewpoint.md)
 #### Process & Behavior
 #### Interaction & Collaboration
-* [Physical Internal Interaction Viewpoint](viewpoints/Physical-Internal-Exchange-Viewpoint.md)
+* [Physical Internal Exchange Viewpoint](viewpoints/Physical-Internal-Exchange-Viewpoint.md)
 #### Interface
 
 
