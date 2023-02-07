@@ -26,16 +26,17 @@ The Logical Internal Exchange Viewpoint supports the "Develop Models and Views o
 * What additional information the system or a system element needs to generate to enable testing?
 * What are data / information items exchanged?
 * What kind of information is exchanged and processed within the system?
+* Which HW interfaces are necessary?
 * Which SW interfaces are necessary?
 * Which interface design items are on an interface of a physical architecture element?
 * Which interface partners does a HW item have?
 * Which interface partners does a SW item have?
-* Which interfaces are necessary?
 ## Presentation
 One or more IBD featuring the physical element(s) of the SOI, and the SOI boundary, containing connector(s) for each identified SOI interface delegation to SOI element(s), as well as connector(s) between related interface(s) of SOI parts. An interface is a connection resource for hooking on the physical SOI element(s) to other physical SOI element(s). Item flows are defined for each exchange on the identified interface.  Recommendation: Use more than one IBD focused on different areas of interest to keep the view comprehensive. Depending on the Stakeholder concern(s) the physical item exchange information might be suppressed.
 
 ## Profile Model Reference
 * Connector [UML_Standard_Profile]
+* FlowProperty [SysML Profile]
 * InterfaceBlock [SysML Profile]
 * ItemFlow [SysML Profile]
 * ProxyPort [SysML Profile]

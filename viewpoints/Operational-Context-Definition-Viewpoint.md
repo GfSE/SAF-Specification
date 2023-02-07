@@ -14,7 +14,7 @@ The Operational Context Definition Viewpoint supports the "Business or Mission A
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
 * What Performers or Resources are necessary to operate the intended solution?
-* What is the Operational Context to achieve an Operational Story?
+* What is the operational context to achieve an operational story?
 ## Presentation
 A block definition diagram (BDD) identifying the Operational Performer(s) playing a role in the addressed Operational Context.
 

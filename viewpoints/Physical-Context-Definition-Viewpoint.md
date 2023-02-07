@@ -18,7 +18,7 @@ NOTE: Only those external entities are identified that share a physical interfac
 * How does the system or a system element interact with the test environment?
 * What are necessary enabling systems?
 * What are the external physical entities the system interacts with in the respective context?
-* What is the System Boundary definition?
+* What is the system boundary definition?
 * What kind of test equipment is necessary to test the system elements?
 ## Presentation
 The following artifact(s) support the modeling activities: 

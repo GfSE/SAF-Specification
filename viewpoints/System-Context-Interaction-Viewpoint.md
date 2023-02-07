@@ -20,6 +20,7 @@ The System Context Interaction Viewpoint supports "Prepare for Requirement Defin
 * What are the items exchanged at the boundary of the system with external entities?
 * What is the necessary response time for an interface or a service?
 * What is the sequence of interactions among the system and context elements
+* Which users does the system support? What the system has to accomplish for these users?
 ## Presentation
 The System Context Interaction Viewpoint is modeled as a sequence diagram. It describes the flow of control between SOI and Context Element(s). This diagram represents the sending and receiving of messages between the interacting entities called lifelines, where time is represented along the vertical axis. The elements on the lifelines are part properties of a System Context.
 

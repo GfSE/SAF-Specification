@@ -13,7 +13,7 @@ The Operational Context Exchange Viewpoint supports the "Business or Mission Ana
 * [Supplier](../stakeholders.md#Supplier)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* What operational exchange the operational performers need to consume or provide?
+* What operational exchange does the operational performers need to consume or provide?
 ## Presentation
 An internal block diagram (IBD) associated to an Operational Context showing the connected Operational Performer(s) in their respective Operational Role and the Operational Exchange per connection.
 

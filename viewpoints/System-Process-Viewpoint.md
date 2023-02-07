@@ -24,6 +24,7 @@ The System Process Viewpoint supports the "System Requirements Definition Proces
 * How is the system interacting with the identified external entities?
 * What are necessary inputs for operating the system expected to be provided by other external entitys?
 * What are the functional interfaces of the system?
+* What are the scenarios a system function is utilized in?
 * What is the functional scope of the system?
 * What services are expected from external entities?
 * Which functions are out of scope of the system?

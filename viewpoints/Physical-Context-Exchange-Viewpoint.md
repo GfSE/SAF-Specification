@@ -20,8 +20,10 @@ The physical context exchange Viewpoint supports the “Architecture Definition 
 * How to connect the system or a system element to a test equipment?
 * What are the external physical entities the system interacts with in the respective context?
 * What are the interface requirements regarding bandwidth, data throughput and latency?
+* Which HW interfaces are necessary?
 * Which SW interfaces are necessary?
-* Which interfaces are necessary?
+* Which interface partners does a HW item have?
+* Which interface partners does a SW item have?
 ## Presentation
 The following artifact(s) support the modeling activities:
 A) For each identified context a physical context interface IBD is used to identify the physical interface(s), the item flow(s) that are exchanged on that interface and related documentation.

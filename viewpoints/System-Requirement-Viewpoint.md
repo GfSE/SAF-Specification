@@ -15,10 +15,9 @@ The System Requirement Viewpoint supports the "System Requirements Definition Pr
 * [Security Expert](../stakeholders.md#Security-Expert)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* What are the Interface Requirements imposed on the system?
 * What are the exchange requirements imposed on the system?
 * What are the functional requirements imposed on the system?
-* What are the interface requirements regarding bandwidth, data throughput and latency?
+* What are the interface requirements imposed on the system?
 * What are the non-functional requirements imposed on the system?
 * What are the requirements of environmental conditions imposed on the system?
 * What is the range of acceptable system performance, i.e. the critical, top-level performance requirements derived from the operational needs?

@@ -17,8 +17,8 @@ The System Context Definition Viewpoint supports the "Prepare for Requirement De
 * What are the different contexts the system is embedded and utilized in?
 * What are the external conceptual entities the system interacts with in the respective context?
 * What are the geographical and physical locations of the intended / proposed elements of the solution?
-* What is the System Boundary definition?
 * What is the support environment for the system?
+* What is the system boundary definition?
 * Which classes of users (roles) will interact with the system?
 * Which interface partners does the system have?
 ## Presentation

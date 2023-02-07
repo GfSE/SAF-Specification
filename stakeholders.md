@@ -14,16 +14,19 @@ The following subchapters describe the stakeholders and their concerns:
 
 # Acquirer
 Definition - Acquirer:
-stakeholder that acquires or procures a product or service from a supplier, [ISO/IEC 15288:2015 - Systems engineering - System life-cycle processes]
-
+stakeholder that acquires or procures a product or service from a supplier, [ISO/IEC 15288:2022 - Systems engineering - System life-cycle processes]
 The Acquirer is a Stakeholder that acquires or procures a product or service from a supplier. The Acquirer may be an organization or an individual acting on behalf of the customer or the user.
-
 He is responsible for providing a feasible solution within a given budget. The Acquirer must plan and control the delivery of the system-of-interest as well as other systems together with necessary infrastructure, equipment or training. He must plan the integration of all the procured items to provide a complete solution ready for operation. For large enterprises standardization is an issue. Therefore, the acquirer is interested that standard items are considered in the system architecture.
 
 ## Concern
 * Are defined standard items considered in the architecture?
+* For what purpose is the system of interest developed or adapted? 
+
+  ***Rationale:  In my role, I need to check whether the overall system purpose is supported.***
 * How does a system function interact with its environment?
-* How is the system being used or utilized and interacting with other external systems to satisfy user needs?
+* How is the system being used or utilized and interacting with other external systems to satisfy user needs? 
+
+  ***Rationale:  In my role, I need to check whether the system complies with the higher-level operating concept.***
 * What Performers or Resources are necessary to operate the intended solution?
 * What are necessary enabling systems?
 * What are necessary inputs for operating the system expected to be provided by other external entitys?
@@ -35,23 +38,25 @@ He is responsible for providing a feasible solution within a given budget. The A
 * What are the planned architectural means for risk mitigation?
 * What are the scenarios a system function is utilized in?
 * What existing elements of the organization, enterprise, or operational entity need to be integrated in the intended solution?
-* What is the System Boundary definition?
 * What is the cost for each required function?
 * What is the lack / deficiency / gap in current capability implementation that is addressed with the intended solution?
 * What is the necessary response time for an interface or a service?
 * What is the priority of each function?
+* What is the system boundary definition?
 * What is the time schedule for delivering the functions?
 * What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
 * What services are expected from external entities?
 * What shall be validated to the customer at system level?
-* Which functions will the system provide?
-* Which information is exchanged between the system and external entitys?
+* Which functions will the system provide? 
+
+  ***Rationale:  In my role, I need to check whether the overall system purpose is supported.***
+* Which information is exchanged between the system and external entities?
 * Which physical items the SOI is built of?
 * Who are the Stakeholders involved in the intended solution?
 * Who provides the inputs to a critical function?
 # Customer
 Definition - Customer (also Acquirer):
-organization or person that receives a product or service, [ISO/IEC 15288:2015 –Systems engineering - System life-cycle processes]
+organization or person that receives a product or service, [ISO/IEC 15288:2022 – Systems engineering - System life-cycle processes]
 The Customer is an organization or person that receives a product. Examples: Consumer, client, end user, retailer, beneficiary, and purchaser. A customer can be internal or external to the organization. Customer is a broader reference than Acquirer, operator, or user and includes those roles as well as others. However, the Customer provides the funding.
 
 ## Concern
@@ -64,9 +69,9 @@ The Customer is an organization or person that receives a product. Examples: Con
 * What are the normal and extreme environmental conditions for normal operation, for not operational, for storage and for transport?
 * What are the planned architectural means for risk mitigation?
 * What are the scenarios a system function is utilized in?
-* What is the System Boundary definition?
 * What is the necessary response time for an interface or a service?
 * What is the rationale when requirements are not considered?
+* What is the system boundary definition?
 * What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
 * What operational capabilities are defined? 
 
@@ -74,7 +79,7 @@ The Customer is an organization or person that receives a product. Examples: Con
 * What services are expected from external entities?
 * What shall be validated to the customer at system level?
 * Which functions will the system provide?
-* Which information is exchanged between the system and external entitys?
+* Which information is exchanged between the system and external entities?
 * Who provides the inputs to a critical function?
 # Customer (Representative)
 Definition - Customer (Representative):
@@ -98,7 +103,13 @@ The Developer is a group or an individual implementing the system parts accordin
 * How does the system or a system element interact with the test environment?
 * What additional information the system or a system element needs to generate to enable testing?
 * What are the encryption means used for an exchange?
+* What are the functional requirements imposed on the system? 
+
+  ***Rationale:  In my role, I need to trace my derived requirements against these ones relevant to me.***
 * What are the interface requirements regarding bandwidth, data throughput and latency?
+* What are the non-functional requirements imposed on the system? 
+
+  ***Rationale:  In my role, I need to trace my derived requirements against these ones relevant to me.***
 * What are the normal and extreme environmental conditions for normal operation, for not operational, for storage and for transport?
 * What are the provided power inputs?
 * What delivery standards need to be provided?
@@ -115,11 +126,27 @@ The Developer is a group or an individual implementing the system parts accordin
 * What is the scope of a delivery standard?
 * What is the sequence of interactions among the system and context elements
 * What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
+* Which HW interfaces are necessary? 
+
+  ***Rationale:  In my role, I need to implement interfaces with my subsystem, if necessary.***
+* Which Stakeholder are relevant to the system and might impose requirements? 
+
+  ***Rationale:  In my role, I need to give feedback on existing or missing stakeholders.***
 * Which functions need to be realized by HW?
-* Which interfaces are necessary?
-* Which modes and states does the system have?
+* Which functions will the system provide? 
+
+  ***Rationale:  In my role, I need to provide qualified feedback on how my how the sub-functions assigned to my subsystem contributes to the function of the system.***
+* Which interface partners does a HW item have? 
+
+  ***Rationale:  In my role, I need to implement interfaces with my subsystem, if necessary.***
+* Which modes and states does the system have? 
+
+  ***Rationale:  In my role, I need to know which system modes and states my subsystem must support.***
 * Which protection means need to be provided for an interface?
 * Which variants of a HW item need to be provided?
+* Who are the Stakeholders involved in the intended solution? 
+
+  ***Rationale:  In my role, I need to give feedback on existing or missing stakeholders.***
 * Who provides the inputs to a critical function?
 # IV&V Engineer
 Definition - IV&V Engineer
@@ -134,6 +161,9 @@ IV&V Engineers are individuals or groups responsible for integration, validation
   ***Rationale:  In my role, I need to perform the integration of the system into its deployment environment.***
 * How does the elements of the test environment interact with each other?
 * How does the system or a system element interact with the test environment?
+* How is the system being used or utilized and interacting with other external systems to satisfy user needs? 
+
+  ***Rationale:  In my role. I need to take this into account when planning integration.***
 * What additional information the system or a system element needs to generate to enable testing?
 * What additional interfaces are necessary to expose internal properties, states and modes for testing?
 * What are the functional requirements imposed on the system? 
@@ -153,6 +183,9 @@ IV&V Engineers are individuals or groups responsible for integration, validation
 * Which modes and states does the system have? 
 
   ***Rationale:  In my role, I need to understand the system in order to put it into operation.***
+* Which users does the system support? What the system has to accomplish for these users? 
+
+  ***Rationale:  In my role, I need to cover these users with my test.***
 * Who provides the inputs to a critical function?
 # Maintainer
 Definition - Maintainer
@@ -176,18 +209,12 @@ The Developer is a group or an individual implementing the system parts accordin
 ## Concern
 # Operator
 Definition - Operator:
-individual or organization that performs the operations of a system, [ISO/IEC 15288:2015 –Systems engineering - System life-cycle processes]
-
+individual or organization that performs the operations of a system, [ISO/IEC 15288:2022 – Systems engineering - System life-cycle processes]
 The Operator is an individual or organization that uses knowledge, skills and procedures to perform the functions of the system to provide the benefit, product or service. 
-
 An individual Operator combined with knowledge, skills, and procedures may be considered as an element of the system. The role of the operator and the role of the user can be delegated to a single individual or may be simultaneously instantiated in the same organization. 
-
 *For example: Air passengers are the user of the air transport system while a single flight is operated by an air carrier like the Lufthansa using aircrafts of various types to provide the transport service. 
-
 To provide the service to the passengers the carrier’s organization must implement lots of services utilizing several other enabling systems. 
-
 The individual aircraft is operated by the pilot who uses the on-board systems to control the aircraft and to navigate during that flight. 
-
 The example illustrates, that the roles user and operator are depending heavily on the definition of the SOI Scope.*
 
 ## Concern
@@ -196,6 +223,9 @@ The example illustrates, that the roles user and operator are depending heavily 
 * What are necessary inputs for operating the system expected to be provided by other external entitys?
 * What are the scenarios a system function is utilized in?
 * What is the necessary response time for an interface or a service?
+* Which users does the system support? What the system has to accomplish for these users? 
+
+  ***Rationale:  In my role, I need to check whether the system fits into the higher-level user concept.***
 # Portfolio Manager
 
 
@@ -204,18 +234,16 @@ The example illustrates, that the roles user and operator are depending heavily 
 
   ***Rationale:  In my role, I need to plan the system capabilities to support operational capabilities.***
 # Project Manager
-Definition - Project Manager: The responsibility of the Project Manager is to make the right resources with the right skills available in time to get the identified work done. 
-
+Definition - Project Manager: 
+The responsibility of the Project Manager is to make the right resources with the right skills available in time to get the identified work done. 
 The Project Manager controls that the work packages are completed in time and agreed milestones are met.
-
 A clear definition of the solution for the stated problem allows planning to be done properly.
-
 Systems Engineering creates a clear and manageable system structure, which is the basis for project planning and task assignment.
 
 ## Concern
 * For what purpose is the system of interest developed or adapted? 
 
-  ***Rationale:  In my role, I need to check if the project order is implemented correctly.***
+  ***Rationale:  In my role, I need to check whether the project order is implemented correctly.***
 * What are the HW components to be provided?
 * What are the SW components to be provided?
 * What are the system delivery standards?
@@ -228,16 +256,13 @@ Systems Engineering creates a clear and manageable system structure, which is th
 * Which functions will the system provide?
 * Which stakeholder requirements are addressed by system requirements? 
 
-  ***Rationale:  In my role, I need to check if we fulfill our contract.***
+  ***Rationale:  In my role, I need to check whether we fulfill our contract.***
 * Who provides the inputs to a critical function?
 # Regulation Authority
 Definition - Regulation Authority:
 Regulation Authorities can have impact by imposing Stakeholder requirements against the system and by their involvement in the development and acceptance phases (e.g. safety or IT security acceptance audits). 
-
 The term “authorities” also refers to current applicable regulations and laws.
-
 The requirements stipulated on the system are diverse. They can be functional and non-functional requirements.
-
 Systems Engineering must adhere to relevant standards and needs to demonstrate compliance with those standards and requirements.
 
 ## Concern
@@ -276,7 +301,7 @@ The safety experts evaluate a proposed system architecture and design for safety
 * What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
 * What shall be validated to the customer at system level?
 * Which functions will the system provide?
-* Which information is exchanged between the system and external entitys?
+* Which information is exchanged between the system and external entities?
 * Which modes and states does the system have?
 * Who provides the inputs to a critical function?
 # Security Expert
@@ -305,7 +330,7 @@ The IT-Security experts evaluate a proposed system architecture and design for I
 * What physical items are used building up the system?
 * What shall be validated to the customer at system level?
 * Which functions will the system provide?
-* Which information is exchanged between the system and external entitys?
+* Which information is exchanged between the system and external entities?
 * Which modes and states does the system have?
 # Software Developer
 Definition - Developer:
@@ -322,21 +347,43 @@ The Developer is a group or an individual implementing the system parts accordin
 * What are the algorithms to be implemented?
 * What are the encryption means used for an exchange?
 * What are the formats of the exchanged items?
+* What are the functional requirements imposed on the system? 
+
+  ***Rationale:  In my role, I need to trace my derived requirements against these ones relevant to me.***
 * What are the interface requirements regarding bandwidth, data throughput and latency?
 * What are the non-functional requirements applying to SW (e.g. with regard to SW quality, modularization, changeability or reuse)?
+* What are the non-functional requirements imposed on the system? 
+
+  ***Rationale:  In my role, I need to trace my derived requirements against these ones relevant to me.***
 * What are the protocols for exchanging items on an interface?
 * What is the necessary accuracy and resolution for processing?
 * What is the necessary performance for processing?
 * What is the necessary response time for an interface or a service?
 * What is the sequence of interactions among the system and context elements
 * What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
-* Which SW interfaces are necessary?
+* Which SW interfaces are necessary? 
+
+  ***Rationale:  In my role, I need to implement interfaces with my subsystem, if necessary.***
+* Which Stakeholder are relevant to the system and might impose requirements? 
+
+  ***Rationale:  In my role, I need to give feedback on existing or missing stakeholders.***
 * Which functions and services need to be implemented in SW?
-* Which modes and states does the system have?
+* Which functions will the system provide? 
+
+  ***Rationale:  In my role, I need to provide qualified feedback on how my how the sub-functions assigned to my subsystem contributes to the function of the system.***
+* Which interface partners does a SW item have? 
+
+  ***Rationale:  In my role, I need to implement interfaces with my subsystem, if necessary.***
+* Which modes and states does the system have? 
+
+  ***Rationale:  In my role, I need to know which system modes and states my subsystem must support.***
+* Who are the Stakeholders involved in the intended solution? 
+
+  ***Rationale:  In my role, I need to give feedback on existing or missing stakeholders.***
 * Who provides the inputs to a critical function?
 # Supplier
 Definition - Supplier:
-organization or an individual that enters into an agreement with the Acquirer for the supply of a product or service, [ISO/IEC 15288:2015 –Systems engineering - System life-cycle processes]
+organization or an individual that enters into an agreement with the Acquirer for the supply of a product or service, [ISO/IEC 15288:2022 – Systems engineering - System life-cycle processes]
 The Supplier is the organization or individual that enters into an agreement with the Acquirer to supply a product or service. Usually, the system architect and the developers for make-items are part of the supplier’s organization. Other terms commonly used for Supplier are contractor, producer, seller or vendor.
 
 ## Concern
@@ -347,8 +394,8 @@ The Supplier is the organization or individual that enters into an agreement wit
 * What are the geographical and physical locations of the intended / proposed elements of the solution?
 * What are the normal and extreme environmental conditions for normal operation, for not operational, for storage and for transport?
 * What are the scenarios a system function is utilized in?
-* What is the System Boundary definition?
 * What is the lack / deficiency / gap in current capability implementation that is addressed with the intended solution?
+* What is the system boundary definition?
 * What services are expected from external entities?
 * Who are the Stakeholders involved in the intended solution?
 # System Architect
@@ -371,7 +418,9 @@ The System Architect as an individual or group performing the systems engineerin
 * How does the elements of the test environment interact with each other?
 * How does the system or a system element interact with the test environment?
 * How is a critical function decomposed and allocated?
-* How is the system being used or utilized and interacting with other external systems to satisfy user needs?
+* How is the system being used or utilized and interacting with other external systems to satisfy user needs? 
+
+  ***Rationale:  In my role, I need to pass on the resulting system requirements to the subsystems.***
 * What Performers or Resources are necessary to operate the intended solution?
 * What additional information the system or a system element needs to generate to enable testing?
 * What are necessary enabling systems?
@@ -386,18 +435,17 @@ The System Architect as an individual or group performing the systems engineerin
 * What are the external physical entities the system interacts with in the respective context?
 * What are the functional requirements imposed on the system? 
 
-  ***Rationale:  In my role, I need to check if the system design realizes the system requirements.***
+  ***Rationale:  In my role, I need to check whether the system design realizes the system requirements.***
 * What are the geographical and physical locations of the intended / proposed elements of the solution?
 * What are the non-functional requirements imposed on the system? 
 
-  ***Rationale:  In my role, I need to check if the system design realizes the system requirements.***
+  ***Rationale:  In my role, I need to check whether the system design realizes the system requirements.***
 * What are the normal and extreme environmental conditions for normal operation, for not operational, for storage and for transport?
 * What are the physical components?
 * What are the planned architectural means for risk mitigation?
 * What are the scenarios a system function is utilized in?
 * What are the system delivery standards?
 * What existing elements of the organization, enterprise, or operational entity need to be integrated in the intended solution?
-* What is the System Boundary definition?
 * What is the allocation of functions to the physical architecture?
 * What is the breakdown of functions into sub-functions?
 * What is the configuration or version of each configuration item?
@@ -410,29 +458,34 @@ The System Architect as an individual or group performing the systems engineerin
 * What is the physical breakdown of the system?
 * What is the rationale when requirements are not considered?
 * What is the sequence of interactions among the system and context elements
+* What is the system boundary definition?
 * What is the task executed by an organization, enterprise, or operational entity in the Operational Context?
 * What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
 * What services are expected from external entities?
 * What shall be validated to the customer at system level?
 * What system elements are make-items, reuse items or COTS?
-* Which Stakeholder are relevant to the system and might impose requirements?
+* Which Stakeholder are relevant to the system and might impose requirements? 
+
+  ***Rationale:  In my role, I need to give feedback on existing or missing stakeholders.***
 * Which functions will the system provide? 
 
   ***Rationale:  In my role, I need to break these down further to be able to delegate sub-functions to subsystems.***
-* Which information is exchanged between the system and external entitys?
-* Which is the system scenario, i.e., course of action, for the context in which the system of interest solution will exist? 
-
-  ***Rationale:  In my role, I need to know this in order to be able to further design the system in an appropriate way.***
+* Which information is exchanged between the system and external entities?
 * Which modes and states does the system have? 
 
   ***Rationale:  In my role, I need to understand the required system behavior in order to further design the system.***
 * Which system function is addressed by system requirement?
 * Which system functions are dependent on a systems mode or state?
-* Who are the Stakeholders involved in the intended solution?
+* Which users does the system support? What the system has to accomplish for these users? 
+
+  ***Rationale:  In my role. I need to delegate the realization of HMI to subsystems.***
+* Who are the Stakeholders involved in the intended solution? 
+
+  ***Rationale:  In my role, I need to give feedback on existing or missing stakeholders.***
 * Who provides the inputs to a critical function?
 # User
 Definition - User:
-individual or group that interacts with a system or benefits from a system during its utilization, [ISO/IEC 15288:2015 - Systems engineering - System life-cycle processes]
+individual or group that interacts with a system or benefits from a system during its utilization, [ISO/IEC 15288:2022 - Systems engineering - System life-cycle processes]
 The User is the individual, organization or group that benefits from the operation of the system. The User provides the usage scenarios, the User needs and finally the user requirements representing most of the functional requirements but also non-functional requirements. The role of User and the role of operator are sometimes allocated, simultaneously or sequentially, to the same individual or organization. All the other stakeholders do not use the system for any purpose, and they do not need or require the system to satisfy any need. Therefore, interests of the User and claims of the Stakeholder could be contradicting.
 
 ## Concern
@@ -441,3 +494,6 @@ The User is the individual, organization or group that benefits from the operati
 * What are necessary inputs for operating the system expected to be provided by other external entitys?
 * What are the scenarios a system function is utilized in?
 * What is the necessary response time for an interface or a service?
+* Which users does the system support? What the system has to accomplish for these users? 
+
+  ***Rationale:  In my role, I need to check whether the system fits into the higher-level user concept.***

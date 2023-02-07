@@ -17,7 +17,7 @@ The Operational Domain Item Kind Viewpoint supports [tbd].
 * [Software Developer](../stakeholders.md#Software-Developer)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* What operational exchange the operational performers need to consume or provide?
+* What operational exchange does the operational performers need to consume or provide?
 ## Presentation
 Operational Domain Item Kind(s) are managed in the domain knowledge package of Enterprise. Operational Domain Item Kind(s) shall be value type(s) or block(s). A BBD diagram featuring Operational Domain Item Kind(s) and their relationship(s) in terms of generalization, composition or general association shall be used.
 

@@ -21,20 +21,20 @@ The System Context Exchange Viewpoint supports the "Prepare for Requirement Defi
 ## Concern
 * How does the system or a system element interact with the test environment?
 * How is the system interacting with the identified external entities?
-* What are the Interface Requirements imposed on the system?
 * What are the external conceptual entities the system interacts with in the respective context?
 * What are the functional interfaces of the system?
 * What are the interactions among the systems users / user classes?
+* What are the interface requirements imposed on the system?
 * What are the items exchanged at the boundary of the system with external entities?
 * What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
-* Which information is exchanged between the system and external entitys?
-* Which interfaces are necessary?
+* Which information is exchanged between the system and external entities?
 ## Presentation
 An IBD featuring the SOI, the System Context Element(s) and Connector(s) for each identified Interface from SOI to the respective Context Element(s). An Interface is a connection resource for hooking on the SOI to other Context Element(s). Item flow(s) are defined for each exchange on the identified Interface. Connectors/ports may contain reference to the Interface Document(s) if applicable.
 Note: more than one IBD focused on different areas of interest may be used in oder to keep the view comprehensive. Depending on the Stakeholder Concern(s) the Item Exchange information might be suppressed.
 
 ## Profile Model Reference
 * Connector [UML_Standard_Profile]
+* FlowProperty [SysML Profile]
 * InterfaceBlock [SysML Profile]
 * ItemFlow [SysML Profile]
 * ProxyPort [SysML Profile]
