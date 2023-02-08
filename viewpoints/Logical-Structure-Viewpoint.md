@@ -1,6 +1,6 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
 # Logical Structure Viewpoint
-*Domain:* **Logical** *Aspect:* **Structure**
+*Domain:* [Logical](../domains.md#Domain-Logical) *Aspect:* [Structure](../aspects.md#Aspect-Structure)
 ## Example
 ![FFDS Logical Architecture Definition](../diagrams/FFDS-Logical-Architecture-Definition.svg)
 ## Purpose

@@ -1,6 +1,6 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
 # System Functional Breakdown Viewpoint
-*Domain:* **Functional** *Aspect:* **Structure**
+*Domain:* [Functional](../domains.md#Domain-Functional) *Aspect:* [Structure](../aspects.md#Aspect-Structure)
 ## Example
 ![FFDS Function Breakdown Structure Definition](../diagrams/FFDS-Function-Breakdown-Structure-Definition.svg)
 ## Purpose

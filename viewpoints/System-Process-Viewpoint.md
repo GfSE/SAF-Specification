@@ -1,6 +1,6 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
 # System Process Viewpoint
-*Domain:* **Functional** *Aspect:* **Process & Behavior**
+*Domain:* [Functional](../domains.md#Domain-Functional) *Aspect:* [Process & Behavior](../aspects.md#Aspect-Process-&-Behavior)
 ## Example
 ![FFDS A Day in the Life of FFDS](../diagrams/FFDS-A-Day-in-the-Life-of-FFDS.svg)
 ## Purpose

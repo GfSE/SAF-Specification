@@ -1,6 +1,6 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
 # Operational Performer Viewpoint
-*Domain:* **Operational** *Aspect:* **Structure**
+*Domain:* [Operational](../domains.md#Domain-Operational) *Aspect:* [Structure](../aspects.md#Aspect-Structure)
 ## Example
 ![Operational Performer Definition](../diagrams/Operational-Performer-Definition.svg)
 ## Purpose

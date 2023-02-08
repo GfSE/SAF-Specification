@@ -1,6 +1,6 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
 # Logical Internal Exchange Viewpoint
-*Domain:* **Logical** *Aspect:* **Interaction & Collaboration**
+*Domain:* [Logical](../domains.md#Domain-Logical) *Aspect:* [Interaction & Collaboration](../aspects.md#Aspect-Interaction-&-Collaboration)
 ## Example
 ![FFDS Logical Internal Exchange](../diagrams/FFDS-Logical-Internal-Exchange.svg)
 ## Purpose

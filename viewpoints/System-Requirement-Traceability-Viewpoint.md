@@ -1,6 +1,6 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
 # System Requirement Traceability Viewpoint
-*Domain:* **Functional** *Aspect:* **Mapping & Crossreference**
+*Domain:* [Functional](../domains.md#Domain-Functional) *Aspect:* [Mapping & Crossreference](../aspects.md#Aspect-Mapping-&-Crossreference)
 ## Example
 *none*
 ## Purpose

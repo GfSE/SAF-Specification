@@ -1,6 +1,6 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
 # Operational Capability Viewpoint
-*Domain:* **Operational** *Aspect:* **Structure**
+*Domain:* [Operational](../domains.md#Domain-Operational) *Aspect:* [Structure](../aspects.md#Aspect-Structure)
 ## Example
 ![SAR and FDN Capability Definition](../diagrams/SAR-and-FDN-Capability-Definition.svg)
 ## Purpose

@@ -1,0 +1,59 @@
+# SAF Aspects
+|Aspect|Viewpoints|
+| --- | --- |
+| Context & Exchange | [Operational Context Definition Viewpoint](viewpoints/Operational-Context-Definition-Viewpoint.md), [Operational Context Exchange Viewpoint](viewpoints/Operational-Context-Exchange-Viewpoint.md), [Operational Story Viewpoint](viewpoints/Operational-Story-Viewpoint.md), [Physical Context Definition Viewpoint](viewpoints/Physical-Context-Definition-Viewpoint.md), [Physical Context Exchange Viewpoint](viewpoints/Physical-Context-Exchange-Viewpoint.md), [System Context Definition Viewpoint](viewpoints/System-Context-Definition-Viewpoint.md), [System Context Exchange Viewpoint](viewpoints/System-Context-Exchange-Viewpoint.md), [System UseCase Viewpoint](viewpoints/System-UseCase-Viewpoint.md) |
+| Structure | [Evidence Viewpoint](viewpoints/Evidence-Viewpoint.md), [Logical Structure Viewpoint](viewpoints/Logical-Structure-Viewpoint.md), [Operational Capability Viewpoint](viewpoints/Operational-Capability-Viewpoint.md), [Operational Domain Item Kind Viewpoint](viewpoints/Operational-Domain-Item-Kind-Viewpoint.md), [Operational Performer Viewpoint](viewpoints/Operational-Performer-Viewpoint.md), [Physical Structure Viewpoint](viewpoints/Physical-Structure-Viewpoint.md), [Stakeholder Identification Viewpoint](viewpoints/Stakeholder-Identification-Viewpoint.md), [System Capability Viewpoint](viewpoints/System-Capability-Viewpoint.md), [System Domain Item Kind Viewpoint](viewpoints/System-Domain-Item-Kind-Viewpoint.md), [System Functional Breakdown Viewpoint](viewpoints/System-Functional-Breakdown-Viewpoint.md) |
+| Process & Behavior | [Operational Process Viewpoint](viewpoints/Operational-Process-Viewpoint.md), [System Process Viewpoint](viewpoints/System-Process-Viewpoint.md), [System State Viewpoint](viewpoints/System-State-Viewpoint.md) |
+| Interaction & Collaboration | [Logical Interaction Viewpoint](viewpoints/Logical-Interaction-Viewpoint.md), [Logical Internal Exchange Viewpoint](viewpoints/Logical-Internal-Exchange-Viewpoint.md), [Operational Interaction Viewpoint](viewpoints/Operational-Interaction-Viewpoint.md), [Physical Internal Exchange Viewpoint](viewpoints/Physical-Internal-Exchange-Viewpoint.md), [System Context Interaction Viewpoint](viewpoints/System-Context-Interaction-Viewpoint.md) |
+| Interface |  |
+| Requirement | [Stakeholder Requirement Viewpoint](viewpoints/Stakeholder-Requirement-Viewpoint.md), [System Requirement Viewpoint](viewpoints/System-Requirement-Viewpoint.md) |
+| Security & Safety |  |
+| Mapping & Crossreference | [Operational Capability Traceability Viewpoint](viewpoints/Operational-Capability-Traceability-Viewpoint.md), [Operational Process Traceability Viewpoint](viewpoints/Operational-Process-Traceability-Viewpoint.md), [System Function Black Box Allocation Viewpoint](viewpoints/System-Function-Black-Box-Allocation-Viewpoint.md), [System Requirement Traceability Viewpoint](viewpoints/System-Requirement-Traceability-Viewpoint.md) |
+| Taxonomy |  |
+| Traceability |  |
+## Aspect Context & Exchange
+Aspect Context Objective
+Identifies and describes the environment of an element, its boundary and the external elements having a relation with it. It identifies the interaction and exchange between an element and the external elements.
+## Aspect Structure
+Aspect Structure Objective
+Identifies and describes the breakdown and decomposition of elements and defines the dependencies and relationships between the different elements.
+## Aspect Process & Behavior
+Aspect Behavior Objective
+Captures functions, activities, processes and flows. Identifies and describes activities, their inputs and outputs, activity actions and flows between them. Captures state-based behavior of an element. It is a graphical representation of states of a structural element and how it responds to various events and actions.
+## Aspect Interaction & Collaboration
+Aspect Interactions and Collaboration Objective
+Identifies and describes time-ordered examination of exchanges between participating elements as a result of a particular scenario.
+## Aspect Interface
+Aspect Interface Objective
+tbd
+## Aspect Requirement
+Aspect Requirement Objective
+tbd
+## Aspect Security & Safety
+Aspect Security and Safety Objective
+tbd
+## Aspect Mapping & Crossreference
+Aspect Cross reference and Mapping Objective
+Identifies and describes the mapping between elements in the architecture. This may be between different viewpoints within domains as well as between domains. It may also be between structure and behaviors, too.
+## Aspect Taxonomy
+<html>
+  <head>
+		<style>
+			p {padding:0px; margin:0px;}
+		</style>
+	</head>
+  <body>
+Aspect Taxonomy Objective <span style="color:#ff0000;">&lt;not in use&gt;     
+</span><br>Presents all the elements as a standalone structure. Presents all the elements as a specialization hierarchy, provides a text definition for each one and references the source of the element.</body>
+</html>
+## Aspect Traceability
+<html>
+  <head>
+		<style>
+			p {padding:0px; margin:0px;}
+		</style>
+	</head>
+  <body>
+Aspect Traceability Objective <span style="color:#ff0000;">&lt;not in use&gt;     
+</span><br>Identifies and describes the traceability between requirements or standards and model elements in the various domains and viewpoints.</body>
+</html>

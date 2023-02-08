@@ -1,6 +1,6 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
 # Operational Context Definition Viewpoint
-*Domain:* **Operational** *Aspect:* **Context & Exchange**
+*Domain:* [Operational](../domains.md#Domain-Operational) *Aspect:* [Context & Exchange](../aspects.md#Aspect-Context-&-Exchange)
 ## Example
 ![FDN Context Definition](../diagrams/FDN-Context-Definition.svg)
 ## Purpose

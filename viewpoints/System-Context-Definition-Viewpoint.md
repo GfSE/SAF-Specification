@@ -1,6 +1,6 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
 # System Context Definition Viewpoint
-*Domain:* **Functional** *Aspect:* **Context & Exchange**
+*Domain:* [Functional](../domains.md#Domain-Functional) *Aspect:* [Context & Exchange](../aspects.md#Aspect-Context-&-Exchange)
 ## Example
 ![FFDS Context Definition](../diagrams/FFDS-Context-Definition.svg)
 ## Purpose

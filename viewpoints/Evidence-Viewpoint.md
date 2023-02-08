@@ -1,6 +1,6 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
 # Evidence Viewpoint
-*Domain:* **Common** *Aspect:* **Structure**
+*Domain:* [Common](../domains.md#Domain-Common) *Aspect:* [Structure](../aspects.md#Aspect-Structure)
 ## Example
 *none*
 ## Purpose

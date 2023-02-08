@@ -1,6 +1,6 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
 # Operational Domain Item Kind Viewpoint
-*Domain:* **Operational** *Aspect:* **Structure**
+*Domain:* [Operational](../domains.md#Domain-Operational) *Aspect:* [Structure](../aspects.md#Aspect-Structure)
 ## Example
 ![Operational Domain Item Definition](../diagrams/Operational-Domain-Item-Definition.svg)
 ## Purpose

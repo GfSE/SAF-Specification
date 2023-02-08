@@ -1,6 +1,6 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
 # Physical Structure Viewpoint
-*Domain:* **Physical** *Aspect:* **Structure**
+*Domain:* [Physical](../domains.md#Domain-Physical) *Aspect:* [Structure](../aspects.md#Aspect-Structure)
 ## Example
 *none*
 ## Purpose

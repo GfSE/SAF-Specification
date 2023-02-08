@@ -1,6 +1,6 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
 # System Domain Item Kind Viewpoint
-*Domain:* **Functional** *Aspect:* **Structure**
+*Domain:* [Functional](../domains.md#Domain-Functional) *Aspect:* [Structure](../aspects.md#Aspect-Structure)
 ## Example
 ![FFDS System Domain Item Definition](../diagrams/FFDS-System-Domain-Item-Definition.svg)
 ## Purpose

@@ -1,6 +1,6 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
 # Physical Context Definition Viewpoint
-*Domain:* **Physical** *Aspect:* **Context & Exchange**
+*Domain:* [Physical](../domains.md#Domain-Physical) *Aspect:* [Context & Exchange](../aspects.md#Aspect-Context-&-Exchange)
 ## Example
 *none*
 ## Purpose

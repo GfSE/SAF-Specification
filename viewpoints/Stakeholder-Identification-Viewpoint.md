@@ -1,6 +1,6 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
 # Stakeholder Identification Viewpoint
-*Domain:* **Operational** *Aspect:* **Structure**
+*Domain:* [Operational](../domains.md#Domain-Operational) *Aspect:* [Structure](../aspects.md#Aspect-Structure)
 ## Example
 *none*
 ## Purpose
