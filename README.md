@@ -6,7 +6,7 @@ The Fire Forest Detection example, SAF_FFDS, is based on the publication **SYSMO
 It is possible to contribute to SAF, see [contributing](contributing.md). To understand how SAF is developed, see [development](developing-saf/development.md).
 
 # Viewpoint Grid
-The Viewpoints are organized a Grid, havin [Domains](domains.md) as rows and [Aspects](aspects.md) as columns
+The Viewpoints are organized a Grid, having [Domains](domains.md) as rows and [Aspects](aspects.md) as columns
 
 ![SAF Grid](diagrams/SAF_FFDS_view_grid.svg)
 
