@@ -7,33 +7,44 @@
 | Logical | [Logical Interaction Viewpoint](viewpoints/Logical-Interaction-Viewpoint.md), [Logical Internal Exchange Viewpoint](viewpoints/Logical-Internal-Exchange-Viewpoint.md), [Logical Structure Viewpoint](viewpoints/Logical-Structure-Viewpoint.md) |
 | Physical | [Physical Context Definition Viewpoint](viewpoints/Physical-Context-Definition-Viewpoint.md), [Physical Context Exchange Viewpoint](viewpoints/Physical-Context-Exchange-Viewpoint.md), [Physical Internal Exchange Viewpoint](viewpoints/Physical-Internal-Exchange-Viewpoint.md), [Physical Structure Viewpoint](viewpoints/Physical-Structure-Viewpoint.md) |
 ## Domain Common
-SAF Common Domain Objective
+**Objective**
+
 tbd
 ## Domain Operational
-SAF Operational Domain Objective
-The SAF Operational Domain supports the model-based development of a CONOPS - as well as an OPSCON and related life cycle concepts - for an organization or operational entity seeking for an improvement of existing capability(s) or in establishing new ones. The SAF Operational Domain therefore aims to get an understanding of required organizational or operational entity capability(s).
-The viewpoints of the SAF Operational Domain assist the "Business or Mission Analysis Process" and the "Stakeholder Needs and Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1, § 4.2]. By identifying Stakeholder(s) and their Requirement(s) the SAF Operational Domain supports the derivation of a complete and consolidated set of Stakeholder Requirement(s) based on operational activities and exchanges.
-Concern
+**Objective**
+
+The SAF Operational Domain supports the model-based development of a CONOPS - as well as an OPSCON and related life cycle concepts - for an organization or operational entity seeking for an improvement of existing capabilities or in establishing new ones. The SAF Operational Domain therefore aims to get an understanding of required organizational or operational entity capabilites.
+The viewpoints of the SAF Operational Domain assist the "Business or Mission Analysis Process" and the "Stakeholder Needs and Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1, § 4.2]. By identifying Stakeholders and their Requirements the SAF Operational Domain supports the derivation of a complete and consolidated set of Stakeholder Requirements based on operational activities and exchanges.
+
+**Concerns**
+
 * Gain a comprehensive understanding of the operating environment that an intended solution needs to support
 * Promote the freedom of development by preventing premature commitment to solutions
 * Capture all information necessary for subsequent requirement and system architecture definition activities
 ## Domain Functional
-SAF Functional Domain Objective
-The Functional Domain Viewpoints translate Operational Domain usage into the notion of System Function(s) defining the demanded system behavior and quality attributes - performance, safety, security, etc.; the demanded system behavior as it is perceived by the User or other Entity(s) at the System Boundary (known as usage behavior). The result of the Functional Domain Viewpoint elaboration is a comprehensive System Specification.
-Concern
-* Consolidating Functional Requirement(s): formally specifying the requirements of the system behavior using a black box approach
-* Mastering functional dependency: detection and resolution of inconsistencies within the Functional Requirement(s) (known as feature interaction)
+**Objective**
+
+The Functional Domain Viewpoints translate Operational Domain usage into the notion of System Functions defining the demanded system behavior and quality attributes - performance, safety, security, etc.; the demanded system behavior as it is perceived by the User or other Entities at the System Boundary (known as usage behavior). The result of the Functional Domain Viewpoint elaboration is a comprehensive System Specification.
+
+**Concerns**
+
+* Consolidating Functional Requirements: formally specifying the requirements of the system behavior using a black box approach
+* Mastering functional dependency: detection and resolution of inconsistencies within the Functional Requirements (known as feature interaction)
 * Reducing functional complexity: structuring the functionality from the System's point of view
-* Understanding functional interrelationship(s): collecting and analyzing the exchange between different (sub-)functionality(s)
+* Understanding functional interrelationships: collecting and analyzing the exchange between different (sub-)functionalities
 ## Domain Logical
-SAF Logical Domain Objective
-The Logical Domain Viewpoints describe the Logical Structure and the distribution of responsibility(s) for the Functionality of the SOI by means of a network of interacting Logical Element(s) that are responsible for a set of desired Function(s). These Logical Element(s) and their Interaction(s) are arranged in the Logical Architecture of the SOI. The structure of the Logical Architecture is in general influenced by nonfunctional criteria, e.g., maintainability, safety, and reliability. 
-Concern 
-* Describing the Internal Logical Structure of the SOI by partitioning the SOI into communicating Logical Element(s)
-* Describing the Logical Interface(s) & Data Exchange(s) between the interacting Logical Element(s) in a way that the Logical Interface(s) are independent from their implementation
-* Allocating desired Function(s) to cohesive Logical Element(s)
-* Supporting the reuse of already existent Logical Element(s) and designing Logical Element(s) such that future reuse is facilitated
+**Objective**
+
+The Logical Domain Viewpoints describe the Logical Structure and the distribution of responsibility(s) for the Functionality of the SOI by means of a network of interacting Logical Element(s) that are responsible for a set of desired Functions. These Logical Elements and their Interaction(s) are arranged in the Logical Architecture of the SOI. The structure of the Logical Architecture is in general influenced by Non-functional criteria, e.g., maintainability, safety, and reliability. 
+
+**Concerns**
+
+* Describing the Internal Logical Structure of the SOI by partitioning the SOI into communicating Logical Elements
+* Describing the Logical Interface(s) & Data Exchanges between the interacting Logical Elements in a way that the Logical Interfaces are independent from their implementation
+* Allocating desired Function(s) to cohesive Logical Elements
+* Supporting the reuse of already existent Logical Elements and designing Logical Elements such that future reuse is facilitated
 * Defining the emerging behavior of the system (in contrast to the partial behavior specified in the of Functional Domain Viewpoints) and enabling a complete simulation of the entire system
 ## Domain Physical
-SAF Physical Domain Objective
+**Objective**
+
 tbd

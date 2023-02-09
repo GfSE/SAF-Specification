@@ -31,8 +31,6 @@ The physical structure Viewpoint supports the "Allocation and Partitioning of Lo
 * Which physical items the SOI is built of?
 * what is the decomposition hierarchy of the system/logical elements
 ## Presentation
-The following artifact(s) support the modeling activities:
-
 ## Profile Model Reference
 ## Input from other Viewpoints
 ### Required Viewpoints

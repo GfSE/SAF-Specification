@@ -12,48 +12,42 @@
 | Taxonomy |  |
 | Traceability |  |
 ## Aspect Context & Exchange
-Aspect Context Objective
+**Objective**
+
 Identifies and describes the environment of an element, its boundary and the external elements having a relation with it. It identifies the interaction and exchange between an element and the external elements.
 ## Aspect Structure
-Aspect Structure Objective
+**Objective**
+
 Identifies and describes the breakdown and decomposition of elements and defines the dependencies and relationships between the different elements.
 ## Aspect Process & Behavior
-Aspect Behavior Objective
+**Objective**
+
 Captures functions, activities, processes and flows. Identifies and describes activities, their inputs and outputs, activity actions and flows between them. Captures state-based behavior of an element. It is a graphical representation of states of a structural element and how it responds to various events and actions.
 ## Aspect Interaction & Collaboration
-Aspect Interactions and Collaboration Objective
+**Objective**
+
 Identifies and describes time-ordered examination of exchanges between participating elements as a result of a particular scenario.
 ## Aspect Interface
-Aspect Interface Objective
+**Objective**
+
 tbd
 ## Aspect Requirement
-Aspect Requirement Objective
+**Objective**
+
 tbd
 ## Aspect Security & Safety
-Aspect Security and Safety Objective
+**Objective**
+
 tbd
 ## Aspect Mapping & Crossreference
-Aspect Cross reference and Mapping Objective
+**Objective**
+
 Identifies and describes the mapping between elements in the architecture. This may be between different viewpoints within domains as well as between domains. It may also be between structure and behaviors, too.
 ## Aspect Taxonomy
-<html>
-  <head>
-		<style>
-			p {padding:0px; margin:0px;}
-		</style>
-	</head>
-  <body>
-Aspect Taxonomy Objective <span style="color:#ff0000;">&lt;not in use&gt;     
-</span><br>Presents all the elements as a standalone structure. Presents all the elements as a specialization hierarchy, provides a text definition for each one and references the source of the element.</body>
-</html>
+**Objective**
+
+Presents all the elements as a standalone structure. Presents all the elements as a specialization hierarchy, provides a text definition for each one and references the source of the element.
 ## Aspect Traceability
-<html>
-  <head>
-		<style>
-			p {padding:0px; margin:0px;}
-		</style>
-	</head>
-  <body>
-Aspect Traceability Objective <span style="color:#ff0000;">&lt;not in use&gt;     
-</span><br>Identifies and describes the traceability between requirements or standards and model elements in the various domains and viewpoints.</body>
-</html>
+**Objective**
+
+Identifies and describes the traceability between requirements or standards and model elements in the various domains and viewpoints.

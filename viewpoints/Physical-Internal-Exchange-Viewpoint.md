@@ -6,7 +6,7 @@
 ## Purpose
 The Physical Internal Exchange Viewpoint serves for the identification and definition of interface(s) of element(s) of the SOI. Also, the delegation of SOI element interface(s) to SOI boundary interface(s) is covered.
 The Phyiscal Internal Exchange Viewpoint
-* identifies SOI element interface(s) on a physical level
+* identifies SOI element interface(s) on a Physical Level
 * states to which other SOI element(s) the interface(s) are connected to
 * assigns interface specification(s) to interface(s)
 * defines the usage of interface(s), e.g. if only a subset of the interface(s) is used 
