@@ -2,7 +2,7 @@
 
 ## Kinds of Models
 
-![Bild]()
+![Bild](../diagrams/Kinds-of-Models.svg)
 
 There are several kinds of models around SAF serving a certain purpose
 
@@ -26,7 +26,7 @@ It governs, which items SAF consist of and how these items are related.
 
 The inner architecture follows the concepts of ISO 42010.
 
-![Bild]()
+![Bild](../diagrams/Concept-Model-Definition.svg)
 
 Within the conceptual model the following elements can be recognized.
 
@@ -38,6 +38,6 @@ Within the conceptual model the following elements can be recognized.
   In SAF the size of Viewpoints should be optimized to support tailoring by selection of viewpoints appropriate to the engineering problem at hand. This  means that SAF Viewpoints should adress only a small number of well defined Concerns.
   
 * **Information Items** are like Viewpoints but at a larger scale. They can group Viewpoints while constraining them further. They also can be nested.
-  This allows to specify Information Items like an ISO 29148 SyRS by breaking it down into smaller Information Items and finally into Viewpoints.
-  This allows to define which concerns are to be adressed by a SyRS document and which viewpoints are needed for it.
+  This allows to specify Information Items like e.g. an ISO 29148 SyRS by breaking it down into smaller Information Items and finally into Viewpoints.
+  This allows to define which concerns are to be adressed e.g. by a SyRS document and which viewpoints are needed for it.
   The goal is, to precisely define the needed model work for certain points in an engieering project.
