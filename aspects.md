@@ -8,7 +8,7 @@
 | Interface |  |
 | Requirement | [Stakeholder Requirement Viewpoint](viewpoints/Stakeholder-Requirement-Viewpoint.md), [System Requirement Viewpoint](viewpoints/System-Requirement-Viewpoint.md) |
 | Security & Safety |  |
-| Mapping & Crossreference | [Operational Capability Traceability Viewpoint](viewpoints/Operational-Capability-Traceability-Viewpoint.md), [Operational Process Traceability Viewpoint](viewpoints/Operational-Process-Traceability-Viewpoint.md), [System Function Black Box Allocation Viewpoint](viewpoints/System-Function-Black-Box-Allocation-Viewpoint.md), [System Requirement Traceability Viewpoint](viewpoints/System-Requirement-Traceability-Viewpoint.md) |
+| Mapping & Crossreference | [Logical Function Allocation Viewpoint](viewpoints/Logical-Function-Allocation-Viewpoint.md), [Operational Capability Traceability Viewpoint](viewpoints/Operational-Capability-Traceability-Viewpoint.md), [Operational Process Traceability Viewpoint](viewpoints/Operational-Process-Traceability-Viewpoint.md), [Physical Function Allocation Viewpoint](viewpoints/Physical-Function-Allocation-Viewpoint.md), [System Requirement Traceability Viewpoint](viewpoints/System-Requirement-Traceability-Viewpoint.md) |
 | Taxonomy |  |
 | Traceability |  |
 ## Aspect Context & Exchange

@@ -143,7 +143,7 @@ implements viewpoint [System Functional Breakdown Viewpoint](viewpoints/System-F
 ## SAF_SFV03a_View 
 implements viewpoint [System Process Viewpoint](viewpoints/System-Process-Viewpoint.md)
 
-
+Realizes the System Process Viewpoint
 ## SAF_SFV03b_View 
 implements viewpoint [System State Viewpoint](viewpoints/System-State-Viewpoint.md)
 

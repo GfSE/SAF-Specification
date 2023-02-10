@@ -36,14 +36,16 @@ Note: It is recommended to compile separate activity diagrams refining Use Case 
 ## Profile Model Reference
 * Allocate [SysML Profile]
 * Allocate [SysML Profile]
-* Association [UML_Standard_Profile]
-* Association [UML_Standard_Profile]
 * ControlFlow [UML_Standard_Profile]
 * InputPin [UML_Standard_Profile]
 * ObjectFlow [UML_Standard_Profile]
 * OutputPin [UML_Standard_Profile]
+* Parameter [UML_Standard_Profile]
 * [SAF_ContextFunction](../stereotypes.md#SAF_ContextFunction)
 * [SAF_FunctionAction](../stereotypes.md#SAF_FunctionAction)
+* [SAF_FunctionAction](../stereotypes.md#SAF_FunctionAction)
+* [SAF_LogicalRole](../stereotypes.md#SAF_LogicalRole)
+* [SAF_LogicalRole](../stereotypes.md#SAF_LogicalRole)
 * [SAF_SFV03a_View](../stereotypes.md#SAF_SFV03a_View)
 * [SAF_SystemFunction](../stereotypes.md#SAF_SystemFunction)
 * [SAF_SystemProcess](../stereotypes.md#SAF_SystemProcess)

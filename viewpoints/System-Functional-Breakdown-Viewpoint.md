@@ -24,6 +24,7 @@ The result of the [tbd] process is one or more block definition diagram(s) (BDD)
 * Association [UML_Standard_Profile]
 * Association [UML_Standard_Profile]
 * Property [UML_Standard_Profile]
+* [SAF_FunctionAction](../stereotypes.md#SAF_FunctionAction)
 * [SAF_SFV02c_View](../stereotypes.md#SAF_SFV02c_View)
 * [SAF_SystemFunction](../stereotypes.md#SAF_SystemFunction)
 ## Input from other Viewpoints
