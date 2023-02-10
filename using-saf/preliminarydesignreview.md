@@ -43,7 +43,7 @@ The PDR is the "design to" review. That means, the design is based on the baseli
 The listing of items include that they are present, consistent, understood by the engineering stakeholders and accepted.
 Under The information Items, the specific concerns to be adressed by the information items are listed
 
-##System Architecture
+## System Architecture
  * System decomposition into physical items (SWU, HWU) to be subject of one or more work package agreements (Arbeitsauftrag), or subcontracted.
  * Decomposition and assignment of functions to single physical items (SWU, HWU) (e.g. by means of logical architecture assignment, functional requirements,..)
  * Assignment of nonfunctional properties to physical items (SWU, HWU)
@@ -53,16 +53,16 @@ Under The information Items, the specific concerns to be adressed by the informa
  * Exchange of physical items to external systems designed(physical interface, draft)
  * Design Constraints for interfaces of physical items defined
 
-##SEP
+## SEP
  * Engineering process for following phase defined in SEP
 
-##Test Plan
+## Test Plan
  * Integration and Test plan down to to physical item level
 
-##Safety & Security Assessment
+## Safety & Security Assessment
  * Assignment of safety and security properties to physical items
 
-##Risk Management
+## Risk Management
  * risks (development, integration, acceptance, ..) for following phase (detailled design) identified
  * made sure that the stakeholder analysis is still valid from the perspective of the review participants
  * made sure that the system decomposition and selection of physical items adress the stakeholders requirements    
