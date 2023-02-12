@@ -9,9 +9,8 @@ The System Capability Viewpoint defines a taxonomy of Capability(s) including co
 The System Capability Viewpoint supports the "[tbd]" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§] defining System Capability(s) at a system level (e.g. [tbd] and functional process(es)). The System Capability Viewpoint contributes to [tbd].
 ## Stakeholder
 * [Acquirer](../stakeholders.md#Acquirer)
-* [Customer](../stakeholders.md#Customer)
+* [Supplier](../stakeholders.md#Supplier)
 * [System Architect](../stakeholders.md#System-Architect)
-* [User](../stakeholders.md#User)
 ## Concern
 * What are the capabilities that are supported by the system?
 ## Presentation

@@ -8,11 +8,10 @@ The System Requirement Viewpoint specifies function(s), non-functional property(
 ## Applicability
 The System Requirement Viewpoint supports the "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§4.3] and contributes to the system requirements verification and traceability matrix (RVTM).
 ## Stakeholder
-* [Customer](../stakeholders.md#Customer)
+* [Hardware Developer](../stakeholders.md#Hardware-Developer)
+* [IV&V Engineer](../stakeholders.md#IV&V-Engineer)
 * [Project Manager](../stakeholders.md#Project-Manager)
-* [Regulation Authority](../stakeholders.md#Regulation-Authority)
-* [Safety Expert](../stakeholders.md#Safety-Expert)
-* [Security Expert](../stakeholders.md#Security-Expert)
+* [Software Developer](../stakeholders.md#Software-Developer)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
 * What are the exchange requirements imposed on the system?

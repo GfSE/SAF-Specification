@@ -118,6 +118,9 @@ The Developer is a group or an individual implementing the system parts accordin
 * What is the allocated reliability for the complete item?
 * What is the allocated space?
 * What is the allocated weight?
+* What is the allocation of functions to the physical architecture? 
+
+  ***Rationale:  In my role, I need to implement the realization of sub-function(s) by my HW subsystem.***
 * What is the necessary accuracy and resolution for analog signal acquisition?
 * What is the necessary accuracy and resolution for processing?
 * What is the necessary memory size for processing nodes and data storage?
@@ -128,7 +131,7 @@ The Developer is a group or an individual implementing the system parts accordin
 * What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
 * Which HW interfaces are necessary? 
 
-  ***Rationale:  In my role, I need to implement interfaces with my subsystem, if necessary.***
+  ***Rationale:  In my role, I need to implement interfaces with my HW subsystem, if necessary.***
 * Which Stakeholder are relevant to the system and might impose requirements? 
 
   ***Rationale:  In my role, I need to give feedback on existing or missing stakeholders.***
@@ -136,9 +139,12 @@ The Developer is a group or an individual implementing the system parts accordin
 * Which functions will the system provide? 
 
   ***Rationale:  In my role, I need to provide qualified feedback on how my how the sub-functions assigned to my subsystem contributes to the function of the system.***
+* Which functions/functional requirements are assigned to a logical item? 
+
+  ***Rationale:  In my role. I need to take this into account when planning realization.***
 * Which interface partners does a HW item have? 
 
-  ***Rationale:  In my role, I need to implement interfaces with my subsystem, if necessary.***
+  ***Rationale:  In my role, I need to implement interfaces with my HW subsystem, if necessary.***
 * Which modes and states does the system have? 
 
   ***Rationale:  In my role, I need to know which system modes and states my subsystem must support.***
@@ -356,6 +362,9 @@ The Developer is a group or an individual implementing the system parts accordin
 
   ***Rationale:  In my role, I need to trace my derived requirements against these ones relevant to me.***
 * What are the protocols for exchanging items on an interface?
+* What is the allocation of functions to the physical architecture? 
+
+  ***Rationale:  In my role, I need to implement the realization of sub-function(s) by my SW subsystem.***
 * What is the necessary accuracy and resolution for processing?
 * What is the necessary performance for processing?
 * What is the necessary response time for an interface or a service?
@@ -363,7 +372,7 @@ The Developer is a group or an individual implementing the system parts accordin
 * What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
 * Which SW interfaces are necessary? 
 
-  ***Rationale:  In my role, I need to implement interfaces with my subsystem, if necessary.***
+  ***Rationale:  In my role, I need to implement interfaces with my SW subsystem, if necessary.***
 * Which Stakeholder are relevant to the system and might impose requirements? 
 
   ***Rationale:  In my role, I need to give feedback on existing or missing stakeholders.***
@@ -371,9 +380,12 @@ The Developer is a group or an individual implementing the system parts accordin
 * Which functions will the system provide? 
 
   ***Rationale:  In my role, I need to provide qualified feedback on how my how the sub-functions assigned to my subsystem contributes to the function of the system.***
+* Which functions/functional requirements are assigned to a logical item? 
+
+  ***Rationale:  In my role. I need to take this into account when planning implementation.***
 * Which interface partners does a SW item have? 
 
-  ***Rationale:  In my role, I need to implement interfaces with my subsystem, if necessary.***
+  ***Rationale:  In my role, I need to implement interfaces with my SW subsystem, if necessary.***
 * Which modes and states does the system have? 
 
   ***Rationale:  In my role, I need to know which system modes and states my subsystem must support.***
@@ -446,7 +458,9 @@ The System Architect as an individual or group performing the systems engineerin
 * What are the scenarios a system function is utilized in?
 * What are the system delivery standards?
 * What existing elements of the organization, enterprise, or operational entity need to be integrated in the intended solution?
-* What is the allocation of functions to the physical architecture?
+* What is the allocation of functions to the physical architecture? 
+
+  ***Rationale:  In my role. I need to delegate the realization of sub-function by HW & SW subsystems.***
 * What is the breakdown of functions into sub-functions?
 * What is the configuration or version of each configuration item?
 * What is the context of the organization, enterprise, or operational entity?
@@ -470,6 +484,7 @@ The System Architect as an individual or group performing the systems engineerin
 * Which functions will the system provide? 
 
   ***Rationale:  In my role, I need to break these down further to be able to delegate sub-functions to subsystems.***
+* Which functions/functional requirements are assigned to a logical item?
 * Which information is exchanged between the system and external entities?
 * Which modes and states does the system have? 
 

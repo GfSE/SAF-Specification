@@ -9,7 +9,7 @@
 ## Domain Common
 **Objective**
 
-tbd
+[tbd]
 ## Domain Operational
 **Objective**
 
@@ -47,4 +47,4 @@ The Logical Domain Viewpoints describe the Logical Structure and the distributio
 ## Domain Physical
 **Objective**
 
-tbd
+[tbd]

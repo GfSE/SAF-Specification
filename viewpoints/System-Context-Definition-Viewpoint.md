@@ -10,8 +10,8 @@ The System Context Definition Viewpoint supports the "Prepare for Requirement De
 ## Stakeholder
 * [Acquirer](../stakeholders.md#Acquirer)
 * [Customer](../stakeholders.md#Customer)
+* [Supplier](../stakeholders.md#Supplier)
 * [System Architect](../stakeholders.md#System-Architect)
-* [User](../stakeholders.md#User)
 ## Concern
 * What are necessary enabling systems?
 * What are the different contexts the system is embedded and utilized in?

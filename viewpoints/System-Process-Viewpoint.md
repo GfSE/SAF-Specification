@@ -14,9 +14,16 @@ The System Process Viewpoint provides the functional representation of the syste
 ## Applicability
 The System Process Viewpoint supports the "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§4.3] and contributes to the System Function Definition and the System Functional Interface Identification.
 ## Stakeholder
+* [Acquirer](../stakeholders.md#Acquirer)
 * [Customer](../stakeholders.md#Customer)
+* [Hardware Developer](../stakeholders.md#Hardware-Developer)
+* [IV&V Engineer](../stakeholders.md#IV&V-Engineer)
+* [Operator](../stakeholders.md#Operator)
+* [Project Manager](../stakeholders.md#Project-Manager)
 * [Safety Expert](../stakeholders.md#Safety-Expert)
 * [Security Expert](../stakeholders.md#Security-Expert)
+* [Software Developer](../stakeholders.md#Software-Developer)
+* [Supplier](../stakeholders.md#Supplier)
 * [System Architect](../stakeholders.md#System-Architect)
 * [User](../stakeholders.md#User)
 ## Concern

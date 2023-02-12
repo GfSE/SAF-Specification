@@ -8,15 +8,17 @@ The Logical Interaction Viewpoint describes system internal behavior based on th
 ## Applicability
 The Logical Interaction Viewpoint supports the "Develop Architecture Viewpoints" and the "Develop Models and Views of Candidate Architectures" activity included in the "Architecture Definition process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.4] and contributes to the artifact "System Architecture Description".
 ## Stakeholder
+* [Acquirer](../stakeholders.md#Acquirer)
+* [Customer](../stakeholders.md#Customer)
 * [Hardware Developer](../stakeholders.md#Hardware-Developer)
 * [IV&V Engineer](../stakeholders.md#IV&V-Engineer)
-* [Mechanic Developer](../stakeholders.md#Mechanic-Developer)
+* [Operator](../stakeholders.md#Operator)
 * [Regulation Authority](../stakeholders.md#Regulation-Authority)
 * [Safety Expert](../stakeholders.md#Safety-Expert)
 * [Security Expert](../stakeholders.md#Security-Expert)
 * [Software Developer](../stakeholders.md#Software-Developer)
-* [Supplier](../stakeholders.md#Supplier)
 * [System Architect](../stakeholders.md#System-Architect)
+* [User](../stakeholders.md#User)
 ## Concern
 * How do internal system elements interact with each other to provide the system function or service?
 * How does the system or a system element interact with the test environment?

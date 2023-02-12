@@ -8,9 +8,6 @@ The Common Evidence Pattern Viewpoint presents claim(s) backed up by argument(s)
 ## Applicability
 The Common Evidence Pattern Viewpoint supports the ability to present an evidence pattern, a structure of claim(s), argument(s) and evidence, which is a common need in systems engineering. It applies equally to the establishment of traceability, definition of safety cases and even the presentation of business cases.
 ## Stakeholder
-* [IV&V Engineer](../stakeholders.md#IV&V-Engineer)
-* [Regulation Authority](../stakeholders.md#Regulation-Authority)
-* [System Architect](../stakeholders.md#System-Architect)
 ## Concern
 * How is a evidence-based claim supported?
 ## Presentation

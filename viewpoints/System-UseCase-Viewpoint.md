@@ -10,6 +10,9 @@ The Sytem Story Viewpoint supports the "Stakeholder Needs and Requirements Defin
 ## Stakeholder
 * [Acquirer](../stakeholders.md#Acquirer)
 * [Customer](../stakeholders.md#Customer)
+* [IV&V Engineer](../stakeholders.md#IV&V-Engineer)
+* [Operator](../stakeholders.md#Operator)
+* [Project Manager](../stakeholders.md#Project-Manager)
 * [System Architect](../stakeholders.md#System-Architect)
 * [User](../stakeholders.md#User)
 ## Concern

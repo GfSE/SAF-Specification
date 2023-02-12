@@ -24,11 +24,7 @@ Note: new VP to be created addressing dedicated concern
 ## Applicability
 The System Requirement Traceability Viewpoint supports the "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§4.3] and contributes to the System Requirements Traceability. The System Requirement Traceability Viewpoint contributes to System Requirements Verification and Traceability Matrix (RVTM).
 ## Stakeholder
-* [Customer](../stakeholders.md#Customer)
-* [Regulation Authority](../stakeholders.md#Regulation-Authority)
-* [Safety Expert](../stakeholders.md#Safety-Expert)
-* [Security Expert](../stakeholders.md#Security-Expert)
-* [System Architect](../stakeholders.md#System-Architect)
+* [Project Manager](../stakeholders.md#Project-Manager)
 ## Concern
 * What is the rationale for this system requirement?
 * Which stakeholder requirements are addressed by system requirements?

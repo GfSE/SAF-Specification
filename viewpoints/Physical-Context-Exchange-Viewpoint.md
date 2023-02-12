@@ -10,10 +10,14 @@ Note: Trace physical interface(s) to logical interface(s)
 ## Applicability
 The physical context exchange Viewpoint supports the “Architecture Definition process” activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.4]. The physical context interface Viewpoint is applied early in the life cycle to generate a complete view of all the relevant external interface(s) together with relevant standard(s). The Viewpoint guides the identification of expected interactions of the SOI with entities external to the SOI (control) boundary as defined in negotiated ICDs. The Viewpoint is used to capture the interface requirement(s) with the relevant Stakeholder(s) and any relevant documentation, requirement(s), standard(s), format specification(s) and protocol(s).
 ## Stakeholder
+* [Acquirer](../stakeholders.md#Acquirer)
+* [Customer](../stakeholders.md#Customer)
 * [Hardware Developer](../stakeholders.md#Hardware-Developer)
 * [IV&V Engineer](../stakeholders.md#IV&V-Engineer)
 * [Maintainer](../stakeholders.md#Maintainer)
+* [Safety Expert](../stakeholders.md#Safety-Expert)
 * [Software Developer](../stakeholders.md#Software-Developer)
+* [Supplier](../stakeholders.md#Supplier)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
 * How does the system or a system element interact with the test environment?

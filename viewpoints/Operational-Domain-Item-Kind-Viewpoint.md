@@ -8,14 +8,6 @@ The Operational Domain Item Kind Viewpoint collects type definition(s) for any e
 ## Applicability
 The Operational Domain Item Kind Viewpoint supports [tbd].
 ## Stakeholder
-* [Customer](../stakeholders.md#Customer)
-* [Hardware Developer](../stakeholders.md#Hardware-Developer)
-* [IV&V Engineer](../stakeholders.md#IV&V-Engineer)
-* [Regulation Authority](../stakeholders.md#Regulation-Authority)
-* [Safety Expert](../stakeholders.md#Safety-Expert)
-* [Security Expert](../stakeholders.md#Security-Expert)
-* [Software Developer](../stakeholders.md#Software-Developer)
-* [System Architect](../stakeholders.md#System-Architect)
 ## Concern
 * What operational exchange does the operational performers need to consume or provide?
 ## Presentation

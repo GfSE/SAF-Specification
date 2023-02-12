@@ -16,10 +16,10 @@ The Logical Internal Exchange Viewpoint supports the "Develop Models and Views o
 ## Stakeholder
 * [Hardware Developer](../stakeholders.md#Hardware-Developer)
 * [IV&V Engineer](../stakeholders.md#IV&V-Engineer)
+* [Regulation Authority](../stakeholders.md#Regulation-Authority)
 * [Safety Expert](../stakeholders.md#Safety-Expert)
 * [Security Expert](../stakeholders.md#Security-Expert)
 * [Software Developer](../stakeholders.md#Software-Developer)
-* [Supplier](../stakeholders.md#Supplier)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
 * How do internal system elements interact with each other to provide the system function or service?
@@ -29,7 +29,7 @@ The Logical Internal Exchange Viewpoint supports the "Develop Models and Views o
 * What are the items exchanged between the logical system elements during the interaction?
 * Which requirements apply to a logical interface?
 ## Presentation
-One or more IBD featuring the logical element(s) of the SOI, and the SOI boundary, containing connector(s) for each identified SOI interface delegation to SOI element(s), as well as connector(s) between related interface(s) of SOI parts. An interface is a connection resource for hooking on the logical SOI element(s) to other logical SOI element(s). Item flows are defined for each exchange on the identified interface.  Recommendation: Use more than one IBD focused on different areas of interest to keep the view comprehensive. Depending on the Stakeholder concern(s) the logical item exchange information might be suppressed.
+One or more IBD featuring the logical element(s) of the SOI, and the SOI boundary, containing connector(s) for each identified SOI interface delegation to SOI element(s), as well as connector(s) between related interface(s) of SOI parts. An interface is a connection resource for hooking on the Logical SOI Element(s) to other Logical SOI Element(s). Item flows are defined for each exchange on the identified interface.  Recommendation: Use more than one IBD focused on different areas of interest to keep the view comprehensive. Depending on the Stakeholder concern(s) the logical item exchange information might be suppressed.
 
 ## Profile Model Reference
 * Connector [UML_Standard_Profile]

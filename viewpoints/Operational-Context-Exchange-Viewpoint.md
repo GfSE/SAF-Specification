@@ -8,10 +8,6 @@ The Operational Context Exchange Viewpoint defines connectivity and exchange bet
 ## Applicability
 The Operational Context Exchange Viewpoint supports the "Business or Mission Analysis Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1] and contributes to the problem or opportunity statement.
 ## Stakeholder
-* [Acquirer](../stakeholders.md#Acquirer)
-* [Customer](../stakeholders.md#Customer)
-* [Supplier](../stakeholders.md#Supplier)
-* [System Architect](../stakeholders.md#System-Architect)
 ## Concern
 * What operational exchange does the operational performers need to consume or provide?
 ## Presentation

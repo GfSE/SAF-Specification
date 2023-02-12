@@ -8,10 +8,8 @@ The Operational Capability Viewpoint defines a taxonomy of Capability(s) from a 
 ## Applicability
 The Operational Capability Viewpoint supports the "Business or Mission Analysis Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1] defining Capability(s) at an operational level (e.g. business or mission profile and operational scenarios). The Operational Capability Viewpoint contributes to the problem or opportunity statement.
 ## Stakeholder
-* [Acquirer](../stakeholders.md#Acquirer)
 * [Customer](../stakeholders.md#Customer)
-* [Supplier](../stakeholders.md#Supplier)
-* [System Architect](../stakeholders.md#System-Architect)
+* [Portfolio Manager](../stakeholders.md#Portfolio-Manager)
 ## Concern
 * What operational capabilities are defined?
 * What operational capabilitys are required for each phase and mode of operation?

@@ -8,9 +8,15 @@ The System Context Interaction Viewpoint describes system external behavior base
 ## Applicability
 The System Context Interaction Viewpoint supports "Prepare for Requirement Definition" activity included in "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.3] and contributes to the identification of expected interactions with systems external to the SOI.
 ## Stakeholder
+* [Acquirer](../stakeholders.md#Acquirer)
 * [Customer](../stakeholders.md#Customer)
+* [Hardware Developer](../stakeholders.md#Hardware-Developer)
+* [IV&V Engineer](../stakeholders.md#IV&V-Engineer)
+* [Operator](../stakeholders.md#Operator)
+* [Regulation Authority](../stakeholders.md#Regulation-Authority)
 * [Safety Expert](../stakeholders.md#Safety-Expert)
 * [Security Expert](../stakeholders.md#Security-Expert)
+* [Software Developer](../stakeholders.md#Software-Developer)
 * [System Architect](../stakeholders.md#System-Architect)
 * [User](../stakeholders.md#User)
 ## Concern

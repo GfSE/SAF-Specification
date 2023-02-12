@@ -8,10 +8,6 @@ The Operational Interaction Viewpoint defines single threads of interaction betw
 ## Applicability
 The Operational Interaction Viewpoint supports the "Business or Mission Analysis Process" and the "Stakeholder Needs and Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1, § 4.2] and contributes to the definition of operational scenario(s).
 ## Stakeholder
-* [Acquirer](../stakeholders.md#Acquirer)
-* [Customer](../stakeholders.md#Customer)
-* [Supplier](../stakeholders.md#Supplier)
-* [System Architect](../stakeholders.md#System-Architect)
 ## Concern
 * What possible threads of operational process activities have to be carried out to achieve the operational story main and alternative goals?
 * What validation scenarios have to be carried out to check on the solution validity?

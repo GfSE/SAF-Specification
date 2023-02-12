@@ -10,8 +10,7 @@ The Stakeholder Requirement Viewpoint supports the "Stakeholder Needs and Requir
 ## Stakeholder
 * [Acquirer](../stakeholders.md#Acquirer)
 * [Customer](../stakeholders.md#Customer)
-* [IV&V Engineer](../stakeholders.md#IV&V-Engineer)
-* [Regulation Authority](../stakeholders.md#Regulation-Authority)
+* [Hardware Developer](../stakeholders.md#Hardware-Developer)
 * [Supplier](../stakeholders.md#Supplier)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern

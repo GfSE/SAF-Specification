@@ -8,10 +8,6 @@ The Operational Capability Traceability Viewpoint defines [tbd]
 ## Applicability
 The Operational Capability Traceability Viewpoint supports the "Business or Mission Analysis Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1] and contributes to the definition of capability(s).
 ## Stakeholder
-* [Acquirer](../stakeholders.md#Acquirer)
-* [Customer](../stakeholders.md#Customer)
-* [Supplier](../stakeholders.md#Supplier)
-* [System Architect](../stakeholders.md#System-Architect)
 ## Concern
 * Show in a concise manner the relationships from operational capability to operational story, to operational activity, and to operational performer.
 ## Presentation

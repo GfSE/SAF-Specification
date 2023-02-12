@@ -8,12 +8,14 @@ The System State Viewpoint defines the condition(s) of the SOI or parts of it th
 ## Applicability
 [tbd]
 ## Stakeholder
-* [Customer](../stakeholders.md#Customer)
+* [Hardware Developer](../stakeholders.md#Hardware-Developer)
+* [IV&V Engineer](../stakeholders.md#IV&V-Engineer)
 * [Maintainer](../stakeholders.md#Maintainer)
+* [Regulation Authority](../stakeholders.md#Regulation-Authority)
 * [Safety Expert](../stakeholders.md#Safety-Expert)
 * [Security Expert](../stakeholders.md#Security-Expert)
+* [Software Developer](../stakeholders.md#Software-Developer)
 * [System Architect](../stakeholders.md#System-Architect)
-* [User](../stakeholders.md#User)
 ## Concern
 * Which modes and states does the system have?
 * Which system functions are dependent on a systems mode or state?

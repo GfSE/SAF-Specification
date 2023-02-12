@@ -8,12 +8,7 @@ The Logical Structure Viewpoint covers the basic technical notion of the system 
 ## Applicability
 The Logical Structure Viewpoint supports the "Develop Architecture Viewpoints" and the "Develop Models and Views of Candidate Architectures" activity included in the "Architecture Definition process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.4] and contributes to the artifact "System Architecture Description".
 ## Stakeholder
-* [Acquirer](../stakeholders.md#Acquirer)
-* [Customer](../stakeholders.md#Customer)
-* [IV&V Engineer](../stakeholders.md#IV&V-Engineer)
 * [Regulation Authority](../stakeholders.md#Regulation-Authority)
-* [Safety Expert](../stakeholders.md#Safety-Expert)
-* [Security Expert](../stakeholders.md#Security-Expert)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
 * How are applicable requirements considered in the system architecture?

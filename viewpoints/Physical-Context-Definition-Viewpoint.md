@@ -12,7 +12,11 @@ NOTE: Only those external entities are identified that share a physical interfac
 ## Stakeholder
 * [Acquirer](../stakeholders.md#Acquirer)
 * [Customer](../stakeholders.md#Customer)
+* [Hardware Developer](../stakeholders.md#Hardware-Developer)
 * [IV&V Engineer](../stakeholders.md#IV&V-Engineer)
+* [Safety Expert](../stakeholders.md#Safety-Expert)
+* [Software Developer](../stakeholders.md#Software-Developer)
+* [Supplier](../stakeholders.md#Supplier)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
 * How does the system or a system element interact with the test environment?

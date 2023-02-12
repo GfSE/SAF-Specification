@@ -10,8 +10,13 @@ The System Functional Breakdown Viewpoint supports the "System Requirements Defi
 ## Stakeholder
 * [Acquirer](../stakeholders.md#Acquirer)
 * [Customer](../stakeholders.md#Customer)
+* [Hardware Developer](../stakeholders.md#Hardware-Developer)
+* [IV&V Engineer](../stakeholders.md#IV&V-Engineer)
+* [Project Manager](../stakeholders.md#Project-Manager)
+* [Safety Expert](../stakeholders.md#Safety-Expert)
+* [Security Expert](../stakeholders.md#Security-Expert)
+* [Software Developer](../stakeholders.md#Software-Developer)
 * [System Architect](../stakeholders.md#System-Architect)
-* [User](../stakeholders.md#User)
 ## Concern
 * How are the system functions decomposed into sub-functions decomposed? 
 * What is the breakdown of functions into sub-functions?

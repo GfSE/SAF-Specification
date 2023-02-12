@@ -11,14 +11,8 @@ Note: It may be pointed out, that the physical architecture shall consider reuse
 The physical structure Viewpoint supports the "Allocation and Partitioning of Logical Entities to Physical Entities" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.4.2.7]. The physical structure Viewpoint presents the product breakdown structure of a technical solution for the SOI providing all the identified external interface(s), a structure capable to implement the functionality identified in the logical Viewpoint(s).
 ## Stakeholder
 * [Acquirer](../stakeholders.md#Acquirer)
-* [Customer](../stakeholders.md#Customer)
-* [Hardware Developer](../stakeholders.md#Hardware-Developer)
-* [Maintainer](../stakeholders.md#Maintainer)
-* [Mechanic Developer](../stakeholders.md#Mechanic-Developer)
 * [Project Manager](../stakeholders.md#Project-Manager)
 * [Security Expert](../stakeholders.md#Security-Expert)
-* [Software Developer](../stakeholders.md#Software-Developer)
-* [Supplier](../stakeholders.md#Supplier)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
 * What are the HW components to be provided?

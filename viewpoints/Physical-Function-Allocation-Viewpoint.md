@@ -4,23 +4,24 @@
 ## Example
 *none*
 ## Purpose
-The Physical Function Allocation Viewpoint specifies the allocation of Function(s) to the Physical SOI element(s).
+The Physical Function Allocation Viewpoint specifies the allocation of Function(s) to the Physical SOI Element(s).
 ## Applicability
-The Function Allocation Viewpoint supports the "System Architecture Definition process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015  .
+The Physical Function Allocation Viewpoint supports the "System Architecture Definition process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015  .
 ## Stakeholder
-* [Acquirer](../stakeholders.md#Acquirer)
-* [Safety Expert](../stakeholders.md#Safety-Expert)
+* [Hardware Developer](../stakeholders.md#Hardware-Developer)
+* [Software Developer](../stakeholders.md#Software-Developer)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
 * What is the allocation of functions to the physical architecture?
 * Which functions and services need to be implemented in SW?
 * Which functions need to be realized by HW?
 ## Presentation
-A  Function  Allocation Matrix featuring
+A  Physical Function Allocation Matrix featuring
 * the call behavior action representing usage of Function(s)
-* the part property(s) representing usage of physical SOI Element(s)
+* the part property(s) representing usage of Physical SOI Element(s)
 
 ## Profile Model Reference
+* [SAF_FunctionAction](../stereotypes.md#SAF_FunctionAction)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Physical Structure Viewpoint](Physical-Structure-Viewpoint.md)
