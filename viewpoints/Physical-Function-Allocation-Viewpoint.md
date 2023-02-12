@@ -4,7 +4,7 @@
 ## Example
 *none*
 ## Purpose
-The Physical Function Allocation Viewpoint specifies the allocation of Function(s) to the Physical SOI Element(s).
+The Physical Function Allocation Viewpoint specifies the allocation of Functions to the Physical SOI Elements.
 ## Applicability
 The Physical Function Allocation Viewpoint supports the "System Architecture Definition process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015  .
 ## Stakeholder

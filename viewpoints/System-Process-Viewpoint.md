@@ -6,10 +6,10 @@
 ## Purpose
 The System Process Viewpoint provides the functional representation of the system using a black-box approach
 * the representation of the SOI and all Context Element(s)
-* the System Function(s) the SOI shall be able to perform
-* the Context Function(s) the Context Element(s) are expected to perform
-* the exchange between SOI System Function(s) and Context Function(s) of Context Element(s)
-* the functional flow(s) crossing the boundary between SOI and Context Element(s)
+* the System Functions the SOI shall be able to perform
+* the Context Functions the Context Elements are expected to perform
+* the exchange between SOI System Functions and Context Functions of Context Elements
+* the functional flows crossing the boundary between SOI and Context Elements
 
 ## Applicability
 The System Process Viewpoint supports the "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§4.3] and contributes to the System Function Definition and the System Functional Interface Identification.

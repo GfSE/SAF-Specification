@@ -4,7 +4,7 @@
 ## Example
 ![Operational Performer Definition](../diagrams/Operational-Performer-Definition.svg)
 ## Purpose
-The Operational Performer Viewpoint represents the taxonomy of the identified Operational Performer(s), if existing and relevant for the understanding of the operation of the intended solution. 
+The Operational Performer Viewpoint represents the taxonomy of the identified Operational Performers, if existing and relevant for the understanding of the operation of the intended solution. 
 
 ## Applicability
 The Operational Performer Viewpoint supports the "Business or Mission Analysis Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1] and contributes to the problem or opportunity statement.
@@ -14,8 +14,8 @@ The Operational Performer Viewpoint supports the "Business or Mission Analysis P
 * What partys of the organization, enterprise, or operational entity are needed to achieve an intended operational capability?
 * Which Operational Performer will operate or run the system?
 ## Presentation
-A block definition diagram (BDD) depicts Operational Performer(s) and their relation(s) in terms of decomposition or generalization at a level of detail required for the understanding and analysis. 
-Note: Identified Stakeholders are related to Operational Performer(s) if appropriate.
+A block definition diagram (BDD) depicts Operational Performers and their relations in terms of decomposition or generalization at a level of detail required for the understanding and analysis. 
+Note: Identified Stakeholders are related to Operational Performers if appropriate.
 
 ## Profile Model Reference
 * [SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)

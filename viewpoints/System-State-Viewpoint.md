@@ -4,7 +4,7 @@
 ## Example
 ![FFDS System Modes and States](../diagrams/FFDS-System-Modes-and-States.svg)
 ## Purpose
-The System State Viewpoint defines the condition(s) of the SOI or parts of it that constrain the execution of System Function(s). A System State is a pre-condition or post-condition of a Use Case, or is used in Requirement(s). The valid transition(s) between System State(s) and the condition(s) for transitioning are specified.
+The System State Viewpoint defines the condition(s) of the SOI or parts of it that constrain the execution of System Functions. A System State is a pre-condition or post-condition of a Use Case, or is used in Requirements. The valid transition(s) between System States and the conditions for transitioning are specified.
 ## Applicability
 [tbd]
 ## Stakeholder

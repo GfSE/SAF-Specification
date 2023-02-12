@@ -2,6 +2,7 @@
 |Aspect|Viewpoints|
 | --- | --- |
 | Context & Exchange | [Operational Context Definition Viewpoint](viewpoints/Operational-Context-Definition-Viewpoint.md), [Operational Context Exchange Viewpoint](viewpoints/Operational-Context-Exchange-Viewpoint.md), [Operational Story Viewpoint](viewpoints/Operational-Story-Viewpoint.md), [Physical Context Definition Viewpoint](viewpoints/Physical-Context-Definition-Viewpoint.md), [Physical Context Exchange Viewpoint](viewpoints/Physical-Context-Exchange-Viewpoint.md), [System Context Definition Viewpoint](viewpoints/System-Context-Definition-Viewpoint.md), [System Context Exchange Viewpoint](viewpoints/System-Context-Exchange-Viewpoint.md), [System UseCase Viewpoint](viewpoints/System-UseCase-Viewpoint.md) |
+| Traceability |  |
 | Structure | [Evidence Viewpoint](viewpoints/Evidence-Viewpoint.md), [Logical Structure Viewpoint](viewpoints/Logical-Structure-Viewpoint.md), [Operational Capability Viewpoint](viewpoints/Operational-Capability-Viewpoint.md), [Operational Domain Item Kind Viewpoint](viewpoints/Operational-Domain-Item-Kind-Viewpoint.md), [Operational Performer Viewpoint](viewpoints/Operational-Performer-Viewpoint.md), [Physical Structure Viewpoint](viewpoints/Physical-Structure-Viewpoint.md), [Stakeholder Identification Viewpoint](viewpoints/Stakeholder-Identification-Viewpoint.md), [System Capability Viewpoint](viewpoints/System-Capability-Viewpoint.md), [System Domain Item Kind Viewpoint](viewpoints/System-Domain-Item-Kind-Viewpoint.md), [System Functional Breakdown Viewpoint](viewpoints/System-Functional-Breakdown-Viewpoint.md) |
 | Process & Behavior | [Operational Process Viewpoint](viewpoints/Operational-Process-Viewpoint.md), [System Process Viewpoint](viewpoints/System-Process-Viewpoint.md), [System State Viewpoint](viewpoints/System-State-Viewpoint.md) |
 | Interaction & Collaboration | [Logical Interaction Viewpoint](viewpoints/Logical-Interaction-Viewpoint.md), [Logical Internal Exchange Viewpoint](viewpoints/Logical-Internal-Exchange-Viewpoint.md), [Operational Interaction Viewpoint](viewpoints/Operational-Interaction-Viewpoint.md), [Physical Internal Exchange Viewpoint](viewpoints/Physical-Internal-Exchange-Viewpoint.md), [System Context Interaction Viewpoint](viewpoints/System-Context-Interaction-Viewpoint.md) |
@@ -10,11 +11,14 @@
 | Security & Safety |  |
 | Mapping & Crossreference | [Logical Function Allocation Viewpoint](viewpoints/Logical-Function-Allocation-Viewpoint.md), [Operational Capability Traceability Viewpoint](viewpoints/Operational-Capability-Traceability-Viewpoint.md), [Operational Process Traceability Viewpoint](viewpoints/Operational-Process-Traceability-Viewpoint.md), [Physical Function Allocation Viewpoint](viewpoints/Physical-Function-Allocation-Viewpoint.md), [System Requirement Traceability Viewpoint](viewpoints/System-Requirement-Traceability-Viewpoint.md) |
 | Taxonomy |  |
-| Traceability |  |
 ## Aspect Context & Exchange
 **Objective**
 
 Identifies and describes the environment of an element, its boundary and the external elements having a relation with it. It identifies the interaction and exchange between an element and the external elements.
+## Aspect Traceability
+**Objective**
+
+Identifies and describes the traceability between requirements or standards and model elements in the various domains and viewpoints.
 ## Aspect Structure
 **Objective**
 
@@ -47,7 +51,3 @@ Identifies and describes the mapping between elements in the architecture. This 
 **Objective**
 
 Presents all the elements as a standalone structure. Presents all the elements as a specialization hierarchy, provides a text definition for each one and references the source of the element.
-## Aspect Traceability
-**Objective**
-
-Identifies and describes the traceability between requirements or standards and model elements in the various domains and viewpoints.

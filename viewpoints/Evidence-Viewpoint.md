@@ -4,7 +4,7 @@
 ## Example
 *none*
 ## Purpose
-The Common Evidence Pattern Viewpoint presents claim(s) backed up by argument(s) that are supported by evidence, together with the possibility to counter such claim(s) in a similar manner.
+The Common Evidence Pattern Viewpoint presents claims backed up by arguments that are supported by evidence, together with the possibility to counter such claims in a similar manner.
 ## Applicability
 The Common Evidence Pattern Viewpoint supports the ability to present an evidence pattern, a structure of claim(s), argument(s) and evidence, which is a common need in systems engineering. It applies equally to the establishment of traceability, definition of safety cases and even the presentation of business cases.
 ## Stakeholder

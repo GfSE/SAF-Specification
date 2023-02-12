@@ -4,7 +4,7 @@
 ## Example
 ![FFDS Logical Architecture Definition](../diagrams/FFDS-Logical-Architecture-Definition.svg)
 ## Purpose
-The Logical Structure Viewpoint covers the basic technical notion of the system and is widely reusable among similar systems like product families or generations. The Logical Structure Viewpoint specifies how the SOI is decomposed into a hierarchical structure of logical component(s) responsible for different system function(s) (divide & conquer principle).
+The Logical Structure Viewpoint covers the basic technical notion of the system and is widely reusable among similar systems like product families or generations. The Logical Structure Viewpoint specifies how the SOI is decomposed into a hierarchical structure of logical component(s) responsible for different system functions (divide & conquer principle).
 ## Applicability
 The Logical Structure Viewpoint supports the "Develop Architecture Viewpoints" and the "Develop Models and Views of Candidate Architectures" activity included in the "Architecture Definition process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.4] and contributes to the artifact "System Architecture Description".
 ## Stakeholder

@@ -4,7 +4,7 @@
 ## Example
 ![FFDS Context Definition Allocation of Usage](../diagrams/FFDS-Context-Definition-Allocation-of-Usage.svg)
 ## Purpose
-The Logical Function Allocation Viewpoint specifies the allocation of Function(s) to the Logical SOI Element(s).
+The Logical Function Allocation Viewpoint specifies the allocation of Functions to the Logical SOI Elements.
 ## Applicability
 The Logical Function Allocation Viewpoint supports the "System Architecture Definition process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015  .
 ## Stakeholder

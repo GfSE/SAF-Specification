@@ -5,10 +5,10 @@
 ![Exemplary Operational Story](../diagrams/Exemplary-Operational-Story.svg)
 ## Purpose
 The Operational Story Viewpoint
-* identifies the Operational Story(s) and their relation to Operational Performer(s) enabling operational storytelling
+* identifies the Operational Stories and their relation to Operational Performers enabling operational storytelling
 * illustrates the operational background from a Stakeholder’s perspective
-* serves as starting point to identify Stakeholder(s) and/or context element(s)
-* fosters the communication among different Stakeholder(s)
+* serves as starting point to identify Stakeholders and/or context elements
+* fosters the communication among different Stakeholders
 ## Applicability
 The Operational Story Viewpoint supports the "Business or Mission Analysis Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1] and contributes to the problem or opportunity statement.
 ## Stakeholder

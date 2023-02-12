@@ -4,7 +4,7 @@
 ## Example
 *none*
 ## Purpose
-The Stakeholder Identification Viewpoint in the Operation Domain strives to identify the Operational Stakeholder(s) i.e. those stakeholders who’s need(s) must be considered during the operation of the intended solution and the execution of the operational processes to support the identified capabilities. During the realization of the Intended Solution and the system development additional Stakeholder(s) must be identified having additional need(s) and requirement(s) e.g. regarding production of system elements or certain technologies. 
+The Stakeholder Identification Viewpoint in the Operation Domain strives to identify the Operational Stakeholders i.e. those stakeholders who’s needs must be considered during the operation of the intended solution and the execution of the operational processes to support the identified capabilities. During the realization of the Intended Solution and the system development additional Stakeholders must be identified having additional needs and requirements e.g. regarding production of system elements or certain technologies. 
 A Stakeholder Identification is a process of analyzing individuals, teams, or organizations throughout the project life cycle, grouping them according to their levels of participation, interest, and influence in the project, and determining how best to involve and communicate with each of these Stakeholder groups throughout.
 ## Applicability
 The Stakeholder Identification Viewpoint supports the "Business or Mission Analysis Process" and the "Stakeholder Needs and Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1, § 4.2] and contributes to the Major Stakeholder Identification.
@@ -26,7 +26,7 @@ Note:
 * Which external entities (external systems, roles, environment, etc.) does a Stakeholder represent?
 * Who are the Stakeholders involved in the intended solution?
 ## Presentation
-The results of the Stakeholder Identification are selected Stakeholder(s). A Stakeholder Identification diagram (BDD) depicts the relations of the identified Stakeholder(s) towards the Intended Solution.
+The results of the Stakeholder Identification are selected Stakeholders. A Stakeholder Identification diagram (BDD) depicts the relations of the identified Stakeholders towards the Intended Solution.
 
 ## Profile Model Reference
 * [SAF_ContextElementCharacterization](../stereotypes.md#SAF_ContextElementCharacterization)

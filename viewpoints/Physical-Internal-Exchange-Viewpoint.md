@@ -4,13 +4,13 @@
 ## Example
 *none*
 ## Purpose
-The Physical Internal Exchange Viewpoint serves for the identification and definition of interface(s) of element(s) of the SOI. Also, the delegation of SOI element interface(s) to SOI boundary interface(s) is covered.
+The Physical Internal Exchange Viewpoint serves for the identification and definition of interfaces of elements of the SOI. Also, the delegation of SOI element interfaces to SOI boundary interfaces is covered.
 The Phyiscal Internal Exchange Viewpoint
-* identifies SOI element interface(s) on a Physical Level
-* states to which other SOI element(s) the interface(s) are connected to
-* assigns interface specification(s) to interface(s)
-* defines the usage of interface(s), e.g. if only a subset of the interface(s) is used 
-* defines the delegation of SOI element interface(s) to SOI boundary interface(s)
+* identifies SOI element interfaces on a Physical Level
+* states to which other SOI elements the interfaces are connected to
+* assigns interface specifications to interfaces
+* defines the usage of interfaces, e.g. if only a subset of the interfaces is used 
+* defines the delegation of SOI element interfaces to SOI boundary interfaces
 ## Applicability
 The Logical Internal Exchange Viewpoint supports the "Develop Models and Views of Candidate Architecture" activity included in the "Architecture Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.4] and contributes to the preliminary interface definition and system architecture description.
 ## Stakeholder

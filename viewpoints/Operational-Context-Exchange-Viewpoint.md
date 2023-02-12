@@ -4,7 +4,7 @@
 ## Example
 ![FDN Context Exchange](../diagrams/FDN-Context-Exchange.svg)
 ## Purpose
-The Operational Context Exchange Viewpoint defines connectivity and exchange between Operational Performer(s).
+The Operational Context Exchange Viewpoint defines connectivity and exchange between Operational Performers.
 ## Applicability
 The Operational Context Exchange Viewpoint supports the "Business or Mission Analysis Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1] and contributes to the problem or opportunity statement.
 ## Stakeholder

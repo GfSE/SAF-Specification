@@ -4,14 +4,14 @@
 ## Example
 *none*
 ## Purpose
-The System Requirement Traceability Viewpoint specifies [tbd]
-For every SOI System Requirement the traceability to functional domain level is depicted
+The System Requirement Traceability Viewpoint specifies
+for every SOI System Requirement the traceability to functional domain level
 * System Story
 * System Context Definition
 * System Context Exchange
 * System Functional Scenario
 * System Context Interaction
-is listed.
+
 Note: new VP to be created addressing dedicated concern
 [the traceability to operational domain level
 * Operational Story
