@@ -93,7 +93,7 @@ Specification for any kind of exchange on Functional, and Logical Level, focus o
 
 realizes concept SDKcomposedOF
 
-Specifies the fact that a System Domain Kind consists of one or more System Domain Kind(s).
+Specifies the fact that a System Domain Kind consists of one or more System Domain Kinds.
 ## SAF_DomainKindDerivation
 ### Documentation
 
@@ -141,7 +141,7 @@ Specifies the fact that a context for a System of Interest is defined on Logical
 
 realizes concept LCEactingInSUC
 
-Specifies the fact that a Logical Context Element(s) acts in one or more System Story(s).
+Specifies the fact that a Logical Context Elements acts in one or more System Stories.
 ## SAF_LogicalElement
 ### Documentation
 
@@ -175,7 +175,7 @@ realizes concept Logical SOI Constituent
 Specifies the fact that a Logical SOI exists in a specific Logical Context.
 realizes concept Internal Logical Element Constituent
 
-Specifies the fact that a Logical Element contains any number of Logical Element(s).
+Specifies the fact that a Logical Element contains any number of Logical Elements.
 ## SAF_LogicalSOI
 ### Documentation
 
@@ -235,7 +235,7 @@ Specifies the fact that an Operational Story is supported by a Operational Capab
 
 realizes concept Operational Context
 
-An Operational Context is representing a separate Usage Scenario with a specific configuration of Operational Performer(s), that are interacting in the Scenario meeting a specific identified Operational Capability. One or more Operational Context(s) meaningful for the Operational Domain are to be identified. 
+An Operational Context is representing a separate Usage Scenario with a specific configuration of Operational Performers, that are interacting in the Scenario meeting a specific identified Operational Capability. One or more Operational Contexts meaningful for the Operational Domain are to be identified. 
 
 Aliases:
 UAF::HighLevelOperationalConcept
@@ -245,14 +245,14 @@ UAF::HighLevelOperationalConcept
 
 realizes concept Operational Domain Kind
 
-Kind of exchange between Operational Context Constituent(s) or between Operational Process(es).
+Kind of exchange between Operational Context Constituents or between Operational Processes.
 ## SAF_OperationalDomainKindComposition
 ### Documentation
 
 
 realizes concept ODKcomposedOF
 
-Specifies the fact that an Operational Domain Kind consists of one or more Operational Domain Kind(s).
+Specifies the fact that an Operational Domain Kind consists of one or more Operational Domain Kinds.
 ## SAF_OperationalPerformer
 ### Documentation
 
@@ -327,7 +327,7 @@ Specifies the fact that an Operational Story is refined by Operational Processes
 
 realizes concept Operational Context Performer Constituent
 
-An Operational Context Constituent represents a participant in the Operational Activity executing one or more of its atomic action(s) interacting with other constituents of the identified Operational Context. Specific characteristics and features or, in case of persons or organizational units, knowledge and skills are assigned to a constituent necessary for the execution of the allocated actions.
+An Operational Context Constituent represents a participant in the Operational Activity executing one or more of its atomic actions interacting with other constituents of the identified Operational Context. Specific characteristics and features or, in case of persons or organizational units, knowledge and skills are assigned to a constituent necessary for the execution of the allocated actions.
 ## SAF_OperationalSketch
 ### Documentation
 
@@ -362,7 +362,7 @@ Defines a context for a System of Interest on Physical Level.
 General system element, may consist of hardware and software subsystems.
 realizes concept Physical Element
 
-A composition of Hardware Element(s) and Software Element(s). Similarity to the V-Model segments and system. See [VXT].
+A composition of Hardware Elements and Software Elements. Similarity to the V-Model segments and system. See [VXT].
 ## SAF_PhysicalEnvironment
 ### Documentation
 
@@ -390,7 +390,7 @@ The External System in the Physical Domain, outside the SOI scope, interacting w
 System element implemented in hardware.
 realizes concept Hardware Element
 
-Pure Hardware Element(s) (under own design). Similarity to the V-Model "hardware unit".
+Pure Hardware Elements. Similarity to the V-Model "hardware unit".
 ## SAF_PhysicalItem
 ### Documentation
 
@@ -408,7 +408,7 @@ Represents the SOI in the Physical Domain.
 System element implemented in software.
 realizes concept Software Element
 
-Pure Software Element(s) (under own design). Similarity to the V-Model "software unit".
+Pure Software Elements. Similarity to the V-Model "software unit".
 ## SAF_PhysicalUser
 ### Documentation
 
@@ -590,14 +590,14 @@ A party, which asserts counter-claims.
 
 realizes concept relatedTO
 
-Explains relation(s) between the Stakeholder(s) of the system and other relevant system party(s). It helps to understand the Stakeholder community and to approach the right point of contact for clarification of project relevant issues.
+Explains relation(s) between the Stakeholders of the system and other relevant system parties. It helps to understand the Stakeholder community and to approach the right point of contact for clarification of project relevant issues.
 ## SAF_StakeholderRequirement
 ### Documentation
 
 
 realizes concept Stakeholder Requirement
 
-A Stakeholder Requirement is a Requirement imposed by a Stakeholder. Stakeholder Concern(s) are refined by Stakeholder Requirement(s) applicable for the SOI. The Stakeholder Requirement(s) are a result of discussions and agreement of how the SOI addresses the concerns of the respective Stakeholder.
+A Stakeholder Requirement is a Requirement imposed by a Stakeholder. Stakeholders Concerns are refined by Stakeholder Requirements applicable for the SOI. The Stakeholder Requirements are a result of discussions and agreement of how the SOI addresses the concerns of the respective Stakeholder.
 ## SAF_StakeholderRequirementImposition
 ### Documentation
 
@@ -640,21 +640,21 @@ NAF4::Capability
 
 realizes concept SCYcomposedOF
 
-Specifies the fact that a System Capability consists of a sub System Capability(s).
+Specifies the fact that a System Capability consists of a sub System Capabilitys.
 ## SAF_SystemCapabilityDependency
 ### Documentation
 
 
 realizes concept SCYdependingON
 
-Specifies the fact that a System Capability requires another System Capability(s).
+Specifies the fact that a System Capability requires another System Capabilitys.
 ## SAF_SystemCapabilityGeneralization
 ### Documentation
 
 
 realizes concept SCYspecializedBY
 
-Specifies the fact that a System Capability is specialized by another System Capability(s).
+Specifies the fact that a System Capability is specialized by another System Capabilitys.
 ## SAF_SystemCapabilityMapping
 ### Documentation
 
@@ -689,7 +689,7 @@ A SAF System Function does not need to accept input from the system boundary, if
 
 realizes concept Functional Requirement
 
-Functional requirement(s) specify functions of the System.
+Functional requirements specify functions of the System.
 ## SAF_SystemFunctionalRequirementConstraint
 ### Documentation
 
@@ -710,7 +710,7 @@ Specifies the fact that a Functional Activity is refined by a Functional Require
 
 realizes concept Non-functional Requirement
 
-Non-functional requirement(s) specify the quality of the functions or non-functional requests like legal conformance.
+Non-functional requirements specify the quality of the functions or non-functional requests like legal conformance.
 ## SAF_SystemOfInterestConcern
 ### Documentation
 
@@ -754,7 +754,7 @@ realizes concept SRderivingFromSHR
 Specifies the fact that a System Requirement is derived from a Stakeholder Requirement. Note: It may be used in a customer supplier relationship situation and supports the V Model concept of "External Unit Specification". See [VXT].
 realizes concept derivingFromSR
 
-Specifies the fact that a System Requirement is derived from a Stakeholder Requirement. Note: This is the relationship of requirement(s) of different architectural levels, when the team responsible for the subsystem has direct access to the full upstream requirement(s) set, then no subcontractor relationship needs to be established.
+Specifies the fact that a System Requirement is derived from a Stakeholder Requirement. Note: This is the relationship of requirements of different architectural levels, when the team responsible for the subsystem has direct access to the full upstream requirements set, then no subcontractor relationship needs to be established.
 ## SAF_SystemRequirementRefinement
 ### Documentation
 
@@ -771,10 +771,10 @@ Specifies the fact that a System Requirement refines a System Story.
 The intended use (and also misuse in so called "black use cases") of the system is captured in free text; story telling at a coarse level of detail which is understandable to Customer(s) (non engineering stakeholders in general). The main system interaction partners participating in this story are identified.
 realizes concept SUChasPostconditionSSE
 
-Specifies the fact that a System Story has states as Postcondition(s).
+Specifies the fact that a System Story has states as Postconditions.
 realizes concept SUChasPreconditionSSE
 
-Specifies the fact that a System Story has states as Precondition(s).
+Specifies the fact that a System Story has states as Preconditions.
 realizes concept SUCtakingPlaceInLSC
 
 Specifies the fact that a System Story takes place in a Logical System Context.
@@ -787,7 +787,7 @@ The System Use Cases are a table of content of the services provided by the Syst
 
 realizes concept SUCcontributingToOSY
 
-Specifies the fact that a System UseCase contributes to an Operational Story(s).
+Specifies the fact that a System UseCase contributes to an Operational Storys.
 ## SAF_VPQuery
 ### Documentation
 
