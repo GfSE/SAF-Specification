@@ -146,7 +146,20 @@ For traceability the Physical Domain defines diagrams showing the mapping of the
 #### Interaction & Collaboration
 * [Physical Internal Exchange Viewpoint](viewpoints/Physical-Internal-Exchange-Viewpoint.md)
 #### Interface
+* [Physical Interface Definition Viewpoint](viewpoints/Physical-Interface-Definition-Viewpoint.md)
+* [Physical Protocol Stack Definition Viewpoint](viewpoints/Physical-Protocol-Stack-Definition-Viewpoint.md)
 
+
+## Common Domain
+### Common Domain Objective
+The SAF Common Domain provides viewpoints addressing model information that is common to all other domains or that are applicable throughout the model.
+
+### Common Domain Concerns
+* Provides information on standards and documents that are applicable or are referred to within the model.
+* 
+
+### Common Domain Viewpoints
+* [Common Standards Definition Viewpoint](viewpoints/Common-Standards-Definition-Viewpoint.md)
 
 # Stakeholder Definition
 [Stakeholders](stakeholders.md)
