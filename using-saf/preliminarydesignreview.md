@@ -16,27 +16,51 @@ The PDR is the "design to" review. That means, the design is based on the baseli
  * security specialist
 
 # Viewpoints tbd
+## Viewpoints from SCR
+operational..alle
+* Operational-Performer-Viewpoint
+* Operational-Story-Viewpoint
  * [Stakeholder Requirement Viewpoint](../viewpoints/Stakeholder-Requirement-Viewpoint.md)
+ * Stakeholder Identification
+## Viewpoints from SRR
+
+*to be validated in 2023*
+ * Standards Definition Viewpoint (michael)
+
  * [System Capability Viewpoint](../viewpoints/System-Capability-Viewpoint.md)
  * [System Context Definition Viewpoint](../viewpoints/System-Context-Definition-Viewpoint.md)
  * [System Context Exchange Viewpoint](../viewpoints/System-Context-Exchange-Viewpoint.md)
  * [System Context Interaction Viewpoint](../viewpoints/System-Context-Interaction-Viewpoint.md)
  * [System Domain Item Kind Viewpoint](../viewpoints/System-Domain-Item-Kind-Viewpoint.md)
  * [System Functional Breakdown Viewpoint](../viewpoints/System-Functional-Breakdown-Viewpoint.md)
+ * System Function Refinement (alex)
  * [System Process Viewpoint](../viewpoints/System-Process-Viewpoint.md)
+   * actions spezifisch
  * [System Requirement Traceability Viewpoint](../viewpoints/System-Requirement-Traceability-Viewpoint.md)
+   * system req traceablity aufsplitten(sascha) 
  * [System Requirement Viewpoint](../viewpoints/System-Requirement-Viewpoint.md)
  * [System State Viewpoint](../viewpoints/System-State-Viewpoint.md)
  * [System UseCase Viewpoint](../viewpoints/System-UseCase-Viewpoint.md)
- * [Logical Function Allocation Viewpoint](../viewpoints/Logical-Function-Allocation-Viewpoint.md)
+  * Functional Interface Definition vp(alex)
+   * das sind die interface blöcke
+ ## Viewpoints new for PDR
+ * [Logical Function Assignment Viewpoint](../viewpoints/Logical-Function-Allocation-Viewpoint.md)
  * [Logical Interaction Viewpoint](../viewpoints/Logical-Interaction-Viewpoint.md)
  * [Logical Internal Exchange Viewpoint](../viewpoints/Logical-Internal-Exchange-Viewpoint.md)
  * [Logical Structure Viewpoint](../viewpoints/Logical-Structure-Viewpoint.md)
  * [Physical Context Definition Viewpoint](../viewpoints/Physical-Context-Definition-Viewpoint.md)
  * [Physical Context Exchange Viewpoint](../viewpoints/Physical-Context-Exchange-Viewpoint.md)
- * [Physical Function Allocation Viewpoint](../viewpoints/Physical-Function-Allocation-Viewpoint.md)
+ * Physical to Logical Assignment VP (michael)
+ * [Physical Function Assignment Viewpoint](../viewpoints/Physical-Function-Allocation-Viewpoint.md)
+   * analyseviewpoint(alex)
+ * Phyiscal interface identification()
+   * das ist nur ein strich :) 
+ * phyiscal exchange requirements vp 
+   * analyse vp
  * [Physical Internal Exchange Viewpoint](../viewpoints/Physical-Internal-Exchange-Viewpoint.md)
  * [Physical Structure Viewpoint](../viewpoints/Physical-Structure-Viewpoint.md)
+ * Physical Interface Definition vp(durch michael schon vorbereitet ,PR)
+   * das sind die interface blöcke
 
 # Information Items tbd
 
