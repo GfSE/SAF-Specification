@@ -33,16 +33,14 @@ operational..alle
  * [System Context Interaction Viewpoint](../viewpoints/System-Context-Interaction-Viewpoint.md)
  * [System Domain Item Kind Viewpoint](../viewpoints/System-Domain-Item-Kind-Viewpoint.md)
  * [System Functional Breakdown Viewpoint](../viewpoints/System-Functional-Breakdown-Viewpoint.md)
- * System Function Refinement (alex)
+ * [System Function Refinement](../viewpoints/System-Function-Refinement-Viewpoint.md) (alex)
  * [System Process Viewpoint](../viewpoints/System-Process-Viewpoint.md)
-   * actions spezifisch
- * [System Requirement Traceability Viewpoint](../viewpoints/System-Requirement-Traceability-Viewpoint.md)
-   * system req traceablity aufsplitten(sascha) 
+ * [System Requirement Traceability Viewpoint](../viewpoints/System-Requirement-Traceability-Viewpoint.md)(sascha) system req traceablity aufsplitten
  * [System Requirement Viewpoint](../viewpoints/System-Requirement-Viewpoint.md)
  * [System State Viewpoint](../viewpoints/System-State-Viewpoint.md)
  * [System UseCase Viewpoint](../viewpoints/System-UseCase-Viewpoint.md)
-  * Functional Interface Definition vp(alex)
-   * das sind die interface blöcke
+ * [Functional Interface Definition Viewpoint](../viewpoints/Functional-Interface-Definition-Viewpoint.md)(alex)(das sind die interface blöcke)
+ 
  ## Viewpoints new for PDR
  * [Logical Function Assignment Viewpoint](../viewpoints/Logical-Function-Allocation-Viewpoint.md)
  * [Logical Interaction Viewpoint](../viewpoints/Logical-Interaction-Viewpoint.md)
@@ -50,17 +48,13 @@ operational..alle
  * [Logical Structure Viewpoint](../viewpoints/Logical-Structure-Viewpoint.md)
  * [Physical Context Definition Viewpoint](../viewpoints/Physical-Context-Definition-Viewpoint.md)
  * [Physical Context Exchange Viewpoint](../viewpoints/Physical-Context-Exchange-Viewpoint.md)
- * Physical to Logical Assignment VP (michael)
- * [Physical Function Assignment Viewpoint](../viewpoints/Physical-Function-Allocation-Viewpoint.md)
-   * analyseviewpoint(alex)
- * Phyiscal interface identification()
-   * das ist nur ein strich :) 
- * phyiscal exchange requirements vp 
-   * analyse vp
+ * [Physical to Logical Assignment Viewpoint](../viewpoints/Physical-To-Logical-Assignment-Viewpoint.md) (michael)
+ * [Physical Function Assignment Viewpoint](../viewpoints/Physical-Function-Allocation-Viewpoint.md)(alex) analyseviewpoint
+ * Phyiscal interface identification (wer machts ? ) das ist nur ein strich :) 
+ * phyiscal exchange requirements vp (alex) analyse vp 
  * [Physical Internal Exchange Viewpoint](../viewpoints/Physical-Internal-Exchange-Viewpoint.md)
  * [Physical Structure Viewpoint](../viewpoints/Physical-Structure-Viewpoint.md)
- * Physical Interface Definition vp(durch michael schon vorbereitet ,PR)
-   * das sind die interface blöcke
+ * [Physical Interface Definition Viewpoint](../viewpoints/Physical-Interface-Definition-Viewpoint.md) (michael) das sind die interface blöcke
 
 # Information Items tbd
 
