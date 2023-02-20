@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Operational](../domains.md#Domain-Operational)|[Structure](../aspects.md#Aspect-Structure)|![Under Construction](../diagrams/Under_construction_icon-yellow.svg )[under construction](../using-saf/maturity.md#under-construction)|
 ## Example
-*none*
+![Stakeholder Identification](../diagrams/Stakeholder-Identification.svg)
 ## Purpose
 The Stakeholder Identification Viewpoint in the Operation Domain strives to identify the Operational Stakeholders i.e. those stakeholders who’s needs must be considered during the operation of the intended solution and the execution of the operational processes to support the identified capabilities. During the realization of the Intended Solution and the system development additional Stakeholders must be identified having additional needs and requirements e.g. regarding production of system elements or certain technologies. 
 A Stakeholder Identification is a process of analyzing individuals, teams, or organizations throughout the project life cycle, grouping them according to their levels of participation, interest, and influence in the project, and determining how best to involve and communicate with each of these Stakeholder groups throughout.
