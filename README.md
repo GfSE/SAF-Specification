@@ -114,10 +114,55 @@ The Logical Domain Viewpoints describe the Logical Structure and the distributio
 ## Physical Domain
 
 ### Physical Domain Objective
+The diagrams generated in the Physical Domain may be used to represent the Product Breakdown Structure, to identify external and internal physical interfaces, to provide diagrams for the system overview, to support the integration planning, to support production planning and to depict the features and variations implied in the system.
+
+The physical architecture typically is a combination of re-use elements, COTS elements and make-items for HW as well as for SW. The properties of the selected physical components and their provided resources are identified and modelled.
+
+A major concern of the Physical Domain are the physical interfaces, their identification and definition. For that purpose, the Physical Domain provides the diagrams to model interface with different level of detail considering the actual needs for the point of time in the project life cycle.
+
+For traceability the Physical Domain defines diagrams showing the mapping of the physical items and their interfaces to physical items and their interfaces as well as to applicable requirements.
 
 ### Physical Domain Concern
+#### Structure
+* Show the decomposition of the system into system elements down the hierarch and provide configuration meta data.
+#### Interfaces
+* Identify external interfaces and the information and data items that are exchanged or transferred via an interface together with related documentation.
+* Identify applicable interface standards and allocate the standards to physical interfaces.
+* Provide an overview on all physical interfaces of a given element with detailed information on the interfaces.
+* Provide an overview on all physical interconnections between the internal elements of the system.
+* Provide a detailed view on the physical interfaces and the interconnection between the system elements.
+* Define a physical interface type in detail including compatibility rules.
+#### Allocations
+* Show the allocation of logical blocks from the logical architecture to elements of the physical architecture.
+* Show the allocation of logical interfaces from the logical architecture to interfaces of the physical architecture.
+* Allocate functional or non-functional requirements to the elements of the physical architecture.
+* Allocate functional, non-functional or performance requirements to the interfaces of the physical architecture.
+* Allocate a safety criticality to the elements of the physical architecture.
 
 ### Physical Domain Viewpoints
+#### Story & Context
+* [Physical Context Definition Viewpoint](viewpoints/Physical-Context-Definition-Viewpoint.md)
+* [Physical Context Exchange Viewpoint](viewpoints/Physical-Context-Exchange-Viewpoint.md)
+#### Structure
+* [Physical Structure Viewpoint](viewpoints/Physical-Structure-Viewpoint.md)
+#### Process & Behavior
+#### Interaction & Collaboration
+* [Physical Internal Exchange Viewpoint](viewpoints/Physical-Internal-Exchange-Viewpoint.md)
+#### Interface
+* [Physical Interface Definition Viewpoint](viewpoints/Physical-Interface-Definition-Viewpoint.md)
+* Physical Protocol Stack Definition Viewpoint
+
+
+## Common Domain
+### Common Domain Objective
+The SAF Common Domain provides viewpoints addressing model information that is common to all other domains or that are applicable throughout the model.
+
+### Common Domain Concerns
+* Provides information on standards and documents that are applicable or are referred to within the model.
+* 
+
+### Common Domain Viewpoints
+* [Common Standards Definition Viewpoint](viewpoints/Common-Standards-Definition-Viewpoint.md)
 
 # Stakeholder Definition
 [Stakeholders](stakeholders.md)
