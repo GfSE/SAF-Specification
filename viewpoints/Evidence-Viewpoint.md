@@ -1,6 +1,9 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
 # Evidence Viewpoint
-*Domain:* [Common](../domains.md#Domain-Common) *Aspect:* [Structure](../aspects.md#Aspect-Structure)
+|**Domain**|**Aspect**|**Maturity**|
+| --- | --- | --- |
+|  [Common](../domains.md#Domain-Common) |  [Structure](../aspects.md#Aspect-Structure) | [![Proposed](../diagrams/Under_construction_icon-red.svg ) Proposed](../using-saf/maturity.md#proposed)|
+
 ## Example
 *none*
 ## Purpose
