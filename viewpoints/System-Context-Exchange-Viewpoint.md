@@ -1,6 +1,8 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
 # System Context Exchange Viewpoint
-*Domain:* [Functional](../domains.md#Domain-Functional) *Aspect:* [Context & Exchange](../aspects.md#Aspect-Context-&-Exchange)
+|**Domain**|**Aspect**|**Maturity**|
+| --- | --- | --- |
+|[Functional](../domains.md#Domain-Functional)|[Context & Exchange](../aspects.md#Aspect-Context-&-Exchange)|![Released](../diagrams/Symbol_confirmed.svg.png )[released](../using-saf/maturity.md#released)|
 ## Example
 ![FFDS Context Exchange](../diagrams/FFDS-Context-Exchange.svg)
 ## Purpose

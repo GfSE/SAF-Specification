@@ -2,7 +2,7 @@
 # Physical Context Exchange Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
-|  [Physical](../domains.md#Domain-Physical) |  [Context & Exchange](../aspects.md#Aspect-Context-&-Exchange) | [![Under Construction](../diagrams/Under_construction_icon-yellow.svg ) Under Construction](../using-saf/maturity.md#under-construction)|
+|[Physical](../domains.md#Domain-Physical)|[Context & Exchange](../aspects.md#Aspect-Context-&-Exchange)|![Under Construction](../diagrams/Under_construction_icon-yellow.svg )[under construction](../using-saf/maturity.md#under-construction)|
 ## Example
 ![Physical Context Exchanges](../diagrams/Physical-Context-Exchange.png)
 ## Purpose
@@ -15,18 +15,24 @@ The physical context exchange viewpoint is applied early in the life cycle to ge
 The viewpoint guides the identification of expected interactions of the system with entities external to its system (control) boundary as defined in negotiated ICDs.
 The viewpoint is used to capture the interface requirements with the relevant stakeholders and any relevant documentation, requirements, standards, format specifications and protocols.
 ## Stakeholder
+* [Acquirer](../stakeholders.md#Acquirer)
+* [Customer](../stakeholders.md#Customer)
 * [Hardware Developer](../stakeholders.md#Hardware-Developer)
 * [IV&V Engineer](../stakeholders.md#IV&V-Engineer)
 * [Maintainer](../stakeholders.md#Maintainer)
+* [Safety Expert](../stakeholders.md#Safety-Expert)
 * [Software Developer](../stakeholders.md#Software-Developer)
+* [Supplier](../stakeholders.md#Supplier)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* What are the external physical entities the system interacts with in the respective context?
-* What are the interface requirements regarding bandwidth, data throughput and latency?
-* Which SW interfaces are necessary?
-* Which interfaces are necessary?
 * How does the system or a system element interact with the test environment?
 * How to connect the system or a system element to a test equipment?
+* What are the external physical entities the system interacts with in the respective context?
+* What are the interface requirements regarding bandwidth, data throughput and latency?
+* Which HW interfaces are necessary?
+* Which SW interfaces are necessary?
+* Which interface partners does a HW item have?
+* Which interface partners does a SW item have?
 ## Presentation
 The following artifacts support the modeling activities:
 A) For each identified context a physical context interface IBD is used to identify the physical interfaces, the item flows that are exchanged on that interface and related documentation.
@@ -42,6 +48,6 @@ C) A context interface table is used to define the applicable standards, protoco
 ## Profile Model Reference
 ## Input from other Viewpoints
 ### Required Viewpoints
-[Physical Context Definition Viewpoint](Physical-Context-Definition-Viewpoint.md)
+* [Physical Context Definition Viewpoint](Physical-Context-Definition-Viewpoint.md)
 ### Recommended Viewpoints
 *none*

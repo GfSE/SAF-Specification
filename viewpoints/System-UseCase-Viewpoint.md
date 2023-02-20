@@ -1,6 +1,8 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
 # System UseCase Viewpoint
-*Domain:* [Functional](../domains.md#Domain-Functional) *Aspect:* [Context & Exchange](../aspects.md#Aspect-Context-&-Exchange)
+|**Domain**|**Aspect**|**Maturity**|
+| --- | --- | --- |
+|[Functional](../domains.md#Domain-Functional)|[Context & Exchange](../aspects.md#Aspect-Context-&-Exchange)|![Released](../diagrams/Symbol_confirmed.svg.png )[released](../using-saf/maturity.md#released)|
 ## Example
 ![FFDS Use Case A Day in Life of the System](../diagrams/FFDS-Use-Case-A-Day-in-Life-of-the-System.svg)
 ## Purpose

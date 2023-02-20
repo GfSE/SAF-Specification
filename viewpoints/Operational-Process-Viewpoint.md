@@ -1,6 +1,8 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
 # Operational Process Viewpoint
-*Domain:* [Operational](../domains.md#Domain-Operational) *Aspect:* [Process & Behavior](../aspects.md#Aspect-Process-&-Behavior)
+|**Domain**|**Aspect**|**Maturity**|
+| --- | --- | --- |
+|[Operational](../domains.md#Domain-Operational)|[Process & Behavior](../aspects.md#Aspect-Process-&-Behavior)|![Released](../diagrams/Symbol_confirmed.svg.png )[released](../using-saf/maturity.md#released)|
 ## Example
 ![Fire Detection and Notification Process](../diagrams/Fire-Detection-and-Notification-Process.svg)
 ## Purpose

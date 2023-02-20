@@ -1,6 +1,8 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
 # Physical Structure Viewpoint
-*Domain:* [Physical](../domains.md#Domain-Physical) *Aspect:* [Structure](../aspects.md#Aspect-Structure)
+|**Domain**|**Aspect**|**Maturity**|
+| --- | --- | --- |
+|[Physical](../domains.md#Domain-Physical)|[Structure](../aspects.md#Aspect-Structure)|![Under Construction](../diagrams/Under_construction_icon-yellow.svg )[under construction](../using-saf/maturity.md#under-construction)|
 ## Example
 *none*
 ## Purpose

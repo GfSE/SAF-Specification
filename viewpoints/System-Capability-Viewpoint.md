@@ -1,6 +1,8 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
 # System Capability Viewpoint
-*Domain:* [Functional](../domains.md#Domain-Functional) *Aspect:* [Structure](../aspects.md#Aspect-Structure)
+|**Domain**|**Aspect**|**Maturity**|
+| --- | --- | --- |
+|[Functional](../domains.md#Domain-Functional)|[Structure](../aspects.md#Aspect-Structure)|![Released](../diagrams/Symbol_confirmed.svg.png )[released](../using-saf/maturity.md#released)|
 ## Example
 ![FFDS Capability Definition](../diagrams/FFDS-Capability-Definition.svg)
 ## Purpose

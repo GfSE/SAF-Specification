@@ -1,6 +1,8 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
 # Physical Internal Exchange Viewpoint
-*Domain:* [Physical](../domains.md#Domain-Physical) *Aspect:* [Interaction & Collaboration](../aspects.md#Aspect-Interaction-&-Collaboration)
+|**Domain**|**Aspect**|**Maturity**|
+| --- | --- | --- |
+|[Physical](../domains.md#Domain-Physical)|[Interaction & Collaboration](../aspects.md#Aspect-Interaction-&-Collaboration)|![Under Construction](../diagrams/Under_construction_icon-yellow.svg )[under construction](../using-saf/maturity.md#under-construction)|
 ## Example
 *none*
 ## Purpose

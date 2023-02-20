@@ -1,6 +1,8 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
 # System Context Interaction Viewpoint
-*Domain:* [Functional](../domains.md#Domain-Functional) *Aspect:* [Interaction & Collaboration](../aspects.md#Aspect-Interaction-&-Collaboration)
+|**Domain**|**Aspect**|**Maturity**|
+| --- | --- | --- |
+|[Functional](../domains.md#Domain-Functional)|[Interaction & Collaboration](../aspects.md#Aspect-Interaction-&-Collaboration)|![Released](../diagrams/Symbol_confirmed.svg.png )[released](../using-saf/maturity.md#released)|
 ## Example
 ![FFDS Context Interaction](../diagrams/FFDS-Context-Interaction.svg)
 ## Purpose

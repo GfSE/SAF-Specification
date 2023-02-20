@@ -1,6 +1,8 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
 # Operational Capability Traceability Viewpoint
-*Domain:* [Operational](../domains.md#Domain-Operational) *Aspect:* [Mapping & Crossreference](../aspects.md#Aspect-Mapping-&-Crossreference)
+|**Domain**|**Aspect**|**Maturity**|
+| --- | --- | --- |
+|[Operational](../domains.md#Domain-Operational)|[Mapping & Crossreference](../aspects.md#Aspect-Mapping-&-Crossreference)|![Under Construction](../diagrams/Under_construction_icon-yellow.svg )[under construction](../using-saf/maturity.md#under-construction)|
 ## Example
 *none*
 ## Purpose

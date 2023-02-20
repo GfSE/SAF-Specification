@@ -2,7 +2,7 @@
 # Common Standards Definition Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
-|  [Common](../domains.md#Domain-Common) |  [Structure](../aspects.md#Aspect-Structure) | [![Proposed](../diagrams/Under_construction_icon-red.svg ) Proposed](../using-saf/viewpointmaturity.md#proposed)|
+|  [Common](../domains.md#Domain-Common) |  [Structure](../aspects.md#Aspect-Structure) | [![Proposed](../diagrams/Under_construction_icon-red.svg ) Proposed](../using-saf/maturity.md#proposed)|
 *Domain:* **Common** *Aspect:* **Structure**
 ## Example
 ![Common Standards Definition](../diagrams/Common-Standards_Definition.png)

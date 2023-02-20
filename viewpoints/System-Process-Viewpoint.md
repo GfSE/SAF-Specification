@@ -1,6 +1,8 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
 # System Process Viewpoint
-*Domain:* [Functional](../domains.md#Domain-Functional) *Aspect:* [Process & Behavior](../aspects.md#Aspect-Process-&-Behavior)
+|**Domain**|**Aspect**|**Maturity**|
+| --- | --- | --- |
+|[Functional](../domains.md#Domain-Functional)|[Process & Behavior](../aspects.md#Aspect-Process-&-Behavior)|![Released](../diagrams/Symbol_confirmed.svg.png )[released](../using-saf/maturity.md#released)|
 ## Example
 ![FFDS A Day in the Life of FFDS](../diagrams/FFDS-A-Day-in-the-Life-of-FFDS.svg)
 ## Purpose
@@ -48,8 +50,8 @@ Note: It is recommended to compile separate activity diagrams refining Use Case 
 * ObjectFlow [UML_Standard_Profile]
 * OutputPin [UML_Standard_Profile]
 * Parameter [UML_Standard_Profile]
+* [SAF_ContextAction](../stereotypes.md#SAF_ContextAction)
 * [SAF_ContextFunction](../stereotypes.md#SAF_ContextFunction)
-* [SAF_FunctionAction](../stereotypes.md#SAF_FunctionAction)
 * [SAF_FunctionAction](../stereotypes.md#SAF_FunctionAction)
 * [SAF_LogicalRole](../stereotypes.md#SAF_LogicalRole)
 * [SAF_LogicalRole](../stereotypes.md#SAF_LogicalRole)

@@ -1,10 +1,12 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
-# Logical Function Allocation Viewpoint
-*Domain:* [Logical](../domains.md#Domain-Logical) *Aspect:* [Mapping & Crossreference](../aspects.md#Aspect-Mapping-&-Crossreference)
+# Logical Function Assignment Viewpoint
+|**Domain**|**Aspect**|**Maturity**|
+| --- | --- | --- |
+|[Logical](../domains.md#Domain-Logical)|[Mapping & Crossreference](../aspects.md#Aspect-Mapping-&-Crossreference)|![Under Construction](../diagrams/Under_construction_icon-yellow.svg )[under construction](../using-saf/maturity.md#under-construction)|
 ## Example
 ![FFDS Context Definition Allocation of Usage](../diagrams/FFDS-Context-Definition-Allocation-of-Usage.svg)
 ## Purpose
-The Logical Function Allocation Viewpoint specifies the allocation of Functions to the Logical SOI Elements.
+The Logical Function Assignment Viewpoint specifies the assignment of Functions to the Logical SOI Elements.
 ## Applicability
 The Logical Function Allocation Viewpoint supports the "System Architecture Definition process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015  .
 ## Stakeholder
@@ -14,9 +16,10 @@ The Logical Function Allocation Viewpoint supports the "System Architecture Defi
 ## Concern
 * Which functions/functional requirements are assigned to a logical item?
 ## Presentation
-A  Logical Function Allocation Matrix featuring
+A  Logical Function Assignment Matrix featuring
 * the call behavior action representing usage of Function(s)
 * the part property(s) representing usage of Logical SOI Element(s)
+* the allocation relationship between abovementioned elements
 
 ## Profile Model Reference
 * Allocate [SysML Profile]

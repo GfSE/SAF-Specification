@@ -1,10 +1,12 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
 # System Functional Breakdown Viewpoint
-*Domain:* [Functional](../domains.md#Domain-Functional) *Aspect:* [Structure](../aspects.md#Aspect-Structure)
+|**Domain**|**Aspect**|**Maturity**|
+| --- | --- | --- |
+|[Functional](../domains.md#Domain-Functional)|[Structure](../aspects.md#Aspect-Structure)|![Under Construction](../diagrams/Under_construction_icon-yellow.svg )[under construction](../using-saf/maturity.md#under-construction)|
 ## Example
 ![FFDS Function Breakdown Structure Definition](../diagrams/FFDS-Function-Breakdown-Structure-Definition.svg)
 ## Purpose
-The System Functional Breakdown Viewpoint defines the functional hierarchy of the SOI beginning with identified System Function(s) further down to decomposed partial Function(s). The reuse of partial Function(s) over Function Trees of the SOI is demonstrated.
+The System Functional Breakdown Viewpoint defines the functional hierarchy of the SOI beginning with System Processes, over identified System Functions further refined down to partial Functions. The reuse of System Functions and partial Functions over Function Trees of the SOI is facilitated. 
 ## Applicability
 The System Functional Breakdown Viewpoint supports the "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§4.3] and contributes to the System Function Definition.
 ## Stakeholder
@@ -22,7 +24,9 @@ The System Functional Breakdown Viewpoint supports the "System Requirements Defi
 * What is the breakdown of functions into sub-functions?
 * Which functions will the system provide?
 ## Presentation
-The result of the [tbd] process is one or more block definition diagram(s) (BDD) featuring [tbd].
+The content is in one or more more block definition diagrams (BDD) featuring activities representing system functions and aggregation repesenting the functional breakdown.
+
+Tool specific analysis diagram displaying the relationships between system processes, system functions and partial functions
 
 ## Profile Model Reference
 * Activity [UML_Standard_Profile]
@@ -30,8 +34,10 @@ The result of the [tbd] process is one or more block definition diagram(s) (BDD)
 * Association [UML_Standard_Profile]
 * Property [UML_Standard_Profile]
 * [SAF_FunctionAction](../stereotypes.md#SAF_FunctionAction)
+* [SAF_PartialFunction](../stereotypes.md#SAF_PartialFunction)
 * [SAF_SFV02c_View](../stereotypes.md#SAF_SFV02c_View)
 * [SAF_SystemFunction](../stereotypes.md#SAF_SystemFunction)
+* [SAF_SystemProcess](../stereotypes.md#SAF_SystemProcess)
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

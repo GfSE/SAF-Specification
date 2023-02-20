@@ -1,16 +1,18 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
 # Logical Internal Exchange Viewpoint
-*Domain:* [Logical](../domains.md#Domain-Logical) *Aspect:* [Interaction & Collaboration](../aspects.md#Aspect-Interaction-&-Collaboration)
+|**Domain**|**Aspect**|**Maturity**|
+| --- | --- | --- |
+|[Logical](../domains.md#Domain-Logical)|[Interaction & Collaboration](../aspects.md#Aspect-Interaction-&-Collaboration)|![Released](../diagrams/Symbol_confirmed.svg.png )[released](../using-saf/maturity.md#released)|
 ## Example
 ![FFDS Logical Internal Exchange](../diagrams/FFDS-Logical-Internal-Exchange.svg)
 ## Purpose
-The Logical Internal Exchange Viewpoint serves for the identification and definition of interface(s) of element(s) of the SOI. Also, the delegation of SOI element interfaces to SOI boundary interfaces is covered.
+The Logical Internal Exchange Viewpoint serves for the identification and definition of interfaces of elements of the Logical System. Also, the delegation of system element interfaces to the Logical System boundary interfaces is covered.
 The Logical Internal Exchange Viewpoint
-* identifies SOI element interfaces on a Logical Level
-* states to which other SOI elements the interfaces are connected to
+* identifies system element interfaces on a Logical Level
+* states to which other system elements the interfaces are connected to
 * assigns interface specifications to interfaces
 * defines the usage of interfaces, e.g. if only a subset of the interfaces is used 
-* defines the delegation of SOI element interfaces to SOI boundary interfaces
+* defines the delegation of system element interfaces to the system boundary interfaces
 ## Applicability
 The Logical Internal Exchange Viewpoint supports the "Develop Models and Views of Candidate Architecture" activity included in the "Architecture Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.4] and contributes to the preliminary interface definition and system architecture description.
 ## Stakeholder

@@ -1,6 +1,8 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
 # Logical Interaction Viewpoint
-*Domain:* [Logical](../domains.md#Domain-Logical) *Aspect:* [Interaction & Collaboration](../aspects.md#Aspect-Interaction-&-Collaboration)
+|**Domain**|**Aspect**|**Maturity**|
+| --- | --- | --- |
+|[Logical](../domains.md#Domain-Logical)|[Interaction & Collaboration](../aspects.md#Aspect-Interaction-&-Collaboration)|![Released](../diagrams/Symbol_confirmed.svg.png )[released](../using-saf/maturity.md#released)|
 ## Example
 ![FFDS Internal Interaction](../diagrams/FFDS-Internal-Interaction.svg)
 ## Purpose

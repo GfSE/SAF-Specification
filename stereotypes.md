@@ -46,6 +46,13 @@ realizes concept Claimable Item
 realizes concept CLTmakingCLM
 
 
+## SAF_ContextAction
+### Documentation
+
+An Action of a Context Element
+realizes concept Context Function In System Process
+
+Specifies the fact that a Context Function is used in a System Process.
 ## SAF_ContextElementCharacterization
 ### Documentation
 
@@ -119,9 +126,6 @@ realizes concept EVCreinforcingAGT
 ### Documentation
 
 
-realizes concept Context Function In System Process
-
-Specifies the fact that a Context Function is used in a System Process.
 realizes concept Functional Usage
 
 Usage of a Function by one or more other Functions.
@@ -349,6 +353,13 @@ Specifies the fact that a SOI Stakeholder represents an Operational Performer.
 realizes concept Operational Story
 
 The Operational Story represents one or more Operational Use Cases in the Usage Scenario identified by the Operational Context. The Operational Story is described as narrative telling a story.
+## SAF_PartialFunction
+### Documentation
+
+A detail of a system function.
+realizes concept Partial Function
+
+A Partial Function is a part of a System Function and defines details of the System function.
 ## SAF_PhysicalContext
 ### Documentation
 
@@ -395,13 +406,6 @@ Pure Hardware Elements. Similarity to the V-Model "hardware unit".
 ### Documentation
 
 Abstract. Not to be intended to be used in a system model
-## SAF_PhysicalSOI
-### Documentation
-
-
-realizes concept Physical SOI
-
-Represents the SOI in the Physical Domain.
 ## SAF_PhysicalSoftwareElement
 ### Documentation
 
@@ -409,6 +413,13 @@ System element implemented in software.
 realizes concept Software Element
 
 Pure Software Elements. Similarity to the V-Model "software unit".
+## SAF_PhysicalSystem
+### Documentation
+
+
+realizes concept Physical SOI
+
+Represents the SOI in the Physical Domain.
 ## SAF_PhysicalUser
 ### Documentation
 
@@ -449,7 +460,7 @@ realizes Viewpoint [System Capability Viewpoint](viewpoints/System-Capability-Vi
 ## SAF_SFV02c_View
 ### Documentation
 
-
+Implements the System Functional Breakdown Viewpoint
 realizes Viewpoint [System Functional Breakdown Viewpoint](viewpoints/System-Functional-Breakdown-Viewpoint.md)
 ## SAF_SFV03a_View
 ### Documentation
@@ -578,6 +589,15 @@ Stakeholder imposing stakeholder requirements to a system.
 realizes concept System of Interest Stakeholder
 
 An individual, team, or organization (or classes thereof) with interests in, or concerns relative to, a system. It may be involved in any life cycle phase of the system. The Stakeholder represents a class or kind of stakeholders.
+
+Stakeholders also have a certain Involvement:
+
+Stakeholder Involvement captures the influence of a project specific Stakeholder on the system. Stakeholder Involvement is characterized by
+* Contact Person
+* Kind of involvement
+* Life Cycle Phases involved
+* Relevance decision if and up to which degree Stakeholder is considered
+* Rationale for decision if Stakeholder is not considered 
 realizes concept Claimant
 
 A party, which asserts claims.
@@ -590,7 +610,7 @@ A party, which asserts counter-claims.
 
 realizes concept relatedTO
 
-Explains relation(s) between the Stakeholders of the system and other relevant system parties. It helps to understand the Stakeholder community and to approach the right point of contact for clarification of project relevant issues.
+Explains relations between the Stakeholders of the system and other relevant system parties. It helps to understand the Stakeholder community and to approach the right point of contact for clarification of project relevant issues.
 ## SAF_StakeholderRequirement
 ### Documentation
 
@@ -723,14 +743,6 @@ Noe: Redundant with the meaning of "Need"?
 ### Documentation
 
 
-realizes concept Stakeholder Involvement Constituent
-
-Stakeholder Involvement captures the influence of a project specific Stakeholder on the system. Stakeholder Involvement is characterized by
-* Contact Person
-* Kind of involvement
-* Life Cycle Phases involved
-* Relevance decision if and up to which degree Stakeholder is considered
-* Rationale for decision if Stakeholder is not considered 
 ## SAF_SystemProcess
 ### Documentation
 
@@ -744,7 +756,7 @@ Specifies the fact that a System UseCase is refined into a sequence of Actions o
 
 realizes concept System Requirement
 
-System requirement(s) specify functions, non-functional properties, or constraints of the System.
+System requirements specify functions, non-functional properties, or constraints of the System.
 ## SAF_SystemRequirementDerivation
 ### Documentation
 

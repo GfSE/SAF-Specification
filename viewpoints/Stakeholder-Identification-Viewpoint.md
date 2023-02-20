@@ -1,6 +1,8 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
 # Stakeholder Identification Viewpoint
-*Domain:* [Operational](../domains.md#Domain-Operational) *Aspect:* [Structure](../aspects.md#Aspect-Structure)
+|**Domain**|**Aspect**|**Maturity**|
+| --- | --- | --- |
+|[Operational](../domains.md#Domain-Operational)|[Structure](../aspects.md#Aspect-Structure)|![Under Construction](../diagrams/Under_construction_icon-yellow.svg )[under construction](../using-saf/maturity.md#under-construction)|
 ## Example
 *none*
 ## Purpose
@@ -33,7 +35,6 @@ The results of the Stakeholder Identification are selected Stakeholders. A Stake
 * [SAF_Stakeholder](../stereotypes.md#SAF_Stakeholder)
 * [SAF_StakeholderRelation](../stereotypes.md#SAF_StakeholderRelation)
 * [SAF_SystemOfInterestConcern](../stereotypes.md#SAF_SystemOfInterestConcern)
-* [SAF_SystemOfInterestInvolvement](../stereotypes.md#SAF_SystemOfInterestInvolvement)
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

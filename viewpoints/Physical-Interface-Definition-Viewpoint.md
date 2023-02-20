@@ -4,7 +4,6 @@
 | --- | --- | --- |
 |  [Physical](../domains.md#Domain-Physical) |  [Interface](../aspects.md#Aspect-Interfaces) | [![Proposed](../diagrams/Under_construction_icon-red.svg ) Proposed](../using-saf/maturity.md#proposed)|
 
-*Domain:* **Physical** *Aspect:* **Interfaces**
 ## Example
 To define signal types and their compatibility
 ![Physical Interface Definition](../diagrams/Physical-Interface-SignalDefinition.png)

@@ -1,10 +1,12 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
 # Physical Function Allocation Viewpoint
-*Domain:* [Physical](../domains.md#Domain-Physical) *Aspect:* [Mapping & Crossreference](../aspects.md#Aspect-Mapping-&-Crossreference)
+|**Domain**|**Aspect**|**Maturity**|
+| --- | --- | --- |
+|[Physical](../domains.md#Domain-Physical)|[Mapping & Crossreference](../aspects.md#Aspect-Mapping-&-Crossreference)|![Under Construction](../diagrams/Under_construction_icon-yellow.svg )[under construction](../using-saf/maturity.md#under-construction)|
 ## Example
 *none*
 ## Purpose
-The Physical Function Allocation Viewpoint specifies the allocation of Functions to the Physical SOI Elements.
+The Physical Function Allocation Viewpoint analyses the allocation of Functions to the Physical SOI Elements.
 ## Applicability
 The Physical Function Allocation Viewpoint supports the "System Architecture Definition process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015  .
 ## Stakeholder
@@ -18,14 +20,19 @@ The Physical Function Allocation Viewpoint supports the "System Architecture Def
 ## Presentation
 A  Physical Function Allocation Matrix featuring
 * the call behavior action representing usage of Function(s)
-* the part property(s) representing usage of Physical SOI Element(s)
+*  Physical SOI Element(s) 
+or Physical SOI
+* a derived relationship
 
 ## Profile Model Reference
 * [SAF_FunctionAction](../stereotypes.md#SAF_FunctionAction)
+* [SAF_PhysicalElement](../stereotypes.md#SAF_PhysicalElement)
+* [SAF_PhysicalHardwareElement](../stereotypes.md#SAF_PhysicalHardwareElement)
+* [SAF_PhysicalSoftwareElement](../stereotypes.md#SAF_PhysicalSoftwareElement)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Physical Structure Viewpoint](Physical-Structure-Viewpoint.md)
-* [Logical Function Allocation Viewpoint](Logical-Function-Allocation-Viewpoint.md)
+* [Logical Function Assignment Viewpoint](Logical-Function-Assignment-Viewpoint.md)
 * [Logical Structure Viewpoint](Logical-Structure-Viewpoint.md)
 ### Recommended Viewpoints
 * [System Process Viewpoint](System-Process-Viewpoint.md)

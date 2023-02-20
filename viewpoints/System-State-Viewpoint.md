@@ -1,6 +1,8 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
 # System State Viewpoint
-*Domain:* [Functional](../domains.md#Domain-Functional) *Aspect:* [Process & Behavior](../aspects.md#Aspect-Process-&-Behavior)
+|**Domain**|**Aspect**|**Maturity**|
+| --- | --- | --- |
+|[Functional](../domains.md#Domain-Functional)|[Process & Behavior](../aspects.md#Aspect-Process-&-Behavior)|![Released](../diagrams/Symbol_confirmed.svg.png )[released](../using-saf/maturity.md#released)|
 ## Example
 ![FFDS System Modes and States](../diagrams/FFDS-System-Modes-and-States.svg)
 ## Purpose

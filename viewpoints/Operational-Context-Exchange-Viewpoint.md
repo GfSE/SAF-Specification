@@ -1,6 +1,8 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
 # Operational Context Exchange Viewpoint
-*Domain:* [Operational](../domains.md#Domain-Operational) *Aspect:* [Context & Exchange](../aspects.md#Aspect-Context-&-Exchange)
+|**Domain**|**Aspect**|**Maturity**|
+| --- | --- | --- |
+|[Operational](../domains.md#Domain-Operational)|[Context & Exchange](../aspects.md#Aspect-Context-&-Exchange)|![Released](../diagrams/Symbol_confirmed.svg.png )[released](../using-saf/maturity.md#released)|
 ## Example
 ![FDN Context Exchange](../diagrams/FDN-Context-Exchange.svg)
 ## Purpose

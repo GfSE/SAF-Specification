@@ -1,6 +1,8 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
 # System Requirement Viewpoint
-*Domain:* [Functional](../domains.md#Domain-Functional) *Aspect:* [Requirement](../aspects.md#Aspect-Requirement)
+|**Domain**|**Aspect**|**Maturity**|
+| --- | --- | --- |
+|[Functional](../domains.md#Domain-Functional)|[Requirement](../aspects.md#Aspect-Requirement)|![Released](../diagrams/Symbol_confirmed.svg.png )[released](../using-saf/maturity.md#released)|
 ## Example
 ![System Requirement Definition Table](../diagrams/System-Requirement-Definition-Table.svg)
 ## Purpose

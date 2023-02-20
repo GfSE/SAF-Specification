@@ -1,10 +1,12 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
 # Logical Structure Viewpoint
-*Domain:* [Logical](../domains.md#Domain-Logical) *Aspect:* [Structure](../aspects.md#Aspect-Structure)
+|**Domain**|**Aspect**|**Maturity**|
+| --- | --- | --- |
+|[Logical](../domains.md#Domain-Logical)|[Structure](../aspects.md#Aspect-Structure)|![Released](../diagrams/Symbol_confirmed.svg.png )[released](../using-saf/maturity.md#released)|
 ## Example
 ![FFDS Logical Architecture Definition](../diagrams/FFDS-Logical-Architecture-Definition.svg)
 ## Purpose
-The Logical Structure Viewpoint covers the basic technical notion of the system and is widely reusable among similar systems like product families or generations. The Logical Structure Viewpoint specifies how the SOI is decomposed into a hierarchical structure of logical component(s) responsible for different system functions (divide & conquer principle).
+The Logical Structure Viewpoint covers the basic technical notion of the system and is widely reusable among similar systems like product families or generations. The Logical Structure Viewpoint specifies how the system is decomposed into a hierarchical structure of logical components responsible for different system functions (divide & conquer principle).
 ## Applicability
 The Logical Structure Viewpoint supports the "Develop Architecture Viewpoints" and the "Develop Models and Views of Candidate Architectures" activity included in the "Architecture Definition process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.4] and contributes to the artifact "System Architecture Description".
 ## Stakeholder
