@@ -739,10 +739,6 @@ realizes concept System of Interest Concern
 
 Any kind of interest a Stakeholder has. 
 Noe: Redundant with the meaning of "Need"?
-## SAF_SystemOfInterestInvolvement
-### Documentation
-
-
 ## SAF_SystemProcess
 ### Documentation
 

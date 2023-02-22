@@ -8,11 +8,11 @@
 ## Purpose
 The ..
 ## Applicability
-The Common Evidence Pattern Viewpoint supports the ability to present an evidence pattern, a structure of claim(s), argument(s) and evidence, which is a common need in systems engineering. It applies equally to the establishment of traceability, definition of safety cases and even the presentation of business cases.
+The..
 ## Stakeholder
 ## Concern
 ## Presentation
-
+The...
 
 ## Profile Model Reference
 ## Input from other Viewpoints
