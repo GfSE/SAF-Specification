@@ -29,4 +29,4 @@ Viewpoint in this category have been discussed in the SAF Working Group and only
 additionally: 
 * Conceptual Model complete and integrated in specification model
 * Viewpoint specification complete and integrated in specification model
-* example available in specification model
+* example available and validating the viewpoint
