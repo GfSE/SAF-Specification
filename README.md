@@ -85,7 +85,7 @@ The Functional Domain Viewpoints translate Operational Domain usage into the not
 #### Functional Domain Aspect Requirement
 * [System Requirement Viewpoint](viewpoints/System-Requirement-Viewpoint.md)
 #### Functional Domain Aspect Crossreference and Mapping
-* [System Function Black Box Allocation Viewpoint](viewpoints/System-Function-Black-Box-Allocation-Viewpoint.md)
+
 
 ## Logical Domain
 
