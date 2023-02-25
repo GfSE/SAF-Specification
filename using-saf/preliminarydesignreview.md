@@ -35,11 +35,11 @@ operational..alle
  * [System Functional Breakdown Viewpoint](../viewpoints/System-Functional-Breakdown-Viewpoint.md)
  * [System Function Refinement](../viewpoints/System-Function-Refinement-Viewpoint.md) (alex)
  * [System Process Viewpoint](../viewpoints/System-Process-Viewpoint.md)
- * [System Requirement Traceability Viewpoint](../viewpoints/System-Requirement-Traceability-Viewpoint.md)(sascha) system req traceablity aufsplitten
+ * [System Requirement Traceability Viewpoint](../viewpoints/System-Requirement-Traceability-Viewpoint.md) (sascha) system req traceablity aufsplitten
  * [System Requirement Viewpoint](../viewpoints/System-Requirement-Viewpoint.md)
  * [System State Viewpoint](../viewpoints/System-State-Viewpoint.md)
  * [System UseCase Viewpoint](../viewpoints/System-UseCase-Viewpoint.md)
- * [Functional Interface Definition Viewpoint](../viewpoints/Functional-Interface-Definition-Viewpoint.md)(alex)(das sind die interface blöcke)
+ * [Functional Interface Definition Viewpoint](../viewpoints/Functional-Interface-Definition-Viewpoint.md) (alex) das sind die interface blöcke
  
  ## Viewpoints new for PDR
  * [Logical Structure Viewpoint](../viewpoints/Logical-Structure-Viewpoint.md)
