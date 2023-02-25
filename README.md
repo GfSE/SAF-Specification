@@ -1,18 +1,16 @@
 # SAF Specification Dev Branch
-This is the System Architecture Framework specification. **It is work in progress.**
+This is the System Architecture Framework specification. **Work in progress.**
 
 The Fire Forest Detection example, SAF_FFDS, is based on the publication **SYSMOD - The Systems Modeling Toolbox, 3rd edition Pragmatic MBSE with SysML, Tim Weilkiens**
 
-It is possible to contribute to SAF, see [contributing](contributing.md). To understand how SAF is developed, see [development](developing-saf/development.md).
+We always welcome contributions from our MBSE community to make SAF better, see [contributing](contributing.md). To understand how we develope SAF, please look at [development](developing-saf/development.md).
 
 # Viewpoint Grid
-The Viewpoints are organized a Grid, having [Domains](domains.md) as rows and [Aspects](aspects.md) as columns
+The Viewpoints are organized as a Grid featuring [Domains](domains.md) as rows and [Aspects](aspects.md) as columns.
 
 ![SAF Grid](diagrams/SAF_FFDS_view_grid.svg)
 
-The subsequent chapters give an overview over the SAF viewpoints.
-
-There are also [specifications of the view points in PDF ](./pdfs)format.
+The subsequent chapters give an overview over the SAF viewpoints. The specifications of the SAF viewpoints are available as [PDF](./pdfs) format.
 
 ## Operational Domain
 
