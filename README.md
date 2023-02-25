@@ -1,8 +1,6 @@
 # SAF Specification Dev Branch
 This is the System Architecture Framework specification. **Work in progress.**
 
-![Work in progress](diagrams/work-in-progress.svg)
-
 The Fire Forest Detection example, SAF_FFDS, is based on the publication **SYSMOD - The Systems Modeling Toolbox, 3rd edition Pragmatic MBSE with SysML, Tim Weilkiens**
 
 We always welcome contributions from our MBSE community to make SAF better, see [how to contribute to SAF](contributing.md). To understand how we develope SAF, please look at [how SAF is developed](developing-saf/development.md).
