@@ -6,13 +6,13 @@
 ## Example
 ![Detect and Report Fire](../diagrams/Detect-and-Report-Fire.svg)
 ## Purpose
-The System Function Refinement Viewpoint analyses  System functions in more detail.
+The System Function Refinement Viewpoint analyses System Functions in more detail.
 ## Applicability
 
 ## Stakeholder
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* How are the system functions decomposed into sub-functions decomposed? 
+* How are the system functions decomposed into sub-functions? 
 * What is the breakdown of functions into sub-functions?
 ## Presentation
 Activity Diagram featuring partial functions.
