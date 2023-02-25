@@ -1,4 +1,4 @@
-# How to contribute to SAF
+# How To Contribute to SAF?
 
 The SAF Specification is published as markdown documentation in the SAF-Specification github repository.
 It is generated from a model.
