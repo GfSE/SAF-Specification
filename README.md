@@ -109,7 +109,7 @@ The Logical Domain Viewpoints describe the Logical Structure and the distributio
 * [Logical Internal Interaction Viewpoint](viewpoints/Logical-Interaction-Viewpoint.md)
 * [Logical Internal Exchange Viewpoint](viewpoints/Logical-Internal-Exchange-Viewpoint.md)
 #### Functional Domain Aspect Crossreference and Mapping
-* [Logical Function Assignment Viewpoint](Logical-Function-Assignment-Viewpoint.md)
+* [Logical Function Assignment Viewpoint](viewpoints/Logical-Function-Assignment-Viewpoint.md)
 
 ## Physical Domain
 
