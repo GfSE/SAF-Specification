@@ -4,11 +4,11 @@
 | --- | --- | --- |
 |[Common](../domains.md#Domain-Common)|[Structure](../aspects.md#Aspect-Structure)|![Under Construction](../diagrams/Under_construction_icon-yellow.svg )[under construction](../using-saf/maturity.md#under-construction)|
 ## Example
-*none*
+![Detect and Report Fire](../diagrams/Detect-and-Report-Fire.svg)
 ## Purpose
 The System Function Refinement Viewpoint analyses  System functions in more detail.
 ## Applicability
-The Common Evidence Pattern Viewpoint supports the ability to present an evidence pattern, a structure of claim(s), argument(s) and evidence, which is a common need in systems engineering. It applies equally to the establishment of traceability, definition of safety cases and even the presentation of business cases.
+
 ## Stakeholder
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
