@@ -1,9 +1,9 @@
 # SAF Specification Dev Branch
-This is the System Architecture Framework specification. **Work in progress.**
+System Architecture Framework Specification **Work in progress**
 
-The Fire Forest Detection example, SAF_FFDS, is based on the publication **SYSMOD - The Systems Modeling Toolbox, 3rd edition Pragmatic MBSE with SysML, Tim Weilkiens**
+**We always welcome contributions from our MBSE community to make SAF better, see [how to contribute to SAF](contributing.md). To understand how we develope SAF, please look at [how SAF is developed](developing-saf/development.md).**
 
-We always welcome contributions from our MBSE community to make SAF better, see [how to contribute to SAF](contributing.md). To understand how we develope SAF, please look at [how SAF is developed](developing-saf/development.md).
+The SAF application is demonstrated using the Fire Forest Detection System example, called SAF_FFDS. The Fire Forest Detection example is based on the publication **SYSMOD - The Systems Modeling Toolbox, 3rd edition Pragmatic MBSE with SysML, Tim Weilkiens**
 
 # Viewpoint Grid
 The Viewpoints are organized as a Grid featuring [Domains](domains.md) as rows and [Aspects](aspects.md) as columns.
@@ -79,13 +79,13 @@ The Functional Domain Viewpoints translate Operational Domain usage into the not
 * [System Functional Breakdown Viewpoint](viewpoints/System-Functional-Breakdown-Viewpoint.md)
 #### Functional Domain Aspect Behavior
 * [System Process Viewpoint](viewpoints/System-Process-Viewpoint.md)
+* [System Function Refinement Viewpoint](viewpoints/System-Function-Refinement-Viewpoint.md)
 * [System State Viewpoint](viewpoints/System-State-Viewpoint.md)
 #### Functional Domain Aspect Interaction and Collaboration
 * [System Context Interaction Viewpoint](viewpoints/System-Context-Interaction-Viewpoint.md)
 #### Functional Domain Aspect Requirement
 * [System Requirement Viewpoint](viewpoints/System-Requirement-Viewpoint.md)
 #### Functional Domain Aspect Crossreference and Mapping
-
 
 ## Logical Domain
 
