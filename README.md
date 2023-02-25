@@ -1,5 +1,5 @@
 # SAF Specification Dev Branch
-System Architecture Framework Specification **Work in progress**
+System Architecture Framework Specification **Work in progress** ![Bild](../diagrams/Under_construction_icon-yellow.svg)
 
 **We always welcome contributions from our MBSE community to make SAF better, see [how to contribute to SAF](contributing.md). To understand how we develope SAF, please look at [how SAF is developed](developing-saf/development.md).**
 
