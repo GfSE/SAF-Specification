@@ -75,7 +75,7 @@ The Customer is an organization or person that receives a product. Examples: Con
 * What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
 * What operational capabilities are defined? 
 
-  ***Rationale:  In my role, I need to specify capabilities because the definition of capabilities allows communication about what is to be achieved to be separated from how it is achieved at an operational level. ***
+  ***Rationale:  In my role, I need to specify capabilities because the definition of capabilities allows communication about what is to be achieved to be separated from how it is achieved at an operational level.***
 * What services are expected from external entities?
 * What shall be validated to the customer at system level?
 * Which functions will the system provide?
