@@ -3,14 +3,14 @@ This is the System Architecture Framework specification. **Work in progress.**
 
 The Fire Forest Detection example, SAF_FFDS, is based on the publication **SYSMOD - The Systems Modeling Toolbox, 3rd edition Pragmatic MBSE with SysML, Tim Weilkiens**
 
-We always welcome contributions from our MBSE community to make SAF better, see [contributing](contributing.md). To understand how we develope SAF, please look at [development](developing-saf/development.md).
+We always welcome contributions from our MBSE community to make SAF better, see [how to contribute to SAF](contributing.md). To understand how we develope SAF, please look at [how SAF is developed](developing-saf/development.md).
 
 # Viewpoint Grid
 The Viewpoints are organized as a Grid featuring [Domains](domains.md) as rows and [Aspects](aspects.md) as columns.
 
 ![SAF Grid](diagrams/SAF_FFDS_view_grid.svg)
 
-The subsequent chapters give an overview over the SAF viewpoints. The specifications of the SAF viewpoints are available as [PDF](./pdfs) format.
+The subsequent chapters give an overview over the SAF viewpoints. The specifications of the SAF viewpoints are available as [PDF](./pdfs) format, too.
 
 ## Operational Domain
 
@@ -112,6 +112,7 @@ The Logical Domain Viewpoints describe the Logical Structure and the distributio
 ## Physical Domain
 
 ### Physical Domain Objective
+
 The diagrams generated in the Physical Domain may be used to represent the Product Breakdown Structure, to identify external and internal physical interfaces, to provide diagrams for the system overview, to support the integration planning, to support production planning and to depict the features and variations implied in the system.
 
 The physical architecture typically is a combination of re-use elements, COTS elements and make-items for HW as well as for SW. The properties of the selected physical components and their provided resources are identified and modelled.
@@ -120,7 +121,8 @@ A major concern of the Physical Domain are the physical interfaces, their identi
 
 For traceability the Physical Domain defines diagrams showing the mapping of the physical items and their interfaces to physical items and their interfaces as well as to applicable requirements.
 
-### Physical Domain Concern
+### Physical Domain Concerns
+
 #### Structure
 * Show the decomposition of the system into system elements down the hierarch and provide configuration meta data.
 #### Interfaces
@@ -134,22 +136,22 @@ For traceability the Physical Domain defines diagrams showing the mapping of the
 * Show the allocation of logical blocks from the logical architecture to elements of the physical architecture.
 * Show the allocation of logical interfaces from the logical architecture to interfaces of the physical architecture.
 * Allocate functional or non-functional requirements to the elements of the physical architecture.
-* Allocate functional, non-functional or performance requirements to the interfaces of the physical architecture.
+* Allocate functional or non-functional requirements to the interfaces of the physical architecture.
 * Allocate a safety criticality to the elements of the physical architecture.
 
 ### Physical Domain Viewpoints
-#### Story & Context
+#### Physical Domain Aspect Context
 * [Physical Context Definition Viewpoint](viewpoints/Physical-Context-Definition-Viewpoint.md)
 * [Physical Context Exchange Viewpoint](viewpoints/Physical-Context-Exchange-Viewpoint.md)
-#### Structure
+#### Physical Domain Aspect Structure
 * [Physical Structure Viewpoint](viewpoints/Physical-Structure-Viewpoint.md)
-#### Process & Behavior
-#### Interaction & Collaboration
+#### Physical Domain Aspect Behavior
+
+#### Physical Domain Aspect Interaction and Collaboration
 * [Physical Internal Exchange Viewpoint](viewpoints/Physical-Internal-Exchange-Viewpoint.md)
-#### Interface
+#### Physical Domain Aspect Interface
 * [Physical Interface Definition Viewpoint](viewpoints/Physical-Interface-Definition-Viewpoint.md)
 * Physical Protocol Stack Definition Viewpoint
-
 
 ## Common Domain
 ### Common Domain Objective
@@ -157,17 +159,18 @@ The SAF Common Domain provides viewpoints addressing model information that is c
 
 ### Common Domain Concerns
 * Provides information on standards and documents that are applicable or are referred to within the model.
-* 
 
 ### Common Domain Viewpoints
 * [Common Standards Definition Viewpoint](viewpoints/Common-Standards-Definition-Viewpoint.md)
 
+
 # Stakeholder Definition
 [Stakeholders](stakeholders.md)
+
 
 # Concern Overview
 [Concerns](concerns.md)
 
-# Profile Model
 
+# Profile Model
 [Stereotypes](stereotypes.md)
