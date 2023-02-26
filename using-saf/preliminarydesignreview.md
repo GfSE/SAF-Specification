@@ -2,11 +2,11 @@
 
 The Preliminary Design Review (PDR) is one of the [Decision Gates](decisiongates.md).
 
-The Preliminary Design Review (PDR) should provide sufficient confidence and approval of the high level architecture to proceed with detailed design with acceptable risk. The PDR ensures the preliminary design and basic system architecture are complete, that there is technical confidence the System Requiremnts can be satisfied within cost and schedule goals and that risks have been identified and mitigation plans established.
+The Preliminary Design Review (PDR) should provide sufficient confidence and approval of the high level architecture to proceed with detailed design with acceptable risk. The PDR ensures the preliminary design and basic system architecture are complete, that there is technical confidence the System Requirements can be satisfied within cost and schedule goals and that risks have been identified and mitigation plans established.
 
 It also provides the acquisition community, end user and other stakeholders with an opportunity to understand the trade studies conducted during the preliminary design, and thus confirm that design decisions are consistent with the user’s performance and schedule needs.
 
-The PDR is the "design to" review. That means, the design is based on the baselined information items of this review. Since the developement effort usually "fans out" to a multitude of teams orchestrated by the system architect, the PDR is the point to reach common understanding about the planned architecture among these teams.
+The PDR is the "design to" review. That means, the design is based on the baselined information items of this review. Since the development effort usually "fans out" to a multitude of teams orchestrated by the system architect, the PDR is the point to reach common understanding about the planned architecture among these teams.
 
 # Stakeholders tbd
  * system architect
