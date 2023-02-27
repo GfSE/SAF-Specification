@@ -2,7 +2,7 @@
 # Evidence Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
-|[Common](../domains.md#Domain-Common)|[Structure](../aspects.md#Aspect-Structure)|![Proposed](../diagrams/Under_construction_icon-red.svg )[proposed](../using-saf/maturity.md#proposed)|
+|[Common](../domains.md#Domain-Common)|[Structure](../aspects.md#Aspect-Structure)|![Under Construction](../diagrams/Under_construction_icon-yellow.svg )[under construction](../using-saf/maturity.md#under-construction)|
 ## Example
 *none*
 ## Purpose
@@ -13,7 +13,7 @@ The Common Evidence Pattern Viewpoint supports the ability to present an evidenc
 ## Concern
 * How is a evidence-based claim supported?
 ## Presentation
-
+A BBD featuring an claim-argument-evidence (C-A-E) pattern.
 
 ## Profile Model Reference
 * [SAF_Argument](../stereotypes.md#SAF_Argument)

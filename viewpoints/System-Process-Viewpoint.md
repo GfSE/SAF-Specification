@@ -39,7 +39,7 @@ The System Process Viewpoint supports the "System Requirements Definition Proces
 * Which functions are out of scope of the system?
 * Which functions will the system provide?
 ## Presentation
-The Functional Scenario Activity(s) and their sequence related to a System UseCase are represented in activity diagram(s) featuring swim lanes. The swim lanes are typed with Context Element(s) and SOI usage from the System Context(s). 
+The Functional Scenario Activities and their sequence related to a System UseCase are represented in activity diagrams featuring swim lanes. The swim lanes are typed with Context Elements and SOI usage from the System Contexts. 
 Note: It is recommended to compile separate activity diagrams refining Use Case and System Context.
 
 ## Profile Model Reference

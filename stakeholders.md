@@ -83,14 +83,14 @@ The Customer is an organization or person that receives a product. Examples: Con
 * Who provides the inputs to a critical function?
 # Customer (Representative)
 Definition - Customer (Representative):
-(1) [SAF] The primary goal in a Customer (Representative) role is to represent the end-user, an individual, organization, or enterprise that benefits from the operation of the system. In this role the Customer (Representative) provides usage scenario(s), user need(s) and requirement(s).
+(1) [SAF] The primary goal in a Customer (Representative) role is to represent the end-user, an individual, organization, or enterprise that benefits from the operation of the system. In this role the Customer (Representative) provides usage scenarios, user needs and requirements.
 (2) [SAF] The secondary goal in a Customer (Representative) role is to represent the Acquirer, who buys or procures a product or service from a supplier. The Acquirer selected by the User to serve as their technical representative to:
 1. Specify the system.
 2. Select a System Developer or Services Provider.
 3. Provide technical assistance.
 4. Provide contractual oversight for the execution of the contract and delivery of a
 verified and validated system to the User.
-Note: All other Stakeholder(s) do not use the system for purpose, and they do not need or require the system to satisfy any need. Therefore, interests of the end-user and claims of the other stakeholders could be contradicting and the Customer (Representative) role therefore strives for a solution satisfying all the Stakeholder Requirement(s).
+Note: All other Stakeholders do not use the system for purpose, and they do not need or require the system to satisfy any need. Therefore, interests of the end-user and claims of the other stakeholders could be contradicting and the Customer (Representative) role therefore strives for a solution satisfying all the Stakeholder Requirements.
 
 ## Concern
 # Hardware Developer
@@ -102,11 +102,11 @@ The Developer is a group or an individual implementing the system parts accordin
 * How are error states handled?
 * How does the system or a system element interact with the test environment?
 * What additional information the system or a system element needs to generate to enable testing?
+* What are the Interface Requirements regarding bandwidth, data throughput and latency?
 * What are the encryption means used for an exchange?
 * What are the functional requirements imposed on the system? 
 
   ***Rationale:  In my role, I need to trace my derived requirements against these ones relevant to me.***
-* What are the interface requirements regarding bandwidth, data throughput and latency?
 * What are the non-functional requirements imposed on the system? 
 
   ***Rationale:  In my role, I need to trace my derived requirements against these ones relevant to me.***
@@ -120,7 +120,7 @@ The Developer is a group or an individual implementing the system parts accordin
 * What is the allocated weight?
 * What is the allocation of functions to the physical architecture? 
 
-  ***Rationale:  In my role, I need to implement the realization of sub-function(s) by my HW subsystem.***
+  ***Rationale:  In my role, I need to implement the realization of sub-functions by my HW subsystem.***
 * What is the necessary accuracy and resolution for analog signal acquisition?
 * What is the necessary accuracy and resolution for processing?
 * What is the necessary memory size for processing nodes and data storage?
@@ -174,10 +174,10 @@ IV&V Engineers are individuals or groups responsible for integration, validation
 * What additional interfaces are necessary to expose internal properties, states and modes for testing?
 * What are the functional requirements imposed on the system? 
 
-  ***Rationale:  In my role, I need to prove system requirements via test cases.***
+  ***Rationale:  In my role, I need to prove System Requirements via test cases.***
 * What are the non-functional requirements imposed on the system? 
 
-  ***Rationale:  In my role, I need to prove system requirements via test cases.***
+  ***Rationale:  In my role, I need to prove System Requirements via test cases.***
 * What is the flow of critical information and data through the system?
 * What is the necessary response time for an interface or a service?
 * What is the sequence of interactions among the system and context elements
@@ -258,15 +258,15 @@ Systems Engineering creates a clear and manageable system structure, which is th
 * What is the risk involved with each development item?
 * What services are expected from external entities?
 * When do product functions or features become available?
-* Which development effort is associated with each individual element?
-* Which functions will the system provide?
-* Which stakeholder requirements are addressed by system requirements? 
+* Which Stakeholder Requirements are addressed by System Requirements? 
 
   ***Rationale:  In my role, I need to check whether we fulfill our contract.***
+* Which development effort is associated with each individual element?
+* Which functions will the system provide?
 * Who provides the inputs to a critical function?
 # Regulation Authority
 Definition - Regulation Authority:
-Regulation Authorities can have impact by imposing Stakeholder requirements against the system and by their involvement in the development and acceptance phases (e.g. safety or IT security acceptance audits). 
+Regulation Authorities can have impact by imposing Stakeholder Requirements against the system and by their involvement in the development and acceptance phases (e.g. safety or IT security acceptance audits). 
 The term “authorities” also refers to current applicable regulations and laws.
 The requirements stipulated on the system are diverse. They can be functional and non-functional requirements.
 Systems Engineering must adhere to relevant standards and needs to demonstrate compliance with those standards and requirements.
@@ -350,13 +350,13 @@ The Developer is a group or an individual implementing the system parts accordin
 * What are data / information items exchanged?
 * What are precision and accuracy requirements for presentation of data items on an interface?
 * What are precision and accuracy requirements for processing of data items?
+* What are the Interface Requirements regarding bandwidth, data throughput and latency?
 * What are the algorithms to be implemented?
 * What are the encryption means used for an exchange?
 * What are the formats of the exchanged items?
 * What are the functional requirements imposed on the system? 
 
   ***Rationale:  In my role, I need to trace my derived requirements against these ones relevant to me.***
-* What are the interface requirements regarding bandwidth, data throughput and latency?
 * What are the non-functional requirements applying to SW (e.g. with regard to SW quality, modularization, changeability or reuse)?
 * What are the non-functional requirements imposed on the system? 
 
@@ -364,7 +364,7 @@ The Developer is a group or an individual implementing the system parts accordin
 * What are the protocols for exchanging items on an interface?
 * What is the allocation of functions to the physical architecture? 
 
-  ***Rationale:  In my role, I need to implement the realization of sub-function(s) by my SW subsystem.***
+  ***Rationale:  In my role, I need to implement the realization of sub-functions by my SW subsystem.***
 * What is the necessary accuracy and resolution for processing?
 * What is the necessary performance for processing?
 * What is the necessary response time for an interface or a service?
@@ -432,14 +432,14 @@ The System Architect as an individual or group performing the systems engineerin
 * How is a critical function decomposed and allocated?
 * How is the system being used or utilized and interacting with other external systems to satisfy user needs? 
 
-  ***Rationale:  In my role, I need to pass on the resulting system requirements to the subsystems.***
+  ***Rationale:  In my role, I need to pass on the resulting System Requirements to the subsystems.***
 * What Performers or Resources are necessary to operate the intended solution?
 * What additional information the system or a system element needs to generate to enable testing?
 * What are necessary enabling systems?
 * What are necessary inputs for operating the system expected to be provided by other external entitys?
 * What are the capabilities that are supported by the system? 
 
-  ***Rationale:  In my role, I need to identify suitable basic components on the grounds of the required system capabilities..***
+  ***Rationale:  In my role, I need to identify suitable basic components on the grounds of the required system capabilities.***
 * What are the configuration items in the physical architecture?
 * What are the consequences, if the Stakeholder’s concerns are not considered?
 * What are the different contexts the system is embedded and utilized in?
@@ -447,11 +447,11 @@ The System Architect as an individual or group performing the systems engineerin
 * What are the external physical entities the system interacts with in the respective context?
 * What are the functional requirements imposed on the system? 
 
-  ***Rationale:  In my role, I need to check whether the system design realizes the system requirements.***
+  ***Rationale:  In my role, I need to check whether the system design realizes the System Requirements.***
 * What are the geographical and physical locations of the intended / proposed elements of the solution?
 * What are the non-functional requirements imposed on the system? 
 
-  ***Rationale:  In my role, I need to check whether the system design realizes the system requirements.***
+  ***Rationale:  In my role, I need to check whether the system design realizes the System Requirements.***
 * What are the normal and extreme environmental conditions for normal operation, for not operational, for storage and for transport?
 * What are the physical components?
 * What are the planned architectural means for risk mitigation?

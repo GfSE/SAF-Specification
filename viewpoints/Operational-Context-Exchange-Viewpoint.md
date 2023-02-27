@@ -13,7 +13,7 @@ The Operational Context Exchange Viewpoint supports the "Business or Mission Ana
 ## Concern
 * What operational exchange does the operational performers need to consume or provide?
 ## Presentation
-An internal block diagram (IBD) associated to an Operational Context showing the connected Operational Performer(s) in their respective Operational Role and the Operational Exchange per connection.
+An internal block diagram (IBD) associated to an Operational Context showing the connected Operational Performers in their respective Operational Role and the Operational Exchange per connection.
 
 ## Profile Model Reference
 * Connector [UML_Standard_Profile]

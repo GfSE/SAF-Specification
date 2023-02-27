@@ -7,10 +7,10 @@
 ![Physical Context Definition](../diagrams/Physical-Context-Definition.png)
 
 ## Purpose
-The physical context definition Viewpoint identifies the different context the system is used in, along with the associated external entities sharing a physical interface with the system. For each context the applicable environmental conditions may be defined. The physical context helps in discovering the interface requirements needed to integrate a system into its environment in a specific context.
+The Physical Context Definition Viewpoint identifies the different context the system is used in, along with the associated external entities sharing a physical interface with the system. For each context the applicable environmental conditions may be defined. The physical context helps in discovering the Interface Requirements needed to integrate a system into its environment in a specific context.
 NOTE: For each candidate system architecture, the physical context Viewpoint is elaborated forming the baseline for the later assessment of the different system architecture solutions.
 ## Applicability
-The physical context definition Viewpoint supports the “Architecture Definition Process” activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.4]. The Viewpoint is used to define context, boundaries, and external interactions of the SOI in the physical domain.
+The Physical Context Definition Viewpoint supports the “Architecture Definition Process” activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.4]. The Viewpoint is used to define context, boundaries, and external interactions of the SOI in the physical domain.
 NOTE: Only those external entities are identified that share a physical interface. Other entities connected via a network are subject of the logical system context.
 ## Stakeholder
 * [Acquirer](../stakeholders.md#Acquirer)

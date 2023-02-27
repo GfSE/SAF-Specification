@@ -4,35 +4,24 @@
 | --- | --- | --- |
 |[Functional](../domains.md#Domain-Functional)|[Mapping & Crossreference](../aspects.md#Aspect-Mapping-&-Crossreference)|![Under Construction](../diagrams/Under_construction_icon-yellow.svg )[under construction](../using-saf/maturity.md#under-construction)|
 ## Example
-*none*
+![System Requirement Traceability Table](../diagrams/System-Requirement-Traceability-Table.svg)
 ## Purpose
-The System Requirement Traceability Viewpoint specifies
-for every System Requirement the traceability to functional domain level
+The System Requirement Traceability Viewpoint specifies for every System Requirement the traceability to functional domain level
 * System Story
 * System Context Definition
 * System Context Exchange
 * System Functional Scenario
 * System Context Interaction
-
-Note: new VP to be created addressing dedicated concern
-[the traceability to operational domain level
-* Operational Story
-* Operational Context Definition
-* Operational Context Exchange
-* Operational Capability
-* Operational Process
-* Operational Interaction
-* Stakeholder Requirement]
 ## Applicability
 The System Requirement Traceability Viewpoint supports the "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§4.3] and contributes to the System Requirements Traceability. The System Requirement Traceability Viewpoint contributes to System Requirements Verification and Traceability Matrix (RVTM).
 ## Stakeholder
 * [Project Manager](../stakeholders.md#Project-Manager)
 ## Concern
 * What is the rationale for this system requirement?
-* Which stakeholder requirements are addressed by system requirements?
+* Which Stakeholder Requirements are addressed by System Requirements?
 * Which system interface is addressed by a system requirement?
 ## Presentation
-A System Requirement Dependency Matrix featuring relationship(s) from every SOI System Requirement(s) to element(s) such as
+A System Requirement Dependency Matrix featuring relationships from every SOI System Requirements to modeling elements such as
 * System Story
 * System Context Definition
 * System Context Exchange

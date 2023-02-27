@@ -13,7 +13,7 @@ The System Domain Item Kind Viewpoint supports [tbd].
 ## Stakeholder
 ## Concern
 ## Presentation
-Domain Item Kind(s) are managed in the domain knowledge package of the SOI, the Domain Item Kind(s) are visible and usable to all sub elements of the SOI. Domain Item Kind(s) shall be value type(s) or block(s). A BDD diagram featuring Domain Item Kind(s) and their relationship(s) in terms of generalization, composition or general association shall be used.
+Domain Item Kinds are managed in the domain knowledge package of the SOI, the Domain Item Kinds are visible and usable to all sub elements of the SOI. Domain Item Kinds shall be value types or blocks. A BDD diagram featuring Domain Item Kinds and their Relationships in terms of generalization, composition or general association shall be used.
 
 ## Profile Model Reference
 * FlowProperty [SysML Profile]

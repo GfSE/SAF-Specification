@@ -6,7 +6,7 @@
 ## Example
 ![FFDS Context Definition Allocation of Usage](../diagrams/FFDS-Context-Definition-Allocation-of-Usage.svg)
 ## Purpose
-The Logical Function Assignment Viewpoint specifies the assignment of Functions to the Logical SOI Elements.
+The Logical Function Assignment Viewpoint specifies the assignment of System Functions to the Logical SOI Elements.
 ## Applicability
 The Logical Function Allocation Viewpoint supports the "System Architecture Definition process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015  .
 ## Stakeholder
@@ -17,8 +17,8 @@ The Logical Function Allocation Viewpoint supports the "System Architecture Defi
 * Which functions/functional requirements are assigned to a logical item?
 ## Presentation
 A  Logical Function Assignment Matrix featuring
-* the call behavior action representing usage of Function(s)
-* the part property(s) representing usage of Logical SOI Element(s)
+* the call behavior action representing usage of System Functions
+* the part property(s) representing usage of Logical SOI Elements
 * the allocation relationship between abovementioned elements
 
 ## Profile Model Reference

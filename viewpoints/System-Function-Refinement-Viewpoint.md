@@ -2,17 +2,17 @@
 # System Function Refinement Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
-|[Functional](../domains.md#Domain-Functional)|[Process & Behavior](../aspects.md#Aspect-Process-&-Behavior)|![Under Construction](../diagrams/Under_construction_icon-yellow.svg)[under construction](../using-saf/maturity.md#under-construction)|
+|[Functional](../domains.md#Domain-Functional)|[Process & Behavior](../aspects.md#Aspect-Process-&-Behavior)|![Under Construction](../diagrams/Under_construction_icon-yellow.svg )[under construction](../using-saf/maturity.md#under-construction)|
 ## Example
-![Detect and Report Fire](../diagrams/Detect-and-Report-Fire.svg)
+*none*
 ## Purpose
-The System Function Refinement Viewpoint analyses System Functions in more detail.
+The System Function Refinement Viewpoint analyses System Functions in detail.
 ## Applicability
-
+The System Function Refinement Viewpoint supports [tbd].
 ## Stakeholder
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* How are the system functions decomposed into sub-functions? 
+* How are the system functions decomposed into sub-functions decomposed? 
 * What is the breakdown of functions into sub-functions?
 ## Presentation
 Activity Diagram featuring partial functions.

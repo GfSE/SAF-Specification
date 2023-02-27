@@ -6,11 +6,11 @@
 ## Example
 ![FFDS Context Exchange](../diagrams/FFDS-Context-Exchange.svg)
 ## Purpose
-The System Context Exchange Viewpoint serves for the identification and definition of External Interface(s) of the SOI used for the interaction to System’s Context, such as User(s), External System(s) and other External Entity(s) defined in the specific context of the SOI. The System Context Exchange Viewpoint
-* identifies System Interface(s) on a functional level
-* states to which External Entity(s) the System Interface(s) are connected to
-* assigns Interface Document(s) to System Interface(s)
-* defines the usage of interface(s), e.g. if only a subset of the interface is used
+The System Context Exchange Viewpoint serves for the identification and definition of External interfaces of the SOI used for the interaction to System’s Context, such as Users, External Systems and other External Entitys defined in the specific context of the SOI. The System Context Exchange Viewpoint
+* identifies System interfaces on a functional level
+* states to which External Entitys the System interfaces are connected to
+* assigns Interface Documents to System Interfaces
+* defines the usage of interfaces, e.g. if only a subset of the interface is used
 ## Applicability
 The System Context Exchange Viewpoint supports the "Prepare for Requirement Definition" activity included in "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.3] and contributes to the System Functional Interface identification.
 ## Stakeholder
@@ -26,16 +26,16 @@ The System Context Exchange Viewpoint supports the "Prepare for Requirement Defi
 ## Concern
 * How does the system or a system element interact with the test environment?
 * How is the system interacting with the identified external entities?
+* What are the Interface Requirements imposed on the system?
 * What are the external conceptual entities the system interacts with in the respective context?
 * What are the functional interfaces of the system?
 * What are the interactions among the systems users / user classes?
-* What are the interface requirements imposed on the system?
 * What are the items exchanged at the boundary of the system with external entities?
 * What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
 * Which information is exchanged between the system and external entities?
 ## Presentation
-An IBD featuring the SOI, the System Context Element(s) and Connector(s) for each identified Interface from SOI to the respective Context Element(s). An Interface is a connection resource for hooking on the SOI to other Context Element(s). Item flow(s) are defined for each exchange on the identified Interface. Connectors/ports may contain reference to the Interface Document(s) if applicable.
-Note: more than one IBD focused on different areas of interest may be used in oder to keep the view comprehensive. Depending on the Stakeholder Concern(s) the Item Exchange information might be suppressed.
+An IBD featuring the SOI, the System Context Elements and connectors for each identified Interface from SOI to the respective Context Element(s). An Interface is a connection resource for hooking on the SOI to other Context Element(s). Item flow(s) are defined for each exchange on the identified Interface. Connectors/ports may contain reference to the Interface Documents if applicable.
+Note: more than one IBD focused on different areas of interest may be used in oder to keep the view comprehensive. Depending on the Stakeholder Concerns the Item Exchange information might be suppressed.
 
 ## Profile Model Reference
 * Connector [UML_Standard_Profile]

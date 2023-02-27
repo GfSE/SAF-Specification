@@ -16,7 +16,7 @@ The Operational Context Definition Viewpoint supports the "Business or Mission A
 * What Performers or Resources are necessary to operate the intended solution?
 * What is the operational context to achieve an operational story?
 ## Presentation
-A block definition diagram (BDD) identifying the Operational Performer(s) playing a role in the addressed Operational Context.
+A block definition diagram (BDD) identifying the Operational Performers playing a role in the addressed Operational Context.
 
 ## Profile Model Reference
 * Association [UML_Standard_Profile]

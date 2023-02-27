@@ -6,9 +6,9 @@
 ## Example
 ![System Requirement Definition Table](../diagrams/System-Requirement-Definition-Table.svg)
 ## Purpose
-The System Requirement Viewpoint specifies function(s), non-functional property(s), or constraint(s) of the system. System Requirement(s) are captured, the interrelationships between functional and non-functional requirement(s) on the same level of abstraction and the traceability to Stakeholder Requirement(s) are depicted.
+The System Requirement Viewpoint specifies functions, non-functional propertys, or constraints of the system. System Requirements are captured, the interrelationships between functional and non-functional requirements on the same level of abstraction and the traceability to Stakeholder Requirements are depicted.
 ## Applicability
-The System Requirement Viewpoint supports the "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§4.3] and contributes to the system requirements verification and traceability matrix (RVTM).
+The System Requirement Viewpoint supports the "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§4.3] and contributes to the System Requirements verification and traceability matrix (RVTM).
 ## Stakeholder
 * [Hardware Developer](../stakeholders.md#Hardware-Developer)
 * [IV&V Engineer](../stakeholders.md#IV&V-Engineer)
@@ -16,18 +16,18 @@ The System Requirement Viewpoint supports the "System Requirements Definition Pr
 * [Software Developer](../stakeholders.md#Software-Developer)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
+* What are the Interface Requirements imposed on the system?
 * What are the exchange requirements imposed on the system?
 * What are the functional requirements imposed on the system?
-* What are the interface requirements imposed on the system?
 * What are the non-functional requirements imposed on the system?
 * What are the requirements of environmental conditions imposed on the system?
 * What is the range of acceptable system performance, i.e. the critical, top-level performance requirements derived from the operational needs?
-* Which stakeholder requirements are addressed by system requirements?
+* Which Stakeholder Requirements are addressed by System Requirements?
 ## Presentation
 A System Requirement Table (RVTM) featuring
 * unique requirement ID, text and attributes
 * traceability reference to upstream model elements and requirements
-* traceability reference to depended requirement(s) on the same abstraction level
+* traceability reference to depended requirements on the same abstraction level
 
 ## Profile Model Reference
 * [SAF_SFV06a_View](../stereotypes.md#SAF_SFV06a_View)

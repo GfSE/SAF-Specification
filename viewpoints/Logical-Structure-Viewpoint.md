@@ -16,7 +16,7 @@ The Logical Structure Viewpoint supports the "Develop Architecture Viewpoints" a
 * How are applicable requirements considered in the system architecture?
 * What are the logical components the system is composed of?
 ## Presentation
-A BDD features the logical System block and logical blocks for each kind of Logical Element the system is composed of. The elements are connected to the system block by means of aggregation relationships. Multiple relationship(s) to a kind of element are allowed meaning, that this kind of element is used in several roles. 
+A BDD features the logical System block and logical blocks for each kind of Logical Element the system is composed of. The elements are connected to the system block by means of aggregation relationships. Multiple relationships to a kind of element are allowed meaning, that this kind of element is used in several roles. 
 
 ## Profile Model Reference
 * Association [UML_Standard_Profile]

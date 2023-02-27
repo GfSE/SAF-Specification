@@ -6,7 +6,7 @@
 ## Example
 *none*
 ## Purpose
-The ..
+The Standards Definition Viewpoint supports [tbd].
 ## Applicability
 The..
 ## Stakeholder

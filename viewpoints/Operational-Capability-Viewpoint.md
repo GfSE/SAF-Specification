@@ -6,17 +6,17 @@
 ## Example
 ![SAR and FDN Capability Definition](../diagrams/SAR-and-FDN-Capability-Definition.svg)
 ## Purpose
-The Operational Capability Viewpoint defines a taxonomy of Capabilites from a Stakeholder’s perspective including composition, specialization, and dependency relationships between Operational Capabilitys.
+The Operational Capability Viewpoint defines a taxonomy of Capabilites from a Stakeholder’s perspective including composition, specialization, and dependency relationships between Operational Capabilities.
 ## Applicability
 The Operational Capability Viewpoint supports the "Business or Mission Analysis Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1] defining Capability(s) at an operational level (e.g. business or mission profile and operational scenarios). The Operational Capability Viewpoint contributes to the problem or opportunity statement.
 ## Stakeholder
 * [Customer](../stakeholders.md#Customer)
 * [Portfolio Manager](../stakeholders.md#Portfolio-Manager)
 ## Concern
+* What operational Capabilities are required for each phase and mode of operation?
 * What operational capabilities are defined?
-* What operational capabilitys are required for each phase and mode of operation?
 ## Presentation
-The result of the business and mission analysis is one or more block definition diagram(s) (BDD) featuring Operational Capability(s) and their composition, specialization and dependency relationship(s).
+The result of the business and mission analysis is one or more block definition diagrams (BDD) featuring Operational Capabilities and their composition, specialization and dependency relationships.
 
 ## Profile Model Reference
 * [SAF_OperationalCapability](../stereotypes.md#SAF_OperationalCapability)

@@ -13,7 +13,7 @@ The Operational Capability Traceability Viewpoint supports the "Business or Miss
 ## Concern
 * Show in a concise manner the relationships from operational capability to operational story, to operational activity, and to operational performer.
 ## Presentation
-The relationship(s) of Operational Capability(s) to Operational Story(s) and to Operational Performer(s) are represented in a table format.
+The relationships of Operational Capabilities to Operational Stories and to Operational Performers are represented in a table format.
 
 ## Profile Model Reference
 * [SAF_OperationalCapability](../stereotypes.md#SAF_OperationalCapability)

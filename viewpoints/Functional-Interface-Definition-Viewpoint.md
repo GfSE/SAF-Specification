@@ -2,17 +2,17 @@
 # Functional Interface Definition Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
-|[Common](../domains.md#Domain-Common)|[Structure](../aspects.md#Aspect-Structure)|![Proposed](../diagrams/Under_construction_icon-red.svg )[proposed](../using-saf/maturity.md#proposed)|
+|[Functional](../domains.md#Domain-Functional)|[Interface](../aspects.md#Aspect-Interface)|![Proposed](../diagrams/Under_construction_icon-red.svg )[proposed](../using-saf/maturity.md#proposed)|
 ## Example
 *none*
 ## Purpose
-The ..
+The Functional Interface Definition Viewpoint [tbd]
 ## Applicability
-The..
+The Functional Interface Definition Viewpoint supports [tbd].
 ## Stakeholder
 ## Concern
 ## Presentation
-The...
+A BDD featuring [tbd].
 
 ## Profile Model Reference
 ## Input from other Viewpoints

@@ -34,7 +34,7 @@ The Logical Internal Exchange Viewpoint supports the "Develop Models and Views o
 * Which interface partners does a HW item have?
 * Which interface partners does a SW item have?
 ## Presentation
-One or more IBD featuring the physical element(s) of the SOI, and the SOI boundary, containing connector(s) for each identified SOI interface delegation to SOI element(s), as well as connector(s) between related interface(s) of SOI parts. An interface is a connection resource for hooking on the Physical SOI Element(s) to other Physical SOI Element(s). Item flows are defined for each exchange on the identified interface.  Recommendation: Use more than one IBD focused on different areas of interest to keep the view comprehensive. Depending on the Stakeholder concern(s) the physical item exchange information might be suppressed.
+One or more IBD featuring the Physical Elements of the SOI, and the SOI boundary, containing connectors for each identified SOI interface delegation to SOI element(s), as well as connectors between related interfaces of SOI parts. An interface is a connection resource for hooking on the Physical SOI Elements to other Physical SOI Element(s). Item flows are defined for each exchange on the identified interface.  Recommendation: Use more than one IBD focused on different areas of interest to keep the view comprehensive. Depending on the Stakeholder Concerns the physical item exchange information might be suppressed.
 
 ## Profile Model Reference
 * Connector [UML_Standard_Profile]

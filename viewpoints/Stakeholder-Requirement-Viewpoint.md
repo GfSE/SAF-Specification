@@ -22,9 +22,9 @@ The Stakeholder Requirement Viewpoint supports the "Stakeholder Needs and Requir
 * What defines a valid solution towards the customer?
 * What is the range of acceptable system performance, i.e. the critical, top-level performance requirements derived from the operational needs?
 ## Presentation
-Stakeholder Requirement(s) are structured in a way that the Stakeholder behind a requirement is identifiable. As appropriate, the identified Stakeholder Requirement(s) are receiving a Derivation Link from the justifying model artefact(s), namely Operational Performer, Operational Activity, and Operational Exchange.
-Note 1: "One requirement package for each Stakeholder" is a best-practice modeling rule. A package contains the requirement(s) specific for one Stakeholder.
-Note 2: Even if different Stakeholder may have intersecting interests and / or concern(s) resulting in a similar set of requirements, each Stakeholder shall have its own set managed in a dedicated requirement package. Requirement(s) shall not be shared because of their different life cycles. Resolving duplications and conflicts is subject of the requirements analysis resulting in an agreed set of system requirement(s).
+Stakeholder requirements are structured in a way that the Stakeholder behind a requirement is identifiable. As appropriate, the identified Stakeholder Requirements are receiving a Derivation Link from the justifying model artefacts, namely Operational Performer, Operational Activity, and Operational Exchange.
+NOTE 1: "One requirement package for each Stakeholder" is a best-practice modeling rule. A package contains the requirements specific for one Stakeholder.
+NOTE 2: Even if different Stakeholder may have intersecting interests and / or concern(s) resulting in a similar set of requirements, each Stakeholder shall have its own set managed in a dedicated requirement package. requirements shall not be shared because of their different life cycles. Resolving duplications and conflicts is subject of the requirements analysis resulting in an agreed set of System Requirements.
 
 ## Profile Model Reference
 * Package [UML_Standard_Profile]

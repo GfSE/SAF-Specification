@@ -13,7 +13,7 @@ The Operational Domain Item Kind Viewpoint supports [tbd].
 ## Concern
 * What operational exchange does the operational performers need to consume or provide?
 ## Presentation
-Operational Domain Item Kind(s) are managed in the domain knowledge package of Enterprise. Operational Domain Item Kind(s) shall be value type(s) or block(s). A BBD diagram featuring Operational Domain Item Kind(s) and their relationship(s) in terms of generalization, composition or general association shall be used.
+Operational Domain Item Kinds are managed in the domain knowledge package of Enterprise. Operational Domain Item Kinds shall be value types or blocks. A BBD diagram featuring Operational Domain Item Kinds and their Relationships in terms of generalization, composition or general association shall be used.
 
 ## Profile Model Reference
 * ItemFlow [SysML Profile]

@@ -10,7 +10,7 @@
 
 realizes concept Argument
 
-An argument is a rule that provides the bridge between what we know or are assuming (sub-claims, evidence) and the claim we are investigating. The argument used depends on the type, trustworthiness and extent of available evidence and the nature of the claim. Note that "argument" is an overloaded word and we are using with a specific meaning here.
+An argument is a rule that provides the bridge between what we know or are assuming (sub-claims, evidence) and the claim we are investigating. The argument used depends on the type, trustworthiness and extent of available evidence and the nature of the claim. NOTE that "argument" is an overloaded word and we are using with a specific meaning here.
 ## SAF_ArgumentClaimSupport
 ### Documentation
 
@@ -87,7 +87,7 @@ realizes concept CCMcounteringCIM
 ### Documentation
 
 
-## SAF_DomainKind
+## SAF_DomainKind![icon](icons/SAF_DomainKind.svg)
 ### Documentation
 
 
@@ -122,7 +122,7 @@ An Evidence is an artifact that establishes facts that can be trusted and lead d
 realizes concept EVCreinforcingAGT
 
 
-## SAF_FunctionAction
+## SAF_FunctionAction![icon](icons/SAF_FunctionAction.svg)
 ### Documentation
 
 
@@ -263,7 +263,7 @@ Specifies the fact that an Operational Domain Kind consists of one or more Opera
 
 realizes concept Operational Performer
 
-An Operational Performer is an element of the Operational Context that is capable to perform Operational Process Activities contributing to a specific identified Operational Capabilitys. An Operational Performer may be any kind of organization, person, or even a system playing a role in one or more Operational Contexts.
+An Operational Performer is an element of the Operational Context that is capable to perform Operational Process Activities contributing to a specific identified Operational Capabilities. An Operational Performer may be any kind of organization, person, or even a system playing a role in one or more Operational Contexts.
 
 Aliases:
 UAF::OperationalPerformer
@@ -288,7 +288,7 @@ Specifies the fact that an Operational Performer consists of one or more Operati
 realizes concept OPRexhibitingOCY
 
 Specifies the fact that an Operational Performer exhibits an Operational Capability under specific environmental conditions.
-## SAF_OperationalProcess
+## SAF_OperationalProcess![icon](icons/SAF_OperationalProcess.svg)
 ### Documentation
 
 
@@ -299,7 +299,7 @@ realizes concept Operational Process
 Aliases:
 UAF::Operational Process
 NAF::Logical Activity
-## SAF_OperationalProcessAction
+## SAF_OperationalProcessAction![icon](icons/SAF_OperationalProcessAction.svg)
 ### Documentation
 
 
@@ -402,7 +402,7 @@ System element implemented in hardware.
 realizes concept Hardware Element
 
 Pure Hardware Elements. Similarity to the V-Model "hardware unit".
-## SAF_PhysicalItem
+## SAF_PhysicalItem![icon](icons/SAF_PhysicalItem.svg)
 ### Documentation
 
 Abstract. Not to be intended to be used in a system model
@@ -430,7 +430,7 @@ The Physical User is the representation for a human in the physical domain, outs
 ## SAF_SCV02a_View
 ### Documentation
 
-The SAF Operational Context Definition Diagram is a block definition diagram (BDD) identifying the Operational Performer(s) playing a role in a specific Operational Context.
+
 realizes Viewpoint [Evidence Viewpoint](viewpoints/Evidence-Viewpoint.md)
 ## SAF_SFV01a_View
 ### Documentation
@@ -450,22 +450,22 @@ realizes Viewpoint [System Context Exchange Viewpoint](viewpoints/System-Context
 ## SAF_SFV02a_View
 ### Documentation
 
-contains taxonomy of domain kinds in the functional and logical domain
+
 realizes Viewpoint [System Domain Item Kind Viewpoint](viewpoints/System-Domain-Item-Kind-Viewpoint.md)
 ## SAF_SFV02b_View
 ### Documentation
 
-
+The System Domain Item Kind Viewpoint defines a Block Definition Diagram. It collects type definitions for exchanged items, e. g., information, material, or energy, of the Functional, Logical, and Physical Domain defining a domain item kind taxonomy.
 realizes Viewpoint [System Capability Viewpoint](viewpoints/System-Capability-Viewpoint.md)
 ## SAF_SFV02c_View
 ### Documentation
 
-Implements the System Functional Breakdown Viewpoint
+
 realizes Viewpoint [System Functional Breakdown Viewpoint](viewpoints/System-Functional-Breakdown-Viewpoint.md)
 ## SAF_SFV03a_View
 ### Documentation
 
-Realizes the System Process Viewpoint
+
 realizes Viewpoint [System Process Viewpoint](viewpoints/System-Process-Viewpoint.md)
 ## SAF_SFV03b_View
 ### Documentation
@@ -475,15 +475,13 @@ realizes Viewpoint [System State Viewpoint](viewpoints/System-State-Viewpoint.md
 ## SAF_SFV04a_View
 ### Documentation
 
-The SAF LogicalInternalInteractionDiagram contains a Sequence Diagram. It documents the interaction between parts of the logical SOI.
-It contains
-* Life Lines typed by parts of the logical SOI
-* Synchronous or asynchronous messages representing the sequence of interactions between the parts of the logical SOI
+The SAF System Context Interaction Diagram defines a Sequence Diagram. It represents a refinement of a System Use Case.
+It features life lines typed by roles from the System Context and messages representing the sequence of interactions between the roles of the addressed System Context.
 realizes Viewpoint [System Context Interaction Viewpoint](viewpoints/System-Context-Interaction-Viewpoint.md)
 ## SAF_SFV06a_View
 ### Documentation
 
-
+The SAF System Requirements Diagram is a Table containing System Requirements. It provides a constructs to represent text-based requirements and relate them to other modeling elements like Stakeholder Requirements.
 realizes Viewpoint [System Requirement Viewpoint](viewpoints/System-Requirement-Viewpoint.md)
 ## SAF_SFV08a_View
 ### Documentation
@@ -498,30 +496,33 @@ realizes Viewpoint [Logical Structure Viewpoint](viewpoints/Logical-Structure-Vi
 ## SAF_SLV04a_View
 ### Documentation
 
-The SAF Logical Internal Interaction Diagram contains a Sequence Diagram. It documents the interaction between parts of the logical SOI.
-It contains
-* Life Lines typed by parts of the logical SOI
-* Synchronous or asynchronous messages representing the sequence of interactions between the parts of the logical SOI
+The SAF Logical Internal Interaction Diagram defines a Sequence Diagram. It documents the interaction between the logical parts of the logical SOI. It features
+* Life lines typed by logical parts of the logical SOI
+* Synchronous or asynchronous messages representing the sequence of interactions between the logical parts of the logical SOI
 realizes Viewpoint [Logical Interaction Viewpoint](viewpoints/Logical-Interaction-Viewpoint.md)
 ## SAF_SLV04b_View
 ### Documentation
 
 
 realizes Viewpoint [Logical Internal Exchange Viewpoint](viewpoints/Logical-Internal-Exchange-Viewpoint.md)
+## SAF_SLV08a_View
+### Documentation
+
+
 ## SAF_SOV01a_View
 ### Documentation
 
-The SAF Operational Story Diagram is a  use case diagram depicting model elements representing Operational Stories and within their operational context. Operational Performer(s) shall be used. In addition, an illustration (drawing, sketch, etc.) and/or a description in free text may provide a comprehensive understanding of the operational background.
+The SAF Operational Story Diagram is a  use case diagram depicting model elements representing Operational Stories and within their operational context. Operational Performers shall be used. In addition, an illustration (drawing, sketch, etc.) and/or a description in free text may provide a comprehensive understanding of the operational background.
 realizes Viewpoint [Operational Story Viewpoint](viewpoints/Operational-Story-Viewpoint.md)
 ## SAF_SOV01b_View
 ### Documentation
 
-The SAF Operational Context Definition Diagram is a block definition diagram (BDD) identifying the Operational Performer(s) playing a role in a specific Operational Context.
+The SAF Operational Context Definition Diagram is a block definition diagram (BDD) identifying the Operational Performers playing a role in a specific Operational Context.
 realizes Viewpoint [Operational Context Definition Viewpoint](viewpoints/Operational-Context-Definition-Viewpoint.md)
 ## SAF_SOV01c_View
 ### Documentation
 
-The SAF Operational Context Exchange Diagram is an internal block diagram (IBD) within to an Operational Context showing the connected Operational Performer(s) in their respective Operational Role and the Operational Exchange per connection.
+The SAF Operational Context Exchange Diagram is an internal block diagram (IBD) within to an Operational Context showing the connected Operational Performers in their respective Operational Role and the Operational Exchange per connection.
 realizes Viewpoint [Operational Context Exchange Viewpoint](viewpoints/Operational-Context-Exchange-Viewpoint.md)
 ## SAF_SOV02a_View
 ### Documentation
@@ -532,7 +533,7 @@ realizes Viewpoint [Operational Domain Item Kind Viewpoint](viewpoints/Operation
 ### Documentation
 
 The SAF Operational Performer Diagram  is a block definition diagram (BDD) depicting Operational Performer) and their relations in terms of decomposition or generalization at a level of detail required for the understanding and analysis. 
-Note: Identified Stakeholders are related to Operational Performer(s) if appropriate.
+Note: Identified Stakeholders are related to Operational Performers if appropriate.
 realizes Viewpoint [Operational Performer Viewpoint](viewpoints/Operational-Performer-Viewpoint.md)
 ## SAF_SOV02c_View
 ### Documentation
@@ -542,25 +543,23 @@ realizes Viewpoint [Operational Capability Viewpoint](viewpoints/Operational-Cap
 ## SAF_SOV02d_View
 ### Documentation
 
-The SAF Operational Capability Diagram is a block definition diagram (BDD) featuring Operational Capabiliies and their composition, specialization and dependency relationships.
+
 ## SAF_SOV03a_View
 ### Documentation
 
 The SAF Operational Process Diagram is a activity diagram showing the ordered execution of Operational Process Activities. Operational Process Activities may be linked in terms of control flow and/or data flow visualizing Operational Exchange needed. 
-Note:
-Operational Process Activities are assigned to Operational Roles and therefore in a more general manner to the Operational Performers.
+Note: Operational Process Activities are assigned to Operational Roles and therefore in a more general manner to the Operational Performers.
 realizes Viewpoint [Operational Process Viewpoint](viewpoints/Operational-Process-Viewpoint.md)
 ## SAF_SOV04a_View
 ### Documentation
 
-The SAF Operational Interaction Diagram is a Sequence Diagram. It is a refinement of an Operational Story.
-It contains lifelines typed by roles from the Operational Context 
-and messages representing the sequence of interactions between the roles of an Operational Context.
+The SAF Operational Interaction Diagram defines a Sequence Diagram. It represents a refinement of an Operational Story.
+It features life lines typed by roles from the Operational Context and messages representing the sequence of interactions between the roles of the addressed Operational Context.
 realizes Viewpoint [Operational Interaction Viewpoint](viewpoints/Operational-Interaction-Viewpoint.md)
 ## SAF_SOV06a_View
 ### Documentation
 
-The SAF Stakeholder Requirement Diagram is a Table containing Stakeholder Requirements.
+The SAF Stakeholder Requirements Diagram is a Table containing Stakeholder Requirements. It provides a constructs to represent text-based requirements.
 realizes Viewpoint [Stakeholder Requirement Viewpoint](viewpoints/Stakeholder-Requirement-Viewpoint.md)
 ## SAF_SOV08a_View
 ### Documentation
@@ -585,7 +584,7 @@ realizes Viewpoint [Physical Internal Exchange Viewpoint](viewpoints/Physical-In
 ## SAF_Stakeholder
 ### Documentation
 
-Stakeholder imposing stakeholder requirements to a system.
+Stakeholder imposing Stakeholder Requirements to a system.
 realizes concept System of Interest Stakeholder
 
 An individual, team, or organization (or classes thereof) with interests in, or concerns relative to, a system. It may be involved in any life cycle phase of the system. The Stakeholder represents a class or kind of stakeholders.
@@ -624,17 +623,17 @@ A Stakeholder Requirement is a Requirement imposed by a Stakeholder. Stakeholder
 
 realizes concept SHRimposedBY
 
-Specifies the fact that a Stakeholder Requirement(s) is provided by Stakeholder(s).
+Specifies the fact that a Stakeholder Requirement is provided by Stakeholders.
 ## SAF_StakeholderRequirementRefinement
 ### Documentation
 
 
 realizes concept SHRrefiningCRN
 
-Specifies the fact that a Concern(s) is refined by Stakeholder Requirement(s).
+Specifies the fact that a Concern is refined by Stakeholder Requirements.
 realizes concept SHRrefiningOSY
 
-Specifies the fact that an Operational Story(s) is refined by Stakeholder Requirement(s).
+Specifies the fact that an Operational Story is refined by Stakeholder Requirements.
 ## SAF_Subject
 ### Documentation
 
@@ -642,13 +641,13 @@ Specifies the fact that an Operational Story(s) is refined by Stakeholder Requir
 realizes concept Subject
 
 
-## SAF_SystemCapability
+## SAF_SystemCapability![icon](icons/SAF_SystemCapability.svg)
 ### Documentation
 
 
 realizes concept System Capability
 
-1) A System Capability is an operation or task that performs an action to produce a specific performance-based outcome. Note that a system capability represents the potential to perform an action. In contrast, an operational capability may integrate several physical system capabilities to produce a specific outcome to achieve a mission objective. [Wasson2006, SystemAnalysis+Design+Development]
+1) A System Capability is an operation or task that performs an action to produce a specific performance-based outcome. NOTE that a system capability represents the potential to perform an action. In contrast, an operational capability may integrate several physical system capabilities to produce a specific outcome to achieve a mission objective. [Wasson2006, SystemAnalysis+Design+Development]
 2) System Capabilities, as system assets, characterize the mechanical, electrical, optical, or processing features that enable a system to function, process mission resources, make decisions, and achieve a required level of success based on performance. A system capability is broader in scope than simply a functional element (and performance bounding elements), especially in large, complex ecosystems. It represents a physical potential - strength, ability, endurance - to perform an outcome-based action for a given duration under a specified set of operating environment conditions. [Wasson2006, SystemAnalysis+Design+Development]
 
 Aliases:
@@ -660,21 +659,21 @@ NAF4::Capability
 
 realizes concept SCYcomposedOF
 
-Specifies the fact that a System Capability consists of a sub System Capabilitys.
+Specifies the fact that a System Capability consists of a sub System Capabilities.
 ## SAF_SystemCapabilityDependency
 ### Documentation
 
 
 realizes concept SCYdependingON
 
-Specifies the fact that a System Capability requires another System Capabilitys.
+Specifies the fact that a System Capability requires another System Capabilities.
 ## SAF_SystemCapabilityGeneralization
 ### Documentation
 
 
 realizes concept SCYspecializedBY
 
-Specifies the fact that a System Capability is specialized by another System Capabilitys.
+Specifies the fact that a System Capability is specialized by another System Capabilities.
 ## SAF_SystemCapabilityMapping
 ### Documentation
 
@@ -752,7 +751,7 @@ Specifies the fact that a System UseCase is refined into a sequence of Actions o
 
 realizes concept System Requirement
 
-System requirements specify functions, non-functional properties, or constraints of the System.
+System Requirements specify functions, non-functional properties, or constraints of the System.
 ## SAF_SystemRequirementDerivation
 ### Documentation
 
@@ -776,7 +775,7 @@ Specifies the fact that a System Requirement refines a System Story.
 ## SAF_SystemUseCase
 ### Documentation
 
-The intended use (and also misuse in so called "black use cases") of the system is captured in free text; story telling at a coarse level of detail which is understandable to Customer(s) (non engineering stakeholders in general). The main system interaction partners participating in this story are identified.
+The intended use (and also misuse in so called "black use cases") of the system is captured in free text; story telling at a coarse level of detail which is understandable to Customers (non engineering stakeholders in general). The main system interaction partners participating in this story are identified.
 realizes concept SUChasPostconditionSSE
 
 Specifies the fact that a System Story has states as Postconditions.
@@ -799,36 +798,36 @@ Specifies the fact that a System UseCase contributes to an Operational Storys.
 ## SAF_VPQuery
 ### Documentation
 
-
+Stereotype to construct computed views from a model, querying for certain Diagram stereotypes.
 ## SAF_VPSearchScope
 ### Documentation
 
-
+Stereotype to construct computed views from a model, setting the search scope.
 ## SysML ActivityDiagram
 ### Documentation
 
-
+Proxy Stereotype representing the Activity Diagram Kind
 ## SysML BlockDiagram
 ### Documentation
 
-
+Proxy Stereotype representing the Block Diagram Kind
 ## SysML InternalBlockDiagram
 ### Documentation
 
-
+Proxy Stereotype representing the Internal Block Diagram Kind
 ## SysML RequirementDiagram
 ### Documentation
 
-
+Proxy Stereotype representing the Requirement Diagram Kind
 ## SysML SequenceDiagram
 ### Documentation
 
-
+Proxy Stereotype representing the Sequence Diagram Kind
 ## SysML StateMaschineDiagram
 ### Documentation
 
-
+Proxy Stereotype representing the Statemachine Diagram Kind
 ## SysML UseCaseDiagram
 ### Documentation
 
-
+Proxy Stereotype representing the Use Case Diagram Kind

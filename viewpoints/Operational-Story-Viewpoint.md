@@ -18,7 +18,7 @@ The Operational Story Viewpoint supports the "Business or Mission Analysis Proce
 * What are the operational scenarios(Operational Stories) relevant to the system?
 * Which is the operational scenario, i.e., course of action, for the mission and the context in which the system of systems solution will exist?
 ## Presentation
-A use case diagram depicting model elements representing Operational Story(s) and Operational Performer(s) shall be used. In addition, an illustration (drawing, sketch, etc.) and/or a description in free text may provide a comprehensive understanding of the operational background.
+A use case diagram depicting model elements representing Operational Stories and Operational Performers shall be used. In addition, an illustration (drawing, sketch, etc.) and/or a description in free text may provide a comprehensive understanding of the operational background.
 
 ## Profile Model Reference
 * [SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)
