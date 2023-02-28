@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Functional](../domains.md#Domain-Functional)|[Process & Behavior](../aspects.md#Aspect-Process-&-Behavior)|![Under Construction](../diagrams/Under_construction_icon-yellow.svg )[under construction](../using-saf/maturity.md#under-construction)|
 ## Example
-![Detect and Report Fire](../diagrams/Detect-and-Report-Fire.png)
+![Detect and Report Fire](../diagrams/Detect-and-Report-Fire.svg)
 ## Purpose
 The System Function Refinement Viewpoint analyses System Functions in detail.
 ## Applicability
