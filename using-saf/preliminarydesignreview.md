@@ -32,7 +32,7 @@ operational..alle
  * [System Context Exchange Viewpoint](../viewpoints/System-Context-Exchange-Viewpoint.md)
  * [System Context Interaction Viewpoint](../viewpoints/System-Context-Interaction-Viewpoint.md)
  * [System Domain Item Kind Viewpoint](../viewpoints/System-Domain-Item-Kind-Viewpoint.md)
- * [System Functional Breakdown Viewpoint](../viewpoints/System-Functional-Breakdown-Viewpoint.md)
+ * [System Functional Breakdown Structure Viewpoint](../viewpoints/System-Functional-Breakdown-Viewpoint.md)
  * [System Function Refinement](../viewpoints/System-Function-Refinement-Viewpoint.md) (alex)
  * [System Process Viewpoint](../viewpoints/System-Process-Viewpoint.md)
  * [System Requirement Traceability Viewpoint](../viewpoints/System-Requirement-Traceability-Viewpoint.md) (sascha) system req traceablity aufsplitten
@@ -48,7 +48,7 @@ operational..alle
  * [Logical Internal Exchange Viewpoint](../viewpoints/Logical-Internal-Exchange-Viewpoint.md)
  * [Physical Context Definition Viewpoint](../viewpoints/Physical-Context-Definition-Viewpoint.md)
  * [Physical Context Exchange Viewpoint](../viewpoints/Physical-Context-Exchange-Viewpoint.md)
- * [Physical Logical Assignment Viewpoint](../viewpoints/Physical-To-Logical-Assignment-Viewpoint.md) (michael)
+ * [Physical Logical Assignment Viewpoint](../viewpoints/Physical-Logical-Assignment-Viewpoint.md) (michael)
  * [Physical Function Assignment Viewpoint](../viewpoints/Physical-Function-Allocation-Viewpoint.md) (alex) analyseviewpoint
  * Phyiscal interface identification vp (wer machts ?) 
  * Phyiscal exchange requirements vp (alex) analyseviewpoint 
