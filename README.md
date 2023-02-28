@@ -22,7 +22,7 @@ The SAF Operational Domain aims to get an understanding of required organization
 
 The SAF Operational Domain supports the model-based development of a [CONOPS](https://www.sebokwiki.org/wiki/Concept_of_Operations_(ConOps)_(glossary)) - as well as an [OPSCON](https://www.sebokwiki.org/wiki/Business_or_Mission_Analysis) and related life cycle concepts - for an organization or operational entity seeking for an improvement of existing capability(s) or in establishing new ones.
 
-By identifying Stakeholder(s) and their Requirement(s) the SAF Operational Domain supports the derivation of a complete and consolidated set of Stakeholder Requirement(s) based on operational activities and exchanges.
+By identifying Stakeholders and their Requirements the SAF Operational Domain supports the derivation of a complete and consolidated set of Stakeholder Requirements based on operational activities and exchanges.
 
 ### Operational Domain Concerns
 
@@ -60,14 +60,14 @@ The Functional Domain Viewpoints translate Operational Domain usage into the not
 
 * Defining the System Boundary
   * identifcation of interaction partners and functional interfaces
-* Consolidating Functional Requirement(s): 
+* Consolidating Functional Requirements: 
   * formally specifying the requirements of the system behavior using a black box approach
 * Mastering functional dependency: 
-  * detection and resolution of inconsistencies within the Functional Requirement(s) (known as feature interaction)
+  * detection and resolution of inconsistencies within the Functional Requirements (known as feature interaction)
 * Reducing functional complexity: 
   * structuring the functionality from the System's point of view
 * Understanding functional interrelationship(s): 
-  * collecting and analyzing the exchange between different (sub-)functionality(s)
+  * collecting and analyzing the exchange between different (sub-)functionalities
 
 ### Functional Domain Viewpoints
 
@@ -93,14 +93,14 @@ The Functional Domain Viewpoints translate Operational Domain usage into the not
 
 ### Logical Domain Objective
 
-The Logical Domain Viewpoints describe the Logical Structure and the distribution of responsibility(s) for the Functionality of the SOI by means of a network of interacting Logical Element(s) that are responsible for a set of desired Function(s). These Logical Element(s) and their Interaction(s) are arranged in the Logical Architecture of the SOI. The structure of the Logical Architecture is in general influenced by nonfunctional criteria, e.g., maintainability, safety, and reliability.
+The Logical Domain Viewpoints describe the Logical Structure and the distribution of responsibility(s) for the Functionality of the SOI by means of a network of interacting Logical Elements that are responsible for a set of desired Function(s). These Logical Elements and their Interaction(s) are arranged in the Logical Architecture of the SOI. The structure of the Logical Architecture is in general influenced by nonfunctional criteria, e.g., maintainability, safety, and reliability.
 
 ### Logical Domain Concern
 
-* Describing the Internal Logical Structure of the SOI by partitioning the SOI into communicating Logical Element(s)
-* Describing the Logical Interface(s) & Data Exchange(s) between the interacting Logical Element(s) in a way that the Logical Interface(s) are independent from their implementation
-* Allocating desired Function(s) to cohesive Logical Element(s)
-* Supporting the reuse of already existent Logical Element(s) and designing Logical Element(s) such that future reuse is facilitated
+* Describing the Internal Logical Structure of the SOI by partitioning the SOI into communicating Logical Elements
+* Describing the Logical Interface(s) & Data Exchange(s) between the interacting Logical Elements in a way that the Logical Interface(s) are independent from their implementation
+* Allocating desired Function(s) to cohesive Logical Elements
+* Supporting the reuse of already existent Logical Elements and designing Logical Elements such that future reuse is facilitated
 * Defining the emerging behavior of the system (in contrast to the partial behavior specified in the of Functional Domain Viewpoints) and enabling a complete simulation of the entire system
 
 ### Logical Domain Viewpoints
@@ -178,3 +178,4 @@ The SAF Common Domain provides viewpoints addressing model information that is c
 
 # Profile Model
 [Stereotypes](stereotypes.md)
+
