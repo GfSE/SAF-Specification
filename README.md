@@ -54,7 +54,7 @@ By identifying Stakeholders and their Requirements the SAF Operational Domain su
 
 ### Functional Domain Objective
 
-The Functional Domain Viewpoints translate Operational Domain usage into the notion of System Function(s) defining the demanded system behavior and quality attributes - performance, safety, security, etc.; the demanded system behavior as it is perceived by the User or other Entity(s) at the System Boundary (known as usage behavior). The result of the elaboration of the viewpoints in the Functional Domain is a comprehensive System Specification.
+The Functional Domain Viewpoints translate Operational Domain usage into the notion of System Functions defining the demanded system behavior and quality attributes - performance, safety, security, etc.; the demanded system behavior as it is perceived by the User or other Entitys at the System Boundary (known as usage behavior). The result of the elaboration of the viewpoints in the Functional Domain is a comprehensive System Specification.
 
 ### Functional Domain Concerns
 
@@ -66,7 +66,7 @@ The Functional Domain Viewpoints translate Operational Domain usage into the not
   * detection and resolution of inconsistencies within the Functional Requirements (known as feature interaction)
 * Reducing functional complexity: 
   * structuring the functionality from the System's point of view
-* Understanding functional interrelationship(s): 
+* Understanding functional interrelationships: 
   * collecting and analyzing the exchange between different (sub-)functionalities
 
 ### Functional Domain Viewpoints
@@ -93,7 +93,7 @@ The Functional Domain Viewpoints translate Operational Domain usage into the not
 
 ### Logical Domain Objective
 
-The Logical Domain Viewpoints describe the Logical Structure and the distribution of responsibility(s) for the Functionality of the SOI by means of a network of interacting Logical Elements that are responsible for a set of desired Function(s). These Logical Elements and their Interaction(s) are arranged in the Logical Architecture of the SOI. The structure of the Logical Architecture is in general influenced by nonfunctional criteria, e.g., maintainability, safety, and reliability.
+The Logical Domain Viewpoints describe the Logical Structure and the distribution of responsibilitys for the Functionality of the SOI by means of a network of interacting Logical Elements that are responsible for a set of desired Function(s). These Logical Elements and their Interactions are arranged in the Logical Architecture of the SOI. The structure of the Logical Architecture is in general influenced by nonfunctional criteria, e.g., maintainability, safety, and reliability.
 
 ### Logical Domain Concern
 
