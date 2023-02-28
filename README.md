@@ -67,7 +67,7 @@ The Functional Domain Viewpoints translate Operational Domain usage into the not
 * Reducing functional complexity: 
   * structuring the functionality from the System's point of view
 * Understanding functional interrelationships: 
-  * collecting and analyzing the exchange between different (sub-)functionalities
+  * collecting and analyzing the exchange between different functionalities
 
 ### Functional Domain Viewpoints
 
@@ -78,7 +78,7 @@ The Functional Domain Viewpoints translate Operational Domain usage into the not
 #### Functional Domain Aspect Structure
 * [System Domain Item Kind Viewpoint](viewpoints/System-Domain-Item-Kind-Viewpoint.md)
 * [System Capability Viewpoint](viewpoints/System-Capability-Viewpoint.md)
-* [System Functional Breakdown Viewpoint](viewpoints/System-Functional-Breakdown-Viewpoint.md)
+* [System Functional Breakdown Strcuture Viewpoint](viewpoints/System-Functional-Breakdown-Viewpoint.md)
 #### Functional Domain Aspect Behavior
 * [System Process Viewpoint](viewpoints/System-Process-Viewpoint.md)
 * [System Function Refinement Viewpoint](viewpoints/System-Function-Refinement-Viewpoint.md)
