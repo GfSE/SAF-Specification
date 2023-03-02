@@ -306,6 +306,7 @@ NAF::Logical Activity
 realizes concept Operational Process Usage
 
 Specifies the fact that an Operational Process is used in context of another Operational Process.
+
 Aliases:
 UAF::OperationalAction
 ## SAF_OperationalProcessMapping
@@ -353,13 +354,6 @@ Specifies the fact that a SOI Stakeholder represents an Operational Performer.
 realizes concept Operational Story
 
 The Operational Story represents one or more Operational Use Cases in the Usage Scenario identified by the Operational Context. The Operational Story is described as narrative telling a story.
-## SAF_PartialFunction
-### Documentation
-
-A detail of a system function.
-realizes concept Partial Function
-
-A Partial Function is a part of a System Function and defines details of the System function.
 ## SAF_PhysicalContext
 ### Documentation
 
@@ -431,7 +425,7 @@ The Physical User is the representation for a human in the physical domain, outs
 ### Documentation
 
 
-realizes Viewpoint [Evidence Viewpoint](viewpoints/Evidence-Viewpoint.md)
+realizes Viewpoint [Evidence Definition Viewpoint](viewpoints/Evidence-Definition-Viewpoint.md)
 ## SAF_SFV01a_View
 ### Documentation
 
@@ -461,13 +455,18 @@ realizes Viewpoint [System Capability Viewpoint](viewpoints/System-Capability-Vi
 ### Documentation
 
 
-realizes Viewpoint [System Functional Breakdown Viewpoint](viewpoints/System-Functional-Breakdown-Viewpoint.md)
+realizes Viewpoint [System Functional Breakdown Structure Viewpoint](viewpoints/System-Functional-Breakdown-Structure-Viewpoint.md)
 ## SAF_SFV03a_View
 ### Documentation
 
 
 realizes Viewpoint [System Process Viewpoint](viewpoints/System-Process-Viewpoint.md)
 ## SAF_SFV03b_View
+### Documentation
+
+
+realizes Viewpoint [System Function Refinement Viewpoint](viewpoints/System-Function-Refinement-Viewpoint.md)
+## SAF_SFV03c_View
 ### Documentation
 
 
@@ -509,6 +508,7 @@ realizes Viewpoint [Logical Internal Exchange Viewpoint](viewpoints/Logical-Inte
 ### Documentation
 
 
+realizes Viewpoint [Logical Function Assignment Viewpoint](viewpoints/Logical-Function-Assignment-Viewpoint.md)
 ## SAF_SOV01a_View
 ### Documentation
 
@@ -708,7 +708,7 @@ A SAF System Function does not need to accept input from the system boundary, if
 
 realizes concept Functional Requirement
 
-Functional requirements specify functions of the System.
+Functional Requirements specify System Functions of the System.
 ## SAF_SystemFunctionalRequirementConstraint
 ### Documentation
 
@@ -729,7 +729,7 @@ Specifies the fact that a Functional Activity is refined by a Functional Require
 
 realizes concept Non-functional Requirement
 
-Non-functional requirements specify the quality of the functions or non-functional requests like legal conformance.
+Non-functional Requirements specify the quality of the functions or non-functional requests like legal conformance.
 ## SAF_SystemOfInterestConcern
 ### Documentation
 
@@ -738,6 +738,13 @@ realizes concept System of Interest Concern
 
 Any kind of interest a Stakeholder has. 
 Noe: Redundant with the meaning of "Need"?
+## SAF_SystemPartialFunction
+### Documentation
+
+A detail of a system function.
+realizes concept System Partial Function
+
+A Partial Function is a part of a System Function and defines details of the System function.
 ## SAF_SystemProcess
 ### Documentation
 

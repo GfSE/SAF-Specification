@@ -34,7 +34,7 @@ The System Context Exchange Viewpoint supports the "Prepare for Requirement Defi
 * What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
 * Which information is exchanged between the system and external entities?
 ## Presentation
-An IBD featuring the SOI, the System Context Elements and connectors for each identified Interface from SOI to the respective Context Element(s). An Interface is a connection resource for hooking on the SOI to other Context Element(s). Item flow(s) are defined for each exchange on the identified Interface. Connectors/ports may contain reference to the Interface Documents if applicable.
+An IBD featuring the SOI, the System Context Elements and connectors for each identified Interface from SOI to the respective Context Elements. An Interface is a connection resource for hooking on the SOI to other Context Elements. Item flows are defined for each exchange on the identified Interface. Connectors/ports may contain reference to the Interface Documents if applicable.
 Note: more than one IBD focused on different areas of interest may be used in oder to keep the view comprehensive. Depending on the Stakeholder Concerns the Item Exchange information might be suppressed.
 
 ## Profile Model Reference

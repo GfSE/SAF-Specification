@@ -26,6 +26,6 @@ A BDD features the logical System block and logical blocks for each kind of Logi
 * [SAF_SLV02a_View](../stereotypes.md#SAF_SLV02a_View)
 ## Input from other Viewpoints
 ### Required Viewpoints
-* [System Functional Breakdown Viewpoint](System-Functional-Breakdown-Viewpoint.md)
+* [System Functional Breakdown Structure Viewpoint](System-Functional-Breakdown-Structure-Viewpoint.md)
 ### Recommended Viewpoints
 * [System Process Viewpoint](System-Process-Viewpoint.md)

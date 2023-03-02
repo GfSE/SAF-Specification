@@ -7,7 +7,7 @@
 ![FFDS A Day in the Life of FFDS](../diagrams/FFDS-A-Day-in-the-Life-of-FFDS.svg)
 ## Purpose
 The System Process Viewpoint provides the functional representation of the system using a black-box approach
-* the representation of the SOI and all Context Element(s)
+* the representation of the SOI and all Context Elements
 * the System Functions the SOI shall be able to perform
 * the Context Functions the Context Elements are expected to perform
 * the exchange between SOI System Functions and Context Functions of Context Elements

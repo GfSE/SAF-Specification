@@ -6,7 +6,7 @@
 ## Example
 *none*
 ## Purpose
-The Operational Capability Traceability Viewpoint defines [tbd]
+The Operational Capability Traceability Viewpoint defines [tbd].
 ## Applicability
 The Operational Capability Traceability Viewpoint supports the "Business or Mission Analysis Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1] and contributes to the definition of capability(s).
 ## Stakeholder

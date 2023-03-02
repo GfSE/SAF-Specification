@@ -15,7 +15,7 @@ The System Function Refinement Viewpoint supports [tbd].
 * How are the system functions decomposed into sub-functions decomposed? 
 * What is the breakdown of functions into sub-functions?
 ## Presentation
-Activity Diagram featuring partial functions.
+Activity Diagram featuring System Partial Functions.
 
 ## Profile Model Reference
 ## Input from other Viewpoints

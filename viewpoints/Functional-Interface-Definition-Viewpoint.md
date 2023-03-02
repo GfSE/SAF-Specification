@@ -6,7 +6,7 @@
 ## Example
 *none*
 ## Purpose
-The Functional Interface Definition Viewpoint [tbd]
+The Functional Interface Definition Viewpoint [tbd].
 ## Applicability
 The Functional Interface Definition Viewpoint supports [tbd].
 ## Stakeholder

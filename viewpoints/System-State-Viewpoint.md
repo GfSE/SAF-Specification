@@ -28,7 +28,7 @@ The System State Viewpoint defines the conditions of the SOI or parts of it that
 * Event [UML_Standard_Profile]
 * [SAF_DomainKind](../stereotypes.md#SAF_DomainKind)
 * [SAF_LogicalElement](../stereotypes.md#SAF_LogicalElement)
-* [SAF_SFV03b_View](../stereotypes.md#SAF_SFV03b_View)
+* [SAF_SFV03c_View](../stereotypes.md#SAF_SFV03c_View)
 * [SAF_SystemFunction](../stereotypes.md#SAF_SystemFunction)
 * State [UML_Standard_Profile]
 * StateMachine [UML_Standard_Profile]
