@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Logical](../domains.md#Domain-Logical)|[Mapping & Crossreference](../aspects.md#Aspect-Mapping-&-Crossreference)|![Under Construction](../diagrams/Under_construction_icon-yellow.svg )[under construction](../using-saf/maturity.md#under-construction)|
 ## Example
-![FFDS Context Definition Allocation of Usage](../diagrams/FFDSContext-Definition-Allocation-of-Usage)
+![FFDS Context Definition Allocation of Usage](../diagrams/FFDS-Context-Definition-Allocation-of-Usage.svg)
 ## Purpose
 The Logical Function Assignment Viewpoint specifies the assignment of System Functions to the Logical SOI Elements.
 ## Applicability
