@@ -46,14 +46,16 @@ operational..alle
  * [Logical Function Assignment Viewpoint](../viewpoints/Logical-Function-Allocation-Viewpoint.md)
  * [Logical Internal Interaction Viewpoint](../viewpoints/Logical-Interaction-Viewpoint.md)
  * [Logical Internal Exchange Viewpoint](../viewpoints/Logical-Internal-Exchange-Viewpoint.md)
+ * Logical Interface Definition Viewpoint (wer macht es?)
  * [Physical Context Definition Viewpoint](../viewpoints/Physical-Context-Definition-Viewpoint.md) (michael)
  * [Physical Context Exchange Viewpoint](../viewpoints/Physical-Context-Exchange-Viewpoint.md) (michael)
  * [Physical Logical Assignment Viewpoint](../viewpoints/Physical-Logical-Assignment-Viewpoint.md) (michael)
- * [Physical Function Assignment Viewpoint](../viewpoints/Physical-Function-Allocation-Viewpoint.md) (alex) (note analyseVP)
- * Phyiscal Exchange Requirements Definition Viewpoint (alex)(note analyseVP) 
+ * [Physical Function Assignment Viewpoint](../viewpoints/Physical-Function-Allocation-Viewpoint.md) (alex) -> kind of analyseVP!
+ * Phyiscal Exchange Requirements Definition Viewpoint (alex) -> kind of analyseVP!
  * [Physical Structure Viewpoint](../viewpoints/Physical-Structure-Viewpoint.md) (michael)
  * [Physical Internal Exchange Viewpoint](../viewpoints/Physical-Internal-Exchange-Viewpoint.md) (michael)
  * [Physical Interface Definition Viewpoint](../viewpoints/Physical-Interface-Definition-Viewpoint.md) (michael) -> das sind die interface blöcke
+ * Subsystem Requirement Specification Viewpoint / Software Requirement Specification Viewpoint / Hardware Requirement Specification Viewpoint?
 
 # Information Items tbd
 
