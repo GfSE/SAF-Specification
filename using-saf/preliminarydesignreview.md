@@ -33,28 +33,27 @@ operational..alle
  * [System Context Interaction Viewpoint](../viewpoints/System-Context-Interaction-Viewpoint.md)
  * [System Domain Item Kind Viewpoint](../viewpoints/System-Domain-Item-Kind-Viewpoint.md)
  * [System Functional Breakdown Structure Viewpoint](../viewpoints/System-Functional-Breakdown-Viewpoint.md)
- * [System Function Refinement](../viewpoints/System-Function-Refinement-Viewpoint.md) (alex)
  * [System Process Viewpoint](../viewpoints/System-Process-Viewpoint.md)
- * [System Requirement Traceability Viewpoint](../viewpoints/System-Requirement-Traceability-Viewpoint.md) (sascha) system req traceablity aufsplitten
+ * [System Functional Refinement](../viewpoints/System-Function-Refinement-Viewpoint.md) (alex)
  * [System Requirement Viewpoint](../viewpoints/System-Requirement-Viewpoint.md)
+ * [System Requirement Traceability Viewpoint](../viewpoints/System-Requirement-Traceability-Viewpoint.md) (sascha) -> system req traceablity aufsplitten
  * [System State Viewpoint](../viewpoints/System-State-Viewpoint.md)
  * [System UseCase Viewpoint](../viewpoints/System-UseCase-Viewpoint.md)
- * [Functional Interface Definition Viewpoint](../viewpoints/Functional-Interface-Definition-Viewpoint.md) (alex) das sind die interface blöcke
+ * [Functional Interface Definition Viewpoint](../viewpoints/Functional-Interface-Definition-Viewpoint.md) (alex) -> das sind die interface blöcke
  
  ## Viewpoints new for PDR
  * [Logical Structure Viewpoint](../viewpoints/Logical-Structure-Viewpoint.md)
  * [Logical Function Assignment Viewpoint](../viewpoints/Logical-Function-Allocation-Viewpoint.md)
- * [Logical Interaction Viewpoint](../viewpoints/Logical-Interaction-Viewpoint.md)
+ * [Logical Internal Interaction Viewpoint](../viewpoints/Logical-Interaction-Viewpoint.md)
  * [Logical Internal Exchange Viewpoint](../viewpoints/Logical-Internal-Exchange-Viewpoint.md)
- * [Physical Context Definition Viewpoint](../viewpoints/Physical-Context-Definition-Viewpoint.md)
- * [Physical Context Exchange Viewpoint](../viewpoints/Physical-Context-Exchange-Viewpoint.md)
+ * [Physical Context Definition Viewpoint](../viewpoints/Physical-Context-Definition-Viewpoint.md) (michael)
+ * [Physical Context Exchange Viewpoint](../viewpoints/Physical-Context-Exchange-Viewpoint.md) (michael)
  * [Physical Logical Assignment Viewpoint](../viewpoints/Physical-Logical-Assignment-Viewpoint.md) (michael)
- * [Physical Function Assignment Viewpoint](../viewpoints/Physical-Function-Allocation-Viewpoint.md) (alex) analyseviewpoint
- * Phyiscal interface identification vp (wer machts ?) 
- * Phyiscal exchange requirements vp (alex) analyseviewpoint 
- * [Physical Structure Viewpoint](../viewpoints/Physical-Structure-Viewpoint.md)
- * [Physical Internal Exchange Viewpoint](../viewpoints/Physical-Internal-Exchange-Viewpoint.md)
- * [Physical Interface Definition Viewpoint](../viewpoints/Physical-Interface-Definition-Viewpoint.md) (michael) das sind die interface blöcke
+ * [Physical Function Assignment Viewpoint](../viewpoints/Physical-Function-Allocation-Viewpoint.md) (alex) (note analyseVP)
+ * Phyiscal Exchange Requirements Definition Viewpoint (alex)(note analyseVP) 
+ * [Physical Structure Viewpoint](../viewpoints/Physical-Structure-Viewpoint.md) (michael)
+ * [Physical Internal Exchange Viewpoint](../viewpoints/Physical-Internal-Exchange-Viewpoint.md) (michael)
+ * [Physical Interface Definition Viewpoint](../viewpoints/Physical-Interface-Definition-Viewpoint.md) (michael) -> das sind die interface blöcke
 
 # Information Items tbd
 
