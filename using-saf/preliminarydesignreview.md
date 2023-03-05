@@ -17,15 +17,16 @@ The PDR is the "design to" review. That means, the design is based on the baseli
 
 # Viewpoints tbd
 ## Viewpoints from SCR
-operational..alle
+
+*to be validated early 2023 - S1*
  * [Operational Performer Viewpoint](../viewpoints/Operational-Performer-Viewpoint.md)
  * [Operational-Story-Viewpoint](../viewpoints/Operational-Story-Viewpoint.md)
  * [Stakeholder Requirement Viewpoint](../viewpoints/Stakeholder-Requirement-Viewpoint.md)
- * Stakeholder Identification
+ * Stakeholder Identification Viewpoint
 
 ## Viewpoints from SRR
 
-*to be validated in 2023*
+*to be validated early 2023 - S1*
  * Standards Definition Viewpoint (michael)
  * [System Capability Viewpoint](../viewpoints/System-Capability-Viewpoint.md)
  * [System Context Definition Viewpoint](../viewpoints/System-Context-Definition-Viewpoint.md)
