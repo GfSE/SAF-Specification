@@ -28,10 +28,11 @@ Note:
 * Which external entities (external systems, roles, environment, etc.) does a Stakeholder represent?
 * Who are the Stakeholders involved in the intended solution?
 ## Presentation
-The results of the Stakeholder Identification are selected Stakeholders. A Stakeholder Identification diagram (BDD) depicts the relations of the identified Stakeholders towards the Intended Solution.
+The results of the Stakeholder Identification are selected Stakeholders. A Stakeholder Identification diagram (BDD) depicts the Stakeholders and their relations of the identified Stakeholders towards the Intended Solution.
 
 ## Profile Model Reference
-* [SAF_ContextElementCharacterization](../stereotypes.md#SAF_ContextElementCharacterization)
+* [SAF_ContextElementRepresentation](../stereotypes.md#SAF_ContextElementRepresentation)
+* [SAF_SOV02d_View](../stereotypes.md#SAF_SOV02d_View)
 * [SAF_Stakeholder](../stereotypes.md#SAF_Stakeholder)
 * [SAF_StakeholderRelation](../stereotypes.md#SAF_StakeholderRelation)
 * [SAF_SystemOfInterestConcern](../stereotypes.md#SAF_SystemOfInterestConcern)

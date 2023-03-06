@@ -6,7 +6,7 @@
 ## Example
 ![FFDS System Domain Item Definition](../diagrams/FFDS-System-Domain-Item-Definition.svg)
 ## Purpose
-The System Domain Item Kind Viewpoint collects type definitions for any exchanged item, information, material, or energy of the Functional, Logical and Physical domain. Its purpose is to define those item types and their relationships. Also, the System Domain Item Kind Viewpoint specifies the data types, physical entity types, related value types and units that are used (“known”) by the SOI. 
+The System Domain Item Kind Viewpoint collects type definitions for any exchanged item, information, material, or energy of the Functional and Logical domain. Its purpose is to define those item types and their relationships. Also, the System Domain Item Kind Viewpoint specifies the data types, entity types, related value types and units that are used (“known”) by the SOI. 
 Note: Domain Item Kinds are used as types of function input and output in the Functional Domain and for types of interfaces in the logical domain. They specify what is to be exchanged, but not how.
 ## Applicability
 The System Domain Item Kind Viewpoint supports [tbd].
@@ -19,7 +19,6 @@ Domain Item Kinds are managed in the domain knowledge package of the SOI, the Do
 * FlowProperty [SysML Profile]
 * ItemFlow [SysML Profile]
 * Parameter [UML_Standard_Profile]
-* Pin [UML_Standard_Profile]
 * [SAF_DomainKind](../stereotypes.md#SAF_DomainKind)
 * [SAF_DomainKindComposition](../stereotypes.md#SAF_DomainKindComposition)
 * [SAF_DomainKindDerivation](../stereotypes.md#SAF_DomainKindDerivation)

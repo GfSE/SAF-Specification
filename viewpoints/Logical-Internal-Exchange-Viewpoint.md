@@ -48,3 +48,4 @@ One or more IBD featuring the Logical Elements of the SOI, and the SOI boundary,
 * [Logical Structure Viewpoint](Logical-Structure-Viewpoint.md)
 ### Recommended Viewpoints
 * [System Process Viewpoint](System-Process-Viewpoint.md)
+* [System Functional Refinement Viewpoint](System-Functional-Refinement-Viewpoint.md)

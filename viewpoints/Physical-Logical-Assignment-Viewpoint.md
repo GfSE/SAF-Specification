@@ -6,9 +6,9 @@
 ## Example
 *none*
 ## Purpose
-The Physical Logical Assignment Viewpoint specifies the assignment of Logical SOI Elements to the Physical SOI Elements.
+The Physical Logical Assignment Viewpoint specifies the assignment of the Logical SOI Elements to the Physical SOI Elements.
 ## Applicability
-The Physical Function Allocation Viewpoint supports the "System Architecture Definition process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015  .
+The Physical Functional Assignment Viewpoint supports the "System Architecture Definition process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015  .
 ## Stakeholder
 ## Concern
 ## Presentation
@@ -21,7 +21,7 @@ A  Physical To Logical Assigment Matrix featuring
 * [SAF_FunctionAction](../stereotypes.md#SAF_FunctionAction)
 ## Input from other Viewpoints
 ### Required Viewpoints
-* [Logical Function Assignment Viewpoint](Logical-Function-Assignment-Viewpoint.md)
+* [Logical Functional Assignment Viewpoint](Logical-Functional-Assignment-Viewpoint.md)
 * [Logical Structure Viewpoint](Logical-Structure-Viewpoint.md)
 * [Physical Structure Viewpoint](Physical-Structure-Viewpoint.md)
 ### Recommended Viewpoints

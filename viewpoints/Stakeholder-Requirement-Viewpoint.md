@@ -2,7 +2,7 @@
 # Stakeholder Requirement Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
-|[Operational](../domains.md#Domain-Operational)|[Requirement](../aspects.md#Aspect-Requirement)|![Under Construction](../diagrams/Under_construction_icon-yellow.svg )[under construction](../using-saf/maturity.md#under-construction)|
+|[Operational](../domains.md#Domain-Operational)|[Requirement](../aspects.md#Aspect-Requirement)|![Released](../diagrams/Symbol_confirmed.svg.png )[released](../using-saf/maturity.md#released)|
 ## Example
 ![Stakeholder Requirement Definition Table](../diagrams/Stakeholder-Requirement-Definition-Table.svg)
 ## Purpose

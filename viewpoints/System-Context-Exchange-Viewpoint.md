@@ -6,9 +6,9 @@
 ## Example
 ![FFDS Context Exchange](../diagrams/FFDS-Context-Exchange.svg)
 ## Purpose
-The System Context Exchange Viewpoint serves for the identification and definition of External interfaces of the SOI used for the interaction to System’s Context, such as Users, External Systems and other External Entitys defined in the specific context of the SOI. The System Context Exchange Viewpoint
+The System Context Exchange Viewpoint serves for the identification and definition of External interfaces of the SOI used for the interaction to System’s Context, such as Users, External Systems and other External Entities defined in the specific context of the SOI. The System Context Exchange Viewpoint
 * identifies System interfaces on a functional level
-* states to which External Entitys the System interfaces are connected to
+* states to which External Entities the System interfaces are connected to
 * assigns Interface Documents to System Interfaces
 * defines the usage of interfaces, e.g. if only a subset of the interface is used
 ## Applicability

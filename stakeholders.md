@@ -129,6 +129,10 @@ The Developer is a group or an individual implementing the system parts accordin
 * What is the scope of a delivery standard?
 * What is the sequence of interactions among the system and context elements
 * What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
+* Which (system and system partial) functions are assigned to a logical item and logical item components?
+NOTE: if allocation of usage is used, then allocation of definition is a derived relationship XOR. 
+
+  ***Rationale:  In my role. I need to take this into account when planning realization.***
 * Which HW interfaces are necessary? 
 
   ***Rationale:  In my role, I need to implement interfaces with my HW subsystem, if necessary.***
@@ -139,9 +143,6 @@ The Developer is a group or an individual implementing the system parts accordin
 * Which functions will the system provide? 
 
   ***Rationale:  In my role, I need to provide qualified feedback on how my how the sub-functions assigned to my subsystem contributes to the function of the system.***
-* Which functions/functional requirements are assigned to a logical item? 
-
-  ***Rationale:  In my role. I need to take this into account when planning realization.***
 * Which interface partners does a HW item have? 
 
   ***Rationale:  In my role, I need to implement interfaces with my HW subsystem, if necessary.***
@@ -156,7 +157,7 @@ The Developer is a group or an individual implementing the system parts accordin
 * Who provides the inputs to a critical function?
 # IV&V Engineer
 Definition - IV&V Engineer
-Individuals or groups responsible for integration, verification and validation. [tbd]
+Individuals or groups responsible for integration, verification and validation.
 IV&V Engineers are individuals or groups responsible for integration, validation and verification during development of the system. Integration, Verification and Validation are activities that are performed simultaneously, and alternately i.e. virtual integration is used to validate requirements, verification of prototypes is performed to validate requirements and design decisions, verification of interfaces is performed during integration on various integration levels allowing to gather enough test coverage.
 
 ## Concern
@@ -233,7 +234,8 @@ The example illustrates, that the roles user and operator are depending heavily 
 
   ***Rationale:  In my role, I need to check whether the system fits into the higher-level user concept.***
 # Portfolio Manager
-
+Portfolio Manager:
+He plans the Product portfolio, i.e. which products are available, will be available, which capabilities will they have.
 
 ## Concern
 * What operational capabilities are defined? 
@@ -370,6 +372,10 @@ The Developer is a group or an individual implementing the system parts accordin
 * What is the necessary response time for an interface or a service?
 * What is the sequence of interactions among the system and context elements
 * What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
+* Which (system and system partial) functions are assigned to a logical item and logical item components?
+NOTE: if allocation of usage is used, then allocation of definition is a derived relationship XOR. 
+
+  ***Rationale:  In my role. I need to take this into account when planning implementation.***
 * Which SW interfaces are necessary? 
 
   ***Rationale:  In my role, I need to implement interfaces with my SW subsystem, if necessary.***
@@ -380,9 +386,6 @@ The Developer is a group or an individual implementing the system parts accordin
 * Which functions will the system provide? 
 
   ***Rationale:  In my role, I need to provide qualified feedback on how my how the sub-functions assigned to my subsystem contributes to the function of the system.***
-* Which functions/functional requirements are assigned to a logical item? 
-
-  ***Rationale:  In my role. I need to take this into account when planning implementation.***
 * Which interface partners does a SW item have? 
 
   ***Rationale:  In my role, I need to implement interfaces with my SW subsystem, if necessary.***
@@ -478,13 +481,14 @@ The System Architect as an individual or group performing the systems engineerin
 * What services are expected from external entities?
 * What shall be validated to the customer at system level?
 * What system elements are make-items, reuse items or COTS?
+* Which (system and system partial) functions are assigned to a logical item and logical item components?
+NOTE: if allocation of usage is used, then allocation of definition is a derived relationship XOR.
 * Which Stakeholder are relevant to the system and might impose requirements? 
 
   ***Rationale:  In my role, I need to give feedback on existing or missing stakeholders.***
 * Which functions will the system provide? 
 
   ***Rationale:  In my role, I need to break these down further to be able to delegate sub-functions to subsystems.***
-* Which functions/functional requirements are assigned to a logical item?
 * Which information is exchanged between the system and external entities?
 * Which modes and states does the system have? 
 

@@ -2,7 +2,7 @@
 # System Requirement Traceability Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
-|[Functional](../domains.md#Domain-Functional)|[Mapping & Crossreference](../aspects.md#Aspect-Mapping-&-Crossreference)|![Under Construction](../diagrams/Under_construction_icon-yellow.svg )[under construction](../using-saf/maturity.md#under-construction)|
+|[Functional](../domains.md#Domain-Functional)|[Mapping & Crossreference](../aspects.md#Aspect-Mapping-&-Crossreference)|![Released](../diagrams/Symbol_confirmed.svg.png )[released](../using-saf/maturity.md#released)|
 ## Example
 ![System Requirement Traceability Table](../diagrams/System-Requirement-Traceability-Table.svg)
 ## Purpose
@@ -10,7 +10,7 @@ The System Requirement Traceability Viewpoint specifies for every System Require
 * System Story
 * System Context Definition
 * System Context Exchange
-* System Functional Scenario
+* System Process
 * System Context Interaction
 ## Applicability
 The System Requirement Traceability Viewpoint supports the "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§4.3] and contributes to the System Requirements Traceability. The System Requirement Traceability Viewpoint contributes to System Requirements Verification and Traceability Matrix (RVTM).
@@ -51,3 +51,4 @@ Referring to a Stakeholder Requirement the dependency relation is <<derive>>, ot
 * [System Process Viewpoint](System-Process-Viewpoint.md)
 * [System State Viewpoint](System-State-Viewpoint.md)
 * [System Context Interaction Viewpoint](System-Context-Interaction-Viewpoint.md)
+* [System Functional Refinement Viewpoint](System-Functional-Refinement-Viewpoint.md)

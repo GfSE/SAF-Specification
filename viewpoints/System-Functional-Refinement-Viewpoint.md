@@ -1,14 +1,14 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
-# System Function Refinement Viewpoint
+# System Functional Refinement Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Functional](../domains.md#Domain-Functional)|[Process & Behavior](../aspects.md#Aspect-Process-&-Behavior)|![Under Construction](../diagrams/Under_construction_icon-yellow.svg )[under construction](../using-saf/maturity.md#under-construction)|
 ## Example
 ![Detect and Report Fire](../diagrams/Detect-and-Report-Fire.svg)
 ## Purpose
-The System Function Refinement Viewpoint analyses System Functions in detail.
+The System Functional Refinement Viewpoint analyses decomposition of System Functions into System Partial Functions Usage in detail.
 ## Applicability
-The System Function Refinement Viewpoint supports [tbd].
+The System Functional Refinement Viewpoint supports [tbd].
 ## Stakeholder
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern

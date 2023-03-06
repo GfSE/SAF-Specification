@@ -6,7 +6,7 @@
 ## Example
 ![FFDS Context Interaction](../diagrams/FFDS-Context-Interaction.svg)
 ## Purpose
-The System Context Interaction Viewpoint describes the system external behavior based on the exchange between SOI and Context Elements Usage within a specific System Context. It depicts the flow / sequence of interactions between the logical System, the Context Elements and the Exchanged Data Items needed to accomplish a given System Function.
+The System Context Interaction Viewpoint describes the System external behavior based on the exchange between Logical SOI and Logical Context Elements Usage within a specific System Context. It depicts the sequence of interactions between the Logical SOI, the Context Elements and the Exchanged Data Items needed to accomplish a given System Function.
 ## Applicability
 The System Context Interaction Viewpoint supports "Prepare for Requirement Definition" activity included in "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.3] and contributes to the identification of expected interactions with systems external to the SOI.
 ## Stakeholder
