@@ -78,10 +78,10 @@ The Functional Domain Viewpoints translate Operational Domain usage into the not
 #### Functional Domain Aspect Structure
 * [System Domain Item Kind Viewpoint](viewpoints/System-Domain-Item-Kind-Viewpoint.md)
 * [System Capability Viewpoint](viewpoints/System-Capability-Viewpoint.md)
-* [System Functional Breakdown Strcuture Viewpoint](viewpoints/System-Functional-Breakdown-Viewpoint.md)
+* [System Functional Breakdown Structure Viewpoint](viewpoints/System-Functional-Breakdown-Structure-Viewpoint.md)
 #### Functional Domain Aspect Behavior
 * [System Process Viewpoint](viewpoints/System-Process-Viewpoint.md)
-* [System Function Refinement Viewpoint](viewpoints/System-Function-Refinement-Viewpoint.md)
+* [System Functional Refinement Viewpoint](viewpoints/System-Functional-Refinement-Viewpoint.md)
 * [System State Viewpoint](viewpoints/System-State-Viewpoint.md)
 #### Functional Domain Aspect Interaction and Collaboration
 * [System Context Interaction Viewpoint](viewpoints/System-Context-Interaction-Viewpoint.md)
@@ -94,6 +94,7 @@ The Functional Domain Viewpoints translate Operational Domain usage into the not
 ### Logical Domain Objective
 
 The Logical Domain Viewpoints describe the Logical Structure and the distribution of responsibilitys for the Functionality of the SOI by means of a network of interacting Logical Elements that are responsible for a set of desired Function(s). These Logical Elements and their Interactions are arranged in the Logical Architecture of the SOI. The structure of the Logical Architecture is in general influenced by nonfunctional criteria, e.g., maintainability, safety, and reliability.
+The Logical Domain is not a different abstraction level - compared to the Functional Domain, but a white box perspective on the same abstraction level.
 
 ### Logical Domain Concern
 
@@ -108,10 +109,10 @@ The Logical Domain Viewpoints describe the Logical Structure and the distributio
 #### Logical Domain Aspect Structure
 * [Logical Structure Definition Viewpoint](viewpoints/Logical-Structure-Viewpoint.md)
 #### Logical Domain Aspect Interaction and Collaboration
-* [Logical Internal Interaction Viewpoint](viewpoints/Logical-Interaction-Viewpoint.md)
+* [Logical Internal Interaction Viewpoint](viewpoints/Logical-Internal-Interaction-Viewpoint.md)
 * [Logical Internal Exchange Viewpoint](viewpoints/Logical-Internal-Exchange-Viewpoint.md)
 #### Functional Domain Aspect Crossreference and Mapping
-* [Logical Function Assignment Viewpoint](viewpoints/Logical-Function-Assignment-Viewpoint.md)
+* [Logical Functional Assignment Viewpoint](viewpoints/Logical-Functional-Assignment-Viewpoint.md)
 
 ## Physical Domain
 
@@ -156,7 +157,8 @@ For traceability the Physical Domain defines diagrams showing the mapping of the
 #### Physical Domain Aspect Interface
 * [Physical Interface Definition Viewpoint](viewpoints/Physical-Interface-Definition-Viewpoint.md)
 * Physical Protocol Stack Definition Viewpoint
-
+#### Physical Domain Aspect Crossreference and Mapping
+* [Physical Functional Assignment Viewpoint](viewpoints/Physical-Functional-Assignment-Viewpoint.md)
 ## Common Domain
 ### Common Domain Objective
 The SAF Common Domain provides viewpoints addressing model information that is common to all other domains or that are applicable throughout the model.
