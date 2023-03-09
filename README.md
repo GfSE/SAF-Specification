@@ -155,7 +155,7 @@ For traceability the Physical Domain defines diagrams showing the mapping of the
 #### Physical Domain Aspect Interaction and Collaboration
 * [Physical Internal Exchange Viewpoint](viewpoints/Physical-Internal-Exchange-Viewpoint.md)
 #### Physical Domain Aspect Interface
-* [Physical Interface Definition Viewpoint](viewpoints/Physical-Interface-Definition-Viewpoint.md)
+* Physical Interface Definition Viewpoint
 * Physical Protocol Stack Definition Viewpoint
 #### Physical Domain Aspect Crossreference and Mapping
 * [Physical Functional Assignment Viewpoint](viewpoints/Physical-Functional-Assignment-Viewpoint.md)
