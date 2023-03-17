@@ -92,6 +92,6 @@ Plan and perform assessment and control concurrently with the activities for Mea
 Hold post-delivery assessments or post-project reviews to capture knowledge associated with the project – e.g., to augment and improve estimation models, lessons learned databases, gate review checklists, etc.
 
 # References
- * [Defense Aquisition Guide Book Ch 3]()
- * [Systems Engineering Body of Knowledge]()
- * [ Visualizing Project Management]()
+ * [Defense Aquisition Guide Book Chapter 3](https://ac.cto.mil/wp-content/uploads/2022/02/Eng-Defense-Systems_Feb2022-Cleared-slp.pdf)
+ * [Systems Engineering Body of Knowledge](https://sebokwiki.org/wiki/Guide_to_the_Systems_Engineering_Body_of_Knowledge_(SEBoK))
+ * [ Visualizing Project Management](https://www.amazon.com/Visualizing-Project-Management-Frameworks-Mastering/dp/0471648485)
