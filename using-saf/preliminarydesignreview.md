@@ -35,7 +35,7 @@ The PDR is the "design to" review. That means, the design is based on the baseli
  * [System Domain Item Kind Viewpoint](../viewpoints/System-Domain-Item-Kind-Viewpoint.md)
  * [System Functional Breakdown Structure Viewpoint](../viewpoints/System-Functional-Breakdown-Viewpoint.md)
  * [System Process Viewpoint](../viewpoints/System-Process-Viewpoint.md)
- * [System Functional Refinement](../viewpoints/System-Function-Refinement-Viewpoint.md) (alex)
+ * [System Functional Refinement](../viewpoints/System-Functional-Refinement-Viewpoint.md) (alex)
  * [System Requirement Viewpoint](../viewpoints/System-Requirement-Viewpoint.md)
  * [System Requirement Traceability Viewpoint](../viewpoints/System-Requirement-Traceability-Viewpoint.md) (sascha) -> system req traceablity aufsplitten
  * [System State Viewpoint](../viewpoints/System-State-Viewpoint.md)
