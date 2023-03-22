@@ -24,7 +24,7 @@ The System Functional Breakdown Strcuture Viewpoint supports the "System Require
 * What is the breakdown of functions into sub-functions?
 * Which functions will the system provide?
 ## Presentation
-The content is in one or more more block definition diagrams (BDD) featuring activities representing System Functions and aggregation repesenting the functional breakdown structure.
+The content is in one or more more block definition diagrams (BDD) featuring activities representing System Processes, System Functions, System Partial Functions and aggregation repesenting the functional breakdown structure.
 
 Tool specific analysis diagram displaying the relationships between System Processes, System Functions and System Partial Functions.
 

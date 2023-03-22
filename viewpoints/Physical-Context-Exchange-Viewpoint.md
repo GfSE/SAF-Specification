@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Physical](../domains.md#Domain-Physical)|[Context & Exchange](../aspects.md#Aspect-Context-&-Exchange)|![Under Construction](../diagrams/Under_construction_icon-yellow.svg )[under construction](../using-saf/maturity.md#under-construction)|
 ## Example
-![Physical Context Exchanges](../diagrams/Physical-Context-Exchange.png)
+*none*
 ## Purpose
 The Physical Context Exchange Viewpoint focuses on the identification of the physical interfaces with external entities and the identification of relevant documentation. It is used to capture Interface Requirements for IRS, applicable standards, protocols and format specifications that are agreed upon the interfaces.
 Note: Trace physical interfaces to logical interfaces  (the physical interfaces fulfill the exchange requirements stated on Logical Level)

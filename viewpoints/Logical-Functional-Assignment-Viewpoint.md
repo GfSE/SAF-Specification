@@ -18,7 +18,7 @@ The Logical Function Allocation Viewpoint supports the "System Architecture Defi
 NOTE: if allocation of usage is used, then allocation of definition is a derived relationship XOR.
 ## Presentation
 A  Logical Functional Assignment Matrix featuring
-* the call behavior action representing usage of System Functions
+* the call behavior action representing usage of System Functions and or System Partial Functions
 * the part properties representing usage of Logical SOI Elements
 * the allocation relationship between abovementioned elements
 

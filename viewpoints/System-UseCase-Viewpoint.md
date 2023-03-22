@@ -8,7 +8,7 @@
 ## Purpose
 The System UseCase Viewpoint provides an outside view on the System Functionality from the perspective of the System Users and contributes to the definition of System Requirements and System Usage. The intended system use may be captured as free text use case description, a storytelling approach on a coarse detail level. The main System Exchange Partners participating in the intended system use are identified. System use cases are related to a specific System Context.
 ## Applicability
-The Sytem Story Viewpoint supports the "Stakeholder Needs and Requirements Definition Process" and "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§4.2 & §4.3] and contributes to the System Function Identification.
+The Sytem Use Viewpoint supports the "Stakeholder Needs and Requirements Definition Process" and "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§4.2 & §4.3] and contributes to the System Function Identification and System Functional Interface Identification.
 ## Stakeholder
 * [Acquirer](../stakeholders.md#Acquirer)
 * [Customer](../stakeholders.md#Customer)
@@ -24,7 +24,10 @@ The Sytem Story Viewpoint supports the "Stakeholder Needs and Requirements Defin
 * Which is the system scenario, i.e., course of action, for the context in which the system of interest solution will exist?
 * Which users does the system support? What the system has to accomplish for these users?
 ## Presentation
-A use case diagram depicting model elements representing System Stories and System Context Elements shall be used.
+A use case diagram depicting model elements representing System Use Cases and System Context Elements shall be used. The system context for the use case shall be depicted on the diagram. Pre- and postconditions shall be represented either by callout or compartment notation.
+ 
+
+A table listing the use cases, the system context for the use case and the context elements valid for the use case, as well as the pre and post conditions.
 
 ## Profile Model Reference
 * Include [UML_Standard_Profile]

@@ -13,7 +13,7 @@ The System Process Viewpoint provides the functional representation of the syste
 * the exchange between SOI System Functions and Context Functions of Context Elements
 * the functional flows crossing the boundary between SOI and Context Elements
 ## Applicability
-The System Process Viewpoint supports the "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§4.3] and contributes to the System Function Definition and the System Functional Interface Identification.
+The System Process Viewpoint supports the "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§4.3] and contributes to the System Function Identification and the System Functional Interface Identification.
 ## Stakeholder
 * [Acquirer](../stakeholders.md#Acquirer)
 * [Customer](../stakeholders.md#Customer)
@@ -38,8 +38,10 @@ The System Process Viewpoint supports the "System Requirements Definition Proces
 * Which functions are out of scope of the system?
 * Which functions will the system provide?
 ## Presentation
-The Functional Scenario Activities and their sequence related to a System UseCase are represented in activity diagrams featuring swim lanes. The swim lanes are typed with Context Elements and SOI usage from the System Contexts. 
-Note: It is recommended to compile separate activity diagrams refining Use Case and System Context.
+The System Process Activities and their sequence related to a System UseCase are represented in activity diagrams featuring swim lanes. The swim lanes are typed with Context Element usage and SOI usage from the same System Context of the abovementioned Use case. 
+In order to improve the clarity of diagrams it may be appropriate to use several activity diagrams for one system process.
+
+A table listing all identified system functions, the system processes in which they appera and the functional exchange with the context elements.
 
 ## Profile Model Reference
 * Allocate [SysML Profile]

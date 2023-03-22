@@ -31,6 +31,8 @@ A BDD featuring the following elements
 * a Composition relationship from Context block to each Context Element used in the context
 * a Composition relationship from Context block to the SOI
 
+A table containing the context elements, and the context in which they are used.
+
 ## Profile Model Reference
 * Association [UML_Standard_Profile]
 * Association [UML_Standard_Profile]
