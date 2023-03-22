@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Functional](../domains.md#Domain-Functional)|[Interface](../aspects.md#Aspect-Interface)|![Proposed](../diagrams/Under_construction_icon-red.svg )[proposed](../using-saf/maturity.md#proposed)|
 ## Example
-*none*
+![SOI Interface Definitions](../diagrams/SOI-Interface-Definitions.svg)
 ## Purpose
 The Functional Interface Definition Viewpoint provides definitions used on functional Interfaces used in the system context. It allows to structure interface definitions to improve clarity and managability.
 ## Applicability
