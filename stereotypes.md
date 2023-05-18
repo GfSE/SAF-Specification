@@ -52,7 +52,7 @@
 ||SAF_PhysicalContext||Physical System Context<BR><BR>Defines a context for a System of Interest on Physical Level.<BR>|
 ||SAF_PhysicalElement|General system element, may consist of hardware and software subsystems.|Physical Element<BR><BR>A composition of Hardware Elements and Software Elements. Similarity to the V-Model segments and system. See [VXT].<BR>|
 ||SAF_PhysicalEnvironment||Physical Environment<BR><BR>The Environmental Element in the Physical Domain, outside the SOI scope, interacting with the SOI. E.g. air, dirt, sun, road.<BR>|
-||SAF_PhysicalExchangeType|typifies physical exchange.|Physical Exchange Item<BR><BR>Specifies the fact that a on Physical Level realized Domain Item is used for exchange on a Physical Interface.<BR>|
+||SAF_PhysicalExchangeType|typifies physical exchange.|Physical Exchange Kind<BR><BR>Specifies the Physical Level realization of a System Domain Kind. It is both used to define exchange on Physical Interfaces.<BR>|
 ||SAF_PhysicalExternalSystem||Physical External System<BR><BR>The External System in the Physical Domain, outside the SOI scope, interacting with the SOI. E.g. power grid, mobile network, fresh water system (in a house).<BR>|
 ||SAF_PhysicalHardwareElement|System element implemented in hardware.|Hardware Element<BR><BR>Pure Hardware Elements. Similarity to the V-Model "hardware unit".<BR>|
 |![icon](icons/SAF_PhysicalItem.svg)|SAF_PhysicalItem|Abstract. Not to be intended to be used in a system model|nothing|

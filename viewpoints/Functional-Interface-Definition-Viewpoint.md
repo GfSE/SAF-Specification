@@ -2,7 +2,7 @@
 # Functional Interface Definition Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
-|[Functional](../domains.md#Domain-Functional)|[Interface](../aspects.md#Aspect-Interface)|![Proposed](../diagrams/Under_construction_icon-red.svg )[proposed](../using-saf/maturity.md#proposed)|
+|[Functional](../domains.md#Domain-Functional)|[Interface](../aspects.md#Aspect-Interface)|![Under Construction](../diagrams/Under_construction_icon-yellow.svg )[under construction](../using-saf/maturity.md#under-construction)|
 ## Example
 ![SOI Interface Definitions](../diagrams/SOI-Interface-Definitions.svg)
 ## Purpose
@@ -17,8 +17,16 @@ A BDD featuring Interface Blocks with ports and flow properties. If ports are us
 A Table featuringt interface blocks and their ports and flow properties.
 
 ## Profile Model Reference
+* ProxyPort typed by InterfaceBlock
+* FlowProperty contained in InterfaceBlock
+* FlowProperty typed by SAF_DomainKind
+* ItemFlow typed by SAF_DomainKind
+* Connector [UML_Standard_Profile]
 * FlowProperty [SysML Profile]
 * InterfaceBlock [SysML Profile]
+* ItemFlow [SysML Profile]
+* ProxyPort [SysML Profile]
+* Attribute "Realizing Connector" of InformationFlow referencing Connector
 * [SAF_DomainKind](../stereotypes.md#SAF_DomainKind)
 * [SAF_SFV05a_View](../stereotypes.md#SAF_SFV05a_View)
 ## Input from other Viewpoints

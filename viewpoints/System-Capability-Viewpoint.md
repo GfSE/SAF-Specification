@@ -16,7 +16,7 @@ The System Capability Viewpoint supports the "Requirement Definition" activities
 ## Concern
 * What are the capabilities that are supported by the system?
 ## Presentation
-A BDD featuring System Capabilities and their composition, specialization and dependency relationships. The relationship to operational capabilities shall be shown if applicable.
+A BDDs featuring System Capabilities and their composition, specialization and dependency relationships. The relationship to operational capabilities shall be shown if applicable.
 
 A Table featuring system capabilities, and their composition specialisation and dependency relationships, as well as relations to operational capabilities.
 

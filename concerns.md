@@ -35,8 +35,8 @@
 |_unclear (need of explanation)|What are the algorithms to be implemented?|[Software Developer](stakeholders.md#Software-Developer)||
 |_unclear (need of explanation)|What are the provided power inputs?|[Hardware Developer](stakeholders.md#Hardware-Developer)||
 |_unclear (need of explanation)|What are the replaceable system components?|[Maintainer](stakeholders.md#Maintainer)||
-|_unclear (need of explanation)|What are the system delivery standards?|[System Architect](stakeholders.md#System-Architect)||
 |_unclear (need of explanation)|What are the system delivery standards?|[Project Manager](stakeholders.md#Project-Manager)||
+|_unclear (need of explanation)|What are the system delivery standards?|[System Architect](stakeholders.md#System-Architect)||
 |_unclear (need of explanation)|What delivery standards need to be provided?|[Hardware Developer](stakeholders.md#Hardware-Developer)||
 |_unclear (need of explanation)|What is the functional scope of each delivery standard?|||
 |_unclear (need of explanation)|What is the functional scope of each system delivery standard?|[Project Manager](stakeholders.md#Project-Manager), [System Architect](stakeholders.md#System-Architect)||
