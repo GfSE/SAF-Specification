@@ -6,14 +6,14 @@
 ## Example
 *none*
 ## Purpose
-The Operational Capability Traceability Viewpoint defines [tbd].
+The Operational Capability Traceability Viewpoint describes the relationships of Operational Capabilities. The reasoning for Operational Capabilities as support for Operational Stories and contribution of Operational Processes to Capabilities is described.
 ## Applicability
-The Operational Capability Traceability Viewpoint supports the "Business or Mission Analysis Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1] and contributes to the definition of capability(s).
+The Operational Capability Traceability Viewpoint supports the "Business or Mission Analysis Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1], and contributes to the definition of Operational Capabilities.
 ## Stakeholder
 ## Concern
 * Show in a concise manner the relationships from operational capability to operational story, to operational activity, and to operational performer.
 ## Presentation
-The relationships of Operational Capabilities to Operational Stories and to Operational Performers are represented in a table format.
+The relationships of Operational Capabilities to Operational Stories, and to Operational Process Activities are represented in a table.
 
 ## Profile Model Reference
 * [SAF_OperationalCapability](../stereotypes.md#SAF_OperationalCapability)
@@ -23,7 +23,7 @@ The relationships of Operational Capabilities to Operational Stories and to Oper
 * [SAF_OperationalCapabilitySupport](../stereotypes.md#SAF_OperationalCapabilitySupport)
 * [SAF_OperationalPerformerExhibit](../stereotypes.md#SAF_OperationalPerformerExhibit)
 * [SAF_OperationalProcess](../stereotypes.md#SAF_OperationalProcess)
-* [SAF_OperationalProcessMapping](../stereotypes.md#SAF_OperationalProcessMapping)
+* [SAF_OperationalProcessContribution](../stereotypes.md#SAF_OperationalProcessContribution)
 * [SAF_OperationalStory](../stereotypes.md#SAF_OperationalStory)
 * [SAF_SOV08a_View](../stereotypes.md#SAF_SOV08a_View)
 ## Input from other Viewpoints

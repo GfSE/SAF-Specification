@@ -45,7 +45,7 @@ Referring to a Stakeholder Requirement the dependency relation is <<derive>>, ot
 * [Stakeholder Requirement Viewpoint](Stakeholder-Requirement-Viewpoint.md)
 * [System Requirement Viewpoint](System-Requirement-Viewpoint.md)
 ### Recommended Viewpoints
-* [System UseCase Viewpoint](System-UseCase-Viewpoint.md)
+* [System Use Case Viewpoint](System-Use-Case-Viewpoint.md)
 * [System Context Exchange Viewpoint](System-Context-Exchange-Viewpoint.md)
 * [System Capability Viewpoint](System-Capability-Viewpoint.md)
 * [System Process Viewpoint](System-Process-Viewpoint.md)

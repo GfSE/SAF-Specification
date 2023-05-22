@@ -6,14 +6,16 @@
 ## Example
 ![FDN Context Exchange](../diagrams/FDN-Context-Exchange.svg)
 ## Purpose
-The Operational Context Exchange Viewpoint defines connectivity and exchange between Operational Performers.
+The Operational Context Exchange Viewpoint provides the Operational Exchange between Operational Performers of information, systems, personnel, energy, etc.
 ## Applicability
-The Operational Context Exchange Viewpoint supports the "Business or Mission Analysis Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1] and contributes to the problem or opportunity statement.
+The Operational Context Exchange Viewpoint supports the "Business or Mission Analysis Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1]. and contributes to the problem or opportunity statement.
 ## Stakeholder
 ## Concern
 * What operational exchange does the operational performers need to consume or provide?
 ## Presentation
-An internal block diagram (IBD) associated to an Operational Context showing the connected Operational Performers in their respective Operational Role and the Operational Exchange per connection.
+An internal block diagram (IBD) associated to the Operational Context defining the connected Operational Performers in their respective Operational Role, and the Operational Item Exchange per Operational Connection.
+
+A tabular format listing [tbd]
 
 ## Profile Model Reference
 * Connector [UML_Standard_Profile]

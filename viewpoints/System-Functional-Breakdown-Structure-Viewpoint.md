@@ -20,7 +20,7 @@ The System Functional Breakdown Strcuture Viewpoint supports the "System Require
 * [Software Developer](../stakeholders.md#Software-Developer)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* How are the system functions decomposed into sub-functions decomposed? 
+* How are the system functions decomposed into sub-functions ? 
 * What is the breakdown of functions into sub-functions?
 * Which functions will the system provide?
 ## Presentation

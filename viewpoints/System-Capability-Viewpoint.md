@@ -32,5 +32,5 @@ A Table featuring system capabilities, and their composition specialisation and 
 *none*
 ### Recommended Viewpoints
 * [Operational Capability Viewpoint](Operational-Capability-Viewpoint.md)
-* [System UseCase Viewpoint](System-UseCase-Viewpoint.md)
+* [System Use Case Viewpoint](System-Use-Case-Viewpoint.md)
 * [System Process Viewpoint](System-Process-Viewpoint.md)

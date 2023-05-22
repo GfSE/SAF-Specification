@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Functional](../domains.md#Domain-Functional)|[Interface](../aspects.md#Aspect-Interface)|![Under Construction](../diagrams/Under_construction_icon-yellow.svg )[under construction](../using-saf/maturity.md#under-construction)|
 ## Example
-![SOI Interface Definitions](../diagrams/SOI-Interface-Definitions.svg)
+![FFDS Interface Definition](../diagrams/FFDS-Interface-Definition.svg)
 ## Purpose
 The Functional Interface Definition Viewpoint provides definitions used on functional Interfaces used in the system context. It allows to structure interface definitions to improve clarity and managability.
 ## Applicability
@@ -17,10 +17,10 @@ A BDD featuring Interface Blocks with ports and flow properties. If ports are us
 A Table featuringt interface blocks and their ports and flow properties.
 
 ## Profile Model Reference
+* ItemFlow typed by SAF_DomainKind
 * ProxyPort typed by InterfaceBlock
 * FlowProperty contained in InterfaceBlock
 * FlowProperty typed by SAF_DomainKind
-* ItemFlow typed by SAF_DomainKind
 * Connector [UML_Standard_Profile]
 * FlowProperty [SysML Profile]
 * InterfaceBlock [SysML Profile]

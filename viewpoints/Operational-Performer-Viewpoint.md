@@ -9,14 +9,14 @@
 The Operational Performer Viewpoint represents the taxonomy of the identified Operational Performers, if existing and relevant for the understanding of the operation of the intended solution. 
 
 ## Applicability
-The Operational Performer Viewpoint supports the "Business or Mission Analysis Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1] and contributes to the problem or opportunity statement.
+The Operational Performer Viewpoint supports the "Business or Mission Analysis Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1], and contributes to the problem or opportunity statement.
 ## Stakeholder
 ## Concern
 * What are the relationships between the partys involved in the operation of the intended solution?
 * What partys of the organization, enterprise, or operational entity are needed to achieve an intended operational capability?
 * Which Operational Performer will operate or run the system?
 ## Presentation
-A block definition diagram (BDD) depicts Operational Performers and their relations in terms of decomposition or generalization at a level of detail required for the understanding and analysis. 
+A block definition diagram (BDD) depicting Operational Performers. and their relations in terms of decomposition or generalization at a level of detail required for the understanding and analysis. 
 Note: Identified Stakeholders are related to Operational Performers if appropriate.
 
 ## Profile Model Reference

@@ -10,9 +10,9 @@ The System Context Exchange Viewpoint serves for the identification and definiti
 * identifies System interfaces on a functional level
 * states to which External Entities the System interfaces are connected to
 * assigns Interface Documents to System Interfaces
-* defines the usage of interfaces, e.g. if only a subset of the interface is used
+* defines the usage of interfaces, e.g., if only a subset of the interface is used
 ## Applicability
-The System Context Exchange Viewpoint supports the "Prepare for Requirement Definition" activity included in "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.3] and contributes to the System Functional Interface identification.
+The System Context Exchange Viewpoint supports the "Prepare for Requirement Definition" activity included in "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.3], and contributes to the System Functional Interface identification.
 ## Stakeholder
 * [Acquirer](../stakeholders.md#Acquirer)
 * [Customer](../stakeholders.md#Customer)
@@ -34,9 +34,10 @@ The System Context Exchange Viewpoint supports the "Prepare for Requirement Defi
 * What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
 * Which information is exchanged between the system and external entities?
 ## Presentation
-An IBD featuring the SOI, the System Context Elements and connectors for each identified Interface from SOI to the respective Context Elements. An Interface is a connection resource for hooking on the SOI to other Context Elements. Item flows are defined for each exchange on the identified Interface. Connectors/ports may contain reference to the Interface Documents if applicable.
-Ports may be structured as appropriate to keep manage and structure the information
+An internal block diagram (IBD) featuring the SOI, the System Context Elements and connectors for each identified interface from SOI to the respective Context Elements. An interface is a connection resource for hooking on the SOI to other Context Elements. Item flows are defined for each exchange on the identified Interface. Connectors/ports may contain reference to the Interface Documents if applicable. Ports may be structured as appropriate to manage and structure the information.
 Note: more than one IBD focused on different areas of interest may be used in oder to keep the view comprehensive. Depending on the Stakeholder Concerns the Item Exchange information might be suppressed.
+
+A tabular format listing [tbd]
 
 ## Profile Model Reference
 * Connector [UML_Standard_Profile]

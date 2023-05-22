@@ -12,7 +12,7 @@ The System Functional Refinement Viewpoint supports the "Define System Requireme
 ## Stakeholder
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* How are the system functions decomposed into sub-functions decomposed? 
+* How are the system functions decomposed into sub-functions ? 
 * What is the breakdown of functions into sub-functions?
 ## Presentation
 Activity Diagram featuring System Partial Functions, functional exchange between partial functions. There are explicitely no Swimlanes and no allocations to structure.
