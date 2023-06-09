@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Operational](../domains.md#Domain-Operational)|[Mapping & Crossreference](../aspects.md#Aspect-Mapping-&-Crossreference)|![Under Construction](../diagrams/Under_construction_icon-yellow.svg )[under construction](../using-saf/maturity.md#under-construction)|
 ## Example
-*none*
+![SAR and FDN Operational Capability Traceability Table](../diagrams/SAR-and-FDN-Operational-Capability-Traceability-Table.svg)
 ## Purpose
 The Operational Capability Traceability Viewpoint describes the relationships of Operational Capabilities. The reasoning for Operational Capabilities as support for Operational Stories and contribution of Operational Processes to Capabilities is described.
 ## Applicability
