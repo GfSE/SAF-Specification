@@ -16,7 +16,7 @@ The Operational Capability Viewpoint supports the "Business or Mission Analysis 
 * What operational Capabilities are required for each phase and mode of operation?
 * What operational capabilities are defined?
 ## Presentation
-A block definition diagrams (BDD) featuring Operational Capabilities, and their composition, specialization, and dependency relationships.
+A block definition diagram (BDD) featuring Operational Capabilities, and their composition, specialization, and dependency relationships.
 
 ## Profile Model Reference
 * [SAF_OperationalCapability](../stereotypes.md#SAF_OperationalCapability)

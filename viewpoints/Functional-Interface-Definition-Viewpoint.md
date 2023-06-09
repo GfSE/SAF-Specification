@@ -17,10 +17,10 @@ A BDD featuring Interface Blocks with ports and flow properties. If ports are us
 A Table featuringt interface blocks and their ports and flow properties.
 
 ## Profile Model Reference
-* ItemFlow typed by SAF_DomainKind
 * ProxyPort typed by InterfaceBlock
-* FlowProperty contained in InterfaceBlock
+* ItemFlow typed by SAF_DomainKind
 * FlowProperty typed by SAF_DomainKind
+* FlowProperty contained in InterfaceBlock
 * Connector [UML_Standard_Profile]
 * FlowProperty [SysML Profile]
 * InterfaceBlock [SysML Profile]
