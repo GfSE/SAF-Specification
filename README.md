@@ -167,7 +167,7 @@ The SAF Common Domain provides viewpoints addressing model information that is c
 * Provides information on standards and documents that are applicable or are referred to within the model.
 
 ### Common Domain Viewpoints
-* Argumentation Assurance Viewpoint
+* [Argumentation Assurance Viewpoint](viewpoints/Assurance-Definition-Viewpoint.md)
 
 
 # Stakeholder Definition
