@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Common](../domains.md#Domain-Common)|[Structure](../aspects.md#Aspect-Structure)|![Under Construction](../diagrams/Under_construction_icon-yellow.svg )[under construction](../using-saf/maturity.md#under-construction)|
 ## Example
-*none*
+![FFDS Saftey Assurance Argumentation](../diagrams/FFDS-Safety-Assurance-Definition.svg)
 ## Purpose
 The Evidence Pattern Viewpoint presents claims backed up by arguments that are supported by evidence, together with the possibility to counter such claims in a similar manner.
 ## Applicability
