@@ -8,7 +8,7 @@
 ## Purpose
 The Operational Context Exchange Viewpoint provides the Operational Exchange between Operational Performers of information, systems, personnel, energy, etc.
 ## Applicability
-The Operational Context Exchange Viewpoint supports the "Business or Mission Analysis Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1]. and contributes to the problem or opportunity statement.
+The Operational Context Exchange Viewpoint supports the "Business or Mission Analysis Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1], and contributes to the problem or opportunity statement.
 ## Stakeholder
 ## Concern
 * What operational exchange does the operational performers need to consume or provide?

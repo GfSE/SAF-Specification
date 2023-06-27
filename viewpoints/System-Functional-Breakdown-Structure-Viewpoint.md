@@ -2,13 +2,13 @@
 # System Functional Breakdown Structure Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
-|[Functional](../domains.md#Domain-Functional)|[Structure](../aspects.md#Aspect-Structure)|![Under Construction](../diagrams/Under_construction_icon-yellow.svg )[under construction](../using-saf/maturity.md#under-construction)|
+|[Functional](../domains.md#Domain-Functional)|[Structure](../aspects.md#Aspect-Structure)|![Released](../diagrams/Symbol_confirmed.svg.png )[released](../using-saf/maturity.md#released)|
 ## Example
 ![FFDS Function Breakdown Structure Definition](../diagrams/FFDS-Function-Breakdown-Structure-Definition.svg)
 ## Purpose
-The System Functional Breakdown Strcuture Viewpoint defines the functional hierarchy of the SOI beginning with System Processes, over identified System Functions further refined down to partial Functions. The reuse of System Functions and System Partial Functions over Function Trees of the SOI is facilitated. 
+The System Functional Breakdown Structure Viewpoint defines the structured, modular breakdown of the SOI beginning with System Processes, over identified System Functions further refined down to System Partial Functions. The reuse of System Functions, and System Partial Functions over Function Trees of the SOI is facilitated. Unlike a Work Breakdown Structure (WBS), the Functional Breakdown Structure (FBS) is a function-oriented tree, not a product-oriented one.
 ## Applicability
-The System Functional Breakdown Strcuture Viewpoint supports the "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§4.3] and contributes to the System Function Definition.
+The System Functional Breakdown Strcuture Viewpoint supports the "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§4.3], and contributes to the System Function Definition.
 ## Stakeholder
 * [Acquirer](../stakeholders.md#Acquirer)
 * [Customer](../stakeholders.md#Customer)
@@ -24,16 +24,13 @@ The System Functional Breakdown Strcuture Viewpoint supports the "System Require
 * What is the breakdown of functions into sub-functions?
 * Which functions will the system provide?
 ## Presentation
-The content is in one or more more block definition diagrams (BDD) featuring activities representing System Processes, System Functions, System Partial Functions and aggregation repesenting the functional breakdown structure.
+The content is in one or more more block definition diagrams (BDD) featuring activities representing System Processes, System Functions, System Partial Functions, and aggregation repesenting the functional breakdown structure.
 
-Tool specific analysis diagram displaying the relationships between System Processes, System Functions and System Partial Functions.
+Tool specific analysis diagram displaying the relationships between System Processes, System Functions, and System Partial Functions.
 
 ## Profile Model Reference
 * Activity [UML_Standard_Profile]
-* Association [UML_Standard_Profile]
-* Association [UML_Standard_Profile]
-* Property [UML_Standard_Profile]
-* [SAF_FunctionAction](../stereotypes.md#SAF_FunctionAction)
+* [SAF_ContextFunction](../stereotypes.md#SAF_ContextFunction)
 * [SAF_SFV02c_View](../stereotypes.md#SAF_SFV02c_View)
 * [SAF_SystemFunction](../stereotypes.md#SAF_SystemFunction)
 * [SAF_SystemPartialFunction](../stereotypes.md#SAF_SystemPartialFunction)

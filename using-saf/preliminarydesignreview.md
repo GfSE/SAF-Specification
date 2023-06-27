@@ -40,14 +40,13 @@ The PDR is the "design to" review. That means, the design is based on the baseli
  * [System Requirement Traceability Viewpoint](../viewpoints/System-Requirement-Traceability-Viewpoint.md) (sascha) -> system req traceablity aufsplitten
  * [System State Viewpoint](../viewpoints/System-State-Viewpoint.md)
  * [System Use Case Viewpoint](../viewpoints/System-Use-Case-Viewpoint.md)
- * [Functional Interface Definition Viewpoint](../viewpoints/Functional-Interface-Definition-Viewpoint.md) (alex) -> das sind die interface blöcke
+ * [Functional Interface Definition Viewpoint](../viewpoints/Functional-Interface-Definition-Viewpoint.md)
  
  ## Viewpoints new for PDR
  * [Logical Structure Viewpoint](../viewpoints/Logical-Structure-Viewpoint.md)
  * [Logical Functional Assignment Viewpoint](../viewpoints/Logical-Functional-Assignment-Viewpoint.md)
  * [Logical Internal Interaction Viewpoint](../viewpoints/Logical-Internal-Interaction-Viewpoint.md)
  * [Logical Internal Exchange Viewpoint](../viewpoints/Logical-Internal-Exchange-Viewpoint.md)
- * Logical Interface Definition Viewpoint (wer macht es?)
  * [Physical Context Definition Viewpoint](../viewpoints/Physical-Context-Definition-Viewpoint.md) (michael)
  * [Physical Context Exchange Viewpoint](../viewpoints/Physical-Context-Exchange-Viewpoint.md) (michael)
  * [Physical Logical Assignment Viewpoint](../viewpoints/Physical-Logical-Assignment-Viewpoint.md) (michael)

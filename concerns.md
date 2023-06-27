@@ -35,14 +35,15 @@
 |_unclear (need of explanation)|What are the algorithms to be implemented?|[Software Developer](stakeholders.md#Software-Developer)||
 |_unclear (need of explanation)|What are the provided power inputs?|[Hardware Developer](stakeholders.md#Hardware-Developer)||
 |_unclear (need of explanation)|What are the replaceable system components?|[Maintainer](stakeholders.md#Maintainer)||
-|_unclear (need of explanation)|What are the system delivery standards?|[System Architect](stakeholders.md#System-Architect)||
 |_unclear (need of explanation)|What are the system delivery standards?|[Project Manager](stakeholders.md#Project-Manager)||
+|_unclear (need of explanation)|What are the system delivery standards?|[System Architect](stakeholders.md#System-Architect)||
 |_unclear (need of explanation)|What delivery standards need to be provided?|[Hardware Developer](stakeholders.md#Hardware-Developer)||
 |_unclear (need of explanation)|What is the functional scope of each delivery standard?|||
 |_unclear (need of explanation)|What is the functional scope of each system delivery standard?|[Project Manager](stakeholders.md#Project-Manager), [System Architect](stakeholders.md#System-Architect)||
 |_unclear (need of explanation)|What is the order information for each identified system element or component?|[Maintainer](stakeholders.md#Maintainer)||
 |_unclear (need of explanation)|What is the scope of a delivery standard?|[Hardware Developer](stakeholders.md#Hardware-Developer)||
 |_unclear (need of explanation)|Which versions of a HW item exist? (are versions the same as variants? or does it mean revisions?)|||
+|argumentation|How is a evidence-based claim supported?||[Argumentation Assurance Viewpoint](viewpoints/Argumentation-Assurance-Viewpoint.md)|
 |boundary & context|How is the system being used or utilized and interacting with other external systems to satisfy user needs?|[Acquirer](stakeholders.md#Acquirer) ***In my role, I need to check whether the system complies with the higher-level operating concept.***, [Customer](stakeholders.md#Customer), [IV&V Engineer](stakeholders.md#IV&V-Engineer) ***In my role. I need to take this into account when planning integration.***, [Operator](stakeholders.md#Operator), [System Architect](stakeholders.md#System-Architect) ***In my role, I need to pass on the resulting System Requirements to the subsystems.***, [User](stakeholders.md#User)|[System Context Interaction Viewpoint](viewpoints/System-Context-Interaction-Viewpoint.md), [System Use Case Viewpoint](viewpoints/System-Use-Case-Viewpoint.md)|
 |boundary & context|How is the system interacting with the identified external entities?||[System Context Exchange Viewpoint](viewpoints/System-Context-Exchange-Viewpoint.md), [System Process Viewpoint](viewpoints/System-Process-Viewpoint.md)|
 |boundary & context|How to connect the system or a system element to a test equipment?|[Maintainer](stakeholders.md#Maintainer)|[Physical Context Exchange Viewpoint](viewpoints/Physical-Context-Exchange-Viewpoint.md)|
@@ -68,7 +69,6 @@
 |capability|What is the lack / deficiency / gap in current capability implementation that is addressed with the intended solution?|[Acquirer](stakeholders.md#Acquirer), [Supplier](stakeholders.md#Supplier), [System Architect](stakeholders.md#System-Architect)||
 |capability|What operational Capabilities are required for each phase and mode of operation?||[Operational Capability Viewpoint](viewpoints/Operational-Capability-Viewpoint.md)|
 |capability|What operational capabilities are defined?|[Customer](stakeholders.md#Customer) ***In my role, I need to specify capabilities because the definition of capabilities allows communication about what is to be achieved to be separated from how it is achieved at an operational level.***, [Portfolio Manager](stakeholders.md#Portfolio-Manager) ***In my role, I need to plan the system capabilities to support operational capabilities.***|[Operational Capability Viewpoint](viewpoints/Operational-Capability-Viewpoint.md)|
-|evidence|How is a evidence-based claim supported?||[Evidence Definition Viewpoint](viewpoints/Evidence-Definition-Viewpoint.md)|
 |exchange & interface|What amount of bandwidth of a HW item interface will be consumed by the allocated software in the system?|||
 |exchange & interface|What are data / information items exchanged?|[Software Developer](stakeholders.md#Software-Developer)|[Logical Internal Exchange Viewpoint](viewpoints/Logical-Internal-Exchange-Viewpoint.md), [Physical Internal Exchange Viewpoint](viewpoints/Physical-Internal-Exchange-Viewpoint.md)|
 |exchange & interface|What are the formats of the exchanged items?|[Software Developer](stakeholders.md#Software-Developer)||

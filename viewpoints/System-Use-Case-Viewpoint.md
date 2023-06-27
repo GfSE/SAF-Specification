@@ -8,7 +8,7 @@
 ## Purpose
 The System Use Case Viewpoint provides an outside view on the system functionality from the perspective of the System Users and contributes to the definition of System Requirements and System Usage. The intended system use may be captured as free text use case description, as well as storytelling approach on a coarse level of detail. The main System Exchange Partners participating in the intended system use are identified. System use cases are related to a specific System Context.
 ## Applicability
-The System Use Case Viewpoint supports the "Stakeholder Needs and Requirements Definition Process" and "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§4.2 & §4.3], and contributes to the identification of both System Function and System Functional Interface.
+The System Use Case Viewpoint supports the "Stakeholder Needs and Requirements Definition Process", and "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§4.2 & §4.3], and contributes to the identification of both System Function and System Functional Interface.
 ## Stakeholder
 * [Acquirer](../stakeholders.md#Acquirer)
 * [Customer](../stakeholders.md#Customer)

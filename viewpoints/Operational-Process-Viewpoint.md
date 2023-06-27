@@ -6,16 +6,16 @@
 ## Example
 ![Fire Detection and Notification Process](../diagrams/Fire-Detection-and-Notification-Process.svg)
 ## Purpose
-The Operational Process Viewpoint describes the Operational Process Activities related to a specific Operational Story, the sequence of execution and/or their operational exchange. The assignment of Operational Process Activities to Operational Performers is captured.
+The Operational Process Viewpoint describes the Operational Processes related to a specific Operational Story, the sequence of execution, and their Operational Exchanges, including information, materials, natural resources, etc. The assignment of Operational Processes to Operational Performers is captured.
 ## Applicability
-The Operational Process Viewpoint supports the "Business or Mission Analysis Process" and the "Stakeholder Needs and Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1, § 4.2] and contributes to the definition of operational scenario(s).
+The Operational Process Viewpoint supports the "Business or Mission Analysis Process" and the "Stakeholder Needs and Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1, § 4.2], and contributes to the definition of operational scenarios.
 ## Stakeholder
 ## Concern
 * What operational process activitys shall be executed during the execution of an operational story?
 * Which operational activity shall be executed by which operational performer in the operational story?
 ## Presentation
-The Operational Process related to an Operational Story is represented in an activity diagram showing the ordered execution of Operational Process Activities. Operational Process Activities may be linked in terms of control flow and/or data flow visualizing Operational Exchange needed. 
-Note: Operational Process Activities are assigned to Operational Roles and therefore in a more general manner to the Operational Performers.
+The Operational Processes related to an Operational Story are represented in an activity diagram featuring the ordered execution of Operational Process Actions. Operational Processes may be linked in terms of control flow and/or data flow visualizing the Operational Exchanges needed. 
+Note: Operational Process Actions are assigned to Operational Roles and therefore in a more general manner to the Operational Performers.
 
 ## Profile Model Reference
 * Allocate [SysML Profile]
@@ -23,6 +23,7 @@ Note: Operational Process Activities are assigned to Operational Roles and there
 * InputPin [UML_Standard_Profile]
 * ObjectFlow [UML_Standard_Profile]
 * OutputPin [UML_Standard_Profile]
+* [SAF_OperationalDomainKind](../stereotypes.md#SAF_OperationalDomainKind)
 * [SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)
 * [SAF_OperationalProcess](../stereotypes.md#SAF_OperationalProcess)
 * [SAF_OperationalProcessAction](../stereotypes.md#SAF_OperationalProcessAction)

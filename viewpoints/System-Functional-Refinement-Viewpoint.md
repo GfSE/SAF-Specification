@@ -8,7 +8,7 @@
 ## Purpose
 The System Functional Refinement Viewpoint analyses decomposition of System Functions into System Partial Functions in order achieve understanding and agreement about the System functions sufficient to derive system  requirements.
 ## Applicability
-The System Functional Refinement Viewpoint supports the "Define System Requirements" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§4.3] defining System Functions level. The System Functional Refinement Viewpoint contributes to the System Function definition.
+The System Functional Refinement Viewpoint supports the "Define System Requirements" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§4.3]. The System Functional Refinement Viewpoint contributes to the System Function definition.
 ## Stakeholder
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
