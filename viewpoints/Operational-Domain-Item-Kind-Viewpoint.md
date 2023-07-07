@@ -6,14 +6,14 @@
 ## Example
 ![Operational Domain Item Definition](../diagrams/Operational-Domain-Item-Definition.svg)
 ## Purpose
-The Operational Domain Item Kind Viewpoint collects type definitions for any exchanged item of the Operational Domain. Its purpose is to define those item types and their relationships.
+The Operational Domain Item Kind Viewpoint captures enterprise wide concepts and collects type definitions for any exchanged item of the Operational Domain. Its purpose is to define these item types and their relationships.
 ## Applicability
-The Operational Domain Item Kind Viewpoint supports [tbd].
+The Operational Domain Item Kind Viewpoint supports the "Business or Mission Analysis Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1] and contributes to the problem or opportunity statement.
 ## Stakeholder
 ## Concern
 * What operational exchange does the operational performers need to consume or provide?
 ## Presentation
-Operational Domain Item Kinds are managed in the domain knowledge package of Enterprise. Operational Domain Item Kinds shall be value types or blocks. A BBD diagram featuring Operational Domain Item Kinds and their Relationships in terms of generalization, composition or general association shall be used.
+Operational Domain Item Kinds are managed in the domain knowledge package of Enterprise. Operational Domain Item Kinds shall be value types or blocks. A block definition diagram (BDD) featuring Operational Domain Item Kinds and their Relationships in terms of generalization, composition or general association shall be used.
 
 ## Profile Model Reference
 * ItemFlow [SysML Profile]

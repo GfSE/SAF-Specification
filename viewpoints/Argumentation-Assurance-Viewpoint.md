@@ -21,14 +21,14 @@ A block definition diagram (BDD) featuring a claim-argument-evidence (C-A-E) pat
 * [SAF_Claim](../stereotypes.md#SAF_Claim)
 * [SAF_ClaimAboutSubjectMaking](../stereotypes.md#SAF_ClaimAboutSubjectMaking)
 * [SAF_ClaimClaimableItemSupport](../stereotypes.md#SAF_ClaimClaimableItemSupport)
+* [SAF_Claimant](../stereotypes.md#SAF_Claimant)
 * [SAF_ClaimantClaimMaking](../stereotypes.md#SAF_ClaimantClaimMaking)
 * [SAF_CounterClaim](../stereotypes.md#SAF_CounterClaim)
-* [SAF_CounterClaimClaimableItemCountering](../stereotypes.md#SAF_CounterClaimClaimableItemCountering)
+* [SAF_CounterClaimClaimableItemMaking](../stereotypes.md#SAF_CounterClaimClaimableItemMaking)
 * [SAF_Evidence](../stereotypes.md#SAF_Evidence)
 * [SAF_EvidenceArgumentReinforcement](../stereotypes.md#SAF_EvidenceArgumentReinforcement)
+* [SAF_Refuter](../stereotypes.md#SAF_Refuter)
 * [SAF_SCV02a_View](../stereotypes.md#SAF_SCV02a_View)
-* [SAF_Stakeholder](../stereotypes.md#SAF_Stakeholder)
-* [SAF_Stakeholder](../stereotypes.md#SAF_Stakeholder)
 * [SAF_Subject](../stereotypes.md#SAF_Subject)
 ## Input from other Viewpoints
 ### Required Viewpoints

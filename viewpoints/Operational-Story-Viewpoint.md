@@ -12,7 +12,7 @@ The Operational Story Viewpoint
 * serves as starting point to identify Stakeholders and/or context elements
 * fosters the communication among different Stakeholders
 ## Applicability
-The Operational Story Viewpoint supports the "Business or Mission Analysis Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1], and contributes to the problem or opportunity statement.
+The Operational Story Viewpoint supports the "Business or Mission Analysis Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1] and contributes to the problem or opportunity statement.
 ## Stakeholder
 ## Concern
 * What are the operational scenarios(Operational Stories) relevant to the system?
