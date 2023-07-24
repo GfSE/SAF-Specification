@@ -30,7 +30,7 @@ realized by Stereotype [SAF_Claimant](../../stereotypes.md#SAF_Claimant)
 
 A party asserting claims.
 ## Compliance Statement
-Used in the communication between Stakeholder (Customer) and Contractor. Compliance Statements are the first answer to the Stakeholder Requirements, and are usually together with the Stakeholder Requirements part of the contract. They are valuable input for system development and System Requirement elicitation. Information status:
+Used in the communication between Stakeholder (Customer) and Contractor. Compliance Statements are the first answer to the Stakeholder Requirements and are usually together with the Stakeholder Requirements part of the contract. They are valuable input for the System development and System Requirement elicitation. Information status:
 * not compliant (with explanation / rationale)
 * partially compliant (with explanation / rationale)
 * fully compliant
@@ -155,17 +155,17 @@ realized by Stereotype ProxyPort
 
 Specifies the existence of an interaction point on Logical Level.
 ## Logical Interface Connection Point Definition
-exposed in viewpoint [Functional Interface Definition Viewpoint](../../viewpoints/Functional-Interface-Definition-Viewpoint.md)
-
 exposed in viewpoint [Logical Internal Exchange Viewpoint](../../viewpoints/Logical-Internal-Exchange-Viewpoint.md)
 
 exposed in viewpoint [System Context Exchange Viewpoint](../../viewpoints/System-Context-Exchange-Viewpoint.md)
+
+exposed in viewpoint [System Functional Interface Definition Viewpoint](../../viewpoints/System-Functional-Interface-Definition-Viewpoint.md)
 
 realized by Stereotype InterfaceBlock
 
 Specifies a certain kind of an interaction point on Logical Level.
 ## Logical Interface Property
-exposed in viewpoint [Functional Interface Definition Viewpoint](../../viewpoints/Functional-Interface-Definition-Viewpoint.md)
+exposed in viewpoint [System Functional Interface Definition Viewpoint](../../viewpoints/System-Functional-Interface-Definition-Viewpoint.md)
 
 realized by Stereotype FlowProperty
 
@@ -204,13 +204,13 @@ realized by Stereotype [SAF_LogicalUser](../../stereotypes.md#SAF_LogicalUser)
 A human representation in the Logical Domain, outside the SOI scope, interacting with the SOI.
 ## Need
 A User has a Need in order to reach a certain Goal.
-NOTE: "Buying sugar to bake a birthday cake".
+Note: "Buying sugar to bake a birthday cake".
 ## Non-functional Requirement
 exposed in viewpoint [System Requirement Viewpoint](../../viewpoints/System-Requirement-Viewpoint.md)
 
 realized by Stereotype [SAF_SystemNonFunctionalRequirement](../../stereotypes.md#SAF_SystemNonFunctionalRequirement)
 
-Non-functional Requirements specify the quality of the functions or non-functional requests like legal conformance.
+Non-Functional Requirements specify the quality of System Functions, or non-functional requests like legal conformance.
 ## Operational Capability
 exposed in viewpoint [Operational Capability Traceability Viewpoint](../../viewpoints/Operational-Capability-Traceability-Viewpoint.md)
 
@@ -316,7 +316,7 @@ exposed in viewpoint [System Use Case Viewpoint](../../viewpoints/System-Use-Cas
 realized by Stereotype [SAF_OperationalStory](../../stereotypes.md#SAF_OperationalStory)
 
 The Operational Story represents one or more Operational Use Cases in the Usage Scenario identified by the Operational Context. The Operational Story is described as narrative story-telling.
-## Physical Compatibility Assertion
+## Physical Compatibility Claim
 specifies that two interface connection point definitions are compatible, and how the Physical interface properties are mapped.
 ## Physical Context Element
 Abstract element of a System Context  in the Physical Domain, outside the SOI scope, interacting with the SOI.
@@ -431,7 +431,7 @@ exposed in viewpoint [System Requirement Viewpoint](../../viewpoints/System-Requ
 
 realized by Stereotype [SAF_StakeholderRequirement](../../stereotypes.md#SAF_StakeholderRequirement)
 
-A Stakeholder Requirement is a Requirement imposed by a Stakeholder. Stakeholders Concerns are refined by Stakeholder Requirements applicable for the SOI. The Stakeholder Requirements are a result of discussions and agreement of how the SOI addresses the concerns of the respective Stakeholder.
+A Stakeholder Requirement is a Requirement imposed by a Stakeholder. Stakeholder Concerns are refined by Stakeholder Requirements applicable for the SOI. The Stakeholder Requirements are a result of discussions and agreements of how the SOI addresses the Concerns of the respective Stakeholder.
 ## Structural Item
 Basic concept of an Item of a structure.
 ## Subject
@@ -442,6 +442,8 @@ realized by Stereotype [SAF_Subject](../../stereotypes.md#SAF_Subject)
 Note: A claim can not be generic, it have to be about something, it has to have a defined subject, e.g., system safety.
 ## System Capability
 exposed in viewpoint [System Capability Viewpoint](../../viewpoints/System-Capability-Viewpoint.md)
+
+exposed in viewpoint [System Requirement Traceability Viewpoint](../../viewpoints/System-Requirement-Traceability-Viewpoint.md)
 
 realized by Stereotype [SAF_SystemCapability](../../stereotypes.md#SAF_SystemCapability)
 
@@ -456,9 +458,9 @@ Defines a context for a System of Interest.
 ## System Context Element
 An abstract element of the SOI context. Base class for specific kinds of context elements.
 ## System Domain Kind
-exposed in viewpoint [Functional Interface Definition Viewpoint](../../viewpoints/Functional-Interface-Definition-Viewpoint.md)
-
 exposed in viewpoint [System Domain Item Kind Viewpoint](../../viewpoints/System-Domain-Item-Kind-Viewpoint.md)
+
+exposed in viewpoint [System Functional Interface Definition Viewpoint](../../viewpoints/System-Functional-Interface-Definition-Viewpoint.md)
 
 realized by Stereotype [SAF_DomainKind](../../stereotypes.md#SAF_DomainKind)
 
@@ -506,7 +508,7 @@ exposed in viewpoint [System Requirement Traceability Viewpoint](../../viewpoint
 
 realized by Stereotype [SAF_SystemRequirement](../../stereotypes.md#SAF_SystemRequirement)
 
-System Requirements specify functions, non-functional properties, or constraints of the System.
+System Requirements specify System Functions, non-functional properties, or constraints of the System.
 ## System State
 exposed in viewpoint [System State Viewpoint](../../viewpoints/System-State-Viewpoint.md)
 
@@ -530,7 +532,7 @@ exposed in viewpoint [Stakeholder Requirement Viewpoint](../../viewpoints/Stakeh
 realized by Stereotype [SAF_SystemOfInterestConcern](../../stereotypes.md#SAF_SystemOfInterestConcern)
 
 Any kind of interest a Stakeholder has. 
-Noe: Redundant with the meaning of "Need"?
+Note: Redundant with the meaning of "Need"?
 ## System of Interest Stakeholder
 exposed in viewpoint [Operational Performer Viewpoint](../../viewpoints/Operational-Performer-Viewpoint.md)
 
@@ -540,19 +542,19 @@ exposed in viewpoint [Stakeholder Requirement Viewpoint](../../viewpoints/Stakeh
 
 realized by Stereotype [SAF_Stakeholder](../../stereotypes.md#SAF_Stakeholder)
 
-An individual, team, or organization (or classes thereof) with interests in, or concerns relative to, a system. It may be involved in any life cycle phase of the System. The Stakeholder represents a class or kind of Stakeholders. Stakeholders also have a certain Involvement: Stakeholder involvement captures the influence of a project specific Stakeholder on the System. Stakeholder Involvement is characterized by
+An individual, team, or organization (or classes thereof) with interests in, or concerns relative to, a system. It may be involved in any life cycle phase of the System. The Stakeholder represents a class or kind of Stakeholders. Stakeholders have a certain involvement: Stakeholder Involvement captures the influence of a project specific Stakeholder on the System. Stakeholder Involvement is characterized by
 * Contact Person
 * Kind of involvement
 * Life Cycle Phases involved
 * Relevance decision if and up to which degree Stakeholder is considered
-* Rationale for decision if Stakeholder is not considered
+* Rationale for decision when Stakeholder is not considered
 ## Triggering Event
 realized by Metaclass Event
 
 
 ## User
 Representation for a human in the Logical Domain, outside the SOI scope, interacting with the SOI.
-NOTE: This seems to be highly redundant with definition "Role".
+Note: This seems to be highly redundant with definition of "Role".
 # Association Concepts
 ## AGTsupportingCLM
 0..* [Argument](#Argument) AGTsupportingCLM 1..* [Claim](#Claim) 
@@ -627,7 +629,7 @@ exposed in viewpoint [System Requirement Viewpoint](../../viewpoints/System-Requ
 
 realized by Stereotype [SAF_SystemFunctionalRequirementConstraint](../../stereotypes.md#SAF_SystemFunctionalRequirementConstraint)
 
-Specifies the fact that a Non-functional Requirement constrains a Functional Requirement.
+Specifies the fact that a Non-Functional Requirement constrains Functional Requirements.
 ## FRrefiningSFN
 1..* [Functional Requirement](#Functional-Requirement) FRrefiningSFN 1 [System Function](#System-Function) 
 
@@ -635,7 +637,7 @@ exposed in viewpoint [System Requirement Traceability Viewpoint](../../viewpoint
 
 realized by Stereotype [SAF_SystemFunctionalRequirementRefinement](../../stereotypes.md#SAF_SystemFunctionalRequirementRefinement)
 
-Specifies the fact that a Functional Activity is refined by a Functional Requirement.
+Specifies the fact that a System Function is refined by Functional Requirements.
 ## GFFbeingPartOF
 0..* [General Functional Flow](#General-Functional-Flow) GFFbeingPartOF 1 [Functional Usage](#Functional-Usage) 
 
@@ -772,7 +774,7 @@ Specifies, that a Logical Item Exchange is constrained to be implemented by a ce
 ## LIPspecifyingDetailOfLICD
 0..* [Logical Interface Property](#Logical-Interface-Property) LIPspecifyingDetailOfLICD 1 [Logical Interface Connection Point Definition](#Logical-Interface-Connection-Point-Definition) 
 
-exposed in viewpoint [Functional Interface Definition Viewpoint](../../viewpoints/Functional-Interface-Definition-Viewpoint.md)
+exposed in viewpoint [System Functional Interface Definition Viewpoint](../../viewpoints/System-Functional-Interface-Definition-Viewpoint.md)
 
 Specifies the fact that a Logical Interface Property is a detail of a Logical Interface Connection Definition.
 ## LIScontainingLCM
@@ -926,11 +928,11 @@ Specifies the fact that an Operational Story is refined by Operational Processes
 
 Specifies the fact that an Operational Story happens in a certain Operational Context. When parts of an Operational Story do happen in several contexts, they shall be duplicated.
 ## PCAappliesToPIC
-0..* [Physical Interface Connection](#Physical-Interface-Connection) PCAappliesToPIC 0..1 [Physical Compatibility Assertion](#Physical-Compatibility-Assertion) 
+0..* [Physical Interface Connection](#Physical-Interface-Connection) PCAappliesToPIC 0..1 [Physical Compatibility Claim](#Physical-Compatibility-Claim) 
 
 specifies that a Physical Compatibility Assertion shall apply to an Physical Interface Connection
 ## PCAassertsCompatibiltyForPICD
-1 [Physical Compatibility Assertion](#Physical-Compatibility-Assertion) PCAassertsCompatibiltyForPICD 2 [Physical Interface Connection Point Definition](#Physical-Interface-Connection-Point-Definition) 
+1 [Physical Compatibility Claim](#Physical-Compatibility-Claim) PCAassertsCompatibiltyForPICD 2 [Physical Interface Connection Point Definition](#Physical-Interface-Connection-Point-Definition) 
 
 specifies the Physical Interface Connection Point definitions the Physical Compatibility Assertion is valid for.
 ## PEKisAssignedToPL
@@ -1067,7 +1069,7 @@ Specifies the fact that a System Domain Kind defines the type of a Logical Item 
 ## SDKtypingLIP
 1 [System Domain Kind](#System-Domain-Kind) SDKtypingLIP 0..* [Logical Interface Property](#Logical-Interface-Property) 
 
-exposed in viewpoint [Functional Interface Definition Viewpoint](../../viewpoints/Functional-Interface-Definition-Viewpoint.md)
+exposed in viewpoint [System Functional Interface Definition Viewpoint](../../viewpoints/System-Functional-Interface-Definition-Viewpoint.md)
 
 Specifies the fact that a System Domain Kind defines the type of a Logical Interface Exchange Property.
 ## SFNallocatedToAPE
@@ -1084,7 +1086,7 @@ Note, that this can be derived from Function usages of System Functions allocate
 ## SFNboundedByNFR
 1 [System Function](#System-Function) SFNboundedByNFR 0..* [Non-functional Requirement](#Non-functional-Requirement) 
 
-Specifies the fact that a Non-functional Requirement constrains a System Function.
+Specifies the fact that a Non-functional Requirement constrains System Functions.
 ## SFNresultingInSSE
 0..* [System Function](#System-Function) SFNresultingInSSE 0..* [System State](#System-State) 
 
@@ -1112,11 +1114,11 @@ exposed in viewpoint [Stakeholder Requirement Viewpoint](../../viewpoints/Stakeh
 
 realized by Stereotype [SAF_StakeholderRequirementRefinement](../../stereotypes.md#SAF_StakeholderRequirementRefinement)
 
-Specifies the fact that a Concern is refined by Stakeholder Requirements.
+Specifies the fact that a Stakeholder Concern is refined by Stakeholder Requirements.
 ## SHRrefiningOCY
 0..* [Stakeholder Requirement](#Stakeholder-Requirement) SHRrefiningOCY 0..* [Operational Capability](#Operational-Capability) 
 
-Specifies the fact that a Stakeholder Requirement is derived from (a subset of) Operational Capabilities.
+Specifies the fact that an Operational Capability is refined by Stakeholder Requirements.
 ## SHRrefiningOSY
 0..* [Stakeholder Requirement](#Stakeholder-Requirement) SHRrefiningOSY 0..* [Operational Story](#Operational-Story) 
 
@@ -1173,7 +1175,8 @@ exposed in viewpoint [System Requirement Viewpoint](../../viewpoints/System-Requ
 
 realized by Stereotype [SAF_SystemRequirementDerivation](../../stereotypes.md#SAF_SystemRequirementDerivation)
 
-Specifies the fact that a System Requirement is derived from a Stakeholder Requirement. Note: This is the relationship of requirements of different architectural levels, when the team responsible for the subsystem has direct access to the full upstream requirements set, then no subcontractor relationship needs to be established.
+Specifies the fact that System Requirements are derived from a Stakeholder Requirement. 
+Note: This is the relationship of requirements of different architectural levels. When the team responsible for the subsystem has direct access to the full upstream requirements set, then no subcontractor relationship needs to be established.
 ## SRrefiningLICP
 0..* [System Requirement](#System-Requirement) SRrefiningLICP 0..* [Logical Interface Connection Point](#Logical-Interface-Connection-Point) 
 
@@ -1182,6 +1185,14 @@ exposed in viewpoint [System Requirement Traceability Viewpoint](../../viewpoint
 realized by Stereotype [SAF_SystemRequirementRefinement](../../stereotypes.md#SAF_SystemRequirementRefinement)
 
 
+## SRrefiningSCY
+0..* [System Requirement](#System-Requirement) SRrefiningSCY 0..* [System Capability](#System-Capability) 
+
+exposed in viewpoint [System Requirement Traceability Viewpoint](../../viewpoints/System-Requirement-Traceability-Viewpoint.md)
+
+realized by Stereotype [SAF_SystemRequirementRefinement](../../stereotypes.md#SAF_SystemRequirementRefinement)
+
+Specifies the fact that a System Capability is refined by System Requirements.
 ## SRrefiningSUC
 0..* [System Requirement](#System-Requirement) SRrefiningSUC 0..* [System Use Case](#System-Use-Case) 
 
@@ -1189,7 +1200,7 @@ exposed in viewpoint [System Requirement Traceability Viewpoint](../../viewpoint
 
 realized by Stereotype [SAF_SystemRequirementRefinement](../../stereotypes.md#SAF_SystemRequirementRefinement)
 
-Specifies the fact that a System Requirement refines a System Story.
+Specifies the fact that a System Use Case is refined by System Requirements.
 ## SSEperformingSFN
 0..* [System State](#System-State) SSEperformingSFN 0..* [System Function](#System-Function) 
 
@@ -1203,7 +1214,7 @@ exposed in viewpoint [Stakeholder Identification Viewpoint](../../viewpoints/Sta
 
 exposed in viewpoint [Stakeholder Requirement Viewpoint](../../viewpoints/Stakeholder-Requirement-Viewpoint.md)
 
-Specifies the fact that a Stakeholders has certain Concerns.
+Specifies the fact that a Stakeholder has certain Concerns.
 ## SSHrelatedToSSH
 1 [System of Interest Stakeholder](#System-of-Interest-Stakeholder) SSHrelatedToSSH 0..* [System of Interest Stakeholder](#System-of-Interest-Stakeholder) 
 
@@ -1231,11 +1242,9 @@ Specifies the fact that a SOI Stakeholder represents a System Context Element.
 ## SSHrepresentingUSR
 1 [System of Interest Stakeholder](#System-of-Interest-Stakeholder) SSHrepresentingUSR 0..* [User](#User) 
 
-Specifies the fact that an User is represented by a Stakeholder.
+Specifies the fact that an User is represented by Stakeholders.
 ## SUCcontributingToOSY
 0..* [System Use Case](#System-Use-Case) SUCcontributingToOSY 0..* [Operational Story](#Operational-Story) 
-
-exposed in viewpoint [System Requirement Traceability Viewpoint](../../viewpoints/System-Requirement-Traceability-Viewpoint.md)
 
 exposed in viewpoint [System Use Case Viewpoint](../../viewpoints/System-Use-Case-Viewpoint.md)
 
@@ -1267,7 +1276,7 @@ Specifies the fact that a System Use Case includes other System Use Cases. The i
 ## SUCrefiningSHR
 0..1 [System Use Case](#System-Use-Case) SUCrefiningSHR 0..* [Stakeholder Requirement](#Stakeholder-Requirement) 
 
-Specifies the fact that a System UseCase refines a Stakeholder Requirement.
+Specifies the fact that a Stakeholder Requirement is refined by System Use Cases.
 ## SUCsynthesizingCFN
 1..* [System Use Case](#System-Use-Case) SUCsynthesizingCFN 0..* [Context Function](#Context-Function) 
 

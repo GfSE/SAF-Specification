@@ -12,6 +12,8 @@
 | SFNsupportingSCY | Specifies the fact that a System Function supports one or more System Capabilities.|
 | SPScontributingToSCY | Specifies the fact that an System Process contributes to providing System Capabilities.|
 | SPSrefiningSUC | Specifies the fact that a System Use Case is refined by one System Process.|
+| SRderivingFromSR | Specifies the fact that System Requirements are derived from a Stakeholder Requirement. <br>Note: This is the relationship of requirements of different architectural levels. When the team responsible for the subsystem has direct access to the full upstream requirements set, then no subcontractor relationship needs to be established.|
+| SRrefiningSCY | Specifies the fact that a System Capability is refined by System Requirements.|
 | SUCcontributingToOSY | Specifies the fact that a System Use Case contributes to an Operational Story.|
 | SUCincludingSUC | Specifies the fact that a System Use Case includes other System Use Cases. The included use case is then no longer a full System Use Case, but a partial System Use Case.|
 | SUCsynthesizingSFN | Specifies the fact that a System Function is used in a System Use Case, e.g., as a Trigger, Task, or Action related to the System Use Case. This is a derived relationship.|
@@ -19,4 +21,5 @@
 | System Function | A System Function in SAF <br> * accepts input from the system boundary <br> * exposes its output at the system boundary<br> * changes the system's state/mode<br> * is dependent of system's state/mode<br>A SAF System Function does not need to have observable output, when it changes the systems state in a way that is observable by other system functions.<br>A SAF System Function does not need to accept any input from the system boundary, when it is dependent from system state, which in turn is changeable by other system functions.|
 | System Function IN System Process | Specifies the fact that a System Function is used in a System Process .|
 | System Process | A sequence of Actions or Tasks carried out by the SOI or an External Entity.|
+| System Requirement | System Requirements specify System Functions, non-functional properties, or constraints of the System.|
 | System Use Case | The System Use Cases are a table of content of the services provided by the System of Interest to its System Actors. A System Use Case is only the abstract of the depicted System behavior and represents the purpose. While the main System of Interest interaction actors participating in this Use Case are identified, the behavior itself is specified by a Use Case Activity, <br>Note: The intended use (and also misuse in so called "black use cases") of the System of Interest is captured in free text; story telling at a coarse level of detail which is understandable to Customers (non engineering stakeholders in general).|

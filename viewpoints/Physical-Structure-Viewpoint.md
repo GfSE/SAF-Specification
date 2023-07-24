@@ -1,5 +1,5 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
-# Physical Structure Viewpoint
+# SAF User Documentation : Physical Structure Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Physical](../domains.md#Domain-Physical)|[Structure](../aspects.md#Aspect-Structure)|![Under Construction](../diagrams/Under_construction_icon-yellow.svg )[under construction](../using-saf/maturity.md#under-construction)|

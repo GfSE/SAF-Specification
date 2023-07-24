@@ -1,5 +1,5 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
-# Functional Interface Definition Viewpoint
+# SAF User Documentation : System Functional Interface Definition Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Functional](../domains.md#Domain-Functional)|[Interface](../aspects.md#Aspect-Interface)|![Released](../diagrams/Symbol_confirmed.svg.png )[released](../using-saf/maturity.md#released)|
@@ -17,10 +17,10 @@ A BDD featuring Interface Blocks with ports and flow properties. If ports are us
 A Table featuringt interface blocks and their ports and flow properties.
 
 ## Profile Model Reference
-* ProxyPort typed by InterfaceBlock
 * ItemFlow typed by SAF_DomainKind
-* FlowProperty typed by SAF_DomainKind
+* ProxyPort typed by InterfaceBlock
 * FlowProperty contained in InterfaceBlock
+* FlowProperty typed by SAF_DomainKind
 * Connector [UML_Standard_Profile]
 * FlowProperty [SysML Profile]
 * InterfaceBlock [SysML Profile]

@@ -1,5 +1,5 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
-# Logical Internal Interaction Viewpoint
+# SAF User Documentation : Logical Internal Interaction Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Logical](../domains.md#Domain-Logical)|[Interaction & Collaboration](../aspects.md#Aspect-Interaction-&-Collaboration)|![Released](../diagrams/Symbol_confirmed.svg.png )[released](../using-saf/maturity.md#released)|

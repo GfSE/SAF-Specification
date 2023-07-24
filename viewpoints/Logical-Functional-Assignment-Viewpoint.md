@@ -1,5 +1,5 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
-# Logical Functional Assignment Viewpoint
+# SAF User Documentation : Logical Functional Assignment Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Logical](../domains.md#Domain-Logical)|[Mapping & Crossreference](../aspects.md#Aspect-Mapping-&-Crossreference)|![Released](../diagrams/Symbol_confirmed.svg.png )[released](../using-saf/maturity.md#released)|
@@ -15,7 +15,7 @@ The Logical Function Allocation Viewpoint supports the "System Architecture Defi
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
 * Which (system and system partial) functions are assigned to a logical item and logical item components?
-NOTE: if allocation of usage is used, then allocation of definition is a derived relationship XOR.
+Note: if allocation of usage is used, then allocation of definition is a derived relationship XOR.
 ## Presentation
 A  Logical Functional Assignment Matrix featuring
 * the call behavior action representing usage of System Functions and or System Partial Functions

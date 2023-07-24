@@ -1,7 +1,7 @@
 ![System Architecture Framework](diagrams/Logo_SAF.png)
 # SAF User Documentation : Viewpoint Concerns
 |Package|Concern|Stakeholder & Rationale|Viewpoint|
-| --- | --- | --- | --- |
+|--|--|--|--|
 |_ISO29148|How do system capabilities depend on system modes?||[ISO 29148 OpsCon](viewpoints/ISO-29148-OpsCon.md)|
 |_ISO29148|To which proposed system does the OpsCon apply?||[ISO 29148 OpsCon](viewpoints/ISO-29148-OpsCon.md)|
 |_ISO29148|What are assumptions and constraints imposed on the system?||[ISO 29148 OpsCon](viewpoints/ISO-29148-OpsCon.md)|
@@ -107,8 +107,7 @@
 |organization|Have the logical decomposition guidelines been followed?|[System Architect](stakeholders.md#System-Architect)||
 |organization|In which systems (projects?) is the HW item used?|||
 |organization|What Performers or Resources are necessary to operate the intended solution?|[Acquirer](stakeholders.md#Acquirer), [System Architect](stakeholders.md#System-Architect)|[Operational Context Definition Viewpoint](viewpoints/Operational-Context-Definition-Viewpoint.md)|
-|organization|What are the differences of the HW item in different projects
-(clarify, is this the same as the question for variants?)|||
+|organization|What are the differences of the HW item in different projects<BR>(clarify, is this the same as the question for variants?)|||
 |organization|What are the normal and extreme environmental conditions for normal operation, for not operational, for storage and for transport?|[Acquirer](stakeholders.md#Acquirer), [Customer](stakeholders.md#Customer), [Hardware Developer](stakeholders.md#Hardware-Developer), [Supplier](stakeholders.md#Supplier), [System Architect](stakeholders.md#System-Architect)|[Stakeholder Requirement Viewpoint](viewpoints/Stakeholder-Requirement-Viewpoint.md)|
 |organization|What are the relationships between the partys involved in the operation of the intended solution?||[Operational Performer Viewpoint](viewpoints/Operational-Performer-Viewpoint.md)|
 |organization|What existing elements of the organization, enterprise, or operational entity need to be integrated in the intended solution?|[Acquirer](stakeholders.md#Acquirer), [System Architect](stakeholders.md#System-Architect)||
@@ -182,7 +181,7 @@
 |stakeholder|How to involve a Stakeholder and to what degree?||[Stakeholder Identification Viewpoint](viewpoints/Stakeholder-Identification-Viewpoint.md)|
 |stakeholder|In which life cycles is a Stakeholder involved in the project?||[Stakeholder Identification Viewpoint](viewpoints/Stakeholder-Identification-Viewpoint.md)|
 |stakeholder|What are the consequences not considering a Stakeholder?||[Stakeholder Identification Viewpoint](viewpoints/Stakeholder-Identification-Viewpoint.md)|
-|stakeholder|What are the consequences, if the Stakeholder’s concerns are not considered?|[System Architect](stakeholders.md#System-Architect)||
+|stakeholder|What are the consequences, if the Stakeholderâs concerns are not considered?|[System Architect](stakeholders.md#System-Architect)||
 |stakeholder|What concerns does a Stakeholder have?||[Stakeholder Identification Viewpoint](viewpoints/Stakeholder-Identification-Viewpoint.md)|
 |stakeholder|What impact does a Stakeholder have on the project?||[Stakeholder Identification Viewpoint](viewpoints/Stakeholder-Identification-Viewpoint.md)|
 |stakeholder|What relevant relations and influences exist between Stakeholders?||[Stakeholder Identification Viewpoint](viewpoints/Stakeholder-Identification-Viewpoint.md)|
@@ -214,8 +213,7 @@
 |traceability & allocation|What is the allocation of functions to the physical architecture?|[Hardware Developer](stakeholders.md#Hardware-Developer) ***In my role, I need to implement the realization of sub-functions by my HW subsystem.***, [Software Developer](stakeholders.md#Software-Developer) ***In my role, I need to implement the realization of sub-functions by my SW subsystem.***, [System Architect](stakeholders.md#System-Architect) ***In my role. I need to delegate the realization of sub-function by HW & SW subsystems.***|[Physical Functional Assignment Viewpoint](viewpoints/Physical-Functional-Assignment-Viewpoint.md)|
 |traceability & allocation|What is the rationale for this system requirement?||[System Requirement Traceability Viewpoint](viewpoints/System-Requirement-Traceability-Viewpoint.md)|
 |traceability & allocation|What is the rationale when requirements are not considered?|[Customer](stakeholders.md#Customer), [Project Manager](stakeholders.md#Project-Manager), [Regulation Authority](stakeholders.md#Regulation-Authority), [Safety Expert](stakeholders.md#Safety-Expert), [Security Expert](stakeholders.md#Security-Expert), [System Architect](stakeholders.md#System-Architect)||
-|traceability & allocation|Which (system and system partial) functions are assigned to a logical item and logical item components?
-NOTE: if allocation of usage is used, then allocation of definition is a derived relationship XOR.|[Hardware Developer](stakeholders.md#Hardware-Developer) ***In my role. I need to take this into account when planning realization.***, [Software Developer](stakeholders.md#Software-Developer) ***In my role. I need to take this into account when planning implementation.***, [System Architect](stakeholders.md#System-Architect)|[Logical Functional Assignment Viewpoint](viewpoints/Logical-Functional-Assignment-Viewpoint.md)|
+|traceability & allocation|Which (system and system partial) functions are assigned to a logical item and logical item components?<BR>Note: if allocation of usage is used, then allocation of definition is a derived relationship XOR.|[Hardware Developer](stakeholders.md#Hardware-Developer) ***In my role. I need to take this into account when planning realization.***, [Software Developer](stakeholders.md#Software-Developer) ***In my role. I need to take this into account when planning implementation.***, [System Architect](stakeholders.md#System-Architect)|[Logical Functional Assignment Viewpoint](viewpoints/Logical-Functional-Assignment-Viewpoint.md)|
 |traceability & allocation|Which Stakeholder Requirements are addressed by System Requirements?|[Project Manager](stakeholders.md#Project-Manager) ***In my role, I need to check whether we fulfill our contract.***|[System Requirement Traceability Viewpoint](viewpoints/System-Requirement-Traceability-Viewpoint.md), [System Requirement Viewpoint](viewpoints/System-Requirement-Viewpoint.md)|
 |traceability & allocation|Which functions and services need to be implemented in SW?|[Software Developer](stakeholders.md#Software-Developer)|[Physical Functional Assignment Viewpoint](viewpoints/Physical-Functional-Assignment-Viewpoint.md)|
 |traceability & allocation|Which functions need to be realized by HW?|[Hardware Developer](stakeholders.md#Hardware-Developer)|[Physical Functional Assignment Viewpoint](viewpoints/Physical-Functional-Assignment-Viewpoint.md)|

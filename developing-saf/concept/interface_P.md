@@ -13,7 +13,7 @@
 | PICPapplyingToPET | Specifies the fact that a Physical Interface Connection Point applies to a Physical Element.|
 | PICallowingPIE | Specifies the fact that a Physical Item Exchange is allowed on the Physical Interface Connection.|
 | PIPspecifyingDetailOfPICD | Specifies the fact that a Physical Interface Property is a detail of a Physical Interface Connection Definition.|
-| Physical Compatibility Assertion | specifies that two interface connection point definitions are compatible, and how the Physical interface properties are mapped.|
+| Physical Compatibility Claim | specifies that two interface connection point definitions are compatible, and how the Physical interface properties are mapped.|
 | Physical Context Element | Abstract element of a System Context  in the Physical Domain, outside the SOI scope, interacting with the SOI.|
 | Physical Element | A composition of Hardware Elements and Software Elements. Similarity to the V-Model segments and system. See [VXT].|
 | Physical Environment | The Environmental Element in the Physical Domain, outside the SOI scope, interacting with the SOI. E.g. air, dirt, sun, road.|

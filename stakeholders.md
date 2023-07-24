@@ -130,7 +130,7 @@ The Developer is a group or an individual implementing the system parts accordin
 * What is the sequence of interactions among the system and context elements
 * What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
 * Which (system and system partial) functions are assigned to a logical item and logical item components?
-NOTE: if allocation of usage is used, then allocation of definition is a derived relationship XOR. 
+Note: if allocation of usage is used, then allocation of definition is a derived relationship XOR. 
 
   ***Rationale:  In my role. I need to take this into account when planning realization.***
 * Which HW interfaces are necessary? 
@@ -373,7 +373,7 @@ The Developer is a group or an individual implementing the system parts accordin
 * What is the sequence of interactions among the system and context elements
 * What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
 * Which (system and system partial) functions are assigned to a logical item and logical item components?
-NOTE: if allocation of usage is used, then allocation of definition is a derived relationship XOR. 
+Note: if allocation of usage is used, then allocation of definition is a derived relationship XOR. 
 
   ***Rationale:  In my role. I need to take this into account when planning implementation.***
 * Which SW interfaces are necessary? 
@@ -482,7 +482,7 @@ The System Architect as an individual or group performing the systems engineerin
 * What shall be validated to the customer at system level?
 * What system elements are make-items, reuse items or COTS?
 * Which (system and system partial) functions are assigned to a logical item and logical item components?
-NOTE: if allocation of usage is used, then allocation of definition is a derived relationship XOR.
+Note: if allocation of usage is used, then allocation of definition is a derived relationship XOR.
 * Which Stakeholder are relevant to the system and might impose requirements? 
 
   ***Rationale:  In my role, I need to give feedback on existing or missing stakeholders.***

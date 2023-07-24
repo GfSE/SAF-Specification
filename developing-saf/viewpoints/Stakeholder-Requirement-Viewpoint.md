@@ -1,0 +1,50 @@
+![System Architecture Framework](../../diagrams/Logo_SAF.png)
+# SAF Development Documentation : Stakeholder Requirement Viewpoint
+|**Domain**|**Aspect**|**Maturity**|
+| --- | --- | --- |
+|[Operational](../../domains.md#Domain-Operational)|[Requirement](../../aspects.md#Aspect-Requirement)|![Released](../../diagrams/Symbol_confirmed.svg.png )[released](../../using-saf/maturity.md#released)|
+## Example
+![Stakeholder Requirement Definition Table](../../diagrams/Stakeholder-Requirement-Definition-Table.svg)
+## Purpose
+The Stakeholder Requirement Viewpoint specifies all properties that the intended solution shall possess or expose from the perspective of the stakeholders. The Stakeholder Requirement Viewpoint determines capabilities, functions, non-functional properties, and constraints.
+## Applicability
+The Stakeholder Requirement Viewpoint supports the "Stakeholder Needs and Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.2] and contributes to the identification of solution constraint(s).
+## Stakeholder
+* [Acquirer](../../stakeholders.md#Acquirer)
+* [Customer](../../stakeholders.md#Customer)
+* [Hardware Developer](../../stakeholders.md#Hardware-Developer)
+* [Supplier](../../stakeholders.md#Supplier)
+* [System Architect](../../stakeholders.md#System-Architect)
+## Concern
+* What are the normal and extreme environmental conditions for normal operation, for not operational, for storage and for transport?
+* What are the requirements of environmental conditions imposed on the system?
+* What are the requirements that a Stakeholder imposes on the system?
+* What defines a valid solution towards the customer?
+* What is the range of acceptable system performance, i.e. the critical, top-level performance requirements derived from the operational needs?
+## Presentation
+Stakeholder requirements are structured in a way that the Stakeholder behind a requirement is identifiable. As appropriate, the identified Stakeholder Requirements are receiving a Derivation Link from the justifying model artefacts, namely Operational Performer, Operational Activity, and Operational Exchange.
+NOTE 1: "One requirement package for each Stakeholder" is a best-practice modeling rule. A package contains the requirements specific for one Stakeholder.
+NOTE 2: Even if different Stakeholder may have intersecting interests and / or concern(s) resulting in a similar set of requirements, each Stakeholder shall have its own set managed in a dedicated requirement package. requirements shall not be shared because of their different life cycles. Resolving duplications and conflicts is subject of the requirements analysis resulting in an agreed set of System Requirements.
+
+## Profile Model Reference
+|Stereotype | realized Concept|
+|---|---|
+|Package [UML_Standard_Profile]|[SHRimposedBY](../concept/concepts.md#SHRimposedBY)|
+|[SAF_SOV06a_View](../../stereotypes.md#SAF_SOV06a_View)|[Stakeholder Requirement Viewpoint](../concept/concepts.md#Stakeholder-Requirement-Viewpoint)|
+|[SAF_Stakeholder](../../stereotypes.md#SAF_Stakeholder)|[System of Interest Stakeholder](../concept/concepts.md#System-of-Interest-Stakeholder)|
+|[SAF_StakeholderRequirement](../../stereotypes.md#SAF_StakeholderRequirement)|[Stakeholder Requirement](../concept/concepts.md#Stakeholder-Requirement)|
+|[SAF_StakeholderRequirementImposition](../../stereotypes.md#SAF_StakeholderRequirementImposition)|[SHRimposedBY](../concept/concepts.md#SHRimposedBY)|
+|[SAF_StakeholderRequirementRefinement](../../stereotypes.md#SAF_StakeholderRequirementRefinement)|[SHRrefiningCRN](../concept/concepts.md#SHRrefiningCRN)|
+|[SAF_StakeholderRequirementRefinement](../../stereotypes.md#SAF_StakeholderRequirementRefinement)|[SHRrefiningOSY](../concept/concepts.md#SHRrefiningOSY)|
+|[SAF_SystemOfInterestConcern](../../stereotypes.md#SAF_SystemOfInterestConcern)|[System of Interest Concern](../concept/concepts.md#System-of-Interest-Concern)|
+## Input from other Viewpoints
+### Required Viewpoints
+* [Stakeholder Identification Viewpoint](Stakeholder-Identification-Viewpoint.md)
+### Recommended Viewpoints
+* [Operational Story Viewpoint](Operational-Story-Viewpoint.md)
+* [Operational Performer Viewpoint](Operational-Performer-Viewpoint.md)
+# Viewpoint Concept and Profile Diagrams
+## Concept
+![Stakeholder Requirement Concept](diagrams/Stakeholder-Requirement-Concept.svg)
+## Profile
+![Stakeholder Requirement Profile](diagrams/Stakeholder-Requirement-Profile.svg)

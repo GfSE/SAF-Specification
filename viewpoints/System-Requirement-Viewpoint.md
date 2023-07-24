@@ -1,14 +1,14 @@
 ![System Architecture Framework](../diagrams/Logo_SAF.png)
-# System Requirement Viewpoint
+# SAF User Documentation : System Requirement Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Functional](../domains.md#Domain-Functional)|[Requirement](../aspects.md#Aspect-Requirement)|![Released](../diagrams/Symbol_confirmed.svg.png )[released](../using-saf/maturity.md#released)|
 ## Example
 ![System Requirement Definition Table](../diagrams/System-Requirement-Definition-Table.svg)
 ## Purpose
-The System Requirement Viewpoint specifies functions, non-functional propertys, or constraints of the system. System Requirements are captured, the interrelationships between functional and non-functional requirements on the same level of abstraction and the traceability to Stakeholder Requirements are depicted.
+The System Requirement Viewpoint specifies functions, non-functional properties, or constraints of the System. System Requirements are captured, the interrelationships between Functional and Non-Functional Requirements on the same level of abstraction and the traceability to Stakeholder Requirements are depicted.
 ## Applicability
-The System Requirement Viewpoint supports the "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§4.3] and contributes to the System Requirements verification and traceability matrix (RVTM).
+The System Requirement Viewpoint supports the "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§4.3] and contributes to the System Requirements Verification and Traceability Matrix (RVTM).
 ## Stakeholder
 * [Hardware Developer](../stakeholders.md#Hardware-Developer)
 * [IV&V Engineer](../stakeholders.md#IV&V-Engineer)
@@ -24,9 +24,9 @@ The System Requirement Viewpoint supports the "System Requirements Definition Pr
 * What is the range of acceptable system performance, i.e. the critical, top-level performance requirements derived from the operational needs?
 * Which Stakeholder Requirements are addressed by System Requirements?
 ## Presentation
-A System Requirement Table (RVTM) featuring
-* unique requirement ID, text and attributes
-* traceability reference to upstream model elements and requirements
+A System Requirement Table (RVTM), a tabular format, featuring
+* unique requirement ID, text, and attributes
+* traceability reference to Stakeholder Requirements
 * traceability reference to depended requirements on the same abstraction level
 
 ## Profile Model Reference
