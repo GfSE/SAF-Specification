@@ -46,8 +46,8 @@ A table listing all identified system functions, the system processes in which t
 ## Profile Model Reference
 |Stereotype | realized Concept|
 |---|---|
-|Allocate [SysML Profile]|[LCEperformingCFN](../concept/concepts.md#LCEperformingCFN)|
 |Allocate [SysML Profile]|[LETperformingSFN](../concept/concepts.md#LETperformingSFN)|
+|Allocate [SysML Profile]|[LCEperformingCFN](../concept/concepts.md#LCEperformingCFN)|
 |ControlFlow [UML_Standard_Profile]|[GFNcontrolledAFTER](../concept/concepts.md#GFNcontrolledAFTER)|
 |InputPin [UML_Standard_Profile]|[GFFtoGFP](../concept/concepts.md#GFFtoGFP)|
 |ObjectFlow [UML_Standard_Profile]|[General Functional Flow](../concept/concepts.md#General-Functional-Flow)|

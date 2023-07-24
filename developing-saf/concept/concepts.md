@@ -1118,6 +1118,8 @@ Specifies the fact that a Stakeholder Concern is refined by Stakeholder Requirem
 ## SHRrefiningOCY
 0..* [Stakeholder Requirement](#Stakeholder-Requirement) SHRrefiningOCY 0..* [Operational Capability](#Operational-Capability) 
 
+realized by Stereotype [SAF_StakeholderRequirementRefinement](../../stereotypes.md#SAF_StakeholderRequirementRefinement)
+
 Specifies the fact that an Operational Capability is refined by Stakeholder Requirements.
 ## SHRrefiningOSY
 0..* [Stakeholder Requirement](#Stakeholder-Requirement) SHRrefiningOSY 0..* [Operational Story](#Operational-Story) 

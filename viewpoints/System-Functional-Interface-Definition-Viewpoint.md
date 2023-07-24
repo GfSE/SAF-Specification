@@ -6,9 +6,9 @@
 ## Example
 ![FFDS Interface Definition](../diagrams/FFDS-Interface-Definition.svg)
 ## Purpose
-The Functional Interface Definition Viewpoint provides definitions used on functional Interfaces used in the system context. It allows to structure interface definitions to improve clarity and manageability.
+The System Functional Interface Definition Viewpoint provides definitions used on functional Interfaces used in the system context. It allows to structure interface definitions to improve clarity and manageability.
 ## Applicability
-The Functional Interface Definition Viewpoint supports The System Context Definition Viewpoint supports the "Prepare for Requirement Definition" activity included in "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.3] and contributes to the system Functional Interface Identification.
+The System Functional Interface Definition Viewpoint supports The System Context Definition Viewpoint supports the "Prepare for Requirement Definition" activity included in "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.3] and contributes to the system Functional Interface Identification.
 ## Stakeholder
 ## Concern
 ## Presentation
@@ -18,8 +18,8 @@ A Table featuringt interface blocks and their ports and flow properties.
 
 ## Profile Model Reference
 * ItemFlow typed by SAF_DomainKind
-* ProxyPort typed by InterfaceBlock
 * FlowProperty contained in InterfaceBlock
+* ProxyPort typed by InterfaceBlock
 * FlowProperty typed by SAF_DomainKind
 * Connector [UML_Standard_Profile]
 * FlowProperty [SysML Profile]

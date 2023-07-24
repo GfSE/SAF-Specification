@@ -38,8 +38,8 @@ A tabular format listing the context elements, and the context in which they are
 ## Profile Model Reference
 |Stereotype | realized Concept|
 |---|---|
-|Association [UML_Standard_Profile]|[Logical SOI Constituent](../concept/concepts.md#Logical-SOI-Constituent)|
 |Association [UML_Standard_Profile]|[Logical Context Element Constituent](../concept/concepts.md#Logical-Context-Element-Constituent)|
+|Association [UML_Standard_Profile]|[Logical SOI Constituent](../concept/concepts.md#Logical-SOI-Constituent)|
 |[SAF_LogicalContext](../../stereotypes.md#SAF_LogicalContext)|[Logical System Context](../concept/concepts.md#Logical-System-Context)|
 |[SAF_LogicalEnvironment](../../stereotypes.md#SAF_LogicalEnvironment)|[Logical Environment](../concept/concepts.md#Logical-Environment)|
 |[SAF_LogicalExternalSystem](../../stereotypes.md#SAF_LogicalExternalSystem)|[Logical External System](../concept/concepts.md#Logical-External-System)|

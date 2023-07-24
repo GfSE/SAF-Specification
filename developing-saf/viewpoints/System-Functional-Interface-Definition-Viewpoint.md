@@ -6,9 +6,9 @@
 ## Example
 ![FFDS Interface Definition](../../diagrams/FFDS-Interface-Definition.svg)
 ## Purpose
-The Functional Interface Definition Viewpoint provides definitions used on functional Interfaces used in the system context. It allows to structure interface definitions to improve clarity and manageability.
+The System Functional Interface Definition Viewpoint provides definitions used on functional Interfaces used in the system context. It allows to structure interface definitions to improve clarity and manageability.
 ## Applicability
-The Functional Interface Definition Viewpoint supports The System Context Definition Viewpoint supports the "Prepare for Requirement Definition" activity included in "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.3] and contributes to the system Functional Interface Identification.
+The System Functional Interface Definition Viewpoint supports The System Context Definition Viewpoint supports the "Prepare for Requirement Definition" activity included in "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.3] and contributes to the system Functional Interface Identification.
 ## Stakeholder
 ## Concern
 ## Presentation
@@ -20,8 +20,8 @@ A Table featuringt interface blocks and their ports and flow properties.
 |Stereotype | realized Concept|
 |---|---|
 |ItemFlow typed by SAF_DomainKind|[SDKtypingLIE](../concept/concepts.md#SDKtypingLIE)|
-|ProxyPort typed by InterfaceBlock|[LICDSspecifyingDetailOfLICP](../concept/concepts.md#LICDSspecifyingDetailOfLICP)|
 |FlowProperty contained in InterfaceBlock|[LIPspecifyingDetailOfLICD](../concept/concepts.md#LIPspecifyingDetailOfLICD)|
+|ProxyPort typed by InterfaceBlock|[LICDSspecifyingDetailOfLICP](../concept/concepts.md#LICDSspecifyingDetailOfLICP)|
 |FlowProperty typed by SAF_DomainKind|[SDKtypingLIP](../concept/concepts.md#SDKtypingLIP)|
 |Connector [UML_Standard_Profile]|[Logical Interface Connection](../concept/concepts.md#Logical-Interface-Connection)|
 |FlowProperty [SysML Profile]|[Logical Interface Property](../concept/concepts.md#Logical-Interface-Property)|

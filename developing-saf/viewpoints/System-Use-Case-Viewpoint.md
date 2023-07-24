@@ -37,10 +37,10 @@ A tabular format listing the System Use Cases, the System Context for the respec
 |[SAF_LogicalExternalSystem](../../stereotypes.md#SAF_LogicalExternalSystem)|[Logical External System](../concept/concepts.md#Logical-External-System)|
 |[SAF_LogicalUser](../../stereotypes.md#SAF_LogicalUser)|[Logical User](../concept/concepts.md#Logical-User)|
 |[SAF_SFV01a_View](../../stereotypes.md#SAF_SFV01a_View)|[System Use Case Viewpoint](../concept/concepts.md#System-Use-Case-Viewpoint)|
-|[SAF_SystemUseCase](../../stereotypes.md#SAF_SystemUseCase)|[SUChasPostconditionSSE](../concept/concepts.md#SUChasPostconditionSSE)|
-|[SAF_SystemUseCase](../../stereotypes.md#SAF_SystemUseCase)|[SUCtakingPlaceInLSC](../concept/concepts.md#SUCtakingPlaceInLSC)|
 |[SAF_SystemUseCase](../../stereotypes.md#SAF_SystemUseCase)|[SUChasPreconditionSSE](../concept/concepts.md#SUChasPreconditionSSE)|
+|[SAF_SystemUseCase](../../stereotypes.md#SAF_SystemUseCase)|[SUChasPostconditionSSE](../concept/concepts.md#SUChasPostconditionSSE)|
 |[SAF_SystemUseCase](../../stereotypes.md#SAF_SystemUseCase)|[System Use Case](../concept/concepts.md#System-Use-Case)|
+|[SAF_SystemUseCase](../../stereotypes.md#SAF_SystemUseCase)|[SUCtakingPlaceInLSC](../concept/concepts.md#SUCtakingPlaceInLSC)|
 |[SAF_SystemUseCaseContribution](../../stereotypes.md#SAF_SystemUseCaseContribution)|[SUCcontributingToOSY](../concept/concepts.md#SUCcontributingToOSY)|
 ## Input from other Viewpoints
 ### Required Viewpoints
