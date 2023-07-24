@@ -46,7 +46,7 @@ By identifying Stakeholders and their Requirements the SAF Operational Domain su
 * Operational Interaction Viewpoint
 #### Operational Domain Aspect Requirement
 * [Stakeholder Requirement Viewpoint](viewpoints/Stakeholder-Requirement-Viewpoint.md)
-#### Operational Domain Aspect Crossreference and Mapping
+#### Operational Domain Aspect Crossreference
 * [Operational Capability Traceability Viewpoint](viewpoints/Operational-Capability-Traceability-Viewpoint.md)
 * [Operational Process Traceability Viewpoint](viewpoints/Operational-Process-Traceability-Viewpoint.md)
 
@@ -87,7 +87,7 @@ The Functional Domain Viewpoints translate Operational Domain usage into the not
 * [System Context Interaction Viewpoint](viewpoints/System-Context-Interaction-Viewpoint.md)
 #### Functional Domain Aspect Requirement
 * [System Requirement Viewpoint](viewpoints/System-Requirement-Viewpoint.md)
-#### Functional Domain Aspect Crossreference and Mapping
+#### Functional Domain Aspect Crossreference
 
 ## Logical Domain
 
@@ -111,7 +111,7 @@ The Logical Domain is not a different abstraction level - compared to the Functi
 #### Logical Domain Aspect Interaction and Collaboration
 * [Logical Internal Interaction Viewpoint](viewpoints/Logical-Internal-Interaction-Viewpoint.md)
 * [Logical Internal Exchange Viewpoint](viewpoints/Logical-Internal-Exchange-Viewpoint.md)
-#### Functional Domain Aspect Crossreference and Mapping
+#### Functional Domain Aspect Crossreference
 * [Logical Functional Assignment Viewpoint](viewpoints/Logical-Functional-Assignment-Viewpoint.md)
 
 ## Physical Domain
@@ -157,7 +157,7 @@ For traceability the Physical Domain defines diagrams showing the mapping of the
 #### Physical Domain Aspect Interface
 * Physical Interface Definition Viewpoint
 * Physical Protocol Stack Definition Viewpoint
-#### Physical Domain Aspect Crossreference and Mapping
+#### Physical Domain Aspect Crossreference
 * [Physical Functional Assignment Viewpoint](viewpoints/Physical-Functional-Assignment-Viewpoint.md)
 ## Common Domain
 ### Common Domain Objective
