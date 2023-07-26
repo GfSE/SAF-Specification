@@ -89,7 +89,7 @@ Ordered sequence of exchanges of information, energy or material between scenari
 ## Goal
 A Goal is defined as an end state that a Stakeholder intends to achieve. Goals are generally expressed using qualitative words; e.g., “increase”, “improve”, or “easier”. Goals can also be decomposed; e.g., “increase profit” can be decomposed into the Goals “reduce cost” and “increase sales”. However, it is also very common to associate concrete objectives with Goals, which can be used to describe both the quantitative and time-related measures which are essential to describe the desired state, and when it should be achieved.
 ## Hardware Element
-exposed in viewpoint [Physical Functional Assignment Viewpoint](../../viewpoints/Physical-Functional-Assignment-Viewpoint.md)
+exposed in viewpoint [Physical Functional Mapping Viewpoint](../../viewpoints/Physical-Functional-Mapping-Viewpoint.md)
 
 exposed in viewpoint [Physical Internal Exchange Viewpoint](../../viewpoints/Physical-Internal-Exchange-Viewpoint.md)
 
@@ -107,13 +107,13 @@ Ordered sequence of exchanges of information, energy or material between Scenari
 ## Logical Context Element
 Abstract element of a System Context in the Logical Domain, outside the SOI scope, interacting with the SOI.
 ## Logical Element
-exposed in viewpoint [Logical Functional Assignment Viewpoint](../../viewpoints/Logical-Functional-Assignment-Viewpoint.md)
+exposed in viewpoint [Logical Functional Mapping Viewpoint](../../viewpoints/Logical-Functional-Mapping-Viewpoint.md)
 
 exposed in viewpoint [Logical Internal Exchange Viewpoint](../../viewpoints/Logical-Internal-Exchange-Viewpoint.md)
 
 exposed in viewpoint [Logical Structure Viewpoint](../../viewpoints/Logical-Structure-Viewpoint.md)
 
-exposed in viewpoint [Physical Logical Assignment Viewpoint](../../viewpoints/Physical-Logical-Assignment-Viewpoint.md)
+exposed in viewpoint [Physical Logical Mapping Viewpoint](../../viewpoints/Physical-Logical-Mapping-Viewpoint.md)
 
 realized by Stereotype [SAF_LogicalElement](../../stereotypes.md#SAF_LogicalElement)
 
@@ -212,11 +212,11 @@ realized by Stereotype [SAF_SystemNonFunctionalRequirement](../../stereotypes.md
 
 Non-Functional Requirements specify the quality of System Functions, or non-functional requests like legal conformance.
 ## Operational Capability
-exposed in viewpoint [Operational Capability Traceability Viewpoint](../../viewpoints/Operational-Capability-Traceability-Viewpoint.md)
+exposed in viewpoint [Operational Capability Mapping Viewpoint](../../viewpoints/Operational-Capability-Mapping-Viewpoint.md)
 
 exposed in viewpoint [Operational Capability Viewpoint](../../viewpoints/Operational-Capability-Viewpoint.md)
 
-exposed in viewpoint [Operational Process Traceability Viewpoint](../../viewpoints/Operational-Process-Traceability-Viewpoint.md)
+exposed in viewpoint [Operational Process Mapping Viewpoint](../../viewpoints/Operational-Process-Mapping-Viewpoint.md)
 
 exposed in viewpoint [System Capability Viewpoint](../../viewpoints/System-Capability-Viewpoint.md)
 
@@ -264,13 +264,13 @@ Specifies the exchange that is supposed to happen on an Operational Connection b
 Aliases:
 UAF::OperationalExchange
 ## Operational Performer
-exposed in viewpoint [Operational Capability Traceability Viewpoint](../../viewpoints/Operational-Capability-Traceability-Viewpoint.md)
+exposed in viewpoint [Operational Capability Mapping Viewpoint](../../viewpoints/Operational-Capability-Mapping-Viewpoint.md)
 
 exposed in viewpoint [Operational Context Definition Viewpoint](../../viewpoints/Operational-Context-Definition-Viewpoint.md)
 
 exposed in viewpoint [Operational Performer Viewpoint](../../viewpoints/Operational-Performer-Viewpoint.md)
 
-exposed in viewpoint [Operational Process Traceability Viewpoint](../../viewpoints/Operational-Process-Traceability-Viewpoint.md)
+exposed in viewpoint [Operational Process Mapping Viewpoint](../../viewpoints/Operational-Process-Mapping-Viewpoint.md)
 
 exposed in viewpoint [Operational Process Viewpoint](../../viewpoints/Operational-Process-Viewpoint.md)
 
@@ -283,9 +283,9 @@ An Operational Performer is an element of the Operational Context that is capabl
 Aliases:
 UAF::OperationalPerformer
 ## Operational Process
-exposed in viewpoint [Operational Capability Traceability Viewpoint](../../viewpoints/Operational-Capability-Traceability-Viewpoint.md)
+exposed in viewpoint [Operational Capability Mapping Viewpoint](../../viewpoints/Operational-Capability-Mapping-Viewpoint.md)
 
-exposed in viewpoint [Operational Process Traceability Viewpoint](../../viewpoints/Operational-Process-Traceability-Viewpoint.md)
+exposed in viewpoint [Operational Process Mapping Viewpoint](../../viewpoints/Operational-Process-Mapping-Viewpoint.md)
 
 exposed in viewpoint [Operational Process Viewpoint](../../viewpoints/Operational-Process-Viewpoint.md)
 
@@ -303,9 +303,9 @@ realized by Stereotype [SAF_OperationalSketch](../../stereotypes.md#SAF_Operatio
 
 Specifies a free form sketch depicting a concept.
 ## Operational Story
-exposed in viewpoint [Operational Capability Traceability Viewpoint](../../viewpoints/Operational-Capability-Traceability-Viewpoint.md)
+exposed in viewpoint [Operational Capability Mapping Viewpoint](../../viewpoints/Operational-Capability-Mapping-Viewpoint.md)
 
-exposed in viewpoint [Operational Process Traceability Viewpoint](../../viewpoints/Operational-Process-Traceability-Viewpoint.md)
+exposed in viewpoint [Operational Process Mapping Viewpoint](../../viewpoints/Operational-Process-Mapping-Viewpoint.md)
 
 exposed in viewpoint [Operational Story Viewpoint](../../viewpoints/Operational-Story-Viewpoint.md)
 
@@ -321,11 +321,11 @@ specifies that two interface connection point definitions are compatible, and ho
 ## Physical Context Element
 Abstract element of a System Context  in the Physical Domain, outside the SOI scope, interacting with the SOI.
 ## Physical Element
-exposed in viewpoint [Physical Functional Assignment Viewpoint](../../viewpoints/Physical-Functional-Assignment-Viewpoint.md)
+exposed in viewpoint [Physical Functional Mapping Viewpoint](../../viewpoints/Physical-Functional-Mapping-Viewpoint.md)
 
 exposed in viewpoint [Physical Internal Exchange Viewpoint](../../viewpoints/Physical-Internal-Exchange-Viewpoint.md)
 
-exposed in viewpoint [Physical Logical Assignment Viewpoint](../../viewpoints/Physical-Logical-Assignment-Viewpoint.md)
+exposed in viewpoint [Physical Logical Mapping Viewpoint](../../viewpoints/Physical-Logical-Mapping-Viewpoint.md)
 
 realized by Stereotype [SAF_PhysicalElement](../../stereotypes.md#SAF_PhysicalElement)
 
@@ -381,7 +381,7 @@ exposed in viewpoint [Physical Context Definition Viewpoint](../../viewpoints/Ph
 
 exposed in viewpoint [Physical Context Exchange Viewpoint](../../viewpoints/Physical-Context-Exchange-Viewpoint.md)
 
-exposed in viewpoint [Physical Functional Assignment Viewpoint](../../viewpoints/Physical-Functional-Assignment-Viewpoint.md)
+exposed in viewpoint [Physical Functional Mapping Viewpoint](../../viewpoints/Physical-Functional-Mapping-Viewpoint.md)
 
 exposed in viewpoint [Physical Structure Viewpoint](../../viewpoints/Physical-Structure-Viewpoint.md)
 
@@ -395,7 +395,7 @@ realized by Stereotype [SAF_PhysicalContext](../../stereotypes.md#SAF_PhysicalCo
 
 Defines a context for a System of Interest on Physical Level.
 ## Physical Usage
-exposed in viewpoint [Physical Functional Assignment Viewpoint](../../viewpoints/Physical-Functional-Assignment-Viewpoint.md)
+exposed in viewpoint [Physical Functional Mapping Viewpoint](../../viewpoints/Physical-Functional-Mapping-Viewpoint.md)
 
 General concept of usage on physical level.
 ## Physical User
@@ -413,7 +413,7 @@ realized by Stereotype [SAF_Refuter](../../stereotypes.md#SAF_Refuter)
 
 A party asserting counter-claims.
 ## Software Element
-exposed in viewpoint [Physical Functional Assignment Viewpoint](../../viewpoints/Physical-Functional-Assignment-Viewpoint.md)
+exposed in viewpoint [Physical Functional Mapping Viewpoint](../../viewpoints/Physical-Functional-Mapping-Viewpoint.md)
 
 exposed in viewpoint [Physical Internal Exchange Viewpoint](../../viewpoints/Physical-Internal-Exchange-Viewpoint.md)
 
@@ -423,6 +423,8 @@ realized by Stereotype [SAF_PhysicalSoftwareElement](../../stereotypes.md#SAF_Ph
 
 Pure Software Elements. Similarity to the V-Model "software unit".
 ## Stakeholder Requirement
+exposed in viewpoint [Operational Capability Mapping Viewpoint](../../viewpoints/Operational-Capability-Mapping-Viewpoint.md)
+
 exposed in viewpoint [Stakeholder Requirement Viewpoint](../../viewpoints/Stakeholder-Requirement-Viewpoint.md)
 
 exposed in viewpoint [System Requirement Traceability Viewpoint](../../viewpoints/System-Requirement-Traceability-Viewpoint.md)
@@ -466,7 +468,7 @@ realized by Stereotype [SAF_DomainKind](../../stereotypes.md#SAF_DomainKind)
 
 Specification for any kind of exchange on Functional, and Logical Level, focus on what kind of information is exchanged (information, material, energy).The Domain Item Kind is agnostic to any Physical realization.
 ## System Function
-exposed in viewpoint [Logical Functional Assignment Viewpoint](../../viewpoints/Logical-Functional-Assignment-Viewpoint.md)
+exposed in viewpoint [Logical Functional Mapping Viewpoint](../../viewpoints/Logical-Functional-Mapping-Viewpoint.md)
 
 exposed in viewpoint [System Functional Breakdown Structure Viewpoint](../../viewpoints/System-Functional-Breakdown-Structure-Viewpoint.md)
 
@@ -486,7 +488,7 @@ A SAF System Function does not need to accept any input from the system boundary
 ## System Of Interest
 An abstract element representing the SOI. Base for specific perspectives on SOI (logical , physical)
 ## System Partial Function
-exposed in viewpoint [Logical Functional Assignment Viewpoint](../../viewpoints/Logical-Functional-Assignment-Viewpoint.md)
+exposed in viewpoint [Logical Functional Mapping Viewpoint](../../viewpoints/Logical-Functional-Mapping-Viewpoint.md)
 
 exposed in viewpoint [System Functional Breakdown Structure Viewpoint](../../viewpoints/System-Functional-Breakdown-Structure-Viewpoint.md)
 
@@ -709,7 +711,7 @@ Specifies the fact that a Logical Element can be in one distinct States.
 ## LETimplementingGFN
 1..* [Logical Element](#Logical-Element) LETimplementingGFN 1..* [General Function](#General-Function) 
 
-exposed in viewpoint [Logical Functional Assignment Viewpoint](../../viewpoints/Logical-Functional-Assignment-Viewpoint.md)
+exposed in viewpoint [Logical Functional Mapping Viewpoint](../../viewpoints/Logical-Functional-Mapping-Viewpoint.md)
 
 Specifies that a logical element is responsible to implement a function.
 Note:
@@ -725,7 +727,7 @@ Specifies the fact that a System Function is expected to be carried out by the S
 ## LETspecifyingAPE
 1..* [Logical Element](#Logical-Element) LETspecifyingAPE 1 [Abstract Physical Element](#Abstract-Physical-Element) 
 
-exposed in viewpoint [Physical Logical Assignment Viewpoint](../../viewpoints/Physical-Logical-Assignment-Viewpoint.md)
+exposed in viewpoint [Physical Logical Mapping Viewpoint](../../viewpoints/Physical-Logical-Mapping-Viewpoint.md)
 
 Specifies the fact that a Logical Element specifies one or more Physical Elements.
 One Physical Element may be specified by exactly one Logical Element. 
@@ -794,7 +796,7 @@ Specifies the fact that an Operational Exchange takes place over a certain Opera
 ## OCYcomposedOF
 1 [Operational Capability](#Operational-Capability) OCYcomposedOF 0..* [Operational Capability](#Operational-Capability) 
 
-exposed in viewpoint [Operational Capability Traceability Viewpoint](../../viewpoints/Operational-Capability-Traceability-Viewpoint.md)
+exposed in viewpoint [Operational Capability Mapping Viewpoint](../../viewpoints/Operational-Capability-Mapping-Viewpoint.md)
 
 exposed in viewpoint [Operational Capability Viewpoint](../../viewpoints/Operational-Capability-Viewpoint.md)
 
@@ -804,7 +806,7 @@ Specifies the fact that an Operational Capability consists of other Operational 
 ## OCYdependingON
 0..* [Operational Capability](#Operational-Capability) OCYdependingON 0..* [Operational Capability](#Operational-Capability) 
 
-exposed in viewpoint [Operational Capability Traceability Viewpoint](../../viewpoints/Operational-Capability-Traceability-Viewpoint.md)
+exposed in viewpoint [Operational Capability Mapping Viewpoint](../../viewpoints/Operational-Capability-Mapping-Viewpoint.md)
 
 exposed in viewpoint [Operational Capability Viewpoint](../../viewpoints/Operational-Capability-Viewpoint.md)
 
@@ -817,7 +819,7 @@ UAF::CapabilityDependency
 ## OCYspecializedBY
 1 [Operational Capability](#Operational-Capability) OCYspecializedBY 0..* [Operational Capability](#Operational-Capability) 
 
-exposed in viewpoint [Operational Capability Traceability Viewpoint](../../viewpoints/Operational-Capability-Traceability-Viewpoint.md)
+exposed in viewpoint [Operational Capability Mapping Viewpoint](../../viewpoints/Operational-Capability-Mapping-Viewpoint.md)
 
 exposed in viewpoint [Operational Capability Viewpoint](../../viewpoints/Operational-Capability-Viewpoint.md)
 
@@ -830,7 +832,7 @@ UAF::CapabilityGeneralization
 ## OCYsupportingOSY
 0..* [Operational Capability](#Operational-Capability) OCYsupportingOSY 0..* [Operational Story](#Operational-Story) 
 
-exposed in viewpoint [Operational Capability Traceability Viewpoint](../../viewpoints/Operational-Capability-Traceability-Viewpoint.md)
+exposed in viewpoint [Operational Capability Mapping Viewpoint](../../viewpoints/Operational-Capability-Mapping-Viewpoint.md)
 
 realized by Stereotype [SAF_OperationalCapabilitySupport](../../stereotypes.md#SAF_OperationalCapabilitySupport)
 
@@ -872,7 +874,7 @@ Specifies the fact that an Operational Performer acts in an Operational Story.
 ## OPRcapableOFperformingOPS
 0..* [Operational Performer](#Operational-Performer) OPRcapableOFperformingOPS 0..* [Operational Process](#Operational-Process) 
 
-exposed in viewpoint [Operational Process Traceability Viewpoint](../../viewpoints/Operational-Process-Traceability-Viewpoint.md)
+exposed in viewpoint [Operational Process Mapping Viewpoint](../../viewpoints/Operational-Process-Mapping-Viewpoint.md)
 
 Specifies the fact that an Operational Performer performs an Operational Activity. Traceability from Operational Activities to Operational Performers is derived via assignment of Operational Action to Operational Roles.
 
@@ -889,7 +891,7 @@ Specifies the fact that an Operational Performer consists of one or more Operati
 ## OPRexhibitingOCY
 1 [Operational Performer](#Operational-Performer) OPRexhibitingOCY 0..* [Operational Capability](#Operational-Capability) 
 
-exposed in viewpoint [Operational Capability Traceability Viewpoint](../../viewpoints/Operational-Capability-Traceability-Viewpoint.md)
+exposed in viewpoint [Operational Capability Mapping Viewpoint](../../viewpoints/Operational-Capability-Mapping-Viewpoint.md)
 
 realized by Stereotype [SAF_OperationalPerformerExhibit](../../stereotypes.md#SAF_OperationalPerformerExhibit)
 
@@ -905,9 +907,9 @@ Specifies that an Operational Context Constituent performs an Operational Action
 ## OPScontributingToOCY
 0..* [Operational Process](#Operational-Process) OPScontributingToOCY 0..* [Operational Capability](#Operational-Capability) 
 
-exposed in viewpoint [Operational Capability Traceability Viewpoint](../../viewpoints/Operational-Capability-Traceability-Viewpoint.md)
+exposed in viewpoint [Operational Capability Mapping Viewpoint](../../viewpoints/Operational-Capability-Mapping-Viewpoint.md)
 
-exposed in viewpoint [Operational Process Traceability Viewpoint](../../viewpoints/Operational-Process-Traceability-Viewpoint.md)
+exposed in viewpoint [Operational Process Mapping Viewpoint](../../viewpoints/Operational-Process-Mapping-Viewpoint.md)
 
 realized by Stereotype [SAF_OperationalProcessContribution](../../stereotypes.md#SAF_OperationalProcessContribution)
 
@@ -918,7 +920,7 @@ UAF::MapsToCapability
 ## OPSrefiningOSY
 0..* [Operational Process](#Operational-Process) OPSrefiningOSY 1 [Operational Story](#Operational-Story) 
 
-exposed in viewpoint [Operational Process Traceability Viewpoint](../../viewpoints/Operational-Process-Traceability-Viewpoint.md)
+exposed in viewpoint [Operational Process Mapping Viewpoint](../../viewpoints/Operational-Process-Mapping-Viewpoint.md)
 
 realized by Stereotype [SAF_OperationalProcessRefinement](../../stereotypes.md#SAF_OperationalProcessRefinement)
 
@@ -1075,7 +1077,7 @@ Specifies the fact that a System Domain Kind defines the type of a Logical Inter
 ## SFNallocatedToAPE
 1..* [System Function](#System-Function) SFNallocatedToAPE 1 [Abstract Physical Element](#Abstract-Physical-Element) 
 
-exposed in viewpoint [Physical Functional Assignment Viewpoint](../../viewpoints/Physical-Functional-Assignment-Viewpoint.md)
+exposed in viewpoint [Physical Functional Mapping Viewpoint](../../viewpoints/Physical-Functional-Mapping-Viewpoint.md)
 
 Specifies the fact that a relationship is derived from the assignment of Functions to Logical Elements and the assignment of Logical Elements to Physical Elements.
 ## SFNallocatedToLET
@@ -1118,6 +1120,8 @@ Specifies the fact that a Stakeholder Concern is refined by Stakeholder Requirem
 ## SHRrefiningOCY
 0..* [Stakeholder Requirement](#Stakeholder-Requirement) SHRrefiningOCY 0..* [Operational Capability](#Operational-Capability) 
 
+exposed in viewpoint [Operational Capability Mapping Viewpoint](../../viewpoints/Operational-Capability-Mapping-Viewpoint.md)
+
 realized by Stereotype [SAF_StakeholderRequirementRefinement](../../stereotypes.md#SAF_StakeholderRequirementRefinement)
 
 Specifies the fact that an Operational Capability is refined by Stakeholder Requirements.
@@ -1136,7 +1140,7 @@ Specifies the fact that a SOI is acting for the benefit of an Operational Perfor
 ## SPFNallocatedToAPE
 1..* [System Partial Function](#System-Partial-Function) SPFNallocatedToAPE 1 [Abstract Physical Element](#Abstract-Physical-Element) 
 
-exposed in viewpoint [Physical Functional Assignment Viewpoint](../../viewpoints/Physical-Functional-Assignment-Viewpoint.md)
+exposed in viewpoint [Physical Functional Mapping Viewpoint](../../viewpoints/Physical-Functional-Mapping-Viewpoint.md)
 
 Specifies the fact that a System Partial Function is assigned to a Abstract Physical Element.
 ## SPFNallocatedToLET
@@ -1332,9 +1336,9 @@ Specifies the fact that a Context Function is used in a System Process.
 ## Functional Usage
 1 [General Function](#General-Function) Functional Usage 0..* [General Function](#General-Function) 
 
-exposed in viewpoint [Logical Functional Assignment Viewpoint](../../viewpoints/Logical-Functional-Assignment-Viewpoint.md)
+exposed in viewpoint [Logical Functional Mapping Viewpoint](../../viewpoints/Logical-Functional-Mapping-Viewpoint.md)
 
-exposed in viewpoint [Physical Functional Assignment Viewpoint](../../viewpoints/Physical-Functional-Assignment-Viewpoint.md)
+exposed in viewpoint [Physical Functional Mapping Viewpoint](../../viewpoints/Physical-Functional-Mapping-Viewpoint.md)
 
 exposed in viewpoint [System Functional Breakdown Structure Viewpoint](../../viewpoints/System-Functional-Breakdown-Structure-Viewpoint.md)
 
@@ -1372,7 +1376,7 @@ The sequential occurrence of exchange between Internal Logical Interaction Scena
 ## Internal Logical Element Constituent
 1 [Logical Element](#Logical-Element) Internal Logical Element Constituent 0..* [Logical Element](#Logical-Element) 
 
-exposed in viewpoint [Logical Functional Assignment Viewpoint](../../viewpoints/Logical-Functional-Assignment-Viewpoint.md)
+exposed in viewpoint [Logical Functional Mapping Viewpoint](../../viewpoints/Logical-Functional-Mapping-Viewpoint.md)
 
 exposed in viewpoint [Logical Internal Interaction Viewpoint](../../viewpoints/Logical-Internal-Interaction-Viewpoint.md)
 

@@ -1,19 +1,19 @@
 ![System Architecture Framework](../../diagrams/Logo_SAF.png)
-# SAF Development Documentation : Operational Process Traceability Viewpoint
+# SAF Development Documentation : Operational Process Mapping Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
-|[Operational](../../domains.md#Domain-Operational)|[Mapping & Crossreference](../../aspects.md#Aspect-Mapping-&-Crossreference)|![Released](../../diagrams/Symbol_confirmed.svg.png )[released](../../using-saf/maturity.md#released)|
+|[Operational](../../domains.md#Domain-Operational)|[Traceability & Mapping](../../aspects.md#Aspect-Traceability-&-Mapping)|![Released](../../diagrams/Symbol_confirmed.svg.png )[released](../../using-saf/maturity.md#released)|
 ## Example
-![SAR and FDN Capability Traceability Table](../../diagrams/SAR-and-FDN-Capability-Traceability-Table.svg)
+![SAR and FDN Operational Process Mapping Table](../../diagrams/SAR-and-FDN-Operational-Process-Mapping-Table.svg)
 ## Purpose
-The Operational Process Traceability Viewpoint describes the relationships of Operational Processes. The reasoning for Operational Processes from Operational Stories and their contribution to Capabilities is described. The assignment of Operational Processes to Operational Performers is captured.
+The Operational Process Mapping Viewpoint describes the relationships of Operational Processes. The reasoning for Operational Processes from Operational Stories and their contribution to Capabilities is described. The assignment of Operational Processes to Operational Performers is captured.
 ## Applicability
-The Operational Process Traceability Viewpoint supports the "Business or Mission Analysis Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1] and contributes to the definition of operational scenarios.
+The Operational Process Mapping Viewpoint supports the "Business or Mission Analysis Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1] and contributes to the definition of operational scenarios.
 ## Stakeholder
 ## Concern
 * Show in a concise manner the relationships from operational process to operational story and to operational performer.
 ## Presentation
-The relationships of Operational Process Activities to Operational Stories, and to Operational Performers are represented in a table.
+A tabular format listing the relationships of Operational Process Activities to Operational Capabilities, Operational Stories, and Operational Performers.
 
 ## Profile Model Reference
 |Stereotype | realized Concept|
@@ -24,7 +24,7 @@ The relationships of Operational Process Activities to Operational Stories, and 
 |[SAF_OperationalProcessContribution](../../stereotypes.md#SAF_OperationalProcessContribution)|[OPScontributingToOCY](../concept/concepts.md#OPScontributingToOCY)|
 |[SAF_OperationalProcessRefinement](../../stereotypes.md#SAF_OperationalProcessRefinement)|[OPSrefiningOSY](../concept/concepts.md#OPSrefiningOSY)|
 |[SAF_OperationalStory](../../stereotypes.md#SAF_OperationalStory)|[Operational Story](../concept/concepts.md#Operational-Story)|
-|[SAF_SOV08b_View](../../stereotypes.md#SAF_SOV08b_View)|[Operational Process Traceability Viewpoint](../concept/concepts.md#Operational-Process-Traceability-Viewpoint)|
+|[SAF_SOV08b_View](../../stereotypes.md#SAF_SOV08b_View)|[Operational Process Mapping Viewpoint](../concept/concepts.md#Operational-Process-Mapping-Viewpoint)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Operational Process Viewpoint](Operational-Process-Viewpoint.md)
@@ -33,6 +33,6 @@ The relationships of Operational Process Activities to Operational Stories, and 
 * [Operational Domain Item Kind Viewpoint](Operational-Domain-Item-Kind-Viewpoint.md)
 # Viewpoint Concept and Profile Diagrams
 ## Concept
-![Operational Process Traceability Concept](diagrams/Operational-Process-Traceability-Concept.svg)
+![Operational Process Mapping Concept](diagrams/Operational-Process-Mapping-Concept.svg)
 ## Profile
-![Operational Process Traceability Profile](diagrams/Operational-Process-Traceability-Profile.svg)
+![Operational Process Mapping Profile](diagrams/Operational-Process-Mapping-Profile.svg)

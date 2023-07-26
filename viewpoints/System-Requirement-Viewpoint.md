@@ -47,5 +47,5 @@ A System Requirement Table (RVTM), a tabular format, featuring
 * [Operational Capability Viewpoint](Operational-Capability-Viewpoint.md)
 * [Operational Process Viewpoint](Operational-Process-Viewpoint.md)
 * [Operational Interaction Viewpoint](Operational-Interaction-Viewpoint.md)
-* [Operational Capability Traceability Viewpoint](Operational-Capability-Traceability-Viewpoint.md)
-* [Operational Process Traceability Viewpoint](Operational-Process-Traceability-Viewpoint.md)
+* [Operational Capability Mapping Viewpoint](Operational-Capability-Mapping-Viewpoint.md)
+* [Operational Process Mapping Viewpoint](Operational-Process-Mapping-Viewpoint.md)

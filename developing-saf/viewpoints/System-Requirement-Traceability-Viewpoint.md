@@ -2,7 +2,7 @@
 # SAF Development Documentation : System Requirement Traceability Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
-|[Functional](../../domains.md#Domain-Functional)|[Mapping & Crossreference](../../aspects.md#Aspect-Mapping-&-Crossreference)|![Released](../../diagrams/Symbol_confirmed.svg.png )[released](../../using-saf/maturity.md#released)|
+|[Functional](../../domains.md#Domain-Functional)|[Traceability & Mapping](../../aspects.md#Aspect-Traceability-&-Mapping)|![Released](../../diagrams/Symbol_confirmed.svg.png )[released](../../using-saf/maturity.md#released)|
 ## Example
 ![System Requirement Traceability Matrix](../../diagrams/System-Requirement-Traceability-Matrix.svg)
 ## Purpose
@@ -43,9 +43,9 @@ A System Requirement Dependency Matrix featuring relationships for every System 
 |[SAF_SystemRequirement](../../stereotypes.md#SAF_SystemRequirement)|[System Requirement](../concept/concepts.md#System-Requirement)|
 |[SAF_SystemRequirementDerivation](../../stereotypes.md#SAF_SystemRequirementDerivation)|[SRderivingFromSR](../concept/concepts.md#SRderivingFromSR)|
 |[SAF_SystemRequirementDerivation](../../stereotypes.md#SAF_SystemRequirementDerivation)|[SRderivingFromSHR](../concept/concepts.md#SRderivingFromSHR)|
-|[SAF_SystemRequirementRefinement](../../stereotypes.md#SAF_SystemRequirementRefinement)|[SRrefiningSCY](../concept/concepts.md#SRrefiningSCY)|
 |[SAF_SystemRequirementRefinement](../../stereotypes.md#SAF_SystemRequirementRefinement)|[SRrefiningLICP](../concept/concepts.md#SRrefiningLICP)|
 |[SAF_SystemRequirementRefinement](../../stereotypes.md#SAF_SystemRequirementRefinement)|[SRrefiningSUC](../concept/concepts.md#SRrefiningSUC)|
+|[SAF_SystemRequirementRefinement](../../stereotypes.md#SAF_SystemRequirementRefinement)|[SRrefiningSCY](../concept/concepts.md#SRrefiningSCY)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Stakeholder Requirement Viewpoint](Stakeholder-Requirement-Viewpoint.md)

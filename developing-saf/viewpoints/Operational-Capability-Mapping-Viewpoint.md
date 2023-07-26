@@ -1,19 +1,19 @@
 ![System Architecture Framework](../../diagrams/Logo_SAF.png)
-# SAF Development Documentation : Operational Capability Traceability Viewpoint
+# SAF Development Documentation : Operational Capability Mapping Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
-|[Operational](../../domains.md#Domain-Operational)|[Mapping & Crossreference](../../aspects.md#Aspect-Mapping-&-Crossreference)|![Released](../../diagrams/Symbol_confirmed.svg.png )[released](../../using-saf/maturity.md#released)|
+|[Operational](../../domains.md#Domain-Operational)|[Traceability & Mapping](../../aspects.md#Aspect-Traceability-&-Mapping)|![Released](../../diagrams/Symbol_confirmed.svg.png )[released](../../using-saf/maturity.md#released)|
 ## Example
-*none*
+![SAR and FDN Capability Mapping Table](../../diagrams/SAR-and-FDN-Capability-Mapping-Table.svg)
 ## Purpose
-The Operational Capability Traceability Viewpoint describes the relationships of Operational Capabilities. The reasoning for Operational Capabilities as support for Operational Stories and contribution of Operational Processes to Capabilities is described.
+The Operational Capability Mapping Viewpoint describes the relationships of Operational Capabilities. The reasoning for Operational Capabilities as support for Operational Stories and contribution of Operational Processes to Capabilities is described. Operational Capabilities encoded in Stakeholder Requirements are identified.
 ## Applicability
-The Operational Capability Traceability Viewpoint supports the "Business or Mission Analysis Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1] and contributes to the definition of Operational Capabilities.
+The Operational Capability Mapping Viewpoint supports the "Business or Mission Analysis Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1] and contributes to the definition of Operational Capabilities.
 ## Stakeholder
 ## Concern
 * Show in a concise manner the relationships from operational capability to operational story, to operational activity, and to operational performer.
 ## Presentation
-The relationships of Operational Capabilities to Operational Stories, and to Operational Process Activities are represented in a table.
+A tabular format listing the relationships of Operational Capabilities to Stakeholder Requirements, Operational Stories, and Operational Process Activities.
 
 ## Profile Model Reference
 |Stereotype | realized Concept|
@@ -23,11 +23,14 @@ The relationships of Operational Capabilities to Operational Stories, and to Ope
 |[SAF_OperationalCapabilityDependency](../../stereotypes.md#SAF_OperationalCapabilityDependency)|[OCYdependingON](../concept/concepts.md#OCYdependingON)|
 |[SAF_OperationalCapabilityGeneralization](../../stereotypes.md#SAF_OperationalCapabilityGeneralization)|[OCYspecializedBY](../concept/concepts.md#OCYspecializedBY)|
 |[SAF_OperationalCapabilitySupport](../../stereotypes.md#SAF_OperationalCapabilitySupport)|[OCYsupportingOSY](../concept/concepts.md#OCYsupportingOSY)|
+|[SAF_OperationalPerformer](../../stereotypes.md#SAF_OperationalPerformer)|[Operational Performer](../concept/concepts.md#Operational-Performer)|
 |[SAF_OperationalPerformerExhibit](../../stereotypes.md#SAF_OperationalPerformerExhibit)|[OPRexhibitingOCY](../concept/concepts.md#OPRexhibitingOCY)|
 |[SAF_OperationalProcess](../../stereotypes.md#SAF_OperationalProcess)|[Operational Process](../concept/concepts.md#Operational-Process)|
 |[SAF_OperationalProcessContribution](../../stereotypes.md#SAF_OperationalProcessContribution)|[OPScontributingToOCY](../concept/concepts.md#OPScontributingToOCY)|
 |[SAF_OperationalStory](../../stereotypes.md#SAF_OperationalStory)|[Operational Story](../concept/concepts.md#Operational-Story)|
-|[SAF_SOV08a_View](../../stereotypes.md#SAF_SOV08a_View)|[Operational Capability Traceability Viewpoint](../concept/concepts.md#Operational-Capability-Traceability-Viewpoint)|
+|[SAF_SOV08a_View](../../stereotypes.md#SAF_SOV08a_View)|[Operational Capability Mapping Viewpoint](../concept/concepts.md#Operational-Capability-Mapping-Viewpoint)|
+|[SAF_StakeholderRequirement](../../stereotypes.md#SAF_StakeholderRequirement)|[Stakeholder Requirement](../concept/concepts.md#Stakeholder-Requirement)|
+|[SAF_StakeholderRequirementRefinement](../../stereotypes.md#SAF_StakeholderRequirementRefinement)|[SHRrefiningOCY](../concept/concepts.md#SHRrefiningOCY)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Operational Capability Viewpoint](Operational-Capability-Viewpoint.md)
@@ -36,6 +39,6 @@ The relationships of Operational Capabilities to Operational Stories, and to Ope
 * [Operational Process Viewpoint](Operational-Process-Viewpoint.md)
 # Viewpoint Concept and Profile Diagrams
 ## Concept
-![Operational Capability Traceability Concept](diagrams/Operational-Capability-Traceability-Concept.svg)
+![Operational Capability Mapping Concept](diagrams/Operational-Capability-Mapping-Concept.svg)
 ## Profile
-![Operational Capability Traceability Profile](diagrams/Operational-Capability-Traceability-Profile.svg)
+![Operational Capability Mapping Profile](diagrams/Operational-Capability-Mapping-Profile.svg)
