@@ -46,9 +46,9 @@ By identifying Stakeholders and their Requirements the SAF Operational Domain su
 * Operational Interaction Viewpoint
 #### Operational Domain Aspect Requirement
 * [Stakeholder Requirement Viewpoint](viewpoints/Stakeholder-Requirement-Viewpoint.md)
-#### Operational Domain Aspect Crossreference
-* [Operational Capability Traceability Viewpoint](viewpoints/Operational-Capability-Traceability-Viewpoint.md)
-* [Operational Process Traceability Viewpoint](viewpoints/Operational-Process-Traceability-Viewpoint.md)
+#### Operational Domain Aspect Traceability & Mapping
+* [Operational Capability Mapping Viewpoint](viewpoints/Operational-Capability-Mapping-Viewpoint.md)
+* [Operational Process Mapping Viewpoint](viewpoints/Operational-Process-Mapping-Viewpoint.md)
 
 ## Functional Domain
 
@@ -87,7 +87,7 @@ The Functional Domain Viewpoints translate Operational Domain usage into the not
 * [System Context Interaction Viewpoint](viewpoints/System-Context-Interaction-Viewpoint.md)
 #### Functional Domain Aspect Requirement
 * [System Requirement Viewpoint](viewpoints/System-Requirement-Viewpoint.md)
-#### Functional Domain Aspect Crossreference
+#### Functional Domain Aspect Traceability & Mapping
 * [System Requirement Traceability Viewpoint](viewpoints/System-Requirement-Traceability-Viewpoint.md)
 
 ## Logical Domain
@@ -112,8 +112,8 @@ The Logical Domain is not a different abstraction level - compared to the Functi
 #### Logical Domain Aspect Interaction and Collaboration
 * [Logical Internal Interaction Viewpoint](viewpoints/Logical-Internal-Interaction-Viewpoint.md)
 * [Logical Internal Exchange Viewpoint](viewpoints/Logical-Internal-Exchange-Viewpoint.md)
-#### Functional Domain Aspect Crossreference
-* [Logical Functional Assignment Viewpoint](viewpoints/Logical-Functional-Assignment-Viewpoint.md)
+#### Functional Domain Aspect Traceability & Mapping
+* [Logical Functional Mapping Viewpoint](viewpoints/Logical-Functional-Mapping-Viewpoint.md)
 
 ## Physical Domain
 
@@ -138,12 +138,12 @@ For traceability the Physical Domain defines diagrams showing the mapping of the
 * Provide an overview on all physical interconnections between the internal elements of the system.
 * Provide a detailed view on the physical interfaces and the interconnection between the system elements.
 * Define a physical interface type in detail including compatibility rules.
-#### Allocations
-* Show the allocation of logical blocks from the logical architecture to elements of the physical architecture.
-* Show the allocation of logical interfaces from the logical architecture to interfaces of the physical architecture.
+#### Mapping
+* Show the mapping of logical blocks from the logical architecture to elements of the physical architecture.
+* Show the mapping of logical interfaces from the logical architecture to interfaces of the physical architecture.
 * Allocate functional or non-functional requirements to the elements of the physical architecture.
 * Allocate functional or non-functional requirements to the interfaces of the physical architecture.
-* Allocate a safety criticality to the elements of the physical architecture.
+* Allocate safety integrity level to the elements of the physical architecture.
 
 ### Physical Domain Viewpoints
 #### Physical Domain Aspect Context
@@ -158,8 +158,8 @@ For traceability the Physical Domain defines diagrams showing the mapping of the
 #### Physical Domain Aspect Interface
 * Physical Interface Definition Viewpoint
 * Physical Protocol Stack Definition Viewpoint
-#### Physical Domain Aspect Crossreference
-* [Physical Functional Assignment Viewpoint](viewpoints/Physical-Functional-Assignment-Viewpoint.md)
+#### Physical Domain Aspect Traceability & Mapping
+* [Physical Functional Mapping Viewpoint](viewpoints/Physical-Functional-Mapping-Viewpoint.md)
 ## Common Domain
 ### Common Domain Objective
 The SAF Common Domain provides viewpoints addressing model information that is common to all other domains or that are applicable throughout the model.
@@ -172,13 +172,13 @@ The SAF Common Domain provides viewpoints addressing model information that is c
 
 
 # Stakeholder Definition
-[Stakeholders](stakeholders.md)
+* [Stakeholders](stakeholders.md)
 
 
 # Concern Overview
-[Concerns](concerns.md)
+* [Concerns](concerns.md)
 
 
 # Profile Model
-[Stereotypes](stereotypes.md)
+* [Stereotypes](stereotypes.md)
 
