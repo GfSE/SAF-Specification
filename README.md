@@ -172,13 +172,13 @@ The SAF Common Domain provides viewpoints addressing model information that is c
 
 
 # Stakeholder Definition
-* [Stakeholders](stakeholders.md)
+* [List of Stakeholders](stakeholders.md)
 
 
 # Concern Overview
-* [Concerns](concerns.md)
+* [List of Concerns](concerns.md)
 
 
 # Profile Model
-* [Stereotypes](stereotypes.md)
+* [List of Stereotypes](stereotypes.md)
 
