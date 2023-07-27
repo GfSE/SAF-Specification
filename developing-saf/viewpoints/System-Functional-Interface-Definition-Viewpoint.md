@@ -20,9 +20,9 @@ A Table featuringt interface blocks and their ports and flow properties.
 |Stereotype | realized Concept|
 |---|---|
 |FlowProperty typed by SAF_DomainKind|[SDKtypingLIP](../concept/concepts.md#SDKtypingLIP)|
+|ItemFlow typed by SAF_DomainKind|[SDKtypingLIE](../concept/concepts.md#SDKtypingLIE)|
 |ProxyPort typed by InterfaceBlock|[LICDSspecifyingDetailOfLICP](../concept/concepts.md#LICDSspecifyingDetailOfLICP)|
 |FlowProperty contained in InterfaceBlock|[LIPspecifyingDetailOfLICD](../concept/concepts.md#LIPspecifyingDetailOfLICD)|
-|ItemFlow typed by SAF_DomainKind|[SDKtypingLIE](../concept/concepts.md#SDKtypingLIE)|
 |Connector [UML_Standard_Profile]|[Logical Interface Connection](../concept/concepts.md#Logical-Interface-Connection)|
 |FlowProperty [SysML Profile]|[Logical Interface Property](../concept/concepts.md#Logical-Interface-Property)|
 |InterfaceBlock [SysML Profile]|[Logical Interface Connection Point Definition](../concept/concepts.md#Logical-Interface-Connection-Point-Definition)|

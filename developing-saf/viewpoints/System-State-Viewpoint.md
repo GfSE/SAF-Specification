@@ -35,8 +35,8 @@ A table featuring states, transitions to other states and the conditons to be fu
 |[SAF_SFV03c_View](../../stereotypes.md#SAF_SFV03c_View)|[System State Viewpoint](../concept/concepts.md#System-State-Viewpoint)|
 |[SAF_SystemFunction](../../stereotypes.md#SAF_SystemFunction)|[System Function](../concept/concepts.md#System-Function)|
 |State [UML_Standard_Profile]|[System State](../concept/concepts.md#System-State)|
-|StateMachine [UML_Standard_Profile]|[SDKbeeingInSS](../concept/concepts.md#SDKbeeingInSS)|
 |StateMachine [UML_Standard_Profile]|[LETbeeingInSSE](../concept/concepts.md#LETbeeingInSSE)|
+|StateMachine [UML_Standard_Profile]|[SDKbeeingInSS](../concept/concepts.md#SDKbeeingInSS)|
 |Transition [UML_Standard_Profile]|[State Transition](../concept/concepts.md#State-Transition)|
 ## Input from other Viewpoints
 ### Required Viewpoints

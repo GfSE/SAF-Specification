@@ -30,6 +30,8 @@ realized by Stereotype [SAF_Claimant](../../stereotypes.md#SAF_Claimant)
 
 A party asserting claims.
 ## Compliance Statement
+exposed in viewpoint [Stakeholder Requirement Viewpoint](../../viewpoints/Stakeholder-Requirement-Viewpoint.md)
+
 Used in the communication between Stakeholder (Customer) and Contractor. Compliance Statements are the first answer to the Stakeholder Requirements and are usually together with the Stakeholder Requirements part of the contract. They are valuable input for the System development and System Requirement elicitation. Information status:
 * not compliant (with explanation / rationale)
 * partially compliant (with explanation / rationale)
@@ -217,6 +219,8 @@ exposed in viewpoint [Operational Capability Mapping Viewpoint](../../viewpoints
 exposed in viewpoint [Operational Capability Viewpoint](../../viewpoints/Operational-Capability-Viewpoint.md)
 
 exposed in viewpoint [Operational Process Mapping Viewpoint](../../viewpoints/Operational-Process-Mapping-Viewpoint.md)
+
+exposed in viewpoint [Stakeholder Requirement Viewpoint](../../viewpoints/Stakeholder-Requirement-Viewpoint.md)
 
 exposed in viewpoint [System Capability Viewpoint](../../viewpoints/System-Capability-Viewpoint.md)
 
@@ -612,6 +616,8 @@ realized by Stereotype [SAF_ClaimantClaimMaking](../../stereotypes.md#SAF_Claima
 Specifies the fact that a claim is made by a defined claimant.
 ## CSTconfirmingSHR
 1 [Compliance Statement](#Compliance-Statement) CSTconfirmingSHR 1 [Stakeholder Requirement](#Stakeholder-Requirement) 
+
+exposed in viewpoint [Stakeholder Requirement Viewpoint](../../viewpoints/Stakeholder-Requirement-Viewpoint.md)
 
 Specifies the fact that a Stakeholder Requirement has certain States of Compliance.
 ## EVCreinforcingAGT
@@ -1122,6 +1128,8 @@ Specifies the fact that a Stakeholder Concern is refined by Stakeholder Requirem
 
 exposed in viewpoint [Operational Capability Mapping Viewpoint](../../viewpoints/Operational-Capability-Mapping-Viewpoint.md)
 
+exposed in viewpoint [Stakeholder Requirement Viewpoint](../../viewpoints/Stakeholder-Requirement-Viewpoint.md)
+
 realized by Stereotype [SAF_StakeholderRequirementRefinement](../../stereotypes.md#SAF_StakeholderRequirementRefinement)
 
 Specifies the fact that an Operational Capability is refined by Stakeholder Requirements.
@@ -1217,8 +1225,6 @@ Specifies the fact that the Function is only provided in distinct States. The st
 1 [System of Interest Stakeholder](#System-of-Interest-Stakeholder) SSHhavingCRN 1..* [System of Interest Concern](#System-of-Interest-Concern) 
 
 exposed in viewpoint [Stakeholder Identification Viewpoint](../../viewpoints/Stakeholder-Identification-Viewpoint.md)
-
-exposed in viewpoint [Stakeholder Requirement Viewpoint](../../viewpoints/Stakeholder-Requirement-Viewpoint.md)
 
 Specifies the fact that a Stakeholder has certain Concerns.
 ## SSHrelatedToSSH
