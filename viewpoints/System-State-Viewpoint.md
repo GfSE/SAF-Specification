@@ -6,7 +6,7 @@
 ## Example
 ![FFDS System Modes and States](../diagrams/FFDS-System-Modes-and-States.svg)
 ## Purpose
-The System State Viewpoint defines the conditions of the SOI or parts of it that constrain the execution of System Functions. System States are used as pre-condition or post-condition of Use Cases, as constraints within the definition of System Functions,  to specify states and allowed transitions in system wide concepts captured by Domain Model Items, and  are also used in Requirements. The valid transitions between System States and the conditions for transitioning are specified.
+The System State Viewpoint defines the conditions of the SOI or parts of thereof that constrain the execution of System Functions. System States are used as pre- or post-condition of System Use Cases, and as constraints within the definition of System Functions to specifying valid transitions. Valid transitions between System States and the conditions for transitioning are specified in system wide concepts captured in System Requirements.
 ## Applicability
 The System State  Viewpoint supports the "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§4.3] and contributes to the System Function Definition.
 ## Stakeholder
@@ -22,9 +22,10 @@ The System State  Viewpoint supports the "System Requirements Definition Process
 * Which modes and states does the system have?
 * Which system functions are dependent on a systems mode or state?
 ## Presentation
-A state transition diagram featuring states and transitions between states. References to model elements that are dependent of states or transitions shall be shown as callout or compartment notation.
+A block definition diagram (BDD) featuring states, and state transitions. 
+Note: References to model elements that are dependent of states, or transitions shall be shown as callout, or compartment notation.
 
-A table featuring states, transitions to other states and the conditons to be fullfilled for the transition to happen. References to Model Elements that are dependent of states (domain items, system functions, use cases..) shall also be shown in the table
+A tabular format listing states, state transitions, and the conditons to be fullfilled before the transition will occur. References to model elements that are dependent of states (Domain Item Kinds, System Functions, System Use Cases, etc.), or transitions shall be shown in the table.
 
 ## Profile Model Reference
 * Event [UML_Standard_Profile]

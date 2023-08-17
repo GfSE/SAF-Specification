@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Physical](../../domains.md#Domain-Physical)|[Context & Exchange](../../aspects.md#Aspect-Context-&-Exchange)|![Under Construction](../../diagrams/Under_construction_icon-yellow.svg )[under construction](../../using-saf/maturity.md#under-construction)|
 ## Example
-*none*
+![FFDS_Physical Context Definition](../../diagrams/FFDS_Physical-Context-Definition.svg)
 ## Purpose
 The Physical Context Definition Viewpoint identifies the different context the system is used in, along with the associated external entities sharing a physical interface with the system. For each context the applicable environmental conditions may be defined. The physical context helps in discovering the Interface Requirements needed to integrate a system into its environment in a specific context.
 Note: For each candidate system architecture, the physical context Viewpoint is elaborated forming the baseline for the later assessment of the different system architecture solutions.
@@ -37,10 +37,10 @@ The physical context definition diagram (BDD) defines the elements available in 
 ## Profile Model Reference
 |Stereotype | realized Concept|
 |---|---|
-|Association [UML_Standard_Profile]|[Physic Context Constituent](../concept/concepts.md#Physic-Context-Constituent)|
 |Association [UML_Standard_Profile]|[Physic SOI Constituent](../concept/concepts.md#Physic-SOI-Constituent)|
-|Property [UML_Standard_Profile]|[Physic Context Constituent](../concept/concepts.md#Physic-Context-Constituent)|
+|Association [UML_Standard_Profile]|[Physic Context Constituent](../concept/concepts.md#Physic-Context-Constituent)|
 |Property [UML_Standard_Profile]|[Physic SOI Constituent](../concept/concepts.md#Physic-SOI-Constituent)|
+|Property [UML_Standard_Profile]|[Physic Context Constituent](../concept/concepts.md#Physic-Context-Constituent)|
 |[SAF_PhysicalContext](../../stereotypes.md#SAF_PhysicalContext)|[Physical System Context](../concept/concepts.md#Physical-System-Context)|
 |[SAF_PhysicalEnvironment](../../stereotypes.md#SAF_PhysicalEnvironment)|[Physical Environment](../concept/concepts.md#Physical-Environment)|
 |[SAF_PhysicalExternalSystem](../../stereotypes.md#SAF_PhysicalExternalSystem)|[Physical External System](../concept/concepts.md#Physical-External-System)|

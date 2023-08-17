@@ -2,7 +2,7 @@
 # SAF User Documentation : Operational Performer Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
-|[Operational](../domains.md#Domain-Operational)|[Structure](../aspects.md#Aspect-Structure)|![Released](../diagrams/Symbol_confirmed.svg.png )[released](../using-saf/maturity.md#released)|
+|[Operational](../domains.md#Domain-Operational)|[Taxonomy & Structure](../aspects.md#Aspect-Taxonomy-&-Structure)|![Released](../diagrams/Symbol_confirmed.svg.png )[released](../using-saf/maturity.md#released)|
 ## Example
 ![Operational Performer Definition](../diagrams/Operational-Performer-Definition.svg)
 ## Purpose
@@ -15,7 +15,7 @@ The Operational Performer Viewpoint supports the "Business or Mission Analysis P
 * What partys of the organization, enterprise, or operational entity are needed to achieve an intended operational capability?
 * Which Operational Performer will operate or run the system?
 ## Presentation
-A block definition diagram (BDD) depicting Operational Performers. and their relations in terms of decomposition or generalization at a level of detail required for the understanding and analysis. 
+A block definition diagram (BDD) featuring Operational Performers. and their relations in terms of decomposition or generalization at a level of detail required for problem understanding and analysis. 
 Note: Identified Stakeholders are related to Operational Performers if appropriate.
 
 ## Profile Model Reference

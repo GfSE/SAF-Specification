@@ -26,9 +26,9 @@ A  Logical Functional Mapping Matrix featuring
 |Stereotype | realized Concept|
 |---|---|
 |Allocate [SysML Profile]|[USEAGEallocatedTO](../concept/concepts.md#USEAGEallocatedTO)|
-|[SAF_FunctionAction](../../stereotypes.md#SAF_FunctionAction)|[Functional Usage](../concept/concepts.md#Functional-Usage)|
+|[SAF_FunctionAction](../../stereotypes.md#SAF_FunctionAction)|[General Functional Usage](../concept/concepts.md#General-Functional-Usage)|
+|[SAF_LogicalContextRole](../../stereotypes.md#SAF_LogicalContextRole)|[Internal Logical Element Constituent](../concept/concepts.md#Internal-Logical-Element-Constituent)|
 |[SAF_LogicalElement](../../stereotypes.md#SAF_LogicalElement)|[Logical Element](../concept/concepts.md#Logical-Element)|
-|[SAF_LogicalRole](../../stereotypes.md#SAF_LogicalRole)|[Internal Logical Element Constituent](../concept/concepts.md#Internal-Logical-Element-Constituent)|
 |[SAF_LogicalSOI](../../stereotypes.md#SAF_LogicalSOI)|[Logical SOI](../concept/concepts.md#Logical-SOI)|
 |[SAF_SLV08a_View](../../stereotypes.md#SAF_SLV08a_View)|[Logical Functional Mapping Viewpoint](../concept/concepts.md#Logical-Functional-Mapping-Viewpoint)|
 |[SAF_SystemFunction](../../stereotypes.md#SAF_SystemFunction)|[System Function](../concept/concepts.md#System-Function)|

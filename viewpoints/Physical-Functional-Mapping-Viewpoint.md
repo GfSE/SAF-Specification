@@ -26,7 +26,6 @@ or Physical SOI
 
 ## Profile Model Reference
 * Allocate [SysML Profile]
-* Property [UML_Standard_Profile]
 * [SAF_FunctionAction](../stereotypes.md#SAF_FunctionAction)
 * [SAF_PhysicalElement](../stereotypes.md#SAF_PhysicalElement)
 * [SAF_PhysicalHardwareElement](../stereotypes.md#SAF_PhysicalHardwareElement)

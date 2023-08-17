@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Operational](../../domains.md#Domain-Operational)|[Requirement](../../aspects.md#Aspect-Requirement)|![Released](../../diagrams/Symbol_confirmed.svg.png )[released](../../using-saf/maturity.md#released)|
 ## Example
-![Stakeholder Requirement Definition Table](../../diagrams/Stakeholder-Requirement-Definition-Table.svg)
+![Stakeholder Requirement Table](../../diagrams/Stakeholder-Requirement-Table.svg)
 ## Purpose
 The Stakeholder Requirement Viewpoint specifies all properties that the intended solution shall possess or expose from the perspective of the Stakeholders. The Stakeholder Requirement Viewpoint determines capabilities, functions, non-functional properties, and constraints.
 ## Applicability
@@ -22,9 +22,12 @@ The Stakeholder Requirement Viewpoint supports the "Stakeholder Needs and Requir
 * What defines a valid solution towards the customer?
 * What is the range of acceptable system performance, i.e. the critical, top-level performance requirements derived from the operational needs?
 ## Presentation
-Stakeholder requirements are to be structured in a way that the Stakeholder behind the Requirement is identifiable. When appropriate, the relationships between identified Stakeholder Requirements are and the justifying model artefacts, Operational Story, Operational Capability, Operational Performer, Operational Process, and Operational Exchange are presented.
-Note 1: "One Requirement Package for each Stakeholder" is a best-practice modeling rule. A package contains the Requirements specific for one Stakeholder.
-Note 2: Even if different Stakeholders may have intersecting interests and / or concerns resulting in a similar set of Requirements, each Stakeholder shall have its own set managed in a dedicated Requirement Package. Requirements must not be shared due to their different life cycles. Resolving duplications and conflicts is subject of the requirement analysis resulting in an agreed and consolidated set of System Requirements.
+A Stakeholder Requirement Table (RVTM), a tabular format, featuring
+* unique requirement ID, text, and attributes,
+* traceability reference to justifying model artefacts.
+Note: Stakeholder Requirements are to be structured in a way that the Stakeholder behind the Requirement is identifiable. When appropriate, the relationships between identified Stakeholder Requirements are and the justifying model artefacts, Operational Story, Operational Capability, Operational Performer, Operational Process, and Operational Exchange are presented.
+* "One Requirement Package for each Stakeholder" is a best-practice modeling rule. A package contains the Requirements specific for one Stakeholder.
+* Even if different Stakeholders may have intersecting interests and / or concerns resulting in a similar set of Requirements, each Stakeholder shall have its own set managed in a dedicated Requirement Package. Requirements must not be shared due to their different life cycles. Resolving duplications and conflicts is subject of the requirement analysis resulting in an agreed and consolidated set of System Requirements.
 
 ## Profile Model Reference
 |Stereotype | realized Concept|
@@ -35,9 +38,9 @@ Note 2: Even if different Stakeholders may have intersecting interests and / or 
 |[SAF_Stakeholder](../../stereotypes.md#SAF_Stakeholder)|[System of Interest Stakeholder](../concept/concepts.md#System-of-Interest-Stakeholder)|
 |[SAF_StakeholderRequirement](../../stereotypes.md#SAF_StakeholderRequirement)|[Stakeholder Requirement](../concept/concepts.md#Stakeholder-Requirement)|
 |[SAF_StakeholderRequirementImposition](../../stereotypes.md#SAF_StakeholderRequirementImposition)|[SHRimposedBY](../concept/concepts.md#SHRimposedBY)|
-|[SAF_StakeholderRequirementRefinement](../../stereotypes.md#SAF_StakeholderRequirementRefinement)|[SHRrefiningOSY](../concept/concepts.md#SHRrefiningOSY)|
 |[SAF_StakeholderRequirementRefinement](../../stereotypes.md#SAF_StakeholderRequirementRefinement)|[SHRrefiningOCY](../concept/concepts.md#SHRrefiningOCY)|
 |[SAF_StakeholderRequirementRefinement](../../stereotypes.md#SAF_StakeholderRequirementRefinement)|[SHRrefiningCRN](../concept/concepts.md#SHRrefiningCRN)|
+|[SAF_StakeholderRequirementRefinement](../../stereotypes.md#SAF_StakeholderRequirementRefinement)|[SHRrefiningOSY](../concept/concepts.md#SHRrefiningOSY)|
 |[SAF_SystemOfInterestConcern](../../stereotypes.md#SAF_SystemOfInterestConcern)|[System of Interest Concern](../concept/concepts.md#System-of-Interest-Concern)|
 ## Input from other Viewpoints
 ### Required Viewpoints

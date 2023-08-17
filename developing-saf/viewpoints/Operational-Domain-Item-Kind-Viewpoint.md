@@ -2,7 +2,7 @@
 # SAF Development Documentation : Operational Domain Item Kind Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
-|[Operational](../../domains.md#Domain-Operational)|[Structure](../../aspects.md#Aspect-Structure)|![Released](../../diagrams/Symbol_confirmed.svg.png )[released](../../using-saf/maturity.md#released)|
+|[Operational](../../domains.md#Domain-Operational)|[Taxonomy & Structure](../../aspects.md#Aspect-Taxonomy-&-Structure)|![Released](../../diagrams/Symbol_confirmed.svg.png )[released](../../using-saf/maturity.md#released)|
 ## Example
 ![Operational Domain Item Definition](../../diagrams/Operational-Domain-Item-Definition.svg)
 ## Purpose
@@ -13,7 +13,8 @@ The Operational Domain Item Kind Viewpoint supports the "Business or Mission Ana
 ## Concern
 * What operational exchange does the operational performers need to consume or provide?
 ## Presentation
-Operational Domain Item Kinds are managed in the domain knowledge package of Enterprise. Operational Domain Item Kinds shall be value types or blocks. A block definition diagram (BDD) featuring Operational Domain Item Kinds and their Relationships in terms of generalization, composition or general association shall be used.
+A block definition diagram (BDD) featuring Operational Domain Item Kinds and their relationships in terms of generalization, composition, or general association.
+Note: Operational Domain Item Kinds are managed in the domain knowledge package of the Enterprise. Operational Domain Item Kinds shall be value types or blocks. 
 
 ## Profile Model Reference
 |Stereotype | realized Concept|

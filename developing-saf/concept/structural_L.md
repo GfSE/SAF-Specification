@@ -2,13 +2,15 @@
 ![SAF_structural_L Definition.svg](./diagrams/SAF_structural_L-Definition.svg)
 |Concept|Documentation|
 | --- | --- |
-| Functional Usage | Specifies the fact that a Function is used by one or more other Functions.|
 | GFNcontrolledAFTER | Specifies a sequential execution of Functions.|
 | General Function | Specifies the fact that a General Function is used as base Class for specific System or Context Functions.|
+| General Functional Usage | Specifies the fact that a Function is used by one or more other Functions.|
 | Internal Logical Element Constituent | Specifies the fact that a Logical Element contains any number of Logical Elements.|
-| LETimplementingGFN | Specifies that a logical element is responsible to implement a function.<br>Note:<br>Logical elements dont really "implement" anything, they pass the function to physical elements.|
+| LETbeeingInSSE | Specifies the fact that a Logical Element can be in one distinct System State.|
+| LETimplementingGFN | Specifies the fact that a Logical Element is responsible to implement a System Function.<br>Note: Logical Elements don't "implement" anything, they pass the function implementation task to Physical Elements.|
 | Logical Element | Describes a logical, conceptual system as specification for an implementation of a system, or system part.|
 | Logical SOI | A SOI representation in the Logical Domain.|
 | Structural Item | Basic concept of an Item of a structure.|
 | System Of Interest | An abstract element representing the SOI. Base for specific perspectives on SOI (logical , physical)|
-| USEAGEallocatedTO | Specifies the fact that a "Usage of Function" is allocated to a "Usage of System Element".<br>See [SYSMLGUIDE] for use cases and further recommendations.|
+| System State | Describes a state (or mode) of something that can have distinct states.|
+| USEAGEallocatedTO | Specifies the fact that a Usage of Function is allocated to a Usage of System Element.|

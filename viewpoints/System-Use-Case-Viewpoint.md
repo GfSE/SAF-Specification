@@ -24,9 +24,10 @@ The System Use Case Viewpoint supports the "Stakeholder Needs and Requirements D
 * Which is the system scenario, i.e., course of action, for the context in which the system of interest solution will exist?
 * Which users does the system support? What the system has to accomplish for these users?
 ## Presentation
-A use case diagram depicting model elements representing System Use Cases, and System Context Elements shall be used. The System Context for the use case shall be shown on the diagram, too. System Use Case pre- and postconditions shall be represented either by callout or compartment notation.
+A use case diagram featuring model elements representing System Use Cases, System Context and System Context Elements.
+Note: System Use Case pre- and postconditions shall be represented either by callout or compartment notation.
 
-A tabular format listing the System Use Cases, the System Context for the respective use case, and the System Context Elements that apply to the use case, as well as the pre- and postconditions.
+A tabular format listing the System Use Cases, the System Use Case pre- and postconditions, the System Context, and the System Context Elements.
 
 ## Profile Model Reference
 * Include [UML_Standard_Profile]
@@ -39,7 +40,7 @@ A tabular format listing the System Use Cases, the System Context for the respec
 * [SAF_SystemUseCase](../stereotypes.md#SAF_SystemUseCase)
 * [SAF_SystemUseCase](../stereotypes.md#SAF_SystemUseCase)
 * [SAF_SystemUseCase](../stereotypes.md#SAF_SystemUseCase)
-* [SAF_SystemUseCaseContribution](../stereotypes.md#SAF_SystemUseCaseContribution)
+* [SAF_SystemUseCaseEnabling](../stereotypes.md#SAF_SystemUseCaseEnabling)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [System Context Definition Viewpoint](System-Context-Definition-Viewpoint.md)

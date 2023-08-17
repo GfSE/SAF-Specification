@@ -7,7 +7,6 @@
 ![FFDS Context Definition](../../diagrams/FFDS-Context-Definition.svg)
 ## Purpose
 The System Context Definition Viewpoint defines how the SOI is embedded in its Environment, i.e., where the boundary of the SOI is and who the External Entities are the SOI interacts with (e.g., Users, other External Systems, Environmental Conditions, etc.). The SOI provides and requests Context Functions. The SOI shall be able handle events and effects from the outside.
-
 Furthermore, the System Context Definition Viewpoint serves as architecture concept to demonstrate how the architecture defined in the The Operational Context Definition Viewpoint is realized.
 ## Applicability
 The System Context Definition Viewpoint supports the "Prepare for Requirement Definition" activity included in "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.3] and contributes to the system Functional Interface Identification.
@@ -26,25 +25,25 @@ The System Context Definition Viewpoint supports the "Prepare for Requirement De
 * Which classes of users (roles) will interact with the system?
 * Which interface partners does the system have?
 ## Presentation
-A BDD featuring the following elements
+A block definition diagram (BDD) featuring the following elements
 * a Logical Element block representing SOI in the logical domain
 * a Logical Context block representing the addressed context in the logical domain
 * Logical Context Element blocks for each relevant context element
-* a Composition relationship from Context block to each Context Element used in the context
-* a Composition relationship from Context block to the SOI
+* a composition relationship from Context block to each Context Element used in the context
+* a composition relationship from Context block to the SOI
 
-A tabular format listing the context elements, and the context in which they are used.
+A tabular format listing the [tbd].
 
 ## Profile Model Reference
 |Stereotype | realized Concept|
 |---|---|
-|Association [UML_Standard_Profile]|[Logical Context Element Constituent](../concept/concepts.md#Logical-Context-Element-Constituent)|
 |Association [UML_Standard_Profile]|[Logical SOI Constituent](../concept/concepts.md#Logical-SOI-Constituent)|
+|Association [UML_Standard_Profile]|[Logical Context Element Constituent](../concept/concepts.md#Logical-Context-Element-Constituent)|
 |[SAF_LogicalContext](../../stereotypes.md#SAF_LogicalContext)|[Logical System Context](../concept/concepts.md#Logical-System-Context)|
+|[SAF_LogicalContextRole](../../stereotypes.md#SAF_LogicalContextRole)|[Logical SOI Constituent](../concept/concepts.md#Logical-SOI-Constituent)|
+|[SAF_LogicalContextRole](../../stereotypes.md#SAF_LogicalContextRole)|[Logical Context Element Constituent](../concept/concepts.md#Logical-Context-Element-Constituent)|
 |[SAF_LogicalEnvironment](../../stereotypes.md#SAF_LogicalEnvironment)|[Logical Environment](../concept/concepts.md#Logical-Environment)|
 |[SAF_LogicalExternalSystem](../../stereotypes.md#SAF_LogicalExternalSystem)|[Logical External System](../concept/concepts.md#Logical-External-System)|
-|[SAF_LogicalRole](../../stereotypes.md#SAF_LogicalRole)|[Logical Context Element Constituent](../concept/concepts.md#Logical-Context-Element-Constituent)|
-|[SAF_LogicalRole](../../stereotypes.md#SAF_LogicalRole)|[Logical SOI Constituent](../concept/concepts.md#Logical-SOI-Constituent)|
 |[SAF_LogicalSOI](../../stereotypes.md#SAF_LogicalSOI)|[Logical SOI](../concept/concepts.md#Logical-SOI)|
 |[SAF_LogicalUser](../../stereotypes.md#SAF_LogicalUser)|[Logical User](../concept/concepts.md#Logical-User)|
 |[SAF_SFV01b_View](../../stereotypes.md#SAF_SFV01b_View)|[System Context Definition Viewpoint](../concept/concepts.md#System-Context-Definition-Viewpoint)|

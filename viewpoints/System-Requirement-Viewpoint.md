@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Functional](../domains.md#Domain-Functional)|[Requirement](../aspects.md#Aspect-Requirement)|![Released](../diagrams/Symbol_confirmed.svg.png )[released](../using-saf/maturity.md#released)|
 ## Example
-![System Requirement Definition Table (nok)](../diagrams/System-Requirement-Definition-Table-(nok).svg)
+![System Requirement Table](../diagrams/System-Requirement-Table.svg)
 ## Purpose
 The System Requirement Viewpoint specifies functions, non-functional properties, or constraints of the System. System Requirements are captured, the interrelationships between Functional and Non-Functional Requirements on the same level of abstraction and the traceability to Stakeholder Requirements are depicted.
 ## Applicability
@@ -25,9 +25,9 @@ The System Requirement Viewpoint supports the "System Requirements Definition Pr
 * Which Stakeholder Requirements are addressed by System Requirements?
 ## Presentation
 A System Requirement Table (RVTM), a tabular format, featuring
-* unique requirement ID, text, and attributes
-* traceability reference to Stakeholder Requirements
-* traceability reference to depended requirements on the same abstraction level
+* unique requirement ID, text, and attributes,
+* traceability reference to Stakeholder Requirements,
+* traceability reference to depended Requirements on the same level of abstraction.
 
 ## Profile Model Reference
 * [SAF_SFV06a_View](../stereotypes.md#SAF_SFV06a_View)

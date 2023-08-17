@@ -2,7 +2,7 @@
 # SAF Development Documentation : Argumentation Assurance Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
-|[Common](../../domains.md#Domain-Common)|[Structure](../../aspects.md#Aspect-Structure)|![Released](../../diagrams/Symbol_confirmed.svg.png )[released](../../using-saf/maturity.md#released)|
+|[Common](../../domains.md#Domain-Common)|[Taxonomy & Structure](../../aspects.md#Aspect-Taxonomy-&-Structure)|![Released](../../diagrams/Symbol_confirmed.svg.png )[released](../../using-saf/maturity.md#released)|
 ## Example
 ![FFDS Safety Assurance Definition](../../diagrams/FFDS-Safety-Assurance-Definition.svg)
 ## Purpose

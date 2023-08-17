@@ -25,8 +25,8 @@ A  Logical Functional Mapping Matrix featuring
 ## Profile Model Reference
 * Allocate [SysML Profile]
 * [SAF_FunctionAction](../stereotypes.md#SAF_FunctionAction)
+* [SAF_LogicalContextRole](../stereotypes.md#SAF_LogicalContextRole)
 * [SAF_LogicalElement](../stereotypes.md#SAF_LogicalElement)
-* [SAF_LogicalRole](../stereotypes.md#SAF_LogicalRole)
 * [SAF_LogicalSOI](../stereotypes.md#SAF_LogicalSOI)
 * [SAF_SLV08a_View](../stereotypes.md#SAF_SLV08a_View)
 * [SAF_SystemFunction](../stereotypes.md#SAF_SystemFunction)

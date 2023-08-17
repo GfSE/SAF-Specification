@@ -4,7 +4,7 @@
 | --- | --- |
 | OPRactingInOSY | Specifies the fact that an Operational Performer acts in an Operational Story.|
 | OPRperformingOPSU | Specifies that an Operational Context Constituent performs an Operational Action in the context of an other Operational Activity.|
-| OPSrefiningOSY | Specifies the fact that an Operational Story is refined by Operational Processes.|
+| OPSrefiningOSY | Specifies the fact that an Operational Story is refined by one or more Operational Processes.|
 | Operational Context | An Operational Context is representing a separate Usage Scenario with a specific configuration of Operational Performers, these are interacting in the Scenario exhibiting a specific identified Operational Capability. One or more Operational Contexts meaningful for the Operational Domain are to be identified. <br><br>Aliases:<br>UAF::HighLevelOperationalConcept|
 | Operational Context Performer Constituent | An Operational Context Constituent represents a participant in the Operational Activity executing one or more of its atomic actions interacting with other constituents of the identified Operational Context. Specific characteristics and features or, in case of persons or organizational units, knowledge and skills are assigned to a constituent necessary for the execution of the allocated actions.|
 | Operational Performer | An Operational Performer is an element of the Operational Context that is capable to perform Operational Process Activities contributing to a specific identified Operational Capability. An Operational Performer may be any kind of organization, person, or even a system playing a role in one or more Operational Contexts.<br><br>Aliases:<br>UAF::OperationalPerformer|

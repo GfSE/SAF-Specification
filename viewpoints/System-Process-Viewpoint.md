@@ -38,10 +38,10 @@ The System Process Viewpoint supports the "System Requirements Definition Proces
 * Which functions are out of scope of the system?
 * Which functions will the system provide?
 ## Presentation
-The System Process Activities and their sequence related to a System UseCase are represented in activity diagrams featuring swim lanes. The swim lanes are typed with Context Element usage and SOI usage from the same System Context of the abovementioned Use case. 
-In order to improve the clarity of diagrams it may be appropriate to use several activity diagrams for one system process.
+An activity diagram featuring the ordered execution of System Process Actions. The activity diagram swim lanes are typed with Context Element usage and SOI usage from the same System Context. 
+Note: In order to improve the clarity of presentation it may be appropriate to use several activity diagrams for one System Process.
 
-A table listing all identified system functions, the system processes in which they appera and the functional exchange with the context elements.
+A tabular format listing all identified System Functions, the System Processes in which they appear, and the Comtext Exchange with the Context Functions.
 
 ## Profile Model Reference
 * Allocate [SysML Profile]
@@ -54,8 +54,8 @@ A table listing all identified system functions, the system processes in which t
 * [SAF_ContextAction](../stereotypes.md#SAF_ContextAction)
 * [SAF_ContextFunction](../stereotypes.md#SAF_ContextFunction)
 * [SAF_FunctionAction](../stereotypes.md#SAF_FunctionAction)
-* [SAF_LogicalRole](../stereotypes.md#SAF_LogicalRole)
-* [SAF_LogicalRole](../stereotypes.md#SAF_LogicalRole)
+* [SAF_LogicalContextRole](../stereotypes.md#SAF_LogicalContextRole)
+* [SAF_LogicalContextRole](../stereotypes.md#SAF_LogicalContextRole)
 * [SAF_SFV03a_View](../stereotypes.md#SAF_SFV03a_View)
 * [SAF_SystemFunction](../stereotypes.md#SAF_SystemFunction)
 * [SAF_SystemProcess](../stereotypes.md#SAF_SystemProcess)

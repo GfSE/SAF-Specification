@@ -2,15 +2,14 @@
 # SAF User Documentation : Stakeholder Identification Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
-|[Operational](../domains.md#Domain-Operational)|[Structure](../aspects.md#Aspect-Structure)|![Under Construction](../diagrams/Under_construction_icon-yellow.svg )[under construction](../using-saf/maturity.md#under-construction)|
+|[Operational](../domains.md#Domain-Operational)|[Taxonomy & Structure](../aspects.md#Aspect-Taxonomy-&-Structure)|![Under Construction](../diagrams/Under_construction_icon-yellow.svg )[under construction](../using-saf/maturity.md#under-construction)|
 ## Example
 *none*
 ## Purpose
-The Stakeholder Identification Viewpoint in the Operation Domain strives to identify the Operational Stakeholders i.e. those stakeholders who’s needs must be considered during the operation of the intended solution and the execution of the operational processes to support the identified capabilities. During the realization of the Intended Solution and the system development additional Stakeholders must be identified having additional needs and requirements e.g. regarding production of system elements or certain technologies. 
-A Stakeholder Identification is a process of analyzing individuals, teams, or organizations throughout the project life cycle, grouping them according to their levels of participation, interest, and influence in the project, and determining how best to involve and communicate with each of these Stakeholder groups throughout.
+The Stakeholder Identification Viewpoint of the Operation Domain strives to identify the Operational Stakeholders, i.e., those Stakeholders, who’s Needs shall be considered during the operation of the intended solution and the execution of the Operational Processes to support the identified Operational Capabilities. A Stakeholder Identification is a process of analyzing individuals, teams, or organizations throughout the project life cycle, grouping them according to their levels of participation, interest, and influence in the project, and determining how best to involve and communicate with each of these Stakeholder groups throughout.
+Note: During the realization of the Intended Solution additional Stakeholders shall be identified having additional Needs and Requirements e.g. regarding production of system elements or certain technologies. 
 ## Applicability
 The Stakeholder Identification Viewpoint supports the "Business or Mission Analysis Process" and the "Stakeholder Needs and Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1, § 4.2] and contributes to the Major Stakeholder Identification.
-Note:
 ## Stakeholder
 * [Acquirer](../stakeholders.md#Acquirer)
 * [Hardware Developer](../stakeholders.md#Hardware-Developer)
@@ -28,7 +27,7 @@ Note:
 * Which external entities (external systems, roles, environment, etc.) does a Stakeholder represent?
 * Who are the Stakeholders involved in the intended solution?
 ## Presentation
-The results of the Stakeholder Identification are selected Stakeholders. A Stakeholder Identification diagram (BDD) depicts the Stakeholders and their relations of the identified Stakeholders towards the Intended Solution.
+A block definition diagram (BDD) depicting the identified Operational Stakeholders and their relations  towards the Intended Solution.
 
 ## Profile Model Reference
 * [SAF_ContextElementRepresentation](../stereotypes.md#SAF_ContextElementRepresentation)

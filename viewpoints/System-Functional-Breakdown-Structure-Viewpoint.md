@@ -2,7 +2,7 @@
 # SAF User Documentation : System Functional Breakdown Structure Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
-|[Functional](../domains.md#Domain-Functional)|[Structure](../aspects.md#Aspect-Structure)|![Released](../diagrams/Symbol_confirmed.svg.png )[released](../using-saf/maturity.md#released)|
+|[Functional](../domains.md#Domain-Functional)|[Taxonomy & Structure](../aspects.md#Aspect-Taxonomy-&-Structure)|![Released](../diagrams/Symbol_confirmed.svg.png )[released](../using-saf/maturity.md#released)|
 ## Example
 ![FFDS Function Breakdown Structure Definition](../diagrams/FFDS-Function-Breakdown-Structure-Definition.svg)
 ## Purpose
@@ -24,12 +24,16 @@ The System Functional Breakdown Strcuture Viewpoint supports the "System Require
 * What is the breakdown of functions into sub-functions?
 * Which functions will the system provide?
 ## Presentation
-The content is in one or more more block definition diagrams (BDD) featuring activities representing System Processes, System Functions, System Partial Functions, and aggregation repesenting the functional breakdown structure.
+One or more more block definition diagrams (BDD) featuring activities representing System Processes, System Functions, System Partial Functions, and their aggregation composing the functional breakdown structure.
 
-Tool specific analysis diagram displaying the relationships between System Processes, System Functions, and System Partial Functions.
+Tool specific analysis diagram featuring the relationships between System Processes, System Functions, and System Partial Functions.
 
 ## Profile Model Reference
 * Activity [UML_Standard_Profile]
+* Association [UML_Standard_Profile]
+* Association [UML_Standard_Profile]
+* Property [UML_Standard_Profile]
+* Property [UML_Standard_Profile]
 * [SAF_ContextFunction](../stereotypes.md#SAF_ContextFunction)
 * [SAF_SFV02c_View](../stereotypes.md#SAF_SFV02c_View)
 * [SAF_SystemFunction](../stereotypes.md#SAF_SystemFunction)

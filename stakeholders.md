@@ -132,7 +132,7 @@ The Developer is a group or an individual implementing the system parts accordin
 * Which (system and system partial) functions are assigned to a logical item and logical item components?
 Note: if allocation of usage is used, then allocation of definition is a derived relationship XOR. 
 
-  ***Rationale:  In my role. I need to take this into account when planning realization.***
+  ***Rationale:  In my role, I need to take this into account when planning realization.***
 * Which HW interfaces are necessary? 
 
   ***Rationale:  In my role, I need to implement interfaces with my HW subsystem, if necessary.***
@@ -170,7 +170,7 @@ IV&V Engineers are individuals or groups responsible for integration, validation
 * How does the system or a system element interact with the test environment?
 * How is the system being used or utilized and interacting with other external systems to satisfy user needs? 
 
-  ***Rationale:  In my role. I need to take this into account when planning integration.***
+  ***Rationale:  In my role, I need to take this into account when planning integration.***
 * What additional information the system or a system element needs to generate to enable testing?
 * What additional interfaces are necessary to expose internal properties, states and modes for testing?
 * What are the functional requirements imposed on the system? 
@@ -375,7 +375,7 @@ The Developer is a group or an individual implementing the system parts accordin
 * Which (system and system partial) functions are assigned to a logical item and logical item components?
 Note: if allocation of usage is used, then allocation of definition is a derived relationship XOR. 
 
-  ***Rationale:  In my role. I need to take this into account when planning implementation.***
+  ***Rationale:  In my role, I need to take this into account when planning implementation.***
 * Which SW interfaces are necessary? 
 
   ***Rationale:  In my role, I need to implement interfaces with my SW subsystem, if necessary.***
@@ -463,7 +463,7 @@ The System Architect as an individual or group performing the systems engineerin
 * What existing elements of the organization, enterprise, or operational entity need to be integrated in the intended solution?
 * What is the allocation of functions to the physical architecture? 
 
-  ***Rationale:  In my role. I need to delegate the realization of sub-function by HW & SW subsystems.***
+  ***Rationale:  In my role, I need to delegate the realization of sub-function by HW & SW subsystems.***
 * What is the breakdown of functions into sub-functions?
 * What is the configuration or version of each configuration item?
 * What is the context of the organization, enterprise, or operational entity?
@@ -497,7 +497,7 @@ Note: if allocation of usage is used, then allocation of definition is a derived
 * Which system functions are dependent on a systems mode or state?
 * Which users does the system support? What the system has to accomplish for these users? 
 
-  ***Rationale:  In my role. I need to delegate the realization of HMI to subsystems.***
+  ***Rationale:  In my role, I need to delegate the realization of HMI to subsystems.***
 * Who are the Stakeholders involved in the intended solution? 
 
   ***Rationale:  In my role, I need to give feedback on existing or missing stakeholders.***

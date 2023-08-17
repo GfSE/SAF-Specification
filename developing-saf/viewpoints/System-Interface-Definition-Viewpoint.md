@@ -1,5 +1,5 @@
 ![System Architecture Framework](../../diagrams/Logo_SAF.png)
-# SAF Development Documentation : System Functional Interface Definition Viewpoint
+# SAF Development Documentation : System Interface Definition Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Functional](../../domains.md#Domain-Functional)|[Interface](../../aspects.md#Aspect-Interface)|![Released](../../diagrams/Symbol_confirmed.svg.png )[released](../../using-saf/maturity.md#released)|
@@ -19,18 +19,17 @@ A Table featuringt interface blocks and their ports and flow properties.
 ## Profile Model Reference
 |Stereotype | realized Concept|
 |---|---|
+|Attribute "" of InformationFlow referencing Connector|[LCRallowingLIE](../concept/concepts.md#LCRallowingLIE)|
+|FlowProperty contained in InterfaceBlock|[LCPspecifyingDetailOfLCPD](../concept/concepts.md#LCPspecifyingDetailOfLCPD)|
 |FlowProperty typed by SAF_DomainKind|[SDKtypingLIP](../concept/concepts.md#SDKtypingLIP)|
-|ItemFlow typed by SAF_DomainKind|[SDKtypingLIE](../concept/concepts.md#SDKtypingLIE)|
-|ProxyPort typed by InterfaceBlock|[LICDSspecifyingDetailOfLICP](../concept/concepts.md#LICDSspecifyingDetailOfLICP)|
-|FlowProperty contained in InterfaceBlock|[LIPspecifyingDetailOfLICD](../concept/concepts.md#LIPspecifyingDetailOfLICD)|
-|Connector [UML_Standard_Profile]|[Logical Interface Connection](../concept/concepts.md#Logical-Interface-Connection)|
-|FlowProperty [SysML Profile]|[Logical Interface Property](../concept/concepts.md#Logical-Interface-Property)|
-|InterfaceBlock [SysML Profile]|[Logical Interface Connection Point Definition](../concept/concepts.md#Logical-Interface-Connection-Point-Definition)|
+|ProxyPort typed by InterfaceBlock|[LCPDdefiningDetailOfLCP](../concept/concepts.md#LCPDdefiningDetailOfLCP)|
+|Connector [UML_Standard_Profile]|[Logical Connector](../concept/concepts.md#Logical-Connector)|
+|FlowProperty [SysML Profile]|[Logical Connection Property](../concept/concepts.md#Logical-Connection-Property)|
+|InterfaceBlock [SysML Profile]|[Logical Connection Point Definition](../concept/concepts.md#Logical-Connection-Point-Definition)|
 |ItemFlow [SysML Profile]|[Logical Item Exchange](../concept/concepts.md#Logical-Item-Exchange)|
-|ProxyPort [SysML Profile]|[Logical Interface Connection Point](../concept/concepts.md#Logical-Interface-Connection-Point)|
-|Attribute "Realizing Connector" of InformationFlow referencing Connector|[LICallowingLIE](../concept/concepts.md#LICallowingLIE)|
+|ProxyPort [SysML Profile]|[Logical Connection Point](../concept/concepts.md#Logical-Connection-Point)|
 |[SAF_DomainKind](../../stereotypes.md#SAF_DomainKind)|[System Domain Kind](../concept/concepts.md#System-Domain-Kind)|
-|[SAF_SFV05a_View](../../stereotypes.md#SAF_SFV05a_View)|[System Functional Interface Definition Viewpoint](../concept/concepts.md#System-Functional-Interface-Definition-Viewpoint)|
+|[SAF_SFV05a_View](../../stereotypes.md#SAF_SFV05a_View)|[System Interface Definition Viewpoint](../concept/concepts.md#System-Interface-Definition-Viewpoint)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*
@@ -38,6 +37,6 @@ A Table featuringt interface blocks and their ports and flow properties.
 *none*
 # Viewpoint Concept and Profile Diagrams
 ## Concept
-![System Functional Interface Definition Concept](diagrams/System-Functional-Interface-Definition-Concept.svg)
+![System Interface Definition Concept](diagrams/System-Interface-Definition-Concept.svg)
 ## Profile
-![System Functional Interface Definition Profile](diagrams/System-Functional-Interface-Definition-Profile.svg)
+![System Interface Definition Profile](diagrams/System-Interface-Definition-Profile.svg)

@@ -39,11 +39,11 @@ One or more IBD featuring the Physical Elements of the SOI, and the SOI boundary
 ## Profile Model Reference
 |Stereotype | realized Concept|
 |---|---|
-|Connector [UML_Standard_Profile]|[Physical Interface Connection](../concept/concepts.md#Physical-Interface-Connection)|
-|FlowProperty [SysML Profile]|[Physical Interface Property](../concept/concepts.md#Physical-Interface-Property)|
-|InterfaceBlock [SysML Profile]|[Physical Interface Connection Point Definition](../concept/concepts.md#Physical-Interface-Connection-Point-Definition)|
+|Connector [UML_Standard_Profile]|[Physical Connector](../concept/concepts.md#Physical-Connector)|
+|FlowProperty [SysML Profile]|[Physical Connection Property](../concept/concepts.md#Physical-Connection-Property)|
+|InterfaceBlock [SysML Profile]|[Physical Connection Point Definition](../concept/concepts.md#Physical-Connection-Point-Definition)|
 |ItemFlow [SysML Profile]|[Physical Item Exchange](../concept/concepts.md#Physical-Item-Exchange)|
-|ProxyPort [SysML Profile]|[Physical Interface Connection Point](../concept/concepts.md#Physical-Interface-Connection-Point)|
+|ProxyPort [SysML Profile]|[Physical Connection Point](../concept/concepts.md#Physical-Connection-Point)|
 |[SAF_PhysicalElement](../../stereotypes.md#SAF_PhysicalElement)|[Physical Element](../concept/concepts.md#Physical-Element)|
 |[SAF_PhysicalExchangeType](../../stereotypes.md#SAF_PhysicalExchangeType)|[Physical Exchange Kind](../concept/concepts.md#Physical-Exchange-Kind)|
 |[SAF_PhysicalHardwareElement](../../stereotypes.md#SAF_PhysicalHardwareElement)|[Hardware Element](../concept/concepts.md#Hardware-Element)|

@@ -20,7 +20,7 @@ A  Physical To Logical Assigment Matrix featuring
 ## Profile Model Reference
 |Stereotype | realized Concept|
 |---|---|
-|[SAF_FunctionAction](../../stereotypes.md#SAF_FunctionAction)|[Functional Usage](../concept/concepts.md#Functional-Usage)|
+|[SAF_FunctionAction](../../stereotypes.md#SAF_FunctionAction)|[General Functional Usage](../concept/concepts.md#General-Functional-Usage)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Logical Functional Mapping Viewpoint](Logical-Functional-Mapping-Viewpoint.md)

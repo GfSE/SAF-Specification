@@ -21,7 +21,7 @@ A tabular format listing the relationships of Operational Process Activities to 
 |[SAF_OperationalCapability](../../stereotypes.md#SAF_OperationalCapability)|[Operational Capability](../concept/concepts.md#Operational-Capability)|
 |[SAF_OperationalPerformer](../../stereotypes.md#SAF_OperationalPerformer)|[Operational Performer](../concept/concepts.md#Operational-Performer)|
 |[SAF_OperationalProcess](../../stereotypes.md#SAF_OperationalProcess)|[Operational Process](../concept/concepts.md#Operational-Process)|
-|[SAF_OperationalProcessContribution](../../stereotypes.md#SAF_OperationalProcessContribution)|[OPScontributingToOCY](../concept/concepts.md#OPScontributingToOCY)|
+|[SAF_OperationalProcessEnabling](../../stereotypes.md#SAF_OperationalProcessEnabling)|[OPSenablingOCY](../concept/concepts.md#OPSenablingOCY)|
 |[SAF_OperationalProcessRefinement](../../stereotypes.md#SAF_OperationalProcessRefinement)|[OPSrefiningOSY](../concept/concepts.md#OPSrefiningOSY)|
 |[SAF_OperationalStory](../../stereotypes.md#SAF_OperationalStory)|[Operational Story](../concept/concepts.md#Operational-Story)|
 |[SAF_SOV08b_View](../../stereotypes.md#SAF_SOV08b_View)|[Operational Process Mapping Viewpoint](../concept/concepts.md#Operational-Process-Mapping-Viewpoint)|

@@ -36,11 +36,11 @@ One or more IBD featuring the Logical Elements of the SOI, and the SOI boundary,
 ## Profile Model Reference
 |Stereotype | realized Concept|
 |---|---|
-|Connector [UML_Standard_Profile]|[Logical Interface Connection](../concept/concepts.md#Logical-Interface-Connection)|
-|FlowProperty [SysML Profile]|[Logical Interface Property](../concept/concepts.md#Logical-Interface-Property)|
-|InterfaceBlock [SysML Profile]|[Logical Interface Connection Point Definition](../concept/concepts.md#Logical-Interface-Connection-Point-Definition)|
+|Connector [UML_Standard_Profile]|[Logical Connector](../concept/concepts.md#Logical-Connector)|
+|FlowProperty [SysML Profile]|[Logical Connection Property](../concept/concepts.md#Logical-Connection-Property)|
+|InterfaceBlock [SysML Profile]|[Logical Connection Point Definition](../concept/concepts.md#Logical-Connection-Point-Definition)|
 |ItemFlow [SysML Profile]|[Logical Item Exchange](../concept/concepts.md#Logical-Item-Exchange)|
-|ProxyPort [SysML Profile]|[Logical Interface Connection Point](../concept/concepts.md#Logical-Interface-Connection-Point)|
+|ProxyPort [SysML Profile]|[Logical Connection Point](../concept/concepts.md#Logical-Connection-Point)|
 |[SAF_DomainKind](../../stereotypes.md#SAF_DomainKind)|[System Domain Kind](../concept/concepts.md#System-Domain-Kind)|
 |[SAF_LogicalElement](../../stereotypes.md#SAF_LogicalElement)|[Logical Element](../concept/concepts.md#Logical-Element)|
 |[SAF_SLV04b_View](../../stereotypes.md#SAF_SLV04b_View)|[Logical Internal Exchange Viewpoint](../concept/concepts.md#Logical-Internal-Exchange-Viewpoint)|

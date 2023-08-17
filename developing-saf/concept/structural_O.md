@@ -6,8 +6,8 @@
 | OPRcapableOFperformingOPS | Specifies the fact that an Operational Performer performs an Operational Activity. Traceability from Operational Activities to Operational Performers is derived via assignment of Operational Action to Operational Roles.<br><br>Aliases:<br>UAF::IsCapableToPerform|
 | OPRcomposedOF | Specifies the fact that an Operational Performer consists of one or more Operational Performers.|
 | OPRperformingOPSU | Specifies that an Operational Context Constituent performs an Operational Action in the context of an other Operational Activity.|
-| OPSrefiningOSY | Specifies the fact that an Operational Story is refined by Operational Processes.|
-| OSYtakingPlaceIN | Specifies the fact that an Operational Story happens in a certain Operational Context. When parts of an Operational Story do happen in several contexts, they shall be duplicated.|
+| OPSrefiningOSY | Specifies the fact that an Operational Story is refined by one or more Operational Processes.|
+| OSYtakingPlaceInOCT | Specifies the fact that an Operational Story happens in a certain Operational Context. When parts of an Operational Story do happen in several contexts, they shall be duplicated.|
 | Operational Context | An Operational Context is representing a separate Usage Scenario with a specific configuration of Operational Performers, these are interacting in the Scenario exhibiting a specific identified Operational Capability. One or more Operational Contexts meaningful for the Operational Domain are to be identified. <br><br>Aliases:<br>UAF::HighLevelOperationalConcept|
 | Operational Context Performer Constituent | An Operational Context Constituent represents a participant in the Operational Activity executing one or more of its atomic actions interacting with other constituents of the identified Operational Context. Specific characteristics and features or, in case of persons or organizational units, knowledge and skills are assigned to a constituent necessary for the execution of the allocated actions.|
 | Operational Domain Kind | Specifies the kind of exchange between Operational Context Constituents or between Operational Processes.|

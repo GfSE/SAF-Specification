@@ -35,7 +35,7 @@ A System Requirement Dependency Matrix featuring relationships for every System 
 ## Profile Model Reference
 |Stereotype | realized Concept|
 |---|---|
-|[SAF_SFV08a_View](../../stereotypes.md#SAF_SFV08a_View)|[System Requirement Traceability Viewpoint](../concept/concepts.md#System-Requirement-Traceability-Viewpoint)|
+|[SAF_SFV08b_View](../../stereotypes.md#SAF_SFV08b_View)|[System Requirement Traceability Viewpoint](../concept/concepts.md#System-Requirement-Traceability-Viewpoint)|
 |[SAF_SystemFunctionalRequirement](../../stereotypes.md#SAF_SystemFunctionalRequirement)|[Functional Requirement](../concept/concepts.md#Functional-Requirement)|
 |[SAF_SystemFunctionalRequirementConstraint](../../stereotypes.md#SAF_SystemFunctionalRequirementConstraint)|[FRboundedByNFR](../concept/concepts.md#FRboundedByNFR)|
 |[SAF_SystemFunctionalRequirementRefinement](../../stereotypes.md#SAF_SystemFunctionalRequirementRefinement)|[FRrefiningSFN](../concept/concepts.md#FRrefiningSFN)|
@@ -44,8 +44,8 @@ A System Requirement Dependency Matrix featuring relationships for every System 
 |[SAF_SystemRequirementDerivation](../../stereotypes.md#SAF_SystemRequirementDerivation)|[SRderivingFromSHR](../concept/concepts.md#SRderivingFromSHR)|
 |[SAF_SystemRequirementDerivation](../../stereotypes.md#SAF_SystemRequirementDerivation)|[SRderivingFromSR](../concept/concepts.md#SRderivingFromSR)|
 |[SAF_SystemRequirementRefinement](../../stereotypes.md#SAF_SystemRequirementRefinement)|[SRrefiningLICP](../concept/concepts.md#SRrefiningLICP)|
-|[SAF_SystemRequirementRefinement](../../stereotypes.md#SAF_SystemRequirementRefinement)|[SRrefiningSUC](../concept/concepts.md#SRrefiningSUC)|
 |[SAF_SystemRequirementRefinement](../../stereotypes.md#SAF_SystemRequirementRefinement)|[SRrefiningSCY](../concept/concepts.md#SRrefiningSCY)|
+|[SAF_SystemRequirementRefinement](../../stereotypes.md#SAF_SystemRequirementRefinement)|[SRrefiningSUC](../concept/concepts.md#SRrefiningSUC)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Stakeholder Requirement Viewpoint](Stakeholder-Requirement-Viewpoint.md)

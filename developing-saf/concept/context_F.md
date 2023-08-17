@@ -5,6 +5,7 @@
 | LCEactingInSUC | Specifies the fact that a Logical Context Element acts in one or more System Use Cases.|
 | Logical Context Element | Abstract element of a System Context in the Logical Domain, outside the SOI scope, interacting with the SOI.|
 | Logical Context Element Constituent | Specifies the fact that a Logical Context Element exists in a specific Logical Context.|
+| Logical Element Constituent | General part of a logical System Context|
 | Logical Environment | An Environmental Element in the Logical Domain, outside the SOI scope, interacting with the SOI. E.g., air, dirt, sun, road.|
 | Logical External System | An External System in the Logical Domain, outside the SOI scope, interacting with the SOI. E.g., power grid, mobile network, fresh water system (in a house).|
 | Logical SOI | A SOI representation in the Logical Domain.|
@@ -16,7 +17,7 @@
 | Operational Story | The Operational Story represents one or more Operational Use Cases in the Usage Scenario identified by the Operational Context. The Operational Story is described as narrative story-telling.|
 | SCEactingForOPR | Specifies the fact that a System Context Element is acting for the benefit of an Operational Performer.|
 | SOIactingForOPR | Specifies the fact that a SOI is acting for the benefit of an Operational Performer.|
-| SUCcontributingToOSY | Specifies the fact that a System Use Case contributes to an Operational Story.|
+| SUCenablingOSY | Specifies the fact that a System Use Case enables the realization of an Operational Story.|
 | SUCincludingSUC | Specifies the fact that a System Use Case includes other System Use Cases. The included use case is then no longer a full System Use Case, but a partial System Use Case.|
 | SUCtakingPlaceInLSC | Specifies the fact that a System Use Case takes place in a Logical System Context.|
 | System Context Element | An abstract element of the SOI context. Base class for specific kinds of context elements.|

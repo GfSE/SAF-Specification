@@ -6,9 +6,9 @@
 ## Example
 ![FFDS Internal Interaction](../../diagrams/FFDS-Internal-Interaction.svg)
 ## Purpose
-The Logical Internal Interaction Viewpoint describes System internal behavior based on the exchange between the Logical SOI Elements Usage. It depicts the sequence of interactions between the Logical SOI Elements and the Exchanged Data Items needed to accomplish a given System Partial Function.
+The Logical Internal Interaction Viewpoint describes System internal behavior based on the exchange between the Logical SOI Elements Usage. It depicts the sequence of interactions between the Logical SOI Elements and the Exchanged Domain Item Kinds needed to accomplish a System Partial Function.
 ## Applicability
-The Logical Internal Interaction Viewpoint supports the "Develop Architecture Viewpoints" and the "Develop Models and Views of Candidate Architectures" activity included in the "Architecture Definition process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.4] and contributes to the artifact "System Architecture Description".
+The Logical Internal Interaction Viewpoint supports the "Develop Architecture Viewpoints", and the "Develop Models and Views of Candidate Architectures" activity included in the "Architecture Definition process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.4] and contributes to the artifact "System Architecture Description".
 ## Stakeholder
 * [Acquirer](../../stakeholders.md#Acquirer)
 * [Customer](../../stakeholders.md#Customer)
@@ -30,16 +30,16 @@ The Logical Internal Interaction Viewpoint supports the "Develop Architecture Vi
 * What is the necessary response time for an interface or a service?
 * What kind of information is exchanged and processed within the system?
 ## Presentation
-The Logical Internal Interaction Viewpoint is modeled as a sequence diagram. It describes the flow of control between logical components of the SOI.This diagram represents the sending and receiving of messages between the interacting entities called lifelines where time is represented along the vertical axis. The elements on the lifelines are part properties typed by logical system elements.
+A sequence diagram featuring the flow of control between Internal Logical Elements of the SOI.
+Note: This diagram depicts the sending and receiving of messages between the interacting entities called lifelines where time is represented along the vertical axis. The lifeline representatives are part properties typed by Logical System Elements.
 
 ## Profile Model Reference
 |Stereotype | realized Concept|
 |---|---|
-|Association [UML_Standard_Profile]|[Internal Logical Element Constituent](../concept/concepts.md#Internal-Logical-Element-Constituent)|
 |Interaction [UML_Standard_Profile]|[Internal Logical Interaction Scenario](../concept/concepts.md#Internal-Logical-Interaction-Scenario)|
 |Lifeline [UML_Standard_Profile]|[Internal Logical Scenario Participation](../concept/concepts.md#Internal-Logical-Scenario-Participation)|
 |Message [UML_Standard_Profile]|[Internal Logical Chronological Message](../concept/concepts.md#Internal-Logical-Chronological-Message)|
-|Property [UML_Standard_Profile]|[Internal Logical Element Constituent](../concept/concepts.md#Internal-Logical-Element-Constituent)|
+|[SAF_LogicalInternalRole](../../stereotypes.md#SAF_LogicalInternalRole)|[Internal Logical Element Constituent](../concept/concepts.md#Internal-Logical-Element-Constituent)|
 |[SAF_SLV04a_View](../../stereotypes.md#SAF_SLV04a_View)|[Logical Internal Interaction Viewpoint](../concept/concepts.md#Logical-Internal-Interaction-Viewpoint)|
 ## Input from other Viewpoints
 ### Required Viewpoints

@@ -6,9 +6,10 @@
 ## Example
 ![FFDS Context Interaction](../../diagrams/FFDS-Context-Interaction.svg)
 ## Purpose
-The System Context Interaction Viewpoint describes the System external behavior based on the exchange between Logical SOI and Logical Context Elements Usage within a specific System Context. It depicts the sequence of interactions between the Logical SOI, the Context Elements and the Exchanged Data Items needed to accomplish a given System Function.
+The System Context Interaction Viewpoint describes the System external behavior based on the exchange between Logical SOI and Logical Context Elements Usage within a specific System Context. It depicts the sequence of interactions between the Logical SOI, the Context Elements and the Exchanged Domain Item Kinds needed to accomplish a given System Process. 
+Note: The System Context Interaction Viewpoint may refine an System Use Case.
 ## Applicability
-The System Context Interaction Viewpoint supports "Prepare for Requirement Definition" activity included in "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.3] and contributes to the identification of expected interactions with systems external to the SOI.
+The System Context Interaction Viewpoint supports the "Prepare for Requirement Definition" activity included in "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.3] and contributes to the identification of expected interactions with systems external to the SOI.
 ## Stakeholder
 * [Acquirer](../../stakeholders.md#Acquirer)
 * [Customer](../../stakeholders.md#Customer)
@@ -30,15 +31,17 @@ The System Context Interaction Viewpoint supports "Prepare for Requirement Defin
 * What is the sequence of interactions among the system and context elements
 * Which users does the system support? What the system has to accomplish for these users?
 ## Presentation
-The System Context Interaction Viewpoint is modeled as a sequence diagram. It describes the flow of control between SOI and Context Element(s). This diagram represents the sending and receiving of messages between the interacting entities called lifelines, where time is represented along the vertical axis. The elements on the lifelines are part properties of a System Context.
+A sequence diagram featuring the flow of control between SOI and Context Elements Roles of a System Context to achieve one outcome of a System Use Case. 
+Note: This diagram depicts the sending and receiving of messages between the interacting entities called lifelines, where time is represented along the vertical axis. The lifelines representatives are part properties typed by a System Context Elements.
 
 ## Profile Model Reference
 |Stereotype | realized Concept|
 |---|---|
-|Interaction [UML_Standard_Profile]|[Logical Interaction Scenario](../concept/concepts.md#Logical-Interaction-Scenario)|
-|Lifeline [UML_Standard_Profile]|[Logical Scenario Participation](../concept/concepts.md#Logical-Scenario-Participation)|
-|Message [UML_Standard_Profile]|[Logical Chronological Message](../concept/concepts.md#Logical-Chronological-Message)|
-|Property [UML_Standard_Profile]|[Logical Element Constituent](../concept/concepts.md#Logical-Element-Constituent)|
+|Interaction [UML_Standard_Profile]|[Context Logical Interaction Scenario](../concept/concepts.md#Context-Logical-Interaction-Scenario)|
+|Lifeline [UML_Standard_Profile]|[Context Logical Scenario Participation](../concept/concepts.md#Context-Logical-Scenario-Participation)|
+|Message [UML_Standard_Profile]|[Context Logical Chronological Message](../concept/concepts.md#Context-Logical-Chronological-Message)|
+|[SAF_LogicalContextRole](../../stereotypes.md#SAF_LogicalContextRole)|[Logical SOI Constituent](../concept/concepts.md#Logical-SOI-Constituent)|
+|[SAF_LogicalContextRole](../../stereotypes.md#SAF_LogicalContextRole)|[Logical Context Element Constituent](../concept/concepts.md#Logical-Context-Element-Constituent)|
 |[SAF_SFV04a_View](../../stereotypes.md#SAF_SFV04a_View)|[System Context Interaction Viewpoint](../concept/concepts.md#System-Context-Interaction-Viewpoint)|
 ## Input from other Viewpoints
 ### Required Viewpoints

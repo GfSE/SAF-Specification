@@ -24,9 +24,10 @@ The System Use Case Viewpoint supports the "Stakeholder Needs and Requirements D
 * Which is the system scenario, i.e., course of action, for the context in which the system of interest solution will exist?
 * Which users does the system support? What the system has to accomplish for these users?
 ## Presentation
-A use case diagram depicting model elements representing System Use Cases, and System Context Elements shall be used. The System Context for the use case shall be shown on the diagram, too. System Use Case pre- and postconditions shall be represented either by callout or compartment notation.
+A use case diagram featuring model elements representing System Use Cases, System Context and System Context Elements.
+Note: System Use Case pre- and postconditions shall be represented either by callout or compartment notation.
 
-A tabular format listing the System Use Cases, the System Context for the respective use case, and the System Context Elements that apply to the use case, as well as the pre- and postconditions.
+A tabular format listing the System Use Cases, the System Use Case pre- and postconditions, the System Context, and the System Context Elements.
 
 ## Profile Model Reference
 |Stereotype | realized Concept|
@@ -37,11 +38,11 @@ A tabular format listing the System Use Cases, the System Context for the respec
 |[SAF_LogicalExternalSystem](../../stereotypes.md#SAF_LogicalExternalSystem)|[Logical External System](../concept/concepts.md#Logical-External-System)|
 |[SAF_LogicalUser](../../stereotypes.md#SAF_LogicalUser)|[Logical User](../concept/concepts.md#Logical-User)|
 |[SAF_SFV01a_View](../../stereotypes.md#SAF_SFV01a_View)|[System Use Case Viewpoint](../concept/concepts.md#System-Use-Case-Viewpoint)|
+|[SAF_SystemUseCase](../../stereotypes.md#SAF_SystemUseCase)|[SUChasPreConditionSSE](../concept/concepts.md#SUChasPreConditionSSE)|
+|[SAF_SystemUseCase](../../stereotypes.md#SAF_SystemUseCase)|[SUChasPostConditionSSE](../concept/concepts.md#SUChasPostConditionSSE)|
 |[SAF_SystemUseCase](../../stereotypes.md#SAF_SystemUseCase)|[SUCtakingPlaceInLSC](../concept/concepts.md#SUCtakingPlaceInLSC)|
 |[SAF_SystemUseCase](../../stereotypes.md#SAF_SystemUseCase)|[System Use Case](../concept/concepts.md#System-Use-Case)|
-|[SAF_SystemUseCase](../../stereotypes.md#SAF_SystemUseCase)|[SUChasPreconditionSSE](../concept/concepts.md#SUChasPreconditionSSE)|
-|[SAF_SystemUseCase](../../stereotypes.md#SAF_SystemUseCase)|[SUChasPostconditionSSE](../concept/concepts.md#SUChasPostconditionSSE)|
-|[SAF_SystemUseCaseContribution](../../stereotypes.md#SAF_SystemUseCaseContribution)|[SUCcontributingToOSY](../concept/concepts.md#SUCcontributingToOSY)|
+|[SAF_SystemUseCaseEnabling](../../stereotypes.md#SAF_SystemUseCaseEnabling)|[SUCenablingOSY](../concept/concepts.md#SUCenablingOSY)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [System Context Definition Viewpoint](System-Context-Definition-Viewpoint.md)

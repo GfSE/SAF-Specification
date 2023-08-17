@@ -13,15 +13,15 @@ The Operational Context Exchange Viewpoint supports the "Business or Mission Ana
 ## Concern
 * What operational exchange does the operational performers need to consume or provide?
 ## Presentation
-An internal block diagram (IBD) associated to the Operational Context defining the connected Operational Performers in their respective Operational Role, and the Operational Item Exchange per Operational Connection.
+An internal block diagram (IBD) - associated to the Operational Context - featuring the interconnected Operational Performers in their respective Operational Role, and the Operational Item Exchange per Operational Connection.
 
 A tabular format listing [tbd].
 
 ## Profile Model Reference
 |Stereotype | realized Concept|
 |---|---|
-|Connector [UML_Standard_Profile]|[Operational Connection](../concept/concepts.md#Operational-Connection)|
-|ItemFlow [SysML Profile]|[OCNallowingOIE](../concept/concepts.md#OCNallowingOIE)|
+|Connector [UML_Standard_Profile]|[Operational Connector](../concept/concepts.md#Operational-Connector)|
+|ItemFlow [SysML Profile]|[OCRallowingOIE](../concept/concepts.md#OCRallowingOIE)|
 |ItemFlow [SysML Profile]|[Operational Item Exchange](../concept/concepts.md#Operational-Item-Exchange)|
 |[SAF_OperationalContext](../../stereotypes.md#SAF_OperationalContext)|[Operational Context](../concept/concepts.md#Operational-Context)|
 |[SAF_OperationalDomainKind](../../stereotypes.md#SAF_OperationalDomainKind)|[Operational Domain Kind](../concept/concepts.md#Operational-Domain-Kind)|

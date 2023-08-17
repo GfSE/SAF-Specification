@@ -7,10 +7,10 @@
 ![FFDS Context Exchange](../diagrams/FFDS-Context-Exchange.svg)
 ## Purpose
 The System Context Exchange Viewpoint serves for the identification and definition of external interfaces of the SOI used for the interaction to System’s Context, such as Users, External Systems and other External Entities defined in the specific context of the SOI. The System Context Exchange Viewpoint
-* identifies System interfaces on a functional level
-* states to which External Entities the System interfaces are connected to
-* assigns Interface Documents to System Interfaces
-* defines the usage of interfaces, e.g., if only a subset of the interface is used
+* identifies System interfaces on a functional level,
+* states to which External Entities the System interfaces are connected to,
+* assigns Interface Documents to System Interfaces,
+* and defines the usage of interfaces, e.g., if only a subset of the interface is used.
 ## Applicability
 The System Context Exchange Viewpoint supports the "Prepare for Requirement Definition" activity included in "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.3] and contributes to the System Functional Interface identification.
 ## Stakeholder
@@ -34,10 +34,10 @@ The System Context Exchange Viewpoint supports the "Prepare for Requirement Defi
 * What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
 * Which information is exchanged between the system and external entities?
 ## Presentation
-An internal block diagram (IBD) featuring the SOI, the System Context Elements and connectors for each identified interface from SOI to the respective Context Elements. An interface is a connection resource for hooking on the SOI to other Context Elements. Item flows are defined for each exchange on the identified Interface. Connectors/ports may contain reference to the Interface Documents if applicable. Ports may be structured as appropriate to manage and structure the information.
+An internal block diagram (IBD) - associated to the System Context - featuring the SOI, the System Context Elements, and the connectors for each identified interface from SOI to the respective Context Elements. An interface is a connection resource for hooking on the SOI to other Context Elements. Item flows are defined for each exchange on the identified Interface. Connectors/ports may contain reference to the Interface Documents if applicable. Ports may be structured as appropriate to manage and structure the information.
 Note: more than one IBD focused on different areas of interest may be used in oder to keep the view comprehensive. Depending on the Stakeholder Concerns the Item Exchange information might be suppressed.
 
-A tabular format listing [tbd]
+A tabular format listing [tbd].
 
 ## Profile Model Reference
 * Connector [UML_Standard_Profile]
@@ -46,10 +46,10 @@ A tabular format listing [tbd]
 * ItemFlow [SysML Profile]
 * ProxyPort [SysML Profile]
 * [SAF_DomainKind](../stereotypes.md#SAF_DomainKind)
+* [SAF_LogicalContextRole](../stereotypes.md#SAF_LogicalContextRole)
+* [SAF_LogicalContextRole](../stereotypes.md#SAF_LogicalContextRole)
 * [SAF_LogicalEnvironment](../stereotypes.md#SAF_LogicalEnvironment)
 * [SAF_LogicalExternalSystem](../stereotypes.md#SAF_LogicalExternalSystem)
-* [SAF_LogicalRole](../stereotypes.md#SAF_LogicalRole)
-* [SAF_LogicalRole](../stereotypes.md#SAF_LogicalRole)
 * [SAF_LogicalSOI](../stereotypes.md#SAF_LogicalSOI)
 * [SAF_LogicalUser](../stereotypes.md#SAF_LogicalUser)
 * [SAF_SFV01c_View](../stereotypes.md#SAF_SFV01c_View)
