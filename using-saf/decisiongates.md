@@ -17,7 +17,7 @@ Its purpose is to
  
  Satisfactorily in this context means, that the risk(s) to proceed are identified and acceptable to engineering stakeholders.
 
-Normally, a decision gate requires the evaluation of the previous activities outcome by engineering stakeholders, including those using the outcome in the subsequent activities. This is to achieve comittment that the project can proceed along the development process orderly.
+Normally, a decision gate requires the evaluation of the previous activities outcome by engineering stakeholders, including those using the outcome in the subsequent activities. This is to achieve comitment that the project can proceed along the development process orderly.
 
 The evaluation of previous activities is usually conducted in form of Reviews on process artefacts. Review Checklists assists in both creation of process artefacts and review execution.
 
