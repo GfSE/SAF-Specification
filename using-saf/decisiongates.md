@@ -49,10 +49,10 @@ The preparation and execution of an Decision Gate is often called a Review, but 
 ## Pitfalls
 ### No Measurement	
 
-Since the assessment and control activities are highly dependent on insightful measurement information, it is usually ineffective to proceed independently from the measurement efforts - what you get is what you measure. What you measure it what you care about, isn't it.
+Since the assessment and control activities are highly dependent on insightful measurement information, it is usually ineffective to proceed independently from the measurement efforts - what you get is what you measure.
 
 ### "Something in Time" Culture
-Some things are easier to measure than others - for instance, delivery to cost and schedule. Don't focus on these and neglect harder things to measure like quality of the system, Avoid a "something in time" culture where meeting the schedule takes priority over everything else, but what is delivered is not fit for purpose, which results in the need to rework the project.
+Some things are easier to measure than others - for instance, delivery to cost and schedule. Don't focus on these and neglect harder things to measure like quality of the system. Avoid a "something in time" culture where meeting the schedule takes priority over everything else, but what is delivered is not fit for purpose, which results in the need to rework the project.
 ### No Teeth
 	
 Make sure that the technical review gates have "teeth". Sometimes the project manager is given authority (or can appeal to someone with authority) to over-ride a gate decision and allow work to proceed, even when the gate has exposed significant issues with the technical quality of the system or associated work products. This is a major risk if the organization is strongly schedule-driven; it can't afford the time to do it right, but somehow it finds the time to do it again (rework).
