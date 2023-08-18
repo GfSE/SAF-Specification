@@ -30,6 +30,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |ItemFlow [SysML Profile]|[Logical Item Exchange](../concept/concepts.md#Logical-Item-Exchange)|
 |ProxyPort [SysML Profile]|[Logical Connection Point](../concept/concepts.md#Logical-Connection-Point)|
 |[SAF_DomainKind](../../stereotypes.md#SAF_DomainKind)|[System Domain Kind](../concept/concepts.md#System-Domain-Kind)|
+|[SAF_LogicalInterface](../../stereotypes.md#SAF_LogicalInterface)|[Logical Connection Point Definition](../concept/concepts.md#Logical-Connection-Point-Definition)|
 |[SAF_SFV05a_View](../../stereotypes.md#SAF_SFV05a_View)|[System Interface Definition Viewpoint](../concept/concepts.md#System-Interface-Definition-Viewpoint)|
 ## Input from other Viewpoints
 ### Required Viewpoints

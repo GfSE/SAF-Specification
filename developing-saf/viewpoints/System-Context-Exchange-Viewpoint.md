@@ -52,6 +52,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |[SAF_LogicalContextRole](../../stereotypes.md#SAF_LogicalContextRole)|[Logical Context Element Constituent](../concept/concepts.md#Logical-Context-Element-Constituent)|
 |[SAF_LogicalEnvironment](../../stereotypes.md#SAF_LogicalEnvironment)|[Logical Environment](../concept/concepts.md#Logical-Environment)|
 |[SAF_LogicalExternalSystem](../../stereotypes.md#SAF_LogicalExternalSystem)|[Logical External System](../concept/concepts.md#Logical-External-System)|
+|[SAF_LogicalInterface](../../stereotypes.md#SAF_LogicalInterface)|[Logical Connection Point Definition](../concept/concepts.md#Logical-Connection-Point-Definition)|
 |[SAF_LogicalSOI](../../stereotypes.md#SAF_LogicalSOI)|[Logical SOI](../concept/concepts.md#Logical-SOI)|
 |[SAF_LogicalUser](../../stereotypes.md#SAF_LogicalUser)|[Logical User](../concept/concepts.md#Logical-User)|
 |[SAF_SFV01c_View](../../stereotypes.md#SAF_SFV01c_View)|[System Context Exchange Viewpoint](../concept/concepts.md#System-Context-Exchange-Viewpoint)|
