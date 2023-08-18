@@ -12,8 +12,8 @@ Some possible decision gates in a development process may be
 
 A Decision Gate is a major decision point in a project.
 Its purpose is to
- *	prevent the beginning of subsequent activities that are dependent on previous activities, before the previous activities are satisfactorily completed and baselined.
- * make sure the handover of process products to subsequent process activties works
+* prevent the beginning of subsequent activities that are dependent on previous activities, before the previous activities are satisfactorily completed and baselined.
+* make sure the handover of process products to subsequent process activities works
  
  Satisfactorily in this context means, that the risk(s) to proceed are identified and acceptable to engineering stakeholders.
 
