@@ -49,7 +49,7 @@ The preparation and execution of an Decision Gate is often called a Review, but 
 ## Pitfalls
 ### No Measurement	
 
-Since the assessment and control activities are highly dependent on insightful measurement information, it is usually ineffective to proceed independently from the measurement efforts - what you get is what you measure.
+Since the assessment and control activities are highly dependent on insightful measurement information, it is usually ineffective to proceed independently from the measurement efforts - what you get is what you measure. (what you measure it what you care about, isn't it.)
 
 ### "Something in Time" Culture
 Some things are easier to measure than others - for instance, delivery to cost and schedule. Don't focus on these and neglect harder things to measure like quality of the system, Avoid a "something in time" culture where meeting the schedule takes priority over everything else, but what is delivered is not fit for purpose, which results in the need to rework the project.
