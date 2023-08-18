@@ -35,6 +35,7 @@ The physical context definition diagram (BDD) defines the elements available in 
 * composition relationships attaching the Physical Context Elements and the Physical System to the Physical System Context block
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
 * Association [UML_Standard_Profile]
 * Association [UML_Standard_Profile]
 * Property [UML_Standard_Profile]

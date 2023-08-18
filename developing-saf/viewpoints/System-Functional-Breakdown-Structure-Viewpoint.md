@@ -29,6 +29,7 @@ One or more more block definition diagrams (BDD) featuring activities representi
 Tool specific analysis diagram featuring the relationships between System Processes, System Functions, and System Partial Functions.
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
 |Activity [UML_Standard_Profile]|[General Function](../concept/concepts.md#General-Function)|

@@ -35,6 +35,7 @@ A block definition diagram (BDD) featuring the following elements
 A tabular format listing the [tbd].
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
 |Association [UML_Standard_Profile]|[Logical SOI Constituent](../concept/concepts.md#Logical-SOI-Constituent)|

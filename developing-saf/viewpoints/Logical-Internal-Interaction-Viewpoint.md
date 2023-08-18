@@ -34,6 +34,7 @@ A sequence diagram featuring the flow of control between Internal Logical Elemen
 Note: This diagram depicts the sending and receiving of messages between the interacting entities called lifelines where time is represented along the vertical axis. The lifeline representatives are part properties typed by Logical System Elements.
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
 |Interaction [UML_Standard_Profile]|[Internal Logical Interaction Scenario](../concept/concepts.md#Internal-Logical-Interaction-Scenario)|

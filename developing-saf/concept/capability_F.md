@@ -12,7 +12,7 @@
 | SCYsupportingSUC | Specifies the fact that a System UseCase is supported by System Capabilities.|
 | SFNsupportingSCY | Specifies the fact that a System Function supports one or more System Capabilities.|
 | SHRrefiningOCY | Specifies the fact that an Operational Capability is refined by Stakeholder Requirements.|
-| SPSenablingSCY | Specifies the fact that a System Process enables the operationalization of one or more System Capabilities.|
+| SPSenablingSCY | Specifies the fact that a System Process contributes to the provision of one or more System Capabilities in the field.|
 | SPSrefiningSUC | Specifies the fact that a System Use Case is refined by one System Process.|
 | SRderivingFromSR | Specifies the fact that System Requirements are derived from a Stakeholder Requirement. <br>Note: This is the relationship of requirements of different architectural levels. When the team responsible for the subsystem has direct access to the full upstream requirements set, then no subcontractor relationship needs to be established.|
 | SRrefiningSCY | Specifies the fact that a System Capability is refined by System Requirements.|

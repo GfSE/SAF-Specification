@@ -40,11 +40,11 @@ Note: more than one IBD focused on different areas of interest may be used in od
 A tabular format listing [tbd].
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
-|Connector [UML_Standard_Profile]|[Logical Connector](../concept/concepts.md#Logical-Connector)|
+|Connector [UML_Standard_Profile]|[Logical Connection](../concept/concepts.md#Logical-Connection)|
 |FlowProperty [SysML Profile]|[Logical Connection Property](../concept/concepts.md#Logical-Connection-Property)|
-|InterfaceBlock [SysML Profile]|[Logical Connection Point Definition](../concept/concepts.md#Logical-Connection-Point-Definition)|
 |ItemFlow [SysML Profile]|[Logical Item Exchange](../concept/concepts.md#Logical-Item-Exchange)|
 |ProxyPort [SysML Profile]|[Logical Connection Point](../concept/concepts.md#Logical-Connection-Point)|
 |[SAF_DomainKind](../../stereotypes.md#SAF_DomainKind)|[System Domain Kind](../concept/concepts.md#System-Domain-Kind)|

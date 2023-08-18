@@ -19,6 +19,7 @@ The Operational Context Definition Viewpoint supports the "Business or Mission A
 A block definition diagram (BDD) featuring the identified Operational Performers playing a role in the Operational Context being addressed.
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
 * Association [UML_Standard_Profile]
 * [SAF_OperationalContext](../stereotypes.md#SAF_OperationalContext)
 * [SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)

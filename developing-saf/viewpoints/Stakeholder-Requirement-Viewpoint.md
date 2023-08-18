@@ -30,6 +30,7 @@ Note: Stakeholder Requirements are to be structured in a way that the Stakeholde
 * Even if different Stakeholders may have intersecting interests and / or concerns resulting in a similar set of Requirements, each Stakeholder shall have its own set managed in a dedicated Requirement Package. Requirements must not be shared due to their different life cycles. Resolving duplications and conflicts is subject of the requirement analysis resulting in an agreed and consolidated set of System Requirements.
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
 |Package [UML_Standard_Profile]|[SHRimposedBY](../concept/concepts.md#SHRimposedBY)|
@@ -38,9 +39,9 @@ Note: Stakeholder Requirements are to be structured in a way that the Stakeholde
 |[SAF_Stakeholder](../../stereotypes.md#SAF_Stakeholder)|[System of Interest Stakeholder](../concept/concepts.md#System-of-Interest-Stakeholder)|
 |[SAF_StakeholderRequirement](../../stereotypes.md#SAF_StakeholderRequirement)|[Stakeholder Requirement](../concept/concepts.md#Stakeholder-Requirement)|
 |[SAF_StakeholderRequirementImposition](../../stereotypes.md#SAF_StakeholderRequirementImposition)|[SHRimposedBY](../concept/concepts.md#SHRimposedBY)|
-|[SAF_StakeholderRequirementRefinement](../../stereotypes.md#SAF_StakeholderRequirementRefinement)|[SHRrefiningOCY](../concept/concepts.md#SHRrefiningOCY)|
-|[SAF_StakeholderRequirementRefinement](../../stereotypes.md#SAF_StakeholderRequirementRefinement)|[SHRrefiningCRN](../concept/concepts.md#SHRrefiningCRN)|
 |[SAF_StakeholderRequirementRefinement](../../stereotypes.md#SAF_StakeholderRequirementRefinement)|[SHRrefiningOSY](../concept/concepts.md#SHRrefiningOSY)|
+|[SAF_StakeholderRequirementRefinement](../../stereotypes.md#SAF_StakeholderRequirementRefinement)|[SHRrefiningCRN](../concept/concepts.md#SHRrefiningCRN)|
+|[SAF_StakeholderRequirementRefinement](../../stereotypes.md#SAF_StakeholderRequirementRefinement)|[SHRrefiningOCY](../concept/concepts.md#SHRrefiningOCY)|
 |[SAF_SystemOfInterestConcern](../../stereotypes.md#SAF_SystemOfInterestConcern)|[System of Interest Concern](../concept/concepts.md#System-of-Interest-Concern)|
 ## Input from other Viewpoints
 ### Required Viewpoints

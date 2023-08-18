@@ -19,6 +19,7 @@ A block definition diagram (BDD) featuring Operational Performers. and their rel
 Note: Identified Stakeholders are related to Operational Performers if appropriate.
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)
 * [SAF_OperationalPerformerComposition](../stereotypes.md#SAF_OperationalPerformerComposition)
 * [SAF_OperationalStakeholderRepresentation](../stereotypes.md#SAF_OperationalStakeholderRepresentation)

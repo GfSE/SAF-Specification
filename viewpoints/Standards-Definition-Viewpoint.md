@@ -15,6 +15,7 @@ The..
 The..
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

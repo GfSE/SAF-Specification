@@ -15,6 +15,7 @@ The System Capability Mapping Viewpoint supports the "Stakeholder Needs and Requ
 A tabular format listing the relationships of System Capabilities to Operational Capabilities, System Use Cases, System Process Activities, and System Requirements.
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
 |[SAF_SFV08a_View](../../stereotypes.md#SAF_SFV08a_View)|[System Capability Mapping Viewpoint](../concept/concepts.md#System-Capability-Mapping-Viewpoint)|

@@ -11,7 +11,7 @@
 | SDKbeeingInSSE | Specifies that a System Domain Kind can have certain states.<br>Note:<br>Of course an item is in only one distinct state at a certain time. The multiplicity means that an Item can have a set of possible states, and a state can be used to specify possible States for several domain items.|
 | SDKderivingFromODK | Specifies the fact that a System Domain Kind on system level is derived from an Operational Domain Kind.|
 | SDKtypingFPM | Specifies the fact that a System Domain Kind defines the type of a Function Parameter.|
+| SDKtypingLCP | Specifies the fact that a System Domain Kind defines the type of a Logical Interface Exchange Property.|
 | SDKtypingLIE | Specifies the fact that a System Domain Kind defines the type of a Logical Item Exchange.|
-| SDKtypingLIP | Specifies the fact that a System Domain Kind defines the type of a Logical Interface Exchange Property.|
 | System Domain Kind | Specification for any kind of exchange on Functional, and Logical Level, focus on what kind of information is exchanged (information, material, energy).The Domain Item Kind is agnostic to any Physical realization.|
 | System State | Describes a state (or mode) of something that can have distinct states.|

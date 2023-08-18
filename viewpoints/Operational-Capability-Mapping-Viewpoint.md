@@ -16,6 +16,7 @@ The Operational Capability Mapping Viewpoint supports the "Business or Mission A
 A tabular format listing the relationships of Operational Capabilities to Stakeholder Requirements, Operational Stories, and Operational Process Activities.
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_OperationalCapability](../stereotypes.md#SAF_OperationalCapability)
 * [SAF_OperationalCapabilityComposition](../stereotypes.md#SAF_OperationalCapabilityComposition)
 * [SAF_OperationalCapabilityDependency](../stereotypes.md#SAF_OperationalCapabilityDependency)

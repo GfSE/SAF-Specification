@@ -30,6 +30,7 @@ Note: System Use Case pre- and postconditions shall be represented either by cal
 A tabular format listing the System Use Cases, the System Use Case pre- and postconditions, the System Context, and the System Context Elements.
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
 |Include [UML_Standard_Profile]|[SUCincludingSUC](../concept/concepts.md#SUCincludingSUC)|
@@ -39,8 +40,8 @@ A tabular format listing the System Use Cases, the System Use Case pre- and post
 |[SAF_LogicalUser](../../stereotypes.md#SAF_LogicalUser)|[Logical User](../concept/concepts.md#Logical-User)|
 |[SAF_SFV01a_View](../../stereotypes.md#SAF_SFV01a_View)|[System Use Case Viewpoint](../concept/concepts.md#System-Use-Case-Viewpoint)|
 |[SAF_SystemUseCase](../../stereotypes.md#SAF_SystemUseCase)|[SUChasPreConditionSSE](../concept/concepts.md#SUChasPreConditionSSE)|
-|[SAF_SystemUseCase](../../stereotypes.md#SAF_SystemUseCase)|[SUChasPostConditionSSE](../concept/concepts.md#SUChasPostConditionSSE)|
 |[SAF_SystemUseCase](../../stereotypes.md#SAF_SystemUseCase)|[SUCtakingPlaceInLSC](../concept/concepts.md#SUCtakingPlaceInLSC)|
+|[SAF_SystemUseCase](../../stereotypes.md#SAF_SystemUseCase)|[SUChasPostConditionSSE](../concept/concepts.md#SUChasPostConditionSSE)|
 |[SAF_SystemUseCase](../../stereotypes.md#SAF_SystemUseCase)|[System Use Case](../concept/concepts.md#System-Use-Case)|
 |[SAF_SystemUseCaseEnabling](../../stereotypes.md#SAF_SystemUseCaseEnabling)|[SUCenablingOSY](../concept/concepts.md#SUCenablingOSY)|
 ## Input from other Viewpoints

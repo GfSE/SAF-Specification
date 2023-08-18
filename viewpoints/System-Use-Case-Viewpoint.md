@@ -30,6 +30,7 @@ Note: System Use Case pre- and postconditions shall be represented either by cal
 A tabular format listing the System Use Cases, the System Use Case pre- and postconditions, the System Context, and the System Context Elements.
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
 * Include [UML_Standard_Profile]
 * [SAF_LogicalContextElementActing](../stereotypes.md#SAF_LogicalContextElementActing)
 * [SAF_LogicalEnvironment](../stereotypes.md#SAF_LogicalEnvironment)

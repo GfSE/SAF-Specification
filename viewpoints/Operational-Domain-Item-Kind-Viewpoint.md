@@ -17,6 +17,7 @@ A block definition diagram (BDD) featuring Operational Domain Item Kinds and the
 Note: Operational Domain Item Kinds are managed in the domain knowledge package of the Enterprise. Operational Domain Item Kinds shall be value types or blocks. 
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
 * ItemFlow [SysML Profile]
 * ObjectFlow [UML_Standard_Profile]
 * [SAF_OperationalDomainKind](../stereotypes.md#SAF_OperationalDomainKind)

@@ -40,9 +40,9 @@ Note: more than one IBD focused on different areas of interest may be used in od
 A tabular format listing [tbd].
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
 * Connector [UML_Standard_Profile]
 * FlowProperty [SysML Profile]
-* InterfaceBlock [SysML Profile]
 * ItemFlow [SysML Profile]
 * ProxyPort [SysML Profile]
 * [SAF_DomainKind](../stereotypes.md#SAF_DomainKind)

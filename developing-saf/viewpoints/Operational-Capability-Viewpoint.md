@@ -19,6 +19,7 @@ The Operational Capability Viewpoint supports the "Business or Mission Analysis 
 A block definition diagram (BDD) featuring Operational Capabilities, their composition, specialization, and dependency relationships.
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
 |[SAF_OperationalCapability](../../stereotypes.md#SAF_OperationalCapability)|[Operational Capability](../concept/concepts.md#Operational-Capability)|

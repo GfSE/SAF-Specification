@@ -25,6 +25,7 @@ or Physical SOI
 * a derived relationship
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
 * Allocate [SysML Profile]
 * [SAF_FunctionAction](../stereotypes.md#SAF_FunctionAction)
 * [SAF_PhysicalElement](../stereotypes.md#SAF_PhysicalElement)

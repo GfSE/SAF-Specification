@@ -30,6 +30,7 @@ A System Requirement Table (RVTM), a tabular format, featuring
 * traceability reference to depended Requirements on the same level of abstraction.
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_SFV06a_View](../stereotypes.md#SAF_SFV06a_View)
 * [SAF_StakeholderRequirement](../stereotypes.md#SAF_StakeholderRequirement)
 * [SAF_SystemFunctionalRequirement](../stereotypes.md#SAF_SystemFunctionalRequirement)

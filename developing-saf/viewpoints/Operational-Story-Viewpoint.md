@@ -22,6 +22,7 @@ A use case diagram featuring model elements representing Operational Stories, an
 Note: Illustrations (drawings, sketches, etc.), and/or descriptions in free text may provide a comprehensive understanding of the operational background.
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
 |[SAF_OperationalPerformer](../../stereotypes.md#SAF_OperationalPerformer)|[Operational Performer](../concept/concepts.md#Operational-Performer)|

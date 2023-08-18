@@ -37,6 +37,7 @@ The Logical Internal Exchange Viewpoint supports the "Develop Models and Views o
 One or more IBD featuring the Physical Elements of the SOI, and the SOI boundary, containing connectors for each identified SOI interface delegation to SOI elements, as well as connectors between related interfaces of SOI parts. An interface is a connection resource for hooking on the Physical SOI Elements to other Physical SOI Elements. Item flows are defined for each exchange on the identified interface.  Recommendation: Use more than one IBD focused on different areas of interest to keep the view comprehensive. Depending on the Stakeholder Concerns the physical item exchange information might be suppressed.
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
 * Connector [UML_Standard_Profile]
 * FlowProperty [SysML Profile]
 * InterfaceBlock [SysML Profile]

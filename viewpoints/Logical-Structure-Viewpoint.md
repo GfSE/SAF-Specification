@@ -20,6 +20,7 @@ A block definition diagram (BDD) featuring the logical System block and logical 
 Note: Multiple relationships to a kind of element are allowed meaning, that this kind of element is used in several roles.
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_LogicalElement](../stereotypes.md#SAF_LogicalElement)
 * [SAF_LogicalSOI](../stereotypes.md#SAF_LogicalSOI)
 * [SAF_SLV02a_View](../stereotypes.md#SAF_SLV02a_View)

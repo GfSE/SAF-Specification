@@ -30,6 +30,7 @@ Note: Stakeholder Requirements are to be structured in a way that the Stakeholde
 * Even if different Stakeholders may have intersecting interests and / or concerns resulting in a similar set of Requirements, each Stakeholder shall have its own set managed in a dedicated Requirement Package. Requirements must not be shared due to their different life cycles. Resolving duplications and conflicts is subject of the requirement analysis resulting in an agreed and consolidated set of System Requirements.
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
 * Package [UML_Standard_Profile]
 * [SAF_OperationalCapability](../stereotypes.md#SAF_OperationalCapability)
 * [SAF_SOV06a_View](../stereotypes.md#SAF_SOV06a_View)

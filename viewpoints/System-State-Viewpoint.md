@@ -28,6 +28,7 @@ Note: References to model elements that are dependent of states, or transitions 
 A tabular format listing states, state transitions, and the conditons to be fullfilled before the transition will occur. References to model elements that are dependent of states (Domain Item Kinds, System Functions, System Use Cases, etc.), or transitions shall be shown in the table.
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
 * Event [UML_Standard_Profile]
 * [SAF_DomainKind](../stereotypes.md#SAF_DomainKind)
 * [SAF_LogicalElement](../stereotypes.md#SAF_LogicalElement)

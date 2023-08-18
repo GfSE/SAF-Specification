@@ -23,6 +23,7 @@ A  Logical Functional Mapping Matrix featuring
 * the allocation relationship between abovementioned elements
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
 * Allocate [SysML Profile]
 * [SAF_FunctionAction](../stereotypes.md#SAF_FunctionAction)
 * [SAF_LogicalContextRole](../stereotypes.md#SAF_LogicalContextRole)

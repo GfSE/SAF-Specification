@@ -44,6 +44,7 @@ Note: In order to improve the clarity of presentation it may be appropriate to u
 A tabular format listing all identified System Functions, the System Processes in which they appear, and the Comtext Exchange with the Context Functions.
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
 * Allocate [SysML Profile]
 * Allocate [SysML Profile]
 * ControlFlow [UML_Standard_Profile]

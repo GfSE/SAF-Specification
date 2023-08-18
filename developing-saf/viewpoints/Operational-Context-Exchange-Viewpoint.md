@@ -18,11 +18,12 @@ An internal block diagram (IBD) - associated to the Operational Context - featur
 A tabular format listing [tbd].
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
 |Connector [UML_Standard_Profile]|[Operational Connector](../concept/concepts.md#Operational-Connector)|
-|ItemFlow [SysML Profile]|[OCRallowingOIE](../concept/concepts.md#OCRallowingOIE)|
 |ItemFlow [SysML Profile]|[Operational Item Exchange](../concept/concepts.md#Operational-Item-Exchange)|
+|ItemFlow [SysML Profile]|[OCRallowingOIE](../concept/concepts.md#OCRallowingOIE)|
 |[SAF_OperationalContext](../../stereotypes.md#SAF_OperationalContext)|[Operational Context](../concept/concepts.md#Operational-Context)|
 |[SAF_OperationalDomainKind](../../stereotypes.md#SAF_OperationalDomainKind)|[Operational Domain Kind](../concept/concepts.md#Operational-Domain-Kind)|
 |[SAF_OperationalRole](../../stereotypes.md#SAF_OperationalRole)|[Operational Context Performer Constituent](../concept/concepts.md#Operational-Context-Performer-Constituent)|

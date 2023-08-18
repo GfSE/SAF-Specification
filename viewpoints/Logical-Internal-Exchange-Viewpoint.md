@@ -34,13 +34,19 @@ The Logical Internal Exchange Viewpoint supports the "Develop Models and Views o
 One or more IBD featuring the Logical Elements of the SOI, and the SOI boundary, containing connectors for each identified SOI interface delegation to SOI elements, as well as connectors between related interfaces of SOI parts. An interface is a connection resource for hooking on the Logical SOI Elements to other Logical SOI Elements. Item flows are defined for each exchange on the identified interface.  Recommendation: Use more than one IBD focused on different areas of interest to keep the view comprehensive. Depending on the Stakeholder Concerns the logical item exchange information might be suppressed.
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
+* FlowProperty contained in InterfaceBlock
+* ProxyPort typed by InterfaceBlock
+* ItemFlow typed by SAF_DomainKind
+* Attribute "" of InformationFlow referencing Connector
+* FlowProperty typed by SAF_DomainKind
 * Connector [UML_Standard_Profile]
 * FlowProperty [SysML Profile]
-* InterfaceBlock [SysML Profile]
 * ItemFlow [SysML Profile]
 * ProxyPort [SysML Profile]
 * [SAF_DomainKind](../stereotypes.md#SAF_DomainKind)
 * [SAF_LogicalElement](../stereotypes.md#SAF_LogicalElement)
+* [SAF_LogicalInterface](../stereotypes.md#SAF_LogicalInterface)
 * [SAF_SLV04b_View](../stereotypes.md#SAF_SLV04b_View)
 ## Input from other Viewpoints
 ### Required Viewpoints

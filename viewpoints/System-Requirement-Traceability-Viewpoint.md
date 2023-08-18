@@ -33,6 +33,7 @@ A System Requirement Dependency Matrix featuring relationships for every System 
 * System State
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_SFV08b_View](../stereotypes.md#SAF_SFV08b_View)
 * [SAF_SystemFunctionalRequirement](../stereotypes.md#SAF_SystemFunctionalRequirement)
 * [SAF_SystemFunctionalRequirementConstraint](../stereotypes.md#SAF_SystemFunctionalRequirementConstraint)

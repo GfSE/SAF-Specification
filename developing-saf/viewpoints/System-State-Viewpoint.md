@@ -28,6 +28,7 @@ Note: References to model elements that are dependent of states, or transitions 
 A tabular format listing states, state transitions, and the conditons to be fullfilled before the transition will occur. References to model elements that are dependent of states (Domain Item Kinds, System Functions, System Use Cases, etc.), or transitions shall be shown in the table.
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
 |Event [UML_Standard_Profile]|[Triggering Event](../concept/concepts.md#Triggering-Event)|
@@ -36,8 +37,8 @@ A tabular format listing states, state transitions, and the conditons to be full
 |[SAF_SFV03c_View](../../stereotypes.md#SAF_SFV03c_View)|[System State Viewpoint](../concept/concepts.md#System-State-Viewpoint)|
 |[SAF_SystemFunction](../../stereotypes.md#SAF_SystemFunction)|[System Function](../concept/concepts.md#System-Function)|
 |State [UML_Standard_Profile]|[System State](../concept/concepts.md#System-State)|
-|StateMachine [UML_Standard_Profile]|[LETbeeingInSSE](../concept/concepts.md#LETbeeingInSSE)|
 |StateMachine [UML_Standard_Profile]|[SDKbeeingInSSE](../concept/concepts.md#SDKbeeingInSSE)|
+|StateMachine [UML_Standard_Profile]|[LETbeeingInSSE](../concept/concepts.md#LETbeeingInSSE)|
 |Transition [UML_Standard_Profile]|[State Transition](../concept/concepts.md#State-Transition)|
 ## Input from other Viewpoints
 ### Required Viewpoints

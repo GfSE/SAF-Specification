@@ -16,6 +16,7 @@ The Operational Process Mapping Viewpoint supports the "Business or Mission Anal
 A tabular format listing the relationships of Operational Process Activities to Operational Capabilities, Operational Stories, and Operational Performers.
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_OperationalCapability](../stereotypes.md#SAF_OperationalCapability)
 * [SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)
 * [SAF_OperationalProcess](../stereotypes.md#SAF_OperationalProcess)

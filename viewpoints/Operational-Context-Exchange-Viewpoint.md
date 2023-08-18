@@ -18,6 +18,7 @@ An internal block diagram (IBD) - associated to the Operational Context - featur
 A tabular format listing [tbd].
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
 * Connector [UML_Standard_Profile]
 * ItemFlow [SysML Profile]
 * ItemFlow [SysML Profile]

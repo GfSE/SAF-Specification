@@ -19,6 +19,7 @@ Note: Domain Item Kinds are managed in the domain knowledge package of the SOI, 
 A tabular format listing the Domain Item Kinds and their relationships.
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
 |FlowProperty [SysML Profile]|[Logical Connection Property](../concept/concepts.md#Logical-Connection-Property)|

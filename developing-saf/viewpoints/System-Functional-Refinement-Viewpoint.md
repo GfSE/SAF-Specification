@@ -18,6 +18,7 @@ The System Functional Refinement Viewpoint supports the "Define System Requireme
 Activity Diagram featuring System Partial Functions, functional exchange between partial functions. There are explicitely no Swimlanes and no allocations to structure.
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
 ## Input from other Viewpoints

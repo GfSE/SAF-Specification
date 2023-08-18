@@ -35,6 +35,7 @@ A sequence diagram featuring the flow of control between SOI and Context Element
 Note: This diagram depicts the sending and receiving of messages between the interacting entities called lifelines, where time is represented along the vertical axis. The lifelines representatives are part properties typed by a System Context Elements.
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
 |Interaction [UML_Standard_Profile]|[Context Logical Interaction Scenario](../concept/concepts.md#Context-Logical-Interaction-Scenario)|

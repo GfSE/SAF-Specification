@@ -35,12 +35,13 @@ The physical context definition diagram (BDD) defines the elements available in 
 * composition relationships attaching the Physical Context Elements and the Physical System to the Physical System Context block
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
 |Association [UML_Standard_Profile]|[Physic SOI Constituent](../concept/concepts.md#Physic-SOI-Constituent)|
 |Association [UML_Standard_Profile]|[Physic Context Constituent](../concept/concepts.md#Physic-Context-Constituent)|
-|Property [UML_Standard_Profile]|[Physic SOI Constituent](../concept/concepts.md#Physic-SOI-Constituent)|
 |Property [UML_Standard_Profile]|[Physic Context Constituent](../concept/concepts.md#Physic-Context-Constituent)|
+|Property [UML_Standard_Profile]|[Physic SOI Constituent](../concept/concepts.md#Physic-SOI-Constituent)|
 |[SAF_PhysicalContext](../../stereotypes.md#SAF_PhysicalContext)|[Physical System Context](../concept/concepts.md#Physical-System-Context)|
 |[SAF_PhysicalEnvironment](../../stereotypes.md#SAF_PhysicalEnvironment)|[Physical Environment](../concept/concepts.md#Physical-Environment)|
 |[SAF_PhysicalExternalSystem](../../stereotypes.md#SAF_PhysicalExternalSystem)|[Physical External System](../concept/concepts.md#Physical-External-System)|

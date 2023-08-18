@@ -44,10 +44,11 @@ Note: In order to improve the clarity of presentation it may be appropriate to u
 A tabular format listing all identified System Functions, the System Processes in which they appear, and the Comtext Exchange with the Context Functions.
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
-|Allocate [SysML Profile]|[LETperformingSFN](../concept/concepts.md#LETperformingSFN)|
 |Allocate [SysML Profile]|[LCEperformingCFN](../concept/concepts.md#LCEperformingCFN)|
+|Allocate [SysML Profile]|[LETperformingSFN](../concept/concepts.md#LETperformingSFN)|
 |ControlFlow [UML_Standard_Profile]|[GFNcontrolledAFTER](../concept/concepts.md#GFNcontrolledAFTER)|
 |InputPin [UML_Standard_Profile]|[GFFtoGFP](../concept/concepts.md#GFFtoGFP)|
 |ObjectFlow [UML_Standard_Profile]|[General Functional Flow](../concept/concepts.md#General-Functional-Flow)|
@@ -56,8 +57,8 @@ A tabular format listing all identified System Functions, the System Processes i
 |[SAF_ContextAction](../../stereotypes.md#SAF_ContextAction)|[Context Function IN System Process](../concept/concepts.md#Context-Function-IN-System-Process)|
 |[SAF_ContextFunction](../../stereotypes.md#SAF_ContextFunction)|[Context Function](../concept/concepts.md#Context-Function)|
 |[SAF_FunctionAction](../../stereotypes.md#SAF_FunctionAction)|[System Function IN System Process](../concept/concepts.md#System-Function-IN-System-Process)|
-|[SAF_LogicalContextRole](../../stereotypes.md#SAF_LogicalContextRole)|[Logical Context Element Constituent](../concept/concepts.md#Logical-Context-Element-Constituent)|
 |[SAF_LogicalContextRole](../../stereotypes.md#SAF_LogicalContextRole)|[Logical SOI Constituent](../concept/concepts.md#Logical-SOI-Constituent)|
+|[SAF_LogicalContextRole](../../stereotypes.md#SAF_LogicalContextRole)|[Logical Context Element Constituent](../concept/concepts.md#Logical-Context-Element-Constituent)|
 |[SAF_SFV03a_View](../../stereotypes.md#SAF_SFV03a_View)|[System Process Viewpoint](../concept/concepts.md#System-Process-Viewpoint)|
 |[SAF_SystemFunction](../../stereotypes.md#SAF_SystemFunction)|[System Function](../concept/concepts.md#System-Function)|
 |[SAF_SystemProcess](../../stereotypes.md#SAF_SystemProcess)|[System Process](../concept/concepts.md#System-Process)|

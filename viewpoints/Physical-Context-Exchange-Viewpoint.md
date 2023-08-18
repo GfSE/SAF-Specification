@@ -44,6 +44,7 @@ B) A physical context interface table provides a list of all the defined externa
 C) A context interface table is used to define the applicable standards, protocols and formats for the item flows exchanged via the identified interfaces.
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Physical Context Definition Viewpoint](Physical-Context-Definition-Viewpoint.md)

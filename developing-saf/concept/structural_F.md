@@ -14,7 +14,7 @@
 | General Functional Flow | Specifies the fact that an Exchange between Function Parameters is taking place.|
 | General Functional Parameter | A parameter of a System or Context Function.|
 | General Functional Usage | Specifies the fact that a Function is used by one or more other Functions.|
-| SPSenablingSCY | Specifies the fact that a System Process enables the operationalization of one or more System Capabilities.|
+| SPSenablingSCY | Specifies the fact that a System Process contributes to the provision of one or more System Capabilities in the field.|
 | SPSrefiningSUC | Specifies the fact that a System Use Case is refined by one System Process.|
 | SUChasPostConditionSSE | Specifies the fact that a System Use Case has a state as Postcondition.|
 | SUChasPreConditionSSE | Specifies the fact that a System Use Case has a state as Precondition.|

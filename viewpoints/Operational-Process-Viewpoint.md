@@ -18,6 +18,7 @@ An activity diagram featuring the ordered execution of Operational Process Actio
 Note: Operational Process Actions are assigned to Operational Roles and therefore in a more general manner to Operational Performers.
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
 * Allocate [SysML Profile]
 * ControlFlow [UML_Standard_Profile]
 * InputPin [UML_Standard_Profile]

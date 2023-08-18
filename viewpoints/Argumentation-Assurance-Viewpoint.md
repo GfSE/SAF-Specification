@@ -16,6 +16,7 @@ The Argumentation Assurance Viewpoint supports the ability to present an evidenc
 A block definition diagram (BDD) featuring a claim-argument-evidence (C-A-E) pattern.
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_Argument](../stereotypes.md#SAF_Argument)
 * [SAF_ArgumentClaimSupport](../stereotypes.md#SAF_ArgumentClaimSupport)
 * [SAF_Claim](../stereotypes.md#SAF_Claim)

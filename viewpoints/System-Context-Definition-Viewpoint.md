@@ -35,6 +35,7 @@ A block definition diagram (BDD) featuring the following elements
 A tabular format listing the [tbd].
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
 * Association [UML_Standard_Profile]
 * Association [UML_Standard_Profile]
 * [SAF_LogicalContext](../stereotypes.md#SAF_LogicalContext)

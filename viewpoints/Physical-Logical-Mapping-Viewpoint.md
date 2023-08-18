@@ -18,6 +18,7 @@ A  Physical To Logical Assigment Matrix featuring
 * allocation relationships from logical elements to physical elements
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_FunctionAction](../stereotypes.md#SAF_FunctionAction)
 ## Input from other Viewpoints
 ### Required Viewpoints

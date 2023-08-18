@@ -23,6 +23,7 @@ Note: The relationship to operational capabilities shall be shown if applicable.
 A tabular format listing System Capabilities, their composition, specialisation, and dependency relationships, as well as relations to operational capabilities.
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_SFV02b_View](../stereotypes.md#SAF_SFV02b_View)
 * [SAF_SystemCapability](../stereotypes.md#SAF_SystemCapability)
 * [SAF_SystemCapabilityComposition](../stereotypes.md#SAF_SystemCapabilityComposition)

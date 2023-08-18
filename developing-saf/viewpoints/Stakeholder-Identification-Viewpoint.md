@@ -30,6 +30,7 @@ The Stakeholder Identification Viewpoint supports the "Business or Mission Analy
 A block definition diagram (BDD) depicting the identified Operational Stakeholders and their relations  towards the Intended Solution.
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
 |[SAF_ContextElementRepresentation](../../stereotypes.md#SAF_ContextElementRepresentation)|[SSHrepresentingSCE](../concept/concepts.md#SSHrepresentingSCE)|

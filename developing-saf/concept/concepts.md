@@ -132,7 +132,7 @@ exposed in viewpoint [System Context Exchange Viewpoint](../../viewpoints/System
 
 exposed in viewpoint [System Interface Definition Viewpoint](../../viewpoints/System-Interface-Definition-Viewpoint.md)
 
-realized by Stereotype InterfaceBlock
+realized by Stereotype [SAF_LogicalInterface](../../stereotypes.md#SAF_LogicalInterface)
 
 Specifies a certain kind of an interaction point on Logical Level.
 ## Logical Connection Property
@@ -723,6 +723,12 @@ exposed in viewpoint [System Process Viewpoint](../../viewpoints/System-Process-
 realized by Stereotype Allocate
 
 Specifies the fact that a Context Function is expected to be carried out by the Logical Context Element in this System Context.
+## LCNallowingLIE
+1 [Logical Connection](#Logical-Connection) LCNallowingLIE 0..* [Logical Item Exchange](#Logical-Item-Exchange) 
+
+exposed in viewpoint [Logical Internal Exchange Viewpoint](../../viewpoints/Logical-Internal-Exchange-Viewpoint.md)
+
+Specifies the fact that a Logical Item Exchange is allowed on the Logical Interface Connection.
 ## LCPDdefiningDetailOfLCP
 1 [Logical Connection Point Definition](#Logical-Connection-Point-Definition) LCPDdefiningDetailOfLCP 0..* [Logical Connection Point](#Logical-Connection-Point) 
 
@@ -745,10 +751,6 @@ Specifies the fact that a Logical Interface Connection Point applies to a Logica
 exposed in viewpoint [System Interface Definition Viewpoint](../../viewpoints/System-Interface-Definition-Viewpoint.md)
 
 Specifies the fact that a Logical Interface Property is a detail of a Logical Interface Connection Definition.
-## LCRallowingLIE
-1 [Logical Connector](#Logical-Connector) LCRallowingLIE 0..* [Logical Item Exchange](#Logical-Item-Exchange) 
-
-Specifies the fact that a Logical Item Exchange is allowed on the Logical Interface Connection.
 ## LENconceptingPEN
 1..* [Logical Environment](#Logical-Environment) LENconceptingPEN 1..* [Physical Environment](#Physical-Environment) 
 
@@ -940,7 +942,7 @@ exposed in viewpoint [Operational Process Mapping Viewpoint](../../viewpoints/Op
 
 realized by Stereotype [SAF_OperationalProcessEnabling](../../stereotypes.md#SAF_OperationalProcessEnabling)
 
-Specifies the fact that an Operational Process enables the operationalization of one or more Operational Capabilities.
+Specifies the fact that an Operational Process contributes to the provision of one or more Operational Capabilities in the field.
 
 Aliases:
 UAF::MapsToCapability
@@ -957,13 +959,17 @@ Specifies the fact that an Operational Story is refined by one or more Operation
 
 Specifies the fact that an Operational Story happens in a certain Operational Context. When parts of an Operational Story do happen in several contexts, they shall be duplicated.
 ## PCCappliesToPCR
-0..* [Physical Connector](#Physical-Connector) PCCappliesToPCR 0..1 [Physical Connector Compatibility](#Physical-Connector-Compatibility) 
+0..* [Physical Connection](#Physical-Connection) PCCappliesToPCR 0..1 [Physical Connector Compatibility](#Physical-Connector-Compatibility) 
 
 specifies that a Physical Compatibility Assertion shall apply to an Physical Interface Connection
 ## PCCassertsCompatibiltyForPCPD
 1 [Physical Connector Compatibility](#Physical-Connector-Compatibility) PCCassertsCompatibiltyForPCPD 2 [Physical Connection Point Definition](#Physical-Connection-Point-Definition) 
 
 specifies the Physical Interface Connection Point definitions the Physical Compatibility Assertion is valid for.
+## PCNallowingPIE
+1 [Physical Connection](#Physical-Connection) PCNallowingPIE 0..* [Physical Item Exchange](#Physical-Item-Exchange) 
+
+Specifies the fact that a Physical Item Exchange is allowed on the Physical Interface Connection.
 ## PCPDdefiningPCP
 1 [Physical Connection Point Definition](#Physical-Connection-Point-Definition) PCPDdefiningPCP 0..* [Physical Connection Point](#Physical-Connection-Point) 
 
@@ -984,10 +990,6 @@ Specifies the fact that a Physical Interface Connection Point applies to a Physi
 0..* [Physical Connection Property](#Physical-Connection-Property) PCPspecifyingDetailOfPCPD 1 [Physical Connection Point Definition](#Physical-Connection-Point-Definition) 
 
 Specifies the fact that a Physical Interface Property is a detail of a Physical Interface Connection Definition.
-## PCRallowingPIE
-1 [Physical Connector](#Physical-Connector) PCRallowingPIE 0..* [Physical Item Exchange](#Physical-Item-Exchange) 
-
-Specifies the fact that a Physical Item Exchange is allowed on the Physical Interface Connection.
 ## PEKisAssignedToPL
 0..1 [Physical Layer](#Physical-Layer) PEKisAssignedToPL 0..* [Physical Exchange Kind](#Physical-Exchange-Kind) 
 
@@ -1106,16 +1108,16 @@ Specifies the fact that a System Domain Kind on system level is derived from an 
 1 [System Domain Kind](#System-Domain-Kind) SDKtypingFPM 0..* [General Functional Parameter](#General-Functional-Parameter) 
 
 Specifies the fact that a System Domain Kind defines the type of a Function Parameter.
-## SDKtypingLIE
-1 [System Domain Kind](#System-Domain-Kind) SDKtypingLIE 0..* [Logical Item Exchange](#Logical-Item-Exchange) 
-
-Specifies the fact that a System Domain Kind defines the type of a Logical Item Exchange.
-## SDKtypingLIP
-1 [System Domain Kind](#System-Domain-Kind) SDKtypingLIP 0..* [Logical Connection Property](#Logical-Connection-Property) 
+## SDKtypingLCP
+1 [System Domain Kind](#System-Domain-Kind) SDKtypingLCP 0..* [Logical Connection Property](#Logical-Connection-Property) 
 
 exposed in viewpoint [System Interface Definition Viewpoint](../../viewpoints/System-Interface-Definition-Viewpoint.md)
 
 Specifies the fact that a System Domain Kind defines the type of a Logical Interface Exchange Property.
+## SDKtypingLIE
+1 [System Domain Kind](#System-Domain-Kind) SDKtypingLIE 0..* [Logical Item Exchange](#Logical-Item-Exchange) 
+
+Specifies the fact that a System Domain Kind defines the type of a Logical Item Exchange.
 ## SFNallocatedToAPE
 1..* [System Function](#System-Function) SFNallocatedToAPE 1 [Abstract Physical Element](#Abstract-Physical-Element) 
 
@@ -1207,7 +1209,7 @@ exposed in viewpoint [System Capability Mapping Viewpoint](../../viewpoints/Syst
 
 realized by Stereotype [SAF_SystemProcessEnabling](../../stereotypes.md#SAF_SystemProcessEnabling)
 
-Specifies the fact that a System Process enables the operationalization of one or more System Capabilities.
+Specifies the fact that a System Process contributes to the provision of one or more System Capabilities in the field.
 ## SPSrefiningSUC
 0..1 [System Process](#System-Process) SPSrefiningSUC 1 [System Use Case](#System-Use-Case) 
 
@@ -1470,8 +1472,8 @@ exposed in viewpoint [Logical Internal Interaction Viewpoint](../../viewpoints/L
 realized by Metaclass Lifeline
 
 Specifies the fact that a Logical Element Role participates in an Internal Logical Interaction Scenario.
-## Logical Connector
-1 [Logical Connection Point](#Logical-Connection-Point) Logical Connector 1 [Logical Connection Point](#Logical-Connection-Point) 
+## Logical Connection
+1 [Logical Connection Point](#Logical-Connection-Point) Logical Connection 1 [Logical Connection Point](#Logical-Connection-Point) 
 
 exposed in viewpoint [Logical Internal Exchange Viewpoint](../../viewpoints/Logical-Internal-Exchange-Viewpoint.md)
 
@@ -1594,8 +1596,8 @@ realized by Metaclass Association
 realized by Metaclass Property
 
 Specifies the fact that a Physical SOI exists in a specific Physical Context.
-## Physical Connector
-1 [Physical Connection Point](#Physical-Connection-Point) Physical Connector 1 [Physical Connection Point](#Physical-Connection-Point) 
+## Physical Connection
+1 [Physical Connection Point](#Physical-Connection-Point) Physical Connection 1 [Physical Connection Point](#Physical-Connection-Point) 
 
 exposed in viewpoint [Physical Context Exchange Viewpoint](../../viewpoints/Physical-Context-Exchange-Viewpoint.md)
 
