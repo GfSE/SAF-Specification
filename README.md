@@ -90,6 +90,7 @@ The Functional Domain Viewpoints translate Operational Domain usage into the not
 #### Functional Domain Aspect Requirement
 * [System Requirement Viewpoint](viewpoints/System-Requirement-Viewpoint.md)
 #### Functional Domain Aspect Traceability & Mapping
+* [System Capability Mapping Viewpoint](viewpoints/System-Capability-Mapping-Viewpoint.md)
 * [System Requirement Traceability Viewpoint](viewpoints/System-Requirement-Traceability-Viewpoint.md)
 
 ## Logical Domain
