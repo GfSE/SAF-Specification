@@ -85,6 +85,8 @@ The Functional Domain Viewpoints translate Operational Domain usage into the not
 * [System State Viewpoint](viewpoints/System-State-Viewpoint.md)
 #### Functional Domain Aspect Interaction and Collaboration
 * [System Context Interaction Viewpoint](viewpoints/System-Context-Interaction-Viewpoint.md)
+#### Functional Domain Aspect Interface
+* [System Interface Definition Viewpoint](viewpoints/System-Interface-Definition-Viewpoint.md)
 #### Functional Domain Aspect Requirement
 * [System Requirement Viewpoint](viewpoints/System-Requirement-Viewpoint.md)
 #### Functional Domain Aspect Traceability & Mapping
