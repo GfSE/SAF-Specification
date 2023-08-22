@@ -18,9 +18,9 @@ The subsequent chapters give an overview over the SAF viewpoints. The specificat
 
 ### Operational Domain Objective
 
-The SAF Operational Domain aims to get an understanding of required organizational or operational entity capability(s), as a foundation for to systems to be acuired or developed. The viewpoints of the SAF Operational Domain assist the "Business or Mission Analysis Process" and the "Stakeholder Needs and Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1, § 4.2].
+The SAF Operational Domain aims to get an understanding of required organizational or operational entity capabilities, as a foundation for to systems to be acuired or developed. The viewpoints of the SAF Operational Domain assist the "Business or Mission Analysis Process" and the "Stakeholder Needs and Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1, § 4.2].
 
-The SAF Operational Domain supports the model-based development of a [CONOPS](https://www.sebokwiki.org/wiki/Concept_of_Operations_(ConOps)_(glossary)) - as well as an [OPSCON](https://www.sebokwiki.org/wiki/Business_or_Mission_Analysis) and related life cycle concepts - for an organization or operational entity seeking for an improvement of existing capability(s) or in establishing new ones.
+The SAF Operational Domain supports the model-based development of a [CONOPS](https://www.sebokwiki.org/wiki/Concept_of_Operations_(ConOps)_(glossary)) - as well as an [OPSCON](https://www.sebokwiki.org/wiki/Business_or_Mission_Analysis) and related life cycle concepts - for an organization or operational entity seeking for an improvement of existing capabilities or in establishing new ones.
 
 By identifying Stakeholders and their Requirements the SAF Operational Domain supports the derivation of a complete and consolidated set of Stakeholder Requirements based on operational activities and exchanges.
 
@@ -97,14 +97,14 @@ The Functional Domain Viewpoints translate Operational Domain usage into the not
 
 ### Logical Domain Objective
 
-The Logical Domain Viewpoints describe the Logical Structure and the distribution of responsibilitys for the Functionality of the SOI by means of a network of interacting Logical Elements that are responsible for a set of desired Function(s). These Logical Elements and their Interactions are arranged in the Logical Architecture of the SOI. The structure of the Logical Architecture is in general influenced by nonfunctional criteria, e.g., maintainability, safety, and reliability.
+The Logical Domain Viewpoints describe the Logical Structure and the distribution of responsibilitys for the Functionality of the SOI by means of a network of interacting Logical Elements that are responsible for a set of desired Functions. These Logical Elements and their Interactions are arranged in the Logical Architecture of the SOI. The structure of the Logical Architecture is in general influenced by nonfunctional criteria, e.g., maintainability, safety, and reliability.
 The Logical Domain is not a different abstraction level - compared to the Functional Domain, but a white box perspective on the same abstraction level.
 
 ### Logical Domain Concern
 
 * Describing the Internal Logical Structure of the SOI by partitioning the SOI into communicating Logical Elements
-* Describing the Logical Interface(s) & Data Exchange(s) between the interacting Logical Elements in a way that the Logical Interface(s) are independent from their implementation
-* Allocating desired Function(s) to cohesive Logical Elements
+* Describing the Logical Interfaces & Data Exchanges between the interacting Logical Elements in a way that the Logical Interfaces are independent from their implementation
+* Allocating desired Functions to cohesive Logical Elements
 * Supporting the reuse of already existent Logical Elements and designing Logical Elements such that future reuse is facilitated
 * Defining the emerging behavior of the system (in contrast to the partial behavior specified in the of Functional Domain Viewpoints) and enabling a complete simulation of the entire system
 
