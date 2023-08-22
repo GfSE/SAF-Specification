@@ -1,4 +1,3 @@
-![System Architecture Framework](../../diagrams/Logo_SAF.png)
 # How SAF is Developed?
 
 ## Kinds of Models
