@@ -23,7 +23,7 @@ The System Requirement Traceability Viewpoint supports the "System Requirements 
 * Which Stakeholder Requirements are addressed by System Requirements?
 * Which system interface is addressed by a system requirement?
 ## Presentation
-A System Requirement Dependency Matrix featuring relationships for every System Requirement to the functional domain level
+A dependency matrix featuring relationships for every System Requirement to the functional domain level
 * System Use Case
 * System Capability
 * System Context Definition

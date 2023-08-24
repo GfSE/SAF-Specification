@@ -24,7 +24,7 @@ The System Requirement Viewpoint supports the "System Requirements Definition Pr
 * What is the range of acceptable system performance, i.e. the critical, top-level performance requirements derived from the operational needs?
 * Which Stakeholder Requirements are addressed by System Requirements?
 ## Presentation
-A System Requirement Table (RVTM), a tabular format, featuring
+A tabular format listing
 * unique requirement ID, text, and attributes,
 * traceability reference to Stakeholder Requirements,
 * traceability reference to depended Requirements on the same level of abstraction.

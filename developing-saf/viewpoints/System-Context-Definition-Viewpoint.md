@@ -9,7 +9,7 @@
 The System Context Definition Viewpoint defines how the SOI is embedded in its Environment, i.e., where the boundary of the SOI is and who the External Entities are the SOI interacts with (e.g., Users, other External Systems, Environmental Conditions, etc.). The SOI provides and requests Context Functions. The SOI shall be able handle events and effects from the outside.
 Furthermore, the System Context Definition Viewpoint serves as architecture concept to demonstrate how the architecture defined in the The Operational Context Definition Viewpoint is realized.
 ## Applicability
-The System Context Definition Viewpoint supports the "Prepare for Requirement Definition" activity included in "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.3] and contributes to the system Functional Interface Identification.
+The System Context Definition Viewpoint supports the "Prepare for Requirement Definition" activity included in "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.3] and contributes to the System Interface definition.
 ## Stakeholder
 * [Acquirer](../../stakeholders.md#Acquirer)
 * [Customer](../../stakeholders.md#Customer)
@@ -32,14 +32,14 @@ A block definition diagram (BDD) featuring the following elements
 * a composition relationship from Context block to each Context Element used in the context
 * a composition relationship from Context block to the SOI
 
-A tabular format listing the [tbd].
+A tabular format listing [tbd].
 
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
-|Association [UML_Standard_Profile]|[Logical SOI Constituent](../concept/concepts.md#Logical-SOI-Constituent)|
 |Association [UML_Standard_Profile]|[Logical Context Element Constituent](../concept/concepts.md#Logical-Context-Element-Constituent)|
+|Association [UML_Standard_Profile]|[Logical SOI Constituent](../concept/concepts.md#Logical-SOI-Constituent)|
 |[SAF_LogicalContext](../../stereotypes.md#SAF_LogicalContext)|[Logical System Context](../concept/concepts.md#Logical-System-Context)|
 |[SAF_LogicalContextRole](../../stereotypes.md#SAF_LogicalContextRole)|[Logical SOI Constituent](../concept/concepts.md#Logical-SOI-Constituent)|
 |[SAF_LogicalContextRole](../../stereotypes.md#SAF_LogicalContextRole)|[Logical Context Element Constituent](../concept/concepts.md#Logical-Context-Element-Constituent)|

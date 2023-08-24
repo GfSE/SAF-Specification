@@ -22,7 +22,7 @@ The Stakeholder Requirement Viewpoint supports the "Stakeholder Needs and Requir
 * What defines a valid solution towards the customer?
 * What is the range of acceptable system performance, i.e. the critical, top-level performance requirements derived from the operational needs?
 ## Presentation
-A Stakeholder Requirement Table (RVTM), a tabular format, featuring
+A tabular format lisiting
 * unique requirement ID, text, and attributes,
 * traceability reference to justifying model artefacts.
 Note: Stakeholder Requirements are to be structured in a way that the Stakeholder behind the Requirement is identifiable. When appropriate, the relationships between identified Stakeholder Requirements are and the justifying model artefacts, Operational Story, Operational Capability, Operational Performer, Operational Process, and Operational Exchange are presented.
@@ -40,8 +40,8 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |[SAF_StakeholderRequirement](../../stereotypes.md#SAF_StakeholderRequirement)|[Stakeholder Requirement](../concept/concepts.md#Stakeholder-Requirement)|
 |[SAF_StakeholderRequirementImposition](../../stereotypes.md#SAF_StakeholderRequirementImposition)|[SHRimposedBY](../concept/concepts.md#SHRimposedBY)|
 |[SAF_StakeholderRequirementRefinement](../../stereotypes.md#SAF_StakeholderRequirementRefinement)|[SHRrefiningOSY](../concept/concepts.md#SHRrefiningOSY)|
-|[SAF_StakeholderRequirementRefinement](../../stereotypes.md#SAF_StakeholderRequirementRefinement)|[SHRrefiningCRN](../concept/concepts.md#SHRrefiningCRN)|
 |[SAF_StakeholderRequirementRefinement](../../stereotypes.md#SAF_StakeholderRequirementRefinement)|[SHRrefiningOCY](../concept/concepts.md#SHRrefiningOCY)|
+|[SAF_StakeholderRequirementRefinement](../../stereotypes.md#SAF_StakeholderRequirementRefinement)|[SHRrefiningCRN](../concept/concepts.md#SHRrefiningCRN)|
 |[SAF_SystemOfInterestConcern](../../stereotypes.md#SAF_SystemOfInterestConcern)|[System of Interest Concern](../concept/concepts.md#System-of-Interest-Concern)|
 ## Input from other Viewpoints
 ### Required Viewpoints

@@ -13,7 +13,7 @@ The System Process Viewpoint provides the functional representation of the syste
 * the exchange between SOI System Functions and Context Functions of Context Elements
 * the functional flows crossing the boundary between SOI and Context Elements
 ## Applicability
-The System Process Viewpoint supports the "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§4.3] and contributes to the System Function Identification and the System Functional Interface Identification.
+The System Process Viewpoint supports the "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§4.3] and contributes to the System Function, and the System Interface definition.
 ## Stakeholder
 * [Acquirer](../stakeholders.md#Acquirer)
 * [Customer](../stakeholders.md#Customer)

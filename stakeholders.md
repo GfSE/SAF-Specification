@@ -14,7 +14,7 @@ The following subchapters describe the stakeholders and their concerns:
 
 # Acquirer
 Definition - Acquirer:
-stakeholder that acquires or procures a product or service from a supplier, [ISO/IEC 15288:2022 - Systems engineering - System life-cycle processes]
+Stakeholder that acquires or procures a product or service from a supplier, [ISO/IEC 15288:2022 - Systems engineering - System life-cycle processes]
 The Acquirer is a Stakeholder that acquires or procures a product or service from a supplier. The Acquirer may be an organization or an individual acting on behalf of the customer or the user.
 He is responsible for providing a feasible solution within a given budget. The Acquirer must plan and control the delivery of the system-of-interest as well as other systems together with necessary infrastructure, equipment or training. He must plan the integration of all the procured items to provide a complete solution ready for operation. For large enterprises standardization is an issue. Therefore, the acquirer is interested that standard items are considered in the system architecture.
 
@@ -56,7 +56,7 @@ He is responsible for providing a feasible solution within a given budget. The A
 * Who provides the inputs to a critical function?
 # Customer
 Definition - Customer (also Acquirer):
-organization or person that receives a product or service, [ISO/IEC 15288:2022 – Systems engineering - System life-cycle processes]
+Organization or person that receives a product or service, [ISO/IEC 15288:2022 – Systems engineering - System life-cycle processes]
 The Customer is an organization or person that receives a product. Examples: Consumer, client, end user, retailer, beneficiary, and purchaser. A customer can be internal or external to the organization. Customer is a broader reference than Acquirer, operator, or user and includes those roles as well as others. However, the Customer provides the funding.
 
 ## Concern
@@ -95,7 +95,7 @@ Note: All other Stakeholders do not use the system for purpose, and they do not 
 ## Concern
 # Hardware Developer
 Definition - Developer:
-organization that performs development tasks (including requirements analysis, design, testing through acceptance) during a life cycle process. [ISO/IEC 12207:2008]
+Organization that performs development tasks (including requirements analysis, design, testing through acceptance) during a life cycle process. [ISO/IEC 12207:2008]
 The Developer is a group or an individual implementing the system parts according to defined requirements. On the lowest level of the system architecture there are the Hardware Developer responsible for implementing the hardware components.
 
 ## Concern
@@ -196,7 +196,7 @@ IV&V Engineers are individuals or groups responsible for integration, validation
 * Who provides the inputs to a critical function?
 # Maintainer
 Definition - Maintainer
-individual or organization that performs maintenance activities, [ISO/IEC 12207:2008]
+Individual or organization that performs maintenance activities, [ISO/IEC 12207:2008]
 The Maintainer is an individual, group or organization responsible to maintain the system during its operational usage. The Maintainer assures the availability of the system over its foreseen lifetime. It involves obsolescence management, technology evolution, repair, update or replacement of parts of the system or even of the whole system. The Maintainer provides major non-functional requirements (e.g. reliability, availability, mean time to repair), but also functional requirements e.g. to ensure the compatibility with existing enabling systems.
 
 ## Concern
@@ -210,13 +210,13 @@ The Maintainer is an individual, group or organization responsible to maintain t
 * Which modes and states does the system have?
 # Mechanic Developer
 Definition - Developer:
-organization that performs development tasks (including requirements analysis, design, testing through acceptance) during a life cycle process. [ISO/IEC 12207:2008]
+Organization that performs development tasks (including requirements analysis, design, testing through acceptance) during a life cycle process. [ISO/IEC 12207:2008]
 The Developer is a group or an individual implementing the system parts according to defined requirements. On the lowest level of the system architecture there are the Mechanic Developer responsible for implementing the mechanical components.
 
 ## Concern
 # Operator
 Definition - Operator:
-individual or organization that performs the operations of a system, [ISO/IEC 15288:2022 – Systems engineering - System life-cycle processes]
+Individual or organization that performs the operations of a system, [ISO/IEC 15288:2022 – Systems engineering - System life-cycle processes]
 The Operator is an individual or organization that uses knowledge, skills and procedures to perform the functions of the system to provide the benefit, product or service. 
 An individual Operator combined with knowledge, skills, and procedures may be considered as an element of the system. The role of the operator and the role of the user can be delegated to a single individual or may be simultaneously instantiated in the same organization. 
 *For example: Air passengers are the user of the air transport system while a single flight is operated by an air carrier like the Lufthansa using aircrafts of various types to provide the transport service. 
@@ -235,7 +235,7 @@ The example illustrates, that the roles user and operator are depending heavily 
   ***Rationale:  In my role, I need to check whether the system fits into the higher-level user concept.***
 # Portfolio Manager
 Portfolio Manager:
-He plans the Product portfolio, i.e. which products are available, will be available, which capabilities will they have.
+Individual or organization that plans the Product portfolio, i.e. which products are available, will be available, which capabilities will they have.
 
 ## Concern
 * What operational capabilities are defined? 
@@ -243,9 +243,7 @@ He plans the Product portfolio, i.e. which products are available, will be avail
   ***Rationale:  In my role, I need to plan the system capabilities to support operational capabilities.***
 # Project Manager
 Definition - Project Manager: 
-The responsibility of the Project Manager is to make the right resources with the right skills available in time to get the identified work done. 
-The Project Manager controls that the work packages are completed in time and agreed milestones are met.
-A clear definition of the solution for the stated problem allows planning to be done properly.
+The responsibility of the Project Manager is to make the right resources with the right skills available in time to get the identified work done. The Project Manager controls that the work packages are completed in time and agreed milestones are met. A clear definition of the solution for the stated problem allows planning to be done properly.
 Systems Engineering creates a clear and manageable system structure, which is the basis for project planning and task assignment.
 
 ## Concern
@@ -342,7 +340,7 @@ The IT-Security experts evaluate a proposed system architecture and design for I
 * Which modes and states does the system have?
 # Software Developer
 Definition - Developer:
-organization that performs development tasks (including requirements analysis, design, testing through acceptance) during a life cycle process. [ISO/IEC 12207:2008]
+Organization that performs development tasks (including requirements analysis, design, testing through acceptance) during a life cycle process. [ISO/IEC 12207:2008]
 The Developer is a group or an individual implementing the system parts according to defined requirements. On the lowest level of the system architecture there are the Software Developer responsible for implementing the software components.
 
 ## Concern
@@ -398,7 +396,7 @@ Note: if allocation of usage is used, then allocation of definition is a derived
 * Who provides the inputs to a critical function?
 # Supplier
 Definition - Supplier:
-organization or an individual that enters into an agreement with the Acquirer for the supply of a product or service, [ISO/IEC 15288:2022 – Systems engineering - System life-cycle processes]
+Organization or an individual that enters into an agreement with the Acquirer for the supply of a product or service, [ISO/IEC 15288:2022 – Systems engineering - System life-cycle processes]
 The Supplier is the organization or individual that enters into an agreement with the Acquirer to supply a product or service. Usually, the system architect and the developers for make-items are part of the supplier’s organization. Other terms commonly used for Supplier are contractor, producer, seller or vendor.
 
 ## Concern
@@ -415,7 +413,7 @@ The Supplier is the organization or individual that enters into an agreement wit
 * Who are the Stakeholders involved in the intended solution?
 # System Architect
 Definition - System Architect:
-The System Architect as an individual or group performing the systems engineering for the SOI (SoI). The system architect creates the system architecture i.e. the views as defined by the SAF.
+The System Architect as an individual or group performing the systems engineering for the SOI. The system architect creates the system architecture i.e. the views as defined by the SAF.
 
 ## Concern
 * Are safety related design principles) followed e.g. segregation of monitors or independence or redundant elements?
@@ -504,7 +502,7 @@ Note: if allocation of usage is used, then allocation of definition is a derived
 * Who provides the inputs to a critical function?
 # User
 Definition - User:
-individual or group that interacts with a system or benefits from a system during its utilization, [ISO/IEC 15288:2022 - Systems engineering - System life-cycle processes]
+Individual or group that interacts with a system or benefits from a system during its utilization, [ISO/IEC 15288:2022 - Systems engineering - System life-cycle processes]
 The User is the individual, organization or group that benefits from the operation of the system. The User provides the usage scenarios, the User needs and finally the user requirements representing most of the functional requirements but also non-functional requirements. The role of User and the role of operator are sometimes allocated, simultaneously or sequentially, to the same individual or organization. All the other stakeholders do not use the system for any purpose, and they do not need or require the system to satisfy any need. Therefore, interests of the User and claims of the Stakeholder could be contradicting.
 
 ## Concern

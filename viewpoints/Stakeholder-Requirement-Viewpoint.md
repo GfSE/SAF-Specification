@@ -22,7 +22,7 @@ The Stakeholder Requirement Viewpoint supports the "Stakeholder Needs and Requir
 * What defines a valid solution towards the customer?
 * What is the range of acceptable system performance, i.e. the critical, top-level performance requirements derived from the operational needs?
 ## Presentation
-A Stakeholder Requirement Table (RVTM), a tabular format, featuring
+A tabular format lisiting
 * unique requirement ID, text, and attributes,
 * traceability reference to justifying model artefacts.
 Note: Stakeholder Requirements are to be structured in a way that the Stakeholder behind the Requirement is identifiable. When appropriate, the relationships between identified Stakeholder Requirements are and the justifying model artefacts, Operational Story, Operational Capability, Operational Performer, Operational Process, and Operational Exchange are presented.

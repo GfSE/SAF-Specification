@@ -1360,6 +1360,8 @@ Specifies the fact that a System Use Case takes place in a Logical System Contex
 ## USEAGEallocatedTO
 1..* [General Functional Usage](#General-Functional-Usage) USEAGEallocatedTO 1 [Internal Logical Element Constituent](#Internal-Logical-Element-Constituent) 
 
+exposed in viewpoint [Logical Functional Mapping Viewpoint](../../viewpoints/Logical-Functional-Mapping-Viewpoint.md)
+
 realized by Stereotype Allocate
 
 Specifies the fact that a Usage of Function is allocated to a Usage of System Element.
@@ -1458,8 +1460,6 @@ exposed in viewpoint [Logical Functional Mapping Viewpoint](../../viewpoints/Log
 exposed in viewpoint [Logical Internal Interaction Viewpoint](../../viewpoints/Logical-Internal-Interaction-Viewpoint.md)
 
 exposed in viewpoint [Logical Structure Viewpoint](../../viewpoints/Logical-Structure-Viewpoint.md)
-
-realized by Stereotype [SAF_LogicalContextRole](../../stereotypes.md#SAF_LogicalContextRole)
 
 realized by Stereotype [SAF_LogicalInternalRole](../../stereotypes.md#SAF_LogicalInternalRole)
 

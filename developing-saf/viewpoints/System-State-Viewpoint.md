@@ -37,8 +37,8 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |[SAF_SFV03c_View](../../stereotypes.md#SAF_SFV03c_View)|[System State Viewpoint](../concept/concepts.md#System-State-Viewpoint)|
 |[SAF_SystemFunction](../../stereotypes.md#SAF_SystemFunction)|[System Function](../concept/concepts.md#System-Function)|
 |State [UML_Standard_Profile]|[System State](../concept/concepts.md#System-State)|
-|StateMachine [UML_Standard_Profile]|[SDKbeeingInSSE](../concept/concepts.md#SDKbeeingInSSE)|
 |StateMachine [UML_Standard_Profile]|[LETbeeingInSSE](../concept/concepts.md#LETbeeingInSSE)|
+|StateMachine [UML_Standard_Profile]|[SDKbeeingInSSE](../concept/concepts.md#SDKbeeingInSSE)|
 |Transition [UML_Standard_Profile]|[State Transition](../concept/concepts.md#State-Transition)|
 ## Input from other Viewpoints
 ### Required Viewpoints

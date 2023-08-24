@@ -13,7 +13,7 @@ The System Process Viewpoint provides the functional representation of the syste
 * the exchange between SOI System Functions and Context Functions of Context Elements
 * the functional flows crossing the boundary between SOI and Context Elements
 ## Applicability
-The System Process Viewpoint supports the "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§4.3] and contributes to the System Function Identification and the System Functional Interface Identification.
+The System Process Viewpoint supports the "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§4.3] and contributes to the System Function, and the System Interface definition.
 ## Stakeholder
 * [Acquirer](../../stakeholders.md#Acquirer)
 * [Customer](../../stakeholders.md#Customer)
@@ -47,8 +47,8 @@ A tabular format listing all identified System Functions, the System Processes i
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
-|Allocate [SysML Profile]|[LCEperformingCFN](../concept/concepts.md#LCEperformingCFN)|
 |Allocate [SysML Profile]|[LETperformingSFN](../concept/concepts.md#LETperformingSFN)|
+|Allocate [SysML Profile]|[LCEperformingCFN](../concept/concepts.md#LCEperformingCFN)|
 |ControlFlow [UML_Standard_Profile]|[GFNcontrolledAFTER](../concept/concepts.md#GFNcontrolledAFTER)|
 |InputPin [UML_Standard_Profile]|[GFFtoGFP](../concept/concepts.md#GFFtoGFP)|
 |ObjectFlow [UML_Standard_Profile]|[General Functional Flow](../concept/concepts.md#General-Functional-Flow)|
