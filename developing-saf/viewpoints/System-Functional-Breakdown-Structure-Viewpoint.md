@@ -33,10 +33,10 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
 |Activity [UML_Standard_Profile]|[General Function](../concept/concepts.md#General-Function)|
-|Association [UML_Standard_Profile]|[System Function IN System Process](../concept/concepts.md#System-Function-IN-System-Process)|
 |Association [UML_Standard_Profile]|[Context Function IN System Process](../concept/concepts.md#Context-Function-IN-System-Process)|
-|Property [UML_Standard_Profile]|[Context Function IN System Process](../concept/concepts.md#Context-Function-IN-System-Process)|
+|Association [UML_Standard_Profile]|[System Function IN System Process](../concept/concepts.md#System-Function-IN-System-Process)|
 |Property [UML_Standard_Profile]|[System Function IN System Process](../concept/concepts.md#System-Function-IN-System-Process)|
+|Property [UML_Standard_Profile]|[Context Function IN System Process](../concept/concepts.md#Context-Function-IN-System-Process)|
 |[SAF_ContextFunction](../../stereotypes.md#SAF_ContextFunction)|[Context Function](../concept/concepts.md#Context-Function)|
 |[SAF_SFV02c_View](../../stereotypes.md#SAF_SFV02c_View)|[System Functional Breakdown Structure Viewpoint](../concept/concepts.md#System-Functional-Breakdown-Structure-Viewpoint)|
 |[SAF_SystemFunction](../../stereotypes.md#SAF_SystemFunction)|[System Function](../concept/concepts.md#System-Function)|

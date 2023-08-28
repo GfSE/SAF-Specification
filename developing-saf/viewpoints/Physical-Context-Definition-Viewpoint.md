@@ -38,8 +38,8 @@ The physical context definition diagram (BDD) defines the elements available in 
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
-|Association [UML_Standard_Profile]|[Physic SOI Constituent](../concept/concepts.md#Physic-SOI-Constituent)|
 |Association [UML_Standard_Profile]|[Physic Context Constituent](../concept/concepts.md#Physic-Context-Constituent)|
+|Association [UML_Standard_Profile]|[Physic SOI Constituent](../concept/concepts.md#Physic-SOI-Constituent)|
 |Property [UML_Standard_Profile]|[Physic SOI Constituent](../concept/concepts.md#Physic-SOI-Constituent)|
 |Property [UML_Standard_Profile]|[Physic Context Constituent](../concept/concepts.md#Physic-Context-Constituent)|
 |[SAF_PhysicalContext](../../stereotypes.md#SAF_PhysicalContext)|[Physical System Context](../concept/concepts.md#Physical-System-Context)|

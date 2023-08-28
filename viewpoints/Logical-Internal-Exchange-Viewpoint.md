@@ -35,15 +35,15 @@ One or more IBD featuring the Logical Elements of the SOI, and the SOI boundary,
 
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* ItemFlow typed by SAF_DomainKind
-* FlowProperty typed by SAF_DomainKind
-* ProxyPort typed by InterfaceBlock
 * Attribute "" of InformationFlow referencing Connector
-* FlowProperty contained in InterfaceBlock
 * Connector [UML_Standard_Profile]
 * FlowProperty [SysML Profile]
+* FlowProperty contained in InterfaceBlock
+* FlowProperty typed by SAF_DomainKind
 * ItemFlow [SysML Profile]
+* ItemFlow typed by SAF_DomainKind
 * ProxyPort [SysML Profile]
+* ProxyPort typed by InterfaceBlock
 * [SAF_DomainKind](../stereotypes.md#SAF_DomainKind)
 * [SAF_LogicalElement](../stereotypes.md#SAF_LogicalElement)
 * [SAF_LogicalInterface](../stereotypes.md#SAF_LogicalInterface)

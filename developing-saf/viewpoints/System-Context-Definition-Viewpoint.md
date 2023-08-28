@@ -38,8 +38,8 @@ A tabular format listing [tbd].
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
-|Association [UML_Standard_Profile]|[Logical Context Element Constituent](../concept/concepts.md#Logical-Context-Element-Constituent)|
 |Association [UML_Standard_Profile]|[Logical SOI Constituent](../concept/concepts.md#Logical-SOI-Constituent)|
+|Association [UML_Standard_Profile]|[Logical Context Element Constituent](../concept/concepts.md#Logical-Context-Element-Constituent)|
 |[SAF_LogicalContext](../../stereotypes.md#SAF_LogicalContext)|[Logical System Context](../concept/concepts.md#Logical-System-Context)|
 |[SAF_LogicalContextRole](../../stereotypes.md#SAF_LogicalContextRole)|[Logical SOI Constituent](../concept/concepts.md#Logical-SOI-Constituent)|
 |[SAF_LogicalContextRole](../../stereotypes.md#SAF_LogicalContextRole)|[Logical Context Element Constituent](../concept/concepts.md#Logical-Context-Element-Constituent)|

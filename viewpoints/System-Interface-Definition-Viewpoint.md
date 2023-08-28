@@ -19,15 +19,15 @@ A tabular format listing System Interface blocks, their ports, and flow properti
 
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* ItemFlow typed by SAF_DomainKind
-* FlowProperty typed by SAF_DomainKind
-* ProxyPort typed by InterfaceBlock
 * Attribute "" of InformationFlow referencing Connector
-* FlowProperty contained in InterfaceBlock
 * Connector [UML_Standard_Profile]
 * FlowProperty [SysML Profile]
+* FlowProperty contained in InterfaceBlock
+* FlowProperty typed by SAF_DomainKind
 * ItemFlow [SysML Profile]
+* ItemFlow typed by SAF_DomainKind
 * ProxyPort [SysML Profile]
+* ProxyPort typed by InterfaceBlock
 * [SAF_DomainKind](../stereotypes.md#SAF_DomainKind)
 * [SAF_SFV05a_View](../stereotypes.md#SAF_SFV05a_View)
 ## Input from other Viewpoints
