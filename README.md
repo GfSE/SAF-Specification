@@ -1,4 +1,4 @@
-# SAF Specification Dev Branch
+# SAF Specification
 System Architecture Framework Specification ![Bild](diagrams/Under_construction_icon-yellow.svg) **Work in progress**
 
 ![System Architecture Framework](diagrams/Logo_SAF.png)
