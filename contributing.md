@@ -9,7 +9,7 @@ Issues should be reported by github issue tracking. It should be stated what the
 
 ## Proposing changes (pull request)
 
-Generally, changes should be proposed by **forking the dev branch** of the SAF-Specification repository and generating a pull request.
+Generally, changes should be proposed by **forking the main branch** of the SAF-Specification repository and generating a pull request.
 
 The pull request will be reviewed, and when the changes are accepted, they will be incorporated into the model.
 
