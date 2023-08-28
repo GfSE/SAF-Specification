@@ -1,25 +1,24 @@
-<div align="right">SAF_FFDS#313,SAF_Cameo_Profile#404</div>
-
-# Operational Context Exchange Viewpoint
-*Domain:* **Operational** *Aspect:* **Context**
+![System Architecture Framework](../diagrams/Logo_SAF.png)
+# SAF User Documentation : Operational Context Exchange Viewpoint
+|**Domain**|**Aspect**|**Maturity**|
+| --- | --- | --- |
+|[Operational](../domains.md#Domain-Operational)|[Context & Exchange](../aspects.md#Aspect-Context-&-Exchange)|![Released](../diagrams/Symbol_confirmed.svg.png )[released](../using-saf/maturity.md#released)|
 ## Example
 ![FDN Context Exchange](../diagrams/FDN-Context-Exchange.svg)
 ## Purpose
-The Operational Context Exchange Viewpoint defines connectivity and exchange between Operational Performer(s).
+The Operational Context Exchange Viewpoint provides the Operational Exchange between Operational Performers of information, systems, personnel, energy, etc.
 ## Applicability
 The Operational Context Exchange Viewpoint supports the "Business or Mission Analysis Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1] and contributes to the problem or opportunity statement.
-Note:
 ## Stakeholder
-* [Acquirer](../stakeholders.md#Acquirer)
-* [Customer](../stakeholders.md#Customer)
-* [Supplier](../stakeholders.md#Supplier)
-* [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* What Operational Exchange the Operational Performers need to consume or provide?
+* What operational exchange does the operational performers need to consume or provide?
 ## Presentation
-An internal block diagram (IBD) associated to an Operational Context showing the connected Operational Performer(s) in their respective Operational Role and the Operational Exchange per connection.
+An internal block diagram (IBD) - associated to the Operational Context - featuring the interconnected Operational Performers in their respective Operational Role, and the Operational Item Exchange per Operational Connection.
+
+A tabular format listing [tbd].
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
 * Connector [UML_Standard_Profile]
 * ItemFlow [SysML Profile]
 * ItemFlow [SysML Profile]

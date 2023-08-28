@@ -1,52 +1,40 @@
-<div align="right">SAF_FFDS#313,SAF_Cameo_Profile#404</div>
-
-# System Requirement Traceability Viewpoint
-*Domain:* **Functional** *Aspect:* **Crossreference and Mapping**
+![System Architecture Framework](../diagrams/Logo_SAF.png)
+# SAF User Documentation : System Requirement Traceability Viewpoint
+|**Domain**|**Aspect**|**Maturity**|
+| --- | --- | --- |
+|[Functional](../domains.md#Domain-Functional)|[Traceability & Mapping](../aspects.md#Aspect-Traceability-&-Mapping)|![Released](../diagrams/Symbol_confirmed.svg.png )[released](../using-saf/maturity.md#released)|
 ## Example
-*none*
+![System Requirement Traceability Matrix](../diagrams/System-Requirement-Traceability-Matrix.svg)
 ## Purpose
-The System Requirement Traceability Viewpoint specifies [tbd]
-For every SOI System Requirement the traceability to functional domain level is depicted
-* System Story
+The System Requirement Traceability Viewpoint specifies for every System Requirement the traceability to the functional domain level
+* System Use Case
+* System Capability
 * System Context Definition
 * System Context Exchange
-* System Functional Scenario
 * System Context Interaction
-is listed.
-Note: new VP to be created addressing dedicated concern
-[the traceability to operational domain level
-* Operational Story
-* Operational Context Definition
-* Operational Context Exchange
-* Operational Capability
-* Operational Process
-* Operational Interaction
-* Stakeholder Requirement]
+* System Process
+* System State
 ## Applicability
-The System Requirement Traceability Viewpoint supports the "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§4.3] and contributes to the System Requirements Traceability. The System Requirement Traceability Viewpoint contributes to System Requirements Verification and Traceability Matrix (RVTM).
-Note:
+The System Requirement Traceability Viewpoint supports the "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§4.3] and contributes to the System Requirements Traceability. The System Requirement Traceability Viewpoint also contributes to the System Requirements Verification and Traceability Matrix (RVTM).
 ## Stakeholder
-* [Customer](../stakeholders.md#Customer)
-* [Regulation Authority](../stakeholders.md#Regulation-Authority)
-* [Safety Expert](../stakeholders.md#Safety-Expert)
-* [Security Expert](../stakeholders.md#Security-Expert)
-* [System Architect](../stakeholders.md#System-Architect)
+* [Project Manager](../stakeholders.md#Project-Manager)
 ## Concern
-* Which System Interface is addressed by a System Requirement?
-* Which System Function is addressed by a System Requirement?
-* What is the rationale for this System Requirement?
-* Which Stakeholder Requirements are addressed by a System Requirement?
+* What is the rationale for this system requirement?
+* Which Stakeholder Requirements are addressed by System Requirements?
+* Which system interface is addressed by a system requirement?
 ## Presentation
-A System Requirement Dependency Matrix featuring relationship(s) from every SOI System Requirement(s) to element(s) such as
-* System Story
+A dependency matrix featuring relationships for every System Requirement to the functional domain level
+* System Use Case
+* System Capability
 * System Context Definition
 * System Context Exchange
-* System Functional Scenario
 * System Context Interaction
-Referring to a Stakeholder Requirement the dependency relation is <<derive>>, otherwise <<refine>>.
+* System Process
+* System State
 
 ## Profile Model Reference
-* [SAF_SFV08a_View](../stereotypes.md#SAF_SFV08a_View)
+The following Stereotypes / Model Elements are used in the Viewpoint:
+* [SAF_SFV08b_View](../stereotypes.md#SAF_SFV08b_View)
 * [SAF_SystemFunctionalRequirement](../stereotypes.md#SAF_SystemFunctionalRequirement)
 * [SAF_SystemFunctionalRequirementConstraint](../stereotypes.md#SAF_SystemFunctionalRequirementConstraint)
 * [SAF_SystemFunctionalRequirementRefinement](../stereotypes.md#SAF_SystemFunctionalRequirementRefinement)
@@ -56,14 +44,16 @@ Referring to a Stakeholder Requirement the dependency relation is <<derive>>, ot
 * [SAF_SystemRequirementDerivation](../stereotypes.md#SAF_SystemRequirementDerivation)
 * [SAF_SystemRequirementRefinement](../stereotypes.md#SAF_SystemRequirementRefinement)
 * [SAF_SystemRequirementRefinement](../stereotypes.md#SAF_SystemRequirementRefinement)
+* [SAF_SystemRequirementRefinement](../stereotypes.md#SAF_SystemRequirementRefinement)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Stakeholder Requirement Viewpoint](Stakeholder-Requirement-Viewpoint.md)
 * [System Requirement Viewpoint](System-Requirement-Viewpoint.md)
 ### Recommended Viewpoints
-* [System UseCase Viewpoint](System-UseCase-Viewpoint.md)
-* [System Context Exchange Viewpoint ](System-Context-Exchange-Viewpoint-.md)
+* [System Use Case Viewpoint](System-Use-Case-Viewpoint.md)
 * [System Capability Viewpoint](System-Capability-Viewpoint.md)
-* [System Process Viewpoint](System-Process-Viewpoint.md)
-* [System State Viewpoint](System-State-Viewpoint.md)
+* [System Context Exchange Viewpoint](System-Context-Exchange-Viewpoint.md)
 * [System Context Interaction Viewpoint](System-Context-Interaction-Viewpoint.md)
+* [System Process Viewpoint](System-Process-Viewpoint.md)
+* [System Functional Refinement Viewpoint](System-Functional-Refinement-Viewpoint.md)
+* [System State Viewpoint](System-State-Viewpoint.md)

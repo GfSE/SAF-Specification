@@ -1,0 +1,39 @@
+![System Architecture Framework](../diagrams/Logo_SAF.png)
+# SAF User Documentation : System Capability Mapping Viewpoint
+|**Domain**|**Aspect**|**Maturity**|
+| --- | --- | --- |
+|[Functional](../domains.md#Domain-Functional)|[Traceability & Mapping](../aspects.md#Aspect-Traceability-&-Mapping)|![Released](../diagrams/Symbol_confirmed.svg.png )[released](../using-saf/maturity.md#released)|
+## Example
+![FFDS Capability Mapping Table](../diagrams/FFDS-Capability-Mapping-Table.svg)
+## Purpose
+The System Capability Mapping Viewpoint describes the relationships of System Capabilities. The reasoning for System Capabilities as support for System Use Cases and the contribution of System Processes to Capabilities are described. Furthermore, the mapping of System Capabilities to Operational Capabilities are identified.
+## Applicability
+The System Capability Mapping Viewpoint supports the "Stakeholder Needs and Requirements Definition Process", and "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§4.2 & §4.3] and contributes to the identification of System Functions, and definition of System Requirements.
+## Stakeholder
+## Concern
+## Presentation
+A tabular format listing the relationships of System Capabilities to Operational Capabilities, System Use Cases, System Process Activities, and System Requirements.
+
+## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
+* [SAF_SFV08a_View](../stereotypes.md#SAF_SFV08a_View)
+* [SAF_StakeholderRequirement](../stereotypes.md#SAF_StakeholderRequirement)
+* [SAF_SystemCapability](../stereotypes.md#SAF_SystemCapability)
+* [SAF_SystemCapabilityComposition](../stereotypes.md#SAF_SystemCapabilityComposition)
+* [SAF_SystemCapabilityDependency](../stereotypes.md#SAF_SystemCapabilityDependency)
+* [SAF_SystemCapabilityEnabling](../stereotypes.md#SAF_SystemCapabilityEnabling)
+* [SAF_SystemCapabilityGeneralization](../stereotypes.md#SAF_SystemCapabilityGeneralization)
+* [SAF_SystemCapabilitySupport](../stereotypes.md#SAF_SystemCapabilitySupport)
+* [SAF_SystemFunction](../stereotypes.md#SAF_SystemFunction)
+* [SAF_SystemFunctionSupport](../stereotypes.md#SAF_SystemFunctionSupport)
+* [SAF_SystemProcess](../stereotypes.md#SAF_SystemProcess)
+* [SAF_SystemProcessEnabling](../stereotypes.md#SAF_SystemProcessEnabling)
+* [SAF_SystemRequirement](../stereotypes.md#SAF_SystemRequirement)
+* [SAF_SystemUseCase](../stereotypes.md#SAF_SystemUseCase)
+## Input from other Viewpoints
+### Required Viewpoints
+* [System Capability Viewpoint](System-Capability-Viewpoint.md)
+### Recommended Viewpoints
+* [Operational Capability Viewpoint](Operational-Capability-Viewpoint.md)
+* [System Use Case Viewpoint](System-Use-Case-Viewpoint.md)
+* [System Process Viewpoint](System-Process-Viewpoint.md)

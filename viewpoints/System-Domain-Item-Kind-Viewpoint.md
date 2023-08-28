@@ -1,33 +1,28 @@
-<div align="right">SAF_FFDS#313,SAF_Cameo_Profile#404</div>
-
-# System Domain Item Kind Viewpoint
-*Domain:* **Functional** *Aspect:* **Structure**
+![System Architecture Framework](../diagrams/Logo_SAF.png)
+# SAF User Documentation : System Domain Item Kind Viewpoint
+|**Domain**|**Aspect**|**Maturity**|
+| --- | --- | --- |
+|[Functional](../domains.md#Domain-Functional)|[Taxonomy & Structure](../aspects.md#Aspect-Taxonomy-&-Structure)|![Released](../diagrams/Symbol_confirmed.svg.png )[released](../using-saf/maturity.md#released)|
 ## Example
 ![FFDS System Domain Item Definition](../diagrams/FFDS-System-Domain-Item-Definition.svg)
 ## Purpose
-The System Domain Item Kind Viewpoint collects type definition(s) for any exchanged item, information, material, or energy of the Functional, Logical and Physical domain. Its purpose is to define those item type(s) and their relationship(s). Also, the System Domain Item Kind Viewpoint specifies the data type(s), physical entity type(s), related value type(s) and unit(s) that are used (“known”) by the SOI. 
-Note: Domain Item Kind(s) are used as type(s) of function input and output in the Functional Domain and for type(s) of interface(s) in the logical domain. They specify what is to be exchanged, but not how.
+The System Domain Item Kind Viewpoint captures system wide concepts and collects type definitions for any exchanged item, e.g., information, material, or energy, of the Functional and Logical domain. Its purpose is to define these item types and their relationships. Furthermore, the System Domain Item Kind Viewpoint specifies the data types, entity types, related value types, and units that are used (“known”) by the SOI.
+Note: Domain Item Kinds are used as types of function input and output in the Functional Domain, and for types of interfaces in the Logical Domain. They specify what is to be exchanged but not how.
 ## Applicability
-The System Domain Item Kind Viewpoint supports [tbd].
-Note:
+The System Domain Item Kind Viewpoint supports the "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§4.3] and contributes to the System Function, and the System Interface definition.
 ## Stakeholder
-* [Customer](../stakeholders.md#Customer)
-* [Hardware Developer](../stakeholders.md#Hardware-Developer)
-* [IV&V Engineer](../stakeholders.md#IV&V-Engineer)
-* [Regulation Authority](../stakeholders.md#Regulation-Authority)
-* [Safety Expert](../stakeholders.md#Safety-Expert)
-* [Security Expert](../stakeholders.md#Security-Expert)
-* [Software Developer](../stakeholders.md#Software-Developer)
-* [System Architect](../stakeholders.md#System-Architect)
 ## Concern
 ## Presentation
-Domain Item Kind(s) are managed in the domain knowledge package of the SOI, the Domain Item Kind(s) are visible and usable to all sub elements of the SOI. Domain Item Kind(s) shall be value type(s) or block(s). A BDD diagram featuring Domain Item Kind(s) and their relationship(s) in terms of generalization, composition or general association shall be used.
+A block definition diagram (BDD) featuring Domain Item Kinds and their relationships in terms of generalization, composition, or general association. 
+Note: Domain Item Kinds are managed in the domain knowledge package of the SOI, the Domain Item Kinds are visible and usable to all sub elements of the SOI. Domain Item Kinds shall be value types or blocks. 
+
+A tabular format listing the Domain Item Kinds, and their relationships.
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
 * FlowProperty [SysML Profile]
 * ItemFlow [SysML Profile]
 * Parameter [UML_Standard_Profile]
-* Pin [UML_Standard_Profile]
 * [SAF_DomainKind](../stereotypes.md#SAF_DomainKind)
 * [SAF_DomainKindComposition](../stereotypes.md#SAF_DomainKindComposition)
 * [SAF_DomainKindDerivation](../stereotypes.md#SAF_DomainKindDerivation)

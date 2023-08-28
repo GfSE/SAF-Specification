@@ -1,25 +1,25 @@
-<div align="right">SAF_FFDS#313,SAF_Cameo_Profile#404</div>
-
-# Operational Capability Viewpoint
-*Domain:* **Operational** *Aspect:* **Structure**
+![System Architecture Framework](../diagrams/Logo_SAF.png)
+# SAF User Documentation : Operational Capability Viewpoint
+|**Domain**|**Aspect**|**Maturity**|
+| --- | --- | --- |
+|[Operational](../domains.md#Domain-Operational)|[Taxonomy & Structure](../aspects.md#Aspect-Taxonomy-&-Structure)|![Released](../diagrams/Symbol_confirmed.svg.png )[released](../using-saf/maturity.md#released)|
 ## Example
-![SAR & FDN Capability Definition](../diagrams/SAR-&-FDN-Capability-Definition.svg)
+![SAR and FDN Capability Definition](../diagrams/SAR-and-FDN-Capability-Definition.svg)
 ## Purpose
-The Operational Capability Viewpoint defines a taxonomy of Capability(s) from a Stakeholder’s perspective including composition, specialization, and dependency relationship(s) between Operational Capability(s).
+The Operational Capability Viewpoint defines a taxonomy of Capabilities from a Stakeholder’s perspective including composition, specialization, and dependency relationships between Operational Capabilities.
 ## Applicability
-The Operational Capability Viewpoint supports the "Business or Mission Analysis Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1] defining Capability(s) at an operational level (e.g. business or mission profile and operational scenarios). The Operational Capability Viewpoint contributes to the problem or opportunity statement.
-Note:
+The Operational Capability Viewpoint supports the "Business or Mission Analysis Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1] defining Capabilities at an operational level (e.g., business or mission profile, and operational scenarios). The Operational Capability Viewpoint contributes to the problem or opportunity statement.
 ## Stakeholder
-* [Acquirer](../stakeholders.md#Acquirer)
 * [Customer](../stakeholders.md#Customer)
-* [Supplier](../stakeholders.md#Supplier)
-* [System Architect](../stakeholders.md#System-Architect)
+* [Portfolio Manager](../stakeholders.md#Portfolio-Manager)
 ## Concern
-* What Operational Capabilitys are required for each phase and mode of operation?
+* What operational Capabilities are required for each phase and mode of operation?
+* What operational capabilities are defined?
 ## Presentation
-The result of the business and mission analysis is one or more block definition diagram(s) (BDD) featuring Operational Capability(s) and their composition, specialization and dependency relationship(s).
+A block definition diagram (BDD) featuring Operational Capabilities, their composition, specialization, and dependency relationships.
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_OperationalCapability](../stereotypes.md#SAF_OperationalCapability)
 * [SAF_OperationalCapabilityComposition](../stereotypes.md#SAF_OperationalCapabilityComposition)
 * [SAF_OperationalCapabilityDependency](../stereotypes.md#SAF_OperationalCapabilityDependency)

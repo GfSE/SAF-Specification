@@ -1,48 +1,52 @@
-<div align="right">SAF_FFDS#313,SAF_Cameo_Profile#404</div>
-
-# Logical Internal Exchange Viewpoint
-*Domain:* **Logical** *Aspect:* **Interaction and Collaboration**
+![System Architecture Framework](../diagrams/Logo_SAF.png)
+# SAF User Documentation : Logical Internal Exchange Viewpoint
+|**Domain**|**Aspect**|**Maturity**|
+| --- | --- | --- |
+|[Logical](../domains.md#Domain-Logical)|[Interaction & Collaboration](../aspects.md#Aspect-Interaction-&-Collaboration)|![Released](../diagrams/Symbol_confirmed.svg.png )[released](../using-saf/maturity.md#released)|
 ## Example
 ![FFDS Logical Internal Exchange](../diagrams/FFDS-Logical-Internal-Exchange.svg)
 ## Purpose
-The Logical Internal Exchange Viewpoint serves for the identification and definition of interface(s) of element(s) of the SOI. Also, the delegation of SOI element interface(s) to SOI boundary interface(s) is covered.
+The Logical Internal Exchange Viewpoint serves for the identification and definition of interfaces of elements of the Logical System. Also, the delegation of system element interfaces to the Logical System boundary interfaces is covered.
 The Logical Internal Exchange Viewpoint
-* identifies SOI element interface(s) on a logical level
-* states to which other SOI element(s) the interface(s) are connected to
-* assigns interface specification(s) to interface(s)
-* defines the usage of interface(s), e.g. if only a subset of the interface(s) is used 
-* defines the delegation of SOI element interface(s) to SOI boundary interface(s)
+* identifies system element interfaces on a Logical Level
+* states to which other system elements the interfaces are connected to
+* assigns interface specifications to interfaces
+* defines the usage of interfaces, e.g., if only a subset of the interfaces is used 
+* defines the delegation of system element interfaces to the system boundary interfaces
 ## Applicability
 The Logical Internal Exchange Viewpoint supports the "Develop Models and Views of Candidate Architecture" activity included in the "Architecture Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.4] and contributes to the preliminary interface definition and system architecture description.
-Note:
 ## Stakeholder
 * [Hardware Developer](../stakeholders.md#Hardware-Developer)
 * [IV&V Engineer](../stakeholders.md#IV&V-Engineer)
+* [Regulation Authority](../stakeholders.md#Regulation-Authority)
 * [Safety Expert](../stakeholders.md#Safety-Expert)
 * [Security Expert](../stakeholders.md#Security-Expert)
 * [Software Developer](../stakeholders.md#Software-Developer)
-* [Supplier](../stakeholders.md#Supplier)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
 * How do internal system elements interact with each other to provide the system function or service?
 * How do the logical system elements interact to fulfill the designated system function?
-* Which interface partners does a SW item have?
-* What are the items exchanged between the logical system elements during the interaction?
-* Which interfaces are necessary?
-* What are data / information items exchanged?
-* Which requirements apply to a logical interface?
 * What additional information the system or a system element needs to generate to enable testing?
+* What are data / information items exchanged?
+* What are the items exchanged between the logical system elements during the interaction?
+* Which requirements apply to a logical interface?
 ## Presentation
-One or more IBD featuring the logical element(s) of the SOI, and the SOI boundary, containing connector(s) for each identified SOI interface delegation to SOI element(s), as well as connector(s) between related interface(s) of SOI parts. An interface is a connection resource for hooking on the logical SOI element(s) to other logical SOI element(s). Item flows are defined for each exchange on the identified interface.  Recommendation: Use more than one IBD focused on different areas of interest to keep the view comprehensive. Depending on the Stakeholder concern(s) the logical item exchange information might be suppressed.
+One or more IBD featuring the Logical Elements of the SOI, and the SOI boundary, containing connectors for each identified SOI interface delegation to SOI elements, as well as connectors between related interfaces of SOI parts. An interface is a connection resource for hooking on the Logical SOI Elements to other Logical SOI Elements. Item flows are defined for each exchange on the identified interface.  Recommendation: Use more than one IBD focused on different areas of interest to keep the view comprehensive. Depending on the Stakeholder Concerns the logical item exchange information might be suppressed.
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
+* ItemFlow typed by SAF_DomainKind
+* FlowProperty typed by SAF_DomainKind
+* ProxyPort typed by InterfaceBlock
+* Attribute "" of InformationFlow referencing Connector
+* FlowProperty contained in InterfaceBlock
 * Connector [UML_Standard_Profile]
-* InterfaceBlock [SysML Profile]
+* FlowProperty [SysML Profile]
 * ItemFlow [SysML Profile]
-* Property [UML_Standard_Profile]
 * ProxyPort [SysML Profile]
 * [SAF_DomainKind](../stereotypes.md#SAF_DomainKind)
 * [SAF_LogicalElement](../stereotypes.md#SAF_LogicalElement)
+* [SAF_LogicalInterface](../stereotypes.md#SAF_LogicalInterface)
 * [SAF_SLV04b_View](../stereotypes.md#SAF_SLV04b_View)
 ## Input from other Viewpoints
 ### Required Viewpoints
@@ -50,3 +54,4 @@ One or more IBD featuring the logical element(s) of the SOI, and the SOI boundar
 * [Logical Structure Viewpoint](Logical-Structure-Viewpoint.md)
 ### Recommended Viewpoints
 * [System Process Viewpoint](System-Process-Viewpoint.md)
+* [System Functional Refinement Viewpoint](System-Functional-Refinement-Viewpoint.md)

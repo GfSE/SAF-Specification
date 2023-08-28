@@ -1,35 +1,41 @@
-<div align="right">SAF_FFDS#313,SAF_Cameo_Profile#404</div>
-
-# Physical Context Definition Viewpoint
-*Domain:* **Physical** *Aspect:* **Context**
+![System Architecture Framework](../diagrams/Logo_SAF.png)
+# SAF User Documentation : Physical Context Definition Viewpoint
+|**Domain**|**Aspect**|**Maturity**|
+| --- | --- | --- |
+|[Physical](../domains.md#Domain-Physical)|[Context & Exchange](../aspects.md#Aspect-Context-&-Exchange)|![Under Construction](../diagrams/Under_construction_icon-yellow.svg )[under construction](../using-saf/maturity.md#under-construction)|
 ## Example
-*none*
+![FFDS_Physical Context Definition](../diagrams/FFDS_Physical-Context-Definition.svg)
 ## Purpose
-The physical context definition Viewpoint identifies the different context the SOI is used in, along with the associated external entities sharing a physical interface with the SOI. For each context the applicable environmental conditions may be defined. The physical context helps in discovering the interface requirement(s) needed to integrate a SOI into its environment in a specific context.
-NOTE: For each candidate SOI architecture, the physical context Viewpoint is elaborated forming the baseline for the later assessment of the different system architecture solutions.
+The Physical Context Definition Viewpoint identifies the different context the system is used in, along with the associated external entities sharing a physical interface with the system. For each context the applicable environmental conditions may be defined. The physical context helps in discovering the Interface Requirements needed to integrate a system into its environment in a specific context.
+Note: For each candidate system architecture, the physical context Viewpoint is elaborated forming the baseline for the later assessment of the different system architecture solutions.
 ## Applicability
-The physical context definition Viewpoint supports the “Architecture Definition Process” activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.4]. The Viewpoint is used to define context, boundaries, and external interactions of the SOI in the physical domain.
-NOTE: Only those external entities are identified that share a physical interface. Other entities connected via a network are subject of the logical system context.
+The Physical Context Definition Viewpoint supports the “Architecture Definition Process” activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.4]. The Viewpoint is used to define context, boundaries, and external interactions of the SOI in the physical domain.
+Note: Only those external entities are identified that share a physical interface. Other entities connected via a network are subject of the logical system context.
 ## Stakeholder
-* [System Architect](../stakeholders.md#System-Architect)
-* [Customer](../stakeholders.md#Customer)
-* [IV&V Engineer](../stakeholders.md#IV&V-Engineer)
 * [Acquirer](../stakeholders.md#Acquirer)
+* [Customer](../stakeholders.md#Customer)
+* [Hardware Developer](../stakeholders.md#Hardware-Developer)
+* [IV&V Engineer](../stakeholders.md#IV&V-Engineer)
+* [Safety Expert](../stakeholders.md#Safety-Expert)
+* [Software Developer](../stakeholders.md#Software-Developer)
+* [Supplier](../stakeholders.md#Supplier)
+* [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* What kind of test equipment is necessary to test the system elements?
-* What is the System Boundary definition?
 * How does the system or a system element interact with the test environment?
 * What are necessary enabling systems?
 * What are the external physical entities the system interacts with in the respective context?
+* What is the system boundary definition?
+* What kind of test equipment is necessary to test the system elements?
 ## Presentation
-The following artifact(s) support the modeling activities: 
-A) The physical context definition diagram defines the elements available in the context. At least one context definition diagram is generated per identified context. For each identified context a BDD featuring:
-* one block representing the Physical SOI
-* one block representing the Physical System Context
+The following artifacts support the modeling activities: 
+The physical context definition diagram (BDD) defines the elements available in a specific context. At least one physical context definition diagram is used per identified context, featuring
+* one block representing the Physical System i.e. the system of interest
+* one block representing the specific Physical System Context
 * several blocks representing Physical Context Elements such as Physical User, Physical External System, and Physical Environment present in the systems context
-* composition relationship(s) attaching the Physical Context Elements and the Physical SOI to the Physical System Context block
+* composition relationships attaching the Physical Context Elements and the Physical System to the Physical System Context block
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
 * Association [UML_Standard_Profile]
 * Association [UML_Standard_Profile]
 * Property [UML_Standard_Profile]
@@ -37,8 +43,9 @@ A) The physical context definition diagram defines the elements available in the
 * [SAF_PhysicalContext](../stereotypes.md#SAF_PhysicalContext)
 * [SAF_PhysicalEnvironment](../stereotypes.md#SAF_PhysicalEnvironment)
 * [SAF_PhysicalExternalSystem](../stereotypes.md#SAF_PhysicalExternalSystem)
-* [SAF_PhysicalSOI](../stereotypes.md#SAF_PhysicalSOI)
+* [SAF_PhysicalSystem](../stereotypes.md#SAF_PhysicalSystem)
 * [SAF_PhysicalUser](../stereotypes.md#SAF_PhysicalUser)
+* [SAF_SPV01a_View](../stereotypes.md#SAF_SPV01a_View)
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

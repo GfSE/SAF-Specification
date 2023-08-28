@@ -1,35 +1,39 @@
-<div align="right">SAF_FFDS#313,SAF_Cameo_Profile#404</div>
-
-# System Capability Viewpoint
-*Domain:* **Functional** *Aspect:* **Structure**
+![System Architecture Framework](../diagrams/Logo_SAF.png)
+# SAF User Documentation : System Capability Viewpoint
+|**Domain**|**Aspect**|**Maturity**|
+| --- | --- | --- |
+|[Functional](../domains.md#Domain-Functional)|[Taxonomy & Structure](../aspects.md#Aspect-Taxonomy-&-Structure)|![Released](../diagrams/Symbol_confirmed.svg.png )[released](../using-saf/maturity.md#released)|
 ## Example
 ![FFDS Capability Definition](../diagrams/FFDS-Capability-Definition.svg)
 ## Purpose
-The System Capability Viewpoint defines a taxonomy of Capability(s) including composition, specialization, and dependency relationship(s) between System Capability(s).
+The System Capability Viewpoint defines a taxonomy of Capabilities including composition, specialization, and dependency relationships between System Capabilities.
+Note: Connecting capabilities to requirements creates a linkage between two different types of conceptual problem description that helps manage the complexity of the system. At a high level of abstraction, capabilities allow an system architect to plan phases of the system evolution without the need to bear details in mind. Those details will not be lost if they are captured as requirements and traced to a corresponding capability. There is one key difference between capabilities and requirements: Requirements come from different sources, sponsored by different stakeholders, and are usually captured at different levels of abstraction. In contrast, capabilities should always represent a coherent and consolidated view of the system.
 ## Applicability
-The System Capability Viewpoint supports the "[tbd]" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§] defining System Capability(s) at a system level (e.g. [tbd] and functional process(es)). The System Capability Viewpoint contributes to [tbd].
-Note:
+The System Capability Viewpoint supports the "Stakeholder Needs and Requirements Definition Process", and "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§4.2 & §4.3] and contributes to the identification of System Functions, and definition of System Requirements.
 ## Stakeholder
 * [Acquirer](../stakeholders.md#Acquirer)
-* [Customer](../stakeholders.md#Customer)
+* [Supplier](../stakeholders.md#Supplier)
 * [System Architect](../stakeholders.md#System-Architect)
-* [User](../stakeholders.md#User)
 ## Concern
-* What are the Capabilities that are supported by the system?
+* What are the capabilities that are supported by the system?
 ## Presentation
-The result of the [tbd] process is one or more block definition diagram(s) (BDD) featuring System Capability(s) and their composition, specialization and dependency relationship(s).
+A block definition diagram (BDD) featuring System Capabilities, their composition, specialization, and dependency relationships.
+Note: The relationship to operational capabilities shall be shown if applicable.
+
+A tabular format listing System Capabilities, their composition, specialisation, and dependency relationships, as well as relations to operational capabilities.
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_SFV02b_View](../stereotypes.md#SAF_SFV02b_View)
 * [SAF_SystemCapability](../stereotypes.md#SAF_SystemCapability)
 * [SAF_SystemCapabilityComposition](../stereotypes.md#SAF_SystemCapabilityComposition)
 * [SAF_SystemCapabilityDependency](../stereotypes.md#SAF_SystemCapabilityDependency)
+* [SAF_SystemCapabilityEnabling](../stereotypes.md#SAF_SystemCapabilityEnabling)
 * [SAF_SystemCapabilityGeneralization](../stereotypes.md#SAF_SystemCapabilityGeneralization)
-* [SAF_SystemCapabilityMapping](../stereotypes.md#SAF_SystemCapabilityMapping)
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*
 ### Recommended Viewpoints
 * [Operational Capability Viewpoint](Operational-Capability-Viewpoint.md)
-* [System UseCase Viewpoint](System-UseCase-Viewpoint.md)
+* [System Use Case Viewpoint](System-Use-Case-Viewpoint.md)
 * [System Process Viewpoint](System-Process-Viewpoint.md)

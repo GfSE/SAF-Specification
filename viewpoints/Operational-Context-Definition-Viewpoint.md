@@ -1,27 +1,25 @@
-<div align="right">SAF_FFDS#313,SAF_Cameo_Profile#404</div>
-
-# Operational Context Definition Viewpoint
-*Domain:* **Operational** *Aspect:* **Context**
+![System Architecture Framework](../diagrams/Logo_SAF.png)
+# SAF User Documentation : Operational Context Definition Viewpoint
+|**Domain**|**Aspect**|**Maturity**|
+| --- | --- | --- |
+|[Operational](../domains.md#Domain-Operational)|[Context & Exchange](../aspects.md#Aspect-Context-&-Exchange)|![Released](../diagrams/Symbol_confirmed.svg.png )[released](../using-saf/maturity.md#released)|
 ## Example
 ![FDN Context Definition](../diagrams/FDN-Context-Definition.svg)
 ## Purpose
-The Operational Context Definition Viewpoint defines the Operational Context(s) and the involved Operational Performer(s).
+The Operational Context Definition Viewpoint provides the Operational Contexts, and the involved Operational Performers necessary to support a specific set of Operational Capabilities.
 ## Applicability
-The Operational Context Definition Viewpoint supports the "Business or Mission Analysis Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1] and contributes to the problem or opportunity statement and the Major Stakeholder Identification.
-Note:
+The Operational Context Definition Viewpoint supports the "Business or Mission Analysis Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1] and contributes to both the problem or opportunity statement and the Major Stakeholder Identification.
 ## Stakeholder
 * [Acquirer](../stakeholders.md#Acquirer)
-* [Customer](../stakeholders.md#Customer)
-* [Supplier](../stakeholders.md#Supplier)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
 * What Performers or Resources are necessary to operate the intended solution?
-* What is the Operational Context to achieve an Operational Story?
+* What is the operational context to achieve an operational story?
 ## Presentation
-A block definition diagram (BDD) identifying the Operational Performer(s) playing a role in the addressed Operational Context.
-Note: In addition, the block definition diagram may identify the Operational Capability(s) the Operational Context is related to.
+A block definition diagram (BDD) featuring the identified Operational Performers playing a role in the Operational Context being addressed.
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
 * Association [UML_Standard_Profile]
 * [SAF_OperationalContext](../stereotypes.md#SAF_OperationalContext)
 * [SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)

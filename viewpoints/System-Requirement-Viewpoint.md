@@ -1,36 +1,36 @@
-<div align="right">SAF_FFDS#313,SAF_Cameo_Profile#404</div>
-
-# System Requirement Viewpoint
-*Domain:* **Functional** *Aspect:* **Requirement**
+![System Architecture Framework](../diagrams/Logo_SAF.png)
+# SAF User Documentation : System Requirement Viewpoint
+|**Domain**|**Aspect**|**Maturity**|
+| --- | --- | --- |
+|[Functional](../domains.md#Domain-Functional)|[Requirement](../aspects.md#Aspect-Requirement)|![Released](../diagrams/Symbol_confirmed.svg.png )[released](../using-saf/maturity.md#released)|
 ## Example
-![System Requirement Definition Table](../diagrams/System-Requirement-Definition-Table.svg)
+![System Requirement Table](../diagrams/System-Requirement-Table.svg)
 ## Purpose
-The System Requirement Viewpoint specifies function(s), non-functional property(s), or constraint(s) of the system. System Requirement(s) are captured, the interrelationships between functional and non-functional requirement(s) on the same level of abstraction and the traceability to Stakeholder Requirement(s) are depicted.
+The System Requirement Viewpoint specifies functions, non-functional properties, or constraints of the System. System Requirements are captured, the interrelationships between Functional and Non-Functional Requirements on the same level of abstraction and the traceability to Stakeholder Requirements are depicted.
 ## Applicability
-The System Requirement Viewpoint supports the "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§4.3] and contributes to the system requirements verification and traceability matrix (RVTM).
-Note:
+The System Requirement Viewpoint supports the "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§4.3] and contributes to the System Requirements Verification and Traceability Matrix (RVTM).
 ## Stakeholder
-* [Customer](../stakeholders.md#Customer)
+* [Hardware Developer](../stakeholders.md#Hardware-Developer)
+* [IV&V Engineer](../stakeholders.md#IV&V-Engineer)
 * [Project Manager](../stakeholders.md#Project-Manager)
-* [Regulation Authority](../stakeholders.md#Regulation-Authority)
-* [Safety Expert](../stakeholders.md#Safety-Expert)
-* [Security Expert](../stakeholders.md#Security-Expert)
+* [Software Developer](../stakeholders.md#Software-Developer)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* What are the interface requirements regarding bandwidth, data throughput and latency?
-* What are the Functional Requirements imposed on the systemI?
-* What are the Requirements of environmental conditions imposed on the system?
-* What are the Exchange Requirements imposed on the system?
-* What are the Non-Functional Requirements imposed on the system?
-* What is the range of acceptable system performance, i.e. the critical, top-level Performance Requirements derived from the Operational Needs?
 * What are the Interface Requirements imposed on the system?
+* What are the exchange requirements imposed on the system?
+* What are the functional requirements imposed on the system?
+* What are the non-functional requirements imposed on the system?
+* What are the requirements of environmental conditions imposed on the system?
+* What is the range of acceptable system performance, i.e. the critical, top-level performance requirements derived from the operational needs?
+* Which Stakeholder Requirements are addressed by System Requirements?
 ## Presentation
-A System Requirement Table (RVTM) featuring
-* unique requirement ID, text and attributes
-* traceability reference to upstream model elements and requirements
-* traceability reference to depended requirement(s) on the same abstraction level
+A tabular format listing
+* unique requirement ID, text, and attributes,
+* traceability reference to Stakeholder Requirements,
+* traceability reference to depended Requirements on the same level of abstraction.
 
 ## Profile Model Reference
+The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_SFV06a_View](../stereotypes.md#SAF_SFV06a_View)
 * [SAF_StakeholderRequirement](../stereotypes.md#SAF_StakeholderRequirement)
 * [SAF_SystemFunctionalRequirement](../stereotypes.md#SAF_SystemFunctionalRequirement)
@@ -48,5 +48,5 @@ A System Requirement Table (RVTM) featuring
 * [Operational Capability Viewpoint](Operational-Capability-Viewpoint.md)
 * [Operational Process Viewpoint](Operational-Process-Viewpoint.md)
 * [Operational Interaction Viewpoint](Operational-Interaction-Viewpoint.md)
-* [Operational Capability Traceability Viewpoint](Operational-Capability-Traceability-Viewpoint.md)
-* [Operational Process Traceability Viewpoint](Operational-Process-Traceability-Viewpoint.md)
+* [Operational Capability Mapping Viewpoint](Operational-Capability-Mapping-Viewpoint.md)
+* [Operational Process Mapping Viewpoint](Operational-Process-Mapping-Viewpoint.md)
