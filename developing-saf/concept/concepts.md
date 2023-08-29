@@ -19,7 +19,7 @@ exposed in viewpoint [Argumentation Assurance Viewpoint](../../viewpoints/Argume
 realized by Stereotype [SAF_Claim](../../stereotypes.md#SAF_Claim)
 
 A claim is a true/false statement about a property of a particular object. A claim is just what you might consider it to be from common usage of the term; an idea that someone is trying to convince somebody else is true. An example claim could be made on a train, e.g., the train is safe.
-## Claimable Item
+## ClaimableItem
 realized by Stereotype [SAF_ClaimableItem](../../stereotypes.md#SAF_ClaimableItem)
 
 A claim, argument, and evidence are all types of the abstract concept of a claimable item. This allows a counter-claim to be made about any type of claimable item and a claim to support any type of claimable item.
