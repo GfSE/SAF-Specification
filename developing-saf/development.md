@@ -47,5 +47,5 @@ The Development Documentation is separated from the User Documentation.
 It consists of 
 * [Development Guideline](saf-dev-guideline.md)
 * [List of Concepts](concept/concepts.md)
-* [Concept Overwiew Diagrams](concept/concept-overview.md)
+* [Concept Overview Diagrams](concept/concept-overview.md)
 * [Development view on SAF Viewpoints](viewpoints/viewpoint-dev.md)
