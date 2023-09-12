@@ -14,8 +14,11 @@ The Operational Story Viewpoint
 ## Applicability
 The Operational Story Viewpoint supports the "Business or Mission Analysis Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1] and contributes to the problem or opportunity statement.
 ## Stakeholder
+* [Acquirer](../../stakeholders.md#Acquirer)
+* [Customer](../../stakeholders.md#Customer)
+* [System Architect](../../stakeholders.md#System-Architect)
 ## Concern
-* What are the operational scenarios(Operational Stories) relevant to the system?
+* What are the operational scenarios (operational stories) relevant to the system?
 * Which is the operational scenario, i.e., course of action, for the mission and the context in which the system of systems solution will exist?
 ## Presentation
 A use case diagram featuring model elements representing Operational Stories, and Operational Performers involved in the mission. 

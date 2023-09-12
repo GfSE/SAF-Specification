@@ -10,8 +10,11 @@ The Operational Process Viewpoint describes the Operational Processes related to
 ## Applicability
 The Operational Process Viewpoint supports the "Business or Mission Analysis Process" and the "Stakeholder Needs and Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1, § 4.2] and contributes to the definition of operational scenarios.
 ## Stakeholder
+* [Acquirer](../stakeholders.md#Acquirer)
+* [Customer](../stakeholders.md#Customer)
+* [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* What operational process activitys shall be executed during the execution of an operational story?
+* What operational process activities shall be executed during the execution of an operational story?
 * Which operational activity shall be executed by which operational performer in the operational story?
 ## Presentation
 An activity diagram featuring the ordered execution of Operational Process Actions. Operational Processes may be linked in terms of control flow and/or data flow visualizing the Operational Exchanges needed. 

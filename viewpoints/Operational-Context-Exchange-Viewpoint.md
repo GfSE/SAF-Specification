@@ -10,8 +10,13 @@ The Operational Context Exchange Viewpoint provides the Operational Exchange bet
 ## Applicability
 The Operational Context Exchange Viewpoint supports the "Business or Mission Analysis Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1] and contributes to the problem or opportunity statement.
 ## Stakeholder
+* [Acquirer](../stakeholders.md#Acquirer)
+* [Customer](../stakeholders.md#Customer)
+* [Safety Expert](../stakeholders.md#Safety-Expert)
+* [Security Expert](../stakeholders.md#Security-Expert)
+* [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* What operational exchange does the operational performers need to consume or provide?
+* What operational exchanges do operational performers need to consume or provide?
 ## Presentation
 An internal block diagram (IBD) - associated to the Operational Context - featuring the interconnected Operational Performers in their respective Operational Role, and the Operational Item Exchange per Operational Connection.
 

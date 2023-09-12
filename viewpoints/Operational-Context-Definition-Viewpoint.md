@@ -11,6 +11,7 @@ The Operational Context Definition Viewpoint provides the Operational Contexts, 
 The Operational Context Definition Viewpoint supports the "Business or Mission Analysis Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1] and contributes to both the problem or opportunity statement and the Major Stakeholder Identification.
 ## Stakeholder
 * [Acquirer](../stakeholders.md#Acquirer)
+* [Customer](../stakeholders.md#Customer)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
 * What Performers or Resources are necessary to operate the intended solution?

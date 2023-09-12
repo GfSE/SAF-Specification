@@ -12,11 +12,9 @@ The Stakeholder Requirement Viewpoint supports the "Stakeholder Needs and Requir
 ## Stakeholder
 * [Acquirer](../stakeholders.md#Acquirer)
 * [Customer](../stakeholders.md#Customer)
-* [Hardware Developer](../stakeholders.md#Hardware-Developer)
-* [Supplier](../stakeholders.md#Supplier)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* What are the normal and extreme environmental conditions for normal operation, for not operational, for storage and for transport?
+* What are the normal and extreme environmental conditions for normal operation, for not operational, for storage, and for transport?
 * What are the requirements of environmental conditions imposed on the system?
 * What are the requirements that a Stakeholder imposes on the system?
 * What defines a valid solution towards the customer?

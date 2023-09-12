@@ -10,8 +10,14 @@ The Operational Domain Item Kind Viewpoint captures enterprise wide concepts and
 ## Applicability
 The Operational Domain Item Kind Viewpoint supports the "Business or Mission Analysis Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1] and contributes to the problem or opportunity statement.
 ## Stakeholder
+* [Acquirer](../stakeholders.md#Acquirer)
+* [Customer](../stakeholders.md#Customer)
+* [Regulation Authority](../stakeholders.md#Regulation-Authority)
+* [Security Expert](../stakeholders.md#Security-Expert)
+* [Software Developer](../stakeholders.md#Software-Developer)
+* [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* What operational exchange does the operational performers need to consume or provide?
+* Why types of exchange can exist between Operational Performers (i.e., flows of information, people, material, or energy)?
 ## Presentation
 A block definition diagram (BDD) featuring Operational Domain Item Kinds and their relationships in terms of generalization, composition, or general association.
 Note: Operational Domain Item Kinds are managed in the domain knowledge package of the Enterprise. Operational Domain Item Kinds shall be value types or blocks. 

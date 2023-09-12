@@ -10,6 +10,9 @@ The Operational Performer Viewpoint represents the taxonomy of the identified Op
 ## Applicability
 The Operational Performer Viewpoint supports the "Business or Mission Analysis Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1] and contributes to the problem or opportunity statement.
 ## Stakeholder
+* [Acquirer](../../stakeholders.md#Acquirer)
+* [Customer](../../stakeholders.md#Customer)
+* [System Architect](../../stakeholders.md#System-Architect)
 ## Concern
 * What are the relationships between the partys involved in the operation of the intended solution?
 * What partys of the organization, enterprise, or operational entity are needed to achieve an intended operational capability?

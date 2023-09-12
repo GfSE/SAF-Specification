@@ -10,6 +10,10 @@ The Operational Capability Mapping Viewpoint describes the relationships of Oper
 ## Applicability
 The Operational Capability Mapping Viewpoint supports the "Business or Mission Analysis Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1] and contributes to the definition of Operational Capabilities.
 ## Stakeholder
+* [Acquirer](../stakeholders.md#Acquirer)
+* [Customer](../stakeholders.md#Customer)
+* [Portfolio Manager](../stakeholders.md#Portfolio-Manager)
+* [System Architect](../stakeholders.md#System-Architect)
 ## Concern
 * Show in a concise manner the relationships from operational capability to operational story, to operational activity, and to operational performer.
 ## Presentation

@@ -34,9 +34,9 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_LogicalElement](../stereotypes.md#SAF_LogicalElement)
 * [SAF_SFV03c_View](../stereotypes.md#SAF_SFV03c_View)
 * [SAF_SystemFunction](../stereotypes.md#SAF_SystemFunction)
+* StateMachine [UML_Standard_Profile]
+* StateMachine [UML_Standard_Profile]
 * State [UML_Standard_Profile]
-* StateMachine [UML_Standard_Profile]
-* StateMachine [UML_Standard_Profile]
 * Transition [UML_Standard_Profile]
 ## Input from other Viewpoints
 ### Required Viewpoints

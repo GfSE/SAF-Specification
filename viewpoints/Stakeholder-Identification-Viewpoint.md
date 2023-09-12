@@ -12,7 +12,6 @@ Note: During the realization of the Intended Solution additional Stakeholders sh
 The Stakeholder Identification Viewpoint supports the "Business or Mission Analysis Process" and the "Stakeholder Needs and Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1, § 4.2] and contributes to the Major Stakeholder Identification.
 ## Stakeholder
 * [Acquirer](../stakeholders.md#Acquirer)
-* [Hardware Developer](../stakeholders.md#Hardware-Developer)
 * [Software Developer](../stakeholders.md#Software-Developer)
 * [Supplier](../stakeholders.md#Supplier)
 * [System Architect](../stakeholders.md#System-Architect)

@@ -10,8 +10,13 @@ The Operational Context Exchange Viewpoint provides the Operational Exchange bet
 ## Applicability
 The Operational Context Exchange Viewpoint supports the "Business or Mission Analysis Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1] and contributes to the problem or opportunity statement.
 ## Stakeholder
+* [Acquirer](../../stakeholders.md#Acquirer)
+* [Customer](../../stakeholders.md#Customer)
+* [Safety Expert](../../stakeholders.md#Safety-Expert)
+* [Security Expert](../../stakeholders.md#Security-Expert)
+* [System Architect](../../stakeholders.md#System-Architect)
 ## Concern
-* What operational exchange does the operational performers need to consume or provide?
+* What operational exchanges do operational performers need to consume or provide?
 ## Presentation
 An internal block diagram (IBD) - associated to the Operational Context - featuring the interconnected Operational Performers in their respective Operational Role, and the Operational Item Exchange per Operational Connection.
 
@@ -21,8 +26,8 @@ A tabular format listing [tbd].
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
-|Connector [UML_Standard_Profile]|[Operational Connector](../concept/concepts.md#Operational-Connector)|
-|ItemFlow [SysML Profile]|[OCRallowingOIE](../concept/concepts.md#OCRallowingOIE)|
+|Connector [UML_Standard_Profile]|[Operational Connection](../concept/concepts.md#Operational-Connection)|
+|ItemFlow [SysML Profile]|[OCNallowingOIE](../concept/concepts.md#OCNallowingOIE)|
 |ItemFlow [SysML Profile]|[Operational Item Exchange](../concept/concepts.md#Operational-Item-Exchange)|
 |[SAF_OperationalContext](../../stereotypes.md#SAF_OperationalContext)|[Operational Context](../concept/concepts.md#Operational-Context)|
 |[SAF_OperationalDomainKind](../../stereotypes.md#SAF_OperationalDomainKind)|[Operational Domain Kind](../concept/concepts.md#Operational-Domain-Kind)|

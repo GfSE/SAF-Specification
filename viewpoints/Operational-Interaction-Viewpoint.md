@@ -11,6 +11,9 @@ Note: The Operational Interaction Viewpoint may refine an Operational Story.
 ## Applicability
 The Operational Interaction Viewpoint supports the "Business or Mission Analysis Process" and the "Stakeholder Needs and Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1, § 4.2] and contributes to the definition of operational scenarios.
 ## Stakeholder
+* [Acquirer](../stakeholders.md#Acquirer)
+* [Customer](../stakeholders.md#Customer)
+* [System Architect](../stakeholders.md#System-Architect)
 ## Concern
 * What possible threads of operational process activities have to be carried out to achieve the operational story main and alternative goals?
 * What validation scenarios have to be carried out to check on the solution validity?

@@ -27,6 +27,8 @@ He is responsible for providing a feasible solution within a given budget. The A
 * How is the system being used or utilized and interacting with other external systems to satisfy user needs? 
 
   ***Rationale:  In my role, I need to check whether the system complies with the higher-level operating concept.***
+* Show in a concise manner the relationships from operational capability to operational story, to operational activity, and to operational performer.
+* Show in a concise manner the relationships from operational process to operational story and to operational performer.
 * What Performers or Resources are necessary to operate the intended solution?
 * What are necessary enabling systems?
 * What are necessary inputs for operating the system expected to be provided by other external entitys?
@@ -34,26 +36,38 @@ He is responsible for providing a feasible solution within a given budget. The A
 * What are the different contexts the system is embedded and utilized in?
 * What are the external physical entities the system interacts with in the respective context?
 * What are the geographical and physical locations of the intended / proposed elements of the solution?
-* What are the normal and extreme environmental conditions for normal operation, for not operational, for storage and for transport?
+* What are the normal and extreme environmental conditions for normal operation, for not operational, for storage, and for transport?
+* What are the operational scenarios (operational stories) relevant to the system?
 * What are the planned architectural means for risk mitigation?
+* What are the relationships between the partys involved in the operation of the intended solution?
 * What are the scenarios a system function is utilized in?
 * What existing elements of the organization, enterprise, or operational entity need to be integrated in the intended solution?
 * What is the cost for each required function?
 * What is the lack / deficiency / gap in current capability implementation that is addressed with the intended solution?
 * What is the necessary response time for an interface or a service?
+* What is the operational context to achieve an operational story?
 * What is the priority of each function?
 * What is the system boundary definition?
 * What is the time schedule for delivering the functions?
 * What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
+* What operational capabilities are defined?
+* What operational exchanges do operational performers need to consume or provide?
+* What operational process activities shall be executed during the execution of an operational story?
+* What possible threads of operational process activities have to be carried out to achieve the operational story main and alternative goals?
 * What services are expected from external entities?
 * What shall be validated to the customer at system level?
+* Which Operational Performer will operate or run the system?
 * Which functions will the system provide? 
 
   ***Rationale:  In my role, I need to check whether the overall system purpose is supported.***
 * Which information is exchanged between the system and external entities?
+* Which is the operational scenario, i.e., course of action, for the mission and the context in which the system of systems solution will exist?
+* Which operational activity shall be executed by which operational performer in the operational story?
 * Which physical items the SOI is built of?
 * Who are the Stakeholders involved in the intended solution?
 * Who provides the inputs to a critical function?
+* Why types of exchange can exist between Operational Performers (i.e., flows of information, people, material, or energy)?
+* Wich data types, entity types, related value types, and units have to be known to the SOI and used by the SOI?
 # Customer
 Definition - Customer (also Acquirer):
 Organization or person that receives a product or service, [ISO/IEC 15288:2022 – Systems engineering - System life-cycle processes]
@@ -62,25 +76,37 @@ The Customer is an organization or person that receives a product. Examples: Con
 ## Concern
 * How does a system function interact with its environment?
 * How is the system being used or utilized and interacting with other external systems to satisfy user needs?
+* Show in a concise manner the relationships from operational capability to operational story, to operational activity, and to operational performer.
+* Show in a concise manner the relationships from operational process to operational story and to operational performer.
+* What Performers or Resources are necessary to operate the intended solution?
 * What are necessary enabling systems?
 * What are necessary inputs for operating the system expected to be provided by other external entitys?
 * What are the different contexts the system is embedded and utilized in?
 * What are the external physical entities the system interacts with in the respective context?
-* What are the normal and extreme environmental conditions for normal operation, for not operational, for storage and for transport?
+* What are the normal and extreme environmental conditions for normal operation, for not operational, for storage, and for transport?
+* What are the operational scenarios (operational stories) relevant to the system?
 * What are the planned architectural means for risk mitigation?
+* What are the relationships between the partys involved in the operation of the intended solution?
 * What are the scenarios a system function is utilized in?
 * What is the necessary response time for an interface or a service?
+* What is the operational context to achieve an operational story?
 * What is the rationale when requirements are not considered?
 * What is the system boundary definition?
 * What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
-* What operational capabilities are defined? 
-
-  ***Rationale:  In my role, I need to specify capabilities because the definition of capabilities allows communication about what is to be achieved to be separated from how it is achieved at an operational level.***
+* What operational capabilities are defined?
+* What operational exchanges do operational performers need to consume or provide?
+* What operational process activities shall be executed during the execution of an operational story?
+* What possible threads of operational process activities have to be carried out to achieve the operational story main and alternative goals?
 * What services are expected from external entities?
 * What shall be validated to the customer at system level?
+* Which Operational Performer will operate or run the system?
 * Which functions will the system provide?
 * Which information is exchanged between the system and external entities?
+* Which is the operational scenario, i.e., course of action, for the mission and the context in which the system of systems solution will exist?
+* Which operational activity shall be executed by which operational performer in the operational story?
 * Who provides the inputs to a critical function?
+* Why types of exchange can exist between Operational Performers (i.e., flows of information, people, material, or energy)?
+* Wich data types, entity types, related value types, and units have to be known to the SOI and used by the SOI?
 # Customer (Representative)
 Definition - Customer (Representative):
 (1) [SAF] The primary goal in a Customer (Representative) role is to represent the end-user, an individual, organization, or enterprise that benefits from the operation of the system. In this role the Customer (Representative) provides usage scenarios, user needs and requirements.
@@ -110,7 +136,6 @@ The Developer is a group or an individual implementing the system parts accordin
 * What are the non-functional requirements imposed on the system? 
 
   ***Rationale:  In my role, I need to trace my derived requirements against these ones relevant to me.***
-* What are the normal and extreme environmental conditions for normal operation, for not operational, for storage and for transport?
 * What are the provided power inputs?
 * What delivery standards need to be provided?
 * What is the allocated power consumption?
@@ -128,7 +153,9 @@ The Developer is a group or an individual implementing the system parts accordin
 * What is the necessary response time for an interface or a service?
 * What is the scope of a delivery standard?
 * What is the sequence of interactions among the system and context elements
-* What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
+* What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)? 
+
+  ***Rationale:  In my role, I need to coordinated external interfaces with external partners.***
 * Which (system and system partial) functions are assigned to a logical item and logical item components?
 Note: if allocation of usage is used, then allocation of definition is a derived relationship XOR. 
 
@@ -136,9 +163,6 @@ Note: if allocation of usage is used, then allocation of definition is a derived
 * Which HW interfaces are necessary? 
 
   ***Rationale:  In my role, I need to implement interfaces with my HW subsystem, if necessary.***
-* Which Stakeholder are relevant to the system and might impose requirements? 
-
-  ***Rationale:  In my role, I need to give feedback on existing or missing stakeholders.***
 * Which functions need to be realized by HW?
 * Which functions will the system provide? 
 
@@ -151,9 +175,6 @@ Note: if allocation of usage is used, then allocation of definition is a derived
   ***Rationale:  In my role, I need to know which system modes and states my subsystem must support.***
 * Which protection means need to be provided for an interface?
 * Which variants of a HW item need to be provided?
-* Who are the Stakeholders involved in the intended solution? 
-
-  ***Rationale:  In my role, I need to give feedback on existing or missing stakeholders.***
 * Who provides the inputs to a critical function?
 # IV&V Engineer
 Definition - IV&V Engineer
@@ -238,9 +259,9 @@ Portfolio Manager:
 Individual or organization that plans the Product portfolio, i.e. which products are available, will be available, which capabilities will they have.
 
 ## Concern
-* What operational capabilities are defined? 
-
-  ***Rationale:  In my role, I need to plan the system capabilities to support operational capabilities.***
+* Show in a concise manner the relationships from operational capability to operational story, to operational activity, and to operational performer.
+* Show in a concise manner the relationships from operational process to operational story and to operational performer.
+* What operational capabilities are defined?
 # Project Manager
 Definition - Project Manager: 
 The responsibility of the Project Manager is to make the right resources with the right skills available in time to get the identified work done. The Project Manager controls that the work packages are completed in time and agreed milestones are met. A clear definition of the solution for the stated problem allows planning to be done properly.
@@ -277,6 +298,7 @@ Systems Engineering must adhere to relevant standards and needs to demonstrate c
 * What additional information the system or a system element needs to generate to enable testing?
 * What is the rationale when requirements are not considered?
 * Which modes and states does the system have?
+* Why types of exchange can exist between Operational Performers (i.e., flows of information, people, material, or energy)?
 # Safety Expert
 Definition - Safety Specialist:
 Safety is one subject matter of specialty engineering but important enough to be treated separately. 
@@ -305,11 +327,13 @@ The safety experts evaluate a proposed system architecture and design for safety
 * What is the rationale when requirements are not considered?
 * What is the sequence of interactions among the system and context elements
 * What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
+* What operational exchanges do operational performers need to consume or provide?
 * What shall be validated to the customer at system level?
 * Which functions will the system provide?
 * Which information is exchanged between the system and external entities?
 * Which modes and states does the system have?
 * Who provides the inputs to a critical function?
+* Wich data types, entity types, related value types, and units have to be known to the SOI and used by the SOI?
 # Security Expert
 Definition - Security Specialist:
 Security is one subject matter of specialty engineering but important enough to be treated separately.
@@ -333,11 +357,14 @@ The IT-Security experts evaluate a proposed system architecture and design for I
 * What is the sequence of interactions among the system and context elements
 * What kind of information is exchanged and processed within the system?
 * What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
+* What operational exchanges do operational performers need to consume or provide?
 * What physical items are used building up the system?
 * What shall be validated to the customer at system level?
 * Which functions will the system provide?
 * Which information is exchanged between the system and external entities?
 * Which modes and states does the system have?
+* Why types of exchange can exist between Operational Performers (i.e., flows of information, people, material, or energy)?
+* Wich data types, entity types, related value types, and units have to be known to the SOI and used by the SOI?
 # Software Developer
 Definition - Developer:
 Organization that performs development tasks (including requirements analysis, design, testing through acceptance) during a life cycle process. [ISO/IEC 12207:2008]
@@ -369,7 +396,9 @@ The Developer is a group or an individual implementing the system parts accordin
 * What is the necessary performance for processing?
 * What is the necessary response time for an interface or a service?
 * What is the sequence of interactions among the system and context elements
-* What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
+* What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)? 
+
+  ***Rationale:  In my role, I need to coordinated external interfaces with external partners.***
 * Which (system and system partial) functions are assigned to a logical item and logical item components?
 Note: if allocation of usage is used, then allocation of definition is a derived relationship XOR. 
 
@@ -394,6 +423,7 @@ Note: if allocation of usage is used, then allocation of definition is a derived
 
   ***Rationale:  In my role, I need to give feedback on existing or missing stakeholders.***
 * Who provides the inputs to a critical function?
+* Why types of exchange can exist between Operational Performers (i.e., flows of information, people, material, or energy)?
 # Supplier
 Definition - Supplier:
 Organization or an individual that enters into an agreement with the Acquirer for the supply of a product or service, [ISO/IEC 15288:2022 – Systems engineering - System life-cycle processes]
@@ -405,7 +435,6 @@ The Supplier is the organization or individual that enters into an agreement wit
 * What are the capabilities that are supported by the system?
 * What are the external physical entities the system interacts with in the respective context?
 * What are the geographical and physical locations of the intended / proposed elements of the solution?
-* What are the normal and extreme environmental conditions for normal operation, for not operational, for storage and for transport?
 * What are the scenarios a system function is utilized in?
 * What is the lack / deficiency / gap in current capability implementation that is addressed with the intended solution?
 * What is the system boundary definition?
@@ -434,6 +463,8 @@ The System Architect as an individual or group performing the systems engineerin
 * How is the system being used or utilized and interacting with other external systems to satisfy user needs? 
 
   ***Rationale:  In my role, I need to pass on the resulting System Requirements to the subsystems.***
+* Show in a concise manner the relationships from operational capability to operational story, to operational activity, and to operational performer.
+* Show in a concise manner the relationships from operational process to operational story and to operational performer.
 * What Performers or Resources are necessary to operate the intended solution?
 * What additional information the system or a system element needs to generate to enable testing?
 * What are necessary enabling systems?
@@ -453,9 +484,11 @@ The System Architect as an individual or group performing the systems engineerin
 * What are the non-functional requirements imposed on the system? 
 
   ***Rationale:  In my role, I need to check whether the system design realizes the System Requirements.***
-* What are the normal and extreme environmental conditions for normal operation, for not operational, for storage and for transport?
+* What are the normal and extreme environmental conditions for normal operation, for not operational, for storage, and for transport?
+* What are the operational scenarios (operational stories) relevant to the system?
 * What are the physical components?
 * What are the planned architectural means for risk mitigation?
+* What are the relationships between the partys involved in the operation of the intended solution?
 * What are the scenarios a system function is utilized in?
 * What are the system delivery standards?
 * What existing elements of the organization, enterprise, or operational entity need to be integrated in the intended solution?
@@ -470,17 +503,25 @@ The System Architect as an individual or group performing the systems engineerin
 * What is the lack / deficiency / gap in current capability implementation that is addressed with the intended solution?
 * What is the necessary accuracy and resolution for processing?
 * What is the necessary response time for an interface or a service?
+* What is the operational context to achieve an operational story?
 * What is the physical breakdown of the system?
 * What is the rationale when requirements are not considered?
 * What is the sequence of interactions among the system and context elements
 * What is the system boundary definition?
 * What is the task executed by an organization, enterprise, or operational entity in the Operational Context?
-* What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
+* What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)? 
+
+  ***Rationale:  In my role, I need to coordinated external interfaces with external partners.***
+* What operational capabilities are defined?
+* What operational exchanges do operational performers need to consume or provide?
+* What operational process activities shall be executed during the execution of an operational story?
+* What possible threads of operational process activities have to be carried out to achieve the operational story main and alternative goals?
 * What services are expected from external entities?
 * What shall be validated to the customer at system level?
-* What system elements are make-items, reuse items or COTS?
+* What system elements are make-items, reuse items, or COTS?
 * Which (system and system partial) functions are assigned to a logical item and logical item components?
 Note: if allocation of usage is used, then allocation of definition is a derived relationship XOR.
+* Which Operational Performer will operate or run the system?
 * Which Stakeholder are relevant to the system and might impose requirements? 
 
   ***Rationale:  In my role, I need to give feedback on existing or missing stakeholders.***
@@ -488,9 +529,11 @@ Note: if allocation of usage is used, then allocation of definition is a derived
 
   ***Rationale:  In my role, I need to break these down further to be able to delegate sub-functions to subsystems.***
 * Which information is exchanged between the system and external entities?
+* Which is the operational scenario, i.e., course of action, for the mission and the context in which the system of systems solution will exist?
 * Which modes and states does the system have? 
 
   ***Rationale:  In my role, I need to understand the required system behavior in order to further design the system.***
+* Which operational activity shall be executed by which operational performer in the operational story?
 * Which system function is addressed by system requirement?
 * Which system functions are dependent on a systems mode or state?
 * Which users does the system support? What the system has to accomplish for these users? 
@@ -500,6 +543,8 @@ Note: if allocation of usage is used, then allocation of definition is a derived
 
   ***Rationale:  In my role, I need to give feedback on existing or missing stakeholders.***
 * Who provides the inputs to a critical function?
+* Why types of exchange can exist between Operational Performers (i.e., flows of information, people, material, or energy)?
+* Wich data types, entity types, related value types, and units have to be known to the SOI and used by the SOI?
 # User
 Definition - User:
 Individual or group that interacts with a system or benefits from a system during its utilization, [ISO/IEC 15288:2022 - Systems engineering - System life-cycle processes]

@@ -10,6 +10,10 @@ The Operational Process Mapping Viewpoint describes the relationships of Operati
 ## Applicability
 The Operational Process Mapping Viewpoint supports the "Business or Mission Analysis Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1] and contributes to the definition of operational scenarios.
 ## Stakeholder
+* [Acquirer](../../stakeholders.md#Acquirer)
+* [Customer](../../stakeholders.md#Customer)
+* [Portfolio Manager](../../stakeholders.md#Portfolio-Manager)
+* [System Architect](../../stakeholders.md#System-Architect)
 ## Concern
 * Show in a concise manner the relationships from operational process to operational story and to operational performer.
 ## Presentation
