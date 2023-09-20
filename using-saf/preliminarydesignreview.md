@@ -55,7 +55,7 @@ The PDR is the "design to" review. That means, the design is based on the baseli
  * Phyiscal Logical Interface Assignment Viewpoint (alex) assign conceptual ports & domain items to physical 
  * [Physical Structure Viewpoint](../viewpoints/Physical-Structure-Viewpoint.md) (michael)
  * [Physical Internal Exchange Viewpoint](../viewpoints/Physical-Internal-Exchange-Viewpoint.md) (michael)
- * [Physical Interface Definition Viewpoint](../viewpoints/Physical-Interface-Definition-Viewpoint.md) (michael) -> das sind die interface blöcke
+ * [Physical Interface Definition Viewpoint](../viewpoints/Physical-Interface-Definition-Viewpoint.md) (sascha, markus,alex,jan) -> das sind die interface blöcke
  * Subsystem Requirement Specification Viewpoint / Software Requirement Specification Viewpoint / Hardware Requirement Specification Viewpoint?
 
 # Information Items tbd
