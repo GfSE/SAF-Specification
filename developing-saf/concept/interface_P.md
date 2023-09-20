@@ -7,11 +7,11 @@
 | PCCapplyingToPCN | Specifies the fact that a Physical Interface Connection Compatibility Assertion shall apply to a Physical Interface Connection.|
 | PCCassertsCompatibiltyForPCPD | Specifies the Physical Interface Connection Point Definition the Physical Compatibility Assertion is valid for.|
 | PCNallowingPIE | Specifies the fact that a Physical Item Exchange is allowed on the Physical Interface Connection.|
-| PCPDdefiningPCP | Specifies the fact that a Physical Interface Connection Point Definition defines the exchange capabilities of a Physical Interface Connection Point.|
+| PCPDdefiningPCP | Specifies the fact that a Physical Connection Point Definition defines the exchange capabilities of a Physical Connection Point.|
+| PCPapplyingToAPE | Specifies the fact that a Physical Interface Connection Point applies to an Abstract Physical Element.|
 | PCPapplyingToPCE | Specifies the fact that a Physical Interface Connection Point applies to a Physical Context Element.|
-| PCPapplyingToPET | Specifies the fact that a Physical Interface Connection Point applies to a Physical Element.|
-| PCPspecifyingDetailOfPCPD | Specifies the fact that a Physical Interface Property is a detail of a Physical Interface Connection Point Definition.|
-| PEKtypingPCP | Specifies the fact that a Physical Exchange Kind defines the type of a Physical Interface Connection Property.|
+| PCPspecifyingDetailOfPCPD | Specifies the fact that a Physical Connection Property is a detail of a Physical Connection Point Definition.|
+| PEKtypingPCP | Specifies the fact that a Physical Exchange Kind defines the type of a Physical Connection Property.|
 | PEKtypingPIE | Specifies the fact that a Physical Exchange Kind defines the type of a Physical Item Exchange.|
 | Physical Connection | Specifies the connection of two interface connection points on Physical Level.<br>Note: Connections between physical components indicate that item flows are passed from one output of a source component to one or more inputs of target components.|
 | Physical Connection Point | Specifies the existence of an interaction point on Physical Level.|

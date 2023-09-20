@@ -40,7 +40,6 @@ One or more IBD featuring the Physical Elements of the SOI, and the SOI boundary
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Connector [UML_Standard_Profile]
 * FlowProperty [SysML Profile]
-* InterfaceBlock [SysML Profile]
 * ItemFlow [SysML Profile]
 * ProxyPort [SysML Profile]
 * [SAF_PhysicalElement](../stereotypes.md#SAF_PhysicalElement)

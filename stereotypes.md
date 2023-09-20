@@ -90,6 +90,16 @@ nothing
 
 ### Realizes
 [CLTmakingCLM](developing-saf/concept/concepts.md#CLTmakingCLM)<BR><BR>Specifies the fact that a claim is made by a defined claimant.<BR>
+## SAF_ConceptualInterfaceDefinition
+
+### Icon
+
+
+### Documentation
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Logical Connection Point Definition'>Logical Connection Point Definition</A><BR><BR><BR>Logical Connection Point Definition: Specifies the exchange capabilities of an interaction point on Logical Level.<BR><BR><BR>Usage in Viewpoints:<BR></html>
+
+### Realizes
+[Logical Connection Point Definition](developing-saf/concept/concepts.md#Logical-Connection-Point-Definition)<BR><BR>Specifies the exchange capabilities of an interaction point on Logical Level.<BR>
 ## SAF_ContextAction
 
 ### Icon
@@ -280,16 +290,6 @@ nothing
 
 ### Realizes
 [Logical External System](developing-saf/concept/concepts.md#Logical-External-System)<BR><BR>An External System in the Logical Domain, outside the SOI scope, interacting with the SOI. E.g., power grid, mobile network, fresh water system (in a house).<BR>
-## SAF_LogicalInterface
-
-### Icon
-
-
-### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Logical Connection Point Definition'>Logical Connection Point Definition</A><BR><BR><BR>Logical Connection Point Definition: Specifies the exchange capabilities of an interaction point on Logical Level.<BR><BR><BR>Usage in Viewpoints:<BR></html>
-
-### Realizes
-[Logical Connection Point Definition](developing-saf/concept/concepts.md#Logical-Connection-Point-Definition)<BR><BR>Specifies the exchange capabilities of an interaction point on Logical Level.<BR>
 ## SAF_LogicalInternalRole
 
 ### Icon
@@ -580,6 +580,16 @@ nothing
 
 ### Realizes
 [Hardware Element](developing-saf/concept/concepts.md#Hardware-Element)<BR><BR>Pure Hardware Elements. Similarity to the V-Model "hardware unit".<BR>
+## SAF_PhysicalInterfaceDefinition
+
+### Icon
+
+
+### Documentation
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical Connection Point Definition'>Physical Connection Point Definition</A><BR><BR><BR>Physical Connection Point Definition: Specifies the exchange capabilities of an interaction point on Physical Level.<BR><BR><BR>Usage in Viewpoints:<BR></html>
+
+### Realizes
+[Physical Connection Point Definition](developing-saf/concept/concepts.md#Physical-Connection-Point-Definition)<BR><BR>Specifies the exchange capabilities of an interaction point on Physical Level.<BR>
 ## SAF_PhysicalItem
 
 ### Icon
@@ -970,6 +980,16 @@ The Physical Internal Exchange Viewpoint serves for the identification and defin
 
 ### Realizes
 [Physical Internal Exchange Viewpoint](viewpoints/Physical-Internal-Exchange-Viewpoint.md)<BR>
+## SAF_SPV05a_View
+
+### Icon
+
+
+### Documentation
+preliminary text - work in progess<BR>The Physical Interface Definition Viewpoint provides definitions for physical interfaces. These definitions are may be reused on different interfaces.<BR><BR>A block definition diagram (BDD) featuring Physical Interface blocks with ports, and flow properties.<BR>Note: When ports are used these shall be proxy ports and be typed by interface blocks.<BR>A tabular format listing Physical Interface blocks, their ports, and flow properties.
+
+### Realizes
+[Physical Interface Definition Viewpoint](viewpoints/Physical-Interface-Definition-Viewpoint.md)<BR>
 ## SAF_SPV08a_View
 
 ### Icon

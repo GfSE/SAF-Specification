@@ -132,7 +132,7 @@ exposed in viewpoint [System Context Exchange Viewpoint](../../viewpoints/System
 
 exposed in viewpoint [System Interface Definition Viewpoint](../../viewpoints/System-Interface-Definition-Viewpoint.md)
 
-realized by Stereotype [SAF_LogicalInterface](../../stereotypes.md#SAF_LogicalInterface)
+realized by Stereotype [SAF_ConceptualInterfaceDefinition](../../stereotypes.md#SAF_ConceptualInterfaceDefinition)
 
 Specifies the exchange capabilities of an interaction point on Logical Level.
 ## Logical Connection Property
@@ -334,18 +334,24 @@ The Operational Story represents one or more Operational Use Cases in the Usage 
 ## Physical Connection Point
 exposed in viewpoint [Physical Context Exchange Viewpoint](../../viewpoints/Physical-Context-Exchange-Viewpoint.md)
 
+exposed in viewpoint [Physical Interface Definition Viewpoint](../../viewpoints/Physical-Interface-Definition-Viewpoint.md)
+
 exposed in viewpoint [Physical Internal Exchange Viewpoint](../../viewpoints/Physical-Internal-Exchange-Viewpoint.md)
 
 realized by Stereotype ProxyPort
 
 Specifies the existence of an interaction point on Physical Level.
 ## Physical Connection Point Definition
+exposed in viewpoint [Physical Interface Definition Viewpoint](../../viewpoints/Physical-Interface-Definition-Viewpoint.md)
+
 exposed in viewpoint [Physical Internal Exchange Viewpoint](../../viewpoints/Physical-Internal-Exchange-Viewpoint.md)
 
-realized by Stereotype InterfaceBlock
+realized by Stereotype [SAF_PhysicalInterfaceDefinition](../../stereotypes.md#SAF_PhysicalInterfaceDefinition)
 
 Specifies the exchange capabilities of an interaction point on Physical Level.
 ## Physical Connection Property
+exposed in viewpoint [Physical Interface Definition Viewpoint](../../viewpoints/Physical-Interface-Definition-Viewpoint.md)
+
 realized by Stereotype FlowProperty
 
 Specifies a detail of an interaction point on Physical Level.
@@ -372,6 +378,8 @@ realized by Stereotype [SAF_PhysicalEnvironment](../../stereotypes.md#SAF_Physic
 
 The Environmental Element in the Physical Domain, outside the SOI scope, interacting with the SOI. E.g. air, dirt, sun, road.
 ## Physical Exchange Kind
+exposed in viewpoint [Physical Interface Definition Viewpoint](../../viewpoints/Physical-Interface-Definition-Viewpoint.md)
+
 realized by Stereotype [SAF_PhysicalExchangeType](../../stereotypes.md#SAF_PhysicalExchangeType)
 
 Specifies the realization of a System Domain Kind on physical domain level. It is  used to define exchanges on Physical Interface Connections.
@@ -984,23 +992,27 @@ Specifies the fact that a Physical Item Exchange is allowed on the Physical Inte
 ## PCPDdefiningPCP
 1 [Physical Connection Point Definition](#Physical-Connection-Point-Definition) PCPDdefiningPCP 0..* [Physical Connection Point](#Physical-Connection-Point) 
 
-Specifies the fact that a Physical Interface Connection Point Definition defines the exchange capabilities of a Physical Interface Connection Point.
-## PCPapplyingToPCE
-0..* [Physical Connection Point](#Physical-Connection-Point) PCPapplyingToPCE 1 [Physical Context Element](#Physical-Context-Element) 
+exposed in viewpoint [Physical Interface Definition Viewpoint](../../viewpoints/Physical-Interface-Definition-Viewpoint.md)
 
-Specifies the fact that a Physical Interface Connection Point applies to a Physical Context Element.
-## PCPapplyingToPET
-0..* [Physical Connection Point](#Physical-Connection-Point) PCPapplyingToPET 1 [Abstract Physical Element](#Abstract-Physical-Element) 
+Specifies the fact that a Physical Connection Point Definition defines the exchange capabilities of a Physical Connection Point.
+## PCPapplyingToAPE
+0..* [Physical Connection Point](#Physical-Connection-Point) PCPapplyingToAPE 1 [Abstract Physical Element](#Abstract-Physical-Element) 
 
 exposed in viewpoint [Physical Context Exchange Viewpoint](../../viewpoints/Physical-Context-Exchange-Viewpoint.md)
 
 exposed in viewpoint [Physical Internal Exchange Viewpoint](../../viewpoints/Physical-Internal-Exchange-Viewpoint.md)
 
-Specifies the fact that a Physical Interface Connection Point applies to a Physical Element.
+Specifies the fact that a Physical Interface Connection Point applies to an Abstract Physical Element.
+## PCPapplyingToPCE
+0..* [Physical Connection Point](#Physical-Connection-Point) PCPapplyingToPCE 1 [Physical Context Element](#Physical-Context-Element) 
+
+Specifies the fact that a Physical Interface Connection Point applies to a Physical Context Element.
 ## PCPspecifyingDetailOfPCPD
 0..* [Physical Connection Property](#Physical-Connection-Property) PCPspecifyingDetailOfPCPD 1 [Physical Connection Point Definition](#Physical-Connection-Point-Definition) 
 
-Specifies the fact that a Physical Interface Property is a detail of a Physical Interface Connection Point Definition.
+exposed in viewpoint [Physical Interface Definition Viewpoint](../../viewpoints/Physical-Interface-Definition-Viewpoint.md)
+
+Specifies the fact that a Physical Connection Property is a detail of a Physical Connection Point Definition.
 ## PEKisAssignedToPL
 0..1 [Physical Layer](#Physical-Layer) PEKisAssignedToPL 0..* [Physical Exchange Kind](#Physical-Exchange-Kind) 
 
@@ -1012,7 +1024,9 @@ Specifies the fact that a System Domain Kind is realized by Physical Exchange Ki
 ## PEKtypingPCP
 1 [Physical Exchange Kind](#Physical-Exchange-Kind) PEKtypingPCP 0..* [Physical Connection Property](#Physical-Connection-Property) 
 
-Specifies the fact that a Physical Exchange Kind defines the type of a Physical Interface Connection Property.
+exposed in viewpoint [Physical Interface Definition Viewpoint](../../viewpoints/Physical-Interface-Definition-Viewpoint.md)
+
+Specifies the fact that a Physical Exchange Kind defines the type of a Physical Connection Property.
 ## PEKtypingPIE
 1 [Physical Exchange Kind](#Physical-Exchange-Kind) PEKtypingPIE 0..* [Physical Item Exchange](#Physical-Item-Exchange) 
 
