@@ -14,11 +14,6 @@ The SAF_Concepts are grouped by topics. SAF_Concepts are shown together with rel
 * [System Level Context Elements](performer_F.md)
 * [System Level Physical Context](context_P.md)
 
-## Interfaces ##
-* [Operational Level Interfaces](interface_O.md)
-* [Conceptual Interfaces](interface_F.md)
-* [Physical Interfaces](interface_P.md)
-
 ## Domain Items
 * [Operational Level Domain Items](domain_kind_O.md)
 * [System Level Domain Items](domain_kind_F.md)
@@ -28,7 +23,7 @@ The SAF_Concepts are grouped by topics. SAF_Concepts are shown together with rel
 * [System Level Functional Stucture](structural_F.md)
 * [System Level Logical Stucture](structural_F.md)
 
-## Exchanges
+## Exchange and Interfaces
 * [Operational Level Exchange](interface_O.md)
 * [System Level Exchange](interface_F.md)
 * [System Level Physical Exchange](interface_P.md)
