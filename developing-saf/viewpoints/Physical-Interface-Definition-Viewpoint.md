@@ -22,7 +22,7 @@ What types of physical interface definitions (electrical/hydraulic/mechanical/op
 What properties and metadata does a connector convey in terms of supplier, part number, ingress protection class for water and dust, KPIs...)  
 `Rationale`: The **System Architect/Hardware Develper** needs to have the physical interface definitions with KPIs for the selection process and entering them into the BOM.
 
-What physical connection points (pins) does a connector provide?
+What physical connection points (pins) does a connector provide?  
 `Rationale`: The **System Architect** needs to align the external interfaces with the customer (system level above)
 
 What electrical/optical/RF signals (information) does a connector transfer?  
