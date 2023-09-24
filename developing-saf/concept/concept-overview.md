@@ -7,6 +7,11 @@ The SAF_Concepts are grouped by topics. SAF_Concepts are shown together with rel
 * [Operational Level Capability](capability_O.md)
 * [System Level Capability](capability_F.md)
 
+
+## Requirements
+* [Operational Level Requirements](requirement_O.md)
+* [System Level Requirements](requirement_F.md)
+  
 ## Context and Context Elements
 * [Operational Level Context](context_O.md)
 * [Operational Level Context Elements](performer_O.md)
@@ -22,8 +27,9 @@ The SAF_Concepts are grouped by topics. SAF_Concepts are shown together with rel
 * [Operational Level Stucture](structural_O.md)
 * [System Level Functional Stucture](structural_F.md)
 * [System Level Logical Stucture](structural_F.md)
+* [System Level Physical Stucture](structural_P.md)
 
-## Exchanges
+## Exchange and Interfaces
 * [Operational Level Exchange](interface_O.md)
 * [System Level Exchange](interface_F.md)
 * [System Level Physical Exchange](interface_P.md)
