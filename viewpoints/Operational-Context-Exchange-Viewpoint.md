@@ -1,4 +1,4 @@
-![System Architecture Framework](../diagrams/Logo_SAF.png)
+![System Architecture Framework](../diagrams/Banner_SAF.png)
 # SAF User Documentation : Operational Context Exchange Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |

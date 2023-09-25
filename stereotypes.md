@@ -1,4 +1,4 @@
-![System Architecture Framework](diagrams/Logo_SAF.png)
+![System Architecture Framework](diagrams/Banner_SAF.png)
 # SAF User Documentation : Stereotypes
 ## SAF_AbstractItem
 
@@ -970,6 +970,16 @@ The Physical Context Definition Viewpoint identifies the different context the s
 
 ### Realizes
 [Physical Context Definition Viewpoint](viewpoints/Physical-Context-Definition-Viewpoint.md)<BR>
+## SAF_SPV02a_View
+
+### Icon
+
+
+### Documentation
+The Physical Structure Viewpoint is used to model the internal structure of the SOI and to identify the internal system elements making up the SOI. The SOI breakdown structure identifies system elements and finally on implementation level hardware, software, mechanics. The SOI breakdown structure determines items that are reused and make or buy (COTS) items. The Physical Structure Viewpoint is elaborated for each candidate physical SOI architecture. It provides the basis for further assessment of the architecture candidates by identifying the system elements in each candidate solution.<BR>Note: It may be pointed out, that the physical architecture shall consider reuse, organizational, management and logistics support aspects. Hence, the physical architecture usually does not match the logical or the functional structure.<BR><BR>
+
+### Realizes
+[Physical Structure Viewpoint](viewpoints/Physical-Structure-Viewpoint.md)<BR>
 ## SAF_SPV04b_View
 
 ### Icon

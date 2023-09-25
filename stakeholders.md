@@ -1,4 +1,4 @@
-![System Architecture Framework](diagrams/Logo_SAF.png)
+![System Architecture Framework](diagrams/Banner_SAF.png)
 # SAF User Documentation : Stakeholders
 ![SAF_Stakeholder_Definition](diagrams/SAF_stakeholder_definition.svg)
 This section provides a list of the Stakeholder roles considered for the elicitaiton of converns for SAF viewpoints. For each, the section lists the concerns that the Stakeholder has that can be addressed by the information in this SAF framework.

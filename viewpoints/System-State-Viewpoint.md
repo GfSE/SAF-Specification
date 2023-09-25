@@ -1,4 +1,4 @@
-![System Architecture Framework](../diagrams/Logo_SAF.png)
+![System Architecture Framework](../diagrams/Banner_SAF.png)
 # SAF User Documentation : System State Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |

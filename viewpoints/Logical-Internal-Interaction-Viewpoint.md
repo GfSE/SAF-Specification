@@ -1,4 +1,4 @@
-![System Architecture Framework](../diagrams/Logo_SAF.png)
+![System Architecture Framework](../diagrams/Banner_SAF.png)
 # SAF User Documentation : Logical Internal Interaction Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |

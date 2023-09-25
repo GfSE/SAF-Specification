@@ -1,4 +1,4 @@
-![System Architecture Framework](../../diagrams/Logo_SAF.png)
+![System Architecture Framework](../../diagrams/Banner_SAF.png)
 # SAF Development Documentation : Operational Process Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
