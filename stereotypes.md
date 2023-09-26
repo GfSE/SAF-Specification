@@ -970,6 +970,16 @@ The Physical Context Definition Viewpoint identifies the different context the s
 
 ### Realizes
 [Physical Context Definition Viewpoint](viewpoints/Physical-Context-Definition-Viewpoint.md)<BR>
+## SAF_SPV01c_View
+
+### Icon
+
+
+### Documentation
+The Physical Context Exchange Viewpoint focuses on the identification of the physical interfaces with external entities and the identification of relevant documentation. It is used to capture Interface Requirements for IRS, applicable standards, protocols and format specifications that are agreed upon the interfaces.<BR>Note: Trace physical interfaces to logical interfaces  (the physical interfaces fulfill the exchange requirements stated on Logical Level)<BR><BR>The following artifacts support the modeling activities:<BR>A) For each identified context a physical context interface IBD is used to identify the physical interfaces, the item flows that are exchanged on that interface and related documentation.<BR>B) A physical context interface table provides a list of all the defined external interfaces and the applicable documentation<BR>* context element kind (environment / external entity / physical user)<BR>* context element role name<BR>* port name and reference to port type<BR>* reference to context element type<BR><BR>C) A context interface table is used to define the applicable standards, protocols and formats for the item flows exchanged via the identified interfaces.
+
+### Realizes
+[Physical Context Exchange Viewpoint](viewpoints/Physical-Context-Exchange-Viewpoint.md)<BR>
 ## SAF_SPV02a_View
 
 ### Icon

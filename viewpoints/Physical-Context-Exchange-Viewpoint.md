@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Physical](../domains.md#Domain-Physical)|[Context & Exchange](../aspects.md#Aspect-Context-&-Exchange)|![Proposed](../diagrams/Under_construction_icon-red.svg )[proposed](../using-saf/maturity.md#proposed)|
 ## Example
-*none*
+![FFDS  POC System Context](../diagrams/FFDS--POC-System-Context.svg)
 ## Purpose
 The Physical Context Exchange Viewpoint focuses on the identification of the physical interfaces with external entities and the identification of relevant documentation. It is used to capture Interface Requirements for IRS, applicable standards, protocols and format specifications that are agreed upon the interfaces.
 Note: Trace physical interfaces to logical interfaces  (the physical interfaces fulfill the exchange requirements stated on Logical Level)
@@ -45,6 +45,15 @@ C) A context interface table is used to define the applicable standards, protoco
 
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
+* Connector [UML_Standard_Profile]
+* ProxyPort [SysML Profile]
+* [SAF_PhysicalEnvironment](../stereotypes.md#SAF_PhysicalEnvironment)
+* [SAF_PhysicalExchangeType](../stereotypes.md#SAF_PhysicalExchangeType)
+* [SAF_PhysicalExternalSystem](../stereotypes.md#SAF_PhysicalExternalSystem)
+* [SAF_PhysicalInterfaceDefinition](../stereotypes.md#SAF_PhysicalInterfaceDefinition)
+* [SAF_PhysicalSystem](../stereotypes.md#SAF_PhysicalSystem)
+* [SAF_PhysicalUser](../stereotypes.md#SAF_PhysicalUser)
+* [SAF_SPV01c_View](../stereotypes.md#SAF_SPV01c_View)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Physical Context Definition Viewpoint](Physical-Context-Definition-Viewpoint.md)

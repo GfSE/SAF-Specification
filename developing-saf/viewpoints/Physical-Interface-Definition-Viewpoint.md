@@ -9,7 +9,7 @@
 preliminary text - work in progess
 The Physical Interface Definition Viewpoint provides definitions for physical interfaces. These definitions are may be reused on different interfaces.
 ## Applicability
-The System Interface Definition Viewpoint supports the "Create System Design " activity included in "Design Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§ 2.3.5.5] and contributes to the System Interface definition.
+The Physical Interface Definition Viewpoint supports the "Create System Design " activity included in "Design Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§ 2.3.5.5] and contributes to the System Interface definition.
 
 It also supports the "Interface Management" method of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§ 3.2.4].
 ## Stakeholder
@@ -47,7 +47,7 @@ Mengengerüst purchasing (BOM)
 A block definition diagram (BDD) featuring Physical Interface blocks with ports, flow properties, and tagged values. Compatibility between Physical Interface blocks is expressed by associations and association blocks. Physical Interface blocks may be specialisations of others (use of Generalisation).
 Note: When ports are used these shall be proxy ports and be typed by interface blocks.
 
-A tabular format listing Physical Interface blocks, their ports, tagged values and flow properties.
+A tabular format listing Physical Interface blocks, their ports, and flow properties.
 
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
