@@ -1,7 +1,7 @@
 # SAF Specification
-System Architecture Framework Specification ![Bild](diagrams/Under_construction_icon-yellow.svg) **Work in progress**
-
 ![System Architecture Framework](/diagrams/Banner_SAF.png)
+
+Disclaimer: System Architecture Framework Specification ![Bild](diagrams/Under_construction_icon-yellow.svg) **Work in progress**
 
 **We always welcome contributions from our MBSE community to improve SAF , see [how to contribute to SAF](contributing.md). To understand how we develop SAF, see [how SAF is developed](developing-saf/development.md).**
 
