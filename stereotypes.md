@@ -226,7 +226,7 @@ nothing
 ![icon](icons/SAF_FunctionAction.svg)
 
 ### Documentation
-
+<html>Stereotype realizes multiple Concepts:<BR><BR><UL><LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#General Functional Usage'>General Functional Usage</A><BR><BR><BR>General Functional Usage: Specifies the fact that a Function is used by one or more other Functions.<BR><BR><BR>Usage in Viewpoints:<BR></LI><LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#System Function IN System Process'>System Function IN System Process</A><BR><BR><BR>System Function IN System Process: Specifies the fact that a System Function is used in a System Process.<BR><BR><BR>Usage in Viewpoints:<BR></LI>
 
 ### Realizes
 [General Functional Usage](developing-saf/concept/concepts.md#General-Functional-Usage)<BR><BR>Specifies the fact that a Function is used by one or more other Functions.<BR>
@@ -256,7 +256,7 @@ nothing
 
 
 ### Documentation
-
+<html>Stereotype realizes multiple Concepts:<BR><BR><UL><LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Logical Context Element Constituent'>Logical Context Element Constituent</A><BR><BR><BR>Logical Context Element Constituent: Specifies the fact that a Logical Context Element exists in a specific Logical Context.<BR><BR><BR>Usage in Viewpoints:<BR></LI><LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Logical SOI Constituent'>Logical SOI Constituent</A><BR><BR><BR>Logical SOI Constituent: Specifies the fact that a Logical SOI exists in a specific Logical Context.<BR><BR><BR>Usage in Viewpoints:<BR></LI>
 
 ### Realizes
 [Logical Context Element Constituent](developing-saf/concept/concepts.md#Logical-Context-Element-Constituent)<BR><BR>Specifies the fact that a Logical Context Element exists in a specific Logical Context.<BR>
@@ -590,6 +590,16 @@ nothing
 
 ### Realizes
 [Physical Connection Point Definition](developing-saf/concept/concepts.md#Physical-Connection-Point-Definition)<BR><BR>Specifies the exchange capabilities of an interaction point on Physical Level.<BR>
+## SAF_PhysicalInternalRole
+
+### Icon
+
+
+### Documentation
+<html>Stereotype realizes multiple Concepts:<BR><BR><UL><LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical Element Constituent'>Physical Element Constituent</A><BR><BR><BR>Physical Element Constituent: Specifies the fact that a Physical Element may contain any number of Physical Elements.<BR><BR><BR>Usage in Viewpoints:<BR></LI><LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical Hardware Constituent'>Physical Hardware Constituent</A><BR><BR><BR>Physical Hardware Constituent: Specifies the fact that a physical element contains any number of Hardware Elements.<BR><BR><BR>Usage in Viewpoints:<BR></LI><LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical Software Constituent'>Physical Software Constituent</A><BR><BR><BR>Physical Software Constituent: Specifies the fact that physical element contains any number of Software Elements.<BR><BR><BR>Usage in Viewpoints:<BR></LI><LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Software Element Constituent'>Software Element Constituent</A><BR><BR><BR>Software Element Constituent: Specifies the fact that a Software Element contains  Software Elements.<BR><BR><BR>Usage in Viewpoints:<BR></LI>
+
+### Realizes
+[Physical Element Constituent](developing-saf/concept/concepts.md#Physical-Element-Constituent)<BR><BR>Specifies the fact that a Physical Element may contain any number of Physical Elements.<BR>
 ## SAF_PhysicalItem
 
 ### Icon
@@ -1076,7 +1086,7 @@ The Physical Functional Mapping Viewpoint analyses the assignment of the System 
 
 
 ### Documentation
-
+<html>Stereotype realizes multiple Concepts:<BR><BR><UL><LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#SHRrefiningCRN'>SHRrefiningCRN</A><BR><BR><BR>SHRrefiningCRN: Specifies the fact that a Stakeholder Concern is refined by Stakeholder Requirements.<BR><BR><BR>Usage in Viewpoints:<BR></LI><LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#SHRrefiningOSY'>SHRrefiningOSY</A><BR><BR><BR>SHRrefiningOSY: Specifies the fact that an Operational Story is refined by Stakeholder Requirements.<BR><BR><BR>Usage in Viewpoints:<BR></LI><LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#SHRrefiningOCY'>SHRrefiningOCY</A><BR><BR><BR>SHRrefiningOCY: Specifies the fact that an Operational Capability is refined by Stakeholder Requirements.<BR><BR><BR>Usage in Viewpoints:<BR></LI>
 
 ### Realizes
 [SHRrefiningCRN](developing-saf/concept/concepts.md#SHRrefiningCRN)<BR><BR>Specifies the fact that a Stakeholder Concern is refined by Stakeholder Requirements.<BR>
@@ -1286,7 +1296,7 @@ The Physical Functional Mapping Viewpoint analyses the assignment of the System 
 
 
 ### Documentation
-
+<html>Stereotype realizes multiple Concepts:<BR><BR><UL><LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#SRderivingFromSHR'>SRderivingFromSHR</A><BR><BR><BR>SRderivingFromSHR: Specifies the fact that a System Requirement is derived from a Stakeholder Requirement. Note: It may be used in a customer supplier relationship situation and supports the V Model concept of "External Unit Specification". See [VXT].<BR><BR><BR>Usage in Viewpoints:<BR></LI><LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#SRderivingFromSR'>SRderivingFromSR</A><BR><BR><BR>SRderivingFromSR: Specifies the fact that System Requirements are derived from a Stakeholder Requirement. <BR>Note: This is the relationship of requirements of different architectural levels. When the team responsible for the subsystem has direct access to the full upstream requirements set, then no subcontractor relationship needs to be established.<BR><BR><BR>Usage in Viewpoints:<BR></LI>
 
 ### Realizes
 [SRderivingFromSHR](developing-saf/concept/concepts.md#SRderivingFromSHR)<BR><BR>Specifies the fact that a System Requirement is derived from a Stakeholder Requirement. Note: It may be used in a customer supplier relationship situation and supports the V Model concept of "External Unit Specification". See [VXT].<BR>
@@ -1296,7 +1306,7 @@ The Physical Functional Mapping Viewpoint analyses the assignment of the System 
 
 
 ### Documentation
-
+<html>Stereotype realizes multiple Concepts:<BR><BR><UL><LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#SRrefiningLICP'>SRrefiningLICP</A><BR><BR><BR>SRrefiningLICP: Specifies the fact that a Logical Interface Connection Point is refined by System Requirements.<BR><BR><BR>Usage in Viewpoints:<BR></LI><LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#SRrefiningSUC'>SRrefiningSUC</A><BR><BR><BR>SRrefiningSUC: Specifies the fact that a System Use Case is refined by System Requirements.<BR><BR><BR>Usage in Viewpoints:<BR></LI><LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#SRrefiningSCY'>SRrefiningSCY</A><BR><BR><BR>SRrefiningSCY: Specifies the fact that a System Capability is refined by System Requirements.<BR><BR><BR>Usage in Viewpoints:<BR></LI>
 
 ### Realizes
 [SRrefiningLICP](developing-saf/concept/concepts.md#SRrefiningLICP)<BR><BR>Specifies the fact that a Logical Interface Connection Point is refined by System Requirements.<BR>
@@ -1306,7 +1316,7 @@ The Physical Functional Mapping Viewpoint analyses the assignment of the System 
 
 
 ### Documentation
-
+<html>Stereotype realizes multiple Concepts:<BR><BR><UL><LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#SUChasPostConditionSSE'>SUChasPostConditionSSE</A><BR><BR><BR>SUChasPostConditionSSE: Specifies the fact that a System Use Case has a state as Postcondition.<BR><BR><BR>Usage in Viewpoints:<BR></LI><LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#SUChasPreConditionSSE'>SUChasPreConditionSSE</A><BR><BR><BR>SUChasPreConditionSSE: Specifies the fact that a System Use Case has a state as Precondition.<BR><BR><BR>Usage in Viewpoints:<BR></LI><LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#SUCtakingPlaceInLSC'>SUCtakingPlaceInLSC</A><BR><BR><BR>SUCtakingPlaceInLSC: Specifies the fact that a System Use Case takes place in a Logical System Context.<BR><BR><BR>Usage in Viewpoints:<BR></LI><LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#System Use Case'>System Use Case</A><BR><BR><BR>System Use Case: The System Use Cases are a table of content of the services provided by the System of Interest to its System Actors. A System Use Case is only the abstract of the depicted System behavior and represents the purpose. While the main System of Interest interaction actors participating in this Use Case are identified, the behavior itself is specified by a Use Case Activity, <BR>Note: The intended use (and also misuse in so called "black use cases") of the System of Interest is captured in free text; story telling at a coarse level of detail which is understandable to Customers (non engineering stakeholders in general).<BR><BR><BR>Usage in Viewpoints:<BR></LI>
 
 ### Realizes
 [SUChasPostConditionSSE](developing-saf/concept/concepts.md#SUChasPostConditionSSE)<BR><BR>Specifies the fact that a System Use Case has a state as Postcondition.<BR>

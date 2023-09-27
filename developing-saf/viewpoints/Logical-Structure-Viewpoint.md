@@ -24,6 +24,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
 |[SAF_LogicalElement](../../stereotypes.md#SAF_LogicalElement)|[Logical Element](../concept/concepts.md#Logical-Element)|
+|[SAF_LogicalInternalRole](../../stereotypes.md#SAF_LogicalInternalRole)|[Internal Logical Element Constituent](../concept/concepts.md#Internal-Logical-Element-Constituent)|
 |[SAF_LogicalSOI](../../stereotypes.md#SAF_LogicalSOI)|[Logical SOI](../concept/concepts.md#Logical-SOI)|
 |[SAF_SLV02a_View](../../stereotypes.md#SAF_SLV02a_View)|[Logical Structure Viewpoint](../concept/concepts.md#Logical-Structure-Viewpoint)|
 ## Input from other Viewpoints

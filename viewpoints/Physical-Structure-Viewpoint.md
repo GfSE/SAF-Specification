@@ -28,8 +28,13 @@ The Physical Structure Viewpoint supports the "Allocation and Partitioning of Lo
 ## Presentation
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
+* [](../stereotypes.md#)
 * [SAF_PhysicalElement](../stereotypes.md#SAF_PhysicalElement)
 * [SAF_PhysicalHardwareElement](../stereotypes.md#SAF_PhysicalHardwareElement)
+* [SAF_PhysicalInternalRole](../stereotypes.md#SAF_PhysicalInternalRole)
+* [SAF_PhysicalInternalRole](../stereotypes.md#SAF_PhysicalInternalRole)
+* [SAF_PhysicalInternalRole](../stereotypes.md#SAF_PhysicalInternalRole)
+* [SAF_PhysicalInternalRole](../stereotypes.md#SAF_PhysicalInternalRole)
 * [SAF_PhysicalSoftwareElement](../stereotypes.md#SAF_PhysicalSoftwareElement)
 * [SAF_PhysicalSystem](../stereotypes.md#SAF_PhysicalSystem)
 * [SAF_SPV02a_View](../stereotypes.md#SAF_SPV02a_View)

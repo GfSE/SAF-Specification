@@ -1641,11 +1641,15 @@ Note: Connections between physical components indicate that item flows are passe
 
 exposed in viewpoint [Physical Structure Viewpoint](../../viewpoints/Physical-Structure-Viewpoint.md)
 
+realized by Stereotype [SAF_PhysicalInternalRole](../../stereotypes.md#SAF_PhysicalInternalRole)
+
 Specifies the fact that a Physical Element may contain any number of Physical Elements.
 ## Physical Hardware Constituent
 1 [Physical Element](#Physical-Element) Physical Hardware Constituent 0..* [Hardware Element](#Hardware-Element) 
 
 exposed in viewpoint [Physical Structure Viewpoint](../../viewpoints/Physical-Structure-Viewpoint.md)
+
+realized by Stereotype [SAF_PhysicalInternalRole](../../stereotypes.md#SAF_PhysicalInternalRole)
 
 Specifies the fact that a physical element contains any number of Hardware Elements.
 ## Physical Layer Ordering
@@ -1657,9 +1661,13 @@ Specifies an order among two physical layers. This order is valid within a Physi
 
 exposed in viewpoint [Physical Structure Viewpoint](../../viewpoints/Physical-Structure-Viewpoint.md)
 
+realized by Stereotype [SAF_PhysicalInternalRole](../../stereotypes.md#SAF_PhysicalInternalRole)
+
 Specifies the fact that physical element contains any number of Software Elements.
 ## Software Element Constituent
 1 [Software Element](#Software-Element) Software Element Constituent 0..* [Software Element](#Software-Element) 
+
+realized by Stereotype [SAF_PhysicalInternalRole](../../stereotypes.md#SAF_PhysicalInternalRole)
 
 Specifies the fact that a Software Element contains  Software Elements.
 ## State Transition
