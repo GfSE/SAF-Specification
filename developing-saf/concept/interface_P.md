@@ -8,6 +8,7 @@
 | PCCassertsCompatibiltyForPCPD | Specifies the Physical Interface Connection Point Definition the Physical Compatibility Assertion is valid for.|
 | PCNallowingPIE | Specifies the fact that a Physical Item Exchange is allowed on the Physical Interface Connection.|
 | PCPDdefiningPCP | Specifies the fact that a Physical Connection Point Definition defines the exchange capabilities of a Physical Connection Point.|
+| PCPOverPCP | Specifies the fact that a connection point communicates / transfers / flows / over an other connction point. Used to define layered physical interfaces.|
 | PCPapplyingToAPE | Specifies the fact that a Physical Interface Connection Point applies to an Abstract Physical Element.|
 | PCPapplyingToPCE | Specifies the fact that a Physical Interface Connection Point applies to a Physical Context Element.|
 | PCPspecifyingDetailOfPCPD | Specifies the fact that a Physical Connection Property is a detail of a Physical Connection Point Definition.|

@@ -6,8 +6,8 @@
 ## Example
 ![FFDS  POC System Context](../../diagrams/FFDS--POC-System-Context.svg)
 ## Purpose
-The Physical Context Exchange Viewpoint focuses on the identification of the physical interfaces with external entities and the identification of relevant documentation. It is used to capture Interface Requirements for IRS, applicable standards, protocols and format specifications that are agreed upon the interfaces.
-Note: Trace physical interfaces to logical interfaces  (the physical interfaces fulfill the exchange requirements stated on Logical Level)
+The Physical Context Exchange Viewpoint focuses on the identification of the physical interfaces with external entities and the identification of relevant documentation. It is used to capture Interface Design Reqirements  applicable standards, protocols and format specifications that are agreed upon the interfaces.
+
 ## Applicability
 The Physical Context Exchange Viewpoint is applied early in the life cycle to generate a complete view of all the relevant external interfaces together with relevant standards.
 The viewpoint guides the identification of expected interactions of the system with entities external to its system (control) boundary as defined in negotiated ICDs.
@@ -23,6 +23,7 @@ It also supports the "Interface Management" method of the INCOSE SYSTEMS ENGINEE
 * [IV&V Engineer](../../stakeholders.md#IV&V-Engineer)
 * [Maintainer](../../stakeholders.md#Maintainer)
 * [Safety Expert](../../stakeholders.md#Safety-Expert)
+* [Security Expert](../../stakeholders.md#Security-Expert)
 * [Software Developer](../../stakeholders.md#Software-Developer)
 * [Supplier](../../stakeholders.md#Supplier)
 * [System Architect](../../stakeholders.md#System-Architect)
@@ -31,6 +32,7 @@ It also supports the "Interface Management" method of the INCOSE SYSTEMS ENGINEE
 * How to connect the system or a system element to a test equipment?
 * What are the Interface Requirements regarding bandwidth, data throughput and latency?
 * What are the external physical entities the system interacts with in the respective context?
+* What are the protocols for exchanging items on an interface?
 * Which HW interfaces are necessary?
 * Which SW interfaces are necessary?
 * Which interface partners does a HW item have?
@@ -58,6 +60,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |[SAF_PhysicalInterfaceDefinition](../../stereotypes.md#SAF_PhysicalInterfaceDefinition)|[Physical Connection Point Definition](../concept/concepts.md#Physical-Connection-Point-Definition)|
 |[SAF_PhysicalSystem](../../stereotypes.md#SAF_PhysicalSystem)|[Physical SOI](../concept/concepts.md#Physical-SOI)|
 |[SAF_PhysicalUser](../../stereotypes.md#SAF_PhysicalUser)|[Physical User](../concept/concepts.md#Physical-User)|
+|[SAF_ProtocolLayerRelationship](../../stereotypes.md#SAF_ProtocolLayerRelationship)|[PCPOverPCP](../concept/concepts.md#PCPOverPCP)|
 |[SAF_SPV01c_View](../../stereotypes.md#SAF_SPV01c_View)|[Physical Context Exchange Viewpoint](../concept/concepts.md#Physical-Context-Exchange-Viewpoint)|
 ## Input from other Viewpoints
 ### Required Viewpoints

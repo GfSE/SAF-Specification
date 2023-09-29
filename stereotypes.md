@@ -640,6 +640,16 @@ nothing
 
 ### Realizes
 [Physical User](developing-saf/concept/concepts.md#Physical-User)<BR><BR>The Physical User is the representation for a human in the physical domain, outside the SOI scope, interacting with the SOI.<BR>
+## SAF_ProtocolLayerRelationship
+
+### Icon
+
+
+### Documentation
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#PCPOverPCP'>PCPOverPCP</A><BR><BR><BR>PCPOverPCP: Specifies the fact that a connection point communicates / transfers / flows / over an other connction point. Used to define layered physical interfaces.<BR><BR><BR>Usage in Viewpoints:<BR></html>
+
+### Realizes
+[PCPOverPCP](developing-saf/concept/concepts.md#PCPOverPCP)<BR><BR>Specifies the fact that a connection point communicates / transfers / flows / over an other connction point. Used to define layered physical interfaces.<BR>
 ## SAF_Refuter
 
 ### Icon

@@ -1607,6 +1607,16 @@ exposed in viewpoint [Operational Interaction Viewpoint](../../viewpoints/Operat
 realized by Metaclass Lifeline
 
 Specifies the fact that an Operational Context Performer Role participates in an Operational Interaction Scenario.
+## PCPOverPCP
+1 [Physical Connection Point](#Physical-Connection-Point) PCPOverPCP 1 [Physical Connection Point](#Physical-Connection-Point) 
+
+exposed in viewpoint [Physical Context Exchange Viewpoint](../../viewpoints/Physical-Context-Exchange-Viewpoint.md)
+
+exposed in viewpoint [Physical Internal Exchange Viewpoint](../../viewpoints/Physical-Internal-Exchange-Viewpoint.md)
+
+realized by Stereotype [SAF_ProtocolLayerRelationship](../../stereotypes.md#SAF_ProtocolLayerRelationship)
+
+Specifies the fact that a connection point communicates / transfers / flows / over an other connction point. Used to define layered physical interfaces.
 ## Physic Context Constituent
 1..* [Physical Context Element](#Physical-Context-Element) Physic Context Constituent 1..* [Physical System Context](#Physical-System-Context) 
 

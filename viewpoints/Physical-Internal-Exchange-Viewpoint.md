@@ -29,6 +29,7 @@ It also supports the "Interface Management" method of the INCOSE SYSTEMS ENGINEE
 * How do internal system elements interact with each other to provide the system function or service?
 * What additional information the system or a system element needs to generate to enable testing?
 * What are data / information items exchanged?
+* What are the protocols for exchanging items on an interface?
 * What kind of information is exchanged and processed within the system?
 * Which HW interfaces are necessary?
 * Which SW interfaces are necessary?
@@ -48,6 +49,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_PhysicalExchangeType](../stereotypes.md#SAF_PhysicalExchangeType)
 * [SAF_PhysicalHardwareElement](../stereotypes.md#SAF_PhysicalHardwareElement)
 * [SAF_PhysicalSoftwareElement](../stereotypes.md#SAF_PhysicalSoftwareElement)
+* [SAF_ProtocolLayerRelationship](../stereotypes.md#SAF_ProtocolLayerRelationship)
 * [SAF_SPV04b_View](../stereotypes.md#SAF_SPV04b_View)
 ## Input from other Viewpoints
 ### Required Viewpoints

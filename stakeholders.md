@@ -136,6 +136,9 @@ The Developer is a group or an individual implementing the system parts accordin
 * What are the non-functional requirements imposed on the system? 
 
   ***Rationale:  In my role, I need to trace my derived requirements against these ones relevant to me.***
+* What are the protocols for exchanging items on an interface? 
+
+  ***Rationale:  In my role i need to implement the protocol.***
 * What are the provided power inputs?
 * What delivery standards need to be provided?
 * What is the allocated power consumption?
@@ -200,6 +203,9 @@ IV&V Engineers are individuals or groups responsible for integration, validation
 * What are the non-functional requirements imposed on the system? 
 
   ***Rationale:  In my role, I need to prove System Requirements via test cases.***
+* What are the protocols for exchanging items on an interface? 
+
+  ***Rationale:  In my role i need to integrate and test the interface.***
 * What is the flow of critical information and data through the system?
 * What is the necessary response time for an interface or a service?
 * What is the sequence of interactions among the system and context elements
@@ -349,7 +355,12 @@ The IT-Security experts evaluate a proposed system architecture and design for I
 * What are the domains of similar security levels in the system or the system participates in?
 * What are the encryption means used for an exchange?
 * What are the interfaces between different domains?
-* What are the protocols used for exchanging information?
+* What are the protocols for exchanging items on an interface? 
+
+  ***Rationale:  In my role i need to assess the security on the interface.***
+* What are the protocols used for exchanging information? 
+
+  ***Rationale:  In my role i need to assess the security based on protocol usage in general.***
 * What are the requirements for security relevant IT-equipment?
 * What are the scenarios a system function is utilized in?
 * What is the necessary response time for an interface or a service?
@@ -388,7 +399,9 @@ The Developer is a group or an individual implementing the system parts accordin
 * What are the non-functional requirements imposed on the system? 
 
   ***Rationale:  In my role, I need to trace my derived requirements against these ones relevant to me.***
-* What are the protocols for exchanging items on an interface?
+* What are the protocols for exchanging items on an interface? 
+
+  ***Rationale:  In my role i need to implement the protocol.***
 * What is the allocation of functions to the physical architecture? 
 
   ***Rationale:  In my role, I need to implement the realization of sub-functions by my SW subsystem.***
@@ -488,6 +501,9 @@ The System Architect as an individual or group performing the systems engineerin
 * What are the operational scenarios (operational stories) relevant to the system?
 * What are the physical components?
 * What are the planned architectural means for risk mitigation?
+* What are the protocols for exchanging items on an interface? 
+
+  ***Rationale:  In my role i need to asses if the usage of protocols on interfaces is compatible with the system lifecyle conceps.***
 * What are the relationships between the partys involved in the operation of the intended solution?
 * What are the scenarios a system function is utilized in?
 * What are the system delivery standards?

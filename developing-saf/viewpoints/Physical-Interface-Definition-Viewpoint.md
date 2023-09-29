@@ -44,7 +44,7 @@ What connector types are compatible to each other?
 Mengengerüst purchasing (BOM)
 
 ## Presentation
-A block definition diagram (BDD) featuring Physical Interface blocks with ports, flow properties, and tagged values. Compatibility between Physical Interface blocks is expressed by associations and association blocks. Physical Interface blocks may be specialisations of others (use of Generalisation).
+A block definition diagram (BDD) featuring Physical Interface blocks with ports and flow properties. Compatibility between Physical Interface blocks is expressed by associations and association blocks. Physical Interface blocks may be specialisations of others (use of Generalisation).
 Note: When ports are used these shall be proxy ports and be typed by interface blocks.
 
 A tabular format listing Physical Interface blocks, their ports, and flow properties.
@@ -57,6 +57,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |ProxyPort [SysML Profile]|[Physical Connection Point](../concept/concepts.md#Physical-Connection-Point)|
 |[SAF_PhysicalExchangeType](../../stereotypes.md#SAF_PhysicalExchangeType)|[Physical Exchange Kind](../concept/concepts.md#Physical-Exchange-Kind)|
 |[SAF_PhysicalInterfaceDefinition](../../stereotypes.md#SAF_PhysicalInterfaceDefinition)|[Physical Connection Point Definition](../concept/concepts.md#Physical-Connection-Point-Definition)|
+|[SAF_ProtocolLayerRelationship](../../stereotypes.md#SAF_ProtocolLayerRelationship)|[PCPOverPCP](../concept/concepts.md#PCPOverPCP)|
 |[SAF_SPV05a_View](../../stereotypes.md#SAF_SPV05a_View)|[Physical Interface Definition Viewpoint](../concept/concepts.md#Physical-Interface-Definition-Viewpoint)|
 ## Input from other Viewpoints
 ### Required Viewpoints
