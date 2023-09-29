@@ -43,19 +43,19 @@ The PDR is the "design to" review. That means, the design is based on the baseli
  * [System Interface Definition Viewpoint](../viewpoints/System-Interface-Definition-Viewpoint.md)
  
  ## Viewpoints new for PDR
+ 
  * [Logical Structure Viewpoint](../viewpoints/Logical-Structure-Viewpoint.md)
  * [Logical Functional Assignment Viewpoint](../viewpoints/Logical-Functional-Assignment-Viewpoint.md)
  * [Logical Internal Interaction Viewpoint](../viewpoints/Logical-Internal-Interaction-Viewpoint.md)
  * [Logical Internal Exchange Viewpoint](../viewpoints/Logical-Internal-Exchange-Viewpoint.md)
- * [Physical Context Definition Viewpoint](../viewpoints/Physical-Context-Definition-Viewpoint.md) (michael)
- * [Physical Context Exchange Viewpoint](../viewpoints/Physical-Context-Exchange-Viewpoint.md) (michael)
- * [Physical Logical Assignment Viewpoint](../viewpoints/Physical-Logical-Assignment-Viewpoint.md) (michael)
- * [Physical Functional Assignment Viewpoint](../viewpoints/Physical-Functional-Assignment-Viewpoint.md) (alex) -> kind of analyseVP!
- 
- * Phyiscal Logical Interface Assignment Viewpoint (alex) assign conceptual ports & domain items to physical 
- * [Physical Structure Viewpoint](../viewpoints/Physical-Structure-Viewpoint.md) (michael)
- * [Physical Internal Exchange Viewpoint](../viewpoints/Physical-Internal-Exchange-Viewpoint.md) (michael)
- * [Physical Interface Definition Viewpoint](../viewpoints/Physical-Interface-Definition-Viewpoint.md) (sascha, markus,alex,jan) -> das sind die interface blöcke
+ * [Physical Context Definition Viewpoint](../viewpoints/Physical-Context-Definition-Viewpoint.md)
+ * [Physical Context Exchange Viewpoint](../viewpoints/Physical-Context-Exchange-Viewpoint.md) [issue 16](https://github.com/GfSE/SAF-Specification/issues/16)
+ * [Physical Logical Assignment Viewpoint](../viewpoints/Physical-Logical-Assignment-Viewpoint.md) [issue tbd](https://github.com/GfSE/SAF-Specification/issues/)
+ * [Physical Functional Assignment Viewpoint](../viewpoints/Physical-Functional-Assignment-Viewpoint.md)  [issue tbd](https://github.com/GfSE/SAF-Specification/issues/)
+ * Phyiscal Logical Interface Assignment Viewpoint [issue tbd](https://github.com/GfSE/SAF-Specification/issues/) 
+ * [Physical Structure Viewpoint](../viewpoints/Physical-Structure-Viewpoint.md) [issue17 ](https://github.com/GfSE/SAF-Specification/issues/17)
+ * [Physical Internal Exchange Viewpoint](../viewpoints/Physical-Internal-Exchange-Viewpoint.md) [issue 20](https://github.com/GfSE/SAF-Specification/issues/20)
+ * [Physical Interface Definition Viewpoint](../viewpoints/Physical-Interface-Definition-Viewpoint.md) [issue 15 ](https://github.com/GfSE/SAF-Specification/issues/15)
  * Subsystem Requirement Specification Viewpoint / Software Requirement Specification Viewpoint / Hardware Requirement Specification Viewpoint?
 
 # Information Items tbd
