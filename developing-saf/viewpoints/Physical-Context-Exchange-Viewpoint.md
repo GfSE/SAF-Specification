@@ -6,7 +6,7 @@
 ## Example
 ![FFDS  POC System Context](../../diagrams/FFDS--POC-System-Context.svg)
 ## Purpose
-The Physical Context Exchange Viewpoint focuses on the identification of the physical interfaces with external entities and the identification of relevant documentation. It is used to capture Interface Design Reqirements  applicable standards, protocols and format specifications that are agreed upon the interfaces.
+The Physical Context Exchange Viewpoint focuses on the identification of the physical interfaces with external entities and the identification of relevant documentation. It is used to capture Interface Design Requirements, applicable standards, protocols and format specifications, that are agreed upon the interfaces.
 
 ## Applicability
 The Physical Context Exchange Viewpoint is applied early in the life cycle to generate a complete view of all the relevant external interfaces together with relevant standards.
