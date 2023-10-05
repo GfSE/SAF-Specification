@@ -15,7 +15,7 @@ It also supports the "Interface Management" method of the INCOSE SYSTEMS ENGINEE
 ## Stakeholder
 ## Concern
 ## Presentation
-A block definition diagram (BDD) featuring Physical Interface blocks with ports, and flow properties.
+A block definition diagram (BDD) featuring Physical Interface blocks with ports and flow properties. Compatibility between Physical Interface blocks is expressed by associations and association blocks. Physical Interface blocks may be specialisations of others (use of Generalisation).
 Note: When ports are used these shall be proxy ports and be typed by interface blocks.
 
 A tabular format listing Physical Interface blocks, their ports, and flow properties.
