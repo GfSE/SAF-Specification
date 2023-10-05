@@ -1,5 +1,7 @@
 # How SAF is Developed?
 
+SAF is developed to foster Model Based Systems Engineering, and itself is developed using also a model based approach. To avoid confusion among the different kinds of models, they are explained in the next chapter.
+
 ## Kinds of Models
 
 ![Bild](../diagrams/Kinds-of-Models.svg)
@@ -28,16 +30,16 @@ The inner architecture follows the concepts of ISO 42010.
 
 ![Bild](../diagrams/Concept-Model-Definition.svg)
 
-Within the conceptual model the following elements can be recognized.
+Within the conceptual model the following elements can be recognized (many of them are specializations of ISO 42010 Concepts):
 
-* **Stakeholders**<BR> are classes of users having an interest on the information that is maintained in a SAF System Model.
-* **Concerns**<BR> sketch out the information need of Stakeholders, which in turn should be adressed by a SAF System Model.
-* **Rationale**<BR> expains why a Stakeholder has abovementionend information need resulting in a Concern
-* **Concepts**<BR> are the conceptual definition of items and their relationships forming an information network to be kept in a SAF System Model, in order to give answers to the Stakeholders Concerns.
-* **Viewpoints**<BR> select a set of Concepts in order to adress the information need expressed by a certain set of Stakeholers Concerns.
+* **SAF Architecture Framework Stakeholders**<BR> are classes of users having an interest on the information that is maintained in a SAF System Model.
+* **SAF Architecture Framework Concerns**<BR> sketch out the information need of SAF Architecture Framework Stakeholders, which in turn should be adressed by a SAF System Model.
+* **SAF Rationale**<BR> expains why a SAF Architectur Framework Stakeholder has abovementionend information need resulting in a SAF Architecture Framework Concern
+* **SAF Concepts**<BR> are the conceptual definition of items and their relationships forming an information network to be kept in a SAF System Model, in order to give answers to the SAF Architecture Framework Stakeholders Concerns.
+* **SAF Viewpoints**<BR> select a set of SAF Concepts in order to adress the information need expressed by a certain set of abovementioned Stakeholers Concerns.
   In SAF the size of Viewpoints should be optimized to support tailoring by selection of viewpoints appropriate to the engineering problem at hand. This  means that SAF Viewpoints should adress only a small number of well defined Concerns.
   
-* **Information Items**<BR> are like Viewpoints but at a larger scale. They can group Viewpoints while constraining them further. They also can be nested.
+* **SAF Information Items**<BR> are like SAF Viewpoints but at a larger scale. They can group SAF Viewpoints while constraining them further. They also can be nested.
   This allows to specify Information Items like e.g. an ISO 29148 SyRS by breaking it down into smaller Information Items and finally into Viewpoints.
   This allows to define which concerns are to be adressed e.g. by a SyRS document and which viewpoints are needed for it.
   The goal is, to precisely define the needed model work for certain points in an engieering project.
