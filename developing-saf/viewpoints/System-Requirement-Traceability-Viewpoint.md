@@ -45,8 +45,8 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |[SAF_SystemRequirementDerivation](../../stereotypes.md#SAF_SystemRequirementDerivation)|[SRderivingFromSHR](../concept/concepts.md#SRderivingFromSHR)|
 |[SAF_SystemRequirementDerivation](../../stereotypes.md#SAF_SystemRequirementDerivation)|[SRderivingFromSR](../concept/concepts.md#SRderivingFromSR)|
 |[SAF_SystemRequirementRefinement](../../stereotypes.md#SAF_SystemRequirementRefinement)|[SRrefiningSUC](../concept/concepts.md#SRrefiningSUC)|
-|[SAF_SystemRequirementRefinement](../../stereotypes.md#SAF_SystemRequirementRefinement)|[SRrefiningSCY](../concept/concepts.md#SRrefiningSCY)|
 |[SAF_SystemRequirementRefinement](../../stereotypes.md#SAF_SystemRequirementRefinement)|[SRrefiningLICP](../concept/concepts.md#SRrefiningLICP)|
+|[SAF_SystemRequirementRefinement](../../stereotypes.md#SAF_SystemRequirementRefinement)|[SRrefiningSCY](../concept/concepts.md#SRrefiningSCY)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Stakeholder Requirement Viewpoint](Stakeholder-Requirement-Viewpoint.md)
