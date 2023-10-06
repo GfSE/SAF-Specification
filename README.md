@@ -169,9 +169,12 @@ The SAF Common Domain provides viewpoints addressing model information that is c
 
 ### Common Domain Concerns
 * Provides information on standards and documents that are applicable or are referred to within the model.
+* Provides definition and overview of abbreviations and terms used throughout the model
 
 ### Common Domain Viewpoints
 * [Argumentation Assurance Viewpoint](viewpoints/Argumentation-Assurance-Viewpoint.md)
+* [Common-Standards-Definition-Viewpoint](viewpoints/Common-Terms-And-Abbreviations-Viewpoint.md)
+* [Common-Terms-And-Abbreviations-Viewpoint.md](viewpoints/Common-Terms-And-Abbreviations-Viewpoint.md)
 
 # Stakeholder Definition
 * [List of Stakeholders](stakeholders.md)
