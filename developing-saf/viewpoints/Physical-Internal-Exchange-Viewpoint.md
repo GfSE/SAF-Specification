@@ -5,6 +5,7 @@
 |[Physical](../../domains.md#Domain-Physical)|[Interaction & Collaboration](../../aspects.md#Aspect-Interaction-&-Collaboration)|![Under Construction](../../diagrams/Under_construction_icon-yellow.svg )[under construction](../../using-saf/maturity.md#under-construction)|
 ## Example
 ![Physical-Internal-Exchange-Viewpoint-example.svg](../../vp-examples/Physical-Internal-Exchange-Viewpoint-example.svg)
+![Physical-Internal-Exchange-Viewpoint-example-1.svg](../../vp-examples/Physical-Internal-Exchange-Viewpoint-example-1.svg)
 ## Purpose
 The Physical Internal Exchange Viewpoint serves for the identification and definition of interfaces of elements of the SOI. Also, the delegation of SOI element interfaces to SOI boundary interfaces is covered.
 The Phyiscal Internal Exchange Viewpoint
