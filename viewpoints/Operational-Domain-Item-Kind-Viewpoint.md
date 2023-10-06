@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Operational](../domains.md#Domain-Operational)|[Taxonomy & Structure](../aspects.md#Aspect-Taxonomy-&-Structure)|![Released](../diagrams/Symbol_confirmed.svg.png )[released](../using-saf/maturity.md#released)|
 ## Example
-![Operational Domain Item Definition](../diagrams/Operational-Domain-Item-Definition.svg)
+![Operational-Domain-Item-Kind-Viewpoint-example.svg](../vp-examples/Operational-Domain-Item-Kind-Viewpoint-example.svg)
 ## Purpose
 The Operational Domain Item Kind Viewpoint captures enterprise wide concepts and collects type definitions for any exchanged item of the Operational Domain. Its purpose is to define these item types and their relationships.
 ## Applicability

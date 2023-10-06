@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Functional](../../domains.md#Domain-Functional)|[Interface](../../aspects.md#Aspect-Interface)|![Released](../../diagrams/Symbol_confirmed.svg.png )[released](../../using-saf/maturity.md#released)|
 ## Example
-![FFDS System Interface Definition](../../diagrams/FFDS-System-Interface-Definition.svg)
+![System-Interface-Definition-Viewpoint-example.svg](../../vp-examples/System-Interface-Definition-Viewpoint-example.svg)
 ## Purpose
 The System Interface Definition Viewpoint captures system wide concepts defining functional interfaces. It allows to adopt long-lived standards and to harmonize the functional interface definitions to improve interchangeability, interoperability, and portability.
 ## Applicability

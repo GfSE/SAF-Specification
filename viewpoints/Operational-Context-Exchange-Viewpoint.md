@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Operational](../domains.md#Domain-Operational)|[Context & Exchange](../aspects.md#Aspect-Context-&-Exchange)|![Released](../diagrams/Symbol_confirmed.svg.png )[released](../using-saf/maturity.md#released)|
 ## Example
-![FDN Context Exchange](../diagrams/FDN-Context-Exchange.svg)
+![Operational-Context-Exchange-Viewpoint-example.svg](../vp-examples/Operational-Context-Exchange-Viewpoint-example.svg)
 ## Purpose
 The Operational Context Exchange Viewpoint provides the Operational Exchange between Operational Performers of information, systems, personnel, energy, etc.
 ## Applicability

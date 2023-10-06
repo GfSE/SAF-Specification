@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Physical](../domains.md#Domain-Physical)|[Interface](../aspects.md#Aspect-Interface)|![Under Construction](../diagrams/Under_construction_icon-yellow.svg )[under construction](../using-saf/maturity.md#under-construction)|
 ## Example
-![Interface Types](../diagrams/Interface-Types.svg)
+![Physical-Interface-Definition-Viewpoint-example.svg](../vp-examples/Physical-Interface-Definition-Viewpoint-example.svg)
 ## Purpose
 preliminary text - work in progess
 The Physical Interface Definition Viewpoint provides definitions for physical interfaces. These definitions are may be reused on different interfaces.

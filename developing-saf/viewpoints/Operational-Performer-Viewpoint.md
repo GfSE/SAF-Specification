@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Operational](../../domains.md#Domain-Operational)|[Taxonomy & Structure](../../aspects.md#Aspect-Taxonomy-&-Structure)|![Released](../../diagrams/Symbol_confirmed.svg.png )[released](../../using-saf/maturity.md#released)|
 ## Example
-![Operational Performer Definition](../../diagrams/Operational-Performer-Definition.svg)
+![Operational-Performer-Viewpoint-example.svg](../../vp-examples/Operational-Performer-Viewpoint-example.svg)
 ## Purpose
 The Operational Performer Viewpoint represents the taxonomy of the identified Operational Performers, if existing and relevant for the understanding of the operation of the intended solution. 
 ## Applicability

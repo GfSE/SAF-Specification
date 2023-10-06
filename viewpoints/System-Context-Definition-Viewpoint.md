@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Functional](../domains.md#Domain-Functional)|[Context & Exchange](../aspects.md#Aspect-Context-&-Exchange)|![Released](../diagrams/Symbol_confirmed.svg.png )[released](../using-saf/maturity.md#released)|
 ## Example
-![FFDS Context Definition](../diagrams/FFDS-Context-Definition.svg)
+![System-Context-Definition-Viewpoint-example.svg](../vp-examples/System-Context-Definition-Viewpoint-example.svg)
 ## Purpose
 The System Context Definition Viewpoint defines how the SOI is embedded in its Environment, i.e., where the boundary of the SOI is and who the External Entities are the SOI interacts with (e.g., Users, other External Systems, Environmental Conditions, etc.). The SOI provides and requests Context Functions. The SOI shall be able handle events and effects from the outside.
 Furthermore, the System Context Definition Viewpoint serves as architecture concept to demonstrate how the architecture defined in the The Operational Context Definition Viewpoint is realized.

@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Logical](../domains.md#Domain-Logical)|[Interaction & Collaboration](../aspects.md#Aspect-Interaction-&-Collaboration)|![Released](../diagrams/Symbol_confirmed.svg.png )[released](../using-saf/maturity.md#released)|
 ## Example
-![FFDS Logical Internal Exchange](../diagrams/FFDS-Logical-Internal-Exchange.svg)
+![Logical-Internal-Exchange-Viewpoint-example.svg](../vp-examples/Logical-Internal-Exchange-Viewpoint-example.svg)
 ## Purpose
 The Logical Internal Exchange Viewpoint serves for the identification and definition of interfaces of elements of the Logical System. Also, the delegation of system element interfaces to the Logical System boundary interfaces is covered.
 The Logical Internal Exchange Viewpoint

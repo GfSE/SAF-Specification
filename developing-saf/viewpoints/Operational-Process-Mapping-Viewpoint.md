@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Operational](../../domains.md#Domain-Operational)|[Traceability & Mapping](../../aspects.md#Aspect-Traceability-&-Mapping)|![Released](../../diagrams/Symbol_confirmed.svg.png )[released](../../using-saf/maturity.md#released)|
 ## Example
-![SAR and FDN Operational Process Mapping Table](../../diagrams/SAR-and-FDN-Operational-Process-Mapping-Table.svg)
+![Operational-Process-Mapping-Viewpoint-example.svg](../../vp-examples/Operational-Process-Mapping-Viewpoint-example.svg)
 ## Purpose
 The Operational Process Mapping Viewpoint describes the relationships of Operational Processes. The reasoning for Operational Processes from Operational Stories and their contribution to Capabilities is described. The assignment of Operational Processes to Operational Performers is captured.
 ## Applicability

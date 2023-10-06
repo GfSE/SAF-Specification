@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Functional](../../domains.md#Domain-Functional)|[Traceability & Mapping](../../aspects.md#Aspect-Traceability-&-Mapping)|![Released](../../diagrams/Symbol_confirmed.svg.png )[released](../../using-saf/maturity.md#released)|
 ## Example
-![FFDS Capability Mapping Table](../../diagrams/FFDS-Capability-Mapping-Table.svg)
+![System-Capability-Mapping-Viewpoint-example.svg](../../vp-examples/System-Capability-Mapping-Viewpoint-example.svg)
 ## Purpose
 The System Capability Mapping Viewpoint describes the relationships of System Capabilities. The reasoning for System Capabilities as support for System Use Cases and the contribution of System Processes to Capabilities are described. Furthermore, the mapping of System Capabilities to Operational Capabilities are identified.
 ## Applicability

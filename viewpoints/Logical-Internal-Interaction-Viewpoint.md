@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Logical](../domains.md#Domain-Logical)|[Interaction & Collaboration](../aspects.md#Aspect-Interaction-&-Collaboration)|![Released](../diagrams/Symbol_confirmed.svg.png )[released](../using-saf/maturity.md#released)|
 ## Example
-![FFDS Internal Interaction](../diagrams/FFDS-Internal-Interaction.svg)
+![Logical-Internal-Interaction-Viewpoint-example.svg](../vp-examples/Logical-Internal-Interaction-Viewpoint-example.svg)
 ## Purpose
 The Logical Internal Interaction Viewpoint describes System internal behavior based on the exchange between the Logical SOI Elements Usage. It depicts the sequence of interactions between the Logical SOI Elements and the Exchanged Domain Item Kinds needed to accomplish a System Partial Function.
 ## Applicability

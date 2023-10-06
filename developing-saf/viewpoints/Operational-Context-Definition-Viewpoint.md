@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Operational](../../domains.md#Domain-Operational)|[Context & Exchange](../../aspects.md#Aspect-Context-&-Exchange)|![Released](../../diagrams/Symbol_confirmed.svg.png )[released](../../using-saf/maturity.md#released)|
 ## Example
-![FDN Context Definition](../../diagrams/FDN-Context-Definition.svg)
+![Operational-Context-Definition-Viewpoint-example.svg](../../vp-examples/Operational-Context-Definition-Viewpoint-example.svg)
 ## Purpose
 The Operational Context Definition Viewpoint provides the Operational Contexts, and the involved Operational Performers necessary to support a specific set of Operational Capabilities.
 ## Applicability

@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Logical](../../domains.md#Domain-Logical)|[Traceability & Mapping](../../aspects.md#Aspect-Traceability-&-Mapping)|![Released](../../diagrams/Symbol_confirmed.svg.png )[released](../../using-saf/maturity.md#released)|
 ## Example
-![FFDS Context Definition Mapping of Usage](../../diagrams/FFDS-Context-Definition-Mapping-of-Usage.svg)
+![Logical-Functional-Mapping-Viewpoint-example.svg](../../vp-examples/Logical-Functional-Mapping-Viewpoint-example.svg)
 ## Purpose
 The Logical Functional Mapping Viewpoint captures the assignment of the System Functions and the System Partial Functions to the Logical SOI and the Logical SOI Elements.
 ## Applicability

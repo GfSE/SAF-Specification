@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Functional](../../domains.md#Domain-Functional)|[Process & Behavior](../../aspects.md#Aspect-Process-&-Behavior)|![Released](../../diagrams/Symbol_confirmed.svg.png )[released](../../using-saf/maturity.md#released)|
 ## Example
-![FFDS System Modes and States](../../diagrams/FFDS-System-Modes-and-States.svg)
+![System-State-Viewpoint-example.svg](../../vp-examples/System-State-Viewpoint-example.svg)
 ## Purpose
 The System State Viewpoint defines the conditions of the SOI or parts of thereof that constrain the execution of System Functions. System States are used as pre- or post-condition of System Use Cases, and as constraints within the definition of System Functions to specifying valid transitions. Valid transitions between System States and the conditions for transitioning are specified in system wide concepts captured in System Requirements.
 ## Applicability

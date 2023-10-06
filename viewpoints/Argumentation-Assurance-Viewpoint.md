@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Common](../domains.md#Domain-Common)|[Taxonomy & Structure](../aspects.md#Aspect-Taxonomy-&-Structure)|![Released](../diagrams/Symbol_confirmed.svg.png )[released](../using-saf/maturity.md#released)|
 ## Example
-![FFDS Safety Assurance Definition](../diagrams/FFDS-Safety-Assurance-Definition.svg)
+![Argumentation-Assurance-Viewpoint-example.svg](../vp-examples/Argumentation-Assurance-Viewpoint-example.svg)
 ## Purpose
 The Argumentation Assurance Viewpoint presents claims backed up by arguments that are supported by evidence, together with the possibility to counter such claims in a similar manner.
 ## Applicability

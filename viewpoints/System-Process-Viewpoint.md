@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Functional](../domains.md#Domain-Functional)|[Process & Behavior](../aspects.md#Aspect-Process-&-Behavior)|![Released](../diagrams/Symbol_confirmed.svg.png )[released](../using-saf/maturity.md#released)|
 ## Example
-![FFDS A Day in the Life of FFDS](../diagrams/FFDS-A-Day-in-the-Life-of-FFDS.svg)
+![System-Process-Viewpoint-example.svg](../vp-examples/System-Process-Viewpoint-example.svg)
 ## Purpose
 The System Process Viewpoint provides the functional representation of the system using a black-box approach
 * the representation of the SOI and all Context Elements
