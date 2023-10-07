@@ -13,6 +13,14 @@ The Physical Context Definition Viewpoint supports the “System Architecture De
  
 The Viewpoint is used to define context, boundaries, and external interactions of the SOI in the physical domain.
 
+## Presentation
+The following artifacts support the modeling activities: 
+The physical context definition diagram (BDD) defines the elements available in a specific context. At least one physical context definition diagram is used per identified context, featuring
+* one block representing the Physical System i.e. the system of interest
+* one block representing the specific Physical System Context
+* several blocks representing Physical Context Elements such as Physical User, Physical External System, and Physical Environment present in the systems context
+* composition relationships attaching the Physical Context Elements and the Physical System to the Physical System Context block
+
 ## Stakeholder
 * [Acquirer](../../stakeholders.md#Acquirer)
 * [Customer](../../stakeholders.md#Customer)
@@ -28,14 +36,6 @@ The Viewpoint is used to define context, boundaries, and external interactions o
 * What are the external physical entities the system interacts with in the respective context?
 * What is the system boundary definition?
 * What kind of test equipment is necessary to test the system elements?
-## Presentation
-The following artifacts support the modeling activities: 
-The physical context definition diagram (BDD) defines the elements available in a specific context. At least one physical context definition diagram is used per identified context, featuring
-* one block representing the Physical System i.e. the system of interest
-* one block representing the specific Physical System Context
-* several blocks representing Physical Context Elements such as Physical User, Physical External System, and Physical Environment present in the systems context
-* composition relationships attaching the Physical Context Elements and the Physical System to the Physical System Context block
-
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|

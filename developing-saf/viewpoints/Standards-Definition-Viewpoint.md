@@ -9,11 +9,11 @@
 The Standards Definition Viewpoint supports [tbd].
 ## Applicability
 The..
-## Stakeholder
-## Concern
 ## Presentation
 The..
 
+## Stakeholder
+## Concern
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|

@@ -13,6 +13,12 @@ The System Context Exchange Viewpoint serves for the identification and definiti
 * and defines the usage of interfaces, e.g., if only a subset of the interface is used.
 ## Applicability
 The System Context Exchange Viewpoint supports the "Prepare for Requirement Definition" activity included in "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.3] and contributes to the System Interface definition.
+## Presentation
+An internal block diagram (IBD) - associated to the System Context - featuring the SOI, the System Context Elements, and the connectors for each identified interface from SOI to the respective Context Elements. An interface is a connection resource for hooking on the SOI to other Context Elements. Item flows are defined for each exchange on the identified Interface. Connectors/ports may contain reference to the Interface Documents if applicable. Ports may be structured as appropriate to manage and structure the information.
+Note: more than one IBD focused on different areas of interest may be used in oder to keep the view comprehensive. Depending on the Stakeholder Concerns the Item Exchange information might be suppressed.
+
+A tabular format listing [tbd].
+
 ## Stakeholder
 * [Acquirer](../../stakeholders.md#Acquirer)
 * [Customer](../../stakeholders.md#Customer)
@@ -33,12 +39,6 @@ The System Context Exchange Viewpoint supports the "Prepare for Requirement Defi
 * What are the items exchanged at the boundary of the system with external entities?
 * What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
 * Which information is exchanged between the system and external entities?
-## Presentation
-An internal block diagram (IBD) - associated to the System Context - featuring the SOI, the System Context Elements, and the connectors for each identified interface from SOI to the respective Context Elements. An interface is a connection resource for hooking on the SOI to other Context Elements. Item flows are defined for each exchange on the identified Interface. Connectors/ports may contain reference to the Interface Documents if applicable. Ports may be structured as appropriate to manage and structure the information.
-Note: more than one IBD focused on different areas of interest may be used in oder to keep the view comprehensive. Depending on the Stakeholder Concerns the Item Exchange information might be suppressed.
-
-A tabular format listing [tbd].
-
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|

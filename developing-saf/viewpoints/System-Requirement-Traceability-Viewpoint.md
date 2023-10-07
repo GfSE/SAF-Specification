@@ -16,12 +16,6 @@ The System Requirement Traceability Viewpoint specifies for every System Require
 * System State
 ## Applicability
 The System Requirement Traceability Viewpoint supports the "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§4.3] and contributes to the System Requirements Traceability. The System Requirement Traceability Viewpoint also contributes to the System Requirements Verification and Traceability Matrix (RVTM).
-## Stakeholder
-* [Project Manager](../../stakeholders.md#Project-Manager)
-## Concern
-* What is the rationale for this system requirement?
-* Which Stakeholder Requirements are addressed by System Requirements?
-* Which system interface is addressed by a system requirement?
 ## Presentation
 A dependency matrix featuring relationships for every System Requirement to the functional domain level
 * System Use Case
@@ -32,6 +26,12 @@ A dependency matrix featuring relationships for every System Requirement to the 
 * System Process
 * System State
 
+## Stakeholder
+* [Project Manager](../../stakeholders.md#Project-Manager)
+## Concern
+* What is the rationale for this system requirement?
+* Which Stakeholder Requirements are addressed by System Requirements?
+* Which system interface is addressed by a system requirement?
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|

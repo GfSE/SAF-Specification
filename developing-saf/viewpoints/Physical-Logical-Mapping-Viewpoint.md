@@ -9,14 +9,14 @@
 The Physical Logical Mapping Viewpoint specifies the assignment of the Logical SOI Elements to the Physical SOI Elements.
 ## Applicability
 The Physical Functional Mapping Viewpoint supports the "System Architecture Definition process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015  .
-## Stakeholder
-## Concern
 ## Presentation
 A  Physical To Logical Assigment Matrix featuring
 * Logical Elements
 * Physical Elements
 * allocation relationships from logical elements to physical elements
 
+## Stakeholder
+## Concern
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|

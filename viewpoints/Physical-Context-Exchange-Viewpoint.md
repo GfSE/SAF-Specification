@@ -16,6 +16,17 @@ The viewpoint is used to capture the Interface Design Requirements with the rele
 The Physical Internal Exchange Viewpoint supports the "Create System Design " activity included in "Design Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§ 2.3.5.5] and contributes to the System Interface definition.
 
 It also supports the "Interface Management" method of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§ 3.2.4].
+## Presentation
+The following artifacts support the modeling activities:
+A) For each identified context a physical context interface IBD is used to identify the physical interfaces, the item flows that are exchanged on that interface and related documentation.
+B) A physical context interface table provides a list of all the defined external interfaces and the applicable documentation
+* context element kind (environment / external entity / physical user)
+* context element role name
+* port name and reference to port type
+* reference to context element type
+
+C) A context interface table is used to define the applicable standards, protocols and formats for the item flows exchanged via the identified interfaces.
+
 ## Stakeholder
 * [Acquirer](../stakeholders.md#Acquirer)
 * [Customer](../stakeholders.md#Customer)
@@ -37,17 +48,6 @@ It also supports the "Interface Management" method of the INCOSE SYSTEMS ENGINEE
 * Which SW interfaces are necessary?
 * Which interface partners does a HW item have?
 * Which interface partners does a SW item have?
-## Presentation
-The following artifacts support the modeling activities:
-A) For each identified context a physical context interface IBD is used to identify the physical interfaces, the item flows that are exchanged on that interface and related documentation.
-B) A physical context interface table provides a list of all the defined external interfaces and the applicable documentation
-* context element kind (environment / external entity / physical user)
-* context element role name
-* port name and reference to port type
-* reference to context element type
-
-C) A context interface table is used to define the applicable standards, protocols and formats for the item flows exchanged via the identified interfaces.
-
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Connector [UML_Standard_Profile]

@@ -9,6 +9,12 @@
 The Logical Functional Mapping Viewpoint captures the assignment of the System Functions and the System Partial Functions to the Logical SOI and the Logical SOI Elements.
 ## Applicability
 The Logical Function Mapping Viewpoint supports the "System Architecture Definition process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.4] and contributes to the System Architecture description.
+## Presentation
+A dependency matrix featuring
+* the call behavior action representing usage of System Functions or System Partial Functions,
+* the part properties representing usage of Logical SOI Elements,
+* the allocation relationship between above mentioned elements.
+
 ## Stakeholder
 * [Hardware Developer](../stakeholders.md#Hardware-Developer)
 * [Software Developer](../stakeholders.md#Software-Developer)
@@ -16,12 +22,6 @@ The Logical Function Mapping Viewpoint supports the "System Architecture Definit
 ## Concern
 * Which (system and system partial) functions are assigned to a logical item and logical item components?
 Note: if allocation of usage is used, then allocation of definition is a derived relationship XOR.
-## Presentation
-A dependency matrix featuring
-* the call behavior action representing usage of System Functions or System Partial Functions,
-* the part properties representing usage of Logical SOI Elements,
-* the allocation relationship between above mentioned elements.
-
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Allocate [SysML Profile]

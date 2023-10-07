@@ -51,6 +51,8 @@ Note: When ports are used these shall be proxy ports and be typed by interface b
 
 A tabular format listing Physical Interface blocks, their ports, and flow properties.
 
+## Stakeholder
+## Concern
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|

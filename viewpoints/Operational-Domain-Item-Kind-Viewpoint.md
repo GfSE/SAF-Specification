@@ -9,6 +9,10 @@
 The Operational Domain Item Kind Viewpoint captures enterprise wide concepts and collects type definitions for any exchanged item of the Operational Domain. Its purpose is to define these item types and their relationships.
 ## Applicability
 The Operational Domain Item Kind Viewpoint supports the "Business or Mission Analysis Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1] and contributes to the problem or opportunity statement.
+## Presentation
+A block definition diagram (BDD) featuring Operational Domain Item Kinds and their relationships in terms of generalization, composition, or general association.
+Note: Operational Domain Item Kinds are managed in the domain knowledge package of the Enterprise. Operational Domain Item Kinds shall be value types or blocks. 
+
 ## Stakeholder
 * [Acquirer](../stakeholders.md#Acquirer)
 * [Customer](../stakeholders.md#Customer)
@@ -18,10 +22,6 @@ The Operational Domain Item Kind Viewpoint supports the "Business or Mission Ana
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
 * Why types of exchange can exist between Operational Performers (i.e., flows of information, people, material, or energy)?
-## Presentation
-A block definition diagram (BDD) featuring Operational Domain Item Kinds and their relationships in terms of generalization, composition, or general association.
-Note: Operational Domain Item Kinds are managed in the domain knowledge package of the Enterprise. Operational Domain Item Kinds shall be value types or blocks. 
-
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * ItemFlow [SysML Profile]

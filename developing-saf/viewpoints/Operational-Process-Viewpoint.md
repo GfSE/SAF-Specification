@@ -9,6 +9,10 @@
 The Operational Process Viewpoint describes the Operational Processes related to a specific Operational Story, the sequence of execution, and their Operational Exchanges, including information, materials, natural resources, etc. The assignment of Operational Processes to Operational Performers is captured.
 ## Applicability
 The Operational Process Viewpoint supports the "Business or Mission Analysis Process" and the "Stakeholder Needs and Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1, § 4.2] and contributes to the definition of operational scenarios.
+## Presentation
+An activity diagram featuring the ordered execution of Operational Process Actions. Operational Processes may be linked in terms of control flow and/or data flow visualizing the Operational Exchanges needed. 
+Note: Operational Process Actions are assigned to Operational Roles and therefore in a more general manner to Operational Performers.
+
 ## Stakeholder
 * [Acquirer](../../stakeholders.md#Acquirer)
 * [Customer](../../stakeholders.md#Customer)
@@ -16,10 +20,6 @@ The Operational Process Viewpoint supports the "Business or Mission Analysis Pro
 ## Concern
 * What operational process activities shall be executed during the execution of an operational story?
 * Which operational activity shall be executed by which operational performer in the operational story?
-## Presentation
-An activity diagram featuring the ordered execution of Operational Process Actions. Operational Processes may be linked in terms of control flow and/or data flow visualizing the Operational Exchanges needed. 
-Note: Operational Process Actions are assigned to Operational Roles and therefore in a more general manner to Operational Performers.
-
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|

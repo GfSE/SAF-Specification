@@ -9,12 +9,12 @@
 The Argumentation Assurance Viewpoint presents claims backed up by arguments that are supported by evidence, together with the possibility to counter such claims in a similar manner.
 ## Applicability
 The Argumentation Assurance Viewpoint supports the ability to present an evidence pattern, a structure of claims, arguments, and evidence, which is a common need in systems engineering. It applies equally to the establishment of traceability, definition of safety cases, and even the presentation of business cases.
-## Stakeholder
-## Concern
-* How is a evidence-based claim supported?
 ## Presentation
 A block definition diagram (BDD) featuring a claim-argument-evidence (C-A-E) pattern.
 
+## Stakeholder
+## Concern
+* How is a evidence-based claim supported?
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|

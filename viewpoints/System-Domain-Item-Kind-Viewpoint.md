@@ -10,6 +10,12 @@ The System Domain Item Kind Viewpoint captures system wide concepts and collects
 Note: Domain Item Kinds are used as types of function input and output in the Functional Domain, and for types of interfaces in the Logical Domain. They specify what is to be exchanged but not how.
 ## Applicability
 The System Domain Item Kind Viewpoint supports the "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§4.3] and contributes to the System Function, and the System Interface definition.
+## Presentation
+A block definition diagram (BDD) featuring Domain Item Kinds and their relationships in terms of generalization, composition, or general association. 
+Note: Domain Item Kinds are managed in the domain knowledge package of the SOI, the Domain Item Kinds are visible and usable to all sub elements of the SOI. Domain Item Kinds shall be value types or blocks. 
+
+A tabular format listing the Domain Item Kinds, and their relationships.
+
 ## Stakeholder
 * [Acquirer](../stakeholders.md#Acquirer)
 * [Customer](../stakeholders.md#Customer)
@@ -18,12 +24,6 @@ The System Domain Item Kind Viewpoint supports the "System Requirements Definiti
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
 * Wich data types, entity types, related value types, and units have to be known to the SOI and used by the SOI?
-## Presentation
-A block definition diagram (BDD) featuring Domain Item Kinds and their relationships in terms of generalization, composition, or general association. 
-Note: Domain Item Kinds are managed in the domain knowledge package of the SOI, the Domain Item Kinds are visible and usable to all sub elements of the SOI. Domain Item Kinds shall be value types or blocks. 
-
-A tabular format listing the Domain Item Kinds, and their relationships.
-
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * FlowProperty [SysML Profile]

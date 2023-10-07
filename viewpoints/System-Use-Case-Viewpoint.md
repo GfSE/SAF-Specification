@@ -9,6 +9,12 @@
 The System Use Case Viewpoint provides an outside view on the system functionality from the perspective of the System Users and contributes to the definition of System Requirements and System Usage. The intended system use may be captured as free text use case description, as well as storytelling approach on a coarse level of detail. The main System Exchange Partners participating in the intended system use are identified. System use cases are related to a specific System Context.
 ## Applicability
 The System Use Case Viewpoint supports the "Stakeholder Needs and Requirements Definition Process", and "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§4.2 & §4.3] and contributes to the identification of both System Function and System Functional Interface.
+## Presentation
+A use case diagram featuring model elements representing System Use Cases, System Context and System Context Elements.
+Note: System Use Case pre- and postconditions shall be represented either by callout or compartment notation.
+
+A tabular format listing the System Use Cases, the System Use Case pre- and postconditions, the System Context, and the System Context Elements.
+
 ## Stakeholder
 * [Acquirer](../stakeholders.md#Acquirer)
 * [Customer](../stakeholders.md#Customer)
@@ -23,12 +29,6 @@ The System Use Case Viewpoint supports the "Stakeholder Needs and Requirements D
 * How will the system be used by whom and which contextual elements are involved?
 * Which is the system scenario, i.e., course of action, for the context in which the system of interest solution will exist?
 * Which users does the system support? What the system has to accomplish for these users?
-## Presentation
-A use case diagram featuring model elements representing System Use Cases, System Context and System Context Elements.
-Note: System Use Case pre- and postconditions shall be represented either by callout or compartment notation.
-
-A tabular format listing the System Use Cases, the System Use Case pre- and postconditions, the System Context, and the System Context Elements.
-
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Include [UML_Standard_Profile]

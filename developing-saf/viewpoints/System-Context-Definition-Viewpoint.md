@@ -10,6 +10,16 @@ The System Context Definition Viewpoint defines how the SOI is embedded in its E
 Furthermore, the System Context Definition Viewpoint serves as architecture concept to demonstrate how the architecture defined in the The Operational Context Definition Viewpoint is realized.
 ## Applicability
 The System Context Definition Viewpoint supports the "Prepare for Requirement Definition" activity included in "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.3] and contributes to the System Interface definition.
+## Presentation
+A block definition diagram (BDD) featuring the following elements
+* a Logical Element block representing SOI in the logical domain
+* a Logical Context block representing the addressed context in the logical domain
+* Logical Context Element blocks for each relevant context element
+* a composition relationship from Context block to each Context Element used in the context
+* a composition relationship from Context block to the SOI
+
+A tabular format listing [tbd].
+
 ## Stakeholder
 * [Acquirer](../../stakeholders.md#Acquirer)
 * [Customer](../../stakeholders.md#Customer)
@@ -24,16 +34,6 @@ The System Context Definition Viewpoint supports the "Prepare for Requirement De
 * What is the system boundary definition?
 * Which classes of users (roles) will interact with the system?
 * Which interface partners does the system have?
-## Presentation
-A block definition diagram (BDD) featuring the following elements
-* a Logical Element block representing SOI in the logical domain
-* a Logical Context block representing the addressed context in the logical domain
-* Logical Context Element blocks for each relevant context element
-* a composition relationship from Context block to each Context Element used in the context
-* a composition relationship from Context block to the SOI
-
-A tabular format listing [tbd].
-
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|

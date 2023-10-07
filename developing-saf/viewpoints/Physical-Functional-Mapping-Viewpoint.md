@@ -9,6 +9,13 @@
 The Physical Functional Mapping Viewpoint analyses the assignment of the System Functions and the System Partial Functions to the Physical SOI Elements.
 ## Applicability
 The Physical Functional Mapping Viewpoint supports the "System Architecture Definition process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015  .
+## Presentation
+A  Physical Functional Mapping Matrix featuring
+* the call behavior action representing usage of System Functions
+*  Physical SOI Elements 
+or Physical SOI
+* a derived relationship
+
 ## Stakeholder
 * [Hardware Developer](../../stakeholders.md#Hardware-Developer)
 * [Software Developer](../../stakeholders.md#Software-Developer)
@@ -17,13 +24,6 @@ The Physical Functional Mapping Viewpoint supports the "System Architecture Defi
 * What is the allocation of functions to the physical architecture?
 * Which functions and services need to be implemented in SW?
 * Which functions need to be realized by HW?
-## Presentation
-A  Physical Functional Mapping Matrix featuring
-* the call behavior action representing usage of System Functions
-*  Physical SOI Elements 
-or Physical SOI
-* a derived relationship
-
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|

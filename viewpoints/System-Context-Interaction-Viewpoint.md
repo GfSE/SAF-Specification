@@ -10,6 +10,10 @@ The System Context Interaction Viewpoint describes the System external behavior 
 Note: The System Context Interaction Viewpoint may refine a System Use Case.
 ## Applicability
 The System Context Interaction Viewpoint supports the "Prepare for Requirement Definition" activity included in "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.3] and contributes to the identification of expected interactions with systems external to the SOI.
+## Presentation
+A sequence diagram featuring the flow of control between SOI and Context Elements Roles of a System Context to achieve one outcome of a System Use Case. 
+Note: This diagram depicts the sending and receiving of messages between the interacting entities called lifelines, where time is represented along the vertical axis. The lifelines representatives are part properties typed by a System Context Elements.
+
 ## Stakeholder
 * [Acquirer](../stakeholders.md#Acquirer)
 * [Customer](../stakeholders.md#Customer)
@@ -30,10 +34,6 @@ The System Context Interaction Viewpoint supports the "Prepare for Requirement D
 * What is the necessary response time for an interface or a service?
 * What is the sequence of interactions among the system and context elements
 * Which users does the system support? What the system has to accomplish for these users?
-## Presentation
-A sequence diagram featuring the flow of control between SOI and Context Elements Roles of a System Context to achieve one outcome of a System Use Case. 
-Note: This diagram depicts the sending and receiving of messages between the interacting entities called lifelines, where time is represented along the vertical axis. The lifelines representatives are part properties typed by a System Context Elements.
-
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Interaction [UML_Standard_Profile]

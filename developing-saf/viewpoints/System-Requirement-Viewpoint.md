@@ -9,6 +9,12 @@
 The System Requirement Viewpoint specifies functions, non-functional properties, or constraints of the System. System Requirements are captured, the interrelationships between Functional and Non-Functional Requirements on the same level of abstraction and the traceability to Stakeholder Requirements are depicted.
 ## Applicability
 The System Requirement Viewpoint supports the "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§4.3] and contributes to the System Requirements Verification and Traceability Matrix (RVTM).
+## Presentation
+A tabular format listing
+* unique requirement ID, text, and attributes,
+* traceability reference to Stakeholder Requirements,
+* traceability reference to depended Requirements on the same level of abstraction.
+
 ## Stakeholder
 * [Hardware Developer](../../stakeholders.md#Hardware-Developer)
 * [IV&V Engineer](../../stakeholders.md#IV&V-Engineer)
@@ -23,12 +29,6 @@ The System Requirement Viewpoint supports the "System Requirements Definition Pr
 * What are the requirements of environmental conditions imposed on the system?
 * What is the range of acceptable system performance, i.e. the critical, top-level performance requirements derived from the operational needs?
 * Which Stakeholder Requirements are addressed by System Requirements?
-## Presentation
-A tabular format listing
-* unique requirement ID, text, and attributes,
-* traceability reference to Stakeholder Requirements,
-* traceability reference to depended Requirements on the same level of abstraction.
-
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|

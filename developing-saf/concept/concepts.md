@@ -1306,6 +1306,8 @@ Specifies the fact that the Function is only provided in distinct States. The st
 
 exposed in viewpoint [Stakeholder Identification Viewpoint](../../viewpoints/Stakeholder-Identification-Viewpoint.md)
 
+realized by Stereotype [SAF_SystemOfInterestConcern](../../stereotypes.md#SAF_SystemOfInterestConcern)
+
 Specifies the fact that a Stakeholder has certain Concerns.
 ## SSHrelatedToSSH
 1 [System of Interest Stakeholder](#System-of-Interest-Stakeholder) SSHrelatedToSSH 0..* [System of Interest Stakeholder](#System-of-Interest-Stakeholder) 
@@ -1319,6 +1321,8 @@ Explains relations between the Stakeholders of the System and other relevant Sys
 0..* [System of Interest Stakeholder](#System-of-Interest-Stakeholder) SSHrepresentingOPR 1..* [Operational Performer](#Operational-Performer) 
 
 exposed in viewpoint [Operational Performer Viewpoint](../../viewpoints/Operational-Performer-Viewpoint.md)
+
+exposed in viewpoint [Stakeholder Identification Viewpoint](../../viewpoints/Stakeholder-Identification-Viewpoint.md)
 
 realized by Stereotype [SAF_OperationalStakeholderRepresentation](../../stereotypes.md#SAF_OperationalStakeholderRepresentation)
 

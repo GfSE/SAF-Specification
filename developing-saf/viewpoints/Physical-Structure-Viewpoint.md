@@ -10,6 +10,7 @@ The Physical Structure Viewpoint is used to model the internal structure of the 
 
 ## Applicability
 The Physical Structure Viewpoint supports the "Allocation and Partitioning of Logical Entities to Physical Entities" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.4.2.7]. The Physical Structure Viewpoint presents the product breakdown structure of a technical solution for the SOI providing all the identified external interface(s), a structure capable to implement the functionality identified in the logical Viewpoint(s).
+## Presentation
 ## Stakeholder
 * [Acquirer](../../stakeholders.md#Acquirer)
 * [Project Manager](../../stakeholders.md#Project-Manager)
@@ -25,7 +26,6 @@ The Physical Structure Viewpoint supports the "Allocation and Partitioning of Lo
 * What physical items are used building up the system?
 * Which physical items the SOI is built of?
 * what is the decomposition hierarchy of the system/logical elements
-## Presentation
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
