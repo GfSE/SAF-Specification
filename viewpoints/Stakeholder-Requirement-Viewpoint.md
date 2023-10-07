@@ -2,7 +2,7 @@
 # SAF User Documentation : Stakeholder Requirement Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
-|[Operational](../domains.md#Domain-Operational)|[Requirement](../aspects.md#Aspect-Requirement)|![Released](../diagrams/Symbol_confirmed.svg.png )[released](../using-saf/maturity.md#released)|
+|[Operational](../domains.md#Domain-Operational)|[Requirement](../aspects.md#Aspect-Requirement)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
 ## Example
 ![Stakeholder-Requirement-Viewpoint-example.svg](../vp-examples/Stakeholder-Requirement-Viewpoint-example.svg)
 ## Purpose

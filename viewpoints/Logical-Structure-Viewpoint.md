@@ -2,7 +2,7 @@
 # SAF User Documentation : Logical Structure Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
-|[Logical](../domains.md#Domain-Logical)|[Taxonomy & Structure](../aspects.md#Aspect-Taxonomy-&-Structure)|![Released](../diagrams/Symbol_confirmed.svg.png )[released](../using-saf/maturity.md#released)|
+|[Logical](../domains.md#Domain-Logical)|[Taxonomy & Structure](../aspects.md#Aspect-Taxonomy-&-Structure)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
 ## Example
 ![Logical-Structure-Viewpoint-example.svg](../vp-examples/Logical-Structure-Viewpoint-example.svg)
 ## Purpose
