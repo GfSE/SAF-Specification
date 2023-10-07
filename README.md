@@ -1,28 +1,32 @@
 # SAF Specification
 ![System Architecture Framework](/diagrams/Banner_SAF.png)
 
-Disclaimer: System Architecture Framework Specification ![Bild](diagrams/Under_construction_icon-yellow.svg) **Work in progress**
+Disclaimer: System Architecture Framework Specification ![Bild](diagrams/Under_construction_icon-yellow.svg) **is Work in progress**
 
-**We always welcome contributions from our MBSE community to improve SAF , see [how to contribute to SAF](contributing.md). To understand how we develop SAF, see [how SAF is developed](developing-saf/development.md).**
+This repository contains both documentation for users of SAF and developers of SAF. To understand how we develop SAF, see [how SAF is developed](developing-saf/development.md).
 
-The System Architecture Framework Specification application is demonstrated using the Fire Forest Detection System example, courtesy of Tim Weilkiens. The Fire Forest Detection System example is based on the publication **SYSMOD - The Systems Modeling Toolbox, 3rd edition Pragmatic MBSE with SysML, Tim Weilkiens**
+**We always welcome contributions from our MBSE community to improve SAF , see [how to contribute to SAF](contributing.md).**
+
+The System Architecture Framework Specification application is demonstrated using the Fire Forest Detection System example, courtesy of Tim Weilkiens. 
+
+The Fire Forest Detection System example is based on the publication **SYSMOD - The Systems Modeling Toolbox, 3rd edition Pragmatic MBSE with SysML, Tim Weilkiens**
 
 # Viewpoint Grid
 The Viewpoints are organized as a Grid featuring [Domains](domains.md) as rows and [Aspects](aspects.md) as columns.
 
 ![SAF Grid](vp-examples/Grid-Overview-Viewpoint-example.svg)
 
-The subsequent chapters give an overview over the SAF viewpoints. The specifications of the SAF viewpoints are available as [PDF](./pdfs) format, too.
+The subsequent chapters give an overview over the SAF viewpoints, grouped by [Domains](domains.md) The specifications of the SAF viewpoints are available as [PDF format](./pdfs), too.
 
 ## Operational Domain
 
 ### Operational Domain Objective
 
-The SAF Operational Domain aims to get an understanding of required organizational or operational entity capabilities, as a foundation for to systems to be acuired or developed. The viewpoints of the SAF Operational Domain assist the "Business or Mission Analysis Process" and the "Stakeholder Needs and Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1, § 4.2].
+The SAF Operational Domain aims to get an understanding of required organizational or operational entity capabilities, as a foundation and reasoning for to systems to be acuired or developed. The viewpoints of the SAF Operational Domain assist the "Business or Mission Analysis Process" and the "Stakeholder Needs and Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1, § 4.2].
 
 The SAF Operational Domain supports the model-based development of a [CONOPS](https://www.sebokwiki.org/wiki/Concept_of_Operations_(ConOps)_(glossary)) - as well as an [OPSCON](https://www.sebokwiki.org/wiki/Business_or_Mission_Analysis) and related life cycle concepts - for an organization or operational entity seeking for an improvement of existing capabilities or in establishing new ones.
 
-By identifying Stakeholders and their Requirements the SAF Operational Domain supports the derivation of a complete and consolidated set of Stakeholder Requirements based on operational activities and exchanges.
+By identifying Stakeholders and their Requirements the SAF Operational Domain supports the derivation of a complete and consolidated set of Stakeholder Requirements based on operational stories, operational processes, operational capabilites, and operational exchanges.
 
 ### Operational Domain Concerns
 
@@ -43,7 +47,7 @@ By identifying Stakeholders and their Requirements the SAF Operational Domain su
 #### Operational Domain Aspect Behavior
 * [Operational Process Viewpoint](viewpoints/Operational-Process-Viewpoint.md)
 #### Operational Domain Aspect Interaction and Collaboration
-* Operational Interaction Viewpoint
+* [Operational Interaction Viewpoint](viewpoints/Operational-Interaction-Viewpoint.md)
 #### Operational Domain Aspect Requirement
 * [Stakeholder Requirement Viewpoint](viewpoints/Stakeholder-Requirement-Viewpoint.md)
 #### Operational Domain Aspect Traceability & Mapping
@@ -54,12 +58,12 @@ By identifying Stakeholders and their Requirements the SAF Operational Domain su
 
 ### Functional Domain Objective
 
-The Functional Domain Viewpoints translate Operational Domain usage into the notion of System Functions defining the demanded system behavior and quality attributes - performance, safety, security, etc.; the demanded system behavior as it is perceived by the User or other Entitys at the System Boundary (known as usage behavior). The result of the elaboration of the viewpoints in the Functional Domain is a comprehensive System Specification.
+The Functional Domain assumes a conceptual black box perspective onto the system to be developed. It translates Operational Domain usage into the notion of System Functions defining the demanded system behavior and quality attributes - performance, safety, security, etc.; the demanded system behavior as it is perceived by the User or other Entitys at the System Boundary (known as usage behavior). The result of the elaboration of the viewpoints in the Functional Domain is a comprehensive System Specification.
 
 ### Functional Domain Concerns
 
 * Defining the System Boundary
-  * identifcation of interaction partners and functional interfaces
+  * identifcation of interaction partners and system interfaces
 * Consolidating Functional Requirements: 
   * formally specifying the requirements of the system behavior using a black box approach
 * Mastering functional dependency: 
@@ -97,6 +101,8 @@ The Functional Domain Viewpoints translate Operational Domain usage into the not
 
 ### Logical Domain Objective
 
+The Logical Domain assume a conceptual white box perspective onto the system to be developed.
+
 The Logical Domain Viewpoints describe the Logical Structure and the distribution of responsibilitys for the Functionality of the SOI by means of a network of interacting Logical Elements that are responsible for a set of desired Functions. These Logical Elements and their Interactions are arranged in the Logical Architecture of the SOI. The structure of the Logical Architecture is in general influenced by nonfunctional criteria, e.g., maintainability, safety, and reliability.
 The Logical Domain is not a different abstraction level - compared to the Functional Domain, but a white box perspective on the same abstraction level.
 
@@ -133,7 +139,7 @@ For traceability the Physical Domain defines diagrams showing the mapping of the
 ### Physical Domain Concerns
 
 #### Structure
-* Show the decomposition of the system into system elements down the hierarch and provide configuration meta data.
+* Show the decomposition of the system into system elements down the hierarchy.
 #### Interfaces
 * Identify external interfaces and the information and data items that are exchanged or transferred via an interface together with related documentation.
 * Identify applicable interface standards and allocate the standards to physical interfaces.
@@ -163,6 +169,8 @@ For traceability the Physical Domain defines diagrams showing the mapping of the
 * [Physical Protocol Stack Definition Viewpoint](viewpoints/Physical-Protocol-Stack-Definition-Viewpoint.md)
 #### Physical Domain Aspect Traceability & Mapping
 * [Physical Functional Mapping Viewpoint](viewpoints/Physical-Functional-Mapping-Viewpoint.md)
+* [Physical Logical Mapping Viewpoint](viewpoints/Physical-Logical-Mapping-Viewpoint.md)
+
 ## Common Domain
 ### Common Domain Objective
 The SAF Common Domain provides viewpoints addressing model information that is common to all other domains or that are applicable throughout the model.
