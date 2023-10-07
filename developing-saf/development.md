@@ -112,4 +112,4 @@ It consists of
 * [Development view on SAF Viewpoints](viewpoints/viewpoint-dev.md)
 
 
-[^1]: The question about the recommended workflow cannot be answered by a single viewpoint description, this is an overarcing topic, which is currently not covered by the SAF documentation. See #14
+[^1]: The question about the recommended workflow cannot be answered by a single viewpoint description, this is an overarcing topic, which is currently not covered by the SAF documentation. [See issue 14](https://github.com/GfSE/SAF-Specification/issues/14)
