@@ -334,8 +334,6 @@ The Operational Story represents one or more Operational Use Cases in the Usage 
 ## Physical Connection Point
 exposed in viewpoint [Physical Context Exchange Viewpoint](../../viewpoints/Physical-Context-Exchange-Viewpoint.md)
 
-exposed in viewpoint [Physical Interface Definition Viewpoint](../../viewpoints/Physical-Interface-Definition-Viewpoint.md)
-
 exposed in viewpoint [Physical Internal Exchange Viewpoint](../../viewpoints/Physical-Internal-Exchange-Viewpoint.md)
 
 realized by Stereotype ProxyPort
@@ -344,17 +342,15 @@ Specifies the existence of an interaction point on Physical Level.
 ## Physical Connection Point Definition
 exposed in viewpoint [Physical Interface Definition Viewpoint](../../viewpoints/Physical-Interface-Definition-Viewpoint.md)
 
-exposed in viewpoint [Physical Internal Exchange Viewpoint](../../viewpoints/Physical-Internal-Exchange-Viewpoint.md)
-
 realized by Stereotype [SAF_PhysicalInterfaceDefinition](../../stereotypes.md#SAF_PhysicalInterfaceDefinition)
 
 Specifies the exchange capabilities of an interaction point on Physical Level.
-## Physical Connection Property
+## Physical Connection Point Property
 exposed in viewpoint [Physical Interface Definition Viewpoint](../../viewpoints/Physical-Interface-Definition-Viewpoint.md)
 
 realized by Stereotype FlowProperty
 
-Specifies a detail of an interaction point on Physical Level.
+Specifies a detail of a physical connection point.
 ## Physical Connector Compatibility
 Specifies the fact that two Physical Interface Connection Point Definitions are compatible and how the Physical Interface Connection Properties are mapped.
 ## Physical Context Element
@@ -392,9 +388,13 @@ realized by Stereotype [SAF_PhysicalExternalSystem](../../stereotypes.md#SAF_Phy
 
 The External System in the Physical Domain, outside the SOI scope, interacting with the SOI. E.g. power grid, mobile network, fresh water system (in a house).
 ## Physical Item Exchange
+exposed in viewpoint [Physical Context Exchange Viewpoint](../../viewpoints/Physical-Context-Exchange-Viewpoint.md)
+
+exposed in viewpoint [Physical Internal Exchange Viewpoint](../../viewpoints/Physical-Internal-Exchange-Viewpoint.md)
+
 realized by Stereotype ItemFlow
 
-Specifies the exchange that is to take place on a Physical Interface Connection.
+Specifies the exchange that is to take place on a Physical Connection.
 ## Physical Layer
 Specifies a Physical Layer, usually used for communication.
 ## Physical Layer Stack
@@ -988,11 +988,19 @@ Specifies the Physical Interface Connection Point Definition the Physical Compat
 ## PCNallowingPIE
 1 [Physical Connection](#Physical-Connection) PCNallowingPIE 0..* [Physical Item Exchange](#Physical-Item-Exchange) 
 
-Specifies the fact that a Physical Item Exchange is allowed on the Physical Interface Connection.
+exposed in viewpoint [Physical Context Exchange Viewpoint](../../viewpoints/Physical-Context-Exchange-Viewpoint.md)
+
+exposed in viewpoint [Physical Internal Exchange Viewpoint](../../viewpoints/Physical-Internal-Exchange-Viewpoint.md)
+
+Specifies the fact that a Physical Item Exchange is allowed on the Physical Connection.
 ## PCPDdefiningPCP
 1 [Physical Connection Point Definition](#Physical-Connection-Point-Definition) PCPDdefiningPCP 0..* [Physical Connection Point](#Physical-Connection-Point) 
 
+exposed in viewpoint [Physical Context Exchange Viewpoint](../../viewpoints/Physical-Context-Exchange-Viewpoint.md)
+
 exposed in viewpoint [Physical Interface Definition Viewpoint](../../viewpoints/Physical-Interface-Definition-Viewpoint.md)
+
+exposed in viewpoint [Physical Internal Exchange Viewpoint](../../viewpoints/Physical-Internal-Exchange-Viewpoint.md)
 
 Specifies the fact that a Physical Connection Point Definition defines the exchange capabilities of a Physical Connection Point.
 ## PCPapplyingToAPE
@@ -1007,8 +1015,14 @@ Specifies the fact that a Physical Interface Connection Point applies to an Abst
 0..* [Physical Connection Point](#Physical-Connection-Point) PCPapplyingToPCE 1 [Physical Context Element](#Physical-Context-Element) 
 
 Specifies the fact that a Physical Interface Connection Point applies to a Physical Context Element.
+## PCPisPartOfPCPD
+0..* [Physical Connection Point](#Physical-Connection-Point) PCPisPartOfPCPD 1 [Physical Connection Point Definition](#Physical-Connection-Point-Definition) 
+
+exposed in viewpoint [Physical Interface Definition Viewpoint](../../viewpoints/Physical-Interface-Definition-Viewpoint.md)
+
+specifies that a physical connection point can be a part of a physical connection point definition. This fosters reuse and allows structuring of definitions.
 ## PCPspecifyingDetailOfPCPD
-0..* [Physical Connection Property](#Physical-Connection-Property) PCPspecifyingDetailOfPCPD 1 [Physical Connection Point Definition](#Physical-Connection-Point-Definition) 
+0..* [Physical Connection Point Property](#Physical-Connection-Point-Property) PCPspecifyingDetailOfPCPD 1 [Physical Connection Point Definition](#Physical-Connection-Point-Definition) 
 
 exposed in viewpoint [Physical Interface Definition Viewpoint](../../viewpoints/Physical-Interface-Definition-Viewpoint.md)
 
@@ -1022,13 +1036,17 @@ Specifies the fact that a Physical Exchange Kind is assigned to a particular Phy
 
 Specifies the fact that a System Domain Kind is realized by Physical Exchange Kinds.
 ## PEKtypingPCP
-1 [Physical Exchange Kind](#Physical-Exchange-Kind) PEKtypingPCP 0..* [Physical Connection Property](#Physical-Connection-Property) 
+1 [Physical Exchange Kind](#Physical-Exchange-Kind) PEKtypingPCP 0..* [Physical Connection Point Property](#Physical-Connection-Point-Property) 
 
 exposed in viewpoint [Physical Interface Definition Viewpoint](../../viewpoints/Physical-Interface-Definition-Viewpoint.md)
 
-Specifies the fact that a Physical Exchange Kind defines the type of a Physical Connection Property.
+Specifies the fact that a Physical Exchange Kind defines the type of a Physical Connection Point Property.
 ## PEKtypingPIE
 1 [Physical Exchange Kind](#Physical-Exchange-Kind) PEKtypingPIE 0..* [Physical Item Exchange](#Physical-Item-Exchange) 
+
+exposed in viewpoint [Physical Context Exchange Viewpoint](../../viewpoints/Physical-Context-Exchange-Viewpoint.md)
+
+exposed in viewpoint [Physical Internal Exchange Viewpoint](../../viewpoints/Physical-Internal-Exchange-Viewpoint.md)
 
 Specifies the fact that a Physical Exchange Kind defines the type of a Physical Item Exchange.
 ## PLOisValidInPLS
@@ -1616,11 +1634,21 @@ Specifies the fact that an Operational Context Performer Role participates in an
 
 exposed in viewpoint [Physical Context Exchange Viewpoint](../../viewpoints/Physical-Context-Exchange-Viewpoint.md)
 
+exposed in viewpoint [Physical Interface Definition Viewpoint](../../viewpoints/Physical-Interface-Definition-Viewpoint.md)
+
 exposed in viewpoint [Physical Internal Exchange Viewpoint](../../viewpoints/Physical-Internal-Exchange-Viewpoint.md)
 
 realized by Stereotype [SAF_ProtocolLayerRelationship](../../stereotypes.md#SAF_ProtocolLayerRelationship)
 
-Specifies the fact that a connection point communicates / transfers / flows / over an other connction point. Used to define layered physical interfaces.
+Specifies the fact that a physical connection point communicates / transfers / flows / over an other physical connection point. Used to define layered physical interfaces, and show layer relationships between interfaces.
+## PCPPOverPCPP
+1 [Physical Connection Point Property](#Physical-Connection-Point-Property) PCPPOverPCPP 1 [Physical Connection Point Property](#Physical-Connection-Point-Property) 
+
+exposed in viewpoint [Physical Interface Definition Viewpoint](../../viewpoints/Physical-Interface-Definition-Viewpoint.md)
+
+realized by Stereotype [SAF_ProtocolLayerRelationship](../../stereotypes.md#SAF_ProtocolLayerRelationship)
+
+Specifies the fact that a physical connection point property communicates / transfers / flows / over an other physical connection point property. Used to define layered physical interfaces, and show layer relationships between interface details.
 ## Physic Context Constituent
 1..* [Physical Context Element](#Physical-Context-Element) Physic Context Constituent 1..* [Physical System Context](#Physical-System-Context) 
 
@@ -1646,9 +1674,11 @@ Specifies the fact that a Physical SOI exists in a specific Physical Context.
 
 exposed in viewpoint [Physical Context Exchange Viewpoint](../../viewpoints/Physical-Context-Exchange-Viewpoint.md)
 
+exposed in viewpoint [Physical Internal Exchange Viewpoint](../../viewpoints/Physical-Internal-Exchange-Viewpoint.md)
+
 realized by Metaclass Connector
 
-Specifies the connection of two interface connection points on Physical Level.
+Specifies the connection of two physical connection points.
 Note: Connections between physical components indicate that item flows are passed from one output of a source component to one or more inputs of target components.
 ## Physical Element Constituent
 1 [Physical Element](#Physical-Element) Physical Element Constituent 0..* [Physical Element](#Physical-Element) 

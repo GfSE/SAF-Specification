@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Operational](../domains.md#Domain-Operational)|[Requirement](../aspects.md#Aspect-Requirement)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
 ## Example
-![Stakeholder-Requirement-Viewpoint-example.svg](../vp-examples/Stakeholder-Requirement-Viewpoint-example.svg)
+![Stakeholder-Requirement-Viewpoint-primary-example.svg](../vp-examples/Stakeholder-Requirement-Viewpoint-primary-example.svg)
 ## Purpose
 The Stakeholder Requirement Viewpoint specifies all properties that the intended solution shall possess or expose from the perspective of the Stakeholders. The Stakeholder Requirement Viewpoint determines capabilities, functions, non-functional properties, and constraints.
 ## Applicability

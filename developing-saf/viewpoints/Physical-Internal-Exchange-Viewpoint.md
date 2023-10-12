@@ -4,9 +4,9 @@
 | --- | --- | --- |
 |[Physical](../../domains.md#Domain-Physical)|[Interaction & Collaboration](../../aspects.md#Aspect-Interaction-&-Collaboration)|![Under Construction](../../diagrams/Under_construction_icon-yellow.svg )[under construction](../../using-saf/maturity.md#under-construction)|
 ## Example
-![Physical-Internal-Exchange-Viewpoint-example.svg](../../vp-examples/Physical-Internal-Exchange-Viewpoint-example.svg)
-![Physical-Internal-Exchange-Viewpoint-example-1.svg](../../vp-examples/Physical-Internal-Exchange-Viewpoint-example-1.svg)
-![Physical-Internal-Exchange-Viewpoint-example-2.svg](../../vp-examples/Physical-Internal-Exchange-Viewpoint-example-2.svg)
+![Physical-Internal-Exchange-Viewpoint-primary-example.svg](../../vp-examples/Physical-Internal-Exchange-Viewpoint-primary-example.svg)
+![Physical-Internal-Exchange-Viewpoint-primary-example-1.svg](../../vp-examples/Physical-Internal-Exchange-Viewpoint-primary-example-1.svg)
+![Physical-Internal-Exchange-Viewpoint-primary-example-2.svg](../../vp-examples/Physical-Internal-Exchange-Viewpoint-primary-example-2.svg)
 ## Purpose
 The Physical Internal Exchange Viewpoint serves for the identification and definition of interfaces of elements of the SOI. Also, the delegation of SOI element interfaces to SOI boundary interfaces is covered.
 The Phyiscal Internal Exchange Viewpoint
@@ -46,7 +46,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
 |Connector [UML_Standard_Profile]|[Physical Connection](../concept/concepts.md#Physical-Connection)|
-|FlowProperty [SysML Profile]|[Physical Connection Property](../concept/concepts.md#Physical-Connection-Property)|
+|FlowProperty [SysML Profile]|[Physical Connection Point Property](../concept/concepts.md#Physical-Connection-Point-Property)|
 |ItemFlow [SysML Profile]|[Physical Item Exchange](../concept/concepts.md#Physical-Item-Exchange)|
 |ProxyPort [SysML Profile]|[Physical Connection Point](../concept/concepts.md#Physical-Connection-Point)|
 |[SAF_PhysicalElement](../../stereotypes.md#SAF_PhysicalElement)|[Physical Element](../concept/concepts.md#Physical-Element)|

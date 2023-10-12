@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Common](../domains.md#Domain-Common)|[Taxonomy & Structure](../aspects.md#Aspect-Taxonomy-&-Structure)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
 ## Example
-![Argumentation-Assurance-Viewpoint-example.svg](../vp-examples/Argumentation-Assurance-Viewpoint-example.svg)
+![Argumentation-Assurance-Viewpoint-primary-example.svg](../vp-examples/Argumentation-Assurance-Viewpoint-primary-example.svg)
 ## Purpose
 The Argumentation Assurance Viewpoint presents claims backed up by arguments that are supported by evidence, together with the possibility to counter such claims in a similar manner.
 ## Applicability

@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Common](../domains.md#Domain-Common)|[Taxonomy & Structure](../aspects.md#Aspect-Taxonomy-&-Structure)|![Proposed](../diagrams/Under_construction_icon-red.svg )[proposed](../using-saf/maturity.md#proposed)|
 ## Example
-![Grid-Overview-Viewpoint-example.svg](../vp-examples/Grid-Overview-Viewpoint-example.svg)
+![Grid-Overview-Viewpoint-primary-example.svg](../vp-examples/Grid-Overview-Viewpoint-primary-example.svg)
 ## Purpose
 The Standards Definition Viewpoint supports [tbd].
 ## Applicability

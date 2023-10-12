@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Logical](../../domains.md#Domain-Logical)|[Taxonomy & Structure](../../aspects.md#Aspect-Taxonomy-&-Structure)|![Released](../../diagrams/Symbol_confirmed.png )[released](../../using-saf/maturity.md#released)|
 ## Example
-![Logical-Structure-Viewpoint-example.svg](../../vp-examples/Logical-Structure-Viewpoint-example.svg)
+![Logical-Structure-Viewpoint-primary-example.svg](../../vp-examples/Logical-Structure-Viewpoint-primary-example.svg)
 ## Purpose
 The Logical Structure Viewpoint covers the basic technical notion of the System and is widely reusable among similar systems like product families, or product generations. The Logical Structure Viewpoint specifies how the system is decomposed into a hierarchical structure of logical components responsible for different System Functions (divide & conquer principle).
 ## Applicability
