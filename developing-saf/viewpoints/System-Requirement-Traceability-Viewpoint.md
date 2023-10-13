@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Functional](../../domains.md#Domain-Functional)|[Traceability & Mapping](../../aspects.md#Aspect-Traceability-&-Mapping)|![Released](../../diagrams/Symbol_confirmed.png )[released](../../using-saf/maturity.md#released)|
 ## Example
-![System-Requirement-Traceability-Viewpoint-primary-example.svg](../../vp-examples/System-Requirement-Traceability-Viewpoint-primary-example.svg)
+![System-Requirement-Traceability-Viewpoint-primary-example.svg](../../diagrams/vp-examples/System-Requirement-Traceability-Viewpoint-primary-example.svg)
 ## Purpose
 The System Requirement Traceability Viewpoint specifies for every System Requirement the traceability to the functional domain level
 * System Use Case

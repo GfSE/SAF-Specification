@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Functional](../domains.md#Domain-Functional)|[Process & Behavior](../aspects.md#Aspect-Process-&-Behavior)|![Proposed](../diagrams/Under_construction_icon-red.svg )[proposed](../using-saf/maturity.md#proposed)|
 ## Example
-![System-Functional-Refinement-Viewpoint-primary-example.svg](../vp-examples/System-Functional-Refinement-Viewpoint-primary-example.svg)
+![System-Functional-Refinement-Viewpoint-primary-example.svg](../diagrams/vp-examples/System-Functional-Refinement-Viewpoint-primary-example.svg)
 ## Purpose
 The System Functional Refinement Viewpoint analyses decomposition of System Functions into System Partial Functions in order achieve understanding and agreement about the System functions sufficient to derive system  requirements.
 ## Applicability

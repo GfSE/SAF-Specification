@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Operational](../domains.md#Domain-Operational)|[Traceability & Mapping](../aspects.md#Aspect-Traceability-&-Mapping)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
 ## Example
-![Operational-Capability-Mapping-Viewpoint-primary-example.svg](../vp-examples/Operational-Capability-Mapping-Viewpoint-primary-example.svg)
+![Operational-Capability-Mapping-Viewpoint-primary-example.svg](../diagrams/vp-examples/Operational-Capability-Mapping-Viewpoint-primary-example.svg)
 ## Purpose
 The Operational Capability Mapping Viewpoint describes the relationships of Operational Capabilities. The reasoning for Operational Capabilities as support for Operational Stories and the contribution of Operational Processes to Capabilities are described. Operational Capabilities encoded in Stakeholder Requirements are identified.
 ## Applicability

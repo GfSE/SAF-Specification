@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Operational](../../domains.md#Domain-Operational)|[Context & Exchange](../../aspects.md#Aspect-Context-&-Exchange)|![Released](../../diagrams/Symbol_confirmed.png )[released](../../using-saf/maturity.md#released)|
 ## Example
-![Operational-Story-Viewpoint-primary-example.svg](../../vp-examples/Operational-Story-Viewpoint-primary-example.svg)
+![Operational-Story-Viewpoint-primary-example.svg](../../diagrams/vp-examples/Operational-Story-Viewpoint-primary-example.svg)
 ## Purpose
 The Operational Story Viewpoint
 * captures Operational Stories and their relation to Operational Performers, thus enables storytelling

@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Operational](../domains.md#Domain-Operational)|[Process & Behavior](../aspects.md#Aspect-Process-&-Behavior)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
 ## Example
-![Operational-Process-Viewpoint-primary-example.svg](../vp-examples/Operational-Process-Viewpoint-primary-example.svg)
+![Operational-Process-Viewpoint-primary-example.svg](../diagrams/vp-examples/Operational-Process-Viewpoint-primary-example.svg)
 ## Purpose
 The Operational Process Viewpoint describes the Operational Processes related to a specific Operational Story, the sequence of execution, and their Operational Exchanges, including information, materials, natural resources, etc. The assignment of Operational Processes to Operational Performers is captured.
 ## Applicability

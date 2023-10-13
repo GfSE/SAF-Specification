@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Functional](../../domains.md#Domain-Functional)|[Requirement](../../aspects.md#Aspect-Requirement)|![Released](../../diagrams/Symbol_confirmed.png )[released](../../using-saf/maturity.md#released)|
 ## Example
-![System-Requirement-Viewpoint-primary-example.svg](../../vp-examples/System-Requirement-Viewpoint-primary-example.svg)
+![System-Requirement-Viewpoint-primary-example.svg](../../diagrams/vp-examples/System-Requirement-Viewpoint-primary-example.svg)
 ## Purpose
 The System Requirement Viewpoint specifies functions, non-functional properties, or constraints of the System. System Requirements are captured, the interrelationships between Functional and Non-Functional Requirements on the same level of abstraction and the traceability to Stakeholder Requirements are depicted.
 ## Applicability

@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Functional](../domains.md#Domain-Functional)|[Context & Exchange](../aspects.md#Aspect-Context-&-Exchange)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
 ## Example
-![System-Context-Exchange-Viewpoint-primary-example.svg](../vp-examples/System-Context-Exchange-Viewpoint-primary-example.svg)
+![System-Context-Exchange-Viewpoint-primary-example.svg](../diagrams/vp-examples/System-Context-Exchange-Viewpoint-primary-example.svg)
 ## Purpose
 The System Context Exchange Viewpoint serves for the identification and definition of external interfaces of the SOI used for the interaction to System’s Context, such as Users, External Systems and other External Entities defined in the specific context of the SOI. The System Context Exchange Viewpoint
 * identifies System interfaces on a functional level,

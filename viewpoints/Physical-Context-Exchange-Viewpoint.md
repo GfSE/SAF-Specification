@@ -4,8 +4,8 @@
 | --- | --- | --- |
 |[Physical](../domains.md#Domain-Physical)|[Context & Exchange](../aspects.md#Aspect-Context-&-Exchange)|![Under Construction](../diagrams/Under_construction_icon-yellow.svg )[under construction](../using-saf/maturity.md#under-construction)|
 ## Example
-![Physical-Context-Exchange-Viewpoint-primary-example.svg](../vp-examples/Physical-Context-Exchange-Viewpoint-primary-example.svg)
-![Physical-Context-Exchange-Viewpoint-primary-example-1.svg](../vp-examples/Physical-Context-Exchange-Viewpoint-primary-example-1.svg)
+![Physical-Context-Exchange-Viewpoint-primary-example.svg](../diagrams/vp-examples/Physical-Context-Exchange-Viewpoint-primary-example.svg)
+![Physical-Context-Exchange-Viewpoint-primary-example-1.svg](../diagrams/vp-examples/Physical-Context-Exchange-Viewpoint-primary-example-1.svg)
 ## Purpose
 The Physical Context Exchange Viewpoint focuses on the identification of the physical interfaces with external entities and the identification of relevant documentation. It is used to capture Interface Design Requirements, applicable standards, protocols and format specifications, that are agreed upon the interfaces.
 
