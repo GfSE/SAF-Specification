@@ -21,19 +21,19 @@ A tabular format listing the relationships of Operational Capabilities to Stakeh
 * Show in a concise manner the relationships from operational capability to operational story, to operational activity, and to operational performer.
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SAF_OperationalCapability](../stereotypes.md#SAF_OperationalCapability)
 * [SAF_OperationalCapabilityComposition](../stereotypes.md#SAF_OperationalCapabilityComposition)
 * [SAF_OperationalCapabilityDependency](../stereotypes.md#SAF_OperationalCapabilityDependency)
 * [SAF_OperationalCapabilityGeneralization](../stereotypes.md#SAF_OperationalCapabilityGeneralization)
+* [SAF_OperationalCapability](../stereotypes.md#SAF_OperationalCapability)
 * [SAF_OperationalCapabilitySupport](../stereotypes.md#SAF_OperationalCapabilitySupport)
-* [SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)
 * [SAF_OperationalPerformerExhibit](../stereotypes.md#SAF_OperationalPerformerExhibit)
-* [SAF_OperationalProcess](../stereotypes.md#SAF_OperationalProcess)
+* [SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)
 * [SAF_OperationalProcessEnabling](../stereotypes.md#SAF_OperationalProcessEnabling)
+* [SAF_OperationalProcess](../stereotypes.md#SAF_OperationalProcess)
 * [SAF_OperationalStory](../stereotypes.md#SAF_OperationalStory)
 * [SAF_SOV08a_View](../stereotypes.md#SAF_SOV08a_View)
-* [SAF_StakeholderRequirement](../stereotypes.md#SAF_StakeholderRequirement)
 * [SAF_StakeholderRequirementRefinement](../stereotypes.md#SAF_StakeholderRequirementRefinement)
+* [SAF_StakeholderRequirement](../stereotypes.md#SAF_StakeholderRequirement)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Operational Capability Viewpoint](Operational-Capability-Viewpoint.md)

@@ -32,12 +32,12 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * Package [UML_Standard_Profile]
 * [SAF_OperationalCapability](../stereotypes.md#SAF_OperationalCapability)
 * [SAF_SOV06a_View](../stereotypes.md#SAF_SOV06a_View)
-* [SAF_Stakeholder](../stereotypes.md#SAF_Stakeholder)
-* [SAF_StakeholderRequirement](../stereotypes.md#SAF_StakeholderRequirement)
 * [SAF_StakeholderRequirementImposition](../stereotypes.md#SAF_StakeholderRequirementImposition)
 * [SAF_StakeholderRequirementRefinement](../stereotypes.md#SAF_StakeholderRequirementRefinement)
 * [SAF_StakeholderRequirementRefinement](../stereotypes.md#SAF_StakeholderRequirementRefinement)
 * [SAF_StakeholderRequirementRefinement](../stereotypes.md#SAF_StakeholderRequirementRefinement)
+* [SAF_StakeholderRequirement](../stereotypes.md#SAF_StakeholderRequirement)
+* [SAF_Stakeholder](../stereotypes.md#SAF_Stakeholder)
 * [SAF_SystemOfInterestConcern](../stereotypes.md#SAF_SystemOfInterestConcern)
 ## Input from other Viewpoints
 ### Required Viewpoints

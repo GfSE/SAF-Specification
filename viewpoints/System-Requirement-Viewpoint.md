@@ -33,12 +33,12 @@ A tabular format listing
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_SFV06a_View](../stereotypes.md#SAF_SFV06a_View)
 * [SAF_StakeholderRequirement](../stereotypes.md#SAF_StakeholderRequirement)
-* [SAF_SystemFunctionalRequirement](../stereotypes.md#SAF_SystemFunctionalRequirement)
 * [SAF_SystemFunctionalRequirementConstraint](../stereotypes.md#SAF_SystemFunctionalRequirementConstraint)
+* [SAF_SystemFunctionalRequirement](../stereotypes.md#SAF_SystemFunctionalRequirement)
 * [SAF_SystemNonFunctionalRequirement](../stereotypes.md#SAF_SystemNonFunctionalRequirement)
+* [SAF_SystemRequirementDerivation](../stereotypes.md#SAF_SystemRequirementDerivation)
+* [SAF_SystemRequirementDerivation](../stereotypes.md#SAF_SystemRequirementDerivation)
 * [SAF_SystemRequirement](../stereotypes.md#SAF_SystemRequirement)
-* [SAF_SystemRequirementDerivation](../stereotypes.md#SAF_SystemRequirementDerivation)
-* [SAF_SystemRequirementDerivation](../stereotypes.md#SAF_SystemRequirementDerivation)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Stakeholder Requirement Viewpoint](Stakeholder-Requirement-Viewpoint.md)

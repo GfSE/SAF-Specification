@@ -30,12 +30,12 @@ A block definition diagram (BDD) depicting the identified Operational Stakeholde
 * Who are the Stakeholders involved in the intended solution?
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
+* Attribute "concern" of SAF_Stakeholder referencing SAF_SystemOfInterestConcern
 * [SAF_ContextElementRepresentation](../stereotypes.md#SAF_ContextElementRepresentation)
 * [SAF_OperationalStakeholderRepresentation](../stereotypes.md#SAF_OperationalStakeholderRepresentation)
 * [SAF_SOV02d_View](../stereotypes.md#SAF_SOV02d_View)
-* [SAF_Stakeholder](../stereotypes.md#SAF_Stakeholder)
 * [SAF_StakeholderRelation](../stereotypes.md#SAF_StakeholderRelation)
-* [SAF_SystemOfInterestConcern](../stereotypes.md#SAF_SystemOfInterestConcern)
+* [SAF_Stakeholder](../stereotypes.md#SAF_Stakeholder)
 * [SAF_SystemOfInterestConcern](../stereotypes.md#SAF_SystemOfInterestConcern)
 ## Input from other Viewpoints
 ### Required Viewpoints

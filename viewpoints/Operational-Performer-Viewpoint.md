@@ -23,8 +23,8 @@ Note: Identified Stakeholders are related to Operational Performers if appropria
 * Which Operational Performer will operate or run the system?
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)
 * [SAF_OperationalPerformerComposition](../stereotypes.md#SAF_OperationalPerformerComposition)
+* [SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)
 * [SAF_OperationalStakeholderRepresentation](../stereotypes.md#SAF_OperationalStakeholderRepresentation)
 * [SAF_SOV02b_View](../stereotypes.md#SAF_SOV02b_View)
 * [SAF_Stakeholder](../stereotypes.md#SAF_Stakeholder)

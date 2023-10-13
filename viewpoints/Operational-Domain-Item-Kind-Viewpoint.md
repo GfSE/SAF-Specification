@@ -26,8 +26,8 @@ Note: Operational Domain Item Kinds are managed in the domain knowledge package 
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * ItemFlow [SysML Profile]
 * ObjectFlow [UML_Standard_Profile]
-* [SAF_OperationalDomainKind](../stereotypes.md#SAF_OperationalDomainKind)
 * [SAF_OperationalDomainKindComposition](../stereotypes.md#SAF_OperationalDomainKindComposition)
+* [SAF_OperationalDomainKind](../stereotypes.md#SAF_OperationalDomainKind)
 * [SAF_SOV02a_View](../stereotypes.md#SAF_SOV02a_View)
 ## Input from other Viewpoints
 ### Required Viewpoints

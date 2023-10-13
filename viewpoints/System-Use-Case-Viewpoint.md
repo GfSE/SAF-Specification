@@ -37,11 +37,11 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_LogicalExternalSystem](../stereotypes.md#SAF_LogicalExternalSystem)
 * [SAF_LogicalUser](../stereotypes.md#SAF_LogicalUser)
 * [SAF_SFV01a_View](../stereotypes.md#SAF_SFV01a_View)
-* [SAF_SystemUseCase](../stereotypes.md#SAF_SystemUseCase)
-* [SAF_SystemUseCase](../stereotypes.md#SAF_SystemUseCase)
-* [SAF_SystemUseCase](../stereotypes.md#SAF_SystemUseCase)
-* [SAF_SystemUseCase](../stereotypes.md#SAF_SystemUseCase)
 * [SAF_SystemUseCaseEnabling](../stereotypes.md#SAF_SystemUseCaseEnabling)
+* [SAF_SystemUseCase](../stereotypes.md#SAF_SystemUseCase)
+* [SAF_SystemUseCase](../stereotypes.md#SAF_SystemUseCase)
+* [SAF_SystemUseCase](../stereotypes.md#SAF_SystemUseCase)
+* [SAF_SystemUseCase](../stereotypes.md#SAF_SystemUseCase)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [System Context Definition Viewpoint](System-Context-Definition-Viewpoint.md)

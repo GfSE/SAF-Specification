@@ -22,10 +22,10 @@ A block definition diagram (BDD) featuring Operational Capabilities, their compo
 * What operational capabilities are required for each phase and mode of operation?
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SAF_OperationalCapability](../stereotypes.md#SAF_OperationalCapability)
 * [SAF_OperationalCapabilityComposition](../stereotypes.md#SAF_OperationalCapabilityComposition)
 * [SAF_OperationalCapabilityDependency](../stereotypes.md#SAF_OperationalCapabilityDependency)
 * [SAF_OperationalCapabilityGeneralization](../stereotypes.md#SAF_OperationalCapabilityGeneralization)
+* [SAF_OperationalCapability](../stereotypes.md#SAF_OperationalCapability)
 * [SAF_SOV02c_View](../stereotypes.md#SAF_SOV02c_View)
 ## Input from other Viewpoints
 ### Required Viewpoints

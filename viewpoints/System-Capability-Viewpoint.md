@@ -25,11 +25,11 @@ A tabular format listing System Capabilities, their composition, specialisation,
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_SFV02b_View](../stereotypes.md#SAF_SFV02b_View)
-* [SAF_SystemCapability](../stereotypes.md#SAF_SystemCapability)
 * [SAF_SystemCapabilityComposition](../stereotypes.md#SAF_SystemCapabilityComposition)
 * [SAF_SystemCapabilityDependency](../stereotypes.md#SAF_SystemCapabilityDependency)
 * [SAF_SystemCapabilityEnabling](../stereotypes.md#SAF_SystemCapabilityEnabling)
 * [SAF_SystemCapabilityGeneralization](../stereotypes.md#SAF_SystemCapabilityGeneralization)
+* [SAF_SystemCapability](../stereotypes.md#SAF_SystemCapability)
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

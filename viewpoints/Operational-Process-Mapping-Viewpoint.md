@@ -23,8 +23,8 @@ A tabular format listing the relationships of Operational Process Activities to 
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_OperationalCapability](../stereotypes.md#SAF_OperationalCapability)
 * [SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)
-* [SAF_OperationalProcess](../stereotypes.md#SAF_OperationalProcess)
 * [SAF_OperationalProcessEnabling](../stereotypes.md#SAF_OperationalProcessEnabling)
+* [SAF_OperationalProcess](../stereotypes.md#SAF_OperationalProcess)
 * [SAF_OperationalProcessRefinement](../stereotypes.md#SAF_OperationalProcessRefinement)
 * [SAF_OperationalStory](../stereotypes.md#SAF_OperationalStory)
 * [SAF_SOV08b_View](../stereotypes.md#SAF_SOV08b_View)
