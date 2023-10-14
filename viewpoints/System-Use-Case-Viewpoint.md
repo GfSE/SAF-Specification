@@ -31,17 +31,19 @@ A tabular format listing the System Use Cases, the System Use Case pre- and post
 * Which users does the system support? What the system has to accomplish for these users?
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
+* Attribute "PostConditionStates" of SAF_SystemUseCase referencing State
+* Attribute "PreConditionStates" of SAF_SystemUseCase referencing State
+* Attribute "subject" of UseCase referencing SAF_LogicalContext
 * Include [UML_Standard_Profile]
 * [SAF_LogicalContextElementActing](../stereotypes.md#SAF_LogicalContextElementActing)
+* [SAF_LogicalContext](../stereotypes.md#SAF_LogicalContext)
 * [SAF_LogicalEnvironment](../stereotypes.md#SAF_LogicalEnvironment)
 * [SAF_LogicalExternalSystem](../stereotypes.md#SAF_LogicalExternalSystem)
 * [SAF_LogicalUser](../stereotypes.md#SAF_LogicalUser)
 * [SAF_SFV01a_View](../stereotypes.md#SAF_SFV01a_View)
 * [SAF_SystemUseCaseEnabling](../stereotypes.md#SAF_SystemUseCaseEnabling)
 * [SAF_SystemUseCase](../stereotypes.md#SAF_SystemUseCase)
-* [SAF_SystemUseCase](../stereotypes.md#SAF_SystemUseCase)
-* [SAF_SystemUseCase](../stereotypes.md#SAF_SystemUseCase)
-* [SAF_SystemUseCase](../stereotypes.md#SAF_SystemUseCase)
+* State [UML_Standard_Profile]
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [System Context Definition Viewpoint](System-Context-Definition-Viewpoint.md)

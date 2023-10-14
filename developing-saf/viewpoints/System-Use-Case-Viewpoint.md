@@ -33,17 +33,19 @@ A tabular format listing the System Use Cases, the System Use Case pre- and post
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
+|Attribute "PostConditionStates" of SAF_SystemUseCase referencing State|[SUChasPostConditionSSE](../concept/concepts.md#SUChasPostConditionSSE)|
+|Attribute "PreConditionStates" of SAF_SystemUseCase referencing State|[SUChasPreConditionSSE](../concept/concepts.md#SUChasPreConditionSSE)|
+|Attribute "subject" of UseCase referencing SAF_LogicalContext|[SUCtakingPlaceInLSC](../concept/concepts.md#SUCtakingPlaceInLSC)|
 |Include [UML_Standard_Profile]|[SUCincludingSUC](../concept/concepts.md#SUCincludingSUC)|
 |[SAF_LogicalContextElementActing](../../stereotypes.md#SAF_LogicalContextElementActing)|[LCEactingInSUC](../concept/concepts.md#LCEactingInSUC)|
+|[SAF_LogicalContext](../../stereotypes.md#SAF_LogicalContext)|[Logical System Context](../concept/concepts.md#Logical-System-Context)|
 |[SAF_LogicalEnvironment](../../stereotypes.md#SAF_LogicalEnvironment)|[Logical Environment](../concept/concepts.md#Logical-Environment)|
 |[SAF_LogicalExternalSystem](../../stereotypes.md#SAF_LogicalExternalSystem)|[Logical External System](../concept/concepts.md#Logical-External-System)|
 |[SAF_LogicalUser](../../stereotypes.md#SAF_LogicalUser)|[Logical User](../concept/concepts.md#Logical-User)|
 |[SAF_SFV01a_View](../../stereotypes.md#SAF_SFV01a_View)|[System Use Case Viewpoint](../concept/concepts.md#System-Use-Case-Viewpoint)|
 |[SAF_SystemUseCaseEnabling](../../stereotypes.md#SAF_SystemUseCaseEnabling)|[SUCenablingOSY](../concept/concepts.md#SUCenablingOSY)|
-|[SAF_SystemUseCase](../../stereotypes.md#SAF_SystemUseCase)|[SUChasPostConditionSSE](../concept/concepts.md#SUChasPostConditionSSE)|
-|[SAF_SystemUseCase](../../stereotypes.md#SAF_SystemUseCase)|[SUChasPreConditionSSE](../concept/concepts.md#SUChasPreConditionSSE)|
-|[SAF_SystemUseCase](../../stereotypes.md#SAF_SystemUseCase)|[SUCtakingPlaceInLSC](../concept/concepts.md#SUCtakingPlaceInLSC)|
 |[SAF_SystemUseCase](../../stereotypes.md#SAF_SystemUseCase)|[System Use Case](../concept/concepts.md#System-Use-Case)|
+|State [UML_Standard_Profile]|[System State](../concept/concepts.md#System-State)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [System Context Definition Viewpoint](System-Context-Definition-Viewpoint.md)

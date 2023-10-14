@@ -28,6 +28,8 @@ Note: Illustrations (drawings, sketches, etc.), and/or descriptions in free text
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
+|Attribute "subject" of UseCase referencing SAF_OperationalContext|[OSYtakingPlaceInOCT](../concept/concepts.md#OSYtakingPlaceInOCT)|
+|[SAF_OperationalContext](../../stereotypes.md#SAF_OperationalContext)|[Operational Context](../concept/concepts.md#Operational-Context)|
 |[SAF_OperationalPerformerActing](../../stereotypes.md#SAF_OperationalPerformerActing)|[OPRactingInOSY](../concept/concepts.md#OPRactingInOSY)|
 |[SAF_OperationalPerformer](../../stereotypes.md#SAF_OperationalPerformer)|[Operational Performer](../concept/concepts.md#Operational-Performer)|
 |[SAF_OperationalSketch](../../stereotypes.md#SAF_OperationalSketch)|[Operational Sketch](../concept/concepts.md#Operational-Sketch)|

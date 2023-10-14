@@ -26,6 +26,8 @@ Note: Illustrations (drawings, sketches, etc.), and/or descriptions in free text
 * Which is the operational scenario, i.e., course of action, for the mission and the context in which the system of systems solution will exist?
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
+* Attribute "subject" of UseCase referencing SAF_OperationalContext
+* [SAF_OperationalContext](../stereotypes.md#SAF_OperationalContext)
 * [SAF_OperationalPerformerActing](../stereotypes.md#SAF_OperationalPerformerActing)
 * [SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)
 * [SAF_OperationalSketch](../stereotypes.md#SAF_OperationalSketch)
