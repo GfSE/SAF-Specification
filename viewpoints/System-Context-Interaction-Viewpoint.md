@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Functional](../domains.md#Domain-Functional)|[Interaction & Collaboration](../aspects.md#Aspect-Interaction-&-Collaboration)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
 ## Example
-![System-Context-Interaction-Viewpoint-example.svg](../vp-examples/System-Context-Interaction-Viewpoint-example.svg)
+![System-Context-Interaction-Viewpoint-primary-example.svg](../diagrams/vp-examples/System-Context-Interaction-Viewpoint-primary-example.svg)
 ## Purpose
 The System Context Interaction Viewpoint describes the System external behavior based on the exchange between Logical SOI and Logical Context Elements Usage within a specific System Context. It depicts the sequence of interactions between the Logical SOI, the Context Elements and the Exchanged Domain Item Kinds needed to accomplish a given System Process. 
 Note: The System Context Interaction Viewpoint may refine a System Use Case.

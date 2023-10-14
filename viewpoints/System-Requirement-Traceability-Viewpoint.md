@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Functional](../domains.md#Domain-Functional)|[Traceability & Mapping](../aspects.md#Aspect-Traceability-&-Mapping)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
 ## Example
-![System-Requirement-Traceability-Viewpoint-example.svg](../vp-examples/System-Requirement-Traceability-Viewpoint-example.svg)
+![System-Requirement-Traceability-Viewpoint-primary-example.svg](../diagrams/vp-examples/System-Requirement-Traceability-Viewpoint-primary-example.svg)
 ## Purpose
 The System Requirement Traceability Viewpoint specifies for every System Requirement the traceability to the functional domain level
 * System Use Case
@@ -35,16 +35,16 @@ A dependency matrix featuring relationships for every System Requirement to the 
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_SFV08b_View](../stereotypes.md#SAF_SFV08b_View)
-* [SAF_SystemFunctionalRequirement](../stereotypes.md#SAF_SystemFunctionalRequirement)
 * [SAF_SystemFunctionalRequirementConstraint](../stereotypes.md#SAF_SystemFunctionalRequirementConstraint)
+* [SAF_SystemFunctionalRequirement](../stereotypes.md#SAF_SystemFunctionalRequirement)
 * [SAF_SystemFunctionalRequirementRefinement](../stereotypes.md#SAF_SystemFunctionalRequirementRefinement)
 * [SAF_SystemNonFunctionalRequirement](../stereotypes.md#SAF_SystemNonFunctionalRequirement)
+* [SAF_SystemRequirementDerivation](../stereotypes.md#SAF_SystemRequirementDerivation)
+* [SAF_SystemRequirementDerivation](../stereotypes.md#SAF_SystemRequirementDerivation)
+* [SAF_SystemRequirementRefinement](../stereotypes.md#SAF_SystemRequirementRefinement)
+* [SAF_SystemRequirementRefinement](../stereotypes.md#SAF_SystemRequirementRefinement)
+* [SAF_SystemRequirementRefinement](../stereotypes.md#SAF_SystemRequirementRefinement)
 * [SAF_SystemRequirement](../stereotypes.md#SAF_SystemRequirement)
-* [SAF_SystemRequirementDerivation](../stereotypes.md#SAF_SystemRequirementDerivation)
-* [SAF_SystemRequirementDerivation](../stereotypes.md#SAF_SystemRequirementDerivation)
-* [SAF_SystemRequirementRefinement](../stereotypes.md#SAF_SystemRequirementRefinement)
-* [SAF_SystemRequirementRefinement](../stereotypes.md#SAF_SystemRequirementRefinement)
-* [SAF_SystemRequirementRefinement](../stereotypes.md#SAF_SystemRequirementRefinement)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Stakeholder Requirement Viewpoint](Stakeholder-Requirement-Viewpoint.md)

@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Functional](../domains.md#Domain-Functional)|[Traceability & Mapping](../aspects.md#Aspect-Traceability-&-Mapping)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
 ## Example
-![System-Capability-Mapping-Viewpoint-example.svg](../vp-examples/System-Capability-Mapping-Viewpoint-example.svg)
+![System-Capability-Mapping-Viewpoint-primary-example.svg](../diagrams/vp-examples/System-Capability-Mapping-Viewpoint-primary-example.svg)
 ## Purpose
 The System Capability Mapping Viewpoint describes the relationships of System Capabilities. The reasoning for System Capabilities as support for System Use Cases and the contribution of System Processes to Capabilities are described. Furthermore, the mapping of System Capabilities to Operational Capabilities are identified.
 ## Applicability
@@ -18,16 +18,16 @@ A tabular format listing the relationships of System Capabilities to Operational
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_SFV08a_View](../stereotypes.md#SAF_SFV08a_View)
 * [SAF_StakeholderRequirement](../stereotypes.md#SAF_StakeholderRequirement)
-* [SAF_SystemCapability](../stereotypes.md#SAF_SystemCapability)
 * [SAF_SystemCapabilityComposition](../stereotypes.md#SAF_SystemCapabilityComposition)
 * [SAF_SystemCapabilityDependency](../stereotypes.md#SAF_SystemCapabilityDependency)
 * [SAF_SystemCapabilityEnabling](../stereotypes.md#SAF_SystemCapabilityEnabling)
 * [SAF_SystemCapabilityGeneralization](../stereotypes.md#SAF_SystemCapabilityGeneralization)
 * [SAF_SystemCapabilitySupport](../stereotypes.md#SAF_SystemCapabilitySupport)
-* [SAF_SystemFunction](../stereotypes.md#SAF_SystemFunction)
+* [SAF_SystemCapability](../stereotypes.md#SAF_SystemCapability)
 * [SAF_SystemFunctionSupport](../stereotypes.md#SAF_SystemFunctionSupport)
-* [SAF_SystemProcess](../stereotypes.md#SAF_SystemProcess)
+* [SAF_SystemFunction](../stereotypes.md#SAF_SystemFunction)
 * [SAF_SystemProcessEnabling](../stereotypes.md#SAF_SystemProcessEnabling)
+* [SAF_SystemProcess](../stereotypes.md#SAF_SystemProcess)
 * [SAF_SystemRequirement](../stereotypes.md#SAF_SystemRequirement)
 * [SAF_SystemUseCase](../stereotypes.md#SAF_SystemUseCase)
 ## Input from other Viewpoints

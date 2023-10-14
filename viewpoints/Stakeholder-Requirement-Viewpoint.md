@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Operational](../domains.md#Domain-Operational)|[Requirement](../aspects.md#Aspect-Requirement)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
 ## Example
-![Stakeholder-Requirement-Viewpoint-example.svg](../vp-examples/Stakeholder-Requirement-Viewpoint-example.svg)
+![Stakeholder-Requirement-Viewpoint-primary-example.svg](../diagrams/vp-examples/Stakeholder-Requirement-Viewpoint-primary-example.svg)
 ## Purpose
 The Stakeholder Requirement Viewpoint specifies all properties that the intended solution shall possess or expose from the perspective of the Stakeholders. The Stakeholder Requirement Viewpoint determines capabilities, functions, non-functional properties, and constraints.
 ## Applicability
@@ -32,12 +32,12 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * Package [UML_Standard_Profile]
 * [SAF_OperationalCapability](../stereotypes.md#SAF_OperationalCapability)
 * [SAF_SOV06a_View](../stereotypes.md#SAF_SOV06a_View)
-* [SAF_Stakeholder](../stereotypes.md#SAF_Stakeholder)
-* [SAF_StakeholderRequirement](../stereotypes.md#SAF_StakeholderRequirement)
 * [SAF_StakeholderRequirementImposition](../stereotypes.md#SAF_StakeholderRequirementImposition)
 * [SAF_StakeholderRequirementRefinement](../stereotypes.md#SAF_StakeholderRequirementRefinement)
 * [SAF_StakeholderRequirementRefinement](../stereotypes.md#SAF_StakeholderRequirementRefinement)
 * [SAF_StakeholderRequirementRefinement](../stereotypes.md#SAF_StakeholderRequirementRefinement)
+* [SAF_StakeholderRequirement](../stereotypes.md#SAF_StakeholderRequirement)
+* [SAF_Stakeholder](../stereotypes.md#SAF_Stakeholder)
 * [SAF_SystemOfInterestConcern](../stereotypes.md#SAF_SystemOfInterestConcern)
 ## Input from other Viewpoints
 ### Required Viewpoints

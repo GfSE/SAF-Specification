@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Operational](../domains.md#Domain-Operational)|[Taxonomy & Structure](../aspects.md#Aspect-Taxonomy-&-Structure)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
 ## Example
-![Operational-Domain-Item-Kind-Viewpoint-example.svg](../vp-examples/Operational-Domain-Item-Kind-Viewpoint-example.svg)
+![Operational-Domain-Item-Kind-Viewpoint-primary-example.svg](../diagrams/vp-examples/Operational-Domain-Item-Kind-Viewpoint-primary-example.svg)
 ## Purpose
 The Operational Domain Item Kind Viewpoint captures enterprise wide concepts and collects type definitions for any exchanged item of the Operational Domain. Its purpose is to define these item types and their relationships.
 ## Applicability
@@ -26,8 +26,8 @@ Note: Operational Domain Item Kinds are managed in the domain knowledge package 
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * ItemFlow [SysML Profile]
 * ObjectFlow [UML_Standard_Profile]
-* [SAF_OperationalDomainKind](../stereotypes.md#SAF_OperationalDomainKind)
 * [SAF_OperationalDomainKindComposition](../stereotypes.md#SAF_OperationalDomainKindComposition)
+* [SAF_OperationalDomainKind](../stereotypes.md#SAF_OperationalDomainKind)
 * [SAF_SOV02a_View](../stereotypes.md#SAF_SOV02a_View)
 ## Input from other Viewpoints
 ### Required Viewpoints

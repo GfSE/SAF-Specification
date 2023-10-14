@@ -646,10 +646,10 @@ nothing
 
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#PCPOverPCP'>PCPOverPCP</A><BR><BR><BR>PCPOverPCP: Specifies the fact that a connection point communicates / transfers / flows / over an other connction point. Used to define layered physical interfaces.<BR><BR><BR>Usage in Viewpoints:<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#PCPOverPCP'>PCPOverPCP</A><BR><BR><BR>PCPOverPCP: Specifies the fact that a physical connection point communicates / transfers / flows / over an other physical connection point. Used to define layered physical interfaces, and show layer relationships between interfaces.<BR><BR><BR>Usage in Viewpoints:<BR></html>
 
 ### Realizes
-[PCPOverPCP](developing-saf/concept/concepts.md#PCPOverPCP)<BR><BR>Specifies the fact that a connection point communicates / transfers / flows / over an other connction point. Used to define layered physical interfaces.<BR>
+[PCPOverPCP](developing-saf/concept/concepts.md#PCPOverPCP)<BR><BR>Specifies the fact that a physical connection point communicates / transfers / flows / over an other physical connection point. Used to define layered physical interfaces, and show layer relationships between interfaces.<BR>
 ## SAF_Refuter
 
 ### Icon
@@ -926,7 +926,7 @@ The Operational Capability Viewpoint defines a taxonomy of Capabilities from a S
 
 
 ### Documentation
-The Stakeholder Identification Viewpoint of the Operation Domain strives to identify the Operational Stakeholders, i.e., those Stakeholders, whoâs Needs shall be considered during the operation of the intended solution and the execution of the Operational Processes to support the identified Operational Capabilities. A Stakeholder Identification is a process of analyzing individuals, teams, or organizations throughout the project life cycle, grouping them according to their levels of participation, interest, and influence in the project, and determining how best to involve and communicate with each of these Stakeholder groups throughout.<BR>Note: During the realization of the Intended Solution additional Stakeholders shall be identified having additional Needs and Requirements e.g. regarding production of system elements or certain technologies. <BR><BR>A block definition diagram (BDD) depicting the identified Operational Stakeholders and their relations  towards the Intended Solution.
+The Stakeholder Identification Viewpoint of the Operation Domain strives to identify the Stakeholders, i.e., those Stakeholders, whoâs Needs shall be considered during the operation of the intended solution and the execution of the Operational Processes to support the identified Operational Capabilities. A Stakeholder Identification is a process of analyzing individuals, teams, or organizations throughout the project life cycle, grouping them according to their levels of participation, interest, and influence in the project, and determining how best to involve and communicate with each of these Stakeholder groups throughout.<BR>Note: During the realization of the Intended Solution additional Stakeholders shall be identified having additional Needs and Requirements e.g. regarding production of system elements or certain technologies. <BR><BR>A block definition diagram (BDD) depicting the identified Operational Stakeholders and their relations  towards the Intended Solution.
 
 ### Realizes
 [Stakeholder Identification Viewpoint](viewpoints/Stakeholder-Identification-Viewpoint.md)<BR>
@@ -996,7 +996,7 @@ The Physical Context Definition Viewpoint identifies the different context the s
 
 
 ### Documentation
-The Physical Context Exchange Viewpoint focuses on the identification of the physical interfaces with external entities and the identification of relevant documentation. It is used to capture Interface Design Requirements, applicable standards, protocols and format specifications, that are agreed upon the interfaces.<BR><BR><BR>The following artifacts support the modeling activities:<BR>A) For each identified context a physical context interface IBD is used to identify the physical interfaces, the item flows that are exchanged on that interface and related documentation.<BR>B) A physical context interface table provides a list of all the defined external interfaces and the applicable documentation<BR>* context element kind (environment / external entity / physical user)<BR>* context element role name<BR>* port name and reference to port type<BR>* reference to context element type<BR><BR>C) A context interface table is used to define the applicable standards, protocols and formats for the item flows exchanged via the identified interfaces.
+The Physical Context Exchange Viewpoint focuses on the identification of the physical interfaces with external entities and the identification of relevant documentation. It is used to capture Interface Design Requirements, applicable standards, protocols and format specifications, that are agreed upon the interfaces.<BR><BR><BR>A) For each identified context an IBD is used to identify the physical interfaces, the item flows that are exchanged on that interfaces and related documentation.<BR>Mapping of protocol layere is shown as appropriate to understand the interfaces.<BR><BR>B) A table providing a list of all the defined external interfaces and the applicable documentation<BR>* context element kind (environment / external entity / physical user)<BR>* context element role name<BR>* port name and reference to port type<BR>* reference to context element type<BR><BR>C) A table listing the applicable standards, protocols and formats for the item flows exchanged via the identified interfaces.<BR><undefined>
 
 ### Realizes
 [Physical Context Exchange Viewpoint](viewpoints/Physical-Context-Exchange-Viewpoint.md)<BR>
@@ -1246,7 +1246,7 @@ The Physical Functional Mapping Viewpoint analyses the assignment of the System 
 
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#System of Interest Concern'>System of Interest Concern</A><BR><BR><BR>System of Interest Concern: Any kind of interest a Stakeholder has. <BR>Note: Redundant with the meaning of "Need"?<BR><BR><BR>Usage in Viewpoints:<BR></html>
+<html>Stereotype realizes multiple Concepts:<BR><BR><UL><LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#System of Interest Concern'>System of Interest Concern</A><BR><BR><BR>System of Interest Concern: Any kind of interest a Stakeholder has. <BR>Note: Redundant with the meaning of "Need"?<BR><BR><BR>Usage in Viewpoints:<BR></LI><LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#SSHhavingCRN'>SSHhavingCRN</A><BR><BR><BR>SSHhavingCRN: Specifies the fact that a Stakeholder has certain Concerns.<BR><BR><BR>Usage in Viewpoints:<BR></LI>
 
 ### Realizes
 [System of Interest Concern](developing-saf/concept/concepts.md#System-of-Interest-Concern)<BR><BR>Any kind of interest a Stakeholder has. <BR>Note: Redundant with the meaning of "Need"?<BR>

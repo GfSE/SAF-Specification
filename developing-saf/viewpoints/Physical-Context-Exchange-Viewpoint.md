@@ -4,7 +4,8 @@
 | --- | --- | --- |
 |[Physical](../../domains.md#Domain-Physical)|[Context & Exchange](../../aspects.md#Aspect-Context-&-Exchange)|![Under Construction](../../diagrams/Under_construction_icon-yellow.svg )[under construction](../../using-saf/maturity.md#under-construction)|
 ## Example
-![Physical-Context-Exchange-Viewpoint-example.svg](../../vp-examples/Physical-Context-Exchange-Viewpoint-example.svg)
+![Physical-Context-Exchange-Viewpoint-primary-example.svg](../../diagrams/vp-examples/Physical-Context-Exchange-Viewpoint-primary-example.svg)
+![Physical-Context-Exchange-Viewpoint-primary-example-1.svg](../../diagrams/vp-examples/Physical-Context-Exchange-Viewpoint-primary-example-1.svg)
 ## Purpose
 The Physical Context Exchange Viewpoint focuses on the identification of the physical interfaces with external entities and the identification of relevant documentation. It is used to capture Interface Design Requirements, applicable standards, protocols and format specifications, that are agreed upon the interfaces.
 
@@ -17,15 +18,20 @@ The Physical Internal Exchange Viewpoint supports the "Create System Design " ac
 
 It also supports the "Interface Management" method of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§ 3.2.4].
 ## Presentation
-The following artifacts support the modeling activities:
-A) For each identified context a physical context interface IBD is used to identify the physical interfaces, the item flows that are exchanged on that interface and related documentation.
-B) A physical context interface table provides a list of all the defined external interfaces and the applicable documentation
+A) For each identified context an IBD is used to identify the physical interfaces, the item flows that are exchanged on that interfaces and related documentation.
+Mapping of protocol layere is shown as appropriate to understand the interfaces.
+
+
+B) A table providing a list of all the defined external interfaces and the applicable documentation
 * context element kind (environment / external entity / physical user)
 * context element role name
 * port name and reference to port type
 * reference to context element type
 
-C) A context interface table is used to define the applicable standards, protocols and formats for the item flows exchanged via the identified interfaces.
+
+C) A table listing the applicable standards, protocols and formats for the item flows exchanged via the identified interfaces.
+
+<undefined>
 
 ## Stakeholder
 * [Acquirer](../../stakeholders.md#Acquirer)
@@ -52,7 +58,14 @@ C) A context interface table is used to define the applicable standards, protoco
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
+|Attribute "realizing connector" of ItemFlow referencing Connector|[PCNallowingPIE](../concept/concepts.md#PCNallowingPIE)|
 |Connector [UML_Standard_Profile]|[Physical Connection](../concept/concepts.md#Physical-Connection)|
+|FlowProperty contained in SAF_PhysicalInterfaceDefinition|[PCPspecifyingDetailOfPCPD](../concept/concepts.md#PCPspecifyingDetailOfPCPD)|
+|FlowProperty typed by SAF_PhysicalExchangeType|[PEKtypingPCP](../concept/concepts.md#PEKtypingPCP)|
+|FlowProperty [SysML Profile]|[Physical Connection Point Property](../concept/concepts.md#Physical-Connection-Point-Property)|
+|ItemFlow typed by SAF_PhysicalExchangeType|[PEKtypingPIE](../concept/concepts.md#PEKtypingPIE)|
+|ItemFlow [SysML Profile]|[Physical Item Exchange](../concept/concepts.md#Physical-Item-Exchange)|
+|ProxyPort typed by SAF_PhysicalInterfaceDefinition|[PCPDdefiningPCP](../concept/concepts.md#PCPDdefiningPCP)|
 |ProxyPort [SysML Profile]|[Physical Connection Point](../concept/concepts.md#Physical-Connection-Point)|
 |[SAF_PhysicalEnvironment](../../stereotypes.md#SAF_PhysicalEnvironment)|[Physical Environment](../concept/concepts.md#Physical-Environment)|
 |[SAF_PhysicalExchangeType](../../stereotypes.md#SAF_PhysicalExchangeType)|[Physical Exchange Kind](../concept/concepts.md#Physical-Exchange-Kind)|

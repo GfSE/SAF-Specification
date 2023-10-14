@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Functional](../domains.md#Domain-Functional)|[Context & Exchange](../aspects.md#Aspect-Context-&-Exchange)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
 ## Example
-![System-Use-Case-Viewpoint-example.svg](../vp-examples/System-Use-Case-Viewpoint-example.svg)
+![System-Use-Case-Viewpoint-primary-example.svg](../diagrams/vp-examples/System-Use-Case-Viewpoint-primary-example.svg)
 ## Purpose
 The System Use Case Viewpoint provides an outside view on the system functionality from the perspective of the System Users and contributes to the definition of System Requirements and System Usage. The intended system use may be captured as free text use case description, as well as storytelling approach on a coarse level of detail. The main System Exchange Partners participating in the intended system use are identified. System use cases are related to a specific System Context.
 ## Applicability
@@ -37,11 +37,11 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_LogicalExternalSystem](../stereotypes.md#SAF_LogicalExternalSystem)
 * [SAF_LogicalUser](../stereotypes.md#SAF_LogicalUser)
 * [SAF_SFV01a_View](../stereotypes.md#SAF_SFV01a_View)
-* [SAF_SystemUseCase](../stereotypes.md#SAF_SystemUseCase)
-* [SAF_SystemUseCase](../stereotypes.md#SAF_SystemUseCase)
-* [SAF_SystemUseCase](../stereotypes.md#SAF_SystemUseCase)
-* [SAF_SystemUseCase](../stereotypes.md#SAF_SystemUseCase)
 * [SAF_SystemUseCaseEnabling](../stereotypes.md#SAF_SystemUseCaseEnabling)
+* [SAF_SystemUseCase](../stereotypes.md#SAF_SystemUseCase)
+* [SAF_SystemUseCase](../stereotypes.md#SAF_SystemUseCase)
+* [SAF_SystemUseCase](../stereotypes.md#SAF_SystemUseCase)
+* [SAF_SystemUseCase](../stereotypes.md#SAF_SystemUseCase)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [System Context Definition Viewpoint](System-Context-Definition-Viewpoint.md)

@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Operational](../domains.md#Domain-Operational)|[Context & Exchange](../aspects.md#Aspect-Context-&-Exchange)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
 ## Example
-![Operational-Story-Viewpoint-example.svg](../vp-examples/Operational-Story-Viewpoint-example.svg)
+![Operational-Story-Viewpoint-primary-example.svg](../diagrams/vp-examples/Operational-Story-Viewpoint-primary-example.svg)
 ## Purpose
 The Operational Story Viewpoint
 * captures Operational Stories and their relation to Operational Performers, thus enables storytelling
@@ -26,8 +26,8 @@ Note: Illustrations (drawings, sketches, etc.), and/or descriptions in free text
 * Which is the operational scenario, i.e., course of action, for the mission and the context in which the system of systems solution will exist?
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)
 * [SAF_OperationalPerformerActing](../stereotypes.md#SAF_OperationalPerformerActing)
+* [SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)
 * [SAF_OperationalSketch](../stereotypes.md#SAF_OperationalSketch)
 * [SAF_OperationalStory](../stereotypes.md#SAF_OperationalStory)
 * [SAF_SOV01a_View](../stereotypes.md#SAF_SOV01a_View)

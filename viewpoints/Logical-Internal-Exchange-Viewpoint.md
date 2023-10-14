@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Logical](../domains.md#Domain-Logical)|[Interaction & Collaboration](../aspects.md#Aspect-Interaction-&-Collaboration)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
 ## Example
-![Logical-Internal-Exchange-Viewpoint-example.svg](../vp-examples/Logical-Internal-Exchange-Viewpoint-example.svg)
+![Logical-Internal-Exchange-Viewpoint-primary-example.svg](../diagrams/vp-examples/Logical-Internal-Exchange-Viewpoint-primary-example.svg)
 ## Purpose
 The Logical Internal Exchange Viewpoint serves for the identification and definition of interfaces of elements of the Logical System. Also, the delegation of system element interfaces to the Logical System boundary interfaces is covered.
 The Logical Internal Exchange Viewpoint
@@ -35,9 +35,9 @@ One or more IBD featuring the Logical Elements of the SOI, and the SOI boundary,
 * Which requirements apply to a logical interface?
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* Attribute "" of InformationFlow referencing Connector
+* Attribute "realizing connector" of ItemFlow referencing Connector
 * Connector [UML_Standard_Profile]
-* FlowProperty contained in InterfaceBlock
+* FlowProperty contained in SAF_ConceptualInterfaceDefinition
 * FlowProperty typed by SAF_DomainKind
 * FlowProperty [SysML Profile]
 * ItemFlow typed by SAF_DomainKind

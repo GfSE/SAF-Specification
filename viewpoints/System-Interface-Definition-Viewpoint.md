@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Functional](../domains.md#Domain-Functional)|[Interface](../aspects.md#Aspect-Interface)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
 ## Example
-![System-Interface-Definition-Viewpoint-example.svg](../vp-examples/System-Interface-Definition-Viewpoint-example.svg)
+![System-Interface-Definition-Viewpoint-primary-example.svg](../diagrams/vp-examples/System-Interface-Definition-Viewpoint-primary-example.svg)
 ## Purpose
 The System Interface Definition Viewpoint captures system wide concepts defining functional interfaces. It allows to adopt long-lived standards and to harmonize the functional interface definitions to improve interchangeability, interoperability, and portability.
 ## Applicability
@@ -19,9 +19,9 @@ A tabular format listing System Interface blocks, their ports, and flow properti
 ## Concern
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* Attribute "" of InformationFlow referencing Connector
+* Attribute "realizing connector" of ItemFlow referencing Connector
 * Connector [UML_Standard_Profile]
-* FlowProperty contained in InterfaceBlock
+* FlowProperty contained in SAF_ConceptualInterfaceDefinition
 * FlowProperty typed by SAF_DomainKind
 * FlowProperty [SysML Profile]
 * ItemFlow typed by SAF_DomainKind

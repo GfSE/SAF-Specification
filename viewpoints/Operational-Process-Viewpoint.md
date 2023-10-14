@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Operational](../domains.md#Domain-Operational)|[Process & Behavior](../aspects.md#Aspect-Process-&-Behavior)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
 ## Example
-![Operational-Process-Viewpoint-example.svg](../vp-examples/Operational-Process-Viewpoint-example.svg)
+![Operational-Process-Viewpoint-primary-example.svg](../diagrams/vp-examples/Operational-Process-Viewpoint-primary-example.svg)
 ## Purpose
 The Operational Process Viewpoint describes the Operational Processes related to a specific Operational Story, the sequence of execution, and their Operational Exchanges, including information, materials, natural resources, etc. The assignment of Operational Processes to Operational Performers is captured.
 ## Applicability
@@ -29,8 +29,8 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * OutputPin [UML_Standard_Profile]
 * [SAF_OperationalDomainKind](../stereotypes.md#SAF_OperationalDomainKind)
 * [SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)
-* [SAF_OperationalProcess](../stereotypes.md#SAF_OperationalProcess)
 * [SAF_OperationalProcessAction](../stereotypes.md#SAF_OperationalProcessAction)
+* [SAF_OperationalProcess](../stereotypes.md#SAF_OperationalProcess)
 * [SAF_OperationalRole](../stereotypes.md#SAF_OperationalRole)
 * [SAF_SOV03a_View](../stereotypes.md#SAF_SOV03a_View)
 ## Input from other Viewpoints

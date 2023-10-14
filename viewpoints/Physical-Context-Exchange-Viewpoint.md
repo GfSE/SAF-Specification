@@ -4,7 +4,8 @@
 | --- | --- | --- |
 |[Physical](../domains.md#Domain-Physical)|[Context & Exchange](../aspects.md#Aspect-Context-&-Exchange)|![Under Construction](../diagrams/Under_construction_icon-yellow.svg )[under construction](../using-saf/maturity.md#under-construction)|
 ## Example
-![Physical-Context-Exchange-Viewpoint-example.svg](../vp-examples/Physical-Context-Exchange-Viewpoint-example.svg)
+![Physical-Context-Exchange-Viewpoint-primary-example.svg](../diagrams/vp-examples/Physical-Context-Exchange-Viewpoint-primary-example.svg)
+![Physical-Context-Exchange-Viewpoint-primary-example-1.svg](../diagrams/vp-examples/Physical-Context-Exchange-Viewpoint-primary-example-1.svg)
 ## Purpose
 The Physical Context Exchange Viewpoint focuses on the identification of the physical interfaces with external entities and the identification of relevant documentation. It is used to capture Interface Design Requirements, applicable standards, protocols and format specifications, that are agreed upon the interfaces.
 
@@ -17,15 +18,20 @@ The Physical Internal Exchange Viewpoint supports the "Create System Design " ac
 
 It also supports the "Interface Management" method of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§ 3.2.4].
 ## Presentation
-The following artifacts support the modeling activities:
-A) For each identified context a physical context interface IBD is used to identify the physical interfaces, the item flows that are exchanged on that interface and related documentation.
-B) A physical context interface table provides a list of all the defined external interfaces and the applicable documentation
+A) For each identified context an IBD is used to identify the physical interfaces, the item flows that are exchanged on that interfaces and related documentation.
+Mapping of protocol layere is shown as appropriate to understand the interfaces.
+
+
+B) A table providing a list of all the defined external interfaces and the applicable documentation
 * context element kind (environment / external entity / physical user)
 * context element role name
 * port name and reference to port type
 * reference to context element type
 
-C) A context interface table is used to define the applicable standards, protocols and formats for the item flows exchanged via the identified interfaces.
+
+C) A table listing the applicable standards, protocols and formats for the item flows exchanged via the identified interfaces.
+
+<undefined>
 
 ## Stakeholder
 * [Acquirer](../stakeholders.md#Acquirer)
@@ -50,7 +56,14 @@ C) A context interface table is used to define the applicable standards, protoco
 * Which interface partners does a SW item have?
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
+* Attribute "realizing connector" of ItemFlow referencing Connector
 * Connector [UML_Standard_Profile]
+* FlowProperty contained in SAF_PhysicalInterfaceDefinition
+* FlowProperty typed by SAF_PhysicalExchangeType
+* FlowProperty [SysML Profile]
+* ItemFlow typed by SAF_PhysicalExchangeType
+* ItemFlow [SysML Profile]
+* ProxyPort typed by SAF_PhysicalInterfaceDefinition
 * ProxyPort [SysML Profile]
 * [SAF_PhysicalEnvironment](../stereotypes.md#SAF_PhysicalEnvironment)
 * [SAF_PhysicalExchangeType](../stereotypes.md#SAF_PhysicalExchangeType)

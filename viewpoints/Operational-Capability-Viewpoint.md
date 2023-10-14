@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Operational](../domains.md#Domain-Operational)|[Taxonomy & Structure](../aspects.md#Aspect-Taxonomy-&-Structure)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
 ## Example
-![Operational-Capability-Viewpoint-example.svg](../vp-examples/Operational-Capability-Viewpoint-example.svg)
+![Operational-Capability-Viewpoint-primary-example.svg](../diagrams/vp-examples/Operational-Capability-Viewpoint-primary-example.svg)
 ## Purpose
 The Operational Capability Viewpoint defines a taxonomy of Capabilities from a Stakeholder’s perspective including composition, specialization, and dependency relationships between Operational Capabilities.
 ## Applicability
@@ -22,10 +22,10 @@ A block definition diagram (BDD) featuring Operational Capabilities, their compo
 * What operational capabilities are required for each phase and mode of operation?
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SAF_OperationalCapability](../stereotypes.md#SAF_OperationalCapability)
 * [SAF_OperationalCapabilityComposition](../stereotypes.md#SAF_OperationalCapabilityComposition)
 * [SAF_OperationalCapabilityDependency](../stereotypes.md#SAF_OperationalCapabilityDependency)
 * [SAF_OperationalCapabilityGeneralization](../stereotypes.md#SAF_OperationalCapabilityGeneralization)
+* [SAF_OperationalCapability](../stereotypes.md#SAF_OperationalCapability)
 * [SAF_SOV02c_View](../stereotypes.md#SAF_SOV02c_View)
 ## Input from other Viewpoints
 ### Required Viewpoints

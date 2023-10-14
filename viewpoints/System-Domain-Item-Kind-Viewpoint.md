@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Functional](../domains.md#Domain-Functional)|[Taxonomy & Structure](../aspects.md#Aspect-Taxonomy-&-Structure)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
 ## Example
-![System-Domain-Item-Kind-Viewpoint-example.svg](../vp-examples/System-Domain-Item-Kind-Viewpoint-example.svg)
+![System-Domain-Item-Kind-Viewpoint-primary-example.svg](../diagrams/vp-examples/System-Domain-Item-Kind-Viewpoint-primary-example.svg)
 ## Purpose
 The System Domain Item Kind Viewpoint captures system wide concepts and collects type definitions for any exchanged item, e.g., information, material, or energy, of the Functional and Logical domain. Its purpose is to define these item types and their relationships. Furthermore, the System Domain Item Kind Viewpoint specifies the data types, entity types, related value types, and units that are used by the SOI.
 Note: Domain Item Kinds are used as types of function input and output in the Functional Domain, and for types of interfaces in the Logical Domain. They specify what is to be exchanged but not how.
@@ -29,9 +29,9 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * FlowProperty [SysML Profile]
 * ItemFlow [SysML Profile]
 * Parameter [UML_Standard_Profile]
-* [SAF_DomainKind](../stereotypes.md#SAF_DomainKind)
 * [SAF_DomainKindComposition](../stereotypes.md#SAF_DomainKindComposition)
 * [SAF_DomainKindDerivation](../stereotypes.md#SAF_DomainKindDerivation)
+* [SAF_DomainKind](../stereotypes.md#SAF_DomainKind)
 * [SAF_OperationalDomainKind](../stereotypes.md#SAF_OperationalDomainKind)
 * [SAF_SFV02a_View](../stereotypes.md#SAF_SFV02a_View)
 * State [UML_Standard_Profile]

@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Functional](../domains.md#Domain-Functional)|[Taxonomy & Structure](../aspects.md#Aspect-Taxonomy-&-Structure)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
 ## Example
-![System-Functional-Breakdown-Structure-Viewpoint-example.svg](../vp-examples/System-Functional-Breakdown-Structure-Viewpoint-example.svg)
+![System-Functional-Breakdown-Structure-Viewpoint-primary-example.svg](../diagrams/vp-examples/System-Functional-Breakdown-Structure-Viewpoint-primary-example.svg)
 ## Purpose
 The System Functional Breakdown Structure Viewpoint defines the structured, modular breakdown of the SOI beginning with System Processes, over identified System Functions further refined down to System Partial Functions. The reuse of System Functions, and System Partial Functions over Function Trees of the SOI is facilitated. Unlike a Work Breakdown Structure (WBS), the Functional Breakdown Structure (FBS) is a function-oriented tree, not a product-oriented one.
 ## Applicability

@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Common](../domains.md#Domain-Common)|[Taxonomy & Structure](../aspects.md#Aspect-Taxonomy-&-Structure)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
 ## Example
-![Argumentation-Assurance-Viewpoint-example.svg](../vp-examples/Argumentation-Assurance-Viewpoint-example.svg)
+![Argumentation-Assurance-Viewpoint-primary-example.svg](../diagrams/vp-examples/Argumentation-Assurance-Viewpoint-primary-example.svg)
 ## Purpose
 The Argumentation Assurance Viewpoint presents claims backed up by arguments that are supported by evidence, together with the possibility to counter such claims in a similar manner.
 ## Applicability
@@ -19,15 +19,15 @@ A block definition diagram (BDD) featuring a claim-argument-evidence (C-A-E) pat
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_Argument](../stereotypes.md#SAF_Argument)
 * [SAF_ArgumentClaimSupport](../stereotypes.md#SAF_ArgumentClaimSupport)
-* [SAF_Claim](../stereotypes.md#SAF_Claim)
 * [SAF_ClaimAboutSubjectMaking](../stereotypes.md#SAF_ClaimAboutSubjectMaking)
+* [SAF_Claim](../stereotypes.md#SAF_Claim)
 * [SAF_ClaimClaimableItemSupport](../stereotypes.md#SAF_ClaimClaimableItemSupport)
-* [SAF_Claimant](../stereotypes.md#SAF_Claimant)
 * [SAF_ClaimantClaimMaking](../stereotypes.md#SAF_ClaimantClaimMaking)
-* [SAF_CounterClaim](../stereotypes.md#SAF_CounterClaim)
+* [SAF_Claimant](../stereotypes.md#SAF_Claimant)
 * [SAF_CounterClaimClaimableItemMaking](../stereotypes.md#SAF_CounterClaimClaimableItemMaking)
-* [SAF_Evidence](../stereotypes.md#SAF_Evidence)
+* [SAF_CounterClaim](../stereotypes.md#SAF_CounterClaim)
 * [SAF_EvidenceArgumentReinforcement](../stereotypes.md#SAF_EvidenceArgumentReinforcement)
+* [SAF_Evidence](../stereotypes.md#SAF_Evidence)
 * [SAF_Refuter](../stereotypes.md#SAF_Refuter)
 * [SAF_SCV02a_View](../stereotypes.md#SAF_SCV02a_View)
 * [SAF_Subject](../stereotypes.md#SAF_Subject)

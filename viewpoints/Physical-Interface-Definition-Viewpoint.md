@@ -4,9 +4,9 @@
 | --- | --- | --- |
 |[Physical](../domains.md#Domain-Physical)|[Interface](../aspects.md#Aspect-Interface)|![Under Construction](../diagrams/Under_construction_icon-yellow.svg )[under construction](../using-saf/maturity.md#under-construction)|
 ## Example
-![Physical-Interface-Definition-Viewpoint-example.svg](../vp-examples/Physical-Interface-Definition-Viewpoint-example.svg)
-![Physical-Interface-Definition-Viewpoint-example-1.svg](../vp-examples/Physical-Interface-Definition-Viewpoint-example-1.svg)
-![Physical-Interface-Definition-Viewpoint-example-2.svg](../vp-examples/Physical-Interface-Definition-Viewpoint-example-2.svg)
+![Physical-Interface-Definition-Viewpoint-primary-example.svg](../diagrams/vp-examples/Physical-Interface-Definition-Viewpoint-primary-example.svg)
+![Physical-Interface-Definition-Viewpoint-primary-example-1.svg](../diagrams/vp-examples/Physical-Interface-Definition-Viewpoint-primary-example-1.svg)
+![Physical-Interface-Definition-Viewpoint-primary-example-2.svg](../diagrams/vp-examples/Physical-Interface-Definition-Viewpoint-primary-example-2.svg)
 ## Purpose
 preliminary text - work in progess
 The Physical Interface Definition Viewpoint provides definitions for physical interfaces. These definitions are may be reused on different interfaces.
@@ -24,10 +24,14 @@ A tabular format listing Physical Interface blocks, their ports, and flow proper
 ## Concern
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
+* FlowProperty contained in SAF_PhysicalInterfaceDefinition
 * FlowProperty [SysML Profile]
+* ProxyPort typed by SAF_PhysicalInterfaceDefinition
 * ProxyPort [SysML Profile]
 * [SAF_PhysicalExchangeType](../stereotypes.md#SAF_PhysicalExchangeType)
+* SAF_PhysicalInterfaceDefinition contained in ProxyPort
 * [SAF_PhysicalInterfaceDefinition](../stereotypes.md#SAF_PhysicalInterfaceDefinition)
+* [SAF_ProtocolLayerRelationship](../stereotypes.md#SAF_ProtocolLayerRelationship)
 * [SAF_ProtocolLayerRelationship](../stereotypes.md#SAF_ProtocolLayerRelationship)
 * [SAF_SPV05a_View](../stereotypes.md#SAF_SPV05a_View)
 ## Input from other Viewpoints

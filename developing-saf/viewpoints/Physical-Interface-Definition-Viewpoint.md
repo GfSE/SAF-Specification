@@ -4,9 +4,9 @@
 | --- | --- | --- |
 |[Physical](../../domains.md#Domain-Physical)|[Interface](../../aspects.md#Aspect-Interface)|![Under Construction](../../diagrams/Under_construction_icon-yellow.svg )[under construction](../../using-saf/maturity.md#under-construction)|
 ## Example
-![Physical-Interface-Definition-Viewpoint-example.svg](../../vp-examples/Physical-Interface-Definition-Viewpoint-example.svg)
-![Physical-Interface-Definition-Viewpoint-example-1.svg](../../vp-examples/Physical-Interface-Definition-Viewpoint-example-1.svg)
-![Physical-Interface-Definition-Viewpoint-example-2.svg](../../vp-examples/Physical-Interface-Definition-Viewpoint-example-2.svg)
+![Physical-Interface-Definition-Viewpoint-primary-example.svg](../../diagrams/vp-examples/Physical-Interface-Definition-Viewpoint-primary-example.svg)
+![Physical-Interface-Definition-Viewpoint-primary-example-1.svg](../../diagrams/vp-examples/Physical-Interface-Definition-Viewpoint-primary-example-1.svg)
+![Physical-Interface-Definition-Viewpoint-primary-example-2.svg](../../diagrams/vp-examples/Physical-Interface-Definition-Viewpoint-primary-example-2.svg)
 ## Purpose
 preliminary text - work in progess
 The Physical Interface Definition Viewpoint provides definitions for physical interfaces. These definitions are may be reused on different interfaces.
@@ -57,11 +57,15 @@ A tabular format listing Physical Interface blocks, their ports, and flow proper
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
-|FlowProperty [SysML Profile]|[Physical Connection Property](../concept/concepts.md#Physical-Connection-Property)|
+|FlowProperty contained in SAF_PhysicalInterfaceDefinition|[PCPspecifyingDetailOfPCPD](../concept/concepts.md#PCPspecifyingDetailOfPCPD)|
+|FlowProperty [SysML Profile]|[Physical Connection Point Property](../concept/concepts.md#Physical-Connection-Point-Property)|
+|ProxyPort typed by SAF_PhysicalInterfaceDefinition|[PCPDdefiningPCP](../concept/concepts.md#PCPDdefiningPCP)|
 |ProxyPort [SysML Profile]|[Physical Connection Point](../concept/concepts.md#Physical-Connection-Point)|
 |[SAF_PhysicalExchangeType](../../stereotypes.md#SAF_PhysicalExchangeType)|[Physical Exchange Kind](../concept/concepts.md#Physical-Exchange-Kind)|
+|SAF_PhysicalInterfaceDefinition contained in ProxyPort|[PCPisPartOfPCPD](../concept/concepts.md#PCPisPartOfPCPD)|
 |[SAF_PhysicalInterfaceDefinition](../../stereotypes.md#SAF_PhysicalInterfaceDefinition)|[Physical Connection Point Definition](../concept/concepts.md#Physical-Connection-Point-Definition)|
 |[SAF_ProtocolLayerRelationship](../../stereotypes.md#SAF_ProtocolLayerRelationship)|[PCPOverPCP](../concept/concepts.md#PCPOverPCP)|
+|[SAF_ProtocolLayerRelationship](../../stereotypes.md#SAF_ProtocolLayerRelationship)|[PCPPOverPCPP](../concept/concepts.md#PCPPOverPCPP)|
 |[SAF_SPV05a_View](../../stereotypes.md#SAF_SPV05a_View)|[Physical Interface Definition Viewpoint](../concept/concepts.md#Physical-Interface-Definition-Viewpoint)|
 ## Input from other Viewpoints
 ### Required Viewpoints
