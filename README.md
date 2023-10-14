@@ -14,7 +14,7 @@ The Fire Forest Detection System example is based on the publication **SYSMOD - 
 # Viewpoint Grid
 The Viewpoints are organized as a Grid featuring [Domains](domains.md) as rows and [Aspects](aspects.md) as columns.
 
-![SAF Grid](vp-examples/Grid-Overview-Viewpoint-primary-example.svg)
+![SAF Grid](diagrams/vp-examples/Grid-Overview-Viewpoint-primary-example.svg)
 
 The subsequent chapters give an overview over the SAF viewpoints, grouped by [Domains](domains.md) The specifications of the SAF viewpoints are available as [PDF format](./pdfs), too.
 
