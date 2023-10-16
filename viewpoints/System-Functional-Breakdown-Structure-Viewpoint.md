@@ -32,8 +32,6 @@ Tool specific analysis diagram featuring the relationships between System Proces
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Activity [UML_Standard_Profile]
 * Association [UML_Standard_Profile]
-* Association [UML_Standard_Profile]
-* Property [UML_Standard_Profile]
 * Property [UML_Standard_Profile]
 * [SAF_ContextFunction](../stereotypes.md#SAF_ContextFunction)
 * [SAF_SFV02c_View](../stereotypes.md#SAF_SFV02c_View)

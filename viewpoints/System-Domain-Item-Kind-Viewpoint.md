@@ -29,12 +29,12 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * FlowProperty [SysML Profile]
 * ItemFlow [SysML Profile]
 * Parameter [UML_Standard_Profile]
+* State [UML_Standard_Profile]
 * [SAF_DomainKindComposition](../stereotypes.md#SAF_DomainKindComposition)
 * [SAF_DomainKindDerivation](../stereotypes.md#SAF_DomainKindDerivation)
 * [SAF_DomainKind](../stereotypes.md#SAF_DomainKind)
 * [SAF_OperationalDomainKind](../stereotypes.md#SAF_OperationalDomainKind)
 * [SAF_SFV02a_View](../stereotypes.md#SAF_SFV02a_View)
-* State [UML_Standard_Profile]
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

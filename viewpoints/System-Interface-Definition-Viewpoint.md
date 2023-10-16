@@ -21,13 +21,13 @@ A tabular format listing System Interface blocks, their ports, and flow properti
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Attribute "realizing connector" of ItemFlow referencing Connector
 * Connector [UML_Standard_Profile]
+* FlowProperty [SysML Profile]
 * FlowProperty contained in SAF_ConceptualInterfaceDefinition
 * FlowProperty typed by SAF_DomainKind
-* FlowProperty [SysML Profile]
-* ItemFlow typed by SAF_DomainKind
 * ItemFlow [SysML Profile]
-* ProxyPort typed by InterfaceBlock
+* ItemFlow typed by SAF_DomainKind
 * ProxyPort [SysML Profile]
+* ProxyPort typed by InterfaceBlock
 * [SAF_ConceptualInterfaceDefinition](../stereotypes.md#SAF_ConceptualInterfaceDefinition)
 * [SAF_DomainKind](../stereotypes.md#SAF_DomainKind)
 * [SAF_SFV05a_View](../stereotypes.md#SAF_SFV05a_View)

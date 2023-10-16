@@ -126,7 +126,6 @@ The Developer is a group or an individual implementing the system parts accordin
 
 ## Concern
 * How are error states handled?
-* How does the system or a system element interact with the test environment?
 * What additional information the system or a system element needs to generate to enable testing?
 * What are the Interface Requirements regarding bandwidth, data throughput and latency?
 * What are the encryption means used for an exchange?
@@ -136,7 +135,7 @@ The Developer is a group or an individual implementing the system parts accordin
 * What are the non-functional requirements imposed on the system? 
 
   ***Rationale:  In my role, I need to trace my derived requirements against these ones relevant to me.***
-* What are the protocols for exchanging items on an interface? 
+* What are the protocols for exchanging items on specific interface? 
 
   ***Rationale:  In my role i need to implement the protocol.***
 * What are the provided power inputs?
@@ -155,7 +154,9 @@ The Developer is a group or an individual implementing the system parts accordin
 * What is the necessary processing performance?
 * What is the necessary response time for an interface or a service?
 * What is the scope of a delivery standard?
-* What is the sequence of interactions among the system and context elements
+* What is the sequence of interactions among the system and context elements? 
+
+  ***Rationale:  In my role, I need to interface with the environment.***
 * What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)? 
 
   ***Rationale:  In my role, I need to coordinated external interfaces with external partners.***
@@ -166,10 +167,14 @@ Note: if allocation of usage is used, then allocation of definition is a derived
 * Which HW interfaces are necessary? 
 
   ***Rationale:  In my role, I need to implement interfaces with my HW subsystem, if necessary.***
+* Which Stakeholder are relevant to the system and might impose requirements?
 * Which functions need to be realized by HW?
 * Which functions will the system provide? 
 
   ***Rationale:  In my role, I need to provide qualified feedback on how my how the sub-functions assigned to my subsystem contributes to the function of the system.***
+* Which interface design items are on an interface of a physical architecture element? 
+
+  ***Rationale:  In my role, I need to implement interfaces with my HW subsystem, if necessary.***
 * Which interface partners does a HW item have? 
 
   ***Rationale:  In my role, I need to implement interfaces with my HW subsystem, if necessary.***
@@ -177,6 +182,9 @@ Note: if allocation of usage is used, then allocation of definition is a derived
 
   ***Rationale:  In my role, I need to know which system modes and states my subsystem must support.***
 * Which protection means need to be provided for an interface?
+* Which standards, protocols and format specifications are associated with a specific interface? 
+
+  ***Rationale:  In my role., i need to implement them.***
 * Which variants of a HW item need to be provided?
 * Who provides the inputs to a critical function?
 # IV&V Engineer
@@ -191,33 +199,47 @@ IV&V Engineers are individuals or groups responsible for integration, validation
 
   ***Rationale:  In my role, I need to perform the integration of the system into its deployment environment.***
 * How does the elements of the test environment interact with each other?
-* How does the system or a system element interact with the test environment?
 * How is the system being used or utilized and interacting with other external systems to satisfy user needs? 
 
   ***Rationale:  In my role, I need to take this into account when planning integration.***
+* How to connect the system or a system element to a test equipment? 
+
+  ***Rationale:  In my role, I need to plan the test environment***
 * What additional information the system or a system element needs to generate to enable testing?
 * What additional interfaces are necessary to expose internal properties, states and modes for testing?
+* What are the HW components to be provided?
+* What are the SW components to be provided?
 * What are the functional requirements imposed on the system? 
 
   ***Rationale:  In my role, I need to prove System Requirements via test cases.***
 * What are the non-functional requirements imposed on the system? 
 
   ***Rationale:  In my role, I need to prove System Requirements via test cases.***
-* What are the protocols for exchanging items on an interface? 
+* What are the physical components?
+* What are the protocols for exchanging items on specific interface? 
 
   ***Rationale:  In my role i need to integrate and test the interface.***
 * What is the flow of critical information and data through the system?
 * What is the necessary response time for an interface or a service?
-* What is the sequence of interactions among the system and context elements
+* What is the physical breakdown of the system?
+* What is the sequence of interactions among the system and context elements? 
+
+  ***Rationale:  In my role, I need to plan the test environment.***
 * What kind of test equipment is necessary to test the system elements?
+* What physical items are used building up the system?
 * What shall be validated to the customer at system level?
 * Which functions will the system provide? 
 
   ***Rationale:  In my role, I need to understand the system in order to put it into operation.***
+* Which interface design items are on an interface of a physical architecture element?
 * Which modes and states does the system have? 
 
   ***Rationale:  In my role, I need to understand the system in order to put it into operation.***
-* Which users does the system support? What the system has to accomplish for these users? 
+* Which physical items the SOI is built of?
+* Which standards, protocols and format specifications are associated with a specific interface? 
+
+  ***Rationale:  In my role., i need to test and integrate them.***
+* Which users does the system support?  
 
   ***Rationale:  In my role, I need to cover these users with my test.***
 * Who provides the inputs to a critical function?
@@ -257,7 +279,7 @@ The example illustrates, that the roles user and operator are depending heavily 
 * What are necessary inputs for operating the system expected to be provided by other external entitys?
 * What are the scenarios a system function is utilized in?
 * What is the necessary response time for an interface or a service?
-* Which users does the system support? What the system has to accomplish for these users? 
+* Which users does the system support?  
 
   ***Rationale:  In my role, I need to check whether the system fits into the higher-level user concept.***
 # Portfolio Manager
@@ -277,9 +299,15 @@ Systems Engineering creates a clear and manageable system structure, which is th
 * For what purpose is the system of interest developed or adapted? 
 
   ***Rationale:  In my role, I need to check whether the project order is implemented correctly.***
+* How to involve a Stakeholder and to what degree?
+* In which life cycles is a Stakeholder involved in the project?
 * What are the HW components to be provided?
 * What are the SW components to be provided?
+* What are the consequences not considering a Stakeholder?
+* What are the consequences, if the Stakeholder’s concerns are not considered?
 * What are the system delivery standards?
+* What concerns does a Stakeholder have?
+* What impact does a Stakeholder have on the project?
 * What is the functional scope of each system delivery standard?
 * What is the rationale when requirements are not considered?
 * What is the risk involved with each development item?
@@ -288,6 +316,7 @@ Systems Engineering creates a clear and manageable system structure, which is th
 * Which Stakeholder Requirements are addressed by System Requirements? 
 
   ***Rationale:  In my role, I need to check whether we fulfill our contract.***
+* Which Stakeholder are relevant to the system and might impose requirements?
 * Which development effort is associated with each individual element?
 * Which functions will the system provide?
 * Who provides the inputs to a critical function?
@@ -331,7 +360,7 @@ The safety experts evaluate a proposed system architecture and design for safety
 * What is the necessary response time for an interface or a service?
 * What is the possible harm in utilizing the system?
 * What is the rationale when requirements are not considered?
-* What is the sequence of interactions among the system and context elements
+* What is the sequence of interactions among the system and context elements?
 * What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
 * What operational exchanges do operational performers need to consume or provide?
 * What shall be validated to the customer at system level?
@@ -350,12 +379,13 @@ The IT-Security experts evaluate a proposed system architecture and design for I
 * How do internal system elements interact with each other to provide the system function or service?
 * How is the interface between different domains protected?
 * What additional information the system or a system element needs to generate to enable testing?
+* What are data / information items exchanged?
 * What are necessary inputs for operating the system expected to be provided by other external entitys?
 * What are the confidentiality, integrity and availability levels for processed or exchanged information?
 * What are the domains of similar security levels in the system or the system participates in?
 * What are the encryption means used for an exchange?
 * What are the interfaces between different domains?
-* What are the protocols for exchanging items on an interface? 
+* What are the protocols for exchanging items on specific interface? 
 
   ***Rationale:  In my role i need to assess the security on the interface.***
 * What are the protocols used for exchanging information? 
@@ -365,7 +395,7 @@ The IT-Security experts evaluate a proposed system architecture and design for I
 * What are the scenarios a system function is utilized in?
 * What is the necessary response time for an interface or a service?
 * What is the rationale when requirements are not considered?
-* What is the sequence of interactions among the system and context elements
+* What is the sequence of interactions among the system and context elements?
 * What kind of information is exchanged and processed within the system?
 * What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
 * What operational exchanges do operational performers need to consume or provide?
@@ -374,6 +404,9 @@ The IT-Security experts evaluate a proposed system architecture and design for I
 * Which functions will the system provide?
 * Which information is exchanged between the system and external entities?
 * Which modes and states does the system have?
+* Which standards, protocols and format specifications are associated with a specific interface? 
+
+  ***Rationale:  In my role, i need to assess the security based on them.***
 * Why types of exchange can exist between Operational Performers (i.e., flows of information, people, material, or energy)?
 * Wich data types, entity types, related value types, and units have to be known to the SOI and used by the SOI?
 # Software Developer
@@ -383,7 +416,6 @@ The Developer is a group or an individual implementing the system parts accordin
 
 ## Concern
 * How are error states handled?
-* How does the system or a system element interact with the test environment?
 * What additional information the system or a system element needs to generate to enable testing?
 * What are data / information items exchanged?
 * What are precision and accuracy requirements for presentation of data items on an interface?
@@ -399,7 +431,7 @@ The Developer is a group or an individual implementing the system parts accordin
 * What are the non-functional requirements imposed on the system? 
 
   ***Rationale:  In my role, I need to trace my derived requirements against these ones relevant to me.***
-* What are the protocols for exchanging items on an interface? 
+* What are the protocols for exchanging items on specific interface? 
 
   ***Rationale:  In my role i need to implement the protocol.***
 * What is the allocation of functions to the physical architecture? 
@@ -408,7 +440,9 @@ The Developer is a group or an individual implementing the system parts accordin
 * What is the necessary accuracy and resolution for processing?
 * What is the necessary performance for processing?
 * What is the necessary response time for an interface or a service?
-* What is the sequence of interactions among the system and context elements
+* What is the sequence of interactions among the system and context elements? 
+
+  ***Rationale:  In my role, I need to interface with the environment.***
 * What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)? 
 
   ***Rationale:  In my role, I need to coordinated external interfaces with external partners.***
@@ -426,12 +460,18 @@ Note: if allocation of usage is used, then allocation of definition is a derived
 * Which functions will the system provide? 
 
   ***Rationale:  In my role, I need to provide qualified feedback on how my how the sub-functions assigned to my subsystem contributes to the function of the system.***
+* Which interface design items are on an interface of a physical architecture element? 
+
+  ***Rationale:  In my role, I need to implement interfaces with my SW subsystem, if necessary.***
 * Which interface partners does a SW item have? 
 
   ***Rationale:  In my role, I need to implement interfaces with my SW subsystem, if necessary.***
 * Which modes and states does the system have? 
 
   ***Rationale:  In my role, I need to know which system modes and states my subsystem must support.***
+* Which standards, protocols and format specifications are associated with a specific interface? 
+
+  ***Rationale:  In my role., i need to implement them.***
 * Who are the Stakeholders involved in the intended solution? 
 
   ***Rationale:  In my role, I need to give feedback on existing or missing stakeholders.***
@@ -471,17 +511,21 @@ The System Architect as an individual or group performing the systems engineerin
   ***Rationale:  In my role, I need to delegate the realization of interfaces to subsystems.***
 * How does criticality propagate down the system hierarchy?
 * How does the elements of the test environment interact with each other?
-* How does the system or a system element interact with the test environment?
 * How is a critical function decomposed and allocated?
 * How is the system being used or utilized and interacting with other external systems to satisfy user needs? 
 
   ***Rationale:  In my role, I need to pass on the resulting System Requirements to the subsystems.***
+* How to involve a Stakeholder and to what degree?
+* In which life cycles is a Stakeholder involved in the project?
 * Show in a concise manner the relationships from operational capability to operational story, to operational activity, and to operational performer.
 * Show in a concise manner the relationships from operational process to operational story and to operational performer.
 * What Performers or Resources are necessary to operate the intended solution?
 * What additional information the system or a system element needs to generate to enable testing?
+* What are data / information items exchanged?
 * What are necessary enabling systems?
 * What are necessary inputs for operating the system expected to be provided by other external entitys?
+* What are the HW components to be provided?
+* What are the SW components to be provided?
 * What are the capabilities that are supported by the system? 
 
   ***Rationale:  In my role, I need to identify suitable basic components on the grounds of the required system capabilities.***
@@ -494,6 +538,7 @@ The System Architect as an individual or group performing the systems engineerin
 
   ***Rationale:  In my role, I need to check whether the system design realizes the System Requirements.***
 * What are the geographical and physical locations of the intended / proposed elements of the solution?
+* What are the logical components the system is composed of?
 * What are the non-functional requirements imposed on the system? 
 
   ***Rationale:  In my role, I need to check whether the system design realizes the System Requirements.***
@@ -501,12 +546,16 @@ The System Architect as an individual or group performing the systems engineerin
 * What are the operational scenarios (operational stories) relevant to the system?
 * What are the physical components?
 * What are the planned architectural means for risk mitigation?
-* What are the protocols for exchanging items on an interface? 
+* What are the protocols for exchanging items on specific interface? 
 
-  ***Rationale:  In my role i need to asses if the usage of protocols on interfaces is compatible with the system lifecyle conceps.***
+  ***Rationale:  In my role i need to asses if the usage of protocols on interfaces is compatible with the system lifecyle concepts.***
+* What are the protocols used for exchanging information? 
+
+  ***Rationale:  In my role., i need to validate if they fit the purpose of the system and conform the systems concepts***
 * What are the relationships between the partys involved in the operation of the intended solution?
 * What are the scenarios a system function is utilized in?
 * What are the system delivery standards?
+* What concerns does a Stakeholder have?
 * What existing elements of the organization, enterprise, or operational entity need to be integrated in the intended solution?
 * What is the allocation of functions to the physical architecture? 
 
@@ -522,7 +571,9 @@ The System Architect as an individual or group performing the systems engineerin
 * What is the operational context to achieve an operational story?
 * What is the physical breakdown of the system?
 * What is the rationale when requirements are not considered?
-* What is the sequence of interactions among the system and context elements
+* What is the sequence of interactions among the system and context elements? 
+
+  ***Rationale:  In my role, I need to ***
 * What is the system boundary definition?
 * What is the task executed by an organization, enterprise, or operational entity in the Operational Context?
 * What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)? 
@@ -537,22 +588,36 @@ The System Architect as an individual or group performing the systems engineerin
 * What system elements are make-items, reuse items, or COTS?
 * Which (system and system partial) functions are assigned to a logical item and logical item components?
 Note: if allocation of usage is used, then allocation of definition is a derived relationship XOR.
+* Which HW interfaces are necessary?
 * Which Operational Performer will operate or run the system?
+* Which SW interfaces are necessary?
 * Which Stakeholder are relevant to the system and might impose requirements? 
 
   ***Rationale:  In my role, I need to give feedback on existing or missing stakeholders.***
+* Which Viewpoints are present
 * Which functions will the system provide? 
 
   ***Rationale:  In my role, I need to break these down further to be able to delegate sub-functions to subsystems.***
 * Which information is exchanged between the system and external entities?
+* Which interface design items are on an interface of a physical architecture element?
+* Which interface partners does a HW item have? 
+
+  ***Rationale:  In my role, i need to orchestrate interface agreements between the interface partners.***
+* Which interface partners does a SW item have? 
+
+  ***Rationale:  In my role, i need to orchestrate interface agreements between the interface partners.***
 * Which is the operational scenario, i.e., course of action, for the mission and the context in which the system of systems solution will exist?
 * Which modes and states does the system have? 
 
   ***Rationale:  In my role, I need to understand the required system behavior in order to further design the system.***
 * Which operational activity shall be executed by which operational performer in the operational story?
+* Which physical items the SOI is built of?
+* Which standards, protocols and format specifications are associated with a specific interface? 
+
+  ***Rationale:  In my role., i need to validate if they fit the purpose of the system and conform the systems concepts.***
 * Which system function is addressed by system requirement?
 * Which system functions are dependent on a systems mode or state?
-* Which users does the system support? What the system has to accomplish for these users? 
+* Which users does the system support?  
 
   ***Rationale:  In my role, I need to delegate the realization of HMI to subsystems.***
 * Who are the Stakeholders involved in the intended solution? 
@@ -561,6 +626,7 @@ Note: if allocation of usage is used, then allocation of definition is a derived
 * Who provides the inputs to a critical function?
 * Why types of exchange can exist between Operational Performers (i.e., flows of information, people, material, or energy)?
 * Wich data types, entity types, related value types, and units have to be known to the SOI and used by the SOI?
+* what is the decomposition hierarchy of the system/logical elements
 # User
 Definition - User:
 Individual or group that interacts with a system or benefits from a system during its utilization, [ISO/IEC 15288:2022 - Systems engineering - System life-cycle processes]
@@ -572,6 +638,6 @@ The User is the individual, organization or group that benefits from the operati
 * What are necessary inputs for operating the system expected to be provided by other external entitys?
 * What are the scenarios a system function is utilized in?
 * What is the necessary response time for an interface or a service?
-* Which users does the system support? What the system has to accomplish for these users? 
+* Which users does the system support?  
 
   ***Rationale:  In my role, I need to check whether the system fits into the higher-level user concept.***

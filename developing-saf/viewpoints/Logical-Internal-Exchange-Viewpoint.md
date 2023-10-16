@@ -19,9 +19,6 @@ The Logical Internal Exchange Viewpoint supports the "Develop Models and Views o
 One or more IBD featuring the Logical Elements of the SOI, and the SOI boundary, containing connectors for each identified SOI interface delegation to SOI elements, as well as connectors between related interfaces of SOI parts. An interface is a connection resource for hooking on the Logical SOI Elements to other Logical SOI Elements. Item flows are defined for each exchange on the identified interface.  Recommendation: Use more than one IBD focused on different areas of interest to keep the view comprehensive. Depending on the Stakeholder Concerns the logical item exchange information might be suppressed.
 
 ## Stakeholder
-* [Hardware Developer](../../stakeholders.md#Hardware-Developer)
-* [IV&V Engineer](../../stakeholders.md#IV&V-Engineer)
-* [Regulation Authority](../../stakeholders.md#Regulation-Authority)
 * [Safety Expert](../../stakeholders.md#Safety-Expert)
 * [Security Expert](../../stakeholders.md#Security-Expert)
 * [Software Developer](../../stakeholders.md#Software-Developer)
@@ -29,9 +26,8 @@ One or more IBD featuring the Logical Elements of the SOI, and the SOI boundary,
 ## Concern
 * How do internal system elements interact with each other to provide the system function or service?
 * How do the logical system elements interact to fulfill the designated system function?
-* What additional information the system or a system element needs to generate to enable testing?
 * What are data / information items exchanged?
-* What are the items exchanged between the logical system elements during the interaction?
+* What are the items exchanged between logical system elements during an interaction?
 * Which requirements apply to a logical interface?
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:

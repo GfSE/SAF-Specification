@@ -24,14 +24,13 @@ A tabular format listing Physical Interface blocks, their ports, and flow proper
 ## Concern
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* FlowProperty contained in SAF_PhysicalInterfaceDefinition
 * FlowProperty [SysML Profile]
-* ProxyPort typed by SAF_PhysicalInterfaceDefinition
+* FlowProperty contained in SAF_PhysicalInterfaceDefinition
 * ProxyPort [SysML Profile]
-* [SAF_PhysicalExchangeType](../stereotypes.md#SAF_PhysicalExchangeType)
+* ProxyPort typed by SAF_PhysicalInterfaceDefinition
 * SAF_PhysicalInterfaceDefinition contained in ProxyPort
+* [SAF_PhysicalExchangeType](../stereotypes.md#SAF_PhysicalExchangeType)
 * [SAF_PhysicalInterfaceDefinition](../stereotypes.md#SAF_PhysicalInterfaceDefinition)
-* [SAF_ProtocolLayerRelationship](../stereotypes.md#SAF_ProtocolLayerRelationship)
 * [SAF_ProtocolLayerRelationship](../stereotypes.md#SAF_ProtocolLayerRelationship)
 * [SAF_SPV05a_View](../stereotypes.md#SAF_SPV05a_View)
 ## Input from other Viewpoints

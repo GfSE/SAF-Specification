@@ -23,14 +23,12 @@ A tabular format listing [tbd].
 * [Acquirer](../stakeholders.md#Acquirer)
 * [Customer](../stakeholders.md#Customer)
 * [Hardware Developer](../stakeholders.md#Hardware-Developer)
-* [IV&V Engineer](../stakeholders.md#IV&V-Engineer)
 * [Maintainer](../stakeholders.md#Maintainer)
 * [Safety Expert](../stakeholders.md#Safety-Expert)
 * [Security Expert](../stakeholders.md#Security-Expert)
 * [Software Developer](../stakeholders.md#Software-Developer)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* How does the system or a system element interact with the test environment?
 * How is the system interacting with the identified external entities?
 * What are the Interface Requirements imposed on the system?
 * What are the external conceptual entities the system interacts with in the respective context?
@@ -46,7 +44,6 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * ItemFlow [SysML Profile]
 * ProxyPort [SysML Profile]
 * [SAF_DomainKind](../stereotypes.md#SAF_DomainKind)
-* [SAF_LogicalContextRole](../stereotypes.md#SAF_LogicalContextRole)
 * [SAF_LogicalContextRole](../stereotypes.md#SAF_LogicalContextRole)
 * [SAF_LogicalEnvironment](../stereotypes.md#SAF_LogicalEnvironment)
 * [SAF_LogicalExternalSystem](../stereotypes.md#SAF_LogicalExternalSystem)

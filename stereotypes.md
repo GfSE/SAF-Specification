@@ -150,6 +150,16 @@ nothing
 
 ### Realizes
 [CCMcounteringCIM](developing-saf/concept/concepts.md#CCMcounteringCIM)<BR><BR>Specifies the fact that any claimable item, e.g., claim, argument, and evidence, is countered by one or more claims.<BR>
+## SAF_Diagram
+
+### Icon
+
+
+### Documentation
+
+
+### Realizes
+[View](viewpoints/View.md)<BR>
 ## SAF_DocumentReference
 
 ### Icon
@@ -680,6 +690,16 @@ The Argumentation Assurance Viewpoint presents claims backed up by arguments tha
 
 ### Realizes
 [Argumentation Assurance Viewpoint](viewpoints/Argumentation-Assurance-Viewpoint.md)<BR>
+## SAF_SCV02b_View
+
+### Icon
+
+
+### Documentation
+The Argumentation Assurance Viewpoint presents claims backed up by arguments that are supported by evidence, together with the possibility to counter such claims in a similar manner.<BR><BR>A block definition diagram (BDD) featuring a claim-argument-evidence (C-A-E) pattern.
+
+### Realizes
+[Grid Overview Viewpoint](viewpoints/Grid-Overview-Viewpoint.md)<BR>
 ## SAF_SFV01a_View
 
 ### Icon

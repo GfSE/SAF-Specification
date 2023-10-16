@@ -23,8 +23,11 @@ A tabular format listing [tbd].
 ## Stakeholder
 * [Acquirer](../stakeholders.md#Acquirer)
 * [Customer](../stakeholders.md#Customer)
+* [IV&V Engineer](../stakeholders.md#IV&V-Engineer)
+* [Operator](../stakeholders.md#Operator)
 * [Supplier](../stakeholders.md#Supplier)
 * [System Architect](../stakeholders.md#System-Architect)
+* [User](../stakeholders.md#User)
 ## Concern
 * What are necessary enabling systems?
 * What are the different contexts the system is embedded and utilized in?
@@ -34,13 +37,12 @@ A tabular format listing [tbd].
 * What is the system boundary definition?
 * Which classes of users (roles) will interact with the system?
 * Which interface partners does the system have?
+* Which users does the system support? 
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Association [UML_Standard_Profile]
-* Association [UML_Standard_Profile]
+* [SAF_LogicalContextRole](../stereotypes.md#SAF_LogicalContextRole)
 * [SAF_LogicalContext](../stereotypes.md#SAF_LogicalContext)
-* [SAF_LogicalContextRole](../stereotypes.md#SAF_LogicalContextRole)
-* [SAF_LogicalContextRole](../stereotypes.md#SAF_LogicalContextRole)
 * [SAF_LogicalEnvironment](../stereotypes.md#SAF_LogicalEnvironment)
 * [SAF_LogicalExternalSystem](../stereotypes.md#SAF_LogicalExternalSystem)
 * [SAF_LogicalSOI](../stereotypes.md#SAF_LogicalSOI)

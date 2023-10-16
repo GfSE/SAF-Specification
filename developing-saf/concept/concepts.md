@@ -13,6 +13,10 @@ exposed in viewpoint [Argumentation Assurance Viewpoint](../viewpoints/Argumenta
 realized by Stereotype [SAF_Argument](../../stereotypes.md#SAF_Argument)
 
 An argument is a rule that provides the bridge between what we know or are assuming (sub-claims, evidence) and the claim we are investigating. The argument used depends on the type, trustworthiness and extent of available evidence and the nature of the claim.
+## Aspect
+realized by Stereotype [SAF_AspectColumn](../../stereotypes.md#SAF_AspectColumn)
+
+An argument is a rule that provides the bridge between what we know or are assuming (sub-claims, evidence) and the claim we are investigating. The argument used depends on the type, trustworthiness and extent of available evidence and the nature of the claim.
 ## Claim
 exposed in viewpoint [Argumentation Assurance Viewpoint](../viewpoints/Argumentation-Assurance-Viewpoint.md)
 
@@ -59,6 +63,10 @@ exposed in viewpoint [Argumentation Assurance Viewpoint](../viewpoints/Argumenta
 realized by Stereotype [SAF_CounterClaim](../../stereotypes.md#SAF_CounterClaim)
 
 A party's claim is a counter-claim if one party asserts claims in response to the claims of another.
+## Domain
+realized by Stereotype [SAF_DomainLayer](../../stereotypes.md#SAF_DomainLayer)
+
+An argument is a rule that provides the bridge between what we know or are assuming (sub-claims, evidence) and the claim we are investigating. The argument used depends on the type, trustworthiness and extent of available evidence and the nature of the claim.
 ## Evidence
 exposed in viewpoint [Argumentation Assurance Viewpoint](../viewpoints/Argumentation-Assurance-Viewpoint.md)
 
@@ -105,6 +113,18 @@ Ordered sequence of exchanges of information, energy, or material between Genera
 
 ## Goal
 A Goal is defined as an end state that a Stakeholder intends to achieve. Goals are generally expressed using qualitative words; e.g., “increase”, “improve”, or “easier”. Goals can also be decomposed; e.g., “increase profit” can be decomposed into the Goals “reduce cost” and “increase sales”. However, it is also very common to associate concrete objectives with Goals, which can be used to describe both the quantitative and time-related measures which are essential to describe the desired state, and when it should be achieved.
+## Grid
+exposed in viewpoint [Grid Overview Viewpoint](../viewpoints/Grid-Overview-Viewpoint.md)
+
+realized by Stereotype [SAF_SCV02b_View](../../stereotypes.md#SAF_SCV02b_View)
+
+The Grid organizes viewpoints in grid cells assigned to categories of a domain (rows) and  an aspect  (columns)
+## Grid Cell
+exposed in viewpoint [Grid Overview Viewpoint](../viewpoints/Grid-Overview-Viewpoint.md)
+
+realized by Stereotype [SAF_SCV02b_View](../../stereotypes.md#SAF_SCV02b_View)
+
+The Grid Cells contain viewpoints
 ## Hardware Element
 exposed in viewpoint [Physical Functional Mapping Viewpoint](../viewpoints/Physical-Functional-Mapping-Viewpoint.md)
 
@@ -627,6 +647,14 @@ realized by Metaclass Event
 ## User
 Representation for a human in the Logical Domain, outside the SOI scope, interacting with the SOI.
 Note: This seems to be highly redundant with definition of "Role".
+## View
+realized by Stereotype [SAF_Diagram](../../stereotypes.md#SAF_Diagram)
+
+The Grid Cells contain viewpoints
+## Viewpoint
+realized by Stereotype [SAF_Viewpoint](../../stereotypes.md#SAF_Viewpoint)
+
+The Grid Cells contain viewpoints
 # Association Concepts
 ## AGTsupportingCLM
 0..* [Argument](#Argument) AGTsupportingCLM 1..* [Claim](#Claim) 
@@ -717,6 +745,34 @@ exposed in viewpoint [System Requirement Traceability Viewpoint](../viewpoints/S
 realized by Stereotype [SAF_SystemFunctionalRequirementRefinement](../../stereotypes.md#SAF_SystemFunctionalRequirementRefinement)
 
 Specifies the fact that a System Function is refined by Functional Requirements.
+## GCBelongstoD
+1..* [Grid Cell](#Grid-Cell) GCBelongstoD 1 [Domain](#Domain) 
+
+exposed in viewpoint [Grid Overview Viewpoint](../viewpoints/Grid-Overview-Viewpoint.md)
+
+realized by Stereotype [SAF_SCV02b_View](../../stereotypes.md#SAF_SCV02b_View)
+
+specifies that a grid cell is assigned to one domain
+## GCbelongstoA
+1..* [Grid Cell](#Grid-Cell) GCbelongstoA 1 [Aspect](#Aspect) 
+
+exposed in viewpoint [Grid Overview Viewpoint](../viewpoints/Grid-Overview-Viewpoint.md)
+
+realized by Stereotype [SAF_SCV02b_View](../../stereotypes.md#SAF_SCV02b_View)
+
+specifies that a grid cell is assigned to one aspect
+## GCcontainsVP
+1 [Grid Cell](#Grid-Cell) GCcontainsVP 0..* [Viewpoint](#Viewpoint) 
+
+exposed in viewpoint [Grid Overview Viewpoint](../viewpoints/Grid-Overview-Viewpoint.md)
+
+
+## GCcontainsView
+1 [Grid Cell](#Grid-Cell) GCcontainsView 1 [View](#View) 
+
+realized by Stereotype [SAF_SCV02b_View](../../stereotypes.md#SAF_SCV02b_View)
+
+specifies that the grid cell contains views.
 ## GFFbeingPartOfGFNU
 0..* [General Functional Flow](#General-Functional-Flow) GFFbeingPartOfGFNU 1 [General Functional Usage](#General-Functional-Usage) 
 
@@ -755,6 +811,24 @@ Specifies the Input of a System or Context Function.
 1 [General Function](#General-Function) GFNsendingOUPUT 0..* [General Functional Parameter](#General-Functional-Parameter) 
 
 Specifies the Output of a System or Context Function.
+## GcontainsA
+1 [Grid](#Grid) GcontainsA 1..* [Aspect](#Aspect) 
+
+exposed in viewpoint [Grid Overview Viewpoint](../viewpoints/Grid-Overview-Viewpoint.md)
+
+specifies that the grid contains several aspects
+## GcontainsD
+1 [Grid](#Grid) GcontainsD 1 [Domain](#Domain) 
+
+exposed in viewpoint [Grid Overview Viewpoint](../viewpoints/Grid-Overview-Viewpoint.md)
+
+specifies that the grid contains several domains
+## GcontainsGC
+1 [Grid](#Grid) GcontainsGC 1..* [Grid Cell](#Grid-Cell) 
+
+exposed in viewpoint [Grid Overview Viewpoint](../viewpoints/Grid-Overview-Viewpoint.md)
+
+specifies that the grid contains several grid cells
 ## ILIScontainingILCM
 1 [Internal Logical Interaction Scenario](#Internal-Logical-Interaction-Scenario) ILIScontainingILCM 0..* [Internal Logical Chronological Message](#Internal-Logical-Chronological-Message) 
 

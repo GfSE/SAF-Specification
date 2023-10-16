@@ -30,14 +30,13 @@ A tabular format listing states, state transitions, and the conditons to be full
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Event [UML_Standard_Profile]
+* State [UML_Standard_Profile]
+* StateMachine [UML_Standard_Profile]
+* Transition [UML_Standard_Profile]
 * [SAF_DomainKind](../stereotypes.md#SAF_DomainKind)
 * [SAF_LogicalElement](../stereotypes.md#SAF_LogicalElement)
 * [SAF_SFV03c_View](../stereotypes.md#SAF_SFV03c_View)
 * [SAF_SystemFunction](../stereotypes.md#SAF_SystemFunction)
-* StateMachine [UML_Standard_Profile]
-* StateMachine [UML_Standard_Profile]
-* State [UML_Standard_Profile]
-* Transition [UML_Standard_Profile]
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

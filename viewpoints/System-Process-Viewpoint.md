@@ -46,7 +46,6 @@ A tabular format listing all identified System Functions, the System Processes i
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Allocate [SysML Profile]
-* Allocate [SysML Profile]
 * ControlFlow [UML_Standard_Profile]
 * InputPin [UML_Standard_Profile]
 * ObjectFlow [UML_Standard_Profile]
@@ -55,7 +54,6 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_ContextAction](../stereotypes.md#SAF_ContextAction)
 * [SAF_ContextFunction](../stereotypes.md#SAF_ContextFunction)
 * [SAF_FunctionAction](../stereotypes.md#SAF_FunctionAction)
-* [SAF_LogicalContextRole](../stereotypes.md#SAF_LogicalContextRole)
 * [SAF_LogicalContextRole](../stereotypes.md#SAF_LogicalContextRole)
 * [SAF_SFV03a_View](../stereotypes.md#SAF_SFV03a_View)
 * [SAF_SystemFunction](../stereotypes.md#SAF_SystemFunction)

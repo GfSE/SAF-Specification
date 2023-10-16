@@ -15,6 +15,8 @@ A block definition diagram (BDD) depicting the identified Operational Stakeholde
 
 ## Stakeholder
 * [Acquirer](../stakeholders.md#Acquirer)
+* [Hardware Developer](../stakeholders.md#Hardware-Developer)
+* [Project Manager](../stakeholders.md#Project-Manager)
 * [Software Developer](../stakeholders.md#Software-Developer)
 * [Supplier](../stakeholders.md#Supplier)
 * [System Architect](../stakeholders.md#System-Architect)

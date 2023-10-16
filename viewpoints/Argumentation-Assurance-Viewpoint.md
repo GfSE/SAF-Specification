@@ -17,11 +17,11 @@ A block definition diagram (BDD) featuring a claim-argument-evidence (C-A-E) pat
 * How is a evidence-based claim supported?
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SAF_Argument](../stereotypes.md#SAF_Argument)
 * [SAF_ArgumentClaimSupport](../stereotypes.md#SAF_ArgumentClaimSupport)
+* [SAF_Argument](../stereotypes.md#SAF_Argument)
 * [SAF_ClaimAboutSubjectMaking](../stereotypes.md#SAF_ClaimAboutSubjectMaking)
-* [SAF_Claim](../stereotypes.md#SAF_Claim)
 * [SAF_ClaimClaimableItemSupport](../stereotypes.md#SAF_ClaimClaimableItemSupport)
+* [SAF_Claim](../stereotypes.md#SAF_Claim)
 * [SAF_ClaimantClaimMaking](../stereotypes.md#SAF_ClaimantClaimMaking)
 * [SAF_Claimant](../stereotypes.md#SAF_Claimant)
 * [SAF_CounterClaimClaimableItemMaking](../stereotypes.md#SAF_CounterClaimClaimableItemMaking)

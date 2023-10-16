@@ -25,22 +25,21 @@ One or more IBD featuring the Physical Elements of the SOI, and the SOI boundary
 ## Stakeholder
 * [Hardware Developer](../stakeholders.md#Hardware-Developer)
 * [IV&V Engineer](../stakeholders.md#IV&V-Engineer)
-* [Regulation Authority](../stakeholders.md#Regulation-Authority)
 * [Safety Expert](../stakeholders.md#Safety-Expert)
 * [Security Expert](../stakeholders.md#Security-Expert)
 * [Software Developer](../stakeholders.md#Software-Developer)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
 * How do internal system elements interact with each other to provide the system function or service?
-* What additional information the system or a system element needs to generate to enable testing?
 * What are data / information items exchanged?
-* What are the protocols for exchanging items on an interface?
+* What are the protocols for exchanging items on specific interface?
 * What kind of information is exchanged and processed within the system?
 * Which HW interfaces are necessary?
 * Which SW interfaces are necessary?
 * Which interface design items are on an interface of a physical architecture element?
 * Which interface partners does a HW item have?
 * Which interface partners does a SW item have?
+* Which standards, protocols and format specifications are associated with a specific interface?
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Connector [UML_Standard_Profile]

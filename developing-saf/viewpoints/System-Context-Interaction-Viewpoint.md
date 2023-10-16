@@ -20,20 +20,16 @@ Note: This diagram depicts the sending and receiving of messages between the int
 * [Hardware Developer](../../stakeholders.md#Hardware-Developer)
 * [IV&V Engineer](../../stakeholders.md#IV&V-Engineer)
 * [Operator](../../stakeholders.md#Operator)
-* [Regulation Authority](../../stakeholders.md#Regulation-Authority)
 * [Safety Expert](../../stakeholders.md#Safety-Expert)
 * [Security Expert](../../stakeholders.md#Security-Expert)
 * [Software Developer](../../stakeholders.md#Software-Developer)
 * [System Architect](../../stakeholders.md#System-Architect)
 * [User](../../stakeholders.md#User)
 ## Concern
-* How does the system or a system element interact with the test environment?
 * How is the system being used or utilized and interacting with other external systems to satisfy user needs?
-* What additional information the system or a system element needs to generate to enable testing?
 * What are the items exchanged at the boundary of the system with external entities?
 * What is the necessary response time for an interface or a service?
-* What is the sequence of interactions among the system and context elements
-* Which users does the system support? What the system has to accomplish for these users?
+* What is the sequence of interactions among the system and context elements?
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|

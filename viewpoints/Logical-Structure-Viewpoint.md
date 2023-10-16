@@ -19,6 +19,7 @@ Note: Multiple relationships to a kind of element are allowed meaning, that this
 ## Concern
 * How are applicable requirements considered in the system architecture?
 * What are the logical components the system is composed of?
+* what is the decomposition hierarchy of the system/logical elements
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_LogicalElement](../stereotypes.md#SAF_LogicalElement)

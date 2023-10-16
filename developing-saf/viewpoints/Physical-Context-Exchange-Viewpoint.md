@@ -45,15 +45,20 @@ C) A table listing the applicable standards, protocols and formats for the item 
 * [Supplier](../../stakeholders.md#Supplier)
 * [System Architect](../../stakeholders.md#System-Architect)
 ## Concern
-* How does the system or a system element interact with the test environment?
 * How to connect the system or a system element to a test equipment?
+* How will the system be used by whom and which contextual elements are involved?
 * What are the Interface Requirements regarding bandwidth, data throughput and latency?
 * What are the external physical entities the system interacts with in the respective context?
-* What are the protocols for exchanging items on an interface?
+* What are the protocols for exchanging items on specific interface?
+* What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
+* What kind of physical items (energy, material, information, etc.) are exchanged between the system and external entities?
 * Which HW interfaces are necessary?
 * Which SW interfaces are necessary?
+* Which information is exchanged between the system and external entities?
+* Which interface design items are on an interface of a physical architecture element?
 * Which interface partners does a HW item have?
 * Which interface partners does a SW item have?
+* Which standards, protocols and format specifications are associated with a specific interface?
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
