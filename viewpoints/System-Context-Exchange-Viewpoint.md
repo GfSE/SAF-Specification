@@ -33,7 +33,6 @@ A tabular format listing [tbd].
 * What are the Interface Requirements imposed on the system?
 * What are the external conceptual entities the system interacts with in the respective context?
 * What are the functional interfaces of the system?
-* What are the interactions among the systems users / user classes?
 * What are the items exchanged at the boundary of the system with external entities?
 * What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
 * Which information is exchanged between the system and external entities?

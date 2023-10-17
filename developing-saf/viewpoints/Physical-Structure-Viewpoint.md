@@ -21,7 +21,6 @@ The Physical Structure Viewpoint supports the "Allocation and Partitioning of Lo
 * What are the HW components to be provided?
 * What are the SW components to be provided?
 * What are the configuration items in the physical architecture?
-* What are the major system elements?
 * What are the physical components?
 * What is the physical breakdown of the system?
 * What physical items are used building up the system?

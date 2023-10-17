@@ -19,11 +19,13 @@ A tabular format listing the Domain Item Kinds, and their relationships.
 ## Stakeholder
 * [Acquirer](../../stakeholders.md#Acquirer)
 * [Customer](../../stakeholders.md#Customer)
+* [Hardware Developer](../../stakeholders.md#Hardware-Developer)
 * [Safety Expert](../../stakeholders.md#Safety-Expert)
 * [Security Expert](../../stakeholders.md#Security-Expert)
+* [Software Developer](../../stakeholders.md#Software-Developer)
 * [System Architect](../../stakeholders.md#System-Architect)
 ## Concern
-* Wich data types, entity types, related value types, and units have to be known to the SOI and used by the SOI?
+* Which conceptual level data / energy / material definitions have to be known by the SOI and used by the SOI?
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|

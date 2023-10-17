@@ -30,10 +30,9 @@ One or more IBD featuring the Physical Elements of the SOI, and the SOI boundary
 * [Software Developer](../../stakeholders.md#Software-Developer)
 * [System Architect](../../stakeholders.md#System-Architect)
 ## Concern
-* How do internal system elements interact with each other to provide the system function or service?
-* What are data / information items exchanged?
+* How do the physical system elements interact to provide the system function?
 * What are the protocols for exchanging items on specific interface?
-* What kind of information is exchanged and processed within the system?
+* What items (e.g.  data /energy material) are exchanged within the system?
 * Which HW interfaces are necessary?
 * Which SW interfaces are necessary?
 * Which interface design items are on an interface of a physical architecture element?

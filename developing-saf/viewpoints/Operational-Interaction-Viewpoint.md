@@ -20,7 +20,6 @@ Note: This diagram depicts the sending and receiving of messages between the int
 * [System Architect](../../stakeholders.md#System-Architect)
 ## Concern
 * What possible threads of operational process activities have to be carried out to achieve the operational story main and alternative goals?
-* What validation scenarios have to be carried out to check on the solution validity?
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|

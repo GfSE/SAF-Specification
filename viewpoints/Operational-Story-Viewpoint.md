@@ -22,7 +22,6 @@ Note: Illustrations (drawings, sketches, etc.), and/or descriptions in free text
 * [Customer](../stakeholders.md#Customer)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* What are the operational scenarios (operational stories) relevant to the system?
 * Which is the operational scenario, i.e., course of action, for the mission and the context in which the system of systems solution will exist?
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:

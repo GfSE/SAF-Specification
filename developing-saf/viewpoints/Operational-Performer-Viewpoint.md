@@ -20,7 +20,6 @@ Note: Identified Stakeholders are related to Operational Performers if appropria
 ## Concern
 * What are the relationships between the partys involved in the operation of the intended solution?
 * What partys of the organization, enterprise, or operational entity are needed to achieve an intended operational capability?
-* Which Operational Performer will operate or run the system?
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|

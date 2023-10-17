@@ -25,11 +25,9 @@ Note: This diagram depicts the sending and receiving of messages between the int
 * [System Architect](../../stakeholders.md#System-Architect)
 * [User](../../stakeholders.md#User)
 ## Concern
-* How do internal system elements interact with each other to provide the system function or service?
-* What are the connections between the major system elements?
+* How do the logical system elements interact to to provide the system function?
 * What are the items exchanged between logical system elements during an interaction?
 * What is the necessary response time for an interface or a service?
-* What kind of information is exchanged and processed within the system?
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
