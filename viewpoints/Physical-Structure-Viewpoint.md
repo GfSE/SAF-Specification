@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Physical](../domains.md#Domain-Physical)|[Taxonomy & Structure](../aspects.md#Aspect-Taxonomy-&-Structure)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
 ## Example
-![Physical-Structure-Viewpoint-primary-example.svg](../diagrams/vp-examples/Physical-Structure-Viewpoint-primary-example.svg)
+![Physical-Structure-Viewpoint-primary-example-2.svg](../diagrams/vp-examples/Physical-Structure-Viewpoint-primary-example-2.svg)
 ## Purpose
 The Physical Structure Viewpoint is used to model the internal structure of the SOI and to identify the internal system elements making up the SOI. The SOI breakdown structure identifies system elements and finally on implementation level hardware, software, mechanics. The SOI breakdown structure determines items that are reused and make or buy (COTS) items. The Physical Structure Viewpoint is elaborated for each candidate physical SOI architecture. It provides the basis for further assessment of the architecture candidates by identifying the system elements in each candidate solution.
 
@@ -31,7 +31,6 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_PhysicalSoftwareElement](../stereotypes.md#SAF_PhysicalSoftwareElement)
 * [SAF_PhysicalSystem](../stereotypes.md#SAF_PhysicalSystem)
 * [SAF_SPV02a_View](../stereotypes.md#SAF_SPV02a_View)
-* [](../stereotypes.md#)
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

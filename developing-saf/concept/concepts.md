@@ -2,6 +2,8 @@
 # SAF Development Documentation : Concepts
 # Class Concepts
 ## Abstract Physical Element
+exposed in viewpoint [Physical Logical Mapping Viewpoint](../viewpoints/Physical-Logical-Mapping-Viewpoint.md)
+
 exposed in viewpoint [Physical Structure Viewpoint](../viewpoints/Physical-Structure-Viewpoint.md)
 
 Abstract element representing physical structure items keeping properties and relations applicable to all physical items.
@@ -406,8 +408,6 @@ exposed in viewpoint [Physical Functional Mapping Viewpoint](../viewpoints/Physi
 
 exposed in viewpoint [Physical Internal Exchange Viewpoint](../viewpoints/Physical-Internal-Exchange-Viewpoint.md)
 
-exposed in viewpoint [Physical Logical Mapping Viewpoint](../viewpoints/Physical-Logical-Mapping-Viewpoint.md)
-
 realized by Stereotype [SAF_PhysicalElement](../../stereotypes.md#SAF_PhysicalElement)
 
 A composition of Hardware Elements and Software Elements. Similarity to the V-Model segments and system. See [VXT].
@@ -468,7 +468,11 @@ Defines a context for a System of Interest on Physical Level.
 ## Physical Usage
 exposed in viewpoint [Physical Functional Mapping Viewpoint](../viewpoints/Physical-Functional-Mapping-Viewpoint.md)
 
-General concept of usage on physical level.
+exposed in viewpoint [Physical Logical Mapping Viewpoint](../viewpoints/Physical-Logical-Mapping-Viewpoint.md)
+
+realized by Stereotype [SAF_PhysicalInternalRole](../../stereotypes.md#SAF_PhysicalInternalRole)
+
+General concept of usage of system elements in the context of other system elements physical level.
 ## Physical User
 exposed in viewpoint [Physical Context Definition Viewpoint](../viewpoints/Physical-Context-Definition-Viewpoint.md)
 
@@ -829,6 +833,16 @@ specifies that the grid contains several domains
 exposed in viewpoint [Grid Overview Viewpoint](../viewpoints/Grid-Overview-Viewpoint.md)
 
 specifies that the grid contains several grid cells
+## ILECspecifyingPU
+1..* [Internal Logical Element Constituent](#Internal-Logical-Element-Constituent) ILECspecifyingPU 1 [Physical Usage](#Physical-Usage) 
+
+exposed in viewpoint [Physical Logical Mapping Viewpoint](../viewpoints/Physical-Logical-Mapping-Viewpoint.md)
+
+realized by Stereotype Allocate
+
+
+
+specifies that a usage of a logical element specifies the usage of a physical element.
 ## ILIScontainingILCM
 1 [Internal Logical Interaction Scenario](#Internal-Logical-Interaction-Scenario) ILIScontainingILCM 0..* [Internal Logical Chronological Message](#Internal-Logical-Chronological-Message) 
 
@@ -943,13 +957,15 @@ Specifies the fact that a System Function is expected to be carried out by the S
 ## LETspecifyingAPE
 1..* [Logical Element](#Logical-Element) LETspecifyingAPE 1 [Abstract Physical Element](#Abstract-Physical-Element) 
 
-exposed in viewpoint [Physical Logical Mapping Viewpoint](../viewpoints/Physical-Logical-Mapping-Viewpoint.md)
+realized by Attribute "logical_elements" of SAF_PhysicalItem referencing SAF_LogicalElement
 
-Specifies the fact that a Logical Element specifies one or more Physical Elements. One Physical Element may be specified by exactly one Logical Element. 
+Specifies the fact that one or more Logical Element specifies exactly one Physical Element. 
 Rationale:
 If the Logical Element would be not specifies at all then the physical system would not implement all specified functionality.
 If more than one Physical Element would offer to realize the functionality specified by a Logical Element the responsibility would be ambiguous.
 It is okay to assign several Logical Elements to one Physical Element. This means all specified functionality assigned to the Logical Elements is to be implemented by the Physical Element.
+
+Note, that typically the usage of logical elements in a context is mapped to the usage of physical elements in a context (allocation of usage). Thus this relationship between the definitions is derived.
 ## LIEboundedByPL
 0..* [Logical Item Exchange](#Logical-Item-Exchange) LIEboundedByPL 0..1 [Physical Layer](#Physical-Layer) 
 
@@ -1665,7 +1681,7 @@ The meaning is left to specialisations of bound by
 ## Hardware Element Constituent
 1 [Hardware Element](#Hardware-Element) Hardware Element Constituent 0..* [Hardware Element](#Hardware-Element) 
 
-realized by Error: unhandled realizations
+realized by Stereotype [SAF_PhysicalInternalRole](../../stereotypes.md#SAF_PhysicalInternalRole)
 
 Specifies the fact that a Hardware Element contains Hardware Elements.
 ## Internal Logical Chronological Message

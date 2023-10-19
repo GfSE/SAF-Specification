@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Physical](../../domains.md#Domain-Physical)|[Taxonomy & Structure](../../aspects.md#Aspect-Taxonomy-&-Structure)|![Released](../../diagrams/Symbol_confirmed.png )[released](../../using-saf/maturity.md#released)|
 ## Example
-![Physical-Structure-Viewpoint-primary-example.svg](../../diagrams/vp-examples/Physical-Structure-Viewpoint-primary-example.svg)
+![Physical-Structure-Viewpoint-primary-example-2.svg](../../diagrams/vp-examples/Physical-Structure-Viewpoint-primary-example-2.svg)
 ## Purpose
 The Physical Structure Viewpoint is used to model the internal structure of the SOI and to identify the internal system elements making up the SOI. The SOI breakdown structure identifies system elements and finally on implementation level hardware, software, mechanics. The SOI breakdown structure determines items that are reused and make or buy (COTS) items. The Physical Structure Viewpoint is elaborated for each candidate physical SOI architecture. It provides the basis for further assessment of the architecture candidates by identifying the system elements in each candidate solution.
 
@@ -27,9 +27,9 @@ The Viewpoint is used to identify system elements of the physical architecture.
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
-|[](../../stereotypes.md#)|[Hardware Element Constituent](../concept/concepts.md#Hardware-Element-Constituent)|
 |[SAF_PhysicalElement](../../stereotypes.md#SAF_PhysicalElement)|[Physical Element](../concept/concepts.md#Physical-Element)|
 |[SAF_PhysicalHardwareElement](../../stereotypes.md#SAF_PhysicalHardwareElement)|[Hardware Element](../concept/concepts.md#Hardware-Element)|
+|[SAF_PhysicalInternalRole](../../stereotypes.md#SAF_PhysicalInternalRole)|[Hardware Element Constituent](../concept/concepts.md#Hardware-Element-Constituent)|
 |[SAF_PhysicalInternalRole](../../stereotypes.md#SAF_PhysicalInternalRole)|[Physical Element Constituent](../concept/concepts.md#Physical-Element-Constituent)|
 |[SAF_PhysicalInternalRole](../../stereotypes.md#SAF_PhysicalInternalRole)|[Physical Hardware Constituent](../concept/concepts.md#Physical-Hardware-Constituent)|
 |[SAF_PhysicalInternalRole](../../stereotypes.md#SAF_PhysicalInternalRole)|[Physical Software Constituent](../concept/concepts.md#Physical-Software-Constituent)|

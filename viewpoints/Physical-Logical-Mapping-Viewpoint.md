@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Physical](../domains.md#Domain-Physical)|[Traceability & Mapping](../aspects.md#Aspect-Traceability-&-Mapping)|![Under Construction](../diagrams/Under_construction_icon-yellow.svg )[under construction](../using-saf/maturity.md#under-construction)|
 ## Example
-*none*
+![Physical-Logical-Mapping-Viewpoint-primary-example.svg](../diagrams/vp-examples/Physical-Logical-Mapping-Viewpoint-primary-example.svg)
 ## Purpose
 The Physical Logical Mapping Viewpoint specifies the assignment of the Logical SOI Elements to the Physical SOI Elements.
 ## Applicability
@@ -19,7 +19,12 @@ A  Physical To Logical Assigment Matrix featuring
 ## Concern
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SAF_FunctionAction](../stereotypes.md#SAF_FunctionAction)
+* Allocate [SysML Profile]
+* Attribute "logical_elements" of SAF_PhysicalItem referencing SAF_LogicalElement
+* [SAF_LogicalElement](../stereotypes.md#SAF_LogicalElement)
+* [SAF_LogicalInternalRole](../stereotypes.md#SAF_LogicalInternalRole)
+* [SAF_PhysicalInternalRole](../stereotypes.md#SAF_PhysicalInternalRole)
+* [SAF_SPV08a_View](../stereotypes.md#SAF_SPV08a_View)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Logical Functional Mapping Viewpoint](Logical-Functional-Mapping-Viewpoint.md)
