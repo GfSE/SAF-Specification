@@ -37,14 +37,13 @@ The physical context definition diagram (BDD) defines the elements available in 
 * Which interface partners does the system have?
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* Association [UML_Standard_Profile]
-* Property [UML_Standard_Profile]
+* [SAF_PhysicalContextRole](../stereotypes.md#SAF_PhysicalContextRole)
 * [SAF_PhysicalContext](../stereotypes.md#SAF_PhysicalContext)
 * [SAF_PhysicalEnvironment](../stereotypes.md#SAF_PhysicalEnvironment)
 * [SAF_PhysicalExternalSystem](../stereotypes.md#SAF_PhysicalExternalSystem)
 * [SAF_PhysicalSystem](../stereotypes.md#SAF_PhysicalSystem)
 * [SAF_PhysicalUser](../stereotypes.md#SAF_PhysicalUser)
-* [SAF_SPV01a_View](../stereotypes.md#SAF_SPV01a_View)
+* [SAF_SPV01b_View](../stereotypes.md#SAF_SPV01b_View)
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

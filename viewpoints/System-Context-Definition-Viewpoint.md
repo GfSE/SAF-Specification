@@ -38,7 +38,6 @@ A tabular format listing [tbd].
 * Which users does the system support? 
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* Association [UML_Standard_Profile]
 * [SAF_LogicalContextRole](../stereotypes.md#SAF_LogicalContextRole)
 * [SAF_LogicalContext](../stereotypes.md#SAF_LogicalContext)
 * [SAF_LogicalEnvironment](../stereotypes.md#SAF_LogicalEnvironment)

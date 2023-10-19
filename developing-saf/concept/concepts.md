@@ -1726,10 +1726,6 @@ exposed in viewpoint [System Process Viewpoint](../viewpoints/System-Process-Vie
 
 realized by Stereotype [SAF_LogicalContextRole](../../stereotypes.md#SAF_LogicalContextRole)
 
-realized by Metaclass Association
-
-
-
 Specifies the fact that a Logical Context Element exists in a specific Logical Context.
 ## Logical SOI Constituent
 1 [Logical SOI](#Logical-SOI) Logical SOI Constituent 1..* [Logical System Context](#Logical-System-Context) 
@@ -1743,10 +1739,6 @@ exposed in viewpoint [System Context Interaction Viewpoint](../viewpoints/System
 exposed in viewpoint [System Process Viewpoint](../viewpoints/System-Process-Viewpoint.md)
 
 realized by Stereotype [SAF_LogicalContextRole](../../stereotypes.md#SAF_LogicalContextRole)
-
-realized by Metaclass Association
-
-
 
 Specifies the fact that a Logical SOI exists in a specific Logical Context.
 ## Operational Chronological Message
@@ -1846,13 +1838,7 @@ Specifies the fact that a physical connection point property communicates / tran
 
 exposed in viewpoint [Physical Context Definition Viewpoint](../viewpoints/Physical-Context-Definition-Viewpoint.md)
 
-realized by Metaclass Association
-
-
-
-realized by Metaclass Property
-
-
+realized by Stereotype [SAF_PhysicalContextRole](../../stereotypes.md#SAF_PhysicalContextRole)
 
 Specifies the fact that a Physical Context Element exists in a specific Physical Context.
 ## Physic SOI Constituent
@@ -1860,13 +1846,7 @@ Specifies the fact that a Physical Context Element exists in a specific Physical
 
 exposed in viewpoint [Physical Context Definition Viewpoint](../viewpoints/Physical-Context-Definition-Viewpoint.md)
 
-realized by Metaclass Association
-
-
-
-realized by Metaclass Property
-
-
+realized by Stereotype [SAF_PhysicalContextRole](../../stereotypes.md#SAF_PhysicalContextRole)
 
 Specifies the fact that a Physical SOI exists in a specific Physical Context.
 ## Physical Connection

@@ -39,16 +39,14 @@ The physical context definition diagram (BDD) defines the elements available in 
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
-|Association [UML_Standard_Profile]|[Physic Context Constituent](../concept/concepts.md#Physic-Context-Constituent)|
-|Association [UML_Standard_Profile]|[Physic SOI Constituent](../concept/concepts.md#Physic-SOI-Constituent)|
-|Property [UML_Standard_Profile]|[Physic Context Constituent](../concept/concepts.md#Physic-Context-Constituent)|
-|Property [UML_Standard_Profile]|[Physic SOI Constituent](../concept/concepts.md#Physic-SOI-Constituent)|
 |[SAF_PhysicalContext](../../stereotypes.md#SAF_PhysicalContext)|[Physical System Context](../concept/concepts.md#Physical-System-Context)|
+|[SAF_PhysicalContextRole](../../stereotypes.md#SAF_PhysicalContextRole)|[Physic Context Constituent](../concept/concepts.md#Physic-Context-Constituent)|
+|[SAF_PhysicalContextRole](../../stereotypes.md#SAF_PhysicalContextRole)|[Physic SOI Constituent](../concept/concepts.md#Physic-SOI-Constituent)|
 |[SAF_PhysicalEnvironment](../../stereotypes.md#SAF_PhysicalEnvironment)|[Physical Environment](../concept/concepts.md#Physical-Environment)|
 |[SAF_PhysicalExternalSystem](../../stereotypes.md#SAF_PhysicalExternalSystem)|[Physical External System](../concept/concepts.md#Physical-External-System)|
 |[SAF_PhysicalSystem](../../stereotypes.md#SAF_PhysicalSystem)|[Physical SOI](../concept/concepts.md#Physical-SOI)|
 |[SAF_PhysicalUser](../../stereotypes.md#SAF_PhysicalUser)|[Physical User](../concept/concepts.md#Physical-User)|
-|[SAF_SPV01a_View](../../stereotypes.md#SAF_SPV01a_View)|[Physical Context Definition Viewpoint](../concept/concepts.md#Physical-Context-Definition-Viewpoint)|
+|[SAF_SPV01b_View](../../stereotypes.md#SAF_SPV01b_View)|[Physical Context Definition Viewpoint](../concept/concepts.md#Physical-Context-Definition-Viewpoint)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*
