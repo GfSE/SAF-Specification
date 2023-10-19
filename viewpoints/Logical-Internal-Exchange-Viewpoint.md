@@ -27,7 +27,6 @@ One or more IBD featuring the Logical Elements of the SOI, and the SOI boundary,
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
 * How do the logical system elements interact to to provide the system function?
-* What are the items exchanged between logical system elements during an interaction?
 * What items (e.g.  data /energy material) are exchanged within the system?
 * Which requirements apply to a logical interface?
 ## Profile Model Reference

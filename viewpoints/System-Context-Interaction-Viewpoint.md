@@ -27,9 +27,8 @@ Note: This diagram depicts the sending and receiving of messages between the int
 * [User](../stakeholders.md#User)
 ## Concern
 * How is the system being used or utilized and interacting with other external systems to satisfy user needs?
-* What are the items exchanged at the boundary of the system with external entities?
 * What is the necessary response time for an interface or a service?
-* What is the sequence of interactions among the system and context elements?
+* What is the sequence of interactions among the system and context elements on concpetual level?
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Interaction [UML_Standard_Profile]

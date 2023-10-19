@@ -2,7 +2,7 @@
 # SAF User Documentation : Physical Context Definition Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
-|[Physical](../domains.md#Domain-Physical)|[Context & Exchange](../aspects.md#Aspect-Context-&-Exchange)|![Under Construction](../diagrams/Under_construction_icon-yellow.svg )[under construction](../using-saf/maturity.md#under-construction)|
+|[Physical](../domains.md#Domain-Physical)|[Context & Exchange](../aspects.md#Aspect-Context-&-Exchange)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
 ## Example
 ![Physical-Context-Definition-Viewpoint-primary-example.svg](../diagrams/vp-examples/Physical-Context-Definition-Viewpoint-primary-example.svg)
 ## Purpose
@@ -29,11 +29,8 @@ The physical context definition diagram (BDD) defines the elements available in 
 * [Supplier](../stakeholders.md#Supplier)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* What are necessary enabling systems?
 * What are the different contexts the system is embedded and utilized in?
 * What are the external physical entities the system interacts with in the respective context?
-* What is the system boundary definition?
-* What kind of test equipment is necessary to test the system elements?
 * Which interface partners does the system have?
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:

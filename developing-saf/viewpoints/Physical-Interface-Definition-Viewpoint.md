@@ -52,7 +52,13 @@ Note: When ports are used these shall be proxy ports and be typed by interface b
 A tabular format listing Physical Interface blocks, their ports, and flow properties.
 
 ## Stakeholder
+* [Hardware Developer](../../stakeholders.md#Hardware-Developer)
+* [Safety Expert](../../stakeholders.md#Safety-Expert)
+* [Security Expert](../../stakeholders.md#Security-Expert)
+* [Software Developer](../../stakeholders.md#Software-Developer)
+* [System Architect](../../stakeholders.md#System-Architect)
 ## Concern
+* Which design level data / energy / material definitions have to be known by the SOI and used by the SOI?
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|

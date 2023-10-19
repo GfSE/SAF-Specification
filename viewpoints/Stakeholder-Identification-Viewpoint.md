@@ -2,7 +2,7 @@
 # SAF User Documentation : Stakeholder Identification Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
-|[Operational](../domains.md#Domain-Operational)|[Taxonomy & Structure](../aspects.md#Aspect-Taxonomy-&-Structure)|![Under Construction](../diagrams/Under_construction_icon-yellow.svg )[under construction](../using-saf/maturity.md#under-construction)|
+|[Operational](../domains.md#Domain-Operational)|[Taxonomy & Structure](../aspects.md#Aspect-Taxonomy-&-Structure)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
 ## Example
 ![Stakeholder-Identification-Viewpoint-primary-example.svg](../diagrams/vp-examples/Stakeholder-Identification-Viewpoint-primary-example.svg)
 ## Purpose

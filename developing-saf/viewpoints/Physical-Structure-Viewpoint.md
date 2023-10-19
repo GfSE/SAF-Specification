@@ -2,29 +2,27 @@
 # SAF Development Documentation : Physical Structure Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
-|[Physical](../../domains.md#Domain-Physical)|[Taxonomy & Structure](../../aspects.md#Aspect-Taxonomy-&-Structure)|![Under Construction](../../diagrams/Under_construction_icon-yellow.svg )[under construction](../../using-saf/maturity.md#under-construction)|
+|[Physical](../../domains.md#Domain-Physical)|[Taxonomy & Structure](../../aspects.md#Aspect-Taxonomy-&-Structure)|![Released](../../diagrams/Symbol_confirmed.png )[released](../../using-saf/maturity.md#released)|
 ## Example
-![Physical-Structure-Viewpoint-primary-example-1.svg](../../diagrams/vp-examples/Physical-Structure-Viewpoint-primary-example-1.svg)
+![Physical-Structure-Viewpoint-primary-example.svg](../../diagrams/vp-examples/Physical-Structure-Viewpoint-primary-example.svg)
 ## Purpose
 The Physical Structure Viewpoint is used to model the internal structure of the SOI and to identify the internal system elements making up the SOI. The SOI breakdown structure identifies system elements and finally on implementation level hardware, software, mechanics. The SOI breakdown structure determines items that are reused and make or buy (COTS) items. The Physical Structure Viewpoint is elaborated for each candidate physical SOI architecture. It provides the basis for further assessment of the architecture candidates by identifying the system elements in each candidate solution.
 
 ## Applicability
 The Physical Structure Viewpoint supports the "Allocation and Partitioning of Logical Entities to Physical Entities" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.4.2.7]. The Physical Structure Viewpoint presents the product breakdown structure of a technical solution for the SOI providing all the identified external interface(s), a structure capable to implement the functionality identified in the logical Viewpoint(s).
+
+The Physical Physical Structure Viewpoint supports the “Design Definition Process” activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§ 2.3.5.5]. and contributes to the artifact "System Design Description".
+ 
+The Viewpoint is used to identify system elements of the physical architecture.
+
 ## Presentation
 ## Stakeholder
-* [Acquirer](../../stakeholders.md#Acquirer)
 * [IV&V Engineer](../../stakeholders.md#IV&V-Engineer)
-* [Project Manager](../../stakeholders.md#Project-Manager)
+* [Safety Expert](../../stakeholders.md#Safety-Expert)
 * [Security Expert](../../stakeholders.md#Security-Expert)
 * [System Architect](../../stakeholders.md#System-Architect)
 ## Concern
-* What are the HW components to be provided?
-* What are the SW components to be provided?
-* What are the configuration items in the physical architecture?
-* What are the physical components?
 * What is the physical breakdown of the system?
-* What physical items are used building up the system?
-* Which physical items the SOI is built of?
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|

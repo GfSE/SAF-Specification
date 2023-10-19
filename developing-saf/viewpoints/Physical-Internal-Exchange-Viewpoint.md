@@ -2,7 +2,7 @@
 # SAF Development Documentation : Physical Internal Exchange Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
-|[Physical](../../domains.md#Domain-Physical)|[Interaction & Collaboration](../../aspects.md#Aspect-Interaction-&-Collaboration)|![Under Construction](../../diagrams/Under_construction_icon-yellow.svg )[under construction](../../using-saf/maturity.md#under-construction)|
+|[Physical](../../domains.md#Domain-Physical)|[Interaction & Collaboration](../../aspects.md#Aspect-Interaction-&-Collaboration)|![Released](../../diagrams/Symbol_confirmed.png )[released](../../using-saf/maturity.md#released)|
 ## Example
 ![Physical-Internal-Exchange-Viewpoint-primary-example.svg](../../diagrams/vp-examples/Physical-Internal-Exchange-Viewpoint-primary-example.svg)
 ![Physical-Internal-Exchange-Viewpoint-primary-example-1.svg](../../diagrams/vp-examples/Physical-Internal-Exchange-Viewpoint-primary-example-1.svg)
@@ -33,11 +33,8 @@ One or more IBD featuring the Physical Elements of the SOI, and the SOI boundary
 * How do the physical system elements interact to provide the system function?
 * What are the protocols for exchanging items on specific interface?
 * What items (e.g.  data /energy material) are exchanged within the system?
-* Which HW interfaces are necessary?
-* Which SW interfaces are necessary?
 * Which interface design items are on an interface of a physical architecture element?
-* Which interface partners does a HW item have?
-* Which interface partners does a SW item have?
+* Which interface partners does a physical system element have?
 * Which standards, protocols and format specifications are associated with a specific interface?
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:

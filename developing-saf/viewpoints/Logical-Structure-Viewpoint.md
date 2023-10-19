@@ -14,12 +14,9 @@ A block definition diagram (BDD) featuring the logical System block and logical 
 Note: Multiple relationships to a kind of element are allowed meaning, that this kind of element is used in several roles.
 
 ## Stakeholder
-* [Regulation Authority](../../stakeholders.md#Regulation-Authority)
 * [System Architect](../../stakeholders.md#System-Architect)
 ## Concern
-* How are applicable requirements considered in the system architecture?
-* What are the logical components the system is composed of?
-* what is the decomposition hierarchy of the system/logical elements
+* what is the logical breakdown of the system ?
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|

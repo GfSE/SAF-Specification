@@ -29,11 +29,9 @@ A tabular format listing [tbd].
 * [System Architect](../../stakeholders.md#System-Architect)
 * [User](../../stakeholders.md#User)
 ## Concern
-* What are necessary enabling systems?
 * What are the different contexts the system is embedded and utilized in?
 * What are the external conceptual entities the system interacts with in the respective context?
 * What are the geographical and physical locations of the intended / proposed elements of the solution?
-* What is the system boundary definition?
 * Which interface partners does the system have?
 * Which users does the system support? 
 ## Profile Model Reference

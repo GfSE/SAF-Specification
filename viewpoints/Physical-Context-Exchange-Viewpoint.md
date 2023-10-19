@@ -2,7 +2,7 @@
 # SAF User Documentation : Physical Context Exchange Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
-|[Physical](../domains.md#Domain-Physical)|[Context & Exchange](../aspects.md#Aspect-Context-&-Exchange)|![Under Construction](../diagrams/Under_construction_icon-yellow.svg )[under construction](../using-saf/maturity.md#under-construction)|
+|[Physical](../domains.md#Domain-Physical)|[Context & Exchange](../aspects.md#Aspect-Context-&-Exchange)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
 ## Example
 ![Physical-Context-Exchange-Viewpoint-primary-example.svg](../diagrams/vp-examples/Physical-Context-Exchange-Viewpoint-primary-example.svg)
 ![Physical-Context-Exchange-Viewpoint-primary-example-1.svg](../diagrams/vp-examples/Physical-Context-Exchange-Viewpoint-primary-example-1.svg)
@@ -50,14 +50,9 @@ C) A table listing the applicable standards, protocols and formats for the item 
 * What are the Interface Requirements regarding bandwidth, data throughput and latency?
 * What are the external physical entities the system interacts with in the respective context?
 * What are the protocols for exchanging items on specific interface?
-* What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
 * What kind of physical items (energy, material, information, etc.) are exchanged between the system and external entities?
-* Which HW interfaces are necessary?
-* Which SW interfaces are necessary?
-* Which information is exchanged between the system and external entities?
 * Which interface design items are on an interface of a physical architecture element?
-* Which interface partners does a HW item have?
-* Which interface partners does a SW item have?
+* Which interface partners does a physical system element have?
 * Which standards, protocols and format specifications are associated with a specific interface?
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:

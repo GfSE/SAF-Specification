@@ -23,6 +23,7 @@ A tabular format listing [tbd].
 * [Acquirer](../../stakeholders.md#Acquirer)
 * [Customer](../../stakeholders.md#Customer)
 * [Hardware Developer](../../stakeholders.md#Hardware-Developer)
+* [IV&V Engineer](../../stakeholders.md#IV&V-Engineer)
 * [Maintainer](../../stakeholders.md#Maintainer)
 * [Safety Expert](../../stakeholders.md#Safety-Expert)
 * [Security Expert](../../stakeholders.md#Security-Expert)
@@ -33,9 +34,7 @@ A tabular format listing [tbd].
 * What are the Interface Requirements imposed on the system?
 * What are the external conceptual entities the system interacts with in the respective context?
 * What are the functional interfaces of the system?
-* What are the items exchanged at the boundary of the system with external entities?
-* What kind of information or what kind of items are exchanged between the system and external entities (incl. actors)?
-* Which information is exchanged between the system and external entities?
+* What kind of conceptuall items (energy, material, information, etc.) are exchanged between the system and external entities?
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
