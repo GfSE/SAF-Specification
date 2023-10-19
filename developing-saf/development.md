@@ -38,7 +38,6 @@ Within the conceptual model the following elements can be recognized (many of th
 * **SAF Concepts**<BR> are the conceptual definition of items and their relationships forming an information network to be kept in a SAF System Model, in order to give answers to the SAF Architecture Framework Stakeholders Concerns.
 * **SAF Viewpoints**<BR> select a set of SAF Concepts in order to adress the information need expressed by a certain set of abovementioned Stakeholers Concerns.
   In SAF the size of Viewpoints should be optimized to support tailoring by selection of viewpoints appropriate to the engineering problem at hand. This  means that SAF Viewpoints should adress only a small number of well defined Concerns.
-  
 * **SAF Information Items**<BR> are like SAF Viewpoints but at a larger scale. They can group SAF Viewpoints while constraining them further. They also can be nested.
   This allows to specify Information Items like e.g. an ISO 29148 SyRS by breaking it down into smaller Information Items and finally into Viewpoints.
   This allows to define which concerns are to be adressed e.g. by a SyRS document and which viewpoints are needed for it.
@@ -46,7 +45,15 @@ Within the conceptual model the following elements can be recognized (many of th
 
 
 # How is SAF documented ?
-The documentation of SAF is needs to support different use cases of different personae:
+The documentation of SAF is needs to support different use cases of different personae.
+
+**We distinguish SAF Users and SAF Developers.**
+* SAF Users should refer to the [User Documentation](../README.md)
+  Viewpoints that are just "proposed" should not be referenced by the User Documentation.
+* SAF Developers should refer to this [Developer Documentation](development.md#development-documentation)
+  
+**Use Cases**
+
 ## SAF Users::SEMP Author
 The author of a SEMP for a system in a certain project context wants to know:
 - which viewpoints are relevant for the systems engineering
