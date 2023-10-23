@@ -14,15 +14,15 @@ The Fire Forest Detection System example is based on the publication **SYSMOD - 
 # Viewpoint Grid
 The Viewpoints are organized as a Grid featuring [Domains](domains.md) as rows and [Aspects](aspects.md) as columns.
 
-![SAF Grid](diagrams/vp-examples/Grid-Overview-Viewpoint-primary-example.svg)
+![SAF Grid](diagrams/vp-examples/Grid-Definition-Viewpoint-primary-example.svg)
 
-The subsequent chapters give an overview over the SAF viewpoints, grouped by [Domains](domains.md) The specifications of the SAF viewpoints are available as [PDF format](./pdfs), too.
+The subsequent sections give an overview about the SAF viewpoint specifications, grouped by [Domains](domains.md). The specifications of the SAF viewpoints are available as [PDF format](./pdfs), too.
 
 ## Operational Domain
 
 ### Operational Domain Objective
 
-The SAF Operational Domain aims to get an understanding of required organizational or operational entity capabilities, as a foundation and reasoning for to systems to be acuired or developed. The viewpoints of the SAF Operational Domain assist the "Business or Mission Analysis Process" and the "Stakeholder Needs and Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1, § 4.2].
+The SAF Operational Domain aims to get an understanding of required organizational or operational entity capabilities, as a foundation and reasoning for to systems to be acuired or developed. The viewpoints of the SAF Operational Domain assist the "Business or Mission Analysis Process" and the "Stakeholder Needs and Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.1, §2.3.5.2].
 
 The SAF Operational Domain supports the model-based development of a [CONOPS](https://www.sebokwiki.org/wiki/Concept_of_Operations_(ConOps)_(glossary)) - as well as an [OPSCON](https://www.sebokwiki.org/wiki/Business_or_Mission_Analysis) and related life cycle concepts - for an organization or operational entity seeking for an improvement of existing capabilities or in establishing new ones.
 
@@ -44,6 +44,7 @@ By identifying Stakeholders and their Requirements the SAF Operational Domain su
 * [Operational Performer Viewpoint](viewpoints/Operational-Performer-Viewpoint.md)
 * [Operational Domain Item Kind Viewpoint](viewpoints/Operational-Domain-Item-Kind-Viewpoint.md)
 * [Operational Capability Viewpoint](viewpoints/Operational-Capability-Viewpoint.md)
+* [Stakeholder Identification Viewpoint](viewpoints/Stakeholder-Identification-Viewpoint.md)
 #### Operational Domain Aspect Behavior
 * [Operational Process Viewpoint](viewpoints/Operational-Process-Viewpoint.md)
 #### Operational Domain Aspect Interaction and Collaboration
@@ -85,7 +86,7 @@ The Functional Domain assumes a conceptual black box perspective onto the system
 * [System Functional Breakdown Structure Viewpoint](viewpoints/System-Functional-Breakdown-Structure-Viewpoint.md)
 #### Functional Domain Aspect Behavior
 * [System Process Viewpoint](viewpoints/System-Process-Viewpoint.md)
-* [System Functional Refinement Viewpoint](viewpoints/System-Functional-Refinement-Viewpoint.md)
+* System Functional Refinement Viewpoint
 * [System State Viewpoint](viewpoints/System-State-Viewpoint.md)
 #### Functional Domain Aspect Interaction and Collaboration
 * [System Context Interaction Viewpoint](viewpoints/System-Context-Interaction-Viewpoint.md)
@@ -166,12 +167,13 @@ For traceability the Physical Domain defines diagrams showing the mapping of the
 * [Physical Internal Exchange Viewpoint](viewpoints/Physical-Internal-Exchange-Viewpoint.md)
 #### Physical Domain Aspect Interface
 * [Physical Interface Definition Viewpoint](viewpoints/Physical-Interface-Definition-Viewpoint.md)
-* [Physical Protocol Stack Definition Viewpoint](viewpoints/Physical-Protocol-Stack-Definition-Viewpoint.md)
+* Physical Protocol Stack Definition Viewpoint
 #### Physical Domain Aspect Traceability & Mapping
 * [Physical Functional Mapping Viewpoint](viewpoints/Physical-Functional-Mapping-Viewpoint.md)
 * [Physical Logical Mapping Viewpoint](viewpoints/Physical-Logical-Mapping-Viewpoint.md)
 
 ## Common Domain
+
 ### Common Domain Objective
 The SAF Common Domain provides viewpoints addressing model information that is common to all other domains or that are applicable throughout the model.
 
@@ -181,9 +183,9 @@ The SAF Common Domain provides viewpoints addressing model information that is c
 
 ### Common Domain Viewpoints
 * [Argumentation Assurance Viewpoint](viewpoints/Argumentation-Assurance-Viewpoint.md)
-* Common-Standards-Definition-Viewpoint
-* Common-Terms-And-Abbreviations-Viewpoint
-* Grid-Overview-Viewpoint
+* Common Standards Definition Viewpoint
+* Common Terms & Abbreviations Viewpoint
+* [Grid Definition Viewpoint](viewpoints/Grid-Definition-Viewpoint.md)
 
 # Stakeholder Definition
 * [List of Stakeholders](stakeholders.md)
