@@ -167,7 +167,7 @@ For traceability the Physical Domain defines diagrams showing the mapping of the
 * [Physical Internal Exchange Viewpoint](viewpoints/Physical-Internal-Exchange-Viewpoint.md)
 #### Physical Domain Aspect Interface
 * [Physical Interface Definition Viewpoint](viewpoints/Physical-Interface-Definition-Viewpoint.md)
-* [Physical Protocol Stack Definition Viewpoint](viewpoints/Physical-Protocol-Stack-Definition-Viewpoint.md)
+* Physical Protocol Stack Definition Viewpoint
 #### Physical Domain Aspect Traceability & Mapping
 * [Physical Functional Mapping Viewpoint](viewpoints/Physical-Functional-Mapping-Viewpoint.md)
 * [Physical Logical Mapping Viewpoint](viewpoints/Physical-Logical-Mapping-Viewpoint.md)
@@ -183,9 +183,9 @@ The SAF Common Domain provides viewpoints addressing model information that is c
 
 ### Common Domain Viewpoints
 * [Argumentation Assurance Viewpoint](viewpoints/Argumentation-Assurance-Viewpoint.md)
-* Common-Standards-Definition-Viewpoint
-* Common-Terms-And-Abbreviations-Viewpoint
-* [Grid-Definition-Viewpoint](viewpoints/Grid-Definition-Viewpoint.md)
+* Common Standards Definition Viewpoint
+* Common Terms & Abbreviations Viewpoint
+* [Grid Definition Viewpoint](viewpoints/Grid-Definition-Viewpoint.md)
 
 # Stakeholder Definition
 * [List of Stakeholders](stakeholders.md)
