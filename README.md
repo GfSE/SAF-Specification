@@ -14,7 +14,7 @@ The Fire Forest Detection System example is based on the publication **SYSMOD - 
 # Viewpoint Grid
 The Viewpoints are organized as a Grid featuring [Domains](domains.md) as rows and [Aspects](aspects.md) as columns.
 
-![SAF Grid](diagrams/vp-examples/Grid-Overview-Viewpoint-primary-example.svg)
+![SAF Grid](diagrams/vp-examples/Grid-Definition-Viewpoint-primary-example.svg)
 
 The subsequent chapters give an overview over the SAF viewpoints, grouped by [Domains](domains.md) The specifications of the SAF viewpoints are available as [PDF format](./pdfs), too.
 
@@ -44,6 +44,7 @@ By identifying Stakeholders and their Requirements the SAF Operational Domain su
 * [Operational Performer Viewpoint](viewpoints/Operational-Performer-Viewpoint.md)
 * [Operational Domain Item Kind Viewpoint](viewpoints/Operational-Domain-Item-Kind-Viewpoint.md)
 * [Operational Capability Viewpoint](viewpoints/Operational-Capability-Viewpoint.md)
+* [Stakeholder Identification Viewpoint](viewpoints/Stakeholder-Identification-Viewpoint.md)
 #### Operational Domain Aspect Behavior
 * [Operational Process Viewpoint](viewpoints/Operational-Process-Viewpoint.md)
 #### Operational Domain Aspect Interaction and Collaboration
@@ -85,7 +86,7 @@ The Functional Domain assumes a conceptual black box perspective onto the system
 * [System Functional Breakdown Structure Viewpoint](viewpoints/System-Functional-Breakdown-Structure-Viewpoint.md)
 #### Functional Domain Aspect Behavior
 * [System Process Viewpoint](viewpoints/System-Process-Viewpoint.md)
-* [System Functional Refinement Viewpoint](viewpoints/System-Functional-Refinement-Viewpoint.md)
+* System Functional Refinement Viewpoint
 * [System State Viewpoint](viewpoints/System-State-Viewpoint.md)
 #### Functional Domain Aspect Interaction and Collaboration
 * [System Context Interaction Viewpoint](viewpoints/System-Context-Interaction-Viewpoint.md)
@@ -172,6 +173,7 @@ For traceability the Physical Domain defines diagrams showing the mapping of the
 * [Physical Logical Mapping Viewpoint](viewpoints/Physical-Logical-Mapping-Viewpoint.md)
 
 ## Common Domain
+
 ### Common Domain Objective
 The SAF Common Domain provides viewpoints addressing model information that is common to all other domains or that are applicable throughout the model.
 
@@ -183,7 +185,7 @@ The SAF Common Domain provides viewpoints addressing model information that is c
 * [Argumentation Assurance Viewpoint](viewpoints/Argumentation-Assurance-Viewpoint.md)
 * Common-Standards-Definition-Viewpoint
 * Common-Terms-And-Abbreviations-Viewpoint
-* Grid-Overview-Viewpoint
+* [Grid-Definition-Viewpoint](viewpoints/Grid-Definition-Viewpoint.md)
 
 # Stakeholder Definition
 * [List of Stakeholders](stakeholders.md)
