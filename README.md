@@ -1,5 +1,5 @@
 # SAF Specification
-      ![System Architecture Framework](/diagrams/Banner_SAF.png)
+![System Architecture Framework](/diagrams/Banner_SAF.png)
 
 Disclaimer: System Architecture Framework Specification ![Bild](diagrams/Under_construction_icon-yellow.svg) **is Work in progress**
 
