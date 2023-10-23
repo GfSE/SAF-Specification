@@ -105,7 +105,7 @@
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#SSHrepresentingSCE'>SSHrepresentingSCE</A><BR>SSHrepresentingSCE: Specifies the fact that a SOI Stakeholder represents a System Context Element.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#SCErepresentedBySSH'>SCErepresentedBySSH</A><BR>SCErepresentedBySSH: Specifies the fact that a SOI Stakeholder represents a System Context Element.<BR></html>
 
 
 ## SAF_ContextFunction
@@ -425,6 +425,15 @@ UAF::OperationalPerformer<BR></html>
 <html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#OPRexhibitingOCY'>OPRexhibitingOCY</A><BR>OPRexhibitingOCY: Specifies the fact that an Operational Performer exhibits an Operational Capability under specific environmental conditions.<BR></html>
 
 
+## SAF_OperationalPerformerRole
+
+### Icon
+*none*
+
+### Documentation
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Operational Context Performer Constituent'>Operational Context Performer Constituent</A><BR>Operational Context Performer Constituent: An Operational Context Constituent represents a participant in the Operational Activity executing one or more of its atomic actions interacting with other constituents of the identified Operational Context. Specific characteristics and features or, in case of persons or organizational units, knowledge and skills are assigned to a constituent necessary for the execution of the allocated actions.<BR></html>
+
+
 ## SAF_OperationalProcess
 
 ### Icon
@@ -469,15 +478,6 @@ UAF::MapsToCapability<BR></html>
 
 ### Documentation
 <html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#OPSrefiningOSY'>OPSrefiningOSY</A><BR>OPSrefiningOSY: Specifies the fact that an Operational Story is refined by one or more Operational Processes.<BR></html>
-
-
-## SAF_OperationalRole
-
-### Icon
-*none*
-
-### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Operational Context Performer Constituent'>Operational Context Performer Constituent</A><BR>Operational Context Performer Constituent: An Operational Context Constituent represents a participant in the Operational Activity executing one or more of its atomic actions interacting with other constituents of the identified Operational Context. Specific characteristics and features or, in case of persons or organizational units, knowledge and skills are assigned to a constituent necessary for the execution of the allocated actions.<BR></html>
 
 
 ## SAF_OperationalSketch
@@ -592,6 +592,8 @@ UAF::MapsToCapability<BR></html>
 <LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical Hardware Constituent'>Physical Hardware Constituent</A><BR>Physical Hardware Constituent: Specifies the fact that a physical element contains any number of Hardware Elements.<BR></LI>
 <LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical Software Constituent'>Physical Software Constituent</A><BR>Physical Software Constituent: Specifies the fact that physical element contains any number of Software Elements.<BR></LI>
 <LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Software Element Constituent'>Software Element Constituent</A><BR>Software Element Constituent: Specifies the fact that a Software Element contains  Software Elements.<BR></LI>
+<LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical Usage'>Physical Usage</A><BR>Physical Usage: General concept of usage of system elements in the context of other system elements physical level.<BR></LI>
+<LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Hardware Element Constituent'>Hardware Element Constituent</A><BR>Hardware Element Constituent: Specifies the fact that a Hardware Element contains Hardware Elements.<BR></LI>
 </UL>
 </html>
 
@@ -687,9 +689,9 @@ A block definition diagram (BDD) featuring a claim-argument-evidence (C-A-E) pat
 *none*
 
 ### Documentation
-The System Use Case Viewpoint provides an outside view on the system functionality from the perspective of the System Users and contributes to the definition of System Requirements and System Usage. The intended system use may be captured as free text use case description, as well as storytelling approach on a coarse level of detail. The main System Exchange Partners participating in the intended system use are identified. System use cases are related to a specific System Context.
+The System Use Case Viewpoint provides an outside view on the system functionality from the perspective of the System Users and contributes to the definition of System Requirements and System Usage. The intended system use may be captured as free-text use case description, as well as storytelling approach on a coarse level of detail. The main System Exchange Partners participating in the intended system use are identified. System Use Cases are related to a specific System Context.
 
-A use case diagram featuring model elements representing System Use Cases, System Context and System Context Elements.
+A use case diagram featuring model elements representing System Use Cases, System Context, and System Context Elements.
 Note: System Use Case pre- and postconditions shall be represented either by callout or compartment notation.
 A tabular format listing the System Use Cases, the System Use Case pre- and postconditions, the System Context, and the System Context Elements.
 
@@ -820,10 +822,9 @@ Note: This diagram depicts the sending and receiving of messages between the int
 *none*
 
 ### Documentation
-The System Interface Definition Viewpoint captures system wide concepts defining functional interfaces. It allows to adopt long-lived standards and to harmonize the functional interface definitions to improve interchangeability, interoperability, and portability.
+The System Interface Definition Viewpoint captures system wide concepts defining interfaces. It allows to adopt long-lived standards and to harmonize the interface definitions to improve interchangeability, interoperability, and portability.
 
 A block definition diagram (BDD) featuring System Interface blocks with ports, and flow properties.
-Note: When ports are used these shall be proxy ports and be typed by interface blocks.
 A tabular format listing System Interface blocks, their ports, and flow properties.
 
 ## SAF_SFV06a_View
@@ -932,12 +933,12 @@ A dependency matrix featuring
 ### Documentation
 The Operational Story Viewpoint
 * captures Operational Stories and their relation to Operational Performers, thus enables storytelling
-* illustrates the operational background from the Stakeholderâs perspective
+* illustrates the operational background from the Stakeholder Perspective
 * serves as starting point to identify Stakeholders and/or context elements
 * fosters the communication among different Stakeholders
 
 A use case diagram featuring model elements representing Operational Stories, and Operational Performers involved in the mission. 
-Note: Illustrations (drawings, sketches, etc.), and/or descriptions in free text may provide a comprehensive understanding of the operational background.
+Note: Illustrations, drawings, sketches, etc., and/or descriptions in free text may provide a comprehensive understanding of the background of the operational mission.
 
 ## SAF_SOV01b_View
 
@@ -998,10 +999,10 @@ A block definition diagram (BDD) featuring Operational Capabilities, their compo
 *none*
 
 ### Documentation
-The Stakeholder Identification Viewpoint of the Operation Domain strives to identify the Stakeholders, i.e., those Stakeholders, whoâs Needs shall be considered during the operation of the intended solution and the execution of the Operational Processes to support the identified Operational Capabilities. A Stakeholder Identification is a process of analyzing individuals, teams, or organizations throughout the project life cycle, grouping them according to their levels of participation, interest, and influence in the project, and determining how best to involve and communicate with each of these Stakeholder groups throughout.
-Note: During the realization of the Intended Solution additional Stakeholders shall be identified having additional Needs and Requirements e.g. regarding production of system elements or certain technologies. 
+The Stakeholder Identification Viewpoint of the Operational Domain strives to identify Stakeholders, whose Needs shall be considered during the operation of the intended solution and the execution of the Operational Processes to support the identified Operational Capabilities. 
+A Stakeholder identification is distinguishing which parties are classified as Stakeholders in a project, either because they can influence the project or because they are directly affected by the result. A Stakeholder analysis is a process of analyzing individuals, teams, or organizations throughout the project life cycle, grouping them according to their levels of participation, interest, and influence in the project, and determining how best to involve and communicate with each of these Stakeholder groups throughout. During the realization of the Intended Solution additional Stakeholders shall be identified having additional Needs and Requirements, e.g., regarding production of system elements or certain technologies.
 
-A block definition diagram (BDD) depicting the identified Operational Stakeholders and their relations  towards the Intended Solution.
+A block definition diagram (BDD) depicting the identified, analysed, and classified Stakeholders and their relations to the Intended Solution.
 
 ## SAF_SOV03a_View
 

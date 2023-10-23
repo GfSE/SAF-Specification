@@ -20,7 +20,7 @@ A  Physical To Logical Assigment Matrix featuring
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Allocate [SysML Profile]
-* Attribute "logical_elements" of SAF_PhysicalItem referencing SAF_LogicalElement
+* Attribute "logical_element" of SAF_PhysicalItem referencing SAF_LogicalElement
 * [SAF_LogicalElement](../stereotypes.md#SAF_LogicalElement)
 * [SAF_LogicalInternalRole](../stereotypes.md#SAF_LogicalInternalRole)
 * [SAF_PhysicalInternalRole](../stereotypes.md#SAF_PhysicalInternalRole)

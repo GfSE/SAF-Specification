@@ -116,13 +116,13 @@ Ordered sequence of exchanges of information, energy, or material between Genera
 ## Goal
 A Goal is defined as an end state that a Stakeholder intends to achieve. Goals are generally expressed using qualitative words; e.g., “increase”, “improve”, or “easier”. Goals can also be decomposed; e.g., “increase profit” can be decomposed into the Goals “reduce cost” and “increase sales”. However, it is also very common to associate concrete objectives with Goals, which can be used to describe both the quantitative and time-related measures which are essential to describe the desired state, and when it should be achieved.
 ## Grid
-exposed in viewpoint [Grid Overview Viewpoint](../viewpoints/Grid-Overview-Viewpoint.md)
+exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-Viewpoint.md)
 
 realized by Stereotype [SAF_SCV02b_View](../../stereotypes.md#SAF_SCV02b_View)
 
 The Grid organizes viewpoints in grid cells assigned to categories of a domain (rows) and  an aspect  (columns)
 ## Grid Cell
-exposed in viewpoint [Grid Overview Viewpoint](../viewpoints/Grid-Overview-Viewpoint.md)
+exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-Viewpoint.md)
 
 realized by Stereotype [SAF_SCV02b_View](../../stereotypes.md#SAF_SCV02b_View)
 
@@ -334,6 +334,8 @@ exposed in viewpoint [Operational Process Mapping Viewpoint](../viewpoints/Opera
 exposed in viewpoint [Operational Process Viewpoint](../viewpoints/Operational-Process-Viewpoint.md)
 
 exposed in viewpoint [Operational Story Viewpoint](../viewpoints/Operational-Story-Viewpoint.md)
+
+exposed in viewpoint [Stakeholder Identification Viewpoint](../viewpoints/Stakeholder-Identification-Viewpoint.md)
 
 realized by Stereotype [SAF_OperationalPerformer](../../stereotypes.md#SAF_OperationalPerformer)
 
@@ -752,7 +754,7 @@ Specifies the fact that a System Function is refined by Functional Requirements.
 ## GCBelongstoD
 1..* [Grid Cell](#Grid-Cell) GCBelongstoD 1 [Domain](#Domain) 
 
-exposed in viewpoint [Grid Overview Viewpoint](../viewpoints/Grid-Overview-Viewpoint.md)
+exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-Viewpoint.md)
 
 realized by Stereotype [SAF_SCV02b_View](../../stereotypes.md#SAF_SCV02b_View)
 
@@ -760,7 +762,7 @@ specifies that a grid cell is assigned to one domain
 ## GCbelongstoA
 1..* [Grid Cell](#Grid-Cell) GCbelongstoA 1 [Aspect](#Aspect) 
 
-exposed in viewpoint [Grid Overview Viewpoint](../viewpoints/Grid-Overview-Viewpoint.md)
+exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-Viewpoint.md)
 
 realized by Stereotype [SAF_SCV02b_View](../../stereotypes.md#SAF_SCV02b_View)
 
@@ -768,7 +770,7 @@ specifies that a grid cell is assigned to one aspect
 ## GCcontainsVP
 1 [Grid Cell](#Grid-Cell) GCcontainsVP 0..* [Viewpoint](#Viewpoint) 
 
-exposed in viewpoint [Grid Overview Viewpoint](../viewpoints/Grid-Overview-Viewpoint.md)
+exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-Viewpoint.md)
 
 
 ## GCcontainsView
@@ -818,19 +820,19 @@ Specifies the Output of a System or Context Function.
 ## GcontainsA
 1 [Grid](#Grid) GcontainsA 1..* [Aspect](#Aspect) 
 
-exposed in viewpoint [Grid Overview Viewpoint](../viewpoints/Grid-Overview-Viewpoint.md)
+exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-Viewpoint.md)
 
 specifies that the grid contains several aspects
 ## GcontainsD
 1 [Grid](#Grid) GcontainsD 1 [Domain](#Domain) 
 
-exposed in viewpoint [Grid Overview Viewpoint](../viewpoints/Grid-Overview-Viewpoint.md)
+exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-Viewpoint.md)
 
 specifies that the grid contains several domains
 ## GcontainsGC
 1 [Grid](#Grid) GcontainsGC 1..* [Grid Cell](#Grid-Cell) 
 
-exposed in viewpoint [Grid Overview Viewpoint](../viewpoints/Grid-Overview-Viewpoint.md)
+exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-Viewpoint.md)
 
 specifies that the grid contains several grid cells
 ## ILECspecifyingPU
@@ -870,7 +872,7 @@ Specifies the fact that a Context Function is expected to be carried out by the 
 
 exposed in viewpoint [Logical Internal Exchange Viewpoint](../viewpoints/Logical-Internal-Exchange-Viewpoint.md)
 
-realized by Attribute "realizing connector" of ItemFlow referencing Connector
+realized by Attribute "realizingConnector" of InformationFlow referencing Connector
 
 Specifies the fact that a Logical Item Exchange is allowed on the Logical Interface Connection.
 ## LCPDdefiningDetailOfLCP
@@ -957,7 +959,7 @@ Specifies the fact that a System Function is expected to be carried out by the S
 ## LETspecifyingAPE
 1..* [Logical Element](#Logical-Element) LETspecifyingAPE 1 [Abstract Physical Element](#Abstract-Physical-Element) 
 
-realized by Attribute "logical_elements" of SAF_PhysicalItem referencing SAF_LogicalElement
+realized by Attribute "logical_element" of SAF_PhysicalItem referencing SAF_LogicalElement
 
 Specifies the fact that one or more Logical Element specifies exactly one Physical Element. 
 Rationale:
@@ -1144,7 +1146,7 @@ exposed in viewpoint [Physical Context Exchange Viewpoint](../viewpoints/Physica
 
 exposed in viewpoint [Physical Internal Exchange Viewpoint](../viewpoints/Physical-Internal-Exchange-Viewpoint.md)
 
-realized by Attribute "realizing connector" of ItemFlow referencing Connector
+realized by Attribute "realizingConnector" of InformationFlow referencing Connector
 
 Specifies the fact that a Physical Item Exchange is allowed on the Physical Connection.
 ## PCPDdefiningPCP
@@ -1227,6 +1229,14 @@ Specifies the fact that a counter-claim is made by a defined refuter.
 0..* [System Context Element](#System-Context-Element) SCEactingForOPR 1 [Operational Performer](#Operational-Performer) 
 
 Specifies the fact that a System Context Element is acting for the benefit of an Operational Performer.
+## SCErepresentedBySSH
+1..* [System Context Element](#System-Context-Element) SCErepresentedBySSH 0..* [System of Interest Stakeholder](#System-of-Interest-Stakeholder) 
+
+exposed in viewpoint [Stakeholder Identification Viewpoint](../viewpoints/Stakeholder-Identification-Viewpoint.md)
+
+realized by Stereotype [SAF_ContextElementRepresentation](../../stereotypes.md#SAF_ContextElementRepresentation)
+
+Specifies the fact that a SOI Stakeholder represents a System Context Element.
 ## SCYcomposedOF
 1 [System Capability](#System-Capability) SCYcomposedOF 0..* [System Capability](#System-Capability) 
 
@@ -1439,7 +1449,7 @@ realized by Stereotype [SAF_SystemProcessRefinement](../../stereotypes.md#SAF_Sy
 
 Specifies the fact that a System Use Case is refined by one System Process.
 ## SRderivingFromSHR
-0..* [System Requirement](#System-Requirement) SRderivingFromSHR 0..* [Stakeholder Requirement](#Stakeholder-Requirement) 
+0..* [System Requirement](#System-Requirement) SRderivingFromSHR 1..* [Stakeholder Requirement](#Stakeholder-Requirement) 
 
 exposed in viewpoint [System Requirement Traceability Viewpoint](../viewpoints/System-Requirement-Traceability-Viewpoint.md)
 
@@ -1496,7 +1506,7 @@ Specifies the fact that the Function is only provided in distinct States. The st
 
 exposed in viewpoint [Stakeholder Identification Viewpoint](../viewpoints/Stakeholder-Identification-Viewpoint.md)
 
-realized by Attribute "concern" of SAF_Stakeholder referencing SAF_SystemOfInterestConcern
+realized by Attribute "concern" of Stakeholder referencing SAF_SystemOfInterestConcern
 
 Specifies the fact that a Stakeholder has certain Concerns.
 ## SSHrelatedToSSH
@@ -1517,14 +1527,6 @@ exposed in viewpoint [Stakeholder Identification Viewpoint](../viewpoints/Stakeh
 realized by Stereotype [SAF_OperationalStakeholderRepresentation](../../stereotypes.md#SAF_OperationalStakeholderRepresentation)
 
 Specifies the fact that a SOI Stakeholder represents an Operational Performer.
-## SSHrepresentingSCE
-1..* [System Context Element](#System-Context-Element) SSHrepresentingSCE 0..* [System of Interest Stakeholder](#System-of-Interest-Stakeholder) 
-
-exposed in viewpoint [Stakeholder Identification Viewpoint](../viewpoints/Stakeholder-Identification-Viewpoint.md)
-
-realized by Stereotype [SAF_ContextElementRepresentation](../../stereotypes.md#SAF_ContextElementRepresentation)
-
-Specifies the fact that a SOI Stakeholder represents a System Context Element.
 ## SSHrepresentingUSR
 1 [System of Interest Stakeholder](#System-of-Interest-Stakeholder) SSHrepresentingUSR 0..* [User](#User) 
 
@@ -1791,7 +1793,7 @@ exposed in viewpoint [Operational Interaction Viewpoint](../viewpoints/Operation
 
 exposed in viewpoint [Operational Process Viewpoint](../viewpoints/Operational-Process-Viewpoint.md)
 
-realized by Stereotype [SAF_OperationalRole](../../stereotypes.md#SAF_OperationalRole)
+realized by Stereotype [SAF_OperationalPerformerRole](../../stereotypes.md#SAF_OperationalPerformerRole)
 
 realized by Metaclass Association
 

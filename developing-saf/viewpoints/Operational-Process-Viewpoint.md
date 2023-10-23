@@ -31,9 +31,9 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |OutputPin [UML_Standard_Profile]|[FROM](../concept/concepts.md#FROM)|
 |[SAF_OperationalDomainKind](../../stereotypes.md#SAF_OperationalDomainKind)|[Operational Domain Kind](../concept/concepts.md#Operational-Domain-Kind)|
 |[SAF_OperationalPerformer](../../stereotypes.md#SAF_OperationalPerformer)|[Operational Performer](../concept/concepts.md#Operational-Performer)|
+|[SAF_OperationalPerformerRole](../../stereotypes.md#SAF_OperationalPerformerRole)|[Operational Context Performer Constituent](../concept/concepts.md#Operational-Context-Performer-Constituent)|
 |[SAF_OperationalProcessAction](../../stereotypes.md#SAF_OperationalProcessAction)|[Operational Process Usage](../concept/concepts.md#Operational-Process-Usage)|
 |[SAF_OperationalProcess](../../stereotypes.md#SAF_OperationalProcess)|[Operational Process](../concept/concepts.md#Operational-Process)|
-|[SAF_OperationalRole](../../stereotypes.md#SAF_OperationalRole)|[Operational Context Performer Constituent](../concept/concepts.md#Operational-Context-Performer-Constituent)|
 |[SAF_SOV03a_View](../../stereotypes.md#SAF_SOV03a_View)|[Operational Process Viewpoint](../concept/concepts.md#Operational-Process-Viewpoint)|
 ## Input from other Viewpoints
 ### Required Viewpoints

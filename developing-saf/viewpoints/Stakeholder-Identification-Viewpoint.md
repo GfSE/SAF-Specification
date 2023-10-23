@@ -6,12 +6,12 @@
 ## Example
 ![Stakeholder-Identification-Viewpoint-primary-example.svg](../../diagrams/vp-examples/Stakeholder-Identification-Viewpoint-primary-example.svg)
 ## Purpose
-The Stakeholder Identification Viewpoint of the Operation Domain strives to identify the Stakeholders, i.e., those Stakeholders, who’s Needs shall be considered during the operation of the intended solution and the execution of the Operational Processes to support the identified Operational Capabilities. A Stakeholder Identification is a process of analyzing individuals, teams, or organizations throughout the project life cycle, grouping them according to their levels of participation, interest, and influence in the project, and determining how best to involve and communicate with each of these Stakeholder groups throughout.
-Note: During the realization of the Intended Solution additional Stakeholders shall be identified having additional Needs and Requirements e.g. regarding production of system elements or certain technologies. 
+The Stakeholder Identification Viewpoint of the Operational Domain strives to identify Stakeholders, whose Needs shall be considered during the operation of the intended solution and the execution of the Operational Processes to support the identified Operational Capabilities. 
+A Stakeholder identification is distinguishing which parties are classified as Stakeholders in a project, either because they can influence the project or because they are directly affected by the result. A Stakeholder analysis is a process of analyzing individuals, teams, or organizations throughout the project life cycle, grouping them according to their levels of participation, interest, and influence in the project, and determining how best to involve and communicate with each of these Stakeholder groups throughout. During the realization of the Intended Solution additional Stakeholders shall be identified having additional Needs and Requirements, e.g., regarding production of system elements or certain technologies.
 ## Applicability
-The Stakeholder Identification Viewpoint supports the "Business or Mission Analysis Process" and the "Stakeholder Needs and Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1, § 4.2] and contributes to the Major Stakeholder Identification.
+The Stakeholder Identification Viewpoint supports the "Business or Mission Analysis Process" and the "Stakeholder Needs and Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.1, §2.3.5.2] and contributes to the Major Stakeholder Identification.
 ## Presentation
-A block definition diagram (BDD) depicting the identified Operational Stakeholders and their relations  towards the Intended Solution.
+A block definition diagram (BDD) depicting the identified, analysed, and classified Stakeholders and their relations to the Intended Solution.
 
 ## Stakeholder
 * [Acquirer](../../stakeholders.md#Acquirer)
@@ -21,21 +21,18 @@ A block definition diagram (BDD) depicting the identified Operational Stakeholde
 * [Supplier](../../stakeholders.md#Supplier)
 * [System Architect](../../stakeholders.md#System-Architect)
 ## Concern
-* How to involve a Stakeholder and to what degree?
-* In which life cycles is a Stakeholder involved in the project?
-* What are the consequences not considering a Stakeholder?
-* What concerns does a Stakeholder have?
-* What impact does a Stakeholder have on the project?
+* In which phases of the life cycle is a Stakeholder involved in the project?
+* What concerns and rationals does a Stakeholder have?
 * What relevant relations and influences exist between Stakeholders?
-* Which Stakeholder are relevant to the system and might impose requirements?
-* Which external entities (external systems, roles, environment, etc.) does a Stakeholder represent?
-* Who are the Stakeholders involved in the intended solution?
+* Which Stakeholders are relevant to the system and might impose requirements?
+* Which external entities (external systems, environments, etc.) does a Stakeholder represent?
+* Who are the (Major) Stakeholders involved in the intended solution?
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
-|Attribute "concern" of SAF_Stakeholder referencing SAF_SystemOfInterestConcern|[SSHhavingCRN](../concept/concepts.md#SSHhavingCRN)|
-|[SAF_ContextElementRepresentation](../../stereotypes.md#SAF_ContextElementRepresentation)|[SSHrepresentingSCE](../concept/concepts.md#SSHrepresentingSCE)|
+|Attribute "concern" of Stakeholder referencing SAF_SystemOfInterestConcern|[SSHhavingCRN](../concept/concepts.md#SSHhavingCRN)|
+|[SAF_ContextElementRepresentation](../../stereotypes.md#SAF_ContextElementRepresentation)|[SCErepresentedBySSH](../concept/concepts.md#SCErepresentedBySSH)|
 |[SAF_OperationalStakeholderRepresentation](../../stereotypes.md#SAF_OperationalStakeholderRepresentation)|[SSHrepresentingOPR](../concept/concepts.md#SSHrepresentingOPR)|
 |[SAF_SOV02d_View](../../stereotypes.md#SAF_SOV02d_View)|[Stakeholder Identification Viewpoint](../concept/concepts.md#Stakeholder-Identification-Viewpoint)|
 |[SAF_StakeholderRelation](../../stereotypes.md#SAF_StakeholderRelation)|[SSHrelatedToSSH](../concept/concepts.md#SSHrelatedToSSH)|

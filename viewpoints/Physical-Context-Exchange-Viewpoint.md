@@ -56,7 +56,7 @@ C) A table listing the applicable standards, protocols and formats for the item 
 * Which standards, protocols and format specifications are associated with a specific interface?
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* Attribute "realizing connector" of ItemFlow referencing Connector
+* Attribute "realizingConnector" of InformationFlow referencing Connector
 * Connector [UML_Standard_Profile]
 * FlowProperty [SysML Profile]
 * FlowProperty contained in SAF_PhysicalInterfaceDefinition

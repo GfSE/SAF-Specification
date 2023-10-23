@@ -31,7 +31,7 @@ One or more IBD featuring the Logical Elements of the SOI, and the SOI boundary,
 * Which requirements apply to a logical interface?
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* Attribute "realizing connector" of ItemFlow referencing Connector
+* Attribute "realizingConnector" of InformationFlow referencing Connector
 * Connector [UML_Standard_Profile]
 * FlowProperty [SysML Profile]
 * FlowProperty contained in SAF_ConceptualInterfaceDefinition

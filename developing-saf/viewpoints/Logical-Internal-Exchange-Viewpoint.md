@@ -33,7 +33,7 @@ One or more IBD featuring the Logical Elements of the SOI, and the SOI boundary,
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
-|Attribute "realizing connector" of ItemFlow referencing Connector|[LCNallowingLIE](../concept/concepts.md#LCNallowingLIE)|
+|Attribute "realizingConnector" of InformationFlow referencing Connector|[LCNallowingLIE](../concept/concepts.md#LCNallowingLIE)|
 |Connector [UML_Standard_Profile]|[Logical Connection](../concept/concepts.md#Logical-Connection)|
 |FlowProperty contained in SAF_ConceptualInterfaceDefinition|[LCPspecifyingDetailOfLCPD](../concept/concepts.md#LCPspecifyingDetailOfLCPD)|
 |FlowProperty typed by SAF_DomainKind|[SDKtypingLCP](../concept/concepts.md#SDKtypingLCP)|

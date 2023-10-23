@@ -34,7 +34,7 @@ A tabular format listing [tbd].
 * What are the Interface Requirements imposed on the system?
 * What are the external conceptual entities the system interacts with in the respective context?
 * What are the functional interfaces of the system?
-* What kind of conceptuall items (energy, material, information, etc.) are exchanged between the system and external entities?
+* What kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|

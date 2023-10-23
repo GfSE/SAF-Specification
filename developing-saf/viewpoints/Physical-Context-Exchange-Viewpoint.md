@@ -58,7 +58,7 @@ C) A table listing the applicable standards, protocols and formats for the item 
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
-|Attribute "realizing connector" of ItemFlow referencing Connector|[PCNallowingPIE](../concept/concepts.md#PCNallowingPIE)|
+|Attribute "realizingConnector" of InformationFlow referencing Connector|[PCNallowingPIE](../concept/concepts.md#PCNallowingPIE)|
 |Connector [UML_Standard_Profile]|[Physical Connection](../concept/concepts.md#Physical-Connection)|
 |FlowProperty contained in SAF_PhysicalInterfaceDefinition|[PCPspecifyingDetailOfPCPD](../concept/concepts.md#PCPspecifyingDetailOfPCPD)|
 |FlowProperty typed by SAF_PhysicalExchangeType|[PEKtypingPCP](../concept/concepts.md#PEKtypingPCP)|

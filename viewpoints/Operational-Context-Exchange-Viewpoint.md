@@ -28,7 +28,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * ItemFlow [SysML Profile]
 * [SAF_OperationalContext](../stereotypes.md#SAF_OperationalContext)
 * [SAF_OperationalDomainKind](../stereotypes.md#SAF_OperationalDomainKind)
-* [SAF_OperationalRole](../stereotypes.md#SAF_OperationalRole)
+* [SAF_OperationalPerformerRole](../stereotypes.md#SAF_OperationalPerformerRole)
 * [SAF_SOV01c_View](../stereotypes.md#SAF_SOV01c_View)
 ## Input from other Viewpoints
 ### Required Viewpoints
