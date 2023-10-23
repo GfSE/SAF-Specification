@@ -16,7 +16,7 @@ The Viewpoints are organized as a Grid featuring [Domains](domains.md) as rows a
 
 ![SAF Grid](diagrams/vp-examples/Grid-Definition-Viewpoint-primary-example.svg)
 
-The subsequent sections give an overview about the SAF viewpoints, grouped by [Domains](domains.md). The specifications of the SAF viewpoints are available as [PDF format](./pdfs), too.
+The subsequent sections give an overview about the SAF viewpoint specifications, grouped by [Domains](domains.md). The specifications of the SAF viewpoints are available as [PDF format](./pdfs), too.
 
 ## Operational Domain
 
