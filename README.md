@@ -22,7 +22,7 @@ The subsequent sections give an overview about the SAF viewpoints, grouped by [D
 
 ### Operational Domain Objective
 
-The SAF Operational Domain aims to get an understanding of required organizational or operational entity capabilities, as a foundation and reasoning for to systems to be acuired or developed. The viewpoints of the SAF Operational Domain assist the "Business or Mission Analysis Process" and the "Stakeholder Needs and Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1, § 4.2].
+The SAF Operational Domain aims to get an understanding of required organizational or operational entity capabilities, as a foundation and reasoning for to systems to be acuired or developed. The viewpoints of the SAF Operational Domain assist the "Business or Mission Analysis Process" and the "Stakeholder Needs and Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.1, §2.3.5.2].
 
 The SAF Operational Domain supports the model-based development of a [CONOPS](https://www.sebokwiki.org/wiki/Concept_of_Operations_(ConOps)_(glossary)) - as well as an [OPSCON](https://www.sebokwiki.org/wiki/Business_or_Mission_Analysis) and related life cycle concepts - for an organization or operational entity seeking for an improvement of existing capabilities or in establishing new ones.
 
