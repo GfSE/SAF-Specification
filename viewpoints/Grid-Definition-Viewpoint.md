@@ -6,7 +6,7 @@
 ## Example
 ![Grid-Definition-Viewpoint-primary-example.svg](../diagrams/vp-examples/Grid-Definition-Viewpoint-primary-example.svg)
 ## Purpose
-The Grid Definition Viewpoint serves as graphic representation of the Views present in a System Model
+The Grid Definition Viewpoint serves as graphic representation of the Views present in a System Model.
 ## Applicability
 The Viewpoint supports the  "System Viewpoints, Views and Models" input/output of various Technical Processes in SEHB5.
 ## Presentation
