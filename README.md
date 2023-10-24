@@ -7,9 +7,7 @@ This repository contains both documentation for users of SAF and developers of S
 
 **We always welcome contributions from our MBSE community to improve SAF , see [how to contribute to SAF](contributing.md).**
 
-The System Architecture Framework Specification application is demonstrated using the Fire Forest Detection System example, courtesy of Tim Weilkiens. 
-
-The Fire Forest Detection System example is based on the publication **SYSMOD - The Systems Modeling Toolbox, 3rd edition Pragmatic MBSE with SysML, Tim Weilkiens**
+The System Architecture Framework Specification application is demonstrated using the Fire Forest Detection System example, courtesy of Tim Weilkiens. The Fire Forest Detection System example is based on the publication **SYSMOD - The Systems Modeling Toolbox, 3rd edition Pragmatic MBSE with SysML, Tim Weilkiens**
 
 # Viewpoint Grid
 The Viewpoints are organized as a Grid featuring [Domains](domains.md) as rows and [Aspects](aspects.md) as columns.
