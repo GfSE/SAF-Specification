@@ -3,7 +3,7 @@
 
 Disclaimer: System Architecture Framework Specification ![Bild](diagrams/Under_construction_icon-yellow.svg) **is Work in progress**
 
-This repository contains both documentation for users of SAF and developers of SAF. To understand how we develop SAF, see **[how SAF is developed](developing-saf/development.md)**. **We always welcome contributions from our MBSE community to improve SAF, see [how to contribute to SAF](contributing.md).**
+This repository contains both documentation for users of SAF and developers of SAF. To understand how we develop SAF, see **[how SAF is developed](developing-saf/development.md). We always welcome contributions from our MBSE community to improve SAF, see [how to contribute to SAF](contributing.md).**
 
 The System Architecture Framework Specification application is demonstrated using the Fire Forest Detection System example, courtesy of Tim Weilkiens. The Fire Forest Detection System example is based on the publication **SYSMOD - The Systems Modeling Toolbox, 3rd edition Pragmatic MBSE with SysML, Tim Weilkiens**
 
