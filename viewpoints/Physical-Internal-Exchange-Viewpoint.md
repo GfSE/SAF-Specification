@@ -32,7 +32,7 @@ One or more IBD featuring the Physical Elements of the SOI, and the SOI boundary
 ## Concern
 * How do the physical system elements interact to provide the system function?
 * What are the protocols for exchanging items on specific interface?
-* What items (e.g.  data /energy material) are exchanged within the system?
+* What items (energy, material, information, etc.) are exchanged within the system?
 * Which interface design items are on an interface of a physical architecture element?
 * Which interface partners does a physical system element have?
 * Which standards, protocols and format specifications are associated with a specific interface?

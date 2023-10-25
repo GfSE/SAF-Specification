@@ -6,17 +6,18 @@
 ## Example
 ![Logical-Internal-Exchange-Viewpoint-primary-example.svg](../diagrams/vp-examples/Logical-Internal-Exchange-Viewpoint-primary-example.svg)
 ## Purpose
-The Logical Internal Exchange Viewpoint serves for the identification and definition of interfaces of elements of the Logical System. Also, the delegation of system element interfaces to the Logical System boundary interfaces is covered.
+The Logical Internal Exchange Viewpoint serves for the identification and definition of interfaces of elements of the Logical System. Also, the delegation of System Element Interfaces to the Logical System Boundary Interfaces is covered.
 The Logical Internal Exchange Viewpoint
-* identifies system element interfaces on a Logical Level
+* identifies System Element Interfaces on a Logical Level
 * states to which other system elements the interfaces are connected to
 * assigns interface specifications to interfaces
 * defines the usage of interfaces, e.g., if only a subset of the interfaces is used 
-* defines the delegation of system element interfaces to the system boundary interfaces
+* defines the delegation of System Element Interfaces to the System Boundary Interfaces
 ## Applicability
-The Logical Internal Exchange Viewpoint supports the "Develop Models and Views of Candidate Architecture" activity included in the "Architecture Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.4] and contributes to the preliminary interface definition and system architecture description.
+The Logical Internal Exchange Viewpoint supports the "Architecture Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.4] and contributes to the preliminary interface definition and system architecture description.
 ## Presentation
-One or more IBD featuring the Logical Elements of the SOI, and the SOI boundary, containing connectors for each identified SOI interface delegation to SOI elements, as well as connectors between related interfaces of SOI parts. An interface is a connection resource for hooking on the Logical SOI Elements to other Logical SOI Elements. Item flows are defined for each exchange on the identified interface.  Recommendation: Use more than one IBD focused on different areas of interest to keep the view comprehensive. Depending on the Stakeholder Concerns the logical item exchange information might be suppressed.
+One or more IBDs featuring the the SOI boundary, the logical elements of the SOI, the connectors for each identified SOI interface delegation to Logical SOI Elements, as well as those connectors between related interfaces of Logical SOI Elements. An interface is a connection resource for hooking on the Logical SOI Elements to other Logical SOI Elements. Item flows are defined for each exchange on the identified interface.
+Note: Depending on the Stakeholder Concerns the Logical Item Exchange information might be suppressed.
 
 ## Stakeholder
 * [Hardware Developer](../stakeholders.md#Hardware-Developer)
@@ -26,8 +27,9 @@ One or more IBD featuring the Logical Elements of the SOI, and the SOI boundary,
 * [Software Developer](../stakeholders.md#Software-Developer)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* How do the logical system elements interact to to provide the system function?
-* What items (e.g.  data /energy material) are exchanged within the system?
+* How do the logical system elements interact to provide the system functions?
+* What are the items exchanged between logical system elements during an interaction?
+* What items (energy, material, information, etc.) are exchanged within the system?
 * Which requirements apply to a logical interface?
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:

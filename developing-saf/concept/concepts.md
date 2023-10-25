@@ -1851,22 +1851,6 @@ exposed in viewpoint [Physical Interface Definition Viewpoint](../viewpoints/Phy
 realized by Stereotype [SAF_ProtocolLayerRelationship](../../stereotypes.md#SAF_ProtocolLayerRelationship)
 
 Specifies the fact that a physical connection point property communicates / transfers / flows / over an other physical connection point property. Used to define layered physical interfaces, and show layer relationships between interface details.
-## Physic Context Constituent
-1..* [Physical Context Element](#Physical-Context-Element) Physic Context Constituent 1..* [Physical System Context](#Physical-System-Context) 
-
-exposed in viewpoint [Physical Context Definition Viewpoint](../viewpoints/Physical-Context-Definition-Viewpoint.md)
-
-realized by Stereotype [SAF_PhysicalContextRole](../../stereotypes.md#SAF_PhysicalContextRole)
-
-Specifies the fact that a Physical Context Element exists in a specific Physical Context.
-## Physic SOI Constituent
-1..* [Physical SOI](#Physical-SOI) Physic SOI Constituent 1 [Physical System Context](#Physical-System-Context) 
-
-exposed in viewpoint [Physical Context Definition Viewpoint](../viewpoints/Physical-Context-Definition-Viewpoint.md)
-
-realized by Stereotype [SAF_PhysicalContextRole](../../stereotypes.md#SAF_PhysicalContextRole)
-
-Specifies the fact that a Physical SOI exists in a specific Physical Context.
 ## Physical Connection
 1 [Physical Connection Point](#Physical-Connection-Point) Physical Connection 1 [Physical Connection Point](#Physical-Connection-Point) 
 
@@ -1880,6 +1864,14 @@ realized by Metaclass Connector
 
 Specifies the connection of two physical connection points.
 Note: Connections between physical components indicate that item flows are passed from one output of a source component to one or more inputs of target components.
+## Physical Context Constituent
+1..* [Physical Context Element](#Physical-Context-Element) Physical Context Constituent 1..* [Physical System Context](#Physical-System-Context) 
+
+exposed in viewpoint [Physical Context Definition Viewpoint](../viewpoints/Physical-Context-Definition-Viewpoint.md)
+
+realized by Stereotype [SAF_PhysicalContextRole](../../stereotypes.md#SAF_PhysicalContextRole)
+
+Specifies the fact that a Physical Context Element exists in a specific Physical Context.
 ## Physical Element Constituent
 1 [Physical Element](#Physical-Element) Physical Element Constituent 0..* [Physical Element](#Physical-Element) 
 
@@ -1900,6 +1892,14 @@ Specifies the fact that a physical element contains any number of Hardware Eleme
 0..1 [Physical Layer](#Physical-Layer) Physical Layer Ordering 0..1 [Physical Layer](#Physical-Layer) 
 
 Specifies an order among two physical layers. This order is valid within a Physical Layer Stack
+## Physical SOI Constituent
+1..* [Physical SOI](#Physical-SOI) Physical SOI Constituent 1 [Physical System Context](#Physical-System-Context) 
+
+exposed in viewpoint [Physical Context Definition Viewpoint](../viewpoints/Physical-Context-Definition-Viewpoint.md)
+
+realized by Stereotype [SAF_PhysicalContextRole](../../stereotypes.md#SAF_PhysicalContextRole)
+
+Specifies the fact that a Physical SOI exists in a specific Physical Context.
 ## Physical Software Constituent
 1 [Physical Element](#Physical-Element) Physical Software Constituent 0..* [Software Element](#Software-Element) 
 

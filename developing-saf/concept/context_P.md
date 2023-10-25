@@ -8,12 +8,12 @@
 | Logical Environment | An Environmental Element in the Logical Domain, outside the SOI scope, interacting with the SOI. E.g., air, dirt, sun, road.|
 | Logical External System | An External System in the Logical Domain, outside the SOI scope, interacting with the SOI. E.g., power grid, mobile network, fresh water system (in a house).|
 | Logical User | A human representation in the Logical Domain, outside the SOI scope, interacting with the SOI.|
-| Physic Context Constituent | Specifies the fact that a Physical Context Element exists in a specific Physical Context.|
-| Physic SOI Constituent | Specifies the fact that a Physical SOI exists in a specific Physical Context.|
+| Physical Context Constituent | Specifies the fact that a Physical Context Element exists in a specific Physical Context.|
 | Physical Context Element | Abstract element of a System Context  in the Physical Domain, outside the SOI scope, interacting with the SOI.|
 | Physical Environment | The Environmental Element in the Physical Domain, outside the SOI scope, interacting with the SOI. E.g. air, dirt, sun, road.|
 | Physical External System | The External System in the Physical Domain, outside the SOI scope, interacting with the SOI. E.g. power grid, mobile network, fresh water system (in a house).|
 | Physical SOI | Represents the SOI in the Physical Domain.|
+| Physical SOI Constituent | Specifies the fact that a Physical SOI exists in a specific Physical Context.|
 | Physical System Context | Defines a context for a System of Interest on Physical Level.|
 | Physical User | The Physical User is the representation for a human in the physical domain, outside the SOI scope, interacting with the SOI.|
 | System Context | Defines a context for a System of Interest.|

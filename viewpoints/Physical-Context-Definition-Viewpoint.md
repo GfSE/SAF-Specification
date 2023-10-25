@@ -6,19 +6,15 @@
 ## Example
 ![Physical-Context-Definition-Viewpoint-primary-example.svg](../diagrams/vp-examples/Physical-Context-Definition-Viewpoint-primary-example.svg)
 ## Purpose
-The Physical Context Definition Viewpoint identifies the different context the system is used in, along with the associated external entities sharing a physical interface with the system. For each context the applicable environmental conditions may be defined. The physical context helps in discovering the Interface Requirements needed to integrate a system into its environment in a specific context.
-Note: For each candidate system architecture, the physical context Viewpoint is elaborated forming the baseline for the later assessment of the different system architecture solutions.
+The Physical Context Definition Viewpoint identifies the different context the system is used in, along with the associated external entities sharing a physical interface with the system. For each context the applicable environmental conditions shall be defined. The physical context helps in discovering the Interface Requirements needed to integrate a system into its environment in a specific context.
+Note: For each candidate system architecture, the physical context Viewpoint is elaborated forming the functional baseline for the later assessment of the different system architecture solutions.
 ## Applicability
-The Physical Context Definition Viewpoint supports the “System Architecture Definition Process” activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§ 2.3.5.4]. and contributes to the artifacts "System Architecture Description" and "System Interface Definition".
- 
-The Viewpoint is used to define context, boundaries, and external interactions of the SOI in the physical domain.
-
+The Physical Context Definition Viewpoint supports the “System Architecture Definition Process” activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.4] and contributes to the artifacts "System Architecture Description" and "System Interface Definition".
 ## Presentation
-The following artifacts support the modeling activities: 
-The physical context definition diagram (BDD) defines the elements available in a specific context. At least one physical context definition diagram is used per identified context, featuring
-* one block representing the Physical System i.e. the system of interest
+A block definition diagram (BDD) depicting the elements available in a specific context. At least one BDD is used per identified context featuring
+* one block representing the Physical System, i.e., the system of interest
 * one block representing the specific Physical System Context
-* several blocks representing Physical Context Elements such as Physical User, Physical External System, and Physical Environment present in the systems context
+* several blocks representing Physical Context Elements such as Physical User, Physical External System, and Physical Environment that are present in the Physical System Context
 * composition relationships attaching the Physical Context Elements and the Physical System to the Physical System Context block
 
 ## Stakeholder

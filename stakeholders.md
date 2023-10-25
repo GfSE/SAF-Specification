@@ -162,7 +162,9 @@ The Developer is a group or an individual implementing the system parts accordin
 * What is the sequence of interactions among the system and context elements on physical level? 
 
   ***Rationale:  In my role, I need to interface with the environment.***
-* What items (e.g.  data /energy material) are exchanged within the system?
+* What items (energy, material, information, etc.) are exchanged within the system? 
+
+  ***Rationale:  In my role, I need to integrate and test the interfaces.***
 * What kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities? 
 
   ***Rationale:  In my role, I need to coordinate external interfaces with external partners.***
@@ -244,7 +246,9 @@ IV&V Engineers are individuals or groups responsible for integration, validation
 * What is the sequence of interactions among the system and context elements on physical level? 
 
   ***Rationale:  In my role, I need to plan the test environment.***
-* What items (e.g.  data /energy material) are exchanged within the system?
+* What items (energy, material, information, etc.) are exchanged within the system? 
+
+  ***Rationale:  In my role, I need to integrate and test the interfaces.***
 * What kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities? 
 
   ***Rationale:  In my role, I need to integrate and test the interfaces.***
@@ -375,7 +379,9 @@ The safety experts evaluate a proposed system architecture and design for safety
 * Are safety related design principles) followed e.g. segregation of monitors or independence or redundant elements?
 * How are error states handled?
 * How are safety features verified?
-* How do the logical system elements interact to to provide the system function?
+* How do the logical system elements interact to provide the system functions? 
+
+  ***Rationale:  In my role, I use them as basis for understanding interfaces on logical level.***
 * How do the physical system elements interact to provide the system function?
 * How does a system function interact with its environment?
 * How does criticality propagate down the system hierarchy?
@@ -417,7 +423,9 @@ The IT-Security experts evaluate a proposed system architecture and design for I
 
 ## Concern
 * How are error states handled?
-* How do the logical system elements interact to to provide the system function?
+* How do the logical system elements interact to provide the system functions? 
+
+  ***Rationale:  In my role, I use them as basis for understanding interfaces on logical level.***
 * How do the physical system elements interact to provide the system function?
 * How is the interface between different domains protected?
 * What additional information the system or a system element needs to generate to enable testing?
@@ -440,7 +448,9 @@ The IT-Security experts evaluate a proposed system architecture and design for I
   ***Rationale:  In my role, I need to assess if the system partitioning fulfills the security requirements.***
 * What is the rationale when requirements are not considered?
 * What is the sequence of interactions among the system and context elements on physical level?
-* What items (e.g.  data /energy material) are exchanged within the system?
+* What items (energy, material, information, etc.) are exchanged within the system? 
+
+  ***Rationale:  In my role, I use them as basis for understanding interfaces on logical level.***
 * What kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?
 * What operational exchanges do operational performers need to consume or provide?
 * What shall be validated to the customer at system level?
@@ -489,7 +499,9 @@ The Developer is a group or an individual implementing the system parts accordin
 * What is the sequence of interactions among the system and context elements on physical level? 
 
   ***Rationale:  In my role, I need to interface with the environment.***
-* What items (e.g.  data /energy material) are exchanged within the system?
+* What items (energy, material, information, etc.) are exchanged within the system? 
+
+  ***Rationale:  In my role, I need to integrate and test the interfaces.***
 * What kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities? 
 
   ***Rationale:  In my role, I need to coordinate external interfaces with external partners.***
@@ -556,7 +568,9 @@ The System Architect as an individual or group performing the systems engineerin
 * Have the logical decomposition guidelines been followed?
 * How are applicable requirements considered in the system architecture?
 * How are error states handled?
-* How do the logical system elements interact to to provide the system function?
+* How do the logical system elements interact to provide the system functions? 
+
+  ***Rationale:  In my role, I need to coordinate internal interfaces with internal subsystem partners.***
 * How do the physical system elements interact to provide the system function?
 * How does a system function interact with its environment? 
 
@@ -627,7 +641,9 @@ The System Architect as an individual or group performing the systems engineerin
   ***Rationale:  In my role, I need to [tbd].***
 * What is the system boundary definition?
 * What is the task executed by an organization, enterprise, or operational entity in the Operational Context?
-* What items (e.g.  data /energy material) are exchanged within the system?
+* What items (energy, material, information, etc.) are exchanged within the system? 
+
+  ***Rationale:  In my role, I use them as basis for understanding interfaces on logical level.***
 * What kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities? 
 
   ***Rationale:  In my role, I need to coordinate external interfaces with external partners.***

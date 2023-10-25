@@ -522,8 +522,8 @@ UAF::MapsToCapability<BR></html>
 *none*
 
 ### Documentation
-<html>Stereotype realizes multiple Concepts:<UL><LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physic Context Constituent'>Physic Context Constituent</A><BR>Physic Context Constituent: Specifies the fact that a Physical Context Element exists in a specific Physical Context.<BR></LI>
-<LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physic SOI Constituent'>Physic SOI Constituent</A><BR>Physic SOI Constituent: Specifies the fact that a Physical SOI exists in a specific Physical Context.<BR></LI>
+<html>Stereotype realizes multiple Concepts:<UL><LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical Context Constituent'>Physical Context Constituent</A><BR>Physical Context Constituent: Specifies the fact that a Physical Context Element exists in a specific Physical Context.<BR></LI>
+<LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical SOI Constituent'>Physical SOI Constituent</A><BR>Physical SOI Constituent: Specifies the fact that a Physical SOI exists in a specific Physical Context.<BR></LI>
 </UL>
 </html>
 
@@ -902,15 +902,16 @@ Note: This diagram depicts the sending and receiving of messages between the int
 *none*
 
 ### Documentation
-The Logical Internal Exchange Viewpoint serves for the identification and definition of interfaces of elements of the Logical System. Also, the delegation of system element interfaces to the Logical System boundary interfaces is covered.
+The Logical Internal Exchange Viewpoint serves for the identification and definition of interfaces of elements of the Logical System. Also, the delegation of System Element Interfaces to the Logical System Boundary Interfaces is covered.
 The Logical Internal Exchange Viewpoint
-* identifies system element interfaces on a Logical Level
+* identifies System Element Interfaces on a Logical Level
 * states to which other system elements the interfaces are connected to
 * assigns interface specifications to interfaces
 * defines the usage of interfaces, e.g., if only a subset of the interfaces is used 
-* defines the delegation of system element interfaces to the system boundary interfaces
+* defines the delegation of System Element Interfaces to the System Boundary Interfaces
 
-One or more IBD featuring the Logical Elements of the SOI, and the SOI boundary, containing connectors for each identified SOI interface delegation to SOI elements, as well as connectors between related interfaces of SOI parts. An interface is a connection resource for hooking on the Logical SOI Elements to other Logical SOI Elements. Item flows are defined for each exchange on the identified interface.  Recommendation: Use more than one IBD focused on different areas of interest to keep the view comprehensive. Depending on the Stakeholder Concerns the logical item exchange information might be suppressed.
+One or more IBDs featuring the the SOI boundary, the logical elements of the SOI, the connectors for each identified SOI interface delegation to Logical SOI Elements, as well as those connectors between related interfaces of Logical SOI Elements. An interface is a connection resource for hooking on the Logical SOI Elements to other Logical SOI Elements. Item flows are defined for each exchange on the identified interface.
+Note: Depending on the Stakeholder Concerns the Logical Item Exchange information might be suppressed.
 
 ## SAF_SLV08a_View
 
@@ -1068,14 +1069,13 @@ A tabular format listing the relationships of Operational Process Activities to 
 *none*
 
 ### Documentation
-The Physical Context Definition Viewpoint identifies the different context the system is used in, along with the associated external entities sharing a physical interface with the system. For each context the applicable environmental conditions may be defined. The physical context helps in discovering the Interface Requirements needed to integrate a system into its environment in a specific context.
-Note: For each candidate system architecture, the physical context Viewpoint is elaborated forming the baseline for the later assessment of the different system architecture solutions.
+The Physical Context Definition Viewpoint identifies the different context the system is used in, along with the associated external entities sharing a physical interface with the system. For each context the applicable environmental conditions shall be defined. The physical context helps in discovering the Interface Requirements needed to integrate a system into its environment in a specific context.
+Note: For each candidate system architecture, the physical context Viewpoint is elaborated forming the functional baseline for the later assessment of the different system architecture solutions.
 
-The following artifacts support the modeling activities: 
-The physical context definition diagram (BDD) defines the elements available in a specific context. At least one physical context definition diagram is used per identified context, featuring
-* one block representing the Physical System i.e. the system of interest
+A block definition diagram (BDD) depicting the elements available in a specific context. At least one BDD is used per identified context featuring
+* one block representing the Physical System, i.e., the system of interest
 * one block representing the specific Physical System Context
-* several blocks representing Physical Context Elements such as Physical User, Physical External System, and Physical Environment present in the systems context
+* several blocks representing Physical Context Elements such as Physical User, Physical External System, and Physical Environment that are present in the Physical System Context
 * composition relationships attaching the Physical Context Elements and the Physical System to the Physical System Context block
 
 ## SAF_SPV01c_View

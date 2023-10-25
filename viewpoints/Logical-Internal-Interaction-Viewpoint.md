@@ -25,7 +25,7 @@ Note: This diagram depicts the sending and receiving of messages between the int
 * [System Architect](../stakeholders.md#System-Architect)
 * [User](../stakeholders.md#User)
 ## Concern
-* How do the logical system elements interact to to provide the system function?
+* How do the logical system elements interact to provide the system functions?
 * What are the items exchanged between logical system elements during an interaction?
 * What is the necessary response time for an interface or a service?
 ## Profile Model Reference
