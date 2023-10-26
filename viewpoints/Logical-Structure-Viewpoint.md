@@ -19,8 +19,8 @@ Note: Multiple relationships to a kind of element are allowed meaning, that this
 * What is the logical breakdown of the system ?
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
+* SAF_LogicalInternalRole contained in SAF_LogicalElement
 * [SAF_LogicalElement](../stereotypes.md#SAF_LogicalElement)
-* [SAF_LogicalInternalRole](../stereotypes.md#SAF_LogicalInternalRole)
 * [SAF_LogicalSOI](../stereotypes.md#SAF_LogicalSOI)
 * [SAF_SLV02a_View](../stereotypes.md#SAF_SLV02a_View)
 ## Input from other Viewpoints

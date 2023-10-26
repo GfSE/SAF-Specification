@@ -12,12 +12,12 @@ The Logical Internal Exchange Viewpoint
 * states to which other system elements the interfaces are connected to
 * assigns interface specifications to interfaces
 * defines the usage of interfaces, e.g., if only a subset of the interfaces is used 
-* defines the delegation of System Element Interfaces to the System Boundary Interfaces
+* defines the delegation of System Element Interfaces to the Logical System Boundary Interfaces
 ## Applicability
 The Logical Internal Exchange Viewpoint supports the "Architecture Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.4] and contributes to the preliminary interface definition and system architecture description.
 ## Presentation
-One or more IBDs featuring the the SOI boundary, the logical elements of the SOI, the connectors for each identified SOI interface delegation to Logical SOI Elements, as well as those connectors between related interfaces of Logical SOI Elements. An interface is a connection resource for hooking on the Logical SOI Elements to other Logical SOI Elements. Item flows are defined for each exchange on the identified interface.
-Note: Depending on the Stakeholder Concerns the Logical Item Exchange information might be suppressed.
+One or more IBDs featuring the SOI boundary, the logical elements of the SOI, the connectors for each identified SOI interface delegation to Logical SOI Elements, as well as those connectors between related interfaces of Logical SOI Elements. An interface is a connection resource for hooking on the Logical SOI Elements to other Logical SOI Elements. Item flows are defined for each exchange on the identified interface.
+Note: Please use more than one IBD focused on different areas of interest to keep the view comprehensive.
 
 ## Stakeholder
 * [Hardware Developer](../stakeholders.md#Hardware-Developer)
@@ -41,7 +41,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * ItemFlow [SysML Profile]
 * ItemFlow typed by SAF_DomainKind
 * ProxyPort [SysML Profile]
-* ProxyPort typed by InterfaceBlock
+* ProxyPort typed by SAF_ConceptualInterfaceDefinition
 * [SAF_ConceptualInterfaceDefinition](../stereotypes.md#SAF_ConceptualInterfaceDefinition)
 * [SAF_DomainKind](../stereotypes.md#SAF_DomainKind)
 * [SAF_LogicalElement](../stereotypes.md#SAF_LogicalElement)

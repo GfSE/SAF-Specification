@@ -198,7 +198,7 @@ Note: if allocation of usage is used, then allocation of definition is a derived
 
   ***Rationale:  In my role, I need to know which system modes and states my subsystem must support.***
 * Which protection means need to be provided for an interface?
-* Which standards, protocols and format specifications are associated with a specific interface? 
+* Which standards, protocols, and format specifications are associated with a specific interface? 
 
   ***Rationale:  In my role, I need to implement them.***
 * Which variants of a HW item need to be provided?
@@ -270,7 +270,7 @@ IV&V Engineers are individuals or groups responsible for integration, validation
 * Which modes and states does the system have? 
 
   ***Rationale:  In my role, I need to understand the system in order to put it into operation.***
-* Which standards, protocols and format specifications are associated with a specific interface? 
+* Which standards, protocols, and format specifications are associated with a specific interface? 
 
   ***Rationale:  In my role, I need to test and integrate them.***
 * Which users does the system support?  
@@ -403,6 +403,9 @@ The safety experts evaluate a proposed system architecture and design for safety
 * What is the possible harm in utilizing the system?
 * What is the rationale when requirements are not considered?
 * What is the sequence of interactions among the system and context elements on physical level?
+* What items (energy, material, information, etc.) are exchanged within the system? 
+
+  ***Rationale:  In my role, I use them as basis for understanding interfaces on logical or physical level.***
 * What kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?
 * What operational exchanges do operational performers need to consume or provide?
 * What shall be validated to the customer at system level?
@@ -450,7 +453,7 @@ The IT-Security experts evaluate a proposed system architecture and design for I
 * What is the sequence of interactions among the system and context elements on physical level?
 * What items (energy, material, information, etc.) are exchanged within the system? 
 
-  ***Rationale:  In my role, I use them as basis for understanding interfaces on logical level.***
+  ***Rationale:  In my role, I use them as basis for understanding interfaces on logical or physical level.***
 * What kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?
 * What operational exchanges do operational performers need to consume or provide?
 * What shall be validated to the customer at system level?
@@ -463,7 +466,7 @@ The IT-Security experts evaluate a proposed system architecture and design for I
 * Which functions will the system provide?
 * Which information is exchanged between the system and external entities?
 * Which modes and states does the system have?
-* Which standards, protocols and format specifications are associated with a specific interface? 
+* Which standards, protocols, and format specifications are associated with a specific interface? 
 
   ***Rationale:  In my role, I need to assess the security based on them.***
 * Why types of exchange can exist between Operational Performers (i.e., flows of information, people, material, or energy)?
@@ -535,7 +538,7 @@ Note: if allocation of usage is used, then allocation of definition is a derived
 * Which modes and states does the system have? 
 
   ***Rationale:  In my role, I need to know which system modes and states my subsystem must support.***
-* Which standards, protocols and format specifications are associated with a specific interface? 
+* Which standards, protocols, and format specifications are associated with a specific interface? 
 
   ***Rationale:  In my role, I need to implement them.***
 * Who provides the inputs to a critical function?
@@ -643,7 +646,7 @@ The System Architect as an individual or group performing the systems engineerin
 * What is the task executed by an organization, enterprise, or operational entity in the Operational Context?
 * What items (energy, material, information, etc.) are exchanged within the system? 
 
-  ***Rationale:  In my role, I use them as basis for understanding interfaces on logical level.***
+  ***Rationale:  In my role, I use them as basis for understanding interfaces on logical or physical level.***
 * What kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities? 
 
   ***Rationale:  In my role, I need to coordinate external interfaces with external partners.***
@@ -684,7 +687,7 @@ Note: if allocation of usage is used, then allocation of definition is a derived
 
   ***Rationale:  In my role, I need to understand the required system behavior in order to further design the system.***
 * Which operational activity shall be executed by which operational performer in the operational story?
-* Which standards, protocols and format specifications are associated with a specific interface? 
+* Which standards, protocols, and format specifications are associated with a specific interface? 
 
   ***Rationale:  In my role, I need to validate if they fit the purpose of the system and are complaint to the systems concepts.***
 * Which system function is addressed by system requirement?

@@ -25,9 +25,9 @@ Note: if allocation of usage is used, then allocation of definition is a derived
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Allocate [SysML Profile]
+* SAF_LogicalInternalRole contained in SAF_LogicalElement
 * [SAF_FunctionAction](../stereotypes.md#SAF_FunctionAction)
 * [SAF_LogicalElement](../stereotypes.md#SAF_LogicalElement)
-* [SAF_LogicalInternalRole](../stereotypes.md#SAF_LogicalInternalRole)
 * [SAF_LogicalSOI](../stereotypes.md#SAF_LogicalSOI)
 * [SAF_SLV08a_View](../stereotypes.md#SAF_SLV08a_View)
 * [SAF_SystemFunction](../stereotypes.md#SAF_SystemFunction)

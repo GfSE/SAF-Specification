@@ -41,8 +41,8 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * FlowProperty [SysML Profile]
 * ItemFlow [SysML Profile]
 * ProxyPort [SysML Profile]
+* SAF_LogicalContextRole contained in SAF_LogicalContext
 * [SAF_DomainKind](../stereotypes.md#SAF_DomainKind)
-* [SAF_LogicalContextRole](../stereotypes.md#SAF_LogicalContextRole)
 * [SAF_LogicalEnvironment](../stereotypes.md#SAF_LogicalEnvironment)
 * [SAF_LogicalExternalSystem](../stereotypes.md#SAF_LogicalExternalSystem)
 * [SAF_LogicalSOI](../stereotypes.md#SAF_LogicalSOI)

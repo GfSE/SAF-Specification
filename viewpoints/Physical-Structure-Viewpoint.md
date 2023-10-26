@@ -25,9 +25,9 @@ The Viewpoint is used to identify system elements of the physical architecture.
 * What is the physical breakdown of the system?
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
+* SAF_PhysicalInternalRole contained in SAF_PhysicalItem
 * [SAF_PhysicalElement](../stereotypes.md#SAF_PhysicalElement)
 * [SAF_PhysicalHardwareElement](../stereotypes.md#SAF_PhysicalHardwareElement)
-* [SAF_PhysicalInternalRole](../stereotypes.md#SAF_PhysicalInternalRole)
 * [SAF_PhysicalSoftwareElement](../stereotypes.md#SAF_PhysicalSoftwareElement)
 * [SAF_PhysicalSystem](../stereotypes.md#SAF_PhysicalSystem)
 * [SAF_SPV02a_View](../stereotypes.md#SAF_SPV02a_View)

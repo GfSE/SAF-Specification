@@ -7,7 +7,6 @@
 ![Physical-Context-Definition-Viewpoint-primary-example.svg](../diagrams/vp-examples/Physical-Context-Definition-Viewpoint-primary-example.svg)
 ## Purpose
 The Physical Context Definition Viewpoint identifies the different context the system is used in, along with the associated external entities sharing a physical interface with the system. For each context the applicable environmental conditions shall be defined. The physical context helps in discovering the Interface Requirements needed to integrate a system into its environment in a specific context.
-Note: For each candidate system architecture, the physical context Viewpoint is elaborated forming the functional baseline for the later assessment of the different system architecture solutions.
 ## Applicability
 The Physical Context Definition Viewpoint supports the “System Architecture Definition Process” activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.4] and contributes to the artifacts "System Architecture Description" and "System Interface Definition".
 ## Presentation
@@ -30,7 +29,7 @@ A block definition diagram (BDD) depicting the elements available in a specific 
 * Which interface partners does the system have?
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SAF_PhysicalContextRole](../stereotypes.md#SAF_PhysicalContextRole)
+* SAF_PhysicalContextRole contained in SAF_PhysicalContext
 * [SAF_PhysicalContext](../stereotypes.md#SAF_PhysicalContext)
 * [SAF_PhysicalEnvironment](../stereotypes.md#SAF_PhysicalEnvironment)
 * [SAF_PhysicalExternalSystem](../stereotypes.md#SAF_PhysicalExternalSystem)

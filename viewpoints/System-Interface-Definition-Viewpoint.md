@@ -21,7 +21,7 @@ A tabular format listing System Interface blocks, their ports, and flow properti
 * [Software Developer](../stakeholders.md#Software-Developer)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* Which standards, protocols and format specifications are associated with a specific interface?
+* Which standards, protocols, and format specifications are associated with a specific interface?
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Attribute "realizingConnector" of InformationFlow referencing Connector
@@ -32,7 +32,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * ItemFlow [SysML Profile]
 * ItemFlow typed by SAF_DomainKind
 * ProxyPort [SysML Profile]
-* ProxyPort typed by InterfaceBlock
+* ProxyPort typed by SAF_ConceptualInterfaceDefinition
 * [SAF_ConceptualInterfaceDefinition](../stereotypes.md#SAF_ConceptualInterfaceDefinition)
 * [SAF_DomainKind](../stereotypes.md#SAF_DomainKind)
 * [SAF_SFV05a_View](../stereotypes.md#SAF_SFV05a_View)

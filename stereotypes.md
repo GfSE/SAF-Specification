@@ -241,11 +241,7 @@ Used to mark diagrams serving as example for a viewpoint
 *none*
 
 ### Documentation
-<html>Stereotype realizes multiple Concepts:<UL><LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Logical Context Element Constituent'>Logical Context Element Constituent</A><BR>Logical Context Element Constituent: Specifies the fact that a Logical Context Element exists in a specific Logical Context.<BR></LI>
-<LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Logical SOI Constituent'>Logical SOI Constituent</A><BR>Logical SOI Constituent: Specifies the fact that a Logical SOI exists in a specific Logical Context.<BR></LI>
-</UL>
-</html>
-
+*none*
 
 ## SAF_LogicalElement
 
@@ -280,8 +276,7 @@ Used to mark diagrams serving as example for a viewpoint
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Internal Logical Element Constituent'>Internal Logical Element Constituent</A><BR>Internal Logical Element Constituent: Specifies the fact that a Logical Element contains any number of Logical Elements.<BR></html>
-
+*none*
 
 ## SAF_LogicalSOI
 
@@ -522,11 +517,7 @@ UAF::MapsToCapability<BR></html>
 *none*
 
 ### Documentation
-<html>Stereotype realizes multiple Concepts:<UL><LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical Context Constituent'>Physical Context Constituent</A><BR>Physical Context Constituent: Specifies the fact that a Physical Context Element exists in a specific Physical Context.<BR></LI>
-<LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical SOI Constituent'>Physical SOI Constituent</A><BR>Physical SOI Constituent: Specifies the fact that a Physical SOI exists in a specific Physical Context.<BR></LI>
-</UL>
-</html>
-
+*none*
 
 ## SAF_PhysicalElement
 
@@ -588,14 +579,7 @@ UAF::MapsToCapability<BR></html>
 *none*
 
 ### Documentation
-<html>Stereotype realizes multiple Concepts:<UL><LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical Element Constituent'>Physical Element Constituent</A><BR>Physical Element Constituent: Specifies the fact that a Physical Element may contain any number of Physical Elements.<BR></LI>
-<LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical Hardware Constituent'>Physical Hardware Constituent</A><BR>Physical Hardware Constituent: Specifies the fact that a physical element contains any number of Hardware Elements.<BR></LI>
-<LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical Software Constituent'>Physical Software Constituent</A><BR>Physical Software Constituent: Specifies the fact that physical element contains any number of Software Elements.<BR></LI>
-<LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Software Element Constituent'>Software Element Constituent</A><BR>Software Element Constituent: Specifies the fact that a Software Element contains  Software Elements.<BR></LI>
-<LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical Usage'>Physical Usage</A><BR>Physical Usage: General concept of usage of system elements in the context of other system elements physical level.<BR></LI>
-<LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Hardware Element Constituent'>Hardware Element Constituent</A><BR>Hardware Element Constituent: Specifies the fact that a Hardware Element contains Hardware Elements.<BR></LI>
-</UL>
-</html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical Usage'>Physical Usage</A><BR>Physical Usage: General concept of usage of system elements in the context of other system elements physical level.<BR></html>
 
 
 ## SAF_PhysicalItem
@@ -710,7 +694,7 @@ A block definition diagram (BDD) featuring the following elements
 * Logical Context Element blocks for each relevant context element
 * a composition relationship from Context block to each Context Element used in the context
 * a composition relationship from Context block to the SOI
-A tabular format listing [tbd].
+A tabular format listing Context Roles, Context Elements, and respective descriptions
 
 ## SAF_SFV01c_View
 
@@ -908,10 +892,10 @@ The Logical Internal Exchange Viewpoint
 * states to which other system elements the interfaces are connected to
 * assigns interface specifications to interfaces
 * defines the usage of interfaces, e.g., if only a subset of the interfaces is used 
-* defines the delegation of System Element Interfaces to the System Boundary Interfaces
+* defines the delegation of System Element Interfaces to the Logical System Boundary Interfaces
 
-One or more IBDs featuring the the SOI boundary, the logical elements of the SOI, the connectors for each identified SOI interface delegation to Logical SOI Elements, as well as those connectors between related interfaces of Logical SOI Elements. An interface is a connection resource for hooking on the Logical SOI Elements to other Logical SOI Elements. Item flows are defined for each exchange on the identified interface.
-Note: Depending on the Stakeholder Concerns the Logical Item Exchange information might be suppressed.
+One or more IBDs featuring the SOI boundary, the logical elements of the SOI, the connectors for each identified SOI interface delegation to Logical SOI Elements, as well as those connectors between related interfaces of Logical SOI Elements. An interface is a connection resource for hooking on the Logical SOI Elements to other Logical SOI Elements. Item flows are defined for each exchange on the identified interface.
+Note: Please use more than one IBD focused on different areas of interest to keep the view comprehensive.
 
 ## SAF_SLV08a_View
 
@@ -1070,7 +1054,6 @@ A tabular format listing the relationships of Operational Process Activities to 
 
 ### Documentation
 The Physical Context Definition Viewpoint identifies the different context the system is used in, along with the associated external entities sharing a physical interface with the system. For each context the applicable environmental conditions shall be defined. The physical context helps in discovering the Interface Requirements needed to integrate a system into its environment in a specific context.
-Note: For each candidate system architecture, the physical context Viewpoint is elaborated forming the functional baseline for the later assessment of the different system architecture solutions.
 
 A block definition diagram (BDD) depicting the elements available in a specific context. At least one BDD is used per identified context featuring
 * one block representing the Physical System, i.e., the system of interest
@@ -1116,15 +1099,16 @@ The Physical Structure Viewpoint is used to model the internal structure of the 
 *none*
 
 ### Documentation
-The Physical Internal Exchange Viewpoint serves for the identification and definition of interfaces of elements of the SOI. Also, the delegation of SOI element interfaces to SOI boundary interfaces is covered.
-The Phyiscal Internal Exchange Viewpoint
-* identifies SOI element interfaces on a Physical Level
-* states to which other SOI elements the interfaces are connected to
+The Physical Internal Exchange Viewpoint serves for the identification and definition of interfaces of elements of the Physical System. Also, the delegation of System Element Interfaces to the Physical System Boundary Interfaces is covered.
+The Physical Internal Exchange Viewpoint
+* identifies System Element Interfaces on a Physical Level
+* states to which other system elements the interfaces are connected to
 * assigns interface specifications to interfaces
-* defines the usage of interfaces, e.g., if only a subset of the interfaces is used 
-* defines the delegation of SOI element interfaces to SOI boundary interfaces
+* defines the usage of interfaces, e.g., if only a subset of the interfaces is used
+* defines the delegation of System Element to Physical System Boundary Interfaces
 
-One or more IBD featuring the Physical Elements of the SOI, and the SOI boundary, containing connectors for each identified SOI interface delegation to SOI elements, as well as connectors between related interfaces of SOI parts. An interface is a connection resource for hooking on the Physical SOI Elements to other Physical SOI Elements. Item flows are defined for each exchange on the identified interface.  Recommendation: Use more than one IBD focused on different areas of interest to keep the view comprehensive. Depending on the Stakeholder Concerns the physical item exchange information might be suppressed.
+One or more IBDs featuring the SOI boundary, the physical elements of the SOI, the connectors for each identified SOI interface delegation to Physical SOI Elements, as well as those connectors between related interfaces of Physical SOI Elements. An interface is a connection resource for hooking on the Logical SOI Elements to other Logical SOI Elements. Item flows are defined for each exchange on the identified interface.
+Note: Please use more than one IBD focused on different areas of interest to keep the view comprehensive.
 
 ## SAF_SPV05a_View
 

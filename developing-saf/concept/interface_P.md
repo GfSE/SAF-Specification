@@ -7,14 +7,14 @@
 | PCCapplyingToPCN | Specifies the fact that a Physical Interface Connection Compatibility Assertion shall apply to a Physical Interface Connection.|
 | PCCassertsCompatibiltyForPCPD | Specifies the Physical Interface Connection Point Definition the Physical Compatibility Assertion is valid for.|
 | PCNallowingPIE | Specifies the fact that a Physical Item Exchange is allowed on the Physical Connection.|
-| PCPDdefiningPCP | Specifies the fact that a Physical Connection Point Definition defines the exchange capabilities of a Physical Connection Point.|
+| PCPDdefiningDetailOfPCP | Specifies the fact that a Physical Connection Point Definition defines the exchange capabilities of a Physical Connection Point.|
 | PCPOverPCP | Specifies the fact that a physical connection point communicates / transfers / flows / over an other physical connection point. Used to define layered physical interfaces, and show layer relationships between interfaces.|
 | PCPPOverPCPP | Specifies the fact that a physical connection point property communicates / transfers / flows / over an other physical connection point property. Used to define layered physical interfaces, and show layer relationships between interface details.|
+| PCPPspecifyingDetailOfPCPD | Specifies the fact that a Physical Connection Property is a detail of a Physical Connection Point Definition.|
 | PCPapplyingToAPE | Specifies the fact that a Physical Interface Connection Point applies to an Abstract Physical Element.|
 | PCPapplyingToPCE | Specifies the fact that a Physical Interface Connection Point applies to a Physical Context Element.|
 | PCPisPartOfPCPD | specifies that a physical connection point can be a part of a physical connection point definition. This fosters reuse and allows structuring of definitions.|
-| PCPspecifyingDetailOfPCPD | Specifies the fact that a Physical Connection Property is a detail of a Physical Connection Point Definition.|
-| PEKtypingPCP | Specifies the fact that a Physical Exchange Kind defines the type of a Physical Connection Point Property.|
+| PEKtypingPCPP | Specifies the fact that a Physical Exchange Kind defines the type of a Physical Connection Point Property.|
 | PEKtypingPIE | Specifies the fact that a Physical Exchange Kind defines the type of a Physical Item Exchange.|
 | Physical Connection | Specifies the connection of two physical connection points.<br>Note: Connections between physical components indicate that item flows are passed from one output of a source component to one or more inputs of target components.|
 | Physical Connection Point | Specifies the existence of an interaction point on Physical Level.|

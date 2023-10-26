@@ -53,7 +53,7 @@ C) A table listing the applicable standards, protocols and formats for the item 
 * What kind of physical items (energy, material, information, etc.) are exchanged between the system and external entities?
 * Which interface design items are on an interface of a physical architecture element?
 * Which interface partners does a physical system element have?
-* Which standards, protocols and format specifications are associated with a specific interface?
+* Which standards, protocols, and format specifications are associated with a specific interface?
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Attribute "realizingConnector" of InformationFlow referencing Connector

@@ -169,7 +169,7 @@ exposed in viewpoint [System Interface Definition Viewpoint](../viewpoints/Syste
 realized by Stereotype [SAF_ConceptualInterfaceDefinition](../../stereotypes.md#SAF_ConceptualInterfaceDefinition)
 
 Specifies the exchange capabilities of an interaction point on Logical Level.
-## Logical Connection Property
+## Logical Connection Point Property
 exposed in viewpoint [Logical Internal Exchange Viewpoint](../viewpoints/Logical-Internal-Exchange-Viewpoint.md)
 
 exposed in viewpoint [System Domain Item Kind Viewpoint](../viewpoints/System-Domain-Item-Kind-Viewpoint.md)
@@ -396,6 +396,8 @@ Specifies the exchange capabilities of an interaction point on Physical Level.
 ## Physical Connection Point Property
 exposed in viewpoint [Physical Interface Definition Viewpoint](../viewpoints/Physical-Interface-Definition-Viewpoint.md)
 
+exposed in viewpoint [Physical Internal Exchange Viewpoint](../viewpoints/Physical-Internal-Exchange-Viewpoint.md)
+
 realized by Stereotype FlowProperty
 
 
@@ -423,6 +425,8 @@ realized by Stereotype [SAF_PhysicalEnvironment](../../stereotypes.md#SAF_Physic
 The Environmental Element in the Physical Domain, outside the SOI scope, interacting with the SOI. E.g. air, dirt, sun, road.
 ## Physical Exchange Kind
 exposed in viewpoint [Physical Interface Definition Viewpoint](../viewpoints/Physical-Interface-Definition-Viewpoint.md)
+
+exposed in viewpoint [Physical Internal Exchange Viewpoint](../viewpoints/Physical-Internal-Exchange-Viewpoint.md)
 
 realized by Stereotype [SAF_PhysicalExchangeType](../../stereotypes.md#SAF_PhysicalExchangeType)
 
@@ -874,7 +878,7 @@ exposed in viewpoint [Logical Internal Exchange Viewpoint](../viewpoints/Logical
 
 realized by Attribute "realizingConnector" of InformationFlow referencing Connector
 
-Specifies the fact that a Logical Item Exchange is allowed on the Logical Interface Connection.
+Specifies the fact that a Logical Item Exchange is allowed on the Logical Connection.
 ## LCPDdefiningDetailOfLCP
 1 [Logical Connection Point Definition](#Logical-Connection-Point-Definition) LCPDdefiningDetailOfLCP 0..* [Logical Connection Point](#Logical-Connection-Point) 
 
@@ -882,9 +886,19 @@ exposed in viewpoint [Logical Internal Exchange Viewpoint](../viewpoints/Logical
 
 exposed in viewpoint [System Interface Definition Viewpoint](../viewpoints/System-Interface-Definition-Viewpoint.md)
 
-realized by ProxyPort typed by InterfaceBlock
+realized by ProxyPort typed by SAF_ConceptualInterfaceDefinition
 
 Specifies the fact that a Logical Interface Connection Point Definition defines the exchange capabilities of a Logical Interface Connection Point.
+## LCPPspecifyingDetailOfLCPD
+0..* [Logical Connection Point Property](#Logical-Connection-Point-Property) LCPPspecifyingDetailOfLCPD 1 [Logical Connection Point Definition](#Logical-Connection-Point-Definition) 
+
+exposed in viewpoint [Logical Internal Exchange Viewpoint](../viewpoints/Logical-Internal-Exchange-Viewpoint.md)
+
+exposed in viewpoint [System Interface Definition Viewpoint](../viewpoints/System-Interface-Definition-Viewpoint.md)
+
+realized by FlowProperty contained in SAF_ConceptualInterfaceDefinition
+
+Specifies the fact that a Logical Connection Point Property is a detail of a Logical Connection Point Definition.
 ## LCPapplyingToLCE
 0..* [Logical Connection Point](#Logical-Connection-Point) LCPapplyingToLCE 1..* [Logical Context Element](#Logical-Context-Element) 
 
@@ -911,16 +925,6 @@ Specifies the fact that a Logical Interface Connection Point applies to a Logica
 0..* [Logical Connection Point](#Logical-Connection-Point) LCPboundedByPLS 0..1 [Physical Layer Stack](#Physical-Layer-Stack) 
 
 Specifies the fact that a Logical Interface Connection Point is constrained to be implemented on a particular Physical Layer Stack.
-## LCPspecifyingDetailOfLCPD
-0..* [Logical Connection Property](#Logical-Connection-Property) LCPspecifyingDetailOfLCPD 1 [Logical Connection Point Definition](#Logical-Connection-Point-Definition) 
-
-exposed in viewpoint [Logical Internal Exchange Viewpoint](../viewpoints/Logical-Internal-Exchange-Viewpoint.md)
-
-exposed in viewpoint [System Interface Definition Viewpoint](../viewpoints/System-Interface-Definition-Viewpoint.md)
-
-realized by FlowProperty contained in SAF_ConceptualInterfaceDefinition
-
-Specifies the fact that a Logical Interface Property is a detail of a Logical Interface Connection Point Definition.
 ## LENconceptingPEN
 1..* [Logical Environment](#Logical-Environment) LENconceptingPEN 1..* [Physical Environment](#Physical-Environment) 
 
@@ -1149,8 +1153,8 @@ exposed in viewpoint [Physical Internal Exchange Viewpoint](../viewpoints/Physic
 realized by Attribute "realizingConnector" of InformationFlow referencing Connector
 
 Specifies the fact that a Physical Item Exchange is allowed on the Physical Connection.
-## PCPDdefiningPCP
-1 [Physical Connection Point Definition](#Physical-Connection-Point-Definition) PCPDdefiningPCP 0..* [Physical Connection Point](#Physical-Connection-Point) 
+## PCPDdefiningDetailOfPCP
+1 [Physical Connection Point Definition](#Physical-Connection-Point-Definition) PCPDdefiningDetailOfPCP 0..* [Physical Connection Point](#Physical-Connection-Point) 
 
 exposed in viewpoint [Physical Context Exchange Viewpoint](../viewpoints/Physical-Context-Exchange-Viewpoint.md)
 
@@ -1161,12 +1165,22 @@ exposed in viewpoint [Physical Internal Exchange Viewpoint](../viewpoints/Physic
 realized by ProxyPort typed by SAF_PhysicalInterfaceDefinition
 
 Specifies the fact that a Physical Connection Point Definition defines the exchange capabilities of a Physical Connection Point.
+## PCPPspecifyingDetailOfPCPD
+0..* [Physical Connection Point Property](#Physical-Connection-Point-Property) PCPPspecifyingDetailOfPCPD 1 [Physical Connection Point Definition](#Physical-Connection-Point-Definition) 
+
+exposed in viewpoint [Physical Interface Definition Viewpoint](../viewpoints/Physical-Interface-Definition-Viewpoint.md)
+
+realized by FlowProperty contained in SAF_PhysicalInterfaceDefinition
+
+Specifies the fact that a Physical Connection Property is a detail of a Physical Connection Point Definition.
 ## PCPapplyingToAPE
 0..* [Physical Connection Point](#Physical-Connection-Point) PCPapplyingToAPE 1 [Abstract Physical Element](#Abstract-Physical-Element) 
 
 exposed in viewpoint [Physical Context Exchange Viewpoint](../viewpoints/Physical-Context-Exchange-Viewpoint.md)
 
 exposed in viewpoint [Physical Internal Exchange Viewpoint](../viewpoints/Physical-Internal-Exchange-Viewpoint.md)
+
+realized by ProxyPort contained in SAF_PhysicalItem
 
 Specifies the fact that a Physical Interface Connection Point applies to an Abstract Physical Element.
 ## PCPapplyingToPCE
@@ -1178,17 +1192,11 @@ Specifies the fact that a Physical Interface Connection Point applies to a Physi
 
 exposed in viewpoint [Physical Interface Definition Viewpoint](../viewpoints/Physical-Interface-Definition-Viewpoint.md)
 
+exposed in viewpoint [Physical Internal Exchange Viewpoint](../viewpoints/Physical-Internal-Exchange-Viewpoint.md)
+
 realized by SAF_PhysicalInterfaceDefinition contained in ProxyPort
 
 specifies that a physical connection point can be a part of a physical connection point definition. This fosters reuse and allows structuring of definitions.
-## PCPspecifyingDetailOfPCPD
-0..* [Physical Connection Point Property](#Physical-Connection-Point-Property) PCPspecifyingDetailOfPCPD 1 [Physical Connection Point Definition](#Physical-Connection-Point-Definition) 
-
-exposed in viewpoint [Physical Interface Definition Viewpoint](../viewpoints/Physical-Interface-Definition-Viewpoint.md)
-
-realized by FlowProperty contained in SAF_PhysicalInterfaceDefinition
-
-Specifies the fact that a Physical Connection Property is a detail of a Physical Connection Point Definition.
 ## PEKisAssignedToPL
 0..1 [Physical Layer](#Physical-Layer) PEKisAssignedToPL 0..* [Physical Exchange Kind](#Physical-Exchange-Kind) 
 
@@ -1197,10 +1205,12 @@ Specifies the fact that a Physical Exchange Kind is assigned to a particular Phy
 1..* [Physical Exchange Kind](#Physical-Exchange-Kind) PEKrealizingSDK 1 [System Domain Kind](#System-Domain-Kind) 
 
 Specifies the fact that a System Domain Kind is realized by Physical Exchange Kinds.
-## PEKtypingPCP
-1 [Physical Exchange Kind](#Physical-Exchange-Kind) PEKtypingPCP 0..* [Physical Connection Point Property](#Physical-Connection-Point-Property) 
+## PEKtypingPCPP
+1 [Physical Exchange Kind](#Physical-Exchange-Kind) PEKtypingPCPP 0..* [Physical Connection Point Property](#Physical-Connection-Point-Property) 
 
 exposed in viewpoint [Physical Interface Definition Viewpoint](../viewpoints/Physical-Interface-Definition-Viewpoint.md)
+
+exposed in viewpoint [Physical Internal Exchange Viewpoint](../viewpoints/Physical-Internal-Exchange-Viewpoint.md)
 
 realized by FlowProperty typed by SAF_PhysicalExchangeType
 
@@ -1327,8 +1337,8 @@ Specifies the fact that a System Domain Kind on system level is derived from an 
 1 [System Domain Kind](#System-Domain-Kind) SDKtypingFPM 0..* [General Functional Parameter](#General-Functional-Parameter) 
 
 Specifies the fact that a System Domain Kind defines the type of a Function Parameter.
-## SDKtypingLCP
-1 [System Domain Kind](#System-Domain-Kind) SDKtypingLCP 0..* [Logical Connection Property](#Logical-Connection-Property) 
+## SDKtypingLCPP
+1 [System Domain Kind](#System-Domain-Kind) SDKtypingLCPP 0..* [Logical Connection Point Property](#Logical-Connection-Point-Property) 
 
 exposed in viewpoint [Logical Internal Exchange Viewpoint](../viewpoints/Logical-Internal-Exchange-Viewpoint.md)
 
@@ -1336,7 +1346,7 @@ exposed in viewpoint [System Interface Definition Viewpoint](../viewpoints/Syste
 
 realized by FlowProperty typed by SAF_DomainKind
 
-Specifies the fact that a System Domain Kind defines the type of a Logical Interface Connection Property.
+Specifies the fact that a System Domain Kind defines the type of a Logical Connection Point Property.
 ## SDKtypingLIE
 1 [System Domain Kind](#System-Domain-Kind) SDKtypingLIE 0..* [Logical Item Exchange](#Logical-Item-Exchange) 
 
@@ -1349,6 +1359,8 @@ Specifies the fact that a System Domain Kind defines the type of a Logical Item 
 1..* [System Function](#System-Function) SFNallocatedToAPE 1 [Abstract Physical Element](#Abstract-Physical-Element) 
 
 exposed in viewpoint [Physical Functional Mapping Viewpoint](../viewpoints/Physical-Functional-Mapping-Viewpoint.md)
+
+realized by Attribute "" of SAF_PhysicalItem referencing SAF_SystemFunction
 
 Specifies the fact that a relationship is derived from the assignment of Functions to Logical Elements and the assignment of Logical Elements to Physical Elements.
 ## SFNallocatedToLET
@@ -1683,7 +1695,7 @@ The meaning is left to specialisations of bound by
 ## Hardware Element Constituent
 1 [Hardware Element](#Hardware-Element) Hardware Element Constituent 0..* [Hardware Element](#Hardware-Element) 
 
-realized by Stereotype [SAF_PhysicalInternalRole](../../stereotypes.md#SAF_PhysicalInternalRole)
+realized by SAF_PhysicalInternalRole contained in SAF_PhysicalItem
 
 Specifies the fact that a Hardware Element contains Hardware Elements.
 ## Internal Logical Chronological Message
@@ -1705,7 +1717,7 @@ exposed in viewpoint [Logical Internal Interaction Viewpoint](../viewpoints/Logi
 
 exposed in viewpoint [Logical Structure Viewpoint](../viewpoints/Logical-Structure-Viewpoint.md)
 
-realized by Stereotype [SAF_LogicalInternalRole](../../stereotypes.md#SAF_LogicalInternalRole)
+realized by SAF_LogicalInternalRole contained in SAF_LogicalElement
 
 Specifies the fact that a Logical Element contains any number of Logical Elements.
 ## Internal Logical Scenario Participation
@@ -1729,7 +1741,7 @@ realized by Metaclass Connector
 
 
 
-Specifies the connection of two interface connection points on Logical Level.
+Specifies the connection of two Logical connection points on Logical Level.
 Note: Connections between logical components indicate that item flows are passed from one output of a source component to one or more inputs of target components.
 ## Logical Context Element Constituent
 1..* [Logical Context Element](#Logical-Context-Element) Logical Context Element Constituent 1..* [Logical System Context](#Logical-System-Context) 
@@ -1742,7 +1754,7 @@ exposed in viewpoint [System Context Interaction Viewpoint](../viewpoints/System
 
 exposed in viewpoint [System Process Viewpoint](../viewpoints/System-Process-Viewpoint.md)
 
-realized by Stereotype [SAF_LogicalContextRole](../../stereotypes.md#SAF_LogicalContextRole)
+realized by SAF_LogicalContextRole contained in SAF_LogicalContext
 
 Specifies the fact that a Logical Context Element exists in a specific Logical Context.
 ## Logical SOI Constituent
@@ -1756,7 +1768,7 @@ exposed in viewpoint [System Context Interaction Viewpoint](../viewpoints/System
 
 exposed in viewpoint [System Process Viewpoint](../viewpoints/System-Process-Viewpoint.md)
 
-realized by Stereotype [SAF_LogicalContextRole](../../stereotypes.md#SAF_LogicalContextRole)
+realized by SAF_LogicalContextRole contained in SAF_LogicalContext
 
 Specifies the fact that a Logical SOI exists in a specific Logical Context.
 ## Operational Chronological Message
@@ -1869,7 +1881,7 @@ Note: Connections between physical components indicate that item flows are passe
 
 exposed in viewpoint [Physical Context Definition Viewpoint](../viewpoints/Physical-Context-Definition-Viewpoint.md)
 
-realized by Stereotype [SAF_PhysicalContextRole](../../stereotypes.md#SAF_PhysicalContextRole)
+realized by SAF_PhysicalContextRole contained in SAF_PhysicalContext
 
 Specifies the fact that a Physical Context Element exists in a specific Physical Context.
 ## Physical Element Constituent
@@ -1877,7 +1889,7 @@ Specifies the fact that a Physical Context Element exists in a specific Physical
 
 exposed in viewpoint [Physical Structure Viewpoint](../viewpoints/Physical-Structure-Viewpoint.md)
 
-realized by Stereotype [SAF_PhysicalInternalRole](../../stereotypes.md#SAF_PhysicalInternalRole)
+realized by SAF_PhysicalInternalRole contained in SAF_PhysicalItem
 
 Specifies the fact that a Physical Element may contain any number of Physical Elements.
 ## Physical Hardware Constituent
@@ -1885,7 +1897,7 @@ Specifies the fact that a Physical Element may contain any number of Physical El
 
 exposed in viewpoint [Physical Structure Viewpoint](../viewpoints/Physical-Structure-Viewpoint.md)
 
-realized by Stereotype [SAF_PhysicalInternalRole](../../stereotypes.md#SAF_PhysicalInternalRole)
+realized by SAF_PhysicalInternalRole contained in SAF_PhysicalItem
 
 Specifies the fact that a physical element contains any number of Hardware Elements.
 ## Physical Layer Ordering
@@ -1897,7 +1909,7 @@ Specifies an order among two physical layers. This order is valid within a Physi
 
 exposed in viewpoint [Physical Context Definition Viewpoint](../viewpoints/Physical-Context-Definition-Viewpoint.md)
 
-realized by Stereotype [SAF_PhysicalContextRole](../../stereotypes.md#SAF_PhysicalContextRole)
+realized by SAF_PhysicalContextRole contained in SAF_PhysicalContext
 
 Specifies the fact that a Physical SOI exists in a specific Physical Context.
 ## Physical Software Constituent
@@ -1905,13 +1917,13 @@ Specifies the fact that a Physical SOI exists in a specific Physical Context.
 
 exposed in viewpoint [Physical Structure Viewpoint](../viewpoints/Physical-Structure-Viewpoint.md)
 
-realized by Stereotype [SAF_PhysicalInternalRole](../../stereotypes.md#SAF_PhysicalInternalRole)
+realized by SAF_PhysicalInternalRole contained in SAF_PhysicalItem
 
 Specifies the fact that physical element contains any number of Software Elements.
 ## Software Element Constituent
 1 [Software Element](#Software-Element) Software Element Constituent 0..* [Software Element](#Software-Element) 
 
-realized by Stereotype [SAF_PhysicalInternalRole](../../stereotypes.md#SAF_PhysicalInternalRole)
+realized by SAF_PhysicalInternalRole contained in SAF_PhysicalItem
 
 Specifies the fact that a Software Element contains  Software Elements.
 ## State Transition

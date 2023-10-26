@@ -5,6 +5,7 @@
 |[Functional](../domains.md#Domain-Functional)|[Context & Exchange](../aspects.md#Aspect-Context-&-Exchange)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
 ## Example
 ![System-Context-Definition-Viewpoint-primary-example.svg](../diagrams/vp-examples/System-Context-Definition-Viewpoint-primary-example.svg)
+![System-Context-Definition-Viewpoint-primary-example-1.svg](../diagrams/vp-examples/System-Context-Definition-Viewpoint-primary-example-1.svg)
 ## Purpose
 The System Context Definition Viewpoint defines how the SOI is embedded in its Environment, i.e., where the boundary of the SOI is and who the External Entities are the SOI interacts with (e.g., Users, other External Systems, Environmental Conditions, etc.). The SOI provides and requests Context Functions. The SOI shall be able handle events and effects from the outside.
 Furthermore, the System Context Definition Viewpoint serves as architecture concept to demonstrate how the architecture defined in the The Operational Context Definition Viewpoint is realized.
@@ -18,7 +19,7 @@ A block definition diagram (BDD) featuring the following elements
 * a composition relationship from Context block to each Context Element used in the context
 * a composition relationship from Context block to the SOI
 
-A tabular format listing [tbd].
+A tabular format listing Context Roles, Context Elements, and respective descriptions
 
 ## Stakeholder
 * [Acquirer](../stakeholders.md#Acquirer)
@@ -36,7 +37,7 @@ A tabular format listing [tbd].
 * Which users does the system support? 
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SAF_LogicalContextRole](../stereotypes.md#SAF_LogicalContextRole)
+* SAF_LogicalContextRole contained in SAF_LogicalContext
 * [SAF_LogicalContext](../stereotypes.md#SAF_LogicalContext)
 * [SAF_LogicalEnvironment](../stereotypes.md#SAF_LogicalEnvironment)
 * [SAF_LogicalExternalSystem](../stereotypes.md#SAF_LogicalExternalSystem)
