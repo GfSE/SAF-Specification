@@ -8,7 +8,6 @@
 ![Physical-Interface-Definition-Viewpoint-primary-example-1.svg](../diagrams/vp-examples/Physical-Interface-Definition-Viewpoint-primary-example-1.svg)
 ![Physical-Interface-Definition-Viewpoint-primary-example-2.svg](../diagrams/vp-examples/Physical-Interface-Definition-Viewpoint-primary-example-2.svg)
 ## Purpose
-preliminary text - work in progess
 The Physical Interface Definition Viewpoint provides definitions for physical interfaces. These definitions are may be reused on different interfaces.
 ## Applicability
 The Physical Interface Definition Viewpoint supports the "Create System Design " activity included in "Design Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§ 2.3.5.5] and contributes to the System Interface definition.
