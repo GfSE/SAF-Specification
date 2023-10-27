@@ -663,9 +663,7 @@ A block definition diagram (BDD) featuring a claim-argument-evidence (C-A-E) pat
 *none*
 
 ### Documentation
-The Argumentation Assurance Viewpoint presents claims backed up by arguments that are supported by evidence, together with the possibility to counter such claims in a similar manner.
 
-A block definition diagram (BDD) featuring a claim-argument-evidence (C-A-E) pattern.
 
 ## SAF_SFV01a_View
 

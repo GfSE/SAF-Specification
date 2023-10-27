@@ -428,6 +428,8 @@ exposed in viewpoint [Physical Interface Definition Viewpoint](../viewpoints/Phy
 
 exposed in viewpoint [Physical Internal Exchange Viewpoint](../viewpoints/Physical-Internal-Exchange-Viewpoint.md)
 
+exposed in viewpoint [Physical Logical Item Mapping Viewpoint](../viewpoints/Physical-Logical-Item-Mapping-Viewpoint.md)
+
 realized by Stereotype [SAF_PhysicalExchangeType](../../stereotypes.md#SAF_PhysicalExchangeType)
 
 Specification for any kind of physical items (energy, material, information, etc.)to be exchanged on Physical Level, with focus onto the design of the items exchanged. This is the realization of the specification  made by System Domain Kinds.
@@ -544,6 +546,8 @@ Defines a context for a System of Interest.
 An abstract element of the SOI context. Base class for specific kinds of context elements.
 ## System Domain Kind
 exposed in viewpoint [Logical Internal Exchange Viewpoint](../viewpoints/Logical-Internal-Exchange-Viewpoint.md)
+
+exposed in viewpoint [Physical Logical Item Mapping Viewpoint](../viewpoints/Physical-Logical-Item-Mapping-Viewpoint.md)
 
 exposed in viewpoint [System Domain Item Kind Viewpoint](../viewpoints/System-Domain-Item-Kind-Viewpoint.md)
 
@@ -1204,6 +1208,12 @@ Specifies the fact that a Physical Exchange Kind is assigned to a particular Phy
 ## PEKrealizingSDK
 1..* [Physical Exchange Kind](#Physical-Exchange-Kind) PEKrealizingSDK 1 [System Domain Kind](#System-Domain-Kind) 
 
+exposed in viewpoint [Physical Logical Item Mapping Viewpoint](../viewpoints/Physical-Logical-Item-Mapping-Viewpoint.md)
+
+realized by Stereotype Allocate
+
+
+
 Specifies the fact that a System Domain Kind is realized by Physical Exchange Kinds.
 ## PEKtypingPCPP
 1 [Physical Exchange Kind](#Physical-Exchange-Kind) PEKtypingPCPP 0..* [Physical Connection Point Property](#Physical-Connection-Point-Property) 
@@ -1335,6 +1345,8 @@ realized by Stereotype [SAF_DomainKindDerivation](../../stereotypes.md#SAF_Domai
 Specifies the fact that a System Domain Kind on system level is derived from an Operational Domain Kind.
 ## SDKtypingFPM
 1 [System Domain Kind](#System-Domain-Kind) SDKtypingFPM 0..* [General Functional Parameter](#General-Functional-Parameter) 
+
+realized by Parameter typed by SAF_DomainKind
 
 Specifies the fact that a System Domain Kind defines the type of a Function Parameter.
 ## SDKtypingLCPP

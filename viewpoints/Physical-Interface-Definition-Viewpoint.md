@@ -27,7 +27,7 @@ A tabular format listing Physical Interface blocks, their ports, and flow proper
 * [Software Developer](../stakeholders.md#Software-Developer)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* [Which kind of physical items(energy, material, information, etc.) definitions have to be known by the SOI and used by the SOI?](../concerns.md#_2021x_2_8710274_1697542838788_945785_24608)
+* [Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the systemI?](../concerns.md#_2021x_2_8710274_1697542838788_945785_24608)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * FlowProperty [SysML Profile]
