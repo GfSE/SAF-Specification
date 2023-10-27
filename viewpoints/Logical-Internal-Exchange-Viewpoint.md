@@ -29,7 +29,7 @@ Note: Please use more than one IBD focused on different areas of interest to kee
 ## Concern
 * [How do the logical system elements interact to provide the system functions?](../concerns.md#_2021x_2_8710274_1674576758760_611640_23247)
 * [What are the items exchanged between logical system elements during an interaction?](../concerns.md#_2021x_2_8710274_1674576758991_165534_23433)
-* [What items (energy, material, information, etc.) are exchanged within the system?](../concerns.md#_2021x_2_8710274_1674576758825_79081_23317)
+* [What conceptual items (energy, material, information, etc.) are exchanged within the system?](../concerns.md#_2021x_2_8710274_1674576758825_79081_23317)
 * [Which requirements apply to a logical interface?](../concerns.md#_2021x_2_8710274_1674576758878_612030_23357)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:

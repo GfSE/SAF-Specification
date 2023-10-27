@@ -158,7 +158,7 @@ Note: The intention is to capture the expectations and to explicitly dissect the
 ![icon](icons/SAF_DomainKind.svg)
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#System Domain Kind'>System Domain Kind</A><BR>System Domain Kind: Specification for any kind of exchange on Functional, and Logical Level, focus on what kind of information is exchanged (information, material, energy).The Domain Item Kind is agnostic to any Physical realization.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#System Domain Kind'>System Domain Kind</A><BR>System Domain Kind: Specification for any kind of conceptual items (energy, material, information, etc.) to be exchanged on Functional and Logical Level, with focus onto the specification of the items exchanged.The Domain Item Kind is agnostic to any realization on Physical Level.<BR></html>
 
 
 ## SAF_DomainKindComposition
@@ -543,7 +543,7 @@ UAF::MapsToCapability<BR></html>
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical Exchange Kind'>Physical Exchange Kind</A><BR>Physical Exchange Kind: Design level data / energy / material definitions for exchange on Physical Level, with focus onto the design of the items exchanged (information, material, energy). This is the realization of the specification  made System Domain Kinds.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical Exchange Kind'>Physical Exchange Kind</A><BR>Physical Exchange Kind: Specification for any kind of physical items (energy, material, information, etc.)to be exchanged on Physical Level, with focus onto the design of the items exchanged. This is the realization of the specification  made by System Domain Kinds.<BR></html>
 
 
 ## SAF_PhysicalExternalSystem

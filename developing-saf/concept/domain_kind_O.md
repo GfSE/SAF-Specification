@@ -11,4 +11,4 @@
 | Operational Process Exchange | Specifies the fact that an Operational Process has an exchange with another Operational Process.|
 | SDKcomposedOF | Specifies the fact that a System Domain Kind consists of one or more System Domain Kinds.|
 | SDKderivingFromODK | Specifies the fact that a System Domain Kind on system level is derived from an Operational Domain Kind.|
-| System Domain Kind | Specification for any kind of exchange on Functional, and Logical Level, focus on what kind of information is exchanged (information, material, energy).The Domain Item Kind is agnostic to any Physical realization.|
+| System Domain Kind | Specification for any kind of conceptual items (energy, material, information, etc.) to be exchanged on Functional and Logical Level, with focus onto the specification of the items exchanged.The Domain Item Kind is agnostic to any realization on Physical Level.|

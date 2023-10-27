@@ -24,7 +24,7 @@
 | Physical Context Element | Abstract element of a System Context  in the Physical Domain, outside the SOI scope, interacting with the SOI.|
 | Physical Element | A composition of Hardware Elements and Software Elements. Similarity to the V-Model segments and system. See [VXT].|
 | Physical Environment | The Environmental Element in the Physical Domain, outside the SOI scope, interacting with the SOI. E.g. air, dirt, sun, road.|
-| Physical Exchange Kind | Design level data / energy / material definitions for exchange on Physical Level, with focus onto the design of the items exchanged (information, material, energy). This is the realization of the specification  made System Domain Kinds.|
+| Physical Exchange Kind | Specification for any kind of physical items (energy, material, information, etc.)to be exchanged on Physical Level, with focus onto the design of the items exchanged. This is the realization of the specification  made by System Domain Kinds.|
 | Physical External System | The External System in the Physical Domain, outside the SOI scope, interacting with the SOI. E.g. power grid, mobile network, fresh water system (in a house).|
 | Physical Item Exchange | Specifies the exchange that is to take place on a Physical Connection.|
 | Physical SOI | Represents the SOI in the Physical Domain.|

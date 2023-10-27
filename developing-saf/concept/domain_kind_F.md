@@ -7,11 +7,11 @@
 | Logical Item Exchange | Specifies the exchange that is to take place on a Logical Interface Connection.|
 | Operational Domain Kind | Specifies the kind of exchange between Operational Context Constituents or between Operational Processes.|
 | PEKrealizingSDK | Specifies the fact that a System Domain Kind is realized by Physical Exchange Kinds.|
-| Physical Exchange Kind | Design level data / energy / material definitions for exchange on Physical Level, with focus onto the design of the items exchanged (information, material, energy). This is the realization of the specification  made System Domain Kinds.|
+| Physical Exchange Kind | Specification for any kind of physical items (energy, material, information, etc.)to be exchanged on Physical Level, with focus onto the design of the items exchanged. This is the realization of the specification  made by System Domain Kinds.|
 | SDKbeeingInSSE | Specifies that a System Domain Kind can have certain states.<br>Note:<br>Of course an item is in only one distinct state at a certain time. The multiplicity means that an Item can have a set of possible states, and a state can be used to specify possible States for several domain items.|
 | SDKderivingFromODK | Specifies the fact that a System Domain Kind on system level is derived from an Operational Domain Kind.|
 | SDKtypingFPM | Specifies the fact that a System Domain Kind defines the type of a Function Parameter.|
 | SDKtypingLCPP | Specifies the fact that a System Domain Kind defines the type of a Logical Connection Point Property.|
 | SDKtypingLIE | Specifies the fact that a System Domain Kind defines the type of a Logical Item Exchange.|
-| System Domain Kind | Specification for any kind of exchange on Functional, and Logical Level, focus on what kind of information is exchanged (information, material, energy).The Domain Item Kind is agnostic to any Physical realization.|
+| System Domain Kind | Specification for any kind of conceptual items (energy, material, information, etc.) to be exchanged on Functional and Logical Level, with focus onto the specification of the items exchanged.The Domain Item Kind is agnostic to any realization on Physical Level.|
 | System State | Describes a state (or mode) of something that can have distinct states.|

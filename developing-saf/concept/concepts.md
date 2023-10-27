@@ -430,7 +430,7 @@ exposed in viewpoint [Physical Internal Exchange Viewpoint](../viewpoints/Physic
 
 realized by Stereotype [SAF_PhysicalExchangeType](../../stereotypes.md#SAF_PhysicalExchangeType)
 
-Design level data / energy / material definitions for exchange on Physical Level, with focus onto the design of the items exchanged (information, material, energy). This is the realization of the specification  made System Domain Kinds.
+Specification for any kind of physical items (energy, material, information, etc.)to be exchanged on Physical Level, with focus onto the design of the items exchanged. This is the realization of the specification  made by System Domain Kinds.
 ## Physical External System
 exposed in viewpoint [Physical Context Definition Viewpoint](../viewpoints/Physical-Context-Definition-Viewpoint.md)
 
@@ -551,7 +551,7 @@ exposed in viewpoint [System Interface Definition Viewpoint](../viewpoints/Syste
 
 realized by Stereotype [SAF_DomainKind](../../stereotypes.md#SAF_DomainKind)
 
-Specification for any kind of exchange on Functional, and Logical Level, focus on what kind of information is exchanged (information, material, energy).The Domain Item Kind is agnostic to any Physical realization.
+Specification for any kind of conceptual items (energy, material, information, etc.) to be exchanged on Functional and Logical Level, with focus onto the specification of the items exchanged.The Domain Item Kind is agnostic to any realization on Physical Level.
 ## System Function
 exposed in viewpoint [Logical Functional Mapping Viewpoint](../viewpoints/Logical-Functional-Mapping-Viewpoint.md)
 

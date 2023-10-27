@@ -20,4 +20,4 @@
 | Logical User | A human representation in the Logical Domain, outside the SOI scope, interacting with the SOI.|
 | SDKtypingLCPP | Specifies the fact that a System Domain Kind defines the type of a Logical Connection Point Property.|
 | SDKtypingLIE | Specifies the fact that a System Domain Kind defines the type of a Logical Item Exchange.|
-| System Domain Kind | Specification for any kind of exchange on Functional, and Logical Level, focus on what kind of information is exchanged (information, material, energy).The Domain Item Kind is agnostic to any Physical realization.|
+| System Domain Kind | Specification for any kind of conceptual items (energy, material, information, etc.) to be exchanged on Functional and Logical Level, with focus onto the specification of the items exchanged.The Domain Item Kind is agnostic to any realization on Physical Level.|

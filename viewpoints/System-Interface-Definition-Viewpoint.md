@@ -15,12 +15,17 @@ A block definition diagram (BDD) featuring System Interface blocks with ports, a
 A tabular format listing System Interface blocks, their ports, and flow properties.
 
 ## Stakeholder
+* [Acquirer](../stakeholders.md#Acquirer)
+* [Customer](../stakeholders.md#Customer)
 * [Hardware Developer](../stakeholders.md#Hardware-Developer)
 * [IV&V Engineer](../stakeholders.md#IV&V-Engineer)
+* [Maintainer](../stakeholders.md#Maintainer)
+* [Safety Expert](../stakeholders.md#Safety-Expert)
 * [Security Expert](../stakeholders.md#Security-Expert)
 * [Software Developer](../stakeholders.md#Software-Developer)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
+* [What kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?](../concerns.md#_2021x_2_8710274_1674576759154_22704_23559)
 * [Which standards, protocols, and format specifications are associated with a specific interface?](../concerns.md#_2021x_2_8710274_1674576758891_215548_23373)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
