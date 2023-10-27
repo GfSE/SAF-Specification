@@ -1360,7 +1360,7 @@ Specifies the fact that a System Domain Kind defines the type of a Logical Item 
 
 exposed in viewpoint [Physical Functional Mapping Viewpoint](../viewpoints/Physical-Functional-Mapping-Viewpoint.md)
 
-realized by Attribute "" of SAF_PhysicalItem referencing SAF_SystemFunction
+realized by Attribute "function" of SAF_PhysicalItem referencing SAF_SystemFunction
 
 Specifies the fact that a relationship is derived from the assignment of Functions to Logical Elements and the assignment of Logical Elements to Physical Elements.
 ## SFNallocatedToLET
@@ -1805,7 +1805,7 @@ exposed in viewpoint [Operational Interaction Viewpoint](../viewpoints/Operation
 
 exposed in viewpoint [Operational Process Viewpoint](../viewpoints/Operational-Process-Viewpoint.md)
 
-realized by Stereotype [SAF_OperationalPerformerRole](../../stereotypes.md#SAF_OperationalPerformerRole)
+realized by Stereotype [SAF_OperationalContextRole](../../stereotypes.md#SAF_OperationalContextRole)
 
 realized by Metaclass Association
 

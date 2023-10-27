@@ -29,7 +29,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
 |Allocate [SysML Profile]|[USEAGEallocatedTO](../concept/concepts.md#USEAGEallocatedTO)|
-|Attribute "" of SAF_PhysicalItem referencing SAF_SystemFunction|[SFNallocatedToAPE](../concept/concepts.md#SFNallocatedToAPE)|
+|Attribute "function" of SAF_PhysicalItem referencing SAF_SystemFunction|[SFNallocatedToAPE](../concept/concepts.md#SFNallocatedToAPE)|
 |[SAF_FunctionAction](../../stereotypes.md#SAF_FunctionAction)|[General Functional Usage](../concept/concepts.md#General-Functional-Usage)|
 |[SAF_PhysicalElement](../../stereotypes.md#SAF_PhysicalElement)|[Physical Element](../concept/concepts.md#Physical-Element)|
 |[SAF_PhysicalHardwareElement](../../stereotypes.md#SAF_PhysicalHardwareElement)|[Hardware Element](../concept/concepts.md#Hardware-Element)|

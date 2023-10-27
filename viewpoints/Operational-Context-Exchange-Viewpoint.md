@@ -26,9 +26,9 @@ A tabular format listing [tbd].
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Connector [UML_Standard_Profile]
 * ItemFlow [SysML Profile]
+* [SAF_OperationalContextRole](../stereotypes.md#SAF_OperationalContextRole)
 * [SAF_OperationalContext](../stereotypes.md#SAF_OperationalContext)
 * [SAF_OperationalDomainKind](../stereotypes.md#SAF_OperationalDomainKind)
-* [SAF_OperationalPerformerRole](../stereotypes.md#SAF_OperationalPerformerRole)
 * [SAF_SOV01c_View](../stereotypes.md#SAF_SOV01c_View)
 ## Input from other Viewpoints
 ### Required Viewpoints

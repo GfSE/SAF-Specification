@@ -6,7 +6,7 @@
 ## Example
 ![Physical-Logical-Mapping-Viewpoint-primary-example.svg](../diagrams/vp-examples/Physical-Logical-Mapping-Viewpoint-primary-example.svg)
 ## Purpose
-The Physical Logical Mapping Viewpoint specifies the assignment of the Logical SOI Elements to the Physical SOI Elements.
+The Physical Logical Mapping Viewpoint specifies the assignment of the Logical System Elements to the Physical System Elements.
 ## Applicability
 The Physical Functional Mapping Viewpoint supports the "System Architecture Definition process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015  .
 ## Presentation

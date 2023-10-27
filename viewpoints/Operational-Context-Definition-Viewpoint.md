@@ -24,8 +24,8 @@ A block definition diagram (BDD) featuring the identified Operational Performers
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Association [UML_Standard_Profile]
+* [SAF_OperationalContextRole](../stereotypes.md#SAF_OperationalContextRole)
 * [SAF_OperationalContext](../stereotypes.md#SAF_OperationalContext)
-* [SAF_OperationalPerformerRole](../stereotypes.md#SAF_OperationalPerformerRole)
 * [SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)
 * [SAF_SOV01b_View](../stereotypes.md#SAF_SOV01b_View)
 ## Input from other Viewpoints

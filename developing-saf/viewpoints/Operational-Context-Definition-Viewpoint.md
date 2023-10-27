@@ -27,8 +27,8 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |---|---|
 |Association [UML_Standard_Profile]|[Operational Context Performer Constituent](../concept/concepts.md#Operational-Context-Performer-Constituent)|
 |[SAF_OperationalContext](../../stereotypes.md#SAF_OperationalContext)|[Operational Context](../concept/concepts.md#Operational-Context)|
+|[SAF_OperationalContextRole](../../stereotypes.md#SAF_OperationalContextRole)|[Operational Context Performer Constituent](../concept/concepts.md#Operational-Context-Performer-Constituent)|
 |[SAF_OperationalPerformer](../../stereotypes.md#SAF_OperationalPerformer)|[Operational Performer](../concept/concepts.md#Operational-Performer)|
-|[SAF_OperationalPerformerRole](../../stereotypes.md#SAF_OperationalPerformerRole)|[Operational Context Performer Constituent](../concept/concepts.md#Operational-Context-Performer-Constituent)|
 |[SAF_SOV01b_View](../../stereotypes.md#SAF_SOV01b_View)|[Operational Context Definition Viewpoint](../concept/concepts.md#Operational-Context-Definition-Viewpoint)|
 ## Input from other Viewpoints
 ### Required Viewpoints

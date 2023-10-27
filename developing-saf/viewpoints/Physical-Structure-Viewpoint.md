@@ -32,8 +32,8 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |SAF_PhysicalInternalRole contained in SAF_PhysicalItem|[Physical Hardware Constituent](../concept/concepts.md#Physical-Hardware-Constituent)|
 |SAF_PhysicalInternalRole contained in SAF_PhysicalItem|[Hardware Element Constituent](../concept/concepts.md#Hardware-Element-Constituent)|
 |SAF_PhysicalInternalRole contained in SAF_PhysicalItem|[Physical Software Constituent](../concept/concepts.md#Physical-Software-Constituent)|
-|SAF_PhysicalInternalRole contained in SAF_PhysicalItem|[Software Element Constituent](../concept/concepts.md#Software-Element-Constituent)|
 |SAF_PhysicalInternalRole contained in SAF_PhysicalItem|[Physical Element Constituent](../concept/concepts.md#Physical-Element-Constituent)|
+|SAF_PhysicalInternalRole contained in SAF_PhysicalItem|[Software Element Constituent](../concept/concepts.md#Software-Element-Constituent)|
 |[SAF_PhysicalSoftwareElement](../../stereotypes.md#SAF_PhysicalSoftwareElement)|[Software Element](../concept/concepts.md#Software-Element)|
 |[SAF_PhysicalSystem](../../stereotypes.md#SAF_PhysicalSystem)|[Physical SOI](../concept/concepts.md#Physical-SOI)|
 |[SAF_SPV02a_View](../../stereotypes.md#SAF_SPV02a_View)|[Physical Structure Viewpoint](../concept/concepts.md#Physical-Structure-Viewpoint)|

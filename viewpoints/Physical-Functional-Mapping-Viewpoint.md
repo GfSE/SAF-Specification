@@ -27,7 +27,7 @@ or Physical SOI
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Allocate [SysML Profile]
-* Attribute "" of SAF_PhysicalItem referencing SAF_SystemFunction
+* Attribute "function" of SAF_PhysicalItem referencing SAF_SystemFunction
 * [SAF_FunctionAction](../stereotypes.md#SAF_FunctionAction)
 * [SAF_PhysicalElement](../stereotypes.md#SAF_PhysicalElement)
 * [SAF_PhysicalHardwareElement](../stereotypes.md#SAF_PhysicalHardwareElement)

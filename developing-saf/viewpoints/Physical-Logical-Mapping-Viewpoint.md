@@ -6,7 +6,7 @@
 ## Example
 ![Physical-Logical-Mapping-Viewpoint-primary-example.svg](../../diagrams/vp-examples/Physical-Logical-Mapping-Viewpoint-primary-example.svg)
 ## Purpose
-The Physical Logical Mapping Viewpoint specifies the assignment of the Logical SOI Elements to the Physical SOI Elements.
+The Physical Logical Mapping Viewpoint specifies the assignment of the Logical System Elements to the Physical System Elements.
 ## Applicability
 The Physical Functional Mapping Viewpoint supports the "System Architecture Definition process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015  .
 ## Presentation
@@ -28,8 +28,8 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |SAF_PhysicalInternalRole contained in SAF_PhysicalItem|[Physical Hardware Constituent](../concept/concepts.md#Physical-Hardware-Constituent)|
 |SAF_PhysicalInternalRole contained in SAF_PhysicalItem|[Hardware Element Constituent](../concept/concepts.md#Hardware-Element-Constituent)|
 |SAF_PhysicalInternalRole contained in SAF_PhysicalItem|[Physical Software Constituent](../concept/concepts.md#Physical-Software-Constituent)|
-|SAF_PhysicalInternalRole contained in SAF_PhysicalItem|[Software Element Constituent](../concept/concepts.md#Software-Element-Constituent)|
 |SAF_PhysicalInternalRole contained in SAF_PhysicalItem|[Physical Element Constituent](../concept/concepts.md#Physical-Element-Constituent)|
+|SAF_PhysicalInternalRole contained in SAF_PhysicalItem|[Software Element Constituent](../concept/concepts.md#Software-Element-Constituent)|
 |[SAF_PhysicalInternalRole](../../stereotypes.md#SAF_PhysicalInternalRole)|[Physical Usage](../concept/concepts.md#Physical-Usage)|
 |[SAF_SPV08a_View](../../stereotypes.md#SAF_SPV08a_View)|[Physical Logical Mapping Viewpoint](../concept/concepts.md#Physical-Logical-Mapping-Viewpoint)|
 ## Input from other Viewpoints

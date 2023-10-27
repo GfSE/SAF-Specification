@@ -27,8 +27,8 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * InputPin [UML_Standard_Profile]
 * ObjectFlow [UML_Standard_Profile]
 * OutputPin [UML_Standard_Profile]
+* [SAF_OperationalContextRole](../stereotypes.md#SAF_OperationalContextRole)
 * [SAF_OperationalDomainKind](../stereotypes.md#SAF_OperationalDomainKind)
-* [SAF_OperationalPerformerRole](../stereotypes.md#SAF_OperationalPerformerRole)
 * [SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)
 * [SAF_OperationalProcessAction](../stereotypes.md#SAF_OperationalProcessAction)
 * [SAF_OperationalProcess](../stereotypes.md#SAF_OperationalProcess)

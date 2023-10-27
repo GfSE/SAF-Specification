@@ -363,6 +363,15 @@ Aliases:
 UAF::HighLevelOperationalConcept<BR></html>
 
 
+## SAF_OperationalContextRole
+
+### Icon
+*none*
+
+### Documentation
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Operational Context Performer Constituent'>Operational Context Performer Constituent</A><BR>Operational Context Performer Constituent: An Operational Context Constituent represents a participant in the Operational Activity executing one or more of its atomic actions interacting with other constituents of the identified Operational Context. Specific characteristics and features or, in case of persons or organizational units, knowledge and skills are assigned to a constituent necessary for the execution of the allocated actions.<BR></html>
+
+
 ## SAF_OperationalDomainKind
 
 ### Icon
@@ -418,15 +427,6 @@ UAF::OperationalPerformer<BR></html>
 
 ### Documentation
 <html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#OPRexhibitingOCY'>OPRexhibitingOCY</A><BR>OPRexhibitingOCY: Specifies the fact that an Operational Performer exhibits an Operational Capability under specific environmental conditions.<BR></html>
-
-
-## SAF_OperationalPerformerRole
-
-### Icon
-*none*
-
-### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Operational Context Performer Constituent'>Operational Context Performer Constituent</A><BR>Operational Context Performer Constituent: An Operational Context Constituent represents a participant in the Operational Activity executing one or more of its atomic actions interacting with other constituents of the identified Operational Context. Specific characteristics and features or, in case of persons or organizational units, knowledge and skills are assigned to a constituent necessary for the execution of the allocated actions.<BR></html>
 
 
 ## SAF_OperationalProcess
@@ -1129,12 +1129,12 @@ A tabular format listing Physical Interface blocks, their ports, and flow proper
 *none*
 
 ### Documentation
-The Physical Logical Mapping Viewpoint specifies the assignment of the Logical SOI Elements to the Physical SOI Elements.
+The Physical Logical Mapping Viewpoint specifies the assignment of the Logical System Elements to the Physical System Elements.
 
 A  Physical To Logical Assigment Matrix featuring
-* Logical Elements
-* Physical Elements
-* allocation relationships from logical elements to physical elements
+* Logical Elements roles
+* Physical Elements roles
+* allocation relationships from logical elements roles to physical elements roles
 
 ## SAF_SPV08b_View
 
