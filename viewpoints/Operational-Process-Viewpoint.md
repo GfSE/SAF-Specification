@@ -18,8 +18,8 @@ Note: Operational Process Actions are assigned to Operational Roles and therefor
 * [Customer](../stakeholders.md#Customer)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* What operational process activities shall be executed during the execution of an operational story?
-* Which operational activity shall be executed by which operational performer in the operational story?
+* [What operational process activities shall be executed during the execution of an operational story?](../concerns.md#_2021x_2_8710274_1674576759250_575950_23644)
+* [Which operational activity shall be executed by which operational performer in the operational story?](../concerns.md#_2021x_2_8710274_1674576758680_939269_23154)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Allocate [SysML Profile]

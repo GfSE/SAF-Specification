@@ -18,7 +18,7 @@ A tabular format listing the relationships of Operational Process Activities to 
 * [Portfolio Manager](../stakeholders.md#Portfolio-Manager)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* Show in a concise manner the relationships from operational process to operational story and to operational performer.
+* [Show in a concise manner the relationships from operational process to operational story and to operational performer.](../concerns.md#_2021x_2_8710274_1674576758928_485242_23392)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_OperationalCapability](../stereotypes.md#SAF_OperationalCapability)

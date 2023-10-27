@@ -21,7 +21,7 @@ A tabular format listing [tbd].
 * [Security Expert](../stakeholders.md#Security-Expert)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* What operational exchanges do operational performers need to consume or provide?
+* [What operational exchanges do operational performers need to consume or provide?](../concerns.md#_2021x_2_8710274_1674576758910_672482_23380)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Connector [UML_Standard_Profile]

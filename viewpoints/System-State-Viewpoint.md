@@ -25,8 +25,8 @@ A tabular format listing states, state transitions, and the conditons to be full
 * [Software Developer](../stakeholders.md#Software-Developer)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* Which modes and states does the system have?
-* Which system functions are dependent on a systems mode or state?
+* [Which modes and states does the system have?](../concerns.md#_2021x_2_8710274_1674576759199_155259_23602)
+* [Which system functions are dependent on a systems mode or state?](../concerns.md#_2021x_2_8710274_1674576759086_661396_23504)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Event [UML_Standard_Profile]

@@ -14,7 +14,7 @@ A block definition diagram (BDD) featuring a claim-argument-evidence (C-A-E) pat
 
 ## Stakeholder
 ## Concern
-* How is a evidence-based claim supported?
+* [How is a evidence-based claim supported?](../concerns.md#_2021x_2_8710274_1674576758703_316775_23176)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_ArgumentClaimSupport](../stereotypes.md#SAF_ArgumentClaimSupport)

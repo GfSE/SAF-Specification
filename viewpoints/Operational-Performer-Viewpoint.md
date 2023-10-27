@@ -18,8 +18,8 @@ Note: Identified Stakeholders are related to Operational Performers if appropria
 * [Customer](../stakeholders.md#Customer)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* What are the relationships between the partys involved in the operation of the intended solution?
-* What partys of the organization, enterprise, or operational entity are needed to achieve an intended operational capability?
+* [What are the relationships between the partys involved in the operation of the intended solution?](../concerns.md#_2021x_2_8710274_1674576759040_585536_23465)
+* [What partys of the organization, enterprise, or operational entity are needed to achieve an intended operational capability?](../concerns.md#_2021x_2_8710274_1674576759028_333016_23460)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_OperationalPerformerComposition](../stereotypes.md#SAF_OperationalPerformerComposition)

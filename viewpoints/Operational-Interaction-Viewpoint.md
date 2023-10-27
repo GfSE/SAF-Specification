@@ -19,7 +19,7 @@ Note: This diagram depicts the sending and receiving of messages between the int
 * [Customer](../stakeholders.md#Customer)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* What possible threads of operational process activities have to be carried out to achieve the operational story main and alternative goals?
+* [What possible threads of operational process activities have to be carried out to achieve the operational story main and alternative goals?](../concerns.md#_2021x_2_8710274_1674576759199_457359_23612)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Interaction [UML_Standard_Profile]

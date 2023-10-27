@@ -25,9 +25,9 @@ A block definition diagram (BDD) depicting the elements available in a specific 
 * [Supplier](../stakeholders.md#Supplier)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* What are the different contexts the system is embedded and utilized in?
-* What are the external physical entities the system interacts with in the respective context?
-* Which interface partners does the system have?
+* [What are the different contexts the system is embedded and utilized in?](../concerns.md#_2021x_2_8710274_1674576758891_776196_23368)
+* [What are the external physical entities the system interacts with in the respective context?](../concerns.md#_2021x_2_8710274_1674576758710_759449_23186)
+* [Which interface partners does the system have?](../concerns.md#_2021x_2_8710274_1674576759091_673143_23507)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * SAF_PhysicalContextRole contained in SAF_PhysicalContext

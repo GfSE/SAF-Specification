@@ -45,11 +45,11 @@ C) A table listing the applicable standards, protocols and formats for the item 
 * [Supplier](../../stakeholders.md#Supplier)
 * [System Architect](../../stakeholders.md#System-Architect)
 ## Concern
-* What are the external physical entities the system interacts with in the respective context?
-* What are the protocols for exchanging items on specific interface?
-* What kind of physical items (energy, material, information, etc.) are exchanged between the system and external entities?
-* Which design level data / energy / material definitions are used on an interface of a physical architecture element?
-* Which standards, protocols, and format specifications are associated with a specific interface?
+* [What are the external physical entities the system interacts with in the respective context?](../../concerns.md#_2021x_2_8710274_1674576758710_759449_23186)
+* [What are the protocols for exchanging items on specific interface?](../../concerns.md#_2021x_2_8710274_1674576759247_884832_23642)
+* [What kind of physical items (energy, material, information, etc.) are exchanged between the system and external entities?](../../concerns.md#_2021x_2_8710274_1674576758698_132348_23172)
+* [Which design level data / energy / material definitions are used on an interface of a physical architecture element?](../../concerns.md#_2021x_2_8710274_1674576758561_575110_23056)
+* [Which standards, protocols, and format specifications are associated with a specific interface?](../../concerns.md#_2021x_2_8710274_1674576758891_215548_23373)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|

@@ -22,7 +22,7 @@ The Viewpoint is used to identify system elements of the physical architecture.
 * [Security Expert](../../stakeholders.md#Security-Expert)
 * [System Architect](../../stakeholders.md#System-Architect)
 ## Concern
-* What is the physical breakdown of the system?
+* [What is the physical breakdown of the system?](../../concerns.md#_2021x_2_8710274_1674576759117_113432_23531)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|

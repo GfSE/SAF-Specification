@@ -15,8 +15,8 @@ Activity Diagram featuring System Partial Functions, functional exchange between
 ## Stakeholder
 * [System Architect](../../stakeholders.md#System-Architect)
 ## Concern
-* How are the system functions decomposed into sub-functions ? 
-* What is the breakdown of functions into sub-functions?
+* [How are the system functions decomposed into sub-functions ? ](../../concerns.md#_2021x_2_8710274_1674576758790_775644_23272)
+* [What is the breakdown of functions into sub-functions?](../../concerns.md#_2021x_2_8710274_1674576758728_463822_23204)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|

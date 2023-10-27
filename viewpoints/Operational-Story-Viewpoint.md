@@ -22,7 +22,7 @@ Note: Illustrations, drawings, sketches, etc., and/or descriptions in free text 
 * [Customer](../stakeholders.md#Customer)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* Which is the operational scenario, i.e., course of action, for the mission and the context in which the system of systems solution will exist?
+* [Which is the operational scenario, i.e., course of action, for the mission and the context in which the system of systems solution will exist?](../concerns.md#_2021x_2_8710274_1674576758881_297740_23364)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Attribute "subject" of UseCase referencing SAF_OperationalContext

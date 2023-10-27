@@ -21,7 +21,7 @@ A tabular format listing System Capabilities, their composition, specialisation,
 * [Supplier](../stakeholders.md#Supplier)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* What are the capabilities that are supported by the system?
+* [What are the capabilities that are supported by the system?](../concerns.md#_2021x_2_8710274_1674576759126_506455_23537)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_SFV02b_View](../stereotypes.md#SAF_SFV02b_View)

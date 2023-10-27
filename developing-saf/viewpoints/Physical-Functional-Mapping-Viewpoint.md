@@ -2,7 +2,7 @@
 # SAF Development Documentation : Physical Functional Mapping Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
-|[Physical](../../domains.md#Domain-Physical)|[Traceability & Mapping](../../aspects.md#Aspect-Traceability-&-Mapping)|![Under Construction](../../diagrams/Under_construction_icon-yellow.svg )[under construction](../../using-saf/maturity.md#under-construction)|
+|[Physical](../../domains.md#Domain-Physical)|[Traceability & Mapping](../../aspects.md#Aspect-Traceability-&-Mapping)|![Released](../../diagrams/Symbol_confirmed.png )[released](../../using-saf/maturity.md#released)|
 ## Example
 ![Physical-Functional-Mapping-Viewpoint-primary-example.svg](../../diagrams/vp-examples/Physical-Functional-Mapping-Viewpoint-primary-example.svg)
 ## Purpose
@@ -23,8 +23,8 @@ or Physical SOI
 * [Software Developer](../../stakeholders.md#Software-Developer)
 * [System Architect](../../stakeholders.md#System-Architect)
 ## Concern
-* What is the allocation of functions to the Physical Elements in the physical architecture?
-* Which funcions need to be tested in IV&V activities
+* [What is the allocation of functions to the Physical Elements in the physical architecture?](../../concerns.md#_2021x_2_8710274_1674576758941_524652_23399)
+* [Which funcions need to be tested in IV&V activities](../../concerns.md#_2021x_2_8710274_1698399553646_852568_33150)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|

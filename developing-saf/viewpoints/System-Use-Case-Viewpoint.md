@@ -24,11 +24,11 @@ A tabular format listing the System Use Cases, the System Use Case pre- and post
 * [System Architect](../../stakeholders.md#System-Architect)
 * [User](../../stakeholders.md#User)
 ## Concern
-* For what purpose is the system developed or adapted?
-* How is the system being used or utilized and interacting with other external systems to satisfy user needs?
-* What has the system to accomplish for its users?
-* Which is the system scenario, i.e., course of action, for the system context in which the system solution will exist?
-* Which users does the system support? 
+* [For what purpose is the system developed or adapted?](../../concerns.md#_2021x_2_6d8019d_1674945898325_22078_35809)
+* [How is the system being used or utilized and interacting with other external systems to satisfy user needs?](../../concerns.md#_2021x_2_8710274_1674576758841_451500_23327)
+* [What has the system to accomplish for its users?](../../concerns.md#_2021x_2_8710274_1697469571914_800497_36599)
+* [Which is the system scenario, i.e., course of action, for the system context in which the system solution will exist?](../../concerns.md#_2021x_2_6d8019d_1674922633861_96675_24986)
+* [Which users does the system support? ](../../concerns.md#_2021x_2_6d8019d_1675459822996_961402_23325)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|

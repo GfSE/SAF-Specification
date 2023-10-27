@@ -18,7 +18,7 @@ A tabular format listing the relationships of Operational Capabilities to Stakeh
 * [Portfolio Manager](../../stakeholders.md#Portfolio-Manager)
 * [System Architect](../../stakeholders.md#System-Architect)
 ## Concern
-* Show in a concise manner the relationships from operational capability to operational story, to operational activity, and to operational performer.
+* [Show in a concise manner the relationships from operational capability to operational story, to operational activity, and to operational performer.](../../concerns.md#_2021x_2_8710274_1674576758591_594647_23070)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|

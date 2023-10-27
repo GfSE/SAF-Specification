@@ -2,7 +2,7 @@
 # SAF User Documentation : Physical Interface Definition Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
-|[Physical](../domains.md#Domain-Physical)|[Interface](../aspects.md#Aspect-Interface)|![Under Construction](../diagrams/Under_construction_icon-yellow.svg )[under construction](../using-saf/maturity.md#under-construction)|
+|[Physical](../domains.md#Domain-Physical)|[Interface](../aspects.md#Aspect-Interface)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
 ## Example
 ![Physical-Interface-Definition-Viewpoint-primary-example.svg](../diagrams/vp-examples/Physical-Interface-Definition-Viewpoint-primary-example.svg)
 ![Physical-Interface-Definition-Viewpoint-primary-example-1.svg](../diagrams/vp-examples/Physical-Interface-Definition-Viewpoint-primary-example-1.svg)
@@ -27,7 +27,7 @@ A tabular format listing Physical Interface blocks, their ports, and flow proper
 * [Software Developer](../stakeholders.md#Software-Developer)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* Which design level data / energy / material definitions have to be known by the SOI and used by the SOI?
+* [Which design level data / energy / material definitions have to be known by the SOI and used by the SOI?](../concerns.md#_2021x_2_8710274_1697542838788_945785_24608)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * FlowProperty [SysML Profile]

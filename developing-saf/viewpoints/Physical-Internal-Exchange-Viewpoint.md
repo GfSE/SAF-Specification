@@ -30,11 +30,11 @@ Note: Please use more than one IBD focused on different areas of interest to kee
 * [Software Developer](../../stakeholders.md#Software-Developer)
 * [System Architect](../../stakeholders.md#System-Architect)
 ## Concern
-* What are the protocols for exchanging items on specific interface?
-* What items (energy, material, information, etc.) are exchanged within the system?
-* Which design level data / energy / material definitions are used on an interface of a physical architecture element?
-* Which standards, protocols, and format specifications are associated with a specific interface?
-* Which system internal interface partners does a physical system element have?
+* [What are the protocols for exchanging items on specific interface?](../../concerns.md#_2021x_2_8710274_1674576759247_884832_23642)
+* [What items (energy, material, information, etc.) are exchanged within the system?](../../concerns.md#_2021x_2_8710274_1674576758825_79081_23317)
+* [Which design level data / energy / material definitions are used on an interface of a physical architecture element?](../../concerns.md#_2021x_2_8710274_1674576758561_575110_23056)
+* [Which standards, protocols, and format specifications are associated with a specific interface?](../../concerns.md#_2021x_2_8710274_1674576758891_215548_23373)
+* [Which system internal interface partners does a physical system element have?](../../concerns.md#_2021x_2_8710274_1674576758600_423008_23078)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|

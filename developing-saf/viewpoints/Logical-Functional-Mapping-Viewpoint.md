@@ -20,7 +20,7 @@ A dependency matrix featuring
 * [Software Developer](../../stakeholders.md#Software-Developer)
 * [System Architect](../../stakeholders.md#System-Architect)
 ## Concern
-* Which functions are allocated to a Logical Element of the logical architecture?
+* [Which functions are allocated to a Logical Element of the logical architecture?](../../concerns.md#_2021x_2_8710274_1674576759104_328839_23526)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|

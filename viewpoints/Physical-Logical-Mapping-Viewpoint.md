@@ -2,7 +2,7 @@
 # SAF User Documentation : Physical Logical Mapping Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
-|[Physical](../domains.md#Domain-Physical)|[Traceability & Mapping](../aspects.md#Aspect-Traceability-&-Mapping)|![Under Construction](../diagrams/Under_construction_icon-yellow.svg )[under construction](../using-saf/maturity.md#under-construction)|
+|[Physical](../domains.md#Domain-Physical)|[Traceability & Mapping](../aspects.md#Aspect-Traceability-&-Mapping)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
 ## Example
 ![Physical-Logical-Mapping-Viewpoint-primary-example.svg](../diagrams/vp-examples/Physical-Logical-Mapping-Viewpoint-primary-example.svg)
 ## Purpose
@@ -22,7 +22,7 @@ A  Physical To Logical Assigment Matrix featuring
 * [Software Developer](../stakeholders.md#Software-Developer)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* Which conceptual Logical Elements are allocated to Physical Elements in the physical architecture
+* [Which conceptual Logical Elements are allocated to Physical Elements in the physical architecture](../concerns.md#_2021x_2_8710274_1698399385413_529894_33129)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Allocate [SysML Profile]

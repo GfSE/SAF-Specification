@@ -21,12 +21,12 @@ A block definition diagram (BDD) depicting the identified, analysed, and classif
 * [Supplier](../stakeholders.md#Supplier)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* In which phases of the life cycle is a Stakeholder involved in the project?
-* What concerns and rationals does a Stakeholder have?
-* What relevant relations and influences exist between Stakeholders?
-* Which Stakeholders are relevant to the system and might impose requirements?
-* Which external entities (external systems, environments, etc.) does a Stakeholder represent?
-* Who are the (Major) Stakeholders involved in the intended solution?
+* [In which phases of the life cycle is a Stakeholder involved in the project?](../concerns.md#_2021x_2_8710274_1674576758728_957718_23218)
+* [What concerns and rationals does a Stakeholder have?](../concerns.md#_2021x_2_8710274_1674576759190_739382_23597)
+* [What relevant relations and influences exist between Stakeholders?](../concerns.md#_2021x_2_8710274_1674576759059_36560_23481)
+* [Which Stakeholders are relevant to the system and might impose requirements?](../concerns.md#_2021x_2_8710274_1674576758881_572143_23359)
+* [Which external entities (external systems, environments, etc.) does a Stakeholder represent?](../concerns.md#_2021x_2_8710274_1674576758668_120660_23139)
+* [Who are the (Major) Stakeholders involved in the intended solution?](../concerns.md#_2021x_2_8710274_1674576759083_315449_23499)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Attribute "concern" of Stakeholder referencing SAF_SystemOfInterestConcern

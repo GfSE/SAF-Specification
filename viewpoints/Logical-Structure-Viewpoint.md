@@ -16,7 +16,7 @@ Note: Multiple relationships to a kind of element are allowed meaning, that this
 ## Stakeholder
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* What is the logical breakdown of the system ?
+* [What is the logical breakdown of the system ?](../concerns.md#_2021x_2_8710274_1674576758828_494985_23322)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * SAF_LogicalInternalRole contained in SAF_LogicalElement

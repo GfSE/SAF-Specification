@@ -18,9 +18,9 @@ A block definition diagram (BDD) featuring the identified Operational Performers
 * [Supplier](../stakeholders.md#Supplier)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* What is the operational context to achieve an operational story?
-* What performers or resources are necessary to operate the intended solution?
-* Who are the (Major) Stakeholders involved in the intended solution?
+* [What is the operational context to achieve an operational story?](../concerns.md#_2021x_2_8710274_1674576758994_334020_23436)
+* [What performers or resources are necessary to operate the intended solution?](../concerns.md#_2021x_2_8710274_1674576759056_423032_23477)
+* [Who are the (Major) Stakeholders involved in the intended solution?](../concerns.md#_2021x_2_8710274_1674576759083_315449_23499)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Association [UML_Standard_Profile]

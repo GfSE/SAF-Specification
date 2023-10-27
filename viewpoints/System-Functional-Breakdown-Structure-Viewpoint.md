@@ -25,9 +25,9 @@ Tool specific analysis diagram featuring the relationships between System Proces
 * [Software Developer](../stakeholders.md#Software-Developer)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* How are the system functions decomposed into sub-functions ? 
-* What is the breakdown of functions into sub-functions?
-* Which functions will the system provide?
+* [How are the system functions decomposed into sub-functions ? ](../concerns.md#_2021x_2_8710274_1674576758790_775644_23272)
+* [What is the breakdown of functions into sub-functions?](../concerns.md#_2021x_2_8710274_1674576758728_463822_23204)
+* [Which functions will the system provide?](../concerns.md#_2021x_2_8710274_1674576758649_392764_23120)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Activity [UML_Standard_Profile]

@@ -25,7 +25,7 @@ A tabular format listing the Domain Item Kinds, and their relationships.
 * [Software Developer](../../stakeholders.md#Software-Developer)
 * [System Architect](../../stakeholders.md#System-Architect)
 ## Concern
-* Which conceptual level data / energy / material definitions have to be known by the SOI and used by the SOI?
+* [Which conceptual level data / energy / material definitions have to be known by the SOI and used by the SOI?](../../concerns.md#_2021x_2_6d8019d_1693308265004_421376_24972)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|

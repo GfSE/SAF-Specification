@@ -18,8 +18,8 @@ A block definition diagram (BDD) featuring Operational Capabilities, their compo
 * [Portfolio Manager](../stakeholders.md#Portfolio-Manager)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* What operational capabilities are defined?
-* What operational capabilities are required for each phase and mode of operation?
+* [What operational capabilities are defined?](../concerns.md#_2021x_2_8710274_1674479775616_727128_23367)
+* [What operational capabilities are required for each phase and mode of operation?](../concerns.md#_2021x_2_8710274_1674576759229_963784_23628)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_OperationalCapabilityComposition](../stereotypes.md#SAF_OperationalCapabilityComposition)

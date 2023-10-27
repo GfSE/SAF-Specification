@@ -25,9 +25,9 @@ Note: This diagram depicts the sending and receiving of messages between the int
 * [System Architect](../stakeholders.md#System-Architect)
 * [User](../stakeholders.md#User)
 ## Concern
-* How do the logical system elements interact to provide the system functions?
-* What are the items exchanged between logical system elements during an interaction?
-* What is the necessary response time for an interface or a service?
+* [How do the logical system elements interact to provide the system functions?](../concerns.md#_2021x_2_8710274_1674576758760_611640_23247)
+* [What are the items exchanged between logical system elements during an interaction?](../concerns.md#_2021x_2_8710274_1674576758991_165534_23433)
+* [What is the necessary response time for an interface or a service?](../concerns.md#_2021x_2_8710274_1674576759095_626726_23511)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Interaction [UML_Standard_Profile]
