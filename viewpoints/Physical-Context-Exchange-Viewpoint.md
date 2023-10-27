@@ -38,21 +38,17 @@ C) A table listing the applicable standards, protocols and formats for the item 
 * [Customer](../stakeholders.md#Customer)
 * [Hardware Developer](../stakeholders.md#Hardware-Developer)
 * [IV&V Engineer](../stakeholders.md#IV&V-Engineer)
-* [Maintainer](../stakeholders.md#Maintainer)
+* [Mechanic Developer](../stakeholders.md#Mechanic-Developer)
 * [Safety Expert](../stakeholders.md#Safety-Expert)
 * [Security Expert](../stakeholders.md#Security-Expert)
 * [Software Developer](../stakeholders.md#Software-Developer)
 * [Supplier](../stakeholders.md#Supplier)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* How to connect the system or a system element to a test equipment?
-* How will the system be used by whom and which contextual elements are involved?
-* What are the Interface Requirements regarding bandwidth, data throughput and latency?
 * What are the external physical entities the system interacts with in the respective context?
 * What are the protocols for exchanging items on specific interface?
 * What kind of physical items (energy, material, information, etc.) are exchanged between the system and external entities?
-* Which interface design items are on an interface of a physical architecture element?
-* Which interface partners does a physical system element have?
+* Which design level data / energy / material definitions are used on an interface of a physical architecture element?
 * Which standards, protocols, and format specifications are associated with a specific interface?
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:

@@ -543,7 +543,7 @@ UAF::MapsToCapability<BR></html>
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical Exchange Kind'>Physical Exchange Kind</A><BR>Physical Exchange Kind: Specifies the realization of a System Domain Kind on physical domain level. It is  used to define exchanges on Physical Interface Connections.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical Exchange Kind'>Physical Exchange Kind</A><BR>Physical Exchange Kind: Design level data / energy / material definitions for exchange on Physical Level, with focus onto the design of the items exchanged (information, material, energy). This is the realization of the specification  made System Domain Kinds.<BR></html>
 
 
 ## SAF_PhysicalExternalSystem

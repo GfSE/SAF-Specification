@@ -7,7 +7,7 @@
 | Logical Item Exchange | Specifies the exchange that is to take place on a Logical Interface Connection.|
 | Operational Domain Kind | Specifies the kind of exchange between Operational Context Constituents or between Operational Processes.|
 | PEKrealizingSDK | Specifies the fact that a System Domain Kind is realized by Physical Exchange Kinds.|
-| Physical Exchange Kind | Specifies the realization of a System Domain Kind on physical domain level. It is  used to define exchanges on Physical Interface Connections.|
+| Physical Exchange Kind | Design level data / energy / material definitions for exchange on Physical Level, with focus onto the design of the items exchanged (information, material, energy). This is the realization of the specification  made System Domain Kinds.|
 | SDKbeeingInSSE | Specifies that a System Domain Kind can have certain states.<br>Note:<br>Of course an item is in only one distinct state at a certain time. The multiplicity means that an Item can have a set of possible states, and a state can be used to specify possible States for several domain items.|
 | SDKderivingFromODK | Specifies the fact that a System Domain Kind on system level is derived from an Operational Domain Kind.|
 | SDKtypingFPM | Specifies the fact that a System Domain Kind defines the type of a Function Parameter.|

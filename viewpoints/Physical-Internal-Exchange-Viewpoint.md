@@ -24,16 +24,17 @@ Note: Please use more than one IBD focused on different areas of interest to kee
 ## Stakeholder
 * [Hardware Developer](../stakeholders.md#Hardware-Developer)
 * [IV&V Engineer](../stakeholders.md#IV&V-Engineer)
+* [Mechanic Developer](../stakeholders.md#Mechanic-Developer)
 * [Safety Expert](../stakeholders.md#Safety-Expert)
 * [Security Expert](../stakeholders.md#Security-Expert)
 * [Software Developer](../stakeholders.md#Software-Developer)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* How do the physical system elements interact to provide the system function?
 * What are the protocols for exchanging items on specific interface?
 * What items (energy, material, information, etc.) are exchanged within the system?
-* Which interface partners does a physical system element have?
+* Which design level data / energy / material definitions are used on an interface of a physical architecture element?
 * Which standards, protocols, and format specifications are associated with a specific interface?
+* Which system internal interface partners does a physical system element have?
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Attribute "realizingConnector" of InformationFlow referencing Connector

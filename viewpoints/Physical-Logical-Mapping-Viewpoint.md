@@ -16,7 +16,13 @@ A  Physical To Logical Assigment Matrix featuring
 * allocation relationships from logical elements roles to physical elements roles
 
 ## Stakeholder
+* [Hardware Developer](../stakeholders.md#Hardware-Developer)
+* [IV&V Engineer](../stakeholders.md#IV&V-Engineer)
+* [Mechanic Developer](../stakeholders.md#Mechanic-Developer)
+* [Software Developer](../stakeholders.md#Software-Developer)
+* [System Architect](../stakeholders.md#System-Architect)
 ## Concern
+* Which conceptual Logical Elements are allocated to Physical Elements in the physical architecture
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Allocate [SysML Profile]

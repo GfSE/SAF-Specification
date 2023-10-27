@@ -430,7 +430,7 @@ exposed in viewpoint [Physical Internal Exchange Viewpoint](../viewpoints/Physic
 
 realized by Stereotype [SAF_PhysicalExchangeType](../../stereotypes.md#SAF_PhysicalExchangeType)
 
-Specifies the realization of a System Domain Kind on physical domain level. It is  used to define exchanges on Physical Interface Connections.
+Design level data / energy / material definitions for exchange on Physical Level, with focus onto the design of the items exchanged (information, material, energy). This is the realization of the specification  made System Domain Kinds.
 ## Physical External System
 exposed in viewpoint [Physical Context Definition Viewpoint](../viewpoints/Physical-Context-Definition-Viewpoint.md)
 

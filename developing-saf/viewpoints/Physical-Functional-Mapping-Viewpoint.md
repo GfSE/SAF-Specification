@@ -18,12 +18,13 @@ or Physical SOI
 
 ## Stakeholder
 * [Hardware Developer](../../stakeholders.md#Hardware-Developer)
+* [IV&V Engineer](../../stakeholders.md#IV&V-Engineer)
+* [Mechanic Developer](../../stakeholders.md#Mechanic-Developer)
 * [Software Developer](../../stakeholders.md#Software-Developer)
 * [System Architect](../../stakeholders.md#System-Architect)
 ## Concern
-* What is the allocation of functions to the physical architecture?
-* Which functions and services need to be implemented in SW?
-* Which functions need to be realized by HW?
+* What is the allocation of functions to the Physical Elements in the physical architecture?
+* Which funcions need to be tested in IV&V activities
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|

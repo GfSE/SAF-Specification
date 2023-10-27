@@ -21,6 +21,7 @@ A block definition diagram (BDD) depicting the elements available in a specific 
 * [Customer](../../stakeholders.md#Customer)
 * [IV&V Engineer](../../stakeholders.md#IV&V-Engineer)
 * [Safety Expert](../../stakeholders.md#Safety-Expert)
+* [Security Expert](../../stakeholders.md#Security-Expert)
 * [Supplier](../../stakeholders.md#Supplier)
 * [System Architect](../../stakeholders.md#System-Architect)
 ## Concern

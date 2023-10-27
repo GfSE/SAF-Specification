@@ -20,8 +20,7 @@ A dependency matrix featuring
 * [Software Developer](../stakeholders.md#Software-Developer)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* Which (system and system partial) functions are assigned to a logical item and logical item components?
-Note: if allocation of usage is used, then allocation of definition is a derived relationship XOR.
+* Which functions are allocated to a Logical Element of the logical architecture?
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Allocate [SysML Profile]

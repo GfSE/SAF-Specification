@@ -26,6 +26,8 @@ A tabular format listing Context Roles, Context Elements, and respective descrip
 * [Customer](../stakeholders.md#Customer)
 * [IV&V Engineer](../stakeholders.md#IV&V-Engineer)
 * [Operator](../stakeholders.md#Operator)
+* [Safety Expert](../stakeholders.md#Safety-Expert)
+* [Security Expert](../stakeholders.md#Security-Expert)
 * [Supplier](../stakeholders.md#Supplier)
 * [System Architect](../stakeholders.md#System-Architect)
 * [User](../stakeholders.md#User)
