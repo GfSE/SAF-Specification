@@ -22,7 +22,7 @@ additionally:
 
 
 ## released
-![Released](../diagrams/Symbol_confirmed.svg.png) The viewpoint is released.
+![Released](../diagrams/Symbol_confirmed.png) The viewpoint is released.
 Viewpoint in this category have been discussed in the SAF Working Group and only minor issues remain.
 
 **Minimum Requirements**
