@@ -21,12 +21,15 @@ A tabular format listing Physical Interface blocks, their ports, and flow proper
 
 ## Stakeholder
 * [Hardware Developer](../stakeholders.md#Hardware-Developer)
+* [Mechanic Developer](../stakeholders.md#Mechanic-Developer)
 * [Safety Expert](../stakeholders.md#Safety-Expert)
 * [Security Expert](../stakeholders.md#Security-Expert)
 * [Software Developer](../stakeholders.md#Software-Developer)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
+* [What are the protocols used for exchanging information?](../concerns.md#_2021x_2_8710274_1674576759093_319282_23509)
 * [Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the systemI?](../concerns.md#_2021x_2_8710274_1697542838788_945785_24608)
+* [what are the interface definitions for the physical architecture](../concerns.md#_2021x_2_8710274_1698695280731_979013_48719)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * FlowProperty [SysML Profile]

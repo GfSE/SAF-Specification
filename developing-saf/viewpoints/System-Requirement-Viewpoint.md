@@ -22,13 +22,13 @@ A tabular format listing
 * [Software Developer](../../stakeholders.md#Software-Developer)
 * [System Architect](../../stakeholders.md#System-Architect)
 ## Concern
-* [What are the Interface Requirements imposed on the system?](../../concerns.md#_2021x_2_8710274_1674576758778_979635_23258)
 * [What are the exchange requirements imposed on the system?](../../concerns.md#_2021x_2_8710274_1674576758978_464279_23425)
 * [What are the functional requirements imposed on the system?](../../concerns.md#_2021x_2_8710274_1674576758860_195868_23350)
 * [What are the non-functional requirements imposed on the system?](../../concerns.md#_2021x_2_8710274_1674576758640_180559_23118)
 * [What are the requirements of environmental conditions imposed on the system?](../../concerns.md#_2021x_2_8710274_1674576758798_122991_23285)
 * [What is the range of acceptable system performance, i.e. the critical, top-level performance requirements derived from the operational needs?](../../concerns.md#_2021x_2_8710274_1674576759042_480392_23467)
 * [Which Stakeholder Requirements are addressed by System Requirements?](../../concerns.md#_2021x_2_8710274_1674576758563_692887_23057)
+* [Which are the interface requirements imposed on the system?](../../concerns.md#_2021x_2_8710274_1674576758778_979635_23258)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|

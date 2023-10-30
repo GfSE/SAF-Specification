@@ -30,9 +30,9 @@ Note: Please use more than one IBD focused on different areas of interest to kee
 * [Software Developer](../../stakeholders.md#Software-Developer)
 * [System Architect](../../stakeholders.md#System-Architect)
 ## Concern
-* [What are the protocols for exchanging items on specific interface?](../../concerns.md#_2021x_2_8710274_1674576759247_884832_23642)
 * [What physical items (energy, material, information, etc.) are exchanged within the system?](../../concerns.md#_2021x_2_8710274_1698410513910_480926_28625)
-* [Which design level data / energy / material definitions are used on an interface of a physical architecture element?](../../concerns.md#_2021x_2_8710274_1674576758561_575110_23056)
+* [Which are the protocols for exchanging items on a specific interface?](../../concerns.md#_2021x_2_8710274_1674576759247_884832_23642)
+* [Which kind of physical items (energy, material, information, etc.) are used on an interface of a physical architecture element?](../../concerns.md#_2021x_2_8710274_1674576758561_575110_23056)
 * [Which standards, protocols, and format specifications are associated with a specific interface?](../../concerns.md#_2021x_2_8710274_1674576758891_215548_23373)
 * [Which system internal interface partners does a physical system element have?](../../concerns.md#_2021x_2_8710274_1674576758600_423008_23078)
 ## Profile Model Reference

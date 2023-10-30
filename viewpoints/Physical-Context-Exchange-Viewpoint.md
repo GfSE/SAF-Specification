@@ -7,31 +7,24 @@
 ![Physical-Context-Exchange-Viewpoint-primary-example.svg](../diagrams/vp-examples/Physical-Context-Exchange-Viewpoint-primary-example.svg)
 ![Physical-Context-Exchange-Viewpoint-primary-example-1.svg](../diagrams/vp-examples/Physical-Context-Exchange-Viewpoint-primary-example-1.svg)
 ## Purpose
-The Physical Context Exchange Viewpoint focuses on the identification of the physical interfaces with external entities and the identification of relevant documentation. It is used to capture Interface Design Requirements, applicable standards, protocols and format specifications, that are agreed upon the interfaces.
-
+The Physical Context Exchange Viewpoint focuses on the identification of the physical interfaces with external entities and relevant documentation. It is used to capture interface design requirements, applicable standards, protocols and format specifications, that are agreed upon the interfaces.
 ## Applicability
-The Physical Context Exchange Viewpoint is applied early in the life cycle to generate a complete view of all the relevant external interfaces together with relevant standards.
-The viewpoint guides the identification of expected interactions of the system with entities external to its system (control) boundary as defined in negotiated ICDs.
-The viewpoint is used to capture the Interface Design Requirements with the relevant stakeholders and any relevant documentation, requirements, standards, format specifications and protocols.
 
-The Physical Internal Exchange Viewpoint supports the "Create System Design " activity included in "Design Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§ 2.3.5.5] and contributes to the System Interface definition.
 
-It also supports the "Interface Management" method of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§ 3.2.4].
+The Physical Context Exchange Viewpoint supports the "Create system design" activity included in "Design Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§ 2.3.5.5] and contributes to the artifacts "System Design Description" and "System Interface Definition".
+
+Furthermore, the viewpoint supports the "Interface Management" approach of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§3.2.4].
 ## Presentation
-A) For each identified context an IBD is used to identify the physical interfaces, the item flows that are exchanged on that interfaces and related documentation.
-Mapping of protocol layere is shown as appropriate to understand the interfaces.
+A) For each given context, an internal block diagram (IBD is used to identify the physical interfaces, the item flows, that are exchanged on that interfaces, and related documentation.
+Note: To understand the interfaces, a mapping of protocol layers may be depicted.
 
-
-B) A table providing a list of all the defined external interfaces and the applicable documentation
-* context element kind (environment / external entity / physical user)
+B) A tabular format providing a list of all the defined external interfaces and the applicable documentation
+* context element kind (environment, external entity, physical user, etc.)
 * context element role name
 * port name and reference to port type
 * reference to context element type
 
-
-C) A table listing the applicable standards, protocols and formats for the item flows exchanged via the identified interfaces.
-
-<undefined>
+C) A tabular format listing the applicable standards, protocols and formats for the item flows exchanged via the identified interfaces.
 
 ## Stakeholder
 * [Acquirer](../stakeholders.md#Acquirer)
@@ -45,10 +38,10 @@ C) A table listing the applicable standards, protocols and formats for the item 
 * [Supplier](../stakeholders.md#Supplier)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* [What are the external physical entities the system interacts with in the respective context?](../concerns.md#_2021x_2_8710274_1674576758710_759449_23186)
-* [What are the protocols for exchanging items on specific interface?](../concerns.md#_2021x_2_8710274_1674576759247_884832_23642)
-* [What kind of physical items (energy, material, information, etc.) are exchanged between the system and external entities?](../concerns.md#_2021x_2_8710274_1674576758698_132348_23172)
-* [Which design level data / energy / material definitions are used on an interface of a physical architecture element?](../concerns.md#_2021x_2_8710274_1674576758561_575110_23056)
+* [Which are the external physical entities the system interacts with in the given context?](../concerns.md#_2021x_2_8710274_1674576758710_759449_23186)
+* [Which are the protocols for exchanging items on a specific interface?](../concerns.md#_2021x_2_8710274_1674576759247_884832_23642)
+* [Which kind of physical items (energy, material, information, etc.) are exchanged between the system and external entities?](../concerns.md#_2021x_2_8710274_1674576758698_132348_23172)
+* [Which kind of physical items (energy, material, information, etc.) are used on an interface of a physical architecture element?](../concerns.md#_2021x_2_8710274_1674576758561_575110_23056)
 * [Which standards, protocols, and format specifications are associated with a specific interface?](../concerns.md#_2021x_2_8710274_1674576758891_215548_23373)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:

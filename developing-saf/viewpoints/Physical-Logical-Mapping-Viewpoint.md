@@ -32,11 +32,11 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |[SAF_LogicalElement](../../stereotypes.md#SAF_LogicalElement)|[Logical Element](../concept/concepts.md#Logical-Element)|
 |SAF_LogicalInternalRole contained in SAF_LogicalElement|[Internal Logical Element Constituent](../concept/concepts.md#Internal-Logical-Element-Constituent)|
 |SAF_PhysicalInternalRole contained in SAF_PhysicalItem|[Software Element Constituent](../concept/concepts.md#Software-Element-Constituent)|
-|SAF_PhysicalInternalRole contained in SAF_PhysicalItem|[Physical Element Constituent](../concept/concepts.md#Physical-Element-Constituent)|
-|SAF_PhysicalInternalRole contained in SAF_PhysicalItem|[Physical Software Constituent](../concept/concepts.md#Physical-Software-Constituent)|
 |SAF_PhysicalInternalRole contained in SAF_PhysicalItem|[Physical Hardware Constituent](../concept/concepts.md#Physical-Hardware-Constituent)|
+|SAF_PhysicalInternalRole contained in SAF_PhysicalItem|[Physical Software Constituent](../concept/concepts.md#Physical-Software-Constituent)|
+|SAF_PhysicalInternalRole contained in SAF_PhysicalItem|[Physical Element Constituent](../concept/concepts.md#Physical-Element-Constituent)|
 |SAF_PhysicalInternalRole contained in SAF_PhysicalItem|[Hardware Element Constituent](../concept/concepts.md#Hardware-Element-Constituent)|
-|[SAF_PhysicalInternalRole](../../stereotypes.md#SAF_PhysicalInternalRole)|[Physical Usage](../concept/concepts.md#Physical-Usage)|
+|[SAF_PhysicalInternalRole](../../stereotypes.md#SAF_PhysicalInternalRole)|[Physical Constituent](../concept/concepts.md#Physical-Constituent)|
 |[SAF_SPV08a_View](../../stereotypes.md#SAF_SPV08a_View)|[Physical Logical Mapping Viewpoint](../concept/concepts.md#Physical-Logical-Mapping-Viewpoint)|
 ## Input from other Viewpoints
 ### Required Viewpoints

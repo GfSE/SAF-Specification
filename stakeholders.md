@@ -30,9 +30,6 @@ He is responsible for providing a feasible solution within a given budget. The A
 * Show in a concise manner the relationships from operational process to operational story and to operational performer.
 * What are necessary inputs for operating the system expected to be provided by other external entitys?
 * What are the capabilities that are supported by the system?
-* What are the different contexts the system is embedded and utilized in?
-* What are the external physical entities the system interacts with in the respective context?
-* What are the geographical and physical locations of the intended / proposed elements of the solution?
 * What are the normal and extreme environmental conditions for normal operation, for not operational, for storage, and for transport?
 * What are the planned architectural means for risk mitigation?
 * What are the relationships between the partys involved in the operation of the intended solution?
@@ -41,24 +38,27 @@ He is responsible for providing a feasible solution within a given budget. The A
 * What is the cost for each required function?
 * What is the lack / deficiency / gap in current capability implementation that is addressed with the intended solution?
 * What is the necessary response time for an interface or a service?
-* What is the operational context to achieve an operational story?
 * What is the priority of each function?
 * What is the time schedule for delivering the functions?
-* What kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?
 * What operational capabilities are defined?
-* What operational exchanges do operational performers need to consume or provide?
 * What operational process activities shall be executed during the execution of an operational story?
-* What performers or resources are necessary to operate the intended solution?
 * What possible threads of operational process activities have to be carried out to achieve the operational story main and alternative goals?
 * What services are expected from external entities?
+* Where and what are the geographical and physical locations of the intended or proposed elements of the solution?
+* Which are the external physical entities the system interacts with in the given context?
+* Which are the given contexts the system is embedded and utilized in?
 * Which functions will the system provide? 
 
   ***Rationale:  In my role, I need to check whether the overall system purpose is supported.***
+* Which is the operational context to achieve an operational story?
 * Which is the operational scenario, i.e., course of action, for the mission and the context in which the system of systems solution will exist?
 * Which kind of conceptual items (energy, material, information, etc.)  are used in the logical architecture of the system? 
 
   ***Rationale:  In my role, I use them as basis for understanding interfaces on conceptual level.***
+* Which kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?
 * Which operational activity shall be executed by which operational performer in the operational story?
+* Which operational exchanges do operational performers need to consume or provide?
+* Which performers or resources are necessary to operate the intended solution?
 * Who are the (Major) Stakeholders involved in the intended solution?
 * Who provides the inputs to a critical function?
 * Why types of exchange can exist between Operational Performers (i.e., flows of information, people, material, or energy)?
@@ -75,28 +75,28 @@ The Customer is an organization or person that receives a product. Examples: Con
 * Show in a concise manner the relationships from operational capability to operational story, to operational activity, and to operational performer.
 * Show in a concise manner the relationships from operational process to operational story and to operational performer.
 * What are necessary inputs for operating the system expected to be provided by other external entitys?
-* What are the different contexts the system is embedded and utilized in?
-* What are the external physical entities the system interacts with in the respective context?
 * What are the normal and extreme environmental conditions for normal operation, for not operational, for storage, and for transport?
 * What are the planned architectural means for risk mitigation?
 * What are the relationships between the partys involved in the operation of the intended solution?
 * What are the scenarios a system function is utilized in?
 * What is the necessary response time for an interface or a service?
-* What is the operational context to achieve an operational story?
 * What is the rationale when requirements are not considered?
-* What kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?
 * What operational capabilities are defined?
-* What operational exchanges do operational performers need to consume or provide?
 * What operational process activities shall be executed during the execution of an operational story?
-* What performers or resources are necessary to operate the intended solution?
 * What possible threads of operational process activities have to be carried out to achieve the operational story main and alternative goals?
 * What services are expected from external entities?
+* Which are the external physical entities the system interacts with in the given context?
+* Which are the given contexts the system is embedded and utilized in?
 * Which functions will the system provide?
+* Which is the operational context to achieve an operational story?
 * Which is the operational scenario, i.e., course of action, for the mission and the context in which the system of systems solution will exist?
 * Which kind of conceptual items (energy, material, information, etc.)  are used in the logical architecture of the system? 
 
   ***Rationale:  In my role, I use them as basis for understanding interfaces on conceptual level.***
+* Which kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?
 * Which operational activity shall be executed by which operational performer in the operational story?
+* Which operational exchanges do operational performers need to consume or provide?
+* Which performers or resources are necessary to operate the intended solution?
 * Who provides the inputs to a critical function?
 * Why types of exchange can exist between Operational Performers (i.e., flows of information, people, material, or energy)?
 # Customer (Representative)
@@ -125,9 +125,6 @@ The Developer is a group or an individual implementing the system parts accordin
 * What are the non-functional requirements imposed on the system? 
 
   ***Rationale:  In my role, I need to trace my derived requirements against these ones relevant to me.***
-* What are the protocols for exchanging items on specific interface? 
-
-  ***Rationale:  In my role, I need to implement the protocol.***
 * What conceptual items (energy, material, information, etc.) are exchanged within the system? 
 
   ***Rationale:  In my role, I need to understand the concepts of system internal interfaces  in order to implement them.***
@@ -143,21 +140,18 @@ The Developer is a group or an individual implementing the system parts accordin
 * What is the sequence of interactions among the system and context elements on physical level? 
 
   ***Rationale:  In my role, I need to implement interfaces  to elements of the system context.***
-* What kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities? 
-
-  ***Rationale:  In my role, I need to understand the concepts of external interfaces to external partners in order to implement them.***
 * What physical items (energy, material, information, etc.) are exchanged within the system? 
 
   ***Rationale:  In my role, I need to support integrating and testing the interfaces.***
 * Which Stakeholders are relevant to the system and might impose requirements? 
 
   ***Rationale:  In my role, I need to give feedback on existing or missing stakeholders.***
+* Which are the protocols for exchanging items on a specific interface? 
+
+  ***Rationale:  In my role, I need to implement the protocol.***
 * Which conceptual Logical Elements are allocated to Physical Elements in the physical architecture 
 
   ***Rationale:  In my role, as design authority I have to ensure that the HW Element fulfills the allocated logical concept (specification).***
-* Which design level data / energy / material definitions are used on an interface of a physical architecture element? 
-
-  ***Rationale:  In my role, I need to implement interfaces with my HW subsystem, if necessary.***
 * Which functions are allocated to a Logical Element of the logical architecture? 
 
   ***Rationale:  In my role, I need to take this into account when planning realization.***
@@ -167,21 +161,30 @@ The Developer is a group or an individual implementing the system parts accordin
 * Which kind of conceptual items (energy, material, information, etc.)  are used in the logical architecture of the system? 
 
   ***Rationale:  In my role, I must derive interface design from them.***
+* Which kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities? 
+
+  ***Rationale:  In my role, I need to understand the concepts of external interfaces to external partners in order to implement them.***
 * Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the systemI? 
 
   ***Rationale:  In my role, I must use these in interface design.***
+* Which kind of physical items (energy, material, information, etc.) are used on an interface of a physical architecture element? 
+
+  ***Rationale:  In my role, I need to implement interfaces with my HW subsystem, if necessary.***
 * Which modes and states does the system have? 
 
   ***Rationale:  In my role, I need to know which system modes and states my subsystem must support.***
 * Which protection means need to be provided for an interface?
 * Which standards, protocols, and format specifications are associated with a specific interface? 
 
-  ***Rationale:  In my role, I need to implement them.***
+  ***Rationale:  In my role, I need to implement the interface.***
 * Which system internal interface partners does a physical system element have? 
 
   ***Rationale:  In my role, I need to implement interfaces with my HW subsystem, if necessary.***
 * Which variants of a HW item need to be provided?
 * Who provides the inputs to a critical function?
+* what are the interface definitions for the physical architecture 
+
+  ***Rationale:  In my role, I need to implement the interface.***
 # IV&V Engineer
 Definition - IV&V Engineer
 Individuals or groups responsible for integration, verification and validation.
@@ -195,18 +198,12 @@ IV&V Engineers are individuals or groups responsible for integration, validation
 * How is the system being used or utilized and interacting with other external systems to satisfy user needs? 
 
   ***Rationale:  In my role, I need to take this into account when planning integration.***
-* What are the external physical entities the system interacts with in the respective context? 
-
-  ***Rationale:  In my role, I need to integrate and test the interfaces.***
 * What are the functional requirements imposed on the system? 
 
   ***Rationale:  In my role, I need to prove System Requirements via test cases.***
 * What are the non-functional requirements imposed on the system? 
 
   ***Rationale:  In my role, I need to prove System Requirements via test cases.***
-* What are the protocols for exchanging items on specific interface? 
-
-  ***Rationale:  In my role, I need to integrate and test the interface.***
 * What conceptual items (energy, material, information, etc.) are exchanged within the system? 
 
   ***Rationale:  In my role, I need to integrate and test the interfaces.***
@@ -218,21 +215,18 @@ IV&V Engineers are individuals or groups responsible for integration, validation
 * What is the sequence of interactions among the system and context elements on physical level? 
 
   ***Rationale:  In my role, I need to plan the test environment.***
-* What kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities? 
-
-  ***Rationale:  In my role, I need to integrate and test the interfaces.***
-* What kind of physical items (energy, material, information, etc.) are exchanged between the system and external entities? 
-
-  ***Rationale:  In my role, I need to integrate and test the interfaces.***
 * What physical items (energy, material, information, etc.) are exchanged within the system? 
 
   ***Rationale:  In my role, I need to integrate and test the interfaces.***
+* Which are the external physical entities the system interacts with in the given context? 
+
+  ***Rationale:  In my role, I need to integrate and test the interfaces.***
+* Which are the protocols for exchanging items on a specific interface? 
+
+  ***Rationale:  In my role, I need to integrate and test the interface.***
 * Which conceptual Logical Elements are allocated to Physical Elements in the physical architecture 
 
   ***Rationale:  In my role, I have to plan IV&V activities to evaluate the Physical Element as unit under test against the logical concept (specification).***
-* Which design level data / energy / material definitions are used on an interface of a physical architecture element? 
-
-  ***Rationale:  In my role, I need to  test the interface.***
 * Which funcions need to be tested in IV&V activities
 * Which functions will the system provide? 
 
@@ -240,6 +234,15 @@ IV&V Engineers are individuals or groups responsible for integration, validation
 * Which interface partners does the system have? 
 
   ***Rationale:  In my role, I need to integrate and test the interfaces.***
+* Which kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities? 
+
+  ***Rationale:  In my role, I need to integrate and test the interfaces.***
+* Which kind of physical items (energy, material, information, etc.) are exchanged between the system and external entities? 
+
+  ***Rationale:  In my role, I need to integrate and test the interfaces.***
+* Which kind of physical items (energy, material, information, etc.) are used on an interface of a physical architecture element? 
+
+  ***Rationale:  In my role, I need to  test the interface.***
 * Which modes and states does the system have? 
 
   ***Rationale:  In my role, I need to understand the system in order to put it into operation.***
@@ -259,7 +262,7 @@ Individual or organization that performs maintenance activities, [ISO/IEC 12207:
 The Maintainer is an individual, group or organization responsible to maintain the system during its operational usage. The Maintainer assures the availability of the system over its foreseen lifetime. It involves obsolescence management, technology evolution, repair, update or replacement of parts of the system or even of the whole system. The Maintainer provides major non-functional requirements (e.g. reliability, availability, mean time to repair), but also functional requirements e.g. to ensure the compatibility with existing enabling systems.
 
 ## Concern
-* What kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?
+* Which kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?
 * Which modes and states does the system have?
 # Mechanic Developer
 Definition - Developer:
@@ -273,9 +276,12 @@ The Developer is a group or an individual implementing the system parts accordin
 * Which conceptual Logical Elements are allocated to Physical Elements in the physical architecture 
 
   ***Rationale:  In my role, as design authority I have to ensure that the Physical Element fulfills the allocated logical concept (specification).***
-* Which design level data / energy / material definitions are used on an interface of a physical architecture element? 
+* Which kind of physical items (energy, material, information, etc.) are used on an interface of a physical architecture element? 
 
   ***Rationale:  In my role, I need to implement interfaces with my mechanical subsystem, if necessary.***
+* what are the interface definitions for the physical architecture 
+
+  ***Rationale:  In my role, I need to implement the interface.***
 # Operator
 Definition - Operator:
 Individual or organization that performs the operations of a system, [ISO/IEC 15288:2022 – Systems engineering - System life-cycle processes]
@@ -364,7 +370,6 @@ The safety experts evaluate a proposed system architecture and design for safety
   ***Rationale:  In my role, I need to check if proper safety measures are taken in the design.***
 * What are the contributors (SW and HW items contributing to a critical function) to a critical function?
 * What are the encryption means used for an exchange?
-* What are the external physical entities the system interacts with in the respective context?
 * What are the failure modes of a system function?
 * What are the hazards of a system function in an identified situation (context + scenario)?
 * What are the inputs to a critical function?
@@ -381,11 +386,10 @@ The safety experts evaluate a proposed system architecture and design for safety
 * What is the possible harm in utilizing the system?
 * What is the rationale when requirements are not considered?
 * What is the sequence of interactions among the system and context elements on physical level?
-* What kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?
-* What operational exchanges do operational performers need to consume or provide?
 * What physical items (energy, material, information, etc.) are exchanged within the system? 
 
   ***Rationale:  In my role, I use them as basis for understanding interfaces on physical level.***
+* Which are the external physical entities the system interacts with in the given context?
 * Which functions will the system provide?
 * Which interface partners does the system have? 
 
@@ -393,10 +397,12 @@ The safety experts evaluate a proposed system architecture and design for safety
 * Which kind of conceptual items (energy, material, information, etc.)  are used in the logical architecture of the system? 
 
   ***Rationale:  In my role, I use them as basis for understanding interfaces on conceptual level.***
+* Which kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?
 * Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the systemI? 
 
   ***Rationale:  In my role, I use them as basis for understanding interfaces on design level.***
 * Which modes and states does the system have?
+* Which operational exchanges do operational performers need to consume or provide?
 * Who provides the inputs to a critical function?
 # Security Expert
 Definition - Security Specialist:
@@ -414,9 +420,6 @@ The IT-Security experts evaluate a proposed system architecture and design for I
 * What are the domains of similar security levels in the system or the system participates in?
 * What are the encryption means used for an exchange?
 * What are the interfaces between different domains?
-* What are the protocols for exchanging items on specific interface? 
-
-  ***Rationale:  In my role, I need to assess the security on the interface.***
 * What are the protocols used for exchanging information? 
 
   ***Rationale:  In my role, I need to assess the security based on protocol usage in general.***
@@ -431,11 +434,12 @@ The IT-Security experts evaluate a proposed system architecture and design for I
   ***Rationale:  In my role, I need to assess if the system partitioning fulfills the security requirements.***
 * What is the rationale when requirements are not considered?
 * What is the sequence of interactions among the system and context elements on physical level?
-* What kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?
-* What operational exchanges do operational performers need to consume or provide?
 * What physical items (energy, material, information, etc.) are exchanged within the system? 
 
   ***Rationale:  In my role, I use them as basis for understanding interfaces on physical level.***
+* Which are the protocols for exchanging items on a specific interface? 
+
+  ***Rationale:  In my role, I need to assess the security on the interface.***
 * Which functions will the system provide?
 * Which interface partners does the system have? 
 
@@ -443,10 +447,12 @@ The IT-Security experts evaluate a proposed system architecture and design for I
 * Which kind of conceptual items (energy, material, information, etc.)  are used in the logical architecture of the system? 
 
   ***Rationale:  In my role, I use them as basis for understanding interfaces on conceptual level.***
+* Which kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?
 * Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the systemI? 
 
   ***Rationale:  In my role, I use them as basis for understanding interfaces on design level.***
 * Which modes and states does the system have?
+* Which operational exchanges do operational performers need to consume or provide?
 * Which standards, protocols, and format specifications are associated with a specific interface? 
 
   ***Rationale:  In my role, I need to assess the security based on them.***
@@ -471,9 +477,6 @@ The Developer is a group or an individual implementing the system parts accordin
 * What are the non-functional requirements imposed on the system? 
 
   ***Rationale:  In my role, I need to trace my derived requirements against these ones relevant to me.***
-* What are the protocols for exchanging items on specific interface? 
-
-  ***Rationale:  In my role, I need to implement the protocol.***
 * What conceptual items (energy, material, information, etc.) are exchanged within the system? 
 
   ***Rationale:  In my role, I need to understand the concepts of system internal interfaces  in order to implement them.***
@@ -484,21 +487,18 @@ The Developer is a group or an individual implementing the system parts accordin
 * What is the sequence of interactions among the system and context elements on physical level? 
 
   ***Rationale:  In my role, I need to implement interfaces  to elements of the system context.***
-* What kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities? 
-
-  ***Rationale:  In my role, I need to understand the concepts of external interfaces to external partners in order to implement them.***
 * What physical items (energy, material, information, etc.) are exchanged within the system? 
 
   ***Rationale:  In my role, I need to support integrating and testing the interfaces.***
 * Which Stakeholders are relevant to the system and might impose requirements? 
 
   ***Rationale:  In my role, I need to give feedback on existing or missing stakeholders.***
+* Which are the protocols for exchanging items on a specific interface? 
+
+  ***Rationale:  In my role, I need to implement the protocol.***
 * Which conceptual Logical Elements are allocated to Physical Elements in the physical architecture 
 
   ***Rationale:  In my role, as design authority I have to ensure that the SW Element fulfills the allocated logical concept (specification).***
-* Which design level data / energy / material definitions are used on an interface of a physical architecture element? 
-
-  ***Rationale:  In my role, I need to implement interfaces with my SW subsystem, if necessary.***
 * Which functions are allocated to a Logical Element of the logical architecture? 
 
   ***Rationale:  In my role, I need to take this into account when planning implementation.***
@@ -508,20 +508,29 @@ The Developer is a group or an individual implementing the system parts accordin
 * Which kind of conceptual items (energy, material, information, etc.)  are used in the logical architecture of the system? 
 
   ***Rationale:  In my role, I must derive interface design from them.***
+* Which kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities? 
+
+  ***Rationale:  In my role, I need to understand the concepts of external interfaces to external partners in order to implement them.***
 * Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the systemI? 
 
   ***Rationale:  In my role, I must use these in interface design.***
+* Which kind of physical items (energy, material, information, etc.) are used on an interface of a physical architecture element? 
+
+  ***Rationale:  In my role, I need to implement interfaces with my SW subsystem, if necessary.***
 * Which modes and states does the system have? 
 
   ***Rationale:  In my role, I need to know which system modes and states my subsystem must support.***
 * Which standards, protocols, and format specifications are associated with a specific interface? 
 
-  ***Rationale:  In my role, I need to implement them.***
+  ***Rationale:  In my role, I need to implement the interface.***
 * Which system internal interface partners does a physical system element have? 
 
   ***Rationale:  In my role, I need to implement interfaces with my SW subsystem, if necessary.***
 * Who provides the inputs to a critical function?
 * Why types of exchange can exist between Operational Performers (i.e., flows of information, people, material, or energy)?
+* what are the interface definitions for the physical architecture 
+
+  ***Rationale:  In my role, I need to implement the interface.***
 # Supplier
 Definition - Supplier:
 Organization or an individual that enters into an agreement with the Acquirer for the supply of a product or service, [ISO/IEC 15288:2022 – Systems engineering - System life-cycle processes]
@@ -530,11 +539,11 @@ The Supplier is the organization or individual that enters into an agreement wit
 ## Concern
 * What are necessary inputs for operating the system expected to be provided by other external entitys?
 * What are the capabilities that are supported by the system?
-* What are the external physical entities the system interacts with in the respective context?
-* What are the geographical and physical locations of the intended / proposed elements of the solution?
 * What are the scenarios a system function is utilized in?
 * What is the lack / deficiency / gap in current capability implementation that is addressed with the intended solution?
 * What services are expected from external entities?
+* Where and what are the geographical and physical locations of the intended or proposed elements of the solution?
+* Which are the external physical entities the system interacts with in the given context?
 * Who are the (Major) Stakeholders involved in the intended solution?
 # System Architect
 Definition - System Architect:
@@ -572,21 +581,15 @@ The System Architect as an individual or group performing the systems engineerin
 
   ***Rationale:  In my role, I need to identify suitable basic components on the grounds of the required system capabilities.***
 * What are the consequences, if the Stakeholder’s concerns are not considered?
-* What are the different contexts the system is embedded and utilized in?
 * What are the encryption means used for an exchange?
-* What are the external physical entities the system interacts with in the respective context?
 * What are the functional requirements imposed on the system? 
 
   ***Rationale:  In my role, I need to check whether the system design realizes the System Requirements.***
-* What are the geographical and physical locations of the intended / proposed elements of the solution?
 * What are the non-functional requirements imposed on the system? 
 
   ***Rationale:  In my role, I need to check whether the system design realizes the System Requirements.***
 * What are the normal and extreme environmental conditions for normal operation, for not operational, for storage, and for transport?
 * What are the planned architectural means for risk mitigation?
-* What are the protocols for exchanging items on specific interface? 
-
-  ***Rationale:  In my role, I need to asses if the usage of protocols on interfaces is compatible with the system lifecyle concepts.***
 * What are the protocols used for exchanging information? 
 
   ***Rationale:  In my role, I need to validate if they fit the purpose of the system and conform the systems concepts***
@@ -607,7 +610,6 @@ The System Architect as an individual or group performing the systems engineerin
 * What is the lack / deficiency / gap in current capability implementation that is addressed with the intended solution?
 * What is the logical breakdown of the system ?
 * What is the necessary response time for an interface or a service?
-* What is the operational context to achieve an operational story?
 * What is the physical breakdown of the system? 
 
   ***Rationale:  In my role, I need to orchestrate the interface agreements among the parts of the system.***
@@ -616,29 +618,27 @@ The System Architect as an individual or group performing the systems engineerin
 
   ***Rationale:  In my role, I need to assess if the systems interfaces are compatible with external systems.***
 * What is the task executed by an organization, enterprise, or operational entity in the Operational Context?
-* What kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities? 
-
-  ***Rationale:  In my role, I need to coordinate external interfaces with external partners.***
 * What operational capabilities are defined?
-* What operational exchanges do operational performers need to consume or provide?
 * What operational process activities shall be executed during the execution of an operational story?
-* What performers or resources are necessary to operate the intended solution?
 * What physical items (energy, material, information, etc.) are exchanged within the system? 
 
   ***Rationale:  In my role, I use them as basis for understanding interfaces on physical level.***
 * What possible threads of operational process activities have to be carried out to achieve the operational story main and alternative goals?
 * What services are expected from external entities?
 * What system elements are make-items, reuse items, or COTS?
+* Where and what are the geographical and physical locations of the intended or proposed elements of the solution?
 * Which Stakeholders are relevant to the system and might impose requirements? 
 
   ***Rationale:  In my role, I need to give feedback on existing or missing stakeholders.***
 * Which Viewpoints are present
+* Which are the external physical entities the system interacts with in the given context?
+* Which are the given contexts the system is embedded and utilized in?
+* Which are the protocols for exchanging items on a specific interface? 
+
+  ***Rationale:  In my role, I need to asses if the usage of protocols on interfaces is compatible with the system lifecyle concepts.***
 * Which conceptual Logical Elements are allocated to Physical Elements in the physical architecture 
 
   ***Rationale:  In my role, I have to check that all aspects of the logical concept (specification) are allocated to physical elements (with assigned design authorities).***
-* Which design level data / energy / material definitions are used on an interface of a physical architecture element? 
-
-  ***Rationale:  In my role, I orchestrate interface agreements between architecture elements, and between the system and elements of the system context.***
 * Which functions are allocated to a Logical Element of the logical architecture?
 * Which functions will the system provide? 
 
@@ -646,17 +646,29 @@ The System Architect as an individual or group performing the systems engineerin
 * Which interface partners does the system have? 
 
   ***Rationale:  In my role, I need to orchestrate interface agreements between the system and external interface partners.***
+* Which is the operational context to achieve an operational story?
 * Which is the operational scenario, i.e., course of action, for the mission and the context in which the system of systems solution will exist?
 * Which kind of conceptual items (energy, material, information, etc.)  are used in the logical architecture of the system? 
 
   ***Rationale:  In my role, I want to foster reuse of system wide concept definitions within the architecture design.***
+* Which kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities? 
+
+  ***Rationale:  In my role, I need to coordinate external interfaces with external partners.***
+* Which kind of physical items (energy, material, information, etc.) are exchanged between the system and external entities? 
+
+  ***Rationale:  In my role, I need to orchestrate interface agreements between the system and external interface partners.***
 * Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the systemI? 
 
   ***Rationale:  In my role, I have to foster reuse of system wide concept definitions within the architecture design.***
+* Which kind of physical items (energy, material, information, etc.) are used on an interface of a physical architecture element? 
+
+  ***Rationale:  In my role, I orchestrate interface agreements between architecture elements, and between the system and elements of the system context.***
 * Which modes and states does the system have? 
 
   ***Rationale:  In my role, I need to understand the required system behavior in order to further design the system.***
 * Which operational activity shall be executed by which operational performer in the operational story?
+* Which operational exchanges do operational performers need to consume or provide?
+* Which performers or resources are necessary to operate the intended solution?
 * Which standards, protocols, and format specifications are associated with a specific interface? 
 
   ***Rationale:  In my role, I need to validate if they fit the purpose of the system and are complaint to the systems concepts.***
@@ -673,6 +685,12 @@ The System Architect as an individual or group performing the systems engineerin
   ***Rationale:  In my role, I need to give feedback on existing or missing stakeholders.***
 * Who provides the inputs to a critical function?
 * Why types of exchange can exist between Operational Performers (i.e., flows of information, people, material, or energy)?
+* what are the interface definitions for the logical architecture 
+
+  ***Rationale:  In my role, I need to orchestrate interface agreements between the system and external interface partners***
+* what are the interface definitions for the physical architecture 
+
+  ***Rationale:  In my role, I need to orchestrate interface agreements between the system and external interface partners***
 # User
 Definition - User:
 Individual or group that interacts with a system or benefits from a system during its utilization, [ISO/IEC 15288:2022 - Systems engineering - System life-cycle processes]

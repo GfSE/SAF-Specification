@@ -37,10 +37,10 @@ A tabular format listing all identified System Functions, the System Processes i
 * [How does a system function interact with its environment?](../../concerns.md#_2021x_2_8710274_1674576758952_658537_23403)
 * [How is the system interacting with the identified external entities?](../../concerns.md#_2021x_2_8710274_1674576758710_799233_23181)
 * [What are necessary inputs for operating the system expected to be provided by other external entitys?](../../concerns.md#_2021x_2_8710274_1674576758674_250912_23143)
-* [What are the functional interfaces of the system?](../../concerns.md#_2021x_2_8710274_1674576758808_527146_23298)
 * [What are the scenarios a system function is utilized in?](../../concerns.md#_2021x_2_8710274_1674576758630_745758_23103)
 * [What is the functional scope of the system?](../../concerns.md#_2021x_2_8710274_1674576758960_189958_23415)
 * [What services are expected from external entities?](../../concerns.md#_2021x_2_8710274_1674576758798_462644_23290)
+* [Which are the conceptual interfaces of the system?](../../concerns.md#_2021x_2_8710274_1674576758808_527146_23298)
 * [Which functions are out of scope of the system?](../../concerns.md#_2021x_2_8710274_1674576758924_539039_23390)
 * [Which functions will the system provide?](../../concerns.md#_2021x_2_8710274_1674576758649_392764_23120)
 ## Profile Model Reference
@@ -50,15 +50,15 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |Allocate [SysML Profile]|[LCEperformingCFN](../concept/concepts.md#LCEperformingCFN)|
 |Allocate [SysML Profile]|[LETperformingSFN](../concept/concepts.md#LETperformingSFN)|
 |ControlFlow [UML_Standard_Profile]|[GFNcontrolledAFTER](../concept/concepts.md#GFNcontrolledAFTER)|
-|InputPin [UML_Standard_Profile]|[GFFtoGFP](../concept/concepts.md#GFFtoGFP)|
-|ObjectFlow [UML_Standard_Profile]|[General Functional Flow](../concept/concepts.md#General-Functional-Flow)|
-|OutputPin [UML_Standard_Profile]|[GFFfromGFP](../concept/concepts.md#GFFfromGFP)|
+|InputPin [UML_Standard_Profile]|[GFEtoGFP](../concept/concepts.md#GFEtoGFP)|
+|ObjectFlow [UML_Standard_Profile]|[General Functional Exchange](../concept/concepts.md#General-Functional-Exchange)|
+|OutputPin [UML_Standard_Profile]|[GFEfromGFP](../concept/concepts.md#GFEfromGFP)|
 |Parameter [UML_Standard_Profile]|[General Functional Parameter](../concept/concepts.md#General-Functional-Parameter)|
 |[SAF_ContextAction](../../stereotypes.md#SAF_ContextAction)|[Context Function IN System Process](../concept/concepts.md#Context-Function-IN-System-Process)|
 |[SAF_ContextFunction](../../stereotypes.md#SAF_ContextFunction)|[Context Function](../concept/concepts.md#Context-Function)|
 |[SAF_FunctionAction](../../stereotypes.md#SAF_FunctionAction)|[System Function IN System Process](../concept/concepts.md#System-Function-IN-System-Process)|
-|SAF_LogicalContextRole contained in SAF_LogicalContext|[Logical SOI Constituent](../concept/concepts.md#Logical-SOI-Constituent)|
 |SAF_LogicalContextRole contained in SAF_LogicalContext|[Logical Context Element Constituent](../concept/concepts.md#Logical-Context-Element-Constituent)|
+|SAF_LogicalContextRole contained in SAF_LogicalContext|[Logical SOI Constituent](../concept/concepts.md#Logical-SOI-Constituent)|
 |[SAF_SFV03a_View](../../stereotypes.md#SAF_SFV03a_View)|[System Process Viewpoint](../concept/concepts.md#System-Process-Viewpoint)|
 |[SAF_SystemFunction](../../stereotypes.md#SAF_SystemFunction)|[System Function](../concept/concepts.md#System-Function)|
 |[SAF_SystemProcess](../../stereotypes.md#SAF_SystemProcess)|[System Process](../concept/concepts.md#System-Process)|

@@ -6,11 +6,11 @@
 ## Example
 ![Operational-Context-Exchange-Viewpoint-primary-example.svg](../../diagrams/vp-examples/Operational-Context-Exchange-Viewpoint-primary-example.svg)
 ## Purpose
-The Operational Context Exchange Viewpoint provides the Operational Exchange between Operational Performers of information, systems, personnel, energy, etc.
+The Operational Context Exchange Viewpoint provides the operational exchange of systems, personnel, information, material, energy, etc. between operational performers.
 ## Applicability
-The Operational Context Exchange Viewpoint supports the "Business or Mission Analysis Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1] and contributes to the problem or opportunity statement.
+The Operational Context Exchange Viewpoint supports the "Business or Mission Analysis Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.1] and contributes to both the problem or opportunity statement, and the Major Stakeholder Identification.
 ## Presentation
-An internal block diagram (IBD) - associated to the Operational Context - featuring the interconnected Operational Performers in their respective Operational Role, and the Operational Item Exchange per Operational Connection.
+An internal block diagram (IBD) - associated to the operational context - featuring the interconnected operational performers in their respective operational role, and the operational item exchange per operational connection.
 
 A tabular format listing [tbd].
 
@@ -21,7 +21,7 @@ A tabular format listing [tbd].
 * [Security Expert](../../stakeholders.md#Security-Expert)
 * [System Architect](../../stakeholders.md#System-Architect)
 ## Concern
-* [What operational exchanges do operational performers need to consume or provide?](../../concerns.md#_2021x_2_8710274_1674576758910_672482_23380)
+* [Which operational exchanges do operational performers need to consume or provide?](../../concerns.md#_2021x_2_8710274_1674576758910_672482_23380)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|

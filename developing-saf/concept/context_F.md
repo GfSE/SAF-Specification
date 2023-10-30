@@ -6,12 +6,12 @@
 | Logical Context Element | Abstract element of a System Context in the Logical Domain, outside the SOI scope, interacting with the SOI.|
 | Logical Context Element Constituent | Specifies the fact that a Logical Context Element exists in a specific Logical Context.|
 | Logical Element Constituent | General part of a logical System Context|
-| Logical Environment | An Environmental Element in the Logical Domain, outside the SOI scope, interacting with the SOI. E.g., air, dirt, sun, road.|
-| Logical External System | An External System in the Logical Domain, outside the SOI scope, interacting with the SOI. E.g., power grid, mobile network, fresh water system (in a house).|
+| Logical Environment | A Logical Environment in the Logical Domain, outside the SOI scope, interacting with the SOI. E.g., air, dirt, sun, road.|
+| Logical External System | A Logical External System in the Logical Domain, outside the SOI scope, interacting with the SOI. E.g., power grid, mobile network, fresh water system (in a house).|
 | Logical SOI | A SOI representation in the Logical Domain.|
 | Logical SOI Constituent | Specifies the fact that a Logical SOI exists in a specific Logical Context.|
 | Logical System Context | Specifies the fact that a context for a System of Interest is defined on Logical Level.|
-| Logical User | A human representation in the Logical Domain, outside the SOI scope, interacting with the SOI.|
+| Logical User | The Logical User is the representation for a human in the Logical Domain, outside the SOI scope, interacting with the SOI.|
 | OPRcomposedOF | Specifies the fact that an Operational Performer consists of one or more Operational Performers.|
 | Operational Performer | An Operational Performer is an element of the Operational Context that is capable to perform Operational Process Activities contributing to a specific identified Operational Capability. An Operational Performer may be any kind of organization, person, or even a system playing a role in one or more Operational Contexts.<br><br>Aliases:<br>UAF::OperationalPerformer|
 | Operational Story | The Operational Story represents one or more Operational Use Cases in the Usage Scenario identified by the Operational Context. The Operational Story is described as narrative story-telling.|

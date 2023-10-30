@@ -19,8 +19,8 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
 |[SAF_Diagram](../../stereotypes.md#SAF_Diagram)|[View](../concept/concepts.md#View)|
-|[SAF_SCV02b_View](../../stereotypes.md#SAF_SCV02b_View)|[GCBelongstoD](../concept/concepts.md#GCBelongstoD)|
-|[SAF_SCV02b_View](../../stereotypes.md#SAF_SCV02b_View)|[GCbelongstoA](../concept/concepts.md#GCbelongstoA)|
+|[SAF_SCV02b_View](../../stereotypes.md#SAF_SCV02b_View)|[GCBelongsToDN](../concept/concepts.md#GCBelongsToDN)|
+|[SAF_SCV02b_View](../../stereotypes.md#SAF_SCV02b_View)|[GCbelongsToAT](../concept/concepts.md#GCbelongsToAT)|
 |[SAF_SCV02b_View](../../stereotypes.md#SAF_SCV02b_View)|[GCcontainsView](../concept/concepts.md#GCcontainsView)|
 |[SAF_SCV02b_View](../../stereotypes.md#SAF_SCV02b_View)|[Grid](../concept/concepts.md#Grid)|
 |[SAF_SCV02b_View](../../stereotypes.md#SAF_SCV02b_View)|[Grid Cell](../concept/concepts.md#Grid-Cell)|

@@ -158,7 +158,7 @@ Note: The intention is to capture the expectations and to explicitly dissect the
 ![icon](icons/SAF_DomainKind.svg)
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#System Domain Kind'>System Domain Kind</A><BR>System Domain Kind: Specification for any kind of conceptual items (energy, material, information, etc.) to be exchanged on Functional and Logical Level, with focus onto the specification of the items exchanged.The Domain Item Kind is agnostic to any realization on Physical Level.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#System Domain Kind'>System Domain Kind</A><BR>System Domain Kind: Specification for any kind of conceptual item (energy, material, information, etc.) to be exchanged on Functional or Logical Level. The System Domain Kind is agnostic to any realization on Physical Level.<BR></html>
 
 
 ## SAF_DomainKindComposition
@@ -258,7 +258,7 @@ Used to mark diagrams serving as example for a viewpoint
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Logical Environment'>Logical Environment</A><BR>Logical Environment: An Environmental Element in the Logical Domain, outside the SOI scope, interacting with the SOI. E.g., air, dirt, sun, road.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Logical Environment'>Logical Environment</A><BR>Logical Environment: A Logical Environment in the Logical Domain, outside the SOI scope, interacting with the SOI. E.g., air, dirt, sun, road.<BR></html>
 
 
 ## SAF_LogicalExternalSystem
@@ -267,7 +267,7 @@ Used to mark diagrams serving as example for a viewpoint
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Logical External System'>Logical External System</A><BR>Logical External System: An External System in the Logical Domain, outside the SOI scope, interacting with the SOI. E.g., power grid, mobile network, fresh water system (in a house).<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Logical External System'>Logical External System</A><BR>Logical External System: A Logical External System in the Logical Domain, outside the SOI scope, interacting with the SOI. E.g., power grid, mobile network, fresh water system (in a house).<BR></html>
 
 
 ## SAF_LogicalInternalRole
@@ -293,7 +293,7 @@ Used to mark diagrams serving as example for a viewpoint
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Logical User'>Logical User</A><BR>Logical User: A human representation in the Logical Domain, outside the SOI scope, interacting with the SOI.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Logical User'>Logical User</A><BR>Logical User: The Logical User is the representation for a human in the Logical Domain, outside the SOI scope, interacting with the SOI.<BR></html>
 
 
 ## SAF_OperationalCapability
@@ -369,7 +369,7 @@ UAF::HighLevelOperationalConcept<BR></html>
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Operational Context Performer Constituent'>Operational Context Performer Constituent</A><BR>Operational Context Performer Constituent: An Operational Context Constituent represents a participant in the Operational Activity executing one or more of its atomic actions interacting with other constituents of the identified Operational Context. Specific characteristics and features or, in case of persons or organizational units, knowledge and skills are assigned to a constituent necessary for the execution of the allocated actions.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Operational Context Performer Constituent'>Operational Context Performer Constituent</A><BR>Operational Context Performer Constituent: An Operational Context Performer Constituent represents a participant in the Operational Activity executing one or more of its atomic actions interacting with other constituents of the identified Operational Context. Specific characteristics and features or, in case of persons or organizational units, knowledge and skills are assigned to a constituent necessary for the execution of the allocated actions.<BR></html>
 
 
 ## SAF_OperationalDomainKind
@@ -378,7 +378,7 @@ UAF::HighLevelOperationalConcept<BR></html>
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Operational Domain Kind'>Operational Domain Kind</A><BR>Operational Domain Kind: Specifies the kind of exchange between Operational Context Constituents or between Operational Processes.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Operational Domain Kind'>Operational Domain Kind</A><BR>Operational Domain Kind: Specifies the kind of Operational Item Exchange between Operational Context Performer Constituents or Operational Processes.<BR></html>
 
 
 ## SAF_OperationalDomainKindComposition
@@ -534,7 +534,7 @@ UAF::MapsToCapability<BR></html>
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical Environment'>Physical Environment</A><BR>Physical Environment: The Environmental Element in the Physical Domain, outside the SOI scope, interacting with the SOI. E.g. air, dirt, sun, road.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical Environment'>Physical Environment</A><BR>Physical Environment: The Physical Environment in the Physical Domain, outside the SOI scope, interacting with the SOI. E.g. air, dirt, sun, road.<BR></html>
 
 
 ## SAF_PhysicalExchangeType
@@ -543,7 +543,7 @@ UAF::MapsToCapability<BR></html>
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical Exchange Kind'>Physical Exchange Kind</A><BR>Physical Exchange Kind: Specification for any kind of physical items (energy, material, information, etc.)to be exchanged on Physical Level, with focus onto the design of the items exchanged. This is the realization of the specification  made by System Domain Kinds.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical Exchange Kind'>Physical Exchange Kind</A><BR>Physical Exchange Kind: Specification for any kind of physical item (energy, material, information, etc.) to be exchanged on Physical Level. This is the realization of the specification made by System Domain Kinds.<BR></html>
 
 
 ## SAF_PhysicalExternalSystem
@@ -552,7 +552,7 @@ UAF::MapsToCapability<BR></html>
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical External System'>Physical External System</A><BR>Physical External System: The External System in the Physical Domain, outside the SOI scope, interacting with the SOI. E.g. power grid, mobile network, fresh water system (in a house).<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical External System'>Physical External System</A><BR>Physical External System: The Physical External System in the Physical Domain, outside the SOI scope, interacting with the SOI. E.g. power grid, mobile network, fresh water system (in a house).<BR></html>
 
 
 ## SAF_PhysicalHardwareElement
@@ -579,7 +579,7 @@ UAF::MapsToCapability<BR></html>
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical Usage'>Physical Usage</A><BR>Physical Usage: General concept of usage of system elements in the context of other system elements physical level.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical Constituent'>Physical Constituent</A><BR>Physical Constituent: General concept of usage of system elements in the context of other system elements on physical level.<BR></html>
 
 
 ## SAF_PhysicalItem
@@ -605,7 +605,7 @@ UAF::MapsToCapability<BR></html>
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical SOI'>Physical SOI</A><BR>Physical SOI: Represents the SOI in the Physical Domain.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical SOI'>Physical SOI</A><BR>Physical SOI: Represents the Physical SOI in the Physical Domain.<BR></html>
 
 
 ## SAF_PhysicalUser
@@ -683,16 +683,15 @@ A tabular format listing the System Use Cases, the System Use Case pre- and post
 *none*
 
 ### Documentation
-The System Context Definition Viewpoint defines how the SOI is embedded in its Environment, i.e., where the boundary of the SOI is and who the External Entities are the SOI interacts with (e.g., Users, other External Systems, Environmental Conditions, etc.). The SOI provides and requests Context Functions. The SOI shall be able handle events and effects from the outside.
-Furthermore, the System Context Definition Viewpoint serves as architecture concept to demonstrate how the architecture defined in the The Operational Context Definition Viewpoint is realized.
+The System Context Definition Viewpoint defines how the SOI is embedded in its environment, i.e., where the boundary of the SOI is and who the external entities are the SOI interacts with (e.g., users, other external systems, environmental conditions, etc.). The SOI provides and requests context functions. The SOI shall be able handle events and effects from the outside. In addition, the System Context Definition Viewpoint serves as architecture concept to demonstrate how the architecture description defined in the Operational Context Definition Viewpoint is realized.
 
 A block definition diagram (BDD) featuring the following elements
-* a Logical Element block representing SOI in the logical domain
-* a Logical Context block representing the addressed context in the logical domain
-* Logical Context Element blocks for each relevant context element
-* a composition relationship from Context block to each Context Element used in the context
-* a composition relationship from Context block to the SOI
-A tabular format listing Context Roles, Context Elements, and respective descriptions
+* a Logical element block representing SOI in the logical domain
+* a Logical context block representing the addressed context in the logical domain
+* Logical context element blocks for each relevant context element
+* a composition relationship from context block to each context element used in the context
+* a composition relationship from context block to the SOI
+A tabular format listing context roles, context elements, and respective descriptions.
 
 ## SAF_SFV01c_View
 
@@ -700,14 +699,14 @@ A tabular format listing Context Roles, Context Elements, and respective descrip
 *none*
 
 ### Documentation
-The System Context Exchange Viewpoint serves for the identification and definition of external interfaces of the SOI used for the interaction to Systemâs Context, such as Users, External Systems and other External Entities defined in the specific context of the SOI. The System Context Exchange Viewpoint
-* identifies System interfaces on a functional level,
-* states to which External Entities the System interfaces are connected to,
-* assigns Interface Documents to System Interfaces,
-* and defines the usage of interfaces, e.g., if only a subset of the interface is used.
+The System Context Exchange Viewpoint serves for the identification and definition of external interfaces of the SOI that are used to interact, e.g., users, external systems, and other external entities defined in the given context of the SOI. The System Context Exchange Viewpoint
+* identifies system interfaces on a functional level,
+* states to which external entities the system interfaces are connected to,
+* assigns interface documents to system interfaces,
+* and defines the usage of interfaces, e.g., when only a subset of the interface is used.
 
-An internal block diagram (IBD) - associated to the System Context - featuring the SOI, the System Context Elements, and the connectors for each identified interface from SOI to the respective Context Elements. An interface is a connection resource for hooking on the SOI to other Context Elements. Item flows are defined for each exchange on the identified Interface. Connectors/ports may contain reference to the Interface Documents if applicable. Ports may be structured as appropriate to manage and structure the information.
-Note: more than one IBD focused on different areas of interest may be used in oder to keep the view comprehensive. Depending on the Stakeholder Concerns the Item Exchange information might be suppressed.
+An internal block diagram (IBD) - associated to the system context - featuring the SOI, the system context elements, and the connectors for each identified interface from SOI to the respective context elements. An interface is a connection resource for hooking on the SOI to other context elements. Item flows are defined for each exchange on the identified interface. Connectors/ports may contain reference to the interface documents if applicable. Ports may be structured as appropriate to manage and structure the information.
+Note: more than one IBD focused on different areas of interest may be used in oder to keep the view comprehensive. Depending on the Stakeholder concerns the item exchange information might be suppressed.
 A tabular format listing [tbd].
 
 ## SAF_SFV02a_View
@@ -929,7 +928,7 @@ Note: Illustrations, drawings, sketches, etc., and/or descriptions in free text 
 *none*
 
 ### Documentation
-The Operational Context Definition Viewpoint provides the Operational Contexts, and the involved Operational Performers necessary to support a specific set of Operational Capabilities.
+The Operational Context Definition Viewpoint provides the operational contexts and the involved operational performers necessary to support a specific set of operational capabilities.
 
 A block definition diagram (BDD) featuring the identified Operational Performers playing a role in the Operational Context being addressed.
 
@@ -939,9 +938,9 @@ A block definition diagram (BDD) featuring the identified Operational Performers
 *none*
 
 ### Documentation
-The Operational Context Exchange Viewpoint provides the Operational Exchange between Operational Performers of information, systems, personnel, energy, etc.
+The Operational Context Exchange Viewpoint provides the operational exchange of systems, personnel, information, material, energy, etc. between operational performers.
 
-An internal block diagram (IBD) - associated to the Operational Context - featuring the interconnected Operational Performers in their respective Operational Role, and the Operational Item Exchange per Operational Connection.
+An internal block diagram (IBD) - associated to the operational context - featuring the interconnected operational performers in their respective operational role, and the operational item exchange per operational connection.
 A tabular format listing [tbd].
 
 ## SAF_SOV02a_View
@@ -1051,7 +1050,7 @@ A tabular format listing the relationships of Operational Process Activities to 
 *none*
 
 ### Documentation
-The Physical Context Definition Viewpoint identifies the different context the system is used in, along with the associated external entities sharing a physical interface with the system. For each context the applicable environmental conditions shall be defined. The physical context helps in discovering the Interface Requirements needed to integrate a system into its environment in a specific context.
+The Physical Context Definition Viewpoint identifies the various contexts the SOI is used in, along with the associated external entities sharing a physical interface with the system. For each context, the applicable environmental conditions shall be defined. The physical context helps identify the interface requirements needed to integrate a system into its environment in a given context.
 
 A block definition diagram (BDD) depicting the elements available in a specific context. At least one BDD is used per identified context featuring
 * one block representing the Physical System, i.e., the system of interest
@@ -1065,20 +1064,16 @@ A block definition diagram (BDD) depicting the elements available in a specific 
 *none*
 
 ### Documentation
-The Physical Context Exchange Viewpoint focuses on the identification of the physical interfaces with external entities and the identification of relevant documentation. It is used to capture Interface Design Requirements, applicable standards, protocols and format specifications, that are agreed upon the interfaces.
+The Physical Context Exchange Viewpoint focuses on the identification of the physical interfaces with external entities and relevant documentation. It is used to capture interface design requirements, applicable standards, protocols and format specifications, that are agreed upon the interfaces.
 
-
-A) For each identified context an IBD is used to identify the physical interfaces, the item flows that are exchanged on that interfaces and related documentation.
-Mapping of protocol layere is shown as appropriate to understand the interfaces.
-
-B) A table providing a list of all the defined external interfaces and the applicable documentation
-* context element kind (environment / external entity / physical user)
+A) For each given context, an internal block diagram (IBD is used to identify the physical interfaces, the item flows, that are exchanged on that interfaces, and related documentation.
+Note: To understand the interfaces, a mapping of protocol layers may be depicted.
+B) A tabular format providing a list of all the defined external interfaces and the applicable documentation
+* context element kind (environment, external entity, physical user, etc.)
 * context element role name
 * port name and reference to port type
 * reference to context element type
-
-C) A table listing the applicable standards, protocols and formats for the item flows exchanged via the identified interfaces.
-<undefined>
+C) A tabular format listing the applicable standards, protocols and formats for the item flows exchanged via the identified interfaces.
 
 ## SAF_SPV02a_View
 
@@ -1114,7 +1109,6 @@ Note: Please use more than one IBD focused on different areas of interest to kee
 *none*
 
 ### Documentation
-preliminary text - work in progess
 The Physical Interface Definition Viewpoint provides definitions for physical interfaces. These definitions are may be reused on different interfaces.
 
 A block definition diagram (BDD) featuring Physical Interface blocks with ports and flow properties. Compatibility between Physical Interface blocks is expressed by associations and association blocks. Physical Interface blocks may be specialisations of others (use of Generalisation).

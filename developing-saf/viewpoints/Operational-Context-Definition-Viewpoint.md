@@ -6,9 +6,9 @@
 ## Example
 ![Operational-Context-Definition-Viewpoint-primary-example.svg](../../diagrams/vp-examples/Operational-Context-Definition-Viewpoint-primary-example.svg)
 ## Purpose
-The Operational Context Definition Viewpoint provides the Operational Contexts, and the involved Operational Performers necessary to support a specific set of Operational Capabilities.
+The Operational Context Definition Viewpoint provides the operational contexts and the involved operational performers necessary to support a specific set of operational capabilities.
 ## Applicability
-The Operational Context Definition Viewpoint supports the "Business or Mission Analysis Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1] and contributes to both the problem or opportunity statement, and the Major Stakeholder Identification.
+The Operational Context Definition Viewpoint supports the "Business or Mission Analysis Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.1] and contributes to both the problem or opportunity statement, and the Major Stakeholder Identification.
 ## Presentation
 A block definition diagram (BDD) featuring the identified Operational Performers playing a role in the Operational Context being addressed.
 
@@ -18,8 +18,8 @@ A block definition diagram (BDD) featuring the identified Operational Performers
 * [Supplier](../../stakeholders.md#Supplier)
 * [System Architect](../../stakeholders.md#System-Architect)
 ## Concern
-* [What is the operational context to achieve an operational story?](../../concerns.md#_2021x_2_8710274_1674576758994_334020_23436)
-* [What performers or resources are necessary to operate the intended solution?](../../concerns.md#_2021x_2_8710274_1674576759056_423032_23477)
+* [Which is the operational context to achieve an operational story?](../../concerns.md#_2021x_2_8710274_1674576758994_334020_23436)
+* [Which performers or resources are necessary to operate the intended solution?](../../concerns.md#_2021x_2_8710274_1674576759056_423032_23477)
 * [Who are the (Major) Stakeholders involved in the intended solution?](../../concerns.md#_2021x_2_8710274_1674576759083_315449_23499)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:

@@ -7,36 +7,32 @@
 ![System-Context-Definition-Viewpoint-primary-example.svg](../diagrams/vp-examples/System-Context-Definition-Viewpoint-primary-example.svg)
 ![System-Context-Definition-Viewpoint-primary-example-1.svg](../diagrams/vp-examples/System-Context-Definition-Viewpoint-primary-example-1.svg)
 ## Purpose
-The System Context Definition Viewpoint defines how the SOI is embedded in its Environment, i.e., where the boundary of the SOI is and who the External Entities are the SOI interacts with (e.g., Users, other External Systems, Environmental Conditions, etc.). The SOI provides and requests Context Functions. The SOI shall be able handle events and effects from the outside.
-Furthermore, the System Context Definition Viewpoint serves as architecture concept to demonstrate how the architecture defined in the The Operational Context Definition Viewpoint is realized.
+The System Context Definition Viewpoint defines how the SOI is embedded in its environment, i.e., where the boundary of the SOI is and who the external entities are the SOI interacts with (e.g., users, other external systems, environmental conditions, etc.). The SOI provides and requests context functions. The SOI shall be able handle events and effects from the outside. In addition, the System Context Definition Viewpoint serves as architecture concept to demonstrate how the architecture description defined in the Operational Context Definition Viewpoint is realized.
 ## Applicability
-The System Context Definition Viewpoint supports the "Prepare for Requirement Definition" activity included in "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.3] and contributes to the System Interface definition.
+The System Context Definition Viewpoint supports the "prepare for system requirement definition" activity included in "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.3] and contributes to the artifact "System Requirements Definition Report".
 ## Presentation
 A block definition diagram (BDD) featuring the following elements
-* a Logical Element block representing SOI in the logical domain
-* a Logical Context block representing the addressed context in the logical domain
-* Logical Context Element blocks for each relevant context element
-* a composition relationship from Context block to each Context Element used in the context
-* a composition relationship from Context block to the SOI
+* a Logical element block representing SOI in the logical domain
+* a Logical context block representing the addressed context in the logical domain
+* Logical context element blocks for each relevant context element
+* a composition relationship from context block to each context element used in the context
+* a composition relationship from context block to the SOI
 
-A tabular format listing Context Roles, Context Elements, and respective descriptions
+A tabular format listing context roles, context elements, and respective descriptions.
 
 ## Stakeholder
 * [Acquirer](../stakeholders.md#Acquirer)
 * [Customer](../stakeholders.md#Customer)
 * [IV&V Engineer](../stakeholders.md#IV&V-Engineer)
-* [Operator](../stakeholders.md#Operator)
 * [Safety Expert](../stakeholders.md#Safety-Expert)
 * [Security Expert](../stakeholders.md#Security-Expert)
 * [Supplier](../stakeholders.md#Supplier)
 * [System Architect](../stakeholders.md#System-Architect)
-* [User](../stakeholders.md#User)
 ## Concern
-* [What are the different contexts the system is embedded and utilized in?](../concerns.md#_2021x_2_8710274_1674576758891_776196_23368)
-* [What are the external conceptual entities the system interacts with in the respective context?](../concerns.md#_2021x_2_8710274_1674576758971_129300_23418)
-* [What are the geographical and physical locations of the intended / proposed elements of the solution?](../concerns.md#_2021x_2_8710274_1674576759075_442496_23491)
+* [Where and what are the geographical and physical locations of the intended or proposed elements of the solution?](../concerns.md#_2021x_2_8710274_1674576759075_442496_23491)
+* [Which are the external conceptual entities the system interacts with in the given context?](../concerns.md#_2021x_2_8710274_1674576758971_129300_23418)
+* [Which are the given contexts the system is embedded and utilized in?](../concerns.md#_2021x_2_8710274_1674576758891_776196_23368)
 * [Which interface partners does the system have?](../concerns.md#_2021x_2_8710274_1674576759091_673143_23507)
-* [Which users does the system support? ](../concerns.md#_2021x_2_6d8019d_1675459822996_961402_23325)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * SAF_LogicalContextRole contained in SAF_LogicalContext

@@ -6,9 +6,9 @@
 ## Example
 ![Physical-Context-Definition-Viewpoint-primary-example.svg](../diagrams/vp-examples/Physical-Context-Definition-Viewpoint-primary-example.svg)
 ## Purpose
-The Physical Context Definition Viewpoint identifies the different context the system is used in, along with the associated external entities sharing a physical interface with the system. For each context the applicable environmental conditions shall be defined. The physical context helps in discovering the Interface Requirements needed to integrate a system into its environment in a specific context.
+The Physical Context Definition Viewpoint identifies the various contexts the SOI is used in, along with the associated external entities sharing a physical interface with the system. For each context, the applicable environmental conditions shall be defined. The physical context helps identify the interface requirements needed to integrate a system into its environment in a given context.
 ## Applicability
-The Physical Context Definition Viewpoint supports the “System Architecture Definition Process” activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.4] and contributes to the artifacts "System Architecture Description" and "System Interface Definition".
+The Physical Context Definition Viewpoint supports the "Design Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.5] and contributes to the artifacts "System Design Description" and "System Interface Definition".
 ## Presentation
 A block definition diagram (BDD) depicting the elements available in a specific context. At least one BDD is used per identified context featuring
 * one block representing the Physical System, i.e., the system of interest
@@ -25,8 +25,8 @@ A block definition diagram (BDD) depicting the elements available in a specific 
 * [Supplier](../stakeholders.md#Supplier)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* [What are the different contexts the system is embedded and utilized in?](../concerns.md#_2021x_2_8710274_1674576758891_776196_23368)
-* [What are the external physical entities the system interacts with in the respective context?](../concerns.md#_2021x_2_8710274_1674576758710_759449_23186)
+* [Which are the external physical entities the system interacts with in the given context?](../concerns.md#_2021x_2_8710274_1674576758710_759449_23186)
+* [Which are the given contexts the system is embedded and utilized in?](../concerns.md#_2021x_2_8710274_1674576758891_776196_23368)
 * [Which interface partners does the system have?](../concerns.md#_2021x_2_8710274_1674576759091_673143_23507)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
