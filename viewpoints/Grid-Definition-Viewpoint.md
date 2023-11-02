@@ -8,7 +8,7 @@
 ## Purpose
 The Grid Definition Viewpoint serves as graphic representation of the Views present in a System Model.
 ## Applicability
-The Viewpoint supports the  "System Viewpoints, Views and Models" input/output of various Technical Processes in SEHB5.
+The Viewpoint supports the "System Viewpoints, Views and Models" input/output of various Technical Processes in SEHB5.
 ## Presentation
 A content diagram featuring a matrix view for the SAF Viewpoint conceptual model: Rows represent Domains, and columns represent Aspects, and the cells manage the Viewpoint Profiles.
 

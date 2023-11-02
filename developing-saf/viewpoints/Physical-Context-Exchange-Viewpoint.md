@@ -39,27 +39,27 @@ C) A tabular format listing the applicable standards, protocols and formats for 
 * [System Architect](../../stakeholders.md#System-Architect)
 ## Concern
 * [Which are the external physical entities the system interacts with in the given context?](../../concerns.md#_2021x_2_8710274_1674576758710_759449_23186)
-* [Which are the protocols for exchanging items on a specific interface?](../../concerns.md#_2021x_2_8710274_1674576759247_884832_23642)
+* [Which are the protocols for exchanging physical items on a specific interface?](../../concerns.md#_2021x_2_8710274_1674576759247_884832_23642)
 * [Which kind of physical items (energy, material, information, etc.) are exchanged between the system and external entities?](../../concerns.md#_2021x_2_8710274_1674576758698_132348_23172)
 * [Which kind of physical items (energy, material, information, etc.) are used on an interface of a physical architecture element?](../../concerns.md#_2021x_2_8710274_1674576758561_575110_23056)
-* [Which standards, protocols, and format specifications are associated with a specific interface?](../../concerns.md#_2021x_2_8710274_1674576758891_215548_23373)
+* [Which standards, protocols, and format specifications apply to a physical interface?](../../concerns.md#_2021x_2_8710274_1674576758891_215548_23373)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
 |Attribute "realizingConnector" of InformationFlow referencing Connector|[PCNallowingPIE](../concept/concepts.md#PCNallowingPIE)|
 |Connector [UML_Standard_Profile]|[Physical Connection](../concept/concepts.md#Physical-Connection)|
-|FlowProperty contained in SAF_PhysicalInterfaceDefinition|[PCPPspecifyingDetailOfPCPD](../concept/concepts.md#PCPPspecifyingDetailOfPCPD)|
-|FlowProperty typed by SAF_PhysicalExchangeType|[PEKtypingPCPP](../concept/concepts.md#PEKtypingPCPP)|
-|FlowProperty [SysML Profile]|[Physical Connection Point Property](../concept/concepts.md#Physical-Connection-Point-Property)|
+|FlowProperty contained in SAF_PhysicalInterfaceDefinition|[PIPPspecifyingDetailOfPIPD](../concept/concepts.md#PIPPspecifyingDetailOfPIPD)|
+|FlowProperty typed by SAF_PhysicalExchangeType|[PEKtypingPIPP](../concept/concepts.md#PEKtypingPIPP)|
+|FlowProperty [SysML Profile]|[Physical Interaction Point Property](../concept/concepts.md#Physical-Interaction-Point-Property)|
 |ItemFlow typed by SAF_PhysicalExchangeType|[PEKtypingPIE](../concept/concepts.md#PEKtypingPIE)|
 |ItemFlow [SysML Profile]|[Physical Item Exchange](../concept/concepts.md#Physical-Item-Exchange)|
-|ProxyPort typed by SAF_PhysicalInterfaceDefinition|[PCPDdefiningDetailOfPCP](../concept/concepts.md#PCPDdefiningDetailOfPCP)|
-|ProxyPort [SysML Profile]|[Physical Connection Point](../concept/concepts.md#Physical-Connection-Point)|
+|ProxyPort typed by SAF_PhysicalInterfaceDefinition|[PIPDdefiningDetailOfPIP](../concept/concepts.md#PIPDdefiningDetailOfPIP)|
+|ProxyPort [SysML Profile]|[Physical Interaction Point](../concept/concepts.md#Physical-Interaction-Point)|
 |[SAF_PhysicalEnvironment](../../stereotypes.md#SAF_PhysicalEnvironment)|[Physical Environment](../concept/concepts.md#Physical-Environment)|
 |[SAF_PhysicalExchangeType](../../stereotypes.md#SAF_PhysicalExchangeType)|[Physical Exchange Kind](../concept/concepts.md#Physical-Exchange-Kind)|
 |[SAF_PhysicalExternalSystem](../../stereotypes.md#SAF_PhysicalExternalSystem)|[Physical External System](../concept/concepts.md#Physical-External-System)|
-|[SAF_PhysicalInterfaceDefinition](../../stereotypes.md#SAF_PhysicalInterfaceDefinition)|[Physical Connection Point Definition](../concept/concepts.md#Physical-Connection-Point-Definition)|
+|[SAF_PhysicalInterfaceDefinition](../../stereotypes.md#SAF_PhysicalInterfaceDefinition)|[Physical Interaction Point Definition](../concept/concepts.md#Physical-Interaction-Point-Definition)|
 |[SAF_PhysicalSystem](../../stereotypes.md#SAF_PhysicalSystem)|[Physical SOI](../concept/concepts.md#Physical-SOI)|
 |[SAF_PhysicalUser](../../stereotypes.md#SAF_PhysicalUser)|[Physical User](../concept/concepts.md#Physical-User)|
 |[SAF_ProtocolLayerRelationship](../../stereotypes.md#SAF_ProtocolLayerRelationship)|[PCPOverPCP](../concept/concepts.md#PCPOverPCP)|

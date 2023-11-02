@@ -25,10 +25,10 @@ A dependency matrix featuring
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
-|Allocate [SysML Profile]|[USEAGEallocatedTO](../concept/concepts.md#USEAGEallocatedTO)|
+|Allocate [SysML Profile]|[USAGEallocatedTo](../concept/concepts.md#USAGEallocatedTo)|
 |[SAF_FunctionAction](../../stereotypes.md#SAF_FunctionAction)|[General Functional Usage](../concept/concepts.md#General-Functional-Usage)|
 |[SAF_LogicalElement](../../stereotypes.md#SAF_LogicalElement)|[Logical Element](../concept/concepts.md#Logical-Element)|
-|SAF_LogicalInternalRole contained in SAF_LogicalElement|[Internal Logical Element Constituent](../concept/concepts.md#Internal-Logical-Element-Constituent)|
+|SAF_LogicalInternalRole contained in SAF_LogicalElement|[Internal Logical Element Role](../concept/concepts.md#Internal-Logical-Element-Role)|
 |[SAF_LogicalSOI](../../stereotypes.md#SAF_LogicalSOI)|[Logical SOI](../concept/concepts.md#Logical-SOI)|
 |[SAF_SLV08a_View](../../stereotypes.md#SAF_SLV08a_View)|[Logical Functional Mapping Viewpoint](../concept/concepts.md#Logical-Functional-Mapping-Viewpoint)|
 |[SAF_SystemFunction](../../stereotypes.md#SAF_SystemFunction)|[System Function](../concept/concepts.md#System-Function)|

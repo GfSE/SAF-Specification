@@ -6,17 +6,19 @@
 ## Example
 ![Logical-Structure-Viewpoint-primary-example.svg](../diagrams/vp-examples/Logical-Structure-Viewpoint-primary-example.svg)
 ## Purpose
-The Logical Structure Viewpoint covers the basic technical notion of the System and is widely reusable among similar systems like product families, or product generations. The Logical Structure Viewpoint specifies how the system is decomposed into a hierarchical structure of logical components responsible for different System Functions (divide & conquer principle).
+The Logical Structure Viewpoint describes how the system is decomposed into a hierarchical structure of logical elements responsible for different system functions (divide & conquer principle). It covers related logical concepts and principles that support the logical operation of the system and is widely reusable among similar systems like product families, or product generations.
 ## Applicability
-The Logical Structure Viewpoint supports the "Develop Architecture Viewpoints", and the "Develop Models and Views of Candidate Architectures" activity included in the "Architecture Definition process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.4] and contributes to the artifact "System Architecture Description".
+The Logical Structure Viewpoint supports the "System Architecture Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.4] and contributes to the artifact "System Architecture Description".
+
+Furthermore, the Logical Structure Viewpoint supports the "Allocation and Partitioning of System Functions to Logical Entities" activities.
 ## Presentation
-A block definition diagram (BDD) featuring the logical System block and logical blocks for each kind of Logical Element the system is composed of. The elements are connected to the System block by means of aggregation relationships. 
+A block definition diagram (BDD) featuring the logical system block and logical blocks for any kind of logical element the system is composed of. These elements are connected to the system block by means of aggregation relationships. 
 Note: Multiple relationships to a kind of element are allowed meaning, that this kind of element is used in several roles.
 
 ## Stakeholder
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* [What is the logical breakdown of the system ?](../concerns.md#_2021x_2_8710274_1674576758828_494985_23322)
+* [What is the logical breakdown of the system?](../concerns.md#_2021x_2_8710274_1674576758828_494985_23322)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * SAF_LogicalInternalRole contained in SAF_LogicalElement

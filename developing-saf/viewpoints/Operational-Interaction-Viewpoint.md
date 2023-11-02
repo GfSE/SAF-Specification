@@ -27,7 +27,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |Interaction [UML_Standard_Profile]|[Operational Interaction Scenario](../concept/concepts.md#Operational-Interaction-Scenario)|
 |Lifeline [UML_Standard_Profile]|[Operational Scenario Participation](../concept/concepts.md#Operational-Scenario-Participation)|
 |Message [UML_Standard_Profile]|[Operational Chronological Message](../concept/concepts.md#Operational-Chronological-Message)|
-|[SAF_OperationalContextRole](../../stereotypes.md#SAF_OperationalContextRole)|[Operational Context Performer Constituent](../concept/concepts.md#Operational-Context-Performer-Constituent)|
+|[SAF_OperationalContextRole](../../stereotypes.md#SAF_OperationalContextRole)|[Operational Context Role](../concept/concepts.md#Operational-Context-Role)|
 |[SAF_SOV04a_View](../../stereotypes.md#SAF_SOV04a_View)|[Operational Interaction Viewpoint](../concept/concepts.md#Operational-Interaction-Viewpoint)|
 ## Input from other Viewpoints
 ### Required Viewpoints

@@ -30,7 +30,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |ItemFlow [SysML Profile]|[OCNallowingOIE](../concept/concepts.md#OCNallowingOIE)|
 |ItemFlow [SysML Profile]|[Operational Item Exchange](../concept/concepts.md#Operational-Item-Exchange)|
 |[SAF_OperationalContext](../../stereotypes.md#SAF_OperationalContext)|[Operational Context](../concept/concepts.md#Operational-Context)|
-|[SAF_OperationalContextRole](../../stereotypes.md#SAF_OperationalContextRole)|[Operational Context Performer Constituent](../concept/concepts.md#Operational-Context-Performer-Constituent)|
+|[SAF_OperationalContextRole](../../stereotypes.md#SAF_OperationalContextRole)|[Operational Context Role](../concept/concepts.md#Operational-Context-Role)|
 |[SAF_OperationalDomainKind](../../stereotypes.md#SAF_OperationalDomainKind)|[Operational Domain Kind](../concept/concepts.md#Operational-Domain-Kind)|
 |[SAF_SOV01c_View](../../stereotypes.md#SAF_SOV01c_View)|[Operational Context Exchange Viewpoint](../concept/concepts.md#Operational-Context-Exchange-Viewpoint)|
 ## Input from other Viewpoints

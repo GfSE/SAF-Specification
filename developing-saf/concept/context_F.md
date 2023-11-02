@@ -4,12 +4,12 @@
 | --- | --- |
 | LCEactingInSUC | Specifies the fact that a Logical Context Element acts in one or more System Use Cases.|
 | Logical Context Element | Abstract element of a System Context in the Logical Domain, outside the SOI scope, interacting with the SOI.|
-| Logical Context Element Constituent | Specifies the fact that a Logical Context Element exists in a specific Logical Context.|
-| Logical Element Constituent | General part of a logical System Context|
+| Logical Context Element Role | Specifies the fact that a Logical Context Element exists in a specific Logical System Context.|
+| Logical Context SOI Role | Specifies the fact that a Logical SOI exists in a specific Logical System Context.|
+| Logical Element Role | General part of a logical System Context|
 | Logical Environment | A Logical Environment in the Logical Domain, outside the SOI scope, interacting with the SOI. E.g., air, dirt, sun, road.|
 | Logical External System | A Logical External System in the Logical Domain, outside the SOI scope, interacting with the SOI. E.g., power grid, mobile network, fresh water system (in a house).|
 | Logical SOI | A SOI representation in the Logical Domain.|
-| Logical SOI Constituent | Specifies the fact that a Logical SOI exists in a specific Logical Context.|
 | Logical System Context | Specifies the fact that a context for a System of Interest is defined on Logical Level.|
 | Logical User | The Logical User is the representation for a human in the Logical Domain, outside the SOI scope, interacting with the SOI.|
 | OPRcomposedOF | Specifies the fact that an Operational Performer consists of one or more Operational Performers.|

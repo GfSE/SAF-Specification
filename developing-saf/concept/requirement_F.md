@@ -5,6 +5,7 @@
 | FRboundedByNFR | Specifies the fact that a Non-Functional Requirement constrains Functional Requirements.|
 | FRrefiningSFN | Specifies the fact that a System Function is refined by Functional Requirements.|
 | Functional Requirement | Functional Requirements specify System Functions of the System.|
+| Logical Interaction Point | Specifies the existence of an interaction point on Logical Level.|
 | Non-functional Requirement | Non-Functional Requirements specify the quality of System Functions, or non-functional requests like legal conformance.|
 | OPSrefiningOSY | Specifies the fact that an Operational Story is refined by one or more Operational Processes.|
 | Operational Process | An Operational Process captures activity-based operational behavior including scenarios, activity actions, and operational exchange flows, e.g., including information, materials, natural resources, etc.<br><br>Aliases:<br>UAF::Operational Activity<br>NAF::Logical Activity|
@@ -14,6 +15,7 @@
 | SPSrefiningSUC | Specifies the fact that a System Use Case is refined by one System Process.|
 | SRderivingFromSHR | Specifies the fact that a System Requirement is derived from a Stakeholder Requirement. Note: It may be used in a customer supplier relationship situation and supports the V Model concept of "External Unit Specification". See [VXT].|
 | SRderivingFromSR | Specifies the fact that System Requirements are derived from a Stakeholder Requirement. <br>Note: This is the relationship of requirements of different architectural levels. When the team responsible for the subsystem has direct access to the full upstream requirements set, then no subcontractor relationship needs to be established.|
+| SRrefiningLICP | Specifies the fact that a Logical Interaction Point is refined by System Requirements.|
 | SRrefiningSUC | Specifies the fact that a System Use Case is refined by System Requirements.|
 | SUCenablingOSY | Specifies the fact that a System Use Case enables the realization of an Operational Story.|
 | SUCincludingSUC | Specifies the fact that a System Use Case includes other System Use Cases. The included use case is then no longer a full System Use Case, but a partial System Use Case.|

@@ -26,7 +26,7 @@ A tabular format listing System Interface blocks, their ports, and flow properti
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
 * [Which kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?](../concerns.md#_2021x_2_8710274_1674576759154_22704_23559)
-* [Which standards, protocols, and format specifications are associated with a specific interface?](../concerns.md#_2021x_2_8710274_1674576758891_215548_23373)
+* [Which standards, protocols, and format specifications apply to a physical interface?](../concerns.md#_2021x_2_8710274_1674576758891_215548_23373)
 * [what are the interface definitions for the logical architecture](../concerns.md#_2021x_2_8710274_1698695260372_8568_48717)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:

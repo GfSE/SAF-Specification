@@ -6,17 +6,17 @@
 ## Example
 ![Logical-Internal-Exchange-Viewpoint-primary-example.svg](../../diagrams/vp-examples/Logical-Internal-Exchange-Viewpoint-primary-example.svg)
 ## Purpose
-The Logical Internal Exchange Viewpoint serves for the identification and definition of interfaces of elements of the Logical System. Also, the delegation of System Element Interfaces to the Logical System Boundary Interfaces is covered.
+The Logical Internal Exchange Viewpoint serves for the identification and definition of interfaces of elements of the logical system. also, the delegation of system element interfaces to the logical system boundary interfaces is covered.
 The Logical Internal Exchange Viewpoint
-* identifies System Element Interfaces on a Logical Level
-* states to which other system elements the interfaces are connected to
-* assigns interface specifications to interfaces
+* identifies system element interfaces on a logical level
+* states to which other logical elements the interfaces are connected to
+* assigns conceptual interface definitions to interfaces
 * defines the usage of interfaces, e.g., if only a subset of the interfaces is used 
-* defines the delegation of System Element Interfaces to the Logical System Boundary Interfaces
+* defines the delegation of logical system element interfaces to the logical system boundary interfaces
 ## Applicability
-The Logical Internal Exchange Viewpoint supports the "Architecture Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.4] and contributes to the preliminary interface definition and system architecture description.
+The Logical Internal Exchange Viewpoint supports the "System Architecture Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.4] and contributes to the artifacts "System Architecture Description" and "System Interface Definition".
 ## Presentation
-One or more IBDs featuring the SOI boundary, the logical elements of the SOI, the connectors for each identified SOI interface delegation to Logical SOI Elements, as well as those connectors between related interfaces of Logical SOI Elements. An interface is a connection resource for hooking on the Logical SOI Elements to other Logical SOI Elements. Item flows are defined for each exchange on the identified interface.
+One or more IBDs featuring the SOI boundary, the logical elements of the SOI, as well as the connectors for each identified SOI interface delegation to logical SOI elements. An interface is a connection resource for hooking on the logical SOI elements to other logical SOI elements. Item flows are defined for each exchange on the identified interface.
 Note: Please use more than one IBD focused on different areas of interest to keep the view comprehensive.
 
 ## Stakeholder
@@ -29,7 +29,7 @@ Note: Please use more than one IBD focused on different areas of interest to kee
 ## Concern
 * [How do the logical system elements interact to provide the system functions?](../../concerns.md#_2021x_2_8710274_1674576758760_611640_23247)
 * [What are the items exchanged between logical system elements during an interaction?](../../concerns.md#_2021x_2_8710274_1674576758991_165534_23433)
-* [What conceptual items (energy, material, information, etc.) are exchanged within the system?](../../concerns.md#_2021x_2_8710274_1674576758825_79081_23317)
+* [Which conceptual items (energy, material, information, etc.) are exchanged within the system?](../../concerns.md#_2021x_2_8710274_1674576758825_79081_23317)
 * [Which requirements apply to a logical interface?](../../concerns.md#_2021x_2_8710274_1674576758878_612030_23357)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
@@ -37,14 +37,14 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |---|---|
 |Attribute "realizingConnector" of InformationFlow referencing Connector|[LCNallowingLIE](../concept/concepts.md#LCNallowingLIE)|
 |Connector [UML_Standard_Profile]|[Logical Connection](../concept/concepts.md#Logical-Connection)|
-|FlowProperty contained in SAF_ConceptualInterfaceDefinition|[LCPPspecifyingDetailOfLCPD](../concept/concepts.md#LCPPspecifyingDetailOfLCPD)|
-|FlowProperty typed by SAF_DomainKind|[SDKtypingLCPP](../concept/concepts.md#SDKtypingLCPP)|
-|FlowProperty [SysML Profile]|[Logical Connection Point Property](../concept/concepts.md#Logical-Connection-Point-Property)|
+|FlowProperty contained in SAF_ConceptualInterfaceDefinition|[LIPPspecifyingDetailOfLIPD](../concept/concepts.md#LIPPspecifyingDetailOfLIPD)|
+|FlowProperty typed by SAF_DomainKind|[SDKtypingLIPP](../concept/concepts.md#SDKtypingLIPP)|
+|FlowProperty [SysML Profile]|[Logical Interaction Point Property](../concept/concepts.md#Logical-Interaction-Point-Property)|
 |ItemFlow typed by SAF_DomainKind|[SDKtypingLIE](../concept/concepts.md#SDKtypingLIE)|
 |ItemFlow [SysML Profile]|[Logical Item Exchange](../concept/concepts.md#Logical-Item-Exchange)|
-|ProxyPort typed by SAF_ConceptualInterfaceDefinition|[LCPDdefiningDetailOfLCP](../concept/concepts.md#LCPDdefiningDetailOfLCP)|
-|ProxyPort [SysML Profile]|[Logical Connection Point](../concept/concepts.md#Logical-Connection-Point)|
-|[SAF_ConceptualInterfaceDefinition](../../stereotypes.md#SAF_ConceptualInterfaceDefinition)|[Logical Connection Point Definition](../concept/concepts.md#Logical-Connection-Point-Definition)|
+|ProxyPort typed by SAF_ConceptualInterfaceDefinition|[LIPDdefiningDetailOfLIP](../concept/concepts.md#LIPDdefiningDetailOfLIP)|
+|ProxyPort [SysML Profile]|[Logical Interaction Point](../concept/concepts.md#Logical-Interaction-Point)|
+|[SAF_ConceptualInterfaceDefinition](../../stereotypes.md#SAF_ConceptualInterfaceDefinition)|[Logical Interaction Point Definition](../concept/concepts.md#Logical-Interaction-Point-Definition)|
 |[SAF_DomainKind](../../stereotypes.md#SAF_DomainKind)|[System Domain Kind](../concept/concepts.md#System-Domain-Kind)|
 |[SAF_LogicalElement](../../stereotypes.md#SAF_LogicalElement)|[Logical Element](../concept/concepts.md#Logical-Element)|
 |[SAF_SLV04b_View](../../stereotypes.md#SAF_SLV04b_View)|[Logical Internal Exchange Viewpoint](../concept/concepts.md#Logical-Internal-Exchange-Viewpoint)|

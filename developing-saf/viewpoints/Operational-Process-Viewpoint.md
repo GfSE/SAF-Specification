@@ -29,7 +29,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |InputPin [UML_Standard_Profile]|[TO](../concept/concepts.md#TO)|
 |ObjectFlow [UML_Standard_Profile]|[Operational Process Exchange](../concept/concepts.md#Operational-Process-Exchange)|
 |OutputPin [UML_Standard_Profile]|[FROM](../concept/concepts.md#FROM)|
-|[SAF_OperationalContextRole](../../stereotypes.md#SAF_OperationalContextRole)|[Operational Context Performer Constituent](../concept/concepts.md#Operational-Context-Performer-Constituent)|
+|[SAF_OperationalContextRole](../../stereotypes.md#SAF_OperationalContextRole)|[Operational Context Role](../concept/concepts.md#Operational-Context-Role)|
 |[SAF_OperationalDomainKind](../../stereotypes.md#SAF_OperationalDomainKind)|[Operational Domain Kind](../concept/concepts.md#Operational-Domain-Kind)|
 |[SAF_OperationalPerformer](../../stereotypes.md#SAF_OperationalPerformer)|[Operational Performer](../concept/concepts.md#Operational-Performer)|
 |[SAF_OperationalProcessAction](../../stereotypes.md#SAF_OperationalProcessAction)|[Operational Process Usage](../concept/concepts.md#Operational-Process-Usage)|

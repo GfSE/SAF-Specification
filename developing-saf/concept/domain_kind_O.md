@@ -5,7 +5,7 @@
 | ODKcomposedOF | Specifies the fact that an Operational Domain Kind consists of one or more Operational Domain Kinds.|
 | ODKtypifyingOIE | Specifies the fact that an Operational Domain Kind typifies an Operational Item Exchange.|
 | ODKtypifyingOPE | Specifies the fact that an Operational Domain Kind typifies an Operational Process Exchange.|
-| Operational Domain Kind | Specifies the kind of Operational Item Exchange between Operational Context Performer Constituents or Operational Processes.|
+| Operational Domain Kind | Specifies the kind of Operational Item Exchange between Operational Context Roles or Operational Processes.|
 | Operational Item Exchange | Specifies the Operational Item Exchange that is to take place on an Operational Connection.<br><br>Aliases:<br>UAF::OperationalExchange|
 | Operational Process | An Operational Process captures activity-based operational behavior including scenarios, activity actions, and operational exchange flows, e.g., including information, materials, natural resources, etc.<br><br>Aliases:<br>UAF::Operational Activity<br>NAF::Logical Activity|
 | Operational Process Exchange | Specifies the fact that an Operational Process has an exchange with another Operational Process.|

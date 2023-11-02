@@ -26,7 +26,7 @@ A tabular format listing System Interface blocks, their ports, and flow properti
 * [System Architect](../../stakeholders.md#System-Architect)
 ## Concern
 * [Which kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?](../../concerns.md#_2021x_2_8710274_1674576759154_22704_23559)
-* [Which standards, protocols, and format specifications are associated with a specific interface?](../../concerns.md#_2021x_2_8710274_1674576758891_215548_23373)
+* [Which standards, protocols, and format specifications apply to a physical interface?](../../concerns.md#_2021x_2_8710274_1674576758891_215548_23373)
 * [what are the interface definitions for the logical architecture](../../concerns.md#_2021x_2_8710274_1698695260372_8568_48717)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
@@ -34,14 +34,14 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |---|---|
 |Attribute "realizingConnector" of InformationFlow referencing Connector|[LCNallowingLIE](../concept/concepts.md#LCNallowingLIE)|
 |Connector [UML_Standard_Profile]|[Logical Connection](../concept/concepts.md#Logical-Connection)|
-|FlowProperty contained in SAF_ConceptualInterfaceDefinition|[LCPPspecifyingDetailOfLCPD](../concept/concepts.md#LCPPspecifyingDetailOfLCPD)|
-|FlowProperty typed by SAF_DomainKind|[SDKtypingLCPP](../concept/concepts.md#SDKtypingLCPP)|
-|FlowProperty [SysML Profile]|[Logical Connection Point Property](../concept/concepts.md#Logical-Connection-Point-Property)|
+|FlowProperty contained in SAF_ConceptualInterfaceDefinition|[LIPPspecifyingDetailOfLIPD](../concept/concepts.md#LIPPspecifyingDetailOfLIPD)|
+|FlowProperty typed by SAF_DomainKind|[SDKtypingLIPP](../concept/concepts.md#SDKtypingLIPP)|
+|FlowProperty [SysML Profile]|[Logical Interaction Point Property](../concept/concepts.md#Logical-Interaction-Point-Property)|
 |ItemFlow typed by SAF_DomainKind|[SDKtypingLIE](../concept/concepts.md#SDKtypingLIE)|
 |ItemFlow [SysML Profile]|[Logical Item Exchange](../concept/concepts.md#Logical-Item-Exchange)|
-|ProxyPort typed by SAF_ConceptualInterfaceDefinition|[LCPDdefiningDetailOfLCP](../concept/concepts.md#LCPDdefiningDetailOfLCP)|
-|ProxyPort [SysML Profile]|[Logical Connection Point](../concept/concepts.md#Logical-Connection-Point)|
-|[SAF_ConceptualInterfaceDefinition](../../stereotypes.md#SAF_ConceptualInterfaceDefinition)|[Logical Connection Point Definition](../concept/concepts.md#Logical-Connection-Point-Definition)|
+|ProxyPort typed by SAF_ConceptualInterfaceDefinition|[LIPDdefiningDetailOfLIP](../concept/concepts.md#LIPDdefiningDetailOfLIP)|
+|ProxyPort [SysML Profile]|[Logical Interaction Point](../concept/concepts.md#Logical-Interaction-Point)|
+|[SAF_ConceptualInterfaceDefinition](../../stereotypes.md#SAF_ConceptualInterfaceDefinition)|[Logical Interaction Point Definition](../concept/concepts.md#Logical-Interaction-Point-Definition)|
 |[SAF_DomainKind](../../stereotypes.md#SAF_DomainKind)|[System Domain Kind](../concept/concepts.md#System-Domain-Kind)|
 |[SAF_SFV05a_View](../../stereotypes.md#SAF_SFV05a_View)|[System Interface Definition Viewpoint](../concept/concepts.md#System-Interface-Definition-Viewpoint)|
 ## Input from other Viewpoints

@@ -8,17 +8,17 @@
 ![Physical-Internal-Exchange-Viewpoint-primary-example-1.svg](../../diagrams/vp-examples/Physical-Internal-Exchange-Viewpoint-primary-example-1.svg)
 ![Physical-Internal-Exchange-Viewpoint-primary-example-2.svg](../../diagrams/vp-examples/Physical-Internal-Exchange-Viewpoint-primary-example-2.svg)
 ## Purpose
-The Physical Internal Exchange Viewpoint serves for the identification and definition of interfaces of elements of the Physical System. Also, the delegation of System Element Interfaces to the Physical System Boundary Interfaces is covered.
+The Physical Internal Exchange Viewpoint serves for the identification and definition of interfaces of elements of the physical system. also, the delegation of system element interfaces to the physical system boundary interfaces is covered.
 The Physical Internal Exchange Viewpoint
-* identifies System Element Interfaces on a Physical Level
-* states to which other system elements the interfaces are connected to
-* assigns interface specifications to interfaces
+* identifies system element interfaces on a physical level
+* states to which other physical elements the interfaces are connected to
+* assigns physical interface definitions to interfaces
 * defines the usage of interfaces, e.g., if only a subset of the interfaces is used
-* defines the delegation of System Element to Physical System Boundary Interfaces
+* defines the delegation of physical system element interfaces to physical system boundary interfaces
 ## Applicability
-The Physical Context Definition Viewpoint supports the “System Architecture Definition Process” activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.4] and contributes to the artifacts "System Architecture Description" and "System Interface Definition". It also supports the "Interface Management" method of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§3.2.4].
+The Physical Internal Exchange Viewpoint supports the “Design Definition Process” activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.5] and contributes to the artifacts "System Design Description" and "System Interface Definition". It also supports the "Interface Management" method of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§3.2.4].
 ## Presentation
-One or more IBDs featuring the SOI boundary, the physical elements of the SOI, the connectors for each identified SOI interface delegation to Physical SOI Elements, as well as those connectors between related interfaces of Physical SOI Elements. An interface is a connection resource for hooking on the Logical SOI Elements to other Logical SOI Elements. Item flows are defined for each exchange on the identified interface.
+One or more IBDs featuring the SOI boundary, the physical elements of the SOI, as well as the connectors for each identified SOI interface delegation to physical SOI elements. An interface is a connection resource for hooking on the logical SOI elements to other logical SOI elements. Item flows are defined for each exchange on the identified interface.
 Note: Please use more than one IBD focused on different areas of interest to keep the view comprehensive.
 
 ## Stakeholder
@@ -30,29 +30,29 @@ Note: Please use more than one IBD focused on different areas of interest to kee
 * [Software Developer](../../stakeholders.md#Software-Developer)
 * [System Architect](../../stakeholders.md#System-Architect)
 ## Concern
-* [What physical items (energy, material, information, etc.) are exchanged within the system?](../../concerns.md#_2021x_2_8710274_1698410513910_480926_28625)
-* [Which are the protocols for exchanging items on a specific interface?](../../concerns.md#_2021x_2_8710274_1674576759247_884832_23642)
+* [How do physical system elements interact to provide system functions?](../../concerns.md#_2021x_2_8710274_1674576758600_423008_23078)
+* [Which are the protocols for exchanging physical items on a specific interface?](../../concerns.md#_2021x_2_8710274_1674576759247_884832_23642)
 * [Which kind of physical items (energy, material, information, etc.) are used on an interface of a physical architecture element?](../../concerns.md#_2021x_2_8710274_1674576758561_575110_23056)
-* [Which standards, protocols, and format specifications are associated with a specific interface?](../../concerns.md#_2021x_2_8710274_1674576758891_215548_23373)
-* [Which system internal interface partners does a physical system element have?](../../concerns.md#_2021x_2_8710274_1674576758600_423008_23078)
+* [Which physical items (energy, material, information, etc.) are exchanged within the system?](../../concerns.md#_2021x_2_8710274_1698410513910_480926_28625)
+* [Which standards, protocols, and format specifications apply to a physical interface?](../../concerns.md#_2021x_2_8710274_1674576758891_215548_23373)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
 |Attribute "realizingConnector" of InformationFlow referencing Connector|[PCNallowingPIE](../concept/concepts.md#PCNallowingPIE)|
 |Connector [UML_Standard_Profile]|[Physical Connection](../concept/concepts.md#Physical-Connection)|
-|FlowProperty contained in SAF_PhysicalInterfaceDefinition|[PCPPspecifyingDetailOfPCPD](../concept/concepts.md#PCPPspecifyingDetailOfPCPD)|
-|FlowProperty typed by SAF_PhysicalExchangeType|[PEKtypingPCPP](../concept/concepts.md#PEKtypingPCPP)|
-|FlowProperty [SysML Profile]|[Physical Connection Point Property](../concept/concepts.md#Physical-Connection-Point-Property)|
+|FlowProperty contained in SAF_PhysicalInterfaceDefinition|[PIPPspecifyingDetailOfPIPD](../concept/concepts.md#PIPPspecifyingDetailOfPIPD)|
+|FlowProperty typed by SAF_PhysicalExchangeType|[PEKtypingPIPP](../concept/concepts.md#PEKtypingPIPP)|
+|FlowProperty [SysML Profile]|[Physical Interaction Point Property](../concept/concepts.md#Physical-Interaction-Point-Property)|
 |ItemFlow typed by SAF_PhysicalExchangeType|[PEKtypingPIE](../concept/concepts.md#PEKtypingPIE)|
 |ItemFlow [SysML Profile]|[Physical Item Exchange](../concept/concepts.md#Physical-Item-Exchange)|
-|ProxyPort contained in SAF_PhysicalItem|[PCPapplyingToAPE](../concept/concepts.md#PCPapplyingToAPE)|
-|ProxyPort typed by SAF_PhysicalInterfaceDefinition|[PCPDdefiningDetailOfPCP](../concept/concepts.md#PCPDdefiningDetailOfPCP)|
-|ProxyPort [SysML Profile]|[Physical Connection Point](../concept/concepts.md#Physical-Connection-Point)|
+|ProxyPort contained in SAF_PhysicalItem|[PIPapplyingToAPE](../concept/concepts.md#PIPapplyingToAPE)|
+|ProxyPort typed by SAF_PhysicalInterfaceDefinition|[PIPDdefiningDetailOfPIP](../concept/concepts.md#PIPDdefiningDetailOfPIP)|
+|ProxyPort [SysML Profile]|[Physical Interaction Point](../concept/concepts.md#Physical-Interaction-Point)|
 |[SAF_PhysicalElement](../../stereotypes.md#SAF_PhysicalElement)|[Physical Element](../concept/concepts.md#Physical-Element)|
 |[SAF_PhysicalExchangeType](../../stereotypes.md#SAF_PhysicalExchangeType)|[Physical Exchange Kind](../concept/concepts.md#Physical-Exchange-Kind)|
 |[SAF_PhysicalHardwareElement](../../stereotypes.md#SAF_PhysicalHardwareElement)|[Hardware Element](../concept/concepts.md#Hardware-Element)|
-|[SAF_PhysicalInterfaceDefinition](../../stereotypes.md#SAF_PhysicalInterfaceDefinition)|[Physical Connection Point Definition](../concept/concepts.md#Physical-Connection-Point-Definition)|
+|[SAF_PhysicalInterfaceDefinition](../../stereotypes.md#SAF_PhysicalInterfaceDefinition)|[Physical Interaction Point Definition](../concept/concepts.md#Physical-Interaction-Point-Definition)|
 |[SAF_PhysicalSoftwareElement](../../stereotypes.md#SAF_PhysicalSoftwareElement)|[Software Element](../concept/concepts.md#Software-Element)|
 |[SAF_ProtocolLayerRelationship](../../stereotypes.md#SAF_ProtocolLayerRelationship)|[PCPOverPCP](../concept/concepts.md#PCPOverPCP)|
 |[SAF_SPV04b_View](../../stereotypes.md#SAF_SPV04b_View)|[Physical Internal Exchange Viewpoint](../concept/concepts.md#Physical-Internal-Exchange-Viewpoint)|

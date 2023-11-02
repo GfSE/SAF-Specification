@@ -87,7 +87,7 @@
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Logical Connection Point Definition'>Logical Connection Point Definition</A><BR>Logical Connection Point Definition: Specifies the exchange capabilities of an interaction point on Logical Level.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Logical Interaction Point Definition'>Logical Interaction Point Definition</A><BR>Logical Interaction Point Definition: Specifies the exchange capabilities of an interaction point on Logical Level.<BR></html>
 
 
 ## SAF_ContextAction
@@ -369,7 +369,8 @@ UAF::HighLevelOperationalConcept<BR></html>
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Operational Context Performer Constituent'>Operational Context Performer Constituent</A><BR>Operational Context Performer Constituent: An Operational Context Performer Constituent represents a participant in the Operational Activity executing one or more of its atomic actions interacting with other constituents of the identified Operational Context. Specific characteristics and features or, in case of persons or organizational units, knowledge and skills are assigned to a constituent necessary for the execution of the allocated actions.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Operational Context Role'>Operational Context Role</A><BR>Operational Context Role: An Operational Context Role represents a participant in an Operational context.
+It is interacting with other roles of the given Operational Context. Specific characteristics and features or, in case of persons or organizational units, knowledge and skills are assigned to a role necessary for the execution of the performed Operational Processes.<BR></html>
 
 
 ## SAF_OperationalDomainKind
@@ -378,7 +379,7 @@ UAF::HighLevelOperationalConcept<BR></html>
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Operational Domain Kind'>Operational Domain Kind</A><BR>Operational Domain Kind: Specifies the kind of Operational Item Exchange between Operational Context Performer Constituents or Operational Processes.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Operational Domain Kind'>Operational Domain Kind</A><BR>Operational Domain Kind: Specifies the kind of Operational Item Exchange between Operational Context Roles or Operational Processes.<BR></html>
 
 
 ## SAF_OperationalDomainKindComposition
@@ -525,7 +526,7 @@ UAF::MapsToCapability<BR></html>
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical Element'>Physical Element</A><BR>Physical Element: A composition of Hardware Elements and Software Elements. Similarity to the V-Model segments and system. See [VXT].<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical Element'>Physical Element</A><BR>Physical Element: A composition of Hardware and Software Elements. Similarity with the V-Model segments and system. See [VXT].<BR></html>
 
 
 ## SAF_PhysicalEnvironment
@@ -561,7 +562,7 @@ UAF::MapsToCapability<BR></html>
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Hardware Element'>Hardware Element</A><BR>Hardware Element: Pure Hardware Elements. Similarity to the V-Model "hardware unit".<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Hardware Element'>Hardware Element</A><BR>Hardware Element: Pure Hardware Elements. Similarity with the V-Model "hardware unit".<BR></html>
 
 
 ## SAF_PhysicalInterfaceDefinition
@@ -570,7 +571,7 @@ UAF::MapsToCapability<BR></html>
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical Connection Point Definition'>Physical Connection Point Definition</A><BR>Physical Connection Point Definition: Specifies the exchange capabilities of an interaction point on Physical Level.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical Interaction Point Definition'>Physical Interaction Point Definition</A><BR>Physical Interaction Point Definition: Specifies the exchange capabilities of an interaction point on Physical Level.<BR></html>
 
 
 ## SAF_PhysicalInternalRole
@@ -579,7 +580,7 @@ UAF::MapsToCapability<BR></html>
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical Constituent'>Physical Constituent</A><BR>Physical Constituent: General concept of usage of system elements in the context of other system elements on physical level.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#General Physical Role'>General Physical Role</A><BR>General Physical Role: General concept of usage of system elements in the context of other system elements on physical level.<BR></html>
 
 
 ## SAF_PhysicalItem
@@ -596,7 +597,7 @@ UAF::MapsToCapability<BR></html>
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Software Element'>Software Element</A><BR>Software Element: Pure Software Elements. Similarity to the V-Model "software unit".<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Software Element'>Software Element</A><BR>Software Element: Pure Software Elements. Similarity with the V-Model "software unit".<BR></html>
 
 
 ## SAF_PhysicalSystem
@@ -623,8 +624,8 @@ UAF::MapsToCapability<BR></html>
 *none*
 
 ### Documentation
-<html>Stereotype realizes multiple Concepts:<UL><LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#PCPOverPCP'>PCPOverPCP</A><BR>PCPOverPCP: Specifies the fact that a physical connection point communicates / transfers / flows / over an other physical connection point. Used to define layered physical interfaces, and show layer relationships between interfaces.<BR></LI>
-<LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#PCPPOverPCPP'>PCPPOverPCPP</A><BR>PCPPOverPCPP: Specifies the fact that a physical connection point property communicates / transfers / flows / over an other physical connection point property. Used to define layered physical interfaces, and show layer relationships between interface details.<BR></LI>
+<html>Stereotype realizes multiple Concepts:<UL><LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#PCPOverPCP'>PCPOverPCP</A><BR>PCPOverPCP: Specifies the fact that a physical interaction point communicates / transfers / flows / over an other physical interaction point. Used to define layered physical interfaces, and show layer relationships between interfaces.<BR></LI>
+<LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#PCPPOverPCPP'>PCPPOverPCPP</A><BR>PCPPOverPCPP: Specifies the fact that a physical interaction point property communicates / transfers / flows / over an other physical interaction point property. Used to define layered physical interfaces, and show layer relationships between interface details.<BR></LI>
 </UL>
 </html>
 
@@ -671,7 +672,7 @@ A block definition diagram (BDD) featuring a claim-argument-evidence (C-A-E) pat
 *none*
 
 ### Documentation
-The System Use Case Viewpoint provides an outside view on the system functionality from the perspective of the System Users and contributes to the definition of System Requirements and System Usage. The intended system use may be captured as free-text use case description, as well as storytelling approach on a coarse level of detail. The main System Exchange Partners participating in the intended system use are identified. System Use Cases are related to a specific System Context.
+The System Use Case Viewpoint provides an outside view on the system functionality from the perspective of the system users and contributes to the definition of system requirements and system usage. The intended system use may be captured as free-text use case description, as well as storytelling approach on a coarse level of detail. The main system exchange partners participating in the intended system use are identified. System use cases are related to a specific system context.
 
 A use case diagram featuring model elements representing System Use Cases, System Context, and System Context Elements.
 Note: System Use Case pre- and postconditions shall be represented either by callout or compartment notation.
@@ -861,9 +862,9 @@ A dependency matrix featuring relationships for every System Requirement to the 
 *none*
 
 ### Documentation
-The Logical Structure Viewpoint covers the basic technical notion of the System and is widely reusable among similar systems like product families, or product generations. The Logical Structure Viewpoint specifies how the system is decomposed into a hierarchical structure of logical components responsible for different System Functions (divide & conquer principle).
+The Logical Structure Viewpoint describes how the system is decomposed into a hierarchical structure of logical elements responsible for different system functions (divide & conquer principle). It covers related logical concepts and principles that support the logical operation of the system and is widely reusable among similar systems like product families, or product generations.
 
-A block definition diagram (BDD) featuring the logical System block and logical blocks for each kind of Logical Element the system is composed of. The elements are connected to the System block by means of aggregation relationships. 
+A block definition diagram (BDD) featuring the logical system block and logical blocks for any kind of logical element the system is composed of. These elements are connected to the system block by means of aggregation relationships. 
 Note: Multiple relationships to a kind of element are allowed meaning, that this kind of element is used in several roles.
 
 ## SAF_SLV04a_View
@@ -883,15 +884,15 @@ Note: This diagram depicts the sending and receiving of messages between the int
 *none*
 
 ### Documentation
-The Logical Internal Exchange Viewpoint serves for the identification and definition of interfaces of elements of the Logical System. Also, the delegation of System Element Interfaces to the Logical System Boundary Interfaces is covered.
+The Logical Internal Exchange Viewpoint serves for the identification and definition of interfaces of elements of the logical system. also, the delegation of system element interfaces to the logical system boundary interfaces is covered.
 The Logical Internal Exchange Viewpoint
-* identifies System Element Interfaces on a Logical Level
-* states to which other system elements the interfaces are connected to
-* assigns interface specifications to interfaces
+* identifies system element interfaces on a logical level
+* states to which other logical elements the interfaces are connected to
+* assigns conceptual interface definitions to interfaces
 * defines the usage of interfaces, e.g., if only a subset of the interfaces is used 
-* defines the delegation of System Element Interfaces to the Logical System Boundary Interfaces
+* defines the delegation of logical system element interfaces to the logical system boundary interfaces
 
-One or more IBDs featuring the SOI boundary, the logical elements of the SOI, the connectors for each identified SOI interface delegation to Logical SOI Elements, as well as those connectors between related interfaces of Logical SOI Elements. An interface is a connection resource for hooking on the Logical SOI Elements to other Logical SOI Elements. Item flows are defined for each exchange on the identified interface.
+One or more IBDs featuring the SOI boundary, the logical elements of the SOI, as well as the connectors for each identified SOI interface delegation to logical SOI elements. An interface is a connection resource for hooking on the logical SOI elements to other logical SOI elements. Item flows are defined for each exchange on the identified interface.
 Note: Please use more than one IBD focused on different areas of interest to keep the view comprehensive.
 
 ## SAF_SLV08a_View
@@ -914,13 +915,13 @@ A dependency matrix featuring
 
 ### Documentation
 The Operational Story Viewpoint
-* captures Operational Stories and their relation to Operational Performers, thus enables storytelling
-* illustrates the operational background from the Stakeholder Perspective
+* captures operational stories and their relation to operational performers, thus enables storytelling
+* illustrates the operational background from the Stakeholder perspective
 * serves as starting point to identify Stakeholders and/or context elements
 * fosters the communication among different Stakeholders
 
-A use case diagram featuring model elements representing Operational Stories, and Operational Performers involved in the mission. 
-Note: Illustrations, drawings, sketches, etc., and/or descriptions in free text may provide a comprehensive understanding of the background of the operational mission.
+A use case diagram featuring model elements representing operational stories, and operational performers involved in the mission. 
+Note: Illustrations, drawings, sketches, etc., and/or descriptions in free text may provide a comprehensive understanding of the operational mission.
 
 ## SAF_SOV01b_View
 
@@ -981,8 +982,8 @@ A block definition diagram (BDD) featuring Operational Capabilities, their compo
 *none*
 
 ### Documentation
-The Stakeholder Identification Viewpoint of the Operational Domain strives to identify Stakeholders, whose Needs shall be considered during the operation of the intended solution and the execution of the Operational Processes to support the identified Operational Capabilities. 
-A Stakeholder identification is distinguishing which parties are classified as Stakeholders in a project, either because they can influence the project or because they are directly affected by the result. A Stakeholder analysis is a process of analyzing individuals, teams, or organizations throughout the project life cycle, grouping them according to their levels of participation, interest, and influence in the project, and determining how best to involve and communicate with each of these Stakeholder groups throughout. During the realization of the Intended Solution additional Stakeholders shall be identified having additional Needs and Requirements, e.g., regarding production of system elements or certain technologies.
+The Stakeholder Identification Viewpoint of the operational domain strives to identify Stakeholders, whose needs shall be considered during the operation of the intended solution and the execution of the operational processes to support the identified operational capabilities. 
+A Stakeholder identification is distinguishing which parties are classified as Stakeholders in a project, either because they can influence the project or because they are directly affected by the result. A Stakeholder analysis is a process of analyzing individuals, teams, or organizations throughout the project life cycle, grouping them according to their levels of participation, interest, and influence in the project, and determining how best to involve and communicate with each of these Stakeholder groups throughout. During the realization of the Intended Solution additional Stakeholders shall be identified having additional needs and requirements, e.g., regarding production of system elements or certain technologies.
 
 A block definition diagram (BDD) depicting the identified, analysed, and classified Stakeholders and their relations to the Intended Solution.
 
@@ -1081,10 +1082,10 @@ C) A tabular format listing the applicable standards, protocols and formats for 
 *none*
 
 ### Documentation
-The Physical Structure Viewpoint is used to model the internal structure of the SOI and to identify the internal system elements making up the SOI. The SOI breakdown structure identifies system elements and finally on implementation level hardware, software, mechanics. The SOI breakdown structure determines items that are reused and make or buy (COTS) items. The Physical Structure Viewpoint is elaborated for each candidate physical SOI architecture. It provides the basis for further assessment of the architecture candidates by identifying the system elements in each candidate solution.
+The Physical Structure Viewpoint is used to model the internal structure of the SOI and to identify the internal system elements making up the SOI. The SOI breakdown structure identifies system elements and finally at the implementation level hardware, software, and mechanics. The SOI breakdown structure determines items that are reused and make-or-buy (COTS) items. The Physical Structure Viewpoint is elaborated for each candidate physical SOI architecture. It provides the basis for further assessment of the architecture candidates by identifying the system elements in each candidate solution.
 
-
-
+A block definition diagram (BDD) featuring the physical system block and physical blocks for any kind of physical element, HW or SW elements, the system is composed of. These elements are connected to the system block by means of aggregation relationships. 
+Note: Multiple relationships to a kind of element are allowed meaning, that this kind of element is used in several roles.
 
 ## SAF_SPV04b_View
 
@@ -1092,15 +1093,15 @@ The Physical Structure Viewpoint is used to model the internal structure of the 
 *none*
 
 ### Documentation
-The Physical Internal Exchange Viewpoint serves for the identification and definition of interfaces of elements of the Physical System. Also, the delegation of System Element Interfaces to the Physical System Boundary Interfaces is covered.
+The Physical Internal Exchange Viewpoint serves for the identification and definition of interfaces of elements of the physical system. also, the delegation of system element interfaces to the physical system boundary interfaces is covered.
 The Physical Internal Exchange Viewpoint
-* identifies System Element Interfaces on a Physical Level
-* states to which other system elements the interfaces are connected to
-* assigns interface specifications to interfaces
+* identifies system element interfaces on a physical level
+* states to which other physical elements the interfaces are connected to
+* assigns physical interface definitions to interfaces
 * defines the usage of interfaces, e.g., if only a subset of the interfaces is used
-* defines the delegation of System Element to Physical System Boundary Interfaces
+* defines the delegation of physical system element interfaces to physical system boundary interfaces
 
-One or more IBDs featuring the SOI boundary, the physical elements of the SOI, the connectors for each identified SOI interface delegation to Physical SOI Elements, as well as those connectors between related interfaces of Physical SOI Elements. An interface is a connection resource for hooking on the Logical SOI Elements to other Logical SOI Elements. Item flows are defined for each exchange on the identified interface.
+One or more IBDs featuring the SOI boundary, the physical elements of the SOI, as well as the connectors for each identified SOI interface delegation to physical SOI elements. An interface is a connection resource for hooking on the logical SOI elements to other logical SOI elements. Item flows are defined for each exchange on the identified interface.
 Note: Please use more than one IBD focused on different areas of interest to keep the view comprehensive.
 
 ## SAF_SPV05a_View
@@ -1414,7 +1415,7 @@ Note: This is the relationship of requirements of different architectural levels
 *none*
 
 ### Documentation
-<html>Stereotype realizes multiple Concepts:<UL><LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#SRrefiningLICP'>SRrefiningLICP</A><BR>SRrefiningLICP: Specifies the fact that a Logical Interface Connection Point is refined by System Requirements.<BR></LI>
+<html>Stereotype realizes multiple Concepts:<UL><LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#SRrefiningLICP'>SRrefiningLICP</A><BR>SRrefiningLICP: Specifies the fact that a Logical Interaction Point is refined by System Requirements.<BR></LI>
 <LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#SRrefiningSUC'>SRrefiningSUC</A><BR>SRrefiningSUC: Specifies the fact that a System Use Case is refined by System Requirements.<BR></LI>
 <LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#SRrefiningSCY'>SRrefiningSCY</A><BR>SRrefiningSCY: Specifies the fact that a System Capability is refined by System Requirements.<BR></LI>
 </UL>

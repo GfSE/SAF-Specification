@@ -39,10 +39,10 @@ C) A tabular format listing the applicable standards, protocols and formats for 
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
 * [Which are the external physical entities the system interacts with in the given context?](../concerns.md#_2021x_2_8710274_1674576758710_759449_23186)
-* [Which are the protocols for exchanging items on a specific interface?](../concerns.md#_2021x_2_8710274_1674576759247_884832_23642)
+* [Which are the protocols for exchanging physical items on a specific interface?](../concerns.md#_2021x_2_8710274_1674576759247_884832_23642)
 * [Which kind of physical items (energy, material, information, etc.) are exchanged between the system and external entities?](../concerns.md#_2021x_2_8710274_1674576758698_132348_23172)
 * [Which kind of physical items (energy, material, information, etc.) are used on an interface of a physical architecture element?](../concerns.md#_2021x_2_8710274_1674576758561_575110_23056)
-* [Which standards, protocols, and format specifications are associated with a specific interface?](../concerns.md#_2021x_2_8710274_1674576758891_215548_23373)
+* [Which standards, protocols, and format specifications apply to a physical interface?](../concerns.md#_2021x_2_8710274_1674576758891_215548_23373)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Attribute "realizingConnector" of InformationFlow referencing Connector
