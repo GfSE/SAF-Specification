@@ -31,7 +31,7 @@ Classes stereotyped as **<<SAF_Concept>>** represent any concept or term in the 
 
 Example:
 
-![class](ex-concept-class.png)
+![class](ex-concept-class.svg)
 
 The following rules apply:
 * Every class needs a description.
@@ -41,7 +41,7 @@ The following rules apply:
 Inheritance i.e. generalization / specialization relations are used to indicate that a specific concept is a kind or a variant of a more general concept. 
 
 
-![class](ex-concept-gen.png)
+![class](ex-concept-gen1.svg)
 
 Following semantics apply:
 * The general concept is used in the model to represent the set of different variants of that kind. 
@@ -52,7 +52,7 @@ Following semantics apply:
 
 Example:
 
-![class](ex-concept-gen1.png)
+![class](ex-concept-gen1.svg)
 A Format Specification is a kind of Technical Standard and has all the attributes and properties of the Technical Standard but may define additional properties.
 The Protocol Definition is also a Technical Standard but has different properties as the Format Specification.
 
@@ -63,8 +63,7 @@ Note, that a concept can be marked as “Abstract”. This means that the abstra
 
 Example:
 
-![class](ex-concept-abstr.png)
-Rule: Use abstract metamodel items if appropriate.
+![class](ex-concept-abstr.svg)
 
 `Rule: Use abstract metamodel items if appropriate.`
 
@@ -78,7 +77,7 @@ They get the stereotype **<<SAF_Concept>>**.
 
 Example:
 
-![class](ex-concept-assoc.png)
+![class](ex-concept-assoc.svg)
 
 The Concept A has a relationship to Concept B. 
 
@@ -103,7 +102,7 @@ For the sake of simplicity, the multiplicity at both ends of the association may
 
 Example:
 
- ![class](ex-concept-multiplicity.png)
+ ![class](ex-concept-multiplicity.svg)
 
 In this example case a Physical System Context contains at least one, but maybe more Context elements. However, the Context Element may be used in several Physical System Contexts, or not at all. 
 ####	Role Names
@@ -111,7 +110,7 @@ Role names at the ends of the association are usually not used. However, in some
 
 Example:
  
-![class](ex-concept-rolenames.png) 
+![class](ex-concept-rolenames.svg) 
 
 The example shows a Concept “State”, and the relationship between “State” in the role “source state” and the role “target state”.
 ####	Association Classes
@@ -120,7 +119,7 @@ express elaborated concept relationships.
 
 Example:
 
-![class](ex-concept-assocclass.png) 
+![class](ex-concept-assocclass.svg) 
 
 In the example a Requirement refines a state transition of a state model.
 ####	Derived Relationships
@@ -158,13 +157,14 @@ Use Notes for explanation, use comments only for model management.
 
 Example:
 
-![class](ex-concept-comment.png) 
+![class](ex-concept-comment.svg) 
  
 ###	Graphical Elements
 The conceptual model is important for communication. Therefore, the diagrams may contain additional graphical elements like dashed boxes or coloured boxes to support the understanding of the concepts.
 
+In the Example, a dashed box is used to separate logical and functional concepts.
 
-![class](ex-concept-gfx.png) 
+![class](ex-concept-gfx.svg) 
 
 ##	Model Elements in the SAF Profile Model
 The SAF Profile Model (SPM) defines the stereotypes used for SAF Models. SPM reuses UML/SysML wherever practical to satisfy the requirements and leverage features from both UML and SysML.
@@ -182,14 +182,14 @@ Note that the origin of the Element should be shown by a graphical element (dash
 
 Example:
  
-![class](ex-prof-metaclass.png)  
+![class](ex-prof-metaclass.svg)  
 ##	UML Metaclass extension relationship
 Specifies that a stereotype extends an UML metaclass.
 Note that the origin of the Element should be shown by a graphical element (dashed box). Tbd: Update Example.
  
 Example:
 
-![class](ex-prof-extension.png)   
+![class](ex-prof-extension.svg)   
 
 The stereotype “SAF_SystemFunction” from the SAF Profile extends the UML metaclass “Activity”
 ##	SysML Stereotype
@@ -198,7 +198,7 @@ Note that the origin of the Element should be shown by a graphical element (dash
 
 Example:
 
-![class](ex-prof-sysml.png)
+![class](ex-prof-sysml.svg)
 
 ##	Generalization relationship
 Specifies that a stereotype specializes another stereotype.
@@ -207,7 +207,7 @@ Note that the origin of the Element should be shown by a graphical element (dash
 
 Example
 
-![class](ex-prof-generalization.png)
+![class](ex-prof-generalization.svg)
 
 SAF_LogicalElement specializes “Block” from the SysML profile and SAF_LogicalSOI specializes SAF_LogicalElement even further.   
 ##	SPM Stereotypes 
@@ -229,7 +229,7 @@ For the types of SPM stereotype properties, the basic types from the UML profile
 
 Example:
 
- ![class](ex-prof-tagvalue.png)
+ ![class](ex-prof-tagvalue.svg)
 The stereotype SAF_PhysicalElement has a tagged value criticality of an enumeration type “SAF_Criticality“ wich is also defined in SPM. In a project model using SAF an “Emergency Stop Switch” is modelled with the criticality set to “high”
 
 TBD: give examples for relations
@@ -240,9 +240,11 @@ The implementation of SAF concepts by SAF profile elements is shown by an UML �
 
 Example:
 
-![class](ex-prof-trace.png)
+![class](ex-prof-trace.svg)
  
-In the above example the concept “System UseCase” is implemented by a stereotype from the SAF Profile, and the participates Relationship is implemented by a plain UML “Association” element. The abstract concept “System Context Element” has no implementation, only the inheriting concepts (not shown here).
+In the above example the concept “Logical Elemen” is implemented by a stereotype SAF_LogicalElement from the SAF Profile which inherits from SysML Block. The Itnernal Logical Element Role implemented by a plain UML “Property” element.
+
+The Viewpoint itself traces from the Diagram Stereotype SAF_SLV02a_View.
 
 Note the colored boxes to indicate where a definition is located. 
 
@@ -255,33 +257,25 @@ The example shows three attribute specifications made by SCM_Attribute dependenc
 ### Traceability to "is type of" specifications
 tbd: add examples
 ### Traceability to "is contained in" specifications
-tbd: add example
+The Example shows how the concept Logical Context SOI Role is implemented by the fact that a SAF_LogicalContextRole element is contained in a SAF_LogicalContext element.
+
+![class](ex-prof-containedin.svg) 
 ##	Implementation Constraints
 Constraints in the SAF Profile Model should be used to restrict the usage of UML or SysML elements further, or to specify more precisely what is meant.
+
+![class](ex-prof-constraint.svg) 
 
 Example : constraint  on implementation relationship
 
 **Note, that many constraints can be replaced by the formally more precise r <<SCM_Attribute>>, <<SCM_typeOf>> and <<SCM_containedIn>> relations.**
 
-tbd: use better example
-
-![class](ex-prof-constraint.png)
-
-In the example the relationship between the logical SOI and the logical system context is to be expressed using an aggregation and the respective part property. Neither UML nor SysML define an own metaclass for this, instead the SysML Specification constrains the Association and calls this PartAssociation. In the SAF Profile Model a constraint refers to the SysML Term.
 
 Example: constraint on stereotype
 
-![class](ex-prof-constraint1.png) 
+![class](ex-prof-constraint1.svg) 
 
 In the example a constraint is imposed on the sterotype, to further specify the intended direction of the stereotyped dependency.
 
-Example: multiple constraints
-
-![class](ex-prof-constraint2.png) 
- 
-In the example multiple constraints are cast on the implementation of the relationship “is provided by” – one requires a dependency with between a package containing the stakeholder requirements and the stakeholder, and another requires a package named as the stakeholder. 
-
-Constraints should be used to indicate options or alternatives in the meta model or to maintain correctness of the model. 
 
 `Rule:Use constraints sparsely, only easy constraints, but use them if necessary to maintain correctness of the model.`
 ##	 Abstract Stereotypes
