@@ -1,7 +1,7 @@
 # Concept and Profile Modeling Guideline
 ## General
 The backbone of the SAF is the SAF Metamodel. The SAF Metamodel is dedicated to model based systems engineering and reflects the SE ontology in this domain. It ensures the inherent consistency of the system of interests' model generated according to the SAF.
-The SAF Metamodel consists of two specialized models: the abstract SAF Conceptual Model describing the concepts used in the systems engineering domain, and the Viewpoints of SAF and the SAF Profile Model focusing on the realization of those concepts in a profile.
+The SAF Metamodel consists of two specialized models: the abstract SAF Conceptual Model describing the concepts used in the systems engineering domain, and the Viewpoints of SAF and the SAF Profile Model focusing on the implementation of those concepts in a profile.
 
 The SAF Profile Model serves as a specification for any SAF Profile Implementations in Modelling Tools.
 Both Model parts are captured in the Tool MagicDraw. (This is a decision of the SAF Working group – it could have been any Tool)
@@ -22,6 +22,8 @@ For defining the SCM and the SPM only a few simple model elements are used to ea
 `Rule: 	You shall not add attributes and types to concepts. For the conceptual metamodel a textual description shall be enough.`
 
 `Rule: 	Every conceptual item shall be described.`
+
+See the actual [Documentation of the concept elements](../concept/concept-overview.md) for more examples of use.
 
 Following model elements are used in the SAF Conceptual Model.
 ###	Classes 
@@ -234,13 +236,13 @@ TBD: give examples for relations
 
 
 ##	Traceability to SAF Concept Model (SCM)
-The realization of SAF concepts by SAF profile elements is shown by an UML “abstraction ” stereotyped to <<SAF_RealizeConcept>> relationship from the realizing element to the concept element.
+The implementation of SAF concepts by SAF profile elements is shown by an UML “abstraction ” stereotyped to **<<SAF_RealizeConcept>>** relationship from the implementing element to the concept element.
 
 Example:
 
 ![class](ex-prof-trace.png)
  
-In the above example the concept “System UseCase” is realized by a stereotype from the SAF Profile, and the participates Relationship is realized by a plain UML “Association” element. The abstract concept “System Context Element” has no realization, only the inheriting concepts (not shown here).
+In the above example the concept “System UseCase” is implemented by a stereotype from the SAF Profile, and the participates Relationship is implemented by a plain UML “Association” element. The abstract concept “System Context Element” has no implementation, only the inheriting concepts (not shown here).
 
 Note the colored boxes to indicate where a definition is located. 
 
@@ -257,9 +259,9 @@ tbd: add example
 ##	Implementation Constraints
 Constraints in the SAF Profile Model should be used to restrict the usage of UML or SysML elements further, or to specify more precisely what is meant.
 
-Example : constraint  on realization relationship
+Example : constraint  on implementation relationship
 
-**Note, that many constraints can be replaced by the formally more precise r "SCM_Attribute", "SCM_typeOf" and "SCM_containedIn" relations.**
+**Note, that many constraints can be replaced by the formally more precise r <<SCM_Attribute>>, <<SCM_typeOf>> and <<SCM_containedIn>> relations.**
 
 tbd: use better example
 
@@ -277,7 +279,7 @@ Example: multiple constraints
 
 ![class](ex-prof-constraint2.png) 
  
-In the example multiple constraints are cast on the realization of the relationship “is provided by” – one requires a dependency with between a package containing the stakeholder requirements and the stakeholder, and another requires a package named as the stakeholder. 
+In the example multiple constraints are cast on the implementation of the relationship “is provided by” – one requires a dependency with between a package containing the stakeholder requirements and the stakeholder, and another requires a package named as the stakeholder. 
 
 Constraints should be used to indicate options or alternatives in the meta model or to maintain correctness of the model. 
 
