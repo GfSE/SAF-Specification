@@ -339,7 +339,7 @@ In the SCM these elements are grouped in one package per Viewpoint specification
  
 The naming convention is as follows: 
  
-* A view specification shall have a common prefix <name>, e.g. “Logical Context” in the abovementioned example.
+* A view specification shall have a common prefix <name>, e.g. “Logical Structure” in the abovementioned example.
 * The concept model diagrams name shall be"<name> Concept"
 * The profile model diagram name shall be a profile diagram "<name> Profile"
 * The  viewpoint elements name shall be "<name> Viewpoint"
