@@ -41,7 +41,7 @@ The following rules apply:
 Inheritance i.e. generalization / specialization relations are used to indicate that a specific concept is a kind or a variant of a more general concept. 
 
 
-![class](ex-concept-gen.svg)
+![class](ex-concept-gen1.svg)
 
 Following semantics apply:
 * The general concept is used in the model to represent the set of different variants of that kind. 
@@ -52,7 +52,8 @@ Following semantics apply:
 
 Example:
 
-![class](ex-concept-gen1.svg)
+![class](ex-concept-gen.svg)
+
 A Format Specification is a kind of Technical Standard and has all the attributes and properties of the Technical Standard but may define additional properties.
 The Protocol Definition is also a Technical Standard but has different properties as the Format Specification.
 
@@ -112,7 +113,7 @@ Example:
  
 ![class](ex-concept-rolenames.svg) 
 
-The example shows a Concept “State”, and the relationship between “State” in the role “source state” and the role “target state”.
+The example shows a Concept “State”, and the relationship between “State” in the role “sourceState” and the role “targetState”.
 ####	Association Classes
 If the Association represents a valuable concept; it may be worth to model it as an association class. Since an association class can be part of other associations, an association class may be the only way to 
 express elaborated concept relationships.
