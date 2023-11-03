@@ -44,6 +44,8 @@ Within the conceptual model the following elements can be recognized (many of th
   The goal is, to precisely define the needed model work for certain points in an engieering project.
 
 
+Details are documented in the [metamodeling guide](./metamodel-guideline/modelguideline.md).
+
 # How is SAF documented ?
 The documentation of SAF is needs to support different use cases of different personae.
 

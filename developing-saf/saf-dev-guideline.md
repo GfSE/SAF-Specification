@@ -1,5 +1,7 @@
 # SAF Development Documentation : SAF Developement Guideline
 
+For details on how to model, please refer to the [metamodeling guide](./metamodel-guideline/modelguideline.md).
+
 ## Mastership of Truth
 Most content of the SAF specification is developed using a Model. Most of the files in this repository are generated from this Model. So the best way to apply a change is to change the Model and generate again. We use Magic Draw to maintain the Model.
 
