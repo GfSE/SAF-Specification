@@ -41,7 +41,7 @@ The following rules apply:
 Inheritance i.e. generalization / specialization relations are used to indicate that a specific concept is a kind or a variant of a more general concept. 
 
 
-![class](ex-concept-gen1.svg)
+![class](ex-concept-gen.svg)
 
 Following semantics apply:
 * The general concept is used in the model to represent the set of different variants of that kind. 
