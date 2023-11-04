@@ -1,4 +1,5 @@
 # SAF Specification
+
 Disclaimer: System Architecture Framework Specification ![Bild](diagrams/Under_construction_icon-yellow.svg) **is work in progress**
 
 ![System Architecture Framework](/diagrams/Banner_SAF.png)
@@ -8,6 +9,7 @@ This repository contains both documentation for users of SAF and developers of S
 The System Architecture Framework Specification application is demonstrated using the Fire Forest Detection System example, courtesy of Tim Weilkiens. The Fire Forest Detection System example is based on the publication **SYSMOD - The Systems Modeling Toolbox, 3rd edition Pragmatic MBSE with SysML, Tim Weilkiens**
 
 # Viewpoint Grid
+
 The Viewpoints are organized as a Grid featuring [Domains](domains.md) as rows and [Aspects](aspects.md) as columns.
 
 ![SAF Grid](diagrams/vp-examples/Grid-Definition-Viewpoint-primary-example.svg)
@@ -23,21 +25,32 @@ The SAF Operational Domain aims to get an understanding of required organization
 ### Operational Domain Viewpoints
 
 #### Operational Domain Aspect Context
+
 * [Operational Story Viewpoint](viewpoints/Operational-Story-Viewpoint.md)
 * [Operational Context Definition Viewpoint](viewpoints/Operational-Context-Definition-Viewpoint.md)
 * [Operational Context Exchange Viewpoint](viewpoints/Operational-Context-Exchange-Viewpoint.md)
+
 #### Operational Domain Aspect Structure
+
 * [Operational Performer Viewpoint](viewpoints/Operational-Performer-Viewpoint.md)
 * [Operational Domain Item Kind Viewpoint](viewpoints/Operational-Domain-Item-Kind-Viewpoint.md)
 * [Operational Capability Viewpoint](viewpoints/Operational-Capability-Viewpoint.md)
 * [Stakeholder Identification Viewpoint](viewpoints/Stakeholder-Identification-Viewpoint.md)
+
 #### Operational Domain Aspect Behavior
+
 * [Operational Process Viewpoint](viewpoints/Operational-Process-Viewpoint.md)
+
 #### Operational Domain Aspect Interaction and Collaboration
+
 * [Operational Interaction Viewpoint](viewpoints/Operational-Interaction-Viewpoint.md)
+
 #### Operational Domain Aspect Requirement
+
 * [Stakeholder Requirement Viewpoint](viewpoints/Stakeholder-Requirement-Viewpoint.md)
+
 #### Operational Domain Aspect Traceability & Mapping
+
 * [Operational Capability Mapping Viewpoint](viewpoints/Operational-Capability-Mapping-Viewpoint.md)
 * [Operational Process Mapping Viewpoint](viewpoints/Operational-Process-Mapping-Viewpoint.md)
 
@@ -50,24 +63,37 @@ The SAF Functional Domain assumes a conceptual black box perspective onto the sy
 ### Functional Domain Viewpoints
 
 #### Functional Domain Aspect Context
+
 * [System Use Case Viewpoint](viewpoints/System-Use-Case-Viewpoint.md)
 * [System Context Definition Viewpoint](viewpoints/System-Context-Definition-Viewpoint.md)
 * [System Context Exchange Viewpoint](viewpoints/System-Context-Exchange-Viewpoint.md)
+
 #### Functional Domain Aspect Structure
+
 * [System Domain Item Kind Viewpoint](viewpoints/System-Domain-Item-Kind-Viewpoint.md)
 * [System Capability Viewpoint](viewpoints/System-Capability-Viewpoint.md)
 * [System Functional Breakdown Structure Viewpoint](viewpoints/System-Functional-Breakdown-Structure-Viewpoint.md)
+
 #### Functional Domain Aspect Behavior
+
 * [System Process Viewpoint](viewpoints/System-Process-Viewpoint.md)
 * System Functional Refinement Viewpoint
 * [System State Viewpoint](viewpoints/System-State-Viewpoint.md)
+
 #### Functional Domain Aspect Interaction and Collaboration
+
 * [System Context Interaction Viewpoint](viewpoints/System-Context-Interaction-Viewpoint.md)
+
 #### Functional Domain Aspect Interface
+
 * [System Interface Definition Viewpoint](viewpoints/System-Interface-Definition-Viewpoint.md)
+
 #### Functional Domain Aspect Requirement
+
 * [System Requirement Viewpoint](viewpoints/System-Requirement-Viewpoint.md)
+
 #### Functional Domain Aspect Traceability & Mapping
+
 * [System Capability Mapping Viewpoint](viewpoints/System-Capability-Mapping-Viewpoint.md)
 * [System Requirement Traceability Viewpoint](viewpoints/System-Requirement-Traceability-Viewpoint.md)
 
@@ -80,11 +106,16 @@ The SAF Logical Domain assume a conceptual white box perspective onto the system
 ### Logical Domain Viewpoints
 
 #### Logical Domain Aspect Structure
+
 * [Logical Structure Definition Viewpoint](viewpoints/Logical-Structure-Viewpoint.md)
+
 #### Logical Domain Aspect Interaction and Collaboration
+
 * [Logical Internal Interaction Viewpoint](viewpoints/Logical-Internal-Interaction-Viewpoint.md)
 * [Logical Internal Exchange Viewpoint](viewpoints/Logical-Internal-Exchange-Viewpoint.md)
-#### Functional Domain Aspect Traceability & Mapping
+
+#### Logical Domain Aspect Traceability & Mapping
+
 * [Logical Functional Mapping Viewpoint](viewpoints/Logical-Functional-Mapping-Viewpoint.md)
 
 ## Physical Domain
@@ -96,36 +127,51 @@ The diagrams generated in the Physical Domain may be used to represent the Produ
 ### Physical Domain Viewpoints
 
 #### Physical Domain Aspect Context
+
 * [Physical Context Definition Viewpoint](viewpoints/Physical-Context-Definition-Viewpoint.md)
 * [Physical Context Exchange Viewpoint](viewpoints/Physical-Context-Exchange-Viewpoint.md)
+
 #### Physical Domain Aspect Structure
+
 * [Physical Structure Viewpoint](viewpoints/Physical-Structure-Viewpoint.md)
+
 #### Physical Domain Aspect Behavior
 #### Physical Domain Aspect Interaction and Collaboration
+
 * [Physical Internal Exchange Viewpoint](viewpoints/Physical-Internal-Exchange-Viewpoint.md)
+
 #### Physical Domain Aspect Interface
+
 * [Physical Interface Definition Viewpoint](viewpoints/Physical-Interface-Definition-Viewpoint.md)
+
 * Physical Protocol Stack Definition Viewpoint
+
 #### Physical Domain Aspect Traceability & Mapping
+
 * [Physical Functional Mapping Viewpoint](viewpoints/Physical-Functional-Mapping-Viewpoint.md)
 * [Physical Logical Mapping Viewpoint](viewpoints/Physical-Logical-Mapping-Viewpoint.md)
 
 ## Common Domain
 
 ### Common Domain Objective
+
 The SAF Common Domain provides viewpoints addressing model information that is common to all other domains or that are applicable throughout the model.
 
 ### Common Domain Viewpoints
+
 * [Argumentation Assurance Viewpoint](viewpoints/Argumentation-Assurance-Viewpoint.md)
 * Common Standards Definition Viewpoint
 * Common Terms & Abbreviations Viewpoint
 * [Grid Definition Viewpoint](viewpoints/Grid-Definition-Viewpoint.md)
 
 # Stakeholder Definition
+
 * [List of Stakeholders](stakeholders.md)
 
 # Concern Overview
+
 * [List of Concerns](concerns.md)
 
 # Profile Model
+
 * [List of Stereotypes](stereotypes.md)
