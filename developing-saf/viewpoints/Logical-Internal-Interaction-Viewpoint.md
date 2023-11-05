@@ -6,7 +6,7 @@
 ## Example
 ![Logical-Internal-Interaction-Viewpoint-primary-example.svg](../../diagrams/vp-examples/Logical-Internal-Interaction-Viewpoint-primary-example.svg)
 ## Purpose
-The Logical Internal Interaction Viewpoint describes System internal behavior based on the exchange between the Logical SOI Elements Usage. It depicts the sequence of interactions between the Logical SOI Elements and the Exchanged Domain Item Kinds needed to accomplish a System Partial Function.
+The Logical Internal Interaction Viewpoint describes System internal behavior based on the exchange between the Logical SOI Elements Usage. It depicts the sequence of interactions between the Logical SOI Elements and the exchanged Domain Item Kinds needed to accomplish a System Partial Function.
 ## Applicability
 The Logical Internal Interaction Viewpoint supports the "Develop Architecture Viewpoints", and the "Develop Models and Views of Candidate Architectures" activity included in the "Architecture Definition process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.4] and contributes to the System Architecture description.
 ## Presentation
@@ -32,11 +32,11 @@ Note: This diagram depicts the sending and receiving of messages between the int
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
-|Interaction [UML_Standard_Profile]|[Internal Logical Interaction Scenario](../concept/concepts.md#Internal-Logical-Interaction-Scenario)|
-|Lifeline [UML_Standard_Profile]|[Internal Logical Scenario Participation](../concept/concepts.md#Internal-Logical-Scenario-Participation)|
-|Message [UML_Standard_Profile]|[Internal Logical Chronological Message](../concept/concepts.md#Internal-Logical-Chronological-Message)|
+|Interaction [UML_Standard_Profile]|[Logical Interaction Scenario](../concept/concepts.md#Logical-Interaction-Scenario)|
+|Lifeline [UML_Standard_Profile]|[Logical Scenario Participation](../concept/concepts.md#Logical-Scenario-Participation)|
+|Message [UML_Standard_Profile]|[Logical Chronological Message](../concept/concepts.md#Logical-Chronological-Message)|
 |[SAF_LogicalElement](../../stereotypes.md#SAF_LogicalElement)|[Logical Element](../concept/concepts.md#Logical-Element)|
-|SAF_LogicalInternalRole contained in SAF_LogicalElement|[Internal Logical Element Role](../concept/concepts.md#Internal-Logical-Element-Role)|
+|SAF_LogicalInternalRole contained in SAF_LogicalElement|[Logical Element Role](../concept/concepts.md#Logical-Element-Role)|
 |[SAF_SLV04a_View](../../stereotypes.md#SAF_SLV04a_View)|[Logical Internal Interaction Viewpoint](../concept/concepts.md#Logical-Internal-Interaction-Viewpoint)|
 ## Input from other Viewpoints
 ### Required Viewpoints

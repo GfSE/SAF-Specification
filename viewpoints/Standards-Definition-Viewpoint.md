@@ -8,9 +8,9 @@
 ## Purpose
 The Standards Definition Viewpoint supports [tbd].
 ## Applicability
-The..
+The Standards Definition Viewpoint supports [tbd].
 ## Presentation
-The..
+A block definition diagram (BDD) featuring [tbd].
 
 ## Stakeholder
 ## Concern

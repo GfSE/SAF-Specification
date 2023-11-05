@@ -6,7 +6,7 @@
 ## Example
 ![System-Context-Interaction-Viewpoint-primary-example.svg](../../diagrams/vp-examples/System-Context-Interaction-Viewpoint-primary-example.svg)
 ## Purpose
-The System Context Interaction Viewpoint describes the System external behavior based on the exchange between Logical SOI and Logical Context Elements Usage within a specific System Context. It depicts the sequence of interactions between the Logical SOI, the Context Elements and the Exchanged Domain Item Kinds needed to accomplish a given System Process. 
+The System Context Interaction Viewpoint describes the System external behavior based on the exchange between Logical SOI and Logical Context Elements Usage in a given System Context. It depicts the sequence of interactions between the Logical SOI, the Context Elements and the exchanged Domain Item Kinds needed to accomplish a given System Process. 
 Note: The System Context Interaction Viewpoint may refine a System Use Case.
 ## Applicability
 The System Context Interaction Viewpoint supports the "Prepare for Requirement Definition" activity included in "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.3] and contributes to the identification of expected interactions with systems external to the SOI.
@@ -33,11 +33,12 @@ Note: This diagram depicts the sending and receiving of messages between the int
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
-|Interaction [UML_Standard_Profile]|[Context Logical Interaction Scenario](../concept/concepts.md#Context-Logical-Interaction-Scenario)|
-|Lifeline [UML_Standard_Profile]|[Context Logical Scenario Participation](../concept/concepts.md#Context-Logical-Scenario-Participation)|
-|Message [UML_Standard_Profile]|[Context Logical Chronological Message](../concept/concepts.md#Context-Logical-Chronological-Message)|
-|SAF_LogicalContextRole contained in SAF_LogicalContext|[Logical Context SOI Role](../concept/concepts.md#Logical-Context-SOI-Role)|
+|Interaction [UML_Standard_Profile]|[System Context Interaction Scenario](../concept/concepts.md#System-Context-Interaction-Scenario)|
+|Lifeline [UML_Standard_Profile]|[System Context Scenario Participation](../concept/concepts.md#System-Context-Scenario-Participation)|
+|Message [UML_Standard_Profile]|[System Context Chronological Message](../concept/concepts.md#System-Context-Chronological-Message)|
+|[SAF_LogicalContext](../../stereotypes.md#SAF_LogicalContext)|[Logical System Context](../concept/concepts.md#Logical-System-Context)|
 |SAF_LogicalContextRole contained in SAF_LogicalContext|[Logical Context Element Role](../concept/concepts.md#Logical-Context-Element-Role)|
+|SAF_LogicalContextRole contained in SAF_LogicalContext|[Logical SOI Role](../concept/concepts.md#Logical-SOI-Role)|
 |[SAF_SFV04a_View](../../stereotypes.md#SAF_SFV04a_View)|[System Context Interaction Viewpoint](../concept/concepts.md#System-Context-Interaction-Viewpoint)|
 ## Input from other Viewpoints
 ### Required Viewpoints

@@ -6,14 +6,18 @@
 ## Example
 ![Physical-Logical-Mapping-Viewpoint-primary-example.svg](../diagrams/vp-examples/Physical-Logical-Mapping-Viewpoint-primary-example.svg)
 ## Purpose
-The Physical Logical Mapping Viewpoint specifies the assignment of the Logical System Elements to the Physical System Elements.
+The Physical Logical Mapping Viewpoint  supports the definition of the assignment of conceptual logical system elements to physical SOI elements.
+
+Following the identification of physical SOI elements capable of performing the system functions of logical elements, the Physical Logical Mapping Viewpoint provides feedback to the System Architecture Definition process to consolidate or confirm the allocation, partitioning, and alignment of logical elements to physical elements that comprise the SOI.
 ## Applicability
-The Physical Functional Mapping Viewpoint supports the "System Architecture Definition process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015  .
+The Physical Logical Mapping Viewpoint supports the “Design Definition Process” activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.5] and contributes to the artifact "Traceability Mapping".
+
+Furthermore, the Physical Logical Mapping Viewpoint supports the "Allocation and Partitioning of Logical Entities to Physical Entities" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§4.4.2.7].
 ## Presentation
-A  Physical To Logical Assigment Matrix featuring
-* Logical Elements roles
-* Physical Elements roles
-* allocation relationships from logical elements roles to physical elements roles
+A LBS_to_PBS mapping matrix featuring
+* Logical Breakdown Structure (LBS)
+* Physical Breakdown Structure (FBS)
+* Allocation from conceptual logical system elements to physical SOI elements
 
 ## Stakeholder
 * [Hardware Developer](../stakeholders.md#Hardware-Developer)
@@ -22,7 +26,7 @@ A  Physical To Logical Assigment Matrix featuring
 * [Software Developer](../stakeholders.md#Software-Developer)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* [Which conceptual Logical Elements are allocated to Physical Elements in the physical architecture](../concerns.md#_2021x_2_8710274_1698399385413_529894_33129)
+* [Which conceptual logical elements are allocated to the physical SOI physical architecture?](../concerns.md#_2021x_2_8710274_1698399385413_529894_33129)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Allocate [SysML Profile]
@@ -34,8 +38,8 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_SPV08a_View](../stereotypes.md#SAF_SPV08a_View)
 ## Input from other Viewpoints
 ### Required Viewpoints
-* [Logical Functional Mapping Viewpoint](Logical-Functional-Mapping-Viewpoint.md)
 * [Logical Structure Viewpoint](Logical-Structure-Viewpoint.md)
 * [Physical Structure Viewpoint](Physical-Structure-Viewpoint.md)
+* [Logical Functional Mapping Viewpoint](Logical-Functional-Mapping-Viewpoint.md)
 ### Recommended Viewpoints
-*none*
+* [System Functional Breakdown Structure Viewpoint](System-Functional-Breakdown-Structure-Viewpoint.md)

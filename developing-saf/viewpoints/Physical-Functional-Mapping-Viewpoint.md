@@ -6,15 +6,16 @@
 ## Example
 ![Physical-Functional-Mapping-Viewpoint-primary-example.svg](../../diagrams/vp-examples/Physical-Functional-Mapping-Viewpoint-primary-example.svg)
 ## Purpose
-The Physical Functional Mapping Viewpoint analyses the assignment of the System Functions and the System Partial Functions to the Physical SOI Elements.
+The Physical Functional Mapping Viewpoint supports the analysis of the assignment (it is derived relationship) of system functions and system partial functions to physical SOI elements.
 ## Applicability
-The Physical Functional Mapping Viewpoint supports the "System Architecture Definition process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015  .
+The Physical Functional Mapping Viewpoint supports the “Design Definition Process” activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.5] and contributes to the artifact "Traceability Mapping".
+
+Furthermore, the Physical Functional Mapping Viewpoint supports the "Allocation and Partitioning of Functional Entities to Physical Entities" activities.
 ## Presentation
-A  Physical Functional Mapping Matrix featuring
-* the call behavior action representing usage of System Functions
-*  Physical SOI Elements 
-or Physical SOI
-* a derived relationship
+A FBS_to_PBS mapping matrix featuring
+* Functional Breakdown Structure (FBS)
+* Physical Breakdown Structure (PBS)
+* mapping (it is a derived relationship) from system functions and system partial functions to physical SOI elements
 
 ## Stakeholder
 * [Hardware Developer](../../stakeholders.md#Hardware-Developer)
@@ -23,8 +24,8 @@ or Physical SOI
 * [Software Developer](../../stakeholders.md#Software-Developer)
 * [System Architect](../../stakeholders.md#System-Architect)
 ## Concern
-* [What is the allocation of functions to the Physical Elements in the physical architecture?](../../concerns.md#_2021x_2_8710274_1674576758941_524652_23399)
-* [Which funcions need to be tested in IV&V activities](../../concerns.md#_2021x_2_8710274_1698399553646_852568_33150)
+* [What is the mapping of functions to the physical SOI physical architecture?](../../concerns.md#_2021x_2_8710274_1674576758941_524652_23399)
+* [Which system funcions need to be tested in IV&V activities?](../../concerns.md#_2021x_2_8710274_1698399553646_852568_33150)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
@@ -40,12 +41,11 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |[SAF_SystemPartialFunction](../../stereotypes.md#SAF_SystemPartialFunction)|[System Partial Function](../concept/concepts.md#System-Partial-Function)|
 ## Input from other Viewpoints
 ### Required Viewpoints
+* [Logical Structure Viewpoint](Logical-Structure-Viewpoint.md)
 * [Physical Structure Viewpoint](Physical-Structure-Viewpoint.md)
 * [Logical Functional Mapping Viewpoint](Logical-Functional-Mapping-Viewpoint.md)
-* [Logical Structure Viewpoint](Logical-Structure-Viewpoint.md)
 ### Recommended Viewpoints
-* [System Process Viewpoint](System-Process-Viewpoint.md)
-* [System Functional Refinement Viewpoint](System-Functional-Refinement-Viewpoint.md)
+* [System Functional Breakdown Structure Viewpoint](System-Functional-Breakdown-Structure-Viewpoint.md)
 # Viewpoint Concept and Profile Diagrams
 ## Concept
 ![Physical Functional Mapping Concept](diagrams/Physical-Functional-Mapping-Concept.svg)

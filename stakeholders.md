@@ -119,7 +119,7 @@ The Developer is a group or an individual implementing the system parts accordin
 ## Concern
 * How do physical system elements interact to provide system functions? 
 
-  ***Rationale:  In my role, I need to implement interfaces with my HW subsystem, if necessary.***
+  ***Rationale:  In my role, I need to implement the interfaces in my HW subsystem, if necessary.***
 * What are the Interface Requirements regarding bandwidth, data throughput and latency?
 * What are the encryption means used for an exchange?
 * What are the functional requirements imposed on the system? 
@@ -132,29 +132,29 @@ The Developer is a group or an individual implementing the system parts accordin
 * What is the allocated reliability for the complete item?
 * What is the allocated space?
 * What is the allocated weight?
-* What is the allocation of functions to the Physical Elements in the physical architecture? 
+* What is the mapping of functions to the physical SOI physical architecture? 
 
-  ***Rationale:  In my role, I need to implement the realization of sub-functions by my HW subsystem.***
+  ***Rationale:  In my role, I need to implement the sub-functions in my HW subsystem.***
 * What is the necessary processing performance?
 * What is the necessary response time for an interface or a service?
 * What is the sequence of interactions among the system and context elements on physical level? 
 
-  ***Rationale:  In my role, I need to implement interfaces  to elements of the system context.***
+  ***Rationale:  In my role, I need to implement the interfaces in the elements of the system context.***
 * Which Stakeholders are relevant to the system and might impose requirements? 
 
   ***Rationale:  In my role, I need to give feedback on existing or missing stakeholders.***
 * Which are the protocols for exchanging physical items on a specific interface? 
 
   ***Rationale:  In my role, I need to implement the protocol.***
-* Which conceptual Logical Elements are allocated to Physical Elements in the physical architecture 
-
-  ***Rationale:  In my role, as design authority I have to ensure that the HW Element fulfills the allocated logical concept (specification).***
 * Which conceptual items (energy, material, information, etc.) are exchanged within the system? 
 
   ***Rationale:  In my role, I need to understand the concepts of system internal interfaces  in order to implement them.***
-* Which functions are allocated to a Logical Element of the logical architecture? 
+* Which conceptual logical elements are allocated to the physical SOI physical architecture? 
 
-  ***Rationale:  In my role, I need to take this into account when planning realization.***
+  ***Rationale:  In my role, as design authority I have to ensure that the HW Element fulfills the allocated logical concept (specification).***
+* Which functions are allocated to the logical SOI logical architecture? 
+
+  ***Rationale:  In my role, I need to take this into account when planning implementation.***
 * Which functions will the system provide? 
 
   ***Rationale:  In my role, I need to provide qualified feedback on how my how the sub-functions assigned to my subsystem contributes to the function of the system.***
@@ -169,7 +169,7 @@ The Developer is a group or an individual implementing the system parts accordin
   ***Rationale:  In my role, I must use these in interface design.***
 * Which kind of physical items (energy, material, information, etc.) are used on an interface of a physical architecture element? 
 
-  ***Rationale:  In my role, I need to implement interfaces with my HW subsystem, if necessary.***
+  ***Rationale:  In my role, I need to implement the interfaces in my HW subsystem, if necessary.***
 * Which modes and states does the system have? 
 
   ***Rationale:  In my role, I need to know which system modes and states my subsystem must support.***
@@ -221,13 +221,12 @@ IV&V Engineers are individuals or groups responsible for integration, validation
 * Which are the protocols for exchanging physical items on a specific interface? 
 
   ***Rationale:  In my role, I need to integrate and test the interface.***
-* Which conceptual Logical Elements are allocated to Physical Elements in the physical architecture 
-
-  ***Rationale:  In my role, I have to plan IV&V activities to evaluate the Physical Element as unit under test against the logical concept (specification).***
 * Which conceptual items (energy, material, information, etc.) are exchanged within the system? 
 
   ***Rationale:  In my role, I need to integrate and test the interfaces.***
-* Which funcions need to be tested in IV&V activities
+* Which conceptual logical elements are allocated to the physical SOI physical architecture? 
+
+  ***Rationale:  In my role, I have to plan IV&V activities to evaluate the Physical Element as unit under test against the logical concept (specification).***
 * Which functions will the system provide? 
 
   ***Rationale:  In my role, I need to understand the system in order to put it into operation.***
@@ -252,6 +251,7 @@ IV&V Engineers are individuals or groups responsible for integration, validation
 * Which standards, protocols, and format specifications apply to a physical interface? 
 
   ***Rationale:  In my role, I need to test and integrate them.***
+* Which system funcions need to be tested in IV&V activities?
 * Which users does the system support?  
 
   ***Rationale:  In my role, I need to cover these users with my test.***
@@ -270,15 +270,15 @@ Organization that performs development tasks (including requirements analysis, d
 The Developer is a group or an individual implementing the system parts according to defined requirements. On the lowest level of the system architecture there are the Mechanic Developer responsible for implementing the mechanical components.
 
 ## Concern
-* What is the allocation of functions to the Physical Elements in the physical architecture? 
+* What is the mapping of functions to the physical SOI physical architecture? 
 
-  ***Rationale:  In my role, I need to implement the realization of sub-functions by my mechanical subsystem***
-* Which conceptual Logical Elements are allocated to Physical Elements in the physical architecture 
+  ***Rationale:  In my role, I need to implement the sub-functions in my mechanical subsystem***
+* Which conceptual logical elements are allocated to the physical SOI physical architecture? 
 
   ***Rationale:  In my role, as design authority I have to ensure that the Physical Element fulfills the allocated logical concept (specification).***
 * Which kind of physical items (energy, material, information, etc.) are used on an interface of a physical architecture element? 
 
-  ***Rationale:  In my role, I need to implement interfaces with my mechanical subsystem, if necessary.***
+  ***Rationale:  In my role, I need to implement the interfaces in my mechanical subsystem, if necessary.***
 * what are the interface definitions for the physical architecture 
 
   ***Rationale:  In my role, I need to implement the interface.***
@@ -468,7 +468,7 @@ The Developer is a group or an individual implementing the system parts accordin
 ## Concern
 * How do physical system elements interact to provide system functions? 
 
-  ***Rationale:  In my role, I need to implement interfaces with my SW subsystem, if necessary.***
+  ***Rationale:  In my role, I need to implement the interfaces in my SW subsystem, if necessary.***
 * What are precision and accuracy requirements for presentation of data items on an interface?
 * What are precision and accuracy requirements for processing of data items?
 * What are the Interface Requirements regarding bandwidth, data throughput and latency?
@@ -480,26 +480,26 @@ The Developer is a group or an individual implementing the system parts accordin
 * What are the non-functional requirements imposed on the system? 
 
   ***Rationale:  In my role, I need to trace my derived requirements against these ones relevant to me.***
-* What is the allocation of functions to the Physical Elements in the physical architecture? 
+* What is the mapping of functions to the physical SOI physical architecture? 
 
-  ***Rationale:  In my role, I need to implement the realization of sub-functions by my SW subsystem.***
+  ***Rationale:  In my role, I need to implement the sub-functions in my SW subsystem.***
 * What is the necessary response time for an interface or a service?
 * What is the sequence of interactions among the system and context elements on physical level? 
 
-  ***Rationale:  In my role, I need to implement interfaces  to elements of the system context.***
+  ***Rationale:  In my role, I need to implement the interfaces in the elements of the system context.***
 * Which Stakeholders are relevant to the system and might impose requirements? 
 
   ***Rationale:  In my role, I need to give feedback on existing or missing stakeholders.***
 * Which are the protocols for exchanging physical items on a specific interface? 
 
   ***Rationale:  In my role, I need to implement the protocol.***
-* Which conceptual Logical Elements are allocated to Physical Elements in the physical architecture 
-
-  ***Rationale:  In my role, as design authority I have to ensure that the SW Element fulfills the allocated logical concept (specification).***
 * Which conceptual items (energy, material, information, etc.) are exchanged within the system? 
 
   ***Rationale:  In my role, I need to understand the concepts of system internal interfaces  in order to implement them.***
-* Which functions are allocated to a Logical Element of the logical architecture? 
+* Which conceptual logical elements are allocated to the physical SOI physical architecture? 
+
+  ***Rationale:  In my role, as design authority I have to ensure that the SW Element fulfills the allocated logical concept (specification).***
+* Which functions are allocated to the logical SOI logical architecture? 
 
   ***Rationale:  In my role, I need to take this into account when planning implementation.***
 * Which functions will the system provide? 
@@ -516,7 +516,7 @@ The Developer is a group or an individual implementing the system parts accordin
   ***Rationale:  In my role, I must use these in interface design.***
 * Which kind of physical items (energy, material, information, etc.) are used on an interface of a physical architecture element? 
 
-  ***Rationale:  In my role, I need to implement interfaces with my SW subsystem, if necessary.***
+  ***Rationale:  In my role, I need to implement the interfaces in my SW subsystem, if necessary.***
 * Which modes and states does the system have? 
 
   ***Rationale:  In my role, I need to know which system modes and states my subsystem must support.***
@@ -565,7 +565,7 @@ The System Architect as an individual or group performing the systems engineerin
 * How do the physical system elements interact to provide the system function?
 * How does a system function interact with its environment? 
 
-  ***Rationale:  In my role, I need to delegate the realization of interfaces to subsystems.***
+  ***Rationale:  In my role, I need to delegate the implementation of interfaces in subsystems.***
 * How does criticality propagate down the system hierarchy?
 * How is a safety critical function decomposed and allocated? 
 
@@ -587,10 +587,10 @@ The System Architect as an individual or group performing the systems engineerin
 * What are the encryption means used for an exchange?
 * What are the functional requirements imposed on the system? 
 
-  ***Rationale:  In my role, I need to check whether the system design realizes the System Requirements.***
+  ***Rationale:  In my role, I need to check whether the system design implements the System Requirements.***
 * What are the non-functional requirements imposed on the system? 
 
-  ***Rationale:  In my role, I need to check whether the system design realizes the System Requirements.***
+  ***Rationale:  In my role, I need to check whether the system design implements the System Requirements.***
 * What are the normal and extreme environmental conditions for normal operation, for not operational, for storage, and for transport?
 * What are the planned architectural means for risk mitigation?
 * What are the protocols used for exchanging information? 
@@ -600,15 +600,15 @@ The System Architect as an individual or group performing the systems engineerin
 * What are the scenarios a system function is utilized in?
 * What concerns and rationals does a Stakeholder have?
 * What existing elements of the organization, enterprise, or operational entity need to be integrated in the intended solution?
-* What is the allocation of functions to the Physical Elements in the physical architecture? 
-
-  ***Rationale:  In my role, I need to delegate the realization of sub-function by physical (HW/SW/...) subsystems.***
 * What is the breakdown of functions into sub-functions?
 * What is the configuration or version of each configuration item?
 * What is the context of the organization, enterprise, or operational entity?
 * What is the flow of critical information and data through the system?
 * What is the lack / deficiency / gap in current capability implementation that is addressed with the intended solution?
 * What is the logical breakdown of the system?
+* What is the mapping of functions to the physical SOI physical architecture? 
+
+  ***Rationale:  In my role, I need to delegate the implementation of sub-function in physical subsystems (HW/SW/...).***
 * What is the necessary response time for an interface or a service?
 * What is the physical breakdown of the system? 
 
@@ -633,13 +633,13 @@ The System Architect as an individual or group performing the systems engineerin
 * Which are the protocols for exchanging physical items on a specific interface? 
 
   ***Rationale:  In my role, I need to asses if the usage of protocols on interfaces is compatible with the system lifecyle concepts.***
-* Which conceptual Logical Elements are allocated to Physical Elements in the physical architecture 
-
-  ***Rationale:  In my role, I have to check that all aspects of the logical concept (specification) are allocated to physical elements (with assigned design authorities).***
 * Which conceptual items (energy, material, information, etc.) are exchanged within the system? 
 
   ***Rationale:  In my role, I use them as basis for understanding interfaces on logical level.***
-* Which functions are allocated to a Logical Element of the logical architecture?
+* Which conceptual logical elements are allocated to the physical SOI physical architecture? 
+
+  ***Rationale:  In my role, I have to check that all aspects of the logical concept (specification) are allocated to physical elements (with assigned design authorities).***
+* Which functions are allocated to the logical SOI logical architecture?
 * Which functions will the system provide? 
 
   ***Rationale:  In my role, I need to break these down further to be able to delegate sub-functions to subsystems.***
@@ -679,7 +679,7 @@ The System Architect as an individual or group performing the systems engineerin
 * Which system functions are dependent on a systems mode or state?
 * Which users does the system support?  
 
-  ***Rationale:  In my role, I need to delegate the realization of HMI to subsystems.***
+  ***Rationale:  In my role, I need to delegate the implementation of HMI in subsystems.***
 * Who are the (Major) Stakeholders involved in the intended solution? 
 
   ***Rationale:  In my role, I need to give feedback on existing or missing stakeholders.***

@@ -18,7 +18,7 @@
 | PIPapplyingToPCE | Specifies the fact that a Physical Interaction Point applies to a Physical Context Element.|
 | Physical Connection | Specifies the connection of two physical interaction points.<br>Note: Connections between physical components indicate that item flows are passed from one output of a source component to one or more inputs of target components.|
 | Physical Connector Compatibility | Specifies the fact that two Physical Interaction Point Definitions are compatible and how the Physical Interaction Point Properties are mapped.|
-| Physical Context Element | Abstract element of a System Context  in the Physical Domain, outside the SOI scope, interacting with the SOI.|
+| Physical Context Element | Abstract element of a System Context on Physical Level, outside the SOI scope, interacting with the SOI.|
 | Physical Element | A composition of Hardware and Software Elements. Similarity with the V-Model segments and system. See [VXT].|
 | Physical Environment | The Physical Environment in the Physical Domain, outside the SOI scope, interacting with the SOI. E.g. air, dirt, sun, road.|
 | Physical Exchange Kind | Specification for any kind of physical item (energy, material, information, etc.) to be exchanged on Physical Level. This is the realization of the specification made by System Domain Kinds.|
@@ -27,6 +27,6 @@
 | Physical Interaction Point Definition | Specifies the exchange capabilities of an interaction point on Physical Level.|
 | Physical Interaction Point Property | Specifies a detail of an interaction point on Physical Level.|
 | Physical Item Exchange | Specifies the exchange that is to take place on a Physical Connection.|
-| Physical SOI | Represents the Physical SOI in the Physical Domain.|
+| Physical SOI | Represents the Physical SOI on Physical Level.|
 | Physical User | The Physical User is the representation for a human in the physical domain, outside the SOI scope, interacting with the SOI.|
 | Software Element | Pure Software Elements. Similarity with the V-Model "software unit".|

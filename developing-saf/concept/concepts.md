@@ -51,14 +51,6 @@ realized by Stereotype [SAF_ContextFunction](../../stereotypes.md#SAF_ContextFun
 
 Specifies the fact that a fundamental action or task is expected to be carried out by an External Entity. 
 Note: The intention is to capture the expectations and to explicitly dissect the functionality. This must not be interpreted as an attempt for a behavior specification of an External Entity. Capturing this valuable information is the basis to reach agreement on the functionality at the System boundary by clarifying the expectations about what is performed by Context Elements.
-## Context Logical Interaction Scenario
-exposed in viewpoint [System Context Interaction Viewpoint](../viewpoints/System-Context-Interaction-Viewpoint.md)
-
-realized by Metaclass Interaction
-
-
-
-Ordered sequence of exchanges of information, energy, or material between Logical Interaction Scenario Participants.
 ## CounterClaim
 exposed in viewpoint [Argumentation Assurance Viewpoint](../viewpoints/Argumentation-Assurance-Viewpoint.md)
 
@@ -86,9 +78,9 @@ realized by Stereotype [SAF_SystemFunctionalRequirement](../../stereotypes.md#SA
 
 Functional Requirements specify System Functions of the System.
 ## General Context
-Specifies a general context.
+Specifies a General Context.
 ## General Context Element
-Specifies a general context element.
+Specifies a General Context Element.
 ## General Function
 realized by Metaclass Activity
 
@@ -132,7 +124,7 @@ exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-V
 
 realized by Stereotype [SAF_SCV02b_View](../../stereotypes.md#SAF_SCV02b_View)
 
-The grid manages the viewpoints in grid cells assigned to the categories of an domain (rows) and an aspect (columns).
+The grid manages the viewpoints in grid cells assigned to the categories of an domain (row) and an aspect (column).
 ## Grid Cell
 exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-Viewpoint.md)
 
@@ -155,16 +147,16 @@ Specifies the existence of an interaction point.
 Specifies the exchange capabilities of an interaction point on Physical Level.
 ## Interaction Point Property
 Specifies a detail of an interaction point.
-## Internal Logical Interaction Scenario
-exposed in viewpoint [Logical Internal Interaction Viewpoint](../viewpoints/Logical-Internal-Interaction-Viewpoint.md)
-
-realized by Metaclass Interaction
-
-
-
-Ordered sequence of exchanges of information, energy, or material between Internal Logical Interaction Scenario Participants.
 ## Logical Context Element
-Abstract element of a System Context in the Logical Domain, outside the SOI scope, interacting with the SOI.
+Represents an abstract element in the given System Context on Logical Level, outside the SOI scope, interacting with the SOI.
+## Logical Context SOI
+exposed in viewpoint [Logical Structure Viewpoint](../viewpoints/Logical-Structure-Viewpoint.md)
+
+exposed in viewpoint [System Context Definition Viewpoint](../viewpoints/System-Context-Definition-Viewpoint.md)
+
+realized by Stereotype [SAF_LogicalSOI](../../stereotypes.md#SAF_LogicalSOI)
+
+Represents the Logical SOI in the System Context on Logical Level.
 ## Logical Element
 exposed in viewpoint [Logical Functional Mapping Viewpoint](../viewpoints/Logical-Functional-Mapping-Viewpoint.md)
 
@@ -176,9 +168,7 @@ exposed in viewpoint [Physical Logical Mapping Viewpoint](../viewpoints/Physical
 
 realized by Stereotype [SAF_LogicalElement](../../stereotypes.md#SAF_LogicalElement)
 
-Describes a logical, conceptual system as specification for an implementation of a system, or system part.
-## Logical Element Role
-General part of a logical System Context
+Describes a conceptual Logical Element as specification for an implementation of a system, or system element.
 ## Logical Environment
 exposed in viewpoint [System Context Definition Viewpoint](../viewpoints/System-Context-Definition-Viewpoint.md)
 
@@ -231,6 +221,14 @@ realized by Stereotype FlowProperty
 
 
 Specifies a detail of an interaction point on Logical Level.
+## Logical Interaction Scenario
+exposed in viewpoint [Logical Internal Interaction Viewpoint](../viewpoints/Logical-Internal-Interaction-Viewpoint.md)
+
+realized by Metaclass Interaction
+
+
+
+Ordered sequence of exchanges of information, energy, or material between Logical Interaction Scenario Participants.
 ## Logical Item Exchange
 exposed in viewpoint [Logical Internal Exchange Viewpoint](../viewpoints/Logical-Internal-Exchange-Viewpoint.md)
 
@@ -243,14 +241,6 @@ realized by Stereotype ItemFlow
 
 
 Specifies the exchange that is to take place on a connection of two interaction points on Logical Level.
-## Logical SOI
-exposed in viewpoint [Logical Structure Viewpoint](../viewpoints/Logical-Structure-Viewpoint.md)
-
-exposed in viewpoint [System Context Definition Viewpoint](../viewpoints/System-Context-Definition-Viewpoint.md)
-
-realized by Stereotype [SAF_LogicalSOI](../../stereotypes.md#SAF_LogicalSOI)
-
-A SOI representation in the Logical Domain.
 ## Logical System Context
 exposed in viewpoint [System Context Definition Viewpoint](../viewpoints/System-Context-Definition-Viewpoint.md)
 
@@ -258,7 +248,7 @@ exposed in viewpoint [System Context Exchange Viewpoint](../viewpoints/System-Co
 
 realized by Stereotype [SAF_LogicalContext](../../stereotypes.md#SAF_LogicalContext)
 
-Specifies the fact that a context for a System of Interest is defined on Logical Level.
+Specifies the fact that a System Context for a System of Interest is defined on Logical Level.
 ## Logical User
 exposed in viewpoint [System Context Definition Viewpoint](../viewpoints/System-Context-Definition-Viewpoint.md)
 
@@ -398,7 +388,7 @@ The Operational Story represents one or more Operational Use Cases in the Usage 
 ## Physical Connector Compatibility
 Specifies the fact that two Physical Interaction Point Definitions are compatible and how the Physical Interaction Point Properties are mapped.
 ## Physical Context Element
-Abstract element of a System Context  in the Physical Domain, outside the SOI scope, interacting with the SOI.
+Abstract element of a System Context on Physical Level, outside the SOI scope, interacting with the SOI.
 ## Physical Element
 exposed in viewpoint [Physical Functional Mapping Viewpoint](../viewpoints/Physical-Functional-Mapping-Viewpoint.md)
 
@@ -484,13 +474,13 @@ exposed in viewpoint [Physical Structure Viewpoint](../viewpoints/Physical-Struc
 
 realized by Stereotype [SAF_PhysicalSystem](../../stereotypes.md#SAF_PhysicalSystem)
 
-Represents the Physical SOI in the Physical Domain.
+Represents the Physical SOI on Physical Level.
 ## Physical System Context
 exposed in viewpoint [Physical Context Definition Viewpoint](../viewpoints/Physical-Context-Definition-Viewpoint.md)
 
 realized by Stereotype [SAF_PhysicalContext](../../stereotypes.md#SAF_PhysicalContext)
 
-Defines a context for a System of Interest on Physical Level.
+Specifies the fact that a context for a System of Interest is defined on Physical Level.
 ## Physical User
 exposed in viewpoint [Physical Context Definition Viewpoint](../viewpoints/Physical-Context-Definition-Viewpoint.md)
 
@@ -534,7 +524,7 @@ realized by Stereotype [SAF_Subject](../../stereotypes.md#SAF_Subject)
 
 Note: A claim can not be generic, it have to be about something, it has to have a defined subject, e.g., system safety.
 ## System
-An abstract element representing a system.
+An abstract element representing a System.
 ## System Capability
 exposed in viewpoint [System Capability Mapping Viewpoint](../viewpoints/System-Capability-Mapping-Viewpoint.md)
 
@@ -551,9 +541,19 @@ Aliases:
 UAF::Capability
 NAF4::Capability
 ## System Context
-Defines a context for a System of Interest.
+Specifies the fact that a context for a System of Interest is defined.
 ## System Context Element
-An abstract element of the SOI context. Base class for specific kinds of context elements.
+An abstract element representing a System Context Element. Base class for specific kinds of Context Elements.
+## System Context Interaction Scenario
+exposed in viewpoint [System Context Interaction Viewpoint](../viewpoints/System-Context-Interaction-Viewpoint.md)
+
+realized by Metaclass Interaction
+
+
+
+Ordered sequence of exchanges of information, energy, or material between System Context Interaction Scenario Participants.
+## System Context Role
+General role of a Logical System Context.
 ## System Domain Kind
 exposed in viewpoint [Logical Internal Exchange Viewpoint](../viewpoints/Logical-Internal-Exchange-Viewpoint.md)
 
@@ -588,7 +588,7 @@ A System Function
  * is dependent on System's State
 Note: A System Function does not need to expose observable output, when it changes the System's state in a way that is observable by other system functions. Furthermore, a System Function does not need to accept any input from the system boundary, when it is dependent on the System State, which in turn is changeable by other System Functions.
 ## System Of Interest
-An abstract element representing the SOI. Base for specific perspectives on SOI (logical , physical)
+An abstract element representing a SOI. Base class for specific kinds of SOIs.
 ## System Partial Function
 exposed in viewpoint [Logical Functional Mapping Viewpoint](../viewpoints/Logical-Functional-Mapping-Viewpoint.md)
 
@@ -674,11 +674,11 @@ Note: This seems to be highly redundant with definition of "Role".
 ## View
 realized by Stereotype [SAF_Diagram](../../stereotypes.md#SAF_Diagram)
 
-
+A architecture view comprises portion of an architecture description and addresses information-relevant concerns framed by a architecture viewpoint.
 ## Viewpoint
 realized by Stereotype [SAF_Viewpoint](../../stereotypes.md#SAF_Viewpoint)
 
-
+A architecture viewpoint defines set of conventions for the creation, interpretation and use of an architecture view to frame one or more concerns
 # Association Concepts
 ## AGTsupportingCLM
 0..* [Argument](#Argument) AGTsupportingCLM 1..* [Claim](#Claim) 
@@ -709,10 +709,6 @@ Specifies the fact that any claimable item, e.g., claim, argument, and evidence,
 
 Specifies the fact that a Context Function is assigned to a Logical Context Element.
 Note: This fact may be derived from the Usage of Function of a Context Function allocated to a Logical Context Element.
-## CLIScontainingLCM
-1 [Context Logical Interaction Scenario](#Context-Logical-Interaction-Scenario) CLIScontainingLCM 0..* [Context Logical Chronological Message](#Context-Logical-Chronological-Message) 
-
-Specifies the fact that a Logical Interaction Scenario contains one or more Logical Chronological Messages.
 ## CLMbeingMadeAboutSBT
 1 [Claim](#Claim) CLMbeingMadeAboutSBT 0..1 [Subject](#Subject) 
 
@@ -747,6 +743,14 @@ Specifies the fact that a Stakeholder Requirement has certain States of Complian
 1 [Connection](#Connection) CallowingE 0..* [Exchange](#Exchange) 
 
 Specifies the fact that a connection allows Exchange to happen
+## EEfromSM
+1 [Exchange](#Exchange) EEfromSM 1 [System](#System) 
+
+Specifies that an exchange comes from a system
+## EEtoSM
+1 [Exchange](#Exchange) EEtoSM 1 [System](#System) 
+
+Specifies that an exchange goes to a system
 ## EKtypingE
 1 [Exchange Kind](#Exchange-Kind) EKtypingE 0..* [Exchange](#Exchange) 
 
@@ -763,14 +767,6 @@ exposed in viewpoint [Argumentation Assurance Viewpoint](../viewpoints/Argumenta
 realized by Stereotype [SAF_EvidenceArgumentReinforcement](../../stereotypes.md#SAF_EvidenceArgumentReinforcement)
 
 Specifies the fact that an argument is reinforced by one or more evidence via a argument-evidence relation.
-## EfromS
-1 [Exchange](#Exchange) EfromS 1 [System](#System) 
-
-Specifies that an exchange comes from a system
-## EtoS
-1 [Exchange](#Exchange) EtoS 1 [System](#System) 
-
-Specifies that an exchange goes to a system
 ## FRboundedByNFR
 1..* [Functional Requirement](#Functional-Requirement) FRboundedByNFR 0..* [Non-functional Requirement](#Non-functional-Requirement) 
 
@@ -789,34 +785,52 @@ exposed in viewpoint [System Requirement Traceability Viewpoint](../viewpoints/S
 realized by Stereotype [SAF_SystemFunctionalRequirementRefinement](../../stereotypes.md#SAF_SystemFunctionalRequirementRefinement)
 
 Specifies the fact that a System Function is refined by Functional Requirements.
-## GCBelongsToDN
-1..* [Grid Cell](#Grid-Cell) GCBelongsToDN 1 [Domain](#Domain) 
-
-exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-Viewpoint.md)
-
-realized by Stereotype [SAF_SCV02b_View](../../stereotypes.md#SAF_SCV02b_View)
-
-Specifies that a grid cell is assigned to one domain.
-## GCbelongsToAT
-1..* [Grid Cell](#Grid-Cell) GCbelongsToAT 1 [Aspect](#Aspect) 
+## GCbelongingToAT
+1..* [Grid Cell](#Grid-Cell) GCbelongingToAT 1 [Aspect](#Aspect) 
 
 exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-Viewpoint.md)
 
 realized by Stereotype [SAF_SCV02b_View](../../stereotypes.md#SAF_SCV02b_View)
 
 Specifies that a grid cell is assigned to one aspect.
-## GCcontainsVP
-1 [Grid Cell](#Grid-Cell) GCcontainsVP 0..* [Viewpoint](#Viewpoint) 
+## GCbelongingToDN
+1..* [Grid Cell](#Grid-Cell) GCbelongingToDN 1 [Domain](#Domain) 
+
+exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-Viewpoint.md)
+
+realized by Stereotype [SAF_SCV02b_View](../../stereotypes.md#SAF_SCV02b_View)
+
+Specifies that a grid cell is assigned to one domain.
+## GCcontainingVP
+1 [Grid Cell](#Grid-Cell) GCcontainingVP 0..* [Viewpoint](#Viewpoint) 
 
 exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-Viewpoint.md)
 
 
-## GCcontainsView
-1 [Grid Cell](#Grid-Cell) GCcontainsView 1 [View](#View) 
+## GCcontainingVW
+1 [Grid Cell](#Grid-Cell) GCcontainingVW 1 [View](#View) 
 
 realized by Stereotype [SAF_SCV02b_View](../../stereotypes.md#SAF_SCV02b_View)
 
-Specifies that the grid cell contains views.
+Specifies that a grid cell contains views.
+## GDcontainingAT
+1 [Grid](#Grid) GDcontainingAT 1..* [Aspect](#Aspect) 
+
+exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-Viewpoint.md)
+
+Specifies that the grid is composed of several aspects.
+## GDcontainingDN
+1 [Grid](#Grid) GDcontainingDN 1 [Domain](#Domain) 
+
+exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-Viewpoint.md)
+
+Specifies that the grid is composed of several domains.
+## GDcontainingGC
+1 [Grid](#Grid) GDcontainingGC 1..* [Grid Cell](#Grid-Cell) 
+
+exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-Viewpoint.md)
+
+Specifies that the grid is composed of several grid cells.
 ## GFEbeingPartOfGFNU
 0..* [General Functional Exchange](#General-Functional-Exchange) GFEbeingPartOfGFNU 1 [General Functional Usage](#General-Functional-Usage) 
 
@@ -855,38 +869,6 @@ Specifies the Input of a System or Context Function.
 1 [General Function](#General-Function) GFNsendingOUPUT 0..* [General Functional Parameter](#General-Functional-Parameter) 
 
 Specifies the Output of a System or Context Function.
-## GcontainsAT
-1 [Grid](#Grid) GcontainsAT 1..* [Aspect](#Aspect) 
-
-exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-Viewpoint.md)
-
-Specifies that the grid is composed of several aspects.
-## GcontainsDN
-1 [Grid](#Grid) GcontainsDN 1 [Domain](#Domain) 
-
-exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-Viewpoint.md)
-
-Specifies that the grid is composed of several domains.
-## GcontainsGC
-1 [Grid](#Grid) GcontainsGC 1..* [Grid Cell](#Grid-Cell) 
-
-exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-Viewpoint.md)
-
-Specifies that the grid is composed of several grid cells.
-## ILERspecifyingAPR
-1..* [Internal Logical Element Role](#Internal-Logical-Element-Role) ILERspecifyingAPR 1 [General Physical Role](#General-Physical-Role) 
-
-exposed in viewpoint [Physical Logical Mapping Viewpoint](../viewpoints/Physical-Logical-Mapping-Viewpoint.md)
-
-realized by Stereotype Allocate
-
-
-
-Specifies that a usage of a logical element specifies functions for the usage of a physical element.
-## ILIScontainingILCM
-1 [Internal Logical Interaction Scenario](#Internal-Logical-Interaction-Scenario) ILIScontainingILCM 0..* [Internal Logical Chronological Message](#Internal-Logical-Chronological-Message) 
-
-Specifies the fact that an Internal Logical Interaction Scenario contains one or more Internal Logical Chronological Messages.
 ## IPDtypingIP
 1 [Interaction Point Definition](#Interaction-Point-Definition) IPDtypingIP 0..* [Interaction Point](#Interaction-Point) 
 
@@ -929,6 +911,16 @@ Specifies the fact that a Logical Interaction Point is constrained to be impleme
 1..* [Logical Environment](#Logical-Environment) LENconceptingPEN 1..* [Physical Environment](#Physical-Environment) 
 
 Specifies the fact that a logical Environment Entity is a concept for a Physical Environment Entity.
+## LERspecifyingGPR
+1..* [Logical Element Role](#Logical-Element-Role) LERspecifyingGPR 1 [General Physical Role](#General-Physical-Role) 
+
+exposed in viewpoint [Physical Logical Mapping Viewpoint](../viewpoints/Physical-Logical-Mapping-Viewpoint.md)
+
+realized by Stereotype Allocate
+
+
+
+Specifies that a usage of a Logical Element specifies functions for the usage of a Physical Element.
 ## LESconceptingPES
 1..* [Logical External System](#Logical-External-System) LESconceptingPES 1..* [Physical External System](#Physical-External-System) 
 
@@ -951,7 +943,7 @@ exposed in viewpoint [Logical Functional Mapping Viewpoint](../viewpoints/Logica
 Specifies the fact that a Logical Element is responsible to implement a System Function.
 Note: Logical Elements don't "implement" anything, they pass the function implementation task to Physical Elements.
 ## LETperformingSFN
-1..* [Logical Context SOI Role](#Logical-Context-SOI-Role) LETperformingSFN 1..* [System Function IN System Process](#System-Function-IN-System-Process) 
+1..* [Logical SOI Role](#Logical-SOI-Role) LETperformingSFN 1..* [System Function IN System Process](#System-Function-IN-System-Process) 
 
 exposed in viewpoint [System Process Viewpoint](../viewpoints/System-Process-Viewpoint.md)
 
@@ -1021,6 +1013,10 @@ realized by Metaclass Property
 
 
 Specifies the fact that a Logical Interaction Point applies to a Logical Element.
+## LIScontainingILCM
+1 [Logical Interaction Scenario](#Logical-Interaction-Scenario) LIScontainingILCM 0..* [Logical Chronological Message](#Logical-Chronological-Message) 
+
+Specifies the fact that an Internal Logical Interaction Scenario contains one or more Internal Logical Chronological Messages.
 ## LURconceptingPUR
 1..* [Logical User](#Logical-User) LURconceptingPUR 1..* [Physical User](#Physical-User) 
 
@@ -1296,6 +1292,10 @@ exposed in viewpoint [Stakeholder Identification Viewpoint](../viewpoints/Stakeh
 realized by Stereotype [SAF_ContextElementRepresentation](../../stereotypes.md#SAF_ContextElementRepresentation)
 
 Specifies the fact that a SOI Stakeholder represents a System Context Element.
+## SCIScontainingLCM
+1 [System Context Interaction Scenario](#System-Context-Interaction-Scenario) SCIScontainingLCM 0..* [System Context Chronological Message](#System-Context-Chronological-Message) 
+
+Specifies the fact that a System Context Interaction Scenario contains one or more System Context Chronological Messages.
 ## SCYcomposedOF
 1 [System Capability](#System-Capability) SCYcomposedOF 0..* [System Capability](#System-Capability) 
 
@@ -1415,7 +1415,7 @@ realized by Attribute "function" of SAF_PhysicalItem referencing SAF_SystemFunct
 
 Specifies the fact that a relationship is derived from the assignment of Functions to Logical Elements and the assignment of Logical Elements to Physical Elements.
 ## SFNallocatedToLET
-1..* [System Function](#System-Function) SFNallocatedToLET 1 [Logical SOI](#Logical-SOI) 
+1..* [System Function](#System-Function) SFNallocatedToLET 1 [Logical Context SOI](#Logical-Context-SOI) 
 
 Specifies the fact that a System Function is assigned to a Logical SOI.
 Note: This fact may be derived from the Usage of a System Function in a System Process allocated to a Logical Context SOI Role.
@@ -1475,6 +1475,14 @@ exposed in viewpoint [Stakeholder Requirement Viewpoint](../viewpoints/Stakehold
 realized by Stereotype [SAF_StakeholderRequirementRefinement](../../stereotypes.md#SAF_StakeholderRequirementRefinement)
 
 Specifies the fact that an Operational Story is refined by Stakeholder Requirements.
+## SMhavingGF
+1 [System](#System) SMhavingGF 1..* [General Function](#General-Function) 
+
+Specifies, that a system has general functions.
+## SMhavingIP
+1 [System](#System) SMhavingIP 0..* [Interaction Point](#Interaction-Point) 
+
+Specifies the fact that a System has one or more Interaction Points.
 ## SOIactingForOPR
 0..* [System Of Interest](#System-Of-Interest) SOIactingForOPR 1 [Operational Performer](#Operational-Performer) 
 
@@ -1648,16 +1656,8 @@ exposed in viewpoint [System Use Case Viewpoint](../viewpoints/System-Use-Case-V
 realized by Attribute "subject" of UseCase referencing SAF_LogicalContext
 
 Specifies the fact that a System Use Case takes place in a Logical System Context.
-## ShasCP
-1 [System](#System) ShasCP 0..* [Interaction Point](#Interaction-Point) 
-
-Specifies the fact that a System has one or more Interaction Points.
-## ShasGF
-1 [System](#System) ShasGF 1 [General Function](#General-Function) 
-
-Specifies, that a system has general functions.
 ## USAGEallocatedTo
-1..* [General Functional Usage](#General-Functional-Usage) USAGEallocatedTo 1 [Internal Logical Element Role](#Internal-Logical-Element-Role) 
+1..* [General Functional Usage](#General-Functional-Usage) USAGEallocatedTo 1 [Logical Element Role](#Logical-Element-Role) 
 
 exposed in viewpoint [Logical Functional Mapping Viewpoint](../viewpoints/Logical-Functional-Mapping-Viewpoint.md)
 
@@ -1707,34 +1707,14 @@ realized by Metaclass Association
 
 
 Specifies the fact that a Context Function is used in a System Process.
-## Context Logical Chronological Message
-1 [Context Logical Scenario Participation](#Context-Logical-Scenario-Participation) Context Logical Chronological Message 1 [Context Logical Scenario Participation](#Context-Logical-Scenario-Participation) 
+## General Chronological Message
+1 [General Scenario Participation](#General-Scenario-Participation) General Chronological Message 1 [General Scenario Participation](#General-Scenario-Participation) 
 
-exposed in viewpoint [System Context Interaction Viewpoint](../viewpoints/System-Context-Interaction-Viewpoint.md)
+Ordered sequential occurrence of exchanges between General Interaction Scenario Participants.
+## General Context Element Role
+1..* [General Context Element](#General-Context-Element) General Context Element Role 1..* [General Context](#General-Context) 
 
-realized by Metaclass Message
-
-
-
-Ordered sequential occurrence of exchanges between Logical Interaction Scenario Participants.
-## Context Logical Scenario Participation
-0..* [Logical Element Role](#Logical-Element-Role) Context Logical Scenario Participation 0..* [Context Logical Interaction Scenario](#Context-Logical-Interaction-Scenario) 
-
-exposed in viewpoint [System Context Interaction Viewpoint](../viewpoints/System-Context-Interaction-Viewpoint.md)
-
-realized by Metaclass Lifeline
-
-
-
-Specifies the fact that a Logical System Context Role participates in a Logical Interaction Scenario.
-## General Chronological Exchange
-1 [General Scenario Participation](#General-Scenario-Participation) General Chronological Exchange 1 [General Scenario Participation](#General-Scenario-Participation) 
-
-Ordered sequential occurrence of exchanges between System Parts, within a General Interaction Scenario.
-## General Context Part
-1..* [General Context Element](#General-Context-Element) General Context Part 1..* [General Context](#General-Context) 
-
-Specifies the fact that a general context element is part of a context.
+Specifies the fact that a General Context Element exists in a given General Context.
 ## General Functional Usage
 1 [General Function](#General-Function) General Functional Usage 0..* [General Function](#General-Function) 
 
@@ -1748,17 +1728,17 @@ realized by Stereotype [SAF_FunctionAction](../../stereotypes.md#SAF_FunctionAct
 
 Specifies the fact that a Function is used by one or more other Functions.
 ## General Scenario Participation
-0..* [System Part](#System-Part) General Scenario Participation 0..* [General Interaction Scenario](#General-Interaction-Scenario) 
+0..* [General Context Element Role](#General-Context-Element-Role) General Scenario Participation 0..* [General Interaction Scenario](#General-Interaction-Scenario) 
 
-Specifies the fact that a System Part participates in a General Interaction Scenario.
+Specifies the fact that a System Role participates in a General Interaction Scenario.
 ## Hardware Element Role
 1 [Hardware Element](#Hardware-Element) Hardware Element Role 0..* [Hardware Element](#Hardware-Element) 
 
 realized by SAF_PhysicalInternalRole contained in SAF_PhysicalItem
 
 Specifies the fact that a hardware structure comprises hardware elements.
-## Internal Logical Chronological Message
-1 [Internal Logical Scenario Participation](#Internal-Logical-Scenario-Participation) Internal Logical Chronological Message 1 [Internal Logical Scenario Participation](#Internal-Logical-Scenario-Participation) 
+## Logical Chronological Message
+1 [Logical Scenario Participation](#Logical-Scenario-Participation) Logical Chronological Message 1 [Logical Scenario Participation](#Logical-Scenario-Participation) 
 
 exposed in viewpoint [Logical Internal Interaction Viewpoint](../viewpoints/Logical-Internal-Interaction-Viewpoint.md)
 
@@ -1766,29 +1746,7 @@ realized by Metaclass Message
 
 
 
-Ordered sequential occurrence of exchanges between Internal Logical Interaction Scenario Participants.
-## Internal Logical Element Role
-1 [Logical Element](#Logical-Element) Internal Logical Element Role 0..* [Logical Element](#Logical-Element) 
-
-exposed in viewpoint [Logical Functional Mapping Viewpoint](../viewpoints/Logical-Functional-Mapping-Viewpoint.md)
-
-exposed in viewpoint [Logical Internal Interaction Viewpoint](../viewpoints/Logical-Internal-Interaction-Viewpoint.md)
-
-exposed in viewpoint [Logical Structure Viewpoint](../viewpoints/Logical-Structure-Viewpoint.md)
-
-realized by SAF_LogicalInternalRole contained in SAF_LogicalElement
-
-Specifies the fact that a logical structure comprises logical elements.
-## Internal Logical Scenario Participation
-0..* [Internal Logical Element Role](#Internal-Logical-Element-Role) Internal Logical Scenario Participation 0..* [Internal Logical Interaction Scenario](#Internal-Logical-Interaction-Scenario) 
-
-exposed in viewpoint [Logical Internal Interaction Viewpoint](../viewpoints/Logical-Internal-Interaction-Viewpoint.md)
-
-realized by Metaclass Lifeline
-
-
-
-Specifies the fact that a Logical Element Role participates in an Internal Logical Interaction Scenario.
+Ordered sequential occurrence of exchanges between Logical Interaction Scenario Participants.
 ## Logical Connection
 1 [Logical Interaction Point](#Logical-Interaction-Point) Logical Connection 1 [Logical Interaction Point](#Logical-Interaction-Point) 
 
@@ -1815,9 +1773,21 @@ exposed in viewpoint [System Process Viewpoint](../viewpoints/System-Process-Vie
 
 realized by SAF_LogicalContextRole contained in SAF_LogicalContext
 
-Specifies the fact that a Logical Context Element exists in a specific Logical System Context.
-## Logical Context SOI Role
-1 [Logical SOI](#Logical-SOI) Logical Context SOI Role 1..* [Logical System Context](#Logical-System-Context) 
+Specifies the fact that a Logical Context Element exists in a given Logical System Context.
+## Logical Element Role
+1 [Logical Element](#Logical-Element) Logical Element Role 0..* [Logical Element](#Logical-Element) 
+
+exposed in viewpoint [Logical Functional Mapping Viewpoint](../viewpoints/Logical-Functional-Mapping-Viewpoint.md)
+
+exposed in viewpoint [Logical Internal Interaction Viewpoint](../viewpoints/Logical-Internal-Interaction-Viewpoint.md)
+
+exposed in viewpoint [Logical Structure Viewpoint](../viewpoints/Logical-Structure-Viewpoint.md)
+
+realized by SAF_LogicalInternalRole contained in SAF_LogicalElement
+
+Specifies the fact that a logical element comprises logical elements.
+## Logical SOI Role
+1 [Logical Context SOI](#Logical-Context-SOI) Logical SOI Role 1..* [Logical System Context](#Logical-System-Context) 
 
 exposed in viewpoint [System Context Definition Viewpoint](../viewpoints/System-Context-Definition-Viewpoint.md)
 
@@ -1829,7 +1799,17 @@ exposed in viewpoint [System Process Viewpoint](../viewpoints/System-Process-Vie
 
 realized by SAF_LogicalContextRole contained in SAF_LogicalContext
 
-Specifies the fact that a Logical SOI exists in a specific Logical System Context.
+Specifies the fact that a Logical Context SOI exists in a given Logical System Context.
+## Logical Scenario Participation
+0..* [Logical Element Role](#Logical-Element-Role) Logical Scenario Participation 0..* [Logical Interaction Scenario](#Logical-Interaction-Scenario) 
+
+exposed in viewpoint [Logical Internal Interaction Viewpoint](../viewpoints/Logical-Internal-Interaction-Viewpoint.md)
+
+realized by Metaclass Lifeline
+
+
+
+Specifies the fact that a Logical Element Role participates in a Logical Interaction Scenario.
 ## Operational Chronological Message
 1 [Operational Scenario Participation](#Operational-Scenario-Participation) Operational Chronological Message 1 [Operational Scenario Participation](#Operational-Scenario-Participation) 
 
@@ -1902,7 +1882,7 @@ realized by Metaclass Lifeline
 
 
 
-Specifies the fact that an Operational Context Performer Role participates in an Operational Interaction Scenario.
+Specifies the fact that an Operational Context Role participates in an Operational Interaction Scenario.
 ## PCPOverPCP
 1 [Physical Interaction Point](#Physical-Interaction-Point) PCPOverPCP 1 [Physical Interaction Point](#Physical-Interaction-Point) 
 
@@ -1936,14 +1916,14 @@ realized by Metaclass Connector
 
 Specifies the connection of two physical interaction points.
 Note: Connections between physical components indicate that item flows are passed from one output of a source component to one or more inputs of target components.
-## Physical Context Role
-1..* [Physical Context Element](#Physical-Context-Element) Physical Context Role 1..* [Physical System Context](#Physical-System-Context) 
+## Physical Context Element Role
+1..* [Physical Context Element](#Physical-Context-Element) Physical Context Element Role 1..* [Physical System Context](#Physical-System-Context) 
 
 exposed in viewpoint [Physical Context Definition Viewpoint](../viewpoints/Physical-Context-Definition-Viewpoint.md)
 
 realized by SAF_PhysicalContextRole contained in SAF_PhysicalContext
 
-Specifies the fact that a Physical Context Element exists in a specific Physical Context.
+Specifies the fact that a Physical Context Element exists in a given Physical System Context.
 ## Physical Element Role
 1 [Physical Element](#Physical-Element) Physical Element Role 0..* [Physical Element](#Physical-Element) 
 
@@ -1971,7 +1951,7 @@ exposed in viewpoint [Physical Context Definition Viewpoint](../viewpoints/Physi
 
 realized by SAF_PhysicalContextRole contained in SAF_PhysicalContext
 
-Specifies the fact that a Physical SOI exists in a specific Physical Context.
+Specifies the fact that a Physical SOI exists in a given Physical System Context.
 ## Physical Software Role
 1 [Physical Element](#Physical-Element) Physical Software Role 0..* [Software Element](#Software-Element) 
 
@@ -1996,6 +1976,30 @@ realized by Metaclass Transition
 
 
 Describes an allowed transition between two states of an item that can be in distinct States.
+## System Context Chronological Message
+1 [System Context Scenario Participation](#System-Context-Scenario-Participation) System Context Chronological Message 1 [System Context Scenario Participation](#System-Context-Scenario-Participation) 
+
+exposed in viewpoint [System Context Interaction Viewpoint](../viewpoints/System-Context-Interaction-Viewpoint.md)
+
+realized by Metaclass Message
+
+
+
+Ordered sequential occurrence of exchanges between System Context Interaction Scenario Participants.
+## System Context Element Role
+1..* [System Context Element](#System-Context-Element) System Context Element Role 1..* [System Context](#System-Context) 
+
+Specifies the fact that a System Context Element exists in a given System Context.
+## System Context Scenario Participation
+0..* [System Context Role](#System-Context-Role) System Context Scenario Participation 0..* [System Context Interaction Scenario](#System-Context-Interaction-Scenario) 
+
+exposed in viewpoint [System Context Interaction Viewpoint](../viewpoints/System-Context-Interaction-Viewpoint.md)
+
+realized by Metaclass Lifeline
+
+
+
+Specifies the fact that a System Context Role participates in a System Context Interaction Scenario.
 ## System Function IN System Process
 0..* [System Function](#System-Function) System Function IN System Process 0..* [System Process](#System-Process) 
 
@@ -2014,15 +2018,11 @@ realized by Metaclass Association
 
 
 Specifies the fact that a System Function is used in a System Process.
-## System Part
-1 [System](#System) System Part 0..* [System](#System) 
+## System Role
+1 [System](#System) System Role 0..* [System](#System) 
 
 Specifies, that a system is part of a system.
-## Systemic Context Element Role
-1..* [System Context Element](#System-Context-Element) Systemic Context Element Role 1..* [System Context](#System-Context) 
+## System SOI Role
+1..* [System Of Interest](#System-Of-Interest) System SOI Role 1 [System Context](#System-Context) 
 
-Specifies the fact that a context element exists in a certain system context.
-## Systemic SOI Role
-1..* [System Of Interest](#System-Of-Interest) Systemic SOI Role 1 [System Context](#System-Context) 
-
-Specifies the fact that a system of interest exists in a certain system context.
+Specifies the fact that a System SOI exists in a given System Context.

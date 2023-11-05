@@ -6,21 +6,23 @@
 ## Example
 ![Logical-Functional-Mapping-Viewpoint-primary-example.svg](../diagrams/vp-examples/Logical-Functional-Mapping-Viewpoint-primary-example.svg)
 ## Purpose
-The Logical Functional Mapping Viewpoint captures the assignment of the System Functions and the System Partial Functions to the Logical SOI and the Logical SOI Elements.
+The Logical Functional Mapping Viewpoint supports the definition of assignment of system functions and system partial functions to conceptual logical system elements.
 ## Applicability
-The Logical Function Mapping Viewpoint supports the "System Architecture Definition process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.4] and contributes to the System Architecture description.
+The Logical Functional Mapping Viewpoint supports the “System Architecture Definition Process” activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.4] and contributes to the artifact "Traceability Mapping".
+
+Furthermore, the Logical Functional Mapping Viewpoint supports the "Allocation and Partitioning of Functional Entities to Logical Entities" activities.
 ## Presentation
-A dependency matrix featuring
-* the call behavior action representing usage of System Functions or System Partial Functions,
-* the part properties representing usage of Logical SOI Elements,
-* the allocation relationship between above mentioned elements.
+A FBS_to_LBS mapping matrix featuring
+* Functional Breakdown Structure (FBS)
+* Logical Breakdown Structure (LBS)
+* Allocation from system functions and system partial functions to conceptual logical system elements
 
 ## Stakeholder
 * [Hardware Developer](../stakeholders.md#Hardware-Developer)
 * [Software Developer](../stakeholders.md#Software-Developer)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* [Which functions are allocated to a Logical Element of the logical architecture?](../concerns.md#_2021x_2_8710274_1674576759104_328839_23526)
+* [Which functions are allocated to the logical SOI logical architecture?](../concerns.md#_2021x_2_8710274_1674576759104_328839_23526)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Allocate [SysML Profile]
@@ -33,8 +35,9 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_SystemPartialFunction](../stereotypes.md#SAF_SystemPartialFunction)
 ## Input from other Viewpoints
 ### Required Viewpoints
-* [Logical Structure Viewpoint](Logical-Structure-Viewpoint.md)
 * [System Process Viewpoint](System-Process-Viewpoint.md)
 * [System Functional Refinement Viewpoint](System-Functional-Refinement-Viewpoint.md)
+* [Logical Structure Viewpoint](Logical-Structure-Viewpoint.md)
 ### Recommended Viewpoints
-* [System Domain Item Kind Viewpoint](System-Domain-Item-Kind-Viewpoint.md)
+* [System Process Viewpoint](System-Process-Viewpoint.md)
+* [System Functional Refinement Viewpoint](System-Functional-Refinement-Viewpoint.md)

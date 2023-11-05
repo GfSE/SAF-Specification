@@ -17,6 +17,6 @@
 | SCErepresentedBySSH | Specifies the fact that a SOI Stakeholder represents a System Context Element.|
 | SOIactingForOPR | Specifies the fact that a SOI is acting for the benefit of an Operational Performer.|
 | SSHrepresentingOPR | Specifies the fact that a SOI Stakeholder represents an Operational Performer.|
-| System Context Element | An abstract element of the SOI context. Base class for specific kinds of context elements.|
-| System Of Interest | An abstract element representing the SOI. Base for specific perspectives on SOI (logical , physical)|
+| System Context Element | An abstract element representing a System Context Element. Base class for specific kinds of Context Elements.|
+| System Of Interest | An abstract element representing a SOI. Base class for specific kinds of SOIs.|
 | System of Interest Stakeholder | An individual, team, or organization (or classes thereof) with interests in, or concerns relative to, a system. It may be involved in any life cycle phase of the System. The Stakeholder represents a class or kind of Stakeholders. Stakeholders have a certain involvement: Stakeholder Involvement captures the influence of a project specific Stakeholder on the System. Stakeholder Involvement is characterized by<br>* Contact Person<br>* Kind of involvement<br>* Life Cycle Phases involved<br>* Relevance decision if and up to which degree Stakeholder is considered<br>* Rationale for decision when Stakeholder is not considered|

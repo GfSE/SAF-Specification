@@ -8,6 +8,7 @@
 ## Purpose
 The Physical Logical Item Mapping Viewpoint specifies the assignment of the System Domain Kinds to Physical Exchange Kinds.
 ## Applicability
+The Physical Logical Item Mapping Viewpoint supports [tbd].
 ## Presentation
 A  Physical To Logical Assigment Matrix featuring
 * System Domain Kinds

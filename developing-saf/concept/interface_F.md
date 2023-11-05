@@ -8,15 +8,15 @@
 | LIPapplyingToLCE | Specifies the fact that a Logical Interaction Point applies to a Logical Context Element.|
 | LIPapplyingToLET | Specifies the fact that a Logical Interaction Point applies to a Logical Element.|
 | Logical Connection | Specifies the connection of two interaction points on Logical Level.<br>Note: Connections between logical components indicate that item flows are passed from one output of a source component to one or more inputs of target components.|
-| Logical Context Element | Abstract element of a System Context in the Logical Domain, outside the SOI scope, interacting with the SOI.|
-| Logical Element | Describes a logical, conceptual system as specification for an implementation of a system, or system part.|
+| Logical Context Element | Represents an abstract element in the given System Context on Logical Level, outside the SOI scope, interacting with the SOI.|
+| Logical Context SOI | Represents the Logical SOI in the System Context on Logical Level.|
+| Logical Element | Describes a conceptual Logical Element as specification for an implementation of a system, or system element.|
 | Logical Environment | A Logical Environment in the Logical Domain, outside the SOI scope, interacting with the SOI. E.g., air, dirt, sun, road.|
 | Logical External System | A Logical External System in the Logical Domain, outside the SOI scope, interacting with the SOI. E.g., power grid, mobile network, fresh water system (in a house).|
 | Logical Interaction Point | Specifies the existence of an interaction point on Logical Level.|
 | Logical Interaction Point Definition | Specifies the exchange capabilities of an interaction point on Logical Level.|
 | Logical Interaction Point Property | Specifies a detail of an interaction point on Logical Level.|
 | Logical Item Exchange | Specifies the exchange that is to take place on a connection of two interaction points on Logical Level.|
-| Logical SOI | A SOI representation in the Logical Domain.|
 | Logical User | The Logical User is the representation for a human in the Logical Domain, outside the SOI scope, interacting with the SOI.|
 | SDKtypingLIE | Specifies the fact that a System Domain Kind defines the type of a Logical Item Exchange.|
 | SDKtypingLIPP | Specifies the fact that a System Domain Kind defines the type of a Logical Interaction Point Property.|

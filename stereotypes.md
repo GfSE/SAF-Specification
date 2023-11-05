@@ -223,7 +223,7 @@ Used to mark diagrams serving as example for a viewpoint
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Logical System Context'>Logical System Context</A><BR>Logical System Context: Specifies the fact that a context for a System of Interest is defined on Logical Level.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Logical System Context'>Logical System Context</A><BR>Logical System Context: Specifies the fact that a System Context for a System of Interest is defined on Logical Level.<BR></html>
 
 
 ## SAF_LogicalContextElementActing
@@ -249,7 +249,7 @@ Used to mark diagrams serving as example for a viewpoint
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Logical Element'>Logical Element</A><BR>Logical Element: Describes a logical, conceptual system as specification for an implementation of a system, or system part.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Logical Element'>Logical Element</A><BR>Logical Element: Describes a conceptual Logical Element as specification for an implementation of a system, or system element.<BR></html>
 
 
 ## SAF_LogicalEnvironment
@@ -284,7 +284,7 @@ Used to mark diagrams serving as example for a viewpoint
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Logical SOI'>Logical SOI</A><BR>Logical SOI: A SOI representation in the Logical Domain.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Logical Context SOI'>Logical Context SOI</A><BR>Logical Context SOI: Represents the Logical SOI in the System Context on Logical Level.<BR></html>
 
 
 ## SAF_LogicalUser
@@ -509,7 +509,7 @@ UAF::MapsToCapability<BR></html>
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical System Context'>Physical System Context</A><BR>Physical System Context: Defines a context for a System of Interest on Physical Level.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical System Context'>Physical System Context</A><BR>Physical System Context: Specifies the fact that a context for a System of Interest is defined on Physical Level.<BR></html>
 
 
 ## SAF_PhysicalContextRole
@@ -606,7 +606,7 @@ UAF::MapsToCapability<BR></html>
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical SOI'>Physical SOI</A><BR>Physical SOI: Represents the Physical SOI in the Physical Domain.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical SOI'>Physical SOI</A><BR>Physical SOI: Represents the Physical SOI on Physical Level.<BR></html>
 
 
 ## SAF_PhysicalUser
@@ -792,7 +792,7 @@ A tabular format listing states, state transitions, and the conditons to be full
 *none*
 
 ### Documentation
-The System Context Interaction Viewpoint describes the System external behavior based on the exchange between Logical SOI and Logical Context Elements Usage within a specific System Context. It depicts the sequence of interactions between the Logical SOI, the Context Elements and the Exchanged Domain Item Kinds needed to accomplish a given System Process. 
+The System Context Interaction Viewpoint describes the System external behavior based on the exchange between Logical SOI and Logical Context Elements Usage in a given System Context. It depicts the sequence of interactions between the Logical SOI, the Context Elements and the exchanged Domain Item Kinds needed to accomplish a given System Process. 
 Note: The System Context Interaction Viewpoint may refine a System Use Case.
 
 A sequence diagram featuring the flow of control between SOI and Context Elements Roles of a System Context to achieve one outcome of a System Use Case. 
@@ -873,7 +873,7 @@ Note: Multiple relationships to a kind of element are allowed meaning, that this
 *none*
 
 ### Documentation
-The Logical Internal Interaction Viewpoint describes System internal behavior based on the exchange between the Logical SOI Elements Usage. It depicts the sequence of interactions between the Logical SOI Elements and the Exchanged Domain Item Kinds needed to accomplish a System Partial Function.
+The Logical Internal Interaction Viewpoint describes System internal behavior based on the exchange between the Logical SOI Elements Usage. It depicts the sequence of interactions between the Logical SOI Elements and the exchanged Domain Item Kinds needed to accomplish a System Partial Function.
 
 A sequence diagram featuring the flow of control between Internal Logical Elements of the SOI.
 Note: This diagram depicts the sending and receiving of messages between the interacting entities called lifelines where time is represented along the vertical axis. The lifeline representatives are part properties typed by Logical System Elements.
@@ -901,12 +901,12 @@ Note: Please use more than one IBD focused on different areas of interest to kee
 *none*
 
 ### Documentation
-The Logical Functional Mapping Viewpoint captures the assignment of the System Functions and the System Partial Functions to the Logical SOI and the Logical SOI Elements.
+The Logical Functional Mapping Viewpoint supports the definition of assignment of system functions and system partial functions to conceptual logical system elements.
 
-A dependency matrix featuring
-* the call behavior action representing usage of System Functions or System Partial Functions,
-* the part properties representing usage of Logical SOI Elements,
-* the allocation relationship between above mentioned elements.
+A FBS_to_LBS mapping matrix featuring
+* Functional Breakdown Structure (FBS)
+* Logical Breakdown Structure (LBS)
+* Allocation from system functions and system partial functions to conceptual logical system elements
 
 ## SAF_SOV01a_View
 
@@ -1122,12 +1122,14 @@ A tabular format listing Physical Interface blocks, their ports, and flow proper
 *none*
 
 ### Documentation
-The Physical Logical Mapping Viewpoint specifies the assignment of the Logical System Elements to the Physical System Elements.
+The Physical Logical Mapping Viewpoint  supports the definition of the assignment of conceptual logical system elements to physical SOI elements.
 
-A  Physical To Logical Assigment Matrix featuring
-* Logical Elements roles
-* Physical Elements roles
-* allocation relationships from logical elements roles to physical elements roles
+Following the identification of physical SOI elements capable of performing the system functions of logical elements, the Physical Logical Mapping Viewpoint provides feedback to the System Architecture Definition process to consolidate or confirm the allocation, partitioning, and alignment of logical elements to physical elements that comprise the SOI.
+
+A LBS_to_PBS mapping matrix featuring
+* Logical Breakdown Structure (LBS)
+* Physical Breakdown Structure (FBS)
+* Allocation from conceptual logical system elements to physical SOI elements
 
 ## SAF_SPV08b_View
 
@@ -1135,13 +1137,12 @@ A  Physical To Logical Assigment Matrix featuring
 *none*
 
 ### Documentation
-The Physical Functional Mapping Viewpoint analyses the assignment of the System Functions and the System Partial Functions to the Physical SOI Elements.
+The Physical Functional Mapping Viewpoint supports the analysis of the assignment (it is derived relationship) of system functions and system partial functions to physical SOI elements.
 
-A  Physical Functional Mapping Matrix featuring
-* the call behavior action representing usage of System Functions
-*  Physical SOI Elements 
-or Physical SOI
-* a derived relationship
+A FBS_to_PBS mapping matrix featuring
+* Functional Breakdown Structure (FBS)
+* Physical Breakdown Structure (PBS)
+* mapping (it is a derived relationship) from system functions and system partial functions to physical SOI elements
 
 ## SAF_Stakeholder
 

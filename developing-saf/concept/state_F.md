@@ -5,7 +5,7 @@
 | APEbeeingInSSE | Specifies the fact that a Physical System Element can be in distinct states.|
 | Abstract Physical Element | Abstract element representing physical structure items keeping properties and relations applicable to all physical items.|
 | LETbeeingInSSE | Specifies the  System States a Logical Element can be in.|
-| Logical Element | Describes a logical, conceptual system as specification for an implementation of a system, or system part.|
+| Logical Element | Describes a conceptual Logical Element as specification for an implementation of a system, or system element.|
 | SDKbeeingInSSE | Specifies that a System Domain Kind can have certain states.<br>Note:<br>Of course an item is in only one distinct state at a certain time. The multiplicity means that an Item can have a set of possible states, and a state can be used to specify possible States for several domain items.|
 | SFNresultingInSSE | Specifies the fact that a System Function can perform a particular set of transitions, resulting in the related target System States.|
 | SSEperformingSFN | Specifies the fact that the Function is only provided in distinct States. The state is a precondition for the Function to be able to perform.|
