@@ -143,7 +143,6 @@ The diagrams generated in the Physical Domain may be used to represent the Produ
 #### Physical Domain Aspect Interface
 
 * [Physical Interface Definition Viewpoint](viewpoints/Physical-Interface-Definition-Viewpoint.md)
-
 * Physical Protocol Stack Definition Viewpoint
 
 #### Physical Domain Aspect Traceability & Mapping
