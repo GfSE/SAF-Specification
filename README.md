@@ -1,4 +1,4 @@
-# SAF Specification
+# SAF Specification, TdSE2023 Release
 
 ![System Architecture Framework](/diagrams/Banner_SAF.png)
 
