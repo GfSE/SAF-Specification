@@ -32,11 +32,11 @@ To foster the development of profiles for various SysML Tools, we export also a 
 
 |UID|Stereotype Name|Documentation|Abstract Flag|Metaclasses|
 |---|---|---|---|---|
-|_19_0_3_26f0132_1614938958203_459716_5653|SAF_DomainKind|<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#System Domain Kind'>System Domain Kind</A><BR><BR>System Domain Kind: Specification for any kind of exchange on Functional, and Logical Level, focus on what kind of information is exchanged (information, material, energy).The Domain Item Kind is agnostic to any Physical realization.<BR><BR>Usage in Viewpoints:<BR>|False|DataType,Class|
+|_19_0_3_26f0132_1614938958203_459716_5653|SAF_DomainKind|<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/TdSE2023/developing-saf/concept/concepts.md#System Domain Kind'>System Domain Kind</A><BR><BR>System Domain Kind: Specification for any kind of exchange on Functional, and Logical Level, focus on what kind of information is exchanged (information, material, energy).The Domain Item Kind is agnostic to any Physical realization.<BR><BR>Usage in Viewpoints:<BR>|False|DataType,Class|
 
 **Example Line of CSV File:**
 
-`"_19_0_3_26f0132_1614938958203_459716_5653""SAF_DomainKind","<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#System Domain Kind'>System Domain Kind</A><BR><BR>System Domain Kind: Specification for any kind of exchange on Functional, and Logical Level, focus on what kind of information is exchanged (information, material, energy).The Domain Item Kind is agnostic to any Physical realization.<BR><BR>Usage in Viewpoints:<BR></html>","False","DataType,Class"`
+`"_19_0_3_26f0132_1614938958203_459716_5653""SAF_DomainKind","<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/TdSE2023/developing-saf/concept/concepts.md#System Domain Kind'>System Domain Kind</A><BR><BR>System Domain Kind: Specification for any kind of exchange on Functional, and Logical Level, focus on what kind of information is exchanged (information, material, energy).The Domain Item Kind is agnostic to any Physical realization.<BR><BR>Usage in Viewpoints:<BR></html>","False","DataType,Class"`
 
 ### Stereotype Icons
 The icons of stereotypes are in a specific folder. They should be used in profile implementations.  See [the readme](../icons/readme.md)
