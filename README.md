@@ -11,7 +11,7 @@ The System Architecture Framework Specification application is demonstrated usin
 
 The Viewpoints are organized as a Grid featuring [Domains](domains.md) as rows and [Aspects](aspects.md) as columns.
 
-![SAF Grid](diagrams/vp-examples/Grid-Definition-Viewpoint-primary-example.svg)
+![SAF Grid](diagrams/SAF_Viewpoint-Grid-Structuring-Formalism.svg)
 
 The subsequent sections give an overview about the SAF viewpoint specifications, grouped by [Domains](domains.md). The specifications of the SAF viewpoints are available as [PDF format](./pdfs), too.
 
