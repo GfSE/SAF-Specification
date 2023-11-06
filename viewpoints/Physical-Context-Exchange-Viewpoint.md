@@ -54,13 +54,13 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * ItemFlow typed by SAF_PhysicalExchangeType
 * ProxyPort [SysML Profile]
 * ProxyPort typed by SAF_PhysicalInterfaceDefinition
+* [SAF_InterfaceLayerRelationship](../stereotypes.md#SAF_InterfaceLayerRelationship)
 * [SAF_PhysicalEnvironment](../stereotypes.md#SAF_PhysicalEnvironment)
 * [SAF_PhysicalExchangeType](../stereotypes.md#SAF_PhysicalExchangeType)
 * [SAF_PhysicalExternalSystem](../stereotypes.md#SAF_PhysicalExternalSystem)
 * [SAF_PhysicalInterfaceDefinition](../stereotypes.md#SAF_PhysicalInterfaceDefinition)
 * [SAF_PhysicalSystem](../stereotypes.md#SAF_PhysicalSystem)
 * [SAF_PhysicalUser](../stereotypes.md#SAF_PhysicalUser)
-* [SAF_ProtocolLayerRelationship](../stereotypes.md#SAF_ProtocolLayerRelationship)
 * [SAF_SPV01c_View](../stereotypes.md#SAF_SPV01c_View)
 ## Input from other Viewpoints
 ### Required Viewpoints

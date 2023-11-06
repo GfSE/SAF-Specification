@@ -10,7 +10,7 @@ The System Architecture Framework Specification application is demonstrated usin
 
 The Viewpoints are organized as a Grid featuring [Domains](domains.md) as rows and [Aspects](aspects.md) as columns.
 
-![SAF Grid](diagrams/vp-examples/Grid-Definition-Viewpoint-primary-example.svg)
+![SAF Grid](diagrams/SAF_Viewpoint-Grid-Structuring-Formalism.svg)
 
 The subsequent sections give an overview about the SAF viewpoint specifications, grouped by [Domains](domains.md). The specifications of the SAF viewpoints are available as [PDF format](./pdfs), too.
 
@@ -18,7 +18,7 @@ The subsequent sections give an overview about the SAF viewpoint specifications,
 
 ### Operational Domain Objective
 
-The SAF Operational Domain aims to get an understanding of required organizational or operational entity capabilities, as a foundation and reasoning for systems to be acquired or developed. The SAF Operational Domain supports the model-based development of a [CONOPS](https://www.sebokwiki.org/wiki/Concept_of_Operations_(ConOps)_(glossary)) - as well as an [OPSCON](https://www.sebokwiki.org/wiki/Business_or_Mission_Analysis) and related life cycle concepts - for an organization or operational entity seeking for an improvement of fielded capabilities or in establishing new ones. By identifying Stakeholders and their Requirements the SAF Operational Domain supports the derivation of a complete and consolidated set of Stakeholder Requirements based on operational stories, operational processes, operational capabilities, and operational exchanges.
+The SAF Operational Domain aims to get an understanding of required organizational or operational entity capabilities, as a foundation and reasoning for to systems to be acquired or developed. The SAF Operational Domain supports the model-based development of a [CONOPS](https://www.sebokwiki.org/wiki/Concept_of_Operations_(ConOps)_(glossary)) - as well as an [OPSCON](https://www.sebokwiki.org/wiki/Business_or_Mission_Analysis) and related life cycle concepts - for an organization or operational entity seeking for an improvement of existing capabilities or in establishing new ones. By identifying Stakeholders and their Requirements the SAF Operational Domain supports the derivation of a complete and consolidated set of Stakeholder Requirements based on operational stories, operational processes, operational capabilities, and operational exchanges.
 
 ### Operational Domain Viewpoints
 
@@ -56,7 +56,7 @@ The SAF Operational Domain aims to get an understanding of required organization
 
 ### Functional Domain Objective
 
-The SAF Functional Domain assumes a conceptual black box perspective onto the system to be developed. It translates Operational Domain usage into the notion of System Functions defining the system target behavior and quality attributes - performance, safety, security, etc.; the system target behavior as it is perceived by the User or other Entities at the System Boundary (known as usage behavior). The result of the elaboration of the viewpoints in the Functional Domain is a comprehensive System Specification.
+The SAF Functional Domain assumes a conceptual black box perspective onto the system to be developed. It translates Operational Domain usage into the notion of System Functions defining the demanded system behavior and quality attributes - performance, safety, security, etc.; the demanded system behavior as it is perceived by the User or other Entities at the System Boundary (known as usage behavior). The result of the elaboration of the viewpoints in the Functional Domain is a comprehensive System Specification.
 
 ### Functional Domain Viewpoints
 
@@ -99,7 +99,7 @@ The SAF Functional Domain assumes a conceptual black box perspective onto the sy
 
 ### Logical Domain Objective
 
-The SAF Logical Domain assume a conceptual white box perspective onto the system to be developed. The Logical Domain Viewpoints describe the Logical SOI Structure and the distribution of responsibilities for the Functionality of the SOI by means of a network of interacting Logical Elements that are responsible for a set of desired Functions. These Logical Elements and their interactions are arranged in the Logical Architecture description of the SOI. The structure of the Logical Architecture is in general influenced by nonfunctional criteria, e.g., maintainability, safety, and reliability.
+The SAF Logical Domain assume a conceptual white box perspective onto the system to be developed. The Logical Domain Viewpoints describe the Logical Structure and the distribution of responsibilities for the Functionality of the SOI by means of a network of interacting Logical Elements that are responsible for a set of desired Functions. These Logical Elements and their Interactions are arranged in the Logical Architecture of the SOI. The structure of the Logical Architecture is in general influenced by nonfunctional criteria, e.g., maintainability, safety, and reliability. The Logical Domain is not a different abstraction level - compared to the Functional Domain, but a white box perspective on the same abstraction level.
 
 ### Logical Domain Viewpoints
 
@@ -120,7 +120,7 @@ The SAF Logical Domain assume a conceptual white box perspective onto the system
 
 ### Physical Domain Objective
 
-The SAF Physical Domain diagrams may be used to represent the Product Breakdown Structure, to identify external and internal physical interfaces, to provide diagrams for the system overview, to support the integration planning, the production planning, and to depict the features and variations implied in the system. The physical architecture typically is a combination of re-use elements, COTS elements, and make-items for HW as well as for SW. The properties of the selected physical elements and their provided resources are identified and modelled. A major concern of the Physical Domain are the physical interfaces, their identification and definition. For that purpose, the Physical Domain provides the diagrams to model interface with different level of detail considering the actual needs for the point of time in the project life cycle. For traceability the SAF Physical Domain defines viewpoints showing the mapping of the functional elements and their interfaces to physical elements and their interfaces.
+The SAF Physical Domain diagrams may be used to represent the Product Breakdown Structure, to identify external and internal physical interfaces, to provide diagrams for the system overview, to support the integration planning, to support production planning and to depict the features and variations implied in the system. The physical architecture typically is a combination of re-use elements, COTS elements and make-items for HW as well as for SW. The properties of the selected physical components and their provided resources are identified and modelled. A major concern of the Physical Domain are the physical interfaces, their identification and definition. For that purpose, the Physical Domain provides the diagrams to model interface with different level of detail considering the actual needs for the point of time in the project life cycle. For traceability the Physical Domain defines diagrams showing the mapping of the functional elements and their interfaces to physical elements and their interfaces.
 
 ### Physical Domain Viewpoints
 

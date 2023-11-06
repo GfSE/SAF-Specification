@@ -217,6 +217,18 @@ Used to mark diagrams serving as example for a viewpoint
 </html>
 
 
+## SAF_InterfaceLayerRelationship
+
+### Icon
+*none*
+
+### Documentation
+<html>Stereotype realizes multiple Concepts:<UL><LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#PCPOverPCP'>PCPOverPCP</A><BR>PCPOverPCP: Specifies the fact that a physical interaction point communicates / transfers / flows / over an other physical interaction point. Used to define layered physical interfaces, and show layer relationships between interfaces.<BR></LI>
+<LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#PCPPOverPCPP'>PCPPOverPCPP</A><BR>PCPPOverPCPP: Specifies the fact that a physical interaction point property communicates / transfers / flows / over an other physical interaction point property. Used to define layered physical interfaces, and show layer relationships between interface details.<BR></LI>
+</UL>
+</html>
+
+
 ## SAF_LogicalContext
 
 ### Icon
@@ -616,18 +628,6 @@ UAF::MapsToCapability<BR></html>
 
 ### Documentation
 <html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical User'>Physical User</A><BR>Physical User: The Physical User is the representation for a human in the physical domain, outside the SOI scope, interacting with the SOI.<BR></html>
-
-
-## SAF_ProtocolLayerRelationship
-
-### Icon
-*none*
-
-### Documentation
-<html>Stereotype realizes multiple Concepts:<UL><LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#PCPOverPCP'>PCPOverPCP</A><BR>PCPOverPCP: Specifies the fact that a physical interaction point communicates / transfers / flows / over an other physical interaction point. Used to define layered physical interfaces, and show layer relationships between interfaces.<BR></LI>
-<LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#PCPPOverPCPP'>PCPPOverPCPP</A><BR>PCPPOverPCPP: Specifies the fact that a physical interaction point property communicates / transfers / flows / over an other physical interaction point property. Used to define layered physical interfaces, and show layer relationships between interface details.<BR></LI>
-</UL>
-</html>
 
 
 ## SAF_Refuter

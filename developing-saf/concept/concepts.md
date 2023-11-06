@@ -1892,7 +1892,7 @@ exposed in viewpoint [Physical Interface Definition Viewpoint](../viewpoints/Phy
 
 exposed in viewpoint [Physical Internal Exchange Viewpoint](../viewpoints/Physical-Internal-Exchange-Viewpoint.md)
 
-realized by Stereotype [SAF_ProtocolLayerRelationship](../../stereotypes.md#SAF_ProtocolLayerRelationship)
+realized by Stereotype [SAF_InterfaceLayerRelationship](../../stereotypes.md#SAF_InterfaceLayerRelationship)
 
 Specifies the fact that a physical interaction point communicates / transfers / flows / over an other physical interaction point. Used to define layered physical interfaces, and show layer relationships between interfaces.
 ## PCPPOverPCPP
@@ -1900,7 +1900,7 @@ Specifies the fact that a physical interaction point communicates / transfers / 
 
 exposed in viewpoint [Physical Interface Definition Viewpoint](../viewpoints/Physical-Interface-Definition-Viewpoint.md)
 
-realized by Stereotype [SAF_ProtocolLayerRelationship](../../stereotypes.md#SAF_ProtocolLayerRelationship)
+realized by Stereotype [SAF_InterfaceLayerRelationship](../../stereotypes.md#SAF_InterfaceLayerRelationship)
 
 Specifies the fact that a physical interaction point property communicates / transfers / flows / over an other physical interaction point property. Used to define layered physical interfaces, and show layer relationships between interface details.
 ## Physical Connection

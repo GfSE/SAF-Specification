@@ -4,7 +4,7 @@
 | --- | --- | --- |
 |[Common](../../domains.md#Domain-Common)|[Taxonomy & Structure](../../aspects.md#Aspect-Taxonomy-&-Structure)|![Proposed](../../diagrams/Under_construction_icon-red.svg )[proposed](../../using-saf/maturity.md#proposed)|
 ## Example
-*none*
+![Grid-Definition-Viewpoint-primary-example.svg](../../diagrams/vp-examples/Grid-Definition-Viewpoint-primary-example.svg)
 ## Purpose
 The Grid Definition Viewpoint serves as graphic representation of the Views present in a System Model.
 ## Applicability

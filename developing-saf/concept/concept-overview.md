@@ -1,7 +1,7 @@
 ![System Architecture Framework](../../diagrams/Logo_SAF.png)
 # SAF Development Documentation : SAF_Concept Ontology Overview
 
-There are some [General Concepts](general_concepts.md) forming basic patterns like structure, function, interaction and exchange. They are not used in viewpoints directly, they are abstractions of more specific concepts. 
+There are some [General Concepts](general_concept.md) forming basic patterns like structure, function, interaction and exchange. They are not used in viewpoints directly, they are abstractions of more specific concepts. 
 
 The SAF_Concepts are grouped by topics. SAF_Concepts are shown together with related SAF_Concepts.
 
