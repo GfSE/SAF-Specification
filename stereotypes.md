@@ -60,7 +60,7 @@
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Claimable Item'>Claimable Item</A><BR>Claimable Item: A claim, argument, and evidence are all types of the abstract concept of a claimable item. This allows a counter-claim to be made about any type of claimable item and a claim to support any type of claimable item.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Claimable-Item'>Claimable Item</A><BR>Claimable Item: A claim, argument, and evidence are all types of the abstract concept of a claimable item. This allows a counter-claim to be made about any type of claimable item and a claim to support any type of claimable item.<BR></html>
 
 
 ## SAF_Claimant
@@ -87,7 +87,7 @@
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Logical Interaction Point Definition'>Logical Interaction Point Definition</A><BR>Logical Interaction Point Definition: Specifies the exchange capabilities of an interaction point on Logical Level.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Logical-Interaction-Point-Definition'>Logical Interaction Point Definition</A><BR>Logical Interaction Point Definition: Specifies the exchange capabilities of an interaction point on Logical Level.<BR></html>
 
 
 ## SAF_ContextAction
@@ -96,7 +96,7 @@
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Context Function IN System Process'>Context Function IN System Process</A><BR>Context Function IN System Process: Specifies the fact that a Context Function is used in a System Process.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Context-Function-IN-System-Process'>Context Function IN System Process</A><BR>Context Function IN System Process: Specifies the fact that a Context Function is used in a System Process.<BR></html>
 
 
 ## SAF_ContextElementRepresentation
@@ -114,7 +114,7 @@
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Context Function'>Context Function</A><BR>Context Function: Specifies the fact that a fundamental action or task is expected to be carried out by an External Entity. 
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Context-Function'>Context Function</A><BR>Context Function: Specifies the fact that a fundamental action or task is expected to be carried out by an External Entity. 
 Note: The intention is to capture the expectations and to explicitly dissect the functionality. This must not be interpreted as an attempt for a behavior specification of an External Entity. Capturing this valuable information is the basis to reach agreement on the functionality at the System boundary by clarifying the expectations about what is performed by Context Elements.<BR></html>
 
 
@@ -158,7 +158,7 @@ Note: The intention is to capture the expectations and to explicitly dissect the
 ![icon](icons/SAF_DomainKind.svg)
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#System Domain Kind'>System Domain Kind</A><BR>System Domain Kind: Specification for any kind of conceptual item (energy, material, information, etc.) to be exchanged on Functional or Logical Level. The System Domain Kind is agnostic to any realization on Physical Level.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#System-Domain-Kind'>System Domain Kind</A><BR>System Domain Kind: Specification for any kind of conceptual item (energy, material, information, etc.) to be exchanged on Functional or Logical Level. The System Domain Kind is agnostic to any realization on Physical Level.<BR></html>
 
 
 ## SAF_DomainKindComposition
@@ -211,8 +211,8 @@ Used to mark diagrams serving as example for a viewpoint
 ![icon](icons/SAF_FunctionAction.svg)
 
 ### Documentation
-<html>Stereotype realizes multiple Concepts:<UL><LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#General Functional Usage'>General Functional Usage</A><BR>General Functional Usage: Specifies the fact that a Function is used by one or more other Functions.<BR></LI>
-<LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#System Function IN System Process'>System Function IN System Process</A><BR>System Function IN System Process: Specifies the fact that a System Function is used in a System Process.<BR></LI>
+<html>Stereotype realizes multiple Concepts:<UL><LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#General-Functional-Usage'>General Functional Usage</A><BR>General Functional Usage: Specifies the fact that a Function is used by one or more other Functions.<BR></LI>
+<LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#System-Function-IN-System-Process'>System Function IN System Process</A><BR>System Function IN System Process: Specifies the fact that a System Function is used in a System Process.<BR></LI>
 </UL>
 </html>
 
@@ -235,7 +235,7 @@ Used to mark diagrams serving as example for a viewpoint
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Logical System Context'>Logical System Context</A><BR>Logical System Context: Specifies the fact that a System Context for a System of Interest is defined on Logical Level.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Logical-System-Context'>Logical System Context</A><BR>Logical System Context: Specifies the fact that a System Context for a System of Interest is defined on Logical Level.<BR></html>
 
 
 ## SAF_LogicalContextElementActing
@@ -261,7 +261,7 @@ Used to mark diagrams serving as example for a viewpoint
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Logical Element'>Logical Element</A><BR>Logical Element: Describes a conceptual Logical Element as specification for an implementation of a system, or system element.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Logical-Element'>Logical Element</A><BR>Logical Element: Describes a conceptual Logical Element as specification for an implementation of a system, or system element.<BR></html>
 
 
 ## SAF_LogicalEnvironment
@@ -270,7 +270,7 @@ Used to mark diagrams serving as example for a viewpoint
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Logical Environment'>Logical Environment</A><BR>Logical Environment: A Logical Environment in the Logical Domain, outside the SOI scope, interacting with the SOI. E.g., air, dirt, sun, road.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Logical-Environment'>Logical Environment</A><BR>Logical Environment: A Logical Environment in the Logical Domain, outside the SOI scope, interacting with the SOI. E.g., air, dirt, sun, road.<BR></html>
 
 
 ## SAF_LogicalExternalSystem
@@ -279,7 +279,7 @@ Used to mark diagrams serving as example for a viewpoint
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Logical External System'>Logical External System</A><BR>Logical External System: A Logical External System in the Logical Domain, outside the SOI scope, interacting with the SOI. E.g., power grid, mobile network, fresh water system (in a house).<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Logical-External-System'>Logical External System</A><BR>Logical External System: A Logical External System in the Logical Domain, outside the SOI scope, interacting with the SOI. E.g., power grid, mobile network, fresh water system (in a house).<BR></html>
 
 
 ## SAF_LogicalInternalRole
@@ -296,7 +296,7 @@ Used to mark diagrams serving as example for a viewpoint
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Logical Context SOI'>Logical Context SOI</A><BR>Logical Context SOI: Represents the Logical SOI in the System Context on Logical Level.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Logical-Context-SOI'>Logical Context SOI</A><BR>Logical Context SOI: Represents the Logical SOI in the System Context on Logical Level.<BR></html>
 
 
 ## SAF_LogicalUser
@@ -305,7 +305,7 @@ Used to mark diagrams serving as example for a viewpoint
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Logical User'>Logical User</A><BR>Logical User: The Logical User is the representation for a human in the Logical Domain, outside the SOI scope, interacting with the SOI.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Logical-User'>Logical User</A><BR>Logical User: The Logical User is the representation for a human in the Logical Domain, outside the SOI scope, interacting with the SOI.<BR></html>
 
 
 ## SAF_OperationalCapability
@@ -314,7 +314,7 @@ Used to mark diagrams serving as example for a viewpoint
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Operational Capability'>Operational Capability</A><BR>Operational Capability: A Operational Capability is a high-level description or specification of an organizational unit's ability to execute a specified course of action, to implement a business process or to provide a service. Operational Capabilities typically require people, processes, infrastructure, technology and supporting systems to be implemented.  A Operational Capability is an enduring element, its implementation may change over time. A necessary or desired change of a Operational Capability triggers the updated of involved systems or the integration new systems.
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Operational-Capability'>Operational Capability</A><BR>Operational Capability: A Operational Capability is a high-level description or specification of an organizational unit's ability to execute a specified course of action, to implement a business process or to provide a service. Operational Capabilities typically require people, processes, infrastructure, technology and supporting systems to be implemented.  A Operational Capability is an enduring element, its implementation may change over time. A necessary or desired change of a Operational Capability triggers the updated of involved systems or the integration new systems.
 
 Aliases:
 UAF::Capability
@@ -369,7 +369,7 @@ UAF::CapabilityGeneralization<BR></html>
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Operational Context'>Operational Context</A><BR>Operational Context: An Operational Context is representing a separate Usage Scenario with a specific configuration of Operational Performers, these are interacting in the Scenario exhibiting a specific identified Operational Capability. One or more Operational Contexts meaningful for the Operational Domain are to be identified. 
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Operational-Context'>Operational Context</A><BR>Operational Context: An Operational Context is representing a separate Usage Scenario with a specific configuration of Operational Performers, these are interacting in the Scenario exhibiting a specific identified Operational Capability. One or more Operational Contexts meaningful for the Operational Domain are to be identified. 
 
 Aliases:
 UAF::HighLevelOperationalConcept<BR></html>
@@ -381,7 +381,7 @@ UAF::HighLevelOperationalConcept<BR></html>
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Operational Context Role'>Operational Context Role</A><BR>Operational Context Role: An Operational Context Role represents a participant in an Operational context.
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Operational-Context-Role'>Operational Context Role</A><BR>Operational Context Role: An Operational Context Role represents a participant in an Operational context.
 It is interacting with other roles of the given Operational Context. Specific characteristics and features or, in case of persons or organizational units, knowledge and skills are assigned to a role necessary for the execution of the performed Operational Processes.<BR></html>
 
 
@@ -391,7 +391,7 @@ It is interacting with other roles of the given Operational Context. Specific ch
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Operational Domain Kind'>Operational Domain Kind</A><BR>Operational Domain Kind: Specifies the kind of Operational Item Exchange between Operational Context Roles or Operational Processes.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Operational-Domain-Kind'>Operational Domain Kind</A><BR>Operational Domain Kind: Specifies the kind of Operational Item Exchange between Operational Context Roles or Operational Processes.<BR></html>
 
 
 ## SAF_OperationalDomainKindComposition
@@ -409,7 +409,7 @@ It is interacting with other roles of the given Operational Context. Specific ch
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Operational Performer'>Operational Performer</A><BR>Operational Performer: An Operational Performer is an element of the Operational Context that is capable to perform Operational Process Activities contributing to a specific identified Operational Capability. An Operational Performer may be any kind of organization, person, or even a system playing a role in one or more Operational Contexts.
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Operational-Performer'>Operational Performer</A><BR>Operational Performer: An Operational Performer is an element of the Operational Context that is capable to perform Operational Process Activities contributing to a specific identified Operational Capability. An Operational Performer may be any kind of organization, person, or even a system playing a role in one or more Operational Contexts.
 
 Aliases:
 UAF::OperationalPerformer<BR></html>
@@ -448,7 +448,7 @@ UAF::OperationalPerformer<BR></html>
 ![icon](icons/SAF_OperationalProcess.svg)
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Operational Process'>Operational Process</A><BR>Operational Process: An Operational Process captures activity-based operational behavior including scenarios, activity actions, and operational exchange flows, e.g., including information, materials, natural resources, etc.
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Operational-Process'>Operational Process</A><BR>Operational Process: An Operational Process captures activity-based operational behavior including scenarios, activity actions, and operational exchange flows, e.g., including information, materials, natural resources, etc.
 
 Aliases:
 UAF::Operational Activity
@@ -461,7 +461,7 @@ NAF::Logical Activity<BR></html>
 ![icon](icons/SAF_OperationalProcessAction.svg)
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Operational Process Usage'>Operational Process Usage</A><BR>Operational Process Usage: Specifies the fact that an Operational Process is used in context of another Operational Process.
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Operational-Process-Usage'>Operational Process Usage</A><BR>Operational Process Usage: Specifies the fact that an Operational Process is used in context of another Operational Process.
 
 Aliases:
 UAF::OperationalAction<BR></html>
@@ -494,7 +494,7 @@ UAF::MapsToCapability<BR></html>
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Operational Sketch'>Operational Sketch</A><BR>Operational Sketch: Specifies a free form sketch depicting a concept.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Operational-Sketch'>Operational Sketch</A><BR>Operational Sketch: Specifies a free form sketch depicting a concept.<BR></html>
 
 
 ## SAF_OperationalStakeholderRepresentation
@@ -512,7 +512,7 @@ UAF::MapsToCapability<BR></html>
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Operational Story'>Operational Story</A><BR>Operational Story: The Operational Story represents one or more Operational Use Cases in the Usage Scenario identified by the Operational Context. The Operational Story is described as narrative story-telling.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Operational-Story'>Operational Story</A><BR>Operational Story: The Operational Story represents one or more Operational Use Cases in the Usage Scenario identified by the Operational Context. The Operational Story is described as narrative story-telling.<BR></html>
 
 
 ## SAF_PhysicalContext
@@ -521,7 +521,7 @@ UAF::MapsToCapability<BR></html>
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical System Context'>Physical System Context</A><BR>Physical System Context: Specifies the fact that a context for a System of Interest is defined on Physical Level.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical-System-Context'>Physical System Context</A><BR>Physical System Context: Specifies the fact that a context for a System of Interest is defined on Physical Level.<BR></html>
 
 
 ## SAF_PhysicalContextRole
@@ -538,7 +538,7 @@ UAF::MapsToCapability<BR></html>
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical Element'>Physical Element</A><BR>Physical Element: A composition of Hardware and Software Elements. Similarity with the V-Model segments and system. See [VXT].<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical-Element'>Physical Element</A><BR>Physical Element: A composition of Hardware and Software Elements. Similarity with the V-Model segments and system. See [VXT].<BR></html>
 
 
 ## SAF_PhysicalEnvironment
@@ -547,7 +547,7 @@ UAF::MapsToCapability<BR></html>
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical Environment'>Physical Environment</A><BR>Physical Environment: The Physical Environment in the Physical Domain, outside the SOI scope, interacting with the SOI. E.g. air, dirt, sun, road.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical-Environment'>Physical Environment</A><BR>Physical Environment: The Physical Environment in the Physical Domain, outside the SOI scope, interacting with the SOI. E.g. air, dirt, sun, road.<BR></html>
 
 
 ## SAF_PhysicalExchangeType
@@ -556,7 +556,7 @@ UAF::MapsToCapability<BR></html>
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical Exchange Kind'>Physical Exchange Kind</A><BR>Physical Exchange Kind: Specification for any kind of physical item (energy, material, information, etc.) to be exchanged on Physical Level. This is the realization of the specification made by System Domain Kinds.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical-Exchange-Kind'>Physical Exchange Kind</A><BR>Physical Exchange Kind: Specification for any kind of physical item (energy, material, information, etc.) to be exchanged on Physical Level. This is the realization of the specification made by System Domain Kinds.<BR></html>
 
 
 ## SAF_PhysicalExternalSystem
@@ -565,7 +565,7 @@ UAF::MapsToCapability<BR></html>
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical External System'>Physical External System</A><BR>Physical External System: The Physical External System in the Physical Domain, outside the SOI scope, interacting with the SOI. E.g. power grid, mobile network, fresh water system (in a house).<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical-External-System'>Physical External System</A><BR>Physical External System: The Physical External System in the Physical Domain, outside the SOI scope, interacting with the SOI. E.g. power grid, mobile network, fresh water system (in a house).<BR></html>
 
 
 ## SAF_PhysicalHardwareElement
@@ -574,7 +574,7 @@ UAF::MapsToCapability<BR></html>
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Hardware Element'>Hardware Element</A><BR>Hardware Element: Pure Hardware Elements. Similarity with the V-Model "hardware unit".<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Hardware-Element'>Hardware Element</A><BR>Hardware Element: Pure Hardware Elements. Similarity with the V-Model "hardware unit".<BR></html>
 
 
 ## SAF_PhysicalInterfaceDefinition
@@ -583,7 +583,7 @@ UAF::MapsToCapability<BR></html>
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical Interaction Point Definition'>Physical Interaction Point Definition</A><BR>Physical Interaction Point Definition: Specifies the exchange capabilities of an interaction point on Physical Level.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical-Interaction-Point-Definition'>Physical Interaction Point Definition</A><BR>Physical Interaction Point Definition: Specifies the exchange capabilities of an interaction point on Physical Level.<BR></html>
 
 
 ## SAF_PhysicalInternalRole
@@ -592,7 +592,7 @@ UAF::MapsToCapability<BR></html>
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#General Physical Role'>General Physical Role</A><BR>General Physical Role: General concept of usage of system elements in the context of other system elements on physical level.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#General-Physical-Role'>General Physical Role</A><BR>General Physical Role: General concept of usage of system elements in the context of other system elements on physical level.<BR></html>
 
 
 ## SAF_PhysicalItem
@@ -609,7 +609,7 @@ UAF::MapsToCapability<BR></html>
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Software Element'>Software Element</A><BR>Software Element: Pure Software Elements. Similarity with the V-Model "software unit".<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Software-Element'>Software Element</A><BR>Software Element: Pure Software Elements. Similarity with the V-Model "software unit".<BR></html>
 
 
 ## SAF_PhysicalSystem
@@ -618,7 +618,7 @@ UAF::MapsToCapability<BR></html>
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical SOI'>Physical SOI</A><BR>Physical SOI: Represents the Physical SOI on Physical Level.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical-SOI'>Physical SOI</A><BR>Physical SOI: Represents the Physical SOI on Physical Level.<BR></html>
 
 
 ## SAF_PhysicalUser
@@ -627,7 +627,7 @@ UAF::MapsToCapability<BR></html>
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical User'>Physical User</A><BR>Physical User: The Physical User is the representation for a human in the physical domain, outside the SOI scope, interacting with the SOI.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical-User'>Physical User</A><BR>Physical User: The Physical User is the representation for a human in the physical domain, outside the SOI scope, interacting with the SOI.<BR></html>
 
 
 ## SAF_Refuter
@@ -1128,7 +1128,7 @@ Following the identification of physical SOI elements capable of performing the 
 
 A LBS_to_PBS mapping matrix featuring
 * Logical Breakdown Structure (LBS)
-* Physical Breakdown Structure (FBS)
+* Physical Breakdown Structure (PBS)
 * Allocation from conceptual logical system elements to physical SOI elements
 
 ## SAF_SPV08b_View
@@ -1150,7 +1150,7 @@ A FBS_to_PBS mapping matrix featuring
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#System of Interest Stakeholder'>System of Interest Stakeholder</A><BR>System of Interest Stakeholder: An individual, team, or organization (or classes thereof) with interests in, or concerns relative to, a system. It may be involved in any life cycle phase of the System. The Stakeholder represents a class or kind of Stakeholders. Stakeholders have a certain involvement: Stakeholder Involvement captures the influence of a project specific Stakeholder on the System. Stakeholder Involvement is characterized by
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#System-of-Interest-Stakeholder'>System of Interest Stakeholder</A><BR>System of Interest Stakeholder: An individual, team, or organization (or classes thereof) with interests in, or concerns relative to, a system. It may be involved in any life cycle phase of the System. The Stakeholder represents a class or kind of Stakeholders. Stakeholders have a certain involvement: Stakeholder Involvement captures the influence of a project specific Stakeholder on the System. Stakeholder Involvement is characterized by
 * Contact Person
 * Kind of involvement
 * Life Cycle Phases involved
@@ -1173,7 +1173,7 @@ A FBS_to_PBS mapping matrix featuring
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Stakeholder Requirement'>Stakeholder Requirement</A><BR>Stakeholder Requirement: A Stakeholder Requirement is a Requirement imposed by a Stakeholder. Stakeholder Concerns are refined by Stakeholder Requirements applicable for the SOI. The Stakeholder Requirements are a result of discussions and agreements of how the SOI addresses the Concerns of the respective Stakeholder.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Stakeholder-Requirement'>Stakeholder Requirement</A><BR>Stakeholder Requirement: A Stakeholder Requirement is a Requirement imposed by a Stakeholder. Stakeholder Concerns are refined by Stakeholder Requirements applicable for the SOI. The Stakeholder Requirements are a result of discussions and agreements of how the SOI addresses the Concerns of the respective Stakeholder.<BR></html>
 
 
 ## SAF_StakeholderRequirementImposition
@@ -1213,7 +1213,7 @@ A FBS_to_PBS mapping matrix featuring
 ![icon](icons/SAF_SystemCapability.svg)
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#System Capability'>System Capability</A><BR>System Capability: 1) A System Capability is an operation or task that performs an action to produce a specific performance-based outcome. NOTE that a system capability represents the potential to perform an action. In contrast, an operational capability may integrate several physical system capabilities to produce a specific outcome to achieve a mission objective. [Wasson2006, SystemAnalysis+Design+Development]
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#System-Capability'>System Capability</A><BR>System Capability: 1) A System Capability is an operation or task that performs an action to produce a specific performance-based outcome. NOTE that a system capability represents the potential to perform an action. In contrast, an operational capability may integrate several physical system capabilities to produce a specific outcome to achieve a mission objective. [Wasson2006, SystemAnalysis+Design+Development]
 2) System Capabilities, as system assets, characterize the mechanical, electrical, optical, or processing features that enable a system to function, process mission resources, make decisions, and achieve a required level of success based on performance. A system capability is broader in scope than simply a functional element (and performance bounding elements), especially in large, complex ecosystems. It represents a physical potential - strength, ability, endurance - to perform an outcome-based action for a given duration under a specified set of operating environment conditions. [Wasson2006, SystemAnalysis+Design+Development]
 
 Aliases:
@@ -1287,7 +1287,7 @@ UAF::CapabilityGeneralization<BR></html>
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#System Function'>System Function</A><BR>System Function: Specifies the fundamental action or task that have to take place in the System in accepting and processing the
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#System-Function'>System Function</A><BR>System Function: Specifies the fundamental action or task that have to take place in the System in accepting and processing the
 inputs and in processing and generating the outputs.
 A System Function
  * accepts input from the System boundary 
@@ -1312,7 +1312,7 @@ Note: A System Function does not need to expose observable output, when it chang
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Functional Requirement'>Functional Requirement</A><BR>Functional Requirement: Functional Requirements specify System Functions of the System.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Functional-Requirement'>Functional Requirement</A><BR>Functional Requirement: Functional Requirements specify System Functions of the System.<BR></html>
 
 
 ## SAF_SystemFunctionalRequirementConstraint
@@ -1339,7 +1339,7 @@ Note: A System Function does not need to expose observable output, when it chang
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Non-functional Requirement'>Non-functional Requirement</A><BR>Non-functional Requirement: Non-Functional Requirements specify the quality of System Functions, or non-functional requests like legal conformance.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Non-functional-Requirement'>Non-functional Requirement</A><BR>Non-functional Requirement: Non-Functional Requirements specify the quality of System Functions, or non-functional requests like legal conformance.<BR></html>
 
 
 ## SAF_SystemOfInterestConcern
@@ -1348,7 +1348,7 @@ Note: A System Function does not need to expose observable output, when it chang
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#System of Interest Concern'>System of Interest Concern</A><BR>System of Interest Concern: Any kind of interest a Stakeholder has. 
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#System-of-Interest-Concern'>System of Interest Concern</A><BR>System of Interest Concern: Any kind of interest a Stakeholder has. 
 Note: Redundant with the meaning of "Need"?<BR></html>
 
 
@@ -1358,7 +1358,7 @@ Note: Redundant with the meaning of "Need"?<BR></html>
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#System Partial Function'>System Partial Function</A><BR>System Partial Function: Specifies the fact that a System Partial Function is a decomposed part of a System Function and defines details of the System Function it belongs to.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#System-Partial-Function'>System Partial Function</A><BR>System Partial Function: Specifies the fact that a System Partial Function is a decomposed part of a System Function and defines details of the System Function it belongs to.<BR></html>
 
 
 ## SAF_SystemProcess
@@ -1367,7 +1367,7 @@ Note: Redundant with the meaning of "Need"?<BR></html>
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#System Process'>System Process</A><BR>System Process: Specifies the fact that a System Process captures system behavior as a specific sequence of actions or tasks, and system exchanges including information, materials, energy, etc.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#System-Process'>System Process</A><BR>System Process: Specifies the fact that a System Process captures system behavior as a specific sequence of actions or tasks, and system exchanges including information, materials, energy, etc.<BR></html>
 
 
 ## SAF_SystemProcessEnabling
@@ -1394,7 +1394,7 @@ Note: Redundant with the meaning of "Need"?<BR></html>
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#System Requirement'>System Requirement</A><BR>System Requirement: System Requirements specify System Functions, non-functional properties, or constraints of the System.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#System-Requirement'>System Requirement</A><BR>System Requirement: System Requirements specify System Functions, non-functional properties, or constraints of the System.<BR></html>
 
 
 ## SAF_SystemRequirementDerivation
@@ -1429,7 +1429,7 @@ Note: This is the relationship of requirements of different architectural levels
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#System Use Case'>System Use Case</A><BR>System Use Case: The System Use Cases are a table of content of the services provided by the System of Interest to its System Actors. A System Use Case is only the abstract of the depicted System behavior and represents the purpose. While the main System of Interest interaction actors participating in this Use Case are identified, the behavior itself is specified by a Use Case Activity, 
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#System-Use-Case'>System Use Case</A><BR>System Use Case: The System Use Cases are a table of content of the services provided by the System of Interest to its System Actors. A System Use Case is only the abstract of the depicted System behavior and represents the purpose. While the main System of Interest interaction actors participating in this Use Case are identified, the behavior itself is specified by a Use Case Activity, 
 Note: The intended use (and also misuse in so called "black use cases") of the System of Interest is captured in free text; story telling at a coarse level of detail which is understandable to Customers (non engineering stakeholders in general).<BR></html>
 
 
