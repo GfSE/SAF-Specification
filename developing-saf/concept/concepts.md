@@ -2,8 +2,6 @@
 # SAF Development Documentation : Concepts
 # Class Concepts
 ## Abstract Physical Element
-exposed in viewpoint [Physical Logical Mapping Viewpoint](../viewpoints/Physical-Logical-Mapping-Viewpoint.md)
-
 exposed in viewpoint [Physical Structure Viewpoint](../viewpoints/Physical-Structure-Viewpoint.md)
 
 Abstract element representing physical structure items keeping properties and relations applicable to all physical items.
@@ -135,6 +133,8 @@ realized by Stereotype [SAF_SCV02b_View](../../stereotypes.md#SAF_SCV02b_View)
 exposed in viewpoint [Physical Functional Mapping Viewpoint](../viewpoints/Physical-Functional-Mapping-Viewpoint.md)
 
 exposed in viewpoint [Physical Internal Exchange Viewpoint](../viewpoints/Physical-Internal-Exchange-Viewpoint.md)
+
+exposed in viewpoint [Physical Logical Mapping Viewpoint](../viewpoints/Physical-Logical-Mapping-Viewpoint.md)
 
 exposed in viewpoint [Physical Structure Viewpoint](../viewpoints/Physical-Structure-Viewpoint.md)
 
@@ -394,6 +394,8 @@ exposed in viewpoint [Physical Functional Mapping Viewpoint](../viewpoints/Physi
 
 exposed in viewpoint [Physical Internal Exchange Viewpoint](../viewpoints/Physical-Internal-Exchange-Viewpoint.md)
 
+exposed in viewpoint [Physical Logical Mapping Viewpoint](../viewpoints/Physical-Logical-Mapping-Viewpoint.md)
+
 realized by Stereotype [SAF_PhysicalElement](../../stereotypes.md#SAF_PhysicalElement)
 
 A composition of Hardware and Software Elements. Similarity with the V-Model segments and system. See [VXT].
@@ -499,6 +501,8 @@ A party asserting counter-claims.
 exposed in viewpoint [Physical Functional Mapping Viewpoint](../viewpoints/Physical-Functional-Mapping-Viewpoint.md)
 
 exposed in viewpoint [Physical Internal Exchange Viewpoint](../viewpoints/Physical-Internal-Exchange-Viewpoint.md)
+
+exposed in viewpoint [Physical Logical Mapping Viewpoint](../viewpoints/Physical-Logical-Mapping-Viewpoint.md)
 
 exposed in viewpoint [Physical Structure Viewpoint](../viewpoints/Physical-Structure-Viewpoint.md)
 
@@ -1491,6 +1495,8 @@ Specifies the fact that a SOI is acting for the benefit of an Operational Perfor
 1..* [System Partial Function](#System-Partial-Function) SPFNallocatedToAPE 1 [Abstract Physical Element](#Abstract-Physical-Element) 
 
 exposed in viewpoint [Physical Functional Mapping Viewpoint](../viewpoints/Physical-Functional-Mapping-Viewpoint.md)
+
+realized by Attribute "function" of SAF_PhysicalItem referencing SAF_SystemFunction
 
 Specifies the fact that a System Partial Function is assigned to an Abstract Physical Element.
 Note: This fact may be derived from the Usage of Function of a System Partial Function allocated to a Physical SOI Element Role

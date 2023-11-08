@@ -16,7 +16,7 @@ Furthermore, the Physical Logical Mapping Viewpoint supports the "Allocation and
 ## Presentation
 A LBS_to_PBS mapping matrix featuring
 * Logical Breakdown Structure (LBS)
-* Physical Breakdown Structure (FBS)
+* Physical Breakdown Structure (PBS)
 * Allocation from conceptual logical system elements to physical SOI elements
 
 ## Stakeholder
