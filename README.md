@@ -7,6 +7,15 @@ This repository contains both documentation for users of SAF and developers of S
 
 The System Architecture Framework Specification application is demonstrated using the Fire Forest Detection System example, courtesy of Tim Weilkiens. The Fire Forest Detection System example is based on the publication **SYSMOD - The Systems Modeling Toolbox, 3rd edition Pragmatic MBSE with SysML, Tim Weilkiens**
 
+## Versions
+This is the main branch, reflecting the current development and it is updated as appropriate.
+
+The following releases are available, each is kept in a separate branch:
+* [Initial Release](https://github.com/GfSE/SAF-Specification/tree/Initial-Release)
+* [TdSE2022](https://github.com/GfSE/SAF-Specification/tree/TdSE2022)
+* [TdSE2023](https://github.com/GfSE/SAF-Specification/tree/TdSE2023)
+
+
 # Viewpoint Grid
 
 The Viewpoints are organized as a Grid featuring [Domains](domains.md) as rows and [Aspects](aspects.md) as columns.
