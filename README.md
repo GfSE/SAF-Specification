@@ -9,7 +9,7 @@ The System Architecture Framework Specification application is demonstrated usin
 The SAF specification is realized by several tool specific profiles which are available in separat github repositories:
 
 * [Cameo Systems Modeler (by Dassault Systèmes)](https://github.com/GfSE/SAF-Cameo-Profile/tree/TdSE2023)
-* [Engineering Systems Design Rhapsody (by IBM)](https://github.com/GfSE/SAF-Rhapsody-Profile)
+* [Engineering Systems Design Rhapsody (by IBM)](https://github.com/GfSE/SAF-Rhapsody-Profile/tree/TdSE2023)
 * [Enterprise Architect (by Sparx Systems)](https://github.com/GfSE/SAF-EA-Profile/tree/TdSE2023)
 
 # Viewpoint Grid
