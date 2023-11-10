@@ -81,7 +81,6 @@ The SAF Functional Domain assumes a conceptual black box perspective onto the sy
 #### Functional Domain Aspect Behavior
 
 * [System Process Viewpoint](viewpoints/System-Process-Viewpoint.md)
-* System Functional Refinement Viewpoint
 * [System State Viewpoint](viewpoints/System-State-Viewpoint.md)
 
 #### Functional Domain Aspect Interaction and Collaboration
@@ -163,8 +162,6 @@ The SAF Common Domain provides viewpoints addressing model information that is c
 ### Common Domain Viewpoints
 
 * [Argumentation Assurance Viewpoint](viewpoints/Argumentation-Assurance-Viewpoint.md)
-* Common Standards Definition Viewpoint
-* Common Terms & Abbreviations Viewpoint
 * [Grid Definition Viewpoint](viewpoints/Grid-Definition-Viewpoint.md)
 
 # Stakeholder Definition
