@@ -146,7 +146,6 @@ The SAF Physical Domain diagrams may be used to represent the Product Breakdown 
 #### Physical Domain Aspect Interface
 
 * [Physical Interface Definition Viewpoint](viewpoints/Physical-Interface-Definition-Viewpoint.md)
-* Physical Protocol Stack Definition Viewpoint
 
 #### Physical Domain Aspect Traceability & Mapping
 
@@ -162,7 +161,6 @@ The SAF Common Domain provides viewpoints addressing model information that is c
 ### Common Domain Viewpoints
 
 * [Argumentation Assurance Viewpoint](viewpoints/Argumentation-Assurance-Viewpoint.md)
-* [Grid Definition Viewpoint](viewpoints/Grid-Definition-Viewpoint.md)
 
 # Stakeholder Definition
 
