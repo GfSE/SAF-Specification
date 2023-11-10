@@ -10,11 +10,17 @@ The System Architecture Framework Specification application is demonstrated usin
 ## Versions
 This is the main branch, reflecting the current development and it is updated as appropriate.
 
-The following releases are available, each is kept in a separate branch:
+The following specification releases are available, each is kept in a separate branch:
 * [Initial Release](https://github.com/GfSE/SAF-Specification/tree/Initial-Release)
 * [TdSE2022](https://github.com/GfSE/SAF-Specification/tree/TdSE2022)
 * [TdSE2023](https://github.com/GfSE/SAF-Specification/tree/TdSE2023)
 
+## SysML Tool Implementations
+The SAF specification is realized by several tool specific profiles which are available in separat github repositories:
+
+* [Cameo Systems Modeler (by Dassault Systèmes)](https://github.com/GfSE/SAF-Cameo-Profile)
+* [Engineering Systems Design Rhapsody (by IBM)](https://github.com/GfSE/SAF-Rhapsody-Profile)
+* [Enterprise Architect (by Sparx Systems)](https://github.com/GfSE/SAF-EA-Profile)
 
 # Viewpoint Grid
 
