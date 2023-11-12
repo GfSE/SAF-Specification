@@ -16,7 +16,7 @@ The following SAF releases are available, each of wwhich is managed in a separat
 * [TdSE2023](https://github.com/GfSE/SAF-Specification/tree/TdSE2023)
 
 ## SysML Tool Implementations
-The SAF specification is realized by several tool specific profiles which are available in separat github repositories:
+The SAF specification is implemented by 3 tool specific profiles which are available in separat github repositories:
 
 * [Cameo Systems Modeler (by Dassault Systèmes)](https://github.com/GfSE/SAF-Cameo-Profile)
 * [Engineering Systems Design Rhapsody (by IBM)](https://github.com/GfSE/SAF-Rhapsody-Profile)
