@@ -20,9 +20,9 @@ The SAF specification is implemented by 3 tool specific profiles which are avail
 * [Engineering Systems Design Rhapsody (by IBM)](https://github.com/GfSE/SAF-Rhapsody-Profile)
 * [Enterprise Architect (by Sparx Systems)](https://github.com/GfSE/SAF-EA-Profile)
 
-# Viewpoint Grid
+# SAF Viewpoint Grid
 
-The Viewpoints are organized as a Grid featuring [Domains](domains.md) as rows and [Aspects](aspects.md) as columns.
+The SAF Viewpoints are organized as a Grid featuring [Domains](domains.md) as rows and [Aspects](aspects.md) as columns.
 
 ![SAF Grid](diagrams/SAF_Viewpoint-Grid-Structuring-Formalism.svg)
 
