@@ -8,9 +8,7 @@ This repository contains both documentation for users of SAF and developers of S
 The System Architecture Framework Specification application is demonstrated using the **Fire Forest Detection System (FFDS)** example, courtesy of Tim Weilkiens. The Fire Forest Detection System example is based on the publication **SYSMOD - The Systems Modeling Toolbox, 3rd edition Pragmatic MBSE with SysML, Tim Weilkiens**
 
 ## Versions
-This is the main branch that reflects the current state of development and it is updated as required.
-
-The following SAF releases are available, each of which is managed in a separate branch:
+This is the main branch that reflects the current state of development and it is updated as required. The following SAF releases are available, each of which is managed in a separate branch:
 * [Initial Release](https://github.com/GfSE/SAF-Specification/tree/Initial-Release)
 * [TdSE2022](https://github.com/GfSE/SAF-Specification/tree/TdSE2022)
 * [TdSE2023](https://github.com/GfSE/SAF-Specification/tree/TdSE2023)
