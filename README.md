@@ -1,4 +1,4 @@
-# SAF Specification
+# SAF Specification, Initial Release
 Disclaimer: **The System Architecture Framework specification is a work in progress document.**
 
 # Viewpoint Grid
