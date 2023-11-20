@@ -12,7 +12,7 @@ The System Context Exchange Viewpoint serves for the identification and definiti
 * assigns interface documents to system interfaces,
 * and defines the usage of interfaces, e.g., when only a subset of the interface is used.
 ## Applicability
-The System Context Exchange Viewpoint supports  the "prepare for system requirement definition" activity included in "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.3] and contributes to the artifact "System Requirements Definition Report".
+The System Context Exchange Viewpoint supports the "prepare for system requirement definition" activity included in the "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.3] and contributes to the artifact "System Requirements Definition Report".
 ## Presentation
 An internal block diagram (IBD) - associated to the system context - featuring the SOI, the system context elements, and the connectors for each identified interface from SOI to the respective context elements. An interface is a connection resource for hooking on the SOI to other context elements. Item flows are defined for each exchange on the identified interface. Connectors/ports may contain reference to the interface documents if applicable. Ports may be structured as appropriate to manage and structure the information.
 Note: more than one IBD focused on different areas of interest may be used in oder to keep the view comprehensive. Depending on the Stakeholder concerns the item exchange information might be suppressed.

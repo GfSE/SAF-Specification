@@ -143,6 +143,9 @@ The Developer is a group or an individual implementing the system parts accordin
 * Which Stakeholders are relevant to the system and might impose requirements? 
 
   ***Rationale:  In my role, I need to give feedback on existing or missing stakeholders.***
+* Which are the interface definitions for the physical architecture? 
+
+  ***Rationale:  In my role, I need to implement the interface.***
 * Which are the protocols for exchanging physical items on a specific interface? 
 
   ***Rationale:  In my role, I need to implement the protocol.***
@@ -164,7 +167,7 @@ The Developer is a group or an individual implementing the system parts accordin
 * Which kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities? 
 
   ***Rationale:  In my role, I need to understand the concepts of external interfaces to external partners in order to implement them.***
-* Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the systemI? 
+* Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the system? 
 
   ***Rationale:  In my role, I must use these in interface design.***
 * Which kind of physical items (energy, material, information, etc.) are used on an interface of a physical architecture element? 
@@ -182,9 +185,6 @@ The Developer is a group or an individual implementing the system parts accordin
   ***Rationale:  In my role, I need to implement the interface.***
 * Which variants of a HW item need to be provided?
 * Who provides the inputs to a critical function?
-* what are the interface definitions for the physical architecture 
-
-  ***Rationale:  In my role, I need to implement the interface.***
 # IV&V Engineer
 Definition - IV&V Engineer
 Individuals or groups responsible for integration, verification and validation.
@@ -273,15 +273,15 @@ The Developer is a group or an individual implementing the system parts accordin
 * What is the mapping of functions to the physical SOI physical architecture? 
 
   ***Rationale:  In my role, I need to implement the sub-functions in my mechanical subsystem***
+* Which are the interface definitions for the physical architecture? 
+
+  ***Rationale:  In my role, I need to implement the interface.***
 * Which conceptual logical elements are allocated to the physical SOI physical architecture? 
 
   ***Rationale:  In my role, as design authority I have to ensure that the Physical Element fulfills the allocated logical concept (specification).***
 * Which kind of physical items (energy, material, information, etc.) are used on an interface of a physical architecture element? 
 
   ***Rationale:  In my role, I need to implement the interfaces in my mechanical subsystem, if necessary.***
-* what are the interface definitions for the physical architecture 
-
-  ***Rationale:  In my role, I need to implement the interface.***
 # Operator
 Definition - Operator:
 Individual or organization that performs the operations of a system, [ISO/IEC 15288:2022 – Systems engineering - System life-cycle processes]
@@ -395,7 +395,7 @@ The safety experts evaluate a proposed system architecture and design for safety
 
   ***Rationale:  In my role, I use them as basis for understanding interfaces on conceptual level.***
 * Which kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?
-* Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the systemI? 
+* Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the system? 
 
   ***Rationale:  In my role, I use them as basis for understanding interfaces on design level.***
 * Which modes and states does the system have?
@@ -423,9 +423,6 @@ The IT-Security experts evaluate a proposed system architecture and design for I
 * What are the domains of similar security levels in the system or the system participates in?
 * What are the encryption means used for an exchange?
 * What are the interfaces between different domains?
-* What are the protocols used for exchanging information? 
-
-  ***Rationale:  In my role, I need to assess the security based on protocol usage in general.***
 * What are the requirements for security relevant IT-equipment?
 * What are the scenarios a system function is utilized in?
 * What is the necessary response time for an interface or a service?
@@ -437,6 +434,9 @@ The IT-Security experts evaluate a proposed system architecture and design for I
 * Which are the protocols for exchanging physical items on a specific interface? 
 
   ***Rationale:  In my role, I need to assess the security on the interface.***
+* Which are the protocols used for exchanging information? 
+
+  ***Rationale:  In my role, I need to assess the security based on protocol usage in general.***
 * Which conceptual items (energy, material, information, etc.) are exchanged within the system? 
 
   ***Rationale:  In my role, I use them as basis for understanding interfaces on logical level.***
@@ -448,7 +448,7 @@ The IT-Security experts evaluate a proposed system architecture and design for I
 
   ***Rationale:  In my role, I use them as basis for understanding interfaces on conceptual level.***
 * Which kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?
-* Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the systemI? 
+* Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the system? 
 
   ***Rationale:  In my role, I use them as basis for understanding interfaces on design level.***
 * Which modes and states does the system have?
@@ -490,6 +490,9 @@ The Developer is a group or an individual implementing the system parts accordin
 * Which Stakeholders are relevant to the system and might impose requirements? 
 
   ***Rationale:  In my role, I need to give feedback on existing or missing stakeholders.***
+* Which are the interface definitions for the physical architecture? 
+
+  ***Rationale:  In my role, I need to implement the interface.***
 * Which are the protocols for exchanging physical items on a specific interface? 
 
   ***Rationale:  In my role, I need to implement the protocol.***
@@ -511,7 +514,7 @@ The Developer is a group or an individual implementing the system parts accordin
 * Which kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities? 
 
   ***Rationale:  In my role, I need to understand the concepts of external interfaces to external partners in order to implement them.***
-* Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the systemI? 
+* Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the system? 
 
   ***Rationale:  In my role, I must use these in interface design.***
 * Which kind of physical items (energy, material, information, etc.) are used on an interface of a physical architecture element? 
@@ -528,9 +531,6 @@ The Developer is a group or an individual implementing the system parts accordin
   ***Rationale:  In my role, I need to implement the interface.***
 * Who provides the inputs to a critical function?
 * Why types of exchange can exist between Operational Performers (i.e., flows of information, people, material, or energy)?
-* what are the interface definitions for the physical architecture 
-
-  ***Rationale:  In my role, I need to implement the interface.***
 # Supplier
 Definition - Supplier:
 Organization or an individual that enters into an agreement with the Acquirer for the supply of a product or service, [ISO/IEC 15288:2022 – Systems engineering - System life-cycle processes]
@@ -593,9 +593,6 @@ The System Architect as an individual or group performing the systems engineerin
   ***Rationale:  In my role, I need to check whether the system design implements the System Requirements.***
 * What are the normal and extreme environmental conditions for normal operation, for not operational, for storage, and for transport?
 * What are the planned architectural means for risk mitigation?
-* What are the protocols used for exchanging information? 
-
-  ***Rationale:  In my role, I need to validate if they fit the purpose of the system and conform the systems concepts***
 * What are the relationships between the partys involved in the operation of the intended solution?
 * What are the scenarios a system function is utilized in?
 * What concerns and rationals does a Stakeholder have?
@@ -630,9 +627,18 @@ The System Architect as an individual or group performing the systems engineerin
 * Which Viewpoints are present
 * Which are the external physical entities the system interacts with in the given context?
 * Which are the given contexts the system is embedded and utilized in?
+* Which are the interface definitions for the logical architecture? 
+
+  ***Rationale:  In my role, I need to orchestrate interface agreements between the system and external interface partners***
+* Which are the interface definitions for the physical architecture? 
+
+  ***Rationale:  In my role, I need to orchestrate interface agreements between the system and external interface partners***
 * Which are the protocols for exchanging physical items on a specific interface? 
 
   ***Rationale:  In my role, I need to asses if the usage of protocols on interfaces is compatible with the system lifecyle concepts.***
+* Which are the protocols used for exchanging information? 
+
+  ***Rationale:  In my role, I need to validate if they fit the purpose of the system and conform the systems concepts***
 * Which conceptual items (energy, material, information, etc.) are exchanged within the system? 
 
   ***Rationale:  In my role, I use them as basis for understanding interfaces on logical level.***
@@ -657,7 +663,7 @@ The System Architect as an individual or group performing the systems engineerin
 * Which kind of physical items (energy, material, information, etc.) are exchanged between the system and external entities? 
 
   ***Rationale:  In my role, I need to orchestrate interface agreements between the system and external interface partners.***
-* Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the systemI? 
+* Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the system? 
 
   ***Rationale:  In my role, I have to foster reuse of system wide concept definitions within the architecture design.***
 * Which kind of physical items (energy, material, information, etc.) are used on an interface of a physical architecture element? 
@@ -685,12 +691,6 @@ The System Architect as an individual or group performing the systems engineerin
   ***Rationale:  In my role, I need to give feedback on existing or missing stakeholders.***
 * Who provides the inputs to a critical function?
 * Why types of exchange can exist between Operational Performers (i.e., flows of information, people, material, or energy)?
-* what are the interface definitions for the logical architecture 
-
-  ***Rationale:  In my role, I need to orchestrate interface agreements between the system and external interface partners***
-* what are the interface definitions for the physical architecture 
-
-  ***Rationale:  In my role, I need to orchestrate interface agreements between the system and external interface partners***
 # User
 Definition - User:
 Individual or group that interacts with a system or benefits from a system during its utilization, [ISO/IEC 15288:2022 - Systems engineering - System life-cycle processes]

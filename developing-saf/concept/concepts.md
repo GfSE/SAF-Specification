@@ -13,6 +13,12 @@ exposed in viewpoint [Argumentation Assurance Viewpoint](../viewpoints/Argumenta
 realized by Stereotype [SAF_Argument](../../stereotypes.md#SAF_Argument)
 
 An argument is a rule that provides the bridge between what we know or are assuming (sub-claims, evidence) and the claim we are investigating. The argument used depends on the type, trustworthiness and extent of available evidence and the nature of the claim.
+## Argument Concretion
+This argument concept is used when a claim needs to be given a more precise definition or interpretation.
+## Argument Decomposition
+This argument concept is used to claim that a conclusion about the whole object or property can be deduced from the claims or facts about constituent parts. Decomposition argument blocks can also be used to incorporate defeaters into the case.
+## Argument Substitution
+This argument concept is used to claim that if a property holds for one object, then it holds for an equivalent object. Similarly, if a property holds for some object, then an equivalent property will also hold for the same object. The nature of the equivalence will vary with the object and property and will need to be defined.
 ## Aspect
 realized by Stereotype [SAF_AspectColumn](../../stereotypes.md#SAF_AspectColumn)
 
@@ -428,6 +434,8 @@ The Physical External System in the Physical Domain, outside the SOI scope, inte
 ## Physical Interaction Point
 exposed in viewpoint [Physical Context Exchange Viewpoint](../viewpoints/Physical-Context-Exchange-Viewpoint.md)
 
+exposed in viewpoint [Physical Interface Definition Viewpoint](../viewpoints/Physical-Interface-Definition-Viewpoint.md)
+
 exposed in viewpoint [Physical Internal Exchange Viewpoint](../viewpoints/Physical-Internal-Exchange-Viewpoint.md)
 
 realized by Stereotype ProxyPort
@@ -526,7 +534,7 @@ exposed in viewpoint [Argumentation Assurance Viewpoint](../viewpoints/Argumenta
 
 realized by Stereotype [SAF_Subject](../../stereotypes.md#SAF_Subject)
 
-Note: A claim can not be generic, it have to be about something, it has to have a defined subject, e.g., system safety.
+Note: A claim cannot be generic, it has to be about something, it has to have a defined subject, e.g., system safety.
 ## System
 An abstract element representing a System.
 ## System Capability
@@ -685,7 +693,7 @@ realized by Stereotype [SAF_Viewpoint](../../stereotypes.md#SAF_Viewpoint)
 A architecture viewpoint defines set of conventions for the creation, interpretation and use of an architecture view to frame one or more concerns
 # Association Concepts
 ## AGTsupportingCLM
-0..* [Argument](#Argument) AGTsupportingCLM 1..* [Claim](#Claim) 
+1 [Argument](#Argument) AGTsupportingCLM 1..* [Claim](#Claim) 
 
 exposed in viewpoint [Argumentation Assurance Viewpoint](../viewpoints/Argumentation-Assurance-Viewpoint.md)
 
@@ -764,7 +772,7 @@ Specifies the fact that a Exchange Kind defines the type of a Exchange.
 
 Specifies the fact that a Exchange Kind defines the type of a Interaction Point Property.
 ## EVCreinforcingAGT
-0..* [Evidence](#Evidence) EVCreinforcingAGT 1..* [Argument](#Argument) 
+1..* [Evidence](#Evidence) EVCreinforcingAGT 1..* [Argument](#Argument) 
 
 exposed in viewpoint [Argumentation Assurance Viewpoint](../viewpoints/Argumentation-Assurance-Viewpoint.md)
 
@@ -1194,8 +1202,8 @@ exposed in viewpoint [Physical Internal Exchange Viewpoint](../viewpoints/Physic
 realized by Attribute "realizingConnector" of InformationFlow referencing Connector
 
 Specifies the fact that a Physical Item Exchange is allowed on the Physical Connection.
-## PCPisPartOfPCPD
-0..* [Physical Interaction Point](#Physical-Interaction-Point) PCPisPartOfPCPD 1 [Physical Interaction Point Definition](#Physical-Interaction-Point-Definition) 
+## PCPisPartOfPIPD
+0..* [Physical Interaction Point](#Physical-Interaction-Point) PCPisPartOfPIPD 1 [Physical Interaction Point Definition](#Physical-Interaction-Point-Definition) 
 
 exposed in viewpoint [Physical Interface Definition Viewpoint](../viewpoints/Physical-Interface-Definition-Viewpoint.md)
 
@@ -1279,7 +1287,7 @@ Specifies the fact that a Physical Interaction Point applies to a Physical Conte
 
 Specifies the fact that a Physical Layer Ordering is valid within a particular Physical Layer Stack.
 ## RFTmakingCCM
-1 [Refuter](#Refuter) RFTmakingCCM 1 [CounterClaim](#CounterClaim) 
+1 [Refuter](#Refuter) RFTmakingCCM 1..* [CounterClaim](#CounterClaim) 
 
 realized by Stereotype [SAF_RefuterCounterClaimMaking](../../stereotypes.md#SAF_RefuterCounterClaimMaking)
 

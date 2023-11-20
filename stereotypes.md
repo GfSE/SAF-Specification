@@ -656,7 +656,7 @@ UAF::MapsToCapability<BR></html>
 ### Documentation
 The Argumentation Assurance Viewpoint presents claims backed up by arguments that are supported by evidence, together with the possibility to counter such claims in a similar manner.
 
-A block definition diagram (BDD) featuring a claim-argument-evidence (C-A-E) pattern.
+A block definition diagram (BDD) featuring a claim-argument-evidence pattern (CAE).
 
 ## SAF_SCV02b_View
 
@@ -804,10 +804,10 @@ Note: This diagram depicts the sending and receiving of messages between the int
 *none*
 
 ### Documentation
-The System Interface Definition Viewpoint captures system wide concepts defining interfaces. It allows to adopt long-lived standards and to harmonize the interface definitions to improve interchangeability, interoperability, and portability.
+The System Interface Definition Viewpoint captures system wide concepts defining interfaces. It allows to adopt long-lived standards and to harmonize conceptual interface definitions to improve interchangeability, interoperability, and portability.
 
-A block definition diagram (BDD) featuring System Interface blocks with ports, and flow properties.
-A tabular format listing System Interface blocks, their ports, and flow properties.
+A block definition diagram (BDD) featuring Conceptual Interface blocks with ports, and flow properties.
+A tabular format listing Conceptual Interface blocks, their ports, and flow properties.
 
 ## SAF_SFV06a_View
 
@@ -1110,9 +1110,9 @@ Note: Please use more than one IBD focused on different areas of interest to kee
 *none*
 
 ### Documentation
-The Physical Interface Definition Viewpoint provides definitions for physical interfaces. These definitions are may be reused on different interfaces.
+The Physical Interface Definition Viewpoint captures definitions for physical interfaces. It allows to adopt long-lived standards and to harmonize physical interface definitions to improve interchangeability, interoperability, and portability.
 
-A block definition diagram (BDD) featuring Physical Interface blocks with ports and flow properties. Compatibility between Physical Interface blocks is expressed by associations and association blocks. Physical Interface blocks may be specialisations of others (use of Generalisation).
+A block definition diagram (BDD) featuring Physical Interface blocks with ports, and flow properties. Compatibility between Physical Interface blocks is expressed by associations and association blocks. Physical Interface blocks may be specialisations of others (use of generalisation).
 Note: When ports are used these shall be proxy ports and be typed by interface blocks.
 A tabular format listing Physical Interface blocks, their ports, and flow properties.
 
@@ -1204,7 +1204,7 @@ A FBS_to_PBS mapping matrix featuring
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Subject'>Subject</A><BR>Subject: Note: A claim can not be generic, it have to be about something, it has to have a defined subject, e.g., system safety.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Subject'>Subject</A><BR>Subject: Note: A claim cannot be generic, it has to be about something, it has to have a defined subject, e.g., system safety.<BR></html>
 
 
 ## SAF_SystemCapability

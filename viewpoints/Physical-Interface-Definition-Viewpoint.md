@@ -8,13 +8,13 @@
 ![Physical-Interface-Definition-Viewpoint-primary-example-1.svg](../diagrams/vp-examples/Physical-Interface-Definition-Viewpoint-primary-example-1.svg)
 ![Physical-Interface-Definition-Viewpoint-primary-example-2.svg](../diagrams/vp-examples/Physical-Interface-Definition-Viewpoint-primary-example-2.svg)
 ## Purpose
-The Physical Interface Definition Viewpoint provides definitions for physical interfaces. These definitions are may be reused on different interfaces.
+The Physical Interface Definition Viewpoint captures definitions for physical interfaces. It allows to adopt long-lived standards and to harmonize physical interface definitions to improve interchangeability, interoperability, and portability.
 ## Applicability
-The Physical Interface Definition Viewpoint supports the "Create System Design " activity included in "Design Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§ 2.3.5.5] and contributes to the System Interface definition.
+The Physical Interface Definition Viewpoint supports the "create system design" activity included in the "Design Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.5] and contributes to the artifact "System Interface Definition".
 
-It also supports the "Interface Management" method of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§ 3.2.4].
+Furthermore, the viewpoint supports the "Interface Management" approach of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§3.2.4].
 ## Presentation
-A block definition diagram (BDD) featuring Physical Interface blocks with ports and flow properties. Compatibility between Physical Interface blocks is expressed by associations and association blocks. Physical Interface blocks may be specialisations of others (use of Generalisation).
+A block definition diagram (BDD) featuring Physical Interface blocks with ports, and flow properties. Compatibility between Physical Interface blocks is expressed by associations and association blocks. Physical Interface blocks may be specialisations of others (use of generalisation).
 Note: When ports are used these shall be proxy ports and be typed by interface blocks.
 
 A tabular format listing Physical Interface blocks, their ports, and flow properties.
@@ -27,13 +27,17 @@ A tabular format listing Physical Interface blocks, their ports, and flow proper
 * [Software Developer](../stakeholders.md#Software-Developer)
 * [System Architect](../stakeholders.md#System-Architect)
 ## Concern
-* [What are the protocols used for exchanging information?](../concerns.md#_2021x_2_8710274_1674576759093_319282_23509)
-* [Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the systemI?](../concerns.md#_2021x_2_8710274_1697542838788_945785_24608)
-* [what are the interface definitions for the physical architecture](../concerns.md#_2021x_2_8710274_1698695280731_979013_48719)
+* [Which are the interface definitions for the physical architecture?](../concerns.md#_2021x_2_8710274_1698695280731_979013_48719)
+* [Which are the protocols used for exchanging information?](../concerns.md#_2021x_2_8710274_1674576759093_319282_23509)
+* [Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the system?](../concerns.md#_2021x_2_8710274_1697542838788_945785_24608)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
+* Attribute "realizingConnector" of InformationFlow referencing Connector
+* Connector [UML_Standard_Profile]
 * FlowProperty [SysML Profile]
 * FlowProperty contained in SAF_PhysicalInterfaceDefinition
+* FlowProperty typed by SAF_PhysicalExchangeType
+* ItemFlow typed by SAF_PhysicalExchangeType
 * ProxyPort [SysML Profile]
 * ProxyPort typed by SAF_PhysicalInterfaceDefinition
 * SAF_PhysicalInterfaceDefinition contained in ProxyPort

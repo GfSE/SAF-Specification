@@ -6,13 +6,15 @@
 ## Example
 ![System-Interface-Definition-Viewpoint-primary-example.svg](../../diagrams/vp-examples/System-Interface-Definition-Viewpoint-primary-example.svg)
 ## Purpose
-The System Interface Definition Viewpoint captures system wide concepts defining interfaces. It allows to adopt long-lived standards and to harmonize the interface definitions to improve interchangeability, interoperability, and portability.
+The System Interface Definition Viewpoint captures system wide concepts defining interfaces. It allows to adopt long-lived standards and to harmonize conceptual interface definitions to improve interchangeability, interoperability, and portability.
 ## Applicability
-The System Interface Definition Viewpoint supports the "Prepare for Interface Requirement Definition" activity included in "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§2.3.5.3] and contributes to the System Interface definition.
-## Presentation
-A block definition diagram (BDD) featuring System Interface blocks with ports, and flow properties.
+The System Interface Definition Viewpoint supports the "prepare for system requirement definition" activity included the "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.3] and contributes to the artifact "System Requirements Definition Report".
 
-A tabular format listing System Interface blocks, their ports, and flow properties.
+Furthermore, the viewpoint supports the "Interface Management" approach of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§3.2.4].
+## Presentation
+A block definition diagram (BDD) featuring Conceptual Interface blocks with ports, and flow properties.
+
+A tabular format listing Conceptual Interface blocks, their ports, and flow properties.
 
 ## Stakeholder
 * [Acquirer](../../stakeholders.md#Acquirer)
@@ -25,9 +27,9 @@ A tabular format listing System Interface blocks, their ports, and flow properti
 * [Software Developer](../../stakeholders.md#Software-Developer)
 * [System Architect](../../stakeholders.md#System-Architect)
 ## Concern
+* [Which are the interface definitions for the logical architecture?](../../concerns.md#_2021x_2_8710274_1698695260372_8568_48717)
 * [Which kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?](../../concerns.md#_2021x_2_8710274_1674576759154_22704_23559)
 * [Which standards, protocols, and format specifications apply to a physical interface?](../../concerns.md#_2021x_2_8710274_1674576758891_215548_23373)
-* [what are the interface definitions for the logical architecture](../../concerns.md#_2021x_2_8710274_1698695260372_8568_48717)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
