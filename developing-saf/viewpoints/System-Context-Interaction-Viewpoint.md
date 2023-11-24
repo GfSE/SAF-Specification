@@ -37,8 +37,8 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |Lifeline [UML_Standard_Profile]|[System Context Scenario Participation](../concept/concepts.md#System-Context-Scenario-Participation)|
 |Message [UML_Standard_Profile]|[System Context Chronological Message](../concept/concepts.md#System-Context-Chronological-Message)|
 |[SAF_LogicalContext](../../stereotypes.md#SAF_LogicalContext)|[Logical System Context](../concept/concepts.md#Logical-System-Context)|
-|SAF_LogicalContextRole contained in SAF_LogicalContext|[Logical SOI Role](../concept/concepts.md#Logical-SOI-Role)|
 |SAF_LogicalContextRole contained in SAF_LogicalContext|[Logical Context Element Role](../concept/concepts.md#Logical-Context-Element-Role)|
+|SAF_LogicalContextRole contained in SAF_LogicalContext|[Logical SOI Role](../concept/concepts.md#Logical-SOI-Role)|
 |[SAF_SFV04a_View](../../stereotypes.md#SAF_SFV04a_View)|[System Context Interaction Viewpoint](../concept/concepts.md#System-Context-Interaction-Viewpoint)|
 ## Input from other Viewpoints
 ### Required Viewpoints

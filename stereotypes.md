@@ -630,6 +630,15 @@ UAF::MapsToCapability<BR></html>
 <html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical-User'>Physical User</A><BR>Physical User: The Physical User is the representation for a human in the physical domain, outside the SOI scope, interacting with the SOI.<BR></html>
 
 
+## SAF_Process
+
+### Icon
+*none*
+
+### Documentation
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Process'>Process</A><BR>Process: Unit of Work in Systems Engineering.<BR></html>
+
+
 ## SAF_Refuter
 
 ### Icon
@@ -665,6 +674,17 @@ A block definition diagram (BDD) featuring a claim-argument-evidence pattern (CA
 
 ### Documentation
 
+
+## SAF_SCV02c_View
+
+### Icon
+*none*
+
+### Documentation
+The Standards Definition Viewpoint is used to define applicable standards, e.g. format specifications, protocol specifications, regulations and engineering documents that are used throughout the model. It provides the metadata for the standards e.g. issue, version, release date and origin. The Viewpoint helps to keep track of changes to the set of applicable documents and of new versions of the applied standards. Hyperlinks should be used to refer to documents external to the model.
+
+A block definition diagram (BDD) featuring Standard and Relationship to issuing Organization, Standardization Subject, included and superseded standards
+A table containing standard and issuing organization, Standardisation subjects, included and superseded standards.
 
 ## SAF_SFV01a_View
 
@@ -1198,6 +1218,34 @@ A FBS_to_PBS mapping matrix featuring
 </html>
 
 
+## SAF_Standard
+
+### Icon
+*none*
+
+### Documentation
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Standard'>Standard</A><BR>Standard: A Standard is issued by a standardization orgization, e.g ISO, OMG.
+E.g. JPEG, ISO 15288.<BR></html>
+
+
+## SAF_StandardizationOrganization
+
+### Icon
+*none*
+
+### Documentation
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Standardization-Organziation'>Standardization Organziation</A><BR>Standardization Organziation: A Standard is issued by a standardization orgization, e.g ISO, OMG.<BR></html>
+
+
+## SAF_StandardizationSubject
+
+### Icon
+*none*
+
+### Documentation
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Standardization-Subject'>Standardization Subject</A><BR>Standardization Subject: Subject of standardization of a standard, e.g. File Format or Protocol.<BR></html>
+
+
 ## SAF_Subject
 
 ### Icon
@@ -1205,6 +1253,15 @@ A FBS_to_PBS mapping matrix featuring
 
 ### Documentation
 <html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Subject'>Subject</A><BR>Subject: Note: A claim cannot be generic, it has to be about something, it has to have a defined subject, e.g., system safety.<BR></html>
+
+
+## SAF_Supersedes
+
+### Icon
+*none*
+
+### Documentation
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#SDsupersedesSD'>SDsupersedesSD</A><BR>SDsupersedesSD: Specifies that a standard supersedes one or more other standards.<BR></html>
 
 
 ## SAF_SystemCapability
@@ -1440,6 +1497,15 @@ Note: The intended use (and also misuse in so called "black use cases") of the S
 
 ### Documentation
 <html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#SUCenablingOSY'>SUCenablingOSY</A><BR>SUCenablingOSY: Specifies the fact that a System Use Case enables the realization of an Operational Story.<BR></html>
+
+
+## SAF_Term
+
+### Icon
+*none*
+
+### Documentation
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Term'>Term</A><BR>Term: A Term is usually defined  by some Standard, but may also be definen within a systems engineering effort.<BR></html>
 
 
 ## SAF_VPQuery

@@ -499,6 +499,10 @@ exposed in viewpoint [Physical Context Exchange Viewpoint](../viewpoints/Physica
 realized by Stereotype [SAF_PhysicalUser](../../stereotypes.md#SAF_PhysicalUser)
 
 The Physical User is the representation for a human in the physical domain, outside the SOI scope, interacting with the SOI.
+## Process
+realized by Stereotype [SAF_Process](../../stereotypes.md#SAF_Process)
+
+Unit of Work in Systems Engineering.
 ## Refuter
 exposed in viewpoint [Argumentation Assurance Viewpoint](../viewpoints/Argumentation-Assurance-Viewpoint.md)
 
@@ -529,6 +533,25 @@ exposed in viewpoint [System Requirement Viewpoint](../viewpoints/System-Require
 realized by Stereotype [SAF_StakeholderRequirement](../../stereotypes.md#SAF_StakeholderRequirement)
 
 A Stakeholder Requirement is a Requirement imposed by a Stakeholder. Stakeholder Concerns are refined by Stakeholder Requirements applicable for the SOI. The Stakeholder Requirements are a result of discussions and agreements of how the SOI addresses the Concerns of the respective Stakeholder.
+## Standard
+exposed in viewpoint [Common Standards Definition Viewpoint](../viewpoints/Common-Standards-Definition-Viewpoint.md)
+
+realized by Stereotype [SAF_Standard](../../stereotypes.md#SAF_Standard)
+
+A Standard is issued by a standardization orgization, e.g ISO, OMG.
+E.g. JPEG, ISO 15288.
+## Standardization Organziation
+exposed in viewpoint [Common Standards Definition Viewpoint](../viewpoints/Common-Standards-Definition-Viewpoint.md)
+
+realized by Stereotype [SAF_StandardizationOrganization](../../stereotypes.md#SAF_StandardizationOrganization)
+
+A Standard is issued by a standardization orgization, e.g ISO, OMG.
+## Standardization Subject
+exposed in viewpoint [Common Standards Definition Viewpoint](../viewpoints/Common-Standards-Definition-Viewpoint.md)
+
+realized by Stereotype [SAF_StandardizationSubject](../../stereotypes.md#SAF_StandardizationSubject)
+
+Subject of standardization of a standard, e.g. File Format or Protocol.
 ## Subject
 exposed in viewpoint [Argumentation Assurance Viewpoint](../viewpoints/Argumentation-Assurance-Viewpoint.md)
 
@@ -674,6 +697,10 @@ An individual, team, or organization (or classes thereof) with interests in, or 
 * Life Cycle Phases involved
 * Relevance decision if and up to which degree Stakeholder is considered
 * Rationale for decision when Stakeholder is not considered
+## Term
+realized by Stereotype [SAF_Term](../../stereotypes.md#SAF_Term)
+
+A Term is usually defined  by some Standard, but may also be definen within a systems engineering effort.
 ## Triggering Event
 realized by Metaclass Event
 
@@ -1418,6 +1445,41 @@ exposed in viewpoint [System Interface Definition Viewpoint](../viewpoints/Syste
 realized by FlowProperty typed by SAF_DomainKind
 
 Specifies the fact that a System Domain Kind defines the type of a Logical Interaction Point Property.
+## SDcoversSTSU
+0..* [Standard](#Standard) SDcoversSTSU 0..* [Standardization Subject](#Standardization-Subject) 
+
+exposed in viewpoint [Common Standards Definition Viewpoint](../viewpoints/Common-Standards-Definition-Viewpoint.md)
+
+realized by Metaclass Generalization
+
+
+
+Specifies that a standard covers certain subjects or topics.
+## SDincludesSD
+0..* [Standard](#Standard) SDincludesSD 0..* [Standard](#Standard) 
+
+exposed in viewpoint [Common Standards Definition Viewpoint](../viewpoints/Common-Standards-Definition-Viewpoint.md)
+
+realized by Stereotype PartProperty
+
+
+
+Specifies that a Standard is part of an other Standard
+
+## SDissuedBySTO
+0..* [Standard](#Standard) SDissuedBySTO 1 [Standardization Organziation](#Standardization-Organziation) 
+
+exposed in viewpoint [Common Standards Definition Viewpoint](../viewpoints/Common-Standards-Definition-Viewpoint.md)
+
+
+## SDsupersedesSD
+1 [Standard](#Standard) SDsupersedesSD 0..* [Standard](#Standard) 
+
+exposed in viewpoint [Common Standards Definition Viewpoint](../viewpoints/Common-Standards-Definition-Viewpoint.md)
+
+realized by Stereotype [SAF_Supersedes](../../stereotypes.md#SAF_Supersedes)
+
+Specifies that a standard supersedes one or more other standards.
 ## SFNallocatedToAPE
 1..* [System Function](#System-Function) SFNallocatedToAPE 1 [Abstract Physical Element](#Abstract-Physical-Element) 
 
@@ -1670,6 +1732,10 @@ exposed in viewpoint [System Use Case Viewpoint](../viewpoints/System-Use-Case-V
 realized by Attribute "subject" of UseCase referencing SAF_LogicalContext
 
 Specifies the fact that a System Use Case takes place in a Logical System Context.
+## TMdefinedBySD
+0..* [Term](#Term) TMdefinedBySD 1 [Standard](#Standard) 
+
+Specifies that a Term is defined by a Standard.
 ## USAGEallocatedTo
 1..* [General Functional Usage](#General-Functional-Usage) USAGEallocatedTo 1 [Logical Element Role](#Logical-Element-Role) 
 

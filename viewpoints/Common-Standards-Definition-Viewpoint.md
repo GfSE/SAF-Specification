@@ -4,50 +4,34 @@
 | --- | --- | --- |
 |[Common](../domains.md#Domain-Common)|[Taxonomy & Structure](../aspects.md#Aspect-Taxonomy-&-Structure)|![Proposed](../diagrams/Under_construction_icon-red.svg )[proposed](../using-saf/maturity.md#proposed)|
 ## Example
-![Common Standards Definition](../diagrams/Common-Standards_Definition.png)
+![Common-Standards-Definition-Viewpoint-primary-example.svg](../diagrams/vp-examples/Common-Standards-Definition-Viewpoint-primary-example.svg)
+![Common-Standards-Definition-Viewpoint-primary-example-1.svg](../diagrams/vp-examples/Common-Standards-Definition-Viewpoint-primary-example-1.svg)
 ## Purpose
-The SCV02 Standards Definition Viewpoint is used to define applicable standards, format specifications, protocol specifications, regulations and engineering documents that are used throughout the model. It provides the complete specification for the standards together with issue, version, release date and other information. The SCV02 helps to keep track of changes to the set of applicable documents and of new versions of the applied standards. Hyperlinks may be used to refer to documents external to the model.
-
-Libraries may be made available defining standards commonly used throughout the enterprise or that are specific for a certain purpose.
+The Standards Definition Viewpoint is used to define applicable standards, e.g. format specifications, protocol specifications, regulations and engineering documents that are used throughout the model. It provides the metadata for the standards e.g. issue, version, release date and origin. The Viewpoint helps to keep track of changes to the set of applicable documents and of new versions of the applied standards. Hyperlinks should be used to refer to documents external to the model.
 ## Applicability
-The SCV02 Standards Definition Viewpoint is commonly applied to identify the applicable standards and specifications that are made applicable to interfaces, the format of items exchanged, the way those items are exchanged or to any other design element that needs to adhere to a standard.
-## Stakeholder
-* [Customer](../stakeholders.md#Customer)
-* [Hardware Developer](../stakeholders.md#Hardware-Developer)
-* [IV&V Engineer](../stakeholders.md#IV&V-Engineer)
-* [Mechanic Developer](../stakeholders.md#Mechanic-Developer)
-* [Regulation Authority](../stakeholders.md#Regulation-Authority)
-* [Safety Expert](../stakeholders.md#Safety-Expert)
-* [Security Expert](../stakeholders.md#Security-Expert)
-* [Software Developer](../stakeholders.md#Software-Developer)
-* [Supplier](../stakeholders.md#Supplier)
-* [System Architect](../stakeholders.md#System-Architect)
-* [Common Concerns](../stakeholders.md#Common-Concerns)
-
-## Concern
-* Which standards and specifications are applicable to the system of interest or its system elements and their interfaces and interactions?
-* What are the relevant issues or versions of the standards to be used for the development of the system?
-* What is the complete identification of a standard or a specification?
-* Which other standards are referenced or referred to by applicable standards?
-
+The Standards Definition Viewpoint supports [tbd].
 ## Presentation
-SCV02 Standard Definition Diagram defines the standards, their attributes and relationships.
+A block definition diagram (BDD) featuring Standard and Relationship to issuing Organization, Standardization Subject, included and superseded standards
 
-SCV02 Standard Overview Table providing a list of all standards defined in the model.
+A table containing standard and issuing organization, Standardisation subjects, included and superseded standards.
 
-
+## Stakeholder
+## Concern
+* [What are the relevant issues or versions of the standards to be used for the development of the system?](../concerns.md#_2021x_2_8710274_1700821579663_211989_58619)
+* [What is the complete identification of a standard or a specification?](../concerns.md#_2021x_2_8710274_1700821607046_355547_58633)
+* [Which other standards are referenced or referred to by applicable standards?](../concerns.md#_2021x_2_8710274_1700821592720_121043_58626)
+* [Which standards and specifications are applicable to the system of interest or its system elements and their interfaces and interactions?](../concerns.md#_2021x_2_8710274_1700821558610_489259_58612)
 ## Profile Model Reference
-* StandardsGroup: defines a group of alternative standards
-* FormatSpecification: defines a standard applied to files and data
-* replaces: defines a relationship if one standard replaces an outdated standard
-* outdated: used to indicate, that a standard is outdated
-* composition: [UML_Standard_Profile]
-* generalization: [UML_Standard_Profile]
-* SCV02_StandardsDefinition: Applicable for the diagram
-* SCV02_StandardsOverview: Defines the overview table
-
+The following Stereotypes / Model Elements are used in the Viewpoint:
+* Generalization [UML_Standard_Profile]
+* PartProperty [MD_customization_for_SysML]
+* [SAF_SCV02c_View](../stereotypes.md#SAF_SCV02c_View)
+* [SAF_Standard](../stereotypes.md#SAF_Standard)
+* [SAF_StandardizationOrganization](../stereotypes.md#SAF_StandardizationOrganization)
+* [SAF_StandardizationSubject](../stereotypes.md#SAF_StandardizationSubject)
+* [SAF_Supersedes](../stereotypes.md#SAF_Supersedes)
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*
 ### Recommended Viewpoints
-*non*
+*none*
