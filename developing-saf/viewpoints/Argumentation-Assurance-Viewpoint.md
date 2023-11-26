@@ -32,7 +32,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |[SAF_Evidence](../../stereotypes.md#SAF_Evidence)|[Evidence](../concept/concepts.md#Evidence)|
 |[SAF_Refuter](../../stereotypes.md#SAF_Refuter)|[Refuter](../concept/concepts.md#Refuter)|
 |[SAF_SCV02a_View](../../stereotypes.md#SAF_SCV02a_View)|[Argumentation Assurance Viewpoint](../concept/concepts.md#Argumentation-Assurance-Viewpoint)|
-|[SAF_Subject](../../stereotypes.md#SAF_Subject)|[Subject](../concept/concepts.md#Subject)|
+|[SAF_SubjectMatter](../../stereotypes.md#SAF_SubjectMatter)|[Subject Matter](../concept/concepts.md#Subject-Matter)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

@@ -552,10 +552,10 @@ exposed in viewpoint [Common Standards Definition Viewpoint](../viewpoints/Commo
 realized by Stereotype [SAF_StandardizationSubject](../../stereotypes.md#SAF_StandardizationSubject)
 
 Subject of standardization of a standard, e.g. File Format or Protocol.
-## Subject
+## Subject Matter
 exposed in viewpoint [Argumentation Assurance Viewpoint](../viewpoints/Argumentation-Assurance-Viewpoint.md)
 
-realized by Stereotype [SAF_Subject](../../stereotypes.md#SAF_Subject)
+realized by Stereotype [SAF_SubjectMatter](../../stereotypes.md#SAF_SubjectMatter)
 
 Note: A claim cannot be generic, it has to be about something, it has to have a defined subject, e.g., system safety.
 ## System
@@ -749,13 +749,13 @@ Specifies the fact that any claimable item, e.g., claim, argument, and evidence,
 Specifies the fact that a Context Function is assigned to a Logical Context Element.
 Note: This fact may be derived from the Usage of Function of a Context Function allocated to a Logical Context Element.
 ## CLMbeingMadeAboutSBT
-1 [Claim](#Claim) CLMbeingMadeAboutSBT 0..1 [Subject](#Subject) 
+1 [Claim](#Claim) CLMbeingMadeAboutSBT 0..1 [Subject Matter](#Subject-Matter) 
 
 exposed in viewpoint [Argumentation Assurance Viewpoint](../viewpoints/Argumentation-Assurance-Viewpoint.md)
 
 realized by Stereotype [SAF_ClaimAboutSubjectMaking](../../stereotypes.md#SAF_ClaimAboutSubjectMaking)
 
-Specifies the fact that a claim is made about an identified subject.
+Specifies the fact that a claim is made about an identified subject matter.
 ## CLMsupportingCIM
 0..* [Claim](#Claim) CLMsupportingCIM 0..* [Claimable Item](#Claimable-Item) 
 

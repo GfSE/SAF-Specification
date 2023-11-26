@@ -42,7 +42,7 @@
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#CLMbeingMadeAboutSBT'>CLMbeingMadeAboutSBT</A><BR>CLMbeingMadeAboutSBT: Specifies the fact that a claim is made about an identified subject.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#CLMbeingMadeAboutSBT'>CLMbeingMadeAboutSBT</A><BR>CLMbeingMadeAboutSBT: Specifies the fact that a claim is made about an identified subject matter.<BR></html>
 
 
 ## SAF_ClaimClaimableItemSupport
@@ -1246,13 +1246,13 @@ E.g. JPEG, ISO 15288.<BR></html>
 <html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Standardization-Subject'>Standardization Subject</A><BR>Standardization Subject: Subject of standardization of a standard, e.g. File Format or Protocol.<BR></html>
 
 
-## SAF_Subject
+## SAF_SubjectMatter
 
 ### Icon
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Subject'>Subject</A><BR>Subject: Note: A claim cannot be generic, it has to be about something, it has to have a defined subject, e.g., system safety.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Subject-Matter'>Subject Matter</A><BR>Subject Matter: Note: A claim cannot be generic, it has to be about something, it has to have a defined subject, e.g., system safety.<BR></html>
 
 
 ## SAF_Supersedes
