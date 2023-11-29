@@ -538,26 +538,25 @@ exposed in viewpoint [Common Standards Definition Viewpoint](../viewpoints/Commo
 
 realized by Stereotype [SAF_Standard](../../stereotypes.md#SAF_Standard)
 
-A Standard is issued by a standardization orgization, e.g ISO, OMG.
-E.g. JPEG, ISO 15288.
-## Standardization Organziation
+An international standard is a technical standard developed by one or more international standards organizations. International standards are available for consideration and use worldwide.
+## Standardization Organization
 exposed in viewpoint [Common Standards Definition Viewpoint](../viewpoints/Common-Standards-Definition-Viewpoint.md)
 
 realized by Stereotype [SAF_StandardizationOrganization](../../stereotypes.md#SAF_StandardizationOrganization)
 
-A Standard is issued by a standardization orgization, e.g ISO, OMG.
-## Standardization Subject
+An organization of standardization, e.g., International Organization for Standardization (ISO), Object Management Group (OMG), etc.
+## Subject of Claim
+exposed in viewpoint [Argumentation Assurance Viewpoint](../viewpoints/Argumentation-Assurance-Viewpoint.md)
+
+realized by Stereotype [SAF_ClaimSubject](../../stereotypes.md#SAF_ClaimSubject)
+
+Note: A claim cannot be generic, it has to be about something, it has to have a defined subject, e.g., system safety.
+## Subject of Standardization
 exposed in viewpoint [Common Standards Definition Viewpoint](../viewpoints/Common-Standards-Definition-Viewpoint.md)
 
 realized by Stereotype [SAF_StandardizationSubject](../../stereotypes.md#SAF_StandardizationSubject)
 
-Subject of standardization of a standard, e.g. File Format or Protocol.
-## Subject Matter
-exposed in viewpoint [Argumentation Assurance Viewpoint](../viewpoints/Argumentation-Assurance-Viewpoint.md)
-
-realized by Stereotype [SAF_SubjectMatter](../../stereotypes.md#SAF_SubjectMatter)
-
-Note: A claim cannot be generic, it has to be about something, it has to have a defined subject, e.g., system safety.
+The goal of standardization is to ensure uniformity to certain practices within the industry. Standardization focuses on the product creation process, operations of businesses, technology in use, and how specific compulsory processes are instituted or carried out. Subject of standardization may be  a Data Exchange Format or a Protocol.
 ## System
 An abstract element representing a System.
 ## System Capability
@@ -700,7 +699,7 @@ An individual, team, or organization (or classes thereof) with interests in, or 
 ## Term
 realized by Stereotype [SAF_Term](../../stereotypes.md#SAF_Term)
 
-A Term is usually defined  by some Standard, but may also be definen within a systems engineering effort.
+Specifies the fact that a term is usually defined by a standard, but can also be defined as part of system development work.
 ## Triggering Event
 realized by Metaclass Event
 
@@ -748,8 +747,8 @@ Specifies the fact that any claimable item, e.g., claim, argument, and evidence,
 
 Specifies the fact that a Context Function is assigned to a Logical Context Element.
 Note: This fact may be derived from the Usage of Function of a Context Function allocated to a Logical Context Element.
-## CLMbeingMadeAboutSBT
-1 [Claim](#Claim) CLMbeingMadeAboutSBT 0..1 [Subject Matter](#Subject-Matter) 
+## CLMbeingMadeAboutSBC
+1 [Claim](#Claim) CLMbeingMadeAboutSBC 0..1 [Subject of Claim](#Subject-of-Claim) 
 
 exposed in viewpoint [Argumentation Assurance Viewpoint](../viewpoints/Argumentation-Assurance-Viewpoint.md)
 
@@ -1445,8 +1444,8 @@ exposed in viewpoint [System Interface Definition Viewpoint](../viewpoints/Syste
 realized by FlowProperty typed by SAF_DomainKind
 
 Specifies the fact that a System Domain Kind defines the type of a Logical Interaction Point Property.
-## SDcoversSTSU
-0..* [Standard](#Standard) SDcoversSTSU 0..* [Standardization Subject](#Standardization-Subject) 
+## SDTcoveringSBS
+0..* [Standard](#Standard) SDTcoveringSBS 0..* [Subject of Standardization](#Subject-of-Standardization) 
 
 exposed in viewpoint [Common Standards Definition Viewpoint](../viewpoints/Common-Standards-Definition-Viewpoint.md)
 
@@ -1454,9 +1453,9 @@ realized by Metaclass Generalization
 
 
 
-Specifies that a standard covers certain subjects or topics.
-## SDincludesSD
-0..* [Standard](#Standard) SDincludesSD 0..* [Standard](#Standard) 
+Specifies the fact that a standard covers a specific subject of standardization, e.g., Data Exchange Format or Protocol.
+## SDTincludingSDT
+0..* [Standard](#Standard) SDTincludingSDT 0..* [Standard](#Standard) 
 
 exposed in viewpoint [Common Standards Definition Viewpoint](../viewpoints/Common-Standards-Definition-Viewpoint.md)
 
@@ -1464,22 +1463,21 @@ realized by Stereotype PartProperty
 
 
 
-Specifies that a Standard is part of an other Standard
-
-## SDissuedBySTO
-0..* [Standard](#Standard) SDissuedBySTO 1 [Standardization Organziation](#Standardization-Organziation) 
-
-exposed in viewpoint [Common Standards Definition Viewpoint](../viewpoints/Common-Standards-Definition-Viewpoint.md)
-
-
-## SDsupersedesSD
-1 [Standard](#Standard) SDsupersedesSD 0..* [Standard](#Standard) 
+Specifies the fact that a standard is part of another standard.
+## SDTissuedBySTO
+0..* [Standard](#Standard) SDTissuedBySTO 1 [Standardization Organization](#Standardization-Organization) 
 
 exposed in viewpoint [Common Standards Definition Viewpoint](../viewpoints/Common-Standards-Definition-Viewpoint.md)
 
-realized by Stereotype [SAF_Supersedes](../../stereotypes.md#SAF_Supersedes)
+Specifies the fact that a standard is issued by an organization of standardization.
+## SDTsupersedingSDT
+1 [Standard](#Standard) SDTsupersedingSDT 0..* [Standard](#Standard) 
 
-Specifies that a standard supersedes one or more other standards.
+exposed in viewpoint [Common Standards Definition Viewpoint](../viewpoints/Common-Standards-Definition-Viewpoint.md)
+
+realized by Stereotype [SAF_StandardSuperseding](../../stereotypes.md#SAF_StandardSuperseding)
+
+Specifies the fact that a standard supersedes one or more other standards.
 ## SFNallocatedToAPE
 1..* [System Function](#System-Function) SFNallocatedToAPE 1 [Abstract Physical Element](#Abstract-Physical-Element) 
 
@@ -1732,10 +1730,10 @@ exposed in viewpoint [System Use Case Viewpoint](../viewpoints/System-Use-Case-V
 realized by Attribute "subject" of UseCase referencing SAF_LogicalContext
 
 Specifies the fact that a System Use Case takes place in a Logical System Context.
-## TMdefinedBySD
-0..* [Term](#Term) TMdefinedBySD 1 [Standard](#Standard) 
+## TRMdefinedBySDT
+0..* [Term](#Term) TRMdefinedBySDT 1 [Standard](#Standard) 
 
-Specifies that a Term is defined by a Standard.
+Specifies the fact that a term is defined by a standard.
 ## USAGEallocatedTo
 1..* [General Functional Usage](#General-Functional-Usage) USAGEallocatedTo 1 [Logical Element Role](#Logical-Element-Role) 
 

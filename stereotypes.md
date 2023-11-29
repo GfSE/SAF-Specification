@@ -42,7 +42,7 @@
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#CLMbeingMadeAboutSBT'>CLMbeingMadeAboutSBT</A><BR>CLMbeingMadeAboutSBT: Specifies the fact that a claim is made about an identified subject matter.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#CLMbeingMadeAboutSBC'>CLMbeingMadeAboutSBC</A><BR>CLMbeingMadeAboutSBC: Specifies the fact that a claim is made about an identified subject matter.<BR></html>
 
 
 ## SAF_ClaimClaimableItemSupport
@@ -52,6 +52,15 @@
 
 ### Documentation
 <html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#CLMsupportingCIM'>CLMsupportingCIM</A><BR>CLMsupportingCIM: Specifies the fact that any claimable item, e.g., claim, argument, and evidence, is supported by one or more claims.<BR></html>
+
+
+## SAF_ClaimSubject
+
+### Icon
+*none*
+
+### Documentation
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Subject-of-Claim'>Subject of Claim</A><BR>Subject of Claim: Note: A claim cannot be generic, it has to be about something, it has to have a defined subject, e.g., system safety.<BR></html>
 
 
 ## SAF_ClaimableItem
@@ -681,10 +690,10 @@ A block definition diagram (BDD) featuring a claim-argument-evidence pattern (CA
 *none*
 
 ### Documentation
-The Standards Definition Viewpoint is used to define applicable standards, e.g. format specifications, protocol specifications, regulations and engineering documents that are used throughout the model. It provides the metadata for the standards e.g. issue, version, release date and origin. The Viewpoint helps to keep track of changes to the set of applicable documents and of new versions of the applied standards. Hyperlinks should be used to refer to documents external to the model.
+The Standards Definition Viewpoint supports the definition of applicable standards, e.g., format and protocol specifications, regulations, and engineering documents that are used throughout the system life cycle. It provides the meta-data for the applied standards, guidance and policy, e.g., issue, version, issue date, and publisher. The Viewpoint helps to keep track of changes to the set of applicable documents and of new versions of applied standards. Links should be used to refer to documents external to the architecture description.
 
-A block definition diagram (BDD) featuring Standard and Relationship to issuing Organization, Standardization Subject, included and superseded standards
-A table containing standard and issuing organization, Standardisation subjects, included and superseded standards.
+A block definition diagram (BDD) featuring the taxonomy of types of technical, operational, and business standards, guidance, and policy applicable to the system of interest.
+A table format lsiting technical, operational, and business standards, guidance, and policy applicable to the system of interest.
 
 ## SAF_SFV01a_View
 
@@ -1224,8 +1233,16 @@ A FBS_to_PBS mapping matrix featuring
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Standard'>Standard</A><BR>Standard: A Standard is issued by a standardization orgization, e.g ISO, OMG.
-E.g. JPEG, ISO 15288.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Standard'>Standard</A><BR>Standard: An international standard is a technical standard developed by one or more international standards organizations. International standards are available for consideration and use worldwide.<BR></html>
+
+
+## SAF_StandardSuperseding
+
+### Icon
+*none*
+
+### Documentation
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#SDTsupersedingSDT'>SDTsupersedingSDT</A><BR>SDTsupersedingSDT: Specifies the fact that a standard supersedes one or more other standards.<BR></html>
 
 
 ## SAF_StandardizationOrganization
@@ -1234,7 +1251,7 @@ E.g. JPEG, ISO 15288.<BR></html>
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Standardization-Organziation'>Standardization Organziation</A><BR>Standardization Organziation: A Standard is issued by a standardization orgization, e.g ISO, OMG.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Standardization-Organization'>Standardization Organization</A><BR>Standardization Organization: An organization of standardization, e.g., International Organization for Standardization (ISO), Object Management Group (OMG), etc.<BR></html>
 
 
 ## SAF_StandardizationSubject
@@ -1243,25 +1260,7 @@ E.g. JPEG, ISO 15288.<BR></html>
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Standardization-Subject'>Standardization Subject</A><BR>Standardization Subject: Subject of standardization of a standard, e.g. File Format or Protocol.<BR></html>
-
-
-## SAF_SubjectMatter
-
-### Icon
-*none*
-
-### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Subject-Matter'>Subject Matter</A><BR>Subject Matter: Note: A claim cannot be generic, it has to be about something, it has to have a defined subject, e.g., system safety.<BR></html>
-
-
-## SAF_Supersedes
-
-### Icon
-*none*
-
-### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#SDsupersedesSD'>SDsupersedesSD</A><BR>SDsupersedesSD: Specifies that a standard supersedes one or more other standards.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Subject-of-Standardization'>Subject of Standardization</A><BR>Subject of Standardization: The goal of standardization is to ensure uniformity to certain practices within the industry. Standardization focuses on the product creation process, operations of businesses, technology in use, and how specific compulsory processes are instituted or carried out. Subject of standardization may be  a Data Exchange Format or a Protocol.<BR></html>
 
 
 ## SAF_SystemCapability
@@ -1505,7 +1504,7 @@ Note: The intended use (and also misuse in so called "black use cases") of the S
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Term'>Term</A><BR>Term: A Term is usually defined  by some Standard, but may also be definen within a systems engineering effort.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Term'>Term</A><BR>Term: Specifies the fact that a term is usually defined by a standard, but can also be defined as part of system development work.<BR></html>
 
 
 ## SAF_VPQuery

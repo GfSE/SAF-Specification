@@ -21,9 +21,10 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |---|---|
 |[SAF_Argument](../../stereotypes.md#SAF_Argument)|[Argument](../concept/concepts.md#Argument)|
 |[SAF_ArgumentClaimSupport](../../stereotypes.md#SAF_ArgumentClaimSupport)|[AGTsupportingCLM](../concept/concepts.md#AGTsupportingCLM)|
-|[SAF_ClaimAboutSubjectMaking](../../stereotypes.md#SAF_ClaimAboutSubjectMaking)|[CLMbeingMadeAboutSBT](../concept/concepts.md#CLMbeingMadeAboutSBT)|
+|[SAF_ClaimAboutSubjectMaking](../../stereotypes.md#SAF_ClaimAboutSubjectMaking)|[CLMbeingMadeAboutSBC](../concept/concepts.md#CLMbeingMadeAboutSBC)|
 |[SAF_Claim](../../stereotypes.md#SAF_Claim)|[Claim](../concept/concepts.md#Claim)|
 |[SAF_ClaimClaimableItemSupport](../../stereotypes.md#SAF_ClaimClaimableItemSupport)|[CLMsupportingCIM](../concept/concepts.md#CLMsupportingCIM)|
+|[SAF_ClaimSubject](../../stereotypes.md#SAF_ClaimSubject)|[Subject of Claim](../concept/concepts.md#Subject-of-Claim)|
 |[SAF_ClaimantClaimMaking](../../stereotypes.md#SAF_ClaimantClaimMaking)|[CLTmakingCLM](../concept/concepts.md#CLTmakingCLM)|
 |[SAF_Claimant](../../stereotypes.md#SAF_Claimant)|[Claimant](../concept/concepts.md#Claimant)|
 |[SAF_CounterClaimClaimableItemMaking](../../stereotypes.md#SAF_CounterClaimClaimableItemMaking)|[CCMcounteringCIM](../concept/concepts.md#CCMcounteringCIM)|
@@ -32,7 +33,6 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |[SAF_Evidence](../../stereotypes.md#SAF_Evidence)|[Evidence](../concept/concepts.md#Evidence)|
 |[SAF_Refuter](../../stereotypes.md#SAF_Refuter)|[Refuter](../concept/concepts.md#Refuter)|
 |[SAF_SCV02a_View](../../stereotypes.md#SAF_SCV02a_View)|[Argumentation Assurance Viewpoint](../concept/concepts.md#Argumentation-Assurance-Viewpoint)|
-|[SAF_SubjectMatter](../../stereotypes.md#SAF_SubjectMatter)|[Subject Matter](../concept/concepts.md#Subject-Matter)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

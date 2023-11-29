@@ -11,7 +11,7 @@ The Physical Context Exchange Viewpoint focuses on the identification of the phy
 ## Applicability
 
 
-The Physical Context Exchange Viewpoint supports the "Create system design" activity included in "Design Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.5] and contributes to the artifacts "System Design Description" and "System Interface Definition".
+The Physical Context Exchange Viewpoint supports the "create system design" activity part of the "Design Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.5] and contributes to the artifacts "System Design Description" and "System Interface Definition".
 
 Furthermore, the viewpoint supports the "Interface Management" approach of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§3.2.4].
 ## Presentation

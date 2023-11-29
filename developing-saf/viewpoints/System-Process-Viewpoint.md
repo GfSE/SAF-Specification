@@ -57,8 +57,8 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |[SAF_ContextAction](../../stereotypes.md#SAF_ContextAction)|[Context Function IN System Process](../concept/concepts.md#Context-Function-IN-System-Process)|
 |[SAF_ContextFunction](../../stereotypes.md#SAF_ContextFunction)|[Context Function](../concept/concepts.md#Context-Function)|
 |[SAF_FunctionAction](../../stereotypes.md#SAF_FunctionAction)|[System Function IN System Process](../concept/concepts.md#System-Function-IN-System-Process)|
-|SAF_LogicalContextRole contained in SAF_LogicalContext|[Logical SOI Role](../concept/concepts.md#Logical-SOI-Role)|
 |SAF_LogicalContextRole contained in SAF_LogicalContext|[Logical Context Element Role](../concept/concepts.md#Logical-Context-Element-Role)|
+|SAF_LogicalContextRole contained in SAF_LogicalContext|[Logical SOI Role](../concept/concepts.md#Logical-SOI-Role)|
 |[SAF_SFV03a_View](../../stereotypes.md#SAF_SFV03a_View)|[System Process Viewpoint](../concept/concepts.md#System-Process-Viewpoint)|
 |[SAF_SystemFunction](../../stereotypes.md#SAF_SystemFunction)|[System Function](../concept/concepts.md#System-Function)|
 |[SAF_SystemProcess](../../stereotypes.md#SAF_SystemProcess)|[System Process](../concept/concepts.md#System-Process)|

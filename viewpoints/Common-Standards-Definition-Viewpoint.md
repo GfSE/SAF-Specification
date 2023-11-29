@@ -7,29 +7,28 @@
 ![Common-Standards-Definition-Viewpoint-primary-example.svg](../diagrams/vp-examples/Common-Standards-Definition-Viewpoint-primary-example.svg)
 ![Common-Standards-Definition-Viewpoint-primary-example-1.svg](../diagrams/vp-examples/Common-Standards-Definition-Viewpoint-primary-example-1.svg)
 ## Purpose
-The Standards Definition Viewpoint is used to define applicable standards, e.g. format specifications, protocol specifications, regulations and engineering documents that are used throughout the model. It provides the metadata for the standards e.g. issue, version, release date and origin. The Viewpoint helps to keep track of changes to the set of applicable documents and of new versions of the applied standards. Hyperlinks should be used to refer to documents external to the model.
+The Standards Definition Viewpoint supports the definition of applicable standards, e.g., format and protocol specifications, regulations, and engineering documents that are used throughout the system life cycle. It provides the meta-data for the applied standards, guidance and policy, e.g., issue, version, issue date, and publisher. The Viewpoint helps to keep track of changes to the set of applicable documents and of new versions of applied standards. Links should be used to refer to documents external to the architecture description.
 ## Applicability
-The Standards Definition Viewpoint supports [tbd].
+The Standards Definition Viewpoint supports the "transform stakeholder needs into stakeholder requirements" activity part of the "Stakeholder Needs and Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.2].
 ## Presentation
-A block definition diagram (BDD) featuring Standard and Relationship to issuing Organization, Standardization Subject, included and superseded standards
+A block definition diagram (BDD) featuring the taxonomy of types of technical, operational, and business standards, guidance, and policy applicable to the system of interest.
 
-A table containing standard and issuing organization, Standardisation subjects, included and superseded standards.
+A table format lsiting technical, operational, and business standards, guidance, and policy applicable to the system of interest.
 
 ## Stakeholder
 ## Concern
-* [What are the relevant issues or versions of the standards to be used for the development of the system?](../concerns.md#_2021x_2_8710274_1700821579663_211989_58619)
-* [What is the complete identification of a standard or a specification?](../concerns.md#_2021x_2_8710274_1700821607046_355547_58633)
+* [Which are the relevant releases of the applicable standards, guidance, and policy to be used for the development of the system of interest and its system elements?](../concerns.md#_2021x_2_8710274_1700821579663_211989_58619)
 * [Which other standards are referenced or referred to by applicable standards?](../concerns.md#_2021x_2_8710274_1700821592720_121043_58626)
-* [Which standards and specifications are applicable to the system of interest or its system elements and their interfaces and interactions?](../concerns.md#_2021x_2_8710274_1700821558610_489259_58612)
+* [Which standards, guidance, and policy are applicable to the system of interest or its system elements and their interfaces and interactions?](../concerns.md#_2021x_2_8710274_1700821558610_489259_58612)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Generalization [UML_Standard_Profile]
 * PartProperty [MD_customization_for_SysML]
 * [SAF_SCV02c_View](../stereotypes.md#SAF_SCV02c_View)
+* [SAF_StandardSuperseding](../stereotypes.md#SAF_StandardSuperseding)
 * [SAF_Standard](../stereotypes.md#SAF_Standard)
 * [SAF_StandardizationOrganization](../stereotypes.md#SAF_StandardizationOrganization)
 * [SAF_StandardizationSubject](../stereotypes.md#SAF_StandardizationSubject)
-* [SAF_Supersedes](../stereotypes.md#SAF_Supersedes)
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

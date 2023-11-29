@@ -21,6 +21,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_Argument](../stereotypes.md#SAF_Argument)
 * [SAF_ClaimAboutSubjectMaking](../stereotypes.md#SAF_ClaimAboutSubjectMaking)
 * [SAF_ClaimClaimableItemSupport](../stereotypes.md#SAF_ClaimClaimableItemSupport)
+* [SAF_ClaimSubject](../stereotypes.md#SAF_ClaimSubject)
 * [SAF_Claim](../stereotypes.md#SAF_Claim)
 * [SAF_ClaimantClaimMaking](../stereotypes.md#SAF_ClaimantClaimMaking)
 * [SAF_Claimant](../stereotypes.md#SAF_Claimant)
@@ -30,7 +31,6 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_Evidence](../stereotypes.md#SAF_Evidence)
 * [SAF_Refuter](../stereotypes.md#SAF_Refuter)
 * [SAF_SCV02a_View](../stereotypes.md#SAF_SCV02a_View)
-* [SAF_SubjectMatter](../stereotypes.md#SAF_SubjectMatter)
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*
