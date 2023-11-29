@@ -38,3 +38,6 @@ The SAF_Concepts are grouped by topics. SAF_Concepts are shown together with rel
 
 ## States
 * [System State](state_F.md)
+
+## Misc
+* [Terms and Standards](term_and_standard_C.md)
