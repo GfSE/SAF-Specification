@@ -172,7 +172,7 @@ The SAF Common Domain provides viewpoints addressing model information that is c
 
 * [Argumentation Assurance Viewpoint](viewpoints/Argumentation-Assurance-Viewpoint.md)
 * [Common Standards Definition Viewpoint](viewpoints/Common-Standards-Definition-Viewpoint.md)
-* Common Terms & Abbreviations Viewpoint
+* [Common Terms Definition Viewpoint](viewpoints/Common-Terms-Definition-Viewpoint.md)
 * [Grid Definition Viewpoint](viewpoints/Grid-Definition-Viewpoint.md)
 
 # Stakeholder Definition

@@ -697,6 +697,8 @@ An individual, team, or organization (or classes thereof) with interests in, or 
 * Relevance decision if and up to which degree Stakeholder is considered
 * Rationale for decision when Stakeholder is not considered
 ## Term
+exposed in viewpoint [Common Terms Definition Viewpoint](../viewpoints/Common-Terms-Definition-Viewpoint.md)
+
 realized by Stereotype [SAF_Term](../../stereotypes.md#SAF_Term)
 
 Specifies the fact that a term is usually defined by a standard, but can also be defined as part of system development work.
@@ -1732,6 +1734,8 @@ realized by Attribute "subject" of UseCase referencing SAF_LogicalContext
 Specifies the fact that a System Use Case takes place in a Logical System Context.
 ## TRMdefinedBySDT
 0..* [Term](#Term) TRMdefinedBySDT 1 [Standard](#Standard) 
+
+exposed in viewpoint [Common Terms Definition Viewpoint](../viewpoints/Common-Terms-Definition-Viewpoint.md)
 
 Specifies the fact that a term is defined by a standard.
 ## USAGEallocatedTo

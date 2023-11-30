@@ -221,7 +221,7 @@ Example:
 
 ![class](ex-prof-extension.svg)
 
-The stereotype “SAF_SystemFunction” from the SAF Profile extends the UML metaclass “Activity”
+The stereotype “SAF_SystemUseCase” from the SAF Profile extends the UML metaclass “UseCase”
 
 ## SysML Stereotype
 
@@ -312,7 +312,7 @@ Constraints in the SAF Profile Model should be used to restrict the usage of UML
 
 Example : constraint  on implementation relationship
 
-**Note, that many constraints can be replaced by the formally more precise r <<SCM_Attribute>>, <<SCM_typeOf>> and <<SCM_containedIn>> relations.**
+**Note, that many constraints can be replaced by the formally more precise <<SCM_Attribute>>, <<SCM_typeOf>> and <<SCM_containedIn>> relations.**
 
 Example: constraint on stereotype
 
@@ -370,7 +370,7 @@ Example of a view specification in the SAF Metamodel
 
 ![Logic](../viewpoints/diagrams/Logical-Structure-Concept.svg)
 
-In the example a view SLV1 “Logical Structure Viewpoint is specified by means of the SAF_View and SAF_Viewpoint elements. The View exposes the relevant concepts of the SAF Conceptual model.
+In the example a view “Logical Structure Viewpoint is specified by means of the SAF_View and SAF_Viewpoint elements. The View exposes the relevant concepts of the SAF Conceptual model.
 Additionally, to view specification a diagram showing the viewpoint implementation is provided.
 
 ![Logic](../viewpoints/diagrams/Logical-Structure-Profile.svg)
@@ -399,4 +399,4 @@ Packages
 * SAF Viewpoint contains the view specifications grouped by SAF domains:
 * A viewpoint specification consists of a view, a viewpoint, a class diagram showing the concept model, and a profile diagram showing the profile specification for the viewpoint. Additional traceability may be provided.
 
-![class](ex-prof-pkg.png)
+![package struct](ex-prof-pkg.png)

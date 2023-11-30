@@ -695,6 +695,17 @@ The Standards Definition Viewpoint supports the definition of applicable standar
 A block definition diagram (BDD) featuring the taxonomy of types of technical, operational, and business standards, guidance, and policy applicable to the system of interest.
 A table format lsiting technical, operational, and business standards, guidance, and policy applicable to the system of interest.
 
+## SAF_SCV02d_View
+
+### Icon
+*none*
+
+### Documentation
+The Terms Definition Viewpoint supports the definition of applicable terms ... [tbd] ...
+
+A table format listing  terms ...[tbd].
+A table format listing abbreviations and relationship to standards if applicable... [tbd].
+
 ## SAF_SFV01a_View
 
 ### Icon
