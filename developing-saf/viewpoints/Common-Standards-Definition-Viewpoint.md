@@ -24,9 +24,9 @@ A table format lsiting technical, operational, and business standards, guidance,
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
-|Generalization [UML_Standard_Profile]|[SDTcoveringSBS](../concept/concepts.md#SDTcoveringSBS)|
 |PartProperty [MD_customization_for_SysML]|[SDTincludingSDT](../concept/concepts.md#SDTincludingSDT)|
 |[SAF_SCV02c_View](../../stereotypes.md#SAF_SCV02c_View)|[Common Standards Definition Viewpoint](../concept/concepts.md#Common-Standards-Definition-Viewpoint)|
+|[SAF_StandardCovering](../../stereotypes.md#SAF_StandardCovering)|[SDTcoveringSBS](../concept/concepts.md#SDTcoveringSBS)|
 |[SAF_Standard](../../stereotypes.md#SAF_Standard)|[Standard](../concept/concepts.md#Standard)|
 |[SAF_StandardSuperseding](../../stereotypes.md#SAF_StandardSuperseding)|[SDTsupersedingSDT](../concept/concepts.md#SDTsupersedingSDT)|
 |[SAF_StandardizationOrganization](../../stereotypes.md#SAF_StandardizationOrganization)|[Standardization Organization](../concept/concepts.md#Standardization-Organization)|

@@ -1247,6 +1247,15 @@ A FBS_to_PBS mapping matrix featuring
 <html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Standard'>Standard</A><BR>Standard: An international standard is a technical standard developed by one or more international standards organizations. International standards are available for consideration and use worldwide.<BR></html>
 
 
+## SAF_StandardCovering
+
+### Icon
+*none*
+
+### Documentation
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#SDTcoveringSBS'>SDTcoveringSBS</A><BR>SDTcoveringSBS: Specifies the fact that a standard covers a specific subject of standardization, e.g., Data Exchange Format or Protocol.<BR></html>
+
+
 ## SAF_StandardSuperseding
 
 ### Icon

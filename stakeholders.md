@@ -128,6 +128,9 @@ The Developer is a group or an individual implementing the system parts accordin
 * What are the non-functional requirements imposed on the system? 
 
   ***Rationale:  In my role, I need to trace my derived requirements against these ones relevant to me.***
+* What are the sources (e.g. a standard) of terms? 
+
+  ***Rationale:  In my role, I need to know the meaning of defined terms from applicable standards during implementation.***
 * What is the allocated reliability for a single function?
 * What is the allocated reliability for the complete item?
 * What is the allocated space?
@@ -183,6 +186,9 @@ The Developer is a group or an individual implementing the system parts accordin
 * Which standards, protocols, and format specifications apply to a physical interface? 
 
   ***Rationale:  In my role, I need to implement the interface.***
+* Which terms and abbreviations are applicable to the system of interest or its system elements and their interfaces and interactions? 
+
+  ***Rationale:  In my role, I need to know the meaning of defined terms from applicable standards during implementation..***
 * Which variants of a HW item need to be provided?
 * Who provides the inputs to a critical function?
 # IV&V Engineer
@@ -270,6 +276,9 @@ Organization that performs development tasks (including requirements analysis, d
 The Developer is a group or an individual implementing the system parts according to defined requirements. On the lowest level of the system architecture there are the Mechanic Developer responsible for implementing the mechanical components.
 
 ## Concern
+* What are the sources (e.g. a standard) of terms? 
+
+  ***Rationale:  In my role, I need to know the meaning of defined terms from applicable standards during implementation..***
 * What is the mapping of functions to the physical SOI physical architecture? 
 
   ***Rationale:  In my role, I need to implement the sub-functions in my mechanical subsystem***
@@ -282,6 +291,9 @@ The Developer is a group or an individual implementing the system parts accordin
 * Which kind of physical items (energy, material, information, etc.) are used on an interface of a physical architecture element? 
 
   ***Rationale:  In my role, I need to implement the interfaces in my mechanical subsystem, if necessary.***
+* Which terms and abbreviations are applicable to the system of interest or its system elements and their interfaces and interactions? 
+
+  ***Rationale:  In my role, I need to know the meaning of defined terms from applicable standards during implementation.***
 # Operator
 Definition - Operator:
 Individual or organization that performs the operations of a system, [ISO/IEC 15288:2022 – Systems engineering - System life-cycle processes]
@@ -480,6 +492,9 @@ The Developer is a group or an individual implementing the system parts accordin
 * What are the non-functional requirements imposed on the system? 
 
   ***Rationale:  In my role, I need to trace my derived requirements against these ones relevant to me.***
+* What are the sources (e.g. a standard) of terms? 
+
+  ***Rationale:  In my role, I need to know the meaning of defined terms from applicable standards during implementation.***
 * What is the mapping of functions to the physical SOI physical architecture? 
 
   ***Rationale:  In my role, I need to implement the sub-functions in my SW subsystem.***
@@ -529,6 +544,9 @@ The Developer is a group or an individual implementing the system parts accordin
 * Which standards, protocols, and format specifications apply to a physical interface? 
 
   ***Rationale:  In my role, I need to implement the interface.***
+* Which terms and abbreviations are applicable to the system of interest or its system elements and their interfaces and interactions? 
+
+  ***Rationale:  In my role, I need to know the meaning of defined terms from applicable standards during implementation.***
 * Who provides the inputs to a critical function?
 * Why types of exchange can exist between Operational Performers (i.e., flows of information, people, material, or energy)?
 # Supplier

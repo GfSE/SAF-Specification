@@ -1451,9 +1451,7 @@ Specifies the fact that a System Domain Kind defines the type of a Logical Inter
 
 exposed in viewpoint [Common Standards Definition Viewpoint](../viewpoints/Common-Standards-Definition-Viewpoint.md)
 
-realized by Metaclass Generalization
-
-
+realized by Stereotype [SAF_StandardCovering](../../stereotypes.md#SAF_StandardCovering)
 
 Specifies the fact that a standard covers a specific subject of standardization, e.g., Data Exchange Format or Protocol.
 ## SDTincludingSDT
@@ -1736,6 +1734,8 @@ Specifies the fact that a System Use Case takes place in a Logical System Contex
 0..* [Term](#Term) TRMdefinedBySDT 1 [Standard](#Standard) 
 
 exposed in viewpoint [Common Terms Definition Viewpoint](../viewpoints/Common-Terms-Definition-Viewpoint.md)
+
+realized by SAF_Term contained in SAF_Standard
 
 Specifies the fact that a term is defined by a standard.
 ## USAGEallocatedTo

@@ -22,9 +22,9 @@ A table format lsiting technical, operational, and business standards, guidance,
 * [Which standards, guidance, and policy are applicable to the system of interest or its system elements and their interfaces and interactions?](../concerns.md#_2021x_2_8710274_1700821558610_489259_58612)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* Generalization [UML_Standard_Profile]
 * PartProperty [MD_customization_for_SysML]
 * [SAF_SCV02c_View](../stereotypes.md#SAF_SCV02c_View)
+* [SAF_StandardCovering](../stereotypes.md#SAF_StandardCovering)
 * [SAF_StandardSuperseding](../stereotypes.md#SAF_StandardSuperseding)
 * [SAF_Standard](../stereotypes.md#SAF_Standard)
 * [SAF_StandardizationOrganization](../stereotypes.md#SAF_StandardizationOrganization)
