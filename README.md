@@ -42,14 +42,14 @@ The SAF Operational Domain aims to get an understanding of required organization
 * [Operational Context Definition Viewpoint](viewpoints/Operational-Context-Definition-Viewpoint.md)
 * [Operational Context Exchange Viewpoint](viewpoints/Operational-Context-Exchange-Viewpoint.md)
 
-#### Operational Domain Aspect Structure
+#### Operational Domain Aspect Taxonomy & Structure
 
 * [Operational Performer Viewpoint](viewpoints/Operational-Performer-Viewpoint.md)
 * [Operational Domain Item Kind Viewpoint](viewpoints/Operational-Domain-Item-Kind-Viewpoint.md)
 * [Operational Capability Viewpoint](viewpoints/Operational-Capability-Viewpoint.md)
 * [Stakeholder Identification Viewpoint](viewpoints/Stakeholder-Identification-Viewpoint.md)
 
-#### Operational Domain Aspect Behavior
+#### Operational Domain Aspect Process & Behavior
 
 * [Operational Process Viewpoint](viewpoints/Operational-Process-Viewpoint.md)
 
@@ -80,13 +80,13 @@ The SAF Functional Domain assumes a conceptual black box perspective onto the sy
 * [System Context Definition Viewpoint](viewpoints/System-Context-Definition-Viewpoint.md)
 * [System Context Exchange Viewpoint](viewpoints/System-Context-Exchange-Viewpoint.md)
 
-#### Functional Domain Aspect Structure
+#### Functional Domain Aspect Taxonomy & Structure
 
 * [System Domain Item Kind Viewpoint](viewpoints/System-Domain-Item-Kind-Viewpoint.md)
 * [System Capability Viewpoint](viewpoints/System-Capability-Viewpoint.md)
 * [System Functional Breakdown Structure Viewpoint](viewpoints/System-Functional-Breakdown-Structure-Viewpoint.md)
 
-#### Functional Domain Aspect Behavior
+#### Functional Domain Aspect Process & Behavior
 
 * [System Process Viewpoint](viewpoints/System-Process-Viewpoint.md)
 * System Functional Refinement Viewpoint
@@ -117,7 +117,7 @@ The SAF Logical Domain assume a conceptual white box perspective onto the system
 
 ### Logical Domain Viewpoints
 
-#### Logical Domain Aspect Structure
+#### Logical Domain Aspect Taxonomy & Structure
 
 * [Logical Structure Definition Viewpoint](viewpoints/Logical-Structure-Viewpoint.md)
 
@@ -143,11 +143,11 @@ The SAF Physical Domain diagrams may be used to represent the Product Breakdown 
 * [Physical Context Definition Viewpoint](viewpoints/Physical-Context-Definition-Viewpoint.md)
 * [Physical Context Exchange Viewpoint](viewpoints/Physical-Context-Exchange-Viewpoint.md)
 
-#### Physical Domain Aspect Structure
+#### Physical Domain Aspect Taxonomy & Structure
 
 * [Physical Structure Viewpoint](viewpoints/Physical-Structure-Viewpoint.md)
 
-#### Physical Domain Aspect Behavior
+#### Physical Domain Aspect Process & Behavior
 #### Physical Domain Aspect Interaction & Collaboration
 
 * [Physical Internal Exchange Viewpoint](viewpoints/Physical-Internal-Exchange-Viewpoint.md)
