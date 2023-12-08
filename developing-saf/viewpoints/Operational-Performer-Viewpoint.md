@@ -26,8 +26,8 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |---|---|
 |[SAF_OperationalPerformerComposition](../../stereotypes.md#SAF_OperationalPerformerComposition)|[OPRcomposedOF](../concept/concepts.md#OPRcomposedOF)|
 |[SAF_OperationalPerformer](../../stereotypes.md#SAF_OperationalPerformer)|[Operational Performer](../concept/concepts.md#Operational-Performer)|
-|[SAF_OperationalStakeholderRepresentation](../../stereotypes.md#SAF_OperationalStakeholderRepresentation)|[SSHrepresentingOPR](../concept/concepts.md#SSHrepresentingOPR)|
 |[SAF_SOV02b_View](../../stereotypes.md#SAF_SOV02b_View)|[Operational Performer Viewpoint](../concept/concepts.md#Operational-Performer-Viewpoint)|
+|[SAF_StakeholderRepresenting](../../stereotypes.md#SAF_StakeholderRepresenting)|[SSHrepresentingOPR](../concept/concepts.md#SSHrepresentingOPR)|
 |[SAF_Stakeholder](../../stereotypes.md#SAF_Stakeholder)|[System of Interest Stakeholder](../concept/concepts.md#System-of-Interest-Stakeholder)|
 ## Input from other Viewpoints
 ### Required Viewpoints

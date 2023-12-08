@@ -114,7 +114,7 @@
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#SCErepresentedBySSH'>SCErepresentedBySSH</A><BR>SCErepresentedBySSH: Specifies the fact that a SOI Stakeholder represents a System Context Element.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#SCErepresentedBySSH'>SCErepresentedBySSH</A><BR>SCErepresentedBySSH: Specifies the fact that a System Context Element is represented by a SOI Stakeholder.<BR></html>
 
 
 ## SAF_ContextFunction
@@ -504,15 +504,6 @@ UAF::MapsToCapability<BR></html>
 
 ### Documentation
 <html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Operational-Sketch'>Operational Sketch</A><BR>Operational Sketch: Specifies a free form sketch depicting a concept.<BR></html>
-
-
-## SAF_OperationalStakeholderRepresentation
-
-### Icon
-*none*
-
-### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#SSHrepresentingOPR'>SSHrepresentingOPR</A><BR>SSHrepresentingOPR: Specifies the fact that a SOI Stakeholder represents an Operational Performer.<BR></html>
 
 
 ## SAF_OperationalStory
@@ -1205,6 +1196,15 @@ A FBS_to_PBS mapping matrix featuring
 
 ### Documentation
 <html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#SSHrelatedToSSH'>SSHrelatedToSSH</A><BR>SSHrelatedToSSH: Explains relations between the Stakeholders of the System and other relevant System parties. It helps to understand the Stakeholder community and to approach the right point of contact for clarification of project relevant issues.<BR></html>
+
+
+## SAF_StakeholderRepresenting
+
+### Icon
+*none*
+
+### Documentation
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#SSHrepresentingOPR'>SSHrepresentingOPR</A><BR>SSHrepresentingOPR: Specifies the fact that a SOI Stakeholder is representing an Operational Performer.<BR></html>
 
 
 ## SAF_StakeholderRequirement

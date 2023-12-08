@@ -24,8 +24,8 @@ Note: Identified Stakeholders are related to Operational Performers if appropria
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_OperationalPerformerComposition](../stereotypes.md#SAF_OperationalPerformerComposition)
 * [SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)
-* [SAF_OperationalStakeholderRepresentation](../stereotypes.md#SAF_OperationalStakeholderRepresentation)
 * [SAF_SOV02b_View](../stereotypes.md#SAF_SOV02b_View)
+* [SAF_StakeholderRepresenting](../stereotypes.md#SAF_StakeholderRepresenting)
 * [SAF_Stakeholder](../stereotypes.md#SAF_Stakeholder)
 ## Input from other Viewpoints
 ### Required Viewpoints

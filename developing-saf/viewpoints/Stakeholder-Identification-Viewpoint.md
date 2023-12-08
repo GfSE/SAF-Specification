@@ -33,9 +33,9 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |---|---|
 |Attribute "concern" of Stakeholder referencing SAF_SystemOfInterestConcern|[SSHhavingCRN](../concept/concepts.md#SSHhavingCRN)|
 |[SAF_ContextElementRepresentation](../../stereotypes.md#SAF_ContextElementRepresentation)|[SCErepresentedBySSH](../concept/concepts.md#SCErepresentedBySSH)|
-|[SAF_OperationalStakeholderRepresentation](../../stereotypes.md#SAF_OperationalStakeholderRepresentation)|[SSHrepresentingOPR](../concept/concepts.md#SSHrepresentingOPR)|
 |[SAF_SOV02d_View](../../stereotypes.md#SAF_SOV02d_View)|[Stakeholder Identification Viewpoint](../concept/concepts.md#Stakeholder-Identification-Viewpoint)|
 |[SAF_StakeholderRelation](../../stereotypes.md#SAF_StakeholderRelation)|[SSHrelatedToSSH](../concept/concepts.md#SSHrelatedToSSH)|
+|[SAF_StakeholderRepresenting](../../stereotypes.md#SAF_StakeholderRepresenting)|[SSHrepresentingOPR](../concept/concepts.md#SSHrepresentingOPR)|
 |[SAF_Stakeholder](../../stereotypes.md#SAF_Stakeholder)|[System of Interest Stakeholder](../concept/concepts.md#System-of-Interest-Stakeholder)|
 |[SAF_SystemOfInterestConcern](../../stereotypes.md#SAF_SystemOfInterestConcern)|[System of Interest Concern](../concept/concepts.md#System-of-Interest-Concern)|
 ## Input from other Viewpoints

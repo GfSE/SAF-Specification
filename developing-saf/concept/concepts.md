@@ -1331,7 +1331,7 @@ exposed in viewpoint [Stakeholder Identification Viewpoint](../viewpoints/Stakeh
 
 realized by Stereotype [SAF_ContextElementRepresentation](../../stereotypes.md#SAF_ContextElementRepresentation)
 
-Specifies the fact that a SOI Stakeholder represents a System Context Element.
+Specifies the fact that a System Context Element is represented by a SOI Stakeholder.
 ## SCIScontainingLCM
 1 [System Context Interaction Scenario](#System-Context-Interaction-Scenario) SCIScontainingLCM 0..* [System Context Chronological Message](#System-Context-Chronological-Message) 
 
@@ -1669,9 +1669,9 @@ exposed in viewpoint [Operational Performer Viewpoint](../viewpoints/Operational
 
 exposed in viewpoint [Stakeholder Identification Viewpoint](../viewpoints/Stakeholder-Identification-Viewpoint.md)
 
-realized by Stereotype [SAF_OperationalStakeholderRepresentation](../../stereotypes.md#SAF_OperationalStakeholderRepresentation)
+realized by Stereotype [SAF_StakeholderRepresenting](../../stereotypes.md#SAF_StakeholderRepresenting)
 
-Specifies the fact that a SOI Stakeholder represents an Operational Performer.
+Specifies the fact that a SOI Stakeholder is representing an Operational Performer.
 ## SSHrepresentingUSR
 1 [System of Interest Stakeholder](#System-of-Interest-Stakeholder) SSHrepresentingUSR 0..* [User](#User) 
 
