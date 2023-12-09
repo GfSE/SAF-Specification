@@ -4,9 +4,7 @@ Disclaimer: the SAF_Concept Ontology ![Bild](../../diagrams/Under_construction_i
 
 # SAF Development Documentation : SAF_Concept Ontology Overview
 
-There are some [General Concepts](SAF_general_concept%20Definition.md) forming basic patterns like structure, function, interaction and exchange. They are not used in viewpoints directly, they are abstractions of more specific concepts. 
-
-The SAF_Concepts are grouped by topics. SAF_Concepts are shown together with related SAF_Concepts.
+There are some [General Concepts](SAF_general_concept%20Definition.md) forming basic patterns like requirement, structure, behavior, interaction, and exchange. However, these are not used in viewpoints directly, they form abstractions of more specific concepts. The SAF_Concepts are grouped by topics, and SAF_Concepts are shown together with related SAF_Concepts.
 
 ## Capabilities
 * [Operational Level Capability](SAF_capability_O%20Definition.md)
