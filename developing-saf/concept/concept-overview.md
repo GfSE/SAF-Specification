@@ -1,4 +1,7 @@
-![System Architecture Framework](../../diagrams/Logo_SAF.png)
+Disclaimer: System Architecture Framework Specification Ontology ![Bild](diagrams/Under_construction_icon-yellow.svg) **is work in progress**
+
+![System Architecture Framework](/diagrams/Banner_SAF.png)
+
 # SAF Development Documentation : SAF_Concept Ontology Overview
 
 There are some [General Concepts](SAF_general_concept%20Definition.md) forming basic patterns like structure, function, interaction and exchange. They are not used in viewpoints directly, they are abstractions of more specific concepts. 
