@@ -24,11 +24,13 @@ A tabular format listing [tbd].
 * [Which operational exchanges do operational performers need to consume or provide?](../concerns.md#_2021x_2_8710274_1674576758910_672482_23380)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
+* Attribute "realizingConnector" of InformationFlow referencing Connector
 * Connector [UML_Standard_Profile]
 * ItemFlow [SysML Profile]
 * [SAF_OperationalContextRole](../stereotypes.md#SAF_OperationalContextRole)
 * [SAF_OperationalContext](../stereotypes.md#SAF_OperationalContext)
 * [SAF_OperationalDomainKind](../stereotypes.md#SAF_OperationalDomainKind)
+* [SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)
 * [SAF_SOV01c_View](../stereotypes.md#SAF_SOV01c_View)
 ## Input from other Viewpoints
 ### Required Viewpoints

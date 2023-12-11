@@ -1064,9 +1064,7 @@ Specifies that the Logical user is a concept for a Physical User.
 ## OCNallowingOIE
 1 [Operational Connection](#Operational-Connection) OCNallowingOIE 0..* [Operational Item Exchange](#Operational-Item-Exchange) 
 
-realized by Stereotype ItemFlow
-
-
+realized by Attribute "realizingConnector" of InformationFlow referencing Connector
 
 Specifies the fact that an Operational Item Exchange is allowed on the Operational Connection.
 ## OCYcomposedOF
@@ -1927,10 +1925,6 @@ exposed in viewpoint [Operational Interaction Viewpoint](../viewpoints/Operation
 exposed in viewpoint [Operational Process Viewpoint](../viewpoints/Operational-Process-Viewpoint.md)
 
 realized by Stereotype [SAF_OperationalContextRole](../../stereotypes.md#SAF_OperationalContextRole)
-
-realized by Metaclass Association
-
-
 
 An Operational Context Role represents a participant in an Operational context.
 It is interacting with other roles of the given Operational Context. Specific characteristics and features or, in case of persons or organizational units, knowledge and skills are assigned to a role necessary for the execution of the performed Operational Processes.
