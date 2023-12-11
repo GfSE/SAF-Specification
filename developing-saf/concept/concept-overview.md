@@ -1,4 +1,3 @@
-Disclaimer: the SAF_Concept Ontology ![Bild](../../diagrams/Under_construction_icon-yellow.svg) **is work in progress**
 
 ![System Architecture Framework](/diagrams/Banner_SAF.png)
 
