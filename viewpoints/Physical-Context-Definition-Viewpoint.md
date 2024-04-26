@@ -1,5 +1,5 @@
 ![System Architecture Framework](../diagrams/Banner_SAF.png)
-# SAF User Documentation : Physical Context Definition Viewpoint
+# SAF User Documentation : **P1_PCD** Physical Context Definition Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Physical](../domains.md#Domain-Physical)|[Context & Exchange](../aspects.md#Aspect-Context-&-Exchange)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
@@ -31,12 +31,12 @@ A block definition diagram (BDD) depicting the elements available in a specific 
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * SAF_PhysicalContextRole contained in SAF_PhysicalContext
+* [SAF_P1_PCD](../stereotypes.md#SAF_P1_PCD)
 * [SAF_PhysicalContext](../stereotypes.md#SAF_PhysicalContext)
 * [SAF_PhysicalEnvironment](../stereotypes.md#SAF_PhysicalEnvironment)
 * [SAF_PhysicalExternalSystem](../stereotypes.md#SAF_PhysicalExternalSystem)
 * [SAF_PhysicalSystem](../stereotypes.md#SAF_PhysicalSystem)
 * [SAF_PhysicalUser](../stereotypes.md#SAF_PhysicalUser)
-* [SAF_SPV01b_View](../stereotypes.md#SAF_SPV01b_View)
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

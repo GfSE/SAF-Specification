@@ -1,5 +1,5 @@
 ![System Architecture Framework](../diagrams/Banner_SAF.png)
-# SAF User Documentation : System Context Definition Viewpoint
+# SAF User Documentation : **F1_SCD** System Context Definition Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Functional](../domains.md#Domain-Functional)|[Context & Exchange](../aspects.md#Aspect-Context-&-Exchange)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
@@ -36,12 +36,12 @@ A tabular format listing context roles, context elements, and respective descrip
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * SAF_LogicalContextRole contained in SAF_LogicalContext
+* [SAF_F1_SCD](../stereotypes.md#SAF_F1_SCD)
 * [SAF_LogicalContext](../stereotypes.md#SAF_LogicalContext)
 * [SAF_LogicalEnvironment](../stereotypes.md#SAF_LogicalEnvironment)
 * [SAF_LogicalExternalSystem](../stereotypes.md#SAF_LogicalExternalSystem)
 * [SAF_LogicalSOI](../stereotypes.md#SAF_LogicalSOI)
 * [SAF_LogicalUser](../stereotypes.md#SAF_LogicalUser)
-* [SAF_SFV01b_View](../stereotypes.md#SAF_SFV01b_View)
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

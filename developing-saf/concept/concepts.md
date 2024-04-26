@@ -126,13 +126,13 @@ A Goal is defined as an end state that a Stakeholder intends to achieve. Goals a
 ## Grid
 exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-Viewpoint.md)
 
-realized by Stereotype [SAF_SCV02b_View](../../stereotypes.md#SAF_SCV02b_View)
+realized by Stereotype [SAF_C2_GRD](../../stereotypes.md#SAF_C2_GRD)
 
 The grid manages the viewpoints in grid cells assigned to the categories of an domain (row) and an aspect (column).
 ## Grid Cell
 exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-Viewpoint.md)
 
-realized by Stereotype [SAF_SCV02b_View](../../stereotypes.md#SAF_SCV02b_View)
+realized by Stereotype [SAF_C2_GRD](../../stereotypes.md#SAF_C2_GRD)
 
 
 ## Hardware Element
@@ -830,7 +830,7 @@ Specifies the fact that a System Function is refined by Functional Requirements.
 
 exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-Viewpoint.md)
 
-realized by Stereotype [SAF_SCV02b_View](../../stereotypes.md#SAF_SCV02b_View)
+realized by Stereotype [SAF_C2_GRD](../../stereotypes.md#SAF_C2_GRD)
 
 Specifies that a grid cell is assigned to one aspect.
 ## GCbelongingToDN
@@ -838,7 +838,7 @@ Specifies that a grid cell is assigned to one aspect.
 
 exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-Viewpoint.md)
 
-realized by Stereotype [SAF_SCV02b_View](../../stereotypes.md#SAF_SCV02b_View)
+realized by Stereotype [SAF_C2_GRD](../../stereotypes.md#SAF_C2_GRD)
 
 Specifies that a grid cell is assigned to one domain.
 ## GCcontainingVP
@@ -850,7 +850,7 @@ exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-V
 ## GCcontainingVW
 1 [Grid Cell](#Grid-Cell) GCcontainingVW 1 [View](#View) 
 
-realized by Stereotype [SAF_SCV02b_View](../../stereotypes.md#SAF_SCV02b_View)
+realized by Stereotype [SAF_C2_GRD](../../stereotypes.md#SAF_C2_GRD)
 
 Specifies that a grid cell contains views.
 ## GDcontainingAT

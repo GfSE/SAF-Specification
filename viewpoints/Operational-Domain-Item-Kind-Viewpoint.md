@@ -1,5 +1,5 @@
 ![System Architecture Framework](../diagrams/Banner_SAF.png)
-# SAF User Documentation : Operational Domain Item Kind Viewpoint
+# SAF User Documentation : **O2_ODK** Operational Domain Item Kind Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Operational](../domains.md#Domain-Operational)|[Taxonomy & Structure](../aspects.md#Aspect-Taxonomy-&-Structure)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
@@ -27,9 +27,9 @@ A Table featuring Operational Domain Item Kinds, their relationships and their D
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * ObjectFlow [UML_Standard_Profile]
+* [SAF_O2_ODK](../stereotypes.md#SAF_O2_ODK)
 * [SAF_OperationalDomainKindComposition](../stereotypes.md#SAF_OperationalDomainKindComposition)
 * [SAF_OperationalDomainKind](../stereotypes.md#SAF_OperationalDomainKind)
-* [SAF_SOV02a_View](../stereotypes.md#SAF_SOV02a_View)
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

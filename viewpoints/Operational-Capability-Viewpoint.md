@@ -1,5 +1,5 @@
 ![System Architecture Framework](../diagrams/Banner_SAF.png)
-# SAF User Documentation : Operational Capability Viewpoint
+# SAF User Documentation : **O2_OCY** Operational Capability Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Operational](../domains.md#Domain-Operational)|[Taxonomy & Structure](../aspects.md#Aspect-Taxonomy-&-Structure)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
@@ -22,11 +22,11 @@ A block definition diagram (BDD) featuring Operational Capabilities, their compo
 * [What operational capabilities are required for each phase and mode of operation?](../concerns.md#_2021x_2_8710274_1674576759229_963784_23628)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
+* [SAF_O2_OCY](../stereotypes.md#SAF_O2_OCY)
 * [SAF_OperationalCapabilityComposition](../stereotypes.md#SAF_OperationalCapabilityComposition)
 * [SAF_OperationalCapabilityDependency](../stereotypes.md#SAF_OperationalCapabilityDependency)
 * [SAF_OperationalCapabilityGeneralization](../stereotypes.md#SAF_OperationalCapabilityGeneralization)
 * [SAF_OperationalCapability](../stereotypes.md#SAF_OperationalCapability)
-* [SAF_SOV02c_View](../stereotypes.md#SAF_SOV02c_View)
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

@@ -1,5 +1,5 @@
 ![System Architecture Framework](../diagrams/Banner_SAF.png)
-# SAF User Documentation : Physical Context Exchange Viewpoint
+# SAF User Documentation : **P1_PCE** Physical Context Exchange Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Physical](../domains.md#Domain-Physical)|[Context & Exchange](../aspects.md#Aspect-Context-&-Exchange)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
@@ -55,13 +55,13 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * ProxyPort [SysML Profile]
 * ProxyPort typed by SAF_PhysicalInterfaceDefinition
 * [SAF_InterfaceLayerRelationship](../stereotypes.md#SAF_InterfaceLayerRelationship)
+* [SAF_P1_PCE](../stereotypes.md#SAF_P1_PCE)
 * [SAF_PhysicalEnvironment](../stereotypes.md#SAF_PhysicalEnvironment)
 * [SAF_PhysicalExchangeType](../stereotypes.md#SAF_PhysicalExchangeType)
 * [SAF_PhysicalExternalSystem](../stereotypes.md#SAF_PhysicalExternalSystem)
 * [SAF_PhysicalInterfaceDefinition](../stereotypes.md#SAF_PhysicalInterfaceDefinition)
 * [SAF_PhysicalSystem](../stereotypes.md#SAF_PhysicalSystem)
 * [SAF_PhysicalUser](../stereotypes.md#SAF_PhysicalUser)
-* [SAF_SPV01c_View](../stereotypes.md#SAF_SPV01c_View)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Physical Context Definition Viewpoint](Physical-Context-Definition-Viewpoint.md)

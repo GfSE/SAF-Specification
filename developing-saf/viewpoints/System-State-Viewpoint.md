@@ -1,5 +1,5 @@
 ![System Architecture Framework](../../diagrams/Banner_SAF.png)
-# SAF Development Documentation : System State Viewpoint
+# SAF Development Documentation : **F3_SST** System State Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Functional](../../domains.md#Domain-Functional)|[Process & Behavior](../../aspects.md#Aspect-Process-&-Behavior)|![Released](../../diagrams/Symbol_confirmed.png )[released](../../using-saf/maturity.md#released)|
@@ -33,8 +33,8 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |---|---|
 |Event [UML_Standard_Profile]|[Triggering Event](../concept/concepts.md#Triggering-Event)|
 |[SAF_DomainKind](../../stereotypes.md#SAF_DomainKind)|[System Domain Kind](../concept/concepts.md#System-Domain-Kind)|
+|[SAF_F3_SST](../../stereotypes.md#SAF_F3_SST)|[System State Viewpoint](../concept/concepts.md#System-State-Viewpoint)|
 |[SAF_LogicalElement](../../stereotypes.md#SAF_LogicalElement)|[Logical Element](../concept/concepts.md#Logical-Element)|
-|[SAF_SFV03c_View](../../stereotypes.md#SAF_SFV03c_View)|[System State Viewpoint](../concept/concepts.md#System-State-Viewpoint)|
 |[SAF_SystemFunction](../../stereotypes.md#SAF_SystemFunction)|[System Function](../concept/concepts.md#System-Function)|
 |StateMachine [UML_Standard_Profile]|[LETbeeingInSSE](../concept/concepts.md#LETbeeingInSSE)|
 |StateMachine [UML_Standard_Profile]|[SDKbeeingInSSE](../concept/concepts.md#SDKbeeingInSSE)|

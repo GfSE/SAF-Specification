@@ -1,5 +1,5 @@
 ![System Architecture Framework](../../diagrams/Banner_SAF.png)
-# SAF Development Documentation : Operational Interaction Viewpoint
+# SAF Development Documentation : **O4_OIA** Operational Interaction Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Operational](../../domains.md#Domain-Operational)|[Interaction & Collaboration](../../aspects.md#Aspect-Interaction-&-Collaboration)|![Under Construction](../../diagrams/Under_construction_icon-yellow.svg )[under construction](../../using-saf/maturity.md#under-construction)|
@@ -27,8 +27,8 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |Interaction [UML_Standard_Profile]|[Operational Interaction Scenario](../concept/concepts.md#Operational-Interaction-Scenario)|
 |Lifeline [UML_Standard_Profile]|[Operational Scenario Participation](../concept/concepts.md#Operational-Scenario-Participation)|
 |Message [UML_Standard_Profile]|[Operational Chronological Message](../concept/concepts.md#Operational-Chronological-Message)|
+|[SAF_O4_OIA](../../stereotypes.md#SAF_O4_OIA)|[Operational Interaction Viewpoint](../concept/concepts.md#Operational-Interaction-Viewpoint)|
 |[SAF_OperationalContextRole](../../stereotypes.md#SAF_OperationalContextRole)|[Operational Context Role](../concept/concepts.md#Operational-Context-Role)|
-|[SAF_SOV04a_View](../../stereotypes.md#SAF_SOV04a_View)|[Operational Interaction Viewpoint](../concept/concepts.md#Operational-Interaction-Viewpoint)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Operational Context Definition Viewpoint](Operational-Context-Definition-Viewpoint.md)

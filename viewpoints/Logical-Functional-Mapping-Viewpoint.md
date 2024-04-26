@@ -1,5 +1,5 @@
 ![System Architecture Framework](../diagrams/Banner_SAF.png)
-# SAF User Documentation : Logical Functional Mapping Viewpoint
+# SAF User Documentation : **L8_LFM** Logical Functional Mapping Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Logical](../domains.md#Domain-Logical)|[Traceability & Mapping](../aspects.md#Aspect-Traceability-&-Mapping)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
@@ -28,9 +28,9 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * Allocate [SysML Profile]
 * SAF_LogicalInternalRole contained in SAF_LogicalElement
 * [SAF_FunctionAction](../stereotypes.md#SAF_FunctionAction)
+* [SAF_L8_LFM](../stereotypes.md#SAF_L8_LFM)
 * [SAF_LogicalElement](../stereotypes.md#SAF_LogicalElement)
 * [SAF_LogicalSOI](../stereotypes.md#SAF_LogicalSOI)
-* [SAF_SLV08a_View](../stereotypes.md#SAF_SLV08a_View)
 * [SAF_SystemFunction](../stereotypes.md#SAF_SystemFunction)
 * [SAF_SystemPartialFunction](../stereotypes.md#SAF_SystemPartialFunction)
 ## Input from other Viewpoints

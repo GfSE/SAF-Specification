@@ -1,5 +1,5 @@
 ![System Architecture Framework](../diagrams/Banner_SAF.png)
-# SAF User Documentation : Common Terms Definition Viewpoint
+# SAF User Documentation : **C2_TRM** Common Terms Definition Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Common](../domains.md#Domain-Common)|[Taxonomy & Structure](../aspects.md#Aspect-Taxonomy-&-Structure)|![Proposed](../diagrams/Under_construction_icon-red.svg )[proposed](../using-saf/maturity.md#proposed)|
@@ -25,7 +25,7 @@ A table format listing abbreviations and relationship to standards if applicable
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * SAF_Term contained in SAF_Standard
-* [SAF_SCV02d_View](../stereotypes.md#SAF_SCV02d_View)
+* [SAF_C2_TRM](../stereotypes.md#SAF_C2_TRM)
 * [SAF_Standard](../stereotypes.md#SAF_Standard)
 * [SAF_Term](../stereotypes.md#SAF_Term)
 ## Input from other Viewpoints

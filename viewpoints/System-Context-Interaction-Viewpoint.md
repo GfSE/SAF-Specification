@@ -1,5 +1,5 @@
 ![System Architecture Framework](../diagrams/Banner_SAF.png)
-# SAF User Documentation : System Context Interaction Viewpoint
+# SAF User Documentation : **F4_SCI** System Context Interaction Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Functional](../domains.md#Domain-Functional)|[Interaction & Collaboration](../aspects.md#Aspect-Interaction-&-Collaboration)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
@@ -35,8 +35,8 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * Lifeline [UML_Standard_Profile]
 * Message [UML_Standard_Profile]
 * SAF_LogicalContextRole contained in SAF_LogicalContext
+* [SAF_F4_SCI](../stereotypes.md#SAF_F4_SCI)
 * [SAF_LogicalContext](../stereotypes.md#SAF_LogicalContext)
-* [SAF_SFV04a_View](../stereotypes.md#SAF_SFV04a_View)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [System Context Definition Viewpoint](System-Context-Definition-Viewpoint.md)

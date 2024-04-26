@@ -1,5 +1,5 @@
 ![System Architecture Framework](../diagrams/Banner_SAF.png)
-# SAF User Documentation : Logical Internal Exchange Viewpoint
+# SAF User Documentation : **L4_LIE** Logical Internal Exchange Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Logical](../domains.md#Domain-Logical)|[Interaction & Collaboration](../aspects.md#Aspect-Interaction-&-Collaboration)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
@@ -44,8 +44,8 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * ProxyPort typed by SAF_ConceptualInterfaceDefinition
 * [SAF_ConceptualInterfaceDefinition](../stereotypes.md#SAF_ConceptualInterfaceDefinition)
 * [SAF_DomainKind](../stereotypes.md#SAF_DomainKind)
+* [SAF_L4_LIE](../stereotypes.md#SAF_L4_LIE)
 * [SAF_LogicalElement](../stereotypes.md#SAF_LogicalElement)
-* [SAF_SLV04b_View](../stereotypes.md#SAF_SLV04b_View)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [System Domain Item Kind Viewpoint](System-Domain-Item-Kind-Viewpoint.md)

@@ -1,5 +1,5 @@
 ![System Architecture Framework](../diagrams/Banner_SAF.png)
-# SAF User Documentation : Stakeholder Identification Viewpoint
+# SAF User Documentation : **O2_STI** Stakeholder Identification Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Operational](../domains.md#Domain-Operational)|[Taxonomy & Structure](../aspects.md#Aspect-Taxonomy-&-Structure)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
@@ -31,7 +31,7 @@ A block definition diagram (BDD) depicting the identified, analysed, and classif
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Attribute "concern" of Stakeholder referencing SAF_SystemOfInterestConcern
 * [SAF_ContextElementRepresentation](../stereotypes.md#SAF_ContextElementRepresentation)
-* [SAF_SOV02d_View](../stereotypes.md#SAF_SOV02d_View)
+* [SAF_O2_STI](../stereotypes.md#SAF_O2_STI)
 * [SAF_StakeholderRelation](../stereotypes.md#SAF_StakeholderRelation)
 * [SAF_StakeholderRepresenting](../stereotypes.md#SAF_StakeholderRepresenting)
 * [SAF_Stakeholder](../stereotypes.md#SAF_Stakeholder)

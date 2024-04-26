@@ -1,5 +1,5 @@
 ![System Architecture Framework](../diagrams/Banner_SAF.png)
-# SAF User Documentation : System State Viewpoint
+# SAF User Documentation : **F3_SST** System State Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Functional](../domains.md#Domain-Functional)|[Process & Behavior](../aspects.md#Aspect-Process-&-Behavior)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
@@ -34,8 +34,8 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * StateMachine [UML_Standard_Profile]
 * Transition [UML_Standard_Profile]
 * [SAF_DomainKind](../stereotypes.md#SAF_DomainKind)
+* [SAF_F3_SST](../stereotypes.md#SAF_F3_SST)
 * [SAF_LogicalElement](../stereotypes.md#SAF_LogicalElement)
-* [SAF_SFV03c_View](../stereotypes.md#SAF_SFV03c_View)
 * [SAF_SystemFunction](../stereotypes.md#SAF_SystemFunction)
 ## Input from other Viewpoints
 ### Required Viewpoints

@@ -1,5 +1,5 @@
 ![System Architecture Framework](../diagrams/Banner_SAF.png)
-# SAF User Documentation : Operational Process Viewpoint
+# SAF User Documentation : **O3_OPR** Operational Process Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Operational](../domains.md#Domain-Operational)|[Process & Behavior](../aspects.md#Aspect-Process-&-Behavior)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
@@ -27,12 +27,12 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * InputPin [UML_Standard_Profile]
 * ObjectFlow [UML_Standard_Profile]
 * OutputPin [UML_Standard_Profile]
+* [SAF_O3_OPR](../stereotypes.md#SAF_O3_OPR)
 * [SAF_OperationalContextRole](../stereotypes.md#SAF_OperationalContextRole)
 * [SAF_OperationalDomainKind](../stereotypes.md#SAF_OperationalDomainKind)
 * [SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)
 * [SAF_OperationalProcessAction](../stereotypes.md#SAF_OperationalProcessAction)
 * [SAF_OperationalProcess](../stereotypes.md#SAF_OperationalProcess)
-* [SAF_SOV03a_View](../stereotypes.md#SAF_SOV03a_View)
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

@@ -1,5 +1,5 @@
 ![System Architecture Framework](../diagrams/Banner_SAF.png)
-# SAF User Documentation : Operational Capability Mapping Viewpoint
+# SAF User Documentation : **O8_OCM** Operational Capability Mapping Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Operational](../domains.md#Domain-Operational)|[Traceability & Mapping](../aspects.md#Aspect-Traceability-&-Mapping)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
@@ -21,6 +21,7 @@ A tabular format listing the relationships of Operational Capabilities to Stakeh
 * [Show in a concise manner the relationships from operational capability to operational story, to operational activity, and to operational performer.](../concerns.md#_2021x_2_8710274_1674576758591_594647_23070)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
+* [SAF_O8_OCM](../stereotypes.md#SAF_O8_OCM)
 * [SAF_OperationalCapabilityComposition](../stereotypes.md#SAF_OperationalCapabilityComposition)
 * [SAF_OperationalCapabilityDependency](../stereotypes.md#SAF_OperationalCapabilityDependency)
 * [SAF_OperationalCapabilityGeneralization](../stereotypes.md#SAF_OperationalCapabilityGeneralization)
@@ -31,7 +32,6 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_OperationalProcessEnabling](../stereotypes.md#SAF_OperationalProcessEnabling)
 * [SAF_OperationalProcess](../stereotypes.md#SAF_OperationalProcess)
 * [SAF_OperationalStory](../stereotypes.md#SAF_OperationalStory)
-* [SAF_SOV08a_View](../stereotypes.md#SAF_SOV08a_View)
 * [SAF_StakeholderRequirementRefinement](../stereotypes.md#SAF_StakeholderRequirementRefinement)
 * [SAF_StakeholderRequirement](../stereotypes.md#SAF_StakeholderRequirement)
 ## Input from other Viewpoints

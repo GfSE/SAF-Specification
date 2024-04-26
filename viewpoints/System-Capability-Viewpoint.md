@@ -1,5 +1,5 @@
 ![System Architecture Framework](../diagrams/Banner_SAF.png)
-# SAF User Documentation : System Capability Viewpoint
+# SAF User Documentation : **F2_SCY** System Capability Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Functional](../domains.md#Domain-Functional)|[Taxonomy & Structure](../aspects.md#Aspect-Taxonomy-&-Structure)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
@@ -24,7 +24,7 @@ A tabular format listing System Capabilities, their composition, specialisation,
 * [What are the capabilities that are supported by the system?](../concerns.md#_2021x_2_8710274_1674576759126_506455_23537)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SAF_SFV02b_View](../stereotypes.md#SAF_SFV02b_View)
+* [SAF_F2_SCY](../stereotypes.md#SAF_F2_SCY)
 * [SAF_SystemCapabilityComposition](../stereotypes.md#SAF_SystemCapabilityComposition)
 * [SAF_SystemCapabilityDependency](../stereotypes.md#SAF_SystemCapabilityDependency)
 * [SAF_SystemCapabilityEnabling](../stereotypes.md#SAF_SystemCapabilityEnabling)

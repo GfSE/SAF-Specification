@@ -1,5 +1,5 @@
 ![System Architecture Framework](../../diagrams/Banner_SAF.png)
-# SAF Development Documentation : System Capability Viewpoint
+# SAF Development Documentation : **F2_SCY** System Capability Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Functional](../../domains.md#Domain-Functional)|[Taxonomy & Structure](../../aspects.md#Aspect-Taxonomy-&-Structure)|![Released](../../diagrams/Symbol_confirmed.png )[released](../../using-saf/maturity.md#released)|
@@ -26,7 +26,7 @@ A tabular format listing System Capabilities, their composition, specialisation,
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
-|[SAF_SFV02b_View](../../stereotypes.md#SAF_SFV02b_View)|[System Capability Viewpoint](../concept/concepts.md#System-Capability-Viewpoint)|
+|[SAF_F2_SCY](../../stereotypes.md#SAF_F2_SCY)|[System Capability Viewpoint](../concept/concepts.md#System-Capability-Viewpoint)|
 |[SAF_SystemCapabilityComposition](../../stereotypes.md#SAF_SystemCapabilityComposition)|[SCYcomposedOF](../concept/concepts.md#SCYcomposedOF)|
 |[SAF_SystemCapabilityDependency](../../stereotypes.md#SAF_SystemCapabilityDependency)|[SCYdependingON](../concept/concepts.md#SCYdependingON)|
 |[SAF_SystemCapabilityEnabling](../../stereotypes.md#SAF_SystemCapabilityEnabling)|[SCYenablingOCY](../concept/concepts.md#SCYenablingOCY)|

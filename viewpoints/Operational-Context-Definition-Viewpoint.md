@@ -1,5 +1,5 @@
 ![System Architecture Framework](../diagrams/Banner_SAF.png)
-# SAF User Documentation : Operational Context Definition Viewpoint
+# SAF User Documentation : **O1_OCD** Operational Context Definition Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Operational](../domains.md#Domain-Operational)|[Context & Exchange](../aspects.md#Aspect-Context-&-Exchange)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
@@ -23,10 +23,10 @@ A block definition diagram (BDD) featuring the identified Operational Performers
 * [Who are the (Major) Stakeholders involved in the intended solution?](../concerns.md#_2021x_2_8710274_1674576759083_315449_23499)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
+* [SAF_O1_OCD](../stereotypes.md#SAF_O1_OCD)
 * [SAF_OperationalContextRole](../stereotypes.md#SAF_OperationalContextRole)
 * [SAF_OperationalContext](../stereotypes.md#SAF_OperationalContext)
 * [SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)
-* [SAF_SOV01b_View](../stereotypes.md#SAF_SOV01b_View)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Operational Performer Viewpoint](Operational-Performer-Viewpoint.md)

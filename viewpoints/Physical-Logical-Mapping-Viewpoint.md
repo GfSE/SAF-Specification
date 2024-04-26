@@ -1,5 +1,5 @@
 ![System Architecture Framework](../diagrams/Banner_SAF.png)
-# SAF User Documentation : Physical Logical Mapping Viewpoint
+# SAF User Documentation : **P8_PLM** Physical Logical Mapping Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Physical](../domains.md#Domain-Physical)|[Traceability & Mapping](../aspects.md#Aspect-Traceability-&-Mapping)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
@@ -34,8 +34,8 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * SAF_LogicalInternalRole contained in SAF_LogicalElement
 * SAF_PhysicalInternalRole contained in SAF_PhysicalItem
 * [SAF_LogicalElement](../stereotypes.md#SAF_LogicalElement)
+* [SAF_P8_PLM](../stereotypes.md#SAF_P8_PLM)
 * [SAF_PhysicalInternalRole](../stereotypes.md#SAF_PhysicalInternalRole)
-* [SAF_SPV08a_View](../stereotypes.md#SAF_SPV08a_View)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Logical Structure Viewpoint](Logical-Structure-Viewpoint.md)

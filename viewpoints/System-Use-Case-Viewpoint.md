@@ -1,5 +1,5 @@
 ![System Architecture Framework](../diagrams/Banner_SAF.png)
-# SAF User Documentation : System Use Case Viewpoint
+# SAF User Documentation : **F1_SUC** System Use Case Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Functional](../domains.md#Domain-Functional)|[Context & Exchange](../aspects.md#Aspect-Context-&-Exchange)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
@@ -36,12 +36,12 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * Attribute "subject" of UseCase referencing SAF_LogicalContext
 * Include [UML_Standard_Profile]
 * State [UML_Standard_Profile]
+* [SAF_F1_SUC](../stereotypes.md#SAF_F1_SUC)
 * [SAF_LogicalContextElementActing](../stereotypes.md#SAF_LogicalContextElementActing)
 * [SAF_LogicalContext](../stereotypes.md#SAF_LogicalContext)
 * [SAF_LogicalEnvironment](../stereotypes.md#SAF_LogicalEnvironment)
 * [SAF_LogicalExternalSystem](../stereotypes.md#SAF_LogicalExternalSystem)
 * [SAF_LogicalUser](../stereotypes.md#SAF_LogicalUser)
-* [SAF_SFV01a_View](../stereotypes.md#SAF_SFV01a_View)
 * [SAF_SystemUseCaseEnabling](../stereotypes.md#SAF_SystemUseCaseEnabling)
 * [SAF_SystemUseCase](../stereotypes.md#SAF_SystemUseCase)
 ## Input from other Viewpoints

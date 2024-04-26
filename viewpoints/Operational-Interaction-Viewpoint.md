@@ -1,5 +1,5 @@
 ![System Architecture Framework](../diagrams/Banner_SAF.png)
-# SAF User Documentation : Operational Interaction Viewpoint
+# SAF User Documentation : **O4_OIA** Operational Interaction Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Operational](../domains.md#Domain-Operational)|[Interaction & Collaboration](../aspects.md#Aspect-Interaction-&-Collaboration)|![Under Construction](../diagrams/Under_construction_icon-yellow.svg )[under construction](../using-saf/maturity.md#under-construction)|
@@ -25,8 +25,8 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * Interaction [UML_Standard_Profile]
 * Lifeline [UML_Standard_Profile]
 * Message [UML_Standard_Profile]
+* [SAF_O4_OIA](../stereotypes.md#SAF_O4_OIA)
 * [SAF_OperationalContextRole](../stereotypes.md#SAF_OperationalContextRole)
-* [SAF_SOV04a_View](../stereotypes.md#SAF_SOV04a_View)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Operational Context Definition Viewpoint](Operational-Context-Definition-Viewpoint.md)

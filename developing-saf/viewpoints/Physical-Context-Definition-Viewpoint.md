@@ -1,5 +1,5 @@
 ![System Architecture Framework](../../diagrams/Banner_SAF.png)
-# SAF Development Documentation : Physical Context Definition Viewpoint
+# SAF Development Documentation : **P1_PCD** Physical Context Definition Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Physical](../../domains.md#Domain-Physical)|[Context & Exchange](../../aspects.md#Aspect-Context-&-Exchange)|![Released](../../diagrams/Symbol_confirmed.png )[released](../../using-saf/maturity.md#released)|
@@ -32,6 +32,7 @@ A block definition diagram (BDD) depicting the elements available in a specific 
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
+|[SAF_P1_PCD](../../stereotypes.md#SAF_P1_PCD)|[Physical Context Definition Viewpoint](../concept/concepts.md#Physical-Context-Definition-Viewpoint)|
 |[SAF_PhysicalContext](../../stereotypes.md#SAF_PhysicalContext)|[Physical System Context](../concept/concepts.md#Physical-System-Context)|
 |SAF_PhysicalContextRole contained in SAF_PhysicalContext|[Physical Context Element Role](../concept/concepts.md#Physical-Context-Element-Role)|
 |SAF_PhysicalContextRole contained in SAF_PhysicalContext|[Physical SOI Role](../concept/concepts.md#Physical-SOI-Role)|
@@ -39,7 +40,6 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |[SAF_PhysicalExternalSystem](../../stereotypes.md#SAF_PhysicalExternalSystem)|[Physical External System](../concept/concepts.md#Physical-External-System)|
 |[SAF_PhysicalSystem](../../stereotypes.md#SAF_PhysicalSystem)|[Physical SOI](../concept/concepts.md#Physical-SOI)|
 |[SAF_PhysicalUser](../../stereotypes.md#SAF_PhysicalUser)|[Physical User](../concept/concepts.md#Physical-User)|
-|[SAF_SPV01b_View](../../stereotypes.md#SAF_SPV01b_View)|[Physical Context Definition Viewpoint](../concept/concepts.md#Physical-Context-Definition-Viewpoint)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

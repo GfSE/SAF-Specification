@@ -1,5 +1,5 @@
 ![System Architecture Framework](../diagrams/Banner_SAF.png)
-# SAF User Documentation : Physical Structure Viewpoint
+# SAF User Documentation : **P2_PST** Physical Structure Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Physical](../domains.md#Domain-Physical)|[Taxonomy & Structure](../aspects.md#Aspect-Taxonomy-&-Structure)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
@@ -25,11 +25,11 @@ Note: Multiple relationships to a kind of element are allowed meaning, that this
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * SAF_PhysicalInternalRole contained in SAF_PhysicalItem
+* [SAF_P2_PST](../stereotypes.md#SAF_P2_PST)
 * [SAF_PhysicalElement](../stereotypes.md#SAF_PhysicalElement)
 * [SAF_PhysicalHardwareElement](../stereotypes.md#SAF_PhysicalHardwareElement)
 * [SAF_PhysicalSoftwareElement](../stereotypes.md#SAF_PhysicalSoftwareElement)
 * [SAF_PhysicalSystem](../stereotypes.md#SAF_PhysicalSystem)
-* [SAF_SPV02a_View](../stereotypes.md#SAF_SPV02a_View)
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

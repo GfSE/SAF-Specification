@@ -1,5 +1,5 @@
 ![System Architecture Framework](../../diagrams/Banner_SAF.png)
-# SAF Development Documentation : Operational Process Mapping Viewpoint
+# SAF Development Documentation : **O8_OPM** Operational Process Mapping Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Operational](../../domains.md#Domain-Operational)|[Traceability & Mapping](../../aspects.md#Aspect-Traceability-&-Mapping)|![Released](../../diagrams/Symbol_confirmed.png )[released](../../using-saf/maturity.md#released)|
@@ -23,13 +23,13 @@ A tabular format listing the relationships of Operational Process Activities to 
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
+|[SAF_O8_OPM](../../stereotypes.md#SAF_O8_OPM)|[Operational Process Mapping Viewpoint](../concept/concepts.md#Operational-Process-Mapping-Viewpoint)|
 |[SAF_OperationalCapability](../../stereotypes.md#SAF_OperationalCapability)|[Operational Capability](../concept/concepts.md#Operational-Capability)|
 |[SAF_OperationalPerformer](../../stereotypes.md#SAF_OperationalPerformer)|[Operational Performer](../concept/concepts.md#Operational-Performer)|
 |[SAF_OperationalProcessEnabling](../../stereotypes.md#SAF_OperationalProcessEnabling)|[OPSenablingOCY](../concept/concepts.md#OPSenablingOCY)|
 |[SAF_OperationalProcess](../../stereotypes.md#SAF_OperationalProcess)|[Operational Process](../concept/concepts.md#Operational-Process)|
 |[SAF_OperationalProcessRefinement](../../stereotypes.md#SAF_OperationalProcessRefinement)|[OPSrefiningOSY](../concept/concepts.md#OPSrefiningOSY)|
 |[SAF_OperationalStory](../../stereotypes.md#SAF_OperationalStory)|[Operational Story](../concept/concepts.md#Operational-Story)|
-|[SAF_SOV08b_View](../../stereotypes.md#SAF_SOV08b_View)|[Operational Process Mapping Viewpoint](../concept/concepts.md#Operational-Process-Mapping-Viewpoint)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Operational Process Viewpoint](Operational-Process-Viewpoint.md)

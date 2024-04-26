@@ -1,5 +1,5 @@
 ![System Architecture Framework](../diagrams/Banner_SAF.png)
-# SAF User Documentation : Stakeholder Requirement Viewpoint
+# SAF User Documentation : **O6_STR** Stakeholder Requirement Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Operational](../domains.md#Domain-Operational)|[Requirement](../aspects.md#Aspect-Requirement)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
@@ -30,8 +30,8 @@ Note: Stakeholder Requirements are to be structured in a way that the Stakeholde
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Package [UML_Standard_Profile]
+* [SAF_O6_STR](../stereotypes.md#SAF_O6_STR)
 * [SAF_OperationalCapability](../stereotypes.md#SAF_OperationalCapability)
-* [SAF_SOV06a_View](../stereotypes.md#SAF_SOV06a_View)
 * [SAF_StakeholderRequirementImposition](../stereotypes.md#SAF_StakeholderRequirementImposition)
 * [SAF_StakeholderRequirementRefinement](../stereotypes.md#SAF_StakeholderRequirementRefinement)
 * [SAF_StakeholderRequirement](../stereotypes.md#SAF_StakeholderRequirement)

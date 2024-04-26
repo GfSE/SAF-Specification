@@ -1,5 +1,5 @@
 ![System Architecture Framework](../diagrams/Banner_SAF.png)
-# SAF User Documentation : Argumentation Assurance Viewpoint
+# SAF User Documentation : **C2_AAS** Argumentation Assurance Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Common](../domains.md#Domain-Common)|[Taxonomy & Structure](../aspects.md#Aspect-Taxonomy-&-Structure)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
@@ -19,6 +19,7 @@ A block definition diagram (BDD) featuring a claim-argument-evidence pattern (CA
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_ArgumentClaimSupport](../stereotypes.md#SAF_ArgumentClaimSupport)
 * [SAF_Argument](../stereotypes.md#SAF_Argument)
+* [SAF_C2_AAS](../stereotypes.md#SAF_C2_AAS)
 * [SAF_ClaimAboutSubjectMaking](../stereotypes.md#SAF_ClaimAboutSubjectMaking)
 * [SAF_ClaimClaimableItemSupport](../stereotypes.md#SAF_ClaimClaimableItemSupport)
 * [SAF_ClaimSubject](../stereotypes.md#SAF_ClaimSubject)
@@ -30,7 +31,6 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_EvidenceArgumentReinforcement](../stereotypes.md#SAF_EvidenceArgumentReinforcement)
 * [SAF_Evidence](../stereotypes.md#SAF_Evidence)
 * [SAF_Refuter](../stereotypes.md#SAF_Refuter)
-* [SAF_SCV02a_View](../stereotypes.md#SAF_SCV02a_View)
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

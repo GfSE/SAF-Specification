@@ -27,6 +27,46 @@
 <html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#AGTsupportingCLM'>AGTsupportingCLM</A><BR>AGTsupportingCLM: Specifies the fact that a claim is supported by one or more arguments via a claim-argument relation.<BR></html>
 
 
+## SAF_C2_AAS
+
+### Icon
+*none*
+
+### Documentation
+The Argumentation Assurance Viewpoint presents claims backed up by arguments that are supported by evidence, together with the possibility to counter such claims in a similar manner.
+
+A block definition diagram (BDD) featuring a claim-argument-evidence pattern (CAE).
+
+## SAF_C2_GRD
+
+### Icon
+*none*
+
+### Documentation
+
+
+## SAF_C2_STD
+
+### Icon
+*none*
+
+### Documentation
+The Standards Definition Viewpoint supports the definition of applicable standards, e.g., format and protocol specifications, regulations, and engineering documents that are used throughout the system life cycle. It provides the meta-data for the applied standards, guidance and policy, e.g., issue, version, issue date, and publisher. The Viewpoint helps to keep track of changes to the set of applicable documents and of new versions of applied standards. Links should be used to refer to documents external to the architecture description.
+
+A block definition diagram (BDD) featuring the taxonomy of types of technical, operational, and business standards, guidance, and policy applicable to the system of interest.
+A table format lsiting technical, operational, and business standards, guidance, and policy applicable to the system of interest.
+
+## SAF_C2_TRM
+
+### Icon
+*none*
+
+### Documentation
+The Terms Definition Viewpoint supports the definition of applicable terms ... [tbd] ...
+
+A table format listing  terms ...[tbd].
+A table format listing abbreviations and relationship to standards if applicable... [tbd].
+
 ## SAF_Claim
 
 ### Icon
@@ -214,6 +254,196 @@ Note: The intention is to capture the expectations and to explicitly dissect the
 ### Documentation
 Used to mark diagrams serving as example for a viewpoint
 
+## SAF_F1_SCD
+
+### Icon
+*none*
+
+### Documentation
+The System Context Definition Viewpoint defines how the SOI is embedded in its environment, i.e., where the boundary of the SOI is and who the external entities are the SOI interacts with (e.g., users, other external systems, environmental conditions, etc.). The SOI provides and requests context functions. The SOI shall be able handle events and effects from the outside. In addition, the System Context Definition Viewpoint serves as architecture concept to demonstrate how the architecture description defined in the Operational Context Definition Viewpoint is realized.
+
+A block definition diagram (BDD) featuring the following elements
+* a Logical element block representing SOI in the logical domain
+* a Logical context block representing the addressed context in the logical domain
+* Logical context element blocks for each relevant context element
+* a composition relationship from context block to each context element used in the context
+* a composition relationship from context block to the SOI
+A tabular format listing context roles, context elements, and respective descriptions.
+
+## SAF_F1_SCE
+
+### Icon
+*none*
+
+### Documentation
+The System Context Exchange Viewpoint serves for the identification and definition of external interfaces of the SOI that are used to interact, e.g., users, external systems, and other external entities defined in the given context of the SOI. The System Context Exchange Viewpoint
+* identifies system interfaces on a functional level,
+* states to which external entities the system interfaces are connected to,
+* assigns interface documents to system interfaces,
+* and defines the usage of interfaces, e.g., when only a subset of the interface is used.
+
+An internal block diagram (IBD) - associated to the system context - featuring the SOI, the system context elements, and the connectors for each identified interface from SOI to the respective context elements. An interface is a connection resource for hooking on the SOI to other context elements. Item flows are defined for each exchange on the identified interface. Connectors/ports may contain reference to the interface documents if applicable. Ports may be structured as appropriate to manage and structure the information.
+Note: more than one IBD focused on different areas of interest may be used in oder to keep the view comprehensive. Depending on the Stakeholder concerns the item exchange information might be suppressed.
+A tabular format listing [tbd].
+
+## SAF_F1_SUC
+
+### Icon
+*none*
+
+### Documentation
+The System Use Case Viewpoint provides an outside view on the system functionality from the perspective of the system users and contributes to the definition of system requirements and system usage. The intended system use may be captured as free-text use case description, as well as storytelling approach on a coarse level of detail. The main system exchange partners participating in the intended system use are identified. System use cases are related to a specific system context.
+
+A use case diagram featuring model elements representing System Use Cases, System Context, and System Context Elements.
+Note: System Use Case pre- and postconditions shall be represented either by callout or compartment notation.
+A tabular format listing the System Use Cases, the System Use Case pre- and postconditions, the System Context, and the System Context Elements.
+
+## SAF_F2_SCY
+
+### Icon
+*none*
+
+### Documentation
+The System Capability Viewpoint defines a taxonomy of Capabilities including composition, specialization, and dependency relationships between System Capabilities.
+Note: Connecting capabilities to requirements creates a linkage between two different types of conceptual problem description that helps manage the complexity of the system. At a high level of abstraction, capabilities allow an system architect to plan phases of the system evolution without the need to bear details in mind. Those details will not be lost if they are captured as requirements and traced to a corresponding capability. There is one key difference between capabilities and requirements: Requirements come from different sources, sponsored by different stakeholders, and are usually captured at different levels of abstraction. In contrast, capabilities should always represent a coherent and consolidated view of the system.
+
+A block definition diagram (BDD) featuring System Capabilities, their composition, specialization, and dependency relationships.
+Note: The relationship to operational capabilities shall be shown if applicable.
+A tabular format listing System Capabilities, their composition, specialisation, and dependency relationships, as well as relations to operational capabilities.
+
+## SAF_F2_SDK
+
+### Icon
+*none*
+
+### Documentation
+The System Domain Item Kind Viewpoint captures system wide concepts and collects type definitions for any exchanged item, e.g., information, material, or energy, of the Functional and Logical domain. Its purpose is to define these item types and their relationships. Furthermore, the System Domain Item Kind Viewpoint specifies the data types, entity types, related value types, and units that are used by the SOI.
+Note: Domain Item Kinds are used as types of function input and output in the Functional Domain, and for types of interfaces in the Logical Domain. They specify what is to be exchanged but not how.
+
+A block definition diagram (BDD) featuring Domain Item Kinds and their relationships in terms of generalization, composition, or general association. 
+Note: Domain Item Kinds are managed in the domain knowledge package of the SOI, the Domain Item Kinds are visible and usable to all sub elements of the SOI. Domain Item Kinds shall be value types or blocks. 
+A tabular format listing the Domain Item Kinds, and their relationships.
+
+## SAF_F2_SFB
+
+### Icon
+*none*
+
+### Documentation
+The System Functional Breakdown Structure Viewpoint defines the structured, modular breakdown of the SOI beginning with System Processes, over identified System Functions further refined down to System Partial Functions. The reuse of System Functions, and System Partial Functions over Function Trees of the SOI is facilitated. Unlike a Work Breakdown Structure (WBS), the Functional Breakdown Structure (FBS) is a function-oriented tree, not a product-oriented one.
+
+One or more more block definition diagrams (BDD) featuring activities representing System Processes, System Functions, System Partial Functions, and their aggregation composing the functional breakdown structure.
+Tool specific analysis diagram featuring the relationships between System Processes, System Functions, and System Partial Functions.
+
+## SAF_F3_SFR
+
+### Icon
+*none*
+
+### Documentation
+The System Functional Refinement Viewpoint analyses decomposition of System Functions into System Partial Functions in order achieve understanding and agreement about the System functions sufficient to derive system  requirements.
+
+Activity Diagram featuring System Partial Functions, functional exchange between partial functions. There are explicitely no Swimlanes and no allocations to structure.
+
+## SAF_F3_SPR
+
+### Icon
+*none*
+
+### Documentation
+The System Process Viewpoint provides the functional representation of the system using a black-box approach
+* the representation of the SOI and all Context Elements
+* the System Functions the SOI shall be able to perform
+* the Context Functions the Context Elements are expected to perform
+* the exchange between SOI System Functions and Context Functions of Context Elements
+* the functional flows crossing the boundary between SOI and Context Elements
+
+An activity diagram featuring the ordered execution of System Process Actions. The activity diagram swim lanes are typed with Context Element usage and SOI usage from the same System Context. 
+Note: In order to improve the clarity of presentation it may be appropriate to use several activity diagrams for one System Process.
+A tabular format listing all identified System Functions, the System Processes in which they appear, and the Comtext Exchange with the Context Functions.
+
+## SAF_F3_SST
+
+### Icon
+*none*
+
+### Documentation
+The System State Viewpoint defines the conditions of the SOI or parts of thereof that constrain the execution of System Functions. System States are used as pre- or post-condition of System Use Cases, and as constraints within the definition of System Functions to specifying valid transitions. Valid transitions between System States and the conditions for transitioning are specified in system wide concepts captured in System Requirements.
+
+A block definition diagram (BDD) featuring states, and state transitions. 
+Note: References to model elements that are dependent of states, or transitions shall be shown as callout, or compartment notation.
+A tabular format listing states, state transitions, and the conditons to be fullfilled before the transition will occur. References to model elements that are dependent of states (Domain Item Kinds, System Functions, System Use Cases, etc.), or transitions shall be shown in the table.
+
+## SAF_F4_SCI
+
+### Icon
+*none*
+
+### Documentation
+The System Context Interaction Viewpoint describes the System external behavior based on the exchange between Logical SOI and Logical Context Elements Usage in a given System Context. It depicts the sequence of interactions between the Logical SOI, the Context Elements and the exchanged Domain Item Kinds needed to accomplish a given System Process. 
+Note: The System Context Interaction Viewpoint may refine a System Use Case.
+
+A sequence diagram featuring the flow of control between SOI and Context Elements Roles of a System Context to achieve one outcome of a System Use Case. 
+Note: This diagram depicts the sending and receiving of messages between the interacting entities called lifelines, where time is represented along the vertical axis. The lifelines representatives are part properties typed by a System Context Elements.
+
+## SAF_F5_SID
+
+### Icon
+*none*
+
+### Documentation
+The System Interface Definition Viewpoint captures system wide concepts defining interfaces. It allows to adopt long-lived standards and to harmonize conceptual interface definitions to improve interchangeability, interoperability, and portability.
+
+A block definition diagram (BDD) featuring Conceptual Interface blocks with ports, and flow properties.
+A tabular format listing Conceptual Interface blocks, their ports, and flow properties.
+
+## SAF_F6_SRQ
+
+### Icon
+*none*
+
+### Documentation
+The System Requirement Viewpoint specifies functions, non-functional properties, or constraints of the System. System Requirements are captured, the interrelationships between Functional and Non-Functional Requirements on the same level of abstraction and the traceability to Stakeholder Requirements are depicted.
+
+A tabular format listing
+* unique requirement ID, text, and attributes,
+* traceability reference to Stakeholder Requirements,
+* traceability reference to depended Requirements on the same level of abstraction.
+
+## SAF_F8_SCM
+
+### Icon
+*none*
+
+### Documentation
+The System Capability Mapping Viewpoint describes the relationships of System Capabilities. The reasoning for System Capabilities as support for System Use Cases and the contribution of System Processes to Capabilities are described. Furthermore, the mapping of System Capabilities to Operational Capabilities are identified.
+
+A tabular format listing the relationships of System Capabilities to Operational Capabilities, System Use Cases, System Process Activities, and System Requirements.
+
+## SAF_F8_SRT
+
+### Icon
+*none*
+
+### Documentation
+The System Requirement Traceability Viewpoint specifies for every System Requirement the traceability to the functional domain level
+* System Use Case
+* System Capability
+* System Context Definition
+* System Context Exchange
+* System Context Interaction
+* System Process
+* System State
+
+A dependency matrix featuring relationships for every System Requirement to the functional domain level
+* System Use Case
+* System Capability
+* System Context Definition
+* System Context Exchange
+* System Context Interaction
+* System Process
+* System State
+
 ## SAF_FunctionAction
 
 ### Icon
@@ -237,6 +467,58 @@ Used to mark diagrams serving as example for a viewpoint
 </UL>
 </html>
 
+
+## SAF_L2_LST
+
+### Icon
+*none*
+
+### Documentation
+The Logical Structure Viewpoint describes how the system is decomposed into a hierarchical structure of logical elements responsible for different system functions (divide & conquer principle). It covers related logical concepts and principles that support the logical operation of the system and is widely reusable among similar systems like product families, or product generations.
+
+A block definition diagram (BDD) featuring the logical system block and logical blocks for any kind of logical element the system is composed of. These elements are connected to the system block by means of aggregation relationships. 
+Note: Multiple relationships to a kind of element are allowed meaning, that this kind of element is used in several roles.
+
+## SAF_L4_LIE
+
+### Icon
+*none*
+
+### Documentation
+The Logical Internal Exchange Viewpoint serves for the identification and definition of interfaces of elements of the logical system. also, the delegation of system element interfaces to the logical system boundary interfaces is covered.
+The Logical Internal Exchange Viewpoint
+* identifies system element interfaces on a logical level
+* states to which other logical elements the interfaces are connected to
+* assigns conceptual interface definitions to interfaces
+* defines the usage of interfaces, e.g., if only a subset of the interfaces is used 
+* defines the delegation of logical system element interfaces to the logical system boundary interfaces
+
+One or more IBDs featuring the SOI boundary, the logical elements of the SOI, as well as the connectors for each identified SOI interface delegation to logical SOI elements. An interface is a connection resource for hooking on the logical SOI elements to other logical SOI elements. Item flows are defined for each exchange on the identified interface.
+Note: Please use more than one IBD focused on different areas of interest to keep the view comprehensive.
+
+## SAF_L4_LII
+
+### Icon
+*none*
+
+### Documentation
+The Logical Internal Interaction Viewpoint describes System internal behavior based on the exchange between the Logical SOI Elements Usage. It depicts the sequence of interactions between the Logical SOI Elements and the exchanged Domain Item Kinds needed to accomplish a System Partial Function.
+
+A sequence diagram featuring the flow of control between Internal Logical Elements of the SOI.
+Note: This diagram depicts the sending and receiving of messages between the interacting entities called lifelines where time is represented along the vertical axis. The lifeline representatives are part properties typed by Logical System Elements.
+
+## SAF_L8_LFM
+
+### Icon
+*none*
+
+### Documentation
+The Logical Functional Mapping Viewpoint supports the definition of assignment of system functions and system partial functions to conceptual logical system elements.
+
+A FBS_to_LBS mapping matrix featuring
+* Functional Breakdown Structure (FBS)
+* Logical Breakdown Structure (LBS)
+* Allocation from system functions and system partial functions to conceptual logical system elements
 
 ## SAF_LogicalContext
 
@@ -316,6 +598,143 @@ Used to mark diagrams serving as example for a viewpoint
 ### Documentation
 <html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Logical-User'>Logical User</A><BR>Logical User: The Logical User is the representation for a human in the Logical Domain, outside the SOI scope, interacting with the SOI.<BR></html>
 
+
+## SAF_O1_OCD
+
+### Icon
+*none*
+
+### Documentation
+The Operational Context Definition Viewpoint provides the operational contexts and the involved operational performers necessary to support a specific set of operational capabilities.
+
+A block definition diagram (BDD) featuring the identified Operational Performers playing a role in the Operational Context being addressed.
+
+## SAF_O1_OCE
+
+### Icon
+*none*
+
+### Documentation
+The Operational Context Exchange Viewpoint provides the operational exchange of systems, personnel, information, material, energy, etc. between operational performers.
+
+An internal block diagram (IBD) - associated to the operational context - featuring the interconnected operational performers in their respective operational role, and the operational item exchange per operational connection.
+A tabular format listing [tbd].
+
+## SAF_O1_OSY
+
+### Icon
+*none*
+
+### Documentation
+The Operational Story Viewpoint
+* captures operational stories and their relation to operational performers, thus enables storytelling
+* illustrates the operational background from the Stakeholder perspective
+* serves as starting point to identify Stakeholders and/or context elements
+* fosters the communication among different Stakeholders
+
+A use case diagram featuring model elements representing operational stories, and operational performers involved in the mission. 
+Note: Illustrations, drawings, sketches, etc., and/or descriptions in free text may provide a comprehensive understanding of the operational mission.
+
+## SAF_O2_OCY
+
+### Icon
+*none*
+
+### Documentation
+The Operational Capability Viewpoint defines a taxonomy of Capabilities from a Stakeholderâs perspective including composition, specialization, and dependency relationships between Operational Capabilities.
+
+A block definition diagram (BDD) featuring Operational Capabilities, their composition, specialization, and dependency relationships.
+
+## SAF_O2_ODK
+
+### Icon
+*none*
+
+### Documentation
+The Operational Domain Item Kind Viewpoint captures enterprise wide concepts and collects type definitions for any exchanged item of the Operational Domain. Its purpose is to define these item types and their relationships.
+
+A block definition diagram (BDD) featuring Operational Domain Item Kinds and their relationships.
+A Table featuring Operational Domain Item Kinds, their relationships and their Documentation
+
+## SAF_O2_OPR
+
+### Icon
+*none*
+
+### Documentation
+The Operational Performer Viewpoint represents the taxonomy of the identified Operational Performers, if existing and relevant for the understanding of the operation of the intended solution. 
+
+A block definition diagram (BDD) featuring Operational Performers. and their relations in terms of decomposition or generalization at a level of detail required for problem understanding and analysis. 
+Note: Identified Stakeholders are related to Operational Performers if appropriate.
+
+## SAF_O2_STI
+
+### Icon
+*none*
+
+### Documentation
+The Stakeholder Identification Viewpoint of the operational domain strives to identify Stakeholders, whose needs shall be considered during the operation of the intended solution and the execution of the operational processes to support the identified operational capabilities. 
+A Stakeholder identification is distinguishing which parties are classified as Stakeholders in a project, either because they can influence the project or because they are directly affected by the result. A Stakeholder analysis is a process of analyzing individuals, teams, or organizations throughout the project life cycle, grouping them according to their levels of participation, interest, and influence in the project, and determining how best to involve and communicate with each of these Stakeholder groups throughout. During the realization of the Intended Solution additional Stakeholders shall be identified having additional needs and requirements, e.g., regarding production of system elements or certain technologies.
+
+A block definition diagram (BDD) depicting the identified, analysed, and classified Stakeholders and their relations to the Intended Solution.
+
+## SAF_O3_OPR
+
+### Icon
+*none*
+
+### Documentation
+The Operational Process Viewpoint describes the Operational Processes related to a specific Operational Story, the sequence of execution, and their Operational Exchanges, including information, materials, natural resources, etc. The assignment of Operational Processes to Operational Performers is captured.
+
+An activity diagram featuring the ordered execution of Operational Process Actions. Operational Processes may be linked in terms of control flow and/or data flow visualizing the Operational Exchanges needed. 
+Note: Operational Process Actions are assigned to Operational Roles and therefore in a more general manner to Operational Performers.
+
+## SAF_O4_OIA
+
+### Icon
+*none*
+
+### Documentation
+The Operational Interaction Viewpoint describes single threads of interaction between Operational Performers in an Operational Context on an operational domain level. 
+Note: The Operational Interaction Viewpoint may refine an Operational Story.
+
+A sequence diagram featuring the flow of control between Operational Performers of an Operational Context to achieve one outcome of an Operational Story. 
+Note: This diagram depicts the sending and receiving of messages between the interacting entities called lifelines where time is represented along the vertical axis. The lifelines representatives are part properties typed by Operational Performers.
+
+## SAF_O6_STR
+
+### Icon
+*none*
+
+### Documentation
+The Stakeholder Requirement Viewpoint specifies all properties that the intended solution shall possess or expose from the perspective of the Stakeholders. The Stakeholder Requirement Viewpoint determines capabilities, functions, non-functional properties, and constraints.
+
+A tabular format lisiting
+* unique requirement ID, text, and attributes,
+* traceability reference to justifying model artefacts.
+Note: Stakeholder Requirements are to be structured in a way that the Stakeholder behind the Requirement is identifiable. When appropriate, the relationships between identified Stakeholder Requirements are and the justifying model artefacts, Operational Story, Operational Capability, Operational Performer, Operational Process, and Operational Exchange are presented.
+* "One Requirement Package for each Stakeholder" is a best-practice modeling rule. A package contains the Requirements specific for one Stakeholder.
+* Even if different Stakeholders may have intersecting interests and / or concerns resulting in a similar set of Requirements, each Stakeholder shall have its own set managed in a dedicated Requirement Package. Requirements must not be shared due to their different life cycles. Resolving duplications and conflicts is subject of the requirement analysis resulting in an agreed and consolidated set of System Requirements.
+
+## SAF_O8_OCM
+
+### Icon
+*none*
+
+### Documentation
+The Operational Capability Mapping Viewpoint describes the relationships of Operational Capabilities. The reasoning for Operational Capabilities as support for Operational Stories and the contribution of Operational Processes to Capabilities are described. Operational Capabilities encoded in Stakeholder Requirements are identified.
+
+A tabular format listing the relationships of Operational Capabilities to Stakeholder Requirements, Operational Stories, and Operational Process Activities.
+
+## SAF_O8_OPM
+
+### Icon
+*none*
+
+### Documentation
+The Operational Process Mapping Viewpoint describes the relationships of Operational Processes. The reasoning for Operational Processes from Operational Stories and their contribution to Capabilities is described. The assignment of Operational Processes to Operational Performers is captured.
+
+A tabular format listing the relationships of Operational Process Activities to Operational Capabilities, Operational Stories, and Operational Performers.
 
 ## SAF_OperationalCapability
 
@@ -515,6 +934,105 @@ UAF::MapsToCapability<BR></html>
 <html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Operational-Story'>Operational Story</A><BR>Operational Story: The Operational Story represents one or more Operational Use Cases in the Usage Scenario identified by the Operational Context. The Operational Story is described as narrative story-telling.<BR></html>
 
 
+## SAF_P1_PCD
+
+### Icon
+*none*
+
+### Documentation
+The Physical Context Definition Viewpoint identifies the various contexts the SOI is used in, along with the associated external entities sharing a physical interface with the system. For each context, the applicable environmental conditions shall be defined. The physical context helps identify the interface requirements needed to integrate a system into its environment in a given context.
+
+A block definition diagram (BDD) depicting the elements available in a specific context. At least one BDD is used per identified context featuring
+* one block representing the Physical System, i.e., the system of interest
+* one block representing the specific Physical System Context
+* several blocks representing Physical Context Elements such as Physical User, Physical External System, and Physical Environment that are present in the Physical System Context
+* composition relationships attaching the Physical Context Elements and the Physical System to the Physical System Context block
+
+## SAF_P1_PCE
+
+### Icon
+*none*
+
+### Documentation
+The Physical Context Exchange Viewpoint focuses on the identification of the physical interfaces with external entities and relevant documentation. It is used to capture interface design requirements, applicable standards, protocols and format specifications, that are agreed upon the interfaces.
+
+A) For each given context, an internal block diagram (IBD is used to identify the physical interfaces, the item flows, that are exchanged on that interfaces, and related documentation.
+Note: To understand the interfaces, a mapping of protocol layers may be depicted.
+B) A tabular format providing a list of all the defined external interfaces and the applicable documentation
+* context element kind (environment, external entity, physical user, etc.)
+* context element role name
+* port name and reference to port type
+* reference to context element type
+C) A tabular format listing the applicable standards, protocols and formats for the item flows exchanged via the identified interfaces.
+
+## SAF_P2_PST
+
+### Icon
+*none*
+
+### Documentation
+The Physical Structure Viewpoint is used to model the internal structure of the SOI and to identify the internal system elements making up the SOI. The SOI breakdown structure identifies system elements and finally at the implementation level hardware, software, and mechanics. The SOI breakdown structure determines items that are reused and make-or-buy (COTS) items. The Physical Structure Viewpoint is elaborated for each candidate physical SOI architecture. It provides the basis for further assessment of the architecture candidates by identifying the system elements in each candidate solution.
+
+A block definition diagram (BDD) featuring the physical system block and physical blocks for any kind of physical element, HW or SW elements, the system is composed of. These elements are connected to the system block by means of aggregation relationships. 
+Note: Multiple relationships to a kind of element are allowed meaning, that this kind of element is used in several roles.
+
+## SAF_P4_PIE
+
+### Icon
+*none*
+
+### Documentation
+The Physical Internal Exchange Viewpoint serves for the identification and definition of interfaces of elements of the physical system. also, the delegation of system element interfaces to the physical system boundary interfaces is covered.
+The Physical Internal Exchange Viewpoint
+* identifies system element interfaces on a physical level
+* states to which other physical elements the interfaces are connected to
+* assigns physical interface definitions to interfaces
+* defines the usage of interfaces, e.g., if only a subset of the interfaces is used
+* defines the delegation of physical system element interfaces to physical system boundary interfaces
+
+One or more IBDs featuring the SOI boundary, the physical elements of the SOI, as well as the connectors for each identified SOI interface delegation to physical SOI elements. An interface is a connection resource for hooking on the logical SOI elements to other logical SOI elements. Item flows are defined for each exchange on the identified interface.
+Note: Please use more than one IBD focused on different areas of interest to keep the view comprehensive.
+
+## SAF_P5_PID
+
+### Icon
+*none*
+
+### Documentation
+The Physical Interface Definition Viewpoint captures definitions for physical interfaces. It allows to adopt long-lived standards and to harmonize physical interface definitions to improve interchangeability, interoperability, and portability.
+
+A block definition diagram (BDD) featuring Physical Interface blocks with ports, and flow properties. Compatibility between Physical Interface blocks is expressed by associations and association blocks. Physical Interface blocks may be specialisations of others (use of generalisation).
+Note: When ports are used these shall be proxy ports and be typed by interface blocks.
+A tabular format listing Physical Interface blocks, their ports, and flow properties.
+
+## SAF_P8_PFM
+
+### Icon
+*none*
+
+### Documentation
+The Physical Functional Mapping Viewpoint supports the analysis of the assignment (it is derived relationship) of system functions and system partial functions to physical SOI elements.
+
+A FBS_to_PBS mapping matrix featuring
+* Functional Breakdown Structure (FBS)
+* Physical Breakdown Structure (PBS)
+* mapping (it is a derived relationship) from system functions and system partial functions to physical SOI elements
+
+## SAF_P8_PLM
+
+### Icon
+*none*
+
+### Documentation
+The Physical Logical Mapping Viewpoint  supports the definition of the assignment of conceptual logical system elements to physical SOI elements.
+
+Following the identification of physical SOI elements capable of performing the system functions of logical elements, the Physical Logical Mapping Viewpoint provides feedback to the System Architecture Definition process to consolidate or confirm the allocation, partitioning, and alignment of logical elements to physical elements that comprise the SOI.
+
+A LBS_to_PBS mapping matrix featuring
+* Logical Breakdown Structure (LBS)
+* Physical Breakdown Structure (PBS)
+* Allocation from conceptual logical system elements to physical SOI elements
+
 ## SAF_PhysicalContext
 
 ### Icon
@@ -656,524 +1174,6 @@ UAF::MapsToCapability<BR></html>
 ### Documentation
 <html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#RFTmakingCCM'>RFTmakingCCM</A><BR>RFTmakingCCM: Specifies the fact that a counter-claim is made by a defined refuter.<BR></html>
 
-
-## SAF_SCV02a_View
-
-### Icon
-*none*
-
-### Documentation
-The Argumentation Assurance Viewpoint presents claims backed up by arguments that are supported by evidence, together with the possibility to counter such claims in a similar manner.
-
-A block definition diagram (BDD) featuring a claim-argument-evidence pattern (CAE).
-
-## SAF_SCV02b_View
-
-### Icon
-*none*
-
-### Documentation
-
-
-## SAF_SCV02c_View
-
-### Icon
-*none*
-
-### Documentation
-The Standards Definition Viewpoint supports the definition of applicable standards, e.g., format and protocol specifications, regulations, and engineering documents that are used throughout the system life cycle. It provides the meta-data for the applied standards, guidance and policy, e.g., issue, version, issue date, and publisher. The Viewpoint helps to keep track of changes to the set of applicable documents and of new versions of applied standards. Links should be used to refer to documents external to the architecture description.
-
-A block definition diagram (BDD) featuring the taxonomy of types of technical, operational, and business standards, guidance, and policy applicable to the system of interest.
-A table format lsiting technical, operational, and business standards, guidance, and policy applicable to the system of interest.
-
-## SAF_SCV02d_View
-
-### Icon
-*none*
-
-### Documentation
-The Terms Definition Viewpoint supports the definition of applicable terms ... [tbd] ...
-
-A table format listing  terms ...[tbd].
-A table format listing abbreviations and relationship to standards if applicable... [tbd].
-
-## SAF_SFV01a_View
-
-### Icon
-*none*
-
-### Documentation
-The System Use Case Viewpoint provides an outside view on the system functionality from the perspective of the system users and contributes to the definition of system requirements and system usage. The intended system use may be captured as free-text use case description, as well as storytelling approach on a coarse level of detail. The main system exchange partners participating in the intended system use are identified. System use cases are related to a specific system context.
-
-A use case diagram featuring model elements representing System Use Cases, System Context, and System Context Elements.
-Note: System Use Case pre- and postconditions shall be represented either by callout or compartment notation.
-A tabular format listing the System Use Cases, the System Use Case pre- and postconditions, the System Context, and the System Context Elements.
-
-## SAF_SFV01b_View
-
-### Icon
-*none*
-
-### Documentation
-The System Context Definition Viewpoint defines how the SOI is embedded in its environment, i.e., where the boundary of the SOI is and who the external entities are the SOI interacts with (e.g., users, other external systems, environmental conditions, etc.). The SOI provides and requests context functions. The SOI shall be able handle events and effects from the outside. In addition, the System Context Definition Viewpoint serves as architecture concept to demonstrate how the architecture description defined in the Operational Context Definition Viewpoint is realized.
-
-A block definition diagram (BDD) featuring the following elements
-* a Logical element block representing SOI in the logical domain
-* a Logical context block representing the addressed context in the logical domain
-* Logical context element blocks for each relevant context element
-* a composition relationship from context block to each context element used in the context
-* a composition relationship from context block to the SOI
-A tabular format listing context roles, context elements, and respective descriptions.
-
-## SAF_SFV01c_View
-
-### Icon
-*none*
-
-### Documentation
-The System Context Exchange Viewpoint serves for the identification and definition of external interfaces of the SOI that are used to interact, e.g., users, external systems, and other external entities defined in the given context of the SOI. The System Context Exchange Viewpoint
-* identifies system interfaces on a functional level,
-* states to which external entities the system interfaces are connected to,
-* assigns interface documents to system interfaces,
-* and defines the usage of interfaces, e.g., when only a subset of the interface is used.
-
-An internal block diagram (IBD) - associated to the system context - featuring the SOI, the system context elements, and the connectors for each identified interface from SOI to the respective context elements. An interface is a connection resource for hooking on the SOI to other context elements. Item flows are defined for each exchange on the identified interface. Connectors/ports may contain reference to the interface documents if applicable. Ports may be structured as appropriate to manage and structure the information.
-Note: more than one IBD focused on different areas of interest may be used in oder to keep the view comprehensive. Depending on the Stakeholder concerns the item exchange information might be suppressed.
-A tabular format listing [tbd].
-
-## SAF_SFV02a_View
-
-### Icon
-*none*
-
-### Documentation
-The System Domain Item Kind Viewpoint captures system wide concepts and collects type definitions for any exchanged item, e.g., information, material, or energy, of the Functional and Logical domain. Its purpose is to define these item types and their relationships. Furthermore, the System Domain Item Kind Viewpoint specifies the data types, entity types, related value types, and units that are used by the SOI.
-Note: Domain Item Kinds are used as types of function input and output in the Functional Domain, and for types of interfaces in the Logical Domain. They specify what is to be exchanged but not how.
-
-A block definition diagram (BDD) featuring Domain Item Kinds and their relationships in terms of generalization, composition, or general association. 
-Note: Domain Item Kinds are managed in the domain knowledge package of the SOI, the Domain Item Kinds are visible and usable to all sub elements of the SOI. Domain Item Kinds shall be value types or blocks. 
-A tabular format listing the Domain Item Kinds, and their relationships.
-
-## SAF_SFV02b_View
-
-### Icon
-*none*
-
-### Documentation
-The System Capability Viewpoint defines a taxonomy of Capabilities including composition, specialization, and dependency relationships between System Capabilities.
-Note: Connecting capabilities to requirements creates a linkage between two different types of conceptual problem description that helps manage the complexity of the system. At a high level of abstraction, capabilities allow an system architect to plan phases of the system evolution without the need to bear details in mind. Those details will not be lost if they are captured as requirements and traced to a corresponding capability. There is one key difference between capabilities and requirements: Requirements come from different sources, sponsored by different stakeholders, and are usually captured at different levels of abstraction. In contrast, capabilities should always represent a coherent and consolidated view of the system.
-
-A block definition diagram (BDD) featuring System Capabilities, their composition, specialization, and dependency relationships.
-Note: The relationship to operational capabilities shall be shown if applicable.
-A tabular format listing System Capabilities, their composition, specialisation, and dependency relationships, as well as relations to operational capabilities.
-
-## SAF_SFV02c_View
-
-### Icon
-*none*
-
-### Documentation
-The System Functional Breakdown Structure Viewpoint defines the structured, modular breakdown of the SOI beginning with System Processes, over identified System Functions further refined down to System Partial Functions. The reuse of System Functions, and System Partial Functions over Function Trees of the SOI is facilitated. Unlike a Work Breakdown Structure (WBS), the Functional Breakdown Structure (FBS) is a function-oriented tree, not a product-oriented one.
-
-One or more more block definition diagrams (BDD) featuring activities representing System Processes, System Functions, System Partial Functions, and their aggregation composing the functional breakdown structure.
-Tool specific analysis diagram featuring the relationships between System Processes, System Functions, and System Partial Functions.
-
-## SAF_SFV03a_View
-
-### Icon
-*none*
-
-### Documentation
-The System Process Viewpoint provides the functional representation of the system using a black-box approach
-* the representation of the SOI and all Context Elements
-* the System Functions the SOI shall be able to perform
-* the Context Functions the Context Elements are expected to perform
-* the exchange between SOI System Functions and Context Functions of Context Elements
-* the functional flows crossing the boundary between SOI and Context Elements
-
-An activity diagram featuring the ordered execution of System Process Actions. The activity diagram swim lanes are typed with Context Element usage and SOI usage from the same System Context. 
-Note: In order to improve the clarity of presentation it may be appropriate to use several activity diagrams for one System Process.
-A tabular format listing all identified System Functions, the System Processes in which they appear, and the Comtext Exchange with the Context Functions.
-
-## SAF_SFV03b_View
-
-### Icon
-*none*
-
-### Documentation
-The System Functional Refinement Viewpoint analyses decomposition of System Functions into System Partial Functions in order achieve understanding and agreement about the System functions sufficient to derive system  requirements.
-
-Activity Diagram featuring System Partial Functions, functional exchange between partial functions. There are explicitely no Swimlanes and no allocations to structure.
-
-## SAF_SFV03c_View
-
-### Icon
-*none*
-
-### Documentation
-The System State Viewpoint defines the conditions of the SOI or parts of thereof that constrain the execution of System Functions. System States are used as pre- or post-condition of System Use Cases, and as constraints within the definition of System Functions to specifying valid transitions. Valid transitions between System States and the conditions for transitioning are specified in system wide concepts captured in System Requirements.
-
-A block definition diagram (BDD) featuring states, and state transitions. 
-Note: References to model elements that are dependent of states, or transitions shall be shown as callout, or compartment notation.
-A tabular format listing states, state transitions, and the conditons to be fullfilled before the transition will occur. References to model elements that are dependent of states (Domain Item Kinds, System Functions, System Use Cases, etc.), or transitions shall be shown in the table.
-
-## SAF_SFV04a_View
-
-### Icon
-*none*
-
-### Documentation
-The System Context Interaction Viewpoint describes the System external behavior based on the exchange between Logical SOI and Logical Context Elements Usage in a given System Context. It depicts the sequence of interactions between the Logical SOI, the Context Elements and the exchanged Domain Item Kinds needed to accomplish a given System Process. 
-Note: The System Context Interaction Viewpoint may refine a System Use Case.
-
-A sequence diagram featuring the flow of control between SOI and Context Elements Roles of a System Context to achieve one outcome of a System Use Case. 
-Note: This diagram depicts the sending and receiving of messages between the interacting entities called lifelines, where time is represented along the vertical axis. The lifelines representatives are part properties typed by a System Context Elements.
-
-## SAF_SFV05a_View
-
-### Icon
-*none*
-
-### Documentation
-The System Interface Definition Viewpoint captures system wide concepts defining interfaces. It allows to adopt long-lived standards and to harmonize conceptual interface definitions to improve interchangeability, interoperability, and portability.
-
-A block definition diagram (BDD) featuring Conceptual Interface blocks with ports, and flow properties.
-A tabular format listing Conceptual Interface blocks, their ports, and flow properties.
-
-## SAF_SFV06a_View
-
-### Icon
-*none*
-
-### Documentation
-The System Requirement Viewpoint specifies functions, non-functional properties, or constraints of the System. System Requirements are captured, the interrelationships between Functional and Non-Functional Requirements on the same level of abstraction and the traceability to Stakeholder Requirements are depicted.
-
-A tabular format listing
-* unique requirement ID, text, and attributes,
-* traceability reference to Stakeholder Requirements,
-* traceability reference to depended Requirements on the same level of abstraction.
-
-## SAF_SFV08a_View
-
-### Icon
-*none*
-
-### Documentation
-The System Capability Mapping Viewpoint describes the relationships of System Capabilities. The reasoning for System Capabilities as support for System Use Cases and the contribution of System Processes to Capabilities are described. Furthermore, the mapping of System Capabilities to Operational Capabilities are identified.
-
-A tabular format listing the relationships of System Capabilities to Operational Capabilities, System Use Cases, System Process Activities, and System Requirements.
-
-## SAF_SFV08b_View
-
-### Icon
-*none*
-
-### Documentation
-The System Requirement Traceability Viewpoint specifies for every System Requirement the traceability to the functional domain level
-* System Use Case
-* System Capability
-* System Context Definition
-* System Context Exchange
-* System Context Interaction
-* System Process
-* System State
-
-A dependency matrix featuring relationships for every System Requirement to the functional domain level
-* System Use Case
-* System Capability
-* System Context Definition
-* System Context Exchange
-* System Context Interaction
-* System Process
-* System State
-
-## SAF_SLV02a_View
-
-### Icon
-*none*
-
-### Documentation
-The Logical Structure Viewpoint describes how the system is decomposed into a hierarchical structure of logical elements responsible for different system functions (divide & conquer principle). It covers related logical concepts and principles that support the logical operation of the system and is widely reusable among similar systems like product families, or product generations.
-
-A block definition diagram (BDD) featuring the logical system block and logical blocks for any kind of logical element the system is composed of. These elements are connected to the system block by means of aggregation relationships. 
-Note: Multiple relationships to a kind of element are allowed meaning, that this kind of element is used in several roles.
-
-## SAF_SLV04a_View
-
-### Icon
-*none*
-
-### Documentation
-The Logical Internal Interaction Viewpoint describes System internal behavior based on the exchange between the Logical SOI Elements Usage. It depicts the sequence of interactions between the Logical SOI Elements and the exchanged Domain Item Kinds needed to accomplish a System Partial Function.
-
-A sequence diagram featuring the flow of control between Internal Logical Elements of the SOI.
-Note: This diagram depicts the sending and receiving of messages between the interacting entities called lifelines where time is represented along the vertical axis. The lifeline representatives are part properties typed by Logical System Elements.
-
-## SAF_SLV04b_View
-
-### Icon
-*none*
-
-### Documentation
-The Logical Internal Exchange Viewpoint serves for the identification and definition of interfaces of elements of the logical system. also, the delegation of system element interfaces to the logical system boundary interfaces is covered.
-The Logical Internal Exchange Viewpoint
-* identifies system element interfaces on a logical level
-* states to which other logical elements the interfaces are connected to
-* assigns conceptual interface definitions to interfaces
-* defines the usage of interfaces, e.g., if only a subset of the interfaces is used 
-* defines the delegation of logical system element interfaces to the logical system boundary interfaces
-
-One or more IBDs featuring the SOI boundary, the logical elements of the SOI, as well as the connectors for each identified SOI interface delegation to logical SOI elements. An interface is a connection resource for hooking on the logical SOI elements to other logical SOI elements. Item flows are defined for each exchange on the identified interface.
-Note: Please use more than one IBD focused on different areas of interest to keep the view comprehensive.
-
-## SAF_SLV08a_View
-
-### Icon
-*none*
-
-### Documentation
-The Logical Functional Mapping Viewpoint supports the definition of assignment of system functions and system partial functions to conceptual logical system elements.
-
-A FBS_to_LBS mapping matrix featuring
-* Functional Breakdown Structure (FBS)
-* Logical Breakdown Structure (LBS)
-* Allocation from system functions and system partial functions to conceptual logical system elements
-
-## SAF_SOV01a_View
-
-### Icon
-*none*
-
-### Documentation
-The Operational Story Viewpoint
-* captures operational stories and their relation to operational performers, thus enables storytelling
-* illustrates the operational background from the Stakeholder perspective
-* serves as starting point to identify Stakeholders and/or context elements
-* fosters the communication among different Stakeholders
-
-A use case diagram featuring model elements representing operational stories, and operational performers involved in the mission. 
-Note: Illustrations, drawings, sketches, etc., and/or descriptions in free text may provide a comprehensive understanding of the operational mission.
-
-## SAF_SOV01b_View
-
-### Icon
-*none*
-
-### Documentation
-The Operational Context Definition Viewpoint provides the operational contexts and the involved operational performers necessary to support a specific set of operational capabilities.
-
-A block definition diagram (BDD) featuring the identified Operational Performers playing a role in the Operational Context being addressed.
-
-## SAF_SOV01c_View
-
-### Icon
-*none*
-
-### Documentation
-The Operational Context Exchange Viewpoint provides the operational exchange of systems, personnel, information, material, energy, etc. between operational performers.
-
-An internal block diagram (IBD) - associated to the operational context - featuring the interconnected operational performers in their respective operational role, and the operational item exchange per operational connection.
-A tabular format listing [tbd].
-
-## SAF_SOV02a_View
-
-### Icon
-*none*
-
-### Documentation
-The Operational Domain Item Kind Viewpoint captures enterprise wide concepts and collects type definitions for any exchanged item of the Operational Domain. Its purpose is to define these item types and their relationships.
-
-A block definition diagram (BDD) featuring Operational Domain Item Kinds and their relationships in terms of generalization, composition, or general association.
-Note: Operational Domain Item Kinds are managed in the domain knowledge package of the Enterprise. Operational Domain Item Kinds shall be value types or blocks. 
-
-## SAF_SOV02b_View
-
-### Icon
-*none*
-
-### Documentation
-The Operational Performer Viewpoint represents the taxonomy of the identified Operational Performers, if existing and relevant for the understanding of the operation of the intended solution. 
-
-A block definition diagram (BDD) featuring Operational Performers. and their relations in terms of decomposition or generalization at a level of detail required for problem understanding and analysis. 
-Note: Identified Stakeholders are related to Operational Performers if appropriate.
-
-## SAF_SOV02c_View
-
-### Icon
-*none*
-
-### Documentation
-The Operational Capability Viewpoint defines a taxonomy of Capabilities from a Stakeholderâs perspective including composition, specialization, and dependency relationships between Operational Capabilities.
-
-A block definition diagram (BDD) featuring Operational Capabilities, their composition, specialization, and dependency relationships.
-
-## SAF_SOV02d_View
-
-### Icon
-*none*
-
-### Documentation
-The Stakeholder Identification Viewpoint of the operational domain strives to identify Stakeholders, whose needs shall be considered during the operation of the intended solution and the execution of the operational processes to support the identified operational capabilities. 
-A Stakeholder identification is distinguishing which parties are classified as Stakeholders in a project, either because they can influence the project or because they are directly affected by the result. A Stakeholder analysis is a process of analyzing individuals, teams, or organizations throughout the project life cycle, grouping them according to their levels of participation, interest, and influence in the project, and determining how best to involve and communicate with each of these Stakeholder groups throughout. During the realization of the Intended Solution additional Stakeholders shall be identified having additional needs and requirements, e.g., regarding production of system elements or certain technologies.
-
-A block definition diagram (BDD) depicting the identified, analysed, and classified Stakeholders and their relations to the Intended Solution.
-
-## SAF_SOV03a_View
-
-### Icon
-*none*
-
-### Documentation
-The Operational Process Viewpoint describes the Operational Processes related to a specific Operational Story, the sequence of execution, and their Operational Exchanges, including information, materials, natural resources, etc. The assignment of Operational Processes to Operational Performers is captured.
-
-An activity diagram featuring the ordered execution of Operational Process Actions. Operational Processes may be linked in terms of control flow and/or data flow visualizing the Operational Exchanges needed. 
-Note: Operational Process Actions are assigned to Operational Roles and therefore in a more general manner to Operational Performers.
-
-## SAF_SOV04a_View
-
-### Icon
-*none*
-
-### Documentation
-The Operational Interaction Viewpoint describes single threads of interaction between Operational Performers in an Operational Context on an operational domain level. 
-Note: The Operational Interaction Viewpoint may refine an Operational Story.
-
-A sequence diagram featuring the flow of control between Operational Performers of an Operational Context to achieve one outcome of an Operational Story. 
-Note: This diagram depicts the sending and receiving of messages between the interacting entities called lifelines where time is represented along the vertical axis. The lifelines representatives are part properties typed by Operational Performers.
-
-## SAF_SOV06a_View
-
-### Icon
-*none*
-
-### Documentation
-The Stakeholder Requirement Viewpoint specifies all properties that the intended solution shall possess or expose from the perspective of the Stakeholders. The Stakeholder Requirement Viewpoint determines capabilities, functions, non-functional properties, and constraints.
-
-A tabular format lisiting
-* unique requirement ID, text, and attributes,
-* traceability reference to justifying model artefacts.
-Note: Stakeholder Requirements are to be structured in a way that the Stakeholder behind the Requirement is identifiable. When appropriate, the relationships between identified Stakeholder Requirements are and the justifying model artefacts, Operational Story, Operational Capability, Operational Performer, Operational Process, and Operational Exchange are presented.
-* "One Requirement Package for each Stakeholder" is a best-practice modeling rule. A package contains the Requirements specific for one Stakeholder.
-* Even if different Stakeholders may have intersecting interests and / or concerns resulting in a similar set of Requirements, each Stakeholder shall have its own set managed in a dedicated Requirement Package. Requirements must not be shared due to their different life cycles. Resolving duplications and conflicts is subject of the requirement analysis resulting in an agreed and consolidated set of System Requirements.
-
-## SAF_SOV08a_View
-
-### Icon
-*none*
-
-### Documentation
-The Operational Capability Mapping Viewpoint describes the relationships of Operational Capabilities. The reasoning for Operational Capabilities as support for Operational Stories and the contribution of Operational Processes to Capabilities are described. Operational Capabilities encoded in Stakeholder Requirements are identified.
-
-A tabular format listing the relationships of Operational Capabilities to Stakeholder Requirements, Operational Stories, and Operational Process Activities.
-
-## SAF_SOV08b_View
-
-### Icon
-*none*
-
-### Documentation
-The Operational Process Mapping Viewpoint describes the relationships of Operational Processes. The reasoning for Operational Processes from Operational Stories and their contribution to Capabilities is described. The assignment of Operational Processes to Operational Performers is captured.
-
-A tabular format listing the relationships of Operational Process Activities to Operational Capabilities, Operational Stories, and Operational Performers.
-
-## SAF_SPV01b_View
-
-### Icon
-*none*
-
-### Documentation
-The Physical Context Definition Viewpoint identifies the various contexts the SOI is used in, along with the associated external entities sharing a physical interface with the system. For each context, the applicable environmental conditions shall be defined. The physical context helps identify the interface requirements needed to integrate a system into its environment in a given context.
-
-A block definition diagram (BDD) depicting the elements available in a specific context. At least one BDD is used per identified context featuring
-* one block representing the Physical System, i.e., the system of interest
-* one block representing the specific Physical System Context
-* several blocks representing Physical Context Elements such as Physical User, Physical External System, and Physical Environment that are present in the Physical System Context
-* composition relationships attaching the Physical Context Elements and the Physical System to the Physical System Context block
-
-## SAF_SPV01c_View
-
-### Icon
-*none*
-
-### Documentation
-The Physical Context Exchange Viewpoint focuses on the identification of the physical interfaces with external entities and relevant documentation. It is used to capture interface design requirements, applicable standards, protocols and format specifications, that are agreed upon the interfaces.
-
-A) For each given context, an internal block diagram (IBD is used to identify the physical interfaces, the item flows, that are exchanged on that interfaces, and related documentation.
-Note: To understand the interfaces, a mapping of protocol layers may be depicted.
-B) A tabular format providing a list of all the defined external interfaces and the applicable documentation
-* context element kind (environment, external entity, physical user, etc.)
-* context element role name
-* port name and reference to port type
-* reference to context element type
-C) A tabular format listing the applicable standards, protocols and formats for the item flows exchanged via the identified interfaces.
-
-## SAF_SPV02a_View
-
-### Icon
-*none*
-
-### Documentation
-The Physical Structure Viewpoint is used to model the internal structure of the SOI and to identify the internal system elements making up the SOI. The SOI breakdown structure identifies system elements and finally at the implementation level hardware, software, and mechanics. The SOI breakdown structure determines items that are reused and make-or-buy (COTS) items. The Physical Structure Viewpoint is elaborated for each candidate physical SOI architecture. It provides the basis for further assessment of the architecture candidates by identifying the system elements in each candidate solution.
-
-A block definition diagram (BDD) featuring the physical system block and physical blocks for any kind of physical element, HW or SW elements, the system is composed of. These elements are connected to the system block by means of aggregation relationships. 
-Note: Multiple relationships to a kind of element are allowed meaning, that this kind of element is used in several roles.
-
-## SAF_SPV04b_View
-
-### Icon
-*none*
-
-### Documentation
-The Physical Internal Exchange Viewpoint serves for the identification and definition of interfaces of elements of the physical system. also, the delegation of system element interfaces to the physical system boundary interfaces is covered.
-The Physical Internal Exchange Viewpoint
-* identifies system element interfaces on a physical level
-* states to which other physical elements the interfaces are connected to
-* assigns physical interface definitions to interfaces
-* defines the usage of interfaces, e.g., if only a subset of the interfaces is used
-* defines the delegation of physical system element interfaces to physical system boundary interfaces
-
-One or more IBDs featuring the SOI boundary, the physical elements of the SOI, as well as the connectors for each identified SOI interface delegation to physical SOI elements. An interface is a connection resource for hooking on the logical SOI elements to other logical SOI elements. Item flows are defined for each exchange on the identified interface.
-Note: Please use more than one IBD focused on different areas of interest to keep the view comprehensive.
-
-## SAF_SPV05a_View
-
-### Icon
-*none*
-
-### Documentation
-The Physical Interface Definition Viewpoint captures definitions for physical interfaces. It allows to adopt long-lived standards and to harmonize physical interface definitions to improve interchangeability, interoperability, and portability.
-
-A block definition diagram (BDD) featuring Physical Interface blocks with ports, and flow properties. Compatibility between Physical Interface blocks is expressed by associations and association blocks. Physical Interface blocks may be specialisations of others (use of generalisation).
-Note: When ports are used these shall be proxy ports and be typed by interface blocks.
-A tabular format listing Physical Interface blocks, their ports, and flow properties.
-
-## SAF_SPV08a_View
-
-### Icon
-*none*
-
-### Documentation
-The Physical Logical Mapping Viewpoint  supports the definition of the assignment of conceptual logical system elements to physical SOI elements.
-
-Following the identification of physical SOI elements capable of performing the system functions of logical elements, the Physical Logical Mapping Viewpoint provides feedback to the System Architecture Definition process to consolidate or confirm the allocation, partitioning, and alignment of logical elements to physical elements that comprise the SOI.
-
-A LBS_to_PBS mapping matrix featuring
-* Logical Breakdown Structure (LBS)
-* Physical Breakdown Structure (PBS)
-* Allocation from conceptual logical system elements to physical SOI elements
-
-## SAF_SPV08b_View
-
-### Icon
-*none*
-
-### Documentation
-The Physical Functional Mapping Viewpoint supports the analysis of the assignment (it is derived relationship) of system functions and system partial functions to physical SOI elements.
-
-A FBS_to_PBS mapping matrix featuring
-* Functional Breakdown Structure (FBS)
-* Physical Breakdown Structure (PBS)
-* mapping (it is a derived relationship) from system functions and system partial functions to physical SOI elements
 
 ## SAF_Stakeholder
 

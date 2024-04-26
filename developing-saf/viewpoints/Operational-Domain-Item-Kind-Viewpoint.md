@@ -1,5 +1,5 @@
 ![System Architecture Framework](../../diagrams/Banner_SAF.png)
-# SAF Development Documentation : Operational Domain Item Kind Viewpoint
+# SAF Development Documentation : **O2_ODK** Operational Domain Item Kind Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Operational](../../domains.md#Domain-Operational)|[Taxonomy & Structure](../../aspects.md#Aspect-Taxonomy-&-Structure)|![Released](../../diagrams/Symbol_confirmed.png )[released](../../using-saf/maturity.md#released)|
@@ -29,9 +29,9 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
 |ObjectFlow [UML_Standard_Profile]|[Operational Process Exchange](../concept/concepts.md#Operational-Process-Exchange)|
+|[SAF_O2_ODK](../../stereotypes.md#SAF_O2_ODK)|[Operational Domain Item Kind Viewpoint](../concept/concepts.md#Operational-Domain-Item-Kind-Viewpoint)|
 |[SAF_OperationalDomainKindComposition](../../stereotypes.md#SAF_OperationalDomainKindComposition)|[ODKcomposedOF](../concept/concepts.md#ODKcomposedOF)|
 |[SAF_OperationalDomainKind](../../stereotypes.md#SAF_OperationalDomainKind)|[Operational Domain Kind](../concept/concepts.md#Operational-Domain-Kind)|
-|[SAF_SOV02a_View](../../stereotypes.md#SAF_SOV02a_View)|[Operational Domain Item Kind Viewpoint](../concept/concepts.md#Operational-Domain-Item-Kind-Viewpoint)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

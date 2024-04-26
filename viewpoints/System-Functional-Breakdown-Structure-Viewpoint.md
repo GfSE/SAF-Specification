@@ -1,5 +1,5 @@
 ![System Architecture Framework](../diagrams/Banner_SAF.png)
-# SAF User Documentation : System Functional Breakdown Structure Viewpoint
+# SAF User Documentation : **F2_SFB** System Functional Breakdown Structure Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Functional](../domains.md#Domain-Functional)|[Taxonomy & Structure](../aspects.md#Aspect-Taxonomy-&-Structure)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
@@ -34,7 +34,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * Association [UML_Standard_Profile]
 * Property [UML_Standard_Profile]
 * [SAF_ContextFunction](../stereotypes.md#SAF_ContextFunction)
-* [SAF_SFV02c_View](../stereotypes.md#SAF_SFV02c_View)
+* [SAF_F2_SFB](../stereotypes.md#SAF_F2_SFB)
 * [SAF_SystemFunction](../stereotypes.md#SAF_SystemFunction)
 * [SAF_SystemPartialFunction](../stereotypes.md#SAF_SystemPartialFunction)
 * [SAF_SystemProcess](../stereotypes.md#SAF_SystemProcess)

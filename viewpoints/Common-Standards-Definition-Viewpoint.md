@@ -1,5 +1,5 @@
 ![System Architecture Framework](../diagrams/Banner_SAF.png)
-# SAF User Documentation : Common Standards Definition Viewpoint
+# SAF User Documentation : **C2_STD** Common Standards Definition Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Common](../domains.md#Domain-Common)|[Taxonomy & Structure](../aspects.md#Aspect-Taxonomy-&-Structure)|![Proposed](../diagrams/Under_construction_icon-red.svg )[proposed](../using-saf/maturity.md#proposed)|
@@ -23,7 +23,7 @@ A table format lsiting technical, operational, and business standards, guidance,
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * PartProperty [MD_customization_for_SysML]
-* [SAF_SCV02c_View](../stereotypes.md#SAF_SCV02c_View)
+* [SAF_C2_STD](../stereotypes.md#SAF_C2_STD)
 * [SAF_StandardCovering](../stereotypes.md#SAF_StandardCovering)
 * [SAF_StandardSuperseding](../stereotypes.md#SAF_StandardSuperseding)
 * [SAF_Standard](../stereotypes.md#SAF_Standard)

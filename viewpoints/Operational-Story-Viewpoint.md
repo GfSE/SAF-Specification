@@ -1,5 +1,5 @@
 ![System Architecture Framework](../diagrams/Banner_SAF.png)
-# SAF User Documentation : Operational Story Viewpoint
+# SAF User Documentation : **O1_OSY** Operational Story Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Operational](../domains.md#Domain-Operational)|[Context & Exchange](../aspects.md#Aspect-Context-&-Exchange)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
@@ -26,12 +26,12 @@ Note: Illustrations, drawings, sketches, etc., and/or descriptions in free text 
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Attribute "subject" of UseCase referencing SAF_OperationalContext
+* [SAF_O1_OSY](../stereotypes.md#SAF_O1_OSY)
 * [SAF_OperationalContext](../stereotypes.md#SAF_OperationalContext)
 * [SAF_OperationalPerformerActing](../stereotypes.md#SAF_OperationalPerformerActing)
 * [SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)
 * [SAF_OperationalSketch](../stereotypes.md#SAF_OperationalSketch)
 * [SAF_OperationalStory](../stereotypes.md#SAF_OperationalStory)
-* [SAF_SOV01a_View](../stereotypes.md#SAF_SOV01a_View)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Operational Performer Viewpoint](Operational-Performer-Viewpoint.md)

@@ -1,5 +1,5 @@
 ![System Architecture Framework](../diagrams/Banner_SAF.png)
-# SAF User Documentation : Grid Definition Viewpoint
+# SAF User Documentation : **C2_GRD** Grid Definition Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Common](../domains.md#Domain-Common)|[Taxonomy & Structure](../aspects.md#Aspect-Taxonomy-&-Structure)|![Proposed](../diagrams/Under_construction_icon-red.svg )[proposed](../using-saf/maturity.md#proposed)|
@@ -16,8 +16,8 @@ A content diagram featuring a matrix view for the SAF Viewpoint conceptual model
 ## Concern
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
+* [SAF_C2_GRD](../stereotypes.md#SAF_C2_GRD)
 * [SAF_Diagram](../stereotypes.md#SAF_Diagram)
-* [SAF_SCV02b_View](../stereotypes.md#SAF_SCV02b_View)
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*
