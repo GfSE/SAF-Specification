@@ -1,5 +1,5 @@
 ![System Architecture Framework](../../diagrams/Banner_SAF.png)
-# SAF Development Documentation : **O3_OPR** Operational Process Viewpoint
+# SAF Development Documentation : **O3_OPRO** Operational Process Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Operational](../../domains.md#Domain-Operational)|[Process & Behavior](../../aspects.md#Aspect-Process-&-Behavior)|![Released](../../diagrams/Symbol_confirmed.png )[released](../../using-saf/maturity.md#released)|
@@ -29,7 +29,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |InputPin [UML_Standard_Profile]|[TO](../concept/concepts.md#TO)|
 |ObjectFlow [UML_Standard_Profile]|[Operational Process Exchange](../concept/concepts.md#Operational-Process-Exchange)|
 |OutputPin [UML_Standard_Profile]|[FROM](../concept/concepts.md#FROM)|
-|[SAF_O3_OPR](../../stereotypes.md#SAF_O3_OPR)|[Operational Process Viewpoint](../concept/concepts.md#Operational-Process-Viewpoint)|
+|[SAF_O3_OPRO](../../stereotypes.md#SAF_O3_OPRO)|[Operational Process Viewpoint](../concept/concepts.md#Operational-Process-Viewpoint)|
 |[SAF_OperationalContextRole](../../stereotypes.md#SAF_OperationalContextRole)|[Operational Context Role](../concept/concepts.md#Operational-Context-Role)|
 |[SAF_OperationalDomainKind](../../stereotypes.md#SAF_OperationalDomainKind)|[Operational Domain Kind](../concept/concepts.md#Operational-Domain-Kind)|
 |[SAF_OperationalPerformer](../../stereotypes.md#SAF_OperationalPerformer)|[Operational Performer](../concept/concepts.md#Operational-Performer)|

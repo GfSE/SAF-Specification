@@ -1,5 +1,5 @@
 ![System Architecture Framework](../diagrams/Banner_SAF.png)
-# SAF User Documentation : **O2_OPR** Operational Performer Viewpoint
+# SAF User Documentation : **O2_OPRF** Operational Performer Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Operational](../domains.md#Domain-Operational)|[Taxonomy & Structure](../aspects.md#Aspect-Taxonomy-&-Structure)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
@@ -22,7 +22,7 @@ Note: Identified Stakeholders are related to Operational Performers if appropria
 * [What partys of the organization, enterprise, or operational entity are needed to achieve an intended operational capability?](../concerns.md#_2021x_2_8710274_1674576759028_333016_23460)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SAF_O2_OPR](../stereotypes.md#SAF_O2_OPR)
+* [SAF_O2_OPRF](../stereotypes.md#SAF_O2_OPRF)
 * [SAF_OperationalPerformerComposition](../stereotypes.md#SAF_OperationalPerformerComposition)
 * [SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)
 * [SAF_StakeholderRepresenting](../stereotypes.md#SAF_StakeholderRepresenting)

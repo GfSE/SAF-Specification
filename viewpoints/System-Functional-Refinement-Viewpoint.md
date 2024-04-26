@@ -1,5 +1,5 @@
 ![System Architecture Framework](../diagrams/Banner_SAF.png)
-# SAF User Documentation : **F3_SFR** System Functional Refinement Viewpoint
+# SAF User Documentation : **F3_SFRE** System Functional Refinement Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Functional](../domains.md#Domain-Functional)|[Process & Behavior](../aspects.md#Aspect-Process-&-Behavior)|![Proposed](../diagrams/Under_construction_icon-red.svg )[proposed](../using-saf/maturity.md#proposed)|

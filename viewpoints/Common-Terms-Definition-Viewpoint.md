@@ -1,5 +1,5 @@
 ![System Architecture Framework](../diagrams/Banner_SAF.png)
-# SAF User Documentation : **C2_TRM** Common Terms Definition Viewpoint
+# SAF User Documentation : **C2_TRMD** Common Terms Definition Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Common](../domains.md#Domain-Common)|[Taxonomy & Structure](../aspects.md#Aspect-Taxonomy-&-Structure)|![Proposed](../diagrams/Under_construction_icon-red.svg )[proposed](../using-saf/maturity.md#proposed)|
@@ -7,9 +7,9 @@
 ![Common-Terms-Definition-Viewpoint-primary-example.svg](../diagrams/vp-examples/Common-Terms-Definition-Viewpoint-primary-example.svg)
 ![Common-Terms-Definition-Viewpoint-primary-example-1.svg](../diagrams/vp-examples/Common-Terms-Definition-Viewpoint-primary-example-1.svg)
 ## Purpose
-The Terms Definition Viewpoint supports the definition of applicable terms ... [tbd] ...
+The Common Terms Definition Viewpoint supports the definition of applicable terms ... [tbd] ...
 ## Applicability
-The Standards Definition Viewpoint supports the ....[tbd] activity part of the...  [tbd]... activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§ tbd ].
+The Common Terms Definition Viewpoint supports the ....[tbd] activity part of the...  [tbd]... activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§ tbd ].
 ## Presentation
 A table format listing  terms ...[tbd].
 
@@ -25,7 +25,7 @@ A table format listing abbreviations and relationship to standards if applicable
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * SAF_Term contained in SAF_Standard
-* [SAF_C2_TRM](../stereotypes.md#SAF_C2_TRM)
+* [SAF_C2_TRMD](../stereotypes.md#SAF_C2_TRMD)
 * [SAF_Standard](../stereotypes.md#SAF_Standard)
 * [SAF_Term](../stereotypes.md#SAF_Term)
 ## Input from other Viewpoints

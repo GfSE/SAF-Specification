@@ -1,5 +1,5 @@
 ![System Architecture Framework](../diagrams/Banner_SAF.png)
-# SAF User Documentation : **L4_LIE** Logical Internal Exchange Viewpoint
+# SAF User Documentation : **L4_LIEX** Logical Internal Exchange Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Logical](../domains.md#Domain-Logical)|[Interaction & Collaboration](../aspects.md#Aspect-Interaction-&-Collaboration)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
@@ -44,12 +44,12 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * ProxyPort typed by SAF_ConceptualInterfaceDefinition
 * [SAF_ConceptualInterfaceDefinition](../stereotypes.md#SAF_ConceptualInterfaceDefinition)
 * [SAF_DomainKind](../stereotypes.md#SAF_DomainKind)
-* [SAF_L4_LIE](../stereotypes.md#SAF_L4_LIE)
+* [SAF_L4_LIEX](../stereotypes.md#SAF_L4_LIEX)
 * [SAF_LogicalElement](../stereotypes.md#SAF_LogicalElement)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [System Domain Item Kind Viewpoint](System-Domain-Item-Kind-Viewpoint.md)
-* [Logical Structure Viewpoint](Logical-Structure-Viewpoint.md)
+* [Logical Structure Definition Viewpoint](Logical-Structure-Definition-Viewpoint.md)
 ### Recommended Viewpoints
 * [System Process Viewpoint](System-Process-Viewpoint.md)
 * [System Functional Refinement Viewpoint](System-Functional-Refinement-Viewpoint.md)

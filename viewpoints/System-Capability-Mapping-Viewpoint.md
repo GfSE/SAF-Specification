@@ -1,5 +1,5 @@
 ![System Architecture Framework](../diagrams/Banner_SAF.png)
-# SAF User Documentation : **F8_SCM** System Capability Mapping Viewpoint
+# SAF User Documentation : **F8_SCYM** System Capability Mapping Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Functional](../domains.md#Domain-Functional)|[Traceability & Mapping](../aspects.md#Aspect-Traceability-&-Mapping)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
@@ -16,7 +16,7 @@ A tabular format listing the relationships of System Capabilities to Operational
 ## Concern
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SAF_F8_SCM](../stereotypes.md#SAF_F8_SCM)
+* [SAF_F8_SCYM](../stereotypes.md#SAF_F8_SCYM)
 * [SAF_StakeholderRequirement](../stereotypes.md#SAF_StakeholderRequirement)
 * [SAF_SystemCapabilityComposition](../stereotypes.md#SAF_SystemCapabilityComposition)
 * [SAF_SystemCapabilityDependency](../stereotypes.md#SAF_SystemCapabilityDependency)
@@ -32,8 +32,8 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_SystemUseCase](../stereotypes.md#SAF_SystemUseCase)
 ## Input from other Viewpoints
 ### Required Viewpoints
-* [System Capability Viewpoint](System-Capability-Viewpoint.md)
+* [System Capability Definition Viewpoint](System-Capability-Definition-Viewpoint.md)
 ### Recommended Viewpoints
-* [Operational Capability Viewpoint](Operational-Capability-Viewpoint.md)
+* [Operational Capability Definition Viewpoint](Operational-Capability-Definition-Viewpoint.md)
 * [System Use Case Viewpoint](System-Use-Case-Viewpoint.md)
 * [System Process Viewpoint](System-Process-Viewpoint.md)

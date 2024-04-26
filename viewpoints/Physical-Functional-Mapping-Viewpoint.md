@@ -1,5 +1,5 @@
 ![System Architecture Framework](../diagrams/Banner_SAF.png)
-# SAF User Documentation : **P8_PFM** Physical Functional Mapping Viewpoint
+# SAF User Documentation : **P8_PFUM** Physical Functional Mapping Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Physical](../domains.md#Domain-Physical)|[Traceability & Mapping](../aspects.md#Aspect-Traceability-&-Mapping)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
@@ -31,7 +31,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * Allocate [SysML Profile]
 * Attribute "function" of SAF_PhysicalItem referencing SAF_SystemFunction
 * [SAF_FunctionAction](../stereotypes.md#SAF_FunctionAction)
-* [SAF_P8_PFM](../stereotypes.md#SAF_P8_PFM)
+* [SAF_P8_PFUM](../stereotypes.md#SAF_P8_PFUM)
 * [SAF_PhysicalElement](../stereotypes.md#SAF_PhysicalElement)
 * [SAF_PhysicalHardwareElement](../stereotypes.md#SAF_PhysicalHardwareElement)
 * [SAF_PhysicalSoftwareElement](../stereotypes.md#SAF_PhysicalSoftwareElement)
@@ -39,8 +39,8 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_SystemPartialFunction](../stereotypes.md#SAF_SystemPartialFunction)
 ## Input from other Viewpoints
 ### Required Viewpoints
-* [Logical Structure Viewpoint](Logical-Structure-Viewpoint.md)
-* [Physical Structure Viewpoint](Physical-Structure-Viewpoint.md)
+* [Logical Structure Definition Viewpoint](Logical-Structure-Definition-Viewpoint.md)
+* [Physical Structure Definition Viewpoint](Physical-Structure-Definition-Viewpoint.md)
 * [Logical Functional Mapping Viewpoint](Logical-Functional-Mapping-Viewpoint.md)
 ### Recommended Viewpoints
 * [System Functional Breakdown Structure Viewpoint](System-Functional-Breakdown-Structure-Viewpoint.md)

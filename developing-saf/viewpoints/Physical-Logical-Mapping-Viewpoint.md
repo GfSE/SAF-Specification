@@ -1,5 +1,5 @@
 ![System Architecture Framework](../../diagrams/Banner_SAF.png)
-# SAF Development Documentation : **P8_PLM** Physical Logical Mapping Viewpoint
+# SAF Development Documentation : **P8_PLOM** Physical Logical Mapping Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Physical](../../domains.md#Domain-Physical)|[Traceability & Mapping](../../aspects.md#Aspect-Traceability-&-Mapping)|![Released](../../diagrams/Symbol_confirmed.png )[released](../../using-saf/maturity.md#released)|
@@ -35,7 +35,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |Attribute "logical_element" of SAF_PhysicalItem referencing SAF_LogicalElement|[LETspecifyingAPE](../concept/concepts.md#LETspecifyingAPE)|
 |[SAF_LogicalElement](../../stereotypes.md#SAF_LogicalElement)|[Logical Element](../concept/concepts.md#Logical-Element)|
 |SAF_LogicalInternalRole contained in SAF_LogicalElement|[Logical Element Role](../concept/concepts.md#Logical-Element-Role)|
-|[SAF_P8_PLM](../../stereotypes.md#SAF_P8_PLM)|[Physical Logical Mapping Viewpoint](../concept/concepts.md#Physical-Logical-Mapping-Viewpoint)|
+|[SAF_P8_PLOM](../../stereotypes.md#SAF_P8_PLOM)|[Physical Logical Mapping Viewpoint](../concept/concepts.md#Physical-Logical-Mapping-Viewpoint)|
 |SAF_PhysicalInternalRole contained in SAF_PhysicalItem|[Hardware Element Role](../concept/concepts.md#Hardware-Element-Role)|
 |SAF_PhysicalInternalRole contained in SAF_PhysicalItem|[Physical Element Role](../concept/concepts.md#Physical-Element-Role)|
 |SAF_PhysicalInternalRole contained in SAF_PhysicalItem|[Physical Hardware Role](../concept/concepts.md#Physical-Hardware-Role)|
@@ -44,8 +44,8 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |[SAF_PhysicalInternalRole](../../stereotypes.md#SAF_PhysicalInternalRole)|[General Physical Role](../concept/concepts.md#General-Physical-Role)|
 ## Input from other Viewpoints
 ### Required Viewpoints
-* [Logical Structure Viewpoint](Logical-Structure-Viewpoint.md)
-* [Physical Structure Viewpoint](Physical-Structure-Viewpoint.md)
+* [Logical Structure Definition Viewpoint](Logical-Structure-Definition-Viewpoint.md)
+* [Physical Structure Definition Viewpoint](Physical-Structure-Definition-Viewpoint.md)
 * [Logical Functional Mapping Viewpoint](Logical-Functional-Mapping-Viewpoint.md)
 ### Recommended Viewpoints
 * [System Functional Breakdown Structure Viewpoint](System-Functional-Breakdown-Structure-Viewpoint.md)

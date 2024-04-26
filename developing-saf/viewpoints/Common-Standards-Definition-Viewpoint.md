@@ -1,5 +1,5 @@
 ![System Architecture Framework](../../diagrams/Banner_SAF.png)
-# SAF Development Documentation : **C2_STD** Common Standards Definition Viewpoint
+# SAF Development Documentation : **C2_CSTD** Common Standards Definition Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Common](../../domains.md#Domain-Common)|[Taxonomy & Structure](../../aspects.md#Aspect-Taxonomy-&-Structure)|![Proposed](../../diagrams/Under_construction_icon-red.svg )[proposed](../../using-saf/maturity.md#proposed)|
@@ -25,7 +25,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
 |PartProperty [MD_customization_for_SysML]|[SDTincludingSDT](../concept/concepts.md#SDTincludingSDT)|
-|[SAF_C2_STD](../../stereotypes.md#SAF_C2_STD)|[Common Standards Definition Viewpoint](../concept/concepts.md#Common-Standards-Definition-Viewpoint)|
+|[SAF_C2_CSTD](../../stereotypes.md#SAF_C2_CSTD)|[Common Standards Definition Viewpoint](../concept/concepts.md#Common-Standards-Definition-Viewpoint)|
 |[SAF_StandardCovering](../../stereotypes.md#SAF_StandardCovering)|[SDTcoveringSBS](../concept/concepts.md#SDTcoveringSBS)|
 |[SAF_Standard](../../stereotypes.md#SAF_Standard)|[Standard](../concept/concepts.md#Standard)|
 |[SAF_StandardSuperseding](../../stereotypes.md#SAF_StandardSuperseding)|[SDTsupersedingSDT](../concept/concepts.md#SDTsupersedingSDT)|

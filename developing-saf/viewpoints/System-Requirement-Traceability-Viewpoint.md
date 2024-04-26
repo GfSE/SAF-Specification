@@ -1,5 +1,5 @@
 ![System Architecture Framework](../../diagrams/Banner_SAF.png)
-# SAF Development Documentation : **F8_SRT** System Requirement Traceability Viewpoint
+# SAF Development Documentation : **F8_SRQT** System Requirement Traceability Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Functional](../../domains.md#Domain-Functional)|[Traceability & Mapping](../../aspects.md#Aspect-Traceability-&-Mapping)|![Released](../../diagrams/Symbol_confirmed.png )[released](../../using-saf/maturity.md#released)|
@@ -36,7 +36,7 @@ A dependency matrix featuring relationships for every System Requirement to the 
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
-|[SAF_F8_SRT](../../stereotypes.md#SAF_F8_SRT)|[System Requirement Traceability Viewpoint](../concept/concepts.md#System-Requirement-Traceability-Viewpoint)|
+|[SAF_F8_SRQT](../../stereotypes.md#SAF_F8_SRQT)|[System Requirement Traceability Viewpoint](../concept/concepts.md#System-Requirement-Traceability-Viewpoint)|
 |[SAF_SystemFunctionalRequirementConstraint](../../stereotypes.md#SAF_SystemFunctionalRequirementConstraint)|[FRboundedByNFR](../concept/concepts.md#FRboundedByNFR)|
 |[SAF_SystemFunctionalRequirement](../../stereotypes.md#SAF_SystemFunctionalRequirement)|[Functional Requirement](../concept/concepts.md#Functional-Requirement)|
 |[SAF_SystemFunctionalRequirementRefinement](../../stereotypes.md#SAF_SystemFunctionalRequirementRefinement)|[FRrefiningSFN](../concept/concepts.md#FRrefiningSFN)|
@@ -49,11 +49,11 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |[SAF_SystemRequirement](../../stereotypes.md#SAF_SystemRequirement)|[System Requirement](../concept/concepts.md#System-Requirement)|
 ## Input from other Viewpoints
 ### Required Viewpoints
-* [Stakeholder Requirement Viewpoint](Stakeholder-Requirement-Viewpoint.md)
-* [System Requirement Viewpoint](System-Requirement-Viewpoint.md)
+* [Stakeholder Requirement Definition Viewpoint](Stakeholder-Requirement-Definition-Viewpoint.md)
+* [System Requirement Definition Viewpoint](System-Requirement-Definition-Viewpoint.md)
 ### Recommended Viewpoints
 * [System Use Case Viewpoint](System-Use-Case-Viewpoint.md)
-* [System Capability Viewpoint](System-Capability-Viewpoint.md)
+* [System Capability Definition Viewpoint](System-Capability-Definition-Viewpoint.md)
 * [System Context Exchange Viewpoint](System-Context-Exchange-Viewpoint.md)
 * [System Context Interaction Viewpoint](System-Context-Interaction-Viewpoint.md)
 * [System Process Viewpoint](System-Process-Viewpoint.md)

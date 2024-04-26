@@ -8,7 +8,10 @@ This repository contains both documentation for users of SAF and developers of S
 The System Architecture Framework Specification application is demonstrated using the **Fire Forest Detection System (FFDS)** example, courtesy of Tim Weilkiens. The Fire Forest Detection System example is based on the publication **SYSMOD - The Systems Modeling Toolbox, 3rd edition Pragmatic MBSE with SysML, Tim Weilkiens**
 
 ## SAF Releases
-This is the main branch that reflects the current state of development and it is updated as required. The following SAF releases are available, each of which is managed in a separate branch:
+This is the main branch that reflects the current state of development and it is updated as required. See the [change report](CHANGES.md) for an information ahout major changes.
+
+
+The following SAF releases are available, each of which is managed in a separate branch:
 * [Initial Release](https://github.com/GfSE/SAF-Specification/tree/Initial-Release/README.md)
 * [TdSE2022](https://github.com/GfSE/SAF-Specification/tree/TdSE2022/README.md)
 * [TdSE2023](https://github.com/GfSE/SAF-Specification/tree/TdSE2023/README.md)
@@ -46,7 +49,7 @@ The SAF Operational Domain aims to get an understanding of required organization
 
 * [Operational Performer Viewpoint](viewpoints/Operational-Performer-Viewpoint.md)
 * [Operational Domain Item Kind Viewpoint](viewpoints/Operational-Domain-Item-Kind-Viewpoint.md)
-* [Operational Capability Viewpoint](viewpoints/Operational-Capability-Viewpoint.md)
+* [Operational Capability Definition Viewpoint](viewpoints/Operational-Capability-Definition-Viewpoint.md)
 * [Stakeholder Identification Viewpoint](viewpoints/Stakeholder-Identification-Viewpoint.md)
 
 #### Operational Domain Aspect Process & Behavior
@@ -55,11 +58,11 @@ The SAF Operational Domain aims to get an understanding of required organization
 
 #### Operational Domain Aspect Interaction & Collaboration
 
-* [Operational Interaction Viewpoint](viewpoints/Operational-Interaction-Viewpoint.md)
+* [Operational Context Interaction Viewpoint](viewpoints/Operational-Context-Interaction-Viewpoint.md)
 
 #### Operational Domain Aspect Requirement
 
-* [Stakeholder Requirement Viewpoint](viewpoints/Stakeholder-Requirement-Viewpoint.md)
+* [Stakeholder Requirement Definition Viewpoint](viewpoints/Stakeholder-Requirement-Definition-Viewpoint.md)
 
 #### Operational Domain Aspect Traceability & Mapping
 
@@ -83,7 +86,7 @@ The SAF Functional Domain assumes a conceptual black box perspective onto the sy
 #### Functional Domain Aspect Taxonomy & Structure
 
 * [System Domain Item Kind Viewpoint](viewpoints/System-Domain-Item-Kind-Viewpoint.md)
-* [System Capability Viewpoint](viewpoints/System-Capability-Viewpoint.md)
+* [System Capability Definition Viewpoint](viewpoints/System-Capability-Definition-Viewpoint.md)
 * [System Functional Breakdown Structure Viewpoint](viewpoints/System-Functional-Breakdown-Structure-Viewpoint.md)
 
 #### Functional Domain Aspect Process & Behavior
@@ -102,7 +105,7 @@ The SAF Functional Domain assumes a conceptual black box perspective onto the sy
 
 #### Functional Domain Aspect Requirement
 
-* [System Requirement Viewpoint](viewpoints/System-Requirement-Viewpoint.md)
+* [System Requirement Definition Viewpoint](viewpoints/System-Requirement-Definition-Viewpoint.md)
 
 #### Functional Domain Aspect Traceability & Mapping
 
@@ -119,7 +122,7 @@ The SAF Logical Domain assume a conceptual white box perspective onto the system
 
 #### Logical Domain Aspect Taxonomy & Structure
 
-* [Logical Structure Definition Viewpoint](viewpoints/Logical-Structure-Viewpoint.md)
+* [Logical Structure Definition Viewpoint](viewpoints/Logical-Structure-Definition-Viewpoint.md)
 
 #### Logical Domain Aspect Interaction & Collaboration
 
@@ -145,7 +148,7 @@ The SAF Physical Domain diagrams may be used to represent the Product Breakdown 
 
 #### Physical Domain Aspect Taxonomy & Structure
 
-* [Physical Structure Viewpoint](viewpoints/Physical-Structure-Viewpoint.md)
+* [Physical Structure Definition Viewpoint](viewpoints/Physical-Structure-Definition-Viewpoint.md)
 
 #### Physical Domain Aspect Process & Behavior
 #### Physical Domain Aspect Interaction & Collaboration

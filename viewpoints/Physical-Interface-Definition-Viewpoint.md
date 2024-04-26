@@ -1,5 +1,5 @@
 ![System Architecture Framework](../diagrams/Banner_SAF.png)
-# SAF User Documentation : **P5_PID** Physical Interface Definition Viewpoint
+# SAF User Documentation : **P5_PIFD** Physical Interface Definition Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Physical](../domains.md#Domain-Physical)|[Interface](../aspects.md#Aspect-Interface)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
@@ -42,7 +42,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * ProxyPort typed by SAF_PhysicalInterfaceDefinition
 * SAF_PhysicalInterfaceDefinition contained in ProxyPort
 * [SAF_InterfaceLayerRelationship](../stereotypes.md#SAF_InterfaceLayerRelationship)
-* [SAF_P5_PID](../stereotypes.md#SAF_P5_PID)
+* [SAF_P5_PIFD](../stereotypes.md#SAF_P5_PIFD)
 * [SAF_PhysicalExchangeType](../stereotypes.md#SAF_PhysicalExchangeType)
 * [SAF_PhysicalInterfaceDefinition](../stereotypes.md#SAF_PhysicalInterfaceDefinition)
 ## Input from other Viewpoints

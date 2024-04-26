@@ -1,12 +1,12 @@
 ![System Architecture Framework](../../diagrams/Banner_SAF.png)
-# SAF Development Documentation : **L2_LST** Logical Structure Viewpoint
+# SAF Development Documentation : **L2_LSTD** Logical Structure Definition Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Logical](../../domains.md#Domain-Logical)|[Taxonomy & Structure](../../aspects.md#Aspect-Taxonomy-&-Structure)|![Released](../../diagrams/Symbol_confirmed.png )[released](../../using-saf/maturity.md#released)|
 ## Example
-![Logical-Structure-Viewpoint-primary-example.svg](../../diagrams/vp-examples/Logical-Structure-Viewpoint-primary-example.svg)
+![Logical-Structure-Definition-Viewpoint-primary-example.svg](../../diagrams/vp-examples/Logical-Structure-Definition-Viewpoint-primary-example.svg)
 ## Purpose
-The Logical Structure Viewpoint describes how the system is decomposed into a hierarchical structure of logical elements responsible for different system functions (divide & conquer principle). It covers related logical concepts and principles that support the logical operation of the system and is widely reusable among similar systems like product families, or product generations.
+The Logical Structure Definition Viewpoint describes how the system is decomposed into a hierarchical structure of logical elements responsible for different system functions (divide & conquer principle). It covers related logical concepts and principles that support the logical operation of the system and is widely reusable among similar systems like product families, or product generations.
 ## Applicability
 The Logical Structure Viewpoint supports the "System Architecture Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.4] and contributes to the artifact "System Architecture Description".
 
@@ -23,7 +23,7 @@ Note: Multiple relationships to a kind of element are allowed meaning, that this
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
-|[SAF_L2_LST](../../stereotypes.md#SAF_L2_LST)|[Logical Structure Viewpoint](../concept/concepts.md#Logical-Structure-Viewpoint)|
+|[SAF_L2_LSTD](../../stereotypes.md#SAF_L2_LSTD)|[Logical Structure Definition Viewpoint](../concept/concepts.md#Logical-Structure-Definition-Viewpoint)|
 |[SAF_LogicalElement](../../stereotypes.md#SAF_LogicalElement)|[Logical Element](../concept/concepts.md#Logical-Element)|
 |SAF_LogicalInternalRole contained in SAF_LogicalElement|[Logical Element Role](../concept/concepts.md#Logical-Element-Role)|
 |[SAF_LogicalSOI](../../stereotypes.md#SAF_LogicalSOI)|[Logical Context SOI](../concept/concepts.md#Logical-Context-SOI)|
@@ -34,6 +34,6 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * [System Process Viewpoint](System-Process-Viewpoint.md)
 # Viewpoint Concept and Profile Diagrams
 ## Concept
-![Logical Structure Concept](diagrams/Logical-Structure-Concept.svg)
+![Logical Structure Definition Concept](diagrams/Logical-Structure-Definition-Concept.svg)
 ## Profile
-![Logical Structure Profile](diagrams/Logical-Structure-Profile.svg)
+![Logical Structure Definition Profile](diagrams/Logical-Structure-Definition-Profile.svg)

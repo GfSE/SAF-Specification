@@ -1,5 +1,5 @@
 ![System Architecture Framework](../diagrams/Banner_SAF.png)
-# SAF User Documentation : **P4_PIE** Physical Internal Exchange Viewpoint
+# SAF User Documentation : **P4_PIEX** Physical Internal Exchange Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Physical](../domains.md#Domain-Physical)|[Interaction & Collaboration](../aspects.md#Aspect-Interaction-&-Collaboration)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
@@ -48,7 +48,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * ProxyPort contained in SAF_PhysicalItem
 * ProxyPort typed by SAF_PhysicalInterfaceDefinition
 * [SAF_InterfaceLayerRelationship](../stereotypes.md#SAF_InterfaceLayerRelationship)
-* [SAF_P4_PIE](../stereotypes.md#SAF_P4_PIE)
+* [SAF_P4_PIEX](../stereotypes.md#SAF_P4_PIEX)
 * [SAF_PhysicalElement](../stereotypes.md#SAF_PhysicalElement)
 * [SAF_PhysicalExchangeType](../stereotypes.md#SAF_PhysicalExchangeType)
 * [SAF_PhysicalHardwareElement](../stereotypes.md#SAF_PhysicalHardwareElement)
@@ -56,6 +56,6 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_PhysicalSoftwareElement](../stereotypes.md#SAF_PhysicalSoftwareElement)
 ## Input from other Viewpoints
 ### Required Viewpoints
-* [Physical Structure Viewpoint](Physical-Structure-Viewpoint.md)
+* [Physical Structure Definition Viewpoint](Physical-Structure-Definition-Viewpoint.md)
 ### Recommended Viewpoints
 *none*

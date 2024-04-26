@@ -1,5 +1,5 @@
 ![System Architecture Framework](../../diagrams/Banner_SAF.png)
-# SAF Development Documentation : **L8_LFM** Logical Functional Mapping Viewpoint
+# SAF Development Documentation : **L8_LFUM** Logical Functional Mapping Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Logical](../../domains.md#Domain-Logical)|[Traceability & Mapping](../../aspects.md#Aspect-Traceability-&-Mapping)|![Released](../../diagrams/Symbol_confirmed.png )[released](../../using-saf/maturity.md#released)|
@@ -29,7 +29,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |---|---|
 |Allocate [SysML Profile]|[USAGEallocatedTo](../concept/concepts.md#USAGEallocatedTo)|
 |[SAF_FunctionAction](../../stereotypes.md#SAF_FunctionAction)|[General Functional Usage](../concept/concepts.md#General-Functional-Usage)|
-|[SAF_L8_LFM](../../stereotypes.md#SAF_L8_LFM)|[Logical Functional Mapping Viewpoint](../concept/concepts.md#Logical-Functional-Mapping-Viewpoint)|
+|[SAF_L8_LFUM](../../stereotypes.md#SAF_L8_LFUM)|[Logical Functional Mapping Viewpoint](../concept/concepts.md#Logical-Functional-Mapping-Viewpoint)|
 |[SAF_LogicalElement](../../stereotypes.md#SAF_LogicalElement)|[Logical Element](../concept/concepts.md#Logical-Element)|
 |SAF_LogicalInternalRole contained in SAF_LogicalElement|[Logical Element Role](../concept/concepts.md#Logical-Element-Role)|
 |[SAF_LogicalSOI](../../stereotypes.md#SAF_LogicalSOI)|[Logical Context SOI](../concept/concepts.md#Logical-Context-SOI)|
@@ -39,7 +39,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 ### Required Viewpoints
 * [System Process Viewpoint](System-Process-Viewpoint.md)
 * [System Functional Refinement Viewpoint](System-Functional-Refinement-Viewpoint.md)
-* [Logical Structure Viewpoint](Logical-Structure-Viewpoint.md)
+* [Logical Structure Definition Viewpoint](Logical-Structure-Definition-Viewpoint.md)
 ### Recommended Viewpoints
 * [System Process Viewpoint](System-Process-Viewpoint.md)
 * [System Functional Refinement Viewpoint](System-Functional-Refinement-Viewpoint.md)

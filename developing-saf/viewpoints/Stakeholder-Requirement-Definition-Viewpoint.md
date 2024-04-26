@@ -1,12 +1,12 @@
 ![System Architecture Framework](../../diagrams/Banner_SAF.png)
-# SAF Development Documentation : **O6_STR** Stakeholder Requirement Viewpoint
+# SAF Development Documentation : **O6_SKRD** Stakeholder Requirement Definition Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Operational](../../domains.md#Domain-Operational)|[Requirement](../../aspects.md#Aspect-Requirement)|![Released](../../diagrams/Symbol_confirmed.png )[released](../../using-saf/maturity.md#released)|
 ## Example
-![Stakeholder-Requirement-Viewpoint-primary-example.svg](../../diagrams/vp-examples/Stakeholder-Requirement-Viewpoint-primary-example.svg)
+![Stakeholder-Requirement-Definition-Viewpoint-primary-example.svg](../../diagrams/vp-examples/Stakeholder-Requirement-Definition-Viewpoint-primary-example.svg)
 ## Purpose
-The Stakeholder Requirement Viewpoint specifies all properties that the intended solution shall possess or expose from the perspective of the Stakeholders. The Stakeholder Requirement Viewpoint determines capabilities, functions, non-functional properties, and constraints.
+The Stakeholder Requirement Definition Viewpoint specifies all capabilities, functions and properties, that the intended solution shall possess or expose from the perspective of the Stakeholders. The Stakeholder Requirement Definition Viewpoint also captures constraints for the system to be developed from stakeholders perspective.
 ## Applicability
 The Stakeholder Requirement Viewpoint supports the "Stakeholder Needs and Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.2] and contributes to the identification of solution constraints.
 ## Presentation
@@ -32,7 +32,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
 |Package [UML_Standard_Profile]|[SHRimposedBY](../concept/concepts.md#SHRimposedBY)|
-|[SAF_O6_STR](../../stereotypes.md#SAF_O6_STR)|[Stakeholder Requirement Viewpoint](../concept/concepts.md#Stakeholder-Requirement-Viewpoint)|
+|[SAF_O6_SKRD](../../stereotypes.md#SAF_O6_SKRD)|[Stakeholder Requirement Definition Viewpoint](../concept/concepts.md#Stakeholder-Requirement-Definition-Viewpoint)|
 |[SAF_OperationalCapability](../../stereotypes.md#SAF_OperationalCapability)|[Operational Capability](../concept/concepts.md#Operational-Capability)|
 |[SAF_StakeholderRequirementImposition](../../stereotypes.md#SAF_StakeholderRequirementImposition)|[SHRimposedBY](../concept/concepts.md#SHRimposedBY)|
 |[SAF_StakeholderRequirementRefinement](../../stereotypes.md#SAF_StakeholderRequirementRefinement)|[SHRrefiningCRN](../concept/concepts.md#SHRrefiningCRN)|
@@ -49,6 +49,6 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * [Operational Performer Viewpoint](Operational-Performer-Viewpoint.md)
 # Viewpoint Concept and Profile Diagrams
 ## Concept
-![Stakeholder Requirement Concept](diagrams/Stakeholder-Requirement-Concept.svg)
+![Stakeholder Requirement Definition Concept](diagrams/Stakeholder-Requirement-Definition-Concept.svg)
 ## Profile
-![Stakeholder Requirement Profile](diagrams/Stakeholder-Requirement-Profile.svg)
+![Stakeholder Requirement Definition Profile](diagrams/Stakeholder-Requirement-Definition-Profile.svg)

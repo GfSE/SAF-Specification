@@ -1,5 +1,5 @@
 ![System Architecture Framework](../diagrams/Banner_SAF.png)
-# SAF User Documentation : **O8_OPM** Operational Process Mapping Viewpoint
+# SAF User Documentation : **O8_OPRM** Operational Process Mapping Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Operational](../domains.md#Domain-Operational)|[Traceability & Mapping](../aspects.md#Aspect-Traceability-&-Mapping)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
@@ -21,7 +21,7 @@ A tabular format listing the relationships of Operational Process Activities to 
 * [Show in a concise manner the relationships from operational process to operational story and to operational performer.](../concerns.md#_2021x_2_8710274_1674576758928_485242_23392)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SAF_O8_OPM](../stereotypes.md#SAF_O8_OPM)
+* [SAF_O8_OPRM](../stereotypes.md#SAF_O8_OPRM)
 * [SAF_OperationalCapability](../stereotypes.md#SAF_OperationalCapability)
 * [SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)
 * [SAF_OperationalProcessEnabling](../stereotypes.md#SAF_OperationalProcessEnabling)

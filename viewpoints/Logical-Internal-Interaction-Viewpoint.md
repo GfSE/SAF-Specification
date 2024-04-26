@@ -1,5 +1,5 @@
 ![System Architecture Framework](../diagrams/Banner_SAF.png)
-# SAF User Documentation : **L4_LII** Logical Internal Interaction Viewpoint
+# SAF User Documentation : **L4_LITI** Logical Internal Interaction Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Logical](../domains.md#Domain-Logical)|[Interaction & Collaboration](../aspects.md#Aspect-Interaction-&-Collaboration)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
@@ -34,11 +34,11 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * Lifeline [UML_Standard_Profile]
 * Message [UML_Standard_Profile]
 * SAF_LogicalInternalRole contained in SAF_LogicalElement
-* [SAF_L4_LII](../stereotypes.md#SAF_L4_LII)
+* [SAF_L4_LITI](../stereotypes.md#SAF_L4_LITI)
 * [SAF_LogicalElement](../stereotypes.md#SAF_LogicalElement)
 ## Input from other Viewpoints
 ### Required Viewpoints
-* [Logical Structure Viewpoint](Logical-Structure-Viewpoint.md)
+* [Logical Structure Definition Viewpoint](Logical-Structure-Definition-Viewpoint.md)
 ### Recommended Viewpoints
 * [System Process Viewpoint](System-Process-Viewpoint.md)
 * [System Functional Refinement Viewpoint](System-Functional-Refinement-Viewpoint.md)

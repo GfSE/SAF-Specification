@@ -1,5 +1,5 @@
 ![System Architecture Framework](../../diagrams/Banner_SAF.png)
-# SAF Development Documentation : **P4_PIE** Physical Internal Exchange Viewpoint
+# SAF Development Documentation : **P4_PIEX** Physical Internal Exchange Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Physical](../../domains.md#Domain-Physical)|[Interaction & Collaboration](../../aspects.md#Aspect-Interaction-&-Collaboration)|![Released](../../diagrams/Symbol_confirmed.png )[released](../../using-saf/maturity.md#released)|
@@ -50,7 +50,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |ProxyPort typed by SAF_PhysicalInterfaceDefinition|[PIPDdefiningDetailOfPIP](../concept/concepts.md#PIPDdefiningDetailOfPIP)|
 |ProxyPort [SysML Profile]|[Physical Interaction Point](../concept/concepts.md#Physical-Interaction-Point)|
 |[SAF_InterfaceLayerRelationship](../../stereotypes.md#SAF_InterfaceLayerRelationship)|[PCPOverPCP](../concept/concepts.md#PCPOverPCP)|
-|[SAF_P4_PIE](../../stereotypes.md#SAF_P4_PIE)|[Physical Internal Exchange Viewpoint](../concept/concepts.md#Physical-Internal-Exchange-Viewpoint)|
+|[SAF_P4_PIEX](../../stereotypes.md#SAF_P4_PIEX)|[Physical Internal Exchange Viewpoint](../concept/concepts.md#Physical-Internal-Exchange-Viewpoint)|
 |[SAF_PhysicalElement](../../stereotypes.md#SAF_PhysicalElement)|[Physical Element](../concept/concepts.md#Physical-Element)|
 |[SAF_PhysicalExchangeType](../../stereotypes.md#SAF_PhysicalExchangeType)|[Physical Exchange Kind](../concept/concepts.md#Physical-Exchange-Kind)|
 |[SAF_PhysicalHardwareElement](../../stereotypes.md#SAF_PhysicalHardwareElement)|[Hardware Element](../concept/concepts.md#Hardware-Element)|
@@ -58,7 +58,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |[SAF_PhysicalSoftwareElement](../../stereotypes.md#SAF_PhysicalSoftwareElement)|[Software Element](../concept/concepts.md#Software-Element)|
 ## Input from other Viewpoints
 ### Required Viewpoints
-* [Physical Structure Viewpoint](Physical-Structure-Viewpoint.md)
+* [Physical Structure Definition Viewpoint](Physical-Structure-Definition-Viewpoint.md)
 ### Recommended Viewpoints
 *none*
 # Viewpoint Concept and Profile Diagrams

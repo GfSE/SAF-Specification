@@ -1,5 +1,5 @@
 ![System Architecture Framework](../../diagrams/Banner_SAF.png)
-# SAF Development Documentation : **F4_SCI** System Context Interaction Viewpoint
+# SAF Development Documentation : **F4_SCXI** System Context Interaction Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Functional](../../domains.md#Domain-Functional)|[Interaction & Collaboration](../../aspects.md#Aspect-Interaction-&-Collaboration)|![Released](../../diagrams/Symbol_confirmed.png )[released](../../using-saf/maturity.md#released)|
@@ -36,7 +36,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |Interaction [UML_Standard_Profile]|[System Context Interaction Scenario](../concept/concepts.md#System-Context-Interaction-Scenario)|
 |Lifeline [UML_Standard_Profile]|[System Context Scenario Participation](../concept/concepts.md#System-Context-Scenario-Participation)|
 |Message [UML_Standard_Profile]|[System Context Chronological Message](../concept/concepts.md#System-Context-Chronological-Message)|
-|[SAF_F4_SCI](../../stereotypes.md#SAF_F4_SCI)|[System Context Interaction Viewpoint](../concept/concepts.md#System-Context-Interaction-Viewpoint)|
+|[SAF_F4_SCXI](../../stereotypes.md#SAF_F4_SCXI)|[System Context Interaction Viewpoint](../concept/concepts.md#System-Context-Interaction-Viewpoint)|
 |[SAF_LogicalContext](../../stereotypes.md#SAF_LogicalContext)|[Logical System Context](../concept/concepts.md#Logical-System-Context)|
 |SAF_LogicalContextRole contained in SAF_LogicalContext|[Logical Context Element Role](../concept/concepts.md#Logical-Context-Element-Role)|
 |SAF_LogicalContextRole contained in SAF_LogicalContext|[Logical SOI Role](../concept/concepts.md#Logical-SOI-Role)|

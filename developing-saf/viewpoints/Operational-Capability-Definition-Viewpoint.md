@@ -1,14 +1,14 @@
 ![System Architecture Framework](../../diagrams/Banner_SAF.png)
-# SAF Development Documentation : **O2_OCY** Operational Capability Viewpoint
+# SAF Development Documentation : **O2_OCYD** Operational Capability Definition Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Operational](../../domains.md#Domain-Operational)|[Taxonomy & Structure](../../aspects.md#Aspect-Taxonomy-&-Structure)|![Released](../../diagrams/Symbol_confirmed.png )[released](../../using-saf/maturity.md#released)|
 ## Example
-![Operational-Capability-Viewpoint-primary-example.svg](../../diagrams/vp-examples/Operational-Capability-Viewpoint-primary-example.svg)
+![Operational-Capability-Definition-Viewpoint-primary-example.svg](../../diagrams/vp-examples/Operational-Capability-Definition-Viewpoint-primary-example.svg)
 ## Purpose
-The Operational Capability Viewpoint defines a taxonomy of Capabilities from a Stakeholder’s perspective including composition, specialization, and dependency relationships between Operational Capabilities.
+The Operational Capability Definition Viewpoint defines a taxonomy of Capabilities from a Stakeholder’s perspective including composition, specialization, and dependency relationships between Operational Capabilities.
 ## Applicability
-The Operational Capability Viewpoint supports the "Business or Mission Analysis Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1] defining Capabilities at an operational level (e.g., business or mission profile, and operational scenarios). The Operational Capability Viewpoint contributes to the problem or opportunity statement.
+The Operational Capability Definition Viewpoint supports the "Business or Mission Analysis Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§ 2.3.5.1] defining Capabilities at an operational level (e.g., business or mission profile, and operational scenarios). The Operational Capability Viewpoint contributes to the problem or opportunity statement.
 ## Presentation
 A block definition diagram (BDD) featuring Operational Capabilities, their composition, specialization, and dependency relationships.
 
@@ -24,7 +24,7 @@ A block definition diagram (BDD) featuring Operational Capabilities, their compo
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
-|[SAF_O2_OCY](../../stereotypes.md#SAF_O2_OCY)|[Operational Capability Viewpoint](../concept/concepts.md#Operational-Capability-Viewpoint)|
+|[SAF_O2_OCYD](../../stereotypes.md#SAF_O2_OCYD)|[Operational Capability Definition Viewpoint](../concept/concepts.md#Operational-Capability-Definition-Viewpoint)|
 |[SAF_OperationalCapabilityComposition](../../stereotypes.md#SAF_OperationalCapabilityComposition)|[OCYcomposedOF](../concept/concepts.md#OCYcomposedOF)|
 |[SAF_OperationalCapabilityDependency](../../stereotypes.md#SAF_OperationalCapabilityDependency)|[OCYdependingON](../concept/concepts.md#OCYdependingON)|
 |[SAF_OperationalCapabilityGeneralization](../../stereotypes.md#SAF_OperationalCapabilityGeneralization)|[OCYspecializedBY](../concept/concepts.md#OCYspecializedBY)|
@@ -37,6 +37,6 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * [Operational Process Viewpoint](Operational-Process-Viewpoint.md)
 # Viewpoint Concept and Profile Diagrams
 ## Concept
-![Operational Capability Concept](diagrams/Operational-Capability-Concept.svg)
+![Operational Capability Definition Concept](diagrams/Operational-Capability-Definition-Concept.svg)
 ## Profile
-![Operational Capability Profile](diagrams/Operational-Capability-Profile.svg)
+![Operational Capability Definition Profile](diagrams/Operational-Capability-Definition-Profile.svg)

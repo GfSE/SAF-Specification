@@ -1,5 +1,5 @@
 ![System Architecture Framework](../../diagrams/Banner_SAF.png)
-# SAF Development Documentation : **O1_OCE** Operational Context Exchange Viewpoint
+# SAF Development Documentation : **O1_OCXE** Operational Context Exchange Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Operational](../../domains.md#Domain-Operational)|[Context & Exchange](../../aspects.md#Aspect-Context-&-Exchange)|![Released](../../diagrams/Symbol_confirmed.png )[released](../../using-saf/maturity.md#released)|
@@ -29,7 +29,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |Attribute "realizingConnector" of InformationFlow referencing Connector|[OCNallowingOIE](../concept/concepts.md#OCNallowingOIE)|
 |Connector [UML_Standard_Profile]|[Operational Connection](../concept/concepts.md#Operational-Connection)|
 |ItemFlow [SysML Profile]|[Operational Item Exchange](../concept/concepts.md#Operational-Item-Exchange)|
-|[SAF_O1_OCE](../../stereotypes.md#SAF_O1_OCE)|[Operational Context Exchange Viewpoint](../concept/concepts.md#Operational-Context-Exchange-Viewpoint)|
+|[SAF_O1_OCXE](../../stereotypes.md#SAF_O1_OCXE)|[Operational Context Exchange Viewpoint](../concept/concepts.md#Operational-Context-Exchange-Viewpoint)|
 |[SAF_OperationalContext](../../stereotypes.md#SAF_OperationalContext)|[Operational Context](../concept/concepts.md#Operational-Context)|
 |[SAF_OperationalContextRole](../../stereotypes.md#SAF_OperationalContextRole)|[Operational Context Role](../concept/concepts.md#Operational-Context-Role)|
 |[SAF_OperationalDomainKind](../../stereotypes.md#SAF_OperationalDomainKind)|[Operational Domain Kind](../concept/concepts.md#Operational-Domain-Kind)|

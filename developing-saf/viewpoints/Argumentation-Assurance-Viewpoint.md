@@ -1,5 +1,5 @@
 ![System Architecture Framework](../../diagrams/Banner_SAF.png)
-# SAF Development Documentation : **C2_AAS** Argumentation Assurance Viewpoint
+# SAF Development Documentation : **C2_ARAS** Argumentation Assurance Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Common](../../domains.md#Domain-Common)|[Taxonomy & Structure](../../aspects.md#Aspect-Taxonomy-&-Structure)|![Released](../../diagrams/Symbol_confirmed.png )[released](../../using-saf/maturity.md#released)|
@@ -21,7 +21,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |---|---|
 |[SAF_Argument](../../stereotypes.md#SAF_Argument)|[Argument](../concept/concepts.md#Argument)|
 |[SAF_ArgumentClaimSupport](../../stereotypes.md#SAF_ArgumentClaimSupport)|[AGTsupportingCLM](../concept/concepts.md#AGTsupportingCLM)|
-|[SAF_C2_AAS](../../stereotypes.md#SAF_C2_AAS)|[Argumentation Assurance Viewpoint](../concept/concepts.md#Argumentation-Assurance-Viewpoint)|
+|[SAF_C2_ARAS](../../stereotypes.md#SAF_C2_ARAS)|[Argumentation Assurance Viewpoint](../concept/concepts.md#Argumentation-Assurance-Viewpoint)|
 |[SAF_ClaimAboutSubjectMaking](../../stereotypes.md#SAF_ClaimAboutSubjectMaking)|[CLMbeingMadeAboutSBC](../concept/concepts.md#CLMbeingMadeAboutSBC)|
 |[SAF_Claim](../../stereotypes.md#SAF_Claim)|[Claim](../concept/concepts.md#Claim)|
 |[SAF_ClaimClaimableItemSupport](../../stereotypes.md#SAF_ClaimClaimableItemSupport)|[CLMsupportingCIM](../concept/concepts.md#CLMsupportingCIM)|

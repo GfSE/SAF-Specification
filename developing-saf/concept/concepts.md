@@ -2,7 +2,7 @@
 # SAF Development Documentation : Concepts
 # Class Concepts
 ## Abstract Physical Element
-exposed in viewpoint [Physical Structure Viewpoint](../viewpoints/Physical-Structure-Viewpoint.md)
+exposed in viewpoint [Physical Structure Definition Viewpoint](../viewpoints/Physical-Structure-Definition-Viewpoint.md)
 
 Abstract element representing physical structure items keeping properties and relations applicable to all physical items.
 ## Any SAF Element
@@ -40,7 +40,7 @@ realized by Stereotype [SAF_Claimant](../../stereotypes.md#SAF_Claimant)
 
 A party asserting claims.
 ## Compliance Statement
-exposed in viewpoint [Stakeholder Requirement Viewpoint](../viewpoints/Stakeholder-Requirement-Viewpoint.md)
+exposed in viewpoint [Stakeholder Requirement Definition Viewpoint](../viewpoints/Stakeholder-Requirement-Definition-Viewpoint.md)
 
 Used in the communication between Stakeholder (Customer) and Contractor. Compliance Statements are the first answer to the Stakeholder Requirements and are usually together with the Stakeholder Requirements part of the contract. They are valuable input for the System development and System Requirement elicitation. Information status:
 * not compliant (with explanation / rationale)
@@ -76,7 +76,7 @@ Specification for general item exchange (energy, material, information, etc.).
 ## Exchange Kind
 Specification for a general kind of item (energy, material, information, etc.) to be exchanged.
 ## Functional Requirement
-exposed in viewpoint [System Requirement Viewpoint](../viewpoints/System-Requirement-Viewpoint.md)
+exposed in viewpoint [System Requirement Definition Viewpoint](../viewpoints/System-Requirement-Definition-Viewpoint.md)
 
 realized by Stereotype [SAF_SystemFunctionalRequirement](../../stereotypes.md#SAF_SystemFunctionalRequirement)
 
@@ -126,13 +126,13 @@ A Goal is defined as an end state that a Stakeholder intends to achieve. Goals a
 ## Grid
 exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-Viewpoint.md)
 
-realized by Stereotype [SAF_C2_GRD](../../stereotypes.md#SAF_C2_GRD)
+realized by Stereotype [SAF_C2_GRID](../../stereotypes.md#SAF_C2_GRID)
 
 The grid manages the viewpoints in grid cells assigned to the categories of an domain (row) and an aspect (column).
 ## Grid Cell
 exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-Viewpoint.md)
 
-realized by Stereotype [SAF_C2_GRD](../../stereotypes.md#SAF_C2_GRD)
+realized by Stereotype [SAF_C2_GRID](../../stereotypes.md#SAF_C2_GRID)
 
 
 ## Hardware Element
@@ -142,7 +142,7 @@ exposed in viewpoint [Physical Internal Exchange Viewpoint](../viewpoints/Physic
 
 exposed in viewpoint [Physical Logical Mapping Viewpoint](../viewpoints/Physical-Logical-Mapping-Viewpoint.md)
 
-exposed in viewpoint [Physical Structure Viewpoint](../viewpoints/Physical-Structure-Viewpoint.md)
+exposed in viewpoint [Physical Structure Definition Viewpoint](../viewpoints/Physical-Structure-Definition-Viewpoint.md)
 
 realized by Stereotype [SAF_PhysicalHardwareElement](../../stereotypes.md#SAF_PhysicalHardwareElement)
 
@@ -156,7 +156,7 @@ Specifies a detail of an interaction point.
 ## Logical Context Element
 Represents an abstract element in the given System Context on Logical Level, outside the SOI scope, interacting with the SOI.
 ## Logical Context SOI
-exposed in viewpoint [Logical Structure Viewpoint](../viewpoints/Logical-Structure-Viewpoint.md)
+exposed in viewpoint [Logical Structure Definition Viewpoint](../viewpoints/Logical-Structure-Definition-Viewpoint.md)
 
 exposed in viewpoint [System Context Definition Viewpoint](../viewpoints/System-Context-Definition-Viewpoint.md)
 
@@ -168,7 +168,7 @@ exposed in viewpoint [Logical Functional Mapping Viewpoint](../viewpoints/Logica
 
 exposed in viewpoint [Logical Internal Exchange Viewpoint](../viewpoints/Logical-Internal-Exchange-Viewpoint.md)
 
-exposed in viewpoint [Logical Structure Viewpoint](../viewpoints/Logical-Structure-Viewpoint.md)
+exposed in viewpoint [Logical Structure Definition Viewpoint](../viewpoints/Logical-Structure-Definition-Viewpoint.md)
 
 exposed in viewpoint [Physical Logical Mapping Viewpoint](../viewpoints/Physical-Logical-Mapping-Viewpoint.md)
 
@@ -267,23 +267,23 @@ The Logical User is the representation for a human in the Logical Domain, outsid
 A User has a Need in order to reach a certain Goal.
 Note: "Buying sugar to bake a birthday cake".
 ## Non-functional Requirement
-exposed in viewpoint [System Requirement Viewpoint](../viewpoints/System-Requirement-Viewpoint.md)
+exposed in viewpoint [System Requirement Definition Viewpoint](../viewpoints/System-Requirement-Definition-Viewpoint.md)
 
 realized by Stereotype [SAF_SystemNonFunctionalRequirement](../../stereotypes.md#SAF_SystemNonFunctionalRequirement)
 
 Non-Functional Requirements specify the quality of System Functions, or non-functional requests like legal conformance.
 ## Operational Capability
-exposed in viewpoint [Operational Capability Mapping Viewpoint](../viewpoints/Operational-Capability-Mapping-Viewpoint.md)
+exposed in viewpoint [Operational Capability Definition Viewpoint](../viewpoints/Operational-Capability-Definition-Viewpoint.md)
 
-exposed in viewpoint [Operational Capability Viewpoint](../viewpoints/Operational-Capability-Viewpoint.md)
+exposed in viewpoint [Operational Capability Mapping Viewpoint](../viewpoints/Operational-Capability-Mapping-Viewpoint.md)
 
 exposed in viewpoint [Operational Process Mapping Viewpoint](../viewpoints/Operational-Process-Mapping-Viewpoint.md)
 
-exposed in viewpoint [Stakeholder Requirement Viewpoint](../viewpoints/Stakeholder-Requirement-Viewpoint.md)
+exposed in viewpoint [Stakeholder Requirement Definition Viewpoint](../viewpoints/Stakeholder-Requirement-Definition-Viewpoint.md)
+
+exposed in viewpoint [System Capability Definition Viewpoint](../viewpoints/System-Capability-Definition-Viewpoint.md)
 
 exposed in viewpoint [System Capability Mapping Viewpoint](../viewpoints/System-Capability-Mapping-Viewpoint.md)
-
-exposed in viewpoint [System Capability Viewpoint](../viewpoints/System-Capability-Viewpoint.md)
 
 realized by Stereotype [SAF_OperationalCapability](../../stereotypes.md#SAF_OperationalCapability)
 
@@ -318,7 +318,7 @@ realized by Stereotype [SAF_OperationalDomainKind](../../stereotypes.md#SAF_Oper
 
 Specifies the kind of Operational Item Exchange between Operational Context Roles or Operational Processes.
 ## Operational Interaction Scenario
-exposed in viewpoint [Operational Interaction Viewpoint](../viewpoints/Operational-Interaction-Viewpoint.md)
+exposed in viewpoint [Operational Context Interaction Viewpoint](../viewpoints/Operational-Context-Interaction-Viewpoint.md)
 
 realized by Metaclass Interaction
 
@@ -384,7 +384,7 @@ exposed in viewpoint [Operational Process Mapping Viewpoint](../viewpoints/Opera
 
 exposed in viewpoint [Operational Story Viewpoint](../viewpoints/Operational-Story-Viewpoint.md)
 
-exposed in viewpoint [Stakeholder Requirement Viewpoint](../viewpoints/Stakeholder-Requirement-Viewpoint.md)
+exposed in viewpoint [Stakeholder Requirement Definition Viewpoint](../viewpoints/Stakeholder-Requirement-Definition-Viewpoint.md)
 
 exposed in viewpoint [System Use Case Viewpoint](../viewpoints/System-Use-Case-Viewpoint.md)
 
@@ -480,7 +480,7 @@ exposed in viewpoint [Physical Context Exchange Viewpoint](../viewpoints/Physica
 
 exposed in viewpoint [Physical Functional Mapping Viewpoint](../viewpoints/Physical-Functional-Mapping-Viewpoint.md)
 
-exposed in viewpoint [Physical Structure Viewpoint](../viewpoints/Physical-Structure-Viewpoint.md)
+exposed in viewpoint [Physical Structure Definition Viewpoint](../viewpoints/Physical-Structure-Definition-Viewpoint.md)
 
 realized by Stereotype [SAF_PhysicalSystem](../../stereotypes.md#SAF_PhysicalSystem)
 
@@ -516,7 +516,7 @@ exposed in viewpoint [Physical Internal Exchange Viewpoint](../viewpoints/Physic
 
 exposed in viewpoint [Physical Logical Mapping Viewpoint](../viewpoints/Physical-Logical-Mapping-Viewpoint.md)
 
-exposed in viewpoint [Physical Structure Viewpoint](../viewpoints/Physical-Structure-Viewpoint.md)
+exposed in viewpoint [Physical Structure Definition Viewpoint](../viewpoints/Physical-Structure-Definition-Viewpoint.md)
 
 realized by Stereotype [SAF_PhysicalSoftwareElement](../../stereotypes.md#SAF_PhysicalSoftwareElement)
 
@@ -524,11 +524,11 @@ Pure Software Elements. Similarity with the V-Model "software unit".
 ## Stakeholder Requirement
 exposed in viewpoint [Operational Capability Mapping Viewpoint](../viewpoints/Operational-Capability-Mapping-Viewpoint.md)
 
-exposed in viewpoint [Stakeholder Requirement Viewpoint](../viewpoints/Stakeholder-Requirement-Viewpoint.md)
+exposed in viewpoint [Stakeholder Requirement Definition Viewpoint](../viewpoints/Stakeholder-Requirement-Definition-Viewpoint.md)
+
+exposed in viewpoint [System Requirement Definition Viewpoint](../viewpoints/System-Requirement-Definition-Viewpoint.md)
 
 exposed in viewpoint [System Requirement Traceability Viewpoint](../viewpoints/System-Requirement-Traceability-Viewpoint.md)
-
-exposed in viewpoint [System Requirement Viewpoint](../viewpoints/System-Requirement-Viewpoint.md)
 
 realized by Stereotype [SAF_StakeholderRequirement](../../stereotypes.md#SAF_StakeholderRequirement)
 
@@ -560,9 +560,9 @@ The goal of standardization is to ensure uniformity to certain practices within 
 ## System
 An abstract element representing a System.
 ## System Capability
-exposed in viewpoint [System Capability Mapping Viewpoint](../viewpoints/System-Capability-Mapping-Viewpoint.md)
+exposed in viewpoint [System Capability Definition Viewpoint](../viewpoints/System-Capability-Definition-Viewpoint.md)
 
-exposed in viewpoint [System Capability Viewpoint](../viewpoints/System-Capability-Viewpoint.md)
+exposed in viewpoint [System Capability Mapping Viewpoint](../viewpoints/System-Capability-Mapping-Viewpoint.md)
 
 exposed in viewpoint [System Requirement Traceability Viewpoint](../viewpoints/System-Requirement-Traceability-Viewpoint.md)
 
@@ -675,7 +675,7 @@ Note: The intended use (and also misuse in so called "black use cases") of the S
 ## System of Interest Concern
 exposed in viewpoint [Stakeholder Identification Viewpoint](../viewpoints/Stakeholder-Identification-Viewpoint.md)
 
-exposed in viewpoint [Stakeholder Requirement Viewpoint](../viewpoints/Stakeholder-Requirement-Viewpoint.md)
+exposed in viewpoint [Stakeholder Requirement Definition Viewpoint](../viewpoints/Stakeholder-Requirement-Definition-Viewpoint.md)
 
 realized by Stereotype [SAF_SystemOfInterestConcern](../../stereotypes.md#SAF_SystemOfInterestConcern)
 
@@ -686,7 +686,7 @@ exposed in viewpoint [Operational Performer Viewpoint](../viewpoints/Operational
 
 exposed in viewpoint [Stakeholder Identification Viewpoint](../viewpoints/Stakeholder-Identification-Viewpoint.md)
 
-exposed in viewpoint [Stakeholder Requirement Viewpoint](../viewpoints/Stakeholder-Requirement-Viewpoint.md)
+exposed in viewpoint [Stakeholder Requirement Definition Viewpoint](../viewpoints/Stakeholder-Requirement-Definition-Viewpoint.md)
 
 realized by Stereotype [SAF_Stakeholder](../../stereotypes.md#SAF_Stakeholder)
 
@@ -776,7 +776,7 @@ Specifies the fact that a claim is made by a defined claimant.
 ## CSTconfirmingSHR
 1 [Compliance Statement](#Compliance-Statement) CSTconfirmingSHR 1 [Stakeholder Requirement](#Stakeholder-Requirement) 
 
-exposed in viewpoint [Stakeholder Requirement Viewpoint](../viewpoints/Stakeholder-Requirement-Viewpoint.md)
+exposed in viewpoint [Stakeholder Requirement Definition Viewpoint](../viewpoints/Stakeholder-Requirement-Definition-Viewpoint.md)
 
 Specifies the fact that a Stakeholder Requirement has certain States of Compliance.
 ## CallowingE
@@ -810,9 +810,9 @@ Specifies the fact that an argument is reinforced by one or more evidence via a 
 ## FRboundedByNFR
 1..* [Functional Requirement](#Functional-Requirement) FRboundedByNFR 0..* [Non-functional Requirement](#Non-functional-Requirement) 
 
-exposed in viewpoint [System Requirement Traceability Viewpoint](../viewpoints/System-Requirement-Traceability-Viewpoint.md)
+exposed in viewpoint [System Requirement Definition Viewpoint](../viewpoints/System-Requirement-Definition-Viewpoint.md)
 
-exposed in viewpoint [System Requirement Viewpoint](../viewpoints/System-Requirement-Viewpoint.md)
+exposed in viewpoint [System Requirement Traceability Viewpoint](../viewpoints/System-Requirement-Traceability-Viewpoint.md)
 
 realized by Stereotype [SAF_SystemFunctionalRequirementConstraint](../../stereotypes.md#SAF_SystemFunctionalRequirementConstraint)
 
@@ -830,7 +830,7 @@ Specifies the fact that a System Function is refined by Functional Requirements.
 
 exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-Viewpoint.md)
 
-realized by Stereotype [SAF_C2_GRD](../../stereotypes.md#SAF_C2_GRD)
+realized by Stereotype [SAF_C2_GRID](../../stereotypes.md#SAF_C2_GRID)
 
 Specifies that a grid cell is assigned to one aspect.
 ## GCbelongingToDN
@@ -838,7 +838,7 @@ Specifies that a grid cell is assigned to one aspect.
 
 exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-Viewpoint.md)
 
-realized by Stereotype [SAF_C2_GRD](../../stereotypes.md#SAF_C2_GRD)
+realized by Stereotype [SAF_C2_GRID](../../stereotypes.md#SAF_C2_GRID)
 
 Specifies that a grid cell is assigned to one domain.
 ## GCcontainingVP
@@ -850,7 +850,7 @@ exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-V
 ## GCcontainingVW
 1 [Grid Cell](#Grid-Cell) GCcontainingVW 1 [View](#View) 
 
-realized by Stereotype [SAF_C2_GRD](../../stereotypes.md#SAF_C2_GRD)
+realized by Stereotype [SAF_C2_GRID](../../stereotypes.md#SAF_C2_GRID)
 
 Specifies that a grid cell contains views.
 ## GDcontainingAT
@@ -1070,9 +1070,9 @@ Specifies the fact that an Operational Item Exchange is allowed on the Operation
 ## OCYcomposedOF
 1 [Operational Capability](#Operational-Capability) OCYcomposedOF 0..* [Operational Capability](#Operational-Capability) 
 
-exposed in viewpoint [Operational Capability Mapping Viewpoint](../viewpoints/Operational-Capability-Mapping-Viewpoint.md)
+exposed in viewpoint [Operational Capability Definition Viewpoint](../viewpoints/Operational-Capability-Definition-Viewpoint.md)
 
-exposed in viewpoint [Operational Capability Viewpoint](../viewpoints/Operational-Capability-Viewpoint.md)
+exposed in viewpoint [Operational Capability Mapping Viewpoint](../viewpoints/Operational-Capability-Mapping-Viewpoint.md)
 
 realized by Stereotype [SAF_OperationalCapabilityComposition](../../stereotypes.md#SAF_OperationalCapabilityComposition)
 
@@ -1080,9 +1080,9 @@ Specifies the fact that an Operational Capability consists of other Operational 
 ## OCYdependingON
 0..* [Operational Capability](#Operational-Capability) OCYdependingON 0..* [Operational Capability](#Operational-Capability) 
 
-exposed in viewpoint [Operational Capability Mapping Viewpoint](../viewpoints/Operational-Capability-Mapping-Viewpoint.md)
+exposed in viewpoint [Operational Capability Definition Viewpoint](../viewpoints/Operational-Capability-Definition-Viewpoint.md)
 
-exposed in viewpoint [Operational Capability Viewpoint](../viewpoints/Operational-Capability-Viewpoint.md)
+exposed in viewpoint [Operational Capability Mapping Viewpoint](../viewpoints/Operational-Capability-Mapping-Viewpoint.md)
 
 realized by Stereotype [SAF_OperationalCapabilityDependency](../../stereotypes.md#SAF_OperationalCapabilityDependency)
 
@@ -1093,9 +1093,9 @@ UAF::CapabilityDependency
 ## OCYspecializedBY
 1 [Operational Capability](#Operational-Capability) OCYspecializedBY 0..* [Operational Capability](#Operational-Capability) 
 
-exposed in viewpoint [Operational Capability Mapping Viewpoint](../viewpoints/Operational-Capability-Mapping-Viewpoint.md)
+exposed in viewpoint [Operational Capability Definition Viewpoint](../viewpoints/Operational-Capability-Definition-Viewpoint.md)
 
-exposed in viewpoint [Operational Capability Viewpoint](../viewpoints/Operational-Capability-Viewpoint.md)
+exposed in viewpoint [Operational Capability Mapping Viewpoint](../viewpoints/Operational-Capability-Mapping-Viewpoint.md)
 
 realized by Stereotype [SAF_OperationalCapabilityGeneralization](../../stereotypes.md#SAF_OperationalCapabilityGeneralization)
 
@@ -1337,9 +1337,9 @@ Specifies the fact that a System Context Interaction Scenario contains one or mo
 ## SCYcomposedOF
 1 [System Capability](#System-Capability) SCYcomposedOF 0..* [System Capability](#System-Capability) 
 
-exposed in viewpoint [System Capability Mapping Viewpoint](../viewpoints/System-Capability-Mapping-Viewpoint.md)
+exposed in viewpoint [System Capability Definition Viewpoint](../viewpoints/System-Capability-Definition-Viewpoint.md)
 
-exposed in viewpoint [System Capability Viewpoint](../viewpoints/System-Capability-Viewpoint.md)
+exposed in viewpoint [System Capability Mapping Viewpoint](../viewpoints/System-Capability-Mapping-Viewpoint.md)
 
 realized by Stereotype [SAF_SystemCapabilityComposition](../../stereotypes.md#SAF_SystemCapabilityComposition)
 
@@ -1347,9 +1347,9 @@ Specifies the fact that a System Capability consists of other System Capabilitie
 ## SCYdependingON
 0..* [System Capability](#System-Capability) SCYdependingON 0..* [System Capability](#System-Capability) 
 
-exposed in viewpoint [System Capability Mapping Viewpoint](../viewpoints/System-Capability-Mapping-Viewpoint.md)
+exposed in viewpoint [System Capability Definition Viewpoint](../viewpoints/System-Capability-Definition-Viewpoint.md)
 
-exposed in viewpoint [System Capability Viewpoint](../viewpoints/System-Capability-Viewpoint.md)
+exposed in viewpoint [System Capability Mapping Viewpoint](../viewpoints/System-Capability-Mapping-Viewpoint.md)
 
 realized by Stereotype [SAF_SystemCapabilityDependency](../../stereotypes.md#SAF_SystemCapabilityDependency)
 
@@ -1360,7 +1360,7 @@ UAF::CapabilityDependency
 ## SCYenablingOCY
 0..* [System Capability](#System-Capability) SCYenablingOCY 1 [Operational Capability](#Operational-Capability) 
 
-exposed in viewpoint [System Capability Viewpoint](../viewpoints/System-Capability-Viewpoint.md)
+exposed in viewpoint [System Capability Definition Viewpoint](../viewpoints/System-Capability-Definition-Viewpoint.md)
 
 realized by Stereotype [SAF_SystemCapabilityEnabling](../../stereotypes.md#SAF_SystemCapabilityEnabling)
 
@@ -1374,9 +1374,9 @@ Specifies the fact that a System Capability satisfies one or more Stakeholder Re
 ## SCYspecializedBY
 1 [System Capability](#System-Capability) SCYspecializedBY 0..* [System Capability](#System-Capability) 
 
-exposed in viewpoint [System Capability Mapping Viewpoint](../viewpoints/System-Capability-Mapping-Viewpoint.md)
+exposed in viewpoint [System Capability Definition Viewpoint](../viewpoints/System-Capability-Definition-Viewpoint.md)
 
-exposed in viewpoint [System Capability Viewpoint](../viewpoints/System-Capability-Viewpoint.md)
+exposed in viewpoint [System Capability Mapping Viewpoint](../viewpoints/System-Capability-Mapping-Viewpoint.md)
 
 realized by Stereotype [SAF_SystemCapabilityGeneralization](../../stereotypes.md#SAF_SystemCapabilityGeneralization)
 
@@ -1510,7 +1510,7 @@ Specifies the fact that a System Function supports one or more System Capabiliti
 ## SHRimposedBY
 1..* [Stakeholder Requirement](#Stakeholder-Requirement) SHRimposedBY 1 [System of Interest Stakeholder](#System-of-Interest-Stakeholder) 
 
-exposed in viewpoint [Stakeholder Requirement Viewpoint](../viewpoints/Stakeholder-Requirement-Viewpoint.md)
+exposed in viewpoint [Stakeholder Requirement Definition Viewpoint](../viewpoints/Stakeholder-Requirement-Definition-Viewpoint.md)
 
 realized by Stereotype [SAF_StakeholderRequirementImposition](../../stereotypes.md#SAF_StakeholderRequirementImposition)
 
@@ -1522,7 +1522,7 @@ Specifies the fact that a Stakeholder Requirement is provided by Stakeholders.
 ## SHRrefiningCRN
 1..* [Stakeholder Requirement](#Stakeholder-Requirement) SHRrefiningCRN 1..* [System of Interest Concern](#System-of-Interest-Concern) 
 
-exposed in viewpoint [Stakeholder Requirement Viewpoint](../viewpoints/Stakeholder-Requirement-Viewpoint.md)
+exposed in viewpoint [Stakeholder Requirement Definition Viewpoint](../viewpoints/Stakeholder-Requirement-Definition-Viewpoint.md)
 
 realized by Stereotype [SAF_StakeholderRequirementRefinement](../../stereotypes.md#SAF_StakeholderRequirementRefinement)
 
@@ -1532,7 +1532,7 @@ Specifies the fact that a Stakeholder Concern is refined by Stakeholder Requirem
 
 exposed in viewpoint [Operational Capability Mapping Viewpoint](../viewpoints/Operational-Capability-Mapping-Viewpoint.md)
 
-exposed in viewpoint [Stakeholder Requirement Viewpoint](../viewpoints/Stakeholder-Requirement-Viewpoint.md)
+exposed in viewpoint [Stakeholder Requirement Definition Viewpoint](../viewpoints/Stakeholder-Requirement-Definition-Viewpoint.md)
 
 realized by Stereotype [SAF_StakeholderRequirementRefinement](../../stereotypes.md#SAF_StakeholderRequirementRefinement)
 
@@ -1540,7 +1540,7 @@ Specifies the fact that an Operational Capability is refined by Stakeholder Requ
 ## SHRrefiningOSY
 0..* [Stakeholder Requirement](#Stakeholder-Requirement) SHRrefiningOSY 0..* [Operational Story](#Operational-Story) 
 
-exposed in viewpoint [Stakeholder Requirement Viewpoint](../viewpoints/Stakeholder-Requirement-Viewpoint.md)
+exposed in viewpoint [Stakeholder Requirement Definition Viewpoint](../viewpoints/Stakeholder-Requirement-Definition-Viewpoint.md)
 
 realized by Stereotype [SAF_StakeholderRequirementRefinement](../../stereotypes.md#SAF_StakeholderRequirementRefinement)
 
@@ -1594,9 +1594,9 @@ Specifies the fact that a System Use Case is refined by one System Process.
 ## SRderivingFromSHR
 0..* [System Requirement](#System-Requirement) SRderivingFromSHR 1..* [Stakeholder Requirement](#Stakeholder-Requirement) 
 
-exposed in viewpoint [System Requirement Traceability Viewpoint](../viewpoints/System-Requirement-Traceability-Viewpoint.md)
+exposed in viewpoint [System Requirement Definition Viewpoint](../viewpoints/System-Requirement-Definition-Viewpoint.md)
 
-exposed in viewpoint [System Requirement Viewpoint](../viewpoints/System-Requirement-Viewpoint.md)
+exposed in viewpoint [System Requirement Traceability Viewpoint](../viewpoints/System-Requirement-Traceability-Viewpoint.md)
 
 realized by Stereotype [SAF_SystemRequirementDerivation](../../stereotypes.md#SAF_SystemRequirementDerivation)
 
@@ -1604,9 +1604,9 @@ Specifies the fact that a System Requirement is derived from a Stakeholder Requi
 ## SRderivingFromSR
 0..* [System Requirement](#System-Requirement) SRderivingFromSR 1 [System Requirement](#System-Requirement) 
 
-exposed in viewpoint [System Requirement Traceability Viewpoint](../viewpoints/System-Requirement-Traceability-Viewpoint.md)
+exposed in viewpoint [System Requirement Definition Viewpoint](../viewpoints/System-Requirement-Definition-Viewpoint.md)
 
-exposed in viewpoint [System Requirement Viewpoint](../viewpoints/System-Requirement-Viewpoint.md)
+exposed in viewpoint [System Requirement Traceability Viewpoint](../viewpoints/System-Requirement-Traceability-Viewpoint.md)
 
 realized by Stereotype [SAF_SystemRequirementDerivation](../../stereotypes.md#SAF_SystemRequirementDerivation)
 
@@ -1861,7 +1861,7 @@ exposed in viewpoint [Logical Functional Mapping Viewpoint](../viewpoints/Logica
 
 exposed in viewpoint [Logical Internal Interaction Viewpoint](../viewpoints/Logical-Internal-Interaction-Viewpoint.md)
 
-exposed in viewpoint [Logical Structure Viewpoint](../viewpoints/Logical-Structure-Viewpoint.md)
+exposed in viewpoint [Logical Structure Definition Viewpoint](../viewpoints/Logical-Structure-Definition-Viewpoint.md)
 
 realized by SAF_LogicalInternalRole contained in SAF_LogicalElement
 
@@ -1893,7 +1893,7 @@ Specifies the fact that a Logical Element Role participates in a Logical Interac
 ## Operational Chronological Message
 1 [Operational Scenario Participation](#Operational-Scenario-Participation) Operational Chronological Message 1 [Operational Scenario Participation](#Operational-Scenario-Participation) 
 
-exposed in viewpoint [Operational Interaction Viewpoint](../viewpoints/Operational-Interaction-Viewpoint.md)
+exposed in viewpoint [Operational Context Interaction Viewpoint](../viewpoints/Operational-Context-Interaction-Viewpoint.md)
 
 realized by Metaclass Message
 
@@ -1920,7 +1920,7 @@ exposed in viewpoint [Operational Context Definition Viewpoint](../viewpoints/Op
 
 exposed in viewpoint [Operational Context Exchange Viewpoint](../viewpoints/Operational-Context-Exchange-Viewpoint.md)
 
-exposed in viewpoint [Operational Interaction Viewpoint](../viewpoints/Operational-Interaction-Viewpoint.md)
+exposed in viewpoint [Operational Context Interaction Viewpoint](../viewpoints/Operational-Context-Interaction-Viewpoint.md)
 
 exposed in viewpoint [Operational Process Viewpoint](../viewpoints/Operational-Process-Viewpoint.md)
 
@@ -1952,7 +1952,7 @@ UAF::OperationalAction
 ## Operational Scenario Participation
 1..* [Operational Context Role](#Operational-Context-Role) Operational Scenario Participation 0..* [Operational Interaction Scenario](#Operational-Interaction-Scenario) 
 
-exposed in viewpoint [Operational Interaction Viewpoint](../viewpoints/Operational-Interaction-Viewpoint.md)
+exposed in viewpoint [Operational Context Interaction Viewpoint](../viewpoints/Operational-Context-Interaction-Viewpoint.md)
 
 realized by Metaclass Lifeline
 
@@ -2003,7 +2003,7 @@ Specifies the fact that a Physical Context Element exists in a given Physical Sy
 ## Physical Element Role
 1 [Physical Element](#Physical-Element) Physical Element Role 0..* [Physical Element](#Physical-Element) 
 
-exposed in viewpoint [Physical Structure Viewpoint](../viewpoints/Physical-Structure-Viewpoint.md)
+exposed in viewpoint [Physical Structure Definition Viewpoint](../viewpoints/Physical-Structure-Definition-Viewpoint.md)
 
 realized by SAF_PhysicalInternalRole contained in SAF_PhysicalItem
 
@@ -2011,7 +2011,7 @@ Specifies the fact that a physical structure comprises physical elements.
 ## Physical Hardware Role
 1 [Physical Element](#Physical-Element) Physical Hardware Role 0..* [Hardware Element](#Hardware-Element) 
 
-exposed in viewpoint [Physical Structure Viewpoint](../viewpoints/Physical-Structure-Viewpoint.md)
+exposed in viewpoint [Physical Structure Definition Viewpoint](../viewpoints/Physical-Structure-Definition-Viewpoint.md)
 
 realized by SAF_PhysicalInternalRole contained in SAF_PhysicalItem
 
@@ -2031,7 +2031,7 @@ Specifies the fact that a Physical SOI exists in a given Physical System Context
 ## Physical Software Role
 1 [Physical Element](#Physical-Element) Physical Software Role 0..* [Software Element](#Software-Element) 
 
-exposed in viewpoint [Physical Structure Viewpoint](../viewpoints/Physical-Structure-Viewpoint.md)
+exposed in viewpoint [Physical Structure Definition Viewpoint](../viewpoints/Physical-Structure-Definition-Viewpoint.md)
 
 realized by SAF_PhysicalInternalRole contained in SAF_PhysicalItem
 

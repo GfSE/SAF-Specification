@@ -1,5 +1,5 @@
 ![System Architecture Framework](../diagrams/Banner_SAF.png)
-# SAF User Documentation : **O8_OCM** Operational Capability Mapping Viewpoint
+# SAF User Documentation : **O8_OCYM** Operational Capability Mapping Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Operational](../domains.md#Domain-Operational)|[Traceability & Mapping](../aspects.md#Aspect-Traceability-&-Mapping)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
@@ -8,7 +8,7 @@
 ## Purpose
 The Operational Capability Mapping Viewpoint describes the relationships of Operational Capabilities. The reasoning for Operational Capabilities as support for Operational Stories and the contribution of Operational Processes to Capabilities are described. Operational Capabilities encoded in Stakeholder Requirements are identified.
 ## Applicability
-The Operational Capability Mapping Viewpoint supports the "Business or Mission Analysis Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§ 4.1] and contributes to the definition of Operational Capabilities.
+The Operational Capability Mapping Viewpoint supports the "Business or Mission Analysis Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§ 4.1] and contributes to the definition of Operational Capabilities.
 ## Presentation
 A tabular format listing the relationships of Operational Capabilities to Stakeholder Requirements, Operational Stories, and Operational Process Activities.
 
@@ -21,7 +21,7 @@ A tabular format listing the relationships of Operational Capabilities to Stakeh
 * [Show in a concise manner the relationships from operational capability to operational story, to operational activity, and to operational performer.](../concerns.md#_2021x_2_8710274_1674576758591_594647_23070)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SAF_O8_OCM](../stereotypes.md#SAF_O8_OCM)
+* [SAF_O8_OCYM](../stereotypes.md#SAF_O8_OCYM)
 * [SAF_OperationalCapabilityComposition](../stereotypes.md#SAF_OperationalCapabilityComposition)
 * [SAF_OperationalCapabilityDependency](../stereotypes.md#SAF_OperationalCapabilityDependency)
 * [SAF_OperationalCapabilityGeneralization](../stereotypes.md#SAF_OperationalCapabilityGeneralization)
@@ -36,7 +36,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_StakeholderRequirement](../stereotypes.md#SAF_StakeholderRequirement)
 ## Input from other Viewpoints
 ### Required Viewpoints
-* [Operational Capability Viewpoint](Operational-Capability-Viewpoint.md)
+* [Operational Capability Definition Viewpoint](Operational-Capability-Definition-Viewpoint.md)
 ### Recommended Viewpoints
 * [Operational Story Viewpoint](Operational-Story-Viewpoint.md)
 * [Operational Process Viewpoint](Operational-Process-Viewpoint.md)

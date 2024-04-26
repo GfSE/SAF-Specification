@@ -1,5 +1,5 @@
 ![System Architecture Framework](../diagrams/Banner_SAF.png)
-# SAF User Documentation : **F2_SDK** System Domain Item Kind Viewpoint
+# SAF User Documentation : **F2_SDIK** System Domain Item Kind Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Functional](../domains.md#Domain-Functional)|[Taxonomy & Structure](../aspects.md#Aspect-Taxonomy-&-Structure)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
@@ -35,7 +35,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_DomainKindComposition](../stereotypes.md#SAF_DomainKindComposition)
 * [SAF_DomainKindDerivation](../stereotypes.md#SAF_DomainKindDerivation)
 * [SAF_DomainKind](../stereotypes.md#SAF_DomainKind)
-* [SAF_F2_SDK](../stereotypes.md#SAF_F2_SDK)
+* [SAF_F2_SDIK](../stereotypes.md#SAF_F2_SDIK)
 * [SAF_OperationalDomainKind](../stereotypes.md#SAF_OperationalDomainKind)
 ## Input from other Viewpoints
 ### Required Viewpoints

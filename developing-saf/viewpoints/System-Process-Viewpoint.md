@@ -1,5 +1,5 @@
 ![System Architecture Framework](../../diagrams/Banner_SAF.png)
-# SAF Development Documentation : **F3_SPR** System Process Viewpoint
+# SAF Development Documentation : **F3_SPRO** System Process Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Functional](../../domains.md#Domain-Functional)|[Process & Behavior](../../aspects.md#Aspect-Process-&-Behavior)|![Released](../../diagrams/Symbol_confirmed.png )[released](../../using-saf/maturity.md#released)|
@@ -56,7 +56,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |Parameter [UML_Standard_Profile]|[General Functional Parameter](../concept/concepts.md#General-Functional-Parameter)|
 |[SAF_ContextAction](../../stereotypes.md#SAF_ContextAction)|[Context Function IN System Process](../concept/concepts.md#Context-Function-IN-System-Process)|
 |[SAF_ContextFunction](../../stereotypes.md#SAF_ContextFunction)|[Context Function](../concept/concepts.md#Context-Function)|
-|[SAF_F3_SPR](../../stereotypes.md#SAF_F3_SPR)|[System Process Viewpoint](../concept/concepts.md#System-Process-Viewpoint)|
+|[SAF_F3_SPRO](../../stereotypes.md#SAF_F3_SPRO)|[System Process Viewpoint](../concept/concepts.md#System-Process-Viewpoint)|
 |[SAF_FunctionAction](../../stereotypes.md#SAF_FunctionAction)|[System Function IN System Process](../concept/concepts.md#System-Function-IN-System-Process)|
 |SAF_LogicalContextRole contained in SAF_LogicalContext|[Logical Context Element Role](../concept/concepts.md#Logical-Context-Element-Role)|
 |SAF_LogicalContextRole contained in SAF_LogicalContext|[Logical SOI Role](../concept/concepts.md#Logical-SOI-Role)|

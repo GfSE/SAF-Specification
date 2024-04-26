@@ -1,5 +1,5 @@
 ![System Architecture Framework](../diagrams/Banner_SAF.png)
-# SAF User Documentation : **L8_LFM** Logical Functional Mapping Viewpoint
+# SAF User Documentation : **L8_LFUM** Logical Functional Mapping Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Logical](../domains.md#Domain-Logical)|[Traceability & Mapping](../aspects.md#Aspect-Traceability-&-Mapping)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
@@ -28,7 +28,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * Allocate [SysML Profile]
 * SAF_LogicalInternalRole contained in SAF_LogicalElement
 * [SAF_FunctionAction](../stereotypes.md#SAF_FunctionAction)
-* [SAF_L8_LFM](../stereotypes.md#SAF_L8_LFM)
+* [SAF_L8_LFUM](../stereotypes.md#SAF_L8_LFUM)
 * [SAF_LogicalElement](../stereotypes.md#SAF_LogicalElement)
 * [SAF_LogicalSOI](../stereotypes.md#SAF_LogicalSOI)
 * [SAF_SystemFunction](../stereotypes.md#SAF_SystemFunction)
@@ -37,7 +37,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 ### Required Viewpoints
 * [System Process Viewpoint](System-Process-Viewpoint.md)
 * [System Functional Refinement Viewpoint](System-Functional-Refinement-Viewpoint.md)
-* [Logical Structure Viewpoint](Logical-Structure-Viewpoint.md)
+* [Logical Structure Definition Viewpoint](Logical-Structure-Definition-Viewpoint.md)
 ### Recommended Viewpoints
 * [System Process Viewpoint](System-Process-Viewpoint.md)
 * [System Functional Refinement Viewpoint](System-Functional-Refinement-Viewpoint.md)

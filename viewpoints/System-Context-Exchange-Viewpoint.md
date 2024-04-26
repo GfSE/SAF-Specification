@@ -1,5 +1,5 @@
 ![System Architecture Framework](../diagrams/Banner_SAF.png)
-# SAF User Documentation : **F1_SCE** System Context Exchange Viewpoint
+# SAF User Documentation : **F1_SCXE** System Context Exchange Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Functional](../domains.md#Domain-Functional)|[Context & Exchange](../aspects.md#Aspect-Context-&-Exchange)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
@@ -49,7 +49,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * SAF_LogicalContextRole contained in SAF_LogicalContext
 * [SAF_ConceptualInterfaceDefinition](../stereotypes.md#SAF_ConceptualInterfaceDefinition)
 * [SAF_DomainKind](../stereotypes.md#SAF_DomainKind)
-* [SAF_F1_SCE](../stereotypes.md#SAF_F1_SCE)
+* [SAF_F1_SCXE](../stereotypes.md#SAF_F1_SCXE)
 * [SAF_LogicalEnvironment](../stereotypes.md#SAF_LogicalEnvironment)
 * [SAF_LogicalExternalSystem](../stereotypes.md#SAF_LogicalExternalSystem)
 * [SAF_LogicalSOI](../stereotypes.md#SAF_LogicalSOI)

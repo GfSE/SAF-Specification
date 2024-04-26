@@ -1,14 +1,14 @@
 ![System Architecture Framework](../../diagrams/Banner_SAF.png)
-# SAF Development Documentation : **F6_SRQ** System Requirement Viewpoint
+# SAF Development Documentation : **F6_SRQD** System Requirement Definition Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Functional](../../domains.md#Domain-Functional)|[Requirement](../../aspects.md#Aspect-Requirement)|![Released](../../diagrams/Symbol_confirmed.png )[released](../../using-saf/maturity.md#released)|
 ## Example
-![System-Requirement-Viewpoint-primary-example.svg](../../diagrams/vp-examples/System-Requirement-Viewpoint-primary-example.svg)
+![System-Requirement-Definition-Viewpoint-primary-example.svg](../../diagrams/vp-examples/System-Requirement-Definition-Viewpoint-primary-example.svg)
 ## Purpose
-The System Requirement Viewpoint specifies functions, non-functional properties, or constraints of the System. System Requirements are captured, the interrelationships between Functional and Non-Functional Requirements on the same level of abstraction and the traceability to Stakeholder Requirements are depicted.
+The System Requirement Definition Viewpoint specifies functions, non-functional properties, or constraints of the System. System Requirements are captured, the interrelationships between Functional and Non-Functional Requirements on the same level of abstraction and the traceability to Stakeholder Requirements are depicted.
 ## Applicability
-The System Requirement Viewpoint supports the "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§4.3] and contributes to the System Requirements Verification and Traceability Matrix (RVTM).
+The System Requirement Definition Viewpoint supports the "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§4.3] and contributes to the System Requirements Verification and Traceability Matrix (RVTM).
 ## Presentation
 A tabular format listing
 * unique requirement ID, text, and attributes,
@@ -33,7 +33,7 @@ A tabular format listing
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
-|[SAF_F6_SRQ](../../stereotypes.md#SAF_F6_SRQ)|[System Requirement Viewpoint](../concept/concepts.md#System-Requirement-Viewpoint)|
+|[SAF_F6_SRQD](../../stereotypes.md#SAF_F6_SRQD)|[System Requirement Definition Viewpoint](../concept/concepts.md#System-Requirement-Definition-Viewpoint)|
 |[SAF_StakeholderRequirement](../../stereotypes.md#SAF_StakeholderRequirement)|[Stakeholder Requirement](../concept/concepts.md#Stakeholder-Requirement)|
 |[SAF_SystemFunctionalRequirementConstraint](../../stereotypes.md#SAF_SystemFunctionalRequirementConstraint)|[FRboundedByNFR](../concept/concepts.md#FRboundedByNFR)|
 |[SAF_SystemFunctionalRequirement](../../stereotypes.md#SAF_SystemFunctionalRequirement)|[Functional Requirement](../concept/concepts.md#Functional-Requirement)|
@@ -43,17 +43,17 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |[SAF_SystemRequirement](../../stereotypes.md#SAF_SystemRequirement)|[System Requirement](../concept/concepts.md#System-Requirement)|
 ## Input from other Viewpoints
 ### Required Viewpoints
-* [Stakeholder Requirement Viewpoint](Stakeholder-Requirement-Viewpoint.md)
+* [Stakeholder Requirement Definition Viewpoint](Stakeholder-Requirement-Definition-Viewpoint.md)
 ### Recommended Viewpoints
 * [Operational Story Viewpoint](Operational-Story-Viewpoint.md)
 * [Operational Context Exchange Viewpoint](Operational-Context-Exchange-Viewpoint.md)
-* [Operational Capability Viewpoint](Operational-Capability-Viewpoint.md)
+* [Operational Capability Definition Viewpoint](Operational-Capability-Definition-Viewpoint.md)
 * [Operational Process Viewpoint](Operational-Process-Viewpoint.md)
-* [Operational Interaction Viewpoint](Operational-Interaction-Viewpoint.md)
+* [Operational Context Interaction Viewpoint](Operational-Context-Interaction-Viewpoint.md)
 * [Operational Capability Mapping Viewpoint](Operational-Capability-Mapping-Viewpoint.md)
 * [Operational Process Mapping Viewpoint](Operational-Process-Mapping-Viewpoint.md)
 # Viewpoint Concept and Profile Diagrams
 ## Concept
-![System Requirement Concept](diagrams/System-Requirement-Concept.svg)
+![System Requirement Definition Concept](diagrams/System-Requirement-Definition-Concept.svg)
 ## Profile
-![System Requirement Profile](diagrams/System-Requirement-Profile.svg)
+![System Requirement Definition Profile](diagrams/System-Requirement-Definition-Profile.svg)

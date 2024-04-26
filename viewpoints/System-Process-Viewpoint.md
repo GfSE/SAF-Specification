@@ -1,5 +1,5 @@
 ![System Architecture Framework](../diagrams/Banner_SAF.png)
-# SAF User Documentation : **F3_SPR** System Process Viewpoint
+# SAF User Documentation : **F3_SPRO** System Process Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Functional](../domains.md#Domain-Functional)|[Process & Behavior](../aspects.md#Aspect-Process-&-Behavior)|![Released](../diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
@@ -54,7 +54,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * SAF_LogicalContextRole contained in SAF_LogicalContext
 * [SAF_ContextAction](../stereotypes.md#SAF_ContextAction)
 * [SAF_ContextFunction](../stereotypes.md#SAF_ContextFunction)
-* [SAF_F3_SPR](../stereotypes.md#SAF_F3_SPR)
+* [SAF_F3_SPRO](../stereotypes.md#SAF_F3_SPRO)
 * [SAF_FunctionAction](../stereotypes.md#SAF_FunctionAction)
 * [SAF_SystemFunction](../stereotypes.md#SAF_SystemFunction)
 * [SAF_SystemProcess](../stereotypes.md#SAF_SystemProcess)

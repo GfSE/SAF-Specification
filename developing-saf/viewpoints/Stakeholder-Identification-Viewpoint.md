@@ -1,5 +1,5 @@
 ![System Architecture Framework](../../diagrams/Banner_SAF.png)
-# SAF Development Documentation : **O2_STI** Stakeholder Identification Viewpoint
+# SAF Development Documentation : **O2_STID** Stakeholder Identification Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Operational](../../domains.md#Domain-Operational)|[Taxonomy & Structure](../../aspects.md#Aspect-Taxonomy-&-Structure)|![Released](../../diagrams/Symbol_confirmed.png )[released](../../using-saf/maturity.md#released)|
@@ -33,7 +33,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |---|---|
 |Attribute "concern" of Stakeholder referencing SAF_SystemOfInterestConcern|[SSHhavingCRN](../concept/concepts.md#SSHhavingCRN)|
 |[SAF_ContextElementRepresentation](../../stereotypes.md#SAF_ContextElementRepresentation)|[SCErepresentedBySSH](../concept/concepts.md#SCErepresentedBySSH)|
-|[SAF_O2_STI](../../stereotypes.md#SAF_O2_STI)|[Stakeholder Identification Viewpoint](../concept/concepts.md#Stakeholder-Identification-Viewpoint)|
+|[SAF_O2_STID](../../stereotypes.md#SAF_O2_STID)|[Stakeholder Identification Viewpoint](../concept/concepts.md#Stakeholder-Identification-Viewpoint)|
 |[SAF_StakeholderRelation](../../stereotypes.md#SAF_StakeholderRelation)|[SSHrelatedToSSH](../concept/concepts.md#SSHrelatedToSSH)|
 |[SAF_StakeholderRepresenting](../../stereotypes.md#SAF_StakeholderRepresenting)|[SSHrepresentingOPR](../concept/concepts.md#SSHrepresentingOPR)|
 |[SAF_Stakeholder](../../stereotypes.md#SAF_Stakeholder)|[System of Interest Stakeholder](../concept/concepts.md#System-of-Interest-Stakeholder)|

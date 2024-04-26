@@ -1,5 +1,5 @@
 ![System Architecture Framework](../../diagrams/Banner_SAF.png)
-# SAF Development Documentation : **F1_SCD** System Context Definition Viewpoint
+# SAF Development Documentation : **F1_SCXD** System Context Definition Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Functional](../../domains.md#Domain-Functional)|[Context & Exchange](../../aspects.md#Aspect-Context-&-Exchange)|![Released](../../diagrams/Symbol_confirmed.png )[released](../../using-saf/maturity.md#released)|
@@ -37,7 +37,7 @@ A tabular format listing context roles, context elements, and respective descrip
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
-|[SAF_F1_SCD](../../stereotypes.md#SAF_F1_SCD)|[System Context Definition Viewpoint](../concept/concepts.md#System-Context-Definition-Viewpoint)|
+|[SAF_F1_SCXD](../../stereotypes.md#SAF_F1_SCXD)|[System Context Definition Viewpoint](../concept/concepts.md#System-Context-Definition-Viewpoint)|
 |[SAF_LogicalContext](../../stereotypes.md#SAF_LogicalContext)|[Logical System Context](../concept/concepts.md#Logical-System-Context)|
 |SAF_LogicalContextRole contained in SAF_LogicalContext|[Logical Context Element Role](../concept/concepts.md#Logical-Context-Element-Role)|
 |SAF_LogicalContextRole contained in SAF_LogicalContext|[Logical SOI Role](../concept/concepts.md#Logical-SOI-Role)|
