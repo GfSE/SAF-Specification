@@ -10,7 +10,9 @@ Both Model parts are captured in the Tool MagicDraw. (This is a decision of the 
 
 ![ProfileConcept](profile-concept.png)
 
-For defining terms used in the SAF and assuring the consistency across their usage in the architecture description, the SAF Conceptual Metamodel (SCM) is used. The SCM defines the terms and concepts used and the relations between them. These terms and concepts match with common understanding as described by ISO15288 and INCOSE handbook. The SCM specifies WHAT is captured in the system of interests model. It is limited to the scope of what is considered in the SAF and is not a complete description of all the concerns of systems engineering.
+For defining terms used in the SAF and assuring the consistency across their usage in the architecture description, the SAF Conceptual Metamodel (SCM) is used. 
+
+The SCM defines the terms and concepts used and the relations between them. These terms and concepts match with common understanding as described by ISO15288 and INCOSE handbook. The SCM specifies WHAT is captured in the system of interests model. It is limited to the scope of what is considered in the SAF and is not a complete description of all the concerns of systems engineering.
 
 SCM also specifies the views (diagrams, tables, matrixes and other work products) that could be generated and their content i.e. the concept model elements and information contained on a diagram, or the queries on the model generating a view content.
 
@@ -243,7 +245,7 @@ Example:
 
 SAF_LogicalElement specializes “Block” from the SysML profile and SAF_LogicalSOI specializes SAF_LogicalElement even further.
 
-## SPM Stereotypes
+## SAF Profile Model (SPM) Stereotypes
 
 A SPM Stereotype can be
 
@@ -254,6 +256,18 @@ A SPM Stereotype can be
 `Rule: A SPM_Stereotype is either specialized from one SysML stereotype or another SPM stereotype or an extension of an UML metaclass.`
 
 `Rule: Relations between SysML Elements are not neccessarily shown even though they exist. Relations between SPM Elements are to be shown.`
+
+## Naming of SPM stereotypes
+
+`Rule: all SPM stereotypes shall be prefixed "SAF_"`
+
+
+`Rule: all SPM stereotypes for diagrams shall be prefixed "SAF_<domain letter><aspect number>_<viewpoint short code>"`
+
+See [aspects](../../aspects.md) and [domains](../../domains.md)
+
+Example: SAF_L2_LSTD for the Logical Structure Definition Viewpoint
+
 
 ## Tagged values of SPM stereotypes
 
@@ -343,6 +357,8 @@ The following diagram shows an example usage in a system of interest model
 
 Major elements in the SAF Metamodel are the Viewpoint specifications, I.e. the specification what information and model elements should be presented in in system models, and how the information is presented (e.g. as a diagram, in a table, in a matrix or other work products).
 
+Viewpoint specifications are organized in a [package structure](#package-structure-of-scm)
+
 For  Viewpoint elements the **<<SAF_Viewpoint>>** stereotype shall be used.
 
 A **SAF_Viewpoint** specifies
@@ -355,6 +371,7 @@ A **SAF_Viewpoint** specifies
 * The Aspect and Domain of the SAF Matrix, by references in the Saf_aspect and Saf_domain attributes
 * Wich other viewpoints are needed as a precondition, by references in the saf_required_vp attribute
 * Which other viewpoints are recommended by references in the saf_recommended_vp attribute
+* a unique 4 letter short cut name resembling the viewpoint name
 
 A **SAF_View**
 Note, that the SAF_Views define what concepts are shown in the viewpoint. Since this is the specification of a Framework, we must expose SAF concepts, not elements of a system model.
@@ -368,35 +385,46 @@ In the SAF Metamodel the following conventions are used
 
 Example of a view specification in the SAF Metamodel
 
-![Logic](../viewpoints/diagrams/Logical-Structure-Concept.svg)
+![Logic](../viewpoints/diagrams/Logical-Structure-Definition-Concept.svg)
 
 In the example a view “Logical Structure Viewpoint is specified by means of the SAF_View and SAF_Viewpoint elements. The View exposes the relevant concepts of the SAF Conceptual model.
 Additionally, to view specification a diagram showing the viewpoint implementation is provided.
 
-![Logic](../viewpoints/diagrams/Logical-Structure-Profile.svg)
+![Logic](../viewpoints/diagrams/Logical-Structure-Definition-Profile.svg)
 
 The example shows how the concepts that are exposed in a view are implemented in the SAF Profile
-
-In the SCM these elements are grouped in one package per Viewpoint specification:
-
-The naming convention is as follows:
-
-* A viewpoint specification shall have a common prefix *name*, e.g. “Logical Structure" in the abovementioned example.
-* The concept model diagrams name shall be"*name* Concept"
-* The profile model diagram name shall be a profile diagram "*
-name* Profile"
-* The  viewpoint elements name shall be "*name* Viewpoint"
-* The view elements name shall be "*name* View"
 
 ## Package structure of SCM
 
 The package structure is as follows
+a root package **SAF_Library** contains 
+ * concept model items in a sub package **SAF_Concept**. They are grouped by sub packages according to areas of interest.
+ * stakeholders in a sub package **SAF_Stakeholders**
+ * concerns in a sub package **SAF_Concerns**. They are grouped by sub packages according to areas of interest.
+ * viewpoints in a sub package **SAF_Viewpoint**
 
-Packages
+### Viewpoints
 
-* SAF Library contains concept model items, stakeholders and concerns
+SAF Viewpoint contains the view specifications grouped in subpackages by SAF domains.
 
-* SAF Viewpoint contains the view specifications grouped by SAF domains:
-* A viewpoint specification consists of a view, a viewpoint, a class diagram showing the concept model, and a profile diagram showing the profile specification for the viewpoint. Additional traceability may be provided.
+
+The SCM elements specifying a viewpoint are grouped in one package per Viewpoint stereotyped SCM_VP_Package, and in this package at least
+  * a view stereotyped SAF_View, 
+  * a viewpoint stereotyped SAF_Viewpoint,
+  * a class diagram showing the concept model
+  * and a profile diagram showing the profile specification for the viewpoint.
+
+The naming convention for those elements is as follows:
+
+* A viewpoint specification shall have a common prefix *name*, e.g. “Logical Structure Definition" in the abovementioned example.
+* the package name is the same as the viewpoint *name*
+* The concept model diagrams name shall be"*name* Concept"
+* The profile model diagram name shall be a profile diagram "*
+name* Profile"
+* The viewpoint elements name shall be "*name* Viewpoint"
+* The view elements name shall be "*name* View"
+
+
+Example:
 
 ![package struct](ex-prof-pkg.png)
