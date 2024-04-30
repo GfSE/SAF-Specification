@@ -599,6 +599,16 @@ A FBS_to_LBS mapping matrix featuring
 <html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Logical-User'>Logical User</A><BR>Logical User: The Logical User is the representation for a human in the Logical Domain, outside the SOI scope, interacting with the SOI.<BR></html>
 
 
+## SAF_O1_OCXD
+
+### Icon
+*none*
+
+### Documentation
+The Operational Context Definition Viewpoint provides the operational contexts and the involved operational performers necessary to support a specific set of operational capabilities.
+
+A block definition diagram (BDD) featuring the identified Operational Performers playing a role in the Operational Context being addressed.
+
 ## SAF_O1_OCXE
 
 ### Icon
@@ -609,16 +619,6 @@ The Operational Context Exchange Viewpoint provides the operational exchange of 
 
 An internal block diagram (IBD) - associated to the operational context - featuring the interconnected operational performers in their respective operational role, and the operational item exchange per operational connection.
 A tabular format listing [tbd].
-
-## SAF_O1_OCYD
-
-### Icon
-*none*
-
-### Documentation
-The Operational Context Definition Viewpoint provides the operational contexts and the involved operational performers necessary to support a specific set of operational capabilities.
-
-A block definition diagram (BDD) featuring the identified Operational Performers playing a role in the Operational Context being addressed.
 
 ## SAF_O1_OSTY
 

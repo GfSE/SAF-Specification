@@ -23,7 +23,7 @@ A block definition diagram (BDD) featuring the identified Operational Performers
 * [Who are the (Major) Stakeholders involved in the intended solution?](../concerns.md#_2021x_2_8710274_1674576759083_315449_23499)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SAF_O1_OCYD](../stereotypes.md#SAF_O1_OCYD)
+* [SAF_O1_OCXD](../stereotypes.md#SAF_O1_OCXD)
 * [SAF_OperationalContextRole](../stereotypes.md#SAF_OperationalContextRole)
 * [SAF_OperationalContext](../stereotypes.md#SAF_OperationalContext)
 * [SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)
