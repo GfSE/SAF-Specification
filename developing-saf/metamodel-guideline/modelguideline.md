@@ -302,7 +302,7 @@ Example:
 
 In the above example the concept “Logical Elemen” is implemented by a stereotype SAF_LogicalElement from the SAF Profile which inherits from SysML Block. The Itnernal Logical Element Role implemented by a plain UML “Property” element.
 
-The Viewpoint itself traces from the Diagram Stereotype SAF_SLV02a_View.
+The Viewpoint itself traces from the Diagram Stereotype SAF_L2_LSTD.
 
 Note the colored boxes to indicate where a definition is located.
 
