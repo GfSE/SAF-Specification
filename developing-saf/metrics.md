@@ -4,7 +4,7 @@
  * Total number of concerns: 173
  * Concerns with illegal characters in text: 0
  * Concerns without link to stakeholder: 62
- * Concerns without link to viewpoint: 86
+ * Concerns without link to viewpoint: 87
 ## Rationale related metrics
  * Total rationales: 335
  * Undocumented rationales: 203
