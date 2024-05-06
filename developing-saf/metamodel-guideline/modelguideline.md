@@ -247,11 +247,17 @@ SAF_LogicalElement specializes “Block” from the SysML profile and SAF_Logica
 
 ## SAF Profile Model (SPM) Stereotypes
 
+SPM Stereotypes are used by modelers creating system models compliant to SAF.
+
 A SPM Stereotype can be
 
 * an extension of an UML metaclass
-* a specialization of a SysML or UML stereotype
+* a specialization of a SysML or an UML stereotype
 * a specialization of another SPM stereotype
+
+All Stereotypes inherit either from
+* SAF_AbstractItem (base stereotype for model elements) or  
+* SAF_Diagram (base stereotype for diagrams)
 
 `Rule: A SPM_Stereotype is either specialized from one SysML stereotype or another SPM stereotype or an extension of an UML metaclass.`
 
