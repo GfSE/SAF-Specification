@@ -67,6 +67,17 @@ The Common Terms Definition Viewpoint supports the definition of applicable term
 A table format listing  terms ...[tbd].
 A table format listing abbreviations and relationship to standards if applicable... [tbd].
 
+## SAF_C7_PRND
+
+### Icon
+*none*
+
+### Documentation
+The Protection Nee Definition Viewpoint supports the definition of protection needs used to assign to Domain Items in order to define security classifications.
+
+A table format listing  terms ...[tbd].
+A table format listing abbreviations and relationship to standards if applicable... [tbd].
+
 ## SAF_Claim
 
 ### Icon
@@ -1155,6 +1166,16 @@ A LBS_to_PBS mapping matrix featuring
 
 ### Documentation
 <html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Process'>Process</A><BR>Process: Unit of Work in Systems Engineering.<BR></html>
+
+
+## SAF_ProtectionNeed
+
+### Icon
+*none*
+
+### Documentation
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Protection-Need-Category'>Protection Need Category</A><BR>Protection Need Category: Specifies a protection need category of ordered protection needs.
+e.g. "NATO Security Classification" containing "NATO UNCLASSIFIED, NATO RESTRICTED,.. and so on" or "PERSONAL" and "OPEN" for HR purposes.<BR></html>
 
 
 ## SAF_Refuter

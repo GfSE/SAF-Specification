@@ -503,6 +503,21 @@ The Physical User is the representation for a human in the physical domain, outs
 realized by Stereotype [SAF_Process](../../stereotypes.md#SAF_Process)
 
 Unit of Work in Systems Engineering.
+## Protection Need
+exposed in viewpoint [Protection Need Definition Viewpoint](../viewpoints/Protection-Need-Definition-Viewpoint.md)
+
+realized by EnumerationLiteral contained in SAF_ProtectionNeed
+
+Specifies a protection need of an asset, typically an information.
+The protection need is typically part of a a protection need category of ordered protection needs.
+e.g. "NATO Security Classification" containing "NATO UNCLASSIFIED, NATO RESTRICTED,.. and so on"
+## Protection Need Category
+exposed in viewpoint [Protection Need Definition Viewpoint](../viewpoints/Protection-Need-Definition-Viewpoint.md)
+
+realized by Stereotype [SAF_ProtectionNeed](../../stereotypes.md#SAF_ProtectionNeed)
+
+Specifies a protection need category of ordered protection needs.
+e.g. "NATO Security Classification" containing "NATO UNCLASSIFIED, NATO RESTRICTED,.. and so on" or "PERSONAL" and "OPEN" for HR purposes.
 ## Refuter
 exposed in viewpoint [Argumentation Assurance Viewpoint](../viewpoints/Argumentation-Assurance-Viewpoint.md)
 
@@ -1312,6 +1327,22 @@ Specifies the fact that a Physical Interaction Point applies to a Physical Conte
 0..* [Physical Layer Ordering](#Physical-Layer-Ordering) PLOisValidInPLS 1 [Physical Layer Stack](#Physical-Layer-Stack) 
 
 Specifies the fact that a Physical Layer Ordering is valid within a particular Physical Layer Stack.
+## PNCdefinesPRN
+1 [Protection Need Category](#Protection-Need-Category) PNCdefinesPRN 1..* [Protection Need](#Protection-Need) 
+
+exposed in viewpoint [Protection Need Definition Viewpoint](../viewpoints/Protection-Need-Definition-Viewpoint.md)
+
+realized by EnumerationLiteral contained in SAF_ProtectionNeed
+
+Specifies that a Protection need is part of a protection need category, e.g. NATO RESTRICTED is part of the NATO security classifications.
+## PRBhigherThanPRN
+1 [Protection Need](#Protection-Need) PRBhigherThanPRN 1 [Protection Need](#Protection-Need) 
+
+exposed in viewpoint [Protection Need Definition Viewpoint](../viewpoints/Protection-Need-Definition-Viewpoint.md)
+
+realized by EnumerationLiteral contained in SAF_ProtectionNeed
+
+Specifies that a Protection need is higher than an other.
 ## RFTmakingCCM
 1 [Refuter](#Refuter) RFTmakingCCM 1..* [CounterClaim](#CounterClaim) 
 
@@ -1420,6 +1451,11 @@ exposed in viewpoint [System Domain Item Kind Viewpoint](../viewpoints/System-Do
 realized by Stereotype [SAF_DomainKindDerivation](../../stereotypes.md#SAF_DomainKindDerivation)
 
 Specifies the fact that a System Domain Kind on system level is derived from an Operational Domain Kind.
+## SDKprotectedAsPRN
+0..* [System Domain Kind](#System-Domain-Kind) SDKprotectedAsPRN 0..* [Protection Need](#Protection-Need) 
+
+Specifies that a Domain Kind is protected according to one or more Protection needs. If multiple protection needs are assigned to a domain kind, they must be from different categories.
+E.g. a domain Kind may be assigned NATO RESTRICTED and "PERSONAL"
 ## SDKtypingFPM
 1 [System Domain Kind](#System-Domain-Kind) SDKtypingFPM 0..* [General Functional Parameter](#General-Functional-Parameter) 
 

@@ -472,6 +472,9 @@ The IT-Security experts evaluate a proposed system architecture and design for I
 
   ***Rationale:  In my role, I need to assess the security based on them.***
 * Why types of exchange can exist between Operational Performers (i.e., flows of information, people, material, or energy)?
+* what is the protection need of information 
+
+  ***Rationale:  I need to make sure that the security requirements regarding handling of protected information by the system can be adressed appropriately.***
 # Software Developer
 Definition - Developer:
 Organization that performs development tasks (including requirements analysis, design, testing through acceptance) during a life cycle process. [ISO/IEC 12207:2008]
@@ -709,6 +712,12 @@ The System Architect as an individual or group performing the systems engineerin
   ***Rationale:  In my role, I need to give feedback on existing or missing stakeholders.***
 * Who provides the inputs to a critical function?
 * Why types of exchange can exist between Operational Performers (i.e., flows of information, people, material, or energy)?
+* what is the protection need of information 
+
+  ***Rationale:  i need to plan the architecture to adress the security requirements.***
+* what is the security level of information handled by the system or system elements 
+
+  ***Rationale:  I need to assessan if  differences in security levels are handled by the architecture appropriately.***
 # User
 Definition - User:
 Individual or group that interacts with a system or benefits from a system during its utilization, [ISO/IEC 15288:2022 - Systems engineering - System life-cycle processes]
