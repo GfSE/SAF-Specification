@@ -13,7 +13,7 @@ The following encoding scheme is used:
  - Functional Domain 6699FF  102 153 255 (rgb)
  - Logical Domain FFFF33    255 255 51 (rgb)
  - Physical Domain 00FF00  0 255 0 (rgb)
- - Common Domain 00FF00  128 128 128 (rgb)
+ - Common Domain 808080  128 128 128 (rgb)
 
 **Icon boundary**
 

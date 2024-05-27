@@ -22,7 +22,7 @@ A FBS_to_LBS mapping matrix featuring
 * [Software Developer](../../stakeholders.md#Software-Developer)
 * [System Architect](../../stakeholders.md#System-Architect)
 ## Concern
-* [Which functions are allocated to the logical SOI logical architecture?](../../concerns.md#_2021x_2_8710274_1674576759104_328839_23526)
+* [Which functions are allocated to which parts of the logical SOI architecture?](../../concerns.md#_2021x_2_8710274_1674576759104_328839_23526)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|

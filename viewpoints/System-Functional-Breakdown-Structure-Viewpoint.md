@@ -6,7 +6,7 @@
 ## Example
 ![System-Functional-Breakdown-Structure-Viewpoint-primary-example.svg](../diagrams/vp-examples/System-Functional-Breakdown-Structure-Viewpoint-primary-example.svg)
 ## Purpose
-The System Functional Breakdown Structure Viewpoint defines the structured, modular breakdown of the SOI beginning with System Processes, over identified System Functions further refined down to System Partial Functions. The reuse of System Functions, and System Partial Functions over Function Trees of the SOI is facilitated. Unlike a Work Breakdown Structure (WBS), the Functional Breakdown Structure (FBS) is a function-oriented tree, not a product-oriented one.
+The System Functional Breakdown Structure Viewpoint defines the structured, modular functional breakdown of the SOI beginning with System Processes, over identified System Functions further refined down to System Partial Functions. The reuse of System Functions, and System Partial Functions over Function Trees of the SOI is facilitated. 
 ## Applicability
 The System Functional Breakdown Structure Viewpoint supports the "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§4.3] and contributes to the System Function Definition.
 ## Presentation
@@ -30,9 +30,9 @@ Tool specific analysis diagram featuring the relationships between System Proces
 * [Which functions will the system provide?](../concerns.md#_2021x_2_8710274_1674576758649_392764_23120)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* Activity [UML_Standard_Profile]
-* Association [UML_Standard_Profile]
-* Property [UML_Standard_Profile]
+* SAF_ContextAction contained in SAF_SystemProcess
+* SAF_FunctionAction contained in SAF_SystemFunction
+* SAF_FunctionAction contained in SAF_SystemProcess
 * [SAF_ContextFunction](../stereotypes.md#SAF_ContextFunction)
 * [SAF_F2_SFBS](../stereotypes.md#SAF_F2_SFBS)
 * [SAF_SystemFunction](../stereotypes.md#SAF_SystemFunction)

@@ -6,13 +6,11 @@
 ## Example
 *none*
 ## Purpose
-The Protection Nee Definition Viewpoint supports the definition of protection needs used to assign to Domain Items in order to define security classifications.
+The Protection Need Definition Viewpoint supports the definition of protection needs used to assign to Domain Items in order to define security classifications.
 ## Applicability
 The Common Terms Definition Viewpoint supports the ....[tbd] activity part of the...  [tbd]... activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§ tbd ].
 ## Presentation
-A table format listing  terms ...[tbd].
-
-A table format listing abbreviations and relationship to standards if applicable... [tbd].
+A table format listing  protection need categories and protection needs.
 
 ## Stakeholder
 * [Security Expert](../../stakeholders.md#Security-Expert)

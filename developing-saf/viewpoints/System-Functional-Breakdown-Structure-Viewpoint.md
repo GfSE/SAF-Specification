@@ -6,7 +6,7 @@
 ## Example
 ![System-Functional-Breakdown-Structure-Viewpoint-primary-example.svg](../../diagrams/vp-examples/System-Functional-Breakdown-Structure-Viewpoint-primary-example.svg)
 ## Purpose
-The System Functional Breakdown Structure Viewpoint defines the structured, modular breakdown of the SOI beginning with System Processes, over identified System Functions further refined down to System Partial Functions. The reuse of System Functions, and System Partial Functions over Function Trees of the SOI is facilitated. Unlike a Work Breakdown Structure (WBS), the Functional Breakdown Structure (FBS) is a function-oriented tree, not a product-oriented one.
+The System Functional Breakdown Structure Viewpoint defines the structured, modular functional breakdown of the SOI beginning with System Processes, over identified System Functions further refined down to System Partial Functions. The reuse of System Functions, and System Partial Functions over Function Trees of the SOI is facilitated. 
 ## Applicability
 The System Functional Breakdown Structure Viewpoint supports the "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§4.3] and contributes to the System Function Definition.
 ## Presentation
@@ -32,13 +32,11 @@ Tool specific analysis diagram featuring the relationships between System Proces
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
-|Activity [UML_Standard_Profile]|[General Function](../concept/concepts.md#General-Function)|
-|Association [UML_Standard_Profile]|[Context Function IN System Process](../concept/concepts.md#Context-Function-IN-System-Process)|
-|Association [UML_Standard_Profile]|[System Function IN System Process](../concept/concepts.md#System-Function-IN-System-Process)|
-|Property [UML_Standard_Profile]|[Context Function IN System Process](../concept/concepts.md#Context-Function-IN-System-Process)|
-|Property [UML_Standard_Profile]|[System Function IN System Process](../concept/concepts.md#System-Function-IN-System-Process)|
+|SAF_ContextAction contained in SAF_SystemProcess|[Context Function IN System Process](../concept/concepts.md#Context-Function-IN-System-Process)|
 |[SAF_ContextFunction](../../stereotypes.md#SAF_ContextFunction)|[Context Function](../concept/concepts.md#Context-Function)|
 |[SAF_F2_SFBS](../../stereotypes.md#SAF_F2_SFBS)|[System Functional Breakdown Structure Viewpoint](../concept/concepts.md#System-Functional-Breakdown-Structure-Viewpoint)|
+|SAF_FunctionAction contained in SAF_SystemFunction|[System Partial Function in System Function](../concept/concepts.md#System-Partial-Function-in-System-Function)|
+|SAF_FunctionAction contained in SAF_SystemProcess|[System Function IN System Process](../concept/concepts.md#System-Function-IN-System-Process)|
 |[SAF_SystemFunction](../../stereotypes.md#SAF_SystemFunction)|[System Function](../concept/concepts.md#System-Function)|
 |[SAF_SystemPartialFunction](../../stereotypes.md#SAF_SystemPartialFunction)|[System Partial Function](../concept/concepts.md#System-Partial-Function)|
 |[SAF_SystemProcess](../../stereotypes.md#SAF_SystemProcess)|[System Process](../concept/concepts.md#System-Process)|

@@ -2,8 +2,6 @@
 # SAF Development Documentation : Concepts
 # Class Concepts
 ## Abstract Physical Element
-exposed in viewpoint [Physical Structure Definition Viewpoint](../viewpoints/Physical-Structure-Definition-Viewpoint.md)
-
 Abstract element representing physical structure items keeping properties and relations applicable to all physical items.
 ## Any SAF Element
 
@@ -86,10 +84,6 @@ Specifies a General Context.
 ## General Context Element
 Specifies a General Context Element.
 ## General Function
-realized by Metaclass Activity
-
-
-
 Specifies the fact that a General Function is used as base Class for specific System or Context Functions.
 ## General Functional Exchange
 exposed in viewpoint [System Process Viewpoint](../viewpoints/System-Process-Viewpoint.md)
@@ -401,6 +395,8 @@ exposed in viewpoint [Physical Functional Mapping Viewpoint](../viewpoints/Physi
 exposed in viewpoint [Physical Internal Exchange Viewpoint](../viewpoints/Physical-Internal-Exchange-Viewpoint.md)
 
 exposed in viewpoint [Physical Logical Mapping Viewpoint](../viewpoints/Physical-Logical-Mapping-Viewpoint.md)
+
+exposed in viewpoint [Physical Structure Definition Viewpoint](../viewpoints/Physical-Structure-Definition-Viewpoint.md)
 
 realized by Stereotype [SAF_PhysicalElement](../../stereotypes.md#SAF_PhysicalElement)
 
@@ -1810,17 +1806,11 @@ Specifies the connection of two interaction points.
 ## Context Function IN System Process
 0..* [Context Function](#Context-Function) Context Function IN System Process 0..* [System Process](#System-Process) 
 
+exposed in viewpoint [System Functional Breakdown Structure Viewpoint](../viewpoints/System-Functional-Breakdown-Structure-Viewpoint.md)
+
 exposed in viewpoint [System Process Viewpoint](../viewpoints/System-Process-Viewpoint.md)
 
-realized by Stereotype [SAF_ContextAction](../../stereotypes.md#SAF_ContextAction)
-
-realized by Metaclass Property
-
-
-
-realized by Metaclass Association
-
-
+realized by SAF_ContextAction contained in SAF_SystemProcess
 
 Specifies the fact that a Context Function is used in a System Process.
 ## General Chronological Message
@@ -1838,8 +1828,6 @@ exposed in viewpoint [Logical Functional Mapping Viewpoint](../viewpoints/Logica
 
 exposed in viewpoint [Physical Functional Mapping Viewpoint](../viewpoints/Physical-Functional-Mapping-Viewpoint.md)
 
-exposed in viewpoint [System Functional Breakdown Structure Viewpoint](../viewpoints/System-Functional-Breakdown-Structure-Viewpoint.md)
-
 realized by Stereotype [SAF_FunctionAction](../../stereotypes.md#SAF_FunctionAction)
 
 Specifies the fact that a Function is used by one or more other Functions.
@@ -1849,6 +1837,8 @@ Specifies the fact that a Function is used by one or more other Functions.
 Specifies the fact that a System Role participates in a General Interaction Scenario.
 ## Hardware Element Role
 1 [Hardware Element](#Hardware-Element) Hardware Element Role 0..* [Hardware Element](#Hardware-Element) 
+
+exposed in viewpoint [Physical Structure Definition Viewpoint](../viewpoints/Physical-Structure-Definition-Viewpoint.md)
 
 realized by SAF_PhysicalInternalRole contained in SAF_PhysicalItem
 
@@ -2075,6 +2065,8 @@ Specifies the fact that a physical structure comprises software elements.
 ## Software Element Role
 1 [Software Element](#Software-Element) Software Element Role 0..* [Software Element](#Software-Element) 
 
+exposed in viewpoint [Physical Structure Definition Viewpoint](../viewpoints/Physical-Structure-Definition-Viewpoint.md)
+
 realized by SAF_PhysicalInternalRole contained in SAF_PhysicalItem
 
 Specifies the fact that a software structure comprises software elements.
@@ -2115,21 +2107,23 @@ Specifies the fact that a System Context Role participates in a System Context I
 ## System Function IN System Process
 0..* [System Function](#System-Function) System Function IN System Process 0..* [System Process](#System-Process) 
 
+exposed in viewpoint [System Functional Breakdown Structure Viewpoint](../viewpoints/System-Functional-Breakdown-Structure-Viewpoint.md)
+
 exposed in viewpoint [System Process Viewpoint](../viewpoints/System-Process-Viewpoint.md)
 
 exposed in viewpoint [System Requirement Traceability Viewpoint](../viewpoints/System-Requirement-Traceability-Viewpoint.md)
 
-realized by Stereotype [SAF_FunctionAction](../../stereotypes.md#SAF_FunctionAction)
-
-realized by Metaclass Property
-
-
-
-realized by Metaclass Association
-
-
+realized by SAF_FunctionAction contained in SAF_SystemProcess
 
 Specifies the fact that a System Function is used in a System Process.
+## System Partial Function in System Function
+0..* [System Function](#System-Function) System Partial Function in System Function 0..* [System Partial Function](#System-Partial-Function) 
+
+exposed in viewpoint [System Functional Breakdown Structure Viewpoint](../viewpoints/System-Functional-Breakdown-Structure-Viewpoint.md)
+
+realized by SAF_FunctionAction contained in SAF_SystemFunction
+
+Specifies that a System Partial Function is used in a system function
 ## System Role
 1 [System](#System) System Role 0..* [System](#System) 
 

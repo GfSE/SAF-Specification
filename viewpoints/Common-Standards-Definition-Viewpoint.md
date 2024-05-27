@@ -13,7 +13,7 @@ The Standards Definition Viewpoint supports the "transform stakeholder needs int
 ## Presentation
 A block definition diagram (BDD) featuring the taxonomy of types of technical, operational, and business standards, guidance, and policy applicable to the system of interest.
 
-A table format lsiting technical, operational, and business standards, guidance, and policy applicable to the system of interest.
+A table format listing technical, operational, and business standards, guidance, and policy applicable to the system of interest.
 
 ## Stakeholder
 ## Concern

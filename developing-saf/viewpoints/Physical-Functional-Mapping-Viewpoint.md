@@ -6,7 +6,7 @@
 ## Example
 ![Physical-Functional-Mapping-Viewpoint-primary-example.svg](../../diagrams/vp-examples/Physical-Functional-Mapping-Viewpoint-primary-example.svg)
 ## Purpose
-The Physical Functional Mapping Viewpoint supports the analysis of the assignment (it is derived relationship) of system functions and system partial functions to physical SOI elements.
+The Physical Functional Mapping Viewpoint supports the analysis of the assignment (it is a derived relationship) of system functions and system partial functions to physical SOI elements.
 ## Applicability
 The Physical Functional Mapping Viewpoint supports the “Design Definition Process” activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.5] and contributes to the artifact "Traceability Mapping".
 

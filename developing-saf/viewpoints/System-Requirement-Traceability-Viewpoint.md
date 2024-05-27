@@ -29,8 +29,8 @@ A dependency matrix featuring relationships for every System Requirement to the 
 ## Stakeholder
 * [Project Manager](../../stakeholders.md#Project-Manager)
 ## Concern
-* [What is the rationale for this system requirement?](../../concerns.md#_2021x_2_8710274_1674576758848_939582_23337)
-* [Which Stakeholder Requirements are addressed by System Requirements?](../../concerns.md#_2021x_2_8710274_1674576758563_692887_23057)
+* [What is the rationale for a system requirement?](../../concerns.md#_2021x_2_8710274_1674576758848_939582_23337)
+* [Which System Requirements are derived from Stakeholder Requirements?](../../concerns.md#_2021x_2_8710274_1674576758563_692887_23057)
 * [Which system interface is addressed by a system requirement?](../../concerns.md#_2021x_2_8710274_1674576758640_156873_23115)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:

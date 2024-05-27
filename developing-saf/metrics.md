@@ -1,13 +1,13 @@
 ![System Architecture Framework](diagrams/Banner_SAF.png)
 # SAF Development Documentation : Metrics
 ## Concern related metrics
- * Total number of concerns: 175
+ * Total number of concerns: 172
  * Concerns with illegal characters in text: 0
- * Concerns without link to stakeholder: 62
- * Concerns without link to viewpoint: 87
+ * Concerns without link to stakeholder: 60
+ * Concerns without link to viewpoint: 84
 ## Rationale related metrics
- * Total rationales: 338
- * Undocumented rationales: 203
+ * Total rationales: 332
+ * Undocumented rationales: 197
 ## Viewpoint related metrics
  * Total viewpoints: 43
  * Released viewpoints: 36

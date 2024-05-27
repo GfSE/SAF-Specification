@@ -6,9 +6,9 @@
 ## Example
 ![Physical-Logical-Mapping-Viewpoint-primary-example.svg](../../diagrams/vp-examples/Physical-Logical-Mapping-Viewpoint-primary-example.svg)
 ## Purpose
-The Physical Logical Mapping Viewpoint  supports the definition of the assignment of conceptual logical system elements to physical SOI elements.
+The Physical Logical Mapping Viewpoint  supports the definition of the assignment of conceptual logical system elements to physical system elements comprising the SOI.
 
-Following the identification of physical SOI elements capable of performing the system functions of logical elements, the Physical Logical Mapping Viewpoint provides feedback to the System Architecture Definition process to consolidate or confirm the allocation, partitioning, and alignment of logical elements to physical elements that comprise the SOI.
+Following the identification of physical system elements capable of performing the system functions of logical elements, the Physical Logical Mapping Viewpoint provides feedback to the System Architecture Definition process to consolidate or confirm the allocation, partitioning, and alignment of logical elements to physical elements that comprise the SOI.
 ## Applicability
 The Physical Logical Mapping Viewpoint supports the “Design Definition Process” activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.5] and contributes to the artifact "Traceability Mapping".
 
@@ -26,7 +26,7 @@ A LBS_to_PBS mapping matrix featuring
 * [Software Developer](../../stakeholders.md#Software-Developer)
 * [System Architect](../../stakeholders.md#System-Architect)
 ## Concern
-* [Which conceptual logical elements are allocated to the physical SOI physical architecture?](../../concerns.md#_2021x_2_8710274_1698399385413_529894_33129)
+* [Which logical elements are allocated to the physical SOI physical architecture?](../../concerns.md#_2021x_2_8710274_1698399385413_529894_33129)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|

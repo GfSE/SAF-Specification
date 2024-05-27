@@ -73,10 +73,9 @@ A table format listing abbreviations and relationship to standards if applicable
 *none*
 
 ### Documentation
-The Protection Nee Definition Viewpoint supports the definition of protection needs used to assign to Domain Items in order to define security classifications.
+The Protection Need Definition Viewpoint supports the definition of protection needs used to assign to Domain Items in order to define security classifications.
 
-A table format listing  terms ...[tbd].
-A table format listing abbreviations and relationship to standards if applicable... [tbd].
+A table format listing  protection need categories and protection needs.
 
 ## SAF_Claim
 
@@ -156,8 +155,7 @@ A table format listing abbreviations and relationship to standards if applicable
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Context-Function-IN-System-Process'>Context Function IN System Process</A><BR>Context Function IN System Process: Specifies the fact that a Context Function is used in a System Process.<BR></html>
-
+*none*
 
 ## SAF_ContextElementRepresentation
 
@@ -341,7 +339,7 @@ A tabular format listing the Domain Item Kinds, and their relationships.
 *none*
 
 ### Documentation
-The System Functional Breakdown Structure Viewpoint defines the structured, modular breakdown of the SOI beginning with System Processes, over identified System Functions further refined down to System Partial Functions. The reuse of System Functions, and System Partial Functions over Function Trees of the SOI is facilitated. Unlike a Work Breakdown Structure (WBS), the Functional Breakdown Structure (FBS) is a function-oriented tree, not a product-oriented one.
+The System Functional Breakdown Structure Viewpoint defines the structured, modular functional breakdown of the SOI beginning with System Processes, over identified System Functions further refined down to System Partial Functions. The reuse of System Functions, and System Partial Functions over Function Trees of the SOI is facilitated. 
 
 One or more more block definition diagrams (BDD) featuring activities representing System Processes, System Functions, System Partial Functions, and their aggregation composing the functional breakdown structure.
 Tool specific analysis diagram featuring the relationships between System Processes, System Functions, and System Partial Functions.
@@ -461,10 +459,7 @@ A dependency matrix featuring relationships for every System Requirement to the 
 ![icon](icons/SAF_FunctionAction.svg)
 
 ### Documentation
-<html>Stereotype realizes multiple Concepts:<UL><LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#General-Functional-Usage'>General Functional Usage</A><BR>General Functional Usage: Specifies the fact that a Function is used by one or more other Functions.<BR></LI>
-<LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#System-Function-IN-System-Process'>System Function IN System Process</A><BR>System Function IN System Process: Specifies the fact that a System Function is used in a System Process.<BR></LI>
-</UL>
-</html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#General-Functional-Usage'>General Functional Usage</A><BR>General Functional Usage: Specifies the fact that a Function is used by one or more other Functions.<BR></html>
 
 
 ## SAF_InterfaceLayerRelationship
