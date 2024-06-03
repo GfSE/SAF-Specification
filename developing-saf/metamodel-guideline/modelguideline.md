@@ -73,12 +73,14 @@ The Format Specification and the Protocol Definition are both issued by a Standa
 ### Abstract Concepts
 
 Note, that a concept can be marked as “Abstract”. This means that the abstract concept is not used directly but typically inherited concepts are used.
+Also see Generalization.
 
 Example:
 
 ![class](ex-concept-abstr.svg)
 
 `Rule: Use abstract metamodel items if appropriate.`
+`Rule: Do not expose abstract concepts.`
 
 ### Composition and Aggregation
 
