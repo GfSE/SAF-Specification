@@ -26,8 +26,7 @@ There are several kinds of models around SAF serving a certain purpose
 
 The conceptual model is the foundation of SAF development.
 It governs, which items SAF consist of and how these items are related.
-
-The inner architecture follows the concepts of ISO 42010.
+It follows the concepts of ISO 42010. SAF extends ISO 42010 in a way that SAF is able to express a rationale for a Stakeholders Concern. This should possibly be added to ISO 42010.
 
 ![Bild](../diagrams/Concept-Model-Definition.svg)
 
@@ -38,7 +37,7 @@ Within the conceptual model the following elements can be recognized (many of th
 * **SAF Architecture Framework Concerns**
  sketch out the information need of SAF Architecture Framework Stakeholders, which in turn should be adressed by a SAF System Model.
 * **SAF Rationale**
- expains why a SAF Architectur Framework Stakeholder has abovementionend information need resulting in a SAF Architecture Framework Concern
+ expains why a SAF Architectur Framework Stakeholder has abovementionend information need resulting in a SAF Architecture Framework Concern. This is currently not covered by ISO 42010.
 * **SAF Concepts**
  are the conceptual definition of items and their relationships forming an information network to be kept in a SAF System Model, in order to give answers to the SAF Architecture Framework Stakeholders Concerns.
 * **SAF Viewpoints**
@@ -68,13 +67,13 @@ The documentation of SAF is needs to support different use cases of different pe
 
 The author of a SEMP for a system in a certain project context wants to know:
 
-* which viewpoints are relevant for the systems engineering
+* which viewpoints are relevant for the systems engineering effort
 * how will we use the viewpoints and what is the benefit
 * which viewpoints will we need additionally
 * what do we potentially lose if we omit viewpoints
 * what is the recommended workflow through the viewpoints[^1]
 
-Those questions need an answer in order to plan the MBSE appoach. Every project is different, and the focus of modeling should be set accordingly. One needs to know where in the Lifecycle, and for which processes activities ( we use ISO15288) the the viewpoints will provide a benefit.
+Those questions need an answer in order to plan the MBSE appoach. Every project is different, and the focus of modeling should be set accordingly. One needs to know where in the Lifecycle, and for which processes activities (refering to ISO15288) the viewpoints will provide a benefit.
 
 Most of the questions are supported by the following "steckbrief" characteristics of the viewpoint description.
 
@@ -107,7 +106,7 @@ This is supported by the following "steckbrief" characteristics of the viewpoint
   * showing key concepts of the VP, recognizing fullfilment of concerns
   * one for each presentation
 * further Examples
-  (showing variations of usage, togehter with explanations)
+  (showing variations of usage, together with explanations)
 * Presentations
   (alternate forms how the VP is presented, e.g. Diagram and Table)
 * Dependencies to other VP
