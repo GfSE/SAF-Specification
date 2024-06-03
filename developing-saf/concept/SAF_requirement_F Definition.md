@@ -13,8 +13,8 @@
 | SFNboundedByNFR | Specifies the fact that a Non-functional Requirement constrains System Functions.|
 | SPSenablingOPS | Specifies the fact that a System Process enables the accomplishment of an Operational Process.|
 | SPSrefiningSUC | Specifies the fact that a System Use Case is refined by one System Process.|
-| SRderivingFromSHR | Specifies the fact that a System Requirement is derived from a Stakeholder Requirement. Note: It may be used in a customer supplier relationship situation and supports the V Model concept of "External Unit Specification". See [VXT].|
 | SRderivingFromSR | Specifies the fact that System Requirements are derived from a Stakeholder Requirement. <br>Note: This is the relationship of requirements of different architectural levels. When the team responsible for the subsystem has direct access to the full upstream requirements set, then no subcontractor relationship needs to be established.|
+| SRderivingFromSTKR | Specifies the fact that a System Requirement is derived from a Stakeholder Requirement. Note: It may be used in a customer supplier relationship situation and supports the V Model concept of "External Unit Specification". See [VXT].|
 | SRrefiningLICP | Specifies the fact that a Logical Interaction Point is refined by System Requirements.|
 | SRrefiningSUC | Specifies the fact that a System Use Case is refined by System Requirements.|
 | SUCenablingOSY | Specifies the fact that a System Use Case enables the realization of an Operational Story.|

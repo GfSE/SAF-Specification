@@ -1022,6 +1022,10 @@ Specifies the fact that a Logical Item Exchange is constrained to be implemented
 0..* [Logical Item Exchange](#Logical-Item-Exchange) LIEboundedByPLS 0..1 [Physical Layer Stack](#Physical-Layer-Stack) 
 
 Specifies the fact that a Logical Item Exchange is constrained to be implemented on a particular Physical Layer Stack.
+## LIEimplementsOIE
+0..* [Logical Item Exchange](#Logical-Item-Exchange) LIEimplementsOIE 0..* [Operational Item Exchange](#Operational-Item-Exchange) 
+
+specifies that this exchange in the FD implements (possibly partly) that exchange in the OD
 ## LIPDdefiningDetailOfLIP
 1 [Logical Interaction Point Definition](#Logical-Interaction-Point-Definition) LIPDdefiningDetailOfLIP 0..* [Logical Interaction Point](#Logical-Interaction-Point) 
 
@@ -1623,16 +1627,6 @@ exposed in viewpoint [System Requirement Traceability Viewpoint](../viewpoints/S
 realized by Stereotype [SAF_SystemProcessRefinement](../../stereotypes.md#SAF_SystemProcessRefinement)
 
 Specifies the fact that a System Use Case is refined by one System Process.
-## SRderivingFromSHR
-0..* [System Requirement](#System-Requirement) SRderivingFromSHR 1..* [Stakeholder Requirement](#Stakeholder-Requirement) 
-
-exposed in viewpoint [System Requirement Definition Viewpoint](../viewpoints/System-Requirement-Definition-Viewpoint.md)
-
-exposed in viewpoint [System Requirement Traceability Viewpoint](../viewpoints/System-Requirement-Traceability-Viewpoint.md)
-
-realized by Stereotype [SAF_SystemRequirementDerivation](../../stereotypes.md#SAF_SystemRequirementDerivation)
-
-Specifies the fact that a System Requirement is derived from a Stakeholder Requirement. Note: It may be used in a customer supplier relationship situation and supports the V Model concept of "External Unit Specification". See [VXT].
 ## SRderivingFromSR
 0..* [System Requirement](#System-Requirement) SRderivingFromSR 1 [System Requirement](#System-Requirement) 
 
@@ -1644,6 +1638,16 @@ realized by Stereotype [SAF_SystemRequirementDerivation](../../stereotypes.md#SA
 
 Specifies the fact that System Requirements are derived from a Stakeholder Requirement. 
 Note: This is the relationship of requirements of different architectural levels. When the team responsible for the subsystem has direct access to the full upstream requirements set, then no subcontractor relationship needs to be established.
+## SRderivingFromSTKR
+0..* [System Requirement](#System-Requirement) SRderivingFromSTKR 1..* [Stakeholder Requirement](#Stakeholder-Requirement) 
+
+exposed in viewpoint [System Requirement Definition Viewpoint](../viewpoints/System-Requirement-Definition-Viewpoint.md)
+
+exposed in viewpoint [System Requirement Traceability Viewpoint](../viewpoints/System-Requirement-Traceability-Viewpoint.md)
+
+realized by Stereotype [SAF_SystemRequirementDerivation](../../stereotypes.md#SAF_SystemRequirementDerivation)
+
+Specifies the fact that a System Requirement is derived from a Stakeholder Requirement. Note: It may be used in a customer supplier relationship situation and supports the V Model concept of "External Unit Specification". See [VXT].
 ## SRrefiningLICP
 0..* [System Requirement](#System-Requirement) SRrefiningLICP 0..* [Logical Interaction Point](#Logical-Interaction-Point) 
 

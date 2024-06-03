@@ -2,6 +2,8 @@
 ![SAF_interface_O Definition.svg](./diagrams/SAF_interface_O-Definition.svg)
 |Concept|Documentation|
 | --- | --- |
+| LIEimplementsOIE | specifies that this exchange in the FD implements (possibly partly) that exchange in the OD|
+| Logical Item Exchange | Specifies the exchange that is to take place on a connection of two interaction points on Logical Level.|
 | OCNallowingOIE | Specifies the fact that an Operational Item Exchange is allowed on the Operational Connection.|
 | ODKtypifyingOIE | Specifies the fact that an Operational Domain Kind typifies an Operational Item Exchange.|
 | Operational Connection | Specifies the connection between Operational Context Roles in an Operational Context allowing Operational Item Exchange.<br><br>Aliases:<br>UAF::OperationalConnector|

@@ -31,8 +31,8 @@
 | Non-functional Requirement | Non-Functional Requirements specify the quality of System Functions, or non-functional requests like legal conformance.|
 | SFNresultingInSSE | Specifies the fact that a System Function can perform a particular set of transitions, resulting in the related target System States.|
 | SPSrefiningSUC | Specifies the fact that a System Use Case is refined by one System Process.|
-| SRderivingFromSHR | Specifies the fact that a System Requirement is derived from a Stakeholder Requirement. Note: It may be used in a customer supplier relationship situation and supports the V Model concept of "External Unit Specification". See [VXT].|
 | SRderivingFromSR | Specifies the fact that System Requirements are derived from a Stakeholder Requirement. <br>Note: This is the relationship of requirements of different architectural levels. When the team responsible for the subsystem has direct access to the full upstream requirements set, then no subcontractor relationship needs to be established.|
+| SRderivingFromSTKR | Specifies the fact that a System Requirement is derived from a Stakeholder Requirement. Note: It may be used in a customer supplier relationship situation and supports the V Model concept of "External Unit Specification". See [VXT].|
 | SRrefiningSUC | Specifies the fact that a System Use Case is refined by System Requirements.|
 | SSEperformingSFN | Specifies the fact that the Function is only provided in distinct States. The state is a precondition for the Function to be able to perform.|
 | SUChasPostConditionSSE | Specifies the fact that a System Use Case has a state as Postcondition.|

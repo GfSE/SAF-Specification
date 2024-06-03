@@ -3,6 +3,7 @@
 |Concept|Documentation|
 | --- | --- |
 | LCNallowingLIE | Specifies the fact that a Logical Item Exchange is allowed on the Logical Connection.|
+| LIEimplementsOIE | specifies that this exchange in the FD implements (possibly partly) that exchange in the OD|
 | LIPDdefiningDetailOfLIP | Specifies the fact that a Logical Interaction Point Definition defines the exchange capabilities of a Logical Interaction Point.|
 | LIPPspecifyingDetailOfLIPD | Specifies the fact that a Logical Interaction Point Property is a detail of a Logical Interaction Point Definition.|
 | LIPapplyingToLCE | Specifies the fact that a Logical Interaction Point applies to a Logical Context Element.|
@@ -18,6 +19,7 @@
 | Logical Interaction Point Property | Specifies a detail of an interaction point on Logical Level.|
 | Logical Item Exchange | Specifies the exchange that is to take place on a connection of two interaction points on Logical Level.|
 | Logical User | The Logical User is the representation for a human in the Logical Domain, outside the SOI scope, interacting with the SOI.|
+| Operational Item Exchange | Specifies the Operational Item Exchange that is to take place on an Operational Connection.<br><br>Aliases:<br>UAF::OperationalExchange|
 | SDKtypingLIE | Specifies the fact that a System Domain Kind defines the type of a Logical Item Exchange.|
 | SDKtypingLIPP | Specifies the fact that a System Domain Kind defines the type of a Logical Interaction Point Property.|
 | System Domain Kind | Specification for any kind of conceptual item (energy, material, information, etc.) to be exchanged on Functional or Logical Level. The System Domain Kind is agnostic to any realization on Physical Level.|

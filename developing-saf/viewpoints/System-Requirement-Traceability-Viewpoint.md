@@ -41,8 +41,8 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |[SAF_SystemFunctionalRequirement](../../stereotypes.md#SAF_SystemFunctionalRequirement)|[Functional Requirement](../concept/concepts.md#Functional-Requirement)|
 |[SAF_SystemFunctionalRequirementRefinement](../../stereotypes.md#SAF_SystemFunctionalRequirementRefinement)|[FRrefiningSFN](../concept/concepts.md#FRrefiningSFN)|
 |[SAF_SystemNonFunctionalRequirement](../../stereotypes.md#SAF_SystemNonFunctionalRequirement)|[Non-functional Requirement](../concept/concepts.md#Non-functional-Requirement)|
-|[SAF_SystemRequirementDerivation](../../stereotypes.md#SAF_SystemRequirementDerivation)|[SRderivingFromSHR](../concept/concepts.md#SRderivingFromSHR)|
 |[SAF_SystemRequirementDerivation](../../stereotypes.md#SAF_SystemRequirementDerivation)|[SRderivingFromSR](../concept/concepts.md#SRderivingFromSR)|
+|[SAF_SystemRequirementDerivation](../../stereotypes.md#SAF_SystemRequirementDerivation)|[SRderivingFromSTKR](../concept/concepts.md#SRderivingFromSTKR)|
 |[SAF_SystemRequirementRefinement](../../stereotypes.md#SAF_SystemRequirementRefinement)|[SRrefiningLICP](../concept/concepts.md#SRrefiningLICP)|
 |[SAF_SystemRequirementRefinement](../../stereotypes.md#SAF_SystemRequirementRefinement)|[SRrefiningSCY](../concept/concepts.md#SRrefiningSCY)|
 |[SAF_SystemRequirementRefinement](../../stereotypes.md#SAF_SystemRequirementRefinement)|[SRrefiningSUC](../concept/concepts.md#SRrefiningSUC)|

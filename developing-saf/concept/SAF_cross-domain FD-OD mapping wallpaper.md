@@ -4,6 +4,7 @@
 | --- | --- |
 | LCEactingInSUC | Specifies the fact that a Logical Context Element acts in one or more System Use Cases.|
 | LCNallowingLIE | Specifies the fact that a Logical Item Exchange is allowed on the Logical Connection.|
+| LIEimplementsOIE | specifies that this exchange in the FD implements (possibly partly) that exchange in the OD|
 | LIPapplyingToLCE | Specifies the fact that a Logical Interaction Point applies to a Logical Context Element.|
 | Logical Connection | Specifies the connection of two interaction points on Logical Level.<br>Note: Connections between logical components indicate that item flows are passed from one output of a source component to one or more inputs of target components.|
 | Logical Context Element | Represents an abstract element in the given System Context on Logical Level, outside the SOI scope, interacting with the SOI.|
@@ -37,7 +38,7 @@
 | SHRrefiningOCY | Specifies the fact that an Operational Capability is refined by Stakeholder Requirements.|
 | SHRrefiningOSY | Specifies the fact that an Operational Story is refined by Stakeholder Requirements.|
 | SOIactingForOPR | Specifies the fact that a SOI is acting for the benefit of an Operational Performer.|
-| SRderivingFromSHR | Specifies the fact that a System Requirement is derived from a Stakeholder Requirement. Note: It may be used in a customer supplier relationship situation and supports the V Model concept of "External Unit Specification". See [VXT].|
+| SRderivingFromSTKR | Specifies the fact that a System Requirement is derived from a Stakeholder Requirement. Note: It may be used in a customer supplier relationship situation and supports the V Model concept of "External Unit Specification". See [VXT].|
 | SRrefiningSCY | Specifies the fact that a System Capability is refined by System Requirements.|
 | SRrefiningSUC | Specifies the fact that a System Use Case is refined by System Requirements.|
 | SSHrepresentingOPR | Specifies the fact that a SOI Stakeholder is representing an Operational Performer.|

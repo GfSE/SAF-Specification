@@ -46,7 +46,7 @@ A block definition diagram (BDD) featuring a claim-argument-evidence pattern (CA
 The Standards Definition Viewpoint supports the definition of applicable standards, e.g., format and protocol specifications, regulations, and engineering documents that are used throughout the system life cycle. It provides the meta-data for the applied standards, guidance and policy, e.g., issue, version, issue date, and publisher. The Viewpoint helps to keep track of changes to the set of applicable documents and of new versions of applied standards. Links should be used to refer to documents external to the architecture description.
 
 A block definition diagram (BDD) featuring the taxonomy of types of technical, operational, and business standards, guidance, and policy applicable to the system of interest.
-A table format lsiting technical, operational, and business standards, guidance, and policy applicable to the system of interest.
+A table format listing technical, operational, and business standards, guidance, and policy applicable to the system of interest.
 
 ## SAF_C2_GRID
 
@@ -1017,7 +1017,7 @@ A tabular format listing Physical Interface blocks, their ports, and flow proper
 *none*
 
 ### Documentation
-The Physical Functional Mapping Viewpoint supports the analysis of the assignment (it is derived relationship) of system functions and system partial functions to physical SOI elements.
+The Physical Functional Mapping Viewpoint supports the analysis of the assignment (it is a derived relationship) of system functions and system partial functions to physical SOI elements.
 
 A FBS_to_PBS mapping matrix featuring
 * Functional Breakdown Structure (FBS)
@@ -1030,9 +1030,9 @@ A FBS_to_PBS mapping matrix featuring
 *none*
 
 ### Documentation
-The Physical Logical Mapping Viewpoint  supports the definition of the assignment of conceptual logical system elements to physical SOI elements.
+The Physical Logical Mapping Viewpoint  supports the definition of the assignment of conceptual logical system elements to physical system elements comprising the SOI.
 
-Following the identification of physical SOI elements capable of performing the system functions of logical elements, the Physical Logical Mapping Viewpoint provides feedback to the System Architecture Definition process to consolidate or confirm the allocation, partitioning, and alignment of logical elements to physical elements that comprise the SOI.
+Following the identification of physical system elements capable of performing the system functions of logical elements, the Physical Logical Mapping Viewpoint provides feedback to the System Architecture Definition process to consolidate or confirm the allocation, partitioning, and alignment of logical elements to physical elements that comprise the SOI.
 
 A LBS_to_PBS mapping matrix featuring
 * Logical Breakdown Structure (LBS)
@@ -1495,7 +1495,7 @@ Note: Redundant with the meaning of "Need"?<BR></html>
 *none*
 
 ### Documentation
-<html>Stereotype realizes multiple Concepts:<UL><LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#SRderivingFromSHR'>SRderivingFromSHR</A><BR>SRderivingFromSHR: Specifies the fact that a System Requirement is derived from a Stakeholder Requirement. Note: It may be used in a customer supplier relationship situation and supports the V Model concept of "External Unit Specification". See [VXT].<BR></LI>
+<html>Stereotype realizes multiple Concepts:<UL><LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#SRderivingFromSTKR'>SRderivingFromSTKR</A><BR>SRderivingFromSTKR: Specifies the fact that a System Requirement is derived from a Stakeholder Requirement. Note: It may be used in a customer supplier relationship situation and supports the V Model concept of "External Unit Specification". See [VXT].<BR></LI>
 <LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#SRderivingFromSR'>SRderivingFromSR</A><BR>SRderivingFromSR: Specifies the fact that System Requirements are derived from a Stakeholder Requirement. 
 Note: This is the relationship of requirements of different architectural levels. When the team responsible for the subsystem has direct access to the full upstream requirements set, then no subcontractor relationship needs to be established.<BR></LI>
 </UL>
