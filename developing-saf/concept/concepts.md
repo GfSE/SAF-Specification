@@ -520,6 +520,8 @@ exposed in viewpoint [Argumentation Assurance Viewpoint](../viewpoints/Argumenta
 realized by Stereotype [SAF_Refuter](../../stereotypes.md#SAF_Refuter)
 
 A party asserting counter-claims.
+## SSRAsset
+Asset in Terms of Safety Security or Relieability that needs to be protected to avoid undesirable loss.
 ## Software Element
 exposed in viewpoint [Physical Functional Mapping Viewpoint](../viewpoints/Physical-Functional-Mapping-Viewpoint.md)
 
@@ -1451,11 +1453,6 @@ exposed in viewpoint [System Domain Item Kind Viewpoint](../viewpoints/System-Do
 realized by Stereotype [SAF_DomainKindDerivation](../../stereotypes.md#SAF_DomainKindDerivation)
 
 Specifies the fact that a System Domain Kind on system level is derived from an Operational Domain Kind.
-## SDKprotectedAsPRN
-0..* [System Domain Kind](#System-Domain-Kind) SDKprotectedAsPRN 0..* [Protection Need](#Protection-Need) 
-
-Specifies that a Domain Kind is protected according to one or more Protection needs. If multiple protection needs are assigned to a domain kind, they must be from different categories.
-E.g. a domain Kind may be assigned NATO RESTRICTED and "PERSONAL"
 ## SDKtypingFPM
 1 [System Domain Kind](#System-Domain-Kind) SDKtypingFPM 0..* [General Functional Parameter](#General-Functional-Parameter) 
 
@@ -1710,6 +1707,11 @@ Specifies the fact that a SOI Stakeholder is representing an Operational Perform
 1 [System of Interest Stakeholder](#System-of-Interest-Stakeholder) SSHrepresentingUSR 0..* [User](#User) 
 
 Specifies the fact that an User is represented by Stakeholders.
+## SSRAprotectedAsPRN
+0..* [Protection Need](#Protection-Need) SSRAprotectedAsPRN 0..* [SSRAsset](#SSRAsset) 
+
+Specifies that an Asset is protected according to one or more Protection needs. If multiple protection needs are assigned to an Asset, they must be from different categories.
+E.g. a System domain Kind may be assigned NATO RESTRICTED and "PERSONAL"
 ## SUCenablingOSY
 0..* [System Use Case](#System-Use-Case) SUCenablingOSY 0..* [Operational Story](#Operational-Story) 
 

@@ -24,6 +24,7 @@ A table format listing technical, operational, and business standards, guidance,
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * PartProperty [MD_customization_for_SysML]
 * [SAF_C2_CSTD](../stereotypes.md#SAF_C2_CSTD)
+* [SAF_C2_CSTD_Table](../stereotypes.md#SAF_C2_CSTD_Table)
 * [SAF_StandardCovering](../stereotypes.md#SAF_StandardCovering)
 * [SAF_StandardSuperseding](../stereotypes.md#SAF_StandardSuperseding)
 * [SAF_Standard](../stereotypes.md#SAF_Standard)

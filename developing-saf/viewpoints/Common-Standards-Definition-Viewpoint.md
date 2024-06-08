@@ -26,6 +26,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |---|---|
 |PartProperty [MD_customization_for_SysML]|[SDTincludingSDT](../concept/concepts.md#SDTincludingSDT)|
 |[SAF_C2_CSTD](../../stereotypes.md#SAF_C2_CSTD)|[Common Standards Definition Viewpoint](../concept/concepts.md#Common-Standards-Definition-Viewpoint)|
+|[SAF_C2_CSTD_Table](../../stereotypes.md#SAF_C2_CSTD_Table)|[Common Standards Definition Viewpoint](../concept/concepts.md#Common-Standards-Definition-Viewpoint)|
 |[SAF_StandardCovering](../../stereotypes.md#SAF_StandardCovering)|[SDTcoveringSBS](../concept/concepts.md#SDTcoveringSBS)|
 |[SAF_Standard](../../stereotypes.md#SAF_Standard)|[Standard](../concept/concepts.md#Standard)|
 |[SAF_StandardSuperseding](../../stereotypes.md#SAF_StandardSuperseding)|[SDTsupersedingSDT](../concept/concepts.md#SDTsupersedingSDT)|

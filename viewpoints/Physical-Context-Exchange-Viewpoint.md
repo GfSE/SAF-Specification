@@ -56,6 +56,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * ProxyPort typed by SAF_PhysicalInterfaceDefinition
 * [SAF_InterfaceLayerRelationship](../stereotypes.md#SAF_InterfaceLayerRelationship)
 * [SAF_P1_PCXE](../stereotypes.md#SAF_P1_PCXE)
+* [SAF_P1_PCXE_Table](../stereotypes.md#SAF_P1_PCXE_Table)
 * [SAF_PhysicalEnvironment](../stereotypes.md#SAF_PhysicalEnvironment)
 * [SAF_PhysicalExchangeType](../stereotypes.md#SAF_PhysicalExchangeType)
 * [SAF_PhysicalExternalSystem](../stereotypes.md#SAF_PhysicalExternalSystem)

@@ -7,6 +7,7 @@
 ![Physical-Internal-Exchange-Viewpoint-primary-example.svg](../diagrams/vp-examples/Physical-Internal-Exchange-Viewpoint-primary-example.svg)
 ![Physical-Internal-Exchange-Viewpoint-primary-example-1.svg](../diagrams/vp-examples/Physical-Internal-Exchange-Viewpoint-primary-example-1.svg)
 ![Physical-Internal-Exchange-Viewpoint-primary-example-2.svg](../diagrams/vp-examples/Physical-Internal-Exchange-Viewpoint-primary-example-2.svg)
+![Physical-Internal-Exchange-Viewpoint-primary-example-3.svg](../diagrams/vp-examples/Physical-Internal-Exchange-Viewpoint-primary-example-3.svg)
 ## Purpose
 The Physical Internal Exchange Viewpoint serves for the identification and definition of interfaces of elements of the physical system. also, the delegation of system element interfaces to the physical system boundary interfaces is covered.
 The Physical Internal Exchange Viewpoint
@@ -18,8 +19,11 @@ The Physical Internal Exchange Viewpoint
 ## Applicability
 The Physical Internal Exchange Viewpoint supports the “Design Definition Process” activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.5] and contributes to the artifacts "System Design Description" and "System Interface Definition". It also supports the "Interface Management" method of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§3.2.4].
 ## Presentation
-One or more IBDs featuring the SOI boundary, the physical elements of the SOI, as well as the connectors for each identified SOI interface delegation to physical SOI elements. An interface is a connection resource for hooking on the logical SOI elements to other logical SOI elements. Item flows are defined for each exchange on the identified interface.
+One or more IBDs featuring the SOI boundary, the parts representing physical elements of the SOI. At the SOI boundary, the interfaces of the SOI represented as proxy ports. At the parts, proxy ports representing the SOI parts interfaces. Binding Connectors for each identified SOI interface delegated to physical SOI elements interfaces.  connectors representing connections between interfaces of SOI parts. Item flows are defined for each planned exchange on the identified interfaces.
 Note: Please use more than one IBD focused on different areas of interest to keep the view comprehensive.
+Note: Ports may be nested to organize interfaces, but it is recommended to use only only one level.
+
+A Table representing the content or part of the ibd content.
 
 ## Stakeholder
 * [Hardware Developer](../stakeholders.md#Hardware-Developer)
@@ -49,6 +53,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * ProxyPort typed by SAF_PhysicalInterfaceDefinition
 * [SAF_InterfaceLayerRelationship](../stereotypes.md#SAF_InterfaceLayerRelationship)
 * [SAF_P4_PIEX](../stereotypes.md#SAF_P4_PIEX)
+* [SAF_P4_PIEX_Table](../stereotypes.md#SAF_P4_PIEX_Table)
 * [SAF_PhysicalElement](../stereotypes.md#SAF_PhysicalElement)
 * [SAF_PhysicalExchangeType](../stereotypes.md#SAF_PhysicalExchangeType)
 * [SAF_PhysicalHardwareElement](../stereotypes.md#SAF_PhysicalHardwareElement)

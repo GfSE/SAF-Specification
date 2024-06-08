@@ -48,6 +48,17 @@ The Standards Definition Viewpoint supports the definition of applicable standar
 A block definition diagram (BDD) featuring the taxonomy of types of technical, operational, and business standards, guidance, and policy applicable to the system of interest.
 A table format listing technical, operational, and business standards, guidance, and policy applicable to the system of interest.
 
+## SAF_C2_CSTD_Table
+
+### Icon
+*none*
+
+### Documentation
+The Standards Definition Viewpoint supports the definition of applicable standards, e.g., format and protocol specifications, regulations, and engineering documents that are used throughout the system life cycle. It provides the meta-data for the applied standards, guidance and policy, e.g., issue, version, issue date, and publisher. The Viewpoint helps to keep track of changes to the set of applicable documents and of new versions of applied standards. Links should be used to refer to documents external to the architecture description.
+
+A block definition diagram (BDD) featuring the taxonomy of types of technical, operational, and business standards, guidance, and policy applicable to the system of interest.
+A table format listing technical, operational, and business standards, guidance, and policy applicable to the system of interest.
+
 ## SAF_C2_GRID
 
 ### Icon
@@ -662,6 +673,17 @@ The Operational Domain Item Kind Viewpoint captures enterprise wide concepts and
 A block definition diagram (BDD) featuring Operational Domain Item Kinds and their relationships.
 A Table featuring Operational Domain Item Kinds, their relationships and their Documentation
 
+## SAF_O2_ODIK_Table
+
+### Icon
+*none*
+
+### Documentation
+The Operational Domain Item Kind Viewpoint captures enterprise wide concepts and collects type definitions for any exchanged item of the Operational Domain. Its purpose is to define these item types and their relationships.
+
+A block definition diagram (BDD) featuring Operational Domain Item Kinds and their relationships.
+A Table featuring Operational Domain Item Kinds, their relationships and their Documentation
+
 ## SAF_O2_OPRF
 
 ### Icon
@@ -971,6 +993,23 @@ B) A tabular format providing a list of all the defined external interfaces and 
 * reference to context element type
 C) A tabular format listing the applicable standards, protocols and formats for the item flows exchanged via the identified interfaces.
 
+## SAF_P1_PCXE_Table
+
+### Icon
+*none*
+
+### Documentation
+The Physical Context Exchange Viewpoint focuses on the identification of the physical interfaces with external entities and relevant documentation. It is used to capture interface design requirements, applicable standards, protocols and format specifications, that are agreed upon the interfaces.
+
+A) For each given context, an internal block diagram (IBD is used to identify the physical interfaces, the item flows, that are exchanged on that interfaces, and related documentation.
+Note: To understand the interfaces, a mapping of protocol layers may be depicted.
+B) A tabular format providing a list of all the defined external interfaces and the applicable documentation
+* context element kind (environment, external entity, physical user, etc.)
+* context element role name
+* port name and reference to port type
+* reference to context element type
+C) A tabular format listing the applicable standards, protocols and formats for the item flows exchanged via the identified interfaces.
+
 ## SAF_P2_PSTD
 
 ### Icon
@@ -996,8 +1035,29 @@ The Physical Internal Exchange Viewpoint
 * defines the usage of interfaces, e.g., if only a subset of the interfaces is used
 * defines the delegation of physical system element interfaces to physical system boundary interfaces
 
-One or more IBDs featuring the SOI boundary, the physical elements of the SOI, as well as the connectors for each identified SOI interface delegation to physical SOI elements. An interface is a connection resource for hooking on the logical SOI elements to other logical SOI elements. Item flows are defined for each exchange on the identified interface.
+One or more IBDs featuring the SOI boundary, the parts representing physical elements of the SOI. At the SOI boundary, the interfaces of the SOI represented as proxy ports. At the parts, proxy ports representing the SOI parts interfaces. Binding Connectors for each identified SOI interface delegated to physical SOI elements interfaces.  connectors representing connections between interfaces of SOI parts. Item flows are defined for each planned exchange on the identified interfaces.
 Note: Please use more than one IBD focused on different areas of interest to keep the view comprehensive.
+Note: Ports may be nested to organize interfaces, but it is recommended to use only only one level.
+A Table representing the content or part of the ibd content.
+
+## SAF_P4_PIEX_Table
+
+### Icon
+*none*
+
+### Documentation
+The Physical Internal Exchange Viewpoint serves for the identification and definition of interfaces of elements of the physical system. also, the delegation of system element interfaces to the physical system boundary interfaces is covered.
+The Physical Internal Exchange Viewpoint
+* identifies system element interfaces on a physical level
+* states to which other physical elements the interfaces are connected to
+* assigns physical interface definitions to interfaces
+* defines the usage of interfaces, e.g., if only a subset of the interfaces is used
+* defines the delegation of physical system element interfaces to physical system boundary interfaces
+
+One or more IBDs featuring the SOI boundary, the parts representing physical elements of the SOI. At the SOI boundary, the interfaces of the SOI represented as proxy ports. At the parts, proxy ports representing the SOI parts interfaces. Binding Connectors for each identified SOI interface delegated to physical SOI elements interfaces.  connectors representing connections between interfaces of SOI parts. Item flows are defined for each planned exchange on the identified interfaces.
+Note: Please use more than one IBD focused on different areas of interest to keep the view comprehensive.
+Note: Ports may be nested to organize interfaces, but it is recommended to use only only one level.
+A Table representing the content or part of the ibd content.
 
 ## SAF_P5_PIFD
 

@@ -30,6 +30,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |---|---|
 |ObjectFlow [UML_Standard_Profile]|[Operational Process Exchange](../concept/concepts.md#Operational-Process-Exchange)|
 |[SAF_O2_ODIK](../../stereotypes.md#SAF_O2_ODIK)|[Operational Domain Item Kind Viewpoint](../concept/concepts.md#Operational-Domain-Item-Kind-Viewpoint)|
+|[SAF_O2_ODIK_Table](../../stereotypes.md#SAF_O2_ODIK_Table)|[Operational Domain Item Kind Viewpoint](../concept/concepts.md#Operational-Domain-Item-Kind-Viewpoint)|
 |[SAF_OperationalDomainKindComposition](../../stereotypes.md#SAF_OperationalDomainKindComposition)|[ODKcomposedOF](../concept/concepts.md#ODKcomposedOF)|
 |[SAF_OperationalDomainKind](../../stereotypes.md#SAF_OperationalDomainKind)|[Operational Domain Kind](../concept/concepts.md#Operational-Domain-Kind)|
 ## Input from other Viewpoints

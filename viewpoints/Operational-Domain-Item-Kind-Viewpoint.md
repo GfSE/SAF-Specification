@@ -28,6 +28,7 @@ A Table featuring Operational Domain Item Kinds, their relationships and their D
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * ObjectFlow [UML_Standard_Profile]
 * [SAF_O2_ODIK](../stereotypes.md#SAF_O2_ODIK)
+* [SAF_O2_ODIK_Table](../stereotypes.md#SAF_O2_ODIK_Table)
 * [SAF_OperationalDomainKindComposition](../stereotypes.md#SAF_OperationalDomainKindComposition)
 * [SAF_OperationalDomainKind](../stereotypes.md#SAF_OperationalDomainKind)
 ## Input from other Viewpoints

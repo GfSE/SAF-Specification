@@ -2,6 +2,7 @@
 # SAF User Documentation : Changes
 |Date|Change|
 |--|--|
+|2024-06-07	.1|Argument concept in argumentation assurance viewpoint is no longer abstract, issue #56<BR>Separate network PIEX view, issue #57|
 |2024-05-27|shift exposure of abstract concepts (general function, general function usage) to inherited concepts<BR>add missing concept for usage of partial function in system function<BR>fix implementation spec for function usages in functions context (profile not affected)<BR>|
 |2024-05-18|add own diagram icons<BR>add a proposed viewpoint for security classifications|
 |2024-04-30|fix change stereotype SAF_O1_OCYD to be SAF_O1_OCXD  to be consistent with Operational-Context-Definition shortcut|
