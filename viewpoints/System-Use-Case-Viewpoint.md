@@ -10,7 +10,7 @@ The System Use Case Viewpoint provides an outside view on the system functionali
 ## Applicability
 The System Use Case Viewpoint supports the "Stakeholder Needs and Requirements Definition Process" and the "System Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.2, §2.3.5.3] and contributes to the definition of the system boundary and the identification of the expected system function.
 ## Presentation
-A use case diagram featuring model elements representing System Use Cases, System Context, and System Context Elements.
+A use case diagram featuring model elements representing System Use Cases, System Context, and System Context Elements. The System Context shall be used as subject of the use case. The System Context Elements playing a Role in the Use Case shall be connected to the Use Case by associations.
 Note: System Use Case pre- and postconditions shall be represented either by callout or compartment notation.
 
 A tabular format listing the System Use Cases, the System Use Case pre- and postconditions, the System Context, and the System Context Elements.

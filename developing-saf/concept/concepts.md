@@ -3,6 +3,8 @@
 # Class Concepts
 ## Abstract Physical Element
 Abstract element representing physical structure items keeping properties and relations applicable to all physical items.
+## Adversary
+
 ## Any SAF Element
 
 ## Argument
@@ -21,6 +23,8 @@ This argument concept is used to claim that if a property holds for one object, 
 realized by Stereotype [SAF_AspectColumn](../../stereotypes.md#SAF_AspectColumn)
 
 Aspects capture a set of characteristics or features of the Entity of Interest in its Environment to address Concerns within an Architecture Description.
+## Asset
+
 ## Claim
 exposed in viewpoint [Argumentation Assurance Viewpoint](../viewpoints/Argumentation-Assurance-Viewpoint.md)
 
@@ -141,6 +145,8 @@ exposed in viewpoint [Physical Structure Definition Viewpoint](../viewpoints/Phy
 realized by Stereotype [SAF_PhysicalHardwareElement](../../stereotypes.md#SAF_PhysicalHardwareElement)
 
 Pure Hardware Elements. Similarity with the V-Model "hardware unit".
+## Indirect Asset
+
 ## Interaction Point
 Specifies the existence of an interaction point.
 ## Interaction Point Definition
@@ -246,6 +252,8 @@ exposed in viewpoint [System Context Definition Viewpoint](../viewpoints/System-
 
 exposed in viewpoint [System Context Exchange Viewpoint](../viewpoints/System-Context-Exchange-Viewpoint.md)
 
+exposed in viewpoint [System Use Case Viewpoint](../viewpoints/System-Use-Case-Viewpoint.md)
+
 realized by Stereotype [SAF_LogicalContext](../../stereotypes.md#SAF_LogicalContext)
 
 Specifies the fact that a System Context for a System of Interest is defined on Logical Level.
@@ -257,6 +265,10 @@ exposed in viewpoint [System Use Case Viewpoint](../viewpoints/System-Use-Case-V
 realized by Stereotype [SAF_LogicalUser](../../stereotypes.md#SAF_LogicalUser)
 
 The Logical User is the representation for a human in the Logical Domain, outside the SOI scope, interacting with the SOI.
+## Loss Context
+
+## Misuse Case
+
 ## Need
 A User has a Need in order to reach a certain Goal.
 Note: "Buying sugar to bake a birthday cake".
@@ -499,29 +511,18 @@ The Physical User is the representation for a human in the physical domain, outs
 realized by Stereotype [SAF_Process](../../stereotypes.md#SAF_Process)
 
 Unit of Work in Systems Engineering.
-## Protection Need
-exposed in viewpoint [Protection Need Definition Viewpoint](../viewpoints/Protection-Need-Definition-Viewpoint.md)
+## Protection Goal
+exposed in viewpoint [Protection Goal Definition Viewpoint](../viewpoints/Protection-Goal-Definition-Viewpoint.md)
 
-realized by EnumerationLiteral contained in SAF_ProtectionNeed
 
-Specifies a protection need of an asset, typically an information.
-The protection need is typically part of a a protection need category of ordered protection needs.
-e.g. "NATO Security Classification" containing "NATO UNCLASSIFIED, NATO RESTRICTED,.. and so on"
-## Protection Need Category
-exposed in viewpoint [Protection Need Definition Viewpoint](../viewpoints/Protection-Need-Definition-Viewpoint.md)
-
-realized by Stereotype [SAF_ProtectionNeed](../../stereotypes.md#SAF_ProtectionNeed)
-
-Specifies a protection need category of ordered protection needs.
-e.g. "NATO Security Classification" containing "NATO UNCLASSIFIED, NATO RESTRICTED,.. and so on" or "PERSONAL" and "OPEN" for HR purposes.
 ## Refuter
 exposed in viewpoint [Argumentation Assurance Viewpoint](../viewpoints/Argumentation-Assurance-Viewpoint.md)
 
 realized by Stereotype [SAF_Refuter](../../stereotypes.md#SAF_Refuter)
 
 A party asserting counter-claims.
-## SSRAsset
-Asset in Terms of Safety Security or Relieability that needs to be protected to avoid undesirable loss.
+## Severity
+
 ## Software Element
 exposed in viewpoint [Physical Functional Mapping Viewpoint](../viewpoints/Physical-Functional-Mapping-Viewpoint.md)
 
@@ -1078,6 +1079,10 @@ Specifies the fact that an Internal Logical Interaction Scenario contains one or
 1..* [Logical User](#Logical-User) LURconceptingPUR 1..* [Physical User](#Physical-User) 
 
 Specifies that the Logical user is a concept for a Physical User.
+## MUhappensInLC
+0..* [Misuse Case](#Misuse-Case) MUhappensInLC 1 [Loss Context](#Loss-Context) 
+
+
 ## OCNallowingOIE
 1 [Operational Connection](#Operational-Connection) OCNallowingOIE 0..* [Operational Item Exchange](#Operational-Item-Exchange) 
 
@@ -1329,22 +1334,6 @@ Specifies the fact that a Physical Interaction Point applies to a Physical Conte
 0..* [Physical Layer Ordering](#Physical-Layer-Ordering) PLOisValidInPLS 1 [Physical Layer Stack](#Physical-Layer-Stack) 
 
 Specifies the fact that a Physical Layer Ordering is valid within a particular Physical Layer Stack.
-## PNCdefinesPRN
-1 [Protection Need Category](#Protection-Need-Category) PNCdefinesPRN 1..* [Protection Need](#Protection-Need) 
-
-exposed in viewpoint [Protection Need Definition Viewpoint](../viewpoints/Protection-Need-Definition-Viewpoint.md)
-
-realized by EnumerationLiteral contained in SAF_ProtectionNeed
-
-Specifies that a Protection need is part of a protection need category, e.g. NATO RESTRICTED is part of the NATO security classifications.
-## PRBhigherThanPRN
-1 [Protection Need](#Protection-Need) PRBhigherThanPRN 1 [Protection Need](#Protection-Need) 
-
-exposed in viewpoint [Protection Need Definition Viewpoint](../viewpoints/Protection-Need-Definition-Viewpoint.md)
-
-realized by EnumerationLiteral contained in SAF_ProtectionNeed
-
-Specifies that a Protection need is higher than an other.
 ## RFTmakingCCM
 1 [Refuter](#Refuter) RFTmakingCCM 1..* [CounterClaim](#CounterClaim) 
 
@@ -1707,11 +1696,6 @@ Specifies the fact that a SOI Stakeholder is representing an Operational Perform
 1 [System of Interest Stakeholder](#System-of-Interest-Stakeholder) SSHrepresentingUSR 0..* [User](#User) 
 
 Specifies the fact that an User is represented by Stakeholders.
-## SSRAprotectedAsPRN
-0..* [Protection Need](#Protection-Need) SSRAprotectedAsPRN 0..* [SSRAsset](#SSRAsset) 
-
-Specifies that an Asset is protected according to one or more Protection needs. If multiple protection needs are assigned to an Asset, they must be from different categories.
-E.g. a System domain Kind may be assigned NATO RESTRICTED and "PERSONAL"
 ## SUCenablingOSY
 0..* [System Use Case](#System-Use-Case) SUCenablingOSY 0..* [Operational Story](#Operational-Story) 
 
@@ -1766,6 +1750,18 @@ exposed in viewpoint [System Use Case Viewpoint](../viewpoints/System-Use-Case-V
 realized by Attribute "subject" of UseCase referencing SAF_LogicalContext
 
 Specifies the fact that a System Use Case takes place in a Logical System Context.
+## SYdefinesAST
+1 [System Of Interest](#System-Of-Interest) SYdefinesAST 0..* [Asset](#Asset) 
+
+
+## SZdefinesExpectedTrustlevelOfCFN
+1 [Protection Goal](#Protection-Goal) SZdefinesExpectedTrustlevelOfCFN 1 [Context Function](#Context-Function) 
+
+
+## TLEisCharacterisedWithSVY
+0..* [TopLevelEvent](#TopLevelEvent) TLEisCharacterisedWithSVY 1 [Severity](#Severity) 
+
+
 ## TRMdefinedBySDT
 0..* [Term](#Term) TRMdefinedBySDT 1 [Standard](#Standard) 
 
@@ -1922,6 +1918,10 @@ realized by Metaclass Lifeline
 
 
 Specifies the fact that a Logical Element Role participates in a Logical Interaction Scenario.
+## Loss Context Role
+0..* [Adversary](#Adversary) Loss Context Role 0..* [Loss Context](#Loss-Context) 
+
+
 ## Operational Chronological Message
 1 [Operational Scenario Participation](#Operational-Scenario-Participation) Operational Chronological Message 1 [Operational Scenario Participation](#Operational-Scenario-Participation) 
 
@@ -2138,3 +2138,7 @@ Specifies, that a system is part of a system.
 1..* [System Of Interest](#System-Of-Interest) System SOI Role 1 [System Context](#System-Context) 
 
 Specifies the fact that a System SOI exists in a given System Context.
+## TopLevelEvent
+0..* [Protection Goal](#Protection-Goal) TopLevelEvent 0..* [Asset](#Asset) 
+
+
