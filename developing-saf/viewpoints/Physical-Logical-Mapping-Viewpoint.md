@@ -14,10 +14,10 @@ The Physical Logical Mapping Viewpoint supports the “Design Definition Process
 
 Furthermore, the Physical Logical Mapping Viewpoint supports the "Allocation and Partitioning of Logical Entities to Physical Entities" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§4.4.2.7].
 ## Presentation
-A LBS_to_PBS mapping matrix featuring
-* Logical Breakdown Structure (LBS)
-* Physical Breakdown Structure (PBS)
-* Allocation from conceptual logical system elements to physical SOI elements
+A assignment matrix featuring
+* Logical Element Breakdown Structure showing Logical Element Roles and Logical Elements
+* Physical Element Breakdown Structure showing physical element roles and physical elements
+* Allocation relationship from logical system element roles to physical system element roles
 
 ## Stakeholder
 * [Hardware Developer](../../stakeholders.md#Hardware-Developer)
@@ -35,13 +35,13 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |Attribute "logical_element" of SAF_PhysicalItem referencing SAF_LogicalElement|[LETspecifyingAPE](../concept/concepts.md#LETspecifyingAPE)|
 |[SAF_LogicalElement](../../stereotypes.md#SAF_LogicalElement)|[Logical Element](../concept/concepts.md#Logical-Element)|
 |SAF_LogicalInternalRole contained in SAF_LogicalElement|[Logical Element Role](../concept/concepts.md#Logical-Element-Role)|
-|[SAF_P8_PLOM](../../stereotypes.md#SAF_P8_PLOM)|[Physical Logical Mapping Viewpoint](../concept/concepts.md#Physical-Logical-Mapping-Viewpoint)|
-|SAF_PhysicalInternalRole contained in SAF_PhysicalItem|[Hardware Element Role](../concept/concepts.md#Hardware-Element-Role)|
-|SAF_PhysicalInternalRole contained in SAF_PhysicalItem|[Physical Element Role](../concept/concepts.md#Physical-Element-Role)|
-|SAF_PhysicalInternalRole contained in SAF_PhysicalItem|[Physical Hardware Role](../concept/concepts.md#Physical-Hardware-Role)|
-|SAF_PhysicalInternalRole contained in SAF_PhysicalItem|[Physical Software Role](../concept/concepts.md#Physical-Software-Role)|
-|SAF_PhysicalInternalRole contained in SAF_PhysicalItem|[Software Element Role](../concept/concepts.md#Software-Element-Role)|
+|[SAF_P8_PLOM_Matrix](../../stereotypes.md#SAF_P8_PLOM_Matrix)|[Physical Logical Mapping Viewpoint](../concept/concepts.md#Physical-Logical-Mapping-Viewpoint)|
 |[SAF_PhysicalInternalRole](../../stereotypes.md#SAF_PhysicalInternalRole)|[General Physical Role](../concept/concepts.md#General-Physical-Role)|
+|[SAF_PhysicalInternalRole](../../stereotypes.md#SAF_PhysicalInternalRole)|[Hardware Element Role](../concept/concepts.md#Hardware-Element-Role)|
+|[SAF_PhysicalInternalRole](../../stereotypes.md#SAF_PhysicalInternalRole)|[Physical Element Role](../concept/concepts.md#Physical-Element-Role)|
+|[SAF_PhysicalInternalRole](../../stereotypes.md#SAF_PhysicalInternalRole)|[Physical Hardware Role](../concept/concepts.md#Physical-Hardware-Role)|
+|[SAF_PhysicalInternalRole](../../stereotypes.md#SAF_PhysicalInternalRole)|[Physical Software Role](../concept/concepts.md#Physical-Software-Role)|
+|[SAF_PhysicalInternalRole](../../stereotypes.md#SAF_PhysicalInternalRole)|[Software Element Role](../concept/concepts.md#Software-Element-Role)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Logical Structure Definition Viewpoint](Logical-Structure-Definition-Viewpoint.md)

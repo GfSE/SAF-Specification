@@ -110,10 +110,6 @@ A parameter of a System or Context Function.
 ## General Interaction Scenario
 Ordered sequence of exchanges of information, energy, or material between General Interaction Scenario Participants.
 ## General Physical Role
-exposed in viewpoint [Physical Functional Mapping Viewpoint](../viewpoints/Physical-Functional-Mapping-Viewpoint.md)
-
-exposed in viewpoint [Physical Logical Mapping Viewpoint](../viewpoints/Physical-Logical-Mapping-Viewpoint.md)
-
 realized by Stereotype [SAF_PhysicalInternalRole](../../stereotypes.md#SAF_PhysicalInternalRole)
 
 General concept of usage of system elements in the context of other system elements on physical level.
@@ -616,6 +612,8 @@ realized by Stereotype [SAF_DomainKind](../../stereotypes.md#SAF_DomainKind)
 Specification for any kind of conceptual item (energy, material, information, etc.) to be exchanged on Functional or Logical Level. The System Domain Kind is agnostic to any realization on Physical Level.
 ## System Function
 exposed in viewpoint [Logical Functional Mapping Viewpoint](../viewpoints/Logical-Functional-Mapping-Viewpoint.md)
+
+exposed in viewpoint [Physical Functional Mapping Viewpoint](../viewpoints/Physical-Functional-Mapping-Viewpoint.md)
 
 exposed in viewpoint [System Capability Mapping Viewpoint](../viewpoints/System-Capability-Mapping-Viewpoint.md)
 
@@ -1828,8 +1826,6 @@ Specifies the fact that a General Context Element exists in a given General Cont
 
 exposed in viewpoint [Logical Functional Mapping Viewpoint](../viewpoints/Logical-Functional-Mapping-Viewpoint.md)
 
-exposed in viewpoint [Physical Functional Mapping Viewpoint](../viewpoints/Physical-Functional-Mapping-Viewpoint.md)
-
 realized by Stereotype [SAF_FunctionAction](../../stereotypes.md#SAF_FunctionAction)
 
 Specifies the fact that a Function is used by one or more other Functions.
@@ -1840,9 +1836,13 @@ Specifies the fact that a System Role participates in a General Interaction Scen
 ## Hardware Element Role
 1 [Hardware Element](#Hardware-Element) Hardware Element Role 0..* [Hardware Element](#Hardware-Element) 
 
+exposed in viewpoint [Physical Functional Mapping Viewpoint](../viewpoints/Physical-Functional-Mapping-Viewpoint.md)
+
+exposed in viewpoint [Physical Logical Mapping Viewpoint](../viewpoints/Physical-Logical-Mapping-Viewpoint.md)
+
 exposed in viewpoint [Physical Structure Definition Viewpoint](../viewpoints/Physical-Structure-Definition-Viewpoint.md)
 
-realized by SAF_PhysicalInternalRole contained in SAF_PhysicalItem
+realized by Stereotype [SAF_PhysicalInternalRole](../../stereotypes.md#SAF_PhysicalInternalRole)
 
 Specifies the fact that a hardware structure comprises hardware elements.
 ## Logical Chronological Message
@@ -1890,6 +1890,8 @@ exposed in viewpoint [Logical Functional Mapping Viewpoint](../viewpoints/Logica
 exposed in viewpoint [Logical Internal Interaction Viewpoint](../viewpoints/Logical-Internal-Interaction-Viewpoint.md)
 
 exposed in viewpoint [Logical Structure Definition Viewpoint](../viewpoints/Logical-Structure-Definition-Viewpoint.md)
+
+exposed in viewpoint [Physical Logical Mapping Viewpoint](../viewpoints/Physical-Logical-Mapping-Viewpoint.md)
 
 realized by SAF_LogicalInternalRole contained in SAF_LogicalElement
 
@@ -2035,17 +2037,25 @@ Specifies the fact that a Physical Context Element exists in a given Physical Sy
 ## Physical Element Role
 1 [Physical Element](#Physical-Element) Physical Element Role 0..* [Physical Element](#Physical-Element) 
 
+exposed in viewpoint [Physical Functional Mapping Viewpoint](../viewpoints/Physical-Functional-Mapping-Viewpoint.md)
+
+exposed in viewpoint [Physical Logical Mapping Viewpoint](../viewpoints/Physical-Logical-Mapping-Viewpoint.md)
+
 exposed in viewpoint [Physical Structure Definition Viewpoint](../viewpoints/Physical-Structure-Definition-Viewpoint.md)
 
-realized by SAF_PhysicalInternalRole contained in SAF_PhysicalItem
+realized by Stereotype [SAF_PhysicalInternalRole](../../stereotypes.md#SAF_PhysicalInternalRole)
 
 Specifies the fact that a physical structure comprises physical elements.
 ## Physical Hardware Role
 1 [Physical Element](#Physical-Element) Physical Hardware Role 0..* [Hardware Element](#Hardware-Element) 
 
+exposed in viewpoint [Physical Functional Mapping Viewpoint](../viewpoints/Physical-Functional-Mapping-Viewpoint.md)
+
+exposed in viewpoint [Physical Logical Mapping Viewpoint](../viewpoints/Physical-Logical-Mapping-Viewpoint.md)
+
 exposed in viewpoint [Physical Structure Definition Viewpoint](../viewpoints/Physical-Structure-Definition-Viewpoint.md)
 
-realized by SAF_PhysicalInternalRole contained in SAF_PhysicalItem
+realized by Stereotype [SAF_PhysicalInternalRole](../../stereotypes.md#SAF_PhysicalInternalRole)
 
 Specifies the fact that a physical structure comprises hardware elements.
 ## Physical Layer Ordering
@@ -2063,17 +2073,25 @@ Specifies the fact that a Physical SOI exists in a given Physical System Context
 ## Physical Software Role
 1 [Physical Element](#Physical-Element) Physical Software Role 0..* [Software Element](#Software-Element) 
 
+exposed in viewpoint [Physical Functional Mapping Viewpoint](../viewpoints/Physical-Functional-Mapping-Viewpoint.md)
+
+exposed in viewpoint [Physical Logical Mapping Viewpoint](../viewpoints/Physical-Logical-Mapping-Viewpoint.md)
+
 exposed in viewpoint [Physical Structure Definition Viewpoint](../viewpoints/Physical-Structure-Definition-Viewpoint.md)
 
-realized by SAF_PhysicalInternalRole contained in SAF_PhysicalItem
+realized by Stereotype [SAF_PhysicalInternalRole](../../stereotypes.md#SAF_PhysicalInternalRole)
 
 Specifies the fact that a physical structure comprises software elements.
 ## Software Element Role
 1 [Software Element](#Software-Element) Software Element Role 0..* [Software Element](#Software-Element) 
 
+exposed in viewpoint [Physical Functional Mapping Viewpoint](../viewpoints/Physical-Functional-Mapping-Viewpoint.md)
+
+exposed in viewpoint [Physical Logical Mapping Viewpoint](../viewpoints/Physical-Logical-Mapping-Viewpoint.md)
+
 exposed in viewpoint [Physical Structure Definition Viewpoint](../viewpoints/Physical-Structure-Definition-Viewpoint.md)
 
-realized by SAF_PhysicalInternalRole contained in SAF_PhysicalItem
+realized by Stereotype [SAF_PhysicalInternalRole](../../stereotypes.md#SAF_PhysicalInternalRole)
 
 Specifies the fact that a software structure comprises software elements.
 ## State Transition

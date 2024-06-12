@@ -14,10 +14,10 @@ The Physical Logical Mapping Viewpoint supports the “Design Definition Process
 
 Furthermore, the Physical Logical Mapping Viewpoint supports the "Allocation and Partitioning of Logical Entities to Physical Entities" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§4.4.2.7].
 ## Presentation
-A LBS_to_PBS mapping matrix featuring
-* Logical Breakdown Structure (LBS)
-* Physical Breakdown Structure (PBS)
-* Allocation from conceptual logical system elements to physical SOI elements
+A assignment matrix featuring
+* Logical Element Breakdown Structure showing Logical Element Roles and Logical Elements
+* Physical Element Breakdown Structure showing physical element roles and physical elements
+* Allocation relationship from logical system element roles to physical system element roles
 
 ## Stakeholder
 * [Hardware Developer](../stakeholders.md#Hardware-Developer)
@@ -32,9 +32,8 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * Allocate [SysML Profile]
 * Attribute "logical_element" of SAF_PhysicalItem referencing SAF_LogicalElement
 * SAF_LogicalInternalRole contained in SAF_LogicalElement
-* SAF_PhysicalInternalRole contained in SAF_PhysicalItem
 * [SAF_LogicalElement](../stereotypes.md#SAF_LogicalElement)
-* [SAF_P8_PLOM](../stereotypes.md#SAF_P8_PLOM)
+* [SAF_P8_PLOM_Matrix](../stereotypes.md#SAF_P8_PLOM_Matrix)
 * [SAF_PhysicalInternalRole](../stereotypes.md#SAF_PhysicalInternalRole)
 ## Input from other Viewpoints
 ### Required Viewpoints

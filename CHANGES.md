@@ -2,6 +2,7 @@
 # SAF User Documentation : Changes
 |Date|Change|
 |--|--|
+|2024-06-12.1| * make internal role stereotypes inherit from part property<BR> * dont expose abstract general physical role, but derived non abstract concepts PFUM and PLOM, partly adressing issue #60<BR>* rename stereotypes for PLOM and PFUM Diagrams to *_Matrix, because the Representation is a matrix.<BR>* logical element role was'nt exposed in PLOM|
 |2024-06-07	.1|Argument concept in argumentation assurance viewpoint is no longer abstract, issue #56<BR>Separate network PIEX view, issue #57|
 |2024-05-27|shift exposure of abstract concepts (general function, general function usage) to inherited concepts<BR>add missing concept for usage of partial function in system function<BR>fix implementation spec for function usages in functions context (profile not affected)<BR>|
 |2024-05-18|add own diagram icons<BR>add a proposed viewpoint for security classifications|

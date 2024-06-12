@@ -84,9 +84,9 @@ A table format listing abbreviations and relationship to standards if applicable
 *none*
 
 ### Documentation
-The Protection Need Definition Viewpoint supports the definition of protection needs used to assign to Domain Items in order to define security classifications.
+The Protection GoalDefinition Viewpoint supports the definition of protection goals used to assign to Assets.
 
-A table format listing  protection need categories and protection needs.
+A table format listing  protection goals  and subcategories.
 
 ## SAF_Claim
 
@@ -314,7 +314,7 @@ A tabular format listing [tbd].
 ### Documentation
 The System Use Case Viewpoint provides an outside view on the system functionality from the perspective of the system users and contributes to the definition of system requirements and system usage. The intended system use may be captured as free-text use case description, as well as storytelling approach on a coarse level of detail. The main system exchange partners participating in the intended system use are identified. System use cases are related to a specific system context.
 
-A use case diagram featuring model elements representing System Use Cases, System Context, and System Context Elements.
+A use case diagram featuring model elements representing System Use Cases, System Context, and System Context Elements. The System Context shall be used as subject of the use case. The System Context Elements playing a Role in the Use Case shall be connected to the Use Case by associations.
 Note: System Use Case pre- and postconditions shall be represented either by callout or compartment notation.
 A tabular format listing the System Use Cases, the System Use Case pre- and postconditions, the System Context, and the System Context Elements.
 
@@ -1071,20 +1071,20 @@ A block definition diagram (BDD) featuring Physical Interface blocks with ports,
 Note: When ports are used these shall be proxy ports and be typed by interface blocks.
 A tabular format listing Physical Interface blocks, their ports, and flow properties.
 
-## SAF_P8_PFUM
+## SAF_P8_PFUM_Matrix
 
 ### Icon
 *none*
 
 ### Documentation
-The Physical Functional Mapping Viewpoint supports the analysis of the assignment (it is a derived relationship) of system functions and system partial functions to physical SOI elements.
+The Physical Functional Mapping Viewpoint supports the analysis of the assigment of system functions and system partial functions to physical system elements. The result shall be computed from the assigment of functions to logial system elements and the assignment of logical system elements to physical system elements
 
 A FBS_to_PBS mapping matrix featuring
 * Functional Breakdown Structure (FBS)
 * Physical Breakdown Structure (PBS)
 * mapping (it is a derived relationship) from system functions and system partial functions to physical SOI elements
 
-## SAF_P8_PLOM
+## SAF_P8_PLOM_Matrix
 
 ### Icon
 *none*
@@ -1094,10 +1094,10 @@ The Physical Logical Mapping Viewpoint  supports the definition of the assignmen
 
 Following the identification of physical system elements capable of performing the system functions of logical elements, the Physical Logical Mapping Viewpoint provides feedback to the System Architecture Definition process to consolidate or confirm the allocation, partitioning, and alignment of logical elements to physical elements that comprise the SOI.
 
-A LBS_to_PBS mapping matrix featuring
-* Logical Breakdown Structure (LBS)
-* Physical Breakdown Structure (PBS)
-* Allocation from conceptual logical system elements to physical SOI elements
+A assignment matrix featuring
+* Logical Element Breakdown Structure showing Logical Element Roles and Logical Elements
+* Physical Element Breakdown Structure showing physical element roles and physical elements
+* Allocation relationship from logical system element roles to physical system element roles
 
 ## SAF_PhysicalContext
 
@@ -1176,7 +1176,14 @@ A LBS_to_PBS mapping matrix featuring
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#General-Physical-Role'>General Physical Role</A><BR>General Physical Role: General concept of usage of system elements in the context of other system elements on physical level.<BR></html>
+<html>Stereotype realizes multiple Concepts:<UL><LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#General-Physical-Role'>General Physical Role</A><BR>General Physical Role: General concept of usage of system elements in the context of other system elements on physical level.<BR></LI>
+<LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Software-Element-Role'>Software Element Role</A><BR>Software Element Role: Specifies the fact that a software structure comprises software elements.<BR></LI>
+<LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical-Software-Role'>Physical Software Role</A><BR>Physical Software Role: Specifies the fact that a physical structure comprises software elements.<BR></LI>
+<LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical-Element-Role'>Physical Element Role</A><BR>Physical Element Role: Specifies the fact that a physical structure comprises physical elements.<BR></LI>
+<LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Physical-Hardware-Role'>Physical Hardware Role</A><BR>Physical Hardware Role: Specifies the fact that a physical structure comprises hardware elements.<BR></LI>
+<LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Hardware-Element-Role'>Hardware Element Role</A><BR>Hardware Element Role: Specifies the fact that a hardware structure comprises hardware elements.<BR></LI>
+</UL>
+</html>
 
 
 ## SAF_PhysicalItem
@@ -1229,9 +1236,7 @@ A LBS_to_PBS mapping matrix featuring
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Protection-Need-Category'>Protection Need Category</A><BR>Protection Need Category: Specifies a protection need category of ordered protection needs.
-e.g. "NATO Security Classification" containing "NATO UNCLASSIFIED, NATO RESTRICTED,.. and so on" or "PERSONAL" and "OPEN" for HR purposes.<BR></html>
-
+*none*
 
 ## SAF_Refuter
 
