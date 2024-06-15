@@ -5,6 +5,9 @@
 |[Physical](../../domains.md#Domain-Physical)|[Taxonomy & Structure](../../aspects.md#Aspect-Taxonomy-&-Structure)|![Released](../../diagrams/Symbol_confirmed.png )[released](../../using-saf/maturity.md#released)|
 ## Example
 ![Physical-Structure-Definition-Viewpoint-primary-example.svg](../../diagrams/vp-examples/Physical-Structure-Definition-Viewpoint-primary-example.svg)
+![Physical-Structure-Definition-Viewpoint-primary-example-1.svg](../../diagrams/vp-examples/Physical-Structure-Definition-Viewpoint-primary-example-1.svg)
+![Physical-Structure-Definition-Viewpoint-primary-example-2.svg](../../diagrams/vp-examples/Physical-Structure-Definition-Viewpoint-primary-example-2.svg)
+![Physical-Structure-Definition-Viewpoint-primary-example-3.svg](../../diagrams/vp-examples/Physical-Structure-Definition-Viewpoint-primary-example-3.svg)
 ## Purpose
 The Physical Structure Viewpoint is used to model the internal structure of the SOI and to identify the internal system elements making up the SOI. The SOI breakdown structure identifies system elements and finally at the implementation level hardware, software, and mechanics. The SOI breakdown structure determines items that are reused and make-or-buy (COTS) items. The Physical Structure Viewpoint is elaborated for each candidate physical SOI architecture. It provides the basis for further assessment of the architecture candidates by identifying the system elements in each candidate solution.
 ## Applicability

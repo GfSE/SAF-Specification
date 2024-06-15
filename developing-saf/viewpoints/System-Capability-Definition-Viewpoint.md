@@ -27,6 +27,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
 |[SAF_F2_SCYD](../../stereotypes.md#SAF_F2_SCYD)|[System Capability Definition Viewpoint](../concept/concepts.md#System-Capability-Definition-Viewpoint)|
+|[SAF_F2_SCYD_Table](../../stereotypes.md#SAF_F2_SCYD_Table)|[System Capability Definition Viewpoint](../concept/concepts.md#System-Capability-Definition-Viewpoint)|
 |[SAF_SystemCapabilityComposition](../../stereotypes.md#SAF_SystemCapabilityComposition)|[SCYcomposedOF](../concept/concepts.md#SCYcomposedOF)|
 |[SAF_SystemCapabilityDependency](../../stereotypes.md#SAF_SystemCapabilityDependency)|[SCYdependingON](../concept/concepts.md#SCYdependingON)|
 |[SAF_SystemCapabilityEnabling](../../stereotypes.md#SAF_SystemCapabilityEnabling)|[SCYenablingOCY](../concept/concepts.md#SCYenablingOCY)|

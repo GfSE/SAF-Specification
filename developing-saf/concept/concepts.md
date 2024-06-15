@@ -98,8 +98,6 @@ realized by Metaclass ObjectFlow
 
 Specifies the fact that an General Functional Exchange between General Function Parameters is taking place.
 ## General Functional Parameter
-exposed in viewpoint [System Domain Item Kind Viewpoint](../viewpoints/System-Domain-Item-Kind-Viewpoint.md)
-
 exposed in viewpoint [System Process Viewpoint](../viewpoints/System-Process-Viewpoint.md)
 
 realized by Metaclass Parameter
@@ -214,8 +212,6 @@ Specifies the exchange capabilities of an interaction point on Logical Level.
 ## Logical Interaction Point Property
 exposed in viewpoint [Logical Internal Exchange Viewpoint](../viewpoints/Logical-Internal-Exchange-Viewpoint.md)
 
-exposed in viewpoint [System Domain Item Kind Viewpoint](../viewpoints/System-Domain-Item-Kind-Viewpoint.md)
-
 exposed in viewpoint [System Interface Definition Viewpoint](../viewpoints/System-Interface-Definition-Viewpoint.md)
 
 realized by Stereotype FlowProperty
@@ -235,8 +231,6 @@ Ordered sequence of exchanges of information, energy, or material between Logica
 exposed in viewpoint [Logical Internal Exchange Viewpoint](../viewpoints/Logical-Internal-Exchange-Viewpoint.md)
 
 exposed in viewpoint [System Context Exchange Viewpoint](../viewpoints/System-Context-Exchange-Viewpoint.md)
-
-exposed in viewpoint [System Domain Item Kind Viewpoint](../viewpoints/System-Domain-Item-Kind-Viewpoint.md)
 
 realized by Stereotype ItemFlow
 
@@ -313,8 +307,6 @@ exposed in viewpoint [Operational Context Exchange Viewpoint](../viewpoints/Oper
 exposed in viewpoint [Operational Domain Item Kind Viewpoint](../viewpoints/Operational-Domain-Item-Kind-Viewpoint.md)
 
 exposed in viewpoint [Operational Process Viewpoint](../viewpoints/Operational-Process-Viewpoint.md)
-
-exposed in viewpoint [System Domain Item Kind Viewpoint](../viewpoints/System-Domain-Item-Kind-Viewpoint.md)
 
 realized by Stereotype [SAF_OperationalDomainKind](../../stereotypes.md#SAF_OperationalDomainKind)
 
@@ -664,8 +656,6 @@ realized by Stereotype [SAF_SystemRequirement](../../stereotypes.md#SAF_SystemRe
 
 System Requirements specify System Functions, non-functional properties, or constraints of the System.
 ## System State
-exposed in viewpoint [System Domain Item Kind Viewpoint](../viewpoints/System-Domain-Item-Kind-Viewpoint.md)
-
 exposed in viewpoint [System State Viewpoint](../viewpoints/System-State-Viewpoint.md)
 
 realized by Metaclass State
@@ -1148,6 +1138,8 @@ Specifies the fact that an Operational Domain Kind typifies an Operational Item 
 
 exposed in viewpoint [Operational Process Viewpoint](../viewpoints/Operational-Process-Viewpoint.md)
 
+realized by ObjectFlow typed by SAF_OperationalDomainKind
+
 Specifies the fact that an Operational Domain Kind typifies an Operational Process Exchange.
 ## OIScontainingOCM
 1 [Operational Interaction Scenario](#Operational-Interaction-Scenario) OIScontainingOCM 0..* [Operational Chronological Message](#Operational-Chronological-Message) 
@@ -1434,8 +1426,6 @@ realized by Stereotype [SAF_DomainKindComposition](../../stereotypes.md#SAF_Doma
 Specifies the fact that a System Domain Kind consists of one or more System Domain Kinds.
 ## SDKderivingFromODK
 0..* [System Domain Kind](#System-Domain-Kind) SDKderivingFromODK 0..1 [Operational Domain Kind](#Operational-Domain-Kind) 
-
-exposed in viewpoint [System Domain Item Kind Viewpoint](../viewpoints/System-Domain-Item-Kind-Viewpoint.md)
 
 realized by Stereotype [SAF_DomainKindDerivation](../../stereotypes.md#SAF_DomainKindDerivation)
 
@@ -1879,7 +1869,7 @@ exposed in viewpoint [System Context Interaction Viewpoint](../viewpoints/System
 
 exposed in viewpoint [System Process Viewpoint](../viewpoints/System-Process-Viewpoint.md)
 
-realized by SAF_LogicalContextRole contained in SAF_LogicalContext
+realized by Stereotype [SAF_LogicalContextRole](../../stereotypes.md#SAF_LogicalContextRole)
 
 Specifies the fact that a Logical Context Element exists in a given Logical System Context.
 ## Logical Element Role
@@ -1907,7 +1897,7 @@ exposed in viewpoint [System Context Interaction Viewpoint](../viewpoints/System
 
 exposed in viewpoint [System Process Viewpoint](../viewpoints/System-Process-Viewpoint.md)
 
-realized by SAF_LogicalContextRole contained in SAF_LogicalContext
+realized by Stereotype [SAF_LogicalContextRole](../../stereotypes.md#SAF_LogicalContextRole)
 
 Specifies the fact that a Logical Context SOI exists in a given Logical System Context.
 ## Logical Scenario Participation
@@ -2031,7 +2021,7 @@ Note: Connections between physical components indicate that item flows are passe
 
 exposed in viewpoint [Physical Context Definition Viewpoint](../viewpoints/Physical-Context-Definition-Viewpoint.md)
 
-realized by SAF_PhysicalContextRole contained in SAF_PhysicalContext
+realized by Stereotype [SAF_PhysicalContextRole](../../stereotypes.md#SAF_PhysicalContextRole)
 
 Specifies the fact that a Physical Context Element exists in a given Physical System Context.
 ## Physical Element Role
@@ -2067,7 +2057,7 @@ Specifies an order among two physical layers. This order is valid within a Physi
 
 exposed in viewpoint [Physical Context Definition Viewpoint](../viewpoints/Physical-Context-Definition-Viewpoint.md)
 
-realized by SAF_PhysicalContextRole contained in SAF_PhysicalContext
+realized by Stereotype [SAF_PhysicalContextRole](../../stereotypes.md#SAF_PhysicalContextRole)
 
 Specifies the fact that a Physical SOI exists in a given Physical System Context.
 ## Physical Software Role

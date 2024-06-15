@@ -21,7 +21,7 @@ A tabular format listing the relationships of Operational Process Activities to 
 * [Show in a concise manner the relationships from operational process to operational story and to operational performer.](../concerns.md#_2021x_2_8710274_1674576758928_485242_23392)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SAF_O8_OPRM](../stereotypes.md#SAF_O8_OPRM)
+* [SAF_O8_OPRM_Table](../stereotypes.md#SAF_O8_OPRM_Table)
 * [SAF_OperationalCapability](../stereotypes.md#SAF_OperationalCapability)
 * [SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)
 * [SAF_OperationalProcessEnabling](../stereotypes.md#SAF_OperationalProcessEnabling)

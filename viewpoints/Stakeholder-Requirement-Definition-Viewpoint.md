@@ -12,7 +12,7 @@ The Stakeholder Requirement Viewpoint supports the "Stakeholder Needs and Requir
 ## Presentation
 A tabular format lisiting
 * unique requirement ID, text, and attributes,
-* traceability reference to justifying model artefacts.
+* traceability reference to justifying model artefacts, e.g. operational stories, operational capabilities, identified concerns of stakeholders, and compliance statements
 Note: Stakeholder Requirements are to be structured in a way that the Stakeholder behind the Requirement is identifiable. When appropriate, the relationships between identified Stakeholder Requirements are and the justifying model artefacts, Operational Story, Operational Capability, Operational Performer, Operational Process, and Operational Exchange are presented.
 * "One Requirement Package for each Stakeholder" is a best-practice modeling rule. A package contains the Requirements specific for one Stakeholder.
 * Even if different Stakeholders may have intersecting interests and / or concerns resulting in a similar set of Requirements, each Stakeholder shall have its own set managed in a dedicated Requirement Package. Requirements must not be shared due to their different life cycles. Resolving duplications and conflicts is subject of the requirement analysis resulting in an agreed and consolidated set of System Requirements.
@@ -30,7 +30,7 @@ Note: Stakeholder Requirements are to be structured in a way that the Stakeholde
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Package [UML_Standard_Profile]
-* [SAF_O6_SKRD](../stereotypes.md#SAF_O6_SKRD)
+* [SAF_O6_SKRD_Table](../stereotypes.md#SAF_O6_SKRD_Table)
 * [SAF_OperationalCapability](../stereotypes.md#SAF_OperationalCapability)
 * [SAF_StakeholderRequirementImposition](../stereotypes.md#SAF_StakeholderRequirementImposition)
 * [SAF_StakeholderRequirementRefinement](../stereotypes.md#SAF_StakeholderRequirementRefinement)

@@ -7,14 +7,14 @@
 ![Operational-Story-Viewpoint-primary-example.svg](../diagrams/vp-examples/Operational-Story-Viewpoint-primary-example.svg)
 ## Purpose
 The Operational Story Viewpoint
-* captures operational stories and their relation to operational performers, thus enables storytelling
+* captures operational stories within operational contexts and their relation to operational performers, thus enables storytelling
 * illustrates the operational background from the Stakeholder perspective
 * serves as starting point to identify Stakeholders and/or context elements
 * fosters the communication among different Stakeholders
 ## Applicability
 The Operational Story Viewpoint supports the "Business or Mission Analysis Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.1] and contributes to the problem or opportunity statement.
 ## Presentation
-A use case diagram featuring model elements representing operational stories, and operational performers involved in the mission. 
+A use case diagram featuring model elements representing operational stories, the context in they're taking place and operational performers involved. 
 Note: Illustrations, drawings, sketches, etc., and/or descriptions in free text may provide a comprehensive understanding of the operational mission.
 
 ## Stakeholder

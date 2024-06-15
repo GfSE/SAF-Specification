@@ -27,6 +27,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |Allocate [SysML Profile]|[OPRperformingOPSU](../concept/concepts.md#OPRperformingOPSU)|
 |ControlFlow [UML_Standard_Profile]|[controlledAFTER](../concept/concepts.md#controlledAFTER)|
 |InputPin [UML_Standard_Profile]|[TO](../concept/concepts.md#TO)|
+|ObjectFlow typed by SAF_OperationalDomainKind|[ODKtypifyingOPE](../concept/concepts.md#ODKtypifyingOPE)|
 |ObjectFlow [UML_Standard_Profile]|[Operational Process Exchange](../concept/concepts.md#Operational-Process-Exchange)|
 |OutputPin [UML_Standard_Profile]|[FROM](../concept/concepts.md#FROM)|
 |[SAF_O3_OPRO](../../stereotypes.md#SAF_O3_OPRO)|[Operational Process Viewpoint](../concept/concepts.md#Operational-Process-Viewpoint)|

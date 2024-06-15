@@ -34,8 +34,8 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * Interaction [UML_Standard_Profile]
 * Lifeline [UML_Standard_Profile]
 * Message [UML_Standard_Profile]
-* SAF_LogicalContextRole contained in SAF_LogicalContext
 * [SAF_F4_SCXI](../stereotypes.md#SAF_F4_SCXI)
+* [SAF_LogicalContextRole](../stereotypes.md#SAF_LogicalContextRole)
 * [SAF_LogicalContext](../stereotypes.md#SAF_LogicalContext)
 ## Input from other Viewpoints
 ### Required Viewpoints

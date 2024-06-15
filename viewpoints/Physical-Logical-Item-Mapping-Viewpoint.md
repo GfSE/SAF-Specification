@@ -20,9 +20,6 @@ A  Physical To Logical Assigment Matrix featuring
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Allocate [SysML Profile]
-* FlowProperty [SysML Profile]
-* ItemFlow [SysML Profile]
-* Parameter [UML_Standard_Profile]
 * [SAF_DomainKind](../stereotypes.md#SAF_DomainKind)
 * [SAF_PhysicalExchangeType](../stereotypes.md#SAF_PhysicalExchangeType)
 ## Input from other Viewpoints

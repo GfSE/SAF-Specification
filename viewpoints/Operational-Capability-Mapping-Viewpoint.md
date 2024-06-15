@@ -21,7 +21,7 @@ A tabular format listing the relationships of Operational Capabilities to Stakeh
 * [Show in a concise manner the relationships from operational capability to operational story, to operational activity, and to operational performer.](../concerns.md#_2021x_2_8710274_1674576758591_594647_23070)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SAF_O8_OCYM](../stereotypes.md#SAF_O8_OCYM)
+* [SAF_O8_OCYM_Table](../stereotypes.md#SAF_O8_OCYM_Table)
 * [SAF_OperationalCapabilityComposition](../stereotypes.md#SAF_OperationalCapabilityComposition)
 * [SAF_OperationalCapabilityDependency](../stereotypes.md#SAF_OperationalCapabilityDependency)
 * [SAF_OperationalCapabilityGeneralization](../stereotypes.md#SAF_OperationalCapabilityGeneralization)

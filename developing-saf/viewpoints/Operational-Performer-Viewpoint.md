@@ -5,6 +5,7 @@
 |[Operational](../../domains.md#Domain-Operational)|[Taxonomy & Structure](../../aspects.md#Aspect-Taxonomy-&-Structure)|![Released](../../diagrams/Symbol_confirmed.png )[released](../../using-saf/maturity.md#released)|
 ## Example
 ![Operational-Performer-Viewpoint-primary-example.svg](../../diagrams/vp-examples/Operational-Performer-Viewpoint-primary-example.svg)
+![Operational-Performer-Viewpoint-primary-example-1.svg](../../diagrams/vp-examples/Operational-Performer-Viewpoint-primary-example-1.svg)
 ## Purpose
 The Operational Performer Viewpoint represents the taxonomy of the identified Operational Performers, if existing and relevant for the understanding of the operation of the intended solution. 
 ## Applicability
@@ -12,6 +13,8 @@ The Operational Performer Viewpoint supports the "Business or Mission Analysis P
 ## Presentation
 A block definition diagram (BDD) featuring Operational Performers. and their relations in terms of decomposition or generalization at a level of detail required for problem understanding and analysis. 
 Note: Identified Stakeholders are related to Operational Performers if appropriate.
+
+A table containing operational performers, their inter relations  and relations to stakeholders
 
 ## Stakeholder
 * [Acquirer](../../stakeholders.md#Acquirer)
@@ -25,6 +28,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
 |[SAF_O2_OPRF](../../stereotypes.md#SAF_O2_OPRF)|[Operational Performer Viewpoint](../concept/concepts.md#Operational-Performer-Viewpoint)|
+|[SAF_O2_OPRF_Table](../../stereotypes.md#SAF_O2_OPRF_Table)|[Operational Performer Viewpoint](../concept/concepts.md#Operational-Performer-Viewpoint)|
 |[SAF_OperationalPerformerComposition](../../stereotypes.md#SAF_OperationalPerformerComposition)|[OPRcomposedOF](../concept/concepts.md#OPRcomposedOF)|
 |[SAF_OperationalPerformer](../../stereotypes.md#SAF_OperationalPerformer)|[Operational Performer](../concept/concepts.md#Operational-Performer)|
 |[SAF_StakeholderRepresenting](../../stereotypes.md#SAF_StakeholderRepresenting)|[SSHrepresentingOPR](../concept/concepts.md#SSHrepresentingOPR)|

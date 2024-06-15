@@ -28,15 +28,10 @@ A tabular format listing the Domain Item Kinds, and their relationships.
 * [Which kind of conceptual items (energy, material, information, etc.)  are used in the logical architecture of the system?](../concerns.md#_2021x_2_6d8019d_1693308265004_421376_24972)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* FlowProperty [SysML Profile]
-* ItemFlow [SysML Profile]
-* Parameter [UML_Standard_Profile]
-* State [UML_Standard_Profile]
 * [SAF_DomainKindComposition](../stereotypes.md#SAF_DomainKindComposition)
-* [SAF_DomainKindDerivation](../stereotypes.md#SAF_DomainKindDerivation)
 * [SAF_DomainKind](../stereotypes.md#SAF_DomainKind)
 * [SAF_F2_SDIK](../stereotypes.md#SAF_F2_SDIK)
-* [SAF_OperationalDomainKind](../stereotypes.md#SAF_OperationalDomainKind)
+* [SAF_F2_SDIK_Table](../stereotypes.md#SAF_F2_SDIK_Table)
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

@@ -34,6 +34,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |Event [UML_Standard_Profile]|[Triggering Event](../concept/concepts.md#Triggering-Event)|
 |[SAF_DomainKind](../../stereotypes.md#SAF_DomainKind)|[System Domain Kind](../concept/concepts.md#System-Domain-Kind)|
 |[SAF_F3_SSTA](../../stereotypes.md#SAF_F3_SSTA)|[System State Viewpoint](../concept/concepts.md#System-State-Viewpoint)|
+|[SAF_F3_SSTA_Table](../../stereotypes.md#SAF_F3_SSTA_Table)|[System State Viewpoint](../concept/concepts.md#System-State-Viewpoint)|
 |[SAF_LogicalElement](../../stereotypes.md#SAF_LogicalElement)|[Logical Element](../concept/concepts.md#Logical-Element)|
 |[SAF_SystemFunction](../../stereotypes.md#SAF_SystemFunction)|[System Function](../concept/concepts.md#System-Function)|
 |StateMachine [UML_Standard_Profile]|[LETbeeingInSSE](../concept/concepts.md#LETbeeingInSSE)|

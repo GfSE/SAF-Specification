@@ -18,6 +18,7 @@ A content diagram featuring a matrix view for the SAF Viewpoint conceptual model
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_C2_GRID](../stereotypes.md#SAF_C2_GRID)
 * [SAF_Diagram](../stereotypes.md#SAF_Diagram)
+* [SAF_Viewpoint](../stereotypes.md#SAF_Viewpoint)
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

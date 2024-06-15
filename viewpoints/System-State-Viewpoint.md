@@ -35,6 +35,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * Transition [UML_Standard_Profile]
 * [SAF_DomainKind](../stereotypes.md#SAF_DomainKind)
 * [SAF_F3_SSTA](../stereotypes.md#SAF_F3_SSTA)
+* [SAF_F3_SSTA_Table](../stereotypes.md#SAF_F3_SSTA_Table)
 * [SAF_LogicalElement](../stereotypes.md#SAF_LogicalElement)
 * [SAF_SystemFunction](../stereotypes.md#SAF_SystemFunction)
 ## Input from other Viewpoints

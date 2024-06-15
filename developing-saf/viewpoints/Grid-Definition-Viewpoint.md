@@ -25,6 +25,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |[SAF_C2_GRID](../../stereotypes.md#SAF_C2_GRID)|[Grid Cell](../concept/concepts.md#Grid-Cell)|
 |[SAF_C2_GRID](../../stereotypes.md#SAF_C2_GRID)|[Grid Definition Viewpoint](../concept/concepts.md#Grid-Definition-Viewpoint)|
 |[SAF_Diagram](../../stereotypes.md#SAF_Diagram)|[View](../concept/concepts.md#View)|
+|[SAF_Viewpoint](../../stereotypes.md#SAF_Viewpoint)|[Viewpoint](../concept/concepts.md#Viewpoint)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

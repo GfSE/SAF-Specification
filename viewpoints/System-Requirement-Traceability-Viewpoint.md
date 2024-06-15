@@ -34,7 +34,7 @@ A dependency matrix featuring relationships for every System Requirement to the 
 * [Which system interface is addressed by a system requirement?](../concerns.md#_2021x_2_8710274_1674576758640_156873_23115)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SAF_F8_SRQT](../stereotypes.md#SAF_F8_SRQT)
+* [SAF_F8_SRQT_Matrix](../stereotypes.md#SAF_F8_SRQT_Matrix)
 * [SAF_SystemFunctionalRequirementConstraint](../stereotypes.md#SAF_SystemFunctionalRequirementConstraint)
 * [SAF_SystemFunctionalRequirementRefinement](../stereotypes.md#SAF_SystemFunctionalRequirementRefinement)
 * [SAF_SystemFunctionalRequirement](../stereotypes.md#SAF_SystemFunctionalRequirement)

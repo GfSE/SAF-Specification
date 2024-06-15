@@ -54,10 +54,13 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |ObjectFlow [UML_Standard_Profile]|[General Functional Exchange](../concept/concepts.md#General-Functional-Exchange)|
 |OutputPin [UML_Standard_Profile]|[GFEfromGFP](../concept/concepts.md#GFEfromGFP)|
 |Parameter [UML_Standard_Profile]|[General Functional Parameter](../concept/concepts.md#General-Functional-Parameter)|
+|SAF_ContextAction contained in SAF_SystemProcess|[Context Function IN System Process](../concept/concepts.md#Context-Function-IN-System-Process)|
 |[SAF_ContextFunction](../../stereotypes.md#SAF_ContextFunction)|[Context Function](../concept/concepts.md#Context-Function)|
 |[SAF_F3_SPRO](../../stereotypes.md#SAF_F3_SPRO)|[System Process Viewpoint](../concept/concepts.md#System-Process-Viewpoint)|
-|SAF_LogicalContextRole contained in SAF_LogicalContext|[Logical Context Element Role](../concept/concepts.md#Logical-Context-Element-Role)|
-|SAF_LogicalContextRole contained in SAF_LogicalContext|[Logical SOI Role](../concept/concepts.md#Logical-SOI-Role)|
+|[SAF_F3_SPRO_Table](../../stereotypes.md#SAF_F3_SPRO_Table)|[System Process Viewpoint](../concept/concepts.md#System-Process-Viewpoint)|
+|SAF_FunctionAction contained in SAF_SystemProcess|[System Function IN System Process](../concept/concepts.md#System-Function-IN-System-Process)|
+|[SAF_LogicalContextRole](../../stereotypes.md#SAF_LogicalContextRole)|[Logical Context Element Role](../concept/concepts.md#Logical-Context-Element-Role)|
+|[SAF_LogicalContextRole](../../stereotypes.md#SAF_LogicalContextRole)|[Logical SOI Role](../concept/concepts.md#Logical-SOI-Role)|
 |[SAF_SystemFunction](../../stereotypes.md#SAF_SystemFunction)|[System Function](../concept/concepts.md#System-Function)|
 |[SAF_SystemProcess](../../stereotypes.md#SAF_SystemProcess)|[System Process](../concept/concepts.md#System-Process)|
 ## Input from other Viewpoints

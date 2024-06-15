@@ -35,8 +35,9 @@ A tabular format listing context roles, context elements, and respective descrip
 * [Which interface partners does the system have?](../concerns.md#_2021x_2_8710274_1674576759091_673143_23507)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* SAF_LogicalContextRole contained in SAF_LogicalContext
 * [SAF_F1_SCXD](../stereotypes.md#SAF_F1_SCXD)
+* [SAF_F1_SCXD_Table](../stereotypes.md#SAF_F1_SCXD_Table)
+* [SAF_LogicalContextRole](../stereotypes.md#SAF_LogicalContextRole)
 * [SAF_LogicalContext](../stereotypes.md#SAF_LogicalContext)
 * [SAF_LogicalEnvironment](../stereotypes.md#SAF_LogicalEnvironment)
 * [SAF_LogicalExternalSystem](../stereotypes.md#SAF_LogicalExternalSystem)

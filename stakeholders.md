@@ -154,7 +154,7 @@ The Developer is a group or an individual implementing the system parts accordin
 * Which conceptual items (energy, material, information, etc.) are exchanged within the system? 
 
   ***Rationale:  In my role, I need to understand the concepts of system internal interfaces  in order to implement them.***
-* Which functions are allocated to which parts of the logical SOI architecture? 
+* Which functions are allocated to which parts of the logical architecture? 
 
   ***Rationale:  In my role, I need to take this into account when planning implementation.***
 * Which functions will the system provide? 
@@ -515,7 +515,7 @@ The Developer is a group or an individual implementing the system parts accordin
 * Which conceptual items (energy, material, information, etc.) are exchanged within the system? 
 
   ***Rationale:  In my role, I need to understand the concepts of system internal interfaces  in order to implement them.***
-* Which functions are allocated to which parts of the logical SOI architecture? 
+* Which functions are allocated to which parts of the logical architecture? 
 
   ***Rationale:  In my role, I need to take this into account when planning implementation.***
 * Which functions will the system provide? 
@@ -660,7 +660,7 @@ The System Architect as an individual or group performing the systems engineerin
 * Which conceptual items (energy, material, information, etc.) are exchanged within the system? 
 
   ***Rationale:  In my role, I use them as basis for understanding interfaces on logical level.***
-* Which functions are allocated to which parts of the logical SOI architecture?
+* Which functions are allocated to which parts of the logical architecture?
 * Which functions will the system provide? 
 
   ***Rationale:  In my role, I need to break these down further to be able to delegate sub-functions to subsystems.***

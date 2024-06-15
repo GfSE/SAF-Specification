@@ -34,7 +34,10 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * SAF_LogicalInternalRole contained in SAF_LogicalElement
 * [SAF_LogicalElement](../stereotypes.md#SAF_LogicalElement)
 * [SAF_P8_PLOM_Matrix](../stereotypes.md#SAF_P8_PLOM_Matrix)
+* [SAF_PhysicalElement](../stereotypes.md#SAF_PhysicalElement)
+* [SAF_PhysicalHardwareElement](../stereotypes.md#SAF_PhysicalHardwareElement)
 * [SAF_PhysicalInternalRole](../stereotypes.md#SAF_PhysicalInternalRole)
+* [SAF_PhysicalSoftwareElement](../stereotypes.md#SAF_PhysicalSoftwareElement)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Logical Structure Definition Viewpoint](Logical-Structure-Definition-Viewpoint.md)

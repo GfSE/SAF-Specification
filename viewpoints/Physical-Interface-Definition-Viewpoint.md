@@ -32,12 +32,9 @@ A tabular format listing Physical Interface blocks, their ports, and flow proper
 * [Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the system?](../concerns.md#_2021x_2_8710274_1697542838788_945785_24608)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* Attribute "realizingConnector" of InformationFlow referencing Connector
-* Connector [UML_Standard_Profile]
 * FlowProperty [SysML Profile]
 * FlowProperty contained in SAF_PhysicalInterfaceDefinition
 * FlowProperty typed by SAF_PhysicalExchangeType
-* ItemFlow typed by SAF_PhysicalExchangeType
 * ProxyPort [SysML Profile]
 * ProxyPort typed by SAF_PhysicalInterfaceDefinition
 * SAF_PhysicalInterfaceDefinition contained in ProxyPort

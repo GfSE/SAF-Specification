@@ -16,7 +16,7 @@ A tabular format listing the relationships of System Capabilities to Operational
 ## Concern
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SAF_F8_SCYM](../stereotypes.md#SAF_F8_SCYM)
+* [SAF_F8_SCYM_Table](../stereotypes.md#SAF_F8_SCYM_Table)
 * [SAF_StakeholderRequirement](../stereotypes.md#SAF_StakeholderRequirement)
 * [SAF_SystemCapabilityComposition](../stereotypes.md#SAF_SystemCapabilityComposition)
 * [SAF_SystemCapabilityDependency](../stereotypes.md#SAF_SystemCapabilityDependency)

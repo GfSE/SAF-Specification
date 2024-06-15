@@ -30,15 +30,10 @@ A tabular format listing the Domain Item Kinds, and their relationships.
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
-|FlowProperty [SysML Profile]|[Logical Interaction Point Property](../concept/concepts.md#Logical-Interaction-Point-Property)|
-|ItemFlow [SysML Profile]|[Logical Item Exchange](../concept/concepts.md#Logical-Item-Exchange)|
-|Parameter [UML_Standard_Profile]|[General Functional Parameter](../concept/concepts.md#General-Functional-Parameter)|
 |[SAF_DomainKindComposition](../../stereotypes.md#SAF_DomainKindComposition)|[SDKcomposedOF](../concept/concepts.md#SDKcomposedOF)|
-|[SAF_DomainKindDerivation](../../stereotypes.md#SAF_DomainKindDerivation)|[SDKderivingFromODK](../concept/concepts.md#SDKderivingFromODK)|
 |[SAF_DomainKind](../../stereotypes.md#SAF_DomainKind)|[System Domain Kind](../concept/concepts.md#System-Domain-Kind)|
 |[SAF_F2_SDIK](../../stereotypes.md#SAF_F2_SDIK)|[System Domain Item Kind Viewpoint](../concept/concepts.md#System-Domain-Item-Kind-Viewpoint)|
-|[SAF_OperationalDomainKind](../../stereotypes.md#SAF_OperationalDomainKind)|[Operational Domain Kind](../concept/concepts.md#Operational-Domain-Kind)|
-|State [UML_Standard_Profile]|[System State](../concept/concepts.md#System-State)|
+|[SAF_F2_SDIK_Table](../../stereotypes.md#SAF_F2_SDIK_Table)|[System Domain Item Kind Viewpoint](../concept/concepts.md#System-Domain-Item-Kind-Viewpoint)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

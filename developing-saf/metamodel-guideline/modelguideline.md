@@ -80,6 +80,7 @@ Example:
 ![class](ex-concept-abstr.svg)
 
 `Rule: Use abstract metamodel items if appropriate.`
+
 `Rule: Do not expose abstract concepts.`
 
 ### Composition and Aggregation
@@ -272,9 +273,14 @@ All Stereotypes inherit either from
 
 `Rule: all SPM stereotypes for diagrams shall be prefixed "SAF_<domain letter><aspect number>_<viewpoint short code>"`
 
+`Rule: all SPM stereotypes for diagrams representing Tables shall be postfixed  "_Table"`
+
+`Rule: all SPM stereotypes for diagrams representing Matrices shall be postfixed  "_Matrix"`
+
 See [aspects](../../aspects.md) and [domains](../../domains.md)
 
-Example: SAF_L2_LSTD for the Logical Structure Definition Viewpoint
+Example: SAF_L2_LSTD for the Logical Structure Definition Viewpoint represented by a BDD
+Example: SAF_L8_LFUM_Matrix for the Logical Functional Mapping Viewpoint represented my a Matrix
 
 
 ## Tagged values of SPM stereotypes
@@ -389,18 +395,48 @@ Note, that the SAF_Views define what concepts are shown in the viewpoint. Since 
 
 In the SAF Metamodel the following conventions are used
 `Rule: A View is always related one to one to a Viewpoint`
+
 `Rule: A View exposes SAF Concepts from the SAF Conceptual Model.`
 
+`Rule: generally, diagrams shall be layouted, that the relationships are clearly visible. Overlapping of relationships shall be only used if all relationships go to one element e.g. as this is good practise for inheritance.`
+
 Example of a view specification in the SAF Metamodel
+
 
 ![Logic](../viewpoints/diagrams/Logical-Structure-Definition-Concept.svg)
 
 In the example a view “Logical Structure Viewpoint is specified by means of the SAF_View and SAF_Viewpoint elements. The View exposes the relevant concepts of the SAF Conceptual model.
-Additionally, to view specification a diagram showing the viewpoint implementation is provided.
+
+The diagram shall contain 
+* the viewpoint object
+* a view object conforming to the viewpoint
+* the concepts to be exposed, and possibly related concepts if they help explaining.
+
+It is recommended to show a legend in the diagram.
+
+
+Additionally, to view specification a diagram showing the viewpoint implementation is provided: 
 
 ![Logic](../viewpoints/diagrams/Logical-Structure-Definition-Profile.svg)
 
 The example shows how the concepts that are exposed in a view are implemented in the SAF Profile
+The diagram shall show
+* the viewpoint
+* the exposed concepts (the exposure relations can be omitted)
+* the implementation of every exposed concept and traceability relationships **SAF_RealizeConcept**
+* there shall be a stereotype implementing the viewpoint for each different kind of presentation (e.g one for a BDD, and another one for a Table)
+
+`Rule: all implementation shall be shown in the diagram because the documentation is generated from the diagram elements`
+
+`Rule: implementation not relevant for the viepoint shall not be shown because the documentation is generated from the diagram elements`
+
+`Rule: if concepts are directly implemented by metaclasses they shall be shown; it is recommended to put them in a graphically separated section.`
+
+`Rule: if concepts are implemented by SAF stereotypes, the inheritance to SysML stereotypes shall be shown if applicable; it is then recommended to put the SysML elements is a graphically separated section.`
+
+`Rule: UML metaclasses are generally shown in stereotypes, there is no need to show them as separate objects on the diagrams`
+
+It is recommended to show a legend in the diagram.
 
 ## Package structure of SCM
 
