@@ -36,7 +36,7 @@ Following model elements are used in the SAF Conceptual Model.
 
 ### Classes
 
-Classes stereotyped as **<<SAF_Concept>>** represent any concept or term in the SAF Conceptual Model (SCM).
+Classes stereotyped as **<<SCM_Concept>>** represent any concept or term in the SAF Conceptual Model (SCM).
 
 Example:
 
@@ -154,7 +154,7 @@ In SAF certain viewpoints represent analysis results from queries spanning sever
 
 E.g. A viewpoint could compute a requirement to state mapping by following the relations from “requirement” over “transits to state” to “state”.
 
-In order to specify such queries, a new derived relationship between state and requirement is drawn and marked by the stereotype **<<SAF_derived_relationship>>**. The description of the derived relationship must contain sufficient information how the information is to be derived.
+In order to specify such queries, a new derived relationship between state and requirement is drawn and marked by the stereotype **<<SCM_derived_relationship>>**. The description of the derived relationship must contain sufficient information how the information is to be derived.
 
 Example:
 
@@ -293,20 +293,17 @@ Tagged values are either
 
 For the types of SPM stereotype properties, the basic types from the UML profile shall be used. SPM may introduce own types (e.g. enumerations) when appropriate.
 
-Example:
-
-![class](ex-prof-tagvalue.svg)
-The stereotype SAF_PhysicalElement has a tagged value criticality of an enumeration type “SAF_Criticality“ wich is also defined in SPM. In a project model using SAF an “Emergency Stop Switch” is modelled with the criticality set to “high”
 
 TBD: give examples for relations
 
-## Traceability to SAF Concept Model (SCM)
+## Traceability to SAF Concept Model
 
-The implementation of SAF concepts by SAF profile elements is shown by an UML “abstraction ” stereotyped to **<<SAF_RealizeConcept>>** relationship from the implementing element to the concept element.
+The implementation of SAF concepts by SAF profile elements is shown by an UML “abstraction ” stereotyped to **<<SCM_RealizeConcept>>** relationship from the implementing element to the concept element.
 
 Example:
-
 ![class](ex-prof-trace.svg)
+
+![class](../viewpoints/diagrams/Logical-Structure-Definition-Profile.svg)
 
 In the above example the concept “Logical Elemen” is implemented by a stereotype SAF_LogicalElement from the SAF Profile which inherits from SysML Block. The Itnernal Logical Element Role implemented by a plain UML “Property” element.
 
@@ -328,7 +325,7 @@ tbd: add examples
 
 ### Traceability to "is contained in" specifications
 
-The Example shows how the concept Logical Context SOI Role is implemented by the fact that a SAF_LogicalContextRole element is contained in a SAF_LogicalContext element.
+The Example shows how the concept TRMdefinedBySDT is implemented by the fact that a SAF_Term is contained in a SAF_Standard element.
 
 ![contained in](ex-prof-containedin.svg)
 
@@ -340,7 +337,7 @@ Constraints in the SAF Profile Model should be used to restrict the usage of UML
 
 Example : constraint  on implementation relationship
 
-**Note, that many constraints can be replaced by the formally more precise <<SCM_Attribute>>, <<SCM_typeOf>> and <<SCM_containedIn>> relations.**
+
 
 Example: constraint on stereotype
 
@@ -350,10 +347,12 @@ In the example a constraint is imposed on the sterotype, to further specify the 
 
 `Rule:Use constraints sparsely, only easy constraints, but use them if necessary to maintain correctness of the model.`
 
+Note, that many constraints can be replaced by the formally more precise <<SCM_Attribute>>, <<SCM_typeOf>> and <<SCM_containedIn>> relations.
+
 ## Abstract Stereotypes
 
-Stereotypes can be marked as “abstract”. This means that they are not intended to be applied to any SAF system of interest model.
-The use of abstract stereotypes is recommended only if tagged values are to be bound to them and other non-abstract stereotype inherit those tagged values.
+Stereotypes can be marked as “abstract”. This means that they are not intended to be applied to any SAF system model.
+An example for use of abstract stereotypes is tagged values are to be bound to them and other non-abstract stereotype inherit those tagged values.
 
 Example:
 
@@ -373,9 +372,9 @@ Major elements in the SAF Metamodel are the Viewpoint specifications, I.e. the s
 
 Viewpoint specifications are organized in a [package structure](#package-structure-of-scm)
 
-For  Viewpoint elements the **<<SAF_Viewpoint>>** stereotype shall be used.
+For  Viewpoint elements the **<<SCM_Viewpoint>>** stereotype shall be used.
 
-A **SAF_Viewpoint** specifies
+A **SCM_Viewpoint** specifies
 
 * how a view onto the system model is to be constructed and presented (Diagrams, Queries, Tables..) by a textual description the presentation attribute. Note, that several presentation entries are possible and used for alternate presentations.
 * what the purpose of the viewpoint is, in the purpose attribute.
@@ -387,10 +386,10 @@ A **SAF_Viewpoint** specifies
 * Which other viewpoints are recommended by references in the saf_recommended_vp attribute
 * a unique 4 letter short cut name resembling the viewpoint name
 
-A **SAF_View**
+A **SCM_View**
 Note, that the SAF_Views define what concepts are shown in the viewpoint. Since this is the specification of a Framework, we must expose SAF concepts, not elements of a system model.
 
-* Conforms to exactly one **SAF_Viewpoint** by a conform relationship (the newer generalization type of conform shall be used).
+* Conforms to exactly one **SCM_Viewpoint** by a conform relationship (the newer generalization type of conform shall be used).
 * Exposes certain Concept Model elements by an expose relationship.
 
 In the SAF Metamodel the following conventions are used
@@ -423,7 +422,7 @@ The example shows how the concepts that are exposed in a view are implemented in
 The diagram shall show
 * the viewpoint
 * the exposed concepts (the exposure relations can be omitted)
-* the implementation of every exposed concept and traceability relationships **SAF_RealizeConcept**
+* the implementation of every exposed concept and traceability relationships **SCM_RealizeConcept**
 * there shall be a stereotype implementing the viewpoint for each different kind of presentation (e.g one for a BDD, and another one for a Table)
 
 `Rule: all implementation shall be shown in the diagram because the documentation is generated from the diagram elements`
@@ -453,7 +452,7 @@ SAF Viewpoint contains the view specifications grouped in subpackages by SAF dom
 
 
 The SCM elements specifying a viewpoint are grouped in one package per Viewpoint stereotyped SCM_VP_Package, and in this package at least
-  * a view stereotyped SAF_View, 
+  * a view stereotyped SCM_View, 
   * a viewpoint stereotyped SAF_Viewpoint,
   * a class diagram showing the concept model
   * and a profile diagram showing the profile specification for the viewpoint.

@@ -375,14 +375,15 @@ A tabular format listing the identified interfaces of the soi (ports), referenci
 *none*
 
 ### Documentation
-The System Use Case Viewpoint provides an outside view on the system functionality from the perspective of the system users and contributes to the definition of system requirements and system usage. The intended system use may be captured as free-text use case description, as well as storytelling approach on a coarse level of detail. The main system exchange partners participating in the intended system use are identified. System use cases are related to a specific system context.
+The System Use Case Viewpoint provides an outside view on the system functionality from the perspective of the system users and contributes to the definition of system requirements and system usage. The intended system use may be captured as free-text use case description, as well as storytelling approach on a coarse level of detail. The main system exchange partners participating in the intended system use are identified. System use cases are related to a specific system context. System use cases are derived from operational scenarios elaborated during mission analysis.
 
 Representation:
 
 A use case diagram featuring model elements representing System Use Cases, System Context, and System Context Elements. The System Context shall be used as subject of the use case. The System Context Elements playing a Role in the Use Case shall be connected to the Use Case by associations.
 Note: System Use Case pre- and postconditions shall be represented either by callout or compartment notation.
+Relationship to operational stories can be related to the use case in order trace to mission analysis.
 
-A tabular format listing the System Use Cases, the System Use Case pre- and postconditions, the System Context, and the System Context Elements.
+A tabular format listing the System Use Cases, the System Use Case pre- and postconditions, the System Context, and the System Context Elements. Additionaly, the relationship to operational stories, if applicable.
 
 ## SAF_F1_SUCS_Table
 
@@ -390,14 +391,15 @@ A tabular format listing the System Use Cases, the System Use Case pre- and post
 *none*
 
 ### Documentation
-The System Use Case Viewpoint provides an outside view on the system functionality from the perspective of the system users and contributes to the definition of system requirements and system usage. The intended system use may be captured as free-text use case description, as well as storytelling approach on a coarse level of detail. The main system exchange partners participating in the intended system use are identified. System use cases are related to a specific system context.
+The System Use Case Viewpoint provides an outside view on the system functionality from the perspective of the system users and contributes to the definition of system requirements and system usage. The intended system use may be captured as free-text use case description, as well as storytelling approach on a coarse level of detail. The main system exchange partners participating in the intended system use are identified. System use cases are related to a specific system context. System use cases are derived from operational scenarios elaborated during mission analysis.
 
 Representation:
 
 A use case diagram featuring model elements representing System Use Cases, System Context, and System Context Elements. The System Context shall be used as subject of the use case. The System Context Elements playing a Role in the Use Case shall be connected to the Use Case by associations.
 Note: System Use Case pre- and postconditions shall be represented either by callout or compartment notation.
+Relationship to operational stories can be related to the use case in order trace to mission analysis.
 
-A tabular format listing the System Use Cases, the System Use Case pre- and postconditions, the System Context, and the System Context Elements.
+A tabular format listing the System Use Cases, the System Use Case pre- and postconditions, the System Context, and the System Context Elements. Additionaly, the relationship to operational stories, if applicable.
 
 ## SAF_F2_SCYD
 
@@ -745,8 +747,8 @@ A FBS to LBS mapping matrix featuring
 *none*
 
 ### Documentation
-<html>Stereotype realizes multiple Concepts:<UL><LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Logical-SOI-Role'>Logical SOI Role</A><BR>Logical SOI Role: Specifies the fact that a Logical Context SOI exists in a given Logical System Context.<BR></LI>
-<LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Logical-Context-Element-Role'>Logical Context Element Role</A><BR>Logical Context Element Role: Specifies the fact that a Logical Context Element exists in a given Logical System Context.<BR></LI>
+<html>Stereotype realizes multiple Concepts:<UL><LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Logical-Context-Element-Role'>Logical Context Element Role</A><BR>Logical Context Element Role: Specifies the fact that a Logical Context Element exists in a given Logical System Context.<BR></LI>
+<LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Logical-SOI-Role'>Logical SOI Role</A><BR>Logical SOI Role: Specifies the fact that a Logical Context SOI exists in a given Logical System Context.<BR></LI>
 </UL>
 </html>
 

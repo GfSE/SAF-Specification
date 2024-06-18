@@ -20,7 +20,7 @@ This argument concept is used to claim that a conclusion about the whole object 
 ## Argument Substitution
 This argument concept is used to claim that if a property holds for one object, then it holds for an equivalent object. Similarly, if a property holds for some object, then an equivalent property will also hold for the same object. The nature of the equivalence will vary with the object and property and will need to be defined.
 ## Aspect
-realized by Stereotype [SAF_AspectColumn](../../stereotypes.md#SAF_AspectColumn)
+realized by Stereotype [SCM_AspectColumn](../../stereotypes.md#SCM_AspectColumn)
 
 Aspects capture a set of characteristics or features of the Entity of Interest in its Environment to address Concerns within an Architecture Description.
 ## Asset
@@ -64,7 +64,7 @@ realized by Stereotype [SAF_CounterClaim](../../stereotypes.md#SAF_CounterClaim)
 
 A party's claim is a counter-claim if one party asserts claims in response to the claims of another.
 ## Domain
-realized by Stereotype [SAF_DomainLayer](../../stereotypes.md#SAF_DomainLayer)
+realized by Stereotype [SCM_DomainLayer](../../stereotypes.md#SCM_DomainLayer)
 
 
 ## Evidence
