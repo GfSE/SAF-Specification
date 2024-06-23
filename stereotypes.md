@@ -75,6 +75,20 @@ A table format listing technical, operational, and business standards, guidance,
 ### Documentation
 
 
+## SAF_C2_GRID_Table
+
+### Icon
+*none*
+
+### Documentation
+The Grid Definition Viewpoint serves as graphic representation of the Views present in a System Model.
+
+Representation:
+
+A content diagram featuring a matrix view for the SAF Viewpoint conceptual model: Rows represent Domains, and columns represent Aspects, and the cells manage the Views.
+
+A table featuring the saf viewpoints, the views (diagrams, tables, ..) of the system model conforming to those viewpoints, domain and aspect information
+
 ## SAF_C2_TRMD_Table
 
 ### Icon
@@ -224,7 +238,7 @@ Note: The intention is to capture the expectations and to explicitly dissect the
 *none*
 
 ### Documentation
-
+*none*
 
 ## SAF_Diagram
 
@@ -232,7 +246,7 @@ Note: The intention is to capture the expectations and to explicitly dissect the
 *none*
 
 ### Documentation
-*none*
+
 
 ## SAF_DocumentReference
 
@@ -1894,7 +1908,11 @@ Note: The intended use (and also misuse in so called "black use cases") of the S
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Viewpoint'>Viewpoint</A><BR>Viewpoint: A architecture viewpoint defines set of conventions for the creation, interpretation and use of an architecture view to frame one or more concerns<BR></html>
+<html>Stereotype realizes multiple Concepts:<UL><LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Viewpoint'>Viewpoint</A><BR>Viewpoint: A architecture viewpoint defines set of conventions for the creation, interpretation and use of an architecture view to frame one or more concerns<BR></LI>
+<LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#VPbelongingToDN'>VPbelongingToDN</A><BR>VPbelongingToDN: specifies that a viewpoint belongs to one domain.<BR></LI>
+<LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#VPbelongingToDN'>VPbelongingToDN</A><BR>VPbelongingToDN: specifies that a viewpoint belongs to one aspect.<BR></LI>
+</UL>
+</html>
 
 
 ## SysML ActivityDiagram

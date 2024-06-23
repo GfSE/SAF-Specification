@@ -121,12 +121,6 @@ exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-V
 realized by Stereotype [SAF_C2_GRID](../../stereotypes.md#SAF_C2_GRID)
 
 The grid manages the viewpoints in grid cells assigned to the categories of an domain (row) and an aspect (column).
-## Grid Cell
-exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-Viewpoint.md)
-
-realized by Stereotype [SAF_C2_GRID](../../stereotypes.md#SAF_C2_GRID)
-
-
 ## Hardware Element
 exposed in viewpoint [Physical Functional Mapping Viewpoint](../viewpoints/Physical-Functional-Mapping-Viewpoint.md)
 
@@ -714,6 +708,8 @@ realized by Metaclass Event
 Representation for a human in the Logical Domain, outside the SOI scope, interacting with the SOI.
 Note: This seems to be highly redundant with definition of "Role".
 ## View
+exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-Viewpoint.md)
+
 realized by Stereotype [SAF_Diagram](../../stereotypes.md#SAF_Diagram)
 
 A architecture view comprises portion of an architecture description and addresses information-relevant concerns framed by a architecture viewpoint.
@@ -827,34 +823,6 @@ exposed in viewpoint [System Requirement Traceability Viewpoint](../viewpoints/S
 realized by Stereotype [SAF_SystemFunctionalRequirementRefinement](../../stereotypes.md#SAF_SystemFunctionalRequirementRefinement)
 
 Specifies the fact that a System Function is refined by Functional Requirements.
-## GCbelongingToAT
-1..* [Grid Cell](#Grid-Cell) GCbelongingToAT 1 [Aspect](#Aspect) 
-
-exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-Viewpoint.md)
-
-realized by Stereotype [SAF_C2_GRID](../../stereotypes.md#SAF_C2_GRID)
-
-Specifies that a grid cell is assigned to one aspect.
-## GCbelongingToDN
-1..* [Grid Cell](#Grid-Cell) GCbelongingToDN 1 [Domain](#Domain) 
-
-exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-Viewpoint.md)
-
-realized by Stereotype [SAF_C2_GRID](../../stereotypes.md#SAF_C2_GRID)
-
-Specifies that a grid cell is assigned to one domain.
-## GCcontainingVP
-1 [Grid Cell](#Grid-Cell) GCcontainingVP 0..* [Viewpoint](#Viewpoint) 
-
-exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-Viewpoint.md)
-
-
-## GCcontainingVW
-1 [Grid Cell](#Grid-Cell) GCcontainingVW 1 [View](#View) 
-
-realized by Stereotype [SAF_C2_GRID](../../stereotypes.md#SAF_C2_GRID)
-
-Specifies that a grid cell contains views.
 ## GDcontainingAT
 1 [Grid](#Grid) GDcontainingAT 1..* [Aspect](#Aspect) 
 
@@ -862,17 +830,17 @@ exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-V
 
 Specifies that the grid is composed of several aspects.
 ## GDcontainingDN
-1 [Grid](#Grid) GDcontainingDN 1 [Domain](#Domain) 
+1 [Grid](#Grid) GDcontainingDN 1..* [Domain](#Domain) 
 
 exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-Viewpoint.md)
 
 Specifies that the grid is composed of several domains.
-## GDcontainingGC
-1 [Grid](#Grid) GDcontainingGC 1..* [Grid Cell](#Grid-Cell) 
+## GDcontainingVP
+1 [Grid](#Grid) GDcontainingVP 1..* [Viewpoint](#Viewpoint) 
 
 exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-Viewpoint.md)
 
-Specifies that the grid is composed of several grid cells.
+Specifies that the grid contains multiple viewpoints
 ## GFEbeingPartOfGFNU
 0..* [General Functional Exchange](#General-Functional-Exchange) GFEbeingPartOfGFNU 1 [General Functional Usage](#General-Functional-Usage) 
 
@@ -1768,6 +1736,30 @@ realized by Stereotype Allocate
 
 
 Specifies the fact that a Usage of Function is allocated to a Usage of System Element.
+## VPbelongingToDN
+0..* [Viewpoint](#Viewpoint) VPbelongingToDN 1 [Aspect](#Aspect) 
+
+exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-Viewpoint.md)
+
+realized by Stereotype [SAF_Viewpoint](../../stereotypes.md#SAF_Viewpoint)
+
+specifies that a viewpoint belongs to one aspect.
+## VPbelongingToDN
+0..* [Viewpoint](#Viewpoint) VPbelongingToDN 1 [Domain](#Domain) 
+
+exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-Viewpoint.md)
+
+realized by Stereotype [SAF_Viewpoint](../../stereotypes.md#SAF_Viewpoint)
+
+specifies that a viewpoint belongs to one domain.
+## VWconformingToVP
+0..* [View](#View) VWconformingToVP 1 [Viewpoint](#Viewpoint) 
+
+exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-Viewpoint.md)
+
+realized by Attribute "diagrams" of SAF_Viewpoint referencing SAF_Diagram
+
+specifies that a view conforms to a viewpoint.
 ## controlledAFTER
 1 [Operational Process](#Operational-Process) controlledAFTER 1 [Operational Process](#Operational-Process) 
 

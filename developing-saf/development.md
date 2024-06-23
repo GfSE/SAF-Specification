@@ -93,6 +93,8 @@ Most of the questions are supported by the following "steckbrief" characteristic
   * hard dependencies (required vp is needed, otherwise this vp cant be filled)
   * soft dependencies (recommended vp supports this vp but could be omitted without breaking things)
 
+The concerns of the SEMP Author are laid out in the [Stakeholder Documentation](../stakeholders.md#saf-mbse-approch-planer)
+
 ### SAF Users::Model User
 
 The user of a model (author or reader) wants to know:
@@ -119,6 +121,8 @@ This is supported by the following "steckbrief" characteristics of the viewpoint
 * Used stereotypes
   (List of stereotypes to be used in the VP)
 
+The concerns of the SAF Model User are laid out in the [Stakeholder Documentation](../stakeholders.md#saf-system-model-user)
+
 ## SAF Developers::Framework Developer
 
 The framework developer wants to know:
@@ -129,6 +133,8 @@ The framework developer wants to know:
 Those questions arise within the development of SAF by the working group and also by third parties when they want to contribute to the framework.
 
 The development documentation aims to answer those questions. See next chapter.
+
+The concerns of the Framework Developer are laid out in the [Stakeholder Documentation](../stakeholders.md#saf-developer)
 
 ## Development Documentation
 

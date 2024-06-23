@@ -360,6 +360,156 @@ Systems Engineering must adhere to relevant standards and needs to demonstrate c
 * How are applicable requirements considered in the system architecture?
 * Which modes and states does the system have?
 * Why types of exchange can exist between Operational Performers (i.e., flows of information, people, material, or energy)?
+# SAF Developer
+The SAF Developer is a group or an individual developing SAF or extending SAF.
+
+## Concern
+* How does a viewpoint of the framework the processes and best practises of the INCOSE SE Handbook? 
+
+  ***Rationale:  I need to cover the processes and best practises by a suitable set of viewpoints.***
+* How is a viewpoint implemented (which stereotypes /model elements are used)?  
+
+  ***Rationale:  I need to chose a suitable implementation for the SE concepts exposed by a viewpoint.***
+* What are the concerns adressed by the frameworks viewpoints? 
+
+  ***Rationale:  I need to cover the information need of stakeholders to match the purpose of the viewpoint.***
+* What is the definition of a viewpoint of the framework? 
+
+  ***Rationale:  I need to create a comprehensive specification of the frameworks viewpoints.***
+* What is the definition of columns (aspects) in the frameworks grid? 
+
+  ***Rationale:  I need to structure the framework along criteria that are similar over the domains. ***
+* What is the definition of rows (domains) in the frameworks grid? 
+
+  ***Rationale:  I need to structure the framework along criteria that roughly resemble phases of a typical SE workflow.***
+* What is the implementation of the frameworks concepts? 
+
+  ***Rationale:  I need to cover the SE concepts exposed by viewpoints by an implementation.***
+* What is the maturity state of viewpoints in the framework? 
+
+  ***Rationale:  I need an overview over the maturity of available to plan SAF development.***
+* What is the purpose of a viewpoint in the framwork? 
+
+  ***Rationale:  I need to explain to SAF users what the viewpoint is good for.***
+* Where is a viewpoint of the framework located in the frameworks grid? 
+
+  ***Rationale:  I need to structure the framework into an understandable grid layout.***
+* Which columns and rows does the frameworks grid have?  
+
+  ***Rationale:  I need to structure the framework into an understandable grid layout.***
+* Which concerns are framed by a viewpoint of the framework? 
+
+  ***Rationale:  I need to design viewpoints that fullfill stakeholders information needs and cover the purpose of the viewpoints.***
+* Which concerns are related to the frameworks stakeholders? 
+
+  ***Rationale:  I need to analyze the concerns if they are justified by SE best practice.***
+* Which dependencies to other viewpoints exist for a viewpoint of the framework? 
+
+  ***Rationale:  I need to explain the hard(e.g. by required model elements being a prerequisite) and soft (a recommended good practice) dependencies to frameworks users.***
+* Which presentations are available for a viewpoint in the framwork? 
+
+  ***Rationale:  I need to specify presentations of the information in a viewpoint to address different framework stakeholders concerns.***
+* Which systems engineering concepts are covered by the framework? 
+
+  ***Rationale:  I need to cover important SE concepts in typical SE workflows along the processes of the INCOSE SE Handbook and SE best practices.***
+* Which systems engineering concepts are exposed within a viewpoint of the framework? 
+
+  ***Rationale:  I need to specify which SE concepts are exposed in order to fullfil the information need of stakeholders and the viewpoints purpose.***
+* Which viewpoints are available in the framework 
+
+  ***Rationale:  I need an overview over the viewpoints available to identify possible gaps.***
+* Who are the Stakeholders of the frameworks viewpoints? 
+
+  ***Rationale:  I need to explain to frameworks users who would typically have an interest in which viewpoint.***
+# SAF MBSE approch planer
+The SAF MBSE approach planer is a group or an individual selecting viewpoints to be used in an MBSE approach. This may be identical with an architect role but may as well be carried out by an organziation standardizing the MBSE approach for products, product lines or an entire enterprise.
+
+## Concern
+* How does a viewpoint of the framework the processes and best practises of the INCOSE SE Handbook? 
+
+  ***Rationale:  I want to know how the INCOSE HB processes and best practises are supported by the frameworks viewpoints, because want to plan a MBSE approach.***
+* What are the concerns adressed by the frameworks viewpoints? 
+
+  ***Rationale:  I want to know if the information need of my stakeholders in the planned MBSE approach is adressed by the viewpoint.***
+* What is the definition of a viewpoint of the framework? 
+
+  ***Rationale:  I need to understand the frameworks viewpoints in order to plan an appropriate MBSE approach.***
+* What is the definition of columns (aspects) in the frameworks grid? 
+
+  ***Rationale:  I need to understand the framworks structure in order to chose viewpoints to be used.***
+* What is the definition of rows (domains) in the frameworks grid? 
+
+  ***Rationale:  I need to understand the frameworks structure in order to chose viewpoints to be used.***
+* What is the maturity state of viewpoints in the framework? 
+
+  ***Rationale:  I need to know which viewpoins are stable to assess the risk using them.***
+* What is the purpose of a viewpoint in the framwork? 
+
+  ***Rationale:  I need to select appropriate viewpoinst for the MBSE approach.***
+* Where is a viewpoint of the framework located in the frameworks grid? 
+
+  ***Rationale:  I need to understand the frameworks structure in order to chose viewpoints to be used.***
+* Which columns and rows does the frameworks grid have?  
+
+  ***Rationale:  I need to understand the frameworks structure in order to chose viewpoints to be used.***
+* Which concerns are framed by a viewpoint of the framework? 
+
+  ***Rationale:  I need to know if the information needs of my stakeholders are covered in order to plan the MBSE approach.***
+* Which concerns are related to the frameworks stakeholders? 
+
+  ***Rationale:  I need to analyze the concerns if they match the information needs my stakeholders will have in order to identify gaps in the MBSE approach.***
+* Which dependencies to other viewpoints exist for a viewpoint of the framework? 
+
+  ***Rationale:  I need to know the dependencies in order to plan the MBSE approach.***
+* Which presentations are available for a viewpoint in the framwork? 
+
+  ***Rationale:  I need plan which presentations shall be used by the MBSE approach.***
+* Which systems engineering concepts are covered by the framework? 
+
+  ***Rationale:  I need know if the SE concepts to my stakeholders according to the planned SE work flow is covered by the framework.***
+* Who are the Stakeholders of the frameworks viewpoints? 
+
+  ***Rationale:  I need to select viewpoints for my stakeholders and want to use this information as a starting point.***
+# SAF System model user
+The SAF System Model User is a group or an individual creating, maintaining or reading SAF System Models.
+
+## Concern
+* How does a viewpoint of the framework the processes and best practises of the INCOSE SE Handbook? 
+
+  ***Rationale:  I want to know how the INCOSE HB processes and best practises are supported by the frameworks viewpoints, because i want to use the viewpoints suitable for the work i am doing.***
+* How is a viewpoint implemented (which stereotypes /model elements are used)?  
+
+  ***Rationale:  I want to know which model elements i am expected to work on in a viewpoint.***
+* What is the definition of a viewpoint of the framework? 
+
+  ***Rationale:  I need a user documentation of the viewpoint i am going to use.***
+* What is the definition of columns (aspects) in the frameworks grid? 
+
+  ***Rationale:  I need to be able to orient myself in the frameworks structure an know what is where.***
+* What is the definition of rows (domains) in the frameworks grid? 
+
+  ***Rationale:  I need to be able to orient myself in the frameworks structure an know what is where.***
+* What is the purpose of a viewpoint in the framwork? 
+
+  ***Rationale:  I need to know if i am using a viewpoint suitable for my modeling task.***
+* Where is a viewpoint of the framework located in the frameworks grid? 
+
+  ***Rationale:  I need to be able to orient myself in the frameworks structure an know what is where.***
+* Which columns and rows does the frameworks grid have?  
+
+  ***Rationale:  I need to be able to orient myself in the frameworks structure an know what is where.***
+* Which dependencies to other viewpoints exist for a viewpoint of the framework? 
+
+  ***Rationale:  I need to know the dependencies in order to plan my work.***
+* Which presentations are available for a viewpoint in the framwork? 
+
+  ***Rationale:  I want to know what types of diagrams, tables etc. i am going to work on.***
+* Which viewpoints are available in the framework 
+
+  ***Rationale:  I want to know which viewpoints can possibly satisfy my information needs.***
+* Which views of the frameworks viewpoints are present in the system model? 
+
+  ***Rationale:  I need an overview about the model in order to orient myself.***
 # Safety Expert
 Definition - Safety Specialist:
 Safety is one subject matter of specialty engineering but important enough to be treated separately. 
@@ -642,7 +792,6 @@ The System Architect as an individual or group performing the systems engineerin
 * Which Stakeholders are relevant to the system and might impose requirements? 
 
   ***Rationale:  In my role, I need to give feedback on existing or missing stakeholders.***
-* Which Viewpoints are present
 * Which are the external physical entities the system interacts with in the given context?
 * Which are the given contexts the system is embedded and utilized in?
 * Which are the interface definitions for the logical architecture? 

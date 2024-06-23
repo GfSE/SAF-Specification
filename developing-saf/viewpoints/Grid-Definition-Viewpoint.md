@@ -2,29 +2,34 @@
 # SAF Development Documentation : **C2_GRID** Grid Definition Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
-|[Common](../../domains.md#Domain-Common)|[Taxonomy & Structure](../../aspects.md#Aspect-Taxonomy-&-Structure)|![Proposed](../../diagrams/Under_construction_icon-red.svg )[proposed](../../using-saf/maturity.md#proposed)|
+|[Common](../../domains.md#Domain-Common)|[Taxonomy & Structure](../../aspects.md#Aspect-Taxonomy-&-Structure)|![Under Construction](../../diagrams/Under_construction_icon-yellow.svg )[under construction](../../using-saf/maturity.md#under-construction)|
 ## Example
 ![Grid-Definition-Viewpoint-primary-example.svg](../../diagrams/vp-examples/Grid-Definition-Viewpoint-primary-example.svg)
+![Grid-Definition-Viewpoint-primary-example-1.svg](../../diagrams/vp-examples/Grid-Definition-Viewpoint-primary-example-1.svg)
 ## Purpose
 The Grid Definition Viewpoint serves as graphic representation of the Views present in a System Model.
 ## Applicability
-The Grid Definition Viewpoint supports the "System Viewpoints, Views and Models" input/output of various Technical Processes in SEHB5.
+The Grid Definition Viewpoint supports the "System Viewpoints, Views and Models" input/output of various Technical Processes in INCOSE SYSTEMS ENGINEERING HANDBOOK 2023.
 ## Presentation
-A content diagram featuring a matrix view for the SAF Viewpoint conceptual model: Rows represent Domains, and columns represent Aspects, and the cells manage the Viewpoint Profiles.
+A content diagram featuring a matrix view for the SAF Viewpoint conceptual model: Rows represent Domains, and columns represent Aspects, and the cells manage the Views.
+
+A table featuring the saf viewpoints, the views (diagrams, tables, ..) of the system model conforming to those viewpoints, domain and aspect information
 
 ## Stakeholder
+* [SAF System model user](../../stakeholders.md#SAF-System-model-user)
 ## Concern
+* [Which views of the frameworks viewpoints are present in the system model?](../../concerns.md#_2024x_26f0132_1719133841790_534930_15826)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
-|[SAF_C2_GRID](../../stereotypes.md#SAF_C2_GRID)|[GCbelongingToAT](../concept/concepts.md#GCbelongingToAT)|
-|[SAF_C2_GRID](../../stereotypes.md#SAF_C2_GRID)|[GCbelongingToDN](../concept/concepts.md#GCbelongingToDN)|
-|[SAF_C2_GRID](../../stereotypes.md#SAF_C2_GRID)|[GCcontainingVW](../concept/concepts.md#GCcontainingVW)|
+|Attribute "diagrams" of SAF_Viewpoint referencing SAF_Diagram|[VWconformingToVP](../concept/concepts.md#VWconformingToVP)|
 |[SAF_C2_GRID](../../stereotypes.md#SAF_C2_GRID)|[Grid](../concept/concepts.md#Grid)|
-|[SAF_C2_GRID](../../stereotypes.md#SAF_C2_GRID)|[Grid Cell](../concept/concepts.md#Grid-Cell)|
 |[SAF_C2_GRID](../../stereotypes.md#SAF_C2_GRID)|[Grid Definition Viewpoint](../concept/concepts.md#Grid-Definition-Viewpoint)|
+|[SAF_C2_GRID_Table](../../stereotypes.md#SAF_C2_GRID_Table)|[Grid Definition Viewpoint](../concept/concepts.md#Grid-Definition-Viewpoint)|
 |[SAF_Diagram](../../stereotypes.md#SAF_Diagram)|[View](../concept/concepts.md#View)|
+|[SAF_Viewpoint](../../stereotypes.md#SAF_Viewpoint)|[VPbelongingToDN](../concept/concepts.md#VPbelongingToDN)|
+|[SAF_Viewpoint](../../stereotypes.md#SAF_Viewpoint)|[VPbelongingToDN](../concept/concepts.md#VPbelongingToDN)|
 |[SAF_Viewpoint](../../stereotypes.md#SAF_Viewpoint)|[Viewpoint](../concept/concepts.md#Viewpoint)|
 ## Input from other Viewpoints
 ### Required Viewpoints
