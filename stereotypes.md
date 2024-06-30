@@ -89,6 +89,18 @@ A content diagram featuring a matrix view for the SAF Viewpoint conceptual model
 
 A table featuring the saf viewpoints, the views (diagrams, tables, ..) of the system model conforming to those viewpoints, domain and aspect information
 
+## SAF_C2_STYD_Table
+
+### Icon
+*none*
+
+### Documentation
+The Stereotype Viewpoint provides an overview over all stereotypes provided by SAF.
+
+Representation:
+
+A table featuring the stereotypes of the SAF profile and their documentation.
+
 ## SAF_C2_TRMD_Table
 
 ### Icon
@@ -238,7 +250,7 @@ Note: The intention is to capture the expectations and to explicitly dissect the
 *none*
 
 ### Documentation
-*none*
+
 
 ## SAF_Diagram
 
@@ -246,7 +258,7 @@ Note: The intention is to capture the expectations and to explicitly dissect the
 *none*
 
 ### Documentation
-
+*none*
 
 ## SAF_DocumentReference
 

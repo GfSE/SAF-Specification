@@ -373,6 +373,7 @@ The SAF Developer is a group or an individual developing SAF or extending SAF.
 * What are the concerns adressed by the frameworks viewpoints? 
 
   ***Rationale:  I need to cover the information need of stakeholders to match the purpose of the viewpoint.***
+* What are the frameworks model elements to be used
 * What is the definition of a viewpoint of the framework? 
 
   ***Rationale:  I need to create a comprehensive specification of the frameworks viewpoints.***
@@ -421,6 +422,7 @@ The SAF Developer is a group or an individual developing SAF or extending SAF.
 * Who are the Stakeholders of the frameworks viewpoints? 
 
   ***Rationale:  I need to explain to frameworks users who would typically have an interest in which viewpoint.***
+* Why does a stakeholder have this specific concern ? 
 # SAF MBSE approch planer
 The SAF MBSE approach planer is a group or an individual selecting viewpoints to be used in an MBSE approach. This may be identical with an architect role but may as well be carried out by an organziation standardizing the MBSE approach for products, product lines or an entire enterprise.
 
@@ -431,6 +433,7 @@ The SAF MBSE approach planer is a group or an individual selecting viewpoints to
 * What are the concerns adressed by the frameworks viewpoints? 
 
   ***Rationale:  I want to know if the information need of my stakeholders in the planned MBSE approach is adressed by the viewpoint.***
+* What are the frameworks model elements to be used
 * What is the definition of a viewpoint of the framework? 
 
   ***Rationale:  I need to understand the frameworks viewpoints in order to plan an appropriate MBSE approach.***
@@ -470,6 +473,7 @@ The SAF MBSE approach planer is a group or an individual selecting viewpoints to
 * Who are the Stakeholders of the frameworks viewpoints? 
 
   ***Rationale:  I need to select viewpoints for my stakeholders and want to use this information as a starting point.***
+* Why does a stakeholder have this specific concern ? 
 # SAF System model user
 The SAF System Model User is a group or an individual creating, maintaining or reading SAF System Models.
 
@@ -480,6 +484,7 @@ The SAF System Model User is a group or an individual creating, maintaining or r
 * How is a viewpoint implemented (which stereotypes /model elements are used)?  
 
   ***Rationale:  I want to know which model elements i am expected to work on in a viewpoint.***
+* What are the frameworks model elements to be used
 * What is the definition of a viewpoint of the framework? 
 
   ***Rationale:  I need a user documentation of the viewpoint i am going to use.***

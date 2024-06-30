@@ -25,6 +25,9 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
 |Attribute "diagrams" of SAF_Viewpoint referencing SAF_Diagram|[VWconformingToVP](../concept/concepts.md#VWconformingToVP)|
+|[SAF_C2_GRID](../../stereotypes.md#SAF_C2_GRID)|[GDcontainingAT](../concept/concepts.md#GDcontainingAT)|
+|[SAF_C2_GRID](../../stereotypes.md#SAF_C2_GRID)|[GDcontainingDN](../concept/concepts.md#GDcontainingDN)|
+|[SAF_C2_GRID](../../stereotypes.md#SAF_C2_GRID)|[GDcontainingVP](../concept/concepts.md#GDcontainingVP)|
 |[SAF_C2_GRID](../../stereotypes.md#SAF_C2_GRID)|[Grid](../concept/concepts.md#Grid)|
 |[SAF_C2_GRID](../../stereotypes.md#SAF_C2_GRID)|[Grid Definition Viewpoint](../concept/concepts.md#Grid-Definition-Viewpoint)|
 |[SAF_C2_GRID_Table](../../stereotypes.md#SAF_C2_GRID_Table)|[Grid Definition Viewpoint](../concept/concepts.md#Grid-Definition-Viewpoint)|

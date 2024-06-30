@@ -48,6 +48,16 @@ Used in the communication between Stakeholder (Customer) and Contractor. Complia
 * not compliant (with explanation / rationale)
 * partially compliant (with explanation / rationale)
 * fully compliant
+## Concern
+exposed in viewpoint [Concern Viewpoint](../viewpoints/Concern-Viewpoint.md)
+
+exposed in viewpoint [Rationale Viewpoint](../viewpoints/Rationale-Viewpoint.md)
+
+exposed in viewpoint [Stakeholder Viewpoint](../viewpoints/Stakeholder-Viewpoint.md)
+
+realized by Stereotype [SCM_VPConcern](../../stereotypes.md#SCM_VPConcern)
+
+Specifies an information need that a stakeholder of the SAF needs to be satisfied within an MBSE approach using SAF.
 ## Context Function
 exposed in viewpoint [System Functional Breakdown Structure Viewpoint](../viewpoints/System-Functional-Breakdown-Structure-Viewpoint.md)
 
@@ -66,7 +76,7 @@ A party's claim is a counter-claim if one party asserts claims in response to th
 ## Domain
 realized by Stereotype [SCM_DomainLayer](../../stereotypes.md#SCM_DomainLayer)
 
-
+Domain captures viewpoints that belong together within typical SE workflow stages.
 ## Evidence
 exposed in viewpoint [Argumentation Assurance Viewpoint](../viewpoints/Argumentation-Assurance-Viewpoint.md)
 
@@ -493,6 +503,8 @@ The Physical User is the representation for a human in the physical domain, outs
 realized by Stereotype [SAF_Process](../../stereotypes.md#SAF_Process)
 
 Unit of Work in Systems Engineering.
+## ProfileItem
+
 ## Protection Goal
 exposed in viewpoint [Protection Goal Definition Viewpoint](../viewpoints/Protection-Goal-Definition-Viewpoint.md)
 
@@ -503,6 +515,20 @@ exposed in viewpoint [Argumentation Assurance Viewpoint](../viewpoints/Argumenta
 realized by Stereotype [SAF_Refuter](../../stereotypes.md#SAF_Refuter)
 
 A party asserting counter-claims.
+## SAF Stereotype
+exposed in viewpoint [Viewpoint Implementation Viewpoint](../viewpoints/Viewpoint-Implementation-Viewpoint.md)
+
+realized by Error: unhandled realizations
+
+A stereotype of the SAF Profile Model
+## SE Concept
+exposed in viewpoint [Concept Viewpoint](../viewpoints/Concept-Viewpoint.md)
+
+exposed in viewpoint [Viewpoint Implementation Viewpoint](../viewpoints/Viewpoint-Implementation-Viewpoint.md)
+
+realized by Stereotype [SCM_Concept](../../stereotypes.md#SCM_Concept)
+
+specifies a SE concept to be supported by SAF
 ## Severity
 
 ## Software Element
@@ -517,6 +543,16 @@ exposed in viewpoint [Physical Structure Definition Viewpoint](../viewpoints/Phy
 realized by Stereotype [SAF_PhysicalSoftwareElement](../../stereotypes.md#SAF_PhysicalSoftwareElement)
 
 Pure Software Elements. Similarity with the V-Model "software unit".
+## Stakeholder
+exposed in viewpoint [Concern Viewpoint](../viewpoints/Concern-Viewpoint.md)
+
+exposed in viewpoint [Rationale Viewpoint](../viewpoints/Rationale-Viewpoint.md)
+
+exposed in viewpoint [Stakeholder Viewpoint](../viewpoints/Stakeholder-Viewpoint.md)
+
+realized by Stereotype [SCM_VPStakeholder](../../stereotypes.md#SCM_VPStakeholder)
+
+specifies someone (typically a role) having an information need within an MBSE approach. 
 ## Stakeholder Requirement
 exposed in viewpoint [Operational Capability Mapping Viewpoint](../viewpoints/Operational-Capability-Mapping-Viewpoint.md)
 
@@ -553,6 +589,12 @@ exposed in viewpoint [Common Standards Definition Viewpoint](../viewpoints/Commo
 realized by Stereotype [SAF_StandardizationSubject](../../stereotypes.md#SAF_StandardizationSubject)
 
 The goal of standardization is to ensure uniformity to certain practices within the industry. Standardization focuses on the product creation process, operations of businesses, technology in use, and how specific compulsory processes are instituted or carried out. Subject of standardization may be  a Data Exchange Format or a Protocol.
+## SysML Stereotype
+exposed in viewpoint [Viewpoint Implementation Viewpoint](../viewpoints/Viewpoint-Implementation-Viewpoint.md)
+
+realized by Error: unhandled realizations
+
+A stereotype from sysml
 ## System
 An abstract element representing a System.
 ## System Capability
@@ -704,6 +746,12 @@ realized by Metaclass Event
 
 
 
+## UML Metaclass
+exposed in viewpoint [Viewpoint Implementation Viewpoint](../viewpoints/Viewpoint-Implementation-Viewpoint.md)
+
+realized by Error: unhandled realizations
+
+A metaclass from UML
 ## User
 Representation for a human in the Logical Domain, outside the SOI scope, interacting with the SOI.
 Note: This seems to be highly redundant with definition of "Role".
@@ -714,7 +762,13 @@ realized by Stereotype [SAF_Diagram](../../stereotypes.md#SAF_Diagram)
 
 A architecture view comprises portion of an architecture description and addresses information-relevant concerns framed by a architecture viewpoint.
 ## Viewpoint
+exposed in viewpoint [Viewpoint Definition Viewpoint](../viewpoints/Viewpoint-Definition-Viewpoint.md)
+
+exposed in viewpoint [Viewpoint Implementation Viewpoint](../viewpoints/Viewpoint-Implementation-Viewpoint.md)
+
 realized by Stereotype [SAF_Viewpoint](../../stereotypes.md#SAF_Viewpoint)
+
+realized by Stereotype [SCM_Viewpoint](../../stereotypes.md#SCM_Viewpoint)
 
 A architecture viewpoint defines set of conventions for the creation, interpretation and use of an architecture view to frame one or more concerns
 # Association Concepts
@@ -828,17 +882,23 @@ Specifies the fact that a System Function is refined by Functional Requirements.
 
 exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-Viewpoint.md)
 
+realized by Stereotype [SAF_C2_GRID](../../stereotypes.md#SAF_C2_GRID)
+
 Specifies that the grid is composed of several aspects.
 ## GDcontainingDN
 1 [Grid](#Grid) GDcontainingDN 1..* [Domain](#Domain) 
 
 exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-Viewpoint.md)
 
+realized by Stereotype [SAF_C2_GRID](../../stereotypes.md#SAF_C2_GRID)
+
 Specifies that the grid is composed of several domains.
 ## GDcontainingVP
 1 [Grid](#Grid) GDcontainingVP 1..* [Viewpoint](#Viewpoint) 
 
 exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-Viewpoint.md)
+
+realized by Stereotype [SAF_C2_GRID](../../stereotypes.md#SAF_C2_GRID)
 
 Specifies that the grid contains multiple viewpoints
 ## GFEbeingPartOfGFNU
@@ -1288,6 +1348,14 @@ Specifies the fact that a Physical Interaction Point applies to an Abstract Phys
 exposed in viewpoint [Physical Context Exchange Viewpoint](../viewpoints/Physical-Context-Exchange-Viewpoint.md)
 
 Specifies the fact that a Physical Interaction Point applies to a Physical Context Element.
+## PIimplementsSEC
+1 [ProfileItem](#ProfileItem) PIimplementsSEC 1..* [SE Concept](#SE-Concept) 
+
+exposed in viewpoint [Viewpoint Implementation Viewpoint](../viewpoints/Viewpoint-Implementation-Viewpoint.md)
+
+realized by Stereotype [SCM_RealizeConcept](../../stereotypes.md#SCM_RealizeConcept)
+
+specifies that a stereotype from the SAF profile implements a concept
 ## PLOisValidInPLS
 0..* [Physical Layer Ordering](#Physical-Layer-Ordering) PLOisValidInPLS 1 [Physical Layer Stack](#Physical-Layer-Stack) 
 
@@ -1454,6 +1522,26 @@ exposed in viewpoint [Common Standards Definition Viewpoint](../viewpoints/Commo
 realized by Stereotype [SAF_StandardSuperseding](../../stereotypes.md#SAF_StandardSuperseding)
 
 Specifies the fact that a standard supersedes one or more other standards.
+## SECisProvidedByVP
+1..* [SE Concept](#SE-Concept) SECisProvidedByVP 0..* [Viewpoint](#Viewpoint) 
+
+exposed in viewpoint [Viewpoint Definition Viewpoint](../viewpoints/Viewpoint-Definition-Viewpoint.md)
+
+realized by Stereotype Expose
+
+
+
+Specifies, that one or more SE Concepts are provided by the Viewpoints Views
+## SECrelatesToSEC
+0..* [SE Concept](#SE-Concept) SECrelatesToSEC 0..* [SE Concept](#SE-Concept) 
+
+exposed in viewpoint [Concept Viewpoint](../viewpoints/Concept-Viewpoint.md)
+
+exposed in viewpoint [Viewpoint Definition Viewpoint](../viewpoints/Viewpoint-Definition-Viewpoint.md)
+
+realized by Stereotype [SCM_Concept](../../stereotypes.md#SCM_Concept)
+
+specifies a relationship of a concept to an other.
 ## SFNallocatedToAPE
 1..* [System Function](#System-Function) SFNallocatedToAPE 1 [Abstract Physical Element](#Abstract-Physical-Element) 
 
@@ -1652,6 +1740,15 @@ Specifies the fact that a SOI Stakeholder is representing an Operational Perform
 1 [System of Interest Stakeholder](#System-of-Interest-Stakeholder) SSHrepresentingUSR 0..* [User](#User) 
 
 Specifies the fact that an User is represented by Stakeholders.
+## SSTimplementsVP
+1..* [SAF Stereotype](#SAF-Stereotype) SSTimplementsVP 1 [Viewpoint](#Viewpoint) 
+
+exposed in viewpoint [Viewpoint Implementation Viewpoint](../viewpoints/Viewpoint-Implementation-Viewpoint.md)
+
+realized by Stereotype [SCM_RealizeConcept](../../stereotypes.md#SCM_RealizeConcept)
+
+specifies, that one ore more SAF Stereotypes implement a viewpoint.
+Note: Multiple Stereotypes are used if there are alternate presentations.
 ## SUCenablingOSY
 0..* [System Use Case](#System-Use-Case) SUCenablingOSY 0..* [Operational Story](#Operational-Story) 
 
@@ -1741,7 +1838,11 @@ Specifies the fact that a Usage of Function is allocated to a Usage of System El
 
 exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-Viewpoint.md)
 
+exposed in viewpoint [Viewpoint Definition Viewpoint](../viewpoints/Viewpoint-Definition-Viewpoint.md)
+
 realized by Stereotype [SAF_Viewpoint](../../stereotypes.md#SAF_Viewpoint)
+
+realized by Attribute "saf_aspect" of SCM_Viewpoint referencing SCM_AspectColumn
 
 specifies that a viewpoint belongs to one aspect.
 ## VPbelongingToDN
@@ -1749,9 +1850,23 @@ specifies that a viewpoint belongs to one aspect.
 
 exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-Viewpoint.md)
 
+exposed in viewpoint [Viewpoint Definition Viewpoint](../viewpoints/Viewpoint-Definition-Viewpoint.md)
+
 realized by Stereotype [SAF_Viewpoint](../../stereotypes.md#SAF_Viewpoint)
 
+realized by Attribute "saf_domain" of SCM_Viewpoint referencing SCM_DomainLayer
+
 specifies that a viewpoint belongs to one domain.
+## VPframesCN
+0..* [Viewpoint](#Viewpoint) VPframesCN 1..* [Concern](#Concern) 
+
+exposed in viewpoint [Concern Viewpoint](../viewpoints/Concern-Viewpoint.md)
+
+exposed in viewpoint [Viewpoint Definition Viewpoint](../viewpoints/Viewpoint-Definition-Viewpoint.md)
+
+realized by Stereotype [SCM_FramesConcern](../../stereotypes.md#SCM_FramesConcern)
+
+Specifies that a Viewpoint frames one or more concerns. That means that the views conform to that viewpoint satisfy the information need expressed by the concerns.
 ## VWconformingToVP
 0..* [View](#View) VWconformingToVP 1 [Viewpoint](#Viewpoint) 
 
@@ -2064,6 +2179,16 @@ exposed in viewpoint [Physical Structure Definition Viewpoint](../viewpoints/Phy
 realized by Stereotype [SAF_PhysicalInternalRole](../../stereotypes.md#SAF_PhysicalInternalRole)
 
 Specifies the fact that a physical structure comprises software elements.
+## Rationale
+1..* [Stakeholder](#Stakeholder) Rationale 1..* [Concern](#Concern) 
+
+exposed in viewpoint [Rationale Viewpoint](../viewpoints/Rationale-Viewpoint.md)
+
+exposed in viewpoint [Stakeholder Viewpoint](../viewpoints/Stakeholder-Viewpoint.md)
+
+realized by Stereotype [SCM_ConcernRationale](../../stereotypes.md#SCM_ConcernRationale)
+
+Specifies why a stakeholder has a concern. Typically that has to do with the work a stakeholder has to do within an MBSE approach.
 ## Software Element Role
 1 [Software Element](#Software-Element) Software Element Role 0..* [Software Element](#Software-Element) 
 
