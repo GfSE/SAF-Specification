@@ -81,7 +81,7 @@ A table format listing technical, operational, and business standards, guidance,
 *none*
 
 ### Documentation
-The Grid Definition Viewpoint serves as graphic representation of the Views present in a System Model.
+The Grid Definition Viewpoint serves as overview about the of the Views present in a System Model.
 
 Representation:
 
@@ -1910,7 +1910,7 @@ Note: The intended use (and also misuse in so called "black use cases") of the S
 ### Documentation
 <html>Stereotype realizes multiple Concepts:<UL><LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Viewpoint'>Viewpoint</A><BR>Viewpoint: A architecture viewpoint defines set of conventions for the creation, interpretation and use of an architecture view to frame one or more concerns<BR></LI>
 <LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#VPbelongingToDN'>VPbelongingToDN</A><BR>VPbelongingToDN: specifies that a viewpoint belongs to one domain.<BR></LI>
-<LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#VPbelongingToDN'>VPbelongingToDN</A><BR>VPbelongingToDN: specifies that a viewpoint belongs to one aspect.<BR></LI>
+<LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#VPbelongingToAT'>VPbelongingToAT</A><BR>VPbelongingToAT: specifies that a viewpoint belongs to one aspect.<BR></LI>
 </UL>
 </html>
 

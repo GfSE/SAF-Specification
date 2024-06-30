@@ -1,11 +1,11 @@
 ![System Architecture Framework](diagrams/Banner_SAF.png)
 # SAF User Documentation : Stakeholders
 ![SAF_Stakeholder_Definition](diagrams/SAF_stakeholder_definition.svg)
-This section provides a list of the Stakeholder roles considered for the elicitaiton of converns for SAF viewpoints. For each, the section lists the concerns that the Stakeholder has that can be addressed by the information in this SAF framework.
+This section provides a list of the Stakeholder roles considered for the elicitation of concerns for SAF viewpoints. For each, the section lists the concerns that the Stakeholder has that can be addressed by the information in this SAF framework.
 
 Each Stakeholder of a system - customer, user, project manager, coder, analyst, tester, and so on - is concerned with different characteristics of the system that are affected by its architecture.
 
-For example, the user has specific concerns which interactions he or sh has with the system.; the customer is has a concern if and how the operational capabilities are supported by the system.
+For example, the user has specific concerns which interactions he or she has with the system.; the customer is has a concern if and how the operational capabilities are supported by the system.
 
 The stakeholders concerns vary with project phases, e.g. the system architect needs to make sure before a PDR, that the systems function are delegated to subsystems completely, and to communicate this to subsystem responsibles.
 
@@ -507,6 +507,9 @@ The SAF System Model User is a group or an individual creating, maintaining or r
 * Which viewpoints are available in the framework 
 
   ***Rationale:  I want to know which viewpoints can possibly satisfy my information needs.***
+* Which viewpoints are used in the system model 
+
+  ***Rationale:  I need an overview about the model in order to orient myself.***
 * Which views of the frameworks viewpoints are present in the system model? 
 
   ***Rationale:  I need an overview about the model in order to orient myself.***

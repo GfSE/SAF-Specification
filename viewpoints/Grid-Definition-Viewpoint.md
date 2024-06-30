@@ -7,7 +7,7 @@
 ![Grid-Definition-Viewpoint-primary-example.svg](../diagrams/vp-examples/Grid-Definition-Viewpoint-primary-example.svg)
 ![Grid-Definition-Viewpoint-primary-example-1.svg](../diagrams/vp-examples/Grid-Definition-Viewpoint-primary-example-1.svg)
 ## Purpose
-The Grid Definition Viewpoint serves as graphic representation of the Views present in a System Model.
+The Grid Definition Viewpoint serves as overview about the of the Views present in a System Model.
 ## Applicability
 The Grid Definition Viewpoint supports the "System Viewpoints, Views and Models" input/output of various Technical Processes in INCOSE SYSTEMS ENGINEERING HANDBOOK 2023.
 ## Presentation
@@ -18,6 +18,7 @@ A table featuring the saf viewpoints, the views (diagrams, tables, ..) of the sy
 ## Stakeholder
 * [SAF System model user](../stakeholders.md#SAF-System-model-user)
 ## Concern
+* [Which viewpoints are used in the system model](../concerns.md#_2021x_2_8710274_1696579743010_350358_24968)
 * [Which views of the frameworks viewpoints are present in the system model?](../concerns.md#_2024x_26f0132_1719133841790_534930_15826)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:

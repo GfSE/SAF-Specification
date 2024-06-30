@@ -1736,8 +1736,8 @@ realized by Stereotype Allocate
 
 
 Specifies the fact that a Usage of Function is allocated to a Usage of System Element.
-## VPbelongingToDN
-0..* [Viewpoint](#Viewpoint) VPbelongingToDN 1 [Aspect](#Aspect) 
+## VPbelongingToAT
+0..* [Viewpoint](#Viewpoint) VPbelongingToAT 1 [Aspect](#Aspect) 
 
 exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-Viewpoint.md)
 
