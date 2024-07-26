@@ -28,12 +28,12 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
 |Attribute "subject" of UseCase referencing SAF_OperationalContext|[OSYtakingPlaceInOCT](../concept/concepts.md#OSYtakingPlaceInOCT)|
-|[SAF_O1_OSTY](../../stereotypes.md#SAF_O1_OSTY)|[Operational Story Viewpoint](../concept/concepts.md#Operational-Story-Viewpoint)|
-|[SAF_OperationalContext](../../stereotypes.md#SAF_OperationalContext)|[Operational Context](../concept/concepts.md#Operational-Context)|
-|[SAF_OperationalPerformerActing](../../stereotypes.md#SAF_OperationalPerformerActing)|[OPRactingInOSY](../concept/concepts.md#OPRactingInOSY)|
-|[SAF_OperationalPerformer](../../stereotypes.md#SAF_OperationalPerformer)|[Operational Performer](../concept/concepts.md#Operational-Performer)|
-|[SAF_OperationalSketch](../../stereotypes.md#SAF_OperationalSketch)|[Operational Sketch](../concept/concepts.md#Operational-Sketch)|
-|[SAF_OperationalStory](../../stereotypes.md#SAF_OperationalStory)|[Operational Story](../concept/concepts.md#Operational-Story)|
+|[SAF_O1_OSTY](../../stereotypes.md#saf_o1_osty)|[Operational Story Viewpoint](../concept/concepts.md#Operational-Story-Viewpoint)|
+|[SAF_OperationalContext](../../stereotypes.md#saf_operationalcontext)|[Operational Context](../concept/concepts.md#Operational-Context)|
+|[SAF_OperationalPerformerActing](../../stereotypes.md#saf_operationalperformeracting)|[OPRactingInOSY](../concept/concepts.md#OPRactingInOSY)|
+|[SAF_OperationalPerformer](../../stereotypes.md#saf_operationalperformer)|[Operational Performer](../concept/concepts.md#Operational-Performer)|
+|[SAF_OperationalSketch](../../stereotypes.md#saf_operationalsketch)|[Operational Sketch](../concept/concepts.md#Operational-Sketch)|
+|[SAF_OperationalStory](../../stereotypes.md#saf_operationalstory)|[Operational Story](../concept/concepts.md#Operational-Story)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Operational Performer Viewpoint](Operational-Performer-Viewpoint.md)

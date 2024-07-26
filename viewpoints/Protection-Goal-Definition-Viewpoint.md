@@ -20,7 +20,7 @@ A table format listing  protection goals  and subcategories.
 * [which protection goals  and subcategories can be used?](../concerns.md#_2024x_26f0132_1718013904611_698880_39125)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SAF_C7_PRND_Table](../stereotypes.md#SAF_C7_PRND_Table)
+* [SAF_C7_PRND_Table](../stereotypes.md#saf_c7_prnd_table)
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

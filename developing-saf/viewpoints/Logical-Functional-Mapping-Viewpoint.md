@@ -28,13 +28,13 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
 |Allocate [SysML Profile]|[USAGEallocatedTo](../concept/concepts.md#USAGEallocatedTo)|
-|[SAF_FunctionAction](../../stereotypes.md#SAF_FunctionAction)|[General Functional Usage](../concept/concepts.md#General-Functional-Usage)|
-|[SAF_L8_LFUM_Matrix](../../stereotypes.md#SAF_L8_LFUM_Matrix)|[Logical Functional Mapping Viewpoint](../concept/concepts.md#Logical-Functional-Mapping-Viewpoint)|
-|[SAF_LogicalElement](../../stereotypes.md#SAF_LogicalElement)|[Logical Element](../concept/concepts.md#Logical-Element)|
+|[SAF_FunctionAction](../../stereotypes.md#saf_functionaction)|[General Functional Usage](../concept/concepts.md#General-Functional-Usage)|
+|[SAF_L8_LFUM_Matrix](../../stereotypes.md#saf_l8_lfum_matrix)|[Logical Functional Mapping Viewpoint](../concept/concepts.md#Logical-Functional-Mapping-Viewpoint)|
+|[SAF_LogicalElement](../../stereotypes.md#saf_logicalelement)|[Logical Element](../concept/concepts.md#Logical-Element)|
 |SAF_LogicalInternalRole contained in SAF_LogicalElement|[Logical Element Role](../concept/concepts.md#Logical-Element-Role)|
-|[SAF_LogicalSOI](../../stereotypes.md#SAF_LogicalSOI)|[Logical Context SOI](../concept/concepts.md#Logical-Context-SOI)|
-|[SAF_SystemFunction](../../stereotypes.md#SAF_SystemFunction)|[System Function](../concept/concepts.md#System-Function)|
-|[SAF_SystemPartialFunction](../../stereotypes.md#SAF_SystemPartialFunction)|[System Partial Function](../concept/concepts.md#System-Partial-Function)|
+|[SAF_LogicalSOI](../../stereotypes.md#saf_logicalsoi)|[Logical Context SOI](../concept/concepts.md#Logical-Context-SOI)|
+|[SAF_SystemFunction](../../stereotypes.md#saf_systemfunction)|[System Function](../concept/concepts.md#System-Function)|
+|[SAF_SystemPartialFunction](../../stereotypes.md#saf_systempartialfunction)|[System Partial Function](../concept/concepts.md#System-Partial-Function)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [System Process Viewpoint](System-Process-Viewpoint.md)

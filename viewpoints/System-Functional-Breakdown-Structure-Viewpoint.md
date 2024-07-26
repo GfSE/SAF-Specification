@@ -33,11 +33,11 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * SAF_ContextAction contained in SAF_SystemProcess
 * SAF_FunctionAction contained in SAF_SystemFunction
 * SAF_FunctionAction contained in SAF_SystemProcess
-* [SAF_ContextFunction](../stereotypes.md#SAF_ContextFunction)
-* [SAF_F2_SFBS](../stereotypes.md#SAF_F2_SFBS)
-* [SAF_SystemFunction](../stereotypes.md#SAF_SystemFunction)
-* [SAF_SystemPartialFunction](../stereotypes.md#SAF_SystemPartialFunction)
-* [SAF_SystemProcess](../stereotypes.md#SAF_SystemProcess)
+* [SAF_ContextFunction](../stereotypes.md#saf_contextfunction)
+* [SAF_F2_SFBS](../stereotypes.md#saf_f2_sfbs)
+* [SAF_SystemFunction](../stereotypes.md#saf_systemfunction)
+* [SAF_SystemPartialFunction](../stereotypes.md#saf_systempartialfunction)
+* [SAF_SystemProcess](../stereotypes.md#saf_systemprocess)
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

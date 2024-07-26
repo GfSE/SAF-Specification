@@ -20,8 +20,8 @@ A  Physical To Logical Assigment Matrix featuring
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Allocate [SysML Profile]
-* [SAF_DomainKind](../stereotypes.md#SAF_DomainKind)
-* [SAF_PhysicalExchangeType](../stereotypes.md#SAF_PhysicalExchangeType)
+* [SAF_DomainKind](../stereotypes.md#saf_domainkind)
+* [SAF_PhysicalExchangeType](../stereotypes.md#saf_physicalexchangetype)
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

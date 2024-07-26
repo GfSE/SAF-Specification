@@ -27,11 +27,11 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * Attribute "realizingConnector" of InformationFlow referencing Connector
 * Connector [UML_Standard_Profile]
 * ItemFlow [SysML Profile]
-* [SAF_O1_OCXE](../stereotypes.md#SAF_O1_OCXE)
-* [SAF_OperationalContextRole](../stereotypes.md#SAF_OperationalContextRole)
-* [SAF_OperationalContext](../stereotypes.md#SAF_OperationalContext)
-* [SAF_OperationalDomainKind](../stereotypes.md#SAF_OperationalDomainKind)
-* [SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)
+* [SAF_O1_OCXE](../stereotypes.md#saf_o1_ocxe)
+* [SAF_OperationalContextRole](../stereotypes.md#saf_operationalcontextrole)
+* [SAF_OperationalContext](../stereotypes.md#saf_operationalcontext)
+* [SAF_OperationalDomainKind](../stereotypes.md#saf_operationaldomainkind)
+* [SAF_OperationalPerformer](../stereotypes.md#saf_operationalperformer)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Operational Context Definition Viewpoint](Operational-Context-Definition-Viewpoint.md)

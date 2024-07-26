@@ -36,10 +36,10 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |Interaction [UML_Standard_Profile]|[System Context Interaction Scenario](../concept/concepts.md#System-Context-Interaction-Scenario)|
 |Lifeline [UML_Standard_Profile]|[System Context Scenario Participation](../concept/concepts.md#System-Context-Scenario-Participation)|
 |Message [UML_Standard_Profile]|[System Context Chronological Message](../concept/concepts.md#System-Context-Chronological-Message)|
-|[SAF_F4_SCXI](../../stereotypes.md#SAF_F4_SCXI)|[System Context Interaction Viewpoint](../concept/concepts.md#System-Context-Interaction-Viewpoint)|
-|[SAF_LogicalContext](../../stereotypes.md#SAF_LogicalContext)|[Logical System Context](../concept/concepts.md#Logical-System-Context)|
-|[SAF_LogicalContextRole](../../stereotypes.md#SAF_LogicalContextRole)|[Logical Context Element Role](../concept/concepts.md#Logical-Context-Element-Role)|
-|[SAF_LogicalContextRole](../../stereotypes.md#SAF_LogicalContextRole)|[Logical SOI Role](../concept/concepts.md#Logical-SOI-Role)|
+|[SAF_F4_SCXI](../../stereotypes.md#saf_f4_scxi)|[System Context Interaction Viewpoint](../concept/concepts.md#System-Context-Interaction-Viewpoint)|
+|[SAF_LogicalContext](../../stereotypes.md#saf_logicalcontext)|[Logical System Context](../concept/concepts.md#Logical-System-Context)|
+|[SAF_LogicalContextRole](../../stereotypes.md#saf_logicalcontextrole)|[Logical Context Element Role](../concept/concepts.md#Logical-Context-Element-Role)|
+|[SAF_LogicalContextRole](../../stereotypes.md#saf_logicalcontextrole)|[Logical SOI Role](../concept/concepts.md#Logical-SOI-Role)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [System Context Definition Viewpoint](System-Context-Definition-Viewpoint.md)

@@ -35,14 +35,14 @@ A tabular format listing context roles, context elements, and respective descrip
 * [Which interface partners does the system have?](../concerns.md#_2021x_2_8710274_1674576759091_673143_23507)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SAF_F1_SCXD](../stereotypes.md#SAF_F1_SCXD)
-* [SAF_F1_SCXD_Table](../stereotypes.md#SAF_F1_SCXD_Table)
-* [SAF_LogicalContextRole](../stereotypes.md#SAF_LogicalContextRole)
-* [SAF_LogicalContext](../stereotypes.md#SAF_LogicalContext)
-* [SAF_LogicalEnvironment](../stereotypes.md#SAF_LogicalEnvironment)
-* [SAF_LogicalExternalSystem](../stereotypes.md#SAF_LogicalExternalSystem)
-* [SAF_LogicalSOI](../stereotypes.md#SAF_LogicalSOI)
-* [SAF_LogicalUser](../stereotypes.md#SAF_LogicalUser)
+* [SAF_F1_SCXD](../stereotypes.md#saf_f1_scxd)
+* [SAF_F1_SCXD_Table](../stereotypes.md#saf_f1_scxd_table)
+* [SAF_LogicalContextRole](../stereotypes.md#saf_logicalcontextrole)
+* [SAF_LogicalContext](../stereotypes.md#saf_logicalcontext)
+* [SAF_LogicalEnvironment](../stereotypes.md#saf_logicalenvironment)
+* [SAF_LogicalExternalSystem](../stereotypes.md#saf_logicalexternalsystem)
+* [SAF_LogicalSOI](../stereotypes.md#saf_logicalsoi)
+* [SAF_LogicalUser](../stereotypes.md#saf_logicaluser)
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

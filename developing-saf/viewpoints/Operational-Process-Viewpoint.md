@@ -30,12 +30,12 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |ObjectFlow typed by SAF_OperationalDomainKind|[ODKtypifyingOPE](../concept/concepts.md#ODKtypifyingOPE)|
 |ObjectFlow [UML_Standard_Profile]|[Operational Process Exchange](../concept/concepts.md#Operational-Process-Exchange)|
 |OutputPin [UML_Standard_Profile]|[FROM](../concept/concepts.md#FROM)|
-|[SAF_O3_OPRO](../../stereotypes.md#SAF_O3_OPRO)|[Operational Process Viewpoint](../concept/concepts.md#Operational-Process-Viewpoint)|
-|[SAF_OperationalContextRole](../../stereotypes.md#SAF_OperationalContextRole)|[Operational Context Role](../concept/concepts.md#Operational-Context-Role)|
-|[SAF_OperationalDomainKind](../../stereotypes.md#SAF_OperationalDomainKind)|[Operational Domain Kind](../concept/concepts.md#Operational-Domain-Kind)|
-|[SAF_OperationalPerformer](../../stereotypes.md#SAF_OperationalPerformer)|[Operational Performer](../concept/concepts.md#Operational-Performer)|
-|[SAF_OperationalProcessAction](../../stereotypes.md#SAF_OperationalProcessAction)|[Operational Process Usage](../concept/concepts.md#Operational-Process-Usage)|
-|[SAF_OperationalProcess](../../stereotypes.md#SAF_OperationalProcess)|[Operational Process](../concept/concepts.md#Operational-Process)|
+|[SAF_O3_OPRO](../../stereotypes.md#saf_o3_opro)|[Operational Process Viewpoint](../concept/concepts.md#Operational-Process-Viewpoint)|
+|[SAF_OperationalContextRole](../../stereotypes.md#saf_operationalcontextrole)|[Operational Context Role](../concept/concepts.md#Operational-Context-Role)|
+|[SAF_OperationalDomainKind](../../stereotypes.md#saf_operationaldomainkind)|[Operational Domain Kind](../concept/concepts.md#Operational-Domain-Kind)|
+|[SAF_OperationalPerformer](../../stereotypes.md#saf_operationalperformer)|[Operational Performer](../concept/concepts.md#Operational-Performer)|
+|[SAF_OperationalProcessAction](../../stereotypes.md#saf_operationalprocessaction)|[Operational Process Usage](../concept/concepts.md#Operational-Process-Usage)|
+|[SAF_OperationalProcess](../../stereotypes.md#saf_operationalprocess)|[Operational Process](../concept/concepts.md#Operational-Process)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

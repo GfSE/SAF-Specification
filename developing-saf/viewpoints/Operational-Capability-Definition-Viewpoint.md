@@ -24,11 +24,11 @@ A block definition diagram (BDD) featuring Operational Capabilities, their compo
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
-|[SAF_O2_OCYD](../../stereotypes.md#SAF_O2_OCYD)|[Operational Capability Definition Viewpoint](../concept/concepts.md#Operational-Capability-Definition-Viewpoint)|
-|[SAF_OperationalCapabilityComposition](../../stereotypes.md#SAF_OperationalCapabilityComposition)|[OCYcomposedOF](../concept/concepts.md#OCYcomposedOF)|
-|[SAF_OperationalCapabilityDependency](../../stereotypes.md#SAF_OperationalCapabilityDependency)|[OCYdependingON](../concept/concepts.md#OCYdependingON)|
-|[SAF_OperationalCapabilityGeneralization](../../stereotypes.md#SAF_OperationalCapabilityGeneralization)|[OCYspecializedBY](../concept/concepts.md#OCYspecializedBY)|
-|[SAF_OperationalCapability](../../stereotypes.md#SAF_OperationalCapability)|[Operational Capability](../concept/concepts.md#Operational-Capability)|
+|[SAF_O2_OCYD](../../stereotypes.md#saf_o2_ocyd)|[Operational Capability Definition Viewpoint](../concept/concepts.md#Operational-Capability-Definition-Viewpoint)|
+|[SAF_OperationalCapabilityComposition](../../stereotypes.md#saf_operationalcapabilitycomposition)|[OCYcomposedOF](../concept/concepts.md#OCYcomposedOF)|
+|[SAF_OperationalCapabilityDependency](../../stereotypes.md#saf_operationalcapabilitydependency)|[OCYdependingON](../concept/concepts.md#OCYdependingON)|
+|[SAF_OperationalCapabilityGeneralization](../../stereotypes.md#saf_operationalcapabilitygeneralization)|[OCYspecializedBY](../concept/concepts.md#OCYspecializedBY)|
+|[SAF_OperationalCapability](../../stereotypes.md#saf_operationalcapability)|[Operational Capability](../concept/concepts.md#Operational-Capability)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

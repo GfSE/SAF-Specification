@@ -55,15 +55,15 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * ProxyPort [SysML Profile]
 * ProxyPort contained in SAF_PhysicalItem
 * ProxyPort typed by SAF_PhysicalInterfaceDefinition
-* [SAF_InterfaceLayerRelationship](../stereotypes.md#SAF_InterfaceLayerRelationship)
-* [SAF_P1_PCXE](../stereotypes.md#SAF_P1_PCXE)
-* [SAF_P1_PCXE_Table](../stereotypes.md#SAF_P1_PCXE_Table)
-* [SAF_PhysicalEnvironment](../stereotypes.md#SAF_PhysicalEnvironment)
-* [SAF_PhysicalExchangeType](../stereotypes.md#SAF_PhysicalExchangeType)
-* [SAF_PhysicalExternalSystem](../stereotypes.md#SAF_PhysicalExternalSystem)
-* [SAF_PhysicalInterfaceDefinition](../stereotypes.md#SAF_PhysicalInterfaceDefinition)
-* [SAF_PhysicalSystem](../stereotypes.md#SAF_PhysicalSystem)
-* [SAF_PhysicalUser](../stereotypes.md#SAF_PhysicalUser)
+* [SAF_InterfaceLayerRelationship](../stereotypes.md#saf_interfacelayerrelationship)
+* [SAF_P1_PCXE](../stereotypes.md#saf_p1_pcxe)
+* [SAF_P1_PCXE_Table](../stereotypes.md#saf_p1_pcxe_table)
+* [SAF_PhysicalEnvironment](../stereotypes.md#saf_physicalenvironment)
+* [SAF_PhysicalExchangeType](../stereotypes.md#saf_physicalexchangetype)
+* [SAF_PhysicalExternalSystem](../stereotypes.md#saf_physicalexternalsystem)
+* [SAF_PhysicalInterfaceDefinition](../stereotypes.md#saf_physicalinterfacedefinition)
+* [SAF_PhysicalSystem](../stereotypes.md#saf_physicalsystem)
+* [SAF_PhysicalUser](../stereotypes.md#saf_physicaluser)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Physical Context Definition Viewpoint](Physical-Context-Definition-Viewpoint.md)

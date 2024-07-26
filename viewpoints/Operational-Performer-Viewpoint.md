@@ -25,12 +25,12 @@ A table containing operational performers, their inter relations  and relations 
 * [What partys of the organization, enterprise, or operational entity are needed to achieve an intended operational capability?](../concerns.md#_2021x_2_8710274_1674576759028_333016_23460)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SAF_O2_OPRF](../stereotypes.md#SAF_O2_OPRF)
-* [SAF_O2_OPRF_Table](../stereotypes.md#SAF_O2_OPRF_Table)
-* [SAF_OperationalPerformerComposition](../stereotypes.md#SAF_OperationalPerformerComposition)
-* [SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)
-* [SAF_StakeholderRepresenting](../stereotypes.md#SAF_StakeholderRepresenting)
-* [SAF_Stakeholder](../stereotypes.md#SAF_Stakeholder)
+* [SAF_O2_OPRF](../stereotypes.md#saf_o2_oprf)
+* [SAF_O2_OPRF_Table](../stereotypes.md#saf_o2_oprf_table)
+* [SAF_OperationalPerformerComposition](../stereotypes.md#saf_operationalperformercomposition)
+* [SAF_OperationalPerformer](../stereotypes.md#saf_operationalperformer)
+* [SAF_StakeholderRepresenting](../stereotypes.md#saf_stakeholderrepresenting)
+* [SAF_Stakeholder](../stereotypes.md#saf_stakeholder)
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

@@ -26,10 +26,10 @@ A table format listing abbreviations and relationship to standards if applicable
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
-|[SAF_C2_TRMD_Table](../../stereotypes.md#SAF_C2_TRMD_Table)|[Common Terms Definition Viewpoint](../concept/concepts.md#Common-Terms-Definition-Viewpoint)|
-|[SAF_Standard](../../stereotypes.md#SAF_Standard)|[Standard](../concept/concepts.md#Standard)|
+|[SAF_C2_TRMD_Table](../../stereotypes.md#saf_c2_trmd_table)|[Common Terms Definition Viewpoint](../concept/concepts.md#Common-Terms-Definition-Viewpoint)|
+|[SAF_Standard](../../stereotypes.md#saf_standard)|[Standard](../concept/concepts.md#Standard)|
 |SAF_Term contained in SAF_Standard|[TRMdefinedBySDT](../concept/concepts.md#TRMdefinedBySDT)|
-|[SAF_Term](../../stereotypes.md#SAF_Term)|[Term](../concept/concepts.md#Term)|
+|[SAF_Term](../../stereotypes.md#saf_term)|[Term](../concept/concepts.md#Term)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

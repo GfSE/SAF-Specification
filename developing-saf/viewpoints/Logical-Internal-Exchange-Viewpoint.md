@@ -44,10 +44,10 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |ItemFlow [SysML Profile]|[Logical Item Exchange](../concept/concepts.md#Logical-Item-Exchange)|
 |ProxyPort typed by SAF_ConceptualInterfaceDefinition|[LIPDdefiningDetailOfLIP](../concept/concepts.md#LIPDdefiningDetailOfLIP)|
 |ProxyPort [SysML Profile]|[Logical Interaction Point](../concept/concepts.md#Logical-Interaction-Point)|
-|[SAF_ConceptualInterfaceDefinition](../../stereotypes.md#SAF_ConceptualInterfaceDefinition)|[Logical Interaction Point Definition](../concept/concepts.md#Logical-Interaction-Point-Definition)|
-|[SAF_DomainKind](../../stereotypes.md#SAF_DomainKind)|[System Domain Kind](../concept/concepts.md#System-Domain-Kind)|
-|[SAF_L4_LIEX](../../stereotypes.md#SAF_L4_LIEX)|[Logical Internal Exchange Viewpoint](../concept/concepts.md#Logical-Internal-Exchange-Viewpoint)|
-|[SAF_LogicalElement](../../stereotypes.md#SAF_LogicalElement)|[Logical Element](../concept/concepts.md#Logical-Element)|
+|[SAF_ConceptualInterfaceDefinition](../../stereotypes.md#saf_conceptualinterfacedefinition)|[Logical Interaction Point Definition](../concept/concepts.md#Logical-Interaction-Point-Definition)|
+|[SAF_DomainKind](../../stereotypes.md#saf_domainkind)|[System Domain Kind](../concept/concepts.md#System-Domain-Kind)|
+|[SAF_L4_LIEX](../../stereotypes.md#saf_l4_liex)|[Logical Internal Exchange Viewpoint](../concept/concepts.md#Logical-Internal-Exchange-Viewpoint)|
+|[SAF_LogicalElement](../../stereotypes.md#saf_logicalelement)|[Logical Element](../concept/concepts.md#Logical-Element)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [System Domain Item Kind Viewpoint](System-Domain-Item-Kind-Viewpoint.md)

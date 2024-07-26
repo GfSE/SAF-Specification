@@ -18,20 +18,20 @@ A tabular format listing the relationships of System Capabilities to Operational
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
-|[SAF_F8_SCYM_Table](../../stereotypes.md#SAF_F8_SCYM_Table)|[System Capability Mapping Viewpoint](../concept/concepts.md#System-Capability-Mapping-Viewpoint)|
-|[SAF_StakeholderRequirement](../../stereotypes.md#SAF_StakeholderRequirement)|[Stakeholder Requirement](../concept/concepts.md#Stakeholder-Requirement)|
-|[SAF_SystemCapabilityComposition](../../stereotypes.md#SAF_SystemCapabilityComposition)|[SCYcomposedOF](../concept/concepts.md#SCYcomposedOF)|
-|[SAF_SystemCapabilityDependency](../../stereotypes.md#SAF_SystemCapabilityDependency)|[SCYdependingON](../concept/concepts.md#SCYdependingON)|
-|[SAF_SystemCapabilityEnabling](../../stereotypes.md#SAF_SystemCapabilityEnabling)|[SCYenablingOCY](../concept/concepts.md#SCYenablingOCY)|
-|[SAF_SystemCapabilityGeneralization](../../stereotypes.md#SAF_SystemCapabilityGeneralization)|[SCYspecializedBY](../concept/concepts.md#SCYspecializedBY)|
-|[SAF_SystemCapabilitySupport](../../stereotypes.md#SAF_SystemCapabilitySupport)|[SCYsupportingSUC](../concept/concepts.md#SCYsupportingSUC)|
-|[SAF_SystemCapability](../../stereotypes.md#SAF_SystemCapability)|[System Capability](../concept/concepts.md#System-Capability)|
-|[SAF_SystemFunctionSupport](../../stereotypes.md#SAF_SystemFunctionSupport)|[SFNsupportingSCY](../concept/concepts.md#SFNsupportingSCY)|
-|[SAF_SystemFunction](../../stereotypes.md#SAF_SystemFunction)|[System Function](../concept/concepts.md#System-Function)|
-|[SAF_SystemProcessEnabling](../../stereotypes.md#SAF_SystemProcessEnabling)|[SPSenablingSCY](../concept/concepts.md#SPSenablingSCY)|
-|[SAF_SystemProcess](../../stereotypes.md#SAF_SystemProcess)|[System Process](../concept/concepts.md#System-Process)|
-|[SAF_SystemRequirement](../../stereotypes.md#SAF_SystemRequirement)|[System Requirement](../concept/concepts.md#System-Requirement)|
-|[SAF_SystemUseCase](../../stereotypes.md#SAF_SystemUseCase)|[System Use Case](../concept/concepts.md#System-Use-Case)|
+|[SAF_F8_SCYM_Table](../../stereotypes.md#saf_f8_scym_table)|[System Capability Mapping Viewpoint](../concept/concepts.md#System-Capability-Mapping-Viewpoint)|
+|[SAF_StakeholderRequirement](../../stereotypes.md#saf_stakeholderrequirement)|[Stakeholder Requirement](../concept/concepts.md#Stakeholder-Requirement)|
+|[SAF_SystemCapabilityComposition](../../stereotypes.md#saf_systemcapabilitycomposition)|[SCYcomposedOF](../concept/concepts.md#SCYcomposedOF)|
+|[SAF_SystemCapabilityDependency](../../stereotypes.md#saf_systemcapabilitydependency)|[SCYdependingON](../concept/concepts.md#SCYdependingON)|
+|[SAF_SystemCapabilityEnabling](../../stereotypes.md#saf_systemcapabilityenabling)|[SCYenablingOCY](../concept/concepts.md#SCYenablingOCY)|
+|[SAF_SystemCapabilityGeneralization](../../stereotypes.md#saf_systemcapabilitygeneralization)|[SCYspecializedBY](../concept/concepts.md#SCYspecializedBY)|
+|[SAF_SystemCapabilitySupport](../../stereotypes.md#saf_systemcapabilitysupport)|[SCYsupportingSUC](../concept/concepts.md#SCYsupportingSUC)|
+|[SAF_SystemCapability](../../stereotypes.md#saf_systemcapability)|[System Capability](../concept/concepts.md#System-Capability)|
+|[SAF_SystemFunctionSupport](../../stereotypes.md#saf_systemfunctionsupport)|[SFNsupportingSCY](../concept/concepts.md#SFNsupportingSCY)|
+|[SAF_SystemFunction](../../stereotypes.md#saf_systemfunction)|[System Function](../concept/concepts.md#System-Function)|
+|[SAF_SystemProcessEnabling](../../stereotypes.md#saf_systemprocessenabling)|[SPSenablingSCY](../concept/concepts.md#SPSenablingSCY)|
+|[SAF_SystemProcess](../../stereotypes.md#saf_systemprocess)|[System Process](../concept/concepts.md#System-Process)|
+|[SAF_SystemRequirement](../../stereotypes.md#saf_systemrequirement)|[System Requirement](../concept/concepts.md#System-Requirement)|
+|[SAF_SystemUseCase](../../stereotypes.md#saf_systemusecase)|[System Use Case](../concept/concepts.md#System-Use-Case)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [System Capability Definition Viewpoint](System-Capability-Definition-Viewpoint.md)

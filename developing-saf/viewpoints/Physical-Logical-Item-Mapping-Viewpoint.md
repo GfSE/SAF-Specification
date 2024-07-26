@@ -22,8 +22,8 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
 |Allocate [SysML Profile]|[PEKrealizingSDK](../concept/concepts.md#PEKrealizingSDK)|
-|[SAF_DomainKind](../../stereotypes.md#SAF_DomainKind)|[System Domain Kind](../concept/concepts.md#System-Domain-Kind)|
-|[SAF_PhysicalExchangeType](../../stereotypes.md#SAF_PhysicalExchangeType)|[Physical Exchange Kind](../concept/concepts.md#Physical-Exchange-Kind)|
+|[SAF_DomainKind](../../stereotypes.md#saf_domainkind)|[System Domain Kind](../concept/concepts.md#System-Domain-Kind)|
+|[SAF_PhysicalExchangeType](../../stereotypes.md#saf_physicalexchangetype)|[Physical Exchange Kind](../concept/concepts.md#Physical-Exchange-Kind)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

@@ -20,7 +20,7 @@ A table featuring the stereotypes of the SAF profile and their documentation.
 * [What are the frameworks model elements to be used](../concerns.md#_2024x_26f0132_1719746308347_570628_39136)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SAF_C2_STYD_Table](../stereotypes.md#SAF_C2_STYD_Table)
+* [SAF_C2_STYD_Table](../stereotypes.md#saf_c2_styd_table)
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

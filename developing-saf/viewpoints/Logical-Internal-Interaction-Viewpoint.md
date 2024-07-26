@@ -35,8 +35,8 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |Interaction [UML_Standard_Profile]|[Logical Interaction Scenario](../concept/concepts.md#Logical-Interaction-Scenario)|
 |Lifeline [UML_Standard_Profile]|[Logical Scenario Participation](../concept/concepts.md#Logical-Scenario-Participation)|
 |Message [UML_Standard_Profile]|[Logical Chronological Message](../concept/concepts.md#Logical-Chronological-Message)|
-|[SAF_L4_LITI](../../stereotypes.md#SAF_L4_LITI)|[Logical Internal Interaction Viewpoint](../concept/concepts.md#Logical-Internal-Interaction-Viewpoint)|
-|[SAF_LogicalElement](../../stereotypes.md#SAF_LogicalElement)|[Logical Element](../concept/concepts.md#Logical-Element)|
+|[SAF_L4_LITI](../../stereotypes.md#saf_l4_liti)|[Logical Internal Interaction Viewpoint](../concept/concepts.md#Logical-Internal-Interaction-Viewpoint)|
+|[SAF_LogicalElement](../../stereotypes.md#saf_logicalelement)|[Logical Element](../concept/concepts.md#Logical-Element)|
 |SAF_LogicalInternalRole contained in SAF_LogicalElement|[Logical Element Role](../concept/concepts.md#Logical-Element-Role)|
 ## Input from other Viewpoints
 ### Required Viewpoints

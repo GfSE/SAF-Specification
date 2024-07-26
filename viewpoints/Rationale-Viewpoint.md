@@ -22,10 +22,10 @@ A table featuring the SCM_ConcernRationales that connect SCM_VPStakeholders and 
 * [Why does a stakeholder have this specific concern ? ](../concerns.md#_2024x_26f0132_1719744888608_624464_37315)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SCM_ConcernRationale](../stereotypes.md#SCM_ConcernRationale)
-* [SCM_D2_RATD_Table](../stereotypes.md#SCM_D2_RATD_Table)
-* [SCM_VPConcern](../stereotypes.md#SCM_VPConcern)
-* [SCM_VPStakeholder](../stereotypes.md#SCM_VPStakeholder)
+* [SCM_ConcernRationale](../stereotypes.md#scm_concernrationale)
+* [SCM_D2_RATD_Table](../stereotypes.md#scm_d2_ratd_table)
+* [SCM_VPConcern](../stereotypes.md#scm_vpconcern)
+* [SCM_VPStakeholder](../stereotypes.md#scm_vpstakeholder)
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

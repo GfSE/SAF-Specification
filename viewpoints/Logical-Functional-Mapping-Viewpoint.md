@@ -27,12 +27,12 @@ A FBS to LBS mapping matrix featuring
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Allocate [SysML Profile]
 * SAF_LogicalInternalRole contained in SAF_LogicalElement
-* [SAF_FunctionAction](../stereotypes.md#SAF_FunctionAction)
-* [SAF_L8_LFUM_Matrix](../stereotypes.md#SAF_L8_LFUM_Matrix)
-* [SAF_LogicalElement](../stereotypes.md#SAF_LogicalElement)
-* [SAF_LogicalSOI](../stereotypes.md#SAF_LogicalSOI)
-* [SAF_SystemFunction](../stereotypes.md#SAF_SystemFunction)
-* [SAF_SystemPartialFunction](../stereotypes.md#SAF_SystemPartialFunction)
+* [SAF_FunctionAction](../stereotypes.md#saf_functionaction)
+* [SAF_L8_LFUM_Matrix](../stereotypes.md#saf_l8_lfum_matrix)
+* [SAF_LogicalElement](../stereotypes.md#saf_logicalelement)
+* [SAF_LogicalSOI](../stereotypes.md#saf_logicalsoi)
+* [SAF_SystemFunction](../stereotypes.md#saf_systemfunction)
+* [SAF_SystemPartialFunction](../stereotypes.md#saf_systempartialfunction)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [System Process Viewpoint](System-Process-Viewpoint.md)

@@ -19,20 +19,20 @@ A block definition diagram (BDD) featuring a claim-argument-evidence pattern (CA
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
-|[SAF_Argument](../../stereotypes.md#SAF_Argument)|[Argument](../concept/concepts.md#Argument)|
-|[SAF_ArgumentClaimSupport](../../stereotypes.md#SAF_ArgumentClaimSupport)|[AGTsupportingCLM](../concept/concepts.md#AGTsupportingCLM)|
-|[SAF_C2_ARAS](../../stereotypes.md#SAF_C2_ARAS)|[Argumentation Assurance Viewpoint](../concept/concepts.md#Argumentation-Assurance-Viewpoint)|
-|[SAF_ClaimAboutSubjectMaking](../../stereotypes.md#SAF_ClaimAboutSubjectMaking)|[CLMbeingMadeAboutSBC](../concept/concepts.md#CLMbeingMadeAboutSBC)|
-|[SAF_Claim](../../stereotypes.md#SAF_Claim)|[Claim](../concept/concepts.md#Claim)|
-|[SAF_ClaimClaimableItemSupport](../../stereotypes.md#SAF_ClaimClaimableItemSupport)|[CLMsupportingCIM](../concept/concepts.md#CLMsupportingCIM)|
-|[SAF_ClaimSubject](../../stereotypes.md#SAF_ClaimSubject)|[Subject of Claim](../concept/concepts.md#Subject-of-Claim)|
-|[SAF_ClaimantClaimMaking](../../stereotypes.md#SAF_ClaimantClaimMaking)|[CLTmakingCLM](../concept/concepts.md#CLTmakingCLM)|
-|[SAF_Claimant](../../stereotypes.md#SAF_Claimant)|[Claimant](../concept/concepts.md#Claimant)|
-|[SAF_CounterClaimClaimableItemMaking](../../stereotypes.md#SAF_CounterClaimClaimableItemMaking)|[CCMcounteringCIM](../concept/concepts.md#CCMcounteringCIM)|
-|[SAF_CounterClaim](../../stereotypes.md#SAF_CounterClaim)|[CounterClaim](../concept/concepts.md#CounterClaim)|
-|[SAF_EvidenceArgumentReinforcement](../../stereotypes.md#SAF_EvidenceArgumentReinforcement)|[EVCreinforcingAGT](../concept/concepts.md#EVCreinforcingAGT)|
-|[SAF_Evidence](../../stereotypes.md#SAF_Evidence)|[Evidence](../concept/concepts.md#Evidence)|
-|[SAF_Refuter](../../stereotypes.md#SAF_Refuter)|[Refuter](../concept/concepts.md#Refuter)|
+|[SAF_Argument](../../stereotypes.md#saf_argument)|[Argument](../concept/concepts.md#Argument)|
+|[SAF_ArgumentClaimSupport](../../stereotypes.md#saf_argumentclaimsupport)|[AGTsupportingCLM](../concept/concepts.md#AGTsupportingCLM)|
+|[SAF_C2_ARAS](../../stereotypes.md#saf_c2_aras)|[Argumentation Assurance Viewpoint](../concept/concepts.md#Argumentation-Assurance-Viewpoint)|
+|[SAF_ClaimAboutSubjectMaking](../../stereotypes.md#saf_claimaboutsubjectmaking)|[CLMbeingMadeAboutSBC](../concept/concepts.md#CLMbeingMadeAboutSBC)|
+|[SAF_Claim](../../stereotypes.md#saf_claim)|[Claim](../concept/concepts.md#Claim)|
+|[SAF_ClaimClaimableItemSupport](../../stereotypes.md#saf_claimclaimableitemsupport)|[CLMsupportingCIM](../concept/concepts.md#CLMsupportingCIM)|
+|[SAF_ClaimSubject](../../stereotypes.md#saf_claimsubject)|[Subject of Claim](../concept/concepts.md#Subject-of-Claim)|
+|[SAF_ClaimantClaimMaking](../../stereotypes.md#saf_claimantclaimmaking)|[CLTmakingCLM](../concept/concepts.md#CLTmakingCLM)|
+|[SAF_Claimant](../../stereotypes.md#saf_claimant)|[Claimant](../concept/concepts.md#Claimant)|
+|[SAF_CounterClaimClaimableItemMaking](../../stereotypes.md#saf_counterclaimclaimableitemmaking)|[CCMcounteringCIM](../concept/concepts.md#CCMcounteringCIM)|
+|[SAF_CounterClaim](../../stereotypes.md#saf_counterclaim)|[CounterClaim](../concept/concepts.md#CounterClaim)|
+|[SAF_EvidenceArgumentReinforcement](../../stereotypes.md#saf_evidenceargumentreinforcement)|[EVCreinforcingAGT](../concept/concepts.md#EVCreinforcingAGT)|
+|[SAF_Evidence](../../stereotypes.md#saf_evidence)|[Evidence](../concept/concepts.md#Evidence)|
+|[SAF_Refuter](../../stereotypes.md#saf_refuter)|[Refuter](../concept/concepts.md#Refuter)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

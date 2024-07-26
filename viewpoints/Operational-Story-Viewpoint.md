@@ -26,12 +26,12 @@ Note: Illustrations, drawings, sketches, etc., and/or descriptions in free text 
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Attribute "subject" of UseCase referencing SAF_OperationalContext
-* [SAF_O1_OSTY](../stereotypes.md#SAF_O1_OSTY)
-* [SAF_OperationalContext](../stereotypes.md#SAF_OperationalContext)
-* [SAF_OperationalPerformerActing](../stereotypes.md#SAF_OperationalPerformerActing)
-* [SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)
-* [SAF_OperationalSketch](../stereotypes.md#SAF_OperationalSketch)
-* [SAF_OperationalStory](../stereotypes.md#SAF_OperationalStory)
+* [SAF_O1_OSTY](../stereotypes.md#saf_o1_osty)
+* [SAF_OperationalContext](../stereotypes.md#saf_operationalcontext)
+* [SAF_OperationalPerformerActing](../stereotypes.md#saf_operationalperformeracting)
+* [SAF_OperationalPerformer](../stereotypes.md#saf_operationalperformer)
+* [SAF_OperationalSketch](../stereotypes.md#saf_operationalsketch)
+* [SAF_OperationalStory](../stereotypes.md#saf_operationalstory)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Operational Performer Viewpoint](Operational-Performer-Viewpoint.md)

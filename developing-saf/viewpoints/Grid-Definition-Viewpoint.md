@@ -25,16 +25,16 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
 |Attribute "diagrams" of SAF_Viewpoint referencing SAF_Diagram|[VWconformingToVP](../concept/concepts.md#VWconformingToVP)|
-|[SAF_C2_GRID](../../stereotypes.md#SAF_C2_GRID)|[GDcontainingAT](../concept/concepts.md#GDcontainingAT)|
-|[SAF_C2_GRID](../../stereotypes.md#SAF_C2_GRID)|[GDcontainingDN](../concept/concepts.md#GDcontainingDN)|
-|[SAF_C2_GRID](../../stereotypes.md#SAF_C2_GRID)|[GDcontainingVP](../concept/concepts.md#GDcontainingVP)|
-|[SAF_C2_GRID](../../stereotypes.md#SAF_C2_GRID)|[Grid](../concept/concepts.md#Grid)|
-|[SAF_C2_GRID](../../stereotypes.md#SAF_C2_GRID)|[Grid Definition Viewpoint](../concept/concepts.md#Grid-Definition-Viewpoint)|
-|[SAF_C2_GRID_Table](../../stereotypes.md#SAF_C2_GRID_Table)|[Grid Definition Viewpoint](../concept/concepts.md#Grid-Definition-Viewpoint)|
-|[SAF_Diagram](../../stereotypes.md#SAF_Diagram)|[View](../concept/concepts.md#View)|
-|[SAF_Viewpoint](../../stereotypes.md#SAF_Viewpoint)|[VPbelongingToAT](../concept/concepts.md#VPbelongingToAT)|
-|[SAF_Viewpoint](../../stereotypes.md#SAF_Viewpoint)|[VPbelongingToDN](../concept/concepts.md#VPbelongingToDN)|
-|[SAF_Viewpoint](../../stereotypes.md#SAF_Viewpoint)|[Viewpoint](../concept/concepts.md#Viewpoint)|
+|[SAF_C2_GRID](../../stereotypes.md#saf_c2_grid)|[GDcontainingAT](../concept/concepts.md#GDcontainingAT)|
+|[SAF_C2_GRID](../../stereotypes.md#saf_c2_grid)|[GDcontainingDN](../concept/concepts.md#GDcontainingDN)|
+|[SAF_C2_GRID](../../stereotypes.md#saf_c2_grid)|[GDcontainingVP](../concept/concepts.md#GDcontainingVP)|
+|[SAF_C2_GRID](../../stereotypes.md#saf_c2_grid)|[Grid](../concept/concepts.md#Grid)|
+|[SAF_C2_GRID](../../stereotypes.md#saf_c2_grid)|[Grid Definition Viewpoint](../concept/concepts.md#Grid-Definition-Viewpoint)|
+|[SAF_C2_GRID_Table](../../stereotypes.md#saf_c2_grid_table)|[Grid Definition Viewpoint](../concept/concepts.md#Grid-Definition-Viewpoint)|
+|[SAF_Diagram](../../stereotypes.md#saf_diagram)|[View](../concept/concepts.md#View)|
+|[SAF_Viewpoint](../../stereotypes.md#saf_viewpoint)|[VPbelongingToAT](../concept/concepts.md#VPbelongingToAT)|
+|[SAF_Viewpoint](../../stereotypes.md#saf_viewpoint)|[VPbelongingToDN](../concept/concepts.md#VPbelongingToDN)|
+|[SAF_Viewpoint](../../stereotypes.md#saf_viewpoint)|[Viewpoint](../concept/concepts.md#Viewpoint)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

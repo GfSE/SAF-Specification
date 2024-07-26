@@ -28,10 +28,10 @@ A tabular format listing the Domain Item Kinds, and their relationships.
 * [Which kind of conceptual items (energy, material, information, etc.)  are used in the logical architecture of the system?](../concerns.md#_2021x_2_6d8019d_1693308265004_421376_24972)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SAF_DomainKindComposition](../stereotypes.md#SAF_DomainKindComposition)
-* [SAF_DomainKind](../stereotypes.md#SAF_DomainKind)
-* [SAF_F2_SDIK](../stereotypes.md#SAF_F2_SDIK)
-* [SAF_F2_SDIK_Table](../stereotypes.md#SAF_F2_SDIK_Table)
+* [SAF_DomainKindComposition](../stereotypes.md#saf_domainkindcomposition)
+* [SAF_DomainKind](../stereotypes.md#saf_domainkind)
+* [SAF_F2_SDIK](../stereotypes.md#saf_f2_sdik)
+* [SAF_F2_SDIK_Table](../stereotypes.md#saf_f2_sdik_table)
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

@@ -53,12 +53,12 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * Parameter [UML_Standard_Profile]
 * SAF_ContextAction contained in SAF_SystemProcess
 * SAF_FunctionAction contained in SAF_SystemProcess
-* [SAF_ContextFunction](../stereotypes.md#SAF_ContextFunction)
-* [SAF_F3_SPRO](../stereotypes.md#SAF_F3_SPRO)
-* [SAF_F3_SPRO_Table](../stereotypes.md#SAF_F3_SPRO_Table)
-* [SAF_LogicalContextRole](../stereotypes.md#SAF_LogicalContextRole)
-* [SAF_SystemFunction](../stereotypes.md#SAF_SystemFunction)
-* [SAF_SystemProcess](../stereotypes.md#SAF_SystemProcess)
+* [SAF_ContextFunction](../stereotypes.md#saf_contextfunction)
+* [SAF_F3_SPRO](../stereotypes.md#saf_f3_spro)
+* [SAF_F3_SPRO_Table](../stereotypes.md#saf_f3_spro_table)
+* [SAF_LogicalContextRole](../stereotypes.md#saf_logicalcontextrole)
+* [SAF_SystemFunction](../stereotypes.md#saf_systemfunction)
+* [SAF_SystemProcess](../stereotypes.md#saf_systemprocess)
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

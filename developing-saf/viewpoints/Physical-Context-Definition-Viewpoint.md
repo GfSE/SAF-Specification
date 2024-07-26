@@ -32,14 +32,14 @@ A block definition diagram (BDD) depicting the elements available in a specific 
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
-|[SAF_P1_PCXD](../../stereotypes.md#SAF_P1_PCXD)|[Physical Context Definition Viewpoint](../concept/concepts.md#Physical-Context-Definition-Viewpoint)|
-|[SAF_PhysicalContext](../../stereotypes.md#SAF_PhysicalContext)|[Physical System Context](../concept/concepts.md#Physical-System-Context)|
-|[SAF_PhysicalContextRole](../../stereotypes.md#SAF_PhysicalContextRole)|[Physical Context Element Role](../concept/concepts.md#Physical-Context-Element-Role)|
-|[SAF_PhysicalContextRole](../../stereotypes.md#SAF_PhysicalContextRole)|[Physical SOI Role](../concept/concepts.md#Physical-SOI-Role)|
-|[SAF_PhysicalEnvironment](../../stereotypes.md#SAF_PhysicalEnvironment)|[Physical Environment](../concept/concepts.md#Physical-Environment)|
-|[SAF_PhysicalExternalSystem](../../stereotypes.md#SAF_PhysicalExternalSystem)|[Physical External System](../concept/concepts.md#Physical-External-System)|
-|[SAF_PhysicalSystem](../../stereotypes.md#SAF_PhysicalSystem)|[Physical SOI](../concept/concepts.md#Physical-SOI)|
-|[SAF_PhysicalUser](../../stereotypes.md#SAF_PhysicalUser)|[Physical User](../concept/concepts.md#Physical-User)|
+|[SAF_P1_PCXD](../../stereotypes.md#saf_p1_pcxd)|[Physical Context Definition Viewpoint](../concept/concepts.md#Physical-Context-Definition-Viewpoint)|
+|[SAF_PhysicalContext](../../stereotypes.md#saf_physicalcontext)|[Physical System Context](../concept/concepts.md#Physical-System-Context)|
+|[SAF_PhysicalContextRole](../../stereotypes.md#saf_physicalcontextrole)|[Physical Context Element Role](../concept/concepts.md#Physical-Context-Element-Role)|
+|[SAF_PhysicalContextRole](../../stereotypes.md#saf_physicalcontextrole)|[Physical SOI Role](../concept/concepts.md#Physical-SOI-Role)|
+|[SAF_PhysicalEnvironment](../../stereotypes.md#saf_physicalenvironment)|[Physical Environment](../concept/concepts.md#Physical-Environment)|
+|[SAF_PhysicalExternalSystem](../../stereotypes.md#saf_physicalexternalsystem)|[Physical External System](../concept/concepts.md#Physical-External-System)|
+|[SAF_PhysicalSystem](../../stereotypes.md#saf_physicalsystem)|[Physical SOI](../concept/concepts.md#Physical-SOI)|
+|[SAF_PhysicalUser](../../stereotypes.md#saf_physicaluser)|[Physical User](../concept/concepts.md#Physical-User)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

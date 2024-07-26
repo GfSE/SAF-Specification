@@ -27,12 +27,12 @@ A table containing operational performers, their inter relations  and relations 
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
-|[SAF_O2_OPRF](../../stereotypes.md#SAF_O2_OPRF)|[Operational Performer Viewpoint](../concept/concepts.md#Operational-Performer-Viewpoint)|
-|[SAF_O2_OPRF_Table](../../stereotypes.md#SAF_O2_OPRF_Table)|[Operational Performer Viewpoint](../concept/concepts.md#Operational-Performer-Viewpoint)|
-|[SAF_OperationalPerformerComposition](../../stereotypes.md#SAF_OperationalPerformerComposition)|[OPRcomposedOF](../concept/concepts.md#OPRcomposedOF)|
-|[SAF_OperationalPerformer](../../stereotypes.md#SAF_OperationalPerformer)|[Operational Performer](../concept/concepts.md#Operational-Performer)|
-|[SAF_StakeholderRepresenting](../../stereotypes.md#SAF_StakeholderRepresenting)|[SSHrepresentingOPR](../concept/concepts.md#SSHrepresentingOPR)|
-|[SAF_Stakeholder](../../stereotypes.md#SAF_Stakeholder)|[System of Interest Stakeholder](../concept/concepts.md#System-of-Interest-Stakeholder)|
+|[SAF_O2_OPRF](../../stereotypes.md#saf_o2_oprf)|[Operational Performer Viewpoint](../concept/concepts.md#Operational-Performer-Viewpoint)|
+|[SAF_O2_OPRF_Table](../../stereotypes.md#saf_o2_oprf_table)|[Operational Performer Viewpoint](../concept/concepts.md#Operational-Performer-Viewpoint)|
+|[SAF_OperationalPerformerComposition](../../stereotypes.md#saf_operationalperformercomposition)|[OPRcomposedOF](../concept/concepts.md#OPRcomposedOF)|
+|[SAF_OperationalPerformer](../../stereotypes.md#saf_operationalperformer)|[Operational Performer](../concept/concepts.md#Operational-Performer)|
+|[SAF_StakeholderRepresenting](../../stereotypes.md#saf_stakeholderrepresenting)|[SSHrepresentingOPR](../concept/concepts.md#SSHrepresentingOPR)|
+|[SAF_Stakeholder](../../stereotypes.md#saf_stakeholder)|[System of Interest Stakeholder](../concept/concepts.md#System-of-Interest-Stakeholder)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

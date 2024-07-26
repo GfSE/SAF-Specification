@@ -33,13 +33,13 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
 |SAF_ContextAction contained in SAF_SystemProcess|[Context Function IN System Process](../concept/concepts.md#Context-Function-IN-System-Process)|
-|[SAF_ContextFunction](../../stereotypes.md#SAF_ContextFunction)|[Context Function](../concept/concepts.md#Context-Function)|
-|[SAF_F2_SFBS](../../stereotypes.md#SAF_F2_SFBS)|[System Functional Breakdown Structure Viewpoint](../concept/concepts.md#System-Functional-Breakdown-Structure-Viewpoint)|
+|[SAF_ContextFunction](../../stereotypes.md#saf_contextfunction)|[Context Function](../concept/concepts.md#Context-Function)|
+|[SAF_F2_SFBS](../../stereotypes.md#saf_f2_sfbs)|[System Functional Breakdown Structure Viewpoint](../concept/concepts.md#System-Functional-Breakdown-Structure-Viewpoint)|
 |SAF_FunctionAction contained in SAF_SystemFunction|[System Partial Function in System Function](../concept/concepts.md#System-Partial-Function-in-System-Function)|
 |SAF_FunctionAction contained in SAF_SystemProcess|[System Function IN System Process](../concept/concepts.md#System-Function-IN-System-Process)|
-|[SAF_SystemFunction](../../stereotypes.md#SAF_SystemFunction)|[System Function](../concept/concepts.md#System-Function)|
-|[SAF_SystemPartialFunction](../../stereotypes.md#SAF_SystemPartialFunction)|[System Partial Function](../concept/concepts.md#System-Partial-Function)|
-|[SAF_SystemProcess](../../stereotypes.md#SAF_SystemProcess)|[System Process](../concept/concepts.md#System-Process)|
+|[SAF_SystemFunction](../../stereotypes.md#saf_systemfunction)|[System Function](../concept/concepts.md#System-Function)|
+|[SAF_SystemPartialFunction](../../stereotypes.md#saf_systempartialfunction)|[System Partial Function](../concept/concepts.md#System-Partial-Function)|
+|[SAF_SystemProcess](../../stereotypes.md#saf_systemprocess)|[System Process](../concept/concepts.md#System-Process)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

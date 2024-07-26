@@ -23,9 +23,9 @@ A table featuring SCM_Concepts and their descriptions. In case of relational con
 * [Which systems engineering concepts are covered by the framework?](../concerns.md#_2024x_26f0132_1719129923965_578278_14750)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SCM_Concept](../stereotypes.md#SCM_Concept)
-* [SCM_D2_COTD](../stereotypes.md#SCM_D2_COTD)
-* [SCM_D2_COTD_Table](../stereotypes.md#SCM_D2_COTD_Table)
+* [SCM_Concept](../stereotypes.md#scm_concept)
+* [SCM_D2_COTD](../stereotypes.md#scm_d2_cotd)
+* [SCM_D2_COTD_Table](../stereotypes.md#scm_d2_cotd_table)
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

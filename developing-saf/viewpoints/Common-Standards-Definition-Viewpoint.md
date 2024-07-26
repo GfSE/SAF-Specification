@@ -25,13 +25,13 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
 |PartProperty [MD_customization_for_SysML]|[SDTincludingSDT](../concept/concepts.md#SDTincludingSDT)|
-|[SAF_C2_CSTD](../../stereotypes.md#SAF_C2_CSTD)|[Common Standards Definition Viewpoint](../concept/concepts.md#Common-Standards-Definition-Viewpoint)|
-|[SAF_C2_CSTD_Table](../../stereotypes.md#SAF_C2_CSTD_Table)|[Common Standards Definition Viewpoint](../concept/concepts.md#Common-Standards-Definition-Viewpoint)|
-|[SAF_StandardCovering](../../stereotypes.md#SAF_StandardCovering)|[SDTcoveringSBS](../concept/concepts.md#SDTcoveringSBS)|
-|[SAF_Standard](../../stereotypes.md#SAF_Standard)|[Standard](../concept/concepts.md#Standard)|
-|[SAF_StandardSuperseding](../../stereotypes.md#SAF_StandardSuperseding)|[SDTsupersedingSDT](../concept/concepts.md#SDTsupersedingSDT)|
-|[SAF_StandardizationOrganization](../../stereotypes.md#SAF_StandardizationOrganization)|[Standardization Organization](../concept/concepts.md#Standardization-Organization)|
-|[SAF_StandardizationSubject](../../stereotypes.md#SAF_StandardizationSubject)|[Subject of Standardization](../concept/concepts.md#Subject-of-Standardization)|
+|[SAF_C2_CSTD](../../stereotypes.md#saf_c2_cstd)|[Common Standards Definition Viewpoint](../concept/concepts.md#Common-Standards-Definition-Viewpoint)|
+|[SAF_C2_CSTD_Table](../../stereotypes.md#saf_c2_cstd_table)|[Common Standards Definition Viewpoint](../concept/concepts.md#Common-Standards-Definition-Viewpoint)|
+|[SAF_StandardCovering](../../stereotypes.md#saf_standardcovering)|[SDTcoveringSBS](../concept/concepts.md#SDTcoveringSBS)|
+|[SAF_Standard](../../stereotypes.md#saf_standard)|[Standard](../concept/concepts.md#Standard)|
+|[SAF_StandardSuperseding](../../stereotypes.md#saf_standardsuperseding)|[SDTsupersedingSDT](../concept/concepts.md#SDTsupersedingSDT)|
+|[SAF_StandardizationOrganization](../../stereotypes.md#saf_standardizationorganization)|[Standardization Organization](../concept/concepts.md#Standardization-Organization)|
+|[SAF_StandardizationSubject](../../stereotypes.md#saf_standardizationsubject)|[Subject of Standardization](../concept/concepts.md#Subject-of-Standardization)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

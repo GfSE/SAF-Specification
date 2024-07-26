@@ -30,13 +30,13 @@ A block definition diagram (BDD) depicting the elements available in a specific 
 * [Which interface partners does the system have?](../concerns.md#_2021x_2_8710274_1674576759091_673143_23507)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SAF_P1_PCXD](../stereotypes.md#SAF_P1_PCXD)
-* [SAF_PhysicalContextRole](../stereotypes.md#SAF_PhysicalContextRole)
-* [SAF_PhysicalContext](../stereotypes.md#SAF_PhysicalContext)
-* [SAF_PhysicalEnvironment](../stereotypes.md#SAF_PhysicalEnvironment)
-* [SAF_PhysicalExternalSystem](../stereotypes.md#SAF_PhysicalExternalSystem)
-* [SAF_PhysicalSystem](../stereotypes.md#SAF_PhysicalSystem)
-* [SAF_PhysicalUser](../stereotypes.md#SAF_PhysicalUser)
+* [SAF_P1_PCXD](../stereotypes.md#saf_p1_pcxd)
+* [SAF_PhysicalContextRole](../stereotypes.md#saf_physicalcontextrole)
+* [SAF_PhysicalContext](../stereotypes.md#saf_physicalcontext)
+* [SAF_PhysicalEnvironment](../stereotypes.md#saf_physicalenvironment)
+* [SAF_PhysicalExternalSystem](../stereotypes.md#saf_physicalexternalsystem)
+* [SAF_PhysicalSystem](../stereotypes.md#saf_physicalsystem)
+* [SAF_PhysicalUser](../stereotypes.md#saf_physicaluser)
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

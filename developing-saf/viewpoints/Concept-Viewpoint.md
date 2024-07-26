@@ -25,10 +25,10 @@ A table featuring SCM_Concepts and their descriptions. In case of relational con
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
-|[SCM_Concept](../../stereotypes.md#SCM_Concept)|[SE Concept](../concept/concepts.md#SE-Concept)|
-|[SCM_Concept](../../stereotypes.md#SCM_Concept)|[SECrelatesToSEC](../concept/concepts.md#SECrelatesToSEC)|
-|[SCM_D2_COTD](../../stereotypes.md#SCM_D2_COTD)|[Concept Viewpoint](../concept/concepts.md#Concept-Viewpoint)|
-|[SCM_D2_COTD_Table](../../stereotypes.md#SCM_D2_COTD_Table)|[Concept Viewpoint](../concept/concepts.md#Concept-Viewpoint)|
+|[SCM_Concept](../../stereotypes.md#scm_concept)|[SE Concept](../concept/concepts.md#SE-Concept)|
+|[SCM_Concept](../../stereotypes.md#scm_concept)|[SECrelatesToSEC](../concept/concepts.md#SECrelatesToSEC)|
+|[SCM_D2_COTD](../../stereotypes.md#scm_d2_cotd)|[Concept Viewpoint](../concept/concepts.md#Concept-Viewpoint)|
+|[SCM_D2_COTD_Table](../../stereotypes.md#scm_d2_cotd_table)|[Concept Viewpoint](../concept/concepts.md#Concept-Viewpoint)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

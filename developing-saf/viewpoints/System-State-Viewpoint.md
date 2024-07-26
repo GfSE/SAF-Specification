@@ -32,11 +32,11 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
 |Event [UML_Standard_Profile]|[Triggering Event](../concept/concepts.md#Triggering-Event)|
-|[SAF_DomainKind](../../stereotypes.md#SAF_DomainKind)|[System Domain Kind](../concept/concepts.md#System-Domain-Kind)|
-|[SAF_F3_SSTA](../../stereotypes.md#SAF_F3_SSTA)|[System State Viewpoint](../concept/concepts.md#System-State-Viewpoint)|
-|[SAF_F3_SSTA_Table](../../stereotypes.md#SAF_F3_SSTA_Table)|[System State Viewpoint](../concept/concepts.md#System-State-Viewpoint)|
-|[SAF_LogicalElement](../../stereotypes.md#SAF_LogicalElement)|[Logical Element](../concept/concepts.md#Logical-Element)|
-|[SAF_SystemFunction](../../stereotypes.md#SAF_SystemFunction)|[System Function](../concept/concepts.md#System-Function)|
+|[SAF_DomainKind](../../stereotypes.md#saf_domainkind)|[System Domain Kind](../concept/concepts.md#System-Domain-Kind)|
+|[SAF_F3_SSTA](../../stereotypes.md#saf_f3_ssta)|[System State Viewpoint](../concept/concepts.md#System-State-Viewpoint)|
+|[SAF_F3_SSTA_Table](../../stereotypes.md#saf_f3_ssta_table)|[System State Viewpoint](../concept/concepts.md#System-State-Viewpoint)|
+|[SAF_LogicalElement](../../stereotypes.md#saf_logicalelement)|[Logical Element](../concept/concepts.md#Logical-Element)|
+|[SAF_SystemFunction](../../stereotypes.md#saf_systemfunction)|[System Function](../concept/concepts.md#System-Function)|
 |StateMachine [UML_Standard_Profile]|[LETbeeingInSSE](../concept/concepts.md#LETbeeingInSSE)|
 |StateMachine [UML_Standard_Profile]|[SDKbeeingInSSE](../concept/concepts.md#SDKbeeingInSSE)|
 |State [UML_Standard_Profile]|[System State](../concept/concepts.md#System-State)|

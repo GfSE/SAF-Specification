@@ -24,10 +24,10 @@ A table featuring *SCM_VPStakeholder* elements, their documentation, and the *SC
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
-|[SCM_ConcernRationale](../../stereotypes.md#SCM_ConcernRationale)|[Rationale](../concept/concepts.md#Rationale)|
-|[SCM_D2_STKD_Table](../../stereotypes.md#SCM_D2_STKD_Table)|[Stakeholder Viewpoint](../concept/concepts.md#Stakeholder-Viewpoint)|
-|[SCM_VPConcern](../../stereotypes.md#SCM_VPConcern)|[Concern](../concept/concepts.md#Concern)|
-|[SCM_VPStakeholder](../../stereotypes.md#SCM_VPStakeholder)|[Stakeholder](../concept/concepts.md#Stakeholder)|
+|[SCM_ConcernRationale](../../stereotypes.md#scm_concernrationale)|[Rationale](../concept/concepts.md#Rationale)|
+|[SCM_D2_STKD_Table](../../stereotypes.md#scm_d2_stkd_table)|[Stakeholder Viewpoint](../concept/concepts.md#Stakeholder-Viewpoint)|
+|[SCM_VPConcern](../../stereotypes.md#scm_vpconcern)|[Concern](../concept/concepts.md#Concern)|
+|[SCM_VPStakeholder](../../stereotypes.md#scm_vpstakeholder)|[Stakeholder](../concept/concepts.md#Stakeholder)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

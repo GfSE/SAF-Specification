@@ -24,13 +24,13 @@ A tabular format listing System Capabilities, their composition, specialisation,
 * [What are the capabilities that are supported by the system?](../concerns.md#_2021x_2_8710274_1674576759126_506455_23537)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SAF_F2_SCYD](../stereotypes.md#SAF_F2_SCYD)
-* [SAF_F2_SCYD_Table](../stereotypes.md#SAF_F2_SCYD_Table)
-* [SAF_SystemCapabilityComposition](../stereotypes.md#SAF_SystemCapabilityComposition)
-* [SAF_SystemCapabilityDependency](../stereotypes.md#SAF_SystemCapabilityDependency)
-* [SAF_SystemCapabilityEnabling](../stereotypes.md#SAF_SystemCapabilityEnabling)
-* [SAF_SystemCapabilityGeneralization](../stereotypes.md#SAF_SystemCapabilityGeneralization)
-* [SAF_SystemCapability](../stereotypes.md#SAF_SystemCapability)
+* [SAF_F2_SCYD](../stereotypes.md#saf_f2_scyd)
+* [SAF_F2_SCYD_Table](../stereotypes.md#saf_f2_scyd_table)
+* [SAF_SystemCapabilityComposition](../stereotypes.md#saf_systemcapabilitycomposition)
+* [SAF_SystemCapabilityDependency](../stereotypes.md#saf_systemcapabilitydependency)
+* [SAF_SystemCapabilityEnabling](../stereotypes.md#saf_systemcapabilityenabling)
+* [SAF_SystemCapabilityGeneralization](../stereotypes.md#saf_systemcapabilitygeneralization)
+* [SAF_SystemCapability](../stereotypes.md#saf_systemcapability)
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

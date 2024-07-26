@@ -22,7 +22,7 @@ A table format listing  protection goals  and subcategories.
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
-|[SAF_C7_PRND_Table](../../stereotypes.md#SAF_C7_PRND_Table)|[Protection Goal Definition Viewpoint](../concept/concepts.md#Protection-Goal-Definition-Viewpoint)|
+|[SAF_C7_PRND_Table](../../stereotypes.md#saf_c7_prnd_table)|[Protection Goal Definition Viewpoint](../concept/concepts.md#Protection-Goal-Definition-Viewpoint)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

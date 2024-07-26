@@ -25,9 +25,9 @@ A table format listing abbreviations and relationship to standards if applicable
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * SAF_Term contained in SAF_Standard
-* [SAF_C2_TRMD_Table](../stereotypes.md#SAF_C2_TRMD_Table)
-* [SAF_Standard](../stereotypes.md#SAF_Standard)
-* [SAF_Term](../stereotypes.md#SAF_Term)
+* [SAF_C2_TRMD_Table](../stereotypes.md#saf_c2_trmd_table)
+* [SAF_Standard](../stereotypes.md#saf_standard)
+* [SAF_Term](../stereotypes.md#saf_term)
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

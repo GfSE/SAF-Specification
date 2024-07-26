@@ -21,13 +21,13 @@ A tabular format listing the relationships of Operational Process Activities to 
 * [Show in a concise manner the relationships from operational process to operational story and to operational performer.](../concerns.md#_2021x_2_8710274_1674576758928_485242_23392)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SAF_O8_OPRM_Table](../stereotypes.md#SAF_O8_OPRM_Table)
-* [SAF_OperationalCapability](../stereotypes.md#SAF_OperationalCapability)
-* [SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)
-* [SAF_OperationalProcessEnabling](../stereotypes.md#SAF_OperationalProcessEnabling)
-* [SAF_OperationalProcessRefinement](../stereotypes.md#SAF_OperationalProcessRefinement)
-* [SAF_OperationalProcess](../stereotypes.md#SAF_OperationalProcess)
-* [SAF_OperationalStory](../stereotypes.md#SAF_OperationalStory)
+* [SAF_O8_OPRM_Table](../stereotypes.md#saf_o8_oprm_table)
+* [SAF_OperationalCapability](../stereotypes.md#saf_operationalcapability)
+* [SAF_OperationalPerformer](../stereotypes.md#saf_operationalperformer)
+* [SAF_OperationalProcessEnabling](../stereotypes.md#saf_operationalprocessenabling)
+* [SAF_OperationalProcessRefinement](../stereotypes.md#saf_operationalprocessrefinement)
+* [SAF_OperationalProcess](../stereotypes.md#saf_operationalprocess)
+* [SAF_OperationalStory](../stereotypes.md#saf_operationalstory)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Operational Process Viewpoint](Operational-Process-Viewpoint.md)

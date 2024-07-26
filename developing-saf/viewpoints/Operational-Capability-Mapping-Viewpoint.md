@@ -23,19 +23,19 @@ A tabular format listing the relationships of Operational Capabilities to Stakeh
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
-|[SAF_O8_OCYM_Table](../../stereotypes.md#SAF_O8_OCYM_Table)|[Operational Capability Mapping Viewpoint](../concept/concepts.md#Operational-Capability-Mapping-Viewpoint)|
-|[SAF_OperationalCapabilityComposition](../../stereotypes.md#SAF_OperationalCapabilityComposition)|[OCYcomposedOF](../concept/concepts.md#OCYcomposedOF)|
-|[SAF_OperationalCapabilityDependency](../../stereotypes.md#SAF_OperationalCapabilityDependency)|[OCYdependingON](../concept/concepts.md#OCYdependingON)|
-|[SAF_OperationalCapabilityGeneralization](../../stereotypes.md#SAF_OperationalCapabilityGeneralization)|[OCYspecializedBY](../concept/concepts.md#OCYspecializedBY)|
-|[SAF_OperationalCapability](../../stereotypes.md#SAF_OperationalCapability)|[Operational Capability](../concept/concepts.md#Operational-Capability)|
-|[SAF_OperationalCapabilitySupport](../../stereotypes.md#SAF_OperationalCapabilitySupport)|[OCYsupportingOSY](../concept/concepts.md#OCYsupportingOSY)|
-|[SAF_OperationalPerformerExhibit](../../stereotypes.md#SAF_OperationalPerformerExhibit)|[OPRexhibitingOCY](../concept/concepts.md#OPRexhibitingOCY)|
-|[SAF_OperationalPerformer](../../stereotypes.md#SAF_OperationalPerformer)|[Operational Performer](../concept/concepts.md#Operational-Performer)|
-|[SAF_OperationalProcessEnabling](../../stereotypes.md#SAF_OperationalProcessEnabling)|[OPSenablingOCY](../concept/concepts.md#OPSenablingOCY)|
-|[SAF_OperationalProcess](../../stereotypes.md#SAF_OperationalProcess)|[Operational Process](../concept/concepts.md#Operational-Process)|
-|[SAF_OperationalStory](../../stereotypes.md#SAF_OperationalStory)|[Operational Story](../concept/concepts.md#Operational-Story)|
-|[SAF_StakeholderRequirementRefinement](../../stereotypes.md#SAF_StakeholderRequirementRefinement)|[SHRrefiningOCY](../concept/concepts.md#SHRrefiningOCY)|
-|[SAF_StakeholderRequirement](../../stereotypes.md#SAF_StakeholderRequirement)|[Stakeholder Requirement](../concept/concepts.md#Stakeholder-Requirement)|
+|[SAF_O8_OCYM_Table](../../stereotypes.md#saf_o8_ocym_table)|[Operational Capability Mapping Viewpoint](../concept/concepts.md#Operational-Capability-Mapping-Viewpoint)|
+|[SAF_OperationalCapabilityComposition](../../stereotypes.md#saf_operationalcapabilitycomposition)|[OCYcomposedOF](../concept/concepts.md#OCYcomposedOF)|
+|[SAF_OperationalCapabilityDependency](../../stereotypes.md#saf_operationalcapabilitydependency)|[OCYdependingON](../concept/concepts.md#OCYdependingON)|
+|[SAF_OperationalCapabilityGeneralization](../../stereotypes.md#saf_operationalcapabilitygeneralization)|[OCYspecializedBY](../concept/concepts.md#OCYspecializedBY)|
+|[SAF_OperationalCapability](../../stereotypes.md#saf_operationalcapability)|[Operational Capability](../concept/concepts.md#Operational-Capability)|
+|[SAF_OperationalCapabilitySupport](../../stereotypes.md#saf_operationalcapabilitysupport)|[OCYsupportingOSY](../concept/concepts.md#OCYsupportingOSY)|
+|[SAF_OperationalPerformerExhibit](../../stereotypes.md#saf_operationalperformerexhibit)|[OPRexhibitingOCY](../concept/concepts.md#OPRexhibitingOCY)|
+|[SAF_OperationalPerformer](../../stereotypes.md#saf_operationalperformer)|[Operational Performer](../concept/concepts.md#Operational-Performer)|
+|[SAF_OperationalProcessEnabling](../../stereotypes.md#saf_operationalprocessenabling)|[OPSenablingOCY](../concept/concepts.md#OPSenablingOCY)|
+|[SAF_OperationalProcess](../../stereotypes.md#saf_operationalprocess)|[Operational Process](../concept/concepts.md#Operational-Process)|
+|[SAF_OperationalStory](../../stereotypes.md#saf_operationalstory)|[Operational Story](../concept/concepts.md#Operational-Story)|
+|[SAF_StakeholderRequirementRefinement](../../stereotypes.md#saf_stakeholderrequirementrefinement)|[SHRrefiningOCY](../concept/concepts.md#SHRrefiningOCY)|
+|[SAF_StakeholderRequirement](../../stereotypes.md#saf_stakeholderrequirement)|[Stakeholder Requirement](../concept/concepts.md#Stakeholder-Requirement)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Operational Capability Definition Viewpoint](Operational-Capability-Definition-Viewpoint.md)

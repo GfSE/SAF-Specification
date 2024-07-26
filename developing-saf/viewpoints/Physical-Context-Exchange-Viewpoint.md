@@ -57,15 +57,15 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |ProxyPort contained in SAF_PhysicalItem|[PIPapplyingToAPE](../concept/concepts.md#PIPapplyingToAPE)|
 |ProxyPort typed by SAF_PhysicalInterfaceDefinition|[PIPDdefiningDetailOfPIP](../concept/concepts.md#PIPDdefiningDetailOfPIP)|
 |ProxyPort [SysML Profile]|[Physical Interaction Point](../concept/concepts.md#Physical-Interaction-Point)|
-|[SAF_InterfaceLayerRelationship](../../stereotypes.md#SAF_InterfaceLayerRelationship)|[PCPOverPCP](../concept/concepts.md#PCPOverPCP)|
-|[SAF_P1_PCXE](../../stereotypes.md#SAF_P1_PCXE)|[Physical Context Exchange Viewpoint](../concept/concepts.md#Physical-Context-Exchange-Viewpoint)|
-|[SAF_P1_PCXE_Table](../../stereotypes.md#SAF_P1_PCXE_Table)|[Physical Context Exchange Viewpoint](../concept/concepts.md#Physical-Context-Exchange-Viewpoint)|
-|[SAF_PhysicalEnvironment](../../stereotypes.md#SAF_PhysicalEnvironment)|[Physical Environment](../concept/concepts.md#Physical-Environment)|
-|[SAF_PhysicalExchangeType](../../stereotypes.md#SAF_PhysicalExchangeType)|[Physical Exchange Kind](../concept/concepts.md#Physical-Exchange-Kind)|
-|[SAF_PhysicalExternalSystem](../../stereotypes.md#SAF_PhysicalExternalSystem)|[Physical External System](../concept/concepts.md#Physical-External-System)|
-|[SAF_PhysicalInterfaceDefinition](../../stereotypes.md#SAF_PhysicalInterfaceDefinition)|[Physical Interaction Point Definition](../concept/concepts.md#Physical-Interaction-Point-Definition)|
-|[SAF_PhysicalSystem](../../stereotypes.md#SAF_PhysicalSystem)|[Physical SOI](../concept/concepts.md#Physical-SOI)|
-|[SAF_PhysicalUser](../../stereotypes.md#SAF_PhysicalUser)|[Physical User](../concept/concepts.md#Physical-User)|
+|[SAF_InterfaceLayerRelationship](../../stereotypes.md#saf_interfacelayerrelationship)|[PCPOverPCP](../concept/concepts.md#PCPOverPCP)|
+|[SAF_P1_PCXE](../../stereotypes.md#saf_p1_pcxe)|[Physical Context Exchange Viewpoint](../concept/concepts.md#Physical-Context-Exchange-Viewpoint)|
+|[SAF_P1_PCXE_Table](../../stereotypes.md#saf_p1_pcxe_table)|[Physical Context Exchange Viewpoint](../concept/concepts.md#Physical-Context-Exchange-Viewpoint)|
+|[SAF_PhysicalEnvironment](../../stereotypes.md#saf_physicalenvironment)|[Physical Environment](../concept/concepts.md#Physical-Environment)|
+|[SAF_PhysicalExchangeType](../../stereotypes.md#saf_physicalexchangetype)|[Physical Exchange Kind](../concept/concepts.md#Physical-Exchange-Kind)|
+|[SAF_PhysicalExternalSystem](../../stereotypes.md#saf_physicalexternalsystem)|[Physical External System](../concept/concepts.md#Physical-External-System)|
+|[SAF_PhysicalInterfaceDefinition](../../stereotypes.md#saf_physicalinterfacedefinition)|[Physical Interaction Point Definition](../concept/concepts.md#Physical-Interaction-Point-Definition)|
+|[SAF_PhysicalSystem](../../stereotypes.md#saf_physicalsystem)|[Physical SOI](../concept/concepts.md#Physical-SOI)|
+|[SAF_PhysicalUser](../../stereotypes.md#saf_physicaluser)|[Physical User](../concept/concepts.md#Physical-User)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Physical Context Definition Viewpoint](Physical-Context-Definition-Viewpoint.md)

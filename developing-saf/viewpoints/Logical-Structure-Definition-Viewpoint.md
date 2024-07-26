@@ -23,10 +23,10 @@ Note: Multiple relationships to a kind of element are allowed meaning, that this
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
-|[SAF_L2_LSTD](../../stereotypes.md#SAF_L2_LSTD)|[Logical Structure Definition Viewpoint](../concept/concepts.md#Logical-Structure-Definition-Viewpoint)|
-|[SAF_LogicalElement](../../stereotypes.md#SAF_LogicalElement)|[Logical Element](../concept/concepts.md#Logical-Element)|
+|[SAF_L2_LSTD](../../stereotypes.md#saf_l2_lstd)|[Logical Structure Definition Viewpoint](../concept/concepts.md#Logical-Structure-Definition-Viewpoint)|
+|[SAF_LogicalElement](../../stereotypes.md#saf_logicalelement)|[Logical Element](../concept/concepts.md#Logical-Element)|
 |SAF_LogicalInternalRole contained in SAF_LogicalElement|[Logical Element Role](../concept/concepts.md#Logical-Element-Role)|
-|[SAF_LogicalSOI](../../stereotypes.md#SAF_LogicalSOI)|[Logical Context SOI](../concept/concepts.md#Logical-Context-SOI)|
+|[SAF_LogicalSOI](../../stereotypes.md#saf_logicalsoi)|[Logical Context SOI](../concept/concepts.md#Logical-Context-SOI)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [System Functional Breakdown Structure Viewpoint](System-Functional-Breakdown-Structure-Viewpoint.md)

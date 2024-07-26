@@ -41,9 +41,9 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * ItemFlow typed by SAF_DomainKind
 * ProxyPort [SysML Profile]
 * ProxyPort typed by SAF_ConceptualInterfaceDefinition
-* [SAF_ConceptualInterfaceDefinition](../stereotypes.md#SAF_ConceptualInterfaceDefinition)
-* [SAF_DomainKind](../stereotypes.md#SAF_DomainKind)
-* [SAF_F5_SIFD](../stereotypes.md#SAF_F5_SIFD)
+* [SAF_ConceptualInterfaceDefinition](../stereotypes.md#saf_conceptualinterfacedefinition)
+* [SAF_DomainKind](../stereotypes.md#saf_domainkind)
+* [SAF_F5_SIFD](../stereotypes.md#saf_f5_sifd)
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

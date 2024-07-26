@@ -30,12 +30,12 @@ A FBS_to_PBS mapping matrix featuring
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Allocate [SysML Profile]
 * Attribute "function" of SAF_PhysicalItem referencing SAF_SystemFunction
-* [SAF_P8_PFUM_Matrix](../stereotypes.md#SAF_P8_PFUM_Matrix)
-* [SAF_PhysicalElement](../stereotypes.md#SAF_PhysicalElement)
-* [SAF_PhysicalHardwareElement](../stereotypes.md#SAF_PhysicalHardwareElement)
-* [SAF_PhysicalSoftwareElement](../stereotypes.md#SAF_PhysicalSoftwareElement)
-* [SAF_SystemFunction](../stereotypes.md#SAF_SystemFunction)
-* [SAF_SystemPartialFunction](../stereotypes.md#SAF_SystemPartialFunction)
+* [SAF_P8_PFUM_Matrix](../stereotypes.md#saf_p8_pfum_matrix)
+* [SAF_PhysicalElement](../stereotypes.md#saf_physicalelement)
+* [SAF_PhysicalHardwareElement](../stereotypes.md#saf_physicalhardwareelement)
+* [SAF_PhysicalSoftwareElement](../stereotypes.md#saf_physicalsoftwareelement)
+* [SAF_SystemFunction](../stereotypes.md#saf_systemfunction)
+* [SAF_SystemPartialFunction](../stereotypes.md#saf_systempartialfunction)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Logical Structure Definition Viewpoint](Logical-Structure-Definition-Viewpoint.md)

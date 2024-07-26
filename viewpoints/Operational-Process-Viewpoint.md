@@ -28,12 +28,12 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * ObjectFlow [UML_Standard_Profile]
 * ObjectFlow typed by SAF_OperationalDomainKind
 * OutputPin [UML_Standard_Profile]
-* [SAF_O3_OPRO](../stereotypes.md#SAF_O3_OPRO)
-* [SAF_OperationalContextRole](../stereotypes.md#SAF_OperationalContextRole)
-* [SAF_OperationalDomainKind](../stereotypes.md#SAF_OperationalDomainKind)
-* [SAF_OperationalPerformer](../stereotypes.md#SAF_OperationalPerformer)
-* [SAF_OperationalProcessAction](../stereotypes.md#SAF_OperationalProcessAction)
-* [SAF_OperationalProcess](../stereotypes.md#SAF_OperationalProcess)
+* [SAF_O3_OPRO](../stereotypes.md#saf_o3_opro)
+* [SAF_OperationalContextRole](../stereotypes.md#saf_operationalcontextrole)
+* [SAF_OperationalDomainKind](../stereotypes.md#saf_operationaldomainkind)
+* [SAF_OperationalPerformer](../stereotypes.md#saf_operationalperformer)
+* [SAF_OperationalProcessAction](../stereotypes.md#saf_operationalprocessaction)
+* [SAF_OperationalProcess](../stereotypes.md#saf_operationalprocess)
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

@@ -29,16 +29,16 @@ Note: Multiple relationships to a kind of element are allowed meaning, that this
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
-|[SAF_P2_PSTD](../../stereotypes.md#SAF_P2_PSTD)|[Physical Structure Definition Viewpoint](../concept/concepts.md#Physical-Structure-Definition-Viewpoint)|
-|[SAF_PhysicalElement](../../stereotypes.md#SAF_PhysicalElement)|[Physical Element](../concept/concepts.md#Physical-Element)|
-|[SAF_PhysicalHardwareElement](../../stereotypes.md#SAF_PhysicalHardwareElement)|[Hardware Element](../concept/concepts.md#Hardware-Element)|
-|[SAF_PhysicalInternalRole](../../stereotypes.md#SAF_PhysicalInternalRole)|[Hardware Element Role](../concept/concepts.md#Hardware-Element-Role)|
-|[SAF_PhysicalInternalRole](../../stereotypes.md#SAF_PhysicalInternalRole)|[Physical Element Role](../concept/concepts.md#Physical-Element-Role)|
-|[SAF_PhysicalInternalRole](../../stereotypes.md#SAF_PhysicalInternalRole)|[Physical Hardware Role](../concept/concepts.md#Physical-Hardware-Role)|
-|[SAF_PhysicalInternalRole](../../stereotypes.md#SAF_PhysicalInternalRole)|[Physical Software Role](../concept/concepts.md#Physical-Software-Role)|
-|[SAF_PhysicalInternalRole](../../stereotypes.md#SAF_PhysicalInternalRole)|[Software Element Role](../concept/concepts.md#Software-Element-Role)|
-|[SAF_PhysicalSoftwareElement](../../stereotypes.md#SAF_PhysicalSoftwareElement)|[Software Element](../concept/concepts.md#Software-Element)|
-|[SAF_PhysicalSystem](../../stereotypes.md#SAF_PhysicalSystem)|[Physical SOI](../concept/concepts.md#Physical-SOI)|
+|[SAF_P2_PSTD](../../stereotypes.md#saf_p2_pstd)|[Physical Structure Definition Viewpoint](../concept/concepts.md#Physical-Structure-Definition-Viewpoint)|
+|[SAF_PhysicalElement](../../stereotypes.md#saf_physicalelement)|[Physical Element](../concept/concepts.md#Physical-Element)|
+|[SAF_PhysicalHardwareElement](../../stereotypes.md#saf_physicalhardwareelement)|[Hardware Element](../concept/concepts.md#Hardware-Element)|
+|[SAF_PhysicalInternalRole](../../stereotypes.md#saf_physicalinternalrole)|[Hardware Element Role](../concept/concepts.md#Hardware-Element-Role)|
+|[SAF_PhysicalInternalRole](../../stereotypes.md#saf_physicalinternalrole)|[Physical Element Role](../concept/concepts.md#Physical-Element-Role)|
+|[SAF_PhysicalInternalRole](../../stereotypes.md#saf_physicalinternalrole)|[Physical Hardware Role](../concept/concepts.md#Physical-Hardware-Role)|
+|[SAF_PhysicalInternalRole](../../stereotypes.md#saf_physicalinternalrole)|[Physical Software Role](../concept/concepts.md#Physical-Software-Role)|
+|[SAF_PhysicalInternalRole](../../stereotypes.md#saf_physicalinternalrole)|[Software Element Role](../concept/concepts.md#Software-Element-Role)|
+|[SAF_PhysicalSoftwareElement](../../stereotypes.md#saf_physicalsoftwareelement)|[Software Element](../concept/concepts.md#Software-Element)|
+|[SAF_PhysicalSystem](../../stereotypes.md#saf_physicalsystem)|[Physical SOI](../concept/concepts.md#Physical-SOI)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

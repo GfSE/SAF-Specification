@@ -22,10 +22,10 @@ A table featuring *SCM_VPStakeholder* elements, their documentation, and the *SC
 * [Who are the Stakeholders of the frameworks viewpoints?](../concerns.md#_2024x_26f0132_1719129843876_724811_14744)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SCM_ConcernRationale](../stereotypes.md#SCM_ConcernRationale)
-* [SCM_D2_STKD_Table](../stereotypes.md#SCM_D2_STKD_Table)
-* [SCM_VPConcern](../stereotypes.md#SCM_VPConcern)
-* [SCM_VPStakeholder](../stereotypes.md#SCM_VPStakeholder)
+* [SCM_ConcernRationale](../stereotypes.md#scm_concernrationale)
+* [SCM_D2_STKD_Table](../stereotypes.md#scm_d2_stkd_table)
+* [SCM_VPConcern](../stereotypes.md#scm_vpconcern)
+* [SCM_VPStakeholder](../stereotypes.md#scm_vpstakeholder)
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

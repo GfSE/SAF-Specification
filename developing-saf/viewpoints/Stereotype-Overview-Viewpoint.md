@@ -22,7 +22,7 @@ A table featuring the stereotypes of the SAF profile and their documentation.
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
-|[SAF_C2_STYD_Table](../../stereotypes.md#SAF_C2_STYD_Table)|[Stereotype Overview Viewpoint](../concept/concepts.md#Stereotype-Overview-Viewpoint)|
+|[SAF_C2_STYD_Table](../../stereotypes.md#saf_c2_styd_table)|[Stereotype Overview Viewpoint](../concept/concepts.md#Stereotype-Overview-Viewpoint)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

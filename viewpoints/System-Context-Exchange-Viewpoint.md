@@ -45,15 +45,15 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * ItemFlow typed by SAF_DomainKind
 * ProxyPort [SysML Profile]
 * ProxyPort typed by SAF_ConceptualInterfaceDefinition
-* [SAF_ConceptualInterfaceDefinition](../stereotypes.md#SAF_ConceptualInterfaceDefinition)
-* [SAF_DomainKind](../stereotypes.md#SAF_DomainKind)
-* [SAF_F1_SCXE](../stereotypes.md#SAF_F1_SCXE)
-* [SAF_F1_SCXE_Table](../stereotypes.md#SAF_F1_SCXE_Table)
-* [SAF_LogicalContextRole](../stereotypes.md#SAF_LogicalContextRole)
-* [SAF_LogicalEnvironment](../stereotypes.md#SAF_LogicalEnvironment)
-* [SAF_LogicalExternalSystem](../stereotypes.md#SAF_LogicalExternalSystem)
-* [SAF_LogicalSOI](../stereotypes.md#SAF_LogicalSOI)
-* [SAF_LogicalUser](../stereotypes.md#SAF_LogicalUser)
+* [SAF_ConceptualInterfaceDefinition](../stereotypes.md#saf_conceptualinterfacedefinition)
+* [SAF_DomainKind](../stereotypes.md#saf_domainkind)
+* [SAF_F1_SCXE](../stereotypes.md#saf_f1_scxe)
+* [SAF_F1_SCXE_Table](../stereotypes.md#saf_f1_scxe_table)
+* [SAF_LogicalContextRole](../stereotypes.md#saf_logicalcontextrole)
+* [SAF_LogicalEnvironment](../stereotypes.md#saf_logicalenvironment)
+* [SAF_LogicalExternalSystem](../stereotypes.md#saf_logicalexternalsystem)
+* [SAF_LogicalSOI](../stereotypes.md#saf_logicalsoi)
+* [SAF_LogicalUser](../stereotypes.md#saf_logicaluser)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [System Context Definition Viewpoint](System-Context-Definition-Viewpoint.md)

@@ -29,11 +29,11 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |Attribute "realizingConnector" of InformationFlow referencing Connector|[OCNallowingOIE](../concept/concepts.md#OCNallowingOIE)|
 |Connector [UML_Standard_Profile]|[Operational Connection](../concept/concepts.md#Operational-Connection)|
 |ItemFlow [SysML Profile]|[Operational Item Exchange](../concept/concepts.md#Operational-Item-Exchange)|
-|[SAF_O1_OCXE](../../stereotypes.md#SAF_O1_OCXE)|[Operational Context Exchange Viewpoint](../concept/concepts.md#Operational-Context-Exchange-Viewpoint)|
-|[SAF_OperationalContext](../../stereotypes.md#SAF_OperationalContext)|[Operational Context](../concept/concepts.md#Operational-Context)|
-|[SAF_OperationalContextRole](../../stereotypes.md#SAF_OperationalContextRole)|[Operational Context Role](../concept/concepts.md#Operational-Context-Role)|
-|[SAF_OperationalDomainKind](../../stereotypes.md#SAF_OperationalDomainKind)|[Operational Domain Kind](../concept/concepts.md#Operational-Domain-Kind)|
-|[SAF_OperationalPerformer](../../stereotypes.md#SAF_OperationalPerformer)|[Operational Performer](../concept/concepts.md#Operational-Performer)|
+|[SAF_O1_OCXE](../../stereotypes.md#saf_o1_ocxe)|[Operational Context Exchange Viewpoint](../concept/concepts.md#Operational-Context-Exchange-Viewpoint)|
+|[SAF_OperationalContext](../../stereotypes.md#saf_operationalcontext)|[Operational Context](../concept/concepts.md#Operational-Context)|
+|[SAF_OperationalContextRole](../../stereotypes.md#saf_operationalcontextrole)|[Operational Context Role](../concept/concepts.md#Operational-Context-Role)|
+|[SAF_OperationalDomainKind](../../stereotypes.md#saf_operationaldomainkind)|[Operational Domain Kind](../concept/concepts.md#Operational-Domain-Kind)|
+|[SAF_OperationalPerformer](../../stereotypes.md#saf_operationalperformer)|[Operational Performer](../concept/concepts.md#Operational-Performer)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Operational Context Definition Viewpoint](Operational-Context-Definition-Viewpoint.md)

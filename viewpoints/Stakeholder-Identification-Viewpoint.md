@@ -29,12 +29,12 @@ A block definition diagram (BDD) depicting the identified, analysed, and classif
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Attribute "concern" of Stakeholder referencing SAF_SystemOfInterestConcern
-* [SAF_ContextElementRepresentation](../stereotypes.md#SAF_ContextElementRepresentation)
-* [SAF_O2_STID](../stereotypes.md#SAF_O2_STID)
-* [SAF_StakeholderRelation](../stereotypes.md#SAF_StakeholderRelation)
-* [SAF_StakeholderRepresenting](../stereotypes.md#SAF_StakeholderRepresenting)
-* [SAF_Stakeholder](../stereotypes.md#SAF_Stakeholder)
-* [SAF_SystemOfInterestConcern](../stereotypes.md#SAF_SystemOfInterestConcern)
+* [SAF_ContextElementRepresentation](../stereotypes.md#saf_contextelementrepresentation)
+* [SAF_O2_STID](../stereotypes.md#saf_o2_stid)
+* [SAF_StakeholderRelation](../stereotypes.md#saf_stakeholderrelation)
+* [SAF_StakeholderRepresenting](../stereotypes.md#saf_stakeholderrepresenting)
+* [SAF_Stakeholder](../stereotypes.md#saf_stakeholder)
+* [SAF_SystemOfInterestConcern](../stereotypes.md#saf_systemofinterestconcern)
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

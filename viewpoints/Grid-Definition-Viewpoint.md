@@ -23,10 +23,10 @@ A table featuring the saf viewpoints, the views (diagrams, tables, ..) of the sy
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Attribute "diagrams" of SAF_Viewpoint referencing SAF_Diagram
-* [SAF_C2_GRID](../stereotypes.md#SAF_C2_GRID)
-* [SAF_C2_GRID_Table](../stereotypes.md#SAF_C2_GRID_Table)
-* [SAF_Diagram](../stereotypes.md#SAF_Diagram)
-* [SAF_Viewpoint](../stereotypes.md#SAF_Viewpoint)
+* [SAF_C2_GRID](../stereotypes.md#saf_c2_grid)
+* [SAF_C2_GRID_Table](../stereotypes.md#saf_c2_grid_table)
+* [SAF_Diagram](../stereotypes.md#saf_diagram)
+* [SAF_Viewpoint](../stereotypes.md#saf_viewpoint)
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

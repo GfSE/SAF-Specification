@@ -43,9 +43,9 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |ItemFlow [SysML Profile]|[Logical Item Exchange](../concept/concepts.md#Logical-Item-Exchange)|
 |ProxyPort typed by SAF_ConceptualInterfaceDefinition|[LIPDdefiningDetailOfLIP](../concept/concepts.md#LIPDdefiningDetailOfLIP)|
 |ProxyPort [SysML Profile]|[Logical Interaction Point](../concept/concepts.md#Logical-Interaction-Point)|
-|[SAF_ConceptualInterfaceDefinition](../../stereotypes.md#SAF_ConceptualInterfaceDefinition)|[Logical Interaction Point Definition](../concept/concepts.md#Logical-Interaction-Point-Definition)|
-|[SAF_DomainKind](../../stereotypes.md#SAF_DomainKind)|[System Domain Kind](../concept/concepts.md#System-Domain-Kind)|
-|[SAF_F5_SIFD](../../stereotypes.md#SAF_F5_SIFD)|[System Interface Definition Viewpoint](../concept/concepts.md#System-Interface-Definition-Viewpoint)|
+|[SAF_ConceptualInterfaceDefinition](../../stereotypes.md#saf_conceptualinterfacedefinition)|[Logical Interaction Point Definition](../concept/concepts.md#Logical-Interaction-Point-Definition)|
+|[SAF_DomainKind](../../stereotypes.md#saf_domainkind)|[System Domain Kind](../concept/concepts.md#System-Domain-Kind)|
+|[SAF_F5_SIFD](../../stereotypes.md#saf_f5_sifd)|[System Interface Definition Viewpoint](../concept/concepts.md#System-Interface-Definition-Viewpoint)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

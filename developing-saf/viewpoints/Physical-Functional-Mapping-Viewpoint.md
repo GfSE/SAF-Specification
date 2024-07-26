@@ -33,12 +33,12 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |Allocate [SysML Profile]|[USAGEallocatedTo](../concept/concepts.md#USAGEallocatedTo)|
 |Attribute "function" of SAF_PhysicalItem referencing SAF_SystemFunction|[SFNallocatedToAPE](../concept/concepts.md#SFNallocatedToAPE)|
 |Attribute "function" of SAF_PhysicalItem referencing SAF_SystemFunction|[SPFNallocatedToAPE](../concept/concepts.md#SPFNallocatedToAPE)|
-|[SAF_P8_PFUM_Matrix](../../stereotypes.md#SAF_P8_PFUM_Matrix)|[Physical Functional Mapping Viewpoint](../concept/concepts.md#Physical-Functional-Mapping-Viewpoint)|
-|[SAF_PhysicalElement](../../stereotypes.md#SAF_PhysicalElement)|[Physical Element](../concept/concepts.md#Physical-Element)|
-|[SAF_PhysicalHardwareElement](../../stereotypes.md#SAF_PhysicalHardwareElement)|[Hardware Element](../concept/concepts.md#Hardware-Element)|
-|[SAF_PhysicalSoftwareElement](../../stereotypes.md#SAF_PhysicalSoftwareElement)|[Software Element](../concept/concepts.md#Software-Element)|
-|[SAF_SystemFunction](../../stereotypes.md#SAF_SystemFunction)|[System Function](../concept/concepts.md#System-Function)|
-|[SAF_SystemPartialFunction](../../stereotypes.md#SAF_SystemPartialFunction)|[System Partial Function](../concept/concepts.md#System-Partial-Function)|
+|[SAF_P8_PFUM_Matrix](../../stereotypes.md#saf_p8_pfum_matrix)|[Physical Functional Mapping Viewpoint](../concept/concepts.md#Physical-Functional-Mapping-Viewpoint)|
+|[SAF_PhysicalElement](../../stereotypes.md#saf_physicalelement)|[Physical Element](../concept/concepts.md#Physical-Element)|
+|[SAF_PhysicalHardwareElement](../../stereotypes.md#saf_physicalhardwareelement)|[Hardware Element](../concept/concepts.md#Hardware-Element)|
+|[SAF_PhysicalSoftwareElement](../../stereotypes.md#saf_physicalsoftwareelement)|[Software Element](../concept/concepts.md#Software-Element)|
+|[SAF_SystemFunction](../../stereotypes.md#saf_systemfunction)|[System Function](../concept/concepts.md#System-Function)|
+|[SAF_SystemPartialFunction](../../stereotypes.md#saf_systempartialfunction)|[System Partial Function](../concept/concepts.md#System-Partial-Function)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Logical Structure Definition Viewpoint](Logical-Structure-Definition-Viewpoint.md)

@@ -38,15 +38,15 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * Attribute "subject" of UseCase referencing SAF_LogicalContext
 * Include [UML_Standard_Profile]
 * State [UML_Standard_Profile]
-* [SAF_F1_SUCS](../stereotypes.md#SAF_F1_SUCS)
-* [SAF_F1_SUCS_Table](../stereotypes.md#SAF_F1_SUCS_Table)
-* [SAF_LogicalContextElementActing](../stereotypes.md#SAF_LogicalContextElementActing)
-* [SAF_LogicalContext](../stereotypes.md#SAF_LogicalContext)
-* [SAF_LogicalEnvironment](../stereotypes.md#SAF_LogicalEnvironment)
-* [SAF_LogicalExternalSystem](../stereotypes.md#SAF_LogicalExternalSystem)
-* [SAF_LogicalUser](../stereotypes.md#SAF_LogicalUser)
-* [SAF_SystemUseCaseEnabling](../stereotypes.md#SAF_SystemUseCaseEnabling)
-* [SAF_SystemUseCase](../stereotypes.md#SAF_SystemUseCase)
+* [SAF_F1_SUCS](../stereotypes.md#saf_f1_sucs)
+* [SAF_F1_SUCS_Table](../stereotypes.md#saf_f1_sucs_table)
+* [SAF_LogicalContextElementActing](../stereotypes.md#saf_logicalcontextelementacting)
+* [SAF_LogicalContext](../stereotypes.md#saf_logicalcontext)
+* [SAF_LogicalEnvironment](../stereotypes.md#saf_logicalenvironment)
+* [SAF_LogicalExternalSystem](../stereotypes.md#saf_logicalexternalsystem)
+* [SAF_LogicalUser](../stereotypes.md#saf_logicaluser)
+* [SAF_SystemUseCaseEnabling](../stereotypes.md#saf_systemusecaseenabling)
+* [SAF_SystemUseCase](../stereotypes.md#saf_systemusecase)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [System Context Definition Viewpoint](System-Context-Definition-Viewpoint.md)

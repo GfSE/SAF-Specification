@@ -31,13 +31,13 @@ A tabular format listing
 * [Which are the interface requirements imposed on the system?](../concerns.md#_2021x_2_8710274_1674576758778_979635_23258)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SAF_F6_SRQD_Table](../stereotypes.md#SAF_F6_SRQD_Table)
-* [SAF_StakeholderRequirement](../stereotypes.md#SAF_StakeholderRequirement)
-* [SAF_SystemFunctionalRequirementConstraint](../stereotypes.md#SAF_SystemFunctionalRequirementConstraint)
-* [SAF_SystemFunctionalRequirement](../stereotypes.md#SAF_SystemFunctionalRequirement)
-* [SAF_SystemNonFunctionalRequirement](../stereotypes.md#SAF_SystemNonFunctionalRequirement)
-* [SAF_SystemRequirementDerivation](../stereotypes.md#SAF_SystemRequirementDerivation)
-* [SAF_SystemRequirement](../stereotypes.md#SAF_SystemRequirement)
+* [SAF_F6_SRQD_Table](../stereotypes.md#saf_f6_srqd_table)
+* [SAF_StakeholderRequirement](../stereotypes.md#saf_stakeholderrequirement)
+* [SAF_SystemFunctionalRequirementConstraint](../stereotypes.md#saf_systemfunctionalrequirementconstraint)
+* [SAF_SystemFunctionalRequirement](../stereotypes.md#saf_systemfunctionalrequirement)
+* [SAF_SystemNonFunctionalRequirement](../stereotypes.md#saf_systemnonfunctionalrequirement)
+* [SAF_SystemRequirementDerivation](../stereotypes.md#saf_systemrequirementderivation)
+* [SAF_SystemRequirement](../stereotypes.md#saf_systemrequirement)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Stakeholder Requirement Definition Viewpoint](Stakeholder-Requirement-Definition-Viewpoint.md)

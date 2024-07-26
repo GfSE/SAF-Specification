@@ -21,10 +21,10 @@ A table featuring the SCM_VPConcerns elements of the SAF, and their relations to
 * [Which concerns are related to the frameworks stakeholders?](../concerns.md#_2024x_26f0132_1719129962342_738625_14755)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SCM_D2_CCND_Table](../stereotypes.md#SCM_D2_CCND_Table)
-* [SCM_VPConcern](../stereotypes.md#SCM_VPConcern)
-* [SCM_VPStakeholder](../stereotypes.md#SCM_VPStakeholder)
-* [SCM_Viewpoint](../stereotypes.md#SCM_Viewpoint)
+* [SCM_D2_CCND_Table](../stereotypes.md#scm_d2_ccnd_table)
+* [SCM_VPConcern](../stereotypes.md#scm_vpconcern)
+* [SCM_VPStakeholder](../stereotypes.md#scm_vpstakeholder)
+* [SCM_Viewpoint](../stereotypes.md#scm_viewpoint)
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

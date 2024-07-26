@@ -23,13 +23,13 @@ A table format listing technical, operational, and business standards, guidance,
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * PartProperty [MD_customization_for_SysML]
-* [SAF_C2_CSTD](../stereotypes.md#SAF_C2_CSTD)
-* [SAF_C2_CSTD_Table](../stereotypes.md#SAF_C2_CSTD_Table)
-* [SAF_StandardCovering](../stereotypes.md#SAF_StandardCovering)
-* [SAF_StandardSuperseding](../stereotypes.md#SAF_StandardSuperseding)
-* [SAF_Standard](../stereotypes.md#SAF_Standard)
-* [SAF_StandardizationOrganization](../stereotypes.md#SAF_StandardizationOrganization)
-* [SAF_StandardizationSubject](../stereotypes.md#SAF_StandardizationSubject)
+* [SAF_C2_CSTD](../stereotypes.md#saf_c2_cstd)
+* [SAF_C2_CSTD_Table](../stereotypes.md#saf_c2_cstd_table)
+* [SAF_StandardCovering](../stereotypes.md#saf_standardcovering)
+* [SAF_StandardSuperseding](../stereotypes.md#saf_standardsuperseding)
+* [SAF_Standard](../stereotypes.md#saf_standard)
+* [SAF_StandardizationOrganization](../stereotypes.md#saf_standardizationorganization)
+* [SAF_StandardizationSubject](../stereotypes.md#saf_standardizationsubject)
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

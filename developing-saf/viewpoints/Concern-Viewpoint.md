@@ -23,10 +23,10 @@ A table featuring the SCM_VPConcerns elements of the SAF, and their relations to
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
-|[SCM_D2_CCND_Table](../../stereotypes.md#SCM_D2_CCND_Table)|[Concern Viewpoint](../concept/concepts.md#Concern-Viewpoint)|
-|[SCM_VPConcern](../../stereotypes.md#SCM_VPConcern)|[Concern](../concept/concepts.md#Concern)|
-|[SCM_VPStakeholder](../../stereotypes.md#SCM_VPStakeholder)|[Stakeholder](../concept/concepts.md#Stakeholder)|
-|[SCM_Viewpoint](../../stereotypes.md#SCM_Viewpoint)|[Viewpoint](../concept/concepts.md#Viewpoint)|
+|[SCM_D2_CCND_Table](../../stereotypes.md#scm_d2_ccnd_table)|[Concern Viewpoint](../concept/concepts.md#Concern-Viewpoint)|
+|[SCM_VPConcern](../../stereotypes.md#scm_vpconcern)|[Concern](../concept/concepts.md#Concern)|
+|[SCM_VPStakeholder](../../stereotypes.md#scm_vpstakeholder)|[Stakeholder](../concept/concepts.md#Stakeholder)|
+|[SCM_Viewpoint](../../stereotypes.md#scm_viewpoint)|[Viewpoint](../concept/concepts.md#Viewpoint)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

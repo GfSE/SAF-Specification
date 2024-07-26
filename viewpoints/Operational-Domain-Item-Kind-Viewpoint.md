@@ -26,10 +26,10 @@ A Table featuring Operational Domain Item Kinds, their relationships and their D
 * [Why types of exchange can exist between Operational Performers (i.e., flows of information, people, material, or energy)?](../concerns.md#_2021x_2_6d8019d_1693570065115_738458_24748)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SAF_O2_ODIK](../stereotypes.md#SAF_O2_ODIK)
-* [SAF_O2_ODIK_Table](../stereotypes.md#SAF_O2_ODIK_Table)
-* [SAF_OperationalDomainKindComposition](../stereotypes.md#SAF_OperationalDomainKindComposition)
-* [SAF_OperationalDomainKind](../stereotypes.md#SAF_OperationalDomainKind)
+* [SAF_O2_ODIK](../stereotypes.md#saf_o2_odik)
+* [SAF_O2_ODIK_Table](../stereotypes.md#saf_o2_odik_table)
+* [SAF_OperationalDomainKindComposition](../stereotypes.md#saf_operationaldomainkindcomposition)
+* [SAF_OperationalDomainKind](../stereotypes.md#saf_operationaldomainkind)
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

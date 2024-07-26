@@ -28,10 +28,10 @@ A Table featuring Operational Domain Item Kinds, their relationships and their D
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
-|[SAF_O2_ODIK](../../stereotypes.md#SAF_O2_ODIK)|[Operational Domain Item Kind Viewpoint](../concept/concepts.md#Operational-Domain-Item-Kind-Viewpoint)|
-|[SAF_O2_ODIK_Table](../../stereotypes.md#SAF_O2_ODIK_Table)|[Operational Domain Item Kind Viewpoint](../concept/concepts.md#Operational-Domain-Item-Kind-Viewpoint)|
-|[SAF_OperationalDomainKindComposition](../../stereotypes.md#SAF_OperationalDomainKindComposition)|[ODKcomposedOF](../concept/concepts.md#ODKcomposedOF)|
-|[SAF_OperationalDomainKind](../../stereotypes.md#SAF_OperationalDomainKind)|[Operational Domain Kind](../concept/concepts.md#Operational-Domain-Kind)|
+|[SAF_O2_ODIK](../../stereotypes.md#saf_o2_odik)|[Operational Domain Item Kind Viewpoint](../concept/concepts.md#Operational-Domain-Item-Kind-Viewpoint)|
+|[SAF_O2_ODIK_Table](../../stereotypes.md#saf_o2_odik_table)|[Operational Domain Item Kind Viewpoint](../concept/concepts.md#Operational-Domain-Item-Kind-Viewpoint)|
+|[SAF_OperationalDomainKindComposition](../../stereotypes.md#saf_operationaldomainkindcomposition)|[ODKcomposedOF](../concept/concepts.md#ODKcomposedOF)|
+|[SAF_OperationalDomainKind](../../stereotypes.md#saf_operationaldomainkind)|[Operational Domain Kind](../concept/concepts.md#Operational-Domain-Kind)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

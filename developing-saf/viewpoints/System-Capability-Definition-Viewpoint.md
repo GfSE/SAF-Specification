@@ -26,13 +26,13 @@ A tabular format listing System Capabilities, their composition, specialisation,
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
-|[SAF_F2_SCYD](../../stereotypes.md#SAF_F2_SCYD)|[System Capability Definition Viewpoint](../concept/concepts.md#System-Capability-Definition-Viewpoint)|
-|[SAF_F2_SCYD_Table](../../stereotypes.md#SAF_F2_SCYD_Table)|[System Capability Definition Viewpoint](../concept/concepts.md#System-Capability-Definition-Viewpoint)|
-|[SAF_SystemCapabilityComposition](../../stereotypes.md#SAF_SystemCapabilityComposition)|[SCYcomposedOF](../concept/concepts.md#SCYcomposedOF)|
-|[SAF_SystemCapabilityDependency](../../stereotypes.md#SAF_SystemCapabilityDependency)|[SCYdependingON](../concept/concepts.md#SCYdependingON)|
-|[SAF_SystemCapabilityEnabling](../../stereotypes.md#SAF_SystemCapabilityEnabling)|[SCYenablingOCY](../concept/concepts.md#SCYenablingOCY)|
-|[SAF_SystemCapabilityGeneralization](../../stereotypes.md#SAF_SystemCapabilityGeneralization)|[SCYspecializedBY](../concept/concepts.md#SCYspecializedBY)|
-|[SAF_SystemCapability](../../stereotypes.md#SAF_SystemCapability)|[System Capability](../concept/concepts.md#System-Capability)|
+|[SAF_F2_SCYD](../../stereotypes.md#saf_f2_scyd)|[System Capability Definition Viewpoint](../concept/concepts.md#System-Capability-Definition-Viewpoint)|
+|[SAF_F2_SCYD_Table](../../stereotypes.md#saf_f2_scyd_table)|[System Capability Definition Viewpoint](../concept/concepts.md#System-Capability-Definition-Viewpoint)|
+|[SAF_SystemCapabilityComposition](../../stereotypes.md#saf_systemcapabilitycomposition)|[SCYcomposedOF](../concept/concepts.md#SCYcomposedOF)|
+|[SAF_SystemCapabilityDependency](../../stereotypes.md#saf_systemcapabilitydependency)|[SCYdependingON](../concept/concepts.md#SCYdependingON)|
+|[SAF_SystemCapabilityEnabling](../../stereotypes.md#saf_systemcapabilityenabling)|[SCYenablingOCY](../concept/concepts.md#SCYenablingOCY)|
+|[SAF_SystemCapabilityGeneralization](../../stereotypes.md#saf_systemcapabilitygeneralization)|[SCYspecializedBY](../concept/concepts.md#SCYspecializedBY)|
+|[SAF_SystemCapability](../../stereotypes.md#saf_systemcapability)|[System Capability](../concept/concepts.md#System-Capability)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

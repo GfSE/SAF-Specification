@@ -32,12 +32,12 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * Allocate [SysML Profile]
 * Attribute "logical_element" of SAF_PhysicalItem referencing SAF_LogicalElement
 * SAF_LogicalInternalRole contained in SAF_LogicalElement
-* [SAF_LogicalElement](../stereotypes.md#SAF_LogicalElement)
-* [SAF_P8_PLOM_Matrix](../stereotypes.md#SAF_P8_PLOM_Matrix)
-* [SAF_PhysicalElement](../stereotypes.md#SAF_PhysicalElement)
-* [SAF_PhysicalHardwareElement](../stereotypes.md#SAF_PhysicalHardwareElement)
-* [SAF_PhysicalInternalRole](../stereotypes.md#SAF_PhysicalInternalRole)
-* [SAF_PhysicalSoftwareElement](../stereotypes.md#SAF_PhysicalSoftwareElement)
+* [SAF_LogicalElement](../stereotypes.md#saf_logicalelement)
+* [SAF_P8_PLOM_Matrix](../stereotypes.md#saf_p8_plom_matrix)
+* [SAF_PhysicalElement](../stereotypes.md#saf_physicalelement)
+* [SAF_PhysicalHardwareElement](../stereotypes.md#saf_physicalhardwareelement)
+* [SAF_PhysicalInternalRole](../stereotypes.md#saf_physicalinternalrole)
+* [SAF_PhysicalSoftwareElement](../stereotypes.md#saf_physicalsoftwareelement)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Logical Structure Definition Viewpoint](Logical-Structure-Definition-Viewpoint.md)

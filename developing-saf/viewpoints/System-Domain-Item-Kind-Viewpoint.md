@@ -30,10 +30,10 @@ A tabular format listing the Domain Item Kinds, and their relationships.
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
-|[SAF_DomainKindComposition](../../stereotypes.md#SAF_DomainKindComposition)|[SDKcomposedOF](../concept/concepts.md#SDKcomposedOF)|
-|[SAF_DomainKind](../../stereotypes.md#SAF_DomainKind)|[System Domain Kind](../concept/concepts.md#System-Domain-Kind)|
-|[SAF_F2_SDIK](../../stereotypes.md#SAF_F2_SDIK)|[System Domain Item Kind Viewpoint](../concept/concepts.md#System-Domain-Item-Kind-Viewpoint)|
-|[SAF_F2_SDIK_Table](../../stereotypes.md#SAF_F2_SDIK_Table)|[System Domain Item Kind Viewpoint](../concept/concepts.md#System-Domain-Item-Kind-Viewpoint)|
+|[SAF_DomainKindComposition](../../stereotypes.md#saf_domainkindcomposition)|[SDKcomposedOF](../concept/concepts.md#SDKcomposedOF)|
+|[SAF_DomainKind](../../stereotypes.md#saf_domainkind)|[System Domain Kind](../concept/concepts.md#System-Domain-Kind)|
+|[SAF_F2_SDIK](../../stereotypes.md#saf_f2_sdik)|[System Domain Item Kind Viewpoint](../concept/concepts.md#System-Domain-Item-Kind-Viewpoint)|
+|[SAF_F2_SDIK_Table](../../stereotypes.md#saf_f2_sdik_table)|[System Domain Item Kind Viewpoint](../concept/concepts.md#System-Domain-Item-Kind-Viewpoint)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

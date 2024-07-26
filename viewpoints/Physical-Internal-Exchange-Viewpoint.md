@@ -51,14 +51,14 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * ProxyPort [SysML Profile]
 * ProxyPort contained in SAF_PhysicalItem
 * ProxyPort typed by SAF_PhysicalInterfaceDefinition
-* [SAF_InterfaceLayerRelationship](../stereotypes.md#SAF_InterfaceLayerRelationship)
-* [SAF_P4_PIEX](../stereotypes.md#SAF_P4_PIEX)
-* [SAF_P4_PIEX_Table](../stereotypes.md#SAF_P4_PIEX_Table)
-* [SAF_PhysicalElement](../stereotypes.md#SAF_PhysicalElement)
-* [SAF_PhysicalExchangeType](../stereotypes.md#SAF_PhysicalExchangeType)
-* [SAF_PhysicalHardwareElement](../stereotypes.md#SAF_PhysicalHardwareElement)
-* [SAF_PhysicalInterfaceDefinition](../stereotypes.md#SAF_PhysicalInterfaceDefinition)
-* [SAF_PhysicalSoftwareElement](../stereotypes.md#SAF_PhysicalSoftwareElement)
+* [SAF_InterfaceLayerRelationship](../stereotypes.md#saf_interfacelayerrelationship)
+* [SAF_P4_PIEX](../stereotypes.md#saf_p4_piex)
+* [SAF_P4_PIEX_Table](../stereotypes.md#saf_p4_piex_table)
+* [SAF_PhysicalElement](../stereotypes.md#saf_physicalelement)
+* [SAF_PhysicalExchangeType](../stereotypes.md#saf_physicalexchangetype)
+* [SAF_PhysicalHardwareElement](../stereotypes.md#saf_physicalhardwareelement)
+* [SAF_PhysicalInterfaceDefinition](../stereotypes.md#saf_physicalinterfacedefinition)
+* [SAF_PhysicalSoftwareElement](../stereotypes.md#saf_physicalsoftwareelement)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Physical Structure Definition Viewpoint](Physical-Structure-Definition-Viewpoint.md)

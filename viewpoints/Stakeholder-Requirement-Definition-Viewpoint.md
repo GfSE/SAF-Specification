@@ -30,13 +30,13 @@ Note: Stakeholder Requirements are to be structured in a way that the Stakeholde
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Package [UML_Standard_Profile]
-* [SAF_O6_SKRD_Table](../stereotypes.md#SAF_O6_SKRD_Table)
-* [SAF_OperationalCapability](../stereotypes.md#SAF_OperationalCapability)
-* [SAF_StakeholderRequirementImposition](../stereotypes.md#SAF_StakeholderRequirementImposition)
-* [SAF_StakeholderRequirementRefinement](../stereotypes.md#SAF_StakeholderRequirementRefinement)
-* [SAF_StakeholderRequirement](../stereotypes.md#SAF_StakeholderRequirement)
-* [SAF_Stakeholder](../stereotypes.md#SAF_Stakeholder)
-* [SAF_SystemOfInterestConcern](../stereotypes.md#SAF_SystemOfInterestConcern)
+* [SAF_O6_SKRD_Table](../stereotypes.md#saf_o6_skrd_table)
+* [SAF_OperationalCapability](../stereotypes.md#saf_operationalcapability)
+* [SAF_StakeholderRequirementImposition](../stereotypes.md#saf_stakeholderrequirementimposition)
+* [SAF_StakeholderRequirementRefinement](../stereotypes.md#saf_stakeholderrequirementrefinement)
+* [SAF_StakeholderRequirement](../stereotypes.md#saf_stakeholderrequirement)
+* [SAF_Stakeholder](../stereotypes.md#saf_stakeholder)
+* [SAF_SystemOfInterestConcern](../stereotypes.md#saf_systemofinterestconcern)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Stakeholder Identification Viewpoint](Stakeholder-Identification-Viewpoint.md)

@@ -33,18 +33,18 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |---|---|
 |Allocate [SysML Profile]|[LERspecifyingGPR](../concept/concepts.md#LERspecifyingGPR)|
 |Attribute "logical_element" of SAF_PhysicalItem referencing SAF_LogicalElement|[LETspecifyingAPE](../concept/concepts.md#LETspecifyingAPE)|
-|[SAF_LogicalElement](../../stereotypes.md#SAF_LogicalElement)|[Logical Element](../concept/concepts.md#Logical-Element)|
+|[SAF_LogicalElement](../../stereotypes.md#saf_logicalelement)|[Logical Element](../concept/concepts.md#Logical-Element)|
 |SAF_LogicalInternalRole contained in SAF_LogicalElement|[Logical Element Role](../concept/concepts.md#Logical-Element-Role)|
-|[SAF_P8_PLOM_Matrix](../../stereotypes.md#SAF_P8_PLOM_Matrix)|[Physical Logical Mapping Viewpoint](../concept/concepts.md#Physical-Logical-Mapping-Viewpoint)|
-|[SAF_PhysicalElement](../../stereotypes.md#SAF_PhysicalElement)|[Physical Element](../concept/concepts.md#Physical-Element)|
-|[SAF_PhysicalHardwareElement](../../stereotypes.md#SAF_PhysicalHardwareElement)|[Hardware Element](../concept/concepts.md#Hardware-Element)|
-|[SAF_PhysicalInternalRole](../../stereotypes.md#SAF_PhysicalInternalRole)|[General Physical Role](../concept/concepts.md#General-Physical-Role)|
-|[SAF_PhysicalInternalRole](../../stereotypes.md#SAF_PhysicalInternalRole)|[Hardware Element Role](../concept/concepts.md#Hardware-Element-Role)|
-|[SAF_PhysicalInternalRole](../../stereotypes.md#SAF_PhysicalInternalRole)|[Physical Element Role](../concept/concepts.md#Physical-Element-Role)|
-|[SAF_PhysicalInternalRole](../../stereotypes.md#SAF_PhysicalInternalRole)|[Physical Hardware Role](../concept/concepts.md#Physical-Hardware-Role)|
-|[SAF_PhysicalInternalRole](../../stereotypes.md#SAF_PhysicalInternalRole)|[Physical Software Role](../concept/concepts.md#Physical-Software-Role)|
-|[SAF_PhysicalInternalRole](../../stereotypes.md#SAF_PhysicalInternalRole)|[Software Element Role](../concept/concepts.md#Software-Element-Role)|
-|[SAF_PhysicalSoftwareElement](../../stereotypes.md#SAF_PhysicalSoftwareElement)|[Software Element](../concept/concepts.md#Software-Element)|
+|[SAF_P8_PLOM_Matrix](../../stereotypes.md#saf_p8_plom_matrix)|[Physical Logical Mapping Viewpoint](../concept/concepts.md#Physical-Logical-Mapping-Viewpoint)|
+|[SAF_PhysicalElement](../../stereotypes.md#saf_physicalelement)|[Physical Element](../concept/concepts.md#Physical-Element)|
+|[SAF_PhysicalHardwareElement](../../stereotypes.md#saf_physicalhardwareelement)|[Hardware Element](../concept/concepts.md#Hardware-Element)|
+|[SAF_PhysicalInternalRole](../../stereotypes.md#saf_physicalinternalrole)|[General Physical Role](../concept/concepts.md#General-Physical-Role)|
+|[SAF_PhysicalInternalRole](../../stereotypes.md#saf_physicalinternalrole)|[Hardware Element Role](../concept/concepts.md#Hardware-Element-Role)|
+|[SAF_PhysicalInternalRole](../../stereotypes.md#saf_physicalinternalrole)|[Physical Element Role](../concept/concepts.md#Physical-Element-Role)|
+|[SAF_PhysicalInternalRole](../../stereotypes.md#saf_physicalinternalrole)|[Physical Hardware Role](../concept/concepts.md#Physical-Hardware-Role)|
+|[SAF_PhysicalInternalRole](../../stereotypes.md#saf_physicalinternalrole)|[Physical Software Role](../concept/concepts.md#Physical-Software-Role)|
+|[SAF_PhysicalInternalRole](../../stereotypes.md#saf_physicalinternalrole)|[Software Element Role](../concept/concepts.md#Software-Element-Role)|
+|[SAF_PhysicalSoftwareElement](../../stereotypes.md#saf_physicalsoftwareelement)|[Software Element](../concept/concepts.md#Software-Element)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Logical Structure Definition Viewpoint](Logical-Structure-Definition-Viewpoint.md)

@@ -25,10 +25,10 @@ A block definition diagram (BDD) featuring the identified Operational Performers
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
-|[SAF_O1_OCXD](../../stereotypes.md#SAF_O1_OCXD)|[Operational Context Definition Viewpoint](../concept/concepts.md#Operational-Context-Definition-Viewpoint)|
-|[SAF_OperationalContext](../../stereotypes.md#SAF_OperationalContext)|[Operational Context](../concept/concepts.md#Operational-Context)|
-|[SAF_OperationalContextRole](../../stereotypes.md#SAF_OperationalContextRole)|[Operational Context Role](../concept/concepts.md#Operational-Context-Role)|
-|[SAF_OperationalPerformer](../../stereotypes.md#SAF_OperationalPerformer)|[Operational Performer](../concept/concepts.md#Operational-Performer)|
+|[SAF_O1_OCXD](../../stereotypes.md#saf_o1_ocxd)|[Operational Context Definition Viewpoint](../concept/concepts.md#Operational-Context-Definition-Viewpoint)|
+|[SAF_OperationalContext](../../stereotypes.md#saf_operationalcontext)|[Operational Context](../concept/concepts.md#Operational-Context)|
+|[SAF_OperationalContextRole](../../stereotypes.md#saf_operationalcontextrole)|[Operational Context Role](../concept/concepts.md#Operational-Context-Role)|
+|[SAF_OperationalPerformer](../../stereotypes.md#saf_operationalperformer)|[Operational Performer](../concept/concepts.md#Operational-Performer)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [Operational Performer Viewpoint](Operational-Performer-Viewpoint.md)

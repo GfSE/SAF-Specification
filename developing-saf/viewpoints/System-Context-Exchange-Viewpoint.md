@@ -47,16 +47,16 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |ItemFlow [SysML Profile]|[Logical Item Exchange](../concept/concepts.md#Logical-Item-Exchange)|
 |ProxyPort typed by SAF_ConceptualInterfaceDefinition|[LIPDdefiningDetailOfLIP](../concept/concepts.md#LIPDdefiningDetailOfLIP)|
 |ProxyPort [SysML Profile]|[Logical Interaction Point](../concept/concepts.md#Logical-Interaction-Point)|
-|[SAF_ConceptualInterfaceDefinition](../../stereotypes.md#SAF_ConceptualInterfaceDefinition)|[Logical Interaction Point Definition](../concept/concepts.md#Logical-Interaction-Point-Definition)|
-|[SAF_DomainKind](../../stereotypes.md#SAF_DomainKind)|[System Domain Kind](../concept/concepts.md#System-Domain-Kind)|
-|[SAF_F1_SCXE](../../stereotypes.md#SAF_F1_SCXE)|[System Context Exchange Viewpoint](../concept/concepts.md#System-Context-Exchange-Viewpoint)|
-|[SAF_F1_SCXE_Table](../../stereotypes.md#SAF_F1_SCXE_Table)|[System Context Exchange Viewpoint](../concept/concepts.md#System-Context-Exchange-Viewpoint)|
-|[SAF_LogicalContextRole](../../stereotypes.md#SAF_LogicalContextRole)|[Logical Context Element Role](../concept/concepts.md#Logical-Context-Element-Role)|
-|[SAF_LogicalContextRole](../../stereotypes.md#SAF_LogicalContextRole)|[Logical SOI Role](../concept/concepts.md#Logical-SOI-Role)|
-|[SAF_LogicalEnvironment](../../stereotypes.md#SAF_LogicalEnvironment)|[Logical Environment](../concept/concepts.md#Logical-Environment)|
-|[SAF_LogicalExternalSystem](../../stereotypes.md#SAF_LogicalExternalSystem)|[Logical External System](../concept/concepts.md#Logical-External-System)|
-|[SAF_LogicalSOI](../../stereotypes.md#SAF_LogicalSOI)|[Logical Context SOI](../concept/concepts.md#Logical-Context-SOI)|
-|[SAF_LogicalUser](../../stereotypes.md#SAF_LogicalUser)|[Logical User](../concept/concepts.md#Logical-User)|
+|[SAF_ConceptualInterfaceDefinition](../../stereotypes.md#saf_conceptualinterfacedefinition)|[Logical Interaction Point Definition](../concept/concepts.md#Logical-Interaction-Point-Definition)|
+|[SAF_DomainKind](../../stereotypes.md#saf_domainkind)|[System Domain Kind](../concept/concepts.md#System-Domain-Kind)|
+|[SAF_F1_SCXE](../../stereotypes.md#saf_f1_scxe)|[System Context Exchange Viewpoint](../concept/concepts.md#System-Context-Exchange-Viewpoint)|
+|[SAF_F1_SCXE_Table](../../stereotypes.md#saf_f1_scxe_table)|[System Context Exchange Viewpoint](../concept/concepts.md#System-Context-Exchange-Viewpoint)|
+|[SAF_LogicalContextRole](../../stereotypes.md#saf_logicalcontextrole)|[Logical Context Element Role](../concept/concepts.md#Logical-Context-Element-Role)|
+|[SAF_LogicalContextRole](../../stereotypes.md#saf_logicalcontextrole)|[Logical SOI Role](../concept/concepts.md#Logical-SOI-Role)|
+|[SAF_LogicalEnvironment](../../stereotypes.md#saf_logicalenvironment)|[Logical Environment](../concept/concepts.md#Logical-Environment)|
+|[SAF_LogicalExternalSystem](../../stereotypes.md#saf_logicalexternalsystem)|[Logical External System](../concept/concepts.md#Logical-External-System)|
+|[SAF_LogicalSOI](../../stereotypes.md#saf_logicalsoi)|[Logical Context SOI](../concept/concepts.md#Logical-Context-SOI)|
+|[SAF_LogicalUser](../../stereotypes.md#saf_logicaluser)|[Logical User](../concept/concepts.md#Logical-User)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [System Context Definition Viewpoint](System-Context-Definition-Viewpoint.md)

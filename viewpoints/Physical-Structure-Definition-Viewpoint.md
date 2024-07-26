@@ -27,12 +27,12 @@ Note: Multiple relationships to a kind of element are allowed meaning, that this
 * [What is the physical breakdown of the system?](../concerns.md#_2021x_2_8710274_1674576759117_113432_23531)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SAF_P2_PSTD](../stereotypes.md#SAF_P2_PSTD)
-* [SAF_PhysicalElement](../stereotypes.md#SAF_PhysicalElement)
-* [SAF_PhysicalHardwareElement](../stereotypes.md#SAF_PhysicalHardwareElement)
-* [SAF_PhysicalInternalRole](../stereotypes.md#SAF_PhysicalInternalRole)
-* [SAF_PhysicalSoftwareElement](../stereotypes.md#SAF_PhysicalSoftwareElement)
-* [SAF_PhysicalSystem](../stereotypes.md#SAF_PhysicalSystem)
+* [SAF_P2_PSTD](../stereotypes.md#saf_p2_pstd)
+* [SAF_PhysicalElement](../stereotypes.md#saf_physicalelement)
+* [SAF_PhysicalHardwareElement](../stereotypes.md#saf_physicalhardwareelement)
+* [SAF_PhysicalInternalRole](../stereotypes.md#saf_physicalinternalrole)
+* [SAF_PhysicalSoftwareElement](../stereotypes.md#saf_physicalsoftwareelement)
+* [SAF_PhysicalSystem](../stereotypes.md#saf_physicalsystem)
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

@@ -39,12 +39,12 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |FlowProperty [SysML Profile]|[Physical Interaction Point Property](../concept/concepts.md#Physical-Interaction-Point-Property)|
 |ProxyPort typed by SAF_PhysicalInterfaceDefinition|[PIPDdefiningDetailOfPIP](../concept/concepts.md#PIPDdefiningDetailOfPIP)|
 |ProxyPort [SysML Profile]|[Physical Interaction Point](../concept/concepts.md#Physical-Interaction-Point)|
-|[SAF_InterfaceLayerRelationship](../../stereotypes.md#SAF_InterfaceLayerRelationship)|[PCPOverPCP](../concept/concepts.md#PCPOverPCP)|
-|[SAF_InterfaceLayerRelationship](../../stereotypes.md#SAF_InterfaceLayerRelationship)|[PCPPOverPCPP](../concept/concepts.md#PCPPOverPCPP)|
-|[SAF_P5_PIFD](../../stereotypes.md#SAF_P5_PIFD)|[Physical Interface Definition Viewpoint](../concept/concepts.md#Physical-Interface-Definition-Viewpoint)|
-|[SAF_PhysicalExchangeType](../../stereotypes.md#SAF_PhysicalExchangeType)|[Physical Exchange Kind](../concept/concepts.md#Physical-Exchange-Kind)|
+|[SAF_InterfaceLayerRelationship](../../stereotypes.md#saf_interfacelayerrelationship)|[PCPOverPCP](../concept/concepts.md#PCPOverPCP)|
+|[SAF_InterfaceLayerRelationship](../../stereotypes.md#saf_interfacelayerrelationship)|[PCPPOverPCPP](../concept/concepts.md#PCPPOverPCPP)|
+|[SAF_P5_PIFD](../../stereotypes.md#saf_p5_pifd)|[Physical Interface Definition Viewpoint](../concept/concepts.md#Physical-Interface-Definition-Viewpoint)|
+|[SAF_PhysicalExchangeType](../../stereotypes.md#saf_physicalexchangetype)|[Physical Exchange Kind](../concept/concepts.md#Physical-Exchange-Kind)|
 |SAF_PhysicalInterfaceDefinition contained in ProxyPort|[PCPisPartOfPIPD](../concept/concepts.md#PCPisPartOfPIPD)|
-|[SAF_PhysicalInterfaceDefinition](../../stereotypes.md#SAF_PhysicalInterfaceDefinition)|[Physical Interaction Point Definition](../concept/concepts.md#Physical-Interaction-Point-Definition)|
+|[SAF_PhysicalInterfaceDefinition](../../stereotypes.md#saf_physicalinterfacedefinition)|[Physical Interaction Point Definition](../concept/concepts.md#Physical-Interaction-Point-Definition)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*
