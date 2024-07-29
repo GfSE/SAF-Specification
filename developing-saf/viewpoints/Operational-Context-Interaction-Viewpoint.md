@@ -2,9 +2,9 @@
 # SAF Development Documentation : **O4_OCXI** Operational Context Interaction Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
-|[Operational](../../domains.md#Domain-Operational)|[Interaction & Collaboration](../../aspects.md#Aspect-Interaction-&-Collaboration)|![Under Construction](../../diagrams/Under_construction_icon-yellow.svg )[under construction](../../using-saf/maturity.md#under-construction)|
+|[Operational](../../domains.md#Domain-Operational)|[Interaction & Collaboration](../../aspects.md#Aspect-Interaction-&-Collaboration)|![Released](../../diagrams/Symbol_confirmed.png )[released](../../using-saf/maturity.md#released)|
 ## Example
-*none*
+![Operational-Context-Interaction-Viewpoint-primary-example.svg](../../diagrams/vp-examples/Operational-Context-Interaction-Viewpoint-primary-example.svg)
 ## Purpose
 The Operational Interaction Viewpoint describes single threads of interaction between Operational Performers in an Operational Context on an operational domain level. 
 Note: The Operational Interaction Viewpoint may refine an Operational Story.

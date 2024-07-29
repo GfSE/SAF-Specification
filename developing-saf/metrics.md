@@ -10,6 +10,6 @@
  * Undocumented rationales: 202
 ## Viewpoint related metrics
  * Total viewpoints: 53
- * Released viewpoints: 36
- * Under construction viewpoints: 2
+ * Released viewpoints: 37
+ * Under construction viewpoints: 1
  * Proposed viewpoints: 15
