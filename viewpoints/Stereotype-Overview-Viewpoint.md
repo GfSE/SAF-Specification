@@ -1,8 +1,8 @@
 ![System Architecture Framework](../diagrams/Banner_SAF.png)
-# SAF User Documentation : **C2_STYD** Stereotype Overview Viewpoint
+# SAF User Documentation : **D2_STYD** Stereotype Overview Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
-|[Common](../domains.md#Domain-Common)|[Taxonomy & Structure](../aspects.md#Aspect-Taxonomy-&-Structure)|![Proposed](../diagrams/Under_construction_icon-red.svg )[proposed](../using-saf/maturity.md#proposed)|
+|[SAF Development](../domains.md#Domain-SAF-Development)|[Taxonomy & Structure](../aspects.md#Aspect-Taxonomy-&-Structure)|![Proposed](../diagrams/Under_construction_icon-red.svg )[proposed](../using-saf/maturity.md#proposed)|
 ## Example
 ![Stereotype-Overview-Viewpoint-primary-example.svg](../diagrams/vp-examples/Stereotype-Overview-Viewpoint-primary-example.svg)
 ## Purpose
