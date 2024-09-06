@@ -518,8 +518,6 @@ A party asserting counter-claims.
 ## SAF Stereotype
 exposed in viewpoint [Viewpoint Implementation Viewpoint](../viewpoints/Viewpoint-Implementation-Viewpoint.md)
 
-realized by Error: unhandled realizations
-
 A stereotype of the SAF Profile Model
 ## SE Concept
 exposed in viewpoint [Concept Viewpoint](../viewpoints/Concept-Viewpoint.md)
@@ -591,8 +589,6 @@ realized by Stereotype [SAF_StandardizationSubject](../../stereotypes.md#saf_sta
 The goal of standardization is to ensure uniformity to certain practices within the industry. Standardization focuses on the product creation process, operations of businesses, technology in use, and how specific compulsory processes are instituted or carried out. Subject of standardization may be  a Data Exchange Format or a Protocol.
 ## SysML Stereotype
 exposed in viewpoint [Viewpoint Implementation Viewpoint](../viewpoints/Viewpoint-Implementation-Viewpoint.md)
-
-realized by Error: unhandled realizations
 
 A stereotype from sysml
 ## System
@@ -748,8 +744,6 @@ realized by Metaclass Event
 
 ## UML Metaclass
 exposed in viewpoint [Viewpoint Implementation Viewpoint](../viewpoints/Viewpoint-Implementation-Viewpoint.md)
-
-realized by Error: unhandled realizations
 
 A metaclass from UML
 ## User
