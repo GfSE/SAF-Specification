@@ -5,27 +5,19 @@ It is generated from a model.
 
 ## Reporting Issues
 
-Issues should be reported by github issue tracking. It should be stated what the problem is, and a brief solution should be suggested - ideally by a pull request.
+Problems should be reported via github issue tracking. It should be stated what the problem is and a short solution should be suggested, ideally accompanied by a pull request.
 
-## Proposing changes (pull request)
+## Proposing Changes (pull request)
 
-Generally, changes should be proposed by **forking the main branch** of the SAF-Specification repository into an user owned repository and generating a pull request.
-
-This allows to discuss the change proposal separately without disturbing the development of SAF- and without beeing disturbed by the development of SAF.
-
-The pull request will be reviewed, and when the changes are accepted, they will be incorporated into the model.
-
-A newly model generated specification then can be compared to the merged pull request and it should be the same :)
+In general, changes should be proposed by forking the main branch of the SAF-Specification repository into a user's own repository and creating a pull request. This allows the proposed change to be discussed separately without interfering with the development of SAF and without being interfered with by the development of SAF. The pull request is checked, and if the changes are accepted, they are incorporated into the model. A newly created model specification can then be compared with the merged pull request and should be identical.
 
 ## Proposing new viewpoints
 
-For new viewpoints, first the existing viewpoints should be reviewed, the concerns might be already covered.
+For new viewpoints, the existing viewpoints should be reviewed first, as the concerns may already be covered. Only if a new viewpoint is required, an existing viewpoint should be used as a template and all required viewpoint specification attributes should be completed by the submitter. The procedure is the same as for a change request, but the change request must be supported by a conceptual model showing the relationships and the elements to be represented. This conceptual model must be discussed with the SAF architects and compared with the existing concepts.
 
-Only when a new viewpoint is required, an existing viewpoint shall serve as a template, and all required VP specification attributes shall be filled out by the viewpoint requestor.
-
-The procedure is the same as proposing a change, but viewpoints require a backing by a conceptual model showing relationships and items to be exposed. This model needs to be discussed with the SAF architects, and synchronized with the existing concepts.
+## Proposing Changes or Viewpoints using GitHub Discussions 
+Changes may be proposed using the Discussions on the Specification Repository
 
 ## Developing SAF
 
-The development of SAF involves a number of interrelated elements and concepts.
-How SAF is developed is explained in more depth in the article [SAF-Development](developing-saf/development.md)
+he development of the SAF viewpoints comprises several interlinked elements and concepts. How the SAF is developed is explained in more detail in this article [SAF-Development](developing-saf/development.md). 
