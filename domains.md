@@ -8,26 +8,14 @@
 | Physical (P) | [Physical Context Definition Viewpoint](viewpoints/Physical-Context-Definition-Viewpoint.md), [Physical Context Exchange Viewpoint](viewpoints/Physical-Context-Exchange-Viewpoint.md), [Physical Functional Mapping Viewpoint](viewpoints/Physical-Functional-Mapping-Viewpoint.md), [Physical Interface Definition Viewpoint](viewpoints/Physical-Interface-Definition-Viewpoint.md), [Physical Internal Exchange Viewpoint](viewpoints/Physical-Internal-Exchange-Viewpoint.md), [Physical Logical Item Mapping Viewpoint](viewpoints/Physical-Logical-Item-Mapping-Viewpoint.md), [Physical Logical Mapping Viewpoint](viewpoints/Physical-Logical-Mapping-Viewpoint.md), [Physical Structure Definition Viewpoint](viewpoints/Physical-Structure-Definition-Viewpoint.md) |
 | SAF Development (D) | [Concept Viewpoint](viewpoints/Concept-Viewpoint.md), [Concern Viewpoint](viewpoints/Concern-Viewpoint.md), [Implementation Traceability Viewpoint](viewpoints/Implementation-Traceability-Viewpoint.md), [Rationale Viewpoint](viewpoints/Rationale-Viewpoint.md), [Stakeholder Viewpoint](viewpoints/Stakeholder-Viewpoint.md), [Stereotype Overview Viewpoint](viewpoints/Stereotype-Overview-Viewpoint.md), [Viewpoint Definition Viewpoint](viewpoints/Viewpoint-Definition-Viewpoint.md), [Viewpoint Implementation Viewpoint](viewpoints/Viewpoint-Implementation-Viewpoint.md), [Viewpoint Overview Viewpoint](viewpoints/Viewpoint-Overview-Viewpoint.md) |
 ## Domain Common
-**Objective**
-
 [tbd]
 ## Domain Operational
-**Objective**
-
 The SAF Operational Domain supports the model-based development of a CONOPS - as well as an OPSCON and related life cycle concepts - for an organization or operational entity seeking for an improvement of existing capabilities or in establishing new ones. The SAF Operational Domain therefore aims to get an understanding of required organizational or operational entity capabilities.
 ## Domain Functional
-**Objective**
-
 The Functional Domain Viewpoints translate Operational Domain (intended solution) usage into the notion of System Functions defining the demanded system behavior and quality attributes - performance, safety, security, etc.; the demanded system behavior as it is perceived by the User or other Entities at the System Boundary (known as usage behavior). The result of the Functional Domain viewpoint-oriented elaboration approach is a comprehensive System Specification.
 ## Domain Logical
-**Objective**
-
 The Logical Domain Viewpoints describe the SOI Logical Structure and the distribution of responsibilities for the functionality of the SOI by means of a network of interacting Logical Elements that are responsible for a set of desired Functions. These Logical Elements and their Interactions are arranged in the Logical Architecture of the SOI. The structure of the Logical Architecture is in general influenced by Non-functional criteria, e.g., maintainability, reliability, safety, and security.
 ## Domain Physical
-**Objective**
-
 The SAF Physical Domain supports the representation of the Product Breakdown Structure, the identification of external and internal physical interfaces, the provision of viewpoints for the system overview, the integration planning, production planning, and the features and variations implied in the system. The physical architecture typically is a combination of re-use elements, COTS elements and make-items for HW as well as for SW. The properties of the selected physical components and their provided resources are identified and modeled. A major concern of the SAF Physical Domain are the physical interfaces, their identification and definition. For that purpose, the SAF Physical Domain provides the viewpoints to model interface with different level of detail considering the actual needs for the point of time in the project life cycle. For traceability the SAF Physical Domain defines viewpoints showing the mapping of the functional elements and their interfaces to physical elements and their interfaces.
 ## Domain SAF Development
-**Objective**
-
 The SAF Development Domain supports the development and maintenance of the SAF. 

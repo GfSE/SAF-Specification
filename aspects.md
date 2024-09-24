@@ -10,36 +10,20 @@
 | Safety & Security (7) |  |
 | Traceability & Mapping (8) | [Implementation Traceability Viewpoint](viewpoints/Implementation-Traceability-Viewpoint.md), [Logical Functional Mapping Viewpoint](viewpoints/Logical-Functional-Mapping-Viewpoint.md), [Operational Capability Mapping Viewpoint](viewpoints/Operational-Capability-Mapping-Viewpoint.md), [Operational Process Mapping Viewpoint](viewpoints/Operational-Process-Mapping-Viewpoint.md), [Physical Functional Mapping Viewpoint](viewpoints/Physical-Functional-Mapping-Viewpoint.md), [Physical Logical Item Mapping Viewpoint](viewpoints/Physical-Logical-Item-Mapping-Viewpoint.md), [Physical Logical Mapping Viewpoint](viewpoints/Physical-Logical-Mapping-Viewpoint.md), [System Capability Mapping Viewpoint](viewpoints/System-Capability-Mapping-Viewpoint.md), [System Requirement Traceability Viewpoint](viewpoints/System-Requirement-Traceability-Viewpoint.md) |
 ## Aspect Context & Exchange
-**Objective**
-
 Identifies and describes the environment of an element, its boundary, and the external elements having a relation with it. It identifies the interaction and exchange between an element and the external elements.
 ## Aspect Taxonomy & Structure
-**Objective**
-
 Identifies and describes the breakdown and decomposition of elements and defines the dependencies and relationships between the different elements.
 ## Aspect Process & Behavior
-**Objective**
-
 Captures functions, activities, processes, and flows. Identifies and describes activities, their inputs and outputs, activity actions, and flows between them. Captures state-based behavior of an element. It is a graphical representation of states of a structural element and how it responds to various events and actions.
 ## Aspect Interaction & Collaboration
-**Objective**
-
 Identifies and describes time-ordered examination of exchanges between participating elements as a result of a particular scenario.
 ## Aspect Interface
-**Objective**
-
 [tbd]
 ## Aspect Requirement
-**Objective**
-
 [tbd]
 ## Aspect Safety & Security
-**Objective**
-
 [tbd]
 ## Aspect Traceability & Mapping
-**Objective**
-
 Traceability
 Identifies and describes the traceability between requirements or standards and model elements in the various domains and viewpoints.
 Mapping
