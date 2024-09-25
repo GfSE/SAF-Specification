@@ -8,7 +8,7 @@
 ## Purpose
 The Stakeholder Viewpoint provides definitions for Stakeholders having an interest in SAF Viewpoints. The Interest is formulated using Concerns.
 ## Applicability
-The ... Viewpoint supports the ...  in INCOSE SYSTEMS ENGINEERING HANDBOOK 2023.
+The Viewpoint supports the definition of  "Stakeholders and concerns",  and  "Specification of an architecture description framework" as defined in ISO41010:2022
 ## Presentation
 A Block Definition Diagram (BDD) featuring *SCM_VPStakeholder* elements, and inheritance relationships if applicable.
 

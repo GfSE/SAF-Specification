@@ -132,8 +132,6 @@ The Developer is a group or an individual implementing the system parts accordin
   ***Rationale:  In my role, I need to know the meaning of defined terms from applicable standards during implementation.***
 * What is the allocated reliability for a single function?
 * What is the allocated reliability for the complete item?
-* What is the allocated space?
-* What is the allocated weight?
 * What is the mapping of functions to the physical SOI physical architecture? 
 
   ***Rationale:  In my role, I need to implement the sub-functions in my HW subsystem.***
@@ -329,14 +327,10 @@ Systems Engineering creates a clear and manageable system structure, which is th
 * For what purpose is the system developed or adapted? 
 
   ***Rationale:  In my role, I need to check whether the project order is implemented correctly.***
-* How to involve a Stakeholder and to what degree?
 * In which phases of the life cycle is a Stakeholder involved in the project? 
 
   ***Rationale:  In my role, I need to give feedback on existing or missing stakeholders.***
-* What are the consequences not considering a Stakeholder?
-* What are the consequences, if the Stakeholder’s concerns are not considered?
 * What concerns and rationals does a Stakeholder have?
-* What impact does a Stakeholder have on the project?
 * What is the risk involved with each development item?
 * What services are expected from external entities?
 * When do product functions or features become available?
@@ -373,7 +367,9 @@ The SAF Developer is a group or an individual developing SAF or extending SAF.
 * What are the concerns adressed by the frameworks viewpoints? 
 
   ***Rationale:  I need to cover the information need of stakeholders to match the purpose of the viewpoint.***
-* What are the frameworks model elements to be used
+* What are the frameworks model elements to be used 
+
+  ***Rationale:  I need to implement and document them for users***
 * What is the definition of a viewpoint of the framework? 
 
   ***Rationale:  I need to create a comprehensive specification of the frameworks viewpoints.***
@@ -422,7 +418,16 @@ The SAF Developer is a group or an individual developing SAF or extending SAF.
 * Who are the Stakeholders of the frameworks viewpoints? 
 
   ***Rationale:  I need to explain to frameworks users who would typically have an interest in which viewpoint.***
-* Why does a stakeholder have this specific concern ? 
+* Why does a stakeholder have this specific concern ?  
+
+  ***Rationale:  I  want to understand the intention for the information need to select an cut set of viewpoints and then and appropriate presentation for the information.***
+* what are the constraints related to se concepts covered by the framework?  
+
+  ***Rationale:  I need to know them in order select an appropriate presentation,  implementation, and to implement model checks.***
+* what are the relations between systems engineering concepts covered by the framework? 
+
+  ***Rationale:  I need to make sure they can answer the information need described by concerns.
+I need to implement them in a profile***
 # SAF MBSE approch planer
 The SAF MBSE approach planer is a group or an individual selecting viewpoints to be used in an MBSE approach. This may be identical with an architect role but may as well be carried out by an organziation standardizing the MBSE approach for products, product lines or an entire enterprise.
 
@@ -433,7 +438,9 @@ The SAF MBSE approach planer is a group or an individual selecting viewpoints to
 * What are the concerns adressed by the frameworks viewpoints? 
 
   ***Rationale:  I want to know if the information need of my stakeholders in the planned MBSE approach is adressed by the viewpoint.***
-* What are the frameworks model elements to be used
+* What are the frameworks model elements to be used 
+
+  ***Rationale:  I need to know which modeling skills users will need.***
 * What is the definition of a viewpoint of the framework? 
 
   ***Rationale:  I need to understand the frameworks viewpoints in order to plan an appropriate MBSE approach.***
@@ -473,7 +480,15 @@ The SAF MBSE approach planer is a group or an individual selecting viewpoints to
 * Who are the Stakeholders of the frameworks viewpoints? 
 
   ***Rationale:  I need to select viewpoints for my stakeholders and want to use this information as a starting point.***
-* Why does a stakeholder have this specific concern ? 
+* Why does a stakeholder have this specific concern ?  
+
+  ***Rationale:  I want to know what might happen if the concern cannot be fulfilled.***
+* what are the constraints related to se concepts covered by the framework?  
+
+  ***Rationale:  I want to validate the assumptions made in the framework against the anticipated information need of the MBSE appoach.***
+* what are the relations between systems engineering concepts covered by the framework? 
+
+  ***Rationale:  I want to know if the information need that i anticipate for the MBSE approach will be satisfied by the framework.***
 # SAF System model user
 The SAF System Model User is a group or an individual creating, maintaining or reading SAF System Models.
 
@@ -484,7 +499,9 @@ The SAF System Model User is a group or an individual creating, maintaining or r
 * How is a viewpoint implemented (which stereotypes /model elements are used)?  
 
   ***Rationale:  I want to know which model elements i am expected to work on in a viewpoint.***
-* What are the frameworks model elements to be used
+* What are the frameworks model elements to be used 
+
+  ***Rationale:  I need to populate system models with them and read them from system models.***
 * What is the definition of a viewpoint of the framework? 
 
   ***Rationale:  I need a user documentation of the viewpoint i am going to use.***
@@ -750,7 +767,6 @@ The System Architect as an individual or group performing the systems engineerin
 * How is the system being used or utilized and interacting with other external systems to satisfy user needs? 
 
   ***Rationale:  In my role, I need to pass on the resulting System Requirements to the subsystems.***
-* How to involve a Stakeholder and to what degree?
 * In which phases of the life cycle is a Stakeholder involved in the project? 
 
   ***Rationale:  In my role, I need to give feedback on existing or missing stakeholders.***
@@ -760,7 +776,6 @@ The System Architect as an individual or group performing the systems engineerin
 * What are the capabilities that are supported by the system? 
 
   ***Rationale:  In my role, I need to identify suitable basic components on the grounds of the required system capabilities.***
-* What are the consequences, if the Stakeholder’s concerns are not considered?
 * What are the encryption means used for an exchange?
 * What are the functional requirements imposed on the system? 
 

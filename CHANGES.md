@@ -2,6 +2,7 @@
 # SAF User Documentation : Changes
 |Date|Change|
 |--|--|
+|2024-09-25|set maturity of D2_COTD, D6_CCND  to"under construction"|
 |2024-09-24|change viewpoint short code of system use case viewpoint to F1_SUCD|
 |2024-09-06|The use case and system process used in were renamed, in the course of model cleanup of the example.|
 |2024-07-29.1|Add example for OCXI, set viewpoint to released.|

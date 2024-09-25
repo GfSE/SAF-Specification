@@ -250,7 +250,7 @@ Note: The intention is to capture the expectations and to explicitly dissect the
 *none*
 
 ### Documentation
-
+*none*
 
 ## SAF_Diagram
 
@@ -258,7 +258,7 @@ Note: The intention is to capture the expectations and to explicitly dissect the
 *none*
 
 ### Documentation
-*none*
+
 
 ## SAF_DocumentReference
 

@@ -2,13 +2,14 @@
 # SAF Development Documentation : **D6_CCND** Concern Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
-|[SAF Development](../../domains.md#Domain-SAF-Development)|[Requirement](../../aspects.md#Aspect-Requirement)|![Proposed](../../diagrams/Under_construction_icon-red.svg )[proposed](../../using-saf/maturity.md#proposed)|
+|[SAF Development](../../domains.md#Domain-SAF-Development)|[Requirement](../../aspects.md#Aspect-Requirement)|![Under Construction](../../diagrams/Under_construction_icon-yellow.svg )[under construction](../../using-saf/maturity.md#under-construction)|
 ## Example
 ![Concern-Viewpoint-primary-example.svg](../../diagrams/vp-examples/Concern-Viewpoint-primary-example.svg)
 ## Purpose
 The Concern Viewpoint provides definitions of Concerns framed by Viewpoints in the context of SAF Development.
+
 ## Applicability
-The ... Viewpoint supports the ...  in INCOSE SYSTEMS ENGINEERING HANDBOOK 2023.
+The Viewpoint supports the definition of  "Stakeholders and concerns",  and  "Specification of an architecture description framework" as defined in ISO41010:2022
 ## Presentation
 A table featuring the SCM_VPConcerns elements of the SAF, and their relations to SCM_Viewpoints and SCM_VPStakeholders
 
@@ -23,7 +24,7 @@ A table featuring the SCM_VPConcerns elements of the SAF, and their relations to
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
-|[SCM_D2_CCND_Table](../../stereotypes.md#scm_d2_ccnd_table)|[Concern Viewpoint](../concept/concepts.md#Concern-Viewpoint)|
+|[SCM_D6_CCND_Table](../../stereotypes.md#scm_d6_ccnd_table)|[Concern Viewpoint](../concept/concepts.md#Concern-Viewpoint)|
 |[SCM_VPConcern](../../stereotypes.md#scm_vpconcern)|[Concern](../concept/concepts.md#Concern)|
 |[SCM_VPStakeholder](../../stereotypes.md#scm_vpstakeholder)|[Stakeholder](../concept/concepts.md#Stakeholder)|
 |[SCM_Viewpoint](../../stereotypes.md#scm_viewpoint)|[Viewpoint](../concept/concepts.md#Viewpoint)|
@@ -31,7 +32,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 ### Required Viewpoints
 *none*
 ### Recommended Viewpoints
-*none*
+* [Stakeholder Viewpoint](Stakeholder-Viewpoint.md)
 # Viewpoint Concept and Profile Diagrams
 ## Concept
 ![Concern Concept](diagrams/Concern-Concept.svg)

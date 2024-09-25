@@ -7,8 +7,16 @@
 ![Viewpoint-Definition-Viewpoint-primary-example.svg](../../diagrams/vp-examples/Viewpoint-Definition-Viewpoint-primary-example.svg)
 ## Purpose
 The Viewpoint Definition Viewpoint serves as a specification for any SAF viewpoints in the context of the development of SAF.
+The Viewpoint shall specify
+* an example of a conforming view
+ * purpose
+ * applicability 
+ * exposed concepts,
+ * presentation forms for the conforming views
+ * related viewpoints
+ * stereotypes used in the conforming views 
 ## Applicability
-The ... Viewpoint supports the ...  in INCOSE SYSTEMS ENGINEERING HANDBOOK 2023.
+The Viewpoint supports the  "Specification of an architecture description framework" as defined in ISO41010:2022
 ## Presentation
 A View and Viewpoints Diagram featuring one *SCM Viewpoint* Element, one *SCM_View* element, a *conform* relationship among them. Additionally all *SCM_Concept* elements that are of interest in the viewpoint. Additionally *expose* relationships for all concepts that help satisfy the viewpoints concerns.
 Note, that the consequence of exposing a concept is, that the implementation of the concept must appear in the diagram/table/matrix that implements the viewpoint.
@@ -35,7 +43,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * [Concept Viewpoint](Concept-Viewpoint.md)
 * [Concern Viewpoint](Concern-Viewpoint.md)
 ### Recommended Viewpoints
-*none*
+* [Stakeholder Viewpoint](Stakeholder-Viewpoint.md)
 # Viewpoint Concept and Profile Diagrams
 ## Concept
 ![Viewpoint Definition Concept](diagrams/Viewpoint-Definition-Concept.svg)
