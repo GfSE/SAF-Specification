@@ -6,7 +6,7 @@
 ## Example
 ![Operational-Context-Interaction-Viewpoint-primary-example.svg](../diagrams/vp-examples/Operational-Context-Interaction-Viewpoint-primary-example.svg)
 ## Purpose
-The Operational Interaction Viewpoint describes single threads of interaction between Operational Performers in an Operational Context on an operational domain level. 
+The Operational Context Interaction Viewpoint describes single threads of interaction between Operational Performers in an Operational Context on an operational domain level. 
 Note: The Operational Interaction Viewpoint may refine an Operational Story.
 ## Applicability
 The Operational Interaction Viewpoint supports the "Business or Mission Analysis Process" and the "Stakeholder Needs and Requirements Definition Process" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§ 2.3.5.1 § 2.3.5.2] and contributes to the definition of operational scenarios and identification of interface boundaries and interfacing systems.

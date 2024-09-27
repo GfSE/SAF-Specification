@@ -89,18 +89,6 @@ A content diagram featuring a matrix view for the SAF Viewpoint conceptual model
 
 A table featuring the saf viewpoints, the views (diagrams, tables, ..) of the system model conforming to those viewpoints, domain and aspect information
 
-## SAF_C2_STYD_Table
-
-### Icon
-*none*
-
-### Documentation
-The Stereotype Viewpoint provides an overview over all stereotypes provided by SAF.
-
-Representation:
-
-A table featuring the stereotypes of the SAF profile and their documentation.
-
 ## SAF_C2_TRMD_Table
 
 ### Icon
@@ -976,7 +964,7 @@ Note: Operational Process Actions are assigned to Operational Roles and therefor
 *none*
 
 ### Documentation
-The Operational Interaction Viewpoint describes single threads of interaction between Operational Performers in an Operational Context on an operational domain level. 
+The Operational Context Interaction Viewpoint describes single threads of interaction between Operational Performers in an Operational Context on an operational domain level. 
 Note: The Operational Interaction Viewpoint may refine an Operational Story.
 
 Representation:

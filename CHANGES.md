@@ -2,10 +2,11 @@
 # SAF User Documentation : Changes
 |Date|Change|
 |--|--|
-|2024-09-25|set maturity of D2_COTD, D6_CCND  to"under construction"|
+|2024-09-27|set maturity of Development Viewpoints Framework Stakeholder Definition Viewpoint ( D1_STKD) and  Framework Rationale Definition Viewpoint (D6_RATD)  to"under construction"|
+|2024-09-25|set maturity of Development Viewpoints Framework Concept Definition Viewpoint ( D2_COTD) and Framework Concern Definition Viewpoint (D6_CCND)  to"under construction"|
 |2024-09-24|change viewpoint short code of system use case viewpoint to F1_SUCD|
 |2024-09-06|The use case and system process used in were renamed, in the course of model cleanup of the example.|
-|2024-07-29.1|Add example for OCXI, set viewpoint to released.|
+|2024-07-29.1|Add example for Operational Context Interaction (OCXI), set viewpoint to released.|
 |2024-06-30.1|add proposed viewpoints supporting SAF development into new domain "SAF Developement"|
 |2024-06-23.1	|add concerns, stakeholders, rationale to justify framework development and specification viewpoints<BR>- SAF Developer, SAF MBSE approach planner, SAF System Model user<BR><BR>revisit change grid definition viewpoint, status now under development.<BR>- it has alternate table representation collecting diagrams conform to viewpoints<BR>- added a concern|
 |2024-06-18.1|* all Stereotypes from SCM_Profile are prefixed "SCM_", not "SAF_". |
