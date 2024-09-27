@@ -62,7 +62,6 @@ The documentation of SAF is needs to support different use cases of different pe
 **We distinguish SAF Users and SAF Developers.**
 
 * SAF Users should refer to the [User Documentation](../README.md)
-  Viewpoints that are just "proposed" should not be referenced by the User Documentation.
 * SAF Developers should refer to this [Developer Documentation](development.md#development-documentation)
   
 ## Use Cases
