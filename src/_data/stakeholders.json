@@ -1,0 +1,1496 @@
+[ {
+  "Name" : "Acquirer",
+  "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
+  "Documentation" : "Definition - Acquirer:\nStakeholder that acquires or procures a product or service from a supplier, [ISO/IEC 15288:2022 - Systems engineering - System life-cycle processes]\nThe Acquirer is a Stakeholder that acquires or procures a product or service from a supplier. The Acquirer may be an organization or an individual acting on behalf of the customer or the user.\nHe is responsible for providing a feasible solution within a given budget. The Acquirer must plan and control the delivery of the system-of-interest as well as other systems together with necessary infrastructure, equipment or training. He must plan the integration of all the procured items to provide a complete solution ready for operation. For large enterprises standardization is an issue. Therefore, the acquirer is interested that standard items are considered in the system architecture.",
+  "Rationales" : [ {
+    "Rationale" : "",
+    "Concern" : "Are defined standard items considered in the architecture?"
+  }, {
+    "Rationale" : "In my role, I need to check whether the overall system purpose is supported.",
+    "Concern" : "For what purpose is the system developed or adapted?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "How does a system function interact with its environment?"
+  }, {
+    "Rationale" : "In my role, I need to check whether the system complies with the higher-level operating concept.",
+    "Concern" : "How is the system being used or utilized and interacting with other external systems to satisfy user needs?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Show in a concise manner the relationships from operational capability to operational story, to operational activity, and to operational performer."
+  }, {
+    "Rationale" : "",
+    "Concern" : "Show in a concise manner the relationships from operational process to operational story and to operational performer."
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are necessary enabling systems?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are necessary inputs for operating the system expected to be provided by other external entitys?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are the capabilities that are supported by the system?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are the normal and extreme environmental conditions for normal operation, for not operational, for storage, and for transport?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are the planned architectural means for risk mitigation?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are the relationships between the partys involved in the operation of the intended solution?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are the scenarios a system function is utilized in?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What existing elements of the organization, enterprise, or operational entity need to be integrated in the intended solution?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the cost for each required function?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the lack / deficiency / gap in current capability implementation that is addressed with the intended solution?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the necessary response time for an interface or a service?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the priority of each function?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the system boundary definition?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the time schedule for delivering the functions?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What operational capabilities are defined?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What operational process activities shall be executed during the execution of an operational story?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What possible threads of operational process activities have to be carried out to achieve the operational story main and alternative goals?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What services are expected from external entities?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What shall be validated to the customer at system level?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Where and what are the geographical and physical locations of the intended or proposed elements of the solution?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which are the external physical entities the system interacts with in the given context?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which are the given contexts the system is embedded and utilized in?"
+  }, {
+    "Rationale" : "In my role, I need to check whether the overall system purpose is supported.",
+    "Concern" : "Which functions will the system provide?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which information is exchanged between the system and external entities?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which is the operational context to achieve an operational story?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which is the operational scenario, i.e., course of action, for the mission and the context in which the system of systems solution will exist?"
+  }, {
+    "Rationale" : "In my role, I use them as basis for understanding interfaces on conceptual level.",
+    "Concern" : "Which kind of conceptual items (energy, material, information, etc.)  are used in the logical architecture of the system?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which operational activity shall be executed by which operational performer in the operational story?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which operational exchanges do operational performers need to consume or provide?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which performers or resources are necessary to operate the intended solution?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Who are the (Major) Stakeholders involved in the intended solution?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Who provides the inputs to a critical function?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Why types of exchange can exist between Operational Performers (i.e., flows of information, people, material, or energy)?"
+  } ]
+}, {
+  "Name" : "Customer",
+  "ID" : "_19_0_2_ebf0350_1554653236737_36605_43554",
+  "Documentation" : "Definition - Customer (also Acquirer):\nOrganization or person that receives a product or service, [ISO/IEC 15288:2022 – Systems engineering - System life-cycle processes]\nThe Customer is an organization or person that receives a product. Examples: Consumer, client, end user, retailer, beneficiary, and purchaser. A customer can be internal or external to the organization. Customer is a broader reference than Acquirer, operator, or user and includes those roles as well as others. However, the Customer provides the funding.",
+  "Rationales" : [ {
+    "Rationale" : "",
+    "Concern" : "How does a system function interact with its environment?"
+  }, {
+    "Rationale" : "In my role, I need to check whether intended solution satisfies my customer needs.",
+    "Concern" : "How is the system being used or utilized and interacting with other external systems to satisfy user needs?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Show in a concise manner the relationships from operational capability to operational story, to operational activity, and to operational performer."
+  }, {
+    "Rationale" : "",
+    "Concern" : "Show in a concise manner the relationships from operational process to operational story and to operational performer."
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are necessary enabling systems?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are necessary inputs for operating the system expected to be provided by other external entitys?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are the normal and extreme environmental conditions for normal operation, for not operational, for storage, and for transport?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are the planned architectural means for risk mitigation?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are the relationships between the partys involved in the operation of the intended solution?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are the scenarios a system function is utilized in?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the necessary response time for an interface or a service?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the rationale when requirements are not considered?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the system boundary definition?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What operational capabilities are defined?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What operational process activities shall be executed during the execution of an operational story?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What possible threads of operational process activities have to be carried out to achieve the operational story main and alternative goals?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What services are expected from external entities?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What shall be validated to the customer at system level?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which are the external physical entities the system interacts with in the given context?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which are the given contexts the system is embedded and utilized in?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which functions will the system provide?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which information is exchanged between the system and external entities?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which is the operational context to achieve an operational story?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which is the operational scenario, i.e., course of action, for the mission and the context in which the system of systems solution will exist?"
+  }, {
+    "Rationale" : "In my role, I use them as basis for understanding interfaces on conceptual level.",
+    "Concern" : "Which kind of conceptual items (energy, material, information, etc.)  are used in the logical architecture of the system?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which operational activity shall be executed by which operational performer in the operational story?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which operational exchanges do operational performers need to consume or provide?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which performers or resources are necessary to operate the intended solution?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Who provides the inputs to a critical function?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Why types of exchange can exist between Operational Performers (i.e., flows of information, people, material, or energy)?"
+  } ]
+}, {
+  "Name" : "Customer (Representative)",
+  "ID" : "_19_0_3_6d8019d_1587988430203_503697_250",
+  "Documentation" : "Definition - Customer (Representative):\n(1) [SAF] The primary goal in a Customer (Representative) role is to represent the end-user, an individual, organization, or enterprise that benefits from the operation of the system. In this role the Customer (Representative) provides usage scenarios, user needs and requirements.\n(2) [SAF] The secondary goal in a Customer (Representative) role is to represent the Acquirer, who buys or procures a product or service from a supplier. The Acquirer selected by the User to serve as their technical representative to:\n1. Specify the system.\n2. Select a System Developer or Services Provider.\n3. Provide technical assistance.\n4. Provide contractual oversight for the execution of the contract and delivery of a\nverified and validated system to the User.\nNote: All other Stakeholders do not use the system for purpose, and they do not need or require the system to satisfy any need. Therefore, interests of the end-user and claims of the other stakeholders could be contradicting and the Customer (Representative) role therefore strives for a solution satisfying all the Stakeholder Requirements.",
+  "Rationales" : [ ]
+}, {
+  "Name" : "Hardware Developer",
+  "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
+  "Documentation" : "Definition - Developer:\nOrganization that performs development tasks (including requirements analysis, design, testing through acceptance) during a life cycle process. [ISO/IEC 12207:2008]\nThe Developer is a group or an individual implementing the system parts according to defined requirements. On the lowest level of the system architecture there are the Hardware Developer responsible for implementing the hardware components.",
+  "Rationales" : [ {
+    "Rationale" : "",
+    "Concern" : "How are error states handled?"
+  }, {
+    "Rationale" : "In my role, I need to implement the interfaces in my HW subsystem, if necessary.",
+    "Concern" : "How do physical system elements interact to provide system functions?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What additional information the system or a system element needs to generate to enable testing?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are the Interface Requirements regarding bandwidth, data throughput and latency?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are the encryption means used for an exchange?"
+  }, {
+    "Rationale" : "In my role, I need to trace my derived requirements against these ones relevant to me.",
+    "Concern" : "What are the functional requirements imposed on the system?"
+  }, {
+    "Rationale" : "In my role, I need to trace my derived requirements against these ones relevant to me.",
+    "Concern" : "What are the non-functional requirements imposed on the system?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are the provided power inputs?"
+  }, {
+    "Rationale" : "In my role, I need to know the meaning of defined terms from applicable standards during implementation.",
+    "Concern" : "What are the sources (e.g. a standard) of terms?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What delivery standards need to be provided?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the allocated power consumption?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the allocated reliability for a single function?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the allocated reliability for the complete item?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the allocated space?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the allocated weight?"
+  }, {
+    "Rationale" : "In my role, I need to implement the sub-functions in my HW subsystem.",
+    "Concern" : "What is the mapping of functions to the physical SOI physical architecture?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the necessary accuracy and resolution for analog signal acquisition?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the necessary accuracy and resolution for processing?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the necessary memory size for processing nodes and data storage?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the necessary processing performance?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the necessary response time for an interface or a service?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the scope of a delivery standard?"
+  }, {
+    "Rationale" : "In my role, I need to implement the interfaces in the elements of the system context.",
+    "Concern" : "What is the sequence of interactions among the system and context elements on physical level?"
+  }, {
+    "Rationale" : "In my role, I need to implement the interfaces in my HW subsystem, if necessary.",
+    "Concern" : "Which HW interfaces are necessary?"
+  }, {
+    "Rationale" : "In my role, I need to give feedback on existing or missing stakeholders.",
+    "Concern" : "Which Stakeholders are relevant to the system and might impose requirements?"
+  }, {
+    "Rationale" : "In my role, I need to implement the interface.",
+    "Concern" : "Which are the interface definitions for the physical architecture?"
+  }, {
+    "Rationale" : "In my role, I need to implement the protocol.",
+    "Concern" : "Which are the protocols for exchanging physical items on a specific interface?"
+  }, {
+    "Rationale" : "In my role, I need to understand the concepts of system internal interfaces  in order to implement them.",
+    "Concern" : "Which conceptual items (energy, material, information, etc.) are exchanged within the system?"
+  }, {
+    "Rationale" : "In my role, I need to take this into account when planning implementation.",
+    "Concern" : "Which functions are allocated to which parts of the logical architecture?"
+  }, {
+    "Rationale" : "In my role, I need to provide qualified feedback on how my how the sub-functions assigned to my subsystem contributes to the function of the system.",
+    "Concern" : "Which functions will the system provide?"
+  }, {
+    "Rationale" : "In my role, I must derive interface design from them.",
+    "Concern" : "Which kind of conceptual items (energy, material, information, etc.)  are used in the logical architecture of the system?"
+  }, {
+    "Rationale" : "In my role, I need to understand the concepts of external interfaces to external partners in order to implement them.",
+    "Concern" : "Which kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?"
+  }, {
+    "Rationale" : "In my role, I must use these in interface design.",
+    "Concern" : "Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the system?"
+  }, {
+    "Rationale" : "In my role, I need to implement the interfaces in my HW subsystem, if necessary.",
+    "Concern" : "Which kind of physical items (energy, material, information, etc.) are used on an interface of a physical architecture element?"
+  }, {
+    "Rationale" : "In my role, as design authority I have to ensure that the HW Element fulfills the allocated logical concept (specification).",
+    "Concern" : "Which logical elements are allocated to the physical SOI physical architecture?"
+  }, {
+    "Rationale" : "In my role, I need to know which system modes and states my subsystem must support.",
+    "Concern" : "Which modes and states does the system have?"
+  }, {
+    "Rationale" : "In my role, I need to support integrating and testing the interfaces.",
+    "Concern" : "Which physical items (energy, material, information, etc.) are exchanged within the system?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which protection means need to be provided for an interface?"
+  }, {
+    "Rationale" : "In my role, I need to implement the interface.",
+    "Concern" : "Which standards, protocols, and format specifications apply to a physical interface?"
+  }, {
+    "Rationale" : "In my role, I need to know the meaning of defined terms from applicable standards during implementation..",
+    "Concern" : "Which terms and abbreviations are applicable to the system of interest or its system elements and their interfaces and interactions?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which variants of a HW item need to be provided?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Who provides the inputs to a critical function?"
+  } ]
+}, {
+  "Name" : "IV&V Engineer",
+  "ID" : "_19_0_2_26f0132_1562303526473_525021_92401",
+  "Documentation" : "Definition - IV&V Engineer\nIndividuals or groups responsible for integration, verification and validation.\nIV&V Engineers are individuals or groups responsible for integration, validation and verification during development of the system. Integration, Verification and Validation are activities that are performed simultaneously, and alternately i.e. virtual integration is used to validate requirements, verification of prototypes is performed to validate requirements and design decisions, verification of interfaces is performed during integration on various integration levels allowing to gather enough test coverage.",
+  "Rationales" : [ {
+    "Rationale" : "",
+    "Concern" : "Are safety related design principles) followed e.g. segregation of monitors or independence or redundant elements?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "How are error states handled?"
+  }, {
+    "Rationale" : "In my role, I need to integrate and test the interfaces.",
+    "Concern" : "How do physical system elements interact to provide system functions?"
+  }, {
+    "Rationale" : "In my role, I need to perform the integration of the system into its deployment environment.",
+    "Concern" : "How does a system function interact with its environment?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "How does the elements of the test environment interact with each other?"
+  }, {
+    "Rationale" : "In my role, I need to take this into account when planning integration.",
+    "Concern" : "How is the system being used or utilized and interacting with other external systems to satisfy user needs?"
+  }, {
+    "Rationale" : "In my role, I need to plan the test environment",
+    "Concern" : "How to connect the system or a system element to a test equipment?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What additional information the system or a system element needs to generate to enable testing?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What additional interfaces are necessary to expose internal properties, states and modes for testing?"
+  }, {
+    "Rationale" : "In my role, I need to prove System Requirements via test cases.",
+    "Concern" : "What are the functional requirements imposed on the system?"
+  }, {
+    "Rationale" : "In my role, I need to integrate and test the interfaces.",
+    "Concern" : "What are the items exchanged at the boundary of the system with external entities?"
+  }, {
+    "Rationale" : "In my role, I need to prove System Requirements via test cases.",
+    "Concern" : "What are the non-functional requirements imposed on the system?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the flow of critical information and data through the system?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the necessary response time for an interface or a service?"
+  }, {
+    "Rationale" : "In my role, I need to test and integrate the items into the sytem.",
+    "Concern" : "What is the physical breakdown of the system?"
+  }, {
+    "Rationale" : "In my role, I need to plan the test environment.",
+    "Concern" : "What is the sequence of interactions among the system and context elements on physical level?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What kind of test equipment is necessary to test the system elements?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What shall be validated to the customer at system level?"
+  }, {
+    "Rationale" : "In my role, I need to integrate and test the interfaces.",
+    "Concern" : "Which are the external physical entities the system interacts with in the given context?"
+  }, {
+    "Rationale" : "In my role, I need to integrate and test the interface.",
+    "Concern" : "Which are the protocols for exchanging physical items on a specific interface?"
+  }, {
+    "Rationale" : "In my role, I need to integrate and test the interfaces.",
+    "Concern" : "Which conceptual items (energy, material, information, etc.) are exchanged within the system?"
+  }, {
+    "Rationale" : "In my role, I need to understand the system in order to put it into operation.",
+    "Concern" : "Which functions will the system provide?"
+  }, {
+    "Rationale" : "In my role, I need to integrate and test the interfaces.",
+    "Concern" : "Which information is exchanged between the system and external entities?"
+  }, {
+    "Rationale" : "In my role, I need to integrate and test the interfaces.",
+    "Concern" : "Which interface partners does the system have?"
+  }, {
+    "Rationale" : "In my role, I need to integrate and test the interfaces.",
+    "Concern" : "Which kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?"
+  }, {
+    "Rationale" : "In my role, I need to integrate and test the interfaces.",
+    "Concern" : "Which kind of physical items (energy, material, information, etc.) are exchanged between the system and external entities?"
+  }, {
+    "Rationale" : "In my role, I need to  test the interface.",
+    "Concern" : "Which kind of physical items (energy, material, information, etc.) are used on an interface of a physical architecture element?"
+  }, {
+    "Rationale" : "In my role, I have to plan IV&V activities to evaluate the Physical Element as unit under test against the logical concept (specification).",
+    "Concern" : "Which logical elements are allocated to the physical SOI physical architecture?"
+  }, {
+    "Rationale" : "In my role, I need to understand the system in order to put it into operation.",
+    "Concern" : "Which modes and states does the system have?"
+  }, {
+    "Rationale" : "In my role, I need to integrate and test the interfaces.",
+    "Concern" : "Which physical items (energy, material, information, etc.) are exchanged within the system?"
+  }, {
+    "Rationale" : "In my role, I need to test and integrate them.",
+    "Concern" : "Which standards, protocols, and format specifications apply to a physical interface?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which system funcions need to be tested in IV&V activities?"
+  }, {
+    "Rationale" : "In my role, I need to cover these users with my test.",
+    "Concern" : "Which users does the system support? "
+  }, {
+    "Rationale" : "",
+    "Concern" : "Who provides the inputs to a critical function?"
+  } ]
+}, {
+  "Name" : "Maintainer",
+  "ID" : "_19_0_2_26f0132_1566037895381_430904_56516",
+  "Documentation" : "Definition - Maintainer\nIndividual or organization that performs maintenance activities, [ISO/IEC 12207:2008]\nThe Maintainer is an individual, group or organization responsible to maintain the system during its operational usage. The Maintainer assures the availability of the system over its foreseen lifetime. It involves obsolescence management, technology evolution, repair, update or replacement of parts of the system or even of the whole system. The Maintainer provides major non-functional requirements (e.g. reliability, availability, mean time to repair), but also functional requirements e.g. to ensure the compatibility with existing enabling systems.",
+  "Rationales" : [ {
+    "Rationale" : "",
+    "Concern" : "How are error states handled?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "How to connect the system or a system element to a test equipment?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "How to ensure full Operational Capability of the system after maintenance activities with a system element or component? "
+  }, {
+    "Rationale" : "",
+    "Concern" : "How to install / de-install components to / from the system?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are the replaceable system components?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the order information for each identified system element or component?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which modes and states does the system have?"
+  } ]
+}, {
+  "Name" : "Mechanic Developer",
+  "ID" : "_19_0_2_ebf0350_1554653241806_566270_43560",
+  "Documentation" : "Definition - Developer:\nOrganization that performs development tasks (including requirements analysis, design, testing through acceptance) during a life cycle process. [ISO/IEC 12207:2008]\nThe Developer is a group or an individual implementing the system parts according to defined requirements. On the lowest level of the system architecture there are the Mechanic Developer responsible for implementing the mechanical components.",
+  "Rationales" : [ {
+    "Rationale" : "In my role, I need to know the meaning of defined terms from applicable standards during implementation..",
+    "Concern" : "What are the sources (e.g. a standard) of terms?"
+  }, {
+    "Rationale" : "In my role, I need to implement the sub-functions in my mechanical subsystem",
+    "Concern" : "What is the mapping of functions to the physical SOI physical architecture?"
+  }, {
+    "Rationale" : "In my role, I need to implement the interface.",
+    "Concern" : "Which are the interface definitions for the physical architecture?"
+  }, {
+    "Rationale" : "In my role, I need to implement the interfaces in my mechanical subsystem, if necessary.",
+    "Concern" : "Which kind of physical items (energy, material, information, etc.) are used on an interface of a physical architecture element?"
+  }, {
+    "Rationale" : "In my role, as design authority I have to ensure that the Physical Element fulfills the allocated logical concept (specification).",
+    "Concern" : "Which logical elements are allocated to the physical SOI physical architecture?"
+  }, {
+    "Rationale" : "In my role, I need to know the meaning of defined terms from applicable standards during implementation.",
+    "Concern" : "Which terms and abbreviations are applicable to the system of interest or its system elements and their interfaces and interactions?"
+  } ]
+}, {
+  "Name" : "Operator",
+  "ID" : "_19_0_2_ebf0350_1554653238260_245225_43556",
+  "Documentation" : "Definition - Operator:\nIndividual or organization that performs the operations of a system, [ISO/IEC 15288:2022 – Systems engineering - System life-cycle processes]\nThe Operator is an individual or organization that uses knowledge, skills and procedures to perform the functions of the system to provide the benefit, product or service. \nAn individual Operator combined with knowledge, skills, and procedures may be considered as an element of the system. The role of the operator and the role of the user can be delegated to a single individual or may be simultaneously instantiated in the same organization. \n*For example: Air passengers are the user of the air transport system while a single flight is operated by an air carrier like the Lufthansa using aircrafts of various types to provide the transport service. \nTo provide the service to the passengers the carrier’s organization must implement lots of services utilizing several other enabling systems. \nThe individual aircraft is operated by the pilot who uses the on-board systems to control the aircraft and to navigate during that flight. \nThe example illustrates, that the roles user and operator are depending heavily on the definition of the SOI Scope.*",
+  "Rationales" : [ {
+    "Rationale" : "",
+    "Concern" : "How does a system function interact with its environment?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "How is the system being used or utilized and interacting with other external systems to satisfy user needs?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are necessary inputs for operating the system expected to be provided by other external entitys?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are the scenarios a system function is utilized in?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the necessary response time for an interface or a service?"
+  }, {
+    "Rationale" : "In my role, I need to check whether the system fits into the higher-level user concept.",
+    "Concern" : "Which users does the system support? "
+  } ]
+}, {
+  "Name" : "Portfolio Manager",
+  "ID" : "_2021x_2_8710274_1674680055517_468796_22923",
+  "Documentation" : "Portfolio Manager:\nIndividual or organization that plans the Product portfolio, i.e. which products are available, will be available, which capabilities will they have.",
+  "Rationales" : [ {
+    "Rationale" : "",
+    "Concern" : "Show in a concise manner the relationships from operational capability to operational story, to operational activity, and to operational performer."
+  }, {
+    "Rationale" : "",
+    "Concern" : "Show in a concise manner the relationships from operational process to operational story and to operational performer."
+  }, {
+    "Rationale" : "",
+    "Concern" : "What operational capabilities are defined?"
+  } ]
+}, {
+  "Name" : "Project Manager",
+  "ID" : "_19_0_2_ebf0350_1567281039295_665940_53199",
+  "Documentation" : "Definition - Project Manager: \nThe responsibility of the Project Manager is to make the right resources with the right skills available in time to get the identified work done. The Project Manager controls that the work packages are completed in time and agreed milestones are met. A clear definition of the solution for the stated problem allows planning to be done properly.\nSystems Engineering creates a clear and manageable system structure, which is the basis for project planning and task assignment.",
+  "Rationales" : [ {
+    "Rationale" : "In my role, I need to check whether the project order is implemented correctly.",
+    "Concern" : "For what purpose is the system developed or adapted?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "How to involve a Stakeholder and to what degree?"
+  }, {
+    "Rationale" : "In my role, I need to give feedback on existing or missing stakeholders.",
+    "Concern" : "In which phases of the life cycle is a Stakeholder involved in the project?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are the consequences not considering a Stakeholder?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are the consequences, if the Stakeholder’s concerns are not considered?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are the system delivery standards?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What concerns and rationals does a Stakeholder have?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What impact does a Stakeholder have on the project?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the functional scope of each system delivery standard?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the rationale when requirements are not considered?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the risk involved with each development item?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What services are expected from external entities?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "When do product functions or features become available?"
+  }, {
+    "Rationale" : "In my role, I need to give feedback on existing or missing stakeholders.",
+    "Concern" : "Which Stakeholders are relevant to the system and might impose requirements?"
+  }, {
+    "Rationale" : "In my role, I need to check whether we fulfill our contract.",
+    "Concern" : "Which System Requirements are derived from Stakeholder Requirements?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which development effort is associated with each individual element?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which functions will the system provide?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Who provides the inputs to a critical function?"
+  } ]
+}, {
+  "Name" : "Regulation Authority",
+  "ID" : "_19_0_2_ebf0350_1554653234809_156018_43552",
+  "Documentation" : "Definition - Regulation Authority:\nRegulation Authorities can have impact by imposing Stakeholder Requirements against the system and by their involvement in the development and acceptance phases (e.g. safety or IT security acceptance audits). \nThe term “authorities” also refers to current applicable regulations and laws.\nThe requirements stipulated on the system are diverse. They can be functional and non-functional requirements.\nSystems Engineering must adhere to relevant standards and needs to demonstrate compliance with those standards and requirements.",
+  "Rationales" : [ {
+    "Rationale" : "",
+    "Concern" : "How are applicable requirements considered in the system architecture?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "How are error states handled?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What additional information the system or a system element needs to generate to enable testing?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the rationale when requirements are not considered?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which modes and states does the system have?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Why types of exchange can exist between Operational Performers (i.e., flows of information, people, material, or energy)?"
+  } ]
+}, {
+  "Name" : "SAF Developer",
+  "ID" : "_2024x_26f0132_1719129287848_367992_14650",
+  "Documentation" : "The SAF Developer is a group or an individual developing SAF or extending SAF.",
+  "Rationales" : [ {
+    "Rationale" : "I need to cover the processes and best practises by a suitable set of viewpoints.",
+    "Concern" : "How does a viewpoint of the framework support the processes and best practises of the INCOSE SE Handbook or other system engineering standards?"
+  }, {
+    "Rationale" : "I need to chose a suitable implementation for the SE concepts exposed by a viewpoint.",
+    "Concern" : "How is a viewpoint implemented (which stereotypes /model elements are used)? "
+  }, {
+    "Rationale" : "I need to cover the information need of stakeholders to match the purpose of the viewpoint.",
+    "Concern" : "What are the concerns adressed by the frameworks viewpoints?"
+  }, {
+    "Rationale" : "I need to implement and document them for users",
+    "Concern" : "What are the frameworks model elements to be used in system models?"
+  }, {
+    "Rationale" : "I need to create a comprehensive specification of the frameworks viewpoints.",
+    "Concern" : "What is the definition of a viewpoint of the framework?"
+  }, {
+    "Rationale" : "I need to structure the framework along criteria that are similar over the domains. ",
+    "Concern" : "What is the definition of columns (aspects) in the frameworks grid?"
+  }, {
+    "Rationale" : "I need to structure the framework along criteria that roughly resemble phases of a typical SE workflow.",
+    "Concern" : "What is the definition of rows (domains) in the frameworks grid?"
+  }, {
+    "Rationale" : "I need to cover the SE concepts exposed by viewpoints by an implementation.",
+    "Concern" : "What is the implementation of the frameworks concepts?"
+  }, {
+    "Rationale" : "I need an overview over the maturity of available to plan SAF development.",
+    "Concern" : "What is the maturity state of viewpoints in the framework?"
+  }, {
+    "Rationale" : "I need to explain to SAF users what the viewpoint is good for.",
+    "Concern" : "What is the purpose of a viewpoint in the framwork?"
+  }, {
+    "Rationale" : "I need to structure the framework into an understandable grid layout.",
+    "Concern" : "Where is a viewpoint of the framework located in the frameworks grid?"
+  }, {
+    "Rationale" : "I need to structure the framework into an understandable grid layout.",
+    "Concern" : "Which columns and rows does the frameworks grid have? "
+  }, {
+    "Rationale" : "I need to analyze the concerns if they are justified by SE best practice.",
+    "Concern" : "Which concerns are does an architecture framework stakeholder have?"
+  }, {
+    "Rationale" : "I need to design viewpoints that fullfill stakeholders information needs and cover the purpose of the viewpoints.",
+    "Concern" : "Which concerns are framed by a viewpoint of the framework?"
+  }, {
+    "Rationale" : "I need to explain the hard(e.g. by required model elements being a prerequisite) and soft (a recommended good practice) dependencies to frameworks users.",
+    "Concern" : "Which dependencies to other viewpoints exist for a viewpoint of the framework?"
+  }, {
+    "Rationale" : "I need to specify presentations of the information in a viewpoint to address different framework stakeholders concerns.",
+    "Concern" : "Which presentations are available for a viewpoint in the framwork?"
+  }, {
+    "Rationale" : "I need to cover important SE concepts in typical SE workflows along the processes of the INCOSE SE Handbook and SE best practices.",
+    "Concern" : "Which systems engineering concepts are covered by the framework?"
+  }, {
+    "Rationale" : "I need to specify which SE concepts are exposed in order to fullfil the information need of stakeholders and the viewpoints purpose.",
+    "Concern" : "Which systems engineering concepts are exposed within a viewpoint of the framework?"
+  }, {
+    "Rationale" : "I need an overview over the viewpoints available to identify possible gaps.",
+    "Concern" : "Which viewpoints are available in the framework"
+  }, {
+    "Rationale" : "I need to explain to frameworks users who would typically have an interest in which viewpoint.",
+    "Concern" : "Who are the architecture framework stakeholders of the frameworks viewpoints?"
+  }, {
+    "Rationale" : "I  want to understand the intention for the information need to select an cut set of viewpoints and then and appropriate presentation for the information.",
+    "Concern" : "Why does a stakeholder have this specific concern ? "
+  }, {
+    "Rationale" : "I need to know them in order select an appropriate presentation,  implementation, and to implement model checks.",
+    "Concern" : "what are the constraints related to se concepts covered by the framework? "
+  }, {
+    "Rationale" : "I need to make sure they can answer the information need described by concerns.\nI need to implement them in a profile",
+    "Concern" : "what are the relations between systems engineering concepts covered by the framework?"
+  } ]
+}, {
+  "Name" : "SAF MBSE approch planer",
+  "ID" : "_2024x_26f0132_1719129568628_636824_14722",
+  "Documentation" : "The SAF MBSE approach planer is a group or an individual selecting viewpoints to be used in an MBSE approach. This may be identical with an architect role but may as well be carried out by an organziation standardizing the MBSE approach for products, product lines or an entire enterprise.",
+  "Rationales" : [ {
+    "Rationale" : "I want to know how the INCOSE HB processes and best practises are supported by the frameworks viewpoints, because want to plan a MBSE approach.",
+    "Concern" : "How does a viewpoint of the framework support the processes and best practises of the INCOSE SE Handbook or other system engineering standards?"
+  }, {
+    "Rationale" : "I want to know if the information need of my stakeholders in the planned MBSE approach is adressed by the viewpoint.",
+    "Concern" : "What are the concerns adressed by the frameworks viewpoints?"
+  }, {
+    "Rationale" : "I need to know which modeling skills users will need.",
+    "Concern" : "What are the frameworks model elements to be used in system models?"
+  }, {
+    "Rationale" : "I need to understand the frameworks viewpoints in order to plan an appropriate MBSE approach.",
+    "Concern" : "What is the definition of a viewpoint of the framework?"
+  }, {
+    "Rationale" : "I need to understand the framworks structure in order to chose viewpoints to be used.",
+    "Concern" : "What is the definition of columns (aspects) in the frameworks grid?"
+  }, {
+    "Rationale" : "I need to understand the frameworks structure in order to chose viewpoints to be used.",
+    "Concern" : "What is the definition of rows (domains) in the frameworks grid?"
+  }, {
+    "Rationale" : "I need to know which viewpoins are stable to assess the risk using them.",
+    "Concern" : "What is the maturity state of viewpoints in the framework?"
+  }, {
+    "Rationale" : "I need to select appropriate viewpoinst for the MBSE approach.",
+    "Concern" : "What is the purpose of a viewpoint in the framwork?"
+  }, {
+    "Rationale" : "I need to understand the frameworks structure in order to chose viewpoints to be used.",
+    "Concern" : "Where is a viewpoint of the framework located in the frameworks grid?"
+  }, {
+    "Rationale" : "I need to understand the frameworks structure in order to chose viewpoints to be used.",
+    "Concern" : "Which columns and rows does the frameworks grid have? "
+  }, {
+    "Rationale" : "I need to analyze the concerns if they match the information needs my stakeholders will have in order to identify gaps in the MBSE approach.",
+    "Concern" : "Which concerns are does an architecture framework stakeholder have?"
+  }, {
+    "Rationale" : "I need to know if the information needs of my stakeholders are covered in order to plan the MBSE approach.",
+    "Concern" : "Which concerns are framed by a viewpoint of the framework?"
+  }, {
+    "Rationale" : "I need to know the dependencies in order to plan the MBSE approach.",
+    "Concern" : "Which dependencies to other viewpoints exist for a viewpoint of the framework?"
+  }, {
+    "Rationale" : "I need plan which presentations shall be used by the MBSE approach.",
+    "Concern" : "Which presentations are available for a viewpoint in the framwork?"
+  }, {
+    "Rationale" : "I need know if the SE concepts to my stakeholders according to the planned SE work flow is covered by the framework.",
+    "Concern" : "Which systems engineering concepts are covered by the framework?"
+  }, {
+    "Rationale" : "I need to select viewpoints for my stakeholders and want to use this information as a starting point.",
+    "Concern" : "Who are the architecture framework stakeholders of the frameworks viewpoints?"
+  }, {
+    "Rationale" : "I want to know what might happen if the concern cannot be fulfilled.",
+    "Concern" : "Why does a stakeholder have this specific concern ? "
+  }, {
+    "Rationale" : "I want to validate the assumptions made in the framework against the anticipated information need of the MBSE appoach.",
+    "Concern" : "what are the constraints related to se concepts covered by the framework? "
+  }, {
+    "Rationale" : "I want to know if the information need that i anticipate for the MBSE approach will be satisfied by the framework.",
+    "Concern" : "what are the relations between systems engineering concepts covered by the framework?"
+  } ]
+}, {
+  "Name" : "SAF System model user",
+  "ID" : "_2024x_26f0132_1719129555802_233661_14716",
+  "Documentation" : "The SAF System Model User is a group or an individual creating, maintaining or reading SAF System Models.",
+  "Rationales" : [ {
+    "Rationale" : "I want to know how the INCOSE HB processes and best practises are supported by the frameworks viewpoints, because i want to use the viewpoints suitable for the work i am doing.",
+    "Concern" : "How does a viewpoint of the framework support the processes and best practises of the INCOSE SE Handbook or other system engineering standards?"
+  }, {
+    "Rationale" : "I want to know which model elements i am expected to work on in a viewpoint.",
+    "Concern" : "How is a viewpoint implemented (which stereotypes /model elements are used)? "
+  }, {
+    "Rationale" : "I need to populate system models with them and read them from system models.",
+    "Concern" : "What are the frameworks model elements to be used in system models?"
+  }, {
+    "Rationale" : "I need a user documentation of the viewpoint i am going to use.",
+    "Concern" : "What is the definition of a viewpoint of the framework?"
+  }, {
+    "Rationale" : "I need to be able to orient myself in the frameworks structure an know what is where.",
+    "Concern" : "What is the definition of columns (aspects) in the frameworks grid?"
+  }, {
+    "Rationale" : "I need to be able to orient myself in the frameworks structure an know what is where.",
+    "Concern" : "What is the definition of rows (domains) in the frameworks grid?"
+  }, {
+    "Rationale" : "I need to know if i am using a viewpoint suitable for my modeling task.",
+    "Concern" : "What is the purpose of a viewpoint in the framwork?"
+  }, {
+    "Rationale" : "I need to be able to orient myself in the frameworks structure an know what is where.",
+    "Concern" : "Where is a viewpoint of the framework located in the frameworks grid?"
+  }, {
+    "Rationale" : "I need to be able to orient myself in the frameworks structure an know what is where.",
+    "Concern" : "Which columns and rows does the frameworks grid have? "
+  }, {
+    "Rationale" : "I need to know the dependencies in order to plan my work.",
+    "Concern" : "Which dependencies to other viewpoints exist for a viewpoint of the framework?"
+  }, {
+    "Rationale" : "I want to know what types of diagrams, tables etc. i am going to work on.",
+    "Concern" : "Which presentations are available for a viewpoint in the framwork?"
+  }, {
+    "Rationale" : "I want to know which viewpoints can possibly satisfy my information needs.",
+    "Concern" : "Which viewpoints are available in the framework"
+  }, {
+    "Rationale" : "I need an overview about the model in order to orient myself.",
+    "Concern" : "Which viewpoints are used in the system model"
+  }, {
+    "Rationale" : "I need an overview about the model in order to orient myself.",
+    "Concern" : "Which views of the frameworks viewpoints are present in the system model?"
+  } ]
+}, {
+  "Name" : "Safety Expert",
+  "ID" : "_19_0_2_26f0132_1562303526473_410133_92403",
+  "Documentation" : "Definition - Safety Specialist:\nSafety is one subject matter of specialty engineering but important enough to be treated separately. \nThe safety experts evaluate a proposed system architecture and design for safety applying different analysis considering the criticality of the system functions. The result of the activity are safety requirements that need to be considered in the system design.",
+  "Rationales" : [ {
+    "Rationale" : "",
+    "Concern" : "Are safety related design principles) followed e.g. segregation of monitors or independence or redundant elements?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "How are error states handled?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "How are safety features verified?"
+  }, {
+    "Rationale" : "In my role, I use them as basis for understanding interfaces on logical level.",
+    "Concern" : "How do the logical system elements interact to provide the system functions?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "How do the physical system elements interact to provide the system function?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "How does a system function interact with its environment?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "How does criticality propagate down the system hierarchy?"
+  }, {
+    "Rationale" : "In my role, I need to check if proper safety measures are taken in the design.",
+    "Concern" : "How is a safety critical function decomposed and allocated?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What additional information the system or a system element needs to generate to enable testing?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are the contributors (SW and HW items contributing to a critical function) to a critical function?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are the encryption means used for an exchange?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are the failure modes of a system function?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are the hazards of a system function in an identified situation (context + scenario)?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are the inputs to a critical function?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are the planned architectural means for risk mitigation?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are the scenarios a system function is utilized in?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the flow of critical information and data through the system?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the necessary response time for an interface or a service?"
+  }, {
+    "Rationale" : "In my role, I need to assess if the system partitioning fulfills the safety requirements.",
+    "Concern" : "What is the physical breakdown of the system?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the possible harm in utilizing the system?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the rationale when requirements are not considered?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the sequence of interactions among the system and context elements on physical level?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What shall be validated to the customer at system level?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which are the external physical entities the system interacts with in the given context?"
+  }, {
+    "Rationale" : "In my role, I use them as basis for understanding interfaces on logical level.",
+    "Concern" : "Which conceptual items (energy, material, information, etc.) are exchanged within the system?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which functions will the system provide?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which information is exchanged between the system and external entities?"
+  }, {
+    "Rationale" : "In my role, I need to assess if  interfaces can impose safety hazards.",
+    "Concern" : "Which interface partners does the system have?"
+  }, {
+    "Rationale" : "In my role, I use them as basis for understanding interfaces on conceptual level.",
+    "Concern" : "Which kind of conceptual items (energy, material, information, etc.)  are used in the logical architecture of the system?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?"
+  }, {
+    "Rationale" : "In my role, I use them as basis for understanding interfaces on design level.",
+    "Concern" : "Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the system?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which modes and states does the system have?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which operational exchanges do operational performers need to consume or provide?"
+  }, {
+    "Rationale" : "In my role, I use them as basis for understanding interfaces on physical level.",
+    "Concern" : "Which physical items (energy, material, information, etc.) are exchanged within the system?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Who provides the inputs to a critical function?"
+  } ]
+}, {
+  "Name" : "Security Expert",
+  "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
+  "Documentation" : "Definition - Security Specialist:\nSecurity is one subject matter of specialty engineering but important enough to be treated separately.\nThe IT-Security experts evaluate a proposed system architecture and design for IT-Security. One outcome of the activity are technical security requirements that need to be considered in the system design. Other outcomes affect the organization or the infrastructure of the user or define procedures that need to be implemented.",
+  "Rationales" : [ {
+    "Rationale" : "",
+    "Concern" : "How are error states handled?"
+  }, {
+    "Rationale" : "In my role, I need to assess if internal interfaces conform to security separation concepts.",
+    "Concern" : "How do physical system elements interact to provide system functions?"
+  }, {
+    "Rationale" : "In my role, I use them as basis for understanding interfaces on logical level.",
+    "Concern" : "How do the logical system elements interact to provide the system functions?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "How do the physical system elements interact to provide the system function?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "How is the interface between different domains protected?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What additional information the system or a system element needs to generate to enable testing?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are necessary inputs for operating the system expected to be provided by other external entitys?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are the confidentiality, integrity and availability levels for processed or exchanged information?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are the domains of similar security levels in the system or the system participates in?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are the encryption means used for an exchange?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are the interfaces between different domains?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are the requirements for security relevant IT-equipment?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are the scenarios a system function is utilized in?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the necessary response time for an interface or a service?"
+  }, {
+    "Rationale" : "In my role, I need to assess if the system partitioning fulfills the security requirements.",
+    "Concern" : "What is the physical breakdown of the system?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the rationale when requirements are not considered?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the sequence of interactions among the system and context elements on physical level?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What shall be validated to the customer at system level?"
+  }, {
+    "Rationale" : "In my role, I need to assess the security on the interface.",
+    "Concern" : "Which are the protocols for exchanging physical items on a specific interface?"
+  }, {
+    "Rationale" : "In my role, I need to assess the security based on protocol usage in general.",
+    "Concern" : "Which are the protocols used for exchanging information?"
+  }, {
+    "Rationale" : "In my role, I use them as basis for understanding interfaces on logical level.",
+    "Concern" : "Which conceptual items (energy, material, information, etc.) are exchanged within the system?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which functions will the system provide?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which information is exchanged between the system and external entities?"
+  }, {
+    "Rationale" : "In my role, I need to assess if external interfaces can impose security threats.",
+    "Concern" : "Which interface partners does the system have?"
+  }, {
+    "Rationale" : "In my role, I use them as basis for understanding interfaces on conceptual level.",
+    "Concern" : "Which kind of conceptual items (energy, material, information, etc.)  are used in the logical architecture of the system?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?"
+  }, {
+    "Rationale" : "In my role, I use them as basis for understanding interfaces on design level.",
+    "Concern" : "Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the system?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which modes and states does the system have?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which operational exchanges do operational performers need to consume or provide?"
+  }, {
+    "Rationale" : "In my role, I use them as basis for understanding interfaces on physical level.",
+    "Concern" : "Which physical items (energy, material, information, etc.) are exchanged within the system?"
+  }, {
+    "Rationale" : "In my role, I need to assess the security based on them.",
+    "Concern" : "Which standards, protocols, and format specifications apply to a physical interface?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Why types of exchange can exist between Operational Performers (i.e., flows of information, people, material, or energy)?"
+  }, {
+    "Rationale" : "I need to make sure that the security requirements regarding handling of protected information by the system can be adressed appropriately.",
+    "Concern" : "what is the protection need of information"
+  }, {
+    "Rationale" : "I need to use them to assign protection goals to assets, and to assign trust levels to context elements.",
+    "Concern" : "which protection goals  and subcategories can be used?"
+  } ]
+}, {
+  "Name" : "Software Developer",
+  "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
+  "Documentation" : "Definition - Developer:\nOrganization that performs development tasks (including requirements analysis, design, testing through acceptance) during a life cycle process. [ISO/IEC 12207:2008]\nThe Developer is a group or an individual implementing the system parts according to defined requirements. On the lowest level of the system architecture there are the Software Developer responsible for implementing the software components.",
+  "Rationales" : [ {
+    "Rationale" : "",
+    "Concern" : "How are error states handled?"
+  }, {
+    "Rationale" : "In my role, I need to implement the interfaces in my SW subsystem, if necessary.",
+    "Concern" : "How do physical system elements interact to provide system functions?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What additional information the system or a system element needs to generate to enable testing?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are precision and accuracy requirements for presentation of data items on an interface?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are precision and accuracy requirements for processing of data items?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are the Interface Requirements regarding bandwidth, data throughput and latency?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are the algorithms to be implemented?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are the encryption means used for an exchange?"
+  }, {
+    "Rationale" : "In my role, I need to trace my derived requirements against these ones relevant to me.",
+    "Concern" : "What are the functional requirements imposed on the system?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are the non-functional requirements applying to SW (e.g. with regard to SW quality, modularization, changeability or reuse)?"
+  }, {
+    "Rationale" : "In my role, I need to trace my derived requirements against these ones relevant to me.",
+    "Concern" : "What are the non-functional requirements imposed on the system?"
+  }, {
+    "Rationale" : "In my role, I need to know the meaning of defined terms from applicable standards during implementation.",
+    "Concern" : "What are the sources (e.g. a standard) of terms?"
+  }, {
+    "Rationale" : "In my role, I need to implement the sub-functions in my SW subsystem.",
+    "Concern" : "What is the mapping of functions to the physical SOI physical architecture?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the necessary accuracy and resolution for processing?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the necessary performance for processing?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the necessary response time for an interface or a service?"
+  }, {
+    "Rationale" : "In my role, I need to implement the interfaces in the elements of the system context.",
+    "Concern" : "What is the sequence of interactions among the system and context elements on physical level?"
+  }, {
+    "Rationale" : "In my role, I need to implement the interfaces in my SW subsystem, if necessary.",
+    "Concern" : "Which SW interfaces are necessary?"
+  }, {
+    "Rationale" : "In my role, I need to give feedback on existing or missing stakeholders.",
+    "Concern" : "Which Stakeholders are relevant to the system and might impose requirements?"
+  }, {
+    "Rationale" : "In my role, I need to implement the interface.",
+    "Concern" : "Which are the interface definitions for the physical architecture?"
+  }, {
+    "Rationale" : "In my role, I need to implement the protocol.",
+    "Concern" : "Which are the protocols for exchanging physical items on a specific interface?"
+  }, {
+    "Rationale" : "In my role, I need to understand the concepts of system internal interfaces  in order to implement them.",
+    "Concern" : "Which conceptual items (energy, material, information, etc.) are exchanged within the system?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which functions and services need to be implemented in SW?"
+  }, {
+    "Rationale" : "In my role, I need to take this into account when planning implementation.",
+    "Concern" : "Which functions are allocated to which parts of the logical architecture?"
+  }, {
+    "Rationale" : "In my role, I need to provide qualified feedback on how my how the sub-functions assigned to my subsystem contributes to the function of the system.",
+    "Concern" : "Which functions will the system provide?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which interface partners does a SW item have?"
+  }, {
+    "Rationale" : "In my role, I must derive interface design from them.",
+    "Concern" : "Which kind of conceptual items (energy, material, information, etc.)  are used in the logical architecture of the system?"
+  }, {
+    "Rationale" : "In my role, I need to understand the concepts of external interfaces to external partners in order to implement them.",
+    "Concern" : "Which kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?"
+  }, {
+    "Rationale" : "In my role, I must use these in interface design.",
+    "Concern" : "Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the system?"
+  }, {
+    "Rationale" : "In my role, I need to implement the interfaces in my SW subsystem, if necessary.",
+    "Concern" : "Which kind of physical items (energy, material, information, etc.) are used on an interface of a physical architecture element?"
+  }, {
+    "Rationale" : "In my role, as design authority I have to ensure that the SW Element fulfills the allocated logical concept (specification).",
+    "Concern" : "Which logical elements are allocated to the physical SOI physical architecture?"
+  }, {
+    "Rationale" : "In my role, I need to know which system modes and states my subsystem must support.",
+    "Concern" : "Which modes and states does the system have?"
+  }, {
+    "Rationale" : "In my role, I need to support integrating and testing the interfaces.",
+    "Concern" : "Which physical items (energy, material, information, etc.) are exchanged within the system?"
+  }, {
+    "Rationale" : "In my role, I need to implement the interface.",
+    "Concern" : "Which standards, protocols, and format specifications apply to a physical interface?"
+  }, {
+    "Rationale" : "In my role, I need to know the meaning of defined terms from applicable standards during implementation.",
+    "Concern" : "Which terms and abbreviations are applicable to the system of interest or its system elements and their interfaces and interactions?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Who provides the inputs to a critical function?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Why types of exchange can exist between Operational Performers (i.e., flows of information, people, material, or energy)?"
+  } ]
+}, {
+  "Name" : "Supplier",
+  "ID" : "_19_0_2_ebf0350_1567282723132_468249_52793",
+  "Documentation" : "Definition - Supplier:\nOrganization or an individual that enters into an agreement with the Acquirer for the supply of a product or service, [ISO/IEC 15288:2022 – Systems engineering - System life-cycle processes]\nThe Supplier is the organization or individual that enters into an agreement with the Acquirer to supply a product or service. Usually, the system architect and the developers for make-items are part of the supplier’s organization. Other terms commonly used for Supplier are contractor, producer, seller or vendor.",
+  "Rationales" : [ {
+    "Rationale" : "",
+    "Concern" : "What are necessary enabling systems?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are necessary inputs for operating the system expected to be provided by other external entitys?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are the capabilities that are supported by the system?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are the scenarios a system function is utilized in?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the lack / deficiency / gap in current capability implementation that is addressed with the intended solution?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the system boundary definition?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What services are expected from external entities?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Where and what are the geographical and physical locations of the intended or proposed elements of the solution?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which are the external physical entities the system interacts with in the given context?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Who are the (Major) Stakeholders involved in the intended solution?"
+  } ]
+}, {
+  "Name" : "System Architect",
+  "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+  "Documentation" : "Definition - System Architect:\nThe System Architect as an individual or group performing the systems engineering for the SOI. The system architect creates the system architecture i.e. the views as defined by the SAF.",
+  "Rationales" : [ {
+    "Rationale" : "",
+    "Concern" : "Are safety related design principles) followed e.g. segregation of monitors or independence or redundant elements?"
+  }, {
+    "Rationale" : "In my role, I need to know this in order to be able to further design the system in an appropriate way.",
+    "Concern" : "For what purpose is the system developed or adapted?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Have the logical decomposition guidelines been followed?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "How are applicable requirements considered in the system architecture?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "How are error states handled?"
+  }, {
+    "Rationale" : "In my role, I need to orchestrate interface agreements between the system internal interface partners.",
+    "Concern" : "How do physical system elements interact to provide system functions?"
+  }, {
+    "Rationale" : "In my role, I need to coordinate internal interfaces with internal subsystem partners.",
+    "Concern" : "How do the logical system elements interact to provide the system functions?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "How do the physical system elements interact to provide the system function?"
+  }, {
+    "Rationale" : "In my role, I need to delegate the implementation of interfaces in subsystems.",
+    "Concern" : "How does a system function interact with its environment?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "How does criticality propagate down the system hierarchy?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "How does the elements of the test environment interact with each other?"
+  }, {
+    "Rationale" : "In my role, I want to make sure that the architecture partitioning fulfills safety needs.",
+    "Concern" : "How is a safety critical function decomposed and allocated?"
+  }, {
+    "Rationale" : "In my role, I need to pass on the resulting System Requirements to the subsystems.",
+    "Concern" : "How is the system being used or utilized and interacting with other external systems to satisfy user needs?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "How to involve a Stakeholder and to what degree?"
+  }, {
+    "Rationale" : "In my role, I need to give feedback on existing or missing stakeholders.",
+    "Concern" : "In which phases of the life cycle is a Stakeholder involved in the project?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Show in a concise manner the relationships from operational capability to operational story, to operational activity, and to operational performer."
+  }, {
+    "Rationale" : "",
+    "Concern" : "Show in a concise manner the relationships from operational process to operational story and to operational performer."
+  }, {
+    "Rationale" : "",
+    "Concern" : "What additional information the system or a system element needs to generate to enable testing?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are necessary enabling systems?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are necessary inputs for operating the system expected to be provided by other external entitys?"
+  }, {
+    "Rationale" : "In my role, I need to identify suitable basic components on the grounds of the required system capabilities.",
+    "Concern" : "What are the capabilities that are supported by the system?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are the configuration items in the physical architecture?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are the consequences, if the Stakeholder’s concerns are not considered?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are the encryption means used for an exchange?"
+  }, {
+    "Rationale" : "In my role, I need to check whether the system design implements the System Requirements.",
+    "Concern" : "What are the functional requirements imposed on the system?"
+  }, {
+    "Rationale" : "In my role, I need to check whether the system design implements the System Requirements.",
+    "Concern" : "What are the non-functional requirements imposed on the system?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are the normal and extreme environmental conditions for normal operation, for not operational, for storage, and for transport?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are the planned architectural means for risk mitigation?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are the relationships between the partys involved in the operation of the intended solution?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are the scenarios a system function is utilized in?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are the system delivery standards?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What concerns and rationals does a Stakeholder have?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What existing elements of the organization, enterprise, or operational entity need to be integrated in the intended solution?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the breakdown of functions into sub-functions?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the configuration or version of each configuration item?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the context of the organization, enterprise, or operational entity?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the flow of critical information and data through the system?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the functional scope of each system delivery standard?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the lack / deficiency / gap in current capability implementation that is addressed with the intended solution?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the logical breakdown of the system?"
+  }, {
+    "Rationale" : "In my role, I need to delegate the implementation of sub-function in physical subsystems (HW/SW/...).",
+    "Concern" : "What is the mapping of functions to the physical SOI physical architecture?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the necessary accuracy and resolution for processing?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the necessary response time for an interface or a service?"
+  }, {
+    "Rationale" : "In my role, I need to orchestrate the interface agreements among the parts of the system.",
+    "Concern" : "What is the physical breakdown of the system?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the rationale when requirements are not considered?"
+  }, {
+    "Rationale" : "In my role, I need to assess if the systems interfaces are compatible with external systems.",
+    "Concern" : "What is the sequence of interactions among the system and context elements on physical level?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the system boundary definition?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the task executed by an organization, enterprise, or operational entity in the Operational Context?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What operational capabilities are defined?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What operational process activities shall be executed during the execution of an operational story?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What possible threads of operational process activities have to be carried out to achieve the operational story main and alternative goals?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What services are expected from external entities?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What shall be validated to the customer at system level?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What system elements are make-items, reuse items, or COTS?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Where and what are the geographical and physical locations of the intended or proposed elements of the solution?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which HW interfaces are necessary?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which SW interfaces are necessary?"
+  }, {
+    "Rationale" : "In my role, I need to give feedback on existing or missing stakeholders.",
+    "Concern" : "Which Stakeholders are relevant to the system and might impose requirements?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which are the external physical entities the system interacts with in the given context?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which are the given contexts the system is embedded and utilized in?"
+  }, {
+    "Rationale" : "In my role, I need to orchestrate interface agreements between the system and external interface partners",
+    "Concern" : "Which are the interface definitions for the logical architecture?"
+  }, {
+    "Rationale" : "In my role, I need to orchestrate interface agreements between the system and external interface partners",
+    "Concern" : "Which are the interface definitions for the physical architecture?"
+  }, {
+    "Rationale" : "In my role, I need to asses if the usage of protocols on interfaces is compatible with the system lifecyle concepts.",
+    "Concern" : "Which are the protocols for exchanging physical items on a specific interface?"
+  }, {
+    "Rationale" : "In my role, I need to validate if they fit the purpose of the system and conform the systems concepts",
+    "Concern" : "Which are the protocols used for exchanging information?"
+  }, {
+    "Rationale" : "In my role, I use them as basis for understanding interfaces on logical level.",
+    "Concern" : "Which conceptual items (energy, material, information, etc.) are exchanged within the system?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which functions are allocated to which parts of the logical architecture?"
+  }, {
+    "Rationale" : "In my role, I need to break these down further to be able to delegate sub-functions to subsystems.",
+    "Concern" : "Which functions will the system provide?"
+  }, {
+    "Rationale" : "In my role, I need to orchestrate interface agreements between the system and external interface partners.",
+    "Concern" : "Which information is exchanged between the system and external entities?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which interface partners does a SW item have?"
+  }, {
+    "Rationale" : "In my role, I need to orchestrate interface agreements between the system and external interface partners.",
+    "Concern" : "Which interface partners does the system have?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which is the operational context to achieve an operational story?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which is the operational scenario, i.e., course of action, for the mission and the context in which the system of systems solution will exist?"
+  }, {
+    "Rationale" : "In my role, I want to foster reuse of system wide concept definitions within the architecture design.",
+    "Concern" : "Which kind of conceptual items (energy, material, information, etc.)  are used in the logical architecture of the system?"
+  }, {
+    "Rationale" : "In my role, I need to coordinate external interfaces with external partners.",
+    "Concern" : "Which kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?"
+  }, {
+    "Rationale" : "In my role, I need to orchestrate interface agreements between the system and external interface partners.",
+    "Concern" : "Which kind of physical items (energy, material, information, etc.) are exchanged between the system and external entities?"
+  }, {
+    "Rationale" : "In my role, I have to foster reuse of system wide concept definitions within the architecture design.",
+    "Concern" : "Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the system?"
+  }, {
+    "Rationale" : "In my role, I orchestrate interface agreements between architecture elements, and between the system and elements of the system context.",
+    "Concern" : "Which kind of physical items (energy, material, information, etc.) are used on an interface of a physical architecture element?"
+  }, {
+    "Rationale" : "In my role, I have to check that all aspects of the logical concept (specification) are allocated to physical elements (with assigned design authorities).",
+    "Concern" : "Which logical elements are allocated to the physical SOI physical architecture?"
+  }, {
+    "Rationale" : "In my role, I need to understand the required system behavior in order to further design the system.",
+    "Concern" : "Which modes and states does the system have?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which operational activity shall be executed by which operational performer in the operational story?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which operational exchanges do operational performers need to consume or provide?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which performers or resources are necessary to operate the intended solution?"
+  }, {
+    "Rationale" : "In my role, I use them as basis for understanding interfaces on physical level.",
+    "Concern" : "Which physical items (energy, material, information, etc.) are exchanged within the system?"
+  }, {
+    "Rationale" : "In my role, I need to validate if they fit the purpose of the system and are complaint to the systems concepts.",
+    "Concern" : "Which standards, protocols, and format specifications apply to a physical interface?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which system function is addressed by a system requirement?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which system functions are dependent on a systems mode or state?"
+  }, {
+    "Rationale" : "In my role, I need to delegate the implementation of HMI in subsystems.",
+    "Concern" : "Which users does the system support? "
+  }, {
+    "Rationale" : "In my role, I need to give feedback on existing or missing stakeholders.",
+    "Concern" : "Who are the (Major) Stakeholders involved in the intended solution?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Who provides the inputs to a critical function?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Why types of exchange can exist between Operational Performers (i.e., flows of information, people, material, or energy)?"
+  }, {
+    "Rationale" : "i need to plan the architecture to adress the security requirements.",
+    "Concern" : "what is the protection need of information"
+  }, {
+    "Rationale" : "I need to assessan if  differences in security levels are handled by the architecture appropriately.",
+    "Concern" : "what is the security level of information handled by the system or system elements"
+  }, {
+    "Rationale" : "",
+    "Concern" : "which protection goals  and subcategories can be used?"
+  } ]
+}, {
+  "Name" : "User",
+  "ID" : "_19_0_2_ebf0350_1567280920665_435327_53193",
+  "Documentation" : "Definition - User:\nIndividual or group that interacts with a system or benefits from a system during its utilization, [ISO/IEC 15288:2022 - Systems engineering - System life-cycle processes]\nThe User is the individual, organization or group that benefits from the operation of the system. The User provides the usage scenarios, the User needs and finally the user requirements representing most of the functional requirements but also non-functional requirements. The role of User and the role of operator are sometimes allocated, simultaneously or sequentially, to the same individual or organization. All the other stakeholders do not use the system for any purpose, and they do not need or require the system to satisfy any need. Therefore, interests of the User and claims of the Stakeholder could be contradicting.",
+  "Rationales" : [ {
+    "Rationale" : "",
+    "Concern" : "How does a system function interact with its environment?"
+  }, {
+    "Rationale" : "In my role, I need to check whether intended solution satisfies my user needs.",
+    "Concern" : "How is the system being used or utilized and interacting with other external systems to satisfy user needs?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are necessary inputs for operating the system expected to be provided by other external entitys?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are the scenarios a system function is utilized in?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the necessary response time for an interface or a service?"
+  }, {
+    "Rationale" : "In my role, I need to check whether the system fits into the higher-level user concept.",
+    "Concern" : "Which users does the system support? "
+  } ]
+} ]

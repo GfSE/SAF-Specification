@@ -1,0 +1,1967 @@
+[ {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "traceability & mapping",
+  "Name" : "How are applicable requirements considered in the system architecture?",
+  "ID" : "_2021x_2_8710274_1674576759209_575701_23617",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "traceability & mapping",
+  "Name" : "Show in a concise manner the relationships from operational capability to operational story, to operational activity, and to operational performer.",
+  "ID" : "_2021x_2_8710274_1674576758591_594647_23070",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Operational Capability Mapping Viewpoint",
+    "ID" : "_19_0_3_6d8019d_1603027079337_312898_286"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "traceability & mapping",
+  "Name" : "Show in a concise manner the relationships from operational process to operational story and to operational performer.",
+  "ID" : "_2021x_2_8710274_1674576758928_485242_23392",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Operational Process Mapping Viewpoint",
+    "ID" : "_19_0_3_26f0132_1601459636216_111430_6921"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "traceability & mapping",
+  "Name" : "What amount of processing resources of an HW item will be consumed by the allocated software?",
+  "ID" : "_2021x_2_8710274_1674576758907_737717_23379",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "traceability & mapping",
+  "Name" : "What are the scenarios a system function is utilized in?",
+  "ID" : "_2021x_2_8710274_1674576758630_745758_23103",
+  "ConcernsViewpoints" : [ {
+    "Name" : "System Process Viewpoint",
+    "ID" : "_19_0_2_8710274_1567167552896_772779_54664"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "traceability & mapping",
+  "Name" : "What is the mapping of functions to the physical SOI physical architecture?",
+  "ID" : "_2021x_2_8710274_1674576758941_524652_23399",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Physical Functional Mapping Viewpoint",
+    "ID" : "_2021x_2_8710274_1675987942868_617787_33116"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "traceability & mapping",
+  "Name" : "What is the rationale for a system requirement?",
+  "ID" : "_2021x_2_8710274_1674576758848_939582_23337",
+  "ConcernsViewpoints" : [ {
+    "Name" : "System Requirement Traceability Viewpoint",
+    "ID" : "_19_0_2_26f0132_1565093441772_728957_49328"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "traceability & mapping",
+  "Name" : "Which System Requirements are derived from Stakeholder Requirements?",
+  "ID" : "_2021x_2_8710274_1674576758563_692887_23057",
+  "ConcernsViewpoints" : [ {
+    "Name" : "System Requirement Definition Viewpoint",
+    "ID" : "_19_0_2_26f0132_1565104337297_671823_55529"
+  }, {
+    "Name" : "System Requirement Traceability Viewpoint",
+    "ID" : "_19_0_2_26f0132_1565093441772_728957_49328"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "traceability & mapping",
+  "Name" : "Which functions are allocated to which parts of the logical architecture?",
+  "ID" : "_2021x_2_8710274_1674576759104_328839_23526",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Logical Functional Mapping Viewpoint",
+    "ID" : "_19_0_2_26f0132_1575539296547_649713_56759"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "traceability & mapping",
+  "Name" : "Which logical elements are allocated to the physical SOI physical architecture?",
+  "ID" : "_2021x_2_8710274_1698399385413_529894_33129",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Physical Logical Mapping Viewpoint",
+    "ID" : "_2021x_2_8710274_1676724435544_523379_27331"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "traceability & mapping",
+  "Name" : "Which logical system elements are involved in a interaction for the designated system function?  ",
+  "ID" : "_2021x_2_8710274_1674576758912_316573_23385",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "traceability & mapping",
+  "Name" : "Which system function is addressed by a system requirement?",
+  "ID" : "_2021x_2_8710274_1674576758668_405619_23141",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "traceability & mapping",
+  "Name" : "Which system functions are dependent on a systems mode or state?",
+  "ID" : "_2021x_2_8710274_1674576759086_661396_23504",
+  "ConcernsViewpoints" : [ {
+    "Name" : "System State Viewpoint",
+    "ID" : "_19_0_2_26f0132_1562303526536_189439_92549"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "traceability & mapping",
+  "Name" : "Which system interface is addressed by a system requirement?",
+  "ID" : "_2021x_2_8710274_1674576758640_156873_23115",
+  "ConcernsViewpoints" : [ {
+    "Name" : "System Requirement Traceability Viewpoint",
+    "ID" : "_19_0_2_26f0132_1565093441772_728957_49328"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "traceability & mapping",
+  "Name" : "Which upper requirements, including Stakeholder Requirements does the logical item depend on?",
+  "ID" : "_2021x_2_8710274_1674576759130_494871_23545",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "terms and standards",
+  "Name" : "What are the sources (e.g. a standard) of terms?",
+  "ID" : "_2021x_2_8710274_1701365358930_669398_98281",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Common Terms Definition Viewpoint",
+    "ID" : "_2021x_2_8710274_1701349408071_720270_88478"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "terms and standards",
+  "Name" : "What is the complete identification of a standard or a specification?",
+  "ID" : "_2021x_2_8710274_1700821607046_355547_58633",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "terms and standards",
+  "Name" : "Which are the relevant releases of the applicable standards, guidance, and policy to be used for the development of the system of interest and its system elements?",
+  "ID" : "_2021x_2_8710274_1700821579663_211989_58619",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Common Standards Definition Viewpoint",
+    "ID" : "_2021x_2_8710274_1676722868986_622372_25044"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "terms and standards",
+  "Name" : "Which other standards are referenced or referred to by applicable standards?",
+  "ID" : "_2021x_2_8710274_1700821592720_121043_58626",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Common Standards Definition Viewpoint",
+    "ID" : "_2021x_2_8710274_1676722868986_622372_25044"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "terms and standards",
+  "Name" : "Which standards, guidance, and policy are applicable to the system of interest or its system elements and their interfaces and interactions?",
+  "ID" : "_2021x_2_8710274_1700821558610_489259_58612",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Common Standards Definition Viewpoint",
+    "ID" : "_2021x_2_8710274_1676722868986_622372_25044"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "terms and standards",
+  "Name" : "Which terms and abbreviations are applicable to the system of interest or its system elements and their interfaces and interactions?",
+  "ID" : "_2021x_2_8710274_1701365325155_727486_98279",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Common Terms Definition Viewpoint",
+    "ID" : "_2021x_2_8710274_1701349408071_720270_88478"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "What is the allocated space?",
+  "ID" : "_2021x_2_8710274_1674576758981_795627_23427",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "What is the allocated weight?",
+  "ID" : "_2021x_2_8710274_1674576758960_504398_23411",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "structure",
+  "Name" : "What is the logical breakdown of the system?",
+  "ID" : "_2021x_2_8710274_1674576758828_494985_23322",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Logical Structure Definition Viewpoint",
+    "ID" : "_19_0_2_26f0132_1562303526536_284838_92559"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "structure",
+  "Name" : "What is the physical breakdown of the system?",
+  "ID" : "_2021x_2_8710274_1674576759117_113432_23531",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Physical Structure Definition Viewpoint",
+    "ID" : "_19_0_3_ebf0350_1580652072992_42812_53692"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "story",
+  "Name" : "For what purpose is the system developed or adapted?",
+  "ID" : "_2021x_2_6d8019d_1674945898325_22078_35809",
+  "ConcernsViewpoints" : [ {
+    "Name" : "System Use Case Viewpoint",
+    "ID" : "_19_0_1_26f0132_1554446728606_740631_45702"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "story",
+  "Name" : "What has the system to accomplish for its users?",
+  "ID" : "_2021x_2_8710274_1697469571914_800497_36599",
+  "ConcernsViewpoints" : [ {
+    "Name" : "System Use Case Viewpoint",
+    "ID" : "_19_0_1_26f0132_1554446728606_740631_45702"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "story",
+  "Name" : "Which are the system scenarios, i.e., course of action, for the system context in which the system solution will exist?",
+  "ID" : "_2021x_2_6d8019d_1674922633861_96675_24986",
+  "ConcernsViewpoints" : [ {
+    "Name" : "System Use Case Viewpoint",
+    "ID" : "_19_0_1_26f0132_1554446728606_740631_45702"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "story",
+  "Name" : "Which is the operational scenario, i.e., course of action, for the mission and the context in which the system of systems solution will exist?",
+  "ID" : "_2021x_2_8710274_1674576758881_297740_23364",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Operational Story Viewpoint",
+    "ID" : "_19_0_2_26f0132_1561750369203_901730_48359"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "How to involve a Stakeholder and to what degree?",
+  "ID" : "_2021x_2_8710274_1674576759044_574547_23470",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "stakeholder",
+  "Name" : "In which phases of the life cycle is a Stakeholder involved in the project?",
+  "ID" : "_2021x_2_8710274_1674576758728_957718_23218",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Stakeholder Identification Viewpoint",
+    "ID" : "_19_0_2_26f0132_1565093441772_881981_49327"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "What are the consequences not considering a Stakeholder?",
+  "ID" : "_2021x_2_8710274_1674576759019_845169_23454",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "What are the consequences, if the Stakeholder’s concerns are not considered?",
+  "ID" : "_2021x_2_8710274_1674576758624_283804_23093",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "stakeholder",
+  "Name" : "What concerns and rationals does a Stakeholder have?",
+  "ID" : "_2021x_2_8710274_1674576759190_739382_23597",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Stakeholder Identification Viewpoint",
+    "ID" : "_19_0_2_26f0132_1565093441772_881981_49327"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "What impact does a Stakeholder have on the project?",
+  "ID" : "_2021x_2_8710274_1674576758839_643425_23325",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "stakeholder",
+  "Name" : "What relevant relations and influences exist between Stakeholders?",
+  "ID" : "_2021x_2_8710274_1674576759059_36560_23481",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Stakeholder Identification Viewpoint",
+    "ID" : "_19_0_2_26f0132_1565093441772_881981_49327"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "stakeholder",
+  "Name" : "Which Stakeholders are relevant to the system and might impose requirements?",
+  "ID" : "_2021x_2_8710274_1674576758881_572143_23359",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Stakeholder Identification Viewpoint",
+    "ID" : "_19_0_2_26f0132_1565093441772_881981_49327"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "stakeholder",
+  "Name" : "Which external entities (external systems, environments, etc.) does a Stakeholder represent?",
+  "ID" : "_2021x_2_8710274_1674576758668_120660_23139",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Stakeholder Identification Viewpoint",
+    "ID" : "_19_0_2_26f0132_1565093441772_881981_49327"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "stakeholder",
+  "Name" : "Who are the (Major) Stakeholders involved in the intended solution?",
+  "ID" : "_2021x_2_8710274_1674576759083_315449_23499",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Stakeholder Identification Viewpoint",
+    "ID" : "_19_0_2_26f0132_1565093441772_881981_49327"
+  }, {
+    "Name" : "Operational Context Definition Viewpoint",
+    "ID" : "_19_0_2_26f0132_1567778254489_369345_55863"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "security",
+  "Name" : "How is the interface between different domains protected?",
+  "ID" : "_2021x_2_8710274_1674576759197_947321_23600",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "security",
+  "Name" : "How to identify and record security flaws and breaches of the system?",
+  "ID" : "_2021x_2_8710274_1674576759036_796963_23464",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "security",
+  "Name" : "How to penetrate the system?",
+  "ID" : "_2021x_2_8710274_1674576759178_807929_23591",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "security",
+  "Name" : "What are the confidentiality, integrity and availability levels for processed or exchanged information?",
+  "ID" : "_2021x_2_8710274_1674576758841_695276_23335",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "security",
+  "Name" : "What are the domains of similar security levels in the system or the system participates in?",
+  "ID" : "_2021x_2_8710274_1674576758870_832466_23353",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "security",
+  "Name" : "What are the encryption means used for an exchange?",
+  "ID" : "_2021x_2_8710274_1674576759166_86709_23573",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "security",
+  "Name" : "What are the interfaces between different domains?",
+  "ID" : "_2021x_2_8710274_1674576758690_783894_23170",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "security",
+  "Name" : "What are the requirements for security relevant IT-equipment?",
+  "ID" : "_2021x_2_8710274_1674576758778_412689_23270",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "security",
+  "Name" : "What is the flow of critical information and data through the system?",
+  "ID" : "_2021x_2_8710274_1674576759240_983704_23638",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "security",
+  "Name" : "What is the it security classification of data that will be communicated over the HW items interfaces?",
+  "ID" : "_2021x_2_8710274_1674576758941_289069_23401",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "security",
+  "Name" : "Which protection means need to be provided for an interface?",
+  "ID" : "_2021x_2_8710274_1674576759219_131933_23623",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "safety",
+  "Name" : "Analyse architecture with safety in mind e.g.: isolate safety critical parts with the goal to reduce overall criticality",
+  "ID" : "_2021x_2_8710274_1674576758578_174874_23064",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "safety",
+  "Name" : "Are safety related design principles) followed e.g. segregation of monitors or independence or redundant elements?",
+  "ID" : "_2021x_2_8710274_1674576759169_938344_23579",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "safety",
+  "Name" : "Collect and maintain building blocks for safety analysis: opscon, typical hazards, typical harm scenarios, typical failure modes ",
+  "ID" : "_2021x_2_8710274_1674576758919_594591_23386",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "safety",
+  "Name" : "Conduct impact analysis on safety when architecture changes (clarify - also vice versa?)",
+  "ID" : "_2021x_2_8710274_1674576759164_311164_23572",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "safety",
+  "Name" : "Conduct safety audit on SITP, having traceability to safety analysis in SITP - SITP shows that level of rigor is derived from safety analysis - SITP allows review of safety relevant test actions ",
+  "ID" : "_2021x_2_8710274_1674576758858_614351_23342",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "safety",
+  "Name" : "Full traceability of safety information over requirements, architecture into design artifacts. Supports \"rechtssichere dokumentation\"",
+  "ID" : "_2021x_2_8710274_1674576758953_253404_23410",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "safety",
+  "Name" : "How are safety features verified?",
+  "ID" : "_2021x_2_8710274_1674576759129_389909_23543",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "safety",
+  "Name" : "How does criticality propagate down the system hierarchy?",
+  "ID" : "_2021x_2_8710274_1674576758600_614547_23075",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "safety",
+  "Name" : "How is a safety critical function decomposed and allocated?",
+  "ID" : "_2021x_2_8710274_1674576759229_399697_23631",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "safety",
+  "Name" : "Prove product safety to customer",
+  "ID" : "_2021x_2_8710274_1674576759190_197425_23599",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "safety",
+  "Name" : "Rechtssichere Dokumentation aufgrund Beweislastumkehr aus prodHaftG. und prodSG.",
+  "ID" : "_2021x_2_8710274_1674576758868_359466_23352",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "safety",
+  "Name" : "Reuse safety analysis on reuse of architecture elements, conduct analysis",
+  "ID" : "_2021x_2_8710274_1674576759185_593519_23594",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "safety",
+  "Name" : "What are the contributors (SW and HW items contributing to a critical function) to a critical function?",
+  "ID" : "_2021x_2_8710274_1674576759070_911527_23489",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "safety",
+  "Name" : "What are the failure modes of a system function?",
+  "ID" : "_2021x_2_8710274_1674576759101_369536_23524",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "safety",
+  "Name" : "What are the hazards of a system function in an identified situation (context + scenario)?",
+  "ID" : "_2021x_2_8710274_1674576758678_126429_23152",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "safety",
+  "Name" : "What are the inputs to a critical function?",
+  "ID" : "_2021x_2_8710274_1674576758578_549661_23062",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "safety",
+  "Name" : "What are the planned architectural means for risk mitigation?",
+  "ID" : "_2021x_2_8710274_1674576758613_363660_23082",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "safety",
+  "Name" : "What is the criticality (in terms of safety) of the HW item?",
+  "ID" : "_2021x_2_8710274_1674576759080_536797_23498",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "safety",
+  "Name" : "What is the possible harm in utilizing the system?",
+  "ID" : "_2021x_2_8710274_1674576758912_450980_23383",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "safety",
+  "Name" : "Which upper level hazards can be caused by the HW item because of assigned functions?",
+  "ID" : "_2021x_2_8710274_1674576759065_122733_23485",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "safety",
+  "Name" : "Who provides the inputs to a critical function?",
+  "ID" : "_2021x_2_8710274_1674576758680_448431_23156",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "requirement",
+  "Name" : "What are precision and accuracy requirements for presentation of data items on an interface?",
+  "ID" : "_2021x_2_8710274_1674576758828_194631_23320",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "requirement",
+  "Name" : "What are precision and accuracy requirements for processing of data items?",
+  "ID" : "_2021x_2_8710274_1674576758570_171271_23059",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "requirement",
+  "Name" : "What are the Interface Requirements regarding bandwidth, data throughput and latency?",
+  "ID" : "_2021x_2_8710274_1674576758707_274896_23178",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "requirement",
+  "Name" : "What are the exchange requirements imposed on the system?",
+  "ID" : "_2021x_2_8710274_1674576758978_464279_23425",
+  "ConcernsViewpoints" : [ {
+    "Name" : "System Requirement Definition Viewpoint",
+    "ID" : "_19_0_2_26f0132_1565104337297_671823_55529"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "requirement",
+  "Name" : "What are the functional requirements imposed on the system?",
+  "ID" : "_2021x_2_8710274_1674576758860_195868_23350",
+  "ConcernsViewpoints" : [ {
+    "Name" : "System Requirement Definition Viewpoint",
+    "ID" : "_19_0_2_26f0132_1565104337297_671823_55529"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "requirement",
+  "Name" : "What are the non-functional requirements applying to SW (e.g. with regard to SW quality, modularization, changeability or reuse)?",
+  "ID" : "_2021x_2_8710274_1674576758818_748545_23312",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "requirement",
+  "Name" : "What are the non-functional requirements imposed on the system?",
+  "ID" : "_2021x_2_8710274_1674576758640_180559_23118",
+  "ConcernsViewpoints" : [ {
+    "Name" : "System Requirement Definition Viewpoint",
+    "ID" : "_19_0_2_26f0132_1565104337297_671823_55529"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "requirement",
+  "Name" : "What are the requirements of environmental conditions imposed on the system?",
+  "ID" : "_2021x_2_8710274_1674576758798_122991_23285",
+  "ConcernsViewpoints" : [ {
+    "Name" : "System Requirement Definition Viewpoint",
+    "ID" : "_19_0_2_26f0132_1565104337297_671823_55529"
+  }, {
+    "Name" : "Stakeholder Requirement Definition Viewpoint",
+    "ID" : "_19_0_2_26f0132_1565093441772_890565_49326"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "requirement",
+  "Name" : "What are the requirements that a Stakeholder imposes on the system?",
+  "ID" : "_2021x_2_8710274_1674576758774_361095_23253",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Stakeholder Requirement Definition Viewpoint",
+    "ID" : "_19_0_2_26f0132_1565093441772_890565_49326"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "requirement",
+  "Name" : "What defines a valid solution towards the customer?",
+  "ID" : "_2021x_2_8710274_1674576758818_166273_23310",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Stakeholder Requirement Definition Viewpoint",
+    "ID" : "_19_0_2_26f0132_1565093441772_890565_49326"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "requirement",
+  "Name" : "What is the necessary processing performance?",
+  "ID" : "_2021x_2_8710274_1674576759144_507146_23553",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "requirement",
+  "Name" : "What is the priority of upper level requirements the HW item depends of?",
+  "ID" : "_2021x_2_8710274_1674576758948_939994_23402",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "requirement",
+  "Name" : "What is the range of acceptable system performance, i.e. the critical, top-level performance requirements derived from the operational needs?",
+  "ID" : "_2021x_2_8710274_1674576759042_480392_23467",
+  "ConcernsViewpoints" : [ {
+    "Name" : "System Requirement Definition Viewpoint",
+    "ID" : "_19_0_2_26f0132_1565104337297_671823_55529"
+  }, {
+    "Name" : "Stakeholder Requirement Definition Viewpoint",
+    "ID" : "_19_0_2_26f0132_1565093441772_890565_49326"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "requirement",
+  "Name" : "Which are the interface requirements imposed on the system?",
+  "ID" : "_2021x_2_8710274_1674576758778_979635_23258",
+  "ConcernsViewpoints" : [ {
+    "Name" : "System Requirement Definition Viewpoint",
+    "ID" : "_19_0_2_26f0132_1565104337297_671823_55529"
+  }, {
+    "Name" : "System Context Exchange Viewpoint",
+    "ID" : "_19_0_4_6d8019d_1618060963677_605184_292"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "requirement",
+  "Name" : "Which requirements apply to a logical interface?",
+  "ID" : "_2021x_2_8710274_1674576758878_612030_23357",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Logical Internal Exchange Viewpoint",
+    "ID" : "_19_0_4_26f0132_1624951950640_368802_311"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "requirement",
+  "Name" : "Which requirements apply to a physical interface?",
+  "ID" : "_2021x_2_8710274_1674576758932_916610_23397",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "requirement",
+  "Name" : "Which requirements apply to an HW interface?",
+  "ID" : "_2021x_2_8710274_1674576758724_753807_23203",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "requirement",
+  "Name" : "what has to be validated to the customer at system level?",
+  "ID" : "_2021x_2_8710274_1674576758902_700830_23378",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "reliability",
+  "Name" : "What are the reliability requirements of functions assigned to SW that is allocated to the HW item?",
+  "ID" : "_2021x_2_8710274_1674576759114_194091_23530",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "reliability",
+  "Name" : "What are the reliability requirements of functions assigned to the HW items?",
+  "ID" : "_2021x_2_8710274_1674576758569_875972_23058",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "reliability",
+  "Name" : "What is the allocated reliability for a single function?",
+  "ID" : "_2021x_2_8710274_1674576759007_143396_23448",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "reliability",
+  "Name" : "What is the allocated reliability for the complete item?",
+  "ID" : "_2021x_2_8710274_1674576759140_658655_23551",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "organization",
+  "Name" : "Have the logical decomposition guidelines been followed?",
+  "ID" : "_2021x_2_8710274_1674576758960_734270_23413",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "organization",
+  "Name" : "In which systems (projects?) is the HW item used?",
+  "ID" : "_2021x_2_8710274_1674576759222_260972_23625",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "organization",
+  "Name" : "What are the differences of the HW item in different projects\n(clarify, is this the same as the question for variants?)",
+  "ID" : "_2021x_2_8710274_1674576758984_563969_23429",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "organization",
+  "Name" : "What are the normal and extreme environmental conditions for normal operation, for not operational, for storage, and for transport?",
+  "ID" : "_2021x_2_8710274_1674576758810_143872_23303",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Stakeholder Requirement Definition Viewpoint",
+    "ID" : "_19_0_2_26f0132_1565093441772_890565_49326"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "organization",
+  "Name" : "What are the relationships between the partys involved in the operation of the intended solution?",
+  "ID" : "_2021x_2_8710274_1674576759040_585536_23465",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Operational Performer Viewpoint",
+    "ID" : "_19_0_3_6d8019d_1599070472635_176306_252"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "organization",
+  "Name" : "What existing elements of the organization, enterprise, or operational entity need to be integrated in the intended solution?",
+  "ID" : "_2021x_2_8710274_1674576759025_301479_23457",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "organization",
+  "Name" : "What is the configuration or version of each configuration item?",
+  "ID" : "_2021x_2_8710274_1674576759120_451865_23534",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "organization",
+  "Name" : "What is the context of the organization, enterprise, or operational entity?",
+  "ID" : "_2021x_2_8710274_1674576758710_516038_23184",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "organization",
+  "Name" : "What is the cost for each required function?",
+  "ID" : "_2021x_2_8710274_1674576758874_268881_23355",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "organization",
+  "Name" : "What is the priority of each function?",
+  "ID" : "_2021x_2_8710274_1674576759178_551422_23592",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "organization",
+  "Name" : "What is the risk involved with each development item?",
+  "ID" : "_2021x_2_8710274_1674576759188_440720_23595",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "organization",
+  "Name" : "What is the task executed by an organization, enterprise, or operational entity in the Operational Context?",
+  "ID" : "_2021x_2_8710274_1674576759000_831879_23439",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "organization",
+  "Name" : "What is the time schedule for delivering the functions?",
+  "ID" : "_2021x_2_8710274_1674576758798_226470_23288",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "organization",
+  "Name" : "What partys of the organization, enterprise, or operational entity are needed to achieve an intended operational capability?",
+  "ID" : "_2021x_2_8710274_1674576759028_333016_23460",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Operational Performer Viewpoint",
+    "ID" : "_19_0_3_6d8019d_1599070472635_176306_252"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "organization",
+  "Name" : "What system elements are make-items, reuse items, or COTS?",
+  "ID" : "_2021x_2_8710274_1674576758851_888239_23340",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "organization",
+  "Name" : "When do product functions or features become available?",
+  "ID" : "_2021x_2_8710274_1674576758741_820851_23222",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "organization",
+  "Name" : "Which development effort is associated with each individual element?",
+  "ID" : "_2021x_2_8710274_1674576758630_621151_23112",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "organization",
+  "Name" : "Which functions/functional requirements are assigned to a HW item?",
+  "ID" : "_2021x_2_8710274_1674576759032_351718_23462",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "organization",
+  "Name" : "Which performers or resources are necessary to operate the intended solution?",
+  "ID" : "_2021x_2_8710274_1674576759056_423032_23477",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Operational Context Definition Viewpoint",
+    "ID" : "_19_0_2_26f0132_1567778254489_369345_55863"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "organization",
+  "Name" : "Which variants of a HW item need to be provided?",
+  "ID" : "_2021x_2_8710274_1674576759013_51078_23451",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "meta-framework",
+  "Name" : "How does a viewpoint of the framework support the processes and best practises of the INCOSE SE Handbook or other system engineering standards?",
+  "ID" : "_2024x_26f0132_1719130644780_901120_14852",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Framework Viewpoint Definition Viewpoint",
+    "ID" : "_2024x_26f0132_1719735523519_523621_24797"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "meta-framework",
+  "Name" : "How is a viewpoint implemented (which stereotypes /model elements are used)? ",
+  "ID" : "_2024x_26f0132_1719130358584_780281_14792",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Framework Viewpoint Implementation Viewpoint",
+    "ID" : "_2024x_26f0132_1719735411756_812404_24423"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "meta-framework",
+  "Name" : "What are the concerns adressed by the frameworks viewpoints?",
+  "ID" : "_2024x_26f0132_1719129886772_493463_14747",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Framework Concern Definition Viewpoint",
+    "ID" : "_2024x_26f0132_1719735530442_324624_25471"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "meta-framework",
+  "Name" : "What are the frameworks model elements to be used in system models?",
+  "ID" : "_2024x_26f0132_1719746308347_570628_39136",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Framework Stereotype Overview Viewpoint",
+    "ID" : "_2024x_26f0132_1719735638892_806840_26185"
+  }, {
+    "Name" : "Framework Implementation Traceability Viewpoint",
+    "ID" : "_2024x_26f0132_1719746598512_743707_39208"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "meta-framework",
+  "Name" : "What is the definition of a viewpoint of the framework?",
+  "ID" : "_2024x_26f0132_1719130113094_957740_14764",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Framework Viewpoint Definition Viewpoint",
+    "ID" : "_2024x_26f0132_1719735523519_523621_24797"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "meta-framework",
+  "Name" : "What is the definition of columns (aspects) in the frameworks grid?",
+  "ID" : "_2024x_26f0132_1719130253930_728394_14777",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "meta-framework",
+  "Name" : "What is the definition of rows (domains) in the frameworks grid?",
+  "ID" : "_2024x_26f0132_1719130316161_369021_14784",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "meta-framework",
+  "Name" : "What is the implementation of the frameworks concepts?",
+  "ID" : "_2024x_26f0132_1719130336926_829742_14789",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Framework Viewpoint Implementation Viewpoint",
+    "ID" : "_2024x_26f0132_1719735411756_812404_24423"
+  }, {
+    "Name" : "Framework Implementation Traceability Viewpoint",
+    "ID" : "_2024x_26f0132_1719746598512_743707_39208"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "meta-framework",
+  "Name" : "What is the maturity state of viewpoints in the framework?",
+  "ID" : "_2024x_26f0132_1719129513706_329066_14708",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Framework Viewpoint Overview Viewpoint",
+    "ID" : "_2024x_26f0132_1719735639638_993311_27196"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "meta-framework",
+  "Name" : "What is the purpose of a viewpoint in the framwork?",
+  "ID" : "_2024x_26f0132_1719130556191_78836_14843",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Framework Viewpoint Definition Viewpoint",
+    "ID" : "_2024x_26f0132_1719735523519_523621_24797"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "meta-framework",
+  "Name" : "Where is a viewpoint of the framework located in the frameworks grid?",
+  "ID" : "_2024x_26f0132_1719130165383_541840_14769",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Framework Viewpoint Definition Viewpoint",
+    "ID" : "_2024x_26f0132_1719735523519_523621_24797"
+  }, {
+    "Name" : "Framework Viewpoint Overview Viewpoint",
+    "ID" : "_2024x_26f0132_1719735639638_993311_27196"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "meta-framework",
+  "Name" : "Which columns and rows does the frameworks grid have? ",
+  "ID" : "_2024x_26f0132_1719130222689_69494_14774",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Framework Viewpoint Overview Viewpoint",
+    "ID" : "_2024x_26f0132_1719735639638_993311_27196"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "meta-framework",
+  "Name" : "Which concerns are framed by a viewpoint of the framework?",
+  "ID" : "_2024x_26f0132_1719130076292_184990_14761",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Framework Viewpoint Definition Viewpoint",
+    "ID" : "_2024x_26f0132_1719735523519_523621_24797"
+  }, {
+    "Name" : "Framework Concern Definition Viewpoint",
+    "ID" : "_2024x_26f0132_1719735530442_324624_25471"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "meta-framework",
+  "Name" : "Which concerns are does an architecture framework stakeholder have?",
+  "ID" : "_2024x_26f0132_1719129962342_738625_14755",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Framework Rationale Definition Viewpoint",
+    "ID" : "_2024x_26f0132_1719735638642_287063_25848"
+  }, {
+    "Name" : "Framework Stakeholder Definition Viewpoint",
+    "ID" : "_2024x_26f0132_1719735528612_846205_25134"
+  }, {
+    "Name" : "Framework Concern Definition Viewpoint",
+    "ID" : "_2024x_26f0132_1719735530442_324624_25471"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "meta-framework",
+  "Name" : "Which dependencies to other viewpoints exist for a viewpoint of the framework?",
+  "ID" : "_2024x_26f0132_1719130608615_351381_14849",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Framework Viewpoint Definition Viewpoint",
+    "ID" : "_2024x_26f0132_1719735523519_523621_24797"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "meta-framework",
+  "Name" : "Which presentations are available for a viewpoint in the framwork?",
+  "ID" : "_2024x_26f0132_1719130583650_18980_14846",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Framework Viewpoint Definition Viewpoint",
+    "ID" : "_2024x_26f0132_1719735523519_523621_24797"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "meta-framework",
+  "Name" : "Which systems engineering concepts are covered by the framework?",
+  "ID" : "_2024x_26f0132_1719129923965_578278_14750",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Framework Concept Definition Viewpoint",
+    "ID" : "_2024x_26f0132_1719735639175_641082_26522"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "meta-framework",
+  "Name" : "Which systems engineering concepts are exposed within a viewpoint of the framework?",
+  "ID" : "_2024x_26f0132_1719130002321_367858_14758",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Framework Viewpoint Definition Viewpoint",
+    "ID" : "_2024x_26f0132_1719735523519_523621_24797"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "meta-framework",
+  "Name" : "Which viewpoints are available in the framework",
+  "ID" : "_2024x_26f0132_1719129141456_206905_14250",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Framework Viewpoint Overview Viewpoint",
+    "ID" : "_2024x_26f0132_1719735639638_993311_27196"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "meta-framework",
+  "Name" : "Which viewpoints are used in the system model",
+  "ID" : "_2021x_2_8710274_1696579743010_350358_24968",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Grid Definition Viewpoint",
+    "ID" : "_2021x_2_8710274_1696576589232_543559_24371"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "meta-framework",
+  "Name" : "Which views of the frameworks viewpoints are present in the system model?",
+  "ID" : "_2024x_26f0132_1719133841790_534930_15826",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Grid Definition Viewpoint",
+    "ID" : "_2021x_2_8710274_1696576589232_543559_24371"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "meta-framework",
+  "Name" : "Who are the architecture framework stakeholders of the frameworks viewpoints?",
+  "ID" : "_2024x_26f0132_1719129843876_724811_14744",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Framework Stakeholder Definition Viewpoint",
+    "ID" : "_2024x_26f0132_1719735528612_846205_25134"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "meta-framework",
+  "Name" : "Why does a stakeholder have this specific concern ? ",
+  "ID" : "_2024x_26f0132_1719744888608_624464_37315",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Framework Rationale Definition Viewpoint",
+    "ID" : "_2024x_26f0132_1719735638642_287063_25848"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "interaction",
+  "Name" : "How do the logical system elements interact to provide the system functions?",
+  "ID" : "_2021x_2_8710274_1674576758760_611640_23247",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Logical Internal Interaction Viewpoint",
+    "ID" : "_19_0_2_26f0132_1576222951495_184664_54882"
+  }, {
+    "Name" : "Logical Internal Exchange Viewpoint",
+    "ID" : "_19_0_4_26f0132_1624951950640_368802_311"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "interaction",
+  "Name" : "How do the physical system elements interact to provide the system function?",
+  "ID" : "_2021x_2_8710274_1674576758718_586539_23194",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "interaction",
+  "Name" : "What are the items exchanged between logical system elements during an interaction?",
+  "ID" : "_2021x_2_8710274_1674576758991_165534_23433",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Logical Internal Interaction Viewpoint",
+    "ID" : "_19_0_2_26f0132_1576222951495_184664_54882"
+  }, {
+    "Name" : "Logical Internal Exchange Viewpoint",
+    "ID" : "_19_0_4_26f0132_1624951950640_368802_311"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "interaction",
+  "Name" : "What is the necessary response time for an interface or a service?",
+  "ID" : "_2021x_2_8710274_1674576759095_626726_23511",
+  "ConcernsViewpoints" : [ {
+    "Name" : "System Context Interaction Viewpoint",
+    "ID" : "_19_0_4_26f0132_1626790419043_61789_443"
+  }, {
+    "Name" : "Logical Internal Interaction Viewpoint",
+    "ID" : "_19_0_2_26f0132_1576222951495_184664_54882"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "interaction",
+  "Name" : "What is the sequence of interactions among the system and context elements on concpetual level?",
+  "ID" : "_2021x_2_8710274_1697718624828_512543_29114",
+  "ConcernsViewpoints" : [ {
+    "Name" : "System Context Interaction Viewpoint",
+    "ID" : "_19_0_4_26f0132_1626790419043_61789_443"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "interaction",
+  "Name" : "What is the sequence of interactions among the system and context elements on physical level?",
+  "ID" : "_2021x_2_8710274_1674576758792_625414_23275",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "interaction",
+  "Name" : "What possible threads of operational process activities have to be carried out to achieve the operational story main and alternative goals?",
+  "ID" : "_2021x_2_8710274_1674576759199_457359_23612",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Operational Context Interaction Viewpoint",
+    "ID" : "_19_0_2_26f0132_1561752880161_57347_50198"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "functional",
+  "Name" : "How are the interactions and dependencies between the different identified sub-functions described?",
+  "ID" : "_2021x_2_8710274_1674576758994_378916_23438",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "functional",
+  "Name" : "How are the sub-functions implementing associated requirements documented?",
+  "ID" : "_2021x_2_8710274_1674576758792_562021_23274",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "functional",
+  "Name" : "How are the system functions decomposed into smaller, and more manageable sub-functions? ",
+  "ID" : "_2021x_2_8710274_1674576758790_775644_23272",
+  "ConcernsViewpoints" : [ {
+    "Name" : "System Functional Breakdown Structure Viewpoint",
+    "ID" : "_19_0_4_26f0132_1629448496383_291730_10342"
+  }, {
+    "Name" : "System Functional Refinement Viewpoint",
+    "ID" : "_2021x_2_8710274_1676723256334_812178_26576"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "functional",
+  "Name" : "How does a system function interact with its environment?",
+  "ID" : "_2021x_2_8710274_1674576758952_658537_23403",
+  "ConcernsViewpoints" : [ {
+    "Name" : "System Process Viewpoint",
+    "ID" : "_19_0_2_8710274_1567167552896_772779_54664"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "functional",
+  "Name" : "What are necessary inputs for operating the system expected to be provided by other external entitys?",
+  "ID" : "_2021x_2_8710274_1674576758674_250912_23143",
+  "ConcernsViewpoints" : [ {
+    "Name" : "System Process Viewpoint",
+    "ID" : "_19_0_2_8710274_1567167552896_772779_54664"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "functional",
+  "Name" : "What is the breakdown of functions into sub-functions?",
+  "ID" : "_2021x_2_8710274_1674576758728_463822_23204",
+  "ConcernsViewpoints" : [ {
+    "Name" : "System Functional Breakdown Structure Viewpoint",
+    "ID" : "_19_0_4_26f0132_1629448496383_291730_10342"
+  }, {
+    "Name" : "System Functional Refinement Viewpoint",
+    "ID" : "_2021x_2_8710274_1676723256334_812178_26576"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "functional",
+  "Name" : "What is the functional scope of the system?",
+  "ID" : "_2021x_2_8710274_1674576758960_189958_23415",
+  "ConcernsViewpoints" : [ {
+    "Name" : "System Process Viewpoint",
+    "ID" : "_19_0_2_8710274_1567167552896_772779_54664"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "functional",
+  "Name" : "What operational process activities shall be executed during the execution of an operational story?",
+  "ID" : "_2021x_2_8710274_1674576759250_575950_23644",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Operational Process Viewpoint",
+    "ID" : "_19_0_3_8710274_1581675958756_500127_50979"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "functional",
+  "Name" : "What services are expected from external entities?",
+  "ID" : "_2021x_2_8710274_1674576758798_462644_23290",
+  "ConcernsViewpoints" : [ {
+    "Name" : "System Process Viewpoint",
+    "ID" : "_19_0_2_8710274_1567167552896_772779_54664"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "functional",
+  "Name" : "Which functions are out of scope of the system?",
+  "ID" : "_2021x_2_8710274_1674576758924_539039_23390",
+  "ConcernsViewpoints" : [ {
+    "Name" : "System Process Viewpoint",
+    "ID" : "_19_0_2_8710274_1567167552896_772779_54664"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "functional",
+  "Name" : "Which functions will the system provide?",
+  "ID" : "_2021x_2_8710274_1674576758649_392764_23120",
+  "ConcernsViewpoints" : [ {
+    "Name" : "System Process Viewpoint",
+    "ID" : "_19_0_2_8710274_1567167552896_772779_54664"
+  }, {
+    "Name" : "System Functional Breakdown Structure Viewpoint",
+    "ID" : "_19_0_4_26f0132_1629448496383_291730_10342"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "functional",
+  "Name" : "Which modes and states does the system have?",
+  "ID" : "_2021x_2_8710274_1674576759199_155259_23602",
+  "ConcernsViewpoints" : [ {
+    "Name" : "System State Viewpoint",
+    "ID" : "_19_0_2_26f0132_1562303526536_189439_92549"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "functional",
+  "Name" : "Which operational activity shall be executed by which operational performer in the operational story?",
+  "ID" : "_2021x_2_8710274_1674576758680_939269_23154",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Operational Process Viewpoint",
+    "ID" : "_19_0_3_8710274_1581675958756_500127_50979"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "functional",
+  "Name" : "Which services will the system provide?",
+  "ID" : "_2021x_2_8710274_1674576758618_380934_23092",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "functional",
+  "Name" : "Which system funcions need to be tested in IV&V activities?",
+  "ID" : "_2021x_2_8710274_1698399553646_852568_33150",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Physical Functional Mapping Viewpoint",
+    "ID" : "_2021x_2_8710274_1675987942868_617787_33116"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "exchange & interface",
+  "Name" : "How do physical system elements interact to provide system functions?",
+  "ID" : "_2021x_2_8710274_1674576758600_423008_23078",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Physical Internal Exchange Viewpoint",
+    "ID" : "_2021x_2_8710274_1674680950433_310726_23659"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "exchange & interface",
+  "Name" : "Which are the interface definitions for the logical architecture?",
+  "ID" : "_2021x_2_8710274_1698695260372_8568_48717",
+  "ConcernsViewpoints" : [ {
+    "Name" : "System Interface Definition Viewpoint",
+    "ID" : "_2021x_2_8710274_1676723513864_806117_26880"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "exchange & interface",
+  "Name" : "Which are the interface definitions for the physical architecture?",
+  "ID" : "_2021x_2_8710274_1698695280731_979013_48719",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Physical Interface Definition Viewpoint",
+    "ID" : "_2021x_2_8710274_1695205330608_177015_24335"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "exchange & interface",
+  "Name" : "Which are the protocols for exchanging physical items on a specific interface?",
+  "ID" : "_2021x_2_8710274_1674576759247_884832_23642",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Physical Context Exchange Viewpoint",
+    "ID" : "_19_0_2_26f0132_1562303526536_79296_92554"
+  }, {
+    "Name" : "Physical Internal Exchange Viewpoint",
+    "ID" : "_2021x_2_8710274_1674680950433_310726_23659"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "exchange & interface",
+  "Name" : "Which are the protocols used for exchanging information?",
+  "ID" : "_2021x_2_8710274_1674576759093_319282_23509",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Physical Interface Definition Viewpoint",
+    "ID" : "_2021x_2_8710274_1695205330608_177015_24335"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "exchange & interface",
+  "Name" : "Which conceptual items (energy, material, information, etc.) are exchanged within the system?",
+  "ID" : "_2021x_2_8710274_1674576758825_79081_23317",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Logical Internal Exchange Viewpoint",
+    "ID" : "_19_0_4_26f0132_1624951950640_368802_311"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "exchange & interface",
+  "Name" : "Which kind of conceptual items (energy, material, information, etc.)  are used in the logical architecture of the system?",
+  "ID" : "_2021x_2_6d8019d_1693308265004_421376_24972",
+  "ConcernsViewpoints" : [ {
+    "Name" : "System Domain Item Kind Viewpoint",
+    "ID" : "_19_0_2_26f0132_1562303526536_778418_92552"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "exchange & interface",
+  "Name" : "Which kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?",
+  "ID" : "_2021x_2_8710274_1674576759154_22704_23559",
+  "ConcernsViewpoints" : [ {
+    "Name" : "System Context Exchange Viewpoint",
+    "ID" : "_19_0_4_6d8019d_1618060963677_605184_292"
+  }, {
+    "Name" : "System Interface Definition Viewpoint",
+    "ID" : "_2021x_2_8710274_1676723513864_806117_26880"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "exchange & interface",
+  "Name" : "Which kind of physical items (energy, material, information, etc.) are exchanged between the system and external entities?",
+  "ID" : "_2021x_2_8710274_1674576758698_132348_23172",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Physical Context Exchange Viewpoint",
+    "ID" : "_19_0_2_26f0132_1562303526536_79296_92554"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "exchange & interface",
+  "Name" : "Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the system?",
+  "ID" : "_2021x_2_8710274_1697542838788_945785_24608",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Physical Interface Definition Viewpoint",
+    "ID" : "_2021x_2_8710274_1695205330608_177015_24335"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "exchange & interface",
+  "Name" : "Which kind of physical items (energy, material, information, etc.) are used on an interface of a physical architecture element?",
+  "ID" : "_2021x_2_8710274_1674576758561_575110_23056",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Physical Context Exchange Viewpoint",
+    "ID" : "_19_0_2_26f0132_1562303526536_79296_92554"
+  }, {
+    "Name" : "Physical Internal Exchange Viewpoint",
+    "ID" : "_2021x_2_8710274_1674680950433_310726_23659"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "exchange & interface",
+  "Name" : "Which physical items (energy, material, information, etc.) are exchanged within the system?",
+  "ID" : "_2021x_2_8710274_1698410513910_480926_28625",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Physical Internal Exchange Viewpoint",
+    "ID" : "_2021x_2_8710274_1674680950433_310726_23659"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "exchange & interface",
+  "Name" : "Which standards, protocols, and format specifications apply to a physical interface?",
+  "ID" : "_2021x_2_8710274_1674576758891_215548_23373",
+  "ConcernsViewpoints" : [ {
+    "Name" : "System Interface Definition Viewpoint",
+    "ID" : "_2021x_2_8710274_1676723513864_806117_26880"
+  }, {
+    "Name" : "Physical Context Exchange Viewpoint",
+    "ID" : "_19_0_2_26f0132_1562303526536_79296_92554"
+  }, {
+    "Name" : "Physical Internal Exchange Viewpoint",
+    "ID" : "_2021x_2_8710274_1674680950433_310726_23659"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "exchange & interface",
+  "Name" : "what are the interface definitions for physical elements",
+  "ID" : "_2021x_2_8710274_1698695217112_237670_48715",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "capability",
+  "Name" : "How are operational capabilities allocated and flowed down to system entities - namely the subsystem - at various levels of abstraction?",
+  "ID" : "_2021x_2_8710274_1674576758630_894092_23114",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "capability",
+  "Name" : "What are the capabilities that are supported by the system?",
+  "ID" : "_2021x_2_8710274_1674576759126_506455_23537",
+  "ConcernsViewpoints" : [ {
+    "Name" : "System Capability Definition Viewpoint",
+    "ID" : "_19_0_4_6d8019d_1618757838536_301313_442"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "capability",
+  "Name" : "What is the lack / deficiency / gap in current capability implementation that is addressed with the intended solution?",
+  "ID" : "_2021x_2_8710274_1674576758768_249579_23249",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "capability",
+  "Name" : "What operational capabilities are defined?",
+  "ID" : "_2021x_2_8710274_1674479775616_727128_23367",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Operational Capability Definition Viewpoint",
+    "ID" : "_19_0_3_8710274_1581675970682_325249_52535"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "capability",
+  "Name" : "What operational capabilities are required for each phase and mode of operation?",
+  "ID" : "_2021x_2_8710274_1674576759229_963784_23628",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Operational Capability Definition Viewpoint",
+    "ID" : "_19_0_3_8710274_1581675970682_325249_52535"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "boundary & context",
+  "Name" : "How is the system being used or utilized and interacting with other external systems to satisfy user needs?",
+  "ID" : "_2021x_2_8710274_1674576758841_451500_23327",
+  "ConcernsViewpoints" : [ {
+    "Name" : "System Use Case Viewpoint",
+    "ID" : "_19_0_1_26f0132_1554446728606_740631_45702"
+  }, {
+    "Name" : "System Context Interaction Viewpoint",
+    "ID" : "_19_0_4_26f0132_1626790419043_61789_443"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "boundary & context",
+  "Name" : "How is the system interacting with the identified external entities?",
+  "ID" : "_2021x_2_8710274_1674576758710_799233_23181",
+  "ConcernsViewpoints" : [ {
+    "Name" : "System Process Viewpoint",
+    "ID" : "_19_0_2_8710274_1567167552896_772779_54664"
+  }, {
+    "Name" : "System Context Exchange Viewpoint",
+    "ID" : "_19_0_4_6d8019d_1618060963677_605184_292"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "How will the system be used by whom and which contextual elements are involved?",
+  "ID" : "_2021x_2_8710274_1674576758649_359253_23129",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "boundary & context",
+  "Name" : "What is the operational environment that an intended solution will need to support?",
+  "ID" : "_2021x_2_8710274_1674576759015_756843_23453",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "boundary & context",
+  "Name" : "Where and what are the geographical and physical locations of the intended or proposed elements of the solution?",
+  "ID" : "_2021x_2_8710274_1674576759075_442496_23491",
+  "ConcernsViewpoints" : [ {
+    "Name" : "System Context Definition Viewpoint",
+    "ID" : "_19_0_4_6d8019d_1618589543897_213858_307"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "boundary & context",
+  "Name" : "Which are the conceptual interfaces of the system?",
+  "ID" : "_2021x_2_8710274_1674576758808_527146_23298",
+  "ConcernsViewpoints" : [ {
+    "Name" : "System Process Viewpoint",
+    "ID" : "_19_0_2_8710274_1567167552896_772779_54664"
+  }, {
+    "Name" : "System Context Exchange Viewpoint",
+    "ID" : "_19_0_4_6d8019d_1618060963677_605184_292"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "boundary & context",
+  "Name" : "Which are the external conceptual entities the system interacts with in the given context?",
+  "ID" : "_2021x_2_8710274_1674576758971_129300_23418",
+  "ConcernsViewpoints" : [ {
+    "Name" : "System Context Exchange Viewpoint",
+    "ID" : "_19_0_4_6d8019d_1618060963677_605184_292"
+  }, {
+    "Name" : "System Context Definition Viewpoint",
+    "ID" : "_19_0_4_6d8019d_1618589543897_213858_307"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "boundary & context",
+  "Name" : "Which are the external physical entities the system interacts with in the given context?",
+  "ID" : "_2021x_2_8710274_1674576758710_759449_23186",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Physical Context Definition Viewpoint",
+    "ID" : "_19_0_1_26f0132_1547202202696_824153_42420"
+  }, {
+    "Name" : "Physical Context Exchange Viewpoint",
+    "ID" : "_19_0_2_26f0132_1562303526536_79296_92554"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "boundary & context",
+  "Name" : "Which are the given contexts the system is embedded and utilized in?",
+  "ID" : "_2021x_2_8710274_1674576758891_776196_23368",
+  "ConcernsViewpoints" : [ {
+    "Name" : "System Context Definition Viewpoint",
+    "ID" : "_19_0_4_6d8019d_1618589543897_213858_307"
+  }, {
+    "Name" : "Physical Context Definition Viewpoint",
+    "ID" : "_19_0_1_26f0132_1547202202696_824153_42420"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "boundary & context",
+  "Name" : "Which interface partners does the system have?",
+  "ID" : "_2021x_2_8710274_1674576759091_673143_23507",
+  "ConcernsViewpoints" : [ {
+    "Name" : "System Context Definition Viewpoint",
+    "ID" : "_19_0_4_6d8019d_1618589543897_213858_307"
+  }, {
+    "Name" : "Physical Context Definition Viewpoint",
+    "ID" : "_19_0_1_26f0132_1547202202696_824153_42420"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "boundary & context",
+  "Name" : "Which is the operational context to achieve an operational story?",
+  "ID" : "_2021x_2_8710274_1674576758994_334020_23436",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Operational Context Definition Viewpoint",
+    "ID" : "_19_0_2_26f0132_1567778254489_369345_55863"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "boundary & context",
+  "Name" : "Which operational exchanges do operational performers need to consume or provide?",
+  "ID" : "_2021x_2_8710274_1674576758910_672482_23380",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Operational Context Exchange Viewpoint",
+    "ID" : "_19_0_2_26f0132_1576232878029_619084_56885"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "boundary & context",
+  "Name" : "Which users does the system support? ",
+  "ID" : "_2021x_2_6d8019d_1675459822996_961402_23325",
+  "ConcernsViewpoints" : [ {
+    "Name" : "System Use Case Viewpoint",
+    "ID" : "_19_0_1_26f0132_1554446728606_740631_45702"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "boundary & context",
+  "Name" : "Why types of exchange can exist between Operational Performers (i.e., flows of information, people, material, or energy)?",
+  "ID" : "_2021x_2_6d8019d_1693570065115_738458_24748",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Operational Domain Item Kind Viewpoint",
+    "ID" : "_19_0_4_26f0132_1631280350392_855780_562"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "argumentation",
+  "Name" : "How is a evidence-based claim supported?",
+  "ID" : "_2021x_2_8710274_1674576758703_316775_23176",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Argumentation Assurance Viewpoint",
+    "ID" : "_2021x_2_6d8019d_1674232168228_136119_23449"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "meta-framework",
+  "Name" : "what are the constraints related to se concepts covered by the framework? ",
+  "ID" : "_2024x_1_26f0132_1727272903091_424205_15904",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Framework Concept Definition Viewpoint",
+    "ID" : "_2024x_26f0132_1719735639175_641082_26522"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "meta-framework",
+  "Name" : "what are the relations between systems engineering concepts covered by the framework?",
+  "ID" : "_2024x_1_26f0132_1727272724178_60816_15898",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Framework Concept Definition Viewpoint",
+    "ID" : "_2024x_26f0132_1719735639175_641082_26522"
+  } ],
+  "subelements" : [ ]
+} ]

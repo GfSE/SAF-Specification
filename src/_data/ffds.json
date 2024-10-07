@@ -1,0 +1,31 @@
+[ {
+  "level" : 0,
+  "Name" : "POC CCU",
+  "ID" : "_2021x_2_8710274_1695634144431_213205_32280",
+  "subelements" : [ {
+    "level" : 1,
+    "Name" : "Dragino LSN50v2-D20",
+    "ID" : "_2021x_2_8710274_1695630584603_93638_31021",
+    "subelements" : [ ]
+  }, {
+    "level" : 1,
+    "Name" : "POC Dev Sensor Node",
+    "ID" : "_2021x_2_8710274_1695631868611_108588_31333",
+    "subelements" : [ ]
+  }, {
+    "level" : 1,
+    "Name" : "Dragino HP0D",
+    "ID" : "_2021x_2_8710274_1695629763281_845500_30967",
+    "subelements" : [ {
+      "level" : 2,
+      "Name" : "Dragino HP0D",
+      "ID" : "_2021x_2_8710274_1695629763281_845500_30967",
+      "subelements" : [ ]
+    } ]
+  }, {
+    "level" : 1,
+    "Name" : "POC CCU",
+    "ID" : "_2021x_2_8710274_1695634144431_213205_32280",
+    "subelements" : [ ]
+  } ]
+} ]

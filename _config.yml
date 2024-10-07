@@ -1,0 +1,37 @@
+title: System Architecture Framework
+description: A scalable SysML Based Framework to foster MBSE for multiple Modeling Tools!
+theme: just-the-docs
+source: src
+
+url: https://just-the-docs.github.io
+
+aux_links:
+  GfSE Home Page: https://gfse.org
+
+
+logo: "/assets/images/Banner_SAF_gross.png"
+
+
+plugins:
+  - jekyll-relative-links
+
+
+
+relative_links:
+  enabled:     true
+
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  todo:
+    title: ToDo
+    color: purple
+  warning:
+    title: Warning
+    color: red
