@@ -1,0 +1,41 @@
+[ {
+  "ID" : "_19_0_2_8710274_1573477769334_411734_55347",
+  "Name" : "Context & Exchange",
+  "AspectID" : "1",
+  "Documentation" : "Identifies and describes the environment of an element, its boundary, and the external elements having a relation with it. It identifies the interaction and exchange between an element and the external elements."
+}, {
+  "ID" : "_19_0_2_8710274_1573478263296_178397_55752",
+  "Name" : "Taxonomy & Structure",
+  "AspectID" : "2",
+  "Documentation" : "Identifies and describes the breakdown and decomposition of elements and defines the dependencies and relationships between the different elements."
+}, {
+  "ID" : "_19_0_2_8710274_1573478271003_747028_55755",
+  "Name" : "Process & Behavior",
+  "AspectID" : "3",
+  "Documentation" : "Captures functions, activities, processes, and flows. Identifies and describes activities, their inputs and outputs, activity actions, and flows between them. Captures state-based behavior of an element. It is a graphical representation of states of a structural element and how it responds to various events and actions."
+}, {
+  "ID" : "_19_0_2_8710274_1573478279723_738954_55758",
+  "Name" : "Interaction & Collaboration",
+  "AspectID" : "4",
+  "Documentation" : "Identifies and describes time-ordered examination of exchanges between participating elements as a result of a particular scenario."
+}, {
+  "ID" : "_19_0_2_8710274_1573478299847_198747_55761",
+  "Name" : "Interface",
+  "AspectID" : "5",
+  "Documentation" : "[tbd]"
+}, {
+  "ID" : "_19_0_2_8710274_1573478310642_402706_55764",
+  "Name" : "Requirement",
+  "AspectID" : "6",
+  "Documentation" : "[tbd]"
+}, {
+  "ID" : "_19_0_2_8710274_1573478328161_943945_55767",
+  "Name" : "Safety & Security",
+  "AspectID" : "7",
+  "Documentation" : "[tbd]"
+}, {
+  "ID" : "_19_0_2_8710274_1573478339752_58845_55770",
+  "Name" : "Traceability & Mapping",
+  "AspectID" : "8",
+  "Documentation" : "Traceability\nIdentifies and describes the traceability between requirements or standards and model elements in the various domains and viewpoints.\nMapping\nIdentifies and describes the mapping between elements in the architecture. This may be between different viewpoints within domains as well as between domains. It may also be between structure and behaviors, too."
+} ]

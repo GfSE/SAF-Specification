@@ -1,0 +1,3853 @@
+[ {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1700812878256_139186_50053",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1700812231614_683776_49715",
+    "Name" : "SDTincludingSDT"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_15_0_be00301_1199377756297_348405_2678",
+    "Name" : "PartProperty"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_1_26f0132_1724862722581_590807_11114",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_26f0132_1719735639175_641082_26522",
+    "Name" : "Framework Concept Definition Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_1_26f0132_1724862706905_990743_11108",
+    "Name" : "Framework Concept Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_1_26f0132_1724862724464_681787_11115",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_26f0132_1719735530442_324624_25471",
+    "Name" : "Framework Concern Definition Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_1_26f0132_1724862695951_873891_11098",
+    "Name" : "Framework Concern Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_1_26f0132_1724862752362_785935_11126",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_26f0132_1719746598512_743707_39208",
+    "Name" : "Framework Implementation Traceability Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_1_26f0132_1724862732807_739832_11118",
+    "Name" : "Framework Implementation Traceability Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_1_26f0132_1724862772720_285544_11137",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_26f0132_1719735638642_287063_25848",
+    "Name" : "Framework Rationale Definition Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_1_26f0132_1724862759978_194854_11129",
+    "Name" : "Framework Rationale Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_1_26f0132_1724862793176_906269_11148",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_26f0132_1719735528612_846205_25134",
+    "Name" : "Framework Stakeholder Definition Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_1_26f0132_1724862780785_303725_11140",
+    "Name" : "Framework Stakeholder Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_1_26f0132_1724862817338_558172_11159",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_26f0132_1719735638892_806840_26185",
+    "Name" : "Framework Stereotype Overview Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_1_26f0132_1724862803082_148102_11151",
+    "Name" : "Framework Stereotype Overview Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_1_26f0132_1724862889916_702896_11186",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_26f0132_1719735523519_523621_24797",
+    "Name" : "Framework Viewpoint Definition Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_1_26f0132_1724862832172_714687_11162",
+    "Name" : "Framework Viewpoint Definition Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_1_26f0132_1724862896501_880127_11187",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_26f0132_1719735411756_812404_24423",
+    "Name" : "Framework Viewpoint Implementation Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_1_26f0132_1724862872237_988128_11178",
+    "Name" : "Framework Viewpoint Implementation Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_1_26f0132_1724862898813_316606_11188",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_26f0132_1719735639638_993311_27196",
+    "Name" : "Framework Viewpoint Overview Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_1_26f0132_1724862852634_6876_11170",
+    "Name" : "Framework Viewpoint Overview Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718447585386_315531_26023",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_6d8019d_1674232168228_136119_23449",
+    "Name" : "Argumentation Assurance Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718447131394_334538_24909",
+    "Name" : "Argumentation Assurance Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718447586272_302951_26024",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1676722868986_622372_25044",
+    "Name" : "Common Standards Definition Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718447564900_312647_25983",
+    "Name" : "Common Standards Definition Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718447587791_6274_26030",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1701349408071_720270_88478",
+    "Name" : "Common Terms Definition Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718447565094_416285_25984",
+    "Name" : "Common Terms Definition Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718447589374_830445_26031",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1696576589232_543559_24371",
+    "Name" : "Grid Definition Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718447565279_6178_25985",
+    "Name" : "Grid Definition Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718447590139_459685_26036",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
+    "Name" : "Logical Functional Mapping Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718447565457_357991_25986",
+    "Name" : "Logical Functional Mapping Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718447590878_357393_26041",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
+    "Name" : "Logical Internal Exchange Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718447565610_859431_25987",
+    "Name" : "Logical Internal Exchange Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718448439714_966578_26379",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1576222951495_184664_54882",
+    "Name" : "Logical Internal Interaction Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718447565780_3658_25988",
+    "Name" : "Logical Internal Interaction Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718447593005_670843_26047",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303526536_284838_92559",
+    "Name" : "Logical Structure Definition Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718447565958_836365_25989",
+    "Name" : "Logical Structure Definition Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718447593901_914268_26048",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_3_8710274_1581675970682_325249_52535",
+    "Name" : "Operational Capability Definition Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718447566122_172945_25990",
+    "Name" : "Operational Capability Definition Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718447594741_388257_26053",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_3_6d8019d_1603027079337_312898_286",
+    "Name" : "Operational Capability Mapping Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718447566296_152142_25991",
+    "Name" : "Operational Capability Mapping Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718447595744_672373_26054",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1567778254489_369345_55863",
+    "Name" : "Operational Context Definition Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718447566489_942591_25992",
+    "Name" : "Operational Context Definition Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718447596446_369259_26055",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1576232878029_619084_56885",
+    "Name" : "Operational Context Exchange Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718447566694_668665_25993",
+    "Name" : "Operational Context Exchange Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718447597195_871299_26060",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1561752880161_57347_50198",
+    "Name" : "Operational Context Interaction Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718447566879_872026_25994",
+    "Name" : "Operational Context Interaction Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718447597981_294869_26061",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_4_26f0132_1631280350392_855780_562",
+    "Name" : "Operational Domain Item Kind Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718447567081_75277_25995",
+    "Name" : "Operational Domain Item Kind Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718447598984_308125_26062",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_3_6d8019d_1599070472635_176306_252",
+    "Name" : "Operational Performer Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718447567270_264151_25996",
+    "Name" : "Operational Performer Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718447600104_584512_26067",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_3_26f0132_1601459636216_111430_6921",
+    "Name" : "Operational Process Mapping Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718447567470_354605_25997",
+    "Name" : "Operational Process Mapping Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718447600972_376923_26068",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_3_8710274_1581675958756_500127_50979",
+    "Name" : "Operational Process Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718447567708_961261_25998",
+    "Name" : "Operational Process Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718447601944_806637_26069",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1561750369203_901730_48359",
+    "Name" : "Operational Story Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718447568795_33572_25999",
+    "Name" : "Operational Story Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718447602708_889517_26070",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_1_26f0132_1547202202696_824153_42420",
+    "Name" : "Physical Context Definition Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718447569011_176136_26000",
+    "Name" : "Physical Context Definition Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718447605215_392363_26079",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303526536_79296_92554",
+    "Name" : "Physical Context Exchange Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718447569196_719559_26001",
+    "Name" : "Physical Context Exchange Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718447606242_311915_26080",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1675987942868_617787_33116",
+    "Name" : "Physical Functional Mapping Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718447569359_858276_26002",
+    "Name" : "Physical Functional Mapping Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718447607173_240614_26085",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1695205330608_177015_24335",
+    "Name" : "Physical Interface Definition Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718447569575_421725_26003",
+    "Name" : "Physical Interface Definition Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718447607960_178356_26090",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1674680950433_310726_23659",
+    "Name" : "Physical Internal Exchange Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718447569760_95303_26004",
+    "Name" : "Physical Internal Exchange Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718447608894_835784_26095",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1698415722718_711881_60045",
+    "Name" : "Physical Logical Item Mapping Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718447569945_157481_26005",
+    "Name" : "Physical Logical Item Mapping Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718447610782_262014_26096",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1676724435544_523379_27331",
+    "Name" : "Physical Logical Mapping Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718447570098_49514_26006",
+    "Name" : "Physical Logical Mapping Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718447611740_542412_26101",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_3_ebf0350_1580652072992_42812_53692",
+    "Name" : "Physical Structure Definition Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718447570277_344125_26007",
+    "Name" : "Physical Structure Definition Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718447612587_234377_26102",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1565093441772_881981_49327",
+    "Name" : "Stakeholder Identification Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718447570446_929591_26008",
+    "Name" : "Stakeholder Identification Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718447613351_311820_26103",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1565093441772_890565_49326",
+    "Name" : "Stakeholder Requirement Definition Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718447570677_475627_26009",
+    "Name" : "Stakeholder Requirement Definition Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718447614252_606228_26104",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_4_6d8019d_1618757838536_301313_442",
+    "Name" : "System Capability Definition Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718447570852_497468_26010",
+    "Name" : "System Capability Definition Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718447615023_199402_26109",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_6d8019d_1690628661558_769067_24257",
+    "Name" : "System Capability Mapping Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718447571062_584576_26011",
+    "Name" : "System Capability Mapping Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718447616010_17836_26110",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
+    "Name" : "System Context Definition Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718447571233_610352_26012",
+    "Name" : "System Context Definition Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718447617667_852098_26112",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_4_6d8019d_1618060963677_605184_292",
+    "Name" : "System Context Exchange Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718447571432_989282_26013",
+    "Name" : "System Context Exchange Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718447620474_210951_26113",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_4_26f0132_1626790419043_61789_443",
+    "Name" : "System Context Interaction Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718447571601_297905_26014",
+    "Name" : "System Context Interaction Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718447621208_628775_26114",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303526536_778418_92552",
+    "Name" : "System Domain Item Kind Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718447571779_826028_26015",
+    "Name" : "System Domain Item Kind Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718447622125_131548_26115",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_4_26f0132_1629448496383_291730_10342",
+    "Name" : "System Functional Breakdown Structure Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718447571964_874574_26016",
+    "Name" : "System Functional Breakdown Structure Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718447622812_451472_26116",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1676723256334_812178_26576",
+    "Name" : "System Functional Refinement Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718447572165_866488_26017",
+    "Name" : "System Functional Refinement Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718447623612_546539_26121",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1676723513864_806117_26880",
+    "Name" : "System Interface Definition Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718447572403_587090_26018",
+    "Name" : "System Interface Definition Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718447634266_668239_26135",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_8710274_1567167552896_772779_54664",
+    "Name" : "System Process Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718447629899_467767_26130",
+    "Name" : "System Process Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718447635237_674134_26136",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1565104337297_671823_55529",
+    "Name" : "System Requirement Definition Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718447630100_539035_26131",
+    "Name" : "System Requirement Definition Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718447636069_593143_26137",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1565093441772_728957_49328",
+    "Name" : "System Requirement Traceability Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718447630261_260426_26132",
+    "Name" : "System Requirement Traceability Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718447637209_868679_26142",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303526536_189439_92549",
+    "Name" : "System State Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718447630408_104362_26133",
+    "Name" : "System State Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718447638228_734935_26147",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_1_26f0132_1554446728606_740631_45702",
+    "Name" : "System Use Case Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718447630577_160189_26134",
+    "Name" : "System Use Case Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1674232165480_592164_23273",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_6d8019d_1674232168228_136119_23449",
+    "Name" : "Argumentation Assurance Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_6d8019d_1674232165479_968036_23271",
+    "Name" : "SAF_C2_ARAS"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1700817346125_668040_50620",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1676722868986_622372_25044",
+    "Name" : "Common Standards Definition Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1700817327515_843725_50585",
+    "Name" : "SAF_C2_CSTD"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_8710274_1717680386874_579804_14858",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1676722868986_622372_25044",
+    "Name" : "Common Standards Definition Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_8710274_1717680274694_162060_14786",
+    "Name" : "SAF_C2_CSTD_Table"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719735179293_503489_24175",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1697454168635_705915_29452",
+    "Name" : "GDcontainingAT"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1697453280481_761317_28570",
+    "Name" : "SAF_C2_GRID"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719735189662_394025_24185",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1697454194125_161227_29476",
+    "Name" : "GDcontainingDN"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1697453280481_761317_28570",
+    "Name" : "SAF_C2_GRID"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719735135615_508781_24155",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1697453884307_467076_29314",
+    "Name" : "GDcontainingVP"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1697453280481_761317_28570",
+    "Name" : "SAF_C2_GRID"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697454774261_428626_30173",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1697453616439_929610_29143",
+    "Name" : "Grid"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1697453280481_761317_28570",
+    "Name" : "SAF_C2_GRID"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697453371874_945810_28631",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1696576589232_543559_24371",
+    "Name" : "Grid Definition Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1697453280481_761317_28570",
+    "Name" : "SAF_C2_GRID"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719141426744_643084_25242",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1696576589232_543559_24371",
+    "Name" : "Grid Definition Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1719141205004_162437_25125",
+    "Name" : "SAF_C2_GRID_Table"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719738257334_774971_29106",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_26f0132_1719735638892_806840_26185",
+    "Name" : "Framework Stereotype Overview Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1719738142966_985767_29029",
+    "Name" : "SCM_D2_STYD_Table"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1701349871544_576575_89409",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1701349408071_720270_88478",
+    "Name" : "Common Terms Definition Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1701349840148_646810_89384",
+    "Name" : "SAF_C2_TRMD_Table"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_8710274_1715874655525_600737_15899",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_8710274_1715874205543_398212_14936",
+    "Name" : "Protection Goal Definition Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_8710274_1715874592986_911669_15868",
+    "Name" : "SAF_C7_PRND_Table"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_4_6d8019d_1618592016773_535457_2530",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
+    "Name" : "System Context Definition Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_4_6d8019d_1618591731111_585346_2477",
+    "Name" : "SAF_F1_SCXD"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718445941662_892654_23080",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
+    "Name" : "System Context Definition Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718445860250_114816_23014",
+    "Name" : "SAF_F1_SCXD_Table"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_4_6d8019d_1618082311495_666214_1389",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_4_6d8019d_1618060963677_605184_292",
+    "Name" : "System Context Exchange Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_4_6d8019d_1618081524318_206808_1303",
+    "Name" : "SAF_F1_SCXE"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718445161549_16755_22990",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_4_6d8019d_1618060963677_605184_292",
+    "Name" : "System Context Exchange Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718445081588_464851_22944",
+    "Name" : "SAF_F1_SCXE_Table"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_4_6d8019d_1617440451099_608849_2120",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_1_26f0132_1554446728606_740631_45702",
+    "Name" : "System Use Case Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_4_6d8019d_1617380348210_24096_555",
+    "Name" : "SAF_F1_SUCD"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718444936022_475384_22932",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_1_26f0132_1554446728606_740631_45702",
+    "Name" : "System Use Case Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718444814950_893924_22854",
+    "Name" : "SAF_F1_SUCD_Table"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_4_6d8019d_1618763069424_774047_2378",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_4_6d8019d_1618757838536_301313_442",
+    "Name" : "System Capability Definition Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_4_6d8019d_1618762989365_936788_2353",
+    "Name" : "SAF_F2_SCYD"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718444763184_293742_22822",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_4_6d8019d_1618757838536_301313_442",
+    "Name" : "System Capability Definition Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718444691784_101759_22771",
+    "Name" : "SAF_F2_SCYD_Table"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_4_26f0132_1630063125444_23307_313",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303526536_778418_92552",
+    "Name" : "System Domain Item Kind Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_4_26f0132_1631267986737_158302_36",
+    "Name" : "SAF_F2_SDIK"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718444609313_869783_22719",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303526536_778418_92552",
+    "Name" : "System Domain Item Kind Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718444573319_748914_22693",
+    "Name" : "SAF_F2_SDIK_Table"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_4_26f0132_1629450448241_477424_13389",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_4_26f0132_1629448496383_291730_10342",
+    "Name" : "System Functional Breakdown Structure Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_4_26f0132_1629448019169_887442_9417",
+    "Name" : "SAF_F2_SFBS"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1677616179343_971433_24509",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1676723256334_812178_26576",
+    "Name" : "System Functional Refinement Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_6d8019d_1677616004198_497557_24505",
+    "Name" : "SAF_F3_SFRE"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_4_6d8019d_1617529729387_119560_1947",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_8710274_1567167552896_772779_54664",
+    "Name" : "System Process Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_4_6d8019d_1617380277228_633159_552",
+    "Name" : "SAF_F3_SPRO"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718444435787_881960_22689",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_8710274_1567167552896_772779_54664",
+    "Name" : "System Process Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718444307071_150416_22623",
+    "Name" : "SAF_F3_SPRO_Table"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_4_6d8019d_1629901942108_606262_500",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303526536_189439_92549",
+    "Name" : "System State Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_4_6d8019d_1627582668863_723808_2445",
+    "Name" : "SAF_F3_SSTA"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718444212890_952245_22619",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303526536_189439_92549",
+    "Name" : "System State Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718444107324_646747_22569",
+    "Name" : "SAF_F3_SSTA_Table"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_4_26f0132_1626791756795_725159_3184",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_4_26f0132_1626790419043_61789_443",
+    "Name" : "System Context Interaction Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_4_26f0132_1626791693357_994866_3136",
+    "Name" : "SAF_F4_SCXI"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1679480727728_293896_25902",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1676723513864_806117_26880",
+    "Name" : "System Interface Definition Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1679480698224_528018_25860",
+    "Name" : "SAF_F5_SIFD"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_4_6d8019d_1624944014482_547908_657",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1565104337297_671823_55529",
+    "Name" : "System Requirement Definition Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_1_26f0132_1548407715628_25139_43804",
+    "Name" : "SAF_F6_SRQD_Table"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1691055687970_737322_24918",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_6d8019d_1690628661558_769067_24257",
+    "Name" : "System Capability Mapping Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_6d8019d_1691055569911_434596_24894",
+    "Name" : "SAF_F8_SCYM_Table"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_4_6d8019d_1624904415178_785847_1558",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1565093441772_728957_49328",
+    "Name" : "System Requirement Traceability Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_4_6d8019d_1624904106285_850809_1491",
+    "Name" : "SAF_F8_SRQT_Matrix"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_4_26f0132_1625209629438_188558_414",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303526536_284838_92559",
+    "Name" : "Logical Structure Definition Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_4_26f0132_1625209562736_284155_381",
+    "Name" : "SAF_L2_LSTD"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_4_26f0132_1625209757021_923538_447",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
+    "Name" : "Logical Internal Exchange Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_4_26f0132_1625209687705_869914_419",
+    "Name" : "SAF_L4_LIEX"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599128081452_757521_1221",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1576222951495_184664_54882",
+    "Name" : "Logical Internal Interaction Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_3_26f0132_1582319340394_382321_60610",
+    "Name" : "SAF_L4_LITI"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1677755259292_199451_24822",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
+    "Name" : "Logical Functional Mapping Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_6d8019d_1677360534022_847905_25995",
+    "Name" : "SAF_L8_LFUM_Matrix"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1601644040244_849538_8682",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1567778254489_369345_55863",
+    "Name" : "Operational Context Definition Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_1_26f0132_1548401929328_77241_42963",
+    "Name" : "SAF_O1_OCXD"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1601646210231_152013_13206",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1576232878029_619084_56885",
+    "Name" : "Operational Context Exchange Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_3_26f0132_1601646100437_337953_13001",
+    "Name" : "SAF_O1_OCXE"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1601647242238_869299_14591",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1561750369203_901730_48359",
+    "Name" : "Operational Story Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_3_26f0132_1601645195786_604902_11134",
+    "Name" : "SAF_O1_OSTY"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1601644008060_15848_8577",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_3_8710274_1581675970682_325249_52535",
+    "Name" : "Operational Capability Definition Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_3_26f0132_1601643834849_398612_8169",
+    "Name" : "SAF_O2_OCYD"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_4_26f0132_1631284893422_811850_5041",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_4_26f0132_1631280350392_855780_562",
+    "Name" : "Operational Domain Item Kind Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_4_26f0132_1630062793069_290685_155",
+    "Name" : "SAF_O2_ODIK"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1717882238131_940439_19801",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_4_26f0132_1631280350392_855780_562",
+    "Name" : "Operational Domain Item Kind Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1717876271033_50962_14573",
+    "Name" : "SAF_O2_ODIK_Table"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1601644040745_264492_8702",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_3_6d8019d_1599070472635_176306_252",
+    "Name" : "Operational Performer Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_3_26f0132_1601455842479_177976_826",
+    "Name" : "SAF_O2_OPRF"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718465354864_632417_34278",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_3_6d8019d_1599070472635_176306_252",
+    "Name" : "Operational Performer Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718465296666_634864_34126",
+    "Name" : "SAF_O2_OPRF_Table"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1678136678968_987163_25274",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1565093441772_881981_49327",
+    "Name" : "Stakeholder Identification Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_4_6d8019d_1671380025053_143662_13",
+    "Name" : "SAF_O2_STID"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1601644040514_927788_8692",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_3_8710274_1581675958756_500127_50979",
+    "Name" : "Operational Process Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_3_26f0132_1600503062173_139730_1994",
+    "Name" : "SAF_O3_OPRO"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1601644040629_453996_8697",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1561752880161_57347_50198",
+    "Name" : "Operational Context Interaction Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_2_26f0132_1567697216482_129982_55869",
+    "Name" : "SAF_O4_OCXI"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_6d8019d_1609100613734_508783_456",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1565093441772_890565_49326",
+    "Name" : "Stakeholder Requirement Definition Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_1_26f0132_1548401956524_759247_43000",
+    "Name" : "SAF_O6_SKRD_Table"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_6d8019d_1608907909459_259315_404",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_3_6d8019d_1603027079337_312898_286",
+    "Name" : "Operational Capability Mapping Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_3_6d8019d_1608907358473_975875_316",
+    "Name" : "SAF_O8_OCYM_Table"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1601644040376_669412_8687",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_3_26f0132_1601459636216_111430_6921",
+    "Name" : "Operational Process Mapping Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_3_26f0132_1601459116625_669721_6527",
+    "Name" : "SAF_O8_OPRM_Table"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1674914588895_386938_25412",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_1_26f0132_1547202202696_824153_42420",
+    "Name" : "Physical Context Definition Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_6d8019d_1674914191877_627483_25391",
+    "Name" : "SAF_P1_PCXD"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1695735161237_813911_26113",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303526536_79296_92554",
+    "Name" : "Physical Context Exchange Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1695735069570_422039_26031",
+    "Name" : "SAF_P1_PCXE"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1717882390041_988580_19892",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303526536_79296_92554",
+    "Name" : "Physical Context Exchange Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_8710274_1717757741721_127767_15486",
+    "Name" : "SAF_P1_PCXE_Table"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1695637895949_101817_25806",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_3_ebf0350_1580652072992_42812_53692",
+    "Name" : "Physical Structure Definition Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1695637697813_912556_25589",
+    "Name" : "SAF_P2_PSTD"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1675163395043_518070_24025",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1674680950433_310726_23659",
+    "Name" : "Physical Internal Exchange Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_6d8019d_1675161151233_753157_23835",
+    "Name" : "SAF_P4_PIEX"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_8710274_1717669509026_536292_20917",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1674680950433_310726_23659",
+    "Name" : "Physical Internal Exchange Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_8710274_1717669386236_274273_20833",
+    "Name" : "SAF_P4_PIEX_Table"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1695208667300_472738_27458",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1695205330608_177015_24335",
+    "Name" : "Physical Interface Definition Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1695208632632_218609_27418",
+    "Name" : "SAF_P5_PIFD"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1677946911671_755667_24616",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1675987942868_617787_33116",
+    "Name" : "Physical Functional Mapping Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_6d8019d_1677946801652_589028_24613",
+    "Name" : "SAF_P8_PFUM_Matrix"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1677947446607_183853_24620",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1676724435544_523379_27331",
+    "Name" : "Physical Logical Mapping Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_6d8019d_1677947386605_221993_24617",
+    "Name" : "SAF_P8_PLOM_Matrix"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1674232165470_234460_23253",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_6d8019d_1674232167080_762583_23364",
+    "Name" : "Argument"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_6d8019d_1674232165468_699772_23249",
+    "Name" : "SAF_Argument"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1687624261700_615575_25593",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_6d8019d_1687622957056_63882_25313",
+    "Name" : "AGTsupportingCLM"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_6d8019d_1687623430525_974383_25431",
+    "Name" : "SAF_ArgumentClaimSupport"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1674232165468_981638_23248",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_6d8019d_1674232167080_274533_23363",
+    "Name" : "Claim"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_6d8019d_1674232165465_734664_23246",
+    "Name" : "SAF_Claim"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1674232165484_301066_23281",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_6d8019d_1674232167079_323900_23362",
+    "Name" : "Claimable Item"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_6d8019d_1674232165482_924684_23277",
+    "Name" : "SAF_ClaimableItem"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1674232165482_686308_23276",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_6d8019d_1674232167083_240422_23373",
+    "Name" : "CLMbeingMadeAboutSBC"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_6d8019d_1674232165481_295568_23274",
+    "Name" : "SAF_ClaimAboutSubjectMaking"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1674232165472_553122_23258",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_6d8019d_1674232167082_68281_23367",
+    "Name" : "Claimant"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_6d8019d_1688225145328_197291_24223",
+    "Name" : "SAF_Claimant"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1674232165479_157523_23270",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_6d8019d_1674232167083_795162_23371",
+    "Name" : "CLTmakingCLM"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_6d8019d_1674232165478_345466_23268",
+    "Name" : "SAF_ClaimantClaimMaking"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1687619747936_932449_25138",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_6d8019d_1674232167084_618602_23374",
+    "Name" : "CLMsupportingCIM"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_6d8019d_1687619081355_443463_25050",
+    "Name" : "SAF_ClaimClaimableItemSupport"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1674232165472_594163_23257",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_6d8019d_1674232167083_587567_23372",
+    "Name" : "Subject of Claim"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_6d8019d_1674232165471_339910_23255",
+    "Name" : "SAF_ClaimSubject"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599151896400_722848_5677",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524176_900081_91027",
+    "Name" : "Logical Interaction Point Definition"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_6d8019d_1692273490109_662219_24437",
+    "Name" : "SAF_ConceptualInterfaceDefinition"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599129546876_932228_1632",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1576255436585_904360_55710",
+    "Name" : "SCErepresentedBySSH"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_3_6d8019d_1599386889842_487820_471",
+    "Name" : "SAF_ContextElementRepresentation"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_4_26f0132_1624963616776_105500_4306",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_4_26f0132_1624611972707_746294_1003",
+    "Name" : "Context Function"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_4_6d8019d_1624825970650_773062_2087",
+    "Name" : "SAF_ContextFunction"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1674232165474_155206_23261",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_6d8019d_1674232167081_446328_23366",
+    "Name" : "CounterClaim"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_6d8019d_1674232165473_600709_23259",
+    "Name" : "SAF_CounterClaim"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1674232165484_228280_23280",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_6d8019d_1674232167084_655777_23375",
+    "Name" : "CCMcounteringCIM"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_6d8019d_1674232165483_312955_23278",
+    "Name" : "SAF_CounterClaimClaimableItemMaking"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1614939030031_740187_5697",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
+    "Name" : "System Domain Kind"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_3_26f0132_1614938958203_459716_5653",
+    "Name" : "SAF_DomainKind"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_4_6d8019d_1632171045128_477088_515",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_4_6d8019d_1632170395135_344484_397",
+    "Name" : "SDKcomposedOF"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_4_6d8019d_1632170657124_127768_451",
+    "Name" : "SAF_DomainKindComposition"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_4_26f0132_1631285266059_592150_5377",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_4_26f0132_1631284129545_438782_4876",
+    "Name" : "SDKderivingFromODK"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_4_26f0132_1631285127577_990399_5297",
+    "Name" : "SAF_DomainKindDerivation"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1674232165471_149335_23254",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_6d8019d_1674232167081_609406_23365",
+    "Name" : "Evidence"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_6d8019d_1674232165469_125342_23251",
+    "Name" : "SAF_Evidence"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1674232165478_303021_23266",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_6d8019d_1674232167082_51450_23369",
+    "Name" : "EVCreinforcingAGT"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_6d8019d_1674232165474_404920_23262",
+    "Name" : "SAF_EvidenceArgumentReinforcement"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1675985920454_871745_31585",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524161_907005_91002",
+    "Name" : "General Functional Usage"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_4_6d8019d_1629825338987_420088_594",
+    "Name" : "SAF_FunctionAction"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1695985311626_141328_25318",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1695984535441_481088_24822",
+    "Name" : "PCPOverPCP"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1695985266083_110612_25287",
+    "Name" : "SAF_InterfaceLayerRelationship"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697110114308_338697_150715",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1697109899298_943155_150586",
+    "Name" : "PCPPOverPCPP"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1695985266083_110612_25287",
+    "Name" : "SAF_InterfaceLayerRelationship"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599120097797_663403_686",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1558075086129_173532_44926",
+    "Name" : "Logical System Context"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_2_26f0132_1558076033373_157322_46890",
+    "Name" : "SAF_LogicalContext"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599129150294_792058_1404",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_6d8019d_1555339282353_464909_46799",
+    "Name" : "LCEactingInSUC"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_4_6d8019d_1617440763282_465948_2187",
+    "Name" : "SAF_LogicalContextElementActing"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599148750735_171717_4975",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_8710274_1567171243005_813677_60746",
+    "Name" : "Logical Context Element Role"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_4_6d8019d_1630175259198_859971_358",
+    "Name" : "SAF_LogicalContextRole"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599132451641_778047_4472",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_8710274_1567171329121_821656_60902",
+    "Name" : "Logical SOI Role"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_4_6d8019d_1630175259198_859971_358",
+    "Name" : "SAF_LogicalContextRole"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599120097890_164593_691",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
+    "Name" : "Logical Element"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_1_26f0132_1547201742246_537565_42154",
+    "Name" : "SAF_LogicalElement"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599120097984_111525_704",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303989622_501728_139950",
+    "Name" : "Logical Environment"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_2_26f0132_1562313107961_803548_148677",
+    "Name" : "SAF_LogicalEnvironment"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599120098078_554950_713",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1558075062569_130489_44874",
+    "Name" : "Logical External System"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_1_26f0132_1547202431219_827789_42473",
+    "Name" : "SAF_LogicalExternalSystem"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599120098156_272995_722",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1558075212525_51415_45174",
+    "Name" : "Logical Context SOI"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_1_8710274_1547464060642_374530_42162",
+    "Name" : "SAF_LogicalSOI"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599120098875_339513_778",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_8710274_1558534130432_293473_45375",
+    "Name" : "Logical User"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_2_26f0132_1558076117783_295122_47010",
+    "Name" : "SAF_LogicalUser"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599120352910_290022_1038",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_3_8710274_1581665911562_310714_48925",
+    "Name" : "Operational Capability"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_3_8710274_1581676828664_176399_54365",
+    "Name" : "SAF_OperationalCapability"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599129349309_301201_1453",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_3_8710274_1581666201982_100862_49030",
+    "Name" : "OCYcomposedOF"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_3_6d8019d_1600160576148_12235_366",
+    "Name" : "SAF_OperationalCapabilityComposition"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599129358834_237567_1477",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_3_8710274_1581666429993_560174_49054",
+    "Name" : "OCYdependingON"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_3_6d8019d_1600678873153_400736_372",
+    "Name" : "SAF_OperationalCapabilityDependency"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599129354452_917419_1465",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_3_8710274_1581666154134_936493_49002",
+    "Name" : "OCYspecializedBY"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_3_6d8019d_1600163146864_328836_471",
+    "Name" : "SAF_OperationalCapabilityGeneralization"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_6d8019d_1614803397151_742989_576",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_3_26f0132_1593161538343_235854_323",
+    "Name" : "OCYsupportingOSY"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_3_6d8019d_1614802389942_56809_428",
+    "Name" : "SAF_OperationalCapabilitySupport"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599120352570_803898_1018",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1561763753175_522268_51960",
+    "Name" : "Operational Context"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_3_26f0132_1581502754179_833407_156439",
+    "Name" : "SAF_OperationalContext"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599121327623_629046_1147",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1567694227019_837886_54521",
+    "Name" : "Operational Context Role"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_4_6d8019d_1629637155053_836431_340",
+    "Name" : "SAF_OperationalContextRole"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_4_6d8019d_1618158779882_69437_511",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_3_26f0132_1600783068816_502199_735",
+    "Name" : "Operational Domain Kind"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_4_6d8019d_1618158382195_41606_448",
+    "Name" : "SAF_OperationalDomainKind"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_4_6d8019d_1632227851540_827812_1700",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_4_6d8019d_1632227066479_408164_1197",
+    "Name" : "ODKcomposedOF"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_4_6d8019d_1632227659718_825878_1667",
+    "Name" : "SAF_OperationalDomainKindComposition"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599120352832_367404_1029",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562316412621_925297_43615",
+    "Name" : "Operational Performer"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_3_26f0132_1581501489077_870542_155174",
+    "Name" : "SAF_OperationalPerformer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599119092947_883797_145",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_3_26f0132_1582984690099_348707_50208",
+    "Name" : "OPRactingInOSY"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_3_6d8019d_1600283017764_387587_659",
+    "Name" : "SAF_OperationalPerformerActing"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_6d8019d_1599229653250_645141_403",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_3_6d8019d_1598981150221_83799_30",
+    "Name" : "OPRcomposedOF"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_3_6d8019d_1599414738887_63027_366",
+    "Name" : "SAF_OperationalPerformerComposition"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_6d8019d_1611595967786_567791_894",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_3_6d8019d_1611592925440_283346_480",
+    "Name" : "OPRexhibitingOCY"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_3_6d8019d_1611595448048_514745_861",
+    "Name" : "SAF_OperationalPerformerExhibit"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599120352988_568599_1043",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_164f041e_1564572299224_487951_54901",
+    "Name" : "Operational Process"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_3_8710274_1581679987896_193803_55986",
+    "Name" : "SAF_OperationalProcess"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599129779823_883818_1774",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_3_8710274_1581674683825_886069_50270",
+    "Name" : "Operational Process Usage"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_4_6d8019d_1629824443819_231386_336",
+    "Name" : "SAF_OperationalProcessAction"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599120353347_972681_1059",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_3_8710274_1581673944718_281561_49734",
+    "Name" : "OPSenablingOCY"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_3_8710274_1581681312847_255155_56868",
+    "Name" : "SAF_OperationalProcessEnabling"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599120353066_661493_1048",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_164f041e_1564572616564_538444_54929",
+    "Name" : "OPSrefiningOSY"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_3_8710274_1581684654332_634229_49093",
+    "Name" : "SAF_OperationalProcessRefinement"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_6d8019d_1608843024268_227262_3389",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1561750848810_524986_48546",
+    "Name" : "Operational Sketch"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_1_26f0132_1550433084140_670092_43421",
+    "Name" : "SAF_OperationalSketch"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599120098266_901881_739",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1561750989144_963009_48675",
+    "Name" : "Operational Story"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_1_8710274_1552023067867_433281_43825",
+    "Name" : "SAF_OperationalStory"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599120098437_779673_749",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1558075325978_897109_45289",
+    "Name" : "Physical System Context"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_2_164f041e_1564558860534_409677_52063",
+    "Name" : "SAF_PhysicalContext"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599151346613_154248_5580",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_8710274_1567172425344_546313_62832",
+    "Name" : "Physical Context Element Role"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1697706707436_503229_24914",
+    "Name" : "SAF_PhysicalContextRole"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599151350761_851400_5586",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_8710274_1567172443186_403777_62964",
+    "Name" : "Physical SOI Role"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1697706707436_503229_24914",
+    "Name" : "SAF_PhysicalContextRole"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599120097515_905337_675",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524176_824595_91079",
+    "Name" : "Physical Element"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_2_26f0132_1558090585793_420384_48529",
+    "Name" : "SAF_PhysicalElement"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599120098531_63540_754",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1558075136166_927385_45031",
+    "Name" : "Physical Environment"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_2_26f0132_1558076176279_434857_47106",
+    "Name" : "SAF_PhysicalEnvironment"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1675027782716_771884_30539",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524176_482464_91025",
+    "Name" : "Physical Exchange Kind"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1675099152786_518672_26637",
+    "Name" : "SAF_PhysicalExchangeType"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599120098609_104585_759",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1558075409978_427311_45484",
+    "Name" : "Physical External System"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_2_26f0132_1560372077241_905943_48390",
+    "Name" : "SAF_PhysicalExternalSystem"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1675030481266_512971_30865",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524176_845534_91075",
+    "Name" : "Hardware Element"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_2_26f0132_1558090490396_87116_48464",
+    "Name" : "SAF_PhysicalHardwareElement"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1675029454256_257794_30629",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524176_956519_91030",
+    "Name" : "Physical Interaction Point Definition"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1695210280486_572526_27622",
+    "Name" : "SAF_PhysicalInterfaceDefinition"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697733555352_317066_32366",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524161_107047_91004",
+    "Name" : "General Physical Role"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1695809841236_544249_27160",
+    "Name" : "SAF_PhysicalInternalRole"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1695810143300_926545_27206",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524176_174876_91086",
+    "Name" : "Hardware Element Role"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1695809841236_544249_27160",
+    "Name" : "SAF_PhysicalInternalRole"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1695809889407_521682_27188",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524176_635820_91087",
+    "Name" : "Physical Element Role"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1695809841236_544249_27160",
+    "Name" : "SAF_PhysicalInternalRole"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1695809896949_259584_27194",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524176_672620_91085",
+    "Name" : "Physical Hardware Role"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1695809841236_544249_27160",
+    "Name" : "SAF_PhysicalInternalRole"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1695809904262_359522_27200",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524176_61581_91084",
+    "Name" : "Physical Software Role"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1695809841236_544249_27160",
+    "Name" : "SAF_PhysicalInternalRole"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1695810153971_888196_27212",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524176_594816_91083",
+    "Name" : "Software Element Role"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1695809841236_544249_27160",
+    "Name" : "SAF_PhysicalInternalRole"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1675030439897_308215_30859",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524176_251302_91078",
+    "Name" : "Software Element"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_2_26f0132_1558090471537_935611_48414",
+    "Name" : "SAF_PhysicalSoftwareElement"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599120098703_595071_764",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1558075337119_355128_45325",
+    "Name" : "Physical SOI"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_1_8710274_1547464071851_635988_42197",
+    "Name" : "SAF_PhysicalSystem"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599120098344_987386_744",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_ebf0350_1555174193029_536383_44542",
+    "Name" : "Physical User"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_1_26f0132_1547202486398_568937_42535",
+    "Name" : "SAF_PhysicalUser"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1700810771016_872621_48404",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1700810729890_968352_48370",
+    "Name" : "Process"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1700809840928_269630_17686",
+    "Name" : "SAF_Process"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1675158728542_906519_23552",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_6d8019d_1674232167082_824671_23368",
+    "Name" : "Refuter"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_6d8019d_1688225179612_961895_24265",
+    "Name" : "SAF_Refuter"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1687637897853_229261_25781",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_6d8019d_1687635765022_652079_24627",
+    "Name" : "RFTmakingCCM"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_6d8019d_1687637715067_620676_25736",
+    "Name" : "SAF_RefuterCounterClaimMaking"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599120099062_303829_788",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_8710274_1558519956748_646834_44043",
+    "Name" : "System of Interest Stakeholder"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_2_26f0132_1565094689606_808099_51895",
+    "Name" : "SAF_Stakeholder"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599120353191_887835_1053",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1575019807024_82785_55519",
+    "Name" : "SSHrelatedToSSH"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_2_26f0132_1576256988971_313392_56275",
+    "Name" : "SAF_StakeholderRelation"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_6d8019d_1600598029464_753100_729",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1576255381074_947214_55662",
+    "Name" : "SSHrepresentingOPR"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_3_6d8019d_1600597534207_157849_655",
+    "Name" : "SAF_StakeholderRepresenting"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599146863347_819777_4863",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_8710274_1558520000264_403052_44141",
+    "Name" : "Stakeholder Requirement"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_2_164f041e_1564562840570_263949_52838",
+    "Name" : "SAF_StakeholderRequirement"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599150101626_179205_5118",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_8710274_1558520103521_679129_44321",
+    "Name" : "SHRimposedBY"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_3_6d8019d_1600679857332_333392_618",
+    "Name" : "SAF_StakeholderRequirementImposition"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_6d8019d_1609148901610_888818_604",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_8710274_1558520697796_594436_44679",
+    "Name" : "SHRrefiningCRN"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_3_6d8019d_1609148130261_947486_570",
+    "Name" : "SAF_StakeholderRequirementRefinement"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1690198058148_755906_24233",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1567606884034_616995_54129",
+    "Name" : "SHRrefiningOCY"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_3_6d8019d_1609148130261_947486_570",
+    "Name" : "SAF_StakeholderRequirementRefinement"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_6d8019d_1609101936194_813051_624",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_3_6d8019d_1609067438603_923129_400",
+    "Name" : "SHRrefiningOSY"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_3_6d8019d_1609148130261_947486_570",
+    "Name" : "SAF_StakeholderRequirementRefinement"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1700810777114_806565_48410",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1700810118595_556759_48108",
+    "Name" : "Standard"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1700810557668_637315_48235",
+    "Name" : "SAF_Standard"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1700819014368_409212_51239",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1700814367039_336586_50268",
+    "Name" : "SDTcoveringSBS"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1701360709869_194778_91148",
+    "Name" : "SAF_StandardCovering"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1700812628401_870004_49878",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1700810355233_788568_48161",
+    "Name" : "Standardization Organization"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1700812596870_49325_49849",
+    "Name" : "SAF_StandardizationOrganization"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1700819060440_441296_51306",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1700813046483_995773_50081",
+    "Name" : "Subject of Standardization"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1700819040067_20402_51257",
+    "Name" : "SAF_StandardizationSubject"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1700817766560_689403_50817",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1700817559642_660412_50682",
+    "Name" : "SDTsupersedingSDT"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1700817699465_496750_50736",
+    "Name" : "SAF_StandardSuperseding"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_4_6d8019d_1618762275052_867731_2279",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_4_6d8019d_1617463709646_290604_336",
+    "Name" : "System Capability"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_3_6d8019d_1614802234951_841733_423",
+    "Name" : "SAF_SystemCapability"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_4_6d8019d_1618762251065_87663_2267",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_4_6d8019d_1617463709658_247814_337",
+    "Name" : "SCYcomposedOF"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_4_6d8019d_1618761245041_564044_2064",
+    "Name" : "SAF_SystemCapabilityComposition"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_4_6d8019d_1618762265781_457261_2273",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_4_6d8019d_1617463709661_722502_339",
+    "Name" : "SCYdependingON"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_4_6d8019d_1618761245046_533877_2065",
+    "Name" : "SAF_SystemCapabilityDependency"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_4_6d8019d_1633794908176_49529_685",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_4_6d8019d_1617524582560_511978_675",
+    "Name" : "SCYenablingOCY"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_4_6d8019d_1633793471065_964488_390",
+    "Name" : "SAF_SystemCapabilityEnabling"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_4_6d8019d_1618762283319_498065_2285",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_4_6d8019d_1617463709660_425346_338",
+    "Name" : "SCYspecializedBY"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_4_6d8019d_1618761245048_815843_2066",
+    "Name" : "SAF_SystemCapabilityGeneralization"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1691179674007_39840_24384",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_6d8019d_1691056625013_260300_25600",
+    "Name" : "SCYsatisfyingSHR"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_6d8019d_1691179425619_679578_24346",
+    "Name" : "SAF_SystemCapabilitySatisfaction"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1690664222420_73967_25336",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_4_6d8019d_1617464677545_852747_1286",
+    "Name" : "SCYsupportingSUC"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_4_6d8019d_1630159558286_241427_911",
+    "Name" : "SAF_SystemCapabilitySupport"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599148836510_557213_5009",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524161_394471_91009",
+    "Name" : "System Function"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_1_26f0132_1548408079060_514464_44018",
+    "Name" : "SAF_SystemFunction"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_4_6d8019d_1630686182768_215137_1026",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_164f041e_1564383963900_307503_51643",
+    "Name" : "Functional Requirement"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_4_6d8019d_1630685173057_20068_948",
+    "Name" : "SAF_SystemFunctionalRequirement"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599120098781_612530_769",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_164f041e_1564384014791_156524_51726",
+    "Name" : "FRboundedByNFR"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_2_26f0132_1566859056603_764774_53994",
+    "Name" : "SAF_SystemFunctionalRequirementConstraint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_4_6d8019d_1624902428423_299919_900",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_164f041e_1564384276906_470959_51917",
+    "Name" : "FRrefiningSFN"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_4_6d8019d_1630757173609_819998_2321",
+    "Name" : "SAF_SystemFunctionalRequirementRefinement"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1691057973686_486694_25792",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_4_6d8019d_1624798205940_66834_232",
+    "Name" : "SFNsupportingSCY"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_6d8019d_1691057742693_17377_25753",
+    "Name" : "SAF_SystemFunctionSupport"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_4_6d8019d_1630686091923_528005_1020",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_164f041e_1564383985280_212499_51679",
+    "Name" : "Non-functional Requirement"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_4_6d8019d_1630685173062_232273_950",
+    "Name" : "SAF_SystemNonFunctionalRequirement"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599129521814_86851_1613",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_8710274_1558519985294_233543_44077",
+    "Name" : "System of Interest Concern"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_2_26f0132_1567750318852_177696_53167",
+    "Name" : "SAF_SystemOfInterestConcern"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1676919541869_771186_29067",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_4_26f0132_1624611043495_845903_880",
+    "Name" : "System Partial Function"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1676729827724_699643_30171",
+    "Name" : "SAF_SystemPartialFunction"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_4_26f0132_1624963332517_164181_4264",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_4_26f0132_1624610613457_313794_115",
+    "Name" : "System Process"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_4_26f0132_1624963294145_897849_4228",
+    "Name" : "SAF_SystemProcess"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1691053340704_723265_24465",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_4_6d8019d_1654507324074_749318_302",
+    "Name" : "SPSenablingSCY"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_6d8019d_1691052942497_211885_24413",
+    "Name" : "SAF_SystemProcessEnabling"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1691063734136_616698_24687",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_4_26f0132_1624610806163_247313_817",
+    "Name" : "SPSrefiningSUC"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_6d8019d_1691063354251_379935_24633",
+    "Name" : "SAF_SystemProcessRefinement"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599146842335_663157_4853",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_8710274_1558520012975_812587_44177",
+    "Name" : "System Requirement"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_2_6d8019d_1566473880087_254926_52599",
+    "Name" : "SAF_SystemRequirement"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_4_6d8019d_1630687521822_263751_1166",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1565104656755_27827_55752",
+    "Name" : "SRderivingFromSR"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_4_6d8019d_1630686502149_531538_1032",
+    "Name" : "SAF_SystemRequirementDerivation"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599146881853_70945_4875",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_8710274_1558520123795_924466_44365",
+    "Name" : "SRderivingFromSTKR"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_4_6d8019d_1630686502149_531538_1032",
+    "Name" : "SAF_SystemRequirementDerivation"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_4_6d8019d_1624902448497_265689_906",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_3_26f0132_1582299953373_258701_56319",
+    "Name" : "SRrefiningLICP"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_4_6d8019d_1630755344891_22928_2192",
+    "Name" : "SAF_SystemRequirementRefinement"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1690173993975_622393_23900",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_6d8019d_1690055913036_853745_24319",
+    "Name" : "SRrefiningSCY"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_4_6d8019d_1630755344891_22928_2192",
+    "Name" : "SAF_SystemRequirementRefinement"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_4_6d8019d_1624902466882_163870_912",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1575561280252_959861_56562",
+    "Name" : "SRrefiningSUC"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_4_6d8019d_1630755344891_22928_2192",
+    "Name" : "SAF_SystemRequirementRefinement"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_6d8019d_1600426624649_832744_864",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_1_26f0132_1554446894995_335285_45800",
+    "Name" : "System Use Case"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_1_8710274_1552023080917_369823_43852",
+    "Name" : "SAF_SystemUseCase"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_4_6d8019d_1633861962734_17061_546",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_164f041e_1564571019748_834303_54723",
+    "Name" : "SUCenablingOSY"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_4_6d8019d_1630778868755_864755_338",
+    "Name" : "SAF_SystemUseCaseEnabling"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1700810781464_612382_48416",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1700810107962_53436_48086",
+    "Name" : "Term"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1676285202908_857449_35044",
+    "Name" : "SAF_Term"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697454645919_682145_30133",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1697454030821_682386_29382",
+    "Name" : "Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718446856501_55465_24568",
+    "Name" : "SAF_Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719141782304_221531_25642",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_26f0132_1719141564806_4128_25334",
+    "Name" : "VPbelongingToAT"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718446856501_55465_24568",
+    "Name" : "SAF_Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719141362022_288206_25191",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_26f0132_1719141336629_21600_25167",
+    "Name" : "VPbelongingToDN"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718446856501_55465_24568",
+    "Name" : "SAF_Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697456012821_576318_35133",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1697455811202_83226_34987",
+    "Name" : "View"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1697455995031_478296_35099",
+    "Name" : "SAF_Diagram"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1698416938327_499120_62714",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524161_752149_91000",
+    "Name" : "SDKtypingFPM"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1698416923256_28235_62703",
+    "Name" : ""
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1681827946723_670605_24233",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303523801_255857_90761",
+    "Name" : "SDKtypingLIE"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1681827927413_511049_24222",
+    "Name" : ""
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1681817466982_208912_29253",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303523801_353773_90762",
+    "Name" : "SDKtypingLIPP"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1681817408348_216387_29249",
+    "Name" : ""
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718462400579_633078_30159",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_4_26f0132_1631283194173_385626_4558",
+    "Name" : "ODKtypifyingOPE"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1718462363364_57669_30134",
+    "Name" : ""
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1692006490469_387532_24529",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524176_981340_91082",
+    "Name" : "Logical Element Role"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1698318103660_937765_37340",
+    "Name" : ""
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1681818503306_535790_29601",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524176_349234_91039",
+    "Name" : "LIPDdefiningDetailOfLIP"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1681818473370_517582_29594",
+    "Name" : ""
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1681818201635_643021_29503",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524176_770729_91040",
+    "Name" : "LIPPspecifyingDetailOfLIPD"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1681818167067_310281_29495",
+    "Name" : ""
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697110938951_703732_175297",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1697110372756_168059_150785",
+    "Name" : "PCPisPartOfPIPD"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1697110865880_731545_175274",
+    "Name" : ""
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697104744749_415678_72366",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524176_539421_91036",
+    "Name" : "PEKtypingPIE"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1697104711861_685153_72355",
+    "Name" : ""
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697104944625_316636_72573",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524176_605407_91026",
+    "Name" : "PEKtypingPIPP"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1697104931657_586086_72562",
+    "Name" : ""
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1698303901542_239756_33806",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524176_827364_91044",
+    "Name" : "PIPapplyingToAPE"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1698303867220_276708_33791",
+    "Name" : ""
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697105773836_195731_72759",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524176_477765_91035",
+    "Name" : "PIPDdefiningDetailOfPIP"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1697105754571_869720_72748",
+    "Name" : ""
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697106602295_224497_72957",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524176_401348_91038",
+    "Name" : "PIPPspecifyingDetailOfPIPD"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1697106526057_735942_72934",
+    "Name" : ""
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1675980940663_907945_29006",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1675981347806_599070_29437",
+    "Name" : "Context Function IN System Process"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_8710274_1716829255386_751832_18291",
+    "Name" : ""
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_4_26f0132_1624964176456_877521_4429",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1675981331374_205908_29130",
+    "Name" : "System Function IN System Process"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_8710274_1716829149831_366341_18205",
+    "Name" : ""
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_8710274_1716828940249_247846_18102",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_8710274_1716826749795_177784_16590",
+    "Name" : "System Partial Function in System Function"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_8710274_1716829205771_563297_18246",
+    "Name" : ""
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1701358184715_451816_90643",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1700810136506_485576_48133",
+    "Name" : "TRMdefinedBySDT"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1701358178670_429073_90632",
+    "Name" : ""
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1696692268265_136884_36533",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_8710274_1558520091750_118256_44283",
+    "Name" : "SSHhavingCRN"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1697207072756_422331_60305",
+    "Name" : "concern"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719143119862_799040_28424",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_26f0132_1719142742046_407324_28278",
+    "Name" : "VWconformingToVP"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1719143076012_462143_28415",
+    "Name" : "diagrams"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1698329036295_839976_48834",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524161_503942_91010",
+    "Name" : "SFNallocatedToAPE"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1698328999912_130185_48821",
+    "Name" : "function"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697734018999_907113_32567",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1675988365178_267674_34276",
+    "Name" : "LETspecifyingAPE"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1697733962746_416639_32555",
+    "Name" : "logical_element"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_4_26f0132_1639737137239_47107_544",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_4_26f0132_1639735748424_245279_316",
+    "Name" : "SUChasPostConditionSSE"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1697273945667_128653_30263",
+    "Name" : "PostConditionStates"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_4_26f0132_1639737508657_648390_550",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_4_26f0132_1639735755383_425330_337",
+    "Name" : "SUChasPreConditionSSE"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1697273920739_355569_30251",
+    "Name" : "PreConditionStates"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1681827866635_591099_24207",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303522067_850826_89482",
+    "Name" : "LCNallowingLIE"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1681827830138_917224_24184",
+    "Name" : "realizingConnector"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1600960722075_444314_5187",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_3_26f0132_1583963874197_988038_23051",
+    "Name" : "OCNallowingOIE"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1681827830138_917224_24184",
+    "Name" : "realizingConnector"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697107256638_883580_121906",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524176_759771_91046",
+    "Name" : "PCNallowingPIE"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1681827830138_917224_24184",
+    "Name" : "realizingConnector"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719750575409_635264_16712",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_26f0132_1719141564806_4128_25334",
+    "Name" : "VPbelongingToAT"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1697454659199_326547_30138",
+    "Name" : "saf_aspect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719750503377_874994_16676",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_26f0132_1719141336629_21600_25167",
+    "Name" : "VPbelongingToDN"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1697454668640_501686_30146",
+    "Name" : "saf_domain"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1621260620647_630450_2332",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_4_6d8019d_1621167443409_435880_621",
+    "Name" : "SUCtakingPlaceInLSC"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1697273420898_578612_29983",
+    "Name" : "subject"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697272981086_438992_29453",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1567779491655_900665_58731",
+    "Name" : "OSYtakingPlaceInOCT"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1697272909287_290541_29366",
+    "Name" : "subject"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697454526367_933695_30096",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1697453623560_622137_29153",
+    "Name" : "Aspect"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_2_8710274_1573477887520_150508_55457",
+    "Name" : "SCM_AspectColumn"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719750736454_466896_16786",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_26f0132_1719749431514_697590_16049",
+    "Name" : "SE Concept"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_1_26f0132_1554446849880_209491_45751",
+    "Name" : "SCM_Concept"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719776894962_523265_37434",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_26f0132_1719749468596_132410_16077",
+    "Name" : "SECrelatesToSEC"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_1_26f0132_1554446849880_209491_45751",
+    "Name" : "SCM_Concept"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719777721066_388108_38162",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_26f0132_1719748385761_197755_15378",
+    "Name" : "Rationale"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1674480382649_73207_23279",
+    "Name" : "SCM_ConcernRationale"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697454535226_773817_30102",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1697453629868_350923_29165",
+    "Name" : "Domain"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_2_8710274_1573477870984_860224_55395",
+    "Name" : "SCM_DomainLayer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719750658713_463193_16736",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_26f0132_1719748378083_695462_15356",
+    "Name" : "VPframesCN"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1674491733178_832540_36276",
+    "Name" : "SCM_FramesConcern"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719750448160_370103_16640",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1697454030821_682386_29382",
+    "Name" : "Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_2_26f0132_1565349260878_452014_55581",
+    "Name" : "SCM_Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719750705295_797454_16762",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_26f0132_1719748355302_515347_15328",
+    "Name" : "Concern"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_2_26f0132_1567750329217_558819_53202",
+    "Name" : "SCM_VPConcern"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719777758115_808650_38236",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_26f0132_1719748770980_708368_15656",
+    "Name" : "Stakeholder"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1674486070195_664660_27223",
+    "Name" : "SCM_VPStakeholder"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719775542538_326435_35968",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_26f0132_1719773960755_475101_34978",
+    "Name" : "PIimplementsSEC"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_3_26f0132_1599119762456_465222_334",
+    "Name" : "SCM_RealizeConcept"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719775576881_633068_35974",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_26f0132_1719774817697_854148_35615",
+    "Name" : "SSTimplementsVP"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_3_26f0132_1599119762456_465222_334",
+    "Name" : "SCM_RealizeConcept"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719737977554_759416_28897",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_26f0132_1719735530442_324624_25471",
+    "Name" : "Framework Concern Definition Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1719737905319_53042_28833",
+    "Name" : "SCM_D6_CCND_Table"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719737758313_982180_28775",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_26f0132_1719735639175_641082_26522",
+    "Name" : "Framework Concept Definition Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1702027432699_857546_20465",
+    "Name" : "SCM_D2_COTD"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719737763738_661045_28785",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_26f0132_1719735639175_641082_26522",
+    "Name" : "Framework Concept Definition Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1719737475680_936292_28621",
+    "Name" : "SCM_D2_COTD_Table"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719738056447_152859_28962",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_26f0132_1719735638642_287063_25848",
+    "Name" : "Framework Rationale Definition Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1719738001729_783195_28913",
+    "Name" : "SCM_D6_RATD_Table"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719738126183_769391_29015",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_26f0132_1719735528612_846205_25134",
+    "Name" : "Framework Stakeholder Definition Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1719738093050_603021_28974",
+    "Name" : "SCM_D1_STKD_Table"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719738435266_346518_29198",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_26f0132_1719735523519_523621_24797",
+    "Name" : "Framework Viewpoint Definition Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1719737475678_685392_28619",
+    "Name" : "SCM_D2_VPTD"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719738414285_788152_29162",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_26f0132_1719735411756_812404_24423",
+    "Name" : "Framework Viewpoint Implementation Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1719737520846_727143_28649",
+    "Name" : "SCM_D2_VPTI"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719738515475_62201_29289",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_26f0132_1719735639638_993311_27196",
+    "Name" : "Framework Viewpoint Overview Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1719737521935_491979_28659",
+    "Name" : "SCM_D2_VPTO"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719738489226_113904_29249",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_26f0132_1719735639638_993311_27196",
+    "Name" : "Framework Viewpoint Overview Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1719738460476_855266_29208",
+    "Name" : "SCM_D2_VPTO_Table"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_4_6d8019d_1628262652028_517240_4216",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_4_26f0132_1624612392905_372789_1074",
+    "Name" : "LCEperformingCFN"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_11_5EAPbeta_be00301_1147866646230_488749_1541",
+    "Name" : "Allocate"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_4_6d8019d_1628262666189_933333_4219",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_4_26f0132_1624615117147_549388_2197",
+    "Name" : "LETperformingSFN"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_11_5EAPbeta_be00301_1147866646230_488749_1541",
+    "Name" : "Allocate"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1601463036987_928432_11776",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_3_8710274_1581675388411_771999_50581",
+    "Name" : "OPRperformingOPSU"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_11_5EAPbeta_be00301_1147866646230_488749_1541",
+    "Name" : "Allocate"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697733483976_849035_32224",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1697730753339_508227_29549",
+    "Name" : "LERspecifyingGPR"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_11_5EAPbeta_be00301_1147866646230_488749_1541",
+    "Name" : "Allocate"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1698417314088_738614_62786",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303523801_894791_90759",
+    "Name" : "PEKrealizingSDK"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_11_5EAPbeta_be00301_1147866646230_488749_1541",
+    "Name" : "Allocate"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1675987942869_151598_33122",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524161_863086_91005",
+    "Name" : "USAGEallocatedTo"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_11_5EAPbeta_be00301_1147866646230_488749_1541",
+    "Name" : "Allocate"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719750829476_219099_17006",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_26f0132_1719749573029_735591_16107",
+    "Name" : "SECisProvidedByVP"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_17_0_5beta_17530432_1382587480303_325976_12505",
+    "Name" : "Expose"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599151643837_896782_5612",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524176_980387_91029",
+    "Name" : "Logical Interaction Point Property"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_11_5EAPbeta_be00301_1147436061009_177713_1911",
+    "Name" : "FlowProperty"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1675524350667_794260_24980",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524176_114179_91028",
+    "Name" : "Physical Interaction Point Property"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_11_5EAPbeta_be00301_1147436061009_177713_1911",
+    "Name" : "FlowProperty"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599149602623_546034_5045",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524176_663216_91033",
+    "Name" : "Logical Item Exchange"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_11_0_be00301_1147691436170_978680_223",
+    "Name" : "ItemFlow"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599121307075_783099_1135",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_3_26f0132_1583963832153_320549_23021",
+    "Name" : "Operational Item Exchange"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_11_0_be00301_1147691436170_978680_223",
+    "Name" : "ItemFlow"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1675027576398_438772_30509",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524176_925142_91031",
+    "Name" : "Physical Item Exchange"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_11_0_be00301_1147691436170_978680_223",
+    "Name" : "ItemFlow"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599149645823_657164_5057",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524176_546931_91032",
+    "Name" : "Logical Interaction Point"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_17_0_3_17530432_1320213131032_5397_2410",
+    "Name" : "ProxyPort"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1675027640531_223073_30515",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524176_842935_91034",
+    "Name" : "Physical Interaction Point"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_17_0_3_17530432_1320213131032_5397_2410",
+    "Name" : "ProxyPort"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599149624789_337899_5051",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524176_980990_91037",
+    "Name" : "Logical Connection"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_9_0_62a020a_1105704884559_152470_7636",
+    "Name" : "Connector"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599121320029_794465_1141",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_3_26f0132_1583963707692_371546_22970",
+    "Name" : "Operational Connection"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_9_0_62a020a_1105704884559_152470_7636",
+    "Name" : "Connector"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1675029844600_153959_30638",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524176_610387_91043",
+    "Name" : "Physical Connection"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_9_0_62a020a_1105704884559_152470_7636",
+    "Name" : "Connector"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_4_26f0132_1624964122694_251078_4416",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_3_6d8019d_1609520174192_971623_551",
+    "Name" : "GFNcontrolledAFTER"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_9_0_62a020a_1105704893364_624946_8539",
+    "Name" : "ControlFlow"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1600502211918_886469_1748",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_3_26f0132_1600501947277_784541_1508",
+    "Name" : "controlledAFTER"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_9_0_62a020a_1105704893364_624946_8539",
+    "Name" : "ControlFlow"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_4_6d8019d_1627829886806_767348_1191",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_4_6d8019d_1627829323787_791914_508",
+    "Name" : "Triggering Event"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_9_0_62a020a_1105704907923_155432_9176",
+    "Name" : "Event"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599129145271_330240_1398",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_1_26f0132_1554447577832_897366_46461",
+    "Name" : "SUCincludingSUC"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_9_0_62a020a_1105704919620_597571_9304",
+    "Name" : "Include"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_4_6d8019d_1632220952213_286741_1174",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_8710274_1567168660956_439379_56337",
+    "Name" : "GFEtoGFP"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_9_0_62a020a_1105704887035_839239_8133",
+    "Name" : "InputPin"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_4_26f0132_1631283559283_132615_4721",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_3_26f0132_1600784085690_759296_860",
+    "Name" : "TO"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_9_0_62a020a_1105704887035_839239_8133",
+    "Name" : "InputPin"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_4_26f0132_1626792090975_876142_3466",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_3_26f0132_1582317772054_442780_58842",
+    "Name" : "System Context Interaction Scenario"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_9_0_62a020a_1105704887901_869040_8246",
+    "Name" : "Interaction"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599149910367_262388_5082",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_3_26f0132_1582314602701_812421_56211",
+    "Name" : "Logical Interaction Scenario"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_9_0_62a020a_1105704887901_869040_8246",
+    "Name" : "Interaction"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599128540920_892997_1361",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1561752967418_869778_50310",
+    "Name" : "Operational Interaction Scenario"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_9_0_62a020a_1105704887901_869040_8246",
+    "Name" : "Interaction"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_4_26f0132_1626791839500_878977_3253",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_3_26f0132_1582317965050_858700_58885",
+    "Name" : "System Context Scenario Participation"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_9_0_62a020a_1105704887938_842870_8254",
+    "Name" : "Lifeline"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599149919599_738672_5094",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_3_26f0132_1582315087346_20721_56621",
+    "Name" : "Logical Scenario Participation"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_9_0_62a020a_1105704887938_842870_8254",
+    "Name" : "Lifeline"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599128564317_751745_1373",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1561753960035_59004_50670",
+    "Name" : "Operational Scenario Participation"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_9_0_62a020a_1105704887938_842870_8254",
+    "Name" : "Lifeline"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_4_26f0132_1626791823074_293943_3239",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_3_26f0132_1582318082493_106012_58951",
+    "Name" : "System Context Chronological Message"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_9_0_62a020a_1105704888195_415551_8289",
+    "Name" : "Message"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599149915519_355449_5088",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_3_26f0132_1582315257123_533586_56785",
+    "Name" : "Logical Chronological Message"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_9_0_62a020a_1105704888195_415551_8289",
+    "Name" : "Message"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599128554597_304013_1367",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1561753696413_162391_50607",
+    "Name" : "Operational Chronological Message"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_9_0_62a020a_1105704888195_415551_8289",
+    "Name" : "Message"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599148831330_883212_5003",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_8710274_1567168520242_378357_56193",
+    "Name" : "General Functional Exchange"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_9_0_62a020a_1105704893403_369088_8547",
+    "Name" : "ObjectFlow"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1600789214556_717523_1207",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_3_26f0132_1600784136485_599221_879",
+    "Name" : "Operational Process Exchange"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_9_0_62a020a_1105704893403_369088_8547",
+    "Name" : "ObjectFlow"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_4_6d8019d_1632220983169_539279_1175",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_8710274_1567168628900_60412_56295",
+    "Name" : "GFEfromGFP"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_9_0_62a020a_1105704886374_19265_8125",
+    "Name" : "OutputPin"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_4_26f0132_1631283529346_832126_4715",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_3_26f0132_1600784085690_130474_861",
+    "Name" : "FROM"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_9_0_62a020a_1105704886374_19265_8125",
+    "Name" : "OutputPin"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599150105492_851890_5124",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_8710274_1558520103521_679129_44321",
+    "Name" : "SHRimposedBY"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_9_0_62a020a_1105704885298_713292_7913",
+    "Name" : "Package"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599151679156_822087_5619",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524161_902110_90999",
+    "Name" : "General Functional Parameter"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_9_0_62a020a_1105704884528_587873_7620",
+    "Name" : "Parameter"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599149677735_754561_5069",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524176_849218_91042",
+    "Name" : "LIPapplyingToLCE"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_9_0_62a020a_1105704884574_96724_7644",
+    "Name" : "Property"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599149666596_699126_5063",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524176_125039_91041",
+    "Name" : "LIPapplyingToLET"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_9_0_62a020a_1105704884574_96724_7644",
+    "Name" : "Property"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599147112145_127700_4894",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303523973_719860_90882",
+    "Name" : "System State"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_9_0_62a020a_1105704932587_977586_9575",
+    "Name" : "State"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599147151072_162318_4900",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303523801_666926_90760",
+    "Name" : "SDKbeeingInSSE"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_9_0_62a020a_1105704932656_223024_9583",
+    "Name" : "StateMachine"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599147185220_660459_4906",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524176_991194_91090",
+    "Name" : "LETbeeingInSSE"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_9_0_62a020a_1105704932656_223024_9583",
+    "Name" : "StateMachine"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_19_0_3_26f0132_1599147096382_310871_4888",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562307450269_33287_141718",
+    "Name" : "State Transition"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_9_0_62a020a_1105704932761_361072_9592",
+    "Name" : "Transition"
+  }
+} ]

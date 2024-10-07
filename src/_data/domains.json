@@ -1,0 +1,31 @@
+[ {
+  "Name" : "Common",
+  "ID" : "_19_0_3_ebf0350_1584204842123_940980_356",
+  "DomainID" : "C",
+  "Documentation" : "Defines overarcing content, e.g. Terms, Applicable Standards"
+}, {
+  "Name" : "SAF Development",
+  "ID" : "_2024x_26f0132_1719736322867_114112_27937",
+  "DomainID" : "D",
+  "Documentation" : "The SAF Development Domain supports the development, maintenance and extension of the SAF. "
+}, {
+  "Name" : "Functional",
+  "ID" : "_19_0_2_8710274_1573478560509_477211_55776",
+  "DomainID" : "F",
+  "Documentation" : "The Functional Domain Viewpoints addresses information needs during the System Requirements definition Process. It focuses on conceptual black box aspects of the system.\n\nE.g. it translates Operational Domain (intended solution) usage into the notion of System Functions defining the demanded system behavior and quality attributes - performance, safety, security, etc.; the demanded system behavior as it is perceived by the User or other Entities at the System Boundary (known as usage behavior). The result of the Functional Domain viewpoint-oriented elaboration approach is a comprehensive System Specification.\n"
+}, {
+  "Name" : "Logical",
+  "ID" : "_19_0_2_8710274_1573478570540_322780_55779",
+  "DomainID" : "L",
+  "Documentation" : "The Logical Domain Viewpoints address the information need during the architecture definition process. It focuses on conceptual white box aspect of the system.\n\nIt describes the SOI Logical Structure and the distribution of responsibilities for the functionality of the SOI by means of a network of interacting Logical Elements that are responsible for a set of desired Functions. These Logical Elements and their Interactions are arranged in the Logical Architecture of the SOI. The structure of the Logical Architecture is in general influenced by Non-functional criteria, e.g., maintainability, reliability, safety, and security.\n"
+}, {
+  "Name" : "Operational",
+  "ID" : "_19_0_2_8710274_1573478201473_148841_55747",
+  "DomainID" : "O",
+  "Documentation" : "The SAF Operational Domain adresses the information need during the concept phase (misson Analysis and Stakeholder Requirements elicitation). \n\nIt supports the model-based development of a CONOPS - as well as an OPSCON and related life cycle concepts - for an organization or operational entity seeking for an improvement of existing capabilities or in establishing new ones."
+}, {
+  "Name" : "Physical",
+  "ID" : "_19_0_2_8710274_1573478640538_228530_55788",
+  "DomainID" : "P",
+  "Documentation" : "The SAF Physical Domain addresses information needs during the Design Definition Process. It takes a view on the physical black and white box aspects of the system.\n\nIt supports the representation of the Product Breakdown Structure, the identification of external and internal physical interfaces, the provision of viewpoints for the system overview, the integration planning, production planning, and the features and variations implied in the system. The physical architecture typically is a combination of re-use elements, COTS elements and make-items for HW as well as for SW. The properties of the selected physical components and their provided resources are identified and modeled. A major concern of the SAF Physical Domain are the physical interfaces, their identification and definition. For that purpose, the SAF Physical Domain provides the viewpoints to model interface with different level of detail considering the actual needs for the point of time in the project life cycle. For traceability the SAF Physical Domain defines viewpoints showing the mapping of the functional elements and their interfaces to physical elements and their interfaces."
+} ]

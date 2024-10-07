@@ -1,0 +1,316 @@
+[ {
+  "ID" : "_19_0_3_6d8019d_1589112275163_56055_429",
+  "Documentation" : "",
+  "Name" : "SAR and FDN Capability Definition",
+  "ExampleForVPID" : "O2_OCYD"
+}, {
+  "ID" : "_2021x_2_6d8019d_1684238699939_732363_27021",
+  "Documentation" : "",
+  "Name" : "SAR and FDN Capability Mapping Table",
+  "ExampleForVPID" : "O8_OCYM"
+}, {
+  "ID" : "_19_0_4_26f0132_1631262476561_915469_2823",
+  "Documentation" : "",
+  "Name" : "Operational Domain Item Definition",
+  "ExampleForVPID" : "O2_ODIK"
+}, {
+  "ID" : "_2021x_2_6d8019d_1690572862862_552366_28803",
+  "Documentation" : "",
+  "Name" : "Operational Domain Item Table",
+  "ExampleForVPID" : "O2_ODIK"
+}, {
+  "ID" : "_19_0_3_6d8019d_1600338266852_212206_17675",
+  "Documentation" : "",
+  "Name" : "FDN Context Definition",
+  "ExampleForVPID" : "O1_OCXD"
+}, {
+  "ID" : "_19_0_4_6d8019d_1629636631575_609870_17878",
+  "Documentation" : "",
+  "Name" : "FDN Context Exchange",
+  "ExampleForVPID" : "O1_OCXE"
+}, {
+  "ID" : "_19_0_3_6d8019d_1599322468378_421992_248",
+  "Documentation" : "",
+  "Name" : "Operational Performer Definition",
+  "ExampleForVPID" : "O2_OPRF"
+}, {
+  "ID" : "_19_0_3_6d8019d_1600601151467_278216_18976",
+  "Documentation" : "",
+  "Name" : "Operational Performer Table",
+  "ExampleForVPID" : "O2_OPRF"
+}, {
+  "ID" : "_19_0_3_26f0132_1601621883205_124843_619",
+  "Documentation" : "",
+  "Name" : "SAR and FDN Operational Process Mapping Table",
+  "ExampleForVPID" : "O8_OPRM"
+}, {
+  "ID" : "_19_0_3_6d8019d_1589112272824_169753_204",
+  "Documentation" : "",
+  "Name" : "Exemplary Operational Story",
+  "ExampleForVPID" : "O1_OSTY"
+}, {
+  "ID" : "_19_0_3_6d8019d_1600353937709_468464_302",
+  "Documentation" : "",
+  "Name" : "Fire Detection and Notification Process",
+  "ExampleForVPID" : "O3_OPRO"
+}, {
+  "ID" : "_2024x_1_26f0132_1722258766618_9302_15524",
+  "Documentation" : "",
+  "Name" : "Fire Detection and Notification",
+  "ExampleForVPID" : "O4_OCXI"
+}, {
+  "ID" : "_18_4_3c00182_1480313253427_102055_30380",
+  "Documentation" : "",
+  "Name" : "Stakeholder Identification Definition",
+  "ExampleForVPID" : "O2_STID"
+}, {
+  "ID" : "_2021x_2_6d8019d_1690464242065_940654_27027",
+  "Documentation" : "",
+  "Name" : "Stakeholder Requirement Table",
+  "ExampleForVPID" : "O6_SKRD"
+}, {
+  "ID" : "_2021x_2_8710274_1700819581949_354470_51885",
+  "Documentation" : "",
+  "Name" : "FFDS_Standards",
+  "ExampleForVPID" : "C2_CSTD"
+}, {
+  "ID" : "_2021x_2_8710274_1700819812340_12506_51948",
+  "Documentation" : "",
+  "Name" : "FFDS_Standards",
+  "ExampleForVPID" : "C2_CSTD"
+}, {
+  "ID" : "_2021x_2_8710274_1701361719881_255436_95677",
+  "Documentation" : "",
+  "Name" : "PNG V3 Terms",
+  "ExampleForVPID" : "C2_TRMD"
+}, {
+  "ID" : "_2021x_2_6d8019d_1686425540831_788895_27105",
+  "Documentation" : "",
+  "Name" : "FFDS Safety Assurance Definition",
+  "ExampleForVPID" : "C2_ARAS"
+}, {
+  "ID" : "_19_0_4_26f0132_1631132028323_832550_18283",
+  "Documentation" : "",
+  "Name" : "FFDS Capability Definition",
+  "ExampleForVPID" : "F2_SCYD"
+}, {
+  "ID" : "_2021x_2_6d8019d_1691167076367_766325_27159",
+  "Documentation" : "",
+  "Name" : "FFDS Capability Mapping Table",
+  "ExampleForVPID" : "F8_SCYM"
+}, {
+  "ID" : "_18_1_3c00182_1450814089865_467303_50732",
+  "Documentation" : "",
+  "Name" : "FFDS Context Definition",
+  "ExampleForVPID" : "F1_SCXD"
+}, {
+  "ID" : "_18_2_3c00182_1453968521162_750998_20510",
+  "Documentation" : "",
+  "Name" : "FFDS Context Definition Table",
+  "ExampleForVPID" : "F1_SCXD"
+}, {
+  "ID" : "_18_4_3c00182_1480313818211_298959_31400",
+  "Documentation" : "",
+  "Name" : "FFDS Context Exchange",
+  "ExampleForVPID" : "F1_SCXE"
+}, {
+  "ID" : "_19_0_3_6d8019d_1588607783346_352662_350",
+  "Documentation" : "",
+  "Name" : "FFDS Context Interaction",
+  "ExampleForVPID" : "F4_SCXI"
+}, {
+  "ID" : "_18_1_3c00182_1450814090189_564309_51094",
+  "Documentation" : "",
+  "Name" : "FFDS System Domain Item Definition",
+  "ExampleForVPID" : "F2_SDIK"
+}, {
+  "ID" : "_19_0_3_6d8019d_1587454301720_18697_53466",
+  "Documentation" : "",
+  "Name" : "Detect and Report Fire",
+  "ExampleForVPID" : "F3_SFRE"
+}, {
+  "ID" : "_19_0_4_26f0132_1635501301795_895085_884",
+  "Documentation" : "",
+  "Name" : "FFDS Function Breakdown Structure Definition",
+  "ExampleForVPID" : "F2_SFBS"
+}, {
+  "ID" : "_2021x_2_8710274_1679481494092_175667_26513",
+  "Documentation" : "",
+  "Name" : "FFDS System Interface Definition",
+  "ExampleForVPID" : "F5_SIFD"
+}, {
+  "ID" : "_19_0_3_6d8019d_1588701641763_935257_603",
+  "Documentation" : "",
+  "Name" : " Mapping of Functions To Logical Elements",
+  "ExampleForVPID" : "L8_LFUM"
+}, {
+  "ID" : "_18_1_3c00182_1450814089561_466464_50381",
+  "Documentation" : "",
+  "Name" : "FFDS Logical Architecture Definition",
+  "ExampleForVPID" : "L2_LSTD"
+}, {
+  "ID" : "_18_4_3c00182_1480317908724_604299_35483",
+  "Documentation" : "",
+  "Name" : "FFDS Internal Interaction",
+  "ExampleForVPID" : "L4_LITI"
+}, {
+  "ID" : "_19_0_3_6d8019d_1587903359409_504540_53267",
+  "Documentation" : "",
+  "Name" : "FFDS Logical Internal Exchange",
+  "ExampleForVPID" : "L4_LIEX"
+}, {
+  "ID" : "_18_4_3c00182_1480318142146_296838_35719",
+  "Documentation" : "",
+  "Name" : "FFDS System Modes and States",
+  "ExampleForVPID" : "F3_SSTA"
+}, {
+  "ID" : "_2021x_2_8710274_1695648690450_521977_32967",
+  "Documentation" : "Note, that some internals of the system are shown, in order to explain that system internal communication happens in fact over external services. \n\nNote, that the interface of the system to the wired isp is fully delegated, to the ccu and  it uses the same interface definition. In contrast, the interface to the lte ISP uses a different interface spec ",
+  "Name" : "FFDS  POC System Context",
+  "ExampleForVPID" : "P1_PCXE"
+}, {
+  "ID" : "_2024x_8710274_1717757970886_981437_15535",
+  "Documentation" : "",
+  "Name" : "POC FFDS Interfaces",
+  "ExampleForVPID" : "P1_PCXE"
+}, {
+  "ID" : "_2021x_2_8710274_1695638583390_640589_60728",
+  "Documentation" : "",
+  "Name" : "FFDS_POC System Physical Context Definition",
+  "ExampleForVPID" : "P1_PCXD"
+}, {
+  "ID" : "_2021x_2_8710274_1698332267659_566525_76783",
+  "Documentation" : "",
+  "Name" : "Function To Physical",
+  "ExampleForVPID" : "P8_PFUM"
+}, {
+  "ID" : "_2021x_2_8710274_1696593549704_655410_91025",
+  "Documentation" : "",
+  "Name" : "Arduino Interfaces Types",
+  "ExampleForVPID" : "P5_PIFD"
+}, {
+  "ID" : "_2021x_2_8710274_1695208986903_203958_26642",
+  "Documentation" : "",
+  "Name" : "Boundary Interface Types",
+  "ExampleForVPID" : "P5_PIFD"
+}, {
+  "ID" : "_2021x_2_8710274_1696599882339_266143_98316",
+  "Documentation" : "",
+  "Name" : "Internal Interface Types",
+  "ExampleForVPID" : "P5_PIFD"
+}, {
+  "ID" : "_2021x_2_8710274_1695631251919_634817_31111",
+  "Documentation" : "",
+  "Name" : "POC FFDS System 1",
+  "ExampleForVPID" : "P2_PSTD"
+}, {
+  "ID" : "_2021x_2_8710274_1697731758989_399225_29861",
+  "Documentation" : "",
+  "Name" : "Physical Logical Mapping",
+  "ExampleForVPID" : "P8_PLOM"
+}, {
+  "ID" : "_2024x_8710274_1717681657279_28457_15696",
+  "Documentation" : "",
+  "Name" : "Proof Of Concept FFDS System Internal Exchange",
+  "ExampleForVPID" : "P4_PIEX"
+}, {
+  "ID" : "_2021x_2_8710274_1696580985906_141227_60131",
+  "Documentation" : "",
+  "Name" : "Proof Of Concept FFDS System Internal Network Exchange",
+  "ExampleForVPID" : "P4_PIEX"
+}, {
+  "ID" : "_2021x_2_8710274_1697094226233_690625_61278",
+  "Documentation" : "",
+  "Name" : "POC CCU",
+  "ExampleForVPID" : "P2_PSTD"
+}, {
+  "ID" : "_2021x_2_8710274_1697094208337_28998_60403",
+  "Documentation" : "",
+  "Name" : "POC Comms Node",
+  "ExampleForVPID" : "P2_PSTD"
+}, {
+  "ID" : "_2021x_2_8710274_1695648971402_992343_33498",
+  "Documentation" : "",
+  "Name" : "POC Comms Node Environmental and Mounting",
+  "ExampleForVPID" : "P4_PIEX"
+}, {
+  "ID" : "_2021x_2_8710274_1697019824141_836856_34041",
+  "Documentation" : "",
+  "Name" : "POC Comms Node Network Aspects",
+  "ExampleForVPID" : "P4_PIEX"
+}, {
+  "ID" : "_2021x_2_8710274_1697094192388_776226_59528",
+  "Documentation" : "",
+  "Name" : "POC Dev Sensor Node",
+  "ExampleForVPID" : "P2_PSTD"
+}, {
+  "ID" : "_2021x_2_6d8019d_1690659181449_174968_28947",
+  "Documentation" : "",
+  "Name" : "System Requirement Table",
+  "ExampleForVPID" : "F6_SRQD"
+}, {
+  "ID" : "_2021x_2_6d8019d_1690175660194_875898_26545",
+  "Documentation" : "",
+  "Name" : "System Requirement Traceability Matrix",
+  "ExampleForVPID" : "F8_SRQT"
+}, {
+  "ID" : "_19_0_3_6d8019d_1587810786253_715619_53557",
+  "Documentation" : "",
+  "Name" : "Fire Detection and Monitoring",
+  "ExampleForVPID" : "F3_SPRO"
+}, {
+  "ID" : "_19_0_4_6d8019d_1626717318881_416688_987",
+  "Documentation" : "",
+  "Name" : "FFDS Use Case A Day in Life of the System",
+  "ExampleForVPID" : "F1_SUCD"
+}, {
+  "ID" : "_18_2_3c00182_1453969195787_418001_22174",
+  "Documentation" : "",
+  "Name" : "FFDS Use Case Table",
+  "ExampleForVPID" : "F1_SUCD"
+}, {
+  "ID" : "_19_0_3_6d8019d_1587285942009_731496_53319",
+  "Documentation" : "",
+  "Name" : "FFDS Glossary Table",
+  "ExampleForVPID" : "C2_TRMD"
+}, {
+  "ID" : "_19_0_3_8710274_1581665834898_520724_48775",
+  "Documentation" : "describes the dependencies between capabilities",
+  "Name" : "SAF_capability_O Definition",
+  "ExampleForVPID" : "D2_COTD"
+}, {
+  "ID" : "_19_0_3_8710274_1581665859314_612977_48817",
+  "Documentation" : "",
+  "Name" : "SAF_capability_O Table",
+  "ExampleForVPID" : "D2_COTD"
+}, {
+  "ID" : "_2024x_1_26f0132_1727275405703_529964_16206",
+  "Documentation" : "",
+  "Name" : "SAF Concern Table (Example)",
+  "ExampleForVPID" : "D6_CCND"
+}, {
+  "ID" : "_2021x_2_8710274_1674584322770_399266_27192",
+  "Documentation" : "",
+  "Name" : "SAF Rationale Table (Example)",
+  "ExampleForVPID" : "D6_RATD"
+}, {
+  "ID" : "_19_0_2_ebf0350_1555170952780_991251_43738",
+  "Documentation" : "",
+  "Name" : "SAF Stakeholder Table",
+  "ExampleForVPID" : "D1_STKD"
+}, {
+  "ID" : "_19_0_2_26f0132_1562303529036_923400_94274",
+  "Documentation" : "",
+  "Name" : "Logical Structure Definition Concept",
+  "ExampleForVPID" : "D2_VPTD"
+}, {
+  "ID" : "_19_0_2_26f0132_1562303529036_753566_94295",
+  "Documentation" : "",
+  "Name" : "Logical Structure Definition Profile",
+  "ExampleForVPID" : "D2_VPTI"
+}, {
+  "ID" : "_2024x_26f0132_1719745438501_922673_37455",
+  "Documentation" : "",
+  "Name" : "SAF Stereotype Table (example)",
+  "ExampleForVPID" : "D2_STYD"
+} ]
