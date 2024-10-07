@@ -8,7 +8,7 @@
 ## Purpose
 The Rationale Viewpoint defines the relationship between Stakeholders and their Concerns in the context of Development of SAF. The Rationale formulates why a Stakeholder has a certain concern.
 ## Applicability
-The ... Viewpoint supports the ...  in INCOSE SYSTEMS ENGINEERING HANDBOOK 2023.
+The Viewpoint supports the definition of  "Stakeholders and concerns", and  "Specification of an architecture description framework" as defined in ISO41010:2022
 ## Presentation
 A matrix featuring SCM_VPStakeholder elements and SCM_VPConcern elements as rows and columns, and a marking in cells where a SCM_ConcernRationale connects a stakeholder with a concern.
 

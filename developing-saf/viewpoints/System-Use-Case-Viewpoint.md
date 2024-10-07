@@ -1,5 +1,5 @@
 ![System Architecture Framework](../../diagrams/Banner_SAF.png)
-# SAF Development Documentation : **F1_SUCS** System Use Case Viewpoint
+# SAF Development Documentation : **F1_SUCD** System Use Case Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Functional](../../domains.md#Domain-Functional)|[Context & Exchange](../../aspects.md#Aspect-Context-&-Exchange)|![Released](../../diagrams/Symbol_confirmed.png )[released](../../using-saf/maturity.md#released)|
@@ -39,8 +39,8 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |Attribute "PreConditionStates" of SAF_SystemUseCase referencing State|[SUChasPreConditionSSE](../concept/concepts.md#SUChasPreConditionSSE)|
 |Attribute "subject" of UseCase referencing SAF_LogicalContext|[SUCtakingPlaceInLSC](../concept/concepts.md#SUCtakingPlaceInLSC)|
 |Include [UML_Standard_Profile]|[SUCincludingSUC](../concept/concepts.md#SUCincludingSUC)|
-|[SAF_F1_SUCS](../../stereotypes.md#saf_f1_sucs)|[System Use Case Viewpoint](../concept/concepts.md#System-Use-Case-Viewpoint)|
-|[SAF_F1_SUCS_Table](../../stereotypes.md#saf_f1_sucs_table)|[System Use Case Viewpoint](../concept/concepts.md#System-Use-Case-Viewpoint)|
+|[SAF_F1_SUCD](../../stereotypes.md#saf_f1_sucd)|[System Use Case Viewpoint](../concept/concepts.md#System-Use-Case-Viewpoint)|
+|[SAF_F1_SUCD_Table](../../stereotypes.md#saf_f1_sucd_table)|[System Use Case Viewpoint](../concept/concepts.md#System-Use-Case-Viewpoint)|
 |[SAF_LogicalContextElementActing](../../stereotypes.md#saf_logicalcontextelementacting)|[LCEactingInSUC](../concept/concepts.md#LCEactingInSUC)|
 |[SAF_LogicalContext](../../stereotypes.md#saf_logicalcontext)|[Logical System Context](../concept/concepts.md#Logical-System-Context)|
 |[SAF_LogicalEnvironment](../../stereotypes.md#saf_logicalenvironment)|[Logical Environment](../concept/concepts.md#Logical-Environment)|

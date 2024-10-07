@@ -17,7 +17,7 @@ A table featuring the stereotypes of the SAF profile and their documentation.
 * [SAF MBSE approch planer](../stakeholders.md#SAF-MBSE-approch-planer)
 * [SAF System model user](../stakeholders.md#SAF-System-model-user)
 ## Concern
-* [What are the frameworks model elements to be used](../concerns.md#_2024x_26f0132_1719746308347_570628_39136)
+* [What are the frameworks model elements to be used in system models?](../concerns.md#_2024x_26f0132_1719746308347_570628_39136)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_C2_STYD_Table](../stereotypes.md#saf_c2_styd_table)

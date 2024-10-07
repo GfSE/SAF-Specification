@@ -49,11 +49,11 @@ Used in the communication between Stakeholder (Customer) and Contractor. Complia
 * partially compliant (with explanation / rationale)
 * fully compliant
 ## Concern
-exposed in viewpoint [Concern Viewpoint](../viewpoints/Concern-Viewpoint.md)
+exposed in viewpoint [Framework Concern Definition Viewpoint](../viewpoints/Framework-Concern-Definition-Viewpoint.md)
 
-exposed in viewpoint [Rationale Viewpoint](../viewpoints/Rationale-Viewpoint.md)
+exposed in viewpoint [Framework Rationale Definition Viewpoint](../viewpoints/Framework-Rationale-Definition-Viewpoint.md)
 
-exposed in viewpoint [Stakeholder Viewpoint](../viewpoints/Stakeholder-Viewpoint.md)
+exposed in viewpoint [Framework Stakeholder Definition Viewpoint](../viewpoints/Framework-Stakeholder-Definition-Viewpoint.md)
 
 realized by Stereotype [SCM_VPConcern](../../stereotypes.md#scm_vpconcern)
 
@@ -516,13 +516,13 @@ realized by Stereotype [SAF_Refuter](../../stereotypes.md#saf_refuter)
 
 A party asserting counter-claims.
 ## SAF Stereotype
-exposed in viewpoint [Viewpoint Implementation Viewpoint](../viewpoints/Viewpoint-Implementation-Viewpoint.md)
+exposed in viewpoint [Framework Viewpoint Implementation Viewpoint](../viewpoints/Framework-Viewpoint-Implementation-Viewpoint.md)
 
 A stereotype of the SAF Profile Model
 ## SE Concept
-exposed in viewpoint [Concept Viewpoint](../viewpoints/Concept-Viewpoint.md)
+exposed in viewpoint [Framework Concept Definition Viewpoint](../viewpoints/Framework-Concept-Definition-Viewpoint.md)
 
-exposed in viewpoint [Viewpoint Implementation Viewpoint](../viewpoints/Viewpoint-Implementation-Viewpoint.md)
+exposed in viewpoint [Framework Viewpoint Implementation Viewpoint](../viewpoints/Framework-Viewpoint-Implementation-Viewpoint.md)
 
 realized by Stereotype [SCM_Concept](../../stereotypes.md#scm_concept)
 
@@ -542,11 +542,11 @@ realized by Stereotype [SAF_PhysicalSoftwareElement](../../stereotypes.md#saf_ph
 
 Pure Software Elements. Similarity with the V-Model "software unit".
 ## Stakeholder
-exposed in viewpoint [Concern Viewpoint](../viewpoints/Concern-Viewpoint.md)
+exposed in viewpoint [Framework Concern Definition Viewpoint](../viewpoints/Framework-Concern-Definition-Viewpoint.md)
 
-exposed in viewpoint [Rationale Viewpoint](../viewpoints/Rationale-Viewpoint.md)
+exposed in viewpoint [Framework Rationale Definition Viewpoint](../viewpoints/Framework-Rationale-Definition-Viewpoint.md)
 
-exposed in viewpoint [Stakeholder Viewpoint](../viewpoints/Stakeholder-Viewpoint.md)
+exposed in viewpoint [Framework Stakeholder Definition Viewpoint](../viewpoints/Framework-Stakeholder-Definition-Viewpoint.md)
 
 realized by Stereotype [SCM_VPStakeholder](../../stereotypes.md#scm_vpstakeholder)
 
@@ -588,7 +588,7 @@ realized by Stereotype [SAF_StandardizationSubject](../../stereotypes.md#saf_sta
 
 The goal of standardization is to ensure uniformity to certain practices within the industry. Standardization focuses on the product creation process, operations of businesses, technology in use, and how specific compulsory processes are instituted or carried out. Subject of standardization may be  a Data Exchange Format or a Protocol.
 ## SysML Stereotype
-exposed in viewpoint [Viewpoint Implementation Viewpoint](../viewpoints/Viewpoint-Implementation-Viewpoint.md)
+exposed in viewpoint [Framework Viewpoint Implementation Viewpoint](../viewpoints/Framework-Viewpoint-Implementation-Viewpoint.md)
 
 A stereotype from sysml
 ## System
@@ -743,7 +743,7 @@ realized by Metaclass Event
 
 
 ## UML Metaclass
-exposed in viewpoint [Viewpoint Implementation Viewpoint](../viewpoints/Viewpoint-Implementation-Viewpoint.md)
+exposed in viewpoint [Framework Viewpoint Implementation Viewpoint](../viewpoints/Framework-Viewpoint-Implementation-Viewpoint.md)
 
 A metaclass from UML
 ## User
@@ -756,9 +756,9 @@ realized by Stereotype [SAF_Diagram](../../stereotypes.md#saf_diagram)
 
 A architecture view comprises portion of an architecture description and addresses information-relevant concerns framed by a architecture viewpoint.
 ## Viewpoint
-exposed in viewpoint [Viewpoint Definition Viewpoint](../viewpoints/Viewpoint-Definition-Viewpoint.md)
+exposed in viewpoint [Framework Viewpoint Definition Viewpoint](../viewpoints/Framework-Viewpoint-Definition-Viewpoint.md)
 
-exposed in viewpoint [Viewpoint Implementation Viewpoint](../viewpoints/Viewpoint-Implementation-Viewpoint.md)
+exposed in viewpoint [Framework Viewpoint Implementation Viewpoint](../viewpoints/Framework-Viewpoint-Implementation-Viewpoint.md)
 
 realized by Stereotype [SAF_Viewpoint](../../stereotypes.md#saf_viewpoint)
 
@@ -1345,7 +1345,7 @@ Specifies the fact that a Physical Interaction Point applies to a Physical Conte
 ## PIimplementsSEC
 1 [ProfileItem](#ProfileItem) PIimplementsSEC 1..* [SE Concept](#SE-Concept) 
 
-exposed in viewpoint [Viewpoint Implementation Viewpoint](../viewpoints/Viewpoint-Implementation-Viewpoint.md)
+exposed in viewpoint [Framework Viewpoint Implementation Viewpoint](../viewpoints/Framework-Viewpoint-Implementation-Viewpoint.md)
 
 realized by Stereotype [SCM_RealizeConcept](../../stereotypes.md#scm_realizeconcept)
 
@@ -1519,7 +1519,7 @@ Specifies the fact that a standard supersedes one or more other standards.
 ## SECisProvidedByVP
 1..* [SE Concept](#SE-Concept) SECisProvidedByVP 0..* [Viewpoint](#Viewpoint) 
 
-exposed in viewpoint [Viewpoint Definition Viewpoint](../viewpoints/Viewpoint-Definition-Viewpoint.md)
+exposed in viewpoint [Framework Viewpoint Definition Viewpoint](../viewpoints/Framework-Viewpoint-Definition-Viewpoint.md)
 
 realized by Stereotype Expose
 
@@ -1529,9 +1529,9 @@ Specifies, that one or more SE Concepts are provided by the Viewpoints Views
 ## SECrelatesToSEC
 0..* [SE Concept](#SE-Concept) SECrelatesToSEC 0..* [SE Concept](#SE-Concept) 
 
-exposed in viewpoint [Concept Viewpoint](../viewpoints/Concept-Viewpoint.md)
+exposed in viewpoint [Framework Concept Definition Viewpoint](../viewpoints/Framework-Concept-Definition-Viewpoint.md)
 
-exposed in viewpoint [Viewpoint Definition Viewpoint](../viewpoints/Viewpoint-Definition-Viewpoint.md)
+exposed in viewpoint [Framework Viewpoint Definition Viewpoint](../viewpoints/Framework-Viewpoint-Definition-Viewpoint.md)
 
 realized by Stereotype [SCM_Concept](../../stereotypes.md#scm_concept)
 
@@ -1737,7 +1737,7 @@ Specifies the fact that an User is represented by Stakeholders.
 ## SSTimplementsVP
 1..* [SAF Stereotype](#SAF-Stereotype) SSTimplementsVP 1 [Viewpoint](#Viewpoint) 
 
-exposed in viewpoint [Viewpoint Implementation Viewpoint](../viewpoints/Viewpoint-Implementation-Viewpoint.md)
+exposed in viewpoint [Framework Viewpoint Implementation Viewpoint](../viewpoints/Framework-Viewpoint-Implementation-Viewpoint.md)
 
 realized by Stereotype [SCM_RealizeConcept](../../stereotypes.md#scm_realizeconcept)
 
@@ -1830,9 +1830,9 @@ Specifies the fact that a Usage of Function is allocated to a Usage of System El
 ## VPbelongingToAT
 0..* [Viewpoint](#Viewpoint) VPbelongingToAT 1 [Aspect](#Aspect) 
 
-exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-Viewpoint.md)
+exposed in viewpoint [Framework Viewpoint Definition Viewpoint](../viewpoints/Framework-Viewpoint-Definition-Viewpoint.md)
 
-exposed in viewpoint [Viewpoint Definition Viewpoint](../viewpoints/Viewpoint-Definition-Viewpoint.md)
+exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-Viewpoint.md)
 
 realized by Stereotype [SAF_Viewpoint](../../stereotypes.md#saf_viewpoint)
 
@@ -1842,9 +1842,9 @@ specifies that a viewpoint belongs to one aspect.
 ## VPbelongingToDN
 0..* [Viewpoint](#Viewpoint) VPbelongingToDN 1 [Domain](#Domain) 
 
-exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-Viewpoint.md)
+exposed in viewpoint [Framework Viewpoint Definition Viewpoint](../viewpoints/Framework-Viewpoint-Definition-Viewpoint.md)
 
-exposed in viewpoint [Viewpoint Definition Viewpoint](../viewpoints/Viewpoint-Definition-Viewpoint.md)
+exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-Viewpoint.md)
 
 realized by Stereotype [SAF_Viewpoint](../../stereotypes.md#saf_viewpoint)
 
@@ -1854,9 +1854,9 @@ specifies that a viewpoint belongs to one domain.
 ## VPframesCN
 0..* [Viewpoint](#Viewpoint) VPframesCN 1..* [Concern](#Concern) 
 
-exposed in viewpoint [Concern Viewpoint](../viewpoints/Concern-Viewpoint.md)
+exposed in viewpoint [Framework Concern Definition Viewpoint](../viewpoints/Framework-Concern-Definition-Viewpoint.md)
 
-exposed in viewpoint [Viewpoint Definition Viewpoint](../viewpoints/Viewpoint-Definition-Viewpoint.md)
+exposed in viewpoint [Framework Viewpoint Definition Viewpoint](../viewpoints/Framework-Viewpoint-Definition-Viewpoint.md)
 
 realized by Stereotype [SCM_FramesConcern](../../stereotypes.md#scm_framesconcern)
 
@@ -2176,9 +2176,9 @@ Specifies the fact that a physical structure comprises software elements.
 ## Rationale
 1..* [Stakeholder](#Stakeholder) Rationale 1..* [Concern](#Concern) 
 
-exposed in viewpoint [Rationale Viewpoint](../viewpoints/Rationale-Viewpoint.md)
+exposed in viewpoint [Framework Rationale Definition Viewpoint](../viewpoints/Framework-Rationale-Definition-Viewpoint.md)
 
-exposed in viewpoint [Stakeholder Viewpoint](../viewpoints/Stakeholder-Viewpoint.md)
+exposed in viewpoint [Framework Stakeholder Definition Viewpoint](../viewpoints/Framework-Stakeholder-Definition-Viewpoint.md)
 
 realized by Stereotype [SCM_ConcernRationale](../../stereotypes.md#scm_concernrationale)
 

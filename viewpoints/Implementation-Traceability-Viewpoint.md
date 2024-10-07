@@ -8,7 +8,7 @@
 ## Purpose
 The Implementation Traceability Viewpoint provides an overview about concepts and viewpoints are implementetd using stereotypes or other model elements..
 ## Applicability
-The ... Viewpoint supports the ...  in INCOSE SYSTEMS ENGINEERING HANDBOOK 2023.
+The Viewpoint supports the  "Specification of an architecture description framework" as defined in ISO41010:2022
 ## Presentation
 A Matrix featuring the Concepts, Viewpoints and Stereotypes of the SAF profile.
 
