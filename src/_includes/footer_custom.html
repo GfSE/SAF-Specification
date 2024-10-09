@@ -1,7 +1,9 @@
+
+{% assign pagelinkbody = "(" | append: page.path | append: ")[../src/" | append: page.path | append: "]" | url_encode %}
 <ul class="SiteFooter-links">
   <li>
     <a 
-      href="https://github.com/gfse/SAF-Specification/discussions/new?category=ideas&body={{ page.path  | url_encode }}"
+      href="https://github.com/gfse/SAF-Specification/discussions/new?category=ideas&body={{ pagelinkbody }}"
       class="SiteFooter-button"
       title="Discuss this page on GitHub"
       >Discuss on GitHub</a
@@ -9,7 +11,7 @@
   </li>
   <li>
       <a 
-        href="https://github.com/gfse/SAF-Specification/issues/new?body={{ page.path  | url_encode }}"
+        href="https://github.com/gfse/SAF-Specification/issues/new?body={{ pagelinkbody }}"
         class="SiteFooter-button"
         title="Raise issue on GitHub for this page"
         >Raise Issue on GitHub</a
@@ -17,7 +19,7 @@
   </li>
   <li>
       <a
-        href="https://github.com/gfse/SAF-Specification/edit/main/{{ page.path }}"
+        href="https://github.com/gfse/SAF-Specification/edit/main/src/{{ page.path }}"
         class="SiteFooter-button"
         title="Edit this page on GitHub to help improve the site"
         >Improve this page</a
