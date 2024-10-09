@@ -50,6 +50,7 @@ See the [SAF domain Documentation](./userdoc/domains.md)
 
 ## Aspects
 **What are Aspects?**
+
 The columns of the SAF grid are called aspects. They organize the viewpoints by the kind of information need of stakeholders, typically similar diagram kinds appear together in the same aspect, and typically the same information need appears in multiple domains. 
 
 See the [SAF aspect Documentation](./userdoc/aspects.md)
@@ -58,17 +59,29 @@ See the [SAF aspect Documentation](./userdoc/aspects.md)
 
 ## Grid
 **What is the Grid?** 
+
 The Grid of a Framework is a means to organize and structure the Viewpoints of a Framework. It is like a tool-wall in a well organized workshop. Every tool has its place and is easily accessable.
 
 See the [SAF Viewpoint Grid](structure.md#saf-viewpoint-grid)
 
 ## System Hierarchy
 **What is a System Hierarchy or System Decomposition?**
-Hierarchy (or decomposition) is the partitioning of systems into subsystems.
+
+A System Hierarchy (or a System Decomposition) is the result of partitioning a system into subsystems.
+The concept of decomposition is not restricted to structur, e.g., also functions can be decomposed into sub functions.
+
 This is not to be confused with the Term "Abstraction Level"
 
 ## Abstraction
 **What is an Abstraction or Abstraction Level?**
-Abstraction is *the quality of dealing with ideas rather than events*.
-An example is the difference between a concept and the solution.
-Abstraction has nothing to do with breaking whole things into smaller parts- that would be decompositon. 
+
+*An abstraction is a general idea rather than one relating to a particular object, person, or situation* [¹]
+
+An example for an abstraction is the difference between a concept and the solution. 
+
+Architecture descripion content is usually separated in different abstraction levels.
+The SAF Functional Domain and SAF Physical Domain are on different Abstraction Levels - the Functional Domain deals with concepts, and the Physical Domain covers the solution.
+
+Abstraction has nothing to do with breaking down whole things into smaller parts- that would be decompositon.
+
+[¹]:Collins Dictionary
