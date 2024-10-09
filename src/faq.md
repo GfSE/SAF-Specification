@@ -75,7 +75,7 @@ This is not to be confused with the Term "Abstraction Level"
 ## Abstraction
 **What is an Abstraction or Abstraction Level?**
 
-*An abstraction is a general idea rather than one relating to a particular object, person, or situation* [¹]
+*An abstraction is a general idea rather than one relating to a particular object, person, or situation* [^1]
 
 An example for an abstraction is the difference between a concept and the solution. 
 
@@ -84,4 +84,4 @@ The SAF Functional Domain and SAF Physical Domain are on different Abstraction L
 
 Abstraction has nothing to do with breaking down whole things into smaller parts- that would be decompositon.
 
-[¹]:Collins Dictionary
+[^1]:Collins Dictionary
