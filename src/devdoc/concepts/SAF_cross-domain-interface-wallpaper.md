@@ -1,0 +1,7 @@
+---
+title: SAF_cross-domain-interface-wallpaper
+parent: Concepts
+layout: default
+---
+{% assign diag = site.data.concept-diags | where: "Name","SAF_cross-domain-interface-wallpaper" %}
+{% include concept.md %}

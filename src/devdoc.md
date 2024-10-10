@@ -32,11 +32,11 @@ There are several kinds of models around SAF serving a certain purpose
 * **SAF_SCM_Profile Model**
   The SAF SCM Profile is used by the SAF_Specification model. It contains Stereotypes used to specify concepts, viewpoints, framework concerns and stakeholders. It is used to specify or extend SAF.
 
-## Conceptual Model
+## Specification Model
 
 The conceptual model is the foundation of SAF development.
 It governs, which items SAF consist of and how these items are related.
-It follows the concepts of ISO 42010. SAF extends ISO 42010 in a way that SAF is able to express a rationale for a Stakeholders Concern. This should possibly be added to ISO 42010.
+It follows the concepts of ISO 42010. SAF extends ISO 42010 in a way that SAF is able to express a rationale for a Stakeholders Concern.
 
 ![Bild](./assets/images/Concept-Model-Definition.svg)
 
@@ -70,8 +70,8 @@ It consists of
 
 * [Development Guideline](saf-dev-guideline.md)
 * [Metamodel Guide](metamodel-guideline/modelguideline.md)
-* [List of Concepts](concept/concepts.md)
-* [Concept Overview Diagrams](concept/concept-overview.md)
+* [List of Concepts](./devdoc/concepts.md)
+* [Concept Overview Diagrams](./devdoc/concept-overview.md)
 * [Development view on SAF Viewpoints](viewpoints/viewpoint-dev.md)
 
 [^1]: The question about the recommended workflow cannot be answered by a single viewpoint description, this is an overarcing topic, which is currently not covered by the SAF documentation. [See issue 14](https://github.com/GfSE/SAF-Specification/issues/14)
