@@ -1,7 +1,7 @@
 
 # to complete
 * concerns
-  * link to viewpoints
+  * display stakeholder and rationale
 * user doc viewpoints
   * reference to diagram sterotypes is missing
 * dev doc viewpoints
@@ -14,7 +14,6 @@
 * links to SysML or UML Constructs from Profile model reference
 # fix
 * rand auf komplette seite ausdehnen
-* fix site footer link bullets
 * das komische problem beim bilder exportieren
 # new features to add
 * beispiel diagramme  auf verschiedene tools umschaltbar
