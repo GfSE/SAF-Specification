@@ -98,7 +98,7 @@
   "level" : 0,
   "Documentation" : "",
   "Owner" : "traceability & mapping",
-  "Name" : "Which logical elements are allocated to the physical SOI physical architecture?",
+  "Name" : "Which logical elements are allocated to which physical elements?",
   "ID" : "_2021x_2_8710274_1698399385413_529894_33129",
   "ConcernsViewpoints" : [ {
     "Name" : "Physical Logical Mapping Viewpoint",
@@ -1077,11 +1077,11 @@
   "Name" : "What are the frameworks model elements to be used in system models?",
   "ID" : "_2024x_26f0132_1719746308347_570628_39136",
   "ConcernsViewpoints" : [ {
-    "Name" : "Framework Stereotype Overview Viewpoint",
-    "ID" : "_2024x_26f0132_1719735638892_806840_26185"
-  }, {
     "Name" : "Framework Implementation Traceability Viewpoint",
     "ID" : "_2024x_26f0132_1719746598512_743707_39208"
+  }, {
+    "Name" : "Framework Stereotype Overview Viewpoint",
+    "ID" : "_2024x_26f0132_1719735638892_806840_26185"
   } ],
   "subelements" : [ ]
 }, {
