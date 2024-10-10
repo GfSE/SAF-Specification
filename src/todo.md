@@ -1,9 +1,10 @@
 
 # to complete
 * concerns
-  * display stakeholder and rationale
+  * sort by category
 * user doc viewpoints
   * reference to diagram sterotypes is missing
+  * references to sysml / uml elements do not work
 * dev doc viewpoints
   * profile and concept diagrams are missing
 * dev doc concept diagrams are missing
@@ -15,7 +16,7 @@
 # fix
 * rand auf komplette seite ausdehnen
 * das komische problem beim bilder exportieren
-# new features to add
+# new nice features to add
 * beispiel diagramme  auf verschiedene tools umschaltbar
 * social bars ?
  * share (shariff tool)

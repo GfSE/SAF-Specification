@@ -36,7 +36,7 @@ For example, the user has specific concerns which interactions he or she has wit
 
 The stakeholders concerns are specific to the lifecycle project phase, e.g., at a PDR, subsystem responsibles have the information need which systems function are delegated to their subsystems, while at a CDR they would need to know about the interface designs of other neighbor subsystems.
 
-See the [SAF concern documentation](./userdoc/concerns.md).
+See the [SAF concern documentation](userdoc/concerns.html).
 
 *The Concern concept is layed out in ISO 42010*
 

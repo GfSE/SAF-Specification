@@ -1,0 +1,5521 @@
+[ {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1674945926294_558378_35811",
+  "Documentation" : "In my role, I need to know this in order to be able to further design the system in an appropriate way.",
+  "Concern" : {
+    "ID" : "_2021x_2_6d8019d_1674945898325_22078_35809",
+    "Name" : "For what purpose is the system developed or adapted?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1674945938436_504131_35812",
+  "Documentation" : "In my role, I need to check whether the project order is implemented correctly.",
+  "Concern" : {
+    "ID" : "_2021x_2_6d8019d_1674945898325_22078_35809",
+    "Name" : "For what purpose is the system developed or adapted?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567281039295_665940_53199",
+    "Name" : "Project Manager"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1674986476247_892958_24043",
+  "Documentation" : "In my role, I need to understand the system in order to put it into operation.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758649_392764_23120",
+    "Name" : "Which functions will the system provide?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_525021_92401",
+    "Name" : "IV&V Engineer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1674989264190_610902_24776",
+  "Documentation" : "In my role, I need to perform the integration of the system into its deployment environment.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758952_658537_23403",
+    "Name" : "How does a system function interact with its environment?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_525021_92401",
+    "Name" : "IV&V Engineer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1675184223972_243549_23997",
+  "Documentation" : "In my role, I need to check whether we fulfill our contract.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758563_692887_23057",
+    "Name" : "Which System Requirements are derived from Stakeholder Requirements?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567281039295_665940_53199",
+    "Name" : "Project Manager"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1675185484986_311398_24282",
+  "Documentation" : "In my role, I need to check whether the system design implements the System Requirements.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758860_195868_23350",
+    "Name" : "What are the functional requirements imposed on the system?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1675185485916_434866_24283",
+  "Documentation" : "In my role, I need to check whether the system design implements the System Requirements.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758640_180559_23118",
+    "Name" : "What are the non-functional requirements imposed on the system?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1675186189310_672952_24308",
+  "Documentation" : "In my role, I need to prove System Requirements via test cases.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758860_195868_23350",
+    "Name" : "What are the functional requirements imposed on the system?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_525021_92401",
+    "Name" : "IV&V Engineer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1675186190398_616376_24309",
+  "Documentation" : "In my role, I need to prove System Requirements via test cases.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758640_180559_23118",
+    "Name" : "What are the non-functional requirements imposed on the system?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_525021_92401",
+    "Name" : "IV&V Engineer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1675269477937_317264_24430",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758707_274896_23178",
+    "Name" : "What are the Interface Requirements regarding bandwidth, data throughput and latency?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
+    "Name" : "Software Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1675269959447_410172_24489",
+  "Documentation" : "In my role, I need to implement the interfaces in my HW subsystem, if necessary.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758600_423008_23078",
+    "Name" : "How do physical system elements interact to provide system functions?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
+    "Name" : "Hardware Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1675269961755_670435_24492",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758881_181126_23362",
+    "Name" : "Which interface partners does a SW item have?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
+    "Name" : "Software Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1675271716474_80756_25099",
+  "Documentation" : "In my role, I need to provide qualified feedback on how my how the sub-functions assigned to my subsystem contributes to the function of the system.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758649_392764_23120",
+    "Name" : "Which functions will the system provide?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
+    "Name" : "Hardware Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1675271721945_90282_25102",
+  "Documentation" : "In my role, I need to provide qualified feedback on how my how the sub-functions assigned to my subsystem contributes to the function of the system.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758649_392764_23120",
+    "Name" : "Which functions will the system provide?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
+    "Name" : "Software Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1675285237181_783081_24341",
+  "Documentation" : "In my role, I need to trace my derived requirements against these ones relevant to me.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758860_195868_23350",
+    "Name" : "What are the functional requirements imposed on the system?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
+    "Name" : "Software Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1675285238480_398504_24342",
+  "Documentation" : "In my role, I need to trace my derived requirements against these ones relevant to me.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758640_180559_23118",
+    "Name" : "What are the non-functional requirements imposed on the system?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
+    "Name" : "Software Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1675285296307_681071_24344",
+  "Documentation" : "In my role, I need to trace my derived requirements against these ones relevant to me.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758860_195868_23350",
+    "Name" : "What are the functional requirements imposed on the system?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
+    "Name" : "Hardware Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1675285297714_249785_24345",
+  "Documentation" : "In my role, I need to trace my derived requirements against these ones relevant to me.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758640_180559_23118",
+    "Name" : "What are the non-functional requirements imposed on the system?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
+    "Name" : "Hardware Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1675285800740_751205_24351",
+  "Documentation" : "In my role, I need to give feedback on existing or missing stakeholders.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758881_572143_23359",
+    "Name" : "Which Stakeholders are relevant to the system and might impose requirements?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
+    "Name" : "Software Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1675347221309_65454_23305",
+  "Documentation" : "In my role, I need to check whether the overall system purpose is supported.",
+  "Concern" : {
+    "ID" : "_2021x_2_6d8019d_1674945898325_22078_35809",
+    "Name" : "For what purpose is the system developed or adapted?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
+    "Name" : "Acquirer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1675348596362_74685_23309",
+  "Documentation" : "In my role, I need to take this into account when planning integration.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758841_451500_23327",
+    "Name" : "How is the system being used or utilized and interacting with other external systems to satisfy user needs?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_525021_92401",
+    "Name" : "IV&V Engineer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1675459930699_385604_23327",
+  "Documentation" : "In my role, I need to check whether the system fits into the higher-level user concept.",
+  "Concern" : {
+    "ID" : "_2021x_2_6d8019d_1675459822996_961402_23325",
+    "Name" : "Which users does the system support? "
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280920665_435327_53193",
+    "Name" : "User"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1675459932441_406019_23328",
+  "Documentation" : "In my role, I need to delegate the implementation of HMI in subsystems.",
+  "Concern" : {
+    "ID" : "_2021x_2_6d8019d_1675459822996_961402_23325",
+    "Name" : "Which users does the system support? "
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1675459985956_494054_23329",
+  "Documentation" : "In my role, I need to check whether the system fits into the higher-level user concept.",
+  "Concern" : {
+    "ID" : "_2021x_2_6d8019d_1675459822996_961402_23325",
+    "Name" : "Which users does the system support? "
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653238260_245225_43556",
+    "Name" : "Operator"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1675459993436_446215_23330",
+  "Documentation" : "In my role, I need to cover these users with my test.",
+  "Concern" : {
+    "ID" : "_2021x_2_6d8019d_1675459822996_961402_23325",
+    "Name" : "Which users does the system support? "
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_525021_92401",
+    "Name" : "IV&V Engineer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1676126847486_694714_25060",
+  "Documentation" : "In my role, I need to implement the sub-functions in my HW subsystem.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758941_524652_23399",
+    "Name" : "What is the mapping of functions to the physical SOI physical architecture?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
+    "Name" : "Hardware Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1676126856999_544965_25061",
+  "Documentation" : "In my role, I need to implement the sub-functions in my SW subsystem.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758941_524652_23399",
+    "Name" : "What is the mapping of functions to the physical SOI physical architecture?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
+    "Name" : "Software Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1676128699353_714856_26272",
+  "Documentation" : "In my role, I need to take this into account when planning implementation.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759104_328839_23526",
+    "Name" : "Which functions are allocated to which parts of the logical architecture?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
+    "Name" : "Hardware Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1676128706252_998049_26273",
+  "Documentation" : "In my role, I need to take this into account when planning implementation.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759104_328839_23526",
+    "Name" : "Which functions are allocated to which parts of the logical architecture?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
+    "Name" : "Software Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1676128708642_259444_26274",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759104_328839_23526",
+    "Name" : "Which functions are allocated to which parts of the logical architecture?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1693296102143_137596_24928",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758910_672482_23380",
+    "Name" : "Which operational exchanges do operational performers need to consume or provide?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
+    "Name" : "Acquirer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1693296102933_43969_24929",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758910_672482_23380",
+    "Name" : "Which operational exchanges do operational performers need to consume or provide?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653236737_36605_43554",
+    "Name" : "Customer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1693296121260_352313_24930",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758910_672482_23380",
+    "Name" : "Which operational exchanges do operational performers need to consume or provide?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_410133_92403",
+    "Name" : "Safety Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1693296122017_495377_24931",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758910_672482_23380",
+    "Name" : "Which operational exchanges do operational performers need to consume or provide?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
+    "Name" : "Security Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1693296133655_824176_24932",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758910_672482_23380",
+    "Name" : "Which operational exchanges do operational performers need to consume or provide?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1693308416522_78593_24974",
+  "Documentation" : "In my role, I use them as basis for understanding interfaces on conceptual level.",
+  "Concern" : {
+    "ID" : "_2021x_2_6d8019d_1693308265004_421376_24972",
+    "Name" : "Which kind of conceptual items (energy, material, information, etc.)  are used in the logical architecture of the system?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
+    "Name" : "Acquirer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1693308417224_5271_24975",
+  "Documentation" : "In my role, I use them as basis for understanding interfaces on conceptual level.",
+  "Concern" : {
+    "ID" : "_2021x_2_6d8019d_1693308265004_421376_24972",
+    "Name" : "Which kind of conceptual items (energy, material, information, etc.)  are used in the logical architecture of the system?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653236737_36605_43554",
+    "Name" : "Customer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1693308419512_608036_24976",
+  "Documentation" : "In my role, I use them as basis for understanding interfaces on conceptual level.",
+  "Concern" : {
+    "ID" : "_2021x_2_6d8019d_1693308265004_421376_24972",
+    "Name" : "Which kind of conceptual items (energy, material, information, etc.)  are used in the logical architecture of the system?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_410133_92403",
+    "Name" : "Safety Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1693308420171_256353_24977",
+  "Documentation" : "In my role, I use them as basis for understanding interfaces on conceptual level.",
+  "Concern" : {
+    "ID" : "_2021x_2_6d8019d_1693308265004_421376_24972",
+    "Name" : "Which kind of conceptual items (energy, material, information, etc.)  are used in the logical architecture of the system?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
+    "Name" : "Security Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1693308421222_432048_24978",
+  "Documentation" : "In my role, I want to foster reuse of system wide concept definitions within the architecture design.",
+  "Concern" : {
+    "ID" : "_2021x_2_6d8019d_1693308265004_421376_24972",
+    "Name" : "Which kind of conceptual items (energy, material, information, etc.)  are used in the logical architecture of the system?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1693428254196_902857_24870",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758881_297740_23364",
+    "Name" : "Which is the operational scenario, i.e., course of action, for the mission and the context in which the system of systems solution will exist?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
+    "Name" : "Acquirer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1693428258580_843661_24871",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758881_297740_23364",
+    "Name" : "Which is the operational scenario, i.e., course of action, for the mission and the context in which the system of systems solution will exist?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653236737_36605_43554",
+    "Name" : "Customer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1693428273128_226190_24872",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758881_297740_23364",
+    "Name" : "Which is the operational scenario, i.e., course of action, for the mission and the context in which the system of systems solution will exist?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1693429181134_810762_25250",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758994_334020_23436",
+    "Name" : "Which is the operational context to achieve an operational story?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
+    "Name" : "Acquirer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1693429182055_916309_25251",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758994_334020_23436",
+    "Name" : "Which is the operational context to achieve an operational story?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653236737_36605_43554",
+    "Name" : "Customer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1693429184537_222354_25252",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758994_334020_23436",
+    "Name" : "Which is the operational context to achieve an operational story?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1693429217232_278534_25253",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759056_423032_23477",
+    "Name" : "Which performers or resources are necessary to operate the intended solution?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653236737_36605_43554",
+    "Name" : "Customer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1693429416704_253801_25314",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759040_585536_23465",
+    "Name" : "What are the relationships between the partys involved in the operation of the intended solution?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
+    "Name" : "Acquirer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1693429417564_871354_25315",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759040_585536_23465",
+    "Name" : "What are the relationships between the partys involved in the operation of the intended solution?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653236737_36605_43554",
+    "Name" : "Customer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1693429419251_713093_25316",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759040_585536_23465",
+    "Name" : "What are the relationships between the partys involved in the operation of the intended solution?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1693430014334_485832_25360",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759250_575950_23644",
+    "Name" : "What operational process activities shall be executed during the execution of an operational story?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
+    "Name" : "Acquirer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1693430015159_753217_25361",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759250_575950_23644",
+    "Name" : "What operational process activities shall be executed during the execution of an operational story?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653236737_36605_43554",
+    "Name" : "Customer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1693430016026_554550_25362",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758680_939269_23154",
+    "Name" : "Which operational activity shall be executed by which operational performer in the operational story?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
+    "Name" : "Acquirer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1693430016816_904105_25363",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758680_939269_23154",
+    "Name" : "Which operational activity shall be executed by which operational performer in the operational story?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653236737_36605_43554",
+    "Name" : "Customer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1693430018391_82646_25364",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759250_575950_23644",
+    "Name" : "What operational process activities shall be executed during the execution of an operational story?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1693430019175_377195_25365",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758680_939269_23154",
+    "Name" : "Which operational activity shall be executed by which operational performer in the operational story?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1693476407923_859534_24605",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758928_485242_23392",
+    "Name" : "Show in a concise manner the relationships from operational process to operational story and to operational performer."
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
+    "Name" : "Acquirer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1693476410255_447437_24606",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758928_485242_23392",
+    "Name" : "Show in a concise manner the relationships from operational process to operational story and to operational performer."
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653236737_36605_43554",
+    "Name" : "Customer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1693476411571_591791_24607",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758928_485242_23392",
+    "Name" : "Show in a concise manner the relationships from operational process to operational story and to operational performer."
+  },
+  "Stakeholder" : {
+    "ID" : "_2021x_2_8710274_1674680055517_468796_22923",
+    "Name" : "Portfolio Manager"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1693476419387_172420_24608",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758928_485242_23392",
+    "Name" : "Show in a concise manner the relationships from operational process to operational story and to operational performer."
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1693476509771_802492_24609",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759199_457359_23612",
+    "Name" : "What possible threads of operational process activities have to be carried out to achieve the operational story main and alternative goals?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
+    "Name" : "Acquirer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1693476510473_3872_24610",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759199_457359_23612",
+    "Name" : "What possible threads of operational process activities have to be carried out to achieve the operational story main and alternative goals?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653236737_36605_43554",
+    "Name" : "Customer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1693476511872_622898_24611",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759199_457359_23612",
+    "Name" : "What possible threads of operational process activities have to be carried out to achieve the operational story main and alternative goals?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1693570309491_985484_24819",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_6d8019d_1693570065115_738458_24748",
+    "Name" : "Why types of exchange can exist between Operational Performers (i.e., flows of information, people, material, or energy)?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
+    "Name" : "Acquirer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1693570310931_809293_24820",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_6d8019d_1693570065115_738458_24748",
+    "Name" : "Why types of exchange can exist between Operational Performers (i.e., flows of information, people, material, or energy)?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653236737_36605_43554",
+    "Name" : "Customer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1693570312358_960419_24821",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_6d8019d_1693570065115_738458_24748",
+    "Name" : "Why types of exchange can exist between Operational Performers (i.e., flows of information, people, material, or energy)?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1693570321270_981411_24822",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_6d8019d_1693570065115_738458_24748",
+    "Name" : "Why types of exchange can exist between Operational Performers (i.e., flows of information, people, material, or energy)?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
+    "Name" : "Security Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1693570322173_180444_24823",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_6d8019d_1693570065115_738458_24748",
+    "Name" : "Why types of exchange can exist between Operational Performers (i.e., flows of information, people, material, or energy)?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
+    "Name" : "Software Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1693570530912_795005_24824",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_6d8019d_1693570065115_738458_24748",
+    "Name" : "Why types of exchange can exist between Operational Performers (i.e., flows of information, people, material, or energy)?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653234809_156018_43552",
+    "Name" : "Regulation Authority"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1693570681672_638059_24827",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674479775616_727128_23367",
+    "Name" : "What operational capabilities are defined?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
+    "Name" : "Acquirer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1693570682930_264539_24828",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674479775616_727128_23367",
+    "Name" : "What operational capabilities are defined?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653236737_36605_43554",
+    "Name" : "Customer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1693570687085_950234_24829",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674479775616_727128_23367",
+    "Name" : "What operational capabilities are defined?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2021x_2_8710274_1674680055517_468796_22923",
+    "Name" : "Portfolio Manager"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1693570688364_875009_24830",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674479775616_727128_23367",
+    "Name" : "What operational capabilities are defined?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1693571276189_564621_24871",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758591_594647_23070",
+    "Name" : "Show in a concise manner the relationships from operational capability to operational story, to operational activity, and to operational performer."
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
+    "Name" : "Acquirer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1693571276953_40414_24872",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758591_594647_23070",
+    "Name" : "Show in a concise manner the relationships from operational capability to operational story, to operational activity, and to operational performer."
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653236737_36605_43554",
+    "Name" : "Customer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1693571278270_667262_24873",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758591_594647_23070",
+    "Name" : "Show in a concise manner the relationships from operational capability to operational story, to operational activity, and to operational performer."
+  },
+  "Stakeholder" : {
+    "ID" : "_2021x_2_8710274_1674680055517_468796_22923",
+    "Name" : "Portfolio Manager"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1693571279580_53875_24874",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758591_594647_23070",
+    "Name" : "Show in a concise manner the relationships from operational capability to operational story, to operational activity, and to operational performer."
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1698237461909_93399_24574",
+  "Documentation" : "In my role, I use them as basis for understanding interfaces on logical level.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758825_79081_23317",
+    "Name" : "Which conceptual items (energy, material, information, etc.) are exchanged within the system?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_410133_92403",
+    "Name" : "Safety Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758570_666293_23060",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758570_171271_23059",
+    "Name" : "What are precision and accuracy requirements for processing of data items?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
+    "Name" : "Software Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758578_272182_23063",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758578_549661_23062",
+    "Name" : "What are the inputs to a critical function?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_410133_92403",
+    "Name" : "Safety Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758591_454154_23073",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758591_450764_23072",
+    "Name" : "What is the necessary memory size for processing nodes and data storage?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
+    "Name" : "Hardware Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758600_238168_23076",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758600_614547_23075",
+    "Name" : "How does criticality propagate down the system hierarchy?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758600_589976_23077",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758600_614547_23075",
+    "Name" : "How does criticality propagate down the system hierarchy?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_410133_92403",
+    "Name" : "Safety Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758613_10198_23086",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758613_363660_23082",
+    "Name" : "What are the planned architectural means for risk mitigation?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
+    "Name" : "Acquirer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758613_484023_23084",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758613_363660_23082",
+    "Name" : "What are the planned architectural means for risk mitigation?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758613_813040_23088",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758613_34334_23087",
+    "Name" : "What is the allocated power consumption?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
+    "Name" : "Hardware Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758613_876801_23085",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758613_363660_23082",
+    "Name" : "What are the planned architectural means for risk mitigation?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_410133_92403",
+    "Name" : "Safety Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758613_927355_23083",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758613_363660_23082",
+    "Name" : "What are the planned architectural means for risk mitigation?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653236737_36605_43554",
+    "Name" : "Customer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758624_536372_23094",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758624_283804_23093",
+    "Name" : "What are the consequences, if the Stakeholder’s concerns are not considered?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758630_116065_23106",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758630_745758_23103",
+    "Name" : "What are the scenarios a system function is utilized in?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280920665_435327_53193",
+    "Name" : "User"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758630_21887_23108",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758630_745758_23103",
+    "Name" : "What are the scenarios a system function is utilized in?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758630_275395_23110",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758630_745758_23103",
+    "Name" : "What are the scenarios a system function is utilized in?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
+    "Name" : "Acquirer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758630_525747_23105",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758630_745758_23103",
+    "Name" : "What are the scenarios a system function is utilized in?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653238260_245225_43556",
+    "Name" : "Operator"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758630_682544_23107",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758630_745758_23103",
+    "Name" : "What are the scenarios a system function is utilized in?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653236737_36605_43554",
+    "Name" : "Customer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758630_74927_23111",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758630_745758_23103",
+    "Name" : "What are the scenarios a system function is utilized in?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567282723132_468249_52793",
+    "Name" : "Supplier"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758630_777705_23109",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758630_745758_23103",
+    "Name" : "What are the scenarios a system function is utilized in?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_410133_92403",
+    "Name" : "Safety Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758630_815907_23113",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758630_621151_23112",
+    "Name" : "Which development effort is associated with each individual element?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567281039295_665940_53199",
+    "Name" : "Project Manager"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758630_832766_23104",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758630_745758_23103",
+    "Name" : "What are the scenarios a system function is utilized in?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
+    "Name" : "Security Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758649_371737_23126",
+  "Documentation" : "In my role, I need to check whether the overall system purpose is supported.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758649_392764_23120",
+    "Name" : "Which functions will the system provide?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
+    "Name" : "Acquirer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758649_457890_23125",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758649_392764_23120",
+    "Name" : "Which functions will the system provide?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_410133_92403",
+    "Name" : "Safety Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758649_460443_23123",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758649_392764_23120",
+    "Name" : "Which functions will the system provide?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567281039295_665940_53199",
+    "Name" : "Project Manager"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758649_540812_23124",
+  "Documentation" : "In my role, I need to break these down further to be able to delegate sub-functions to subsystems.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758649_392764_23120",
+    "Name" : "Which functions will the system provide?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758649_712797_23122",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758649_392764_23120",
+    "Name" : "Which functions will the system provide?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653236737_36605_43554",
+    "Name" : "Customer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758649_85240_23121",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758649_392764_23120",
+    "Name" : "Which functions will the system provide?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
+    "Name" : "Security Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758659_613624_23133",
+  "Documentation" : "In my role, I need to implement the interfaces in my HW subsystem, if necessary.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758658_522000_23132",
+    "Name" : "Which HW interfaces are necessary?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
+    "Name" : "Hardware Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758660_407607_23138",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758660_960997_23137",
+    "Name" : "How to ensure full Operational Capability of the system after maintenance activities with a system element or component? "
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1566037895381_430904_56516",
+    "Name" : "Maintainer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758668_364036_23142",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758668_405619_23141",
+    "Name" : "Which system function is addressed by a system requirement?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758674_432150_23144",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758674_250912_23143",
+    "Name" : "What are necessary inputs for operating the system expected to be provided by other external entitys?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
+    "Name" : "Security Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758675_137813_23148",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758674_250912_23143",
+    "Name" : "What are necessary inputs for operating the system expected to be provided by other external entitys?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758675_460485_23146",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758674_250912_23143",
+    "Name" : "What are necessary inputs for operating the system expected to be provided by other external entitys?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280920665_435327_53193",
+    "Name" : "User"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758675_607683_23149",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758674_250912_23143",
+    "Name" : "What are necessary inputs for operating the system expected to be provided by other external entitys?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
+    "Name" : "Acquirer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758675_821510_23145",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758674_250912_23143",
+    "Name" : "What are necessary inputs for operating the system expected to be provided by other external entitys?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653238260_245225_43556",
+    "Name" : "Operator"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758675_849214_23147",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758674_250912_23143",
+    "Name" : "What are necessary inputs for operating the system expected to be provided by other external entitys?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653236737_36605_43554",
+    "Name" : "Customer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758675_872175_23150",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758674_250912_23143",
+    "Name" : "What are necessary inputs for operating the system expected to be provided by other external entitys?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567282723132_468249_52793",
+    "Name" : "Supplier"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758679_858696_23153",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758678_126429_23152",
+    "Name" : "What are the hazards of a system function in an identified situation (context + scenario)?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_410133_92403",
+    "Name" : "Safety Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758680_124810_23162",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758680_448431_23156",
+    "Name" : "Who provides the inputs to a critical function?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
+    "Name" : "Acquirer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758680_219040_23158",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758680_448431_23156",
+    "Name" : "Who provides the inputs to a critical function?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567281039295_665940_53199",
+    "Name" : "Project Manager"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758680_262462_23163",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758680_448431_23156",
+    "Name" : "Who provides the inputs to a critical function?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_525021_92401",
+    "Name" : "IV&V Engineer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758680_341464_23164",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758680_448431_23156",
+    "Name" : "Who provides the inputs to a critical function?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
+    "Name" : "Hardware Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758680_470231_23157",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758680_448431_23156",
+    "Name" : "Who provides the inputs to a critical function?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653236737_36605_43554",
+    "Name" : "Customer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758680_797807_23160",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758680_448431_23156",
+    "Name" : "Who provides the inputs to a critical function?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_410133_92403",
+    "Name" : "Safety Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758680_834760_23161",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758680_448431_23156",
+    "Name" : "Who provides the inputs to a critical function?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
+    "Name" : "Software Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758680_899595_23159",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758680_448431_23156",
+    "Name" : "Who provides the inputs to a critical function?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758690_132368_23168",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758690_571282_23167",
+    "Name" : "What is the functional scope of each system delivery standard?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567281039295_665940_53199",
+    "Name" : "Project Manager"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758690_232227_23171",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758690_783894_23170",
+    "Name" : "What are the interfaces between different domains?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
+    "Name" : "Security Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758690_352397_23169",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758690_571282_23167",
+    "Name" : "What is the functional scope of each system delivery standard?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758708_733555_23179",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758707_274896_23178",
+    "Name" : "What are the Interface Requirements regarding bandwidth, data throughput and latency?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
+    "Name" : "Hardware Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758710_105033_23185",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758710_516038_23184",
+    "Name" : "What is the context of the organization, enterprise, or operational entity?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758710_225175_23188",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758710_759449_23186",
+    "Name" : "Which are the external physical entities the system interacts with in the given context?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758710_372521_23190",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758710_759449_23186",
+    "Name" : "Which are the external physical entities the system interacts with in the given context?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
+    "Name" : "Acquirer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758710_43362_23187",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758710_759449_23186",
+    "Name" : "Which are the external physical entities the system interacts with in the given context?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653236737_36605_43554",
+    "Name" : "Customer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758710_903360_23189",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758710_759449_23186",
+    "Name" : "Which are the external physical entities the system interacts with in the given context?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_410133_92403",
+    "Name" : "Safety Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758710_976880_23191",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758710_759449_23186",
+    "Name" : "Which are the external physical entities the system interacts with in the given context?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567282723132_468249_52793",
+    "Name" : "Supplier"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758718_500509_23197",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758718_586539_23194",
+    "Name" : "How do the physical system elements interact to provide the system function?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_410133_92403",
+    "Name" : "Safety Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758718_556628_23196",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758718_586539_23194",
+    "Name" : "How do the physical system elements interact to provide the system function?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758718_80681_23195",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758718_586539_23194",
+    "Name" : "How do the physical system elements interact to provide the system function?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
+    "Name" : "Security Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758724_217802_23201",
+  "Documentation" : "In my role, I need to implement the interfaces in my SW subsystem, if necessary.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758724_745625_23200",
+    "Name" : "Which SW interfaces are necessary?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
+    "Name" : "Software Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758728_224242_23213",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758728_179228_23207",
+    "Name" : "What additional information the system or a system element needs to generate to enable testing?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_525021_92401",
+    "Name" : "IV&V Engineer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758728_22889_23205",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758728_463822_23204",
+    "Name" : "What is the breakdown of functions into sub-functions?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758728_246319_23209",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758728_179228_23207",
+    "Name" : "What additional information the system or a system element needs to generate to enable testing?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
+    "Name" : "Security Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758728_299456_23208",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758728_179228_23207",
+    "Name" : "What additional information the system or a system element needs to generate to enable testing?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653234809_156018_43552",
+    "Name" : "Regulation Authority"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758728_513559_23211",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758728_179228_23207",
+    "Name" : "What additional information the system or a system element needs to generate to enable testing?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_410133_92403",
+    "Name" : "Safety Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758728_525247_23212",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758728_179228_23207",
+    "Name" : "What additional information the system or a system element needs to generate to enable testing?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
+    "Name" : "Software Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758728_848064_23214",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758728_179228_23207",
+    "Name" : "What additional information the system or a system element needs to generate to enable testing?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
+    "Name" : "Hardware Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758728_893840_23210",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758728_179228_23207",
+    "Name" : "What additional information the system or a system element needs to generate to enable testing?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758740_184723_23221",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758739_859160_23220",
+    "Name" : "What are the system delivery standards?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567281039295_665940_53199",
+    "Name" : "Project Manager"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758741_269721_23225",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758741_338391_23224",
+    "Name" : "What is the system boundary definition?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653236737_36605_43554",
+    "Name" : "Customer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758741_553182_23223",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758741_820851_23222",
+    "Name" : "When do product functions or features become available?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567281039295_665940_53199",
+    "Name" : "Project Manager"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758741_602468_23227",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758741_338391_23224",
+    "Name" : "What is the system boundary definition?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
+    "Name" : "Acquirer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758741_69127_23226",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758741_338391_23224",
+    "Name" : "What is the system boundary definition?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758747_49690_23228",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758741_338391_23224",
+    "Name" : "What is the system boundary definition?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567282723132_468249_52793",
+    "Name" : "Supplier"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758749_509731_23232",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758749_13864_23231",
+    "Name" : "What is the necessary performance for processing?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
+    "Name" : "Software Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758750_132695_23238",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758750_613983_23235",
+    "Name" : "What shall be validated to the customer at system level?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758750_560740_23237",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758750_613983_23235",
+    "Name" : "What shall be validated to the customer at system level?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653236737_36605_43554",
+    "Name" : "Customer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758750_758059_23236",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758750_613983_23235",
+    "Name" : "What shall be validated to the customer at system level?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
+    "Name" : "Security Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758756_168429_23241",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758750_613983_23235",
+    "Name" : "What shall be validated to the customer at system level?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_525021_92401",
+    "Name" : "IV&V Engineer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758756_287590_23240",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758750_613983_23235",
+    "Name" : "What shall be validated to the customer at system level?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
+    "Name" : "Acquirer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758756_964672_23239",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758750_613983_23235",
+    "Name" : "What shall be validated to the customer at system level?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_410133_92403",
+    "Name" : "Safety Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758760_647831_23244",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758760_688674_23243",
+    "Name" : "What is the order information for each identified system element or component?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1566037895381_430904_56516",
+    "Name" : "Maintainer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758760_754319_23246",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758760_594629_23245",
+    "Name" : "What delivery standards need to be provided?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
+    "Name" : "Hardware Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758768_101637_23250",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758768_249579_23249",
+    "Name" : "What is the lack / deficiency / gap in current capability implementation that is addressed with the intended solution?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758768_503090_23252",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758768_249579_23249",
+    "Name" : "What is the lack / deficiency / gap in current capability implementation that is addressed with the intended solution?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567282723132_468249_52793",
+    "Name" : "Supplier"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758768_88894_23251",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758768_249579_23249",
+    "Name" : "What is the lack / deficiency / gap in current capability implementation that is addressed with the intended solution?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
+    "Name" : "Acquirer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758774_521770_23256",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758774_605144_23255",
+    "Name" : "What are the configuration items in the physical architecture?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758778_184598_23269",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758778_428876_23261",
+    "Name" : "How are error states handled?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
+    "Name" : "Hardware Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758778_189876_23268",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758778_428876_23261",
+    "Name" : "How are error states handled?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_525021_92401",
+    "Name" : "IV&V Engineer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758778_2581_23271",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758778_412689_23270",
+    "Name" : "What are the requirements for security relevant IT-equipment?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
+    "Name" : "Security Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758778_27805_23265",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758778_428876_23261",
+    "Name" : "How are error states handled?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758778_407234_23262",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758778_428876_23261",
+    "Name" : "How are error states handled?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653234809_156018_43552",
+    "Name" : "Regulation Authority"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758778_712569_23266",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758778_428876_23261",
+    "Name" : "How are error states handled?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_410133_92403",
+    "Name" : "Safety Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758778_844540_23263",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758778_428876_23261",
+    "Name" : "How are error states handled?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
+    "Name" : "Security Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758778_927081_23264",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758778_428876_23261",
+    "Name" : "How are error states handled?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1566037895381_430904_56516",
+    "Name" : "Maintainer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758778_942148_23267",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758778_428876_23261",
+    "Name" : "How are error states handled?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
+    "Name" : "Software Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758792_177748_23278",
+  "Documentation" : "In my role, I need to plan the test environment.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758792_625414_23275",
+    "Name" : "What is the sequence of interactions among the system and context elements on physical level?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_525021_92401",
+    "Name" : "IV&V Engineer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758792_284978_23276",
+  "Documentation" : "In my role, I need to assess if the systems interfaces are compatible with external systems.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758792_625414_23275",
+    "Name" : "What is the sequence of interactions among the system and context elements on physical level?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758792_367288_23279",
+  "Documentation" : "In my role, I need to implement the interfaces in the elements of the system context.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758792_625414_23275",
+    "Name" : "What is the sequence of interactions among the system and context elements on physical level?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
+    "Name" : "Hardware Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758792_486513_23277",
+  "Documentation" : "In my role, I need to implement the interfaces in the elements of the system context.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758792_625414_23275",
+    "Name" : "What is the sequence of interactions among the system and context elements on physical level?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
+    "Name" : "Software Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758798_141605_23289",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758798_226470_23288",
+    "Name" : "What is the time schedule for delivering the functions?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
+    "Name" : "Acquirer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758798_249677_23295",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758798_462644_23290",
+    "Name" : "What services are expected from external entities?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567282723132_468249_52793",
+    "Name" : "Supplier"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758798_336715_23292",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758798_462644_23290",
+    "Name" : "What services are expected from external entities?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567281039295_665940_53199",
+    "Name" : "Project Manager"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758798_610913_23293",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758798_462644_23290",
+    "Name" : "What services are expected from external entities?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758798_886990_23291",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758798_462644_23290",
+    "Name" : "What services are expected from external entities?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653236737_36605_43554",
+    "Name" : "Customer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758798_893203_23294",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758798_462644_23290",
+    "Name" : "What services are expected from external entities?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
+    "Name" : "Acquirer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758810_364243_23305",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758810_143872_23303",
+    "Name" : "What are the normal and extreme environmental conditions for normal operation, for not operational, for storage, and for transport?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758810_799258_23304",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758810_143872_23303",
+    "Name" : "What are the normal and extreme environmental conditions for normal operation, for not operational, for storage, and for transport?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653236737_36605_43554",
+    "Name" : "Customer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758810_924104_23306",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758810_143872_23303",
+    "Name" : "What are the normal and extreme environmental conditions for normal operation, for not operational, for storage, and for transport?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
+    "Name" : "Acquirer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758810_997897_23302",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758810_119130_23301",
+    "Name" : "What additional interfaces are necessary to expose internal properties, states and modes for testing?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_525021_92401",
+    "Name" : "IV&V Engineer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758818_157852_23313",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758818_748545_23312",
+    "Name" : "What are the non-functional requirements applying to SW (e.g. with regard to SW quality, modularization, changeability or reuse)?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
+    "Name" : "Software Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758825_408547_23315",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758824_355895_23314",
+    "Name" : "How does the elements of the test environment interact with each other?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758825_791631_23316",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758824_355895_23314",
+    "Name" : "How does the elements of the test environment interact with each other?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_525021_92401",
+    "Name" : "IV&V Engineer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758828_71125_23318",
+  "Documentation" : "In my role, I need to understand the concepts of system internal interfaces  in order to implement them.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758825_79081_23317",
+    "Name" : "Which conceptual items (energy, material, information, etc.) are exchanged within the system?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
+    "Name" : "Software Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758828_982784_23321",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758828_194631_23320",
+    "Name" : "What are precision and accuracy requirements for presentation of data items on an interface?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
+    "Name" : "Software Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758841_139346_23336",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758841_695276_23335",
+    "Name" : "What are the confidentiality, integrity and availability levels for processed or exchanged information?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
+    "Name" : "Security Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758841_238917_23332",
+  "Documentation" : "In my role, I need to check whether the system complies with the higher-level operating concept.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758841_451500_23327",
+    "Name" : "How is the system being used or utilized and interacting with other external systems to satisfy user needs?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
+    "Name" : "Acquirer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758841_326796_23331",
+  "Documentation" : "In my role, I need to pass on the resulting System Requirements to the subsystems.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758841_451500_23327",
+    "Name" : "How is the system being used or utilized and interacting with other external systems to satisfy user needs?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758841_709387_23330",
+  "Documentation" : "In my role, I need to check whether intended solution satisfies my customer needs.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758841_451500_23327",
+    "Name" : "How is the system being used or utilized and interacting with other external systems to satisfy user needs?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653236737_36605_43554",
+    "Name" : "Customer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758841_781216_23329",
+  "Documentation" : "In my role, I need to check whether intended solution satisfies my user needs.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758841_451500_23327",
+    "Name" : "How is the system being used or utilized and interacting with other external systems to satisfy user needs?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280920665_435327_53193",
+    "Name" : "User"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758841_956233_23328",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758841_451500_23327",
+    "Name" : "How is the system being used or utilized and interacting with other external systems to satisfy user needs?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653238260_245225_43556",
+    "Name" : "Operator"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758851_981738_23341",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758851_888239_23340",
+    "Name" : "What system elements are make-items, reuse items, or COTS?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758860_280609_23349",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758860_723694_23343",
+    "Name" : "What is the rationale when requirements are not considered?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_410133_92403",
+    "Name" : "Safety Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758860_29075_23347",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758860_723694_23343",
+    "Name" : "What is the rationale when requirements are not considered?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567281039295_665940_53199",
+    "Name" : "Project Manager"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758860_307274_23346",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758860_723694_23343",
+    "Name" : "What is the rationale when requirements are not considered?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653236737_36605_43554",
+    "Name" : "Customer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758860_356406_23345",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758860_723694_23343",
+    "Name" : "What is the rationale when requirements are not considered?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
+    "Name" : "Security Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758860_745237_23348",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758860_723694_23343",
+    "Name" : "What is the rationale when requirements are not considered?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758860_754907_23344",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758860_723694_23343",
+    "Name" : "What is the rationale when requirements are not considered?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653234809_156018_43552",
+    "Name" : "Regulation Authority"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758870_230465_23354",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758870_832466_23353",
+    "Name" : "What are the domains of similar security levels in the system or the system participates in?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
+    "Name" : "Security Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758874_308676_23356",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758874_268881_23355",
+    "Name" : "What is the cost for each required function?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
+    "Name" : "Acquirer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758881_972775_23360",
+  "Documentation" : "In my role, I need to give feedback on existing or missing stakeholders.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758881_572143_23359",
+    "Name" : "Which Stakeholders are relevant to the system and might impose requirements?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758891_173644_23371",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758891_776196_23368",
+    "Name" : "Which are the given contexts the system is embedded and utilized in?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
+    "Name" : "Acquirer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758891_805156_23369",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758891_776196_23368",
+    "Name" : "Which are the given contexts the system is embedded and utilized in?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653236737_36605_43554",
+    "Name" : "Customer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758891_831992_23370",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758891_776196_23368",
+    "Name" : "Which are the given contexts the system is embedded and utilized in?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758899_813101_23375",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758899_513943_23374",
+    "Name" : "How to install / de-install components to / from the system?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1566037895381_430904_56516",
+    "Name" : "Maintainer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758912_424364_23384",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758912_450980_23383",
+    "Name" : "What is the possible harm in utilizing the system?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_410133_92403",
+    "Name" : "Safety Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758931_43065_23395",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758931_136144_23394",
+    "Name" : "What are the system delivery standards?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758941_593573_23400",
+  "Documentation" : "In my role, I need to delegate the implementation of sub-function in physical subsystems (HW/SW/...).",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758941_524652_23399",
+    "Name" : "What is the mapping of functions to the physical SOI physical architecture?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758952_170096_23404",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758952_658537_23403",
+    "Name" : "How does a system function interact with its environment?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653238260_245225_43556",
+    "Name" : "Operator"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758952_223654_23409",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758952_658537_23403",
+    "Name" : "How does a system function interact with its environment?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
+    "Name" : "Acquirer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758952_317180_23408",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758952_658537_23403",
+    "Name" : "How does a system function interact with its environment?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_410133_92403",
+    "Name" : "Safety Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758952_367327_23407",
+  "Documentation" : "In my role, I need to delegate the implementation of interfaces in subsystems.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758952_658537_23403",
+    "Name" : "How does a system function interact with its environment?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758952_455496_23406",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758952_658537_23403",
+    "Name" : "How does a system function interact with its environment?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653236737_36605_43554",
+    "Name" : "Customer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758952_905621_23405",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758952_658537_23403",
+    "Name" : "How does a system function interact with its environment?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280920665_435327_53193",
+    "Name" : "User"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758960_62684_23414",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758960_734270_23413",
+    "Name" : "Have the logical decomposition guidelines been followed?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758960_766767_23412",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758960_504398_23411",
+    "Name" : "What is the allocated weight?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
+    "Name" : "Hardware Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758975_495589_23424",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758975_785166_23421",
+    "Name" : "What is the necessary accuracy and resolution for processing?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
+    "Name" : "Hardware Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758975_673182_23423",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758975_785166_23421",
+    "Name" : "What is the necessary accuracy and resolution for processing?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
+    "Name" : "Software Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758975_69463_23422",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758975_785166_23421",
+    "Name" : "What is the necessary accuracy and resolution for processing?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576758982_318711_23428",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758981_795627_23427",
+    "Name" : "What is the allocated space?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
+    "Name" : "Hardware Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759000_287401_23440",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759000_831879_23439",
+    "Name" : "What is the task executed by an organization, enterprise, or operational entity in the Operational Context?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759003_16941_23443",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759003_217290_23441",
+    "Name" : "Which information is exchanged between the system and external entities?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653236737_36605_43554",
+    "Name" : "Customer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759003_420056_23446",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759003_217290_23441",
+    "Name" : "Which information is exchanged between the system and external entities?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
+    "Name" : "Acquirer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759003_423189_23444",
+  "Documentation" : "In my role, I need to orchestrate interface agreements between the system and external interface partners.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759003_217290_23441",
+    "Name" : "Which information is exchanged between the system and external entities?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759003_521461_23445",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759003_217290_23441",
+    "Name" : "Which information is exchanged between the system and external entities?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_410133_92403",
+    "Name" : "Safety Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759003_908370_23442",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759003_217290_23441",
+    "Name" : "Which information is exchanged between the system and external entities?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
+    "Name" : "Security Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759007_870051_23449",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759007_143396_23448",
+    "Name" : "What is the allocated reliability for a single function?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
+    "Name" : "Hardware Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759014_473880_23452",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759013_51078_23451",
+    "Name" : "Which variants of a HW item need to be provided?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
+    "Name" : "Hardware Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759025_1720_23459",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759025_301479_23457",
+    "Name" : "What existing elements of the organization, enterprise, or operational entity need to be integrated in the intended solution?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
+    "Name" : "Acquirer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759025_324232_23458",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759025_301479_23457",
+    "Name" : "What existing elements of the organization, enterprise, or operational entity need to be integrated in the intended solution?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759056_711438_23479",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759056_423032_23477",
+    "Name" : "Which performers or resources are necessary to operate the intended solution?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
+    "Name" : "Acquirer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759056_98361_23478",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759056_423032_23477",
+    "Name" : "Which performers or resources are necessary to operate the intended solution?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759062_996415_23484",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759062_340787_23483",
+    "Name" : "What are the replaceable system components?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1566037895381_430904_56516",
+    "Name" : "Maintainer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759068_924464_23487",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759068_910212_23486",
+    "Name" : "What kind of test equipment is necessary to test the system elements?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_525021_92401",
+    "Name" : "IV&V Engineer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759070_219633_23490",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759070_911527_23489",
+    "Name" : "What are the contributors (SW and HW items contributing to a critical function) to a critical function?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_410133_92403",
+    "Name" : "Safety Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759075_131438_23492",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759075_442496_23491",
+    "Name" : "Where and what are the geographical and physical locations of the intended or proposed elements of the solution?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759075_446179_23493",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759075_442496_23491",
+    "Name" : "Where and what are the geographical and physical locations of the intended or proposed elements of the solution?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
+    "Name" : "Acquirer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759075_733393_23494",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759075_442496_23491",
+    "Name" : "Where and what are the geographical and physical locations of the intended or proposed elements of the solution?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567282723132_468249_52793",
+    "Name" : "Supplier"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759083_612089_23501",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759083_315449_23499",
+    "Name" : "Who are the (Major) Stakeholders involved in the intended solution?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
+    "Name" : "Acquirer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759083_623078_23500",
+  "Documentation" : "In my role, I need to give feedback on existing or missing stakeholders.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759083_315449_23499",
+    "Name" : "Who are the (Major) Stakeholders involved in the intended solution?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759083_934147_23502",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759083_315449_23499",
+    "Name" : "Who are the (Major) Stakeholders involved in the intended solution?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567282723132_468249_52793",
+    "Name" : "Supplier"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759086_385966_23505",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759086_661396_23504",
+    "Name" : "Which system functions are dependent on a systems mode or state?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759093_942596_23510",
+  "Documentation" : "In my role, I need to assess the security based on protocol usage in general.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759093_319282_23509",
+    "Name" : "Which are the protocols used for exchanging information?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
+    "Name" : "Security Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759095_138217_23512",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759095_626726_23511",
+    "Name" : "What is the necessary response time for an interface or a service?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
+    "Name" : "Security Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759095_161964_23514",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759095_626726_23511",
+    "Name" : "What is the necessary response time for an interface or a service?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280920665_435327_53193",
+    "Name" : "User"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759095_393100_23513",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759095_626726_23511",
+    "Name" : "What is the necessary response time for an interface or a service?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653238260_245225_43556",
+    "Name" : "Operator"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759098_335845_23517",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759095_626726_23511",
+    "Name" : "What is the necessary response time for an interface or a service?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_410133_92403",
+    "Name" : "Safety Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759098_379298_23518",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759095_626726_23511",
+    "Name" : "What is the necessary response time for an interface or a service?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
+    "Name" : "Software Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759098_395643_23519",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759095_626726_23511",
+    "Name" : "What is the necessary response time for an interface or a service?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
+    "Name" : "Acquirer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759098_503829_23520",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759095_626726_23511",
+    "Name" : "What is the necessary response time for an interface or a service?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_525021_92401",
+    "Name" : "IV&V Engineer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759098_814877_23521",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759095_626726_23511",
+    "Name" : "What is the necessary response time for an interface or a service?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
+    "Name" : "Hardware Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759098_871040_23515",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759095_626726_23511",
+    "Name" : "What is the necessary response time for an interface or a service?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653236737_36605_43554",
+    "Name" : "Customer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759098_931307_23516",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759095_626726_23511",
+    "Name" : "What is the necessary response time for an interface or a service?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759101_697734_23525",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759101_369536_23524",
+    "Name" : "What are the failure modes of a system function?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_410133_92403",
+    "Name" : "Safety Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759109_877952_23529",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759109_395032_23528",
+    "Name" : "What is the necessary accuracy and resolution for analog signal acquisition?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
+    "Name" : "Hardware Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759117_116501_23532",
+  "Documentation" : "In my role, I need to orchestrate the interface agreements among the parts of the system.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759117_113432_23531",
+    "Name" : "What is the physical breakdown of the system?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759120_233425_23535",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759120_451865_23534",
+    "Name" : "What is the configuration or version of each configuration item?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759126_496166_23538",
+  "Documentation" : "In my role, I need to identify suitable basic components on the grounds of the required system capabilities.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759126_506455_23537",
+    "Name" : "What are the capabilities that are supported by the system?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759126_496538_23540",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759126_506455_23537",
+    "Name" : "What are the capabilities that are supported by the system?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567282723132_468249_52793",
+    "Name" : "Supplier"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759126_736048_23539",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759126_506455_23537",
+    "Name" : "What are the capabilities that are supported by the system?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
+    "Name" : "Acquirer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759130_247535_23544",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759129_389909_23543",
+    "Name" : "How are safety features verified?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_410133_92403",
+    "Name" : "Safety Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759136_584863_23547",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759134_692360_23546",
+    "Name" : "What are the algorithms to be implemented?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
+    "Name" : "Software Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759140_893611_23552",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759140_658655_23551",
+    "Name" : "What is the allocated reliability for the complete item?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
+    "Name" : "Hardware Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759144_289529_23554",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759144_507146_23553",
+    "Name" : "What is the necessary processing performance?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
+    "Name" : "Hardware Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759148_915794_23556",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759148_767106_23555",
+    "Name" : "How to connect the system or a system element to a test equipment?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1566037895381_430904_56516",
+    "Name" : "Maintainer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759154_383284_23567",
+  "Documentation" : "In my role, I need to understand the concepts of external interfaces to external partners in order to implement them.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759154_22704_23559",
+    "Name" : "Which kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
+    "Name" : "Hardware Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759154_502487_23563",
+  "Documentation" : "In my role, I need to coordinate external interfaces with external partners.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759154_22704_23559",
+    "Name" : "Which kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759154_553265_23565",
+  "Documentation" : "In my role, I need to understand the concepts of external interfaces to external partners in order to implement them.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759154_22704_23559",
+    "Name" : "Which kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
+    "Name" : "Software Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759154_603447_23562",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759154_22704_23559",
+    "Name" : "Which kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1566037895381_430904_56516",
+    "Name" : "Maintainer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759154_693978_23564",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759154_22704_23559",
+    "Name" : "Which kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_410133_92403",
+    "Name" : "Safety Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759154_780318_23560",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759154_22704_23559",
+    "Name" : "Which kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
+    "Name" : "Security Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759154_812184_23561",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759154_22704_23559",
+    "Name" : "Which kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653236737_36605_43554",
+    "Name" : "Customer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759154_975215_23566",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759154_22704_23559",
+    "Name" : "Which kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
+    "Name" : "Acquirer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759166_218311_23574",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759166_86709_23573",
+    "Name" : "What are the encryption means used for an exchange?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
+    "Name" : "Security Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759166_49444_23575",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759166_86709_23573",
+    "Name" : "What are the encryption means used for an exchange?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759166_499922_23577",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759166_86709_23573",
+    "Name" : "What are the encryption means used for an exchange?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
+    "Name" : "Software Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759166_580634_23576",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759166_86709_23573",
+    "Name" : "What are the encryption means used for an exchange?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_410133_92403",
+    "Name" : "Safety Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759168_414875_23578",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759166_86709_23573",
+    "Name" : "What are the encryption means used for an exchange?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
+    "Name" : "Hardware Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759169_123793_23581",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759169_938344_23579",
+    "Name" : "Are safety related design principles) followed e.g. segregation of monitors or independence or redundant elements?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_410133_92403",
+    "Name" : "Safety Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759169_347540_23582",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759169_938344_23579",
+    "Name" : "Are safety related design principles) followed e.g. segregation of monitors or independence or redundant elements?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_525021_92401",
+    "Name" : "IV&V Engineer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759169_373789_23580",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759169_938344_23579",
+    "Name" : "Are safety related design principles) followed e.g. segregation of monitors or independence or redundant elements?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759174_743835_23584",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759174_506069_23583",
+    "Name" : "What are necessary enabling systems?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653236737_36605_43554",
+    "Name" : "Customer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759175_253148_23586",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759174_506069_23583",
+    "Name" : "What are necessary enabling systems?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
+    "Name" : "Acquirer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759175_327276_23585",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759174_506069_23583",
+    "Name" : "What are necessary enabling systems?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759175_854012_23587",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759174_506069_23583",
+    "Name" : "What are necessary enabling systems?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567282723132_468249_52793",
+    "Name" : "Supplier"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759178_24919_23593",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759178_551422_23592",
+    "Name" : "What is the priority of each function?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
+    "Name" : "Acquirer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759188_51581_23596",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759188_440720_23595",
+    "Name" : "What is the risk involved with each development item?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567281039295_665940_53199",
+    "Name" : "Project Manager"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759197_903570_23601",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759197_947321_23600",
+    "Name" : "How is the interface between different domains protected?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
+    "Name" : "Security Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759199_113630_23604",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759199_155259_23602",
+    "Name" : "Which modes and states does the system have?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
+    "Name" : "Security Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759199_224815_23609",
+  "Documentation" : "In my role, I need to understand the system in order to put it into operation.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759199_155259_23602",
+    "Name" : "Which modes and states does the system have?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_525021_92401",
+    "Name" : "IV&V Engineer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759199_239679_23606",
+  "Documentation" : "In my role, I need to understand the required system behavior in order to further design the system.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759199_155259_23602",
+    "Name" : "Which modes and states does the system have?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759199_261414_23605",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759199_155259_23602",
+    "Name" : "Which modes and states does the system have?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1566037895381_430904_56516",
+    "Name" : "Maintainer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759199_309273_23610",
+  "Documentation" : "In my role, I need to know which system modes and states my subsystem must support.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759199_155259_23602",
+    "Name" : "Which modes and states does the system have?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
+    "Name" : "Hardware Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759199_446978_23608",
+  "Documentation" : "In my role, I need to know which system modes and states my subsystem must support.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759199_155259_23602",
+    "Name" : "Which modes and states does the system have?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
+    "Name" : "Software Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759199_793687_23607",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759199_155259_23602",
+    "Name" : "Which modes and states does the system have?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_410133_92403",
+    "Name" : "Safety Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759199_951815_23603",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759199_155259_23602",
+    "Name" : "Which modes and states does the system have?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653234809_156018_43552",
+    "Name" : "Regulation Authority"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759209_378032_23618",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759209_575701_23617",
+    "Name" : "How are applicable requirements considered in the system architecture?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653234809_156018_43552",
+    "Name" : "Regulation Authority"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759209_849321_23619",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759209_575701_23617",
+    "Name" : "How are applicable requirements considered in the system architecture?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759216_459307_23622",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759216_889664_23621",
+    "Name" : "Which functions and services need to be implemented in SW?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
+    "Name" : "Software Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759219_631289_23624",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759219_131933_23623",
+    "Name" : "Which protection means need to be provided for an interface?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
+    "Name" : "Hardware Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759226_37485_23627",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759226_943863_23626",
+    "Name" : "What is the scope of a delivery standard?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
+    "Name" : "Hardware Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759229_60216_23632",
+  "Documentation" : "In my role, I want to make sure that the architecture partitioning fulfills safety needs.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759229_399697_23631",
+    "Name" : "How is a safety critical function decomposed and allocated?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759229_873106_23633",
+  "Documentation" : "In my role, I need to check if proper safety measures are taken in the design.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759229_399697_23631",
+    "Name" : "How is a safety critical function decomposed and allocated?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_410133_92403",
+    "Name" : "Safety Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759240_336684_23637",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759240_264083_23636",
+    "Name" : "Are defined standard items considered in the architecture?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
+    "Name" : "Acquirer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759240_450288_23641",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759240_983704_23638",
+    "Name" : "What is the flow of critical information and data through the system?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_525021_92401",
+    "Name" : "IV&V Engineer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759240_559019_23640",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759240_983704_23638",
+    "Name" : "What is the flow of critical information and data through the system?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_410133_92403",
+    "Name" : "Safety Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759240_865928_23639",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759240_983704_23638",
+    "Name" : "What is the flow of critical information and data through the system?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1674576759247_381703_23643",
+  "Documentation" : "In my role, I need to implement the protocol.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759247_884832_23642",
+    "Name" : "Which are the protocols for exchanging physical items on a specific interface?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
+    "Name" : "Software Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1675089448455_338264_25097",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758902_345845_23376",
+    "Name" : "What are the provided power inputs?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
+    "Name" : "Hardware Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1695983218475_597708_24421",
+  "Documentation" : "In my role, I need to implement the protocol.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759247_884832_23642",
+    "Name" : "Which are the protocols for exchanging physical items on a specific interface?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
+    "Name" : "Hardware Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1695983221548_953656_24424",
+  "Documentation" : "In my role, I need to integrate and test the interface.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759247_884832_23642",
+    "Name" : "Which are the protocols for exchanging physical items on a specific interface?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_525021_92401",
+    "Name" : "IV&V Engineer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1695983233053_931993_24425",
+  "Documentation" : "In my role, I need to assess the security on the interface.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759247_884832_23642",
+    "Name" : "Which are the protocols for exchanging physical items on a specific interface?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
+    "Name" : "Security Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1695983240188_850760_24426",
+  "Documentation" : "In my role, I need to asses if the usage of protocols on interfaces is compatible with the system lifecyle concepts.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759247_884832_23642",
+    "Name" : "Which are the protocols for exchanging physical items on a specific interface?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697469733795_708027_36635",
+  "Documentation" : "In my role, I need to plan the test environment",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759148_767106_23555",
+    "Name" : "How to connect the system or a system element to a test equipment?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_525021_92401",
+    "Name" : "IV&V Engineer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697470198057_974349_36716",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758792_625414_23275",
+    "Name" : "What is the sequence of interactions among the system and context elements on physical level?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
+    "Name" : "Security Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697470198945_374286_36719",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758792_625414_23275",
+    "Name" : "What is the sequence of interactions among the system and context elements on physical level?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_410133_92403",
+    "Name" : "Safety Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697471617437_92_37816",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758658_522000_23132",
+    "Name" : "Which HW interfaces are necessary?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697471618390_104222_37819",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758724_745625_23200",
+    "Name" : "Which SW interfaces are necessary?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697471626694_488337_37820",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758881_181126_23362",
+    "Name" : "Which interface partners does a SW item have?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697471627515_634608_37821",
+  "Documentation" : "In my role, I need to orchestrate interface agreements between the system internal interface partners.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758600_423008_23078",
+    "Name" : "How do physical system elements interact to provide system functions?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697471635309_418093_37824",
+  "Documentation" : "In my role, I use them as basis for understanding interfaces on logical level.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758825_79081_23317",
+    "Name" : "Which conceptual items (energy, material, information, etc.) are exchanged within the system?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697471640990_196065_37827",
+  "Documentation" : "In my role, I use them as basis for understanding interfaces on logical level.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758825_79081_23317",
+    "Name" : "Which conceptual items (energy, material, information, etc.) are exchanged within the system?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
+    "Name" : "Security Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697471646333_164769_37830",
+  "Documentation" : "In my role, I need to validate if they fit the purpose of the system and conform the systems concepts",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759093_319282_23509",
+    "Name" : "Which are the protocols used for exchanging information?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697471670437_406704_37839",
+  "Documentation" : "In my role, I need to implement the interfaces in my SW subsystem, if necessary.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758561_575110_23056",
+    "Name" : "Which kind of physical items (energy, material, information, etc.) are used on an interface of a physical architecture element?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
+    "Name" : "Software Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697471672580_872837_37840",
+  "Documentation" : "In my role, I orchestrate interface agreements between architecture elements, and between the system and elements of the system context.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758561_575110_23056",
+    "Name" : "Which kind of physical items (energy, material, information, etc.) are used on an interface of a physical architecture element?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697471676519_588359_37841",
+  "Documentation" : "In my role, I need to  test the interface.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758561_575110_23056",
+    "Name" : "Which kind of physical items (energy, material, information, etc.) are used on an interface of a physical architecture element?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_525021_92401",
+    "Name" : "IV&V Engineer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697471681182_548867_37842",
+  "Documentation" : "In my role, I need to implement the interfaces in my HW subsystem, if necessary.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758561_575110_23056",
+    "Name" : "Which kind of physical items (energy, material, information, etc.) are used on an interface of a physical architecture element?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
+    "Name" : "Hardware Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697471741322_12810_37862",
+  "Documentation" : "In my role, I need to test and integrate the items into the sytem.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759117_113432_23531",
+    "Name" : "What is the physical breakdown of the system?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_525021_92401",
+    "Name" : "IV&V Engineer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697471771067_630605_37867",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758828_494985_23322",
+    "Name" : "What is the logical breakdown of the system?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697471811084_416157_37872",
+  "Documentation" : "In my role, I need to give feedback on existing or missing stakeholders.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758728_957718_23218",
+    "Name" : "In which phases of the life cycle is a Stakeholder involved in the project?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697471818012_152154_37881",
+  "Documentation" : "In my role, I need to give feedback on existing or missing stakeholders.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758728_957718_23218",
+    "Name" : "In which phases of the life cycle is a Stakeholder involved in the project?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567281039295_665940_53199",
+    "Name" : "Project Manager"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697471826322_270009_37884",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759019_845169_23454",
+    "Name" : "What are the consequences not considering a Stakeholder?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567281039295_665940_53199",
+    "Name" : "Project Manager"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697471828331_182658_37887",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758839_643425_23325",
+    "Name" : "What impact does a Stakeholder have on the project?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567281039295_665940_53199",
+    "Name" : "Project Manager"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697471836738_786773_37896",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759190_739382_23597",
+    "Name" : "What concerns and rationals does a Stakeholder have?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567281039295_665940_53199",
+    "Name" : "Project Manager"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697471838251_935209_37897",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759190_739382_23597",
+    "Name" : "What concerns and rationals does a Stakeholder have?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697471843532_135285_37902",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759044_574547_23470",
+    "Name" : "How to involve a Stakeholder and to what degree?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567281039295_665940_53199",
+    "Name" : "Project Manager"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697471844667_674759_37903",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759044_574547_23470",
+    "Name" : "How to involve a Stakeholder and to what degree?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697471858660_778577_37908",
+  "Documentation" : "In my role, I need to give feedback on existing or missing stakeholders.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758881_572143_23359",
+    "Name" : "Which Stakeholders are relevant to the system and might impose requirements?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
+    "Name" : "Hardware Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697471861010_533467_37909",
+  "Documentation" : "In my role, I need to give feedback on existing or missing stakeholders.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758881_572143_23359",
+    "Name" : "Which Stakeholders are relevant to the system and might impose requirements?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567281039295_665940_53199",
+    "Name" : "Project Manager"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697471865139_689253_37912",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758624_283804_23093",
+    "Name" : "What are the consequences, if the Stakeholder’s concerns are not considered?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567281039295_665940_53199",
+    "Name" : "Project Manager"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697472035937_895612_38096",
+  "Documentation" : "In my role, I need to validate if they fit the purpose of the system and are complaint to the systems concepts.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758891_215548_23373",
+    "Name" : "Which standards, protocols, and format specifications apply to a physical interface?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697472037881_185083_38099",
+  "Documentation" : "In my role, I need to implement the interface.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758891_215548_23373",
+    "Name" : "Which standards, protocols, and format specifications apply to a physical interface?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
+    "Name" : "Software Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697472046284_117250_38105",
+  "Documentation" : "In my role, I need to test and integrate them.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758891_215548_23373",
+    "Name" : "Which standards, protocols, and format specifications apply to a physical interface?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_525021_92401",
+    "Name" : "IV&V Engineer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697472048041_192404_38106",
+  "Documentation" : "In my role, I need to implement the interface.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758891_215548_23373",
+    "Name" : "Which standards, protocols, and format specifications apply to a physical interface?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
+    "Name" : "Hardware Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697472220935_585440_38117",
+  "Documentation" : "In my role, I need to assess the security based on them.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758891_215548_23373",
+    "Name" : "Which standards, protocols, and format specifications apply to a physical interface?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
+    "Name" : "Security Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697541491919_680949_34431",
+  "Documentation" : "In my role, I use them as basis for understanding interfaces on logical level.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758760_611640_23247",
+    "Name" : "How do the logical system elements interact to provide the system functions?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_410133_92403",
+    "Name" : "Safety Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697541492776_189892_34434",
+  "Documentation" : "In my role, I use them as basis for understanding interfaces on logical level.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758760_611640_23247",
+    "Name" : "How do the logical system elements interact to provide the system functions?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
+    "Name" : "Security Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697541493824_876790_34435",
+  "Documentation" : "In my role, I need to coordinate internal interfaces with internal subsystem partners.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758760_611640_23247",
+    "Name" : "How do the logical system elements interact to provide the system functions?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697543012289_518415_24743",
+  "Documentation" : "In my role, I have to foster reuse of system wide concept definitions within the architecture design.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1697542838788_945785_24608",
+    "Name" : "Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the system?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697543014003_64745_24746",
+  "Documentation" : "In my role, I use them as basis for understanding interfaces on design level.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1697542838788_945785_24608",
+    "Name" : "Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the system?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
+    "Name" : "Security Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697543015058_922588_24749",
+  "Documentation" : "In my role, I use them as basis for understanding interfaces on design level.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1697542838788_945785_24608",
+    "Name" : "Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the system?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_410133_92403",
+    "Name" : "Safety Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697543025643_258875_24756",
+  "Documentation" : "In my role, I must use these in interface design.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1697542838788_945785_24608",
+    "Name" : "Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the system?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
+    "Name" : "Software Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697543036331_647094_24759",
+  "Documentation" : "In my role, I must derive interface design from them.",
+  "Concern" : {
+    "ID" : "_2021x_2_6d8019d_1693308265004_421376_24972",
+    "Name" : "Which kind of conceptual items (energy, material, information, etc.)  are used in the logical architecture of the system?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
+    "Name" : "Hardware Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697543040882_83766_24760",
+  "Documentation" : "In my role, I must use these in interface design.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1697542838788_945785_24608",
+    "Name" : "Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the system?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
+    "Name" : "Hardware Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697543049864_975167_24763",
+  "Documentation" : "In my role, I must derive interface design from them.",
+  "Concern" : {
+    "ID" : "_2021x_2_6d8019d_1693308265004_421376_24972",
+    "Name" : "Which kind of conceptual items (energy, material, information, etc.)  are used in the logical architecture of the system?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
+    "Name" : "Software Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697543718738_11523_25478",
+  "Documentation" : "In my role, I need to understand the concepts of system internal interfaces  in order to implement them.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758825_79081_23317",
+    "Name" : "Which conceptual items (energy, material, information, etc.) are exchanged within the system?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
+    "Name" : "Hardware Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697543761636_775699_25489",
+  "Documentation" : "In my role, I need to integrate and test the interfaces.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758825_79081_23317",
+    "Name" : "Which conceptual items (energy, material, information, etc.) are exchanged within the system?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_525021_92401",
+    "Name" : "IV&V Engineer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697716169852_422579_28796",
+  "Documentation" : "In my role, I need to integrate and test the interfaces.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758710_759449_23186",
+    "Name" : "Which are the external physical entities the system interacts with in the given context?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_525021_92401",
+    "Name" : "IV&V Engineer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697716189000_261940_28801",
+  "Documentation" : "In my role, I need to integrate and test the interfaces.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759154_22704_23559",
+    "Name" : "Which kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_525021_92401",
+    "Name" : "IV&V Engineer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697716192754_114976_28802",
+  "Documentation" : "In my role, I need to integrate and test the interfaces.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758698_132348_23172",
+    "Name" : "Which kind of physical items (energy, material, information, etc.) are exchanged between the system and external entities?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_525021_92401",
+    "Name" : "IV&V Engineer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697716211922_954027_28806",
+  "Documentation" : "In my role, I need to integrate and test the interfaces.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758618_853638_23089",
+    "Name" : "What are the items exchanged at the boundary of the system with external entities?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_525021_92401",
+    "Name" : "IV&V Engineer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697716216886_910943_28811",
+  "Documentation" : "In my role, I need to integrate and test the interfaces.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759003_217290_23441",
+    "Name" : "Which information is exchanged between the system and external entities?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_525021_92401",
+    "Name" : "IV&V Engineer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697716229256_146214_28818",
+  "Documentation" : "In my role, I need to integrate and test the interfaces.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759091_673143_23507",
+    "Name" : "Which interface partners does the system have?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_525021_92401",
+    "Name" : "IV&V Engineer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697716605075_651568_28845",
+  "Documentation" : "In my role, I need to assess if the system partitioning fulfills the security requirements.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759117_113432_23531",
+    "Name" : "What is the physical breakdown of the system?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
+    "Name" : "Security Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697717045512_246542_28852",
+  "Documentation" : "In my role, I need to assess if the system partitioning fulfills the safety requirements.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759117_113432_23531",
+    "Name" : "What is the physical breakdown of the system?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_410133_92403",
+    "Name" : "Safety Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1697717393224_428702_28854",
+  "Documentation" : "In my role, I need to implement the interfaces in my SW subsystem, if necessary.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758600_423008_23078",
+    "Name" : "How do physical system elements interact to provide system functions?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
+    "Name" : "Software Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1698399640349_572436_33170",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1698399553646_852568_33150",
+    "Name" : "Which system funcions need to be tested in IV&V activities?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_525021_92401",
+    "Name" : "IV&V Engineer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1698399653132_66200_33174",
+  "Documentation" : "In my role, as design authority I have to ensure that the Physical Element fulfills the allocated logical concept (specification).",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1698399385413_529894_33129",
+    "Name" : "Which logical elements are allocated to which physical elements?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653241806_566270_43560",
+    "Name" : "Mechanic Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1698399680747_90649_33177",
+  "Documentation" : "In my role, I have to plan IV&V activities to evaluate the Physical Element as unit under test against the logical concept (specification).",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1698399385413_529894_33129",
+    "Name" : "Which logical elements are allocated to which physical elements?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_525021_92401",
+    "Name" : "IV&V Engineer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1698399715060_901467_33182",
+  "Documentation" : "In my role, as design authority I have to ensure that the HW Element fulfills the allocated logical concept (specification).",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1698399385413_529894_33129",
+    "Name" : "Which logical elements are allocated to which physical elements?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
+    "Name" : "Hardware Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1698399885786_444777_33214",
+  "Documentation" : "In my role, I need to implement the sub-functions in my mechanical subsystem",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758941_524652_23399",
+    "Name" : "What is the mapping of functions to the physical SOI physical architecture?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653241806_566270_43560",
+    "Name" : "Mechanic Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1698400843514_473285_33324",
+  "Documentation" : "In my role, as design authority I have to ensure that the SW Element fulfills the allocated logical concept (specification).",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1698399385413_529894_33129",
+    "Name" : "Which logical elements are allocated to which physical elements?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
+    "Name" : "Software Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1698401239126_16728_33362",
+  "Documentation" : "In my role, I have to check that all aspects of the logical concept (specification) are allocated to physical elements (with assigned design authorities).",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1698399385413_529894_33129",
+    "Name" : "Which logical elements are allocated to which physical elements?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1698402842976_540505_33718",
+  "Documentation" : "In my role, I need to implement the interfaces in my mechanical subsystem, if necessary.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758561_575110_23056",
+    "Name" : "Which kind of physical items (energy, material, information, etc.) are used on an interface of a physical architecture element?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653241806_566270_43560",
+    "Name" : "Mechanic Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1698405327187_273233_59292",
+  "Documentation" : "In my role, I need to orchestrate interface agreements between the system and external interface partners.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759091_673143_23507",
+    "Name" : "Which interface partners does the system have?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1698405348122_71972_59293",
+  "Documentation" : "In my role, I need to assess if  interfaces can impose safety hazards.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759091_673143_23507",
+    "Name" : "Which interface partners does the system have?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_410133_92403",
+    "Name" : "Safety Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1698405349970_889135_59294",
+  "Documentation" : "In my role, I need to assess if external interfaces can impose security threats.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576759091_673143_23507",
+    "Name" : "Which interface partners does the system have?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
+    "Name" : "Security Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1698405588008_252904_59418",
+  "Documentation" : "In my role, I need to integrate and test the interfaces.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758600_423008_23078",
+    "Name" : "How do physical system elements interact to provide system functions?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_525021_92401",
+    "Name" : "IV&V Engineer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1698405639856_4063_59419",
+  "Documentation" : "In my role, I need to assess if internal interfaces conform to security separation concepts.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758600_423008_23078",
+    "Name" : "How do physical system elements interact to provide system functions?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
+    "Name" : "Security Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1698410653864_541368_28628",
+  "Documentation" : "In my role, I need to support integrating and testing the interfaces.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1698410513910_480926_28625",
+    "Name" : "Which physical items (energy, material, information, etc.) are exchanged within the system?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
+    "Name" : "Hardware Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1698410654847_377623_28629",
+  "Documentation" : "In my role, I need to integrate and test the interfaces.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1698410513910_480926_28625",
+    "Name" : "Which physical items (energy, material, information, etc.) are exchanged within the system?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_525021_92401",
+    "Name" : "IV&V Engineer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1698410657983_300277_28630",
+  "Documentation" : "In my role, I use them as basis for understanding interfaces on physical level.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1698410513910_480926_28625",
+    "Name" : "Which physical items (energy, material, information, etc.) are exchanged within the system?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_410133_92403",
+    "Name" : "Safety Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1698410658927_902125_28631",
+  "Documentation" : "In my role, I use them as basis for understanding interfaces on physical level.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1698410513910_480926_28625",
+    "Name" : "Which physical items (energy, material, information, etc.) are exchanged within the system?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
+    "Name" : "Security Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1698410659879_307701_28632",
+  "Documentation" : "In my role, I need to support integrating and testing the interfaces.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1698410513910_480926_28625",
+    "Name" : "Which physical items (energy, material, information, etc.) are exchanged within the system?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
+    "Name" : "Software Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1698410661343_437976_28633",
+  "Documentation" : "In my role, I use them as basis for understanding interfaces on physical level.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1698410513910_480926_28625",
+    "Name" : "Which physical items (energy, material, information, etc.) are exchanged within the system?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1698695467119_676723_48723",
+  "Documentation" : "In my role, I need to orchestrate interface agreements between the system and external interface partners",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1698695280731_979013_48719",
+    "Name" : "Which are the interface definitions for the physical architecture?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1698695467941_653849_48724",
+  "Documentation" : "In my role, I need to orchestrate interface agreements between the system and external interface partners",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1698695260372_8568_48717",
+    "Name" : "Which are the interface definitions for the logical architecture?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1698695478870_850322_48725",
+  "Documentation" : "In my role, I need to implement the interface.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1698695280731_979013_48719",
+    "Name" : "Which are the interface definitions for the physical architecture?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
+    "Name" : "Hardware Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1698695483430_880410_48726",
+  "Documentation" : "In my role, I need to implement the interface.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1698695280731_979013_48719",
+    "Name" : "Which are the interface definitions for the physical architecture?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653241806_566270_43560",
+    "Name" : "Mechanic Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1698695485519_106712_48727",
+  "Documentation" : "In my role, I need to implement the interface.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1698695280731_979013_48719",
+    "Name" : "Which are the interface definitions for the physical architecture?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
+    "Name" : "Software Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1698695562839_503580_48728",
+  "Documentation" : "In my role, I need to orchestrate interface agreements between the system and external interface partners.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1674576758698_132348_23172",
+    "Name" : "Which kind of physical items (energy, material, information, etc.) are exchanged between the system and external entities?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1701365467810_657545_98285",
+  "Documentation" : "In my role, I need to know the meaning of defined terms from applicable standards during implementation..",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1701365325155_727486_98279",
+    "Name" : "Which terms and abbreviations are applicable to the system of interest or its system elements and their interfaces and interactions?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
+    "Name" : "Hardware Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1701365620336_314428_98287",
+  "Documentation" : "In my role, I need to know the meaning of defined terms from applicable standards during implementation.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1701365325155_727486_98279",
+    "Name" : "Which terms and abbreviations are applicable to the system of interest or its system elements and their interfaces and interactions?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653241806_566270_43560",
+    "Name" : "Mechanic Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1701365622142_661882_98288",
+  "Documentation" : "In my role, I need to know the meaning of defined terms from applicable standards during implementation.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1701365325155_727486_98279",
+    "Name" : "Which terms and abbreviations are applicable to the system of interest or its system elements and their interfaces and interactions?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
+    "Name" : "Software Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1701365655310_104608_98289",
+  "Documentation" : "In my role, I need to know the meaning of defined terms from applicable standards during implementation.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1701365358930_669398_98281",
+    "Name" : "What are the sources (e.g. a standard) of terms?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
+    "Name" : "Software Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1701365656197_629105_98290",
+  "Documentation" : "In my role, I need to know the meaning of defined terms from applicable standards during implementation.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1701365358930_669398_98281",
+    "Name" : "What are the sources (e.g. a standard) of terms?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
+    "Name" : "Hardware Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2021x_2_8710274_1701365656878_278534_98291",
+  "Documentation" : "In my role, I need to know the meaning of defined terms from applicable standards during implementation..",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1701365358930_669398_98281",
+    "Name" : "What are the sources (e.g. a standard) of terms?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653241806_566270_43560",
+    "Name" : "Mechanic Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_1_26f0132_1727272820352_413183_15901",
+  "Documentation" : "I need to make sure they can answer the information need described by concerns.\nI need to implement them in a profile",
+  "Concern" : {
+    "ID" : "_2024x_1_26f0132_1727272724178_60816_15898",
+    "Name" : "what are the relations between systems engineering concepts covered by the framework?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129287848_367992_14650",
+    "Name" : "SAF Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_1_26f0132_1727272820356_190936_15902",
+  "Documentation" : "I want to know if the information need that i anticipate for the MBSE approach will be satisfied by the framework.",
+  "Concern" : {
+    "ID" : "_2024x_1_26f0132_1727272724178_60816_15898",
+    "Name" : "what are the relations between systems engineering concepts covered by the framework?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129568628_636824_14722",
+    "Name" : "SAF MBSE approch planer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_1_26f0132_1727272988797_542831_15907",
+  "Documentation" : "I need to know them in order select an appropriate presentation,  implementation, and to implement model checks.",
+  "Concern" : {
+    "ID" : "_2024x_1_26f0132_1727272903091_424205_15904",
+    "Name" : "what are the constraints related to se concepts covered by the framework? "
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129287848_367992_14650",
+    "Name" : "SAF Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_1_26f0132_1727272988798_893566_15908",
+  "Documentation" : "I want to validate the assumptions made in the framework against the anticipated information need of the MBSE appoach.",
+  "Concern" : {
+    "ID" : "_2024x_1_26f0132_1727272903091_424205_15904",
+    "Name" : "what are the constraints related to se concepts covered by the framework? "
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129568628_636824_14722",
+    "Name" : "SAF MBSE approch planer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719129313191_823388_14654",
+  "Documentation" : "I need an overview over the viewpoints available to identify possible gaps.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719129141456_206905_14250",
+    "Name" : "Which viewpoints are available in the framework"
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129287848_367992_14650",
+    "Name" : "SAF Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719129540526_962257_14713",
+  "Documentation" : "I need an overview over the maturity of available to plan SAF development.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719129513706_329066_14708",
+    "Name" : "What is the maturity state of viewpoints in the framework?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129287848_367992_14650",
+    "Name" : "SAF Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719129613505_869151_14730",
+  "Documentation" : "I need to know which viewpoins are stable to assess the risk using them.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719129513706_329066_14708",
+    "Name" : "What is the maturity state of viewpoints in the framework?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129568628_636824_14722",
+    "Name" : "SAF MBSE approch planer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719129622217_93694_14731",
+  "Documentation" : "I want to know which viewpoints can possibly satisfy my information needs.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719129141456_206905_14250",
+    "Name" : "Which viewpoints are available in the framework"
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129555802_233661_14716",
+    "Name" : "SAF System model user"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719130459371_272328_14809",
+  "Documentation" : "I need to explain to frameworks users who would typically have an interest in which viewpoint.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719129843876_724811_14744",
+    "Name" : "Who are the architecture framework stakeholders of the frameworks viewpoints?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129287848_367992_14650",
+    "Name" : "SAF Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719130466683_756695_14812",
+  "Documentation" : "I need to select viewpoints for my stakeholders and want to use this information as a starting point.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719129843876_724811_14744",
+    "Name" : "Who are the architecture framework stakeholders of the frameworks viewpoints?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129568628_636824_14722",
+    "Name" : "SAF MBSE approch planer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719130477971_792655_14818",
+  "Documentation" : "I need to cover the information need of stakeholders to match the purpose of the viewpoint.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719129886772_493463_14747",
+    "Name" : "What are the concerns adressed by the frameworks viewpoints?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129287848_367992_14650",
+    "Name" : "SAF Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719130480005_404607_14821",
+  "Documentation" : "I want to know if the information need of my stakeholders in the planned MBSE approach is adressed by the viewpoint.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719129886772_493463_14747",
+    "Name" : "What are the concerns adressed by the frameworks viewpoints?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129568628_636824_14722",
+    "Name" : "SAF MBSE approch planer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719130492156_155864_14829",
+  "Documentation" : "I need to cover important SE concepts in typical SE workflows along the processes of the INCOSE SE Handbook and SE best practices.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719129923965_578278_14750",
+    "Name" : "Which systems engineering concepts are covered by the framework?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129287848_367992_14650",
+    "Name" : "SAF Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719130493476_757325_14830",
+  "Documentation" : "I need know if the SE concepts to my stakeholders according to the planned SE work flow is covered by the framework.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719129923965_578278_14750",
+    "Name" : "Which systems engineering concepts are covered by the framework?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129568628_636824_14722",
+    "Name" : "SAF MBSE approch planer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719130499990_857670_14831",
+  "Documentation" : "I need to analyze the concerns if they are justified by SE best practice.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719129962342_738625_14755",
+    "Name" : "Which concerns are does an architecture framework stakeholder have?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129287848_367992_14650",
+    "Name" : "SAF Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719130508206_809270_14836",
+  "Documentation" : "I need to specify which SE concepts are exposed in order to fullfil the information need of stakeholders and the viewpoints purpose.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719130002321_367858_14758",
+    "Name" : "Which systems engineering concepts are exposed within a viewpoint of the framework?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129287848_367992_14650",
+    "Name" : "SAF Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719130538879_570086_14839",
+  "Documentation" : "I need to analyze the concerns if they match the information needs my stakeholders will have in order to identify gaps in the MBSE approach.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719129962342_738625_14755",
+    "Name" : "Which concerns are does an architecture framework stakeholder have?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129568628_636824_14722",
+    "Name" : "SAF MBSE approch planer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719130540535_713075_14840",
+  "Documentation" : "I need to design viewpoints that fullfill stakeholders information needs and cover the purpose of the viewpoints.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719130076292_184990_14761",
+    "Name" : "Which concerns are framed by a viewpoint of the framework?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129287848_367992_14650",
+    "Name" : "SAF Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719130541862_178357_14841",
+  "Documentation" : "I need to know if the information needs of my stakeholders are covered in order to plan the MBSE approach.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719130076292_184990_14761",
+    "Name" : "Which concerns are framed by a viewpoint of the framework?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129568628_636824_14722",
+    "Name" : "SAF MBSE approch planer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719130705125_137311_14857",
+  "Documentation" : "I need to cover the processes and best practises by a suitable set of viewpoints.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719130644780_901120_14852",
+    "Name" : "How does a viewpoint of the framework support the processes and best practises of the INCOSE SE Handbook or other system engineering standards?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129287848_367992_14650",
+    "Name" : "SAF Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719130706084_214207_14858",
+  "Documentation" : "I want to know how the INCOSE HB processes and best practises are supported by the frameworks viewpoints, because want to plan a MBSE approach.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719130644780_901120_14852",
+    "Name" : "How does a viewpoint of the framework support the processes and best practises of the INCOSE SE Handbook or other system engineering standards?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129568628_636824_14722",
+    "Name" : "SAF MBSE approch planer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719130713245_254256_14859",
+  "Documentation" : "I want to know how the INCOSE HB processes and best practises are supported by the frameworks viewpoints, because i want to use the viewpoints suitable for the work i am doing.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719130644780_901120_14852",
+    "Name" : "How does a viewpoint of the framework support the processes and best practises of the INCOSE SE Handbook or other system engineering standards?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129555802_233661_14716",
+    "Name" : "SAF System model user"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719130714861_144730_14862",
+  "Documentation" : "I want to know what types of diagrams, tables etc. i am going to work on.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719130583650_18980_14846",
+    "Name" : "Which presentations are available for a viewpoint in the framwork?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129555802_233661_14716",
+    "Name" : "SAF System model user"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719130715997_12135_14863",
+  "Documentation" : "I need to know the dependencies in order to plan my work.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719130608615_351381_14849",
+    "Name" : "Which dependencies to other viewpoints exist for a viewpoint of the framework?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129555802_233661_14716",
+    "Name" : "SAF System model user"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719130719246_486993_14864",
+  "Documentation" : "I need to know if i am using a viewpoint suitable for my modeling task.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719130556191_78836_14843",
+    "Name" : "What is the purpose of a viewpoint in the framwork?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129555802_233661_14716",
+    "Name" : "SAF System model user"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719130721725_146478_14865",
+  "Documentation" : "I want to know which model elements i am expected to work on in a viewpoint.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719130358584_780281_14792",
+    "Name" : "How is a viewpoint implemented (which stereotypes /model elements are used)? "
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129555802_233661_14716",
+    "Name" : "SAF System model user"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719130727127_726358_14869",
+  "Documentation" : "I need to cover the SE concepts exposed by viewpoints by an implementation.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719130336926_829742_14789",
+    "Name" : "What is the implementation of the frameworks concepts?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129287848_367992_14650",
+    "Name" : "SAF Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719130729135_467412_14870",
+  "Documentation" : "I need to structure the framework along criteria that roughly resemble phases of a typical SE workflow.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719130316161_369021_14784",
+    "Name" : "What is the definition of rows (domains) in the frameworks grid?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129287848_367992_14650",
+    "Name" : "SAF Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719130730647_722853_14871",
+  "Documentation" : "I need to understand the frameworks structure in order to chose viewpoints to be used.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719130316161_369021_14784",
+    "Name" : "What is the definition of rows (domains) in the frameworks grid?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129568628_636824_14722",
+    "Name" : "SAF MBSE approch planer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719130732863_559058_14874",
+  "Documentation" : "I need to be able to orient myself in the frameworks structure an know what is where.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719130316161_369021_14784",
+    "Name" : "What is the definition of rows (domains) in the frameworks grid?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129555802_233661_14716",
+    "Name" : "SAF System model user"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719130733565_740691_14877",
+  "Documentation" : "I need to be able to orient myself in the frameworks structure an know what is where.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719130253930_728394_14777",
+    "Name" : "What is the definition of columns (aspects) in the frameworks grid?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129555802_233661_14716",
+    "Name" : "SAF System model user"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719130735680_96261_14880",
+  "Documentation" : "I need to be able to orient myself in the frameworks structure an know what is where.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719130222689_69494_14774",
+    "Name" : "Which columns and rows does the frameworks grid have? "
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129555802_233661_14716",
+    "Name" : "SAF System model user"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719130738951_656566_14883",
+  "Documentation" : "I need to be able to orient myself in the frameworks structure an know what is where.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719130165383_541840_14769",
+    "Name" : "Where is a viewpoint of the framework located in the frameworks grid?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129555802_233661_14716",
+    "Name" : "SAF System model user"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719130741342_447906_14886",
+  "Documentation" : "I need a user documentation of the viewpoint i am going to use.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719130113094_957740_14764",
+    "Name" : "What is the definition of a viewpoint of the framework?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129555802_233661_14716",
+    "Name" : "SAF System model user"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719130748592_927768_14887",
+  "Documentation" : "I need to structure the framework into an understandable grid layout.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719130165383_541840_14769",
+    "Name" : "Where is a viewpoint of the framework located in the frameworks grid?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129287848_367992_14650",
+    "Name" : "SAF Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719130750343_313127_14890",
+  "Documentation" : "I need to understand the frameworks structure in order to chose viewpoints to be used.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719130165383_541840_14769",
+    "Name" : "Where is a viewpoint of the framework located in the frameworks grid?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129568628_636824_14722",
+    "Name" : "SAF MBSE approch planer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719130753055_382882_14891",
+  "Documentation" : "I need to structure the framework into an understandable grid layout.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719130222689_69494_14774",
+    "Name" : "Which columns and rows does the frameworks grid have? "
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129287848_367992_14650",
+    "Name" : "SAF Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719130753959_73916_14894",
+  "Documentation" : "I need to understand the frameworks structure in order to chose viewpoints to be used.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719130222689_69494_14774",
+    "Name" : "Which columns and rows does the frameworks grid have? "
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129568628_636824_14722",
+    "Name" : "SAF MBSE approch planer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719130756184_451643_14899",
+  "Documentation" : "I need to understand the framworks structure in order to chose viewpoints to be used.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719130253930_728394_14777",
+    "Name" : "What is the definition of columns (aspects) in the frameworks grid?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129568628_636824_14722",
+    "Name" : "SAF MBSE approch planer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719130757103_673158_14900",
+  "Documentation" : "I need to structure the framework along criteria that are similar over the domains. ",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719130253930_728394_14777",
+    "Name" : "What is the definition of columns (aspects) in the frameworks grid?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129287848_367992_14650",
+    "Name" : "SAF Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719130758431_197417_14901",
+  "Documentation" : "I need to create a comprehensive specification of the frameworks viewpoints.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719130113094_957740_14764",
+    "Name" : "What is the definition of a viewpoint of the framework?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129287848_367992_14650",
+    "Name" : "SAF Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719130769423_327922_14908",
+  "Documentation" : "I need plan which presentations shall be used by the MBSE approach.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719130583650_18980_14846",
+    "Name" : "Which presentations are available for a viewpoint in the framwork?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129568628_636824_14722",
+    "Name" : "SAF MBSE approch planer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719130772664_556116_14910",
+  "Documentation" : "I need to specify presentations of the information in a viewpoint to address different framework stakeholders concerns.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719130583650_18980_14846",
+    "Name" : "Which presentations are available for a viewpoint in the framwork?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129287848_367992_14650",
+    "Name" : "SAF Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719130773609_722906_14911",
+  "Documentation" : "I need to explain to SAF users what the viewpoint is good for.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719130556191_78836_14843",
+    "Name" : "What is the purpose of a viewpoint in the framwork?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129287848_367992_14650",
+    "Name" : "SAF Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719130774520_283806_14912",
+  "Documentation" : "I need to select appropriate viewpoinst for the MBSE approach.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719130556191_78836_14843",
+    "Name" : "What is the purpose of a viewpoint in the framwork?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129568628_636824_14722",
+    "Name" : "SAF MBSE approch planer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719130775602_976736_14913",
+  "Documentation" : "I need to chose a suitable implementation for the SE concepts exposed by a viewpoint.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719130358584_780281_14792",
+    "Name" : "How is a viewpoint implemented (which stereotypes /model elements are used)? "
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129287848_367992_14650",
+    "Name" : "SAF Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719130776951_670803_14916",
+  "Documentation" : "I need to explain the hard(e.g. by required model elements being a prerequisite) and soft (a recommended good practice) dependencies to frameworks users.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719130608615_351381_14849",
+    "Name" : "Which dependencies to other viewpoints exist for a viewpoint of the framework?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129287848_367992_14650",
+    "Name" : "SAF Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719130779584_579518_14917",
+  "Documentation" : "I need to know the dependencies in order to plan the MBSE approach.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719130608615_351381_14849",
+    "Name" : "Which dependencies to other viewpoints exist for a viewpoint of the framework?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129568628_636824_14722",
+    "Name" : "SAF MBSE approch planer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719130783336_595618_14918",
+  "Documentation" : "I need to understand the frameworks viewpoints in order to plan an appropriate MBSE approach.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719130113094_957740_14764",
+    "Name" : "What is the definition of a viewpoint of the framework?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129568628_636824_14722",
+    "Name" : "SAF MBSE approch planer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719134218634_687434_17637",
+  "Documentation" : "I need an overview about the model in order to orient myself.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719133841790_534930_15826",
+    "Name" : "Which views of the frameworks viewpoints are present in the system model?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129555802_233661_14716",
+    "Name" : "SAF System model user"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719733189961_355348_14524",
+  "Documentation" : "I need an overview about the model in order to orient myself.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1696579743010_350358_24968",
+    "Name" : "Which viewpoints are used in the system model"
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129555802_233661_14716",
+    "Name" : "SAF System model user"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719744922472_585369_37321",
+  "Documentation" : "I  want to understand the intention for the information need to select an cut set of viewpoints and then and appropriate presentation for the information.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719744888608_624464_37315",
+    "Name" : "Why does a stakeholder have this specific concern ? "
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129287848_367992_14650",
+    "Name" : "SAF Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719744922472_985420_37320",
+  "Documentation" : "I want to know what might happen if the concern cannot be fulfilled.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719744888608_624464_37315",
+    "Name" : "Why does a stakeholder have this specific concern ? "
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129568628_636824_14722",
+    "Name" : "SAF MBSE approch planer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719746341970_879724_39141",
+  "Documentation" : "I need to populate system models with them and read them from system models.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719746308347_570628_39136",
+    "Name" : "What are the frameworks model elements to be used in system models?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129555802_233661_14716",
+    "Name" : "SAF System model user"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719746341971_625009_39142",
+  "Documentation" : "I need to know which modeling skills users will need.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719746308347_570628_39136",
+    "Name" : "What are the frameworks model elements to be used in system models?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129568628_636824_14722",
+    "Name" : "SAF MBSE approch planer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1719746371607_520484_39143",
+  "Documentation" : "I need to implement and document them for users",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1719746308347_570628_39136",
+    "Name" : "What are the frameworks model elements to be used in system models?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_26f0132_1719129287848_367992_14650",
+    "Name" : "SAF Developer"
+  }
+} ]

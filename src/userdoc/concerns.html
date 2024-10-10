@@ -1,0 +1,42 @@
+---
+title: Concerns
+layout: default
+parent: "Framework Structure"
+datatable: true
+nav_order: 3
+---
+<h1> Viewpoint Concerns</h1>
+<div >
+<a href="../faq.html#concerns">Concerns</a> are the information needs of <a href="../faq.html#stakeholders">Stakeholders</a>. They should be justified by a rationale. Concerns are addressed by <a href="../faq.html#viewpoints">viewpoints</a>.
+</div>
+<table>
+
+<tr><th> Package</th><th> Concern</th><th>Stakeholder & Rationale</th><th>Viewpoint</th>
+{% for element in site.data.concerns %}
+<tr>
+<td><A id={{ element.ID }}></A>{{ element.Owner }} </td>
+<td>{{ element.Name }}</td>
+<td>
+{% assign rationales = site.data.rationales | where: "Concern.ID", element.ID %}
+{% for rat in rationales -%}
+<div class="tooltip">
+  <A href="./stakeholders.html#{{ rat.Stakeholder.ID }}">
+    {{ rat.Stakeholder.Name }}
+      <span class="tooltiptext">{{ rat.Documentation }}</span>
+ </A>
+</div>{% unless forloop.last %}, {% endunless %}{% endfor %}
+</td>
+<td>
+{% for vp in element.ConcernsViewpoints %}
+{% assign rvp = site.data.viewpoints | where: "ID", vp.ID %}
+{% if rvp.first.Domain == "SAF Development" -%}
+<A href="../devdoc/{{ rvp.first.Domain }} Domain/{{ rvp.first.Name }}.html" >{{ rvp.first.Name }}</A>
+{% else %}
+<A href="../userdoc/{{ rvp.first.Domain }} Domain/{{ rvp.first.Name }}.html">{{ rvp.first.Name }}</A>
+{% endif %}
+{% unless forloop.last %}, {% endunless %}{% endfor %}
+</td>
+</tr>
+{% endfor %}
+
+</table>

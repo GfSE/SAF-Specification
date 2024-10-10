@@ -334,7 +334,7 @@
     "Concern" : "Which kind of physical items (energy, material, information, etc.) are used on an interface of a physical architecture element?"
   }, {
     "Rationale" : "In my role, as design authority I have to ensure that the HW Element fulfills the allocated logical concept (specification).",
-    "Concern" : "Which logical elements are allocated to the physical SOI physical architecture?"
+    "Concern" : "Which logical elements are allocated to which physical elements?"
   }, {
     "Rationale" : "In my role, I need to know which system modes and states my subsystem must support.",
     "Concern" : "Which modes and states does the system have?"
@@ -444,7 +444,7 @@
     "Concern" : "Which kind of physical items (energy, material, information, etc.) are used on an interface of a physical architecture element?"
   }, {
     "Rationale" : "In my role, I have to plan IV&V activities to evaluate the Physical Element as unit under test against the logical concept (specification).",
-    "Concern" : "Which logical elements are allocated to the physical SOI physical architecture?"
+    "Concern" : "Which logical elements are allocated to which physical elements?"
   }, {
     "Rationale" : "In my role, I need to understand the system in order to put it into operation.",
     "Concern" : "Which modes and states does the system have?"
@@ -511,7 +511,7 @@
     "Concern" : "Which kind of physical items (energy, material, information, etc.) are used on an interface of a physical architecture element?"
   }, {
     "Rationale" : "In my role, as design authority I have to ensure that the Physical Element fulfills the allocated logical concept (specification).",
-    "Concern" : "Which logical elements are allocated to the physical SOI physical architecture?"
+    "Concern" : "Which logical elements are allocated to which physical elements?"
   }, {
     "Rationale" : "In my role, I need to know the meaning of defined terms from applicable standards during implementation.",
     "Concern" : "Which terms and abbreviations are applicable to the system of interest or its system elements and their interfaces and interactions?"
@@ -1131,7 +1131,7 @@
     "Concern" : "Which kind of physical items (energy, material, information, etc.) are used on an interface of a physical architecture element?"
   }, {
     "Rationale" : "In my role, as design authority I have to ensure that the SW Element fulfills the allocated logical concept (specification).",
-    "Concern" : "Which logical elements are allocated to the physical SOI physical architecture?"
+    "Concern" : "Which logical elements are allocated to which physical elements?"
   }, {
     "Rationale" : "In my role, I need to know which system modes and states my subsystem must support.",
     "Concern" : "Which modes and states does the system have?"
@@ -1423,7 +1423,7 @@
     "Concern" : "Which kind of physical items (energy, material, information, etc.) are used on an interface of a physical architecture element?"
   }, {
     "Rationale" : "In my role, I have to check that all aspects of the logical concept (specification) are allocated to physical elements (with assigned design authorities).",
-    "Concern" : "Which logical elements are allocated to the physical SOI physical architecture?"
+    "Concern" : "Which logical elements are allocated to which physical elements?"
   }, {
     "Rationale" : "In my role, I need to understand the required system behavior in order to further design the system.",
     "Concern" : "Which modes and states does the system have?"
