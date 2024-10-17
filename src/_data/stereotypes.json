@@ -39,6 +39,10 @@
   "ID" : "_2021x_2_6d8019d_1692273490109_662219_24437",
   "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Logical-Interaction-Point-Definition'>Logical Interaction Point Definition</A><BR>Logical Interaction Point Definition: Specifies the exchange capabilities of an interaction point on Logical Level.<BR></html>\n"
 }, {
+  "Name" : "SAF_ConformsStandard",
+  "ID" : "_2024x_1_26f0132_1729185092432_155560_16027",
+  "Documentation" : "*none*"
+}, {
   "Name" : "SAF_ContextAction",
   "ID" : "_2021x_2_8710274_1676920197680_884628_29235",
   "Documentation" : "*none*"
@@ -91,9 +95,17 @@
   "ID" : "_19_0_4_6d8019d_1629825338987_420088_594",
   "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#General-Functional-Usage'>General Functional Usage</A><BR>General Functional Usage: Specifies the fact that a Function is used by one or more other Functions.<BR></html>\n"
 }, {
+  "Name" : "SAF_Glossary",
+  "ID" : "_2024x_1_26f0132_1729193328493_921636_25629",
+  "Documentation" : ""
+}, {
   "Name" : "SAF_InterfaceLayerRelationship",
   "ID" : "_2021x_2_8710274_1695985266083_110612_25287",
   "Documentation" : "<html>Stereotype realizes multiple Concepts:<UL><LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#PCPOverPCP'>PCPOverPCP</A><BR>PCPOverPCP: Specifies the fact that a physical interaction point communicates / transfers / flows / over an other physical interaction point. Used to define layered physical interfaces, and show layer relationships between interfaces.<BR></LI>\n<LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#PCPPOverPCPP'>PCPPOverPCPP</A><BR>PCPPOverPCPP: Specifies the fact that a physical interaction point property communicates / transfers / flows / over an other physical interaction point property. Used to define layered physical interfaces, and show layer relationships between interface details.<BR></LI>\n</UL>\n</html>\n"
+}, {
+  "Name" : "SAF_IssuedBy",
+  "ID" : "_2024x_1_26f0132_1729185567557_816733_16281",
+  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#STDissuedBySTO'>STDissuedBySTO</A><BR>STDissuedBySTO: Specifies the fact that a standard is issued by an organization of standardization.<BR></html>\n"
 }, {
   "Name" : "SAF_LogicalContext",
   "ID" : "_19_0_2_26f0132_1558076033373_157322_46890",
@@ -305,7 +317,7 @@
 }, {
   "Name" : "SAF_StandardCovering",
   "ID" : "_2021x_2_8710274_1701360709869_194778_91148",
-  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#SDTcoveringSBS'>SDTcoveringSBS</A><BR>SDTcoveringSBS: Specifies the fact that a standard covers a specific subject of standardization, e.g., Data Exchange Format or Protocol.<BR></html>\n"
+  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#SDTcoveringSBS'>SDTcoveringSBS</A><BR>SDTcoveringSBS: Specifies the fact that a standard covers one or more specific subject of standardization, e.g., data exchange format or protocol.<BR></html>\n"
 }, {
   "Name" : "SAF_StandardSuperseding",
   "ID" : "_2021x_2_8710274_1700817699465_496750_50736",
@@ -317,7 +329,7 @@
 }, {
   "Name" : "SAF_StandardizationSubject",
   "ID" : "_2021x_2_8710274_1700819040067_20402_51257",
-  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Subject-of-Standardization'>Subject of Standardization</A><BR>Subject of Standardization: The goal of standardization is to ensure uniformity to certain practices within the industry. Standardization focuses on the product creation process, operations of businesses, technology in use, and how specific compulsory processes are instituted or carried out. Subject of standardization may be  a Data Exchange Format or a Protocol.<BR></html>\n"
+  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Subject-of-Standardization'>Subject of Standardization</A><BR>Subject of Standardization: Specifies a certain topic which the standard covers, e.g.,  a data exchange format or a protocol.<BR></html>\n"
 }, {
   "Name" : "SAF_SystemCapability",
   "ID" : "_19_0_3_6d8019d_1614802234951_841733_423",

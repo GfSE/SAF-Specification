@@ -6,7 +6,7 @@ Abstract element representing physical structure items keeping properties and re
 ## Adversary
 
 ## Any SAF Element
-
+A concept used only together with relational concepts to specify that the relation goes to any other SAF Concept.
 ## Argument
 exposed in viewpoint [Argumentation Assurance Viewpoint](../viewpoints/Argumentation-Assurance-Viewpoint.md)
 
@@ -123,6 +123,10 @@ realized by Stereotype [SAF_PhysicalInternalRole](../../stereotypes.md#saf_physi
 General concept of usage of system elements in the context of other system elements on physical level.
 ## General Scenario Participant
 
+## Glossary
+realized by Stereotype [SAF_Glossary](../../stereotypes.md#saf_glossary)
+
+specifies a coherent set of terms.
 ## Goal
 A Goal is defined as an end state that a Stakeholder intends to achieve. Goals are generally expressed using qualitative words; e.g., “increase”, “improve”, or “easier”. Goals can also be decomposed; e.g., “increase profit” can be decomposed into the Goals “reduce cost” and “increase sales”. However, it is also very common to associate concrete objectives with Goals, which can be used to describe both the quantitative and time-related measures which are essential to describe the desired state, and when it should be achieved.
 ## Grid
@@ -586,7 +590,7 @@ exposed in viewpoint [Common Standards Definition Viewpoint](../viewpoints/Commo
 
 realized by Stereotype [SAF_StandardizationSubject](../../stereotypes.md#saf_standardizationsubject)
 
-The goal of standardization is to ensure uniformity to certain practices within the industry. Standardization focuses on the product creation process, operations of businesses, technology in use, and how specific compulsory processes are instituted or carried out. Subject of standardization may be  a Data Exchange Format or a Protocol.
+Specifies a certain topic which the standard covers, e.g.,  a data exchange format or a protocol.
 ## SysML Stereotype
 exposed in viewpoint [Framework Viewpoint Implementation Viewpoint](../viewpoints/Framework-Viewpoint-Implementation-Viewpoint.md)
 
@@ -933,6 +937,12 @@ Specifies the Input of a System or Context Function.
 1 [General Function](#General-Function) GFNsendingOUPUT 0..* [General Functional Parameter](#General-Functional-Parameter) 
 
 Specifies the Output of a System or Context Function.
+## GYcontainsTRM
+1 [Glossary](#Glossary) GYcontainsTRM 0..* [Term](#Term) 
+
+realized by SAF_Term contained in SAF_Glossary
+
+specifies that a glossary contains a number of terms. A term is contained only in one glossary. 
 ## IPDtypingIP
 1 [Interaction Point Definition](#Interaction-Point-Definition) IPDtypingIP 0..* [Interaction Point](#Interaction-Point) 
 
@@ -1491,23 +1501,15 @@ exposed in viewpoint [Common Standards Definition Viewpoint](../viewpoints/Commo
 
 realized by Stereotype [SAF_StandardCovering](../../stereotypes.md#saf_standardcovering)
 
-Specifies the fact that a standard covers a specific subject of standardization, e.g., Data Exchange Format or Protocol.
+Specifies the fact that a standard covers one or more specific subject of standardization, e.g., data exchange format or protocol.
 ## SDTincludingSDT
 0..* [Standard](#Standard) SDTincludingSDT 0..* [Standard](#Standard) 
 
 exposed in viewpoint [Common Standards Definition Viewpoint](../viewpoints/Common-Standards-Definition-Viewpoint.md)
 
-realized by Stereotype PartProperty
-
-
+realized by SAF_Standard contained in SAF_Standard
 
 Specifies the fact that a standard is part of another standard.
-## SDTissuedBySTO
-0..* [Standard](#Standard) SDTissuedBySTO 1 [Standardization Organization](#Standardization-Organization) 
-
-exposed in viewpoint [Common Standards Definition Viewpoint](../viewpoints/Common-Standards-Definition-Viewpoint.md)
-
-Specifies the fact that a standard is issued by an organization of standardization.
 ## SDTsupersedingSDT
 1 [Standard](#Standard) SDTsupersedingSDT 0..* [Standard](#Standard) 
 
@@ -1743,6 +1745,20 @@ realized by Stereotype [SCM_RealizeConcept](../../stereotypes.md#scm_realizeconc
 
 specifies, that one ore more SAF Stereotypes implement a viewpoint.
 Note: Multiple Stereotypes are used if there are alternate presentations.
+## STDcontainsGY
+1 [Standard](#Standard) STDcontainsGY 0..* [Glossary](#Glossary) 
+
+realized by SAF_Glossary contained in SAF_Standard
+
+specifies that a standard may contain one or more glossaries.
+## STDissuedBySTO
+0..* [Standard](#Standard) STDissuedBySTO 1 [Standardization Organization](#Standardization-Organization) 
+
+exposed in viewpoint [Common Standards Definition Viewpoint](../viewpoints/Common-Standards-Definition-Viewpoint.md)
+
+realized by Stereotype [SAF_IssuedBy](../../stereotypes.md#saf_issuedby)
+
+Specifies the fact that a standard is issued by an organization of standardization.
 ## SUCenablingOSY
 0..* [System Use Case](#System-Use-Case) SUCenablingOSY 0..* [Operational Story](#Operational-Story) 
 

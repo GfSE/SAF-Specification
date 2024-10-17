@@ -11,11 +11,14 @@ logo: "/assets/images/Banner_SAF_gross.png"
 
 plugins:
   - jekyll-relative-links
+  - "jekyll-github-metadata"
 
 
 
 relative_links:
   enabled:     true
+
+repository: GfSE/SAF-Specification
 
 callouts:
   highlight:

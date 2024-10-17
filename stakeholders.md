@@ -170,7 +170,7 @@ The Developer is a group or an individual implementing the system parts accordin
 * Which kind of physical items (energy, material, information, etc.) are used on an interface of a physical architecture element? 
 
   ***Rationale:  In my role, I need to implement the interfaces in my HW subsystem, if necessary.***
-* Which logical elements are allocated to the physical SOI physical architecture? 
+* Which logical elements are allocated to which physical elements? 
 
   ***Rationale:  In my role, as design authority I have to ensure that the HW Element fulfills the allocated logical concept (specification).***
 * Which modes and states does the system have? 
@@ -242,7 +242,7 @@ IV&V Engineers are individuals or groups responsible for integration, validation
 * Which kind of physical items (energy, material, information, etc.) are used on an interface of a physical architecture element? 
 
   ***Rationale:  In my role, I need to  test the interface.***
-* Which logical elements are allocated to the physical SOI physical architecture? 
+* Which logical elements are allocated to which physical elements? 
 
   ***Rationale:  In my role, I have to plan IV&V activities to evaluate the Physical Element as unit under test against the logical concept (specification).***
 * Which modes and states does the system have? 
@@ -285,7 +285,7 @@ The Developer is a group or an individual implementing the system parts accordin
 * Which kind of physical items (energy, material, information, etc.) are used on an interface of a physical architecture element? 
 
   ***Rationale:  In my role, I need to implement the interfaces in my mechanical subsystem, if necessary.***
-* Which logical elements are allocated to the physical SOI physical architecture? 
+* Which logical elements are allocated to which physical elements? 
 
   ***Rationale:  In my role, as design authority I have to ensure that the Physical Element fulfills the allocated logical concept (specification).***
 * Which terms and abbreviations are applicable to the system of interest or its system elements and their interfaces and interactions? 
@@ -708,7 +708,7 @@ The Developer is a group or an individual implementing the system parts accordin
 * Which kind of physical items (energy, material, information, etc.) are used on an interface of a physical architecture element? 
 
   ***Rationale:  In my role, I need to implement the interfaces in my SW subsystem, if necessary.***
-* Which logical elements are allocated to the physical SOI physical architecture? 
+* Which logical elements are allocated to which physical elements? 
 
   ***Rationale:  In my role, as design authority I have to ensure that the SW Element fulfills the allocated logical concept (specification).***
 * Which modes and states does the system have? 
@@ -856,7 +856,7 @@ The System Architect as an individual or group performing the systems engineerin
 * Which kind of physical items (energy, material, information, etc.) are used on an interface of a physical architecture element? 
 
   ***Rationale:  In my role, I orchestrate interface agreements between architecture elements, and between the system and elements of the system context.***
-* Which logical elements are allocated to the physical SOI physical architecture? 
+* Which logical elements are allocated to which physical elements? 
 
   ***Rationale:  In my role, I have to check that all aspects of the logical concept (specification) are allocated to physical elements (with assigned design authorities).***
 * Which modes and states does the system have? 

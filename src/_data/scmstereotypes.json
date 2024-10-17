@@ -1,10 +1,34 @@
 [ {
-  "Name" : "SCM_D2_CCND",
-  "ID" : "_2024x_26f0132_1719737905318_641589_28831",
+  "Name" : "SCM_AspectColumn",
+  "ID" : "_19_0_2_8710274_1573477887520_150508_55457",
+  "Documentation" : "Columns (aspects) of the SAF viewpoint matrix\nUsed for specifying SAF."
+}, {
+  "Name" : "SCM_Attribute",
+  "ID" : "_2021x_2_8710274_1681827616768_507369_24529",
+  "Documentation" : "Defines a relationship between attribute type and attribute owner, implementing a SAF concept.\nThe name of the relation specifies the name of the attribute\nUsed for specifying SAF."
+}, {
+  "Name" : "SCM_ChangeRecord",
+  "ID" : "_2024x_8710274_1714464836793_979710_14585",
+  "Documentation" : "used to track changes in the SAF specification"
+}, {
+  "Name" : "SCM_Concept",
+  "ID" : "_19_0_1_26f0132_1554446849880_209491_45751",
+  "Documentation" : "A concept used in MBSE. May be a class, an association or an association class\nUsed for specifying SAF."
+}, {
+  "Name" : "SCM_ConcernRationale",
+  "ID" : "_2021x_2_8710274_1674480382649_73207_23279",
+  "Documentation" : "The rationale explaining why a SAF_VPStakeholder has a specific concern (which should be addressed by one or more SAF Viewpoints.\nUsed for specifying SAF."
+}, {
+  "Name" : "SCM_ContainedIn",
+  "ID" : "_2021x_2_8710274_1681817980233_699586_29433",
+  "Documentation" : "Defines a relation where the instances of the client(sterotype or metaclass) is contained in instances of the the supplier (stereotype or metaclass). This is used to specify an inplementation of a SAF concept\nUsed for specifying SAF."
+}, {
+  "Name" : "SCM_D1_STKD_Table",
+  "ID" : "_2024x_26f0132_1719738093050_603021_28974",
   "Documentation" : ""
 }, {
-  "Name" : "SCM_D6_CCND_Table",
-  "ID" : "_2024x_26f0132_1719737905319_53042_28833",
+  "Name" : "SCM_D2_CCND",
+  "ID" : "_2024x_26f0132_1719737905318_641589_28831",
   "Documentation" : ""
 }, {
   "Name" : "SCM_D2_COTD",
@@ -15,13 +39,9 @@
   "ID" : "_2024x_26f0132_1719737475680_936292_28621",
   "Documentation" : ""
 }, {
-  "Name" : "SCM_D6_RATD_Table",
-  "ID" : "_2024x_26f0132_1719738001729_783195_28913",
-  "Documentation" : ""
-}, {
-  "Name" : "SCM_D1_STKD_Table",
-  "ID" : "_2024x_26f0132_1719738093050_603021_28974",
-  "Documentation" : ""
+  "Name" : "SCM_D2_STYD_Table",
+  "ID" : "_2024x_26f0132_1719738142966_985767_29029",
+  "Documentation" : "The Stereotype Viewpoint provides an overview over all stereotypes provided by SAF.\n\nRepresentation:\n\nA table featuring the stereotypes of the SAF profile and their documentation."
 }, {
   "Name" : "SCM_D2_VPTD",
   "ID" : "_2024x_26f0132_1719737475678_685392_28619",
@@ -39,21 +59,21 @@
   "ID" : "_2024x_26f0132_1719738460476_855266_29208",
   "Documentation" : ""
 }, {
-  "Name" : "SCM_AspectColumn",
-  "ID" : "_19_0_2_8710274_1573477887520_150508_55457",
-  "Documentation" : "Columns (aspects) of the SAF viewpoint matrix\nUsed for specifying SAF."
+  "Name" : "SCM_D6_CCND_Table",
+  "ID" : "_2024x_26f0132_1719737905319_53042_28833",
+  "Documentation" : ""
 }, {
-  "Name" : "SCM_Concept",
-  "ID" : "_19_0_1_26f0132_1554446849880_209491_45751",
-  "Documentation" : "A concept used in MBSE. May be a class, an association or an association class\nUsed for specifying SAF."
-}, {
-  "Name" : "SCM_ConcernRationale",
-  "ID" : "_2021x_2_8710274_1674480382649_73207_23279",
-  "Documentation" : "The rationale explaining why a SAF_VPStakeholder has a specific concern (which should be addressed by one or more SAF Viewpoints.\nUsed for specifying SAF."
+  "Name" : "SCM_D6_RATD_Table",
+  "ID" : "_2024x_26f0132_1719738001729_783195_28913",
+  "Documentation" : ""
 }, {
   "Name" : "SCM_DerivedRelationship",
   "ID" : "_19_0_2_26f0132_1562308942006_833345_142878",
   "Documentation" : "a derived relationship among SAF_Concepts which is important for views and stakeholders, but not  a primary information\nThe rule of derivation must be specified and is used if the relationship is exposed in a view.\nThis shall be always used together with SAF_Concept on relationships.\nUsed for specifying SAF."
+}, {
+  "Name" : "SCM_DocTarget",
+  "ID" : "_2021x_2_8710274_1699035871674_992571_74134",
+  "Documentation" : "defines a path for doc generation. \nExperimental."
 }, {
   "Name" : "SCM_DomainLayer",
   "ID" : "_19_0_2_8710274_1573477870984_860224_55395",
@@ -71,37 +91,9 @@
   "ID" : "_2021x_2_8710274_1676901152695_966292_23840",
   "Documentation" : "Specifies the maturity of SCM Elements i.e. Viewpoints\nUsed for specifying SAF."
 }, {
-  "Name" : "SCM_MaturityKind",
-  "ID" : "_2021x_2_8710274_1676901255818_399746_23902",
-  "Documentation" : ""
-}, {
   "Name" : "SCM_ProcessRequirement",
   "ID" : "_2021x_2_8710274_1675171819484_866587_23857",
   "Documentation" : "Requirement to specify content for an information Item."
-}, {
-  "Name" : "SCM_VPConcern",
-  "ID" : "_19_0_2_26f0132_1567750329217_558819_53202",
-  "Documentation" : "Concern of an engineering Stakeholder, to describe their concerns adressed by SAF viewpoints.\nUsed for specifying SAF."
-}, {
-  "Name" : "SCM_VPStakeholder",
-  "ID" : "_2021x_2_8710274_1674486070195_664660_27223",
-  "Documentation" : "A stakeholder having concerns framed by viewpoints. These stakeholders are only used in the SAF specification model to capture concerns of viewpoints. They may not be used in a system model.\nUsed for specifying SAF."
-}, {
-  "Name" : "SCM_View",
-  "ID" : "_19_0_4_6d8019d_1630514999349_501873_1056",
-  "Documentation" : "Used to mediate between SCM_Concepts and SCM_Viewpoints. Concepts are exposed by the SCM_View, specifying the conceptual content of the Viewpoint.\nUsed for specifying SAF."
-}, {
-  "Name" : "SCM_Viewpoint",
-  "ID" : "_19_0_2_26f0132_1565349260878_452014_55581",
-  "Documentation" : "Extends SysML Viewpoint by attributes needed by SAF Documentation.\nUsed for specifying SAF."
-}, {
-  "Name" : "SCM_Attribute",
-  "ID" : "_2021x_2_8710274_1681827616768_507369_24529",
-  "Documentation" : "Defines a relationship between attribute type and attribute owner, implementing a SAF concept.\nThe name of the relation specifies the name of the attribute\nUsed for specifying SAF."
-}, {
-  "Name" : "SCM_ContainedIn",
-  "ID" : "_2021x_2_8710274_1681817980233_699586_29433",
-  "Documentation" : "Defines a relation where the instances of the client(sterotype or metaclass) is contained in instances of the the supplier (stereotype or metaclass). This is used to specify an inplementation of a SAF concept\nUsed for specifying SAF."
 }, {
   "Name" : "SCM_RealizationKind",
   "ID" : "_2021x_2_8710274_1675984634525_612899_30635",
@@ -115,7 +107,23 @@
   "ID" : "_2021x_2_8710274_1681817799465_673005_29324",
   "Documentation" : "Defines a realization where the instances of the client(sterotype or metaclass) is typed by instances of the the supplier (stereotype or metaclass).\nUsed for specifying realizations of SAF Concepts in the SAF Specification."
 }, {
-  "Name" : "SCM_D2_STYD_Table",
-  "ID" : "_2024x_26f0132_1719738142966_985767_29029",
-  "Documentation" : "The Stereotype Viewpoint provides an overview over all stereotypes provided by SAF.\n\nRepresentation:\n\nA table featuring the stereotypes of the SAF profile and their documentation."
+  "Name" : "SCM_VPConcern",
+  "ID" : "_19_0_2_26f0132_1567750329217_558819_53202",
+  "Documentation" : "Concern of an engineering Stakeholder, to describe their concerns adressed by SAF viewpoints.\nUsed for specifying SAF."
+}, {
+  "Name" : "SCM_VPStakeholder",
+  "ID" : "_2021x_2_8710274_1674486070195_664660_27223",
+  "Documentation" : "A stakeholder having concerns framed by viewpoints. These stakeholders are only used in the SAF specification model to capture concerns of viewpoints. They may not be used in a system model.\nUsed for specifying SAF."
+}, {
+  "Name" : "SCM_VP_Package",
+  "ID" : "_2024x_8710274_1714298354769_360256_20899",
+  "Documentation" : "Used for the root package of a viewpoint spec. Document generation and validations rely on this."
+}, {
+  "Name" : "SCM_View",
+  "ID" : "_19_0_4_6d8019d_1630514999349_501873_1056",
+  "Documentation" : "Used to mediate between SCM_Concepts and SCM_Viewpoints. Concepts are exposed by the SCM_View, specifying the conceptual content of the Viewpoint.\nUsed for specifying SAF."
+}, {
+  "Name" : "SCM_Viewpoint",
+  "ID" : "_19_0_2_26f0132_1565349260878_452014_55581",
+  "Documentation" : "Extends SysML Viewpoint by attributes needed by SAF Documentation.\nUsed for specifying SAF."
 } ]

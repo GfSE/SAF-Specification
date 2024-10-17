@@ -45,13 +45,13 @@ A block definition diagram (BDD) featuring a claim-argument-evidence pattern (CA
 *none*
 
 ### Documentation
-The Standards Definition Viewpoint supports the definition of applicable standards, e.g., format and protocol specifications, regulations, and engineering documents that are used throughout the system life cycle. It provides the meta-data for the applied standards, guidance and policy, e.g., issue, version, issue date, and publisher. The Viewpoint helps to keep track of changes to the set of applicable documents and of new versions of applied standards. Links should be used to refer to documents external to the architecture description.
+The Standards Definition Viewpoint supports the definition of applicable standards, e.g., for format and protocol specifications, regulations, and engineering documents that are used throughout the system life cycle. It provides the meta-data for the applied standards, guidance and policy, e.g., issue, version, issue date, and publisher. The Viewpoint helps to keep track of changes to the set of applicable documents and of new versions of applied standards. Links should be used to refer to documents external to the architecture description.
 
 Representation:
 
-A block definition diagram (BDD) featuring the taxonomy of types of technical, operational, and business standards, guidance, and policy applicable to the system of interest.
+A block definition diagram (BDD) featuring the taxonomy of types of standards,  applicable to the system of interest, or parts of the system of interest. The Standards are represented by packages which allows to use them in model libraries and put e.g. reusable interface definitions, or terms complying to the standard into the package
 
-A table format listing technical, operational, and business standards, guidance, and policy applicable to the system of interest.
+A table format listing standards, applicable to the system of interest or parts of it, and the relation to which parts of the system the standards apply
 
 ## SAF_C2_CSTD_Table
 
@@ -59,13 +59,13 @@ A table format listing technical, operational, and business standards, guidance,
 *none*
 
 ### Documentation
-The Standards Definition Viewpoint supports the definition of applicable standards, e.g., format and protocol specifications, regulations, and engineering documents that are used throughout the system life cycle. It provides the meta-data for the applied standards, guidance and policy, e.g., issue, version, issue date, and publisher. The Viewpoint helps to keep track of changes to the set of applicable documents and of new versions of applied standards. Links should be used to refer to documents external to the architecture description.
+The Standards Definition Viewpoint supports the definition of applicable standards, e.g., for format and protocol specifications, regulations, and engineering documents that are used throughout the system life cycle. It provides the meta-data for the applied standards, guidance and policy, e.g., issue, version, issue date, and publisher. The Viewpoint helps to keep track of changes to the set of applicable documents and of new versions of applied standards. Links should be used to refer to documents external to the architecture description.
 
 Representation:
 
-A block definition diagram (BDD) featuring the taxonomy of types of technical, operational, and business standards, guidance, and policy applicable to the system of interest.
+A block definition diagram (BDD) featuring the taxonomy of types of standards,  applicable to the system of interest, or parts of the system of interest. The Standards are represented by packages which allows to use them in model libraries and put e.g. reusable interface definitions, or terms complying to the standard into the package
 
-A table format listing technical, operational, and business standards, guidance, and policy applicable to the system of interest.
+A table format listing standards, applicable to the system of interest or parts of it, and the relation to which parts of the system the standards apply
 
 ## SAF_C2_GRID
 
@@ -95,13 +95,13 @@ A table featuring the saf viewpoints, the views (diagrams, tables, ..) of the sy
 *none*
 
 ### Documentation
-The Common Terms Definition Viewpoint supports the definition of applicable terms ... [tbd] ...
+The Common Terms Definition Viewpoint supports the definition of applicable terms used in standards or defined during the systems engineering activities.
 
 Representation:
 
-A table format listing  terms ...[tbd].
+A table format listing terms included in glossaries, or standards if applicable.
 
-A table format listing abbreviations and relationship to standards if applicable... [tbd].
+A table format listing abbreviations included in glossaries, orstandards if applicable.
 
 ## SAF_C7_PRND_Table
 
@@ -187,6 +187,14 @@ A table format listing  protection goals  and subcategories.
 <html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Logical-Interaction-Point-Definition'>Logical Interaction Point Definition</A><BR>Logical Interaction Point Definition: Specifies the exchange capabilities of an interaction point on Logical Level.<BR></html>
 
 
+## SAF_ConformsStandard
+
+### Icon
+*none*
+
+### Documentation
+*none*
+
 ## SAF_ContextAction
 
 ### Icon
@@ -238,7 +246,7 @@ Note: The intention is to capture the expectations and to explicitly dissect the
 *none*
 
 ### Documentation
-*none*
+
 
 ## SAF_Diagram
 
@@ -246,7 +254,7 @@ Note: The intention is to capture the expectations and to explicitly dissect the
 *none*
 
 ### Documentation
-
+*none*
 
 ## SAF_DocumentReference
 
@@ -665,6 +673,15 @@ A dependency matrix featuring relationships for every System Requirement to the 
 <html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#General-Functional-Usage'>General Functional Usage</A><BR>General Functional Usage: Specifies the fact that a Function is used by one or more other Functions.<BR></html>
 
 
+## SAF_Glossary
+
+### Icon
+*none*
+
+### Documentation
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Glossary'>Glossary</A><BR>Glossary: specifies a coherent set of terms.<BR></html>
+
+
 ## SAF_InterfaceLayerRelationship
 
 ### Icon
@@ -675,6 +692,15 @@ A dependency matrix featuring relationships for every System Requirement to the 
 <LI>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#PCPPOverPCPP'>PCPPOverPCPP</A><BR>PCPPOverPCPP: Specifies the fact that a physical interaction point property communicates / transfers / flows / over an other physical interaction point property. Used to define layered physical interfaces, and show layer relationships between interface details.<BR></LI>
 </UL>
 </html>
+
+
+## SAF_IssuedBy
+
+### Icon
+*none*
+
+### Documentation
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#STDissuedBySTO'>STDissuedBySTO</A><BR>STDissuedBySTO: Specifies the fact that a standard is issued by an organization of standardization.<BR></html>
 
 
 ## SAF_L2_LSTD
@@ -1612,7 +1638,7 @@ A assignment matrix featuring
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#SDTcoveringSBS'>SDTcoveringSBS</A><BR>SDTcoveringSBS: Specifies the fact that a standard covers a specific subject of standardization, e.g., Data Exchange Format or Protocol.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#SDTcoveringSBS'>SDTcoveringSBS</A><BR>SDTcoveringSBS: Specifies the fact that a standard covers one or more specific subject of standardization, e.g., data exchange format or protocol.<BR></html>
 
 
 ## SAF_StandardSuperseding
@@ -1639,7 +1665,7 @@ A assignment matrix featuring
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Subject-of-Standardization'>Subject of Standardization</A><BR>Subject of Standardization: The goal of standardization is to ensure uniformity to certain practices within the industry. Standardization focuses on the product creation process, operations of businesses, technology in use, and how specific compulsory processes are instituted or carried out. Subject of standardization may be  a Data Exchange Format or a Protocol.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Subject-of-Standardization'>Subject of Standardization</A><BR>Subject of Standardization: Specifies a certain topic which the standard covers, e.g.,  a data exchange format or a protocol.<BR></html>
 
 
 ## SAF_SystemCapability

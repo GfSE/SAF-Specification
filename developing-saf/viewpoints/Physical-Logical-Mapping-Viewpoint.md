@@ -26,7 +26,7 @@ A assignment matrix featuring
 * [Software Developer](../../stakeholders.md#Software-Developer)
 * [System Architect](../../stakeholders.md#System-Architect)
 ## Concern
-* [Which logical elements are allocated to the physical SOI physical architecture?](../../concerns.md#_2021x_2_8710274_1698399385413_529894_33129)
+* [Which logical elements are allocated to which physical elements?](../../concerns.md#_2021x_2_8710274_1698399385413_529894_33129)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
