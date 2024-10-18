@@ -2,7 +2,7 @@
 # SAF User Documentation : **F3_SFRE** System Functional Refinement Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
-|[Functional](../domains.md#Domain-Functional)|[Process & Behavior](../aspects.md#Aspect-Process-&-Behavior)|![Proposed](../diagrams/Under_construction_icon-red.svg )[proposed](../using-saf/maturity.md#proposed)|
+|[Functional](../domains.md#Domain-Functional)|[Process & Behavior](../aspects.md#Aspect-Process-&-Behavior)|![Under Construction](../diagrams/Under_construction_icon-yellow.svg )[under construction](../using-saf/maturity.md#under-construction)|
 ## Example
 ![System-Functional-Refinement-Viewpoint-primary-example.svg](../diagrams/vp-examples/System-Functional-Refinement-Viewpoint-primary-example.svg)
 ## Purpose
@@ -19,6 +19,13 @@ Activity Diagram featuring System Partial Functions, functional exchange between
 * [What is the breakdown of functions into sub-functions?](../concerns.md#_2021x_2_8710274_1674576758728_463822_23204)
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
+* ControlFlow [UML_Standard_Profile]
+* ObjectFlow [UML_Standard_Profile]
+* Parameter [UML_Standard_Profile]
+* SAF_FunctionAction contained in SAF_SystemFunction
+* [SAF_F3_SFRE](../stereotypes.md#saf_f3_sfre)
+* [SAF_FunctionAction](../stereotypes.md#saf_functionaction)
+* [SAF_SystemFunction](../stereotypes.md#saf_systemfunction)
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [System Process Viewpoint](System-Process-Viewpoint.md)

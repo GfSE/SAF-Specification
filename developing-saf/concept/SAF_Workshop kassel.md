@@ -5,7 +5,7 @@
 | Adversary | |
 | Asset | |
 | Context Function | Specifies the fact that a fundamental action or task is expected to be carried out by an External Entity. <br>Note: The intention is to capture the expectations and to explicitly dissect the functionality. This must not be interpreted as an attempt for a behavior specification of an External Entity. Capturing this valuable information is the basis to reach agreement on the functionality at the System boundary by clarifying the expectations about what is performed by Context Elements.|
-| General Function | Specifies the fact that a General Function is used as base Class for specific System or Context Functions.|
+| General Function | Specifies a General Function. It is used as base Class for specific System or Context Functions, or Partial Functions.|
 | Indirect Asset | |
 | Loss Context | |
 | Loss Context Role | |

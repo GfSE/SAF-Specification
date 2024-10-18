@@ -104,16 +104,12 @@ Specifies a General Context.
 ## General Context Element
 Specifies a General Context Element.
 ## General Function
-Specifies the fact that a General Function is used as base Class for specific System or Context Functions.
-## General Functional Exchange
-exposed in viewpoint [System Process Viewpoint](../viewpoints/System-Process-Viewpoint.md)
+Specifies a General Function. It is used as base Class for specific System or Context Functions, or Partial Functions.
+## General Function Exchange Point
+A Exchange Point of a Function Usage
+## General Function Usage Exchange Point
+exposed in viewpoint [System Functional Refinement Viewpoint](../viewpoints/System-Functional-Refinement-Viewpoint.md)
 
-realized by Metaclass ObjectFlow
-
-
-
-Specifies the fact that an General Functional Exchange between General Function Parameters is taking place.
-## General Functional Parameter
 exposed in viewpoint [System Process Viewpoint](../viewpoints/System-Process-Viewpoint.md)
 
 realized by Metaclass Parameter
@@ -121,6 +117,16 @@ realized by Metaclass Parameter
 
 
 A parameter of a System or Context Function.
+## General Functional Exchange
+exposed in viewpoint [System Functional Refinement Viewpoint](../viewpoints/System-Functional-Refinement-Viewpoint.md)
+
+exposed in viewpoint [System Process Viewpoint](../viewpoints/System-Process-Viewpoint.md)
+
+realized by Metaclass ObjectFlow
+
+
+
+Specifies the fact that an General Functional Exchange between General Function Parameters is taking place.
 ## General Interaction Scenario
 Ordered sequence of exchanges of information, energy, or material between General Interaction Scenario Participants.
 ## General Physical Role
@@ -648,6 +654,8 @@ exposed in viewpoint [System Capability Mapping Viewpoint](../viewpoints/System-
 
 exposed in viewpoint [System Functional Breakdown Structure Viewpoint](../viewpoints/System-Functional-Breakdown-Structure-Viewpoint.md)
 
+exposed in viewpoint [System Functional Refinement Viewpoint](../viewpoints/System-Functional-Refinement-Viewpoint.md)
+
 exposed in viewpoint [System Process Viewpoint](../viewpoints/System-Process-Viewpoint.md)
 
 exposed in viewpoint [System Requirement Traceability Viewpoint](../viewpoints/System-Requirement-Traceability-Viewpoint.md)
@@ -908,28 +916,36 @@ exposed in viewpoint [Grid Definition Viewpoint](../viewpoints/Grid-Definition-V
 realized by Stereotype [SAF_C2_GRID](../../stereotypes.md#saf_c2_grid)
 
 Specifies that the grid contains multiple viewpoints
+## GFEPrelatedToGFUEP
+1 [General Function Exchange Point](#General-Function-Exchange-Point) GFEPrelatedToGFUEP 1 [General Function Usage Exchange Point](#General-Function-Usage-Exchange-Point) 
+
+specifies that a General Functional Exchange Point is related to a General Function Usage Exchange Point
 ## GFEbeingPartOfGFNU
 0..* [General Functional Exchange](#General-Functional-Exchange) GFEbeingPartOfGFNU 1 [General Functional Usage](#General-Functional-Usage) 
 
-Specifies the fact that a Functional Exchange appears within the usage of a General Function.
-## GFEfromGFP
-1 [General Functional Exchange](#General-Functional-Exchange) GFEfromGFP 1 [General Functional Parameter](#General-Functional-Parameter) 
+exposed in viewpoint [System Functional Refinement Viewpoint](../viewpoints/System-Functional-Refinement-Viewpoint.md)
+
+Specifies the fact that a Functional Exchange appears within a general Functiona Usage.
+## GFEfromGFUEP
+1 [General Functional Exchange](#General-Functional-Exchange) GFEfromGFUEP 1 [General Function Usage Exchange Point](#General-Function-Usage-Exchange-Point) 
 
 realized by Metaclass OutputPin
 
 
 
-Specifies the fact that a General Functional Exchange is coming from a General Functional Parameter.
-## GFEtoGFP
-1 [General Functional Exchange](#General-Functional-Exchange) GFEtoGFP 1 [General Functional Parameter](#General-Functional-Parameter) 
+Specifies the fact that a General Functional Exchange is coming from a General Functional Usage Exchange Point.
+## GFEtoGFUEP
+1 [General Functional Exchange](#General-Functional-Exchange) GFEtoGFUEP 1 [General Function Usage Exchange Point](#General-Function-Usage-Exchange-Point) 
 
 realized by Metaclass InputPin
 
 
 
-Specifies the fact that a General Functional Exchange is going to a General Functional Parameter.
+Specifies the fact that a General Functional Exchange is going to a General Functional Usage Exchange Point.
 ## GFNcontrolledAFTER
-1 [General Function](#General-Function) GFNcontrolledAFTER 1 [General Function](#General-Function) 
+1 [General Functional Usage](#General-Functional-Usage) GFNcontrolledAFTER 1 [General Functional Usage](#General-Functional-Usage) 
+
+exposed in viewpoint [System Functional Refinement Viewpoint](../viewpoints/System-Functional-Refinement-Viewpoint.md)
 
 exposed in viewpoint [System Process Viewpoint](../viewpoints/System-Process-Viewpoint.md)
 
@@ -939,13 +955,21 @@ realized by Metaclass ControlFlow
 
 Specifies a sequential execution of Functions.
 ## GFNreceivingINPUT
-1 [General Function](#General-Function) GFNreceivingINPUT 0..* [General Functional Parameter](#General-Functional-Parameter) 
+1 [General Function](#General-Function) GFNreceivingINPUT 0..* [General Function Exchange Point](#General-Function-Exchange-Point) 
 
-Specifies the Input of a System or Context Function.
-## GFNsendingOUPUT
-1 [General Function](#General-Function) GFNsendingOUPUT 0..* [General Functional Parameter](#General-Functional-Parameter) 
+Specifies the Input of a General Function.
+## GFNsendingOUTPUT
+1 [General Function](#General-Function) GFNsendingOUTPUT 0..* [General Function Exchange Point](#General-Function-Exchange-Point) 
 
-Specifies the Output of a System or Context Function.
+Specifies the Output of a General Function.
+## GFUEPreceivingINPUT
+1 [General Functional Usage](#General-Functional-Usage) GFUEPreceivingINPUT 0..* [General Function Usage Exchange Point](#General-Function-Usage-Exchange-Point) 
+
+Specifies the Input of a Functional Usage.
+## GFUEPsendingOUTPUT
+1 [General Functional Usage](#General-Functional-Usage) GFUEPsendingOUTPUT 0..* [General Function Usage Exchange Point](#General-Function-Usage-Exchange-Point) 
+
+Specifies the Output of a Functional Usage.
 ## GYcontainsTRM
 1 [Glossary](#Glossary) GYcontainsTRM 0..* [Term](#Term) 
 
@@ -1480,7 +1504,7 @@ realized by Stereotype [SAF_DomainKindDerivation](../../stereotypes.md#saf_domai
 
 Specifies the fact that a System Domain Kind on system level is derived from an Operational Domain Kind.
 ## SDKtypingFPM
-1 [System Domain Kind](#System-Domain-Kind) SDKtypingFPM 0..* [General Functional Parameter](#General-Functional-Parameter) 
+1 [System Domain Kind](#System-Domain-Kind) SDKtypingFPM 0..* [General Function Usage Exchange Point](#General-Function-Usage-Exchange-Point) 
 
 realized by Parameter typed by SAF_DomainKind
 
@@ -1944,7 +1968,7 @@ exposed in viewpoint [Logical Functional Mapping Viewpoint](../viewpoints/Logica
 
 realized by Stereotype [SAF_FunctionAction](../../stereotypes.md#saf_functionaction)
 
-Specifies the fact that a Function is used by one or more other Functions.
+Specifies a General Usage of a General Function within  one or more other General Functions.
 ## General Scenario Participation
 0..* [General Context Element Role](#General-Context-Element-Role) General Scenario Participation 0..* [General Interaction Scenario](#General-Interaction-Scenario) 
 
@@ -2270,6 +2294,8 @@ Specifies the fact that a System Function is used in a System Process.
 0..* [System Function](#System-Function) System Partial Function in System Function 0..* [System Partial Function](#System-Partial-Function) 
 
 exposed in viewpoint [System Functional Breakdown Structure Viewpoint](../viewpoints/System-Functional-Breakdown-Structure-Viewpoint.md)
+
+exposed in viewpoint [System Functional Refinement Viewpoint](../viewpoints/System-Functional-Refinement-Viewpoint.md)
 
 realized by SAF_FunctionAction contained in SAF_SystemFunction
 

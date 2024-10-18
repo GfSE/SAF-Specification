@@ -3,8 +3,8 @@
 |Concept|Documentation|
 | --- | --- |
 | GFNcontrolledAFTER | Specifies a sequential execution of Functions.|
-| General Function | Specifies the fact that a General Function is used as base Class for specific System or Context Functions.|
-| General Functional Usage | Specifies the fact that a Function is used by one or more other Functions.|
+| General Function | Specifies a General Function. It is used as base Class for specific System or Context Functions, or Partial Functions.|
+| General Functional Usage | Specifies a General Usage of a General Function within  one or more other General Functions.|
 | LETbeeingInSSE | Specifies the  System States a Logical Element can be in.|
 | LETimplementingGFN | Specifies the fact that a Logical Element is responsible to implement a System Function.<br>Note: Logical Elements don't "implement" anything, they pass the function implementation task to Physical Elements.|
 | Logical Context SOI | Represents the Logical SOI in the System Context on Logical Level.|

@@ -2,7 +2,7 @@
 ![SAF_domain_kind_F_Definition.svg](./diagrams/SAF_domain_kind_F_Definition.svg)
 |Concept|Documentation|
 | --- | --- |
-| General Functional Parameter | A parameter of a System or Context Function.|
+| General Function Usage Exchange Point | A parameter of a System or Context Function.|
 | Logical Interaction Point Property | Specifies a detail of an interaction point on Logical Level.|
 | Logical Item Exchange | Specifies the exchange that is to take place on a connection of two interaction points on Logical Level.|
 | Operational Domain Kind | Specifies the kind of Operational Item Exchange between Operational Context Roles or Operational Processes.|

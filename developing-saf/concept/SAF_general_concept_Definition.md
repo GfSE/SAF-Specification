@@ -14,8 +14,8 @@
 | General Context | Specifies a General Context.|
 | General Context Element | Specifies a General Context Element.|
 | General Context Element Role | Specifies the fact that a General Context Element exists in a given General Context.|
-| General Function | Specifies the fact that a General Function is used as base Class for specific System or Context Functions.|
-| General Functional Usage | Specifies the fact that a Function is used by one or more other Functions.|
+| General Function | Specifies a General Function. It is used as base Class for specific System or Context Functions, or Partial Functions.|
+| General Functional Usage | Specifies a General Usage of a General Function within  one or more other General Functions.|
 | General Interaction Scenario | Ordered sequence of exchanges of information, energy, or material between General Interaction Scenario Participants.|
 | General Scenario Participation | Specifies the fact that a System Role participates in a General Interaction Scenario.|
 | IPDtypingIP | Specifies the fact that an Interaction Point Definition defines the exchange capabilities of an Interaction Point.|

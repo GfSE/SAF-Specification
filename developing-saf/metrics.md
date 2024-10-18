@@ -11,5 +11,5 @@
 ## Viewpoint related metrics
  * Total viewpoints: 53
  * Released viewpoints: 37
- * Under construction viewpoints: 7
- * Proposed viewpoints: 9
+ * Under construction viewpoints: 8
+ * Proposed viewpoints: 8

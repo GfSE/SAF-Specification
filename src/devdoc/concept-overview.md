@@ -20,6 +20,9 @@ There are some [General Concepts](./concepts/SAF_general_concept_Definition.md) 
 * [System Level Context](./concepts/SAF_context_F_Definition.md)
 * [System Level Physical Context](./concepts/SAF_context_P_Definition.md)
 
+## Use Cases
+* [System Use Cases](./concepts/SAF_UseCase_F_Definition.md)
+
 ## Domain Items
 * [Operational Level Domain Items](./concepts/SAF_domain_kind_O_Definition.md)
 * [System Level Domain Items](./concepts/SAF_domain_kind_F_Definition.md)

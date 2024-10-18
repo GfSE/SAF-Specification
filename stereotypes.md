@@ -247,7 +247,7 @@ Note: The intention is to capture the expectations and to explicitly dissect the
 *none*
 
 ### Documentation
-
+*none*
 
 ## SAF_Diagram
 
@@ -255,7 +255,7 @@ Note: The intention is to capture the expectations and to explicitly dissect the
 *none*
 
 ### Documentation
-*none*
+
 
 ## SAF_DocumentReference
 
@@ -671,7 +671,7 @@ A dependency matrix featuring relationships for every System Requirement to the 
 ![icon](icons/SAF_FunctionAction.svg)
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#General-Functional-Usage'>General Functional Usage</A><BR>General Functional Usage: Specifies the fact that a Function is used by one or more other Functions.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#General-Functional-Usage'>General Functional Usage</A><BR>General Functional Usage: Specifies a General Usage of a General Function within  one or more other General Functions.<BR></html>
 
 
 ## SAF_Glossary

@@ -4,16 +4,20 @@
 | --- | --- |
 | Context Function | Specifies the fact that a fundamental action or task is expected to be carried out by an External Entity. <br>Note: The intention is to capture the expectations and to explicitly dissect the functionality. This must not be interpreted as an attempt for a behavior specification of an External Entity. Capturing this valuable information is the basis to reach agreement on the functionality at the System boundary by clarifying the expectations about what is performed by Context Elements.|
 | Context Function IN System Process | Specifies the fact that a Context Function is used in a System Process.|
-| GFEbeingPartOfGFNU | Specifies the fact that a Functional Exchange appears within the usage of a General Function.|
-| GFEfromGFP | Specifies the fact that a General Functional Exchange is coming from a General Functional Parameter.|
-| GFEtoGFP | Specifies the fact that a General Functional Exchange is going to a General Functional Parameter.|
+| GFEPrelatedToGFUEP | specifies that a General Functional Exchange Point is related to a General Function Usage Exchange Point|
+| GFEbeingPartOfGFNU | Specifies the fact that a Functional Exchange appears within a general Functiona Usage.|
+| GFEfromGFUEP | Specifies the fact that a General Functional Exchange is coming from a General Functional Usage Exchange Point.|
+| GFEtoGFUEP | Specifies the fact that a General Functional Exchange is going to a General Functional Usage Exchange Point.|
 | GFNcontrolledAFTER | Specifies a sequential execution of Functions.|
-| GFNreceivingINPUT | Specifies the Input of a System or Context Function.|
-| GFNsendingOUPUT | Specifies the Output of a System or Context Function.|
-| General Function | Specifies the fact that a General Function is used as base Class for specific System or Context Functions.|
+| GFNreceivingINPUT | Specifies the Input of a General Function.|
+| GFNsendingOUTPUT | Specifies the Output of a General Function.|
+| GFUEPreceivingINPUT | Specifies the Input of a Functional Usage.|
+| GFUEPsendingOUTPUT | Specifies the Output of a Functional Usage.|
+| General Function | Specifies a General Function. It is used as base Class for specific System or Context Functions, or Partial Functions.|
+| General Function Exchange Point | A Exchange Point of a Function Usage|
+| General Function Usage Exchange Point | A parameter of a System or Context Function.|
 | General Functional Exchange | Specifies the fact that an General Functional Exchange between General Function Parameters is taking place.|
-| General Functional Parameter | A parameter of a System or Context Function.|
-| General Functional Usage | Specifies the fact that a Function is used by one or more other Functions.|
+| General Functional Usage | Specifies a General Usage of a General Function within  one or more other General Functions.|
 | SPSenablingSCY | Specifies the fact that a System Process contributes to the provision of one or more System Capabilities in the field.|
 | SPSrefiningSUC | Specifies the fact that a System Use Case is refined by one System Process.|
 | SUChasPostConditionSSE | Specifies the fact that a System Use Case has a state as Postcondition.|

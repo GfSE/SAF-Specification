@@ -2,7 +2,7 @@
 # SAF Development Documentation : **F3_SFRE** System Functional Refinement Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
-|[Functional](../../domains.md#Domain-Functional)|[Process & Behavior](../../aspects.md#Aspect-Process-&-Behavior)|![Proposed](../../diagrams/Under_construction_icon-red.svg )[proposed](../../using-saf/maturity.md#proposed)|
+|[Functional](../../domains.md#Domain-Functional)|[Process & Behavior](../../aspects.md#Aspect-Process-&-Behavior)|![Under Construction](../../diagrams/Under_construction_icon-yellow.svg )[under construction](../../using-saf/maturity.md#under-construction)|
 ## Example
 ![System-Functional-Refinement-Viewpoint-primary-example.svg](../../diagrams/vp-examples/System-Functional-Refinement-Viewpoint-primary-example.svg)
 ## Purpose
@@ -21,6 +21,13 @@ Activity Diagram featuring System Partial Functions, functional exchange between
 The following Stereotypes / Model Elements are used in the Viewpoint:
 |Stereotype | realized Concept|
 |---|---|
+|ControlFlow [UML_Standard_Profile]|[GFNcontrolledAFTER](../concept/concepts.md#GFNcontrolledAFTER)|
+|ObjectFlow [UML_Standard_Profile]|[General Functional Exchange](../concept/concepts.md#General-Functional-Exchange)|
+|Parameter [UML_Standard_Profile]|[General Function Usage Exchange Point](../concept/concepts.md#General-Function-Usage-Exchange-Point)|
+|[SAF_F3_SFRE](../../stereotypes.md#saf_f3_sfre)|[System Functional Refinement Viewpoint](../concept/concepts.md#System-Functional-Refinement-Viewpoint)|
+|SAF_FunctionAction contained in SAF_SystemFunction|[System Partial Function in System Function](../concept/concepts.md#System-Partial-Function-in-System-Function)|
+|[SAF_FunctionAction](../../stereotypes.md#saf_functionaction)|[General Functional Usage](../concept/concepts.md#General-Functional-Usage)|
+|[SAF_SystemFunction](../../stereotypes.md#saf_systemfunction)|[System Function](../concept/concepts.md#System-Function)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 * [System Process Viewpoint](System-Process-Viewpoint.md)

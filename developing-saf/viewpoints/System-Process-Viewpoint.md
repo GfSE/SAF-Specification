@@ -50,15 +50,14 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |Allocate [SysML Profile]|[LCEperformingCFN](../concept/concepts.md#LCEperformingCFN)|
 |Allocate [SysML Profile]|[LETperformingSFN](../concept/concepts.md#LETperformingSFN)|
 |ControlFlow [UML_Standard_Profile]|[GFNcontrolledAFTER](../concept/concepts.md#GFNcontrolledAFTER)|
-|InputPin [UML_Standard_Profile]|[GFEtoGFP](../concept/concepts.md#GFEtoGFP)|
 |ObjectFlow [UML_Standard_Profile]|[General Functional Exchange](../concept/concepts.md#General-Functional-Exchange)|
-|OutputPin [UML_Standard_Profile]|[GFEfromGFP](../concept/concepts.md#GFEfromGFP)|
-|Parameter [UML_Standard_Profile]|[General Functional Parameter](../concept/concepts.md#General-Functional-Parameter)|
+|Parameter [UML_Standard_Profile]|[General Function Usage Exchange Point](../concept/concepts.md#General-Function-Usage-Exchange-Point)|
 |SAF_ContextAction contained in SAF_SystemProcess|[Context Function IN System Process](../concept/concepts.md#Context-Function-IN-System-Process)|
 |[SAF_ContextFunction](../../stereotypes.md#saf_contextfunction)|[Context Function](../concept/concepts.md#Context-Function)|
 |[SAF_F3_SPRO](../../stereotypes.md#saf_f3_spro)|[System Process Viewpoint](../concept/concepts.md#System-Process-Viewpoint)|
 |[SAF_F3_SPRO_Table](../../stereotypes.md#saf_f3_spro_table)|[System Process Viewpoint](../concept/concepts.md#System-Process-Viewpoint)|
 |SAF_FunctionAction contained in SAF_SystemProcess|[System Function IN System Process](../concept/concepts.md#System-Function-IN-System-Process)|
+|[SAF_FunctionAction](../../stereotypes.md#saf_functionaction)|[General Functional Usage](../concept/concepts.md#General-Functional-Usage)|
 |[SAF_LogicalContextRole](../../stereotypes.md#saf_logicalcontextrole)|[Logical Context Element Role](../concept/concepts.md#Logical-Context-Element-Role)|
 |[SAF_LogicalContextRole](../../stereotypes.md#saf_logicalcontextrole)|[Logical SOI Role](../concept/concepts.md#Logical-SOI-Role)|
 |[SAF_SystemFunction](../../stereotypes.md#saf_systemfunction)|[System Function](../concept/concepts.md#System-Function)|
