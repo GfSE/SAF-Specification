@@ -41,7 +41,7 @@
 }, {
   "Name" : "SAF_ConformsStandard",
   "ID" : "_2024x_1_26f0132_1729185092432_155560_16027",
-  "Documentation" : "*none*"
+  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#ASFconformToSTD'>ASFconformToSTD</A><BR>ASFconformToSTD: Specifies, that a SAF Element may be conform to one or more Standards.<BR></html>\n"
 }, {
   "Name" : "SAF_ContextAction",
   "ID" : "_2021x_2_8710274_1676920197680_884628_29235",
@@ -97,7 +97,7 @@
 }, {
   "Name" : "SAF_Glossary",
   "ID" : "_2024x_1_26f0132_1729193328493_921636_25629",
-  "Documentation" : ""
+  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Glossary'>Glossary</A><BR>Glossary: specifies a coherent set of terms.<BR></html>\n"
 }, {
   "Name" : "SAF_InterfaceLayerRelationship",
   "ID" : "_2021x_2_8710274_1695985266083_110612_25287",
@@ -313,11 +313,15 @@
 }, {
   "Name" : "SAF_Standard",
   "ID" : "_2021x_2_8710274_1700810557668_637315_48235",
-  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Standard'>Standard</A><BR>Standard: An international standard is a technical standard developed by one or more international standards organizations. International standards are available for consideration and use worldwide.<BR></html>\n"
+  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Standard'>Standard</A><BR>Standard: Specifies a standard which shall potentially be complied by the system or a part of the system.\n<BR></html>\n"
 }, {
-  "Name" : "SAF_StandardCovering",
+  "Name" : "SAF_StandardCategory",
+  "ID" : "_2021x_2_8710274_1700819040067_20402_51257",
+  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Category-Of-Standard'>Category Of Standard</A><BR>Category Of Standard: Specifies categories in which the standard could be categorized , e.g.,  a data exchange format or a protocol standard, or categories as national, company or international standard.<BR></html>\n"
+}, {
+  "Name" : "SAF_StandardCategoryAssignment",
   "ID" : "_2021x_2_8710274_1701360709869_194778_91148",
-  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#SDTcoveringSBS'>SDTcoveringSBS</A><BR>SDTcoveringSBS: Specifies the fact that a standard covers one or more specific subject of standardization, e.g., data exchange format or protocol.<BR></html>\n"
+  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#SDTcategorizedCOF'>SDTcategorizedCOF</A><BR>SDTcategorizedCOF: Specifies the fact that a standard is categorized by one or more categories.<BR></html>\n"
 }, {
   "Name" : "SAF_StandardSuperseding",
   "ID" : "_2021x_2_8710274_1700817699465_496750_50736",
@@ -326,10 +330,6 @@
   "Name" : "SAF_StandardizationOrganization",
   "ID" : "_2021x_2_8710274_1700812596870_49325_49849",
   "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Standardization-Organization'>Standardization Organization</A><BR>Standardization Organization: An organization of standardization, e.g., International Organization for Standardization (ISO), Object Management Group (OMG), etc.<BR></html>\n"
-}, {
-  "Name" : "SAF_StandardizationSubject",
-  "ID" : "_2021x_2_8710274_1700819040067_20402_51257",
-  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Subject-of-Standardization'>Subject of Standardization</A><BR>Subject of Standardization: Specifies a certain topic which the standard covers, e.g.,  a data exchange format or a protocol.<BR></html>\n"
 }, {
   "Name" : "SAF_SystemCapability",
   "ID" : "_19_0_3_6d8019d_1614802234951_841733_423",

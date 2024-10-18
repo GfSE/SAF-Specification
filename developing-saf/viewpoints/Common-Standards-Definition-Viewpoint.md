@@ -30,11 +30,11 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 |[SAF_ConformsStandard](../../stereotypes.md#saf_conformsstandard)|[ASFconformToSTD](../concept/concepts.md#ASFconformToSTD)|
 |[SAF_IssuedBy](../../stereotypes.md#saf_issuedby)|[STDissuedBySTO](../concept/concepts.md#STDissuedBySTO)|
 |SAF_Standard contained in SAF_Standard|[SDTincludingSDT](../concept/concepts.md#SDTincludingSDT)|
-|[SAF_StandardCovering](../../stereotypes.md#saf_standardcovering)|[SDTcoveringSBS](../concept/concepts.md#SDTcoveringSBS)|
+|[SAF_StandardCategoryAssignment](../../stereotypes.md#saf_standardcategoryassignment)|[SDTcategorizedCOF](../concept/concepts.md#SDTcategorizedCOF)|
+|[SAF_StandardCategory](../../stereotypes.md#saf_standardcategory)|[Category Of Standard](../concept/concepts.md#Category-Of-Standard)|
 |[SAF_Standard](../../stereotypes.md#saf_standard)|[Standard](../concept/concepts.md#Standard)|
 |[SAF_StandardSuperseding](../../stereotypes.md#saf_standardsuperseding)|[SDTsupersedingSDT](../concept/concepts.md#SDTsupersedingSDT)|
 |[SAF_StandardizationOrganization](../../stereotypes.md#saf_standardizationorganization)|[Standardization Organization](../concept/concepts.md#Standardization-Organization)|
-|[SAF_StandardizationSubject](../../stereotypes.md#saf_standardizationsubject)|[Subject of Standardization](../concept/concepts.md#Subject-of-Standardization)|
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

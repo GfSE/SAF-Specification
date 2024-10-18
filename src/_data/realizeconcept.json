@@ -2668,11 +2668,11 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2021x_2_8710274_1700814367039_336586_50268",
-    "Name" : "SDTcoveringSBS"
+    "Name" : "SDTcategorizedCOF"
   },
   "RealizationOfConcept" : {
     "ID" : "_2021x_2_8710274_1701360709869_194778_91148",
-    "Name" : "SAF_StandardCovering"
+    "Name" : "SAF_StandardCategoryAssignment"
   }
 }, {
   "Name" : "",
@@ -2680,11 +2680,11 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2021x_2_8710274_1700813046483_995773_50081",
-    "Name" : "Subject of Standardization"
+    "Name" : "Category Of Standard"
   },
   "RealizationOfConcept" : {
     "ID" : "_2021x_2_8710274_1700819040067_20402_51257",
-    "Name" : "SAF_StandardizationSubject"
+    "Name" : "SAF_StandardCategory"
   }
 }, {
   "Name" : "",

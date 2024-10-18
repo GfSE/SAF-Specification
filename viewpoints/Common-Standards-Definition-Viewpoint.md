@@ -28,11 +28,11 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_C2_CSTD_Table](../stereotypes.md#saf_c2_cstd_table)
 * [SAF_ConformsStandard](../stereotypes.md#saf_conformsstandard)
 * [SAF_IssuedBy](../stereotypes.md#saf_issuedby)
-* [SAF_StandardCovering](../stereotypes.md#saf_standardcovering)
+* [SAF_StandardCategoryAssignment](../stereotypes.md#saf_standardcategoryassignment)
+* [SAF_StandardCategory](../stereotypes.md#saf_standardcategory)
 * [SAF_StandardSuperseding](../stereotypes.md#saf_standardsuperseding)
 * [SAF_Standard](../stereotypes.md#saf_standard)
 * [SAF_StandardizationOrganization](../stereotypes.md#saf_standardizationorganization)
-* [SAF_StandardizationSubject](../stereotypes.md#saf_standardizationsubject)
 ## Input from other Viewpoints
 ### Required Viewpoints
 *none*

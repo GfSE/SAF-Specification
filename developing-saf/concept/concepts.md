@@ -25,6 +25,12 @@ realized by Stereotype [SCM_AspectColumn](../../stereotypes.md#scm_aspectcolumn)
 Aspects capture a set of characteristics or features of the Entity of Interest in its Environment to address Concerns within an Architecture Description.
 ## Asset
 
+## Category Of Standard
+exposed in viewpoint [Common Standards Definition Viewpoint](../viewpoints/Common-Standards-Definition-Viewpoint.md)
+
+realized by Stereotype [SAF_StandardCategory](../../stereotypes.md#saf_standardcategory)
+
+Specifies categories in which the standard could be categorized , e.g.,  a data exchange format or a protocol standard, or categories as national, company or international standard.
 ## Claim
 exposed in viewpoint [Argumentation Assurance Viewpoint](../viewpoints/Argumentation-Assurance-Viewpoint.md)
 
@@ -572,7 +578,8 @@ exposed in viewpoint [Common Standards Definition Viewpoint](../viewpoints/Commo
 
 realized by Stereotype [SAF_Standard](../../stereotypes.md#saf_standard)
 
-An international standard is a technical standard developed by one or more international standards organizations. International standards are available for consideration and use worldwide.
+Specifies a standard which shall potentially be complied by the system or a part of the system.
+
 ## Standardization Organization
 exposed in viewpoint [Common Standards Definition Viewpoint](../viewpoints/Common-Standards-Definition-Viewpoint.md)
 
@@ -585,12 +592,6 @@ exposed in viewpoint [Argumentation Assurance Viewpoint](../viewpoints/Argumenta
 realized by Stereotype [SAF_ClaimSubject](../../stereotypes.md#saf_claimsubject)
 
 Note: A claim cannot be generic, it has to be about something, it has to have a defined subject, e.g., system safety.
-## Subject of Standardization
-exposed in viewpoint [Common Standards Definition Viewpoint](../viewpoints/Common-Standards-Definition-Viewpoint.md)
-
-realized by Stereotype [SAF_StandardizationSubject](../../stereotypes.md#saf_standardizationsubject)
-
-Specifies a certain topic which the standard covers, e.g.,  a data exchange format or a protocol.
 ## SysML Stereotype
 exposed in viewpoint [Framework Viewpoint Implementation Viewpoint](../viewpoints/Framework-Viewpoint-Implementation-Viewpoint.md)
 
@@ -786,6 +787,14 @@ Specifies the fact that a Physical System Element can be in distinct states.
 1 [Abstract Physical Element](#Abstract-Physical-Element) APEimplementingGFN 1..* [General Function](#General-Function) 
 
 
+## ASFconformToSTD
+0..* [Any SAF Element](#Any-SAF-Element) ASFconformToSTD 0..* [Standard](#Standard) 
+
+exposed in viewpoint [Common Standards Definition Viewpoint](../viewpoints/Common-Standards-Definition-Viewpoint.md)
+
+realized by Stereotype [SAF_ConformsStandard](../../stereotypes.md#saf_conformsstandard)
+
+Specifies, that a SAF Element may be conform to one or more Standards.
 ## CCMcounteringCIM
 0..* [CounterClaim](#CounterClaim) CCMcounteringCIM 0..* [Claimable Item](#Claimable-Item) 
 
@@ -1494,14 +1503,14 @@ exposed in viewpoint [System Interface Definition Viewpoint](../viewpoints/Syste
 realized by FlowProperty typed by SAF_DomainKind
 
 Specifies the fact that a System Domain Kind defines the type of a Logical Interaction Point Property.
-## SDTcoveringSBS
-0..* [Standard](#Standard) SDTcoveringSBS 0..* [Subject of Standardization](#Subject-of-Standardization) 
+## SDTcategorizedCOF
+0..* [Standard](#Standard) SDTcategorizedCOF 0..* [Category Of Standard](#Category-Of-Standard) 
 
 exposed in viewpoint [Common Standards Definition Viewpoint](../viewpoints/Common-Standards-Definition-Viewpoint.md)
 
-realized by Stereotype [SAF_StandardCovering](../../stereotypes.md#saf_standardcovering)
+realized by Stereotype [SAF_StandardCategoryAssignment](../../stereotypes.md#saf_standardcategoryassignment)
 
-Specifies the fact that a standard covers one or more specific subject of standardization, e.g., data exchange format or protocol.
+Specifies the fact that a standard is categorized by one or more categories.
 ## SDTincludingSDT
 0..* [Standard](#Standard) SDTincludingSDT 0..* [Standard](#Standard) 
 
@@ -1746,7 +1755,7 @@ realized by Stereotype [SCM_RealizeConcept](../../stereotypes.md#scm_realizeconc
 specifies, that one ore more SAF Stereotypes implement a viewpoint.
 Note: Multiple Stereotypes are used if there are alternate presentations.
 ## STDcontainsGY
-1 [Standard](#Standard) STDcontainsGY 0..* [Glossary](#Glossary) 
+0..* [Standard](#Standard) STDcontainsGY 0..* [Glossary](#Glossary) 
 
 realized by SAF_Glossary contained in SAF_Standard
 

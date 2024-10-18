@@ -193,7 +193,8 @@ A table format listing  protection goals  and subcategories.
 *none*
 
 ### Documentation
-*none*
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#ASFconformToSTD'>ASFconformToSTD</A><BR>ASFconformToSTD: Specifies, that a SAF Element may be conform to one or more Standards.<BR></html>
+
 
 ## SAF_ContextAction
 
@@ -1629,16 +1630,26 @@ A assignment matrix featuring
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Standard'>Standard</A><BR>Standard: An international standard is a technical standard developed by one or more international standards organizations. International standards are available for consideration and use worldwide.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Standard'>Standard</A><BR>Standard: Specifies a standard which shall potentially be complied by the system or a part of the system.
+<BR></html>
 
 
-## SAF_StandardCovering
+## SAF_StandardCategory
 
 ### Icon
 *none*
 
 ### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#SDTcoveringSBS'>SDTcoveringSBS</A><BR>SDTcoveringSBS: Specifies the fact that a standard covers one or more specific subject of standardization, e.g., data exchange format or protocol.<BR></html>
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Category-Of-Standard'>Category Of Standard</A><BR>Category Of Standard: Specifies categories in which the standard could be categorized , e.g.,  a data exchange format or a protocol standard, or categories as national, company or international standard.<BR></html>
+
+
+## SAF_StandardCategoryAssignment
+
+### Icon
+*none*
+
+### Documentation
+<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#SDTcategorizedCOF'>SDTcategorizedCOF</A><BR>SDTcategorizedCOF: Specifies the fact that a standard is categorized by one or more categories.<BR></html>
 
 
 ## SAF_StandardSuperseding
@@ -1657,15 +1668,6 @@ A assignment matrix featuring
 
 ### Documentation
 <html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Standardization-Organization'>Standardization Organization</A><BR>Standardization Organization: An organization of standardization, e.g., International Organization for Standardization (ISO), Object Management Group (OMG), etc.<BR></html>
-
-
-## SAF_StandardizationSubject
-
-### Icon
-*none*
-
-### Documentation
-<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Subject-of-Standardization'>Subject of Standardization</A><BR>Subject of Standardization: Specifies a certain topic which the standard covers, e.g.,  a data exchange format or a protocol.<BR></html>
 
 
 ## SAF_SystemCapability
