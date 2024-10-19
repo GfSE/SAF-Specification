@@ -1,9 +1,12 @@
 ---
-title: Concepts
+title: "SAF SE Ontology"
 parent: "Developer Documentation"
 layout: default
 ---
 # SAF Development Documentation : SAF_Concept Ontology Overview
+
+This Page is intended to give an overview about the Areas the SAF Ontology covers.
+For a complete list of the Ontology Elements head over to [Ontology Elements](./concepts.html)
 
 There are some [General Concepts](./concepts/SAF_general_concept_Definition.md) forming basic patterns like requirement, structure, behavior, interaction, and exchange. However, these are not used in viewpoints directly, they form abstractions of more specific concepts. The SAF_Concepts are grouped by topics, and SAF_Concepts are shown together with related SAF_Concepts.
 

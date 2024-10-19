@@ -1,0 +1,53 @@
+---
+title: "SAF Ontology Elements"
+layout: default
+parent: "SAF SE Ontology"
+datatable: true
+nav_order: 3
+---
+<h1> SAF Ontology Elements</h1>
+<div >
+The Elements of the SAF Ontology are listed in the following Table. The Table contains two kinds of Elements:
+<UL>
+<LI>Relations between Elements that are subject or objects. These are documented in a "triple Form", e.g. Function - Has- Parameter.</LI>
+<LI>Elements used as subject or objects</LI>
+</UL>
+</div>
+
+<table>
+<tr><th> Concept</th><th> Documentation</th><th>Base Concept</th><th>Specific Concept</th><th>Viewpoint</th></tr>
+{% for element in site.data.concepts %}
+<tr>
+{% assign relsubject = element.AssociationEnds[1] %}
+{% assign relobject = element.AssociationEnds[0] %}
+<td>
+  <A id={{ element.ID }}></A><A href="#{{ relsubject.ID }}">{{ relsubject.Name  }}</A> {{ element.Name }} <A href="#{{ relobject.ID }}">{{ relobject.Name }}</A></td>
+<td>{{ element.Documentation }} </td>
+<td>
+{% for base in element.InheritsFrom -%}
+  <A href="#{{ base.ID }}">
+    {{ base.Name }}
+  </A>
+  {% unless forloop.last %}, {% endunless %}{% endfor %}
+</td>
+<td>
+{% for general in element.IsGeneralFor -%}
+  <A href="#{{ general.ID }}">
+    {{ general.Name }}
+  </A>
+  {% unless forloop.last %}, {% endunless %}{% endfor %}
+</td>
+<td>
+  {% for vp in element.InViewpoint %}
+  {% assign rvp = site.data.viewpoints | where: "ID", vp.ID %}
+  {% if rvp.first.Domain == "SAF Development" -%}
+  <A href="../devdoc/{{ rvp.first.Domain }} Domain/{{ rvp.first.Name }}.html" >{{ rvp.first.Name }}</A>
+  {% else %}
+  <A href="../userdoc/{{ rvp.first.Domain }} Domain/{{ rvp.first.Name }}.html">{{ rvp.first.Name }}</A>
+  {% endif %}
+  {% unless forloop.last %}, {% endunless %}{% endfor %}
+</td>
+</tr>
+{% endfor %}
+
+</table>

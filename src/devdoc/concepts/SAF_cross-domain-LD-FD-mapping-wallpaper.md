@@ -1,6 +1,6 @@
 ---
 title: SAF_cross-domain-LD-FD-mapping-wallpaper
-parent: Concepts
+parent: "SAF SE Ontology"
 layout: default
 ---
 {% assign diag = site.data.concept-diags | where: "Name","SAF_cross-domain-LD-FD-mapping-wallpaper" %}
