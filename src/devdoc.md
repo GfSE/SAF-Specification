@@ -70,7 +70,7 @@ It consists of
 
 * [Development Guideline](saf-dev-guideline.md)
 * [Metamodel Guide](metamodel-guideline/modelguideline.md)
-* [List of Concepts](./devdoc/concepts.md)
+* [List of Concepts](devdoc/concepts.html)
 * [Concept Overview Diagrams](./devdoc/concept-overview.md)
 * [Development view on SAF Viewpoints](viewpoints/viewpoint-dev.md)
 
