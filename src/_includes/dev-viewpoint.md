@@ -87,7 +87,15 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 {% endfor %}
 </ul>
 
-## Concepts used in Viewpoint
-{% for c in this_concepts %}
-* {{ c.Name }} {{ c.ID }}
-{% endfor %}
+## Concept View of Viewpoint
+{% assign diag = site.data.concept-viewpointdiags | where: "VP_ID", vp.ID %}
+<img src="../../diagrams/examples_md/exa{{ diag.first.ID }}.svg" />
+
+## Concepts exposed in Viewpoint
+<table>
+<tr><th>Concept</th><th>Documentation</th></tr>
+{%- for c in this_concepts -%}
+{% assign concept = site.data.concepts | where: "ID", c.ID%}
+<tr><td><A href="../concepts.html#{{ c.ID }}">{{ c.Name }}</A></td><td>{{concept.first.Documentation}}</td></tr>
+{%- endfor %}
+</table>

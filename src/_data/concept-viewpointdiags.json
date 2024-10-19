@@ -1,0 +1,1807 @@
+[ {
+  "ID" : "_19_0_1_26f0132_1554446725724_357933_45667",
+  "Documentation" : "",
+  "Name" : "System Use Case Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_2_26f0132_1558075062569_130489_44874",
+    "Name" : "Logical External System"
+  }, {
+    "ID" : "_19_0_2_26f0132_1558075086129_173532_44926",
+    "Name" : "Logical System Context"
+  }, {
+    "ID" : "_19_0_2_164f041e_1564571019748_834303_54723",
+    "Name" : "SUCenablingOSY"
+  }, {
+    "ID" : "_19_0_4_26f0132_1639735755383_425330_337",
+    "Name" : "SUChasPreConditionSSE"
+  }, {
+    "ID" : "_19_0_1_26f0132_1554446894995_335285_45800",
+    "Name" : "System Use Case"
+  }, {
+    "ID" : "_19_0_1_26f0132_1554447577832_897366_46461",
+    "Name" : "SUCincludingSUC"
+  }, {
+    "ID" : "_19_0_2_26f0132_1561750989144_963009_48675",
+    "Name" : "Operational Story"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303989622_501728_139950",
+    "Name" : "Logical Environment"
+  }, {
+    "ID" : "_19_0_2_8710274_1558534130432_293473_45375",
+    "Name" : "Logical User"
+  }, {
+    "ID" : "_19_0_4_6d8019d_1621167443409_435880_621",
+    "Name" : "SUCtakingPlaceInLSC"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303523973_719860_90882",
+    "Name" : "System State"
+  }, {
+    "ID" : "_19_0_4_26f0132_1639735748424_245279_316",
+    "Name" : "SUChasPostConditionSSE"
+  }, {
+    "ID" : "_19_0_2_6d8019d_1555339282353_464909_46799",
+    "Name" : "LCEactingInSUC"
+  }, {
+    "ID" : "_19_0_2_26f0132_1558075029411_79067_44836",
+    "Name" : "Logical Context Element"
+  } ],
+  "VP_ID" : "_19_0_1_26f0132_1554446728606_740631_45702"
+}, {
+  "ID" : "_19_0_2_26f0132_1561750211089_535522_48105",
+  "Documentation" : "",
+  "Name" : "Operational Story Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_2_26f0132_1567779491655_900665_58731",
+    "Name" : "OSYtakingPlaceInOCT"
+  }, {
+    "ID" : "_19_0_2_26f0132_1561763753175_522268_51960",
+    "Name" : "Operational Context"
+  }, {
+    "ID" : "_19_0_3_26f0132_1582984690099_348707_50208",
+    "Name" : "OPRactingInOSY"
+  }, {
+    "ID" : "_19_0_2_26f0132_1567694227019_837886_54521",
+    "Name" : "Operational Context Role"
+  }, {
+    "ID" : "_19_0_2_26f0132_1561750848810_524986_48546",
+    "Name" : "Operational Sketch"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562316412621_925297_43615",
+    "Name" : "Operational Performer"
+  }, {
+    "ID" : "_19_0_2_26f0132_1561750989144_963009_48675",
+    "Name" : "Operational Story"
+  } ],
+  "VP_ID" : "_19_0_2_26f0132_1561750369203_901730_48359"
+}, {
+  "ID" : "_19_0_2_26f0132_1561750230368_665114_48143",
+  "Documentation" : "",
+  "Name" : "Operational Context Interaction Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_2_26f0132_1561753696413_162391_50607",
+    "Name" : "Operational Chronological Message"
+  }, {
+    "ID" : "_19_0_2_26f0132_1561752967418_869778_50310",
+    "Name" : "Operational Interaction Scenario"
+  }, {
+    "ID" : "_19_0_2_26f0132_1561753960035_59004_50670",
+    "Name" : "Operational Scenario Participation"
+  }, {
+    "ID" : "_19_0_2_26f0132_1561763753175_522268_51960",
+    "Name" : "Operational Context"
+  }, {
+    "ID" : "_19_0_2_26f0132_1561753002121_745876_50345",
+    "Name" : "OIScontainingOCM"
+  }, {
+    "ID" : "_19_0_2_26f0132_1567694227019_837886_54521",
+    "Name" : "Operational Context Role"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562316412621_925297_43615",
+    "Name" : "Operational Performer"
+  } ],
+  "VP_ID" : "_19_0_2_26f0132_1561752880161_57347_50198"
+}, {
+  "ID" : "_19_0_2_26f0132_1561750258729_105855_48219",
+  "Documentation" : "",
+  "Name" : "Stakeholder Identification Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_2_26f0132_1576255436585_904360_55710",
+    "Name" : "SCErepresentedBySSH"
+  }, {
+    "ID" : "_19_0_2_8710274_1558519985294_233543_44077",
+    "Name" : "System of Interest Concern"
+  }, {
+    "ID" : "_19_0_2_26f0132_1576255381074_947214_55662",
+    "Name" : "SSHrepresentingOPR"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562316546243_649906_43676",
+    "Name" : "System Context Element"
+  }, {
+    "ID" : "_19_0_2_8710274_1558520091750_118256_44283",
+    "Name" : "SSHhavingCRN"
+  }, {
+    "ID" : "_19_0_2_8710274_1558519956748_646834_44043",
+    "Name" : "System of Interest Stakeholder"
+  }, {
+    "ID" : "_19_0_2_26f0132_1575019807024_82785_55519",
+    "Name" : "SSHrelatedToSSH"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562316412621_925297_43615",
+    "Name" : "Operational Performer"
+  } ],
+  "VP_ID" : "_19_0_2_26f0132_1565093441772_881981_49327"
+}, {
+  "ID" : "_19_0_2_26f0132_1562303528005_469392_93777",
+  "Documentation" : "",
+  "Name" : "Physical Context Exchange Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_2_26f0132_1558075136166_927385_45031",
+    "Name" : "Physical Environment"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_605407_91026",
+    "Name" : "PEKtypingPIPP"
+  }, {
+    "ID" : "_19_0_2_ebf0350_1555174193029_536383_44542",
+    "Name" : "Physical User"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_827364_91044",
+    "Name" : "PIPapplyingToAPE"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_824595_91079",
+    "Name" : "Physical Element"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_482464_91025",
+    "Name" : "Physical Exchange Kind"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_477765_91035",
+    "Name" : "PIPDdefiningDetailOfPIP"
+  }, {
+    "ID" : "_2021x_2_8710274_1695984535441_481088_24822",
+    "Name" : "PCPOverPCP"
+  }, {
+    "ID" : "_19_0_2_26f0132_1558075409978_427311_45484",
+    "Name" : "Physical External System"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_706808_91045",
+    "Name" : "PIPapplyingToPCE"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_941558_91077",
+    "Name" : "Abstract Physical Element"
+  }, {
+    "ID" : "_19_0_2_26f0132_1558075337119_355128_45325",
+    "Name" : "Physical SOI"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_539421_91036",
+    "Name" : "PEKtypingPIE"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_842935_91034",
+    "Name" : "Physical Interaction Point"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_925142_91031",
+    "Name" : "Physical Item Exchange"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_759771_91046",
+    "Name" : "PCNallowingPIE"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_114179_91028",
+    "Name" : "Physical Interaction Point Property"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_956519_91030",
+    "Name" : "Physical Interaction Point Definition"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_610387_91043",
+    "Name" : "Physical Connection"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_401348_91038",
+    "Name" : "PIPPspecifyingDetailOfPIPD"
+  }, {
+    "ID" : "_19_0_2_26f0132_1558075355803_462669_45365",
+    "Name" : "Physical Context Element"
+  } ],
+  "VP_ID" : "_19_0_2_26f0132_1562303526536_79296_92554"
+}, {
+  "ID" : "_19_0_2_26f0132_1562303528301_979708_93927",
+  "Documentation" : "",
+  "Name" : "System State Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
+    "Name" : "Logical Element"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562307450269_33287_141718",
+    "Name" : "State Transition"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_991194_91090",
+    "Name" : "LETbeeingInSSE"
+  }, {
+    "ID" : "_19_0_4_6d8019d_1627829323787_791914_508",
+    "Name" : "Triggering Event"
+  }, {
+    "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
+    "Name" : "System Domain Kind"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303523973_719860_90882",
+    "Name" : "System State"
+  }, {
+    "ID" : "_19_0_3_26f0132_1593764793156_232154_797",
+    "Name" : "SFNresultingInSSE"
+  }, {
+    "ID" : "_19_0_4_6d8019d_1627829461940_143861_727",
+    "Name" : "triggering"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303523801_666926_90760",
+    "Name" : "SDKbeeingInSSE"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524801_13984_91387",
+    "Name" : "SSEperformingSFN"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524161_394471_91009",
+    "Name" : "System Function"
+  } ],
+  "VP_ID" : "_19_0_2_26f0132_1562303526536_189439_92549"
+}, {
+  "ID" : "_19_0_2_26f0132_1562303528426_375017_93960",
+  "Documentation" : "",
+  "Name" : "System Domain Item Kind Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_2_26f0132_1562303524161_752149_91000",
+    "Name" : "SDKtypingFPM"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303523801_255857_90761",
+    "Name" : "SDKtypingLIE"
+  }, {
+    "ID" : "_19_0_3_26f0132_1600783068816_502199_735",
+    "Name" : "Operational Domain Kind"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_482464_91025",
+    "Name" : "Physical Exchange Kind"
+  }, {
+    "ID" : "_19_0_4_6d8019d_1632170395135_344484_397",
+    "Name" : "SDKcomposedOF"
+  }, {
+    "ID" : "_19_0_4_26f0132_1631284129545_438782_4876",
+    "Name" : "SDKderivingFromODK"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_980387_91029",
+    "Name" : "Logical Interaction Point Property"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303523801_894791_90759",
+    "Name" : "PEKrealizingSDK"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524161_902110_90999",
+    "Name" : "General Function Usage Exchange Point"
+  }, {
+    "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
+    "Name" : "System Domain Kind"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303523973_719860_90882",
+    "Name" : "System State"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_663216_91033",
+    "Name" : "Logical Item Exchange"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303523801_353773_90762",
+    "Name" : "SDKtypingLIPP"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303523801_666926_90760",
+    "Name" : "SDKbeeingInSSE"
+  } ],
+  "VP_ID" : "_19_0_2_26f0132_1562303526536_778418_92552"
+}, {
+  "ID" : "_19_0_2_26f0132_1562303529036_923400_94274",
+  "Documentation" : "",
+  "Name" : "Logical Structure Definition Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_2_26f0132_1558075212525_51415_45174",
+    "Name" : "Logical Context SOI"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
+    "Name" : "Logical Element"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_981340_91082",
+    "Name" : "Logical Element Role"
+  } ],
+  "VP_ID" : "_19_0_2_26f0132_1562303526536_284838_92559"
+}, {
+  "ID" : "_19_0_2_26f0132_1565093441772_643156_49330",
+  "Documentation" : "",
+  "Name" : "Stakeholder Requirement Definition Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_2_8710274_1558520697796_594436_44679",
+    "Name" : "SHRrefiningCRN"
+  }, {
+    "ID" : "_19_0_2_8710274_1558519985294_233543_44077",
+    "Name" : "System of Interest Concern"
+  }, {
+    "ID" : "_19_0_2_26f0132_1565103209454_619592_55337",
+    "Name" : "Compliance Statement"
+  }, {
+    "ID" : "_19_0_2_8710274_1558520091750_118256_44283",
+    "Name" : "SSHhavingCRN"
+  }, {
+    "ID" : "_19_0_3_8710274_1581665911562_310714_48925",
+    "Name" : "Operational Capability"
+  }, {
+    "ID" : "_19_0_2_26f0132_1567606884034_616995_54129",
+    "Name" : "SHRrefiningOCY"
+  }, {
+    "ID" : "_19_0_2_26f0132_1565103607495_867687_55406",
+    "Name" : "CSTconfirmingSHR"
+  }, {
+    "ID" : "_19_0_2_8710274_1558520103521_679129_44321",
+    "Name" : "SHRimposedBY"
+  }, {
+    "ID" : "_19_0_2_8710274_1558520000264_403052_44141",
+    "Name" : "Stakeholder Requirement"
+  }, {
+    "ID" : "_19_0_2_8710274_1558519956748_646834_44043",
+    "Name" : "System of Interest Stakeholder"
+  }, {
+    "ID" : "_19_0_3_6d8019d_1609067438603_923129_400",
+    "Name" : "SHRrefiningOSY"
+  }, {
+    "ID" : "_19_0_2_26f0132_1561750989144_963009_48675",
+    "Name" : "Operational Story"
+  } ],
+  "VP_ID" : "_19_0_2_26f0132_1565093441772_890565_49326"
+}, {
+  "ID" : "_19_0_2_26f0132_1565093441929_602002_49364",
+  "Documentation" : "",
+  "Name" : "System Requirement Definition Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_2_164f041e_1564383963900_307503_51643",
+    "Name" : "Functional Requirement"
+  }, {
+    "ID" : "_19_0_2_164f041e_1564383985280_212499_51679",
+    "Name" : "Non-functional Requirement"
+  }, {
+    "ID" : "_19_0_2_164f041e_1564384014791_156524_51726",
+    "Name" : "FRboundedByNFR"
+  }, {
+    "ID" : "_19_0_2_8710274_1558520000264_403052_44141",
+    "Name" : "Stakeholder Requirement"
+  }, {
+    "ID" : "_19_0_2_8710274_1558520012975_812587_44177",
+    "Name" : "System Requirement"
+  }, {
+    "ID" : "_19_0_2_8710274_1558520123795_924466_44365",
+    "Name" : "SRderivingFromSTKR"
+  }, {
+    "ID" : "_19_0_2_26f0132_1565104656755_27827_55752",
+    "Name" : "SRderivingFromSR"
+  } ],
+  "VP_ID" : "_19_0_2_26f0132_1565104337297_671823_55529"
+}, {
+  "ID" : "_19_0_2_26f0132_1567778254458_727689_55820",
+  "Documentation" : "specifies, that a part of an operational",
+  "Name" : "Operational Context Definition Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_2_26f0132_1567694227019_837886_54521",
+    "Name" : "Operational Context Role"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562316412621_925297_43615",
+    "Name" : "Operational Performer"
+  }, {
+    "ID" : "_19_0_2_26f0132_1561763753175_522268_51960",
+    "Name" : "Operational Context"
+  } ],
+  "VP_ID" : "_19_0_2_26f0132_1567778254489_369345_55863"
+}, {
+  "ID" : "_19_0_2_26f0132_1575539296547_966993_56769",
+  "Documentation" : "",
+  "Name" : "Logical Functional Mapping Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_2021x_2_8710274_1675987240210_459780_32823",
+    "Name" : "LETimplementingGFN"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524161_863086_91005",
+    "Name" : "USAGEallocatedTo"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
+    "Name" : "Logical Element"
+  }, {
+    "ID" : "_2021x_2_6d8019d_1677750594124_815801_24716",
+    "Name" : "SPFNallocatedToLET"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524161_367314_91006",
+    "Name" : "SFNallocatedToLET"
+  }, {
+    "ID" : "_19_0_4_26f0132_1624611043495_845903_880",
+    "Name" : "System Partial Function"
+  }, {
+    "ID" : "_19_0_2_26f0132_1558075212525_51415_45174",
+    "Name" : "Logical Context SOI"
+  }, {
+    "ID" : "_19_0_4_26f0132_1624614161928_694281_1954",
+    "Name" : "General Function"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524161_907005_91002",
+    "Name" : "General Functional Usage"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_981340_91082",
+    "Name" : "Logical Element Role"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524161_394471_91009",
+    "Name" : "System Function"
+  } ],
+  "VP_ID" : "_19_0_2_26f0132_1575539296547_649713_56759"
+}, {
+  "ID" : "_19_0_2_8710274_1567167552899_386208_54672",
+  "Documentation" : "",
+  "Name" : "System Process Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_2_26f0132_1558075086129_173532_44926",
+    "Name" : "Logical System Context"
+  }, {
+    "ID" : "_2021x_2_8710274_1675981331374_205908_29130",
+    "Name" : "System Function IN System Process"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524161_529250_91001",
+    "Name" : "GFUEPreceivingINPUT"
+  }, {
+    "ID" : "_19_0_2_8710274_1567168520242_378357_56193",
+    "Name" : "General Functional Exchange"
+  }, {
+    "ID" : "_19_0_2_8710274_1567168660956_439379_56337",
+    "Name" : "GFEtoGFUEP"
+  }, {
+    "ID" : "_19_0_4_26f0132_1624615117147_549388_2197",
+    "Name" : "LETperformingSFN"
+  }, {
+    "ID" : "_19_0_2_8710274_1567168596944_130308_56269",
+    "Name" : "GFEbeingPartOfGFNU"
+  }, {
+    "ID" : "_19_0_3_6d8019d_1609520174192_971623_551",
+    "Name" : "GFNcontrolledAFTER"
+  }, {
+    "ID" : "_19_0_2_8710274_1567168628900_60412_56295",
+    "Name" : "GFEfromGFUEP"
+  }, {
+    "ID" : "_19_0_4_26f0132_1624611972707_746294_1003",
+    "Name" : "Context Function"
+  }, {
+    "ID" : "_19_0_4_26f0132_1624610613457_313794_115",
+    "Name" : "System Process"
+  }, {
+    "ID" : "_2021x_2_8710274_1675981347806_599070_29437",
+    "Name" : "Context Function IN System Process"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524161_902110_90999",
+    "Name" : "General Function Usage Exchange Point"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524161_890620_91008",
+    "Name" : "GFUEPsendingOUTPUT"
+  }, {
+    "ID" : "_19_0_2_8710274_1567171243005_813677_60746",
+    "Name" : "Logical Context Element Role"
+  }, {
+    "ID" : "_19_0_2_8710274_1567171329121_821656_60902",
+    "Name" : "Logical SOI Role"
+  }, {
+    "ID" : "_19_0_2_26f0132_1558075212525_51415_45174",
+    "Name" : "Logical Context SOI"
+  }, {
+    "ID" : "_19_0_2_26f0132_1558075029411_79067_44836",
+    "Name" : "Logical Context Element"
+  }, {
+    "ID" : "_19_0_4_26f0132_1624614161928_694281_1954",
+    "Name" : "General Function"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524161_907005_91002",
+    "Name" : "General Functional Usage"
+  }, {
+    "ID" : "_19_0_4_26f0132_1624612392905_372789_1074",
+    "Name" : "LCEperformingCFN"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524161_394471_91009",
+    "Name" : "System Function"
+  } ],
+  "VP_ID" : "_19_0_2_8710274_1567167552896_772779_54664"
+}, {
+  "ID" : "_19_0_2_ebf0350_1555169893618_710046_43508",
+  "Documentation" : "",
+  "Name" : "Physical Context Definition Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_2_8710274_1567172443186_403777_62964",
+    "Name" : "Physical SOI Role"
+  }, {
+    "ID" : "_19_0_2_26f0132_1558075136166_927385_45031",
+    "Name" : "Physical Environment"
+  }, {
+    "ID" : "_19_0_2_ebf0350_1555174193029_536383_44542",
+    "Name" : "Physical User"
+  }, {
+    "ID" : "_19_0_2_26f0132_1558075409978_427311_45484",
+    "Name" : "Physical External System"
+  }, {
+    "ID" : "_19_0_2_8710274_1567172425344_546313_62832",
+    "Name" : "Physical Context Element Role"
+  }, {
+    "ID" : "_19_0_2_26f0132_1558075337119_355128_45325",
+    "Name" : "Physical SOI"
+  }, {
+    "ID" : "_19_0_2_26f0132_1558075355803_462669_45365",
+    "Name" : "Physical Context Element"
+  }, {
+    "ID" : "_19_0_2_26f0132_1558075325978_897109_45289",
+    "Name" : "Physical System Context"
+  } ],
+  "VP_ID" : "_19_0_1_26f0132_1547202202696_824153_42420"
+}, {
+  "ID" : "_19_0_3_26f0132_1582298684627_615861_54627",
+  "Documentation" : "",
+  "Name" : "System Requirement Traceability Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_3_26f0132_1582299953373_258701_56319",
+    "Name" : "SRrefiningLICP"
+  }, {
+    "ID" : "_2021x_2_8710274_1675981331374_205908_29130",
+    "Name" : "System Function IN System Process"
+  }, {
+    "ID" : "_19_0_2_164f041e_1564383985280_212499_51679",
+    "Name" : "Non-functional Requirement"
+  }, {
+    "ID" : "_2021x_2_6d8019d_1690055913036_853745_24319",
+    "Name" : "SRrefiningSCY"
+  }, {
+    "ID" : "_19_0_2_164f041e_1564384014791_156524_51726",
+    "Name" : "FRboundedByNFR"
+  }, {
+    "ID" : "_19_0_1_26f0132_1554446894995_335285_45800",
+    "Name" : "System Use Case"
+  }, {
+    "ID" : "_19_0_4_26f0132_1624610806163_247313_817",
+    "Name" : "SPSrefiningSUC"
+  }, {
+    "ID" : "_19_0_4_6d8019d_1617464677545_852747_1286",
+    "Name" : "SCYsupportingSUC"
+  }, {
+    "ID" : "_19_0_2_8710274_1558520123795_924466_44365",
+    "Name" : "SRderivingFromSTKR"
+  }, {
+    "ID" : "_19_0_2_26f0132_1565104656755_27827_55752",
+    "Name" : "SRderivingFromSR"
+  }, {
+    "ID" : "_19_0_4_6d8019d_1617463709646_290604_336",
+    "Name" : "System Capability"
+  }, {
+    "ID" : "_19_0_2_164f041e_1564383963900_307503_51643",
+    "Name" : "Functional Requirement"
+  }, {
+    "ID" : "_19_0_4_26f0132_1624610613457_313794_115",
+    "Name" : "System Process"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_546931_91032",
+    "Name" : "Logical Interaction Point"
+  }, {
+    "ID" : "_19_0_4_6d8019d_1654507324074_749318_302",
+    "Name" : "SPSenablingSCY"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303521707_858780_89137",
+    "Name" : "SUCsynthesizingSFN"
+  }, {
+    "ID" : "_19_0_2_164f041e_1564384276906_470959_51917",
+    "Name" : "FRrefiningSFN"
+  }, {
+    "ID" : "_19_0_2_26f0132_1575561280252_959861_56562",
+    "Name" : "SRrefiningSUC"
+  }, {
+    "ID" : "_19_0_2_8710274_1558520000264_403052_44141",
+    "Name" : "Stakeholder Requirement"
+  }, {
+    "ID" : "_19_0_2_8710274_1558520012975_812587_44177",
+    "Name" : "System Requirement"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524161_394471_91009",
+    "Name" : "System Function"
+  } ],
+  "VP_ID" : "_19_0_2_26f0132_1565093441772_728957_49328"
+}, {
+  "ID" : "_19_0_3_26f0132_1582314373826_203815_54129",
+  "Documentation" : "",
+  "Name" : "Logical Internal Interaction Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_3_26f0132_1582315087346_20721_56621",
+    "Name" : "Logical Scenario Participation"
+  }, {
+    "ID" : "_19_0_3_26f0132_1582314602701_812421_56211",
+    "Name" : "Logical Interaction Scenario"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
+    "Name" : "Logical Element"
+  }, {
+    "ID" : "_19_0_3_26f0132_1582315257123_533586_56785",
+    "Name" : "Logical Chronological Message"
+  }, {
+    "ID" : "_19_0_3_6d8019d_1608891158785_105089_964",
+    "Name" : "LIScontainingILCM"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_981340_91082",
+    "Name" : "Logical Element Role"
+  } ],
+  "VP_ID" : "_19_0_2_26f0132_1576222951495_184664_54882"
+}, {
+  "ID" : "_19_0_3_26f0132_1601459636385_168806_6952",
+  "Documentation" : "",
+  "Name" : "Operational Process Mapping Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_3_8710274_1581667736629_896691_49612",
+    "Name" : "OPRcapableOFperformingOPS"
+  }, {
+    "ID" : "_19_0_2_164f041e_1564572299224_487951_54901",
+    "Name" : "Operational Process"
+  }, {
+    "ID" : "_19_0_3_8710274_1581673944718_281561_49734",
+    "Name" : "OPSenablingOCY"
+  }, {
+    "ID" : "_19_0_3_8710274_1581665911562_310714_48925",
+    "Name" : "Operational Capability"
+  }, {
+    "ID" : "_19_0_2_164f041e_1564572616564_538444_54929",
+    "Name" : "OPSrefiningOSY"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562316412621_925297_43615",
+    "Name" : "Operational Performer"
+  }, {
+    "ID" : "_19_0_2_26f0132_1561750989144_963009_48675",
+    "Name" : "Operational Story"
+  } ],
+  "VP_ID" : "_19_0_3_26f0132_1601459636216_111430_6921"
+}, {
+  "ID" : "_19_0_3_6d8019d_1599070473001_577464_278",
+  "Documentation" : "",
+  "Name" : "Operational Performer Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_2_26f0132_1576255381074_947214_55662",
+    "Name" : "SSHrepresentingOPR"
+  }, {
+    "ID" : "_19_0_2_8710274_1558519956748_646834_44043",
+    "Name" : "System of Interest Stakeholder"
+  }, {
+    "ID" : "_19_0_3_6d8019d_1598981150221_83799_30",
+    "Name" : "OPRcomposedOF"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562316412621_925297_43615",
+    "Name" : "Operational Performer"
+  } ],
+  "VP_ID" : "_19_0_3_6d8019d_1599070472635_176306_252"
+}, {
+  "ID" : "_19_0_3_6d8019d_1604247580594_414210_429",
+  "Documentation" : "",
+  "Name" : "Operational Capability Mapping Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_3_8710274_1581666154134_936493_49002",
+    "Name" : "OCYspecializedBY"
+  }, {
+    "ID" : "_19_0_3_8710274_1581666201982_100862_49030",
+    "Name" : "OCYcomposedOF"
+  }, {
+    "ID" : "_19_0_2_164f041e_1564572299224_487951_54901",
+    "Name" : "Operational Process"
+  }, {
+    "ID" : "_19_0_3_8710274_1581666429993_560174_49054",
+    "Name" : "OCYdependingON"
+  }, {
+    "ID" : "_19_0_3_8710274_1581673944718_281561_49734",
+    "Name" : "OPSenablingOCY"
+  }, {
+    "ID" : "_19_0_3_26f0132_1593161538343_235854_323",
+    "Name" : "OCYsupportingOSY"
+  }, {
+    "ID" : "_19_0_3_8710274_1581665911562_310714_48925",
+    "Name" : "Operational Capability"
+  }, {
+    "ID" : "_19_0_2_26f0132_1567606884034_616995_54129",
+    "Name" : "SHRrefiningOCY"
+  }, {
+    "ID" : "_19_0_3_6d8019d_1611592925440_283346_480",
+    "Name" : "OPRexhibitingOCY"
+  }, {
+    "ID" : "_19_0_2_8710274_1558520000264_403052_44141",
+    "Name" : "Stakeholder Requirement"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562316412621_925297_43615",
+    "Name" : "Operational Performer"
+  }, {
+    "ID" : "_19_0_2_26f0132_1561750989144_963009_48675",
+    "Name" : "Operational Story"
+  } ],
+  "VP_ID" : "_19_0_3_6d8019d_1603027079337_312898_286"
+}, {
+  "ID" : "_19_0_3_8710274_1581675958759_162085_50985",
+  "Documentation" : "",
+  "Name" : "Operational Process Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_3_26f0132_1600783068816_502199_735",
+    "Name" : "Operational Domain Kind"
+  }, {
+    "ID" : "_19_0_2_164f041e_1564572299224_487951_54901",
+    "Name" : "Operational Process"
+  }, {
+    "ID" : "_19_0_3_8710274_1581674683825_886069_50270",
+    "Name" : "Operational Process Usage"
+  }, {
+    "ID" : "_19_0_2_26f0132_1561763753175_522268_51960",
+    "Name" : "Operational Context"
+  }, {
+    "ID" : "_19_0_4_26f0132_1631283194173_385626_4558",
+    "Name" : "ODKtypifyingOPE"
+  }, {
+    "ID" : "_19_0_2_26f0132_1567694227019_837886_54521",
+    "Name" : "Operational Context Role"
+  }, {
+    "ID" : "_19_0_3_26f0132_1600501947277_784541_1508",
+    "Name" : "controlledAFTER"
+  }, {
+    "ID" : "_19_0_3_8710274_1581675388411_771999_50581",
+    "Name" : "OPRperformingOPSU"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562316412621_925297_43615",
+    "Name" : "Operational Performer"
+  }, {
+    "ID" : "_19_0_3_26f0132_1600784136485_599221_879",
+    "Name" : "Operational Process Exchange"
+  } ],
+  "VP_ID" : "_19_0_3_8710274_1581675958756_500127_50979"
+}, {
+  "ID" : "_19_0_3_8710274_1581675970683_447349_52541",
+  "Documentation" : "",
+  "Name" : "Operational Capability Definition Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_3_8710274_1581665911562_310714_48925",
+    "Name" : "Operational Capability"
+  }, {
+    "ID" : "_19_0_3_8710274_1581666154134_936493_49002",
+    "Name" : "OCYspecializedBY"
+  }, {
+    "ID" : "_19_0_3_8710274_1581666201982_100862_49030",
+    "Name" : "OCYcomposedOF"
+  }, {
+    "ID" : "_19_0_3_8710274_1581666429993_560174_49054",
+    "Name" : "OCYdependingON"
+  } ],
+  "VP_ID" : "_19_0_3_8710274_1581675970682_325249_52535"
+}, {
+  "ID" : "_19_0_3_8710274_1583758832346_518338_54754",
+  "Documentation" : "",
+  "Name" : "Operational Context Exchange Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_3_26f0132_1600783068816_502199_735",
+    "Name" : "Operational Domain Kind"
+  }, {
+    "ID" : "_19_0_2_26f0132_1561763753175_522268_51960",
+    "Name" : "Operational Context"
+  }, {
+    "ID" : "_19_0_3_26f0132_1583963874197_988038_23051",
+    "Name" : "OCNallowingOIE"
+  }, {
+    "ID" : "_19_0_2_26f0132_1567694227019_837886_54521",
+    "Name" : "Operational Context Role"
+  }, {
+    "ID" : "_19_0_3_26f0132_1600783159281_769767_769",
+    "Name" : "ODKtypifyingOIE"
+  }, {
+    "ID" : "_19_0_3_26f0132_1583963832153_320549_23021",
+    "Name" : "Operational Item Exchange"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562316412621_925297_43615",
+    "Name" : "Operational Performer"
+  }, {
+    "ID" : "_19_0_3_26f0132_1583963707692_371546_22970",
+    "Name" : "Operational Connection"
+  } ],
+  "VP_ID" : "_19_0_2_26f0132_1576232878029_619084_56885"
+}, {
+  "ID" : "_19_0_3_ebf0350_1580652073344_557638_53710",
+  "Documentation" : "",
+  "Name" : "Physical Structure Definition Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_2_26f0132_1562303524176_174876_91086",
+    "Name" : "Hardware Element Role"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524161_107047_91004",
+    "Name" : "General Physical Role"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_824595_91079",
+    "Name" : "Physical Element"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_594816_91083",
+    "Name" : "Software Element Role"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_61581_91084",
+    "Name" : "Physical Software Role"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_251302_91078",
+    "Name" : "Software Element"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_845534_91075",
+    "Name" : "Hardware Element"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_672620_91085",
+    "Name" : "Physical Hardware Role"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_635820_91087",
+    "Name" : "Physical Element Role"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_941558_91077",
+    "Name" : "Abstract Physical Element"
+  }, {
+    "ID" : "_19_0_2_26f0132_1558075337119_355128_45325",
+    "Name" : "Physical SOI"
+  } ],
+  "VP_ID" : "_19_0_3_ebf0350_1580652072992_42812_53692"
+}, {
+  "ID" : "_19_0_4_26f0132_1624951951458_371813_346",
+  "Documentation" : "",
+  "Name" : "Logical Internal Exchange Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_2_26f0132_1562303523801_255857_90761",
+    "Name" : "SDKtypingLIE"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303522067_850826_89482",
+    "Name" : "LCNallowingLIE"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_980387_91029",
+    "Name" : "Logical Interaction Point Property"
+  }, {
+    "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
+    "Name" : "System Domain Kind"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_980990_91037",
+    "Name" : "Logical Connection"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_349234_91039",
+    "Name" : "LIPDdefiningDetailOfLIP"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_546931_91032",
+    "Name" : "Logical Interaction Point"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
+    "Name" : "Logical Element"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_125039_91041",
+    "Name" : "LIPapplyingToLET"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_900081_91027",
+    "Name" : "Logical Interaction Point Definition"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_663216_91033",
+    "Name" : "Logical Item Exchange"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303523801_353773_90762",
+    "Name" : "SDKtypingLIPP"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_770729_91040",
+    "Name" : "LIPPspecifyingDetailOfLIPD"
+  } ],
+  "VP_ID" : "_19_0_4_26f0132_1624951950640_368802_311"
+}, {
+  "ID" : "_19_0_4_26f0132_1626790419043_211358_450",
+  "Documentation" : "",
+  "Name" : "System Context Interaction Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_3_26f0132_1582317772054_442780_58842",
+    "Name" : "System Context Interaction Scenario"
+  }, {
+    "ID" : "_19_0_3_26f0132_1582318082493_106012_58951",
+    "Name" : "System Context Chronological Message"
+  }, {
+    "ID" : "_19_0_2_26f0132_1558075086129_173532_44926",
+    "Name" : "Logical System Context"
+  }, {
+    "ID" : "_19_0_3_6d8019d_1608891146807_63172_951",
+    "Name" : "SCIScontainingLCM"
+  }, {
+    "ID" : "_19_0_2_8710274_1567171243005_813677_60746",
+    "Name" : "Logical Context Element Role"
+  }, {
+    "ID" : "_19_0_2_8710274_1567171329121_821656_60902",
+    "Name" : "Logical SOI Role"
+  }, {
+    "ID" : "_19_0_2_26f0132_1558075212525_51415_45174",
+    "Name" : "Logical Context SOI"
+  }, {
+    "ID" : "_19_0_2_26f0132_1558075029411_79067_44836",
+    "Name" : "Logical Context Element"
+  }, {
+    "ID" : "_19_0_3_26f0132_1582317652656_237080_58806",
+    "Name" : "System Context Role"
+  }, {
+    "ID" : "_19_0_3_26f0132_1582317965050_858700_58885",
+    "Name" : "System Context Scenario Participation"
+  } ],
+  "VP_ID" : "_19_0_4_26f0132_1626790419043_61789_443"
+}, {
+  "ID" : "_19_0_4_26f0132_1629448496508_367595_10378",
+  "Documentation" : "",
+  "Name" : "System Functional Breakdown Structure Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_4_26f0132_1624611972707_746294_1003",
+    "Name" : "Context Function"
+  }, {
+    "ID" : "_2024x_8710274_1716826749795_177784_16590",
+    "Name" : "System Partial Function in System Function"
+  }, {
+    "ID" : "_19_0_4_26f0132_1624610613457_313794_115",
+    "Name" : "System Process"
+  }, {
+    "ID" : "_2021x_2_8710274_1675981347806_599070_29437",
+    "Name" : "Context Function IN System Process"
+  }, {
+    "ID" : "_2021x_2_8710274_1675981331374_205908_29130",
+    "Name" : "System Function IN System Process"
+  }, {
+    "ID" : "_19_0_4_26f0132_1624611043495_845903_880",
+    "Name" : "System Partial Function"
+  }, {
+    "ID" : "_19_0_4_26f0132_1624614161928_694281_1954",
+    "Name" : "General Function"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524161_907005_91002",
+    "Name" : "General Functional Usage"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524161_394471_91009",
+    "Name" : "System Function"
+  } ],
+  "VP_ID" : "_19_0_4_26f0132_1629448496383_291730_10342"
+}, {
+  "ID" : "_19_0_4_26f0132_1631280350394_755967_571",
+  "Documentation" : "",
+  "Name" : "Operational Domain Item Kind Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_4_6d8019d_1632227066479_408164_1197",
+    "Name" : "ODKcomposedOF"
+  }, {
+    "ID" : "_19_0_3_26f0132_1600783068816_502199_735",
+    "Name" : "Operational Domain Kind"
+  }, {
+    "ID" : "_19_0_2_164f041e_1564572299224_487951_54901",
+    "Name" : "Operational Process"
+  }, {
+    "ID" : "_19_0_4_26f0132_1631283194173_385626_4558",
+    "Name" : "ODKtypifyingOPE"
+  }, {
+    "ID" : "_19_0_3_26f0132_1600783159281_769767_769",
+    "Name" : "ODKtypifyingOIE"
+  }, {
+    "ID" : "_19_0_3_26f0132_1583963832153_320549_23021",
+    "Name" : "Operational Item Exchange"
+  }, {
+    "ID" : "_19_0_3_26f0132_1600784136485_599221_879",
+    "Name" : "Operational Process Exchange"
+  } ],
+  "VP_ID" : "_19_0_4_26f0132_1631280350392_855780_562"
+}, {
+  "ID" : "_19_0_4_6d8019d_1618060964427_255023_327",
+  "Documentation" : "",
+  "Name" : "System Context Exchange Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_2_26f0132_1562303522067_850826_89482",
+    "Name" : "LCNallowingLIE"
+  }, {
+    "ID" : "_19_0_2_26f0132_1558075062569_130489_44874",
+    "Name" : "Logical External System"
+  }, {
+    "ID" : "_19_0_2_26f0132_1558075086129_173532_44926",
+    "Name" : "Logical System Context"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_980990_91037",
+    "Name" : "Logical Connection"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_349234_91039",
+    "Name" : "LIPDdefiningDetailOfLIP"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303989622_501728_139950",
+    "Name" : "Logical Environment"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_546931_91032",
+    "Name" : "Logical Interaction Point"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
+    "Name" : "Logical Element"
+  }, {
+    "ID" : "_19_0_2_8710274_1558534130432_293473_45375",
+    "Name" : "Logical User"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_125039_91041",
+    "Name" : "LIPapplyingToLET"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_849218_91042",
+    "Name" : "LIPapplyingToLCE"
+  }, {
+    "ID" : "_19_0_2_8710274_1567171243005_813677_60746",
+    "Name" : "Logical Context Element Role"
+  }, {
+    "ID" : "_19_0_2_8710274_1567171329121_821656_60902",
+    "Name" : "Logical SOI Role"
+  }, {
+    "ID" : "_19_0_2_26f0132_1558075212525_51415_45174",
+    "Name" : "Logical Context SOI"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_900081_91027",
+    "Name" : "Logical Interaction Point Definition"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_663216_91033",
+    "Name" : "Logical Item Exchange"
+  }, {
+    "ID" : "_19_0_2_26f0132_1558075029411_79067_44836",
+    "Name" : "Logical Context Element"
+  } ],
+  "VP_ID" : "_19_0_4_6d8019d_1618060963677_605184_292"
+}, {
+  "ID" : "_19_0_4_6d8019d_1618589544269_483151_337",
+  "Documentation" : "",
+  "Name" : "System Context Definition Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_2_26f0132_1562303989622_501728_139950",
+    "Name" : "Logical Environment"
+  }, {
+    "ID" : "_19_0_2_8710274_1558534130432_293473_45375",
+    "Name" : "Logical User"
+  }, {
+    "ID" : "_19_0_2_26f0132_1558075062569_130489_44874",
+    "Name" : "Logical External System"
+  }, {
+    "ID" : "_19_0_2_26f0132_1558075086129_173532_44926",
+    "Name" : "Logical System Context"
+  }, {
+    "ID" : "_19_0_2_8710274_1567171243005_813677_60746",
+    "Name" : "Logical Context Element Role"
+  }, {
+    "ID" : "_19_0_2_8710274_1567171329121_821656_60902",
+    "Name" : "Logical SOI Role"
+  }, {
+    "ID" : "_19_0_2_26f0132_1558075212525_51415_45174",
+    "Name" : "Logical Context SOI"
+  }, {
+    "ID" : "_19_0_2_26f0132_1558075029411_79067_44836",
+    "Name" : "Logical Context Element"
+  } ],
+  "VP_ID" : "_19_0_4_6d8019d_1618589543897_213858_307"
+}, {
+  "ID" : "_19_0_4_6d8019d_1618757838837_493717_478",
+  "Documentation" : "",
+  "Name" : "System Capability Definition Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_4_6d8019d_1617463709646_290604_336",
+    "Name" : "System Capability"
+  }, {
+    "ID" : "_19_0_4_6d8019d_1617524582560_511978_675",
+    "Name" : "SCYenablingOCY"
+  }, {
+    "ID" : "_19_0_4_6d8019d_1617463709660_425346_338",
+    "Name" : "SCYspecializedBY"
+  }, {
+    "ID" : "_19_0_3_8710274_1581665911562_310714_48925",
+    "Name" : "Operational Capability"
+  }, {
+    "ID" : "_19_0_4_6d8019d_1617463709658_247814_337",
+    "Name" : "SCYcomposedOF"
+  }, {
+    "ID" : "_19_0_4_6d8019d_1617463709661_722502_339",
+    "Name" : "SCYdependingON"
+  } ],
+  "VP_ID" : "_19_0_4_6d8019d_1618757838536_301313_442"
+}, {
+  "ID" : "_2021x_2_6d8019d_1674232169192_561752_23465",
+  "Documentation" : "",
+  "Name" : "Argumentation Assurance Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_2021x_2_6d8019d_1674232167081_446328_23366",
+    "Name" : "CounterClaim"
+  }, {
+    "ID" : "_2021x_2_6d8019d_1674232167079_323900_23362",
+    "Name" : "Claimable Item"
+  }, {
+    "ID" : "_2021x_2_6d8019d_1674232167082_68281_23367",
+    "Name" : "Claimant"
+  }, {
+    "ID" : "_2021x_2_6d8019d_1674232167081_609406_23365",
+    "Name" : "Evidence"
+  }, {
+    "ID" : "_2021x_2_6d8019d_1674232167080_762583_23364",
+    "Name" : "Argument"
+  }, {
+    "ID" : "_2021x_2_6d8019d_1674232167084_655777_23375",
+    "Name" : "CCMcounteringCIM"
+  }, {
+    "ID" : "_2021x_2_6d8019d_1674232167083_795162_23371",
+    "Name" : "CLTmakingCLM"
+  }, {
+    "ID" : "_2021x_2_6d8019d_1674232167083_587567_23372",
+    "Name" : "Subject of Claim"
+  }, {
+    "ID" : "_2021x_2_6d8019d_1687635765022_652079_24627",
+    "Name" : "RFTmakingCCM"
+  }, {
+    "ID" : "_2021x_2_6d8019d_1674232167080_274533_23363",
+    "Name" : "Claim"
+  }, {
+    "ID" : "_2021x_2_6d8019d_1674232167082_51450_23369",
+    "Name" : "EVCreinforcingAGT"
+  }, {
+    "ID" : "_2021x_2_6d8019d_1674232167082_824671_23368",
+    "Name" : "Refuter"
+  }, {
+    "ID" : "_2021x_2_6d8019d_1674232167084_618602_23374",
+    "Name" : "CLMsupportingCIM"
+  }, {
+    "ID" : "_2021x_2_6d8019d_1687622957056_63882_25313",
+    "Name" : "AGTsupportingCLM"
+  }, {
+    "ID" : "_2021x_2_6d8019d_1674232167083_240422_23373",
+    "Name" : "CLMbeingMadeAboutSBC"
+  } ],
+  "VP_ID" : "_2021x_2_6d8019d_1674232168228_136119_23449"
+}, {
+  "ID" : "_2021x_2_6d8019d_1690628661527_293016_24223",
+  "Documentation" : "",
+  "Name" : "System Capability Mapping Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_4_6d8019d_1617524582560_511978_675",
+    "Name" : "SCYenablingOCY"
+  }, {
+    "ID" : "_19_0_4_6d8019d_1624798205940_66834_232",
+    "Name" : "SFNsupportingSCY"
+  }, {
+    "ID" : "_19_0_4_6d8019d_1617463709660_425346_338",
+    "Name" : "SCYspecializedBY"
+  }, {
+    "ID" : "_2021x_2_6d8019d_1690055913036_853745_24319",
+    "Name" : "SRrefiningSCY"
+  }, {
+    "ID" : "_19_0_1_26f0132_1554446894995_335285_45800",
+    "Name" : "System Use Case"
+  }, {
+    "ID" : "_19_0_4_26f0132_1624610806163_247313_817",
+    "Name" : "SPSrefiningSUC"
+  }, {
+    "ID" : "_19_0_4_6d8019d_1617463709658_247814_337",
+    "Name" : "SCYcomposedOF"
+  }, {
+    "ID" : "_19_0_4_6d8019d_1617464677545_852747_1286",
+    "Name" : "SCYsupportingSUC"
+  }, {
+    "ID" : "_19_0_4_6d8019d_1617463709646_290604_336",
+    "Name" : "System Capability"
+  }, {
+    "ID" : "_19_0_4_26f0132_1624610613457_313794_115",
+    "Name" : "System Process"
+  }, {
+    "ID" : "_19_0_4_6d8019d_1654507324074_749318_302",
+    "Name" : "SPSenablingSCY"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303521707_858780_89137",
+    "Name" : "SUCsynthesizingSFN"
+  }, {
+    "ID" : "_19_0_3_8710274_1581665911562_310714_48925",
+    "Name" : "Operational Capability"
+  }, {
+    "ID" : "_19_0_2_8710274_1558520012975_812587_44177",
+    "Name" : "System Requirement"
+  }, {
+    "ID" : "_19_0_4_6d8019d_1617463709661_722502_339",
+    "Name" : "SCYdependingON"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524161_394471_91009",
+    "Name" : "System Function"
+  } ],
+  "VP_ID" : "_2021x_2_6d8019d_1690628661558_769067_24257"
+}, {
+  "ID" : "_2021x_2_8710274_1674680950651_660556_23705",
+  "Documentation" : "",
+  "Name" : "Physical Internal Exchange Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_2_26f0132_1562303524176_605407_91026",
+    "Name" : "PEKtypingPIPP"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_827364_91044",
+    "Name" : "PIPapplyingToAPE"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_824595_91079",
+    "Name" : "Physical Element"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_482464_91025",
+    "Name" : "Physical Exchange Kind"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_477765_91035",
+    "Name" : "PIPDdefiningDetailOfPIP"
+  }, {
+    "ID" : "_2021x_2_8710274_1695984535441_481088_24822",
+    "Name" : "PCPOverPCP"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_251302_91078",
+    "Name" : "Software Element"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_941558_91077",
+    "Name" : "Abstract Physical Element"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_539421_91036",
+    "Name" : "PEKtypingPIE"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_842935_91034",
+    "Name" : "Physical Interaction Point"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_925142_91031",
+    "Name" : "Physical Item Exchange"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_759771_91046",
+    "Name" : "PCNallowingPIE"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_114179_91028",
+    "Name" : "Physical Interaction Point Property"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_956519_91030",
+    "Name" : "Physical Interaction Point Definition"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_610387_91043",
+    "Name" : "Physical Connection"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_401348_91038",
+    "Name" : "PIPPspecifyingDetailOfPIPD"
+  }, {
+    "ID" : "_2021x_2_8710274_1697110372756_168059_150785",
+    "Name" : "PCPisPartOfPIPD"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_845534_91075",
+    "Name" : "Hardware Element"
+  } ],
+  "VP_ID" : "_2021x_2_8710274_1674680950433_310726_23659"
+}, {
+  "ID" : "_2021x_2_8710274_1675987942869_684347_33124",
+  "Documentation" : "",
+  "Name" : "Physical Functional Mapping Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_2_26f0132_1562303524176_174876_91086",
+    "Name" : "Hardware Element Role"
+  }, {
+    "ID" : "_2024x_8710274_1716826749795_177784_16590",
+    "Name" : "System Partial Function in System Function"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524161_863086_91005",
+    "Name" : "USAGEallocatedTo"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_824595_91079",
+    "Name" : "Physical Element"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_594816_91083",
+    "Name" : "Software Element Role"
+  }, {
+    "ID" : "_2021x_2_6d8019d_1677750594124_815801_24716",
+    "Name" : "SPFNallocatedToLET"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524161_367314_91006",
+    "Name" : "SFNallocatedToLET"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_61581_91084",
+    "Name" : "Physical Software Role"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_251302_91078",
+    "Name" : "Software Element"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_635820_91087",
+    "Name" : "Physical Element Role"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_941558_91077",
+    "Name" : "Abstract Physical Element"
+  }, {
+    "ID" : "_19_0_2_26f0132_1558075337119_355128_45325",
+    "Name" : "Physical SOI"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_981340_91082",
+    "Name" : "Logical Element Role"
+  }, {
+    "ID" : "_2021x_2_8710274_1675987240210_459780_32823",
+    "Name" : "LETimplementingGFN"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524161_107047_91004",
+    "Name" : "General Physical Role"
+  }, {
+    "ID" : "_2021x_2_6d8019d_1677952512216_184791_24859",
+    "Name" : "SPFNallocatedToAPE"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
+    "Name" : "Logical Element"
+  }, {
+    "ID" : "_19_0_4_26f0132_1624611043495_845903_880",
+    "Name" : "System Partial Function"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_845534_91075",
+    "Name" : "Hardware Element"
+  }, {
+    "ID" : "_19_0_2_26f0132_1558075212525_51415_45174",
+    "Name" : "Logical Context SOI"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_672620_91085",
+    "Name" : "Physical Hardware Role"
+  }, {
+    "ID" : "_19_0_4_26f0132_1624614161928_694281_1954",
+    "Name" : "General Function"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524161_907005_91002",
+    "Name" : "General Functional Usage"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524161_503942_91010",
+    "Name" : "SFNallocatedToAPE"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524161_394471_91009",
+    "Name" : "System Function"
+  } ],
+  "VP_ID" : "_2021x_2_8710274_1675987942868_617787_33116"
+}, {
+  "ID" : "_2021x_2_8710274_1676722869288_930653_25081",
+  "Documentation" : "",
+  "Name" : "Common Standards Definition Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_2021x_2_8710274_1700810378676_882309_48192",
+    "Name" : "STDissuedBySTO"
+  }, {
+    "ID" : "_2024x_1_26f0132_1729184481488_984688_15862",
+    "Name" : "ASFconformToSTD"
+  }, {
+    "ID" : "_2021x_2_8710274_1700814367039_336586_50268",
+    "Name" : "SDTcategorizedCOF"
+  }, {
+    "ID" : "_2021x_2_8710274_1700813046483_995773_50081",
+    "Name" : "Category Of Standard"
+  }, {
+    "ID" : "_2021x_2_8710274_1700810118595_556759_48108",
+    "Name" : "Standard"
+  }, {
+    "ID" : "_19_0_2_164f041e_1564565587397_301397_54399",
+    "Name" : "Any SAF Element"
+  }, {
+    "ID" : "_2021x_2_8710274_1700812231614_683776_49715",
+    "Name" : "SDTincludingSDT"
+  }, {
+    "ID" : "_2021x_2_8710274_1700817559642_660412_50682",
+    "Name" : "SDTsupersedingSDT"
+  }, {
+    "ID" : "_2021x_2_8710274_1700810355233_788568_48161",
+    "Name" : "Standardization Organization"
+  } ],
+  "VP_ID" : "_2021x_2_8710274_1676722868986_622372_25044"
+}, {
+  "ID" : "_2021x_2_8710274_1676723256336_796000_26579",
+  "Documentation" : "",
+  "Name" : "System Functional Refinement Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_2_8710274_1567168628900_60412_56295",
+    "Name" : "GFEfromGFUEP"
+  }, {
+    "ID" : "_2024x_8710274_1716826749795_177784_16590",
+    "Name" : "System Partial Function in System Function"
+  }, {
+    "ID" : "_19_0_4_26f0132_1624611043495_845903_880",
+    "Name" : "System Partial Function"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524161_902110_90999",
+    "Name" : "General Function Usage Exchange Point"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524161_890620_91008",
+    "Name" : "GFUEPsendingOUTPUT"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524161_529250_91001",
+    "Name" : "GFUEPreceivingINPUT"
+  }, {
+    "ID" : "_19_0_2_8710274_1567168520242_378357_56193",
+    "Name" : "General Functional Exchange"
+  }, {
+    "ID" : "_19_0_2_8710274_1567168660956_439379_56337",
+    "Name" : "GFEtoGFUEP"
+  }, {
+    "ID" : "_19_0_4_26f0132_1624614161928_694281_1954",
+    "Name" : "General Function"
+  }, {
+    "ID" : "_19_0_2_8710274_1567168596944_130308_56269",
+    "Name" : "GFEbeingPartOfGFNU"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524161_907005_91002",
+    "Name" : "General Functional Usage"
+  }, {
+    "ID" : "_19_0_3_6d8019d_1609520174192_971623_551",
+    "Name" : "GFNcontrolledAFTER"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524161_394471_91009",
+    "Name" : "System Function"
+  } ],
+  "VP_ID" : "_2021x_2_8710274_1676723256334_812178_26576"
+}, {
+  "ID" : "_2021x_2_8710274_1676723513865_743807_26883",
+  "Documentation" : "",
+  "Name" : "System Interface Definition Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_2_26f0132_1562303524176_349234_91039",
+    "Name" : "LIPDdefiningDetailOfLIP"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_546931_91032",
+    "Name" : "Logical Interaction Point"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
+    "Name" : "Logical Element"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_849218_91042",
+    "Name" : "LIPapplyingToLCE"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_125039_91041",
+    "Name" : "LIPapplyingToLET"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_980387_91029",
+    "Name" : "Logical Interaction Point Property"
+  }, {
+    "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
+    "Name" : "System Domain Kind"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_900081_91027",
+    "Name" : "Logical Interaction Point Definition"
+  }, {
+    "ID" : "_19_0_2_26f0132_1558075029411_79067_44836",
+    "Name" : "Logical Context Element"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303523801_353773_90762",
+    "Name" : "SDKtypingLIPP"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_770729_91040",
+    "Name" : "LIPPspecifyingDetailOfLIPD"
+  } ],
+  "VP_ID" : "_2021x_2_8710274_1676723513864_806117_26880"
+}, {
+  "ID" : "_2021x_2_8710274_1676724435781_532774_27361",
+  "Documentation" : "",
+  "Name" : "Physical Logical Mapping Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_2_26f0132_1562303524176_174876_91086",
+    "Name" : "Hardware Element Role"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_824595_91079",
+    "Name" : "Physical Element"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_594816_91083",
+    "Name" : "Software Element Role"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_61581_91084",
+    "Name" : "Physical Software Role"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_251302_91078",
+    "Name" : "Software Element"
+  }, {
+    "ID" : "_2021x_2_8710274_1697730753339_508227_29549",
+    "Name" : "LERspecifyingGPR"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_635820_91087",
+    "Name" : "Physical Element Role"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_941558_91077",
+    "Name" : "Abstract Physical Element"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_981340_91082",
+    "Name" : "Logical Element Role"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524161_107047_91004",
+    "Name" : "General Physical Role"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
+    "Name" : "Logical Element"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_845534_91075",
+    "Name" : "Hardware Element"
+  }, {
+    "ID" : "_19_0_2_26f0132_1558075212525_51415_45174",
+    "Name" : "Logical Context SOI"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_672620_91085",
+    "Name" : "Physical Hardware Role"
+  }, {
+    "ID" : "_2021x_2_8710274_1675988365178_267674_34276",
+    "Name" : "LETspecifyingAPE"
+  } ],
+  "VP_ID" : "_2021x_2_8710274_1676724435544_523379_27331"
+}, {
+  "ID" : "_2021x_2_8710274_1695205331752_593435_24411",
+  "Documentation" : "",
+  "Name" : "Physical Interface Definition Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_2_26f0132_1562303524176_605407_91026",
+    "Name" : "PEKtypingPIPP"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_827364_91044",
+    "Name" : "PIPapplyingToAPE"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_482464_91025",
+    "Name" : "Physical Exchange Kind"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_477765_91035",
+    "Name" : "PIPDdefiningDetailOfPIP"
+  }, {
+    "ID" : "_2021x_2_8710274_1695984535441_481088_24822",
+    "Name" : "PCPOverPCP"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_706808_91045",
+    "Name" : "PIPapplyingToPCE"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_941558_91077",
+    "Name" : "Abstract Physical Element"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_842935_91034",
+    "Name" : "Physical Interaction Point"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_114179_91028",
+    "Name" : "Physical Interaction Point Property"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_956519_91030",
+    "Name" : "Physical Interaction Point Definition"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_401348_91038",
+    "Name" : "PIPPspecifyingDetailOfPIPD"
+  }, {
+    "ID" : "_2021x_2_8710274_1697110372756_168059_150785",
+    "Name" : "PCPisPartOfPIPD"
+  }, {
+    "ID" : "_2021x_2_8710274_1697109899298_943155_150586",
+    "Name" : "PCPPOverPCPP"
+  }, {
+    "ID" : "_19_0_2_26f0132_1558075355803_462669_45365",
+    "Name" : "Physical Context Element"
+  } ],
+  "VP_ID" : "_2021x_2_8710274_1695205330608_177015_24335"
+}, {
+  "ID" : "_2021x_2_8710274_1696576589305_989164_24419",
+  "Documentation" : "",
+  "Name" : "Grid Definition Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_2024x_26f0132_1719141564806_4128_25334",
+    "Name" : "VPbelongingToAT"
+  }, {
+    "ID" : "_2021x_2_8710274_1697454168635_705915_29452",
+    "Name" : "GDcontainingAT"
+  }, {
+    "ID" : "_2024x_26f0132_1719141336629_21600_25167",
+    "Name" : "VPbelongingToDN"
+  }, {
+    "ID" : "_2021x_2_8710274_1697453629868_350923_29165",
+    "Name" : "Domain"
+  }, {
+    "ID" : "_2021x_2_8710274_1697453616439_929610_29143",
+    "Name" : "Grid"
+  }, {
+    "ID" : "_2021x_2_8710274_1697453623560_622137_29153",
+    "Name" : "Aspect"
+  }, {
+    "ID" : "_2021x_2_8710274_1697455811202_83226_34987",
+    "Name" : "View"
+  }, {
+    "ID" : "_2021x_2_8710274_1697453884307_467076_29314",
+    "Name" : "GDcontainingVP"
+  }, {
+    "ID" : "_2021x_2_8710274_1697454030821_682386_29382",
+    "Name" : "Viewpoint"
+  }, {
+    "ID" : "_2021x_2_8710274_1697454194125_161227_29476",
+    "Name" : "GDcontainingDN"
+  }, {
+    "ID" : "_2024x_26f0132_1719142742046_407324_28278",
+    "Name" : "VWconformingToVP"
+  } ],
+  "VP_ID" : "_2021x_2_8710274_1696576589232_543559_24371"
+}, {
+  "ID" : "_2021x_2_8710274_1698415722728_754169_60065",
+  "Documentation" : "",
+  "Name" : "Physical Logical Item Mapping Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_2_26f0132_1562303524176_605407_91026",
+    "Name" : "PEKtypingPIPP"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_539421_91036",
+    "Name" : "PEKtypingPIE"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524161_752149_91000",
+    "Name" : "SDKtypingFPM"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303523801_255857_90761",
+    "Name" : "SDKtypingLIE"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_925142_91031",
+    "Name" : "Physical Item Exchange"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_482464_91025",
+    "Name" : "Physical Exchange Kind"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_114179_91028",
+    "Name" : "Physical Interaction Point Property"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_980387_91029",
+    "Name" : "Logical Interaction Point Property"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303523801_894791_90759",
+    "Name" : "PEKrealizingSDK"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524161_902110_90999",
+    "Name" : "General Function Usage Exchange Point"
+  }, {
+    "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
+    "Name" : "System Domain Kind"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_663216_91033",
+    "Name" : "Logical Item Exchange"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303523801_353773_90762",
+    "Name" : "SDKtypingLIPP"
+  } ],
+  "VP_ID" : "_2021x_2_8710274_1698415722718_711881_60045"
+}, {
+  "ID" : "_2021x_2_8710274_1701349408080_643851_88506",
+  "Documentation" : "",
+  "Name" : "Common Terms Definition Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_2021x_2_8710274_1700810118595_556759_48108",
+    "Name" : "Standard"
+  }, {
+    "ID" : "_2024x_1_26f0132_1729193445510_304510_25731",
+    "Name" : "GYcontainsTRM"
+  }, {
+    "ID" : "_2024x_1_26f0132_1729193426484_948459_25660",
+    "Name" : "Glossary"
+  }, {
+    "ID" : "_2021x_2_8710274_1700810136506_485576_48133",
+    "Name" : "TRMdefinedBySDT"
+  }, {
+    "ID" : "_2021x_2_8710274_1700810107962_53436_48086",
+    "Name" : "Term"
+  }, {
+    "ID" : "_2024x_1_26f0132_1729193587037_719455_25763",
+    "Name" : "STDcontainsGY"
+  } ],
+  "VP_ID" : "_2021x_2_8710274_1701349408071_720270_88478"
+}, {
+  "ID" : "_2024x_26f0132_1719735411762_85886_24441",
+  "Documentation" : "",
+  "Name" : "Framework Viewpoint Implementation Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_2024x_26f0132_1719773907937_525274_34938",
+    "Name" : "SAF Stereotype"
+  }, {
+    "ID" : "_2024x_26f0132_1719749468596_132410_16077",
+    "Name" : "SECrelatesToSEC"
+  }, {
+    "ID" : "_2024x_26f0132_1719774269766_773308_35316",
+    "Name" : "UML Metaclass"
+  }, {
+    "ID" : "_2024x_26f0132_1719749431514_697590_16049",
+    "Name" : "SE Concept"
+  }, {
+    "ID" : "_2024x_26f0132_1719774257000_927866_35293",
+    "Name" : "SysML Stereotype"
+  }, {
+    "ID" : "_2024x_26f0132_1719774817697_854148_35615",
+    "Name" : "SSTimplementsVP"
+  }, {
+    "ID" : "_2024x_26f0132_1719773960755_475101_34978",
+    "Name" : "PIimplementsSEC"
+  }, {
+    "ID" : "_2021x_2_8710274_1697454030821_682386_29382",
+    "Name" : "Viewpoint"
+  }, {
+    "ID" : "_2024x_26f0132_1719774460002_849168_35401",
+    "Name" : "ProfileItem"
+  }, {
+    "ID" : "_2024x_26f0132_1719749573029_735591_16107",
+    "Name" : "SECisProvidedByVP"
+  } ],
+  "VP_ID" : "_2024x_26f0132_1719735411756_812404_24423"
+}, {
+  "ID" : "_2024x_26f0132_1719735523524_682999_24815",
+  "Documentation" : "",
+  "Name" : "Framework Viewpoint Definition Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_2024x_26f0132_1719141564806_4128_25334",
+    "Name" : "VPbelongingToAT"
+  }, {
+    "ID" : "_2024x_26f0132_1719748378083_695462_15356",
+    "Name" : "VPframesCN"
+  }, {
+    "ID" : "_2024x_26f0132_1719749468596_132410_16077",
+    "Name" : "SECrelatesToSEC"
+  }, {
+    "ID" : "_2024x_26f0132_1719141336629_21600_25167",
+    "Name" : "VPbelongingToDN"
+  }, {
+    "ID" : "_2021x_2_8710274_1697453629868_350923_29165",
+    "Name" : "Domain"
+  }, {
+    "ID" : "_2024x_26f0132_1719748355302_515347_15328",
+    "Name" : "Concern"
+  }, {
+    "ID" : "_2021x_2_8710274_1697453623560_622137_29153",
+    "Name" : "Aspect"
+  }, {
+    "ID" : "_2024x_26f0132_1719749431514_697590_16049",
+    "Name" : "SE Concept"
+  }, {
+    "ID" : "_2021x_2_8710274_1697454030821_682386_29382",
+    "Name" : "Viewpoint"
+  }, {
+    "ID" : "_2024x_26f0132_1719749573029_735591_16107",
+    "Name" : "SECisProvidedByVP"
+  } ],
+  "VP_ID" : "_2024x_26f0132_1719735523519_523621_24797"
+}, {
+  "ID" : "_2024x_26f0132_1719735528617_419249_25152",
+  "Documentation" : "",
+  "Name" : "Framework Stakeholder Definition Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_2024x_26f0132_1719748385761_197755_15378",
+    "Name" : "Rationale"
+  }, {
+    "ID" : "_2024x_26f0132_1719748770980_708368_15656",
+    "Name" : "Stakeholder"
+  }, {
+    "ID" : "_2024x_26f0132_1719748355302_515347_15328",
+    "Name" : "Concern"
+  } ],
+  "VP_ID" : "_2024x_26f0132_1719735528612_846205_25134"
+}, {
+  "ID" : "_2024x_26f0132_1719735530447_897070_25489",
+  "Documentation" : "",
+  "Name" : "Framework Concern Definition Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_2024x_26f0132_1719748378083_695462_15356",
+    "Name" : "VPframesCN"
+  }, {
+    "ID" : "_2024x_26f0132_1719748385761_197755_15378",
+    "Name" : "Rationale"
+  }, {
+    "ID" : "_2024x_26f0132_1719748770980_708368_15656",
+    "Name" : "Stakeholder"
+  }, {
+    "ID" : "_2021x_2_8710274_1697454030821_682386_29382",
+    "Name" : "Viewpoint"
+  }, {
+    "ID" : "_2024x_26f0132_1719748355302_515347_15328",
+    "Name" : "Concern"
+  } ],
+  "VP_ID" : "_2024x_26f0132_1719735530442_324624_25471"
+}, {
+  "ID" : "_2024x_26f0132_1719735638648_552435_25866",
+  "Documentation" : "",
+  "Name" : "Framework Rationale Definition Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_2024x_26f0132_1719748385761_197755_15378",
+    "Name" : "Rationale"
+  }, {
+    "ID" : "_2024x_26f0132_1719748770980_708368_15656",
+    "Name" : "Stakeholder"
+  }, {
+    "ID" : "_2024x_26f0132_1719748355302_515347_15328",
+    "Name" : "Concern"
+  } ],
+  "VP_ID" : "_2024x_26f0132_1719735638642_287063_25848"
+}, {
+  "ID" : "_2024x_26f0132_1719735638897_946724_26203",
+  "Documentation" : "",
+  "Name" : "Framework Stereotype Overview Concept",
+  "DiagConcepts" : [ ],
+  "VP_ID" : "_2024x_26f0132_1719735638892_806840_26185"
+}, {
+  "ID" : "_2024x_26f0132_1719735639180_810002_26540",
+  "Documentation" : "",
+  "Name" : "Framework Concept Definition Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_2024x_26f0132_1719749431514_697590_16049",
+    "Name" : "SE Concept"
+  }, {
+    "ID" : "_2024x_26f0132_1719749468596_132410_16077",
+    "Name" : "SECrelatesToSEC"
+  } ],
+  "VP_ID" : "_2024x_26f0132_1719735639175_641082_26522"
+}, {
+  "ID" : "_2024x_26f0132_1719735639642_163834_27214",
+  "Documentation" : "",
+  "Name" : "Framework Viewpoint Overview Concept",
+  "DiagConcepts" : [ ],
+  "VP_ID" : "_2024x_26f0132_1719735639638_993311_27196"
+}, {
+  "ID" : "_2024x_26f0132_1719746598518_519398_39227",
+  "Documentation" : "",
+  "Name" : "Framework Implementation Traceability Concept",
+  "DiagConcepts" : [ ],
+  "VP_ID" : "_2024x_26f0132_1719746598512_743707_39208"
+} ]
