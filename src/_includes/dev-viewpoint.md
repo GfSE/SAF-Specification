@@ -88,8 +88,9 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 </ul>
 
 ## Concept View of Viewpoint
-{% assign diag = site.data.concept-viewpointdiags | where: "VP_ID", vp.ID %}
-<img src="../../diagrams/examples_md/exa{{ diag.first.ID }}.svg" />
+The Diagram shows the concepts exposed by the viewpoint, and related concepts if necessary.
+{% assign diagc = site.data.concept-viewpointdiags | where: "VP_ID", vp.ID %}
+<img src="../../diagrams/examples_md/exa{{ diagc.first.ID }}.svg" />
 
 ## Concepts exposed in Viewpoint
 <table>
@@ -97,5 +98,22 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 {%- for c in this_concepts -%}
 {% assign concept = site.data.concepts | where: "ID", c.ID%}
 <tr><td><A href="../concepts.html#{{ c.ID }}">{{ c.Name }}</A></td><td>{{concept.first.Documentation}}</td></tr>
+{%- endfor %}
+</table>
+
+## Implementation View of Viewpoint
+The Diagram shows the implementation of exposed concepts.
+{% assign diagp = site.data.profile-viewpointdiags | where: "VP_ID", vp.ID %}
+<img src="../../diagrams/examples_md/exa{{ diagp.first.ID }}.svg" />
+
+## Realization of Concepts exposed in Viewpoint
+<table>
+<tr><th>Concept</th><th>Realization</th></tr>
+{%- for c in this_concepts -%}
+{% assign concept = site.data.concepts | where: "ID", c.ID%}
+{% assign r = site.data.realizeconcept | where: "RealizedConcept.ID", c.ID | map: "RealizationOfConcept" |map: "ID"%}
+{% assign scm_st = site.data.scmstereotypes | where: "ID", r.first %}
+{% assign saf_st = site.data.stereotypes | where: "ID", r.first %}
+<tr><td><A href="../concepts.html#{{ c.ID }}">{{ c.Name }}</A></td><td><A href="../../userdoc/stereotypes.html#{{ r.first }}">{{ scm_st.first.Name }}{{ saf_st.first.Name }}</A></td></tr>
 {%- endfor %}
 </table>
