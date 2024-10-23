@@ -1,6 +1,10 @@
 name: Publish Docs
 on:
   push:
+    branches:
+      - TdSE2024
+      - TdSE2023
+      - Initial-Release
 
 # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
