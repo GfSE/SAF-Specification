@@ -49,12 +49,10 @@ runs:
       shell: bash
       env:
         BUNDLE_GEMFILE: ./src/Gemfile
+        JEKYLL_ENV: production
       run: |
         # TODO find a way for jekyll to perform this automatically
         convert src/assets/images/Logo_SAF_quadratisch.png -define icon:auto-resize=256,64,48,32,16 src/favicon.ico
 
         bundle install
         bundle exec jekyll build --source src/ --destination build
-       env:
-          JEKYLL_ENV: production
-
