@@ -16,6 +16,9 @@ runs:
         ruby-version: 3.3
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
         cache-version: 0 # Increment this number if you need to re-download cached gems
+    - name: Setup Pages
+      id: pages
+      uses: actions/configure-pages@v5        
     - name: Configure
       shell: bash
       env:
@@ -45,14 +48,11 @@ runs:
         echo "Adding additional config settings:"
         cat ${TEMP_CONFIG} | tee -a src/_config.yml
 
-    - name: Install and Build
+    - name: convert img
       shell: bash
-      env:
-        BUNDLE_GEMFILE: ./Gemfile
-        JEKYLL_ENV: production
-      run: |
-        # TODO find a way for jekyll to perform this automatically
-        convert src/assets/images/Logo_SAF_quadratisch.png -define icon:auto-resize=256,64,48,32,16 src/favicon.ico
+      run: convert src/assets/images/Logo_SAF_quadratisch.png -define icon:auto-resize=256,64,48,32,16 src/favicon.ico
 
-        bundle install
-        bundle exec jekyll build --source src/ --destination build
+    - name: Build with Jekyll
+        run: bundle exec jekyll build --source src/ --destination build
+        env:
+          JEKYLL_ENV: production
