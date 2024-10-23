@@ -94,3 +94,9 @@
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
+
+
+.plugin-version-menu-background-fonts-style {
+  @include fs-2;
+  background-color: inherit;
+}
