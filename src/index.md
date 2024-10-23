@@ -3,7 +3,6 @@ title: Introduction
 layout: default
 nav_order: 0
 ---
-**This is a Test of an alternative Document generation Method and not the SAF Specification !**
 
 # Introduction
 Inspired by the various enterprise architecture frameworks the System Architecture Framework (SAF) is a common, domain independent system architecture framework dedicated to support Model Based Systems Engineering (MBSE) of technical systems. 
