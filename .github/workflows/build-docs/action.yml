@@ -53,6 +53,7 @@ runs:
       run: convert src/assets/images/Logo_SAF_quadratisch.png -define icon:auto-resize=256,64,48,32,16 src/favicon.ico
 
     - name: Build with Jekyll
+      shell: bash
       run: bundle exec jekyll build --source src/ --destination build
       env:
         JEKYLL_ENV: production
