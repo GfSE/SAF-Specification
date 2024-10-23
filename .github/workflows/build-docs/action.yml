@@ -48,7 +48,7 @@ runs:
     - name: Install and Build
       shell: bash
       env:
-        BUNDLE_GEMFILE: ./src/Gemfile
+        BUNDLE_GEMFILE: ./Gemfile
         JEKYLL_ENV: production
       run: |
         # TODO find a way for jekyll to perform this automatically
