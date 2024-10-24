@@ -47,6 +47,7 @@ jobs:
           EXTRA_CONFIG: ${{ inputs.extra-config }}
         run: |
           [[ ${RUNNER_DEBUG:-0} -eq 1 ]] && set -x
+          [[ "${{ github.ref_name }}" != "main" ]] && TARGET_FOLDER= "${{ github.ref_name }}"
 
           REPO_NAME=$(jq -r ".repository.name" "$GITHUB_EVENT_PATH")
 
@@ -56,7 +57,7 @@ jobs:
           repository_nwo: ${GITHUB_REPOSITORY}
           EOF
 
-          if [[ "${{ github.ref_name }}" != "main" ]] 
+          if  [[ -n "${TARGET_FOLDER}" ]]
           then
             echo "baseurl: /${REPO_NAME}/${TARGET_FOLDER}" >> ${TEMP_CONFIG}
           fi
@@ -84,7 +85,7 @@ jobs:
           branch: gh-pages
           folder: build
           force: false
-          target-folder: version/${{ github.ref_name }}
+          target-folder: version/${{ vars.TARGET_FOLDER }}
           clean-exclude: |
             pr-preview/
             version/
