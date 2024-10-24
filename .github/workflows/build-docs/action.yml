@@ -54,6 +54,6 @@ runs:
 
     - name: Build with Jekyll
       shell: bash
-      run: bundle exec jekyll build --source src/ --destination build
+      run: bundle exec jekyll build --source src/ --destination build --baseurl "${{ steps.pages.outputs.base_path }}"
       env:
         JEKYLL_ENV: production
