@@ -40,6 +40,36 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+      - name: Configure
+        shell: bash
+        env:
+          TARGET_FOLDER: version/${{ github.ref_name }}
+          EXTRA_CONFIG: ${{ inputs.extra-config }}
+        run: |
+          [[ ${RUNNER_DEBUG:-0} -eq 1 ]] && set -x
+
+          REPO_NAME=$(jq -r ".repository.name" "$GITHUB_EVENT_PATH")
+
+          TEMP_CONFIG=$(mktemp)
+          # avoid look up of API as it doesn't work from within actions without exposing the GITHUB_TOKEN here which is a security risk
+          cat <<EOF >> ${TEMP_CONFIG}
+          repository_nwo: ${GITHUB_REPOSITORY}
+          EOF
+
+          if [[ -n "${TARGET_FOLDER}" ]]
+          then
+            echo "baseurl: /${REPO_NAME}/${TARGET_FOLDER}" >> ${TEMP_CONFIG}
+          fi
+
+          # allow override of everything
+          cat <<EOF >> ${TEMP_CONFIG}
+          ${EXTRA_CONFIG}
+          EOF
+
+          echo "Adding additional config settings:"
+          cat ${TEMP_CONFIG} | tee -a src/_config.yml
+
+        
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
