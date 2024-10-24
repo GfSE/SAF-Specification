@@ -9,9 +9,10 @@ name: Deploy Jekyll site to Pages
 on:
   push:
     branches: ["main","TdSE2024"]
-
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+env:
+  BRANCH_NAME: ${{ github.head_ref || github.ref_name }}
+  # Allows you to run this workflow manually from the Actions tab
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -43,13 +44,16 @@ jobs:
       - name: Configure
         shell: bash
         env:
-          TARGET_FOLDER: version/${{ github.ref_name }}
+          TARGET_FOLDER: ""
           EXTRA_CONFIG: ${{ inputs.extra-config }}
         run: |
           [[ ${RUNNER_DEBUG:-0} -eq 1 ]] && set -x
-          [[ "${{ github.ref_name }}" != "main" ]] && TARGET_FOLDER= "${{ github.ref_name }}"
+          [[ "$BRANCH_NAME" != "main" ]] && TARGET_FOLDER="${{ github.ref_name }}"
+          echo "TARGET_FOLDER=$(echo $TARGET_FOLDER)" >> $GITHUB_ENV
 
           REPO_NAME=$(jq -r ".repository.name" "$GITHUB_EVENT_PATH")
+          echo $TARGET_FOLDER
+          echo $REPO_NAME
 
           TEMP_CONFIG=$(mktemp)
           # avoid look up of API as it doesn't work from within actions without exposing the GITHUB_TOKEN here which is a security risk
@@ -85,7 +89,7 @@ jobs:
           branch: gh-pages
           folder: build
           force: false
-          target-folder: ${{ vars.TARGET_FOLDER }}
+          target-folder: ${{  env.BRANCH_NAME != 'main'  &&  format('version/{0}',env.BRANCH_NAME) || '' }}
           clean-exclude: |
             pr-preview/
             version/
