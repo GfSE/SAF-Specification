@@ -87,6 +87,14 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4.4.3
+        with:
+          branch: gh-pages
+          folder: build
+          force: false
+          target-folder: version/${{ github.ref_name }}
+          clean-exclude: |
+            pr-preview/
+            version/
+
