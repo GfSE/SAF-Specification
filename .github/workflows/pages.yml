@@ -85,7 +85,7 @@ jobs:
           branch: gh-pages
           folder: build
           force: false
-          target-folder: version/${{ vars.TARGET_FOLDER }}
+          target-folder: ${{ vars.TARGET_FOLDER }}
           clean-exclude: |
             pr-preview/
             version/
