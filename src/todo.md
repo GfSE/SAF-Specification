@@ -14,6 +14,7 @@
 * sort concern list by category
 # fix
 * branches auf github pages auswählbar machen (gh-page branch ??)
+  * so wie die das gemacht haben ! https://vagrant-libvirt.github.io/vagrant-libvirt/
 * das komische problem beim bilder exportieren  - bild wird geschrieben, dann abbruch - alle viewpoint diagramme. warum? 
 * consolidate descriptions of saf core elements (models, viewpoints, domains). there are similar texts at several places.
 # new nice features to add

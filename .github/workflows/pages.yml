@@ -89,9 +89,10 @@ jobs:
             pr-preview/
             version/
 
-       - name: Upload artifact
+      - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
-        path: build
+        with:
+          path: build/
         uses: actions/upload-pages-artifact@v3
   
   # Deploy job
