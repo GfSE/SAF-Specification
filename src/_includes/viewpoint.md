@@ -67,7 +67,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 <ul>
 {% for c in t_i %}
 {% assign real = site.data.realizeconcept | where: "RealizationOfConcept.ID", c %}
-<li><A href="{{ basePath }}/userdoc/stereotypes.html#{{ real.first.RealizationOfConcept.ID }}">{{ real.first.RealizationOfConcept.Name }}</A></li>
+<li><A href="../../userdoc/stereotypes.html#{{ real.first.RealizationOfConcept.ID }}">{{ real.first.RealizationOfConcept.Name }}</A></li>
 {% endfor %}
 </ul>
 
