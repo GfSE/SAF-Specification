@@ -105,8 +105,10 @@ function handleVersionedDocs(repository_nwo, basePath) {
 
         var currentVersion = "";
         const versionPath = `${basePath}/version/`;
-        const path = window.location.pathname.toLowerCase();
-        if (path.startsWith(versionPath.toLowerCase())) {
+        const path = window.location.pathname;
+        //const path = window.location.pathname.toLowerCase();
+        //if (path.startsWith(versionPath.toLowerCase())) {
+        if (path.startsWith(versionPath)) {
             const start = versionPath.length;
             const end = path.indexOf('/', start+1);
             currentVersion = path.substring(start, end < 0 ? path.length : end);
