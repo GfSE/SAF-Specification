@@ -64,6 +64,8 @@ jobs:
           if  [[ -n "${TARGET_FOLDER}" ]]
           then
             echo "baseurl: /${REPO_NAME}/${TARGET_FOLDER}" >> ${TEMP_CONFIG}
+          else
+            echo "baseurl: /${REPO_NAME}" >> ${TEMP_CONFIG}
           fi
 
           # allow override of everything
