@@ -2,7 +2,7 @@
 {% assign vp = vp_tmp.first %}
 {% assign examples = site.data.mdexamples | where: "ExampleForVPID", vp.VP_ID %}
 {% capture maturityimage -%}
-<img src="{% link /assets/images/maturity-{{ vp.Maturity | replace: " ", "-"  }}.svg %}" height="20" width="20" >
+<img src="../../assets/images/maturity-{{ vp.Maturity | replace: " ", "-"  }}.svg " height="20" width="20" >
 {%- endcapture %}
 {% capture domainlink -%}
 [{{ vp.Domain }}](../../userdoc/domains.html#{{ vp.Domain | downcase }}-domain)

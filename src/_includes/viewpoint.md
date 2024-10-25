@@ -2,7 +2,7 @@
 {% assign vp = vp_tmp.first %}
 {% assign examples = site.data.mdexamples | where: "ExampleForVPID", vp.VP_ID %}
 {% capture maturityimage -%}
-<img src="{% link /assets/images/maturity-{{ vp.Maturity | replace: " ", "-"  }}.svg %}" height="20" width="20" >
+<img src="../../assets/images/maturity-{{ vp.Maturity | replace: " ", "-"  }}.svg " height="20" width="20" >
 {%- endcapture %}
 {% capture domainlink -%}
 [{{ vp.Domain }}](../domains.html#{{ vp.Domain | downcase }}-domain)
@@ -67,7 +67,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 <ul>
 {% for c in t_i %}
 {% assign real = site.data.realizeconcept | where: "RealizationOfConcept.ID", c %}
-<li><A href="/userdoc/stereotypes.html#{{ real.first.RealizationOfConcept.ID }}">{{ real.first.RealizationOfConcept.Name }}</A></li>
+<li><A href="{{ basePath }}/userdoc/stereotypes.html#{{ real.first.RealizationOfConcept.ID }}">{{ real.first.RealizationOfConcept.Name }}</A></li>
 {% endfor %}
 </ul>
 

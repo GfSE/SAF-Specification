@@ -1,5 +1,5 @@
 
-<img src="/diagrams/concept/exa{{ diag.first.ID }}.svg" />
+<img src="../../diagrams/concept/exa{{ diag.first.ID }}.svg" />
 {{ diag.first.Documentation }}
 
 
