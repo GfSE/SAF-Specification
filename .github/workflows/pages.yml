@@ -70,7 +70,6 @@ jobs:
             #echo "baseurl: /${REPO_NAME}" >> ${TEMP_CONFIG}
             #echo "baseurl: /" >> ${TEMP_CONFIG}
             echo "not setting baseurl"
-
           fi
 
           # allow override of everything
