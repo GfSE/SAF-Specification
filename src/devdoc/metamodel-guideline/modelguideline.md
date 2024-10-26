@@ -1,3 +1,9 @@
+---
+title: Metamodeling Guideline
+parent: Developer Documentation
+layout: default
+nav_order: 50
+---
 # Concept and Profile Modeling Guideline
 
 ## General
@@ -30,7 +36,7 @@ For defining the SCM and the SPM only a few simple model elements are used to ea
 
 `Rule: Every conceptual item shall be described.`
 
-See the actual [Documentation of the concept elements](../concept/concept-overview.md) for more examples of use.
+See the actual [Documentation of the concept elements](../concept-overview.md) for more examples of use.
 
 Following model elements are used in the SAF Conceptual Model.
 
@@ -402,7 +408,8 @@ In the SAF Metamodel the following conventions are used
 Example of a view specification in the SAF Metamodel
 
 
-![Logic](../viewpoints/diagrams/Logical-Structure-Definition-Concept.svg)
+![Logic](../../diagrams/examples_md/exa_19_0_2_26f0132_1562303529036_923400_94274.svg)
+
 
 In the example a view “Logical Structure Viewpoint is specified by means of the SAF_View and SAF_Viewpoint elements. The View exposes the relevant concepts of the SAF Conceptual model.
 
@@ -416,7 +423,7 @@ It is recommended to show a legend in the diagram.
 
 Additionally, to view specification a diagram showing the viewpoint implementation is provided: 
 
-![Logic](../viewpoints/diagrams/Logical-Structure-Definition-Profile.svg)
+![Logic](../../diagrams/examples_md/exa_19_0_2_26f0132_1562303529036_753566_94295.svg)
 
 The example shows how the concepts that are exposed in a view are implemented in the SAF Profile
 The diagram shall show

@@ -53,7 +53,7 @@ select a set of SAF Concepts in order to adress the information need expressed b
   They also could be used to plan work items in order to plan a MBSE effort.
   The goal is, to precisely define the needed model work for certain points in an engieering project.
 
-Details are documented in the [metamodeling guide](./metamodel-guideline/modelguideline.md).
+Details are documented in the [metamodeling guide](../src/devdoc/metamodel-guideline/modelguideline.md).
 
 # How is SAF documented ?
 
@@ -141,7 +141,7 @@ The Development Documentation is separated from the User Documentation.
 It consists of
 
 * [Development Guideline](saf-dev-guideline.md)
-* [Metamodel Guide](metamodel-guideline/modelguideline.md)
+* [Metamodel Guide](../src/devdoc/metamodel-guideline/modelguideline.md)
 * [List of Concepts](concept/concepts.md)
 * [Concept Overview Diagrams](concept/concept-overview.md)
 * [Development view on SAF Viewpoints](viewpoints/viewpoint-dev.md)
