@@ -21,8 +21,7 @@ plugins:
 relative_links:
   enabled:     true
 
-#repository: GfSE/SAF-Specification
-repository: haarer/SAF-Specification-Test
+repository: GfSE/SAF-Specification
 
 callouts:
   highlight:
