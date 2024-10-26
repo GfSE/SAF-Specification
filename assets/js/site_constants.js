@@ -1,4 +1,4 @@
 
-const basePath = '/pages/GfSE/SAF-Specification';
+const basePath = '';
 const repository_nwo = 'GfSE/SAF-Specification';
 
