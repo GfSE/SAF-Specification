@@ -120,10 +120,19 @@ function handleVersionedDocs(repository_nwo, basePath) {
         menu.innerHTML = `SAF Version: ${currentVersion}`;
         menu.appendChild(dropdown);
 
+        options.push({text:'TdSE2023',value:'TdSE2023'})
+        options.push({text:'TdSE2022',value:'TdSE2022'})
+        options.push({text:'Initial-Release',value:'Initial-Release'})
         options.forEach( item => {
             var link = document.createElement('a');
             var wrapper = document.createElement('div');
-            link.href = (item.value === 'latest' ? basePath : versionPath + item.value) + currentPage;
+            if ( ['TdSE2023','TdSE2022','Initial-Release'].includes(item.value))
+            {
+                link.href = 'https://github.com/GfSE/SAF-Specification/tree/' + item.value + '/README.md';
+            }else
+            {
+                link.href = (item.value === 'latest' ? basePath : versionPath + item.value) + currentPage;
+            }            
             link.innerHTML = item.text;
             link.className = 'plugin-version-menu-option';
             link.style.cssText = `
