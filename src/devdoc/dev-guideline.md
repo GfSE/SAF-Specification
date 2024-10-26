@@ -32,7 +32,7 @@ The last Question leads to the selection of appropriate diagrams/tables.
 The decisions taken in viewpoint development should be such, that the viewpoint under development should "fit into the framework well". 
 
 ## Profile Development
-To foster the development of profiles for various SysML Tools, we export also a [stereotype CSV file](../../stereotypes.csv) containing entries for each of the    SAF Profiles stereotypes.
+To foster the development of profiles for various SysML Tools, we export also a [stereotype CSV file](https://github.com/GfSE/SAF-Specification/blob/main/stereotypes.csv) containing entries for each of the    SAF Profiles stereotypes.
 
 **Table of Fields with Example**
 
