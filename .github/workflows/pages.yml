@@ -63,7 +63,8 @@ jobs:
 
           if  [[ -n "${TARGET_FOLDER}" ]]
           then
-            echo "baseurl: /${REPO_NAME}/version/${TARGET_FOLDER}" >> ${TEMP_CONFIG}
+            #echo "baseurl: /${REPO_NAME}/version/${TARGET_FOLDER}" >> ${TEMP_CONFIG}
+            echo "baseurl: /version/${TARGET_FOLDER}" >> ${TEMP_CONFIG}
           else
             #echo "baseurl: /${REPO_NAME}" >> ${TEMP_CONFIG}
             echo "baseurl: /" >> ${TEMP_CONFIG}
