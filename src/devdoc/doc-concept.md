@@ -3,7 +3,7 @@ title: Documentation Concept
 layout: default
 parent: Developer Documentation
 has_children: true
-nav_order: 20
+nav_order: 10
 ---
 # Documentation Concept
 
@@ -11,15 +11,15 @@ The documentation of SAF is needs to support different use cases of different pe
 
 **We distinguish SAF Users and SAF Developers.**
 
-* the [User Documentation](../userdoc/userdoc.md) is intended for SAF Users. 
+* the User Documentation is intended for SAF Users. 
 * this Developer Documentation is intedend for SAF Developers. This includes anyone intending to extend or customize SAF, or just wants to know how SAF is developed or what are the building blocks of SAF.
   
 ## Use Cases
 The following use cases have been identified for the SAF Documentation 
 
-### SAF Users::SEMP Author
+### SAF Users::MBSE Approach Planner
 
-The author of a SEMP for a system in a certain project context wants to know:
+During, e.g. authoring of a SEMP for a system in a certain project context the MBSE Approach Planner wants to know:
 
 * which viewpoints are relevant for the systems engineering effort
 * how will we use the viewpoints and what is the benefit
@@ -27,7 +27,7 @@ The author of a SEMP for a system in a certain project context wants to know:
 * what do we potentially lose if we omit viewpoints
 * what is the recommended workflow through the viewpoints[^1]
 
-Those questions need an answer in order to plan the MBSE appoach. Every project is different, and the focus of modeling should be set accordingly. One needs to know where in the Lifecycle, and for which processes activities (refering to ISO15288) the viewpoints will provide a benefit.
+Those questions need an answer in order to plan the MBSE approach. Every project is different, and the focus of modeling should be set accordingly. One needs to know where in the Lifecycle, and for which processes activities (refering to ISO15288) the viewpoints will provide a benefit.
 
 Most of the questions are supported by the following "steckbrief" characteristics of the viewpoint description.
 
@@ -43,11 +43,11 @@ Most of the questions are supported by the following "steckbrief" characteristic
   * hard dependencies (required vp is needed, otherwise this vp cant be filled)
   * soft dependencies (recommended vp supports this vp but could be omitted without breaking things)
 
-The concerns of the SEMP Author are laid out in the [Stakeholder Documentation](../userdoc.md/stakeholders.md#saf-mbse-approch-planer)
+The related concerns are laid out in the [Stakeholder Documentation](../userdoc/stakeholders.md#saf-mbse-approch-planer)
 
-### SAF Users::Model User
+### SAF Users::System Model User
 
-The user of a model (author or reader) wants to know:
+The user of a system model (author or reader) wants to know:
 
 * how do i read a viewpoint
 * how do i create/fill a viewpoint
@@ -71,11 +71,11 @@ This is supported by the following "steckbrief" characteristics of the viewpoint
 * Used stereotypes
   (List of stereotypes to be used in the VP)
 
-The concerns of the SAF Model User are laid out in the [Stakeholder Documentation](../userdoc.md/stakeholders.md#saf-system-model-user)
+The related concerns are laid out in the [Stakeholder Documentation](../userdoc/stakeholders.md#saf-system-model-user)
 
-## SAF Developers::Framework Developer
+## SAF Developers::SAF Developer
 
-The framework developer wants to know:
+The SAF developer wants to know:
 
 * how can i extend the framework by new viewpoints ?
 * what is needed for a viewpoint specification ?
@@ -84,6 +84,6 @@ Those questions arise within the development of SAF by the working group and als
 
 The development documentation aims to answer those questions. See next chapter.
 
-The concerns of the Framework Developer are laid out in the [Stakeholder Documentation](../userdoc.md/stakeholders.md#saf-developer)
+The related concerns are laid out in the [Stakeholder Documentation](../userdoc/stakeholders.md#saf-developer)
 
 [^1]: The question about the recommended workflow cannot be answered by a single viewpoint description, this is an overarcing topic, which is currently not covered by the SAF documentation.

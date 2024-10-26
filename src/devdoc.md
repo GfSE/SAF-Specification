@@ -19,13 +19,10 @@ There are several kinds of models around SAF serving a certain purpose
 
   This is a model dedicated to the development of one or more systems. It is a model that users of SAF create and maintain. It may be maintained in one of the Tools supported by a SAF Profile Model. The SAF example model SAF_FFDS.mdzip is a System Model.
 * **SAF_Profile Model**
-  This is a model needed to create a SAF System Model. It is tool specific and (hopefully) compliant to the SAF Specification. There are currently several contributed models:
+  This is a model needed to create a SAF System Model. It is tool specific and (hopefully) compliant to the SAF Specification.  There currently several contributed models. Some of the Repositories also contain an example System Model. Please head over to [Tool Implementations](index.md#tool-implementations).
 
-  * [SAF-Cameo-Profile](https://github.com/GfSE/SAF-Cameo-Profile)
-  * [SAF-Rhapsody-Profile](https://github.com/GfSE/SAF-Rhapsody-Profile)
-  * [SAF-EA-Profile](https://github.com/GfSE/SAF-EA-Profile)
+  
 
-  The Repositories usually also contain an example System Model
 * **SAF_Specification Model**
   The specification model contains the definitions serving as foundation for SAF development. See the following chapter for details.
 
@@ -39,7 +36,7 @@ It governs, which items SAF consist of and how these items are related.
 It follows the concepts of ISO 42010. SAF extends ISO 42010 in a way that SAF is able to express a rationale for a Stakeholders Concern.
 
 ![Bild](./assets/images/Concept-Model-Definition.svg)
-
+### Core Concepts
 Within the conceptual model the following elements can be recognized (many of them are specializations of ISO 42010 Concepts):
 
 * **SAF Architecture Framework Stakeholders**
@@ -60,18 +57,7 @@ select a set of SAF Concepts in order to adress the information need expressed b
   They also could be used to plan work items in order to plan a MBSE effort.
   The goal is, to precisely define the needed model work for certain points in an engieering project.
 
-Details are documented in the [metamodeling guide](./metamodel-guideline/modelguideline.md).
+Details are documented in the [metamodeling guide](devdoc/metamodel-guideline/modelguideline.md).
 
-
-## Development Documentation Index
-
-The Development Documentation is separated from the User Documentation.
-It consists of
-
-* [Development Guideline](saf-dev-guideline.md)
-* [Metamodel Guide](devdoc/metamodel-guideline/modelguideline.md)
-* [List of Concepts](devdoc/concepts.html)
-* [Concept Overview Diagrams](./devdoc/concept-overview.md)
-* [Development view on SAF Viewpoints](viewpoints/viewpoint-dev.md)
 
 [^1]: The question about the recommended workflow cannot be answered by a single viewpoint description, this is an overarcing topic, which is currently not covered by the SAF documentation. [See issue 14](https://github.com/GfSE/SAF-Specification/issues/14)

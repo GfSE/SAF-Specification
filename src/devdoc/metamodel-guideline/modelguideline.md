@@ -2,7 +2,7 @@
 title: Metamodeling Guideline
 parent: Developer Documentation
 layout: default
-nav_order: 50
+nav_order: 25
 ---
 # Concept and Profile Modeling Guideline
 
@@ -283,7 +283,10 @@ All Stereotypes inherit either from
 
 `Rule: all SPM stereotypes for diagrams representing Matrices shall be postfixed  "_Matrix"`
 
-See [aspects](../../aspects.md) and [domains](../../domains.md)
+See also:
+ * [Domain Short Codes](../icons/readme.md#domain-codes) for applicable Domain short codes
+ * [Domains](../../userdoc/domains.md)
+ * [Aspects](../../userdoc/aspects.md)
 
 Example: SAF_L2_LSTD for the Logical Structure Definition Viewpoint represented by a BDD
 Example: SAF_L8_LFUM_Matrix for the Logical Functional Mapping Viewpoint represented my a Matrix
@@ -308,10 +311,10 @@ The implementation of SAF concepts by SAF profile elements is shown by an UML �
 
 Example:
 ![class](ex-prof-trace.svg)
+![Profile Tracing](../../diagrams/examples_md/exa_19_0_2_26f0132_1562303529036_753566_94295.svg)
 
-![class](../viewpoints/diagrams/Logical-Structure-Definition-Profile.svg)
 
-In the above example the concept “Logical Elemen” is implemented by a stereotype SAF_LogicalElement from the SAF Profile which inherits from SysML Block. The Itnernal Logical Element Role implemented by a plain UML “Property” element.
+In the above example the concept “Logical Element” is implemented by a stereotype SAF_LogicalElement from the SAF Profile which inherits from SysML Block. The Itnernal Logical Element Role implemented by a plain UML “Property” element.
 
 The Viewpoint itself traces from the Diagram Stereotype SAF_L2_LSTD.
 
@@ -408,7 +411,7 @@ In the SAF Metamodel the following conventions are used
 Example of a view specification in the SAF Metamodel
 
 
-![Logic](../../diagrams/examples_md/exa_19_0_2_26f0132_1562303529036_923400_94274.svg)
+![Profile Concept](../../diagrams/examples_md/exa_19_0_2_26f0132_1562303529036_923400_94274.svg)
 
 
 In the example a view “Logical Structure Viewpoint is specified by means of the SAF_View and SAF_Viewpoint elements. The View exposes the relevant concepts of the SAF Conceptual model.
@@ -423,7 +426,7 @@ It is recommended to show a legend in the diagram.
 
 Additionally, to view specification a diagram showing the viewpoint implementation is provided: 
 
-![Logic](../../diagrams/examples_md/exa_19_0_2_26f0132_1562303529036_753566_94295.svg)
+![Profile Design](../../diagrams/examples_md/exa_19_0_2_26f0132_1562303529036_753566_94295.svg)
 
 The example shows how the concepts that are exposed in a view are implemented in the SAF Profile
 The diagram shall show
