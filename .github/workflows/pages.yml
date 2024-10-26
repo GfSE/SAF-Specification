@@ -68,8 +68,8 @@ jobs:
             echo "setting baseurl to /version/${TARGET_FOLDER}"
           else
             #echo "baseurl: /${REPO_NAME}" >> ${TEMP_CONFIG}
-            #echo "baseurl: /" >> ${TEMP_CONFIG}
-            echo "not setting baseurl"
+            #echo "baseurl: "" >> ${TEMP_CONFIG}
+            echo " setting baseurl to empty string"
           fi
 
           # allow override of everything
