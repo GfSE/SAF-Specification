@@ -1,4 +1,5 @@
-# SAF Metrics
+![System Architecture Framework](diagrams/Banner_SAF.png)
+# SAF Development Documentation : Metrics
 ## Concern related metrics
  * Total number of concerns: 190
  * Concerns with illegal characters in text: 0
@@ -10,5 +11,5 @@
 ## Viewpoint related metrics
  * Total viewpoints: 53
  * Released viewpoints: 37
- * Under construction viewpoints: 8
- * Proposed viewpoints: 8
+ * Under construction viewpoints: 10
+ * Proposed viewpoints: 6

@@ -2,6 +2,9 @@
 # SAF User Documentation : Changes
 |Date|Change|
 |--|--|
+|2024-10-27|Switch over to new documentation format.|
+|2024-10-19|set maturity of D2_VPTI Framework Viewpoint Implementation Viewpoint and D2_VPTD Framework Viewpoint Definition Viewpoint to under construction.|
+|2024-10-18|set maturity of Functional Refinement Viewpoint F3_SFRE to under construction (added profile diagram and concept diagram).|
 |2024-10-17|set maturity of Common Terms Definition Viewpoint C2_TRMD and Common Standards Definition Viewpoint C2_CSTD to under construction, reworked example and viewpoint descriptions|
 |2024-09-27|set maturity of Development Viewpoints Framework Stakeholder Definition Viewpoint ( D1_STKD) and  Framework Rationale Definition Viewpoint (D6_RATD)  to"under construction"|
 |2024-09-25|set maturity of Development Viewpoints Framework Concept Definition Viewpoint ( D2_COTD) and Framework Concern Definition Viewpoint (D6_CCND)  to"under construction"|
