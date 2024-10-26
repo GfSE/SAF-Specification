@@ -5,7 +5,7 @@ title: my js file
 {%- if site.baseurl.size == 0 %}
 const basePath = '';
 {%- else %}
-const basePath = '/{{ site.github.repository_name }}';
+const basePath = '/{{ site.baseurl }}';
 {%- endif %}
 
 {%- if site.repository_nwo != nil %}
