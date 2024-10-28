@@ -217,18 +217,13 @@
 }, {
   "level" : 0,
   "Documentation" : "",
-  "Owner" : "_unused",
-  "Name" : "What is the allocated space?",
-  "ID" : "_2021x_2_8710274_1674576758981_795627_23427",
-  "ConcernsViewpoints" : [ ],
-  "subelements" : [ ]
-}, {
-  "level" : 0,
-  "Documentation" : "",
-  "Owner" : "_unused",
-  "Name" : "What is the allocated weight?",
-  "ID" : "_2021x_2_8710274_1674576758960_504398_23411",
-  "ConcernsViewpoints" : [ ],
+  "Owner" : "terms and standards",
+  "Name" : "by which standard is an other standard superseded?",
+  "ID" : "_2024x_1_26f0132_1730147177395_667618_16797",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Common Standards Definition Viewpoint",
+    "ID" : "_2021x_2_8710274_1676722868986_622372_25044"
+  } ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -299,14 +294,6 @@
 }, {
   "level" : 0,
   "Documentation" : "",
-  "Owner" : "_unused",
-  "Name" : "How to involve a Stakeholder and to what degree?",
-  "ID" : "_2021x_2_8710274_1674576759044_574547_23470",
-  "ConcernsViewpoints" : [ ],
-  "subelements" : [ ]
-}, {
-  "level" : 0,
-  "Documentation" : "",
   "Owner" : "stakeholder",
   "Name" : "In which phases of the life cycle is a Stakeholder involved in the project?",
   "ID" : "_2021x_2_8710274_1674576758728_957718_23218",
@@ -318,22 +305,6 @@
 }, {
   "level" : 0,
   "Documentation" : "",
-  "Owner" : "_unused",
-  "Name" : "What are the consequences not considering a Stakeholder?",
-  "ID" : "_2021x_2_8710274_1674576759019_845169_23454",
-  "ConcernsViewpoints" : [ ],
-  "subelements" : [ ]
-}, {
-  "level" : 0,
-  "Documentation" : "",
-  "Owner" : "_unused",
-  "Name" : "What are the consequences, if the Stakeholder’s concerns are not considered?",
-  "ID" : "_2021x_2_8710274_1674576758624_283804_23093",
-  "ConcernsViewpoints" : [ ],
-  "subelements" : [ ]
-}, {
-  "level" : 0,
-  "Documentation" : "",
   "Owner" : "stakeholder",
   "Name" : "What concerns and rationals does a Stakeholder have?",
   "ID" : "_2021x_2_8710274_1674576759190_739382_23597",
@@ -341,14 +312,6 @@
     "Name" : "Stakeholder Identification Viewpoint",
     "ID" : "_19_0_2_26f0132_1565093441772_881981_49327"
   } ],
-  "subelements" : [ ]
-}, {
-  "level" : 0,
-  "Documentation" : "",
-  "Owner" : "_unused",
-  "Name" : "What impact does a Stakeholder have on the project?",
-  "ID" : "_2021x_2_8710274_1674576758839_643425_23325",
-  "ConcernsViewpoints" : [ ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -1176,11 +1139,14 @@
   "level" : 0,
   "Documentation" : "",
   "Owner" : "meta-framework",
-  "Name" : "Which concerns are framed by a viewpoint of the framework?",
-  "ID" : "_2024x_26f0132_1719130076292_184990_14761",
+  "Name" : "Which concerns are does an architecture framework stakeholder have?",
+  "ID" : "_2024x_26f0132_1719129962342_738625_14755",
   "ConcernsViewpoints" : [ {
-    "Name" : "Framework Viewpoint Definition Viewpoint",
-    "ID" : "_2024x_26f0132_1719735523519_523621_24797"
+    "Name" : "Framework Rationale Definition Viewpoint",
+    "ID" : "_2024x_26f0132_1719735638642_287063_25848"
+  }, {
+    "Name" : "Framework Stakeholder Definition Viewpoint",
+    "ID" : "_2024x_26f0132_1719735528612_846205_25134"
   }, {
     "Name" : "Framework Concern Definition Viewpoint",
     "ID" : "_2024x_26f0132_1719735530442_324624_25471"
@@ -1190,14 +1156,11 @@
   "level" : 0,
   "Documentation" : "",
   "Owner" : "meta-framework",
-  "Name" : "Which concerns are does an architecture framework stakeholder have?",
-  "ID" : "_2024x_26f0132_1719129962342_738625_14755",
+  "Name" : "Which concerns are framed by a viewpoint of the framework?",
+  "ID" : "_2024x_26f0132_1719130076292_184990_14761",
   "ConcernsViewpoints" : [ {
-    "Name" : "Framework Rationale Definition Viewpoint",
-    "ID" : "_2024x_26f0132_1719735638642_287063_25848"
-  }, {
-    "Name" : "Framework Stakeholder Definition Viewpoint",
-    "ID" : "_2024x_26f0132_1719735528612_846205_25134"
+    "Name" : "Framework Viewpoint Definition Viewpoint",
+    "ID" : "_2024x_26f0132_1719735523519_523621_24797"
   }, {
     "Name" : "Framework Concern Definition Viewpoint",
     "ID" : "_2024x_26f0132_1719735530442_324624_25471"
@@ -1300,6 +1263,28 @@
   "ConcernsViewpoints" : [ {
     "Name" : "Framework Rationale Definition Viewpoint",
     "ID" : "_2024x_26f0132_1719735638642_287063_25848"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "meta-framework",
+  "Name" : "what are the constraints related to se concepts covered by the framework? ",
+  "ID" : "_2024x_1_26f0132_1727272903091_424205_15904",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Framework Concept Definition Viewpoint",
+    "ID" : "_2024x_26f0132_1719735639175_641082_26522"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "meta-framework",
+  "Name" : "what are the relations between systems engineering concepts covered by the framework?",
+  "ID" : "_2024x_1_26f0132_1727272724178_60816_15898",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Framework Concept Definition Viewpoint",
+    "ID" : "_2024x_26f0132_1719735639175_641082_26522"
   } ],
   "subelements" : [ ]
 }, {
@@ -1793,14 +1778,6 @@
 }, {
   "level" : 0,
   "Documentation" : "",
-  "Owner" : "_unused",
-  "Name" : "How will the system be used by whom and which contextual elements are involved?",
-  "ID" : "_2021x_2_8710274_1674576758649_359253_23129",
-  "ConcernsViewpoints" : [ ],
-  "subelements" : [ ]
-}, {
-  "level" : 0,
-  "Documentation" : "",
   "Owner" : "boundary & context",
   "Name" : "What is the operational environment that an intended solution will need to support?",
   "ID" : "_2021x_2_8710274_1674576759015_756843_23453",
@@ -1945,23 +1922,415 @@
 }, {
   "level" : 0,
   "Documentation" : "",
-  "Owner" : "meta-framework",
-  "Name" : "what are the constraints related to se concepts covered by the framework? ",
-  "ID" : "_2024x_1_26f0132_1727272903091_424205_15904",
+  "Owner" : "_unused",
+  "Name" : "Are defined standard items considered in the architecture?",
+  "ID" : "_2021x_2_8710274_1674576759240_264083_23636",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "How are error states handled?",
+  "ID" : "_2021x_2_8710274_1674576758778_428876_23261",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "How does the elements of the test environment interact with each other?",
+  "ID" : "_2021x_2_8710274_1674576758824_355895_23314",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "How to connect the system or a system element to a test equipment?",
+  "ID" : "_2021x_2_8710274_1674576759148_767106_23555",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "How to ensure full Operational Capability of the system after maintenance activities with a system element or component? ",
+  "ID" : "_2021x_2_8710274_1674576758660_960997_23137",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "How to install / de-install components to / from the system?",
+  "ID" : "_2021x_2_8710274_1674576758899_513943_23374",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "How to involve a Stakeholder and to what degree?",
+  "ID" : "_2021x_2_8710274_1674576759044_574547_23470",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "How will the system be used by whom and which contextual elements are involved?",
+  "ID" : "_2021x_2_8710274_1674576758649_359253_23129",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "Provide tabular overview of main SOV artefacts for checks on completeness and consistency.",
+  "ID" : "_2021x_2_8710274_1674576758640_839959_23117",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "What additional information the system or a system element needs to generate to enable testing?",
+  "ID" : "_2021x_2_8710274_1674576758728_179228_23207",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "What additional interfaces are necessary to expose internal properties, states and modes for testing?",
+  "ID" : "_2021x_2_8710274_1674576758810_119130_23301",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "What amount of bandwidth of a HW item interface will be consumed by the allocated software in the system?",
+  "ID" : "_2021x_2_8710274_1674576758574_685939_23061",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "What amount of memory resources of an HW item will be consumed by the allocated software?",
+  "ID" : "_2021x_2_8710274_1674576758598_67353_23074",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "What are necessary enabling systems?",
+  "ID" : "_2021x_2_8710274_1674576759174_506069_23583",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "What are the algorithms to be implemented?",
+  "ID" : "_2021x_2_8710274_1674576759134_692360_23546",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "What are the configuration items in the physical architecture?",
+  "ID" : "_2021x_2_8710274_1674576758774_605144_23255",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "What are the consequences not considering a Stakeholder?",
+  "ID" : "_2021x_2_8710274_1674576759019_845169_23454",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "What are the consequences, if the Stakeholder’s concerns are not considered?",
+  "ID" : "_2021x_2_8710274_1674576758624_283804_23093",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "What are the items exchanged at the boundary of the system with external entities?",
+  "ID" : "_2021x_2_8710274_1674576758618_853638_23089",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "What are the provided power inputs?",
+  "ID" : "_2021x_2_8710274_1674576758902_345845_23376",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "What are the replaceable system components?",
+  "ID" : "_2021x_2_8710274_1674576759062_340787_23483",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "What are the system delivery standards?",
+  "ID" : "_2021x_2_8710274_1674576758931_136144_23394",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "What are the system delivery standards?",
+  "ID" : "_2021x_2_8710274_1674576758739_859160_23220",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "What delivery standards need to be provided?",
+  "ID" : "_2021x_2_8710274_1674576758760_594629_23245",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "What impact does a Stakeholder have on the project?",
+  "ID" : "_2021x_2_8710274_1674576758839_643425_23325",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "What is the allocated power consumption?",
+  "ID" : "_2021x_2_8710274_1674576758613_34334_23087",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "What is the allocated space?",
+  "ID" : "_2021x_2_8710274_1674576758981_795627_23427",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "What is the allocated weight?",
+  "ID" : "_2021x_2_8710274_1674576758960_504398_23411",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "What is the functional scope of each delivery standard?",
+  "ID" : "_2021x_2_8710274_1674576759034_332325_23463",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "What is the functional scope of each system delivery standard?",
+  "ID" : "_2021x_2_8710274_1674576758690_571282_23167",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "What is the necessary accuracy and resolution for analog signal acquisition?",
+  "ID" : "_2021x_2_8710274_1674576759109_395032_23528",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "What is the necessary accuracy and resolution for processing?",
+  "ID" : "_2021x_2_8710274_1674576758975_785166_23421",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "What is the necessary memory size for processing nodes and data storage?",
+  "ID" : "_2021x_2_8710274_1674576758591_450764_23072",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "What is the necessary performance for processing?",
+  "ID" : "_2021x_2_8710274_1674576758749_13864_23231",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "What is the order information for each identified system element or component?",
+  "ID" : "_2021x_2_8710274_1674576758760_688674_23243",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "What is the rationale when requirements are not considered?",
+  "ID" : "_2021x_2_8710274_1674576758860_723694_23343",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "What is the scope of a delivery standard?",
+  "ID" : "_2021x_2_8710274_1674576759226_943863_23626",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "What is the system boundary definition?",
+  "ID" : "_2021x_2_8710274_1674576758741_338391_23224",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "What kind of test equipment is necessary to test the system elements?",
+  "ID" : "_2021x_2_8710274_1674576759068_910212_23486",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "What shall be validated to the customer at system level?",
+  "ID" : "_2021x_2_8710274_1674576758750_613983_23235",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "What validation scenarios have to be carried out to check on the solution validity?",
+  "ID" : "_2021x_2_8710274_1674576758583_348018_23065",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "Which HW interfaces are necessary?",
+  "ID" : "_2021x_2_8710274_1674576758658_522000_23132",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "Which SW interfaces are necessary?",
+  "ID" : "_2021x_2_8710274_1674576758724_745625_23200",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "Which functions and services need to be implemented in SW?",
+  "ID" : "_2021x_2_8710274_1674576759216_889664_23621",
   "ConcernsViewpoints" : [ {
-    "Name" : "Framework Concept Definition Viewpoint",
-    "ID" : "_2024x_26f0132_1719735639175_641082_26522"
+    "Name" : "Physical Functional Mapping Viewpoint",
+    "ID" : "_2021x_2_8710274_1675987942868_617787_33116"
   } ],
   "subelements" : [ ]
 }, {
   "level" : 0,
   "Documentation" : "",
-  "Owner" : "meta-framework",
-  "Name" : "what are the relations between systems engineering concepts covered by the framework?",
-  "ID" : "_2024x_1_26f0132_1727272724178_60816_15898",
+  "Owner" : "_unused",
+  "Name" : "Which functions need to be implemmented in HW?",
+  "ID" : "_2021x_2_8710274_1674576758889_521511_23366",
   "ConcernsViewpoints" : [ {
-    "Name" : "Framework Concept Definition Viewpoint",
-    "ID" : "_2024x_26f0132_1719735639175_641082_26522"
+    "Name" : "Physical Functional Mapping Viewpoint",
+    "ID" : "_2021x_2_8710274_1675987942868_617787_33116"
   } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "Which information is exchanged between the system and external entities?",
+  "ID" : "_2021x_2_8710274_1674576759003_217290_23441",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "Which interface definitions depends a Physical Element of the physical architecture of?",
+  "ID" : "_2021x_2_8710274_1674576758851_762910_23339",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "Which interface partners does a SW item have?",
+  "ID" : "_2021x_2_8710274_1674576758881_181126_23362",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "Which upper requirements, including Stakeholder Requirements does the HW item depend on?",
+  "ID" : "_2021x_2_8710274_1674576759229_951563_23630",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "Which versions of a HW item exist? (are versions the same as variants? or does it mean revisions?)",
+  "ID" : "_2021x_2_8710274_1674576758606_255105_23079",
+  "ConcernsViewpoints" : [ ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "_unused",
+  "Name" : "which functions need to be realized by mechanical design",
+  "ID" : "_2021x_2_8710274_1698399897245_206032_33220",
+  "ConcernsViewpoints" : [ ],
   "subelements" : [ ]
 } ]

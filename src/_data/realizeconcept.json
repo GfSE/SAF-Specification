@@ -2076,6 +2076,18 @@
   }
 }, {
   "Name" : "",
+  "ID" : "_2021x_2_6d8019d_1699354654458_52107_25151",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_6d8019d_1677952512216_184791_24859",
+    "Name" : "SPFNallocatedToAPE"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2021x_2_8710274_1698328999912_130185_48821",
+    "Name" : "function"
+  }
+}, {
+  "Name" : "",
   "ID" : "_2021x_2_8710274_1675980940663_907945_29006",
   "Documentation" : "",
   "RealizedConcept" : {
@@ -2817,6 +2829,78 @@
   "RealizationOfConcept" : {
     "ID" : "_2024x_1_26f0132_1724862852634_6876_11170",
     "Name" : "Framework Viewpoint Overview Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_1_26f0132_1729185491011_729948_16092",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_1_26f0132_1729184481488_984688_15862",
+    "Name" : "ASFconformToSTD"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_1_26f0132_1729185092432_155560_16027",
+    "Name" : "SAF_ConformsStandard"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_1_26f0132_1729185647366_767989_16312",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1700810378676_882309_48192",
+    "Name" : "STDissuedBySTO"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_1_26f0132_1729185567557_816733_16281",
+    "Name" : "SAF_IssuedBy"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_1_26f0132_1729193757291_862046_25925",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_1_26f0132_1729193426484_948459_25660",
+    "Name" : "Glossary"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_1_26f0132_1729193328493_921636_25629",
+    "Name" : "SAF_Glossary"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_1_26f0132_1729193927458_579772_25974",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_1_26f0132_1729193587037_719455_25763",
+    "Name" : "STDcontainsGY"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_1_26f0132_1729193858003_422786_25967",
+    "Name" : ""
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_1_26f0132_1729193937586_786810_25980",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_1_26f0132_1729193445510_304510_25731",
+    "Name" : "GYcontainsTRM"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_1_26f0132_1729193785155_512673_25935",
+    "Name" : ""
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_1_26f0132_1730146366907_696027_16763",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_1_26f0132_1730145934888_287548_16610",
+    "Name" : "STDdependsOnSTD"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_1_26f0132_1730146316549_832482_16733",
+    "Name" : "SAF_StandardDependingOn"
   }
 }, {
   "Name" : "",
