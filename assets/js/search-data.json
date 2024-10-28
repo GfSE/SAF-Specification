@@ -7730,55 +7730,55 @@
     "doc": "Contributing",
     "title": "How To Contribute to SAF?",
     "content": "The SAF Specification is published as markdown documentation in the SAF-Specification github repository. It is generated from a model. ",
-    "url": "/contributing.html#how-to-contribute-to-saf",
+    "url": "/userdoc/contributing.html#how-to-contribute-to-saf",
     
-    "relUrl": "/contributing.html#how-to-contribute-to-saf"
+    "relUrl": "/userdoc/contributing.html#how-to-contribute-to-saf"
   },"1105": {
     "doc": "Contributing",
     "title": "Reporting Issues",
     "content": "Problems should be reported via github issue tracking. It should be stated what the problem is and a short solution should be suggested, ideally accompanied by a pull request. ",
-    "url": "/contributing.html#reporting-issues",
+    "url": "/userdoc/contributing.html#reporting-issues",
     
-    "relUrl": "/contributing.html#reporting-issues"
+    "relUrl": "/userdoc/contributing.html#reporting-issues"
   },"1106": {
     "doc": "Contributing",
     "title": "Proposing Changes (pull request)",
     "content": "In general, changes should be proposed by forking the main branch of the SAF-Specification repository into a user’s own repository and creating a pull request. This allows the proposed change to be discussed separately without interfering with the development of SAF and without being interfered with by the development of SAF. The pull request is checked, and if the changes are accepted, they are incorporated into the model. A newly created model specification can then be compared with the merged pull request and should be identical. ",
-    "url": "/contributing.html#proposing-changes-pull-request",
+    "url": "/userdoc/contributing.html#proposing-changes-pull-request",
     
-    "relUrl": "/contributing.html#proposing-changes-pull-request"
+    "relUrl": "/userdoc/contributing.html#proposing-changes-pull-request"
   },"1107": {
     "doc": "Contributing",
     "title": "Proposing new viewpoints",
     "content": "For new viewpoints, the existing viewpoints should be reviewed first, as the concerns may already be covered. Only if a new viewpoint is required, an existing viewpoint should be used as a template and all required viewpoint specification attributes should be completed by the submitter. The procedure is the same as for a change request, but the change request must be supported by a conceptual model showing the relationships and the elements to be represented. This conceptual model must be discussed with the SAF architects and compared with the existing concepts. ",
-    "url": "/contributing.html#proposing-new-viewpoints",
+    "url": "/userdoc/contributing.html#proposing-new-viewpoints",
     
-    "relUrl": "/contributing.html#proposing-new-viewpoints"
+    "relUrl": "/userdoc/contributing.html#proposing-new-viewpoints"
   },"1108": {
     "doc": "Contributing",
     "title": "Proposing Changes or Viewpoints using GitHub Discussions",
     "content": "Changes may be proposed using the Discussions on the Specification Repository . ",
-    "url": "/contributing.html#proposing-changes-or-viewpoints-using-github-discussions",
+    "url": "/userdoc/contributing.html#proposing-changes-or-viewpoints-using-github-discussions",
     
-    "relUrl": "/contributing.html#proposing-changes-or-viewpoints-using-github-discussions"
+    "relUrl": "/userdoc/contributing.html#proposing-changes-or-viewpoints-using-github-discussions"
   },"1109": {
     "doc": "Contributing",
     "title": "Developing SAF",
     "content": "he development of the SAF viewpoints comprises several interlinked elements and concepts. How the SAF is developed is explained in more detail in this article SAF-Development. ",
-    "url": "/contributing.html#developing-saf",
+    "url": "/userdoc/contributing.html#developing-saf",
     
-    "relUrl": "/contributing.html#developing-saf"
+    "relUrl": "/userdoc/contributing.html#developing-saf"
   },"1110": {
     "doc": "Contributing",
     "title": "Contributing",
     "content": " ",
-    "url": "/contributing.html",
+    "url": "/userdoc/contributing.html",
     
-    "relUrl": "/contributing.html"
+    "relUrl": "/userdoc/contributing.html"
   },"1111": {
     "doc": "Dev-View Common Domain",
     "title": "Development View on Common Domain",
-    "content": "This Versions of the Viewpoint documentation is intended for Framework Developers. ",
+    "content": "This documentation is intended for Framework Developers. ",
     "url": "/devdoc/dev-cd.html#development-view-on-common-domain",
     
     "relUrl": "/devdoc/dev-cd.html#development-view-on-common-domain"
@@ -7806,7 +7806,7 @@
   },"1115": {
     "doc": "Dev-View Functional Domain",
     "title": "Development View on Functional Domain",
-    "content": "This Versions of the Viewpoint documentation is intended for Framework Developers. ",
+    "content": "This documentation is intended for Framework Developers. ",
     "url": "/devdoc/dev-fd.html#development-view-on-functional-domain",
     
     "relUrl": "/devdoc/dev-fd.html#development-view-on-functional-domain"
@@ -7862,7 +7862,7 @@
   },"1123": {
     "doc": "Dev-View Logical Domain",
     "title": "Development View on Logical Domain",
-    "content": "This Versions of the Viewpoint documentation is intended for Framework Developers. ",
+    "content": "This documentation is intended for Framework Developers. ",
     "url": "/devdoc/dev-ld.html#development-view-on-logical-domain",
     
     "relUrl": "/devdoc/dev-ld.html#development-view-on-logical-domain"
@@ -7876,7 +7876,7 @@
   },"1125": {
     "doc": "Dev-View Operational Domain",
     "title": "Development View on Operational Domain",
-    "content": "This Versions of the Viewpoint documentation is intended for Framework Developers. ",
+    "content": "This documentation is intended for Framework Developers. ",
     "url": "/devdoc/dev-od.html#development-view-on-operational-domain",
     
     "relUrl": "/devdoc/dev-od.html#development-view-on-operational-domain"
@@ -7890,7 +7890,7 @@
   },"1127": {
     "doc": "Dev-View Physical Domain",
     "title": "Development View on Physical Domain",
-    "content": "This Versions of the Viewpoint documentation is intended for Framework Developers. ",
+    "content": "This documentation is intended for Framework Developers. ",
     "url": "/devdoc/dev-pd.html#development-view-on-physical-domain",
     
     "relUrl": "/devdoc/dev-pd.html#development-view-on-physical-domain"
@@ -7905,30 +7905,30 @@
     "doc": "Developer Documentation",
     "title": "Developer Documentation",
     "content": " ",
-    "url": "/devdoc.html",
+    "url": "/devdoc/devdoc.html",
     
-    "relUrl": "/devdoc.html"
+    "relUrl": "/devdoc/devdoc.html"
   },"1130": {
     "doc": "Developer Documentation",
     "title": "SAF Development",
     "content": "SAF is developed to foster Model Based Systems Engineering, and itself is developed using also a model based approach. To avoid confusion among the different kinds of models, they are explained in the next chapter. ",
-    "url": "/devdoc.html#saf-development",
+    "url": "/devdoc/devdoc.html#saf-development",
     
-    "relUrl": "/devdoc.html#saf-development"
+    "relUrl": "/devdoc/devdoc.html#saf-development"
   },"1131": {
     "doc": "Developer Documentation",
     "title": "Kinds of Models",
     "content": ". There are several kinds of models around SAF serving a certain purpose . | SAF System Model . This is a model dedicated to the development of one or more systems. It is a model that users of SAF create and maintain. It may be maintained in one of the Tools supported by a SAF Profile Model. The SAF example model SAF_FFDS.mdzip is a System Model. | SAF_Profile Model This is a model needed to create a SAF System Model. It is tool specific and (hopefully) compliant to the SAF Specification. There currently several contributed models. Some of the Repositories also contain an example System Model. Please head over to Tool Implementations. | SAF_Specification Model The specification model contains the definitions serving as foundation for SAF development. See the following chapter for details. | SAF_SCM_Profile Model The SAF SCM Profile is used by the SAF_Specification model. It contains Stereotypes used to specify concepts, viewpoints, framework concerns and stakeholders. It is used to specify or extend SAF. | . ",
-    "url": "/devdoc.html#kinds-of-models",
+    "url": "/devdoc/devdoc.html#kinds-of-models",
     
-    "relUrl": "/devdoc.html#kinds-of-models"
+    "relUrl": "/devdoc/devdoc.html#kinds-of-models"
   },"1132": {
     "doc": "Developer Documentation",
     "title": "Specification Model",
     "content": "The conceptual model is the foundation of SAF development. It governs, which items SAF consist of and how these items are related. It follows the concepts of ISO 42010. SAF extends ISO 42010 in a way that SAF is able to express a rationale for a Stakeholders Concern. Core Concepts . Within the conceptual model the following elements can be recognized (many of them are specializations of ISO 42010 Concepts): . | SAF Architecture Framework Stakeholders are classes of users having an interest on the information that is maintained in a SAF System Model. | SAF Architecture Framework Concerns sketch out the information need of SAF Architecture Framework Stakeholders. The SAF Frameworks Viewpoints shall be designed in a way to frame these concerns, and in the end the information need should be adressed by a SAF System Model using the appropriate SAF Viewpoints. | SAF Rationale expains why a SAF Architectur Framework Stakeholder has abovementionend information need resulting in a SAF Architecture Framework Concern. This is currently not covered by ISO 42010. | SAF Concepts are the conceptual definition of items and their relationships forming an information network to be kept in a SAF System Model, in order to give answers to the SAF Architecture Framework Stakeholders Concerns. | SAF Viewpoints select a set of SAF Concepts in order to adress the information need expressed by a certain set of abovementioned Stakeholers Concerns. In SAF the size of Viewpoints should be optimized to support tailoring by selection of viewpoints appropriate to the engineering problem at hand. This means that SAF Viewpoints should adress only a small number of well defined Concerns. | SAF Information Items are like SAF Viewpoints but at a larger scale. They can group SAF Viewpoints while constraining them further. They also can be nested. This allows to specify Information Items like e.g. an ISO 29148 SyRS by breaking it down into smaller Information Items and finally into Viewpoints. This allows to define which concerns are to be adressed e.g. by a SyRS document and which viewpoints are needed for it. They also could be used to plan work items in order to plan a MBSE effort. The goal is, to precisely define the needed model work for certain points in an engieering project. | . Details are documented in the metamodeling guide. ",
-    "url": "/devdoc.html#specification-model",
+    "url": "/devdoc/devdoc.html#specification-model",
     
-    "relUrl": "/devdoc.html#specification-model"
+    "relUrl": "/devdoc/devdoc.html#specification-model"
   },"1133": {
     "doc": "Documentation Concept",
     "title": "Documentation Concept",
@@ -8003,72 +8003,72 @@
     "doc": "FAQ",
     "title": "Frequently Asked Questions",
     "content": " ",
-    "url": "/faq.html#frequently-asked-questions",
+    "url": "/userdoc/faq.html#frequently-asked-questions",
     
-    "relUrl": "/faq.html#frequently-asked-questions"
+    "relUrl": "/userdoc/faq.html#frequently-asked-questions"
   },"1144": {
     "doc": "FAQ",
     "title": "Viewpoints",
     "content": "What are Viewpoints? The information handled in Systems Engineering is a complex graph of interrelated elements. Systems engineers require to capture, analyse and communicate subsets of this information landscape in various situations in the engineering workflow with various stakeholders. The elements and relationships don’t change if they are captured in Models - MBSE does not make the situation less complex, but allows to manage the existing complexity better. Viewpoints are a means to cut down the complexity - they allow to define a cut-set of the information landscape represented in a model, in order to answer well defined information needs(called concerns) for defined stakeholders. The Viewpoint Concept is layed out in ISO 42010 . See the SAF Viewpoint documentation. ",
-    "url": "/faq.html#viewpoints",
+    "url": "/userdoc/faq.html#viewpoints",
     
-    "relUrl": "/faq.html#viewpoints"
+    "relUrl": "/userdoc/faq.html#viewpoints"
   },"1145": {
     "doc": "FAQ",
     "title": "Stakeholders",
     "content": "What are Stakeholders? There are two classes of Stakeholders in SAF. System Stakeholders and Architecture Stakeholders. System Stakeholders are subject of system modeling and formulate needs that should be satisfied by the system of interest. Architecture Stakeholders formulate information needs (concerns), that must be answered by the Frameworks Viewpoints . See the SAF Stakeholder documentation. The Stakeholder concept is layed out in ISO 42010 . ",
-    "url": "/faq.html#stakeholders",
+    "url": "/userdoc/faq.html#stakeholders",
     
-    "relUrl": "/faq.html#stakeholders"
+    "relUrl": "/userdoc/faq.html#stakeholders"
   },"1146": {
     "doc": "FAQ",
     "title": "Concerns",
     "content": "What are Concerns? The information needs of stakeholders are called concerns. In SAF the relationship of a concern to a stakeholder is amended by a rationale, describing the reason for the information need. This allows multiple stakeholder have the same concern for different reasons. The reasoning provides valuable information, e.g. to support the decision why a viewpoint is needed. Each Stakeholder of a system - customer, user, project manager, coder, analyst, tester, and so on - have specific information needs about different characteristics of the system. For example, the user has specific concerns which interactions he or she has with the system.; the customer is has a concern if and how the operational capabilities are supported by the system. The stakeholders concerns are specific to the lifecycle project phase, e.g., at a PDR, subsystem responsibles have the information need which systems function are delegated to their subsystems, while at a CDR they would need to know about the interface designs of other neighbor subsystems. See the SAF concern documentation. The Concern concept is layed out in ISO 42010 . ",
-    "url": "/faq.html#concerns",
+    "url": "/userdoc/faq.html#concerns",
     
-    "relUrl": "/faq.html#concerns"
+    "relUrl": "/userdoc/faq.html#concerns"
   },"1147": {
     "doc": "FAQ",
     "title": "Domains",
     "content": "What are Domains? The rows of the SAF grid are called domains. They organize the viewpoints in a way that typical engineering workflows follow the viewpoints in one domain, then continue to the next domain. See the SAF domain Documentation . The Domain concept implements the Stakeholder Perspective layed out in ISO 42010 . ",
-    "url": "/faq.html#domains",
+    "url": "/userdoc/faq.html#domains",
     
-    "relUrl": "/faq.html#domains"
+    "relUrl": "/userdoc/faq.html#domains"
   },"1148": {
     "doc": "FAQ",
     "title": "Aspects",
     "content": "What are Aspects? . The columns of the SAF grid are called aspects. They organize the viewpoints by the kind of information need of stakeholders, typically similar diagram kinds appear together in the same aspect, and typically the same information need appears in multiple domains. See the SAF aspect Documentation . The Aspect concept is layed out in ISO 42010 . ",
-    "url": "/faq.html#aspects",
+    "url": "/userdoc/faq.html#aspects",
     
-    "relUrl": "/faq.html#aspects"
+    "relUrl": "/userdoc/faq.html#aspects"
   },"1149": {
     "doc": "FAQ",
     "title": "Grid",
     "content": "What is the Grid? . The Grid of a Framework is a means to organize and structure the Viewpoints of a Framework. It is like a tool-wall in a well organized workshop. Every tool has its place and is easily accessable. See the SAF Viewpoint Grid . ",
-    "url": "/faq.html#grid",
+    "url": "/userdoc/faq.html#grid",
     
-    "relUrl": "/faq.html#grid"
+    "relUrl": "/userdoc/faq.html#grid"
   },"1150": {
     "doc": "FAQ",
     "title": "System Hierarchy",
     "content": "What is a System Hierarchy or System Decomposition? . A System Hierarchy (or a System Decomposition) is the result of partitioning a system into subsystems. The concept of decomposition is not restricted to structur, e.g., also functions can be decomposed into sub functions. This is not to be confused with the Term “Abstraction Level” . ",
-    "url": "/faq.html#system-hierarchy",
+    "url": "/userdoc/faq.html#system-hierarchy",
     
-    "relUrl": "/faq.html#system-hierarchy"
+    "relUrl": "/userdoc/faq.html#system-hierarchy"
   },"1151": {
     "doc": "FAQ",
     "title": "Abstraction",
     "content": "What is an Abstraction or Abstraction Level? . An abstraction is a general idea rather than one relating to a particular object, person, or situation 1 . An example for an abstraction is the difference between a concept and the solution. Architecture descripion content is usually separated in different abstraction levels. The SAF Functional Domain and SAF Physical Domain are on different Abstraction Levels - the Functional Domain deals with concepts, and the Physical Domain covers the solution. Abstraction has nothing to do with breaking down whole things into smaller parts- that would be decompositon. | Collins Dictionary &#8617; . | . ",
-    "url": "/faq.html#abstraction",
+    "url": "/userdoc/faq.html#abstraction",
     
-    "relUrl": "/faq.html#abstraction"
+    "relUrl": "/userdoc/faq.html#abstraction"
   },"1152": {
     "doc": "FAQ",
     "title": "FAQ",
     "content": " ",
-    "url": "/faq.html",
+    "url": "/userdoc/faq.html",
     
-    "relUrl": "/faq.html"
+    "relUrl": "/userdoc/faq.html"
   },"1153": {
     "doc": "Functional Domain",
     "title": "Functional Domain",
@@ -8093,7 +8093,7 @@
   },"1156": {
     "doc": "Introduction",
     "title": "SAF Documentation",
-    "content": "This site contains both documentation for users of SAF and developers of SAF. To understand how to use SAF, head over to Using SAF. To understand how we develop SAF, see Development Documentation. We always welcome contributions from our MBSE community to improve SAF, see how to contribute to SAF. ",
+    "content": "This site contains both documentation for users of SAF and developers of SAF. To understand how to use SAF, head over to Using SAF. To understand how we develop SAF, see Development Documentation. We always welcome contributions from our MBSE community to improve SAF, see how to contribute. ",
     "url": "/#saf-documentation",
     
     "relUrl": "/#saf-documentation"
@@ -8682,65 +8682,65 @@
     "doc": "Framework Structure",
     "title": "Framework Structure",
     "content": "Stakeholders of the Architecture and their Information Need . SAF partitions the amount of modeling work for e.g. a whole system architecture into smaller parts, which each deliver value for stakeholders of the architecture by satisfying their information needs. Viewpoints satisfying Information Needs . These smaller parts are called viewpoints. They each serve a certain purpose, adress stakeholders concerns by presenting stakeholders a subset of the whole model. Viewpoints used to plan and partition work . This allows to partition and plan the work on the MBSE effort according to the problem at hand and helps to focus to the most important parts of the work. A MBSE approach can be planned by defining which viewpoints must be worked on in which phase of the MBSE effort, and it also could prioritize work or define different depths of elaboration for the viewpoints to work on. Because of this, SAF helps to execute an MBSE effort by a plan which is backed by reasoning about the information need of stakeholders. Viewpoints guide modeling effort to deliver stakeholder value . The viewpoints specify, which model elements shall be created in which kind of diagrams to serve the viewpoints purpose and adress the concerns of the stakeholders interested in the viewpoints. SAF Viewpoint Grid . The SAF Viewpoints are organized as a Grid featuring Domains as rows and Aspects as columns. Domains follow engineering workflow . The Domains are oriented by a typical engineering workflow. | The Common Domain contains workflow overarcing content such as Terms and Standards. | The Operational Domain adresses information need during the concept phase (Mission Analysis and Stakeholder Requirements elicitation) | The Functional Domain adresses information needs during the System Requirements Definition Process (The System blackbox on a conceptual level) | The Logical Domain adresses information needs during the Architecture Definition Process (the System Whitebox on conceptual level) | The Physical Domain adresses information needs during the Design Definition Process (the System Black Box and Whitebox on solution / design level) | . Aspects follow kinds of concerns . The Aspects are oriented by the kind of information needs, e.g. questions about structure are answered by viewpoints in the taxonomy and structure aspect. Typically similar kinds of questions need to be answered in multiple domains, hence the organisation of grid columns. ",
-    "url": "/structure.html",
+    "url": "/userdoc/structure.html",
     
-    "relUrl": "/structure.html"
+    "relUrl": "/userdoc/structure.html"
   },"1241": {
     "doc": "Framework Structure",
     "title": "Recursive Application of the Framework due to System decomposition",
     "content": "Typically, a system consists of subsystems in multiple hierarchy or decomposition levels. The Functional, Logical and Physical Domain are applied recursively for system and subsystems. Since the Mission Analysis and Stakeholder Requirements definition Processes cover the whole system, they are typically executed with the top level system scope. (These processes may require iterations when something new is learned, e.g. new stakeholders might be discovered during the selection of solutions for a subsystem, requiring the content of operational domain viewpoints to be updated) . The same applies to the Common Domain, it is also valid for all decomposition levels. here an image of the vee should be shown with decomposition levels and domains covering the whole vee and others repeated. we could also show a decomposition tree, and the dev workflow tree with the gates (scr, srr, pdr, cdr)* . ",
-    "url": "/structure.html#recursive-application-of-the-framework-due-to-system-decomposition",
+    "url": "/userdoc/structure.html#recursive-application-of-the-framework-due-to-system-decomposition",
     
-    "relUrl": "/structure.html#recursive-application-of-the-framework-due-to-system-decomposition"
+    "relUrl": "/userdoc/structure.html#recursive-application-of-the-framework-due-to-system-decomposition"
   },"1242": {
     "doc": "Framework Structure",
     "title": "Application to System of Systems",
     "content": "A System of Systems(SoS)1 approach might take advantage from separate operational domain descriptions for each system, while sharing some overarcing elements. The MBSE work on system of systems could share a common model supportin a concept of operations (ConOps), in a common model library, and have individual operational domain descriptions supporting the OpsCon of the individual systems. The approach should be selected according to the constraints of the SoS scenario; the degree of involvement of different organization cooperation in an SoS MBSE effort, especially the stakeholders having an interest in the SoS model. ",
-    "url": "/structure.html#application-to-system-of-systems",
+    "url": "/userdoc/structure.html#application-to-system-of-systems",
     
-    "relUrl": "/structure.html#application-to-system-of-systems"
+    "relUrl": "/userdoc/structure.html#application-to-system-of-systems"
   },"1243": {
     "doc": "Framework Structure",
     "title": "Typical Engineering Workflow",
     "content": "here an image of the Vee should be placed with domains showing where on the vee, or a workflow with the gates. a detail view should show flow through the viewpoints, perhaps with key concerns they adress. This is complex. details must go to multiple sub pages, possibly organized by SEHB phases. There are also different usage scenarios of SAF . | Note, that SoS is not just a decomposition - the term should only be used for scenarios which add complexity by independently developed and or operated systems with independent lifecycles, lacking overarcing planning or even agreement. &#8617; . | . ",
-    "url": "/structure.html#typical-engineering-workflow",
+    "url": "/userdoc/structure.html#typical-engineering-workflow",
     
-    "relUrl": "/structure.html#typical-engineering-workflow"
+    "relUrl": "/userdoc/structure.html#typical-engineering-workflow"
   },"1244": {
     "doc": "Using SAF",
     "title": "Getting Started",
     "content": ". | Please download and install one of the supported tool implementations | Head over to typical engineering workflow to get an idea about possible viewpoints | if you need help, feel free to ask ! | . ",
-    "url": "/using.html#getting-started",
+    "url": "/userdoc/using.html#getting-started",
     
-    "relUrl": "/using.html#getting-started"
+    "relUrl": "/userdoc/using.html#getting-started"
   },"1245": {
     "doc": "Using SAF",
     "title": "Recursive Application of the Framework due to System decomposition",
     "content": "Typically, a system consists of subsystems in multiple hierarchy or decomposition levels. The Functional, Logical and Physical Domain are applied recursively for system and subsystems. Since the Mission Analysis and Stakeholder Requirements definition Processes cover the whole system, they are typically executed with the top level system scope. (These processes may require iterations when something new is learned, e.g. new stakeholders might be discovered during the selection of solutions for a subsystem, requiring the content of operational domain viewpoints to be updated) . The same applies to the Common Domain, it is also valid for all decomposition levels. here an image of the vee should be shown with decomposition levels and domains covering the whole vee and others repeated. we could also show a decomposition tree, and the dev workflow tree with the gates (scr, srr, pdr, cdr)* . ",
-    "url": "/using.html#recursive-application-of-the-framework-due-to-system-decomposition",
+    "url": "/userdoc/using.html#recursive-application-of-the-framework-due-to-system-decomposition",
     
-    "relUrl": "/using.html#recursive-application-of-the-framework-due-to-system-decomposition"
+    "relUrl": "/userdoc/using.html#recursive-application-of-the-framework-due-to-system-decomposition"
   },"1246": {
     "doc": "Using SAF",
     "title": "Application to System of Systems",
     "content": "A System of Systems(SoS)1 approach might take advantage from separate operational domain descriptions for each system, while sharing some overarcing elements. The MBSE work on system of systems could share a common model supporting a common concept of operations (ConOps), in a common model library, and have individual operational domain descriptions supporting the OpsCon of the individual systems. The approach should be selected according to the constraints of the SoS scenario; the degree of involvement of different organization cooperation in an SoS MBSE effort, especially the stakeholders having an interest in the SoS model. ",
-    "url": "/using.html#application-to-system-of-systems",
+    "url": "/userdoc/using.html#application-to-system-of-systems",
     
-    "relUrl": "/using.html#application-to-system-of-systems"
+    "relUrl": "/userdoc/using.html#application-to-system-of-systems"
   },"1247": {
     "doc": "Using SAF",
     "title": "Typical Engineering Workflow",
     "content": "A typical workflow, developing a system from scratch could start in the SAF Functional Domain, omitting the SAF Operational Domain.2 : . Define the System Boundary . | Start by defining the System Of Interest(SOI) and then, users, environmental influences, and other systems to which the SOI will interface, using the System Context Definition Viewpoint . The goal here is, to dissect what is within the system from what is outside. | Define one or more system contexts, and bind the system and the abovementioned external elements to that context as appropriate. Multiple contexts allow to have different sets of context elements, and later different sets of use cases happening within these contexts. This allows an early divide and conquer approach. Examples for contexts could be: factory test, shipping, operational, or workshop maintainance. | . Tell Stories about System Usage . | Using the contexts and context elements defined earlier, create system use cases, using the System Use Case Viewpoint . The goal is, to tell the most important stories about the system happening in the contexts, and which key interactions with users, other systems or the environment happen during these stories. There is no need to use formal language, or a structured text approach - SAF has a specific System Process Viewpoint to refine Use Cases formally. However, if there are important system states as a precondition or as a result (postcondition) of a Use Case, they should be defined on the fly using the System State Viewpoint and recorded in the Use Case. Please note, that it should be avoided to put information items on the associations. Overly complex relationships among use cases should also be avoided. | . Refine Use Cases, identify need for System Functions, define need for exchange at the system boundary . | For each Use Case create a system process using the System Process Viewpoint. The system process translates the use case text into a formal model covering the paths through the Use Case. The exchanges of the system with external elements are covered and the expectations what external elements do and what the system shall do are identified. The goal is to first identify the need for System Functions and the need for exchange with external elements, and then define the System Functions from the consolidated needs. Since multiple System Processes from multiple contexts might (and usually will) call for the same or similar system functions, the necessity for a consolidation of system function definitions and usage on the level of system processes is given. The consolidation of System Functions is assisted by the System Functional Breakdown Structure Viewpoint. This viewpoint also gives an overview about the functional tree of the system and the usages of System Functions in System Processes. For the definition of exchanged items, use the System Domain Item Kind Viewpoint. If system states are preconditions for the execution of System Functions use the System State Viewpoint to define them. If necessary to explain the System Functions in more detail, use the System Functional Refinement Viewpoint . | . to be continued ! . Here an image of the Vee should be placed with domains showing where on the vee, or a workflow with the gates. a detail view should show flow through the viewpoints, perhaps with key concerns they address. This is complex. details must go to multiple sub pages, possibly organized by SEHB phases. There are also different usage scenarios of SAF . | Note, that SoS is not just a decomposition - the term should only be used for scenarios which add complexity by independently developed and or operated systems with independent lifecycles, lacking overarcing planning or even agreement. &#8617; . | Assuming there are valid stakeholder requirements, defining what the system should achieve under which constraints. One of motivations for the operational domain is to produce and validate this information. &#8617; . | . ",
-    "url": "/using.html#typical-engineering-workflow",
+    "url": "/userdoc/using.html#typical-engineering-workflow",
     
-    "relUrl": "/using.html#typical-engineering-workflow"
+    "relUrl": "/userdoc/using.html#typical-engineering-workflow"
   },"1248": {
     "doc": "Using SAF",
     "title": "Using SAF",
     "content": " ",
-    "url": "/using.html",
+    "url": "/userdoc/using.html",
     
-    "relUrl": "/using.html"
+    "relUrl": "/userdoc/using.html"
   },"1249": {
     "doc": "Viewpoints",
     "title": "Viewpoints",

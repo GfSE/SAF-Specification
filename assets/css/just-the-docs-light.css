@@ -7671,18 +7671,22 @@ blockquote.warning-title > p:last-child {
 }
 
 .side-bar {
-  width: 18rem;
+  width: 20rem;
+}
+
+.site-nav {
+  width: 20rem;
 }
 
 @media (min-width: 66.5rem) {
   .main {
-    margin-left: 18rem !important;
+    margin-left: 20rem !important;
     max-width: 80% !important;
   }
 }
 @media (min-width: 50rem) {
   .main {
-    margin-left: 18rem !important;
+    margin-left: 20rem !important;
     max-width: 80% !important;
   }
 }
@@ -7765,11 +7769,11 @@ blockquote.warning-title > p:last-child {
   background-color: inherit;
 }
 .plugin-version-menu-background-fonts-style {
-  font-size: 0.6875rem !important;
+  font-size: 0.75rem !important;
 }
 @media (min-width: 31.25rem) {
   .plugin-version-menu-background-fonts-style {
-    font-size: 0.75rem !important;
+    font-size: 0.875rem !important;
   }
 }
 
