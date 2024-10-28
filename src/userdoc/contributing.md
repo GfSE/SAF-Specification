@@ -1,7 +1,7 @@
 ---
 title: Contributing
 layout: default
-nav_order: 90
+nav_order: 80
 ---
 # How To Contribute to SAF?
 
@@ -25,4 +25,4 @@ Changes may be proposed using the Discussions on the Specification Repository
 
 ## Developing SAF
 
-he development of the SAF viewpoints comprises several interlinked elements and concepts. How the SAF is developed is explained in more detail in this article [SAF-Development](developing-saf/development.md). 
+he development of the SAF viewpoints comprises several interlinked elements and concepts. How the SAF is developed is explained in more detail in this article [SAF-Development](../devdoc/devdoc.md). 

@@ -5,12 +5,12 @@ nav_order: 15
 ---
 
 ## Getting Started
- * Please download and install one of the [supported tool implementations](index.md#tool-implementations)
+ * Please download and install one of the [supported tool implementations](../index.md#tool-implementations)
  * Head over to [typical engineering workflow](#typical-engineering-workflow) to get an idea about possible viewpoints
  * if you need help, feel free to ask !
 
 ## Recursive Application of the Framework due to System decomposition
-Typically, a system consists of subsystems in multiple [hierarchy or decomposition](faq.md#system-hierarchy) levels. 
+Typically, a system consists of subsystems in multiple [hierarchy or decomposition](./faq.md#system-hierarchy) levels. 
 
 The Functional, Logical and Physical Domain are applied recursively for system and subsystems.
 
@@ -33,7 +33,7 @@ The approach should be selected according to the constraints of the SoS scenario
 A typical workflow, developing a system from scratch could start in the SAF Functional Domain, omitting the SAF Operational Domain.[^2] : 
 
 ### Define the System Boundary
- * Start by defining the System Of Interest(SOI) and then, users, environmental influences, and other systems to which the SOI will interface, using the [System Context Definition Viewpoint](userdoc/Functional%20Domain/System%20Context%20Definition%20Viewpoint.md)
+ * Start by defining the System Of Interest(SOI) and then, users, environmental influences, and other systems to which the SOI will interface, using the [System Context Definition Viewpoint](./Functional%20Domain/System%20Context%20Definition%20Viewpoint.md)
    
    The goal here is, to dissect what is within the system from what is outside. 
 
@@ -42,29 +42,29 @@ A typical workflow, developing a system from scratch could start in the SAF Func
    This allows an early divide and conquer approach. Examples for contexts could be: factory test, shipping, operational, or workshop maintainance. 
 
 ### Tell Stories about System Usage
-  * Using the contexts and context elements defined earlier, create system use cases, using the [System Use Case Viewpoint](userdoc/Functional%20Domain/System%20Use%20Case%20Viewpoint.md)
+  * Using the contexts and context elements defined earlier, create system use cases, using the [System Use Case Viewpoint](./Functional%20Domain/System%20Use%20Case%20Viewpoint.md)
 
-    The goal is, to tell the most important stories about the system happening in the contexts, and which key interactions with users, other systems or the environment happen during these stories. There is no need to use formal language, or a structured text approach - SAF has a specific [System Process Viewpoint to refine Use Cases formally](userdoc/Functional%20Domain/System%20Process%20Viewpoint.md). 
+    The goal is, to tell the most important stories about the system happening in the contexts, and which key interactions with users, other systems or the environment happen during these stories. There is no need to use formal language, or a structured text approach - SAF has a specific [System Process Viewpoint](./Functional%20Domain/System%20Process%20Viewpoint.md)  to refine Use Cases formally. 
 
-    However, if there are important system states as a precondition or as a result (postcondition) of a Use Case, they should be defined on the fly using the [System State Viewpoint](userdoc/Functional%20Domain/System%20State%20Viewpoint.md) and recorded in the Use Case.
+    However, if there are important system states as a precondition or as a result (postcondition) of a Use Case, they should be defined on the fly using the [System State Viewpoint](./Functional%20Domain/System%20State%20Viewpoint.md) and recorded in the Use Case.
   
     Please note, that it should be avoided to put information items on the associations. Overly complex relationships among use cases should also be avoided.
 
 ### Refine Use Cases, identify need for System Functions, define need for exchange at the system boundary
 
- * For each Use Case create a system process using the  [System Process Viewpoint](userdoc/Functional%20Domain/System%20Process%20Viewpoint.md).
+ * For each Use Case create a system process using the  [System Process Viewpoint](./Functional%20Domain/System%20Process%20Viewpoint.md).
 
    The system process translates the use case text into a formal model covering the paths through the Use Case. The exchanges of the system with external elements are covered and the expectations what external elements do and what the system shall do are identified. 
 
    The goal is to first identify the need for System Functions and the need for exchange with external elements, and then define the System Functions from the consolidated needs. Since multiple System Processes from multiple contexts might (and usually will) call for the same or similar system functions, the necessity for a consolidation of system function definitions and usage on the level of system processes is given.
 
-   The consolidation of System Functions is assisted by the [System Functional Breakdown Structure Viewpoint](userdoc/Functional%20Domain/System%20Functional%20Breakdown%20Structure%20Viewpoint.md). This viewpoint also gives an overview about the functional tree of the system and the usages of System Functions in System Processes.
+   The consolidation of System Functions is assisted by the [System Functional Breakdown Structure Viewpoint](./Functional%20Domain/System%20Functional%20Breakdown%20Structure%20Viewpoint.md). This viewpoint also gives an overview about the functional tree of the system and the usages of System Functions in System Processes.
 
-   For the definition of exchanged items, use the [System Domain Item Kind Viewpoint](userdoc/Functional%20Domain/System%20Domain%20Item%20Kind%20Viewpoint.md).
+   For the definition of exchanged items, use the [System Domain Item Kind Viewpoint](./Functional%20Domain/System%20Domain%20Item%20Kind%20Viewpoint.md).
 
-   If system states are preconditions for the execution of System Functions use the [System State Viewpoint](userdoc/Functional%20Domain/System%20State%20Viewpoint.md) to define them.
+   If system states are preconditions for the execution of System Functions use the [System State Viewpoint](./Functional%20Domain/System%20State%20Viewpoint.md) to define them.
 
-   If necessary to explain the System Functions in more detail, use the [System Functional Refinement Viewpoint](userdoc/Functional%20Domain/System%20Functional%20Refinement%20Viewpoint.md)
+   If necessary to explain the System Functions in more detail, use the [System Functional Refinement Viewpoint](./Functional%20Domain/System%20Functional%20Refinement%20Viewpoint.md)
 
 
 {: .todo }

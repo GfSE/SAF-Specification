@@ -21,20 +21,20 @@ Because of this, SAF helps to execute an MBSE effort by a plan which is backed b
 The viewpoints specify, which model elements shall be created in which kind of diagrams to serve the viewpoints purpose and adress the concerns of the stakeholders interested in the viewpoints. 
 
 ### SAF Viewpoint Grid
-The SAF Viewpoints are organized as a Grid featuring [Domains](./userdoc/domains.md) as rows and [Aspects](./userdoc/aspects.md) as columns.
+The SAF Viewpoints are organized as a Grid featuring [Domains](domains.md) as rows and [Aspects](aspects.md) as columns.
 
 ### Domains follow engineering workflow
-The [Domains](./userdoc/domains.md)  are oriented by a typical engineering workflow. 
- * The [Common Domain](./userdoc/common.md) contains workflow overarcing content such as Terms and Standards. 
- * The [Operational Domain](./userdoc/operational.md) adresses information need during the concept phase (Mission Analysis and Stakeholder Requirements elicitation)
- * The [Functional Domain](./userdoc/functional.md) adresses information needs during the System Requirements Definition Process (The System blackbox on a conceptual level)
- * The [Logical Domain](./userdoc/logical.md) adresses information needs during the Architecture Definition Process (the System Whitebox on conceptual level)
- * The [Physical Domain](./userdoc/physical.md) adresses information needs during the Design Definition Process (the System Black Box and Whitebox on solution / design level)
+The [Domains](domains.md)  are oriented by a typical engineering workflow. 
+ * The [Common Domain](common.md) contains workflow overarcing content such as Terms and Standards. 
+ * The [Operational Domain](operational.md) adresses information need during the concept phase (Mission Analysis and Stakeholder Requirements elicitation)
+ * The [Functional Domain](functional.md) adresses information needs during the System Requirements Definition Process (The System blackbox on a conceptual level)
+ * The [Logical Domain](logical.md) adresses information needs during the Architecture Definition Process (the System Whitebox on conceptual level)
+ * The [Physical Domain](physical.md) adresses information needs during the Design Definition Process (the System Black Box and Whitebox on solution / design level)
 
 ### Aspects follow kinds of concerns
-The  [Aspects](./userdoc/aspects.md) are oriented by the kind of information needs, e.g. questions about structure are answered by viewpoints in the taxonomy and structure aspect. Typically similar kinds of questions need to be answered in multiple domains, hence the organisation of grid columns.
+The  [Aspects](aspects.md) are oriented by the kind of information needs, e.g. questions about structure are answered by viewpoints in the taxonomy and structure aspect. Typically similar kinds of questions need to be answered in multiple domains, hence the organisation of grid columns.
 
-![SAF Grid](./assets/images/SAF_Viewpoint-Grid-Structuring-Formalism.svg)
+![SAF Grid](../assets/images/SAF_Viewpoint-Grid-Structuring-Formalism.svg)
 
 
 ## Recursive Application of the Framework due to System decomposition

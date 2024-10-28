@@ -1,7 +1,7 @@
 ---
 title: FAQ
 layout: default
-nav_order: 99
+nav_order: 70
 ---
 # Frequently Asked Questions
 ## Viewpoints
@@ -14,14 +14,14 @@ The elements and relationships don't change if they are captured in Models - MBS
 
 *The Viewpoint Concept is layed out in ISO 42010*
 
-See the [SAF Viewpoint documentation](./userdoc/viewpoints.md).
+See the [SAF Viewpoint documentation](viewpoints.md).
 
 ## Stakeholders
 **What are Stakeholders?** 
 There are two classes of Stakeholders in SAF. **System Stakeholders** and **Architecture Stakeholders. System Stakeholders** are subject of system modeling and formulate needs that should be satisfied by the system of interest.
 **Architecture Stakeholders** formulate information needs (**concerns**), that must be answered by the Frameworks **Viewpoints**
 
-See the [SAF Stakeholder documentation](./userdoc/stakeholders.md).
+See the [SAF Stakeholder documentation](stakeholders.md).
 
 *The Stakeholder concept is layed out in ISO 42010*
 
@@ -36,7 +36,7 @@ For example, the user has specific concerns which interactions he or she has wit
 
 The stakeholders concerns are specific to the lifecycle project phase, e.g., at a PDR, subsystem responsibles have the information need which systems function are delegated to their subsystems, while at a CDR they would need to know about the interface designs of other neighbor subsystems.
 
-See the [SAF concern documentation](userdoc/concerns.html).
+See the [SAF concern documentation](concerns.html).
 
 *The Concern concept is layed out in ISO 42010*
 
@@ -44,7 +44,7 @@ See the [SAF concern documentation](userdoc/concerns.html).
 **What are Domains?**
 The rows of the SAF grid are called  domains. They organize the viewpoints in a way that typical engineering workflows follow the viewpoints in one domain, then continue to the next domain. 
 
-See the [SAF domain Documentation](./userdoc/domains.md)
+See the [SAF domain Documentation](domains.md)
 
 *The Domain concept implements the Stakeholder Perspective layed out in ISO 42010*
 
@@ -53,7 +53,7 @@ See the [SAF domain Documentation](./userdoc/domains.md)
 
 The columns of the SAF grid are called aspects. They organize the viewpoints by the kind of information need of stakeholders, typically similar diagram kinds appear together in the same aspect, and typically the same information need appears in multiple domains. 
 
-See the [SAF aspect Documentation](./userdoc/aspects.md)
+See the [SAF aspect Documentation](aspects.md)
 
 *The Aspect concept is layed out in ISO 42010*
 

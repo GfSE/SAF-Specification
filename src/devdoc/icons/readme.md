@@ -2,7 +2,7 @@
 parent: Developer Documentation
 title: Icons
 layout: default
-nav_order: 40
+nav_order: 70
 ---
 Note, that the definition of icons is work in progress.
 

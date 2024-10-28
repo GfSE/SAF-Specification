@@ -6,4 +6,4 @@ has_children: true
 nav_order: 30
 ---
 ## Development View on Common Domain
-This Versions of the Viewpoint documentation is intended for Framework Developers.
+This documentation is intended for Framework Developers.

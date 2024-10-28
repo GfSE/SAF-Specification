@@ -1,5 +1,4 @@
-![System Architecture Framework](diagrams/Banner_SAF.png)
-# SAF User Documentation : Changes
+Changes
 |Date|Change|
 |--|--|
 |2024-10-27|Switch over to new documentation format.|

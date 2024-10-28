@@ -1,18 +1,23 @@
 .side-bar {
-  width: 18rem;
+  width: 20rem;
  }
+
+ .site-nav {
+  width: 20rem;
+ }
+
 
  
  @media (min-width: 66.5rem) {
    .main {
-    margin-left: 18rem !important;
+    margin-left: 20rem !important;
     max-width: 80% !important;
   }
 }
 
 @media (min-width: 50rem) {
   .main {
-   margin-left: 18rem !important;
+   margin-left: 20rem !important;
    max-width: 80% !important;
  }
 }
@@ -97,6 +102,6 @@
 
 
 .plugin-version-menu-background-fonts-style {
-  @include fs-2;
+  @include fs-3;
   background-color: inherit;
 }

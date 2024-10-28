@@ -1,7 +1,7 @@
 ---
 title: Developer Documentation
 layout: default
-nav_order: 40
+nav_order: 90
 ---
 # Developer Documentation
 
@@ -11,7 +11,7 @@ SAF is developed to foster Model Based Systems Engineering, and itself is develo
 
 ## Kinds of Models
 
-![Bild](./assets/images/Kinds-of-Models.svg)
+![Bild](../assets/images/Kinds-of-Models.svg)
 
 There are several kinds of models around SAF serving a certain purpose
 
@@ -19,7 +19,7 @@ There are several kinds of models around SAF serving a certain purpose
 
   This is a model dedicated to the development of one or more systems. It is a model that users of SAF create and maintain. It may be maintained in one of the Tools supported by a SAF Profile Model. The SAF example model SAF_FFDS.mdzip is a System Model.
 * **SAF_Profile Model**
-  This is a model needed to create a SAF System Model. It is tool specific and (hopefully) compliant to the SAF Specification.  There currently several contributed models. Some of the Repositories also contain an example System Model. Please head over to [Tool Implementations](index.md#tool-implementations).
+  This is a model needed to create a SAF System Model. It is tool specific and (hopefully) compliant to the SAF Specification.  There currently several contributed models. Some of the Repositories also contain an example System Model. Please head over to [Tool Implementations](../index.md#tool-implementations).
 
   
 
@@ -35,7 +35,7 @@ The conceptual model is the foundation of SAF development.
 It governs, which items SAF consist of and how these items are related.
 It follows the concepts of ISO 42010. SAF extends ISO 42010 in a way that SAF is able to express a rationale for a Stakeholders Concern.
 
-![Bild](./assets/images/Concept-Model-Definition.svg)
+![Bild](../assets/images/Concept-Model-Definition.svg)
 ### Core Concepts
 Within the conceptual model the following elements can be recognized (many of them are specializations of ISO 42010 Concepts):
 
@@ -57,7 +57,7 @@ select a set of SAF Concepts in order to adress the information need expressed b
   They also could be used to plan work items in order to plan a MBSE effort.
   The goal is, to precisely define the needed model work for certain points in an engieering project.
 
-Details are documented in the [metamodeling guide](devdoc/metamodel-guideline/modelguideline.md).
+Details are documented in the [metamodeling guide](metamodel-guideline/modelguideline.md).
 
 
 [^1]: The question about the recommended workflow cannot be answered by a single viewpoint description, this is an overarcing topic, which is currently not covered by the SAF documentation. [See issue 14](https://github.com/GfSE/SAF-Specification/issues/14)

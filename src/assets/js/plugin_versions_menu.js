@@ -117,7 +117,7 @@ function handleVersionedDocs(repository_nwo, basePath) {
             currentVersion = defaultBranch;
             currentPage = path.substring(basePath.length);
         }
-        menu.innerHTML = `SAF Version: ${currentVersion}`;
+        menu.innerHTML = `Branch: ${currentVersion}`;
         menu.appendChild(dropdown);
 
         options.push({text:'TdSE2023',value:'TdSE2023'})
