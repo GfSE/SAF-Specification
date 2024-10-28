@@ -4184,6 +4184,24 @@
     "Name" : "Standard"
   } ]
 }, {
+  "Name" : "STDdependsOnSTD",
+  "ID" : "_2024x_1_26f0132_1730145934888_287548_16610",
+  "Documentation" : "specifies that a standard depends on an other.",
+  "IsGeneralFor" : [ ],
+  "InheritsFrom" : [ ],
+  "ClassType" : "Association",
+  "InViewpoint" : [ {
+    "ID" : "_2021x_2_8710274_1676722868986_622372_25044",
+    "Name" : "Common Standards Definition Viewpoint"
+  } ],
+  "AssociationEnds" : [ {
+    "ID" : "_2021x_2_8710274_1700810118595_556759_48108",
+    "Name" : "Standard"
+  }, {
+    "ID" : "_2021x_2_8710274_1700810118595_556759_48108",
+    "Name" : "Standard"
+  } ]
+}, {
   "Name" : "STDissuedBySTO",
   "ID" : "_2021x_2_8710274_1700810378676_882309_48192",
   "Documentation" : "Specifies the fact that a standard is issued by an organization of standardization.",

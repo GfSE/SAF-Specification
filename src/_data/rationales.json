@@ -4896,6 +4896,114 @@
   }
 }, {
   "Name" : "",
+  "ID" : "_2024x_1_26f0132_1730147675004_554574_16836",
+  "Documentation" : "i need to record them in the project baseline-",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1700821579663_211989_58619",
+    "Name" : "Which are the relevant releases of the applicable standards, guidance, and policy to be used for the development of the system of interest and its system elements?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_1_26f0132_1730147677871_719494_16839",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1700821592720_121043_58626",
+    "Name" : "Which other standards are referenced or referred to by applicable standards?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_1_26f0132_1730147683578_645494_16840",
+  "Documentation" : "I need to communicate these terms to stakeholders, and make sure they are applied appropriately to systeme elements.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1701365325155_727486_98279",
+    "Name" : "Which terms and abbreviations are applicable to the system of interest or its system elements and their interfaces and interactions?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_1_26f0132_1730147684747_923874_16841",
+  "Documentation" : "I need to check the sources of standards for updates and obsolescence of applied standards.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1701365358930_669398_98281",
+    "Name" : "What are the sources (e.g. a standard) of terms?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_1_26f0132_1730147701008_763569_16844",
+  "Documentation" : "I need to plan for obsolescence of applicable standards.",
+  "Concern" : {
+    "ID" : "_2024x_1_26f0132_1730147177395_667618_16797",
+    "Name" : "by which standard is an other standard superseded?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_1_26f0132_1730148100046_778242_16852",
+  "Documentation" : "I want to know if standards relevant to the system are applied properly.",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1701365325155_727486_98279",
+    "Name" : "Which terms and abbreviations are applicable to the system of interest or its system elements and their interfaces and interactions?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
+    "Name" : "Acquirer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_1_26f0132_1730148594290_521915_17632",
+  "Documentation" : "In my role, I need to know the applicable standards during implementation..",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1700821558610_489259_58612",
+    "Name" : "Which standards, guidance, and policy are applicable to the system of interest or its system elements and their interfaces and interactions?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
+    "Name" : "Hardware Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_1_26f0132_1730148616178_31912_17634",
+  "Documentation" : "In my role, I need to know the applicable standards during implementation..",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1700821558610_489259_58612",
+    "Name" : "Which standards, guidance, and policy are applicable to the system of interest or its system elements and their interfaces and interactions?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653241806_566270_43560",
+    "Name" : "Mechanic Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_1_26f0132_1730148624681_125806_17636",
+  "Documentation" : "In my role, I need to know the applicable standards during implementation..",
+  "Concern" : {
+    "ID" : "_2021x_2_8710274_1700821558610_489259_58612",
+    "Name" : "Which standards, guidance, and policy are applicable to the system of interest or its system elements and their interfaces and interactions?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
+    "Name" : "Software Developer"
+  }
+}, {
+  "Name" : "",
   "ID" : "_2024x_26f0132_1719129313191_823388_14654",
   "Documentation" : "I need an overview over the viewpoints available to identify possible gaps.",
   "Concern" : {

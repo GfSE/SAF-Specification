@@ -46,7 +46,7 @@ There are some [General Concepts](./concepts/SAF_general_concept_Definition.md) 
 * [System State](./concepts/SAF_state_F_Definition.md)
 
 ## Misc
-* [Terms and Standards](./concepts/SAF_term_and_standard_C_Definition.md)
+* [Terms and Standards](./concepts/SAF_Terms_and_Standards.md)
 * [Argumentation](./concepts/SAF_argumentation_C_Definition.md)
 
 ## SAF Development

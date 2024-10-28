@@ -17,13 +17,13 @@
   "ID" : "_2021x_2_8710274_1676722868986_622372_25044",
   "VP_ID" : "C2_CSTD",
   "Maturity" : "under construction",
-  "Purpose" : "The Standards Definition Viewpoint supports the definition of applicable standards, e.g., for format and protocol specifications, regulations, and engineering documents that are used throughout the system life cycle. It provides the meta-data for the applied standards, guidance and policy, e.g., issue, version, issue date, and publisher. The Viewpoint helps to keep track of changes to the set of applicable documents and of new versions of applied standards. Links should be used to refer to documents external to the architecture description.",
+  "Purpose" : "The Standards Definition Viewpoint supports the definition of applicable standards, and their relationships,  e.g., for format and protocol specifications, regulations, and engineering documents that are used throughout the system life cycle. It provides the meta-data for the applied standards, guidance and policy, e.g., issue, version, issue date, and publisher. The Viewpoint helps to keep track of changes to the set of applicable documents and of new versions of applied standards. Links should be used to refer to documents external to the architecture description.",
   "Applicability" : "The Standards Definition Viewpoint supports the definition of standards, and assignment of model elements to standards, during the technical processes and according to the information management process  of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 .",
   "Aspect" : "Taxonomy & Structure",
   "Domain" : "Common",
-  "Presentation" : [ "A block definition diagram (BDD) featuring the taxonomy of types of standards,  applicable to the system of interest, or parts of the system of interest. The Standards are represented by packages which allows to use them in model libraries and put e.g. reusable interface definitions, or terms complying to the standard into the package", "A table format listing standards, applicable to the system of interest or parts of it, and the relation to which parts of the system the standards apply" ],
-  "Stakeholders" : [ ],
-  "Concern" : [ "_2021x_2_8710274_1700821579663_211989_58619", "_2021x_2_8710274_1700821592720_121043_58626", "_2021x_2_8710274_1700821558610_489259_58612" ],
+  "Presentation" : [ "A block definition diagram (BDD) featuring the taxonomy of types of standards,  applicable to the system of interest, or parts of the system of interest. The Standards are represented by packages which allows to use them in model libraries and put e.g. reusable interface definitions, or terms complying to the standard into the package", "A table format listing standards, applicable to the system of interest or parts of it, their relationships and the relation to which parts of the system the standards apply" ],
+  "Stakeholders" : [ "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_ebf0350_1554653241806_566270_43560", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
+  "Concern" : [ "_2021x_2_8710274_1700821579663_211989_58619", "_2021x_2_8710274_1700821592720_121043_58626", "_2021x_2_8710274_1700821558610_489259_58612", "_2024x_1_26f0132_1730147177395_667618_16797" ],
   "RecommendedVP" : [ ],
   "RequiredVP" : [ ]
 }, {
@@ -36,7 +36,7 @@
   "Aspect" : "Taxonomy & Structure",
   "Domain" : "Common",
   "Presentation" : [ "A table format listing terms included in glossaries, or standards if applicable.", "A table format listing abbreviations included in glossaries, orstandards if applicable." ],
-  "Stakeholders" : [ "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_ebf0350_1554653241806_566270_43560", "_19_0_2_26f0132_1562303526473_98534_92400" ],
+  "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_ebf0350_1554653241806_566270_43560", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "Concern" : [ "_2021x_2_8710274_1701365358930_669398_98281", "_2021x_2_8710274_1701365325155_727486_98279" ],
   "RecommendedVP" : [ "_2021x_2_8710274_1676722868986_622372_25044" ],
   "RequiredVP" : [ ]

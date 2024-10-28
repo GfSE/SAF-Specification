@@ -1,0 +1,89 @@
+[ {
+  "Body" : "2024-04-26.1",
+  "ID" : "_2024x_8710274_1714128138042_600458_35689",
+  "Documentation" : "<html>\n  <head>\n\t\t<style>\n\t\t\tp {padding:0px; margin:0px;}\n\t\t</style>\n\t</head>\n  <body>\nIntroduce Viewpoint shortcuts. They are intended to used as an easy to remember abbreviation for the longer viewpoint name, e.g. &#160;<b>O1_OCXD</b> for <b>Operational Context Definition Viewpoint</b>. &#160;The Domain and aspect are also encoded in the shortcut.    \n<br></body>\n</html>"
+}, {
+  "Body" : "2024-04-26.2",
+  "ID" : "_2024x_8710274_1714128138042_870495_35690",
+  "Documentation" : "<html>\n  <head>\n\t\t<style>\n\t\t\tp {padding:0px; margin:0px;}\n\t\t</style>\n\t</head>\n  <body>\nRename Diagram Stereotypes to use the shortcuts, e.g. <b>SAF_SLV02a_View</b> is renamed to <b>SAF_L2_LSTD</b>. This removes the redundant &quot;View&quot; and &quot;V&quot;, while keeping Domain and Aspect encoding. The Numbering is replaced by the same abbreviation as in the Viewpoint.</body>\n</html>"
+}, {
+  "Body" : "2024-04-26.3",
+  "ID" : "_2024x_8710274_1714128138043_647365_35691",
+  "Documentation" : "<html>\n  <head>\n\t\t<style>\n\t\t\tp {padding:0px; margin:0px;}\n\t\t</style>\n\t</head>\n  <body>\n    <p>\nRename some viewpoints for more consistency with other viewpoint names.\n\n    </p>\n\n    <ul>\n      <li>\nOperational Context Interaction Viewpoint\n\n      </li>\n      <li>\nOperational Capability Definition Viewpoint\n\n      </li>\n      <li>\nLogical Structure Definition Viewpoint\n\n      </li>\n      <li>\nPhysical Structure Definition Viewpoint\n\n      </li>\n      <li>\nStakeholder Requirement Definition Viewpoint\n\n      </li>\n      <li>\nSystem Capability Definition Viewpoint\n\n      </li>\n      <li>\nSystem Requirement Definition Viewpoint\n\n      </li>\n    </ul>\n</body>\n</html>"
+}, {
+  "Body" : "2024-04-30",
+  "ID" : "_2024x_8710274_1714464023643_962489_14290",
+  "Documentation" : "fix change stereotype SAF_O1_OCYD to be SAF_O1_OCXD  to be consistent with Operational-Context-Definition shortcut"
+}, {
+  "Body" : "2024-05-18",
+  "ID" : "_2024x_26f0132_1716045566466_136261_15058",
+  "Documentation" : "<html>\n  <head>\n\t\t<style>\n\t\t\tp {padding:0px; margin:0px;}\n\t\t</style>\n\t</head>\n  <body>\n    <ul>\n      <li>\nadd own diagram icons\n\n      </li>\n      <li>\nadd a proposed viewpoint for security classifications\n\n      </li>\n    </ul>\n</body>\n</html>"
+}, {
+  "Body" : "2024-05-27",
+  "ID" : "_2024x_8710274_1716831115250_696328_19210",
+  "Documentation" : "<html>\n  <head>\n\t\t<style>\n\t\t\tp {padding:0px; margin:0px;}\n\t\t</style>\n\t</head>\n  <body>\n    <ul>\n      <li>\nshift exposure of abstract concepts (general function, general function usage) to inherited concepts\n\n      </li>\n      <li>\nadd missing concept for usage of partial function in system function\n\n      </li>\n      <li>\nfix implementation spec for function usages in functions context (profile not affected)        \n<br>\n\n      </li>\n    </ul>\n</body>\n</html>"
+}, {
+  "Body" : "2024-06-07\t.1",
+  "ID" : "_2024x_8710274_1717419050906_45965_17549",
+  "Documentation" : "<html>\n  <head>\n\t\t<style>\n\t\t\tp {padding:0px; margin:0px;}\n\t\t</style>\n\t</head>\n  <body>\n    <ul>\n      <li>\nArgument concept in argumentation assurance viewpoint is no longer abstract, <a href=\"https://github.com/GfSE/SAF-Specification/issues/56\">issue #56 </a>\n\n      </li>\n      <li>\nSeparate network PIEX view, <a href=\"https://github.com/GfSE/SAF-Specification/issues/57\">issue #57</a>\n\n      </li>\n    </ul>\n</body>\n</html>"
+}, {
+  "Body" : "2024-06-12.1",
+  "ID" : "_2024x_26f0132_1718182786099_320673_14301",
+  "Documentation" : "<html>\n  <head>\n\t\t<style>\n\t\t\tp {padding:0px; margin:0px;}\n\t\t</style>\n\t</head>\n  <body>\n    <ul>\n      <li>\nmake internal role stereotypes inherit from part property\n\n      </li>\n      <li>\ndont expose abstract general physical role, but derived non abstract concepts PFUM and PLOM, partly adressing <a href=\"https://github.com/GfSE/SAF-Specification/issues/60\">issue #60</a>\n\n      </li>\n      <li>\nrename stereotypes for PLOM and PFUM Diagrams to *_Matrix, because the Representation is a matrix.\n\n      </li>\n      <li>\nlogical element role was'nt exposed in PLOM\n\n      </li>\n    </ul>\n</body>\n</html>"
+}, {
+  "Body" : "2024-06-15.1",
+  "ID" : "_2024x_26f0132_1718441806867_546703_16661",
+  "Documentation" : "<html>\n  <head>\n\t\t<style>\n\t\t\tp {padding:0px; margin:0px;}\n\t\t</style>\n\t</head>\n  <body>\n    <ul>\n      <li>\nwrite down naming conventions for table and matrix representations of Viewpoints (postfixed with &quot;_Matrix&quot; and &quot;_Table&quot;\n\n      </li>\n      <li>\nRename stereotypes accordingly (SAF_L8_LFUM_Matrix, SAF_O8_OPRM_Table, SAF_F8_SCYM_Table, SAF_O8_OCYM_Table, SAF_F8_SRQT_Matrix, SAF_F6_SRQD_Table, SAF_C7_PRND_Table, SAF_C2_TRMD_Table)\n\n      </li>\n      <li>\nnew, because there is a table representation. They're currently not covered by example : SAF_F3_SSTA_Table, SAF_F3_SPRO_Table, SAF_F2_SDIK_Table, SAF_F1_SUCS_Table, SAF_F1_SCXE_Table, SAF_F1_SCXD_Table\n\n      </li>\n      <li>\napply coloring legend to all viewpoint concept and profile diagrams, and redactional corrections\n\n      </li>\n      <li>\nIn Grid Definition Viewpoint, the Implementation of Viewpoint is changed to a user usable SAF_Viewpoint defined by SAF Profile, late &#160;the SAF_Viewpoint in SCM profile will be renamed to SCM_Viewpoint, since it is used to specify SAF, and not to be intendet to be used in system models.\n\n      </li>\n      <li>\nAdd a library of SAF_Viewpoint objects to SAF_Profile to be used to plan modeling using grid Definition VP. The viewpoint objects collect automatically all views(diagrams conform to the Viewpoint)\n\n      </li>\n      <li>\nSAF_LogicalContextRole did not inherit from part property        \n<br>\n\n      </li>\n      <li>\nremove exposure of elements related to domain item kinds in SDIK, since It is by no way covered by concerns of VP SDIK.\n\n      </li>\n    </ul>\n</body>\n</html>"
+}, {
+  "Body" : "2024-06-18.1",
+  "ID" : "_2024x_26f0132_1718706929219_973641_42824",
+  "Documentation" : "all Stereotypes from SCM_Profile are prefixed \"SCM_\", not \"SAF_\". "
+}, {
+  "Body" : "2024-06-23.1\t",
+  "ID" : "_2024x_26f0132_1719133208235_21128_14990",
+  "Documentation" : "<html>\n  <head>\n\t\t<style>\n\t\t\tp {padding:0px; margin:0px;}\n\t\t</style>\n\t</head>\n  <body>\n    <p>\nAdd concerns, stakeholders, rationale to justify framework development and specification viewpoints\n\n    </p>\n\n    <ul>\n      <li>\nSAF Developer,\n\n      </li>\n      <li>\nSAF MBSE approach planner,\n\n      </li>\n      <li>\nSAF System Model user\n\n      </li>\n    </ul>\n    <p>\nrevisit change grid definition viewpoint, status now under development.\n\n    </p>\n\n    <ul>\n      <li>\nit has alternate table representation collecting diagrams conform to viewpoints\n\n      </li>\n      <li>\nadded a concern\n\n      </li>\n    </ul>\n</body>\n</html>"
+}, {
+  "Body" : "2024-06-30.1",
+  "ID" : "_2024x_26f0132_1719780336569_99277_46290",
+  "Documentation" : "add proposed viewpoints supporting SAF development into new domain \"SAF Developement\""
+}, {
+  "Body" : "2024-07-29.1",
+  "ID" : "_2024x_1_26f0132_1722259725131_289798_22430",
+  "Documentation" : "Add example for Operational Context Interaction (OCXI), set viewpoint to released."
+}, {
+  "Body" : "2024-09-06",
+  "ID" : "_2024x_1_26f0132_1725616087422_760066_17866",
+  "Documentation" : "The use case and system process used in were renamed, in the course of model cleanup of the example."
+}, {
+  "Body" : "2024-09-24",
+  "ID" : "_2024x_1_26f0132_1727207838803_567256_22034",
+  "Documentation" : "change viewpoint short code of system use case viewpoint to F1_SUCD"
+}, {
+  "Body" : "2024-09-25",
+  "ID" : "_2024x_1_26f0132_1727274630985_900761_16094",
+  "Documentation" : "set maturity of Development Viewpoints Framework Concept Definition Viewpoint ( D2_COTD) and Framework Concern Definition Viewpoint (D6_CCND)  to\"under construction\""
+}, {
+  "Body" : "2024-09-27",
+  "ID" : "_2024x_1_26f0132_1727449932104_681194_16135",
+  "Documentation" : "set maturity of Development Viewpoints Framework Stakeholder Definition Viewpoint ( D1_STKD) and  Framework Rationale Definition Viewpoint (D6_RATD)  to\"under construction\""
+}, {
+  "Body" : "2024-10-17",
+  "ID" : "_2024x_1_26f0132_1729192862883_465711_24308",
+  "Documentation" : "set maturity of Common Terms Definition Viewpoint C2_TRMD and Common Standards Definition Viewpoint C2_CSTD to under construction, reworked example and viewpoint descriptions"
+}, {
+  "Body" : "2024-10-18",
+  "ID" : "_2024x_1_26f0132_1729290147069_319426_28086",
+  "Documentation" : "set maturity of Functional Refinement Viewpoint F3_SFRE to under construction (added profile diagram and concept diagram)."
+}, {
+  "Body" : "2024-10-19",
+  "ID" : "_2024x_1_26f0132_1729339815343_125799_17258",
+  "Documentation" : "set maturity of D2_VPTI Framework Viewpoint Implementation Viewpoint and D2_VPTD Framework Viewpoint Definition Viewpoint to under construction."
+}, {
+  "Body" : "2024-10-27",
+  "ID" : "_2024x_1_26f0132_1729981785523_369115_15978",
+  "Documentation" : "Switch over to new documentation format."
+}, {
+  "Body" : "2024-10-28",
+  "ID" : "_2024x_1_26f0132_1730106332348_61349_16176",
+  "Documentation" : "<html>\n  <head>\n\t\t<style>\n\t\t\tp {padding:0px; margin:0px;}\n\t\t</style>\n\t</head>\n  <body>\nAdd dependency relationship among Standards to C2_CSTD Common Standards Definition Viewpoint, see <a href=\"https://github.com/GfSE/SAF-Specification/issues/71 \">Issue 71 </a>&#160;Stereotype:&#160;SAF_StandardDependingOn    \n<br></body>\n</html>"
+} ]

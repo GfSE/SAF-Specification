@@ -24,10 +24,10 @@ The viewpoints specify, which model elements shall be created in which kind of d
 The SAF Viewpoints are organized as a Grid featuring [Domains](domains.md) as rows and [Aspects](aspects.md) as columns.
 
 ### Domains follow engineering workflow
-The [Domains](domains.md)  are oriented by a typical engineering workflow. 
- * The [Common Domain](common.md) contains workflow overarcing content such as Terms and Standards. 
- * The [Operational Domain](operational.md) adresses information need during the concept phase (Mission Analysis and Stakeholder Requirements elicitation)
- * The [Functional Domain](functional.md) adresses information needs during the System Requirements Definition Process (The System blackbox on a conceptual level)
+The [Domains](domains.md) are based on by a typical engineering workflow. 
+ * The [Common Domain](common.md) contains workflow overarching content such as Terms and Standards. 
+ * The [Operational Domain](operational.md) addresses information need during the Business and Mission Analysis Process and Stakeholder Needs and Requirements Definition Process
+ * The [Functional Domain](functional.md) addresses information needs during the System Requirements Definition Process (The System blackbox on a conceptual level)
  * The [Logical Domain](logical.md) adresses information needs during the Architecture Definition Process (the System Whitebox on conceptual level)
  * The [Physical Domain](physical.md) adresses information needs during the Design Definition Process (the System Black Box and Whitebox on solution / design level)
 
