@@ -1,0 +1,3472 @@
+[ {
+  "ID" : "_2024x_1_26f0132_1730365541997_857506_17332",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2024x_1_26f0132_1730365417207_902857_16963",
+    "Name" : "define Stakeholders and concerns",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_26f0132_1719735528612_846205_25134",
+    "Name" : "Framework Stakeholder Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730365546958_845448_17337",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2024x_1_26f0132_1730365458784_787423_16974",
+    "Name" : "Specificy an architecture description framework",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_26f0132_1719735528612_846205_25134",
+    "Name" : "Framework Stakeholder Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730365584405_93013_17338",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_3_1f4204ca_1596789740208_318646_159235",
+    "Name" : "Business or mission analysis process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1676722868986_622372_25044",
+    "Name" : "Common Standards Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730365586774_107470_17341",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597340011797_327809_75",
+    "Name" : "Stakeholder Needs and Requirements Definition Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1676722868986_622372_25044",
+    "Name" : "Common Standards Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730365588421_454675_17346",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597340544988_988488_180",
+    "Name" : "System Requirements Definition Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1676722868986_622372_25044",
+    "Name" : "Common Standards Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730365592118_287725_17347",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597340659671_935235_225",
+    "Name" : "System Architecture Definition Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1676722868986_622372_25044",
+    "Name" : "Common Standards Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730365756708_27072_17519",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597340722632_832964_270",
+    "Name" : "Design Definition Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1676722868986_622372_25044",
+    "Name" : "Common Standards Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730365758221_730204_17520",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597340873950_398499_319",
+    "Name" : "System Analysis Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1676722868986_622372_25044",
+    "Name" : "Common Standards Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730365759070_301240_17525",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597341064226_303731_369",
+    "Name" : "Implementation Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1676722868986_622372_25044",
+    "Name" : "Common Standards Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730365759843_174637_17530",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597341133636_924653_417",
+    "Name" : "Integration Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1676722868986_622372_25044",
+    "Name" : "Common Standards Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730365760789_101191_17531",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597341202746_795440_465",
+    "Name" : "Verification Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1676722868986_622372_25044",
+    "Name" : "Common Standards Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730365761923_346833_17532",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597341253131_264613_513",
+    "Name" : "Transition Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1676722868986_622372_25044",
+    "Name" : "Common Standards Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730365763051_634475_17537",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597341304011_309505_561",
+    "Name" : "Validation Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1676722868986_622372_25044",
+    "Name" : "Common Standards Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730365764636_841786_17543",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597341435867_624500_657",
+    "Name" : "Maintenance Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1676722868986_622372_25044",
+    "Name" : "Common Standards Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730365765932_21888_17544",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597341509771_167844_705",
+    "Name" : "Disposal Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1676722868986_622372_25044",
+    "Name" : "Common Standards Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730365797971_394162_17618",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2024x_1_26f0132_1730365780955_895751_17558",
+    "Name" : "Information Management  Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1676722868986_622372_25044",
+    "Name" : "Common Standards Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730365863307_409194_17621",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597340659671_935235_225",
+    "Name" : "System Architecture Definition Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
+    "Name" : "Logical Functional Mapping Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730365940380_836823_17630",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690284820162_398019_25941",
+    "Name" : "Traceability mapping",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
+    "Name" : "Logical Functional Mapping Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730367360809_915940_18494",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597340659671_935235_225",
+    "Name" : "System Architecture Definition Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
+    "Name" : "Logical Internal Exchange Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730367399297_58957_18497",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_4_2a110596_1614849604919_22572_262",
+    "Name" : "System interface definition ",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
+    "Name" : "Logical Internal Exchange Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730367453032_867611_18501",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_4_2a110596_1614849508051_389332_250",
+    "Name" : "System architecture description",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
+    "Name" : "Logical Internal Exchange Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730367499186_627935_18502",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_4_2a110596_1614849508051_389332_250",
+    "Name" : "System architecture description",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1576222951495_184664_54882",
+    "Name" : "Logical Internal Interaction Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730367505770_413335_18505",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597340659671_935235_225",
+    "Name" : "System Architecture Definition Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1576222951495_184664_54882",
+    "Name" : "Logical Internal Interaction Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730367713703_67591_18568",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690373057497_226656_27691",
+    "Name" : "Elaborate the system architecture.",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1576222951495_184664_54882",
+    "Name" : "Logical Internal Interaction Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730367714734_939689_18571",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690373057497_226656_27691",
+    "Name" : "Elaborate the system architecture.",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
+    "Name" : "Logical Internal Exchange Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730367757166_760376_18580",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690373057497_226656_27691",
+    "Name" : "Elaborate the system architecture.",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
+    "Name" : "Logical Functional Mapping Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730367811848_699538_18581",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690372967417_178286_27687",
+    "Name" : "Conceptualize the system architecture",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
+    "Name" : "Logical Functional Mapping Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730367812877_273086_18586",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690372967417_178286_27687",
+    "Name" : "Conceptualize the system architecture",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
+    "Name" : "Logical Internal Exchange Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730367813629_49209_18591",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690372967417_178286_27687",
+    "Name" : "Conceptualize the system architecture",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1576222951495_184664_54882",
+    "Name" : "Logical Internal Interaction Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730367830420_498893_18596",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690373009871_200238_27689",
+    "Name" : "Evaluate the system architecture",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
+    "Name" : "Logical Functional Mapping Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730367831229_190675_18597",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690373009871_200238_27689",
+    "Name" : "Evaluate the system architecture",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
+    "Name" : "Logical Internal Exchange Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730367831918_10364_18598",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690373009871_200238_27689",
+    "Name" : "Evaluate the system architecture",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1576222951495_184664_54882",
+    "Name" : "Logical Internal Interaction Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730367875853_972215_18603",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597340659671_935235_225",
+    "Name" : "System Architecture Definition Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1562303526536_284838_92559",
+    "Name" : "Logical Structure Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730367876614_463116_18606",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690372967417_178286_27687",
+    "Name" : "Conceptualize the system architecture",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1562303526536_284838_92559",
+    "Name" : "Logical Structure Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730367877854_485050_18611",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690373057497_226656_27691",
+    "Name" : "Elaborate the system architecture.",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1562303526536_284838_92559",
+    "Name" : "Logical Structure Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730367878869_510848_18616",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690373009871_200238_27689",
+    "Name" : "Evaluate the system architecture",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1562303526536_284838_92559",
+    "Name" : "Logical Structure Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730367986453_391762_18625",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690282669997_98291_24631",
+    "Name" : "Characterize the solution space",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_3_8710274_1581675970682_325249_52535",
+    "Name" : "Operational Capability Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730367988524_484052_18632",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690282618103_601663_24620",
+    "Name" : "Define the problem or opportunity space",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_3_8710274_1581675970682_325249_52535",
+    "Name" : "Operational Capability Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730367994148_974483_18637",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690282685708_674992_24648",
+    "Name" : "Evaluate alternative solution classes that span the potential solution space",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_3_8710274_1581675970682_325249_52535",
+    "Name" : "Operational Capability Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730367995292_741654_18638",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_3_1f4204ca_1596789740208_318646_159235",
+    "Name" : "Business or mission analysis process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_3_8710274_1581675970682_325249_52535",
+    "Name" : "Operational Capability Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730368013045_763528_18643",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_3_1f4204ca_1596789740208_318646_159235",
+    "Name" : "Business or mission analysis process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_3_6d8019d_1603027079337_312898_286",
+    "Name" : "Operational Capability Mapping Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730368013820_472531_18646",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690282669997_98291_24631",
+    "Name" : "Characterize the solution space",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_3_6d8019d_1603027079337_312898_286",
+    "Name" : "Operational Capability Mapping Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730368014556_948207_18647",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690282618103_601663_24620",
+    "Name" : "Define the problem or opportunity space",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_3_6d8019d_1603027079337_312898_286",
+    "Name" : "Operational Capability Mapping Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730368015525_63422_18648",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690282685708_674992_24648",
+    "Name" : "Evaluate alternative solution classes that span the potential solution space",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_3_6d8019d_1603027079337_312898_286",
+    "Name" : "Operational Capability Mapping Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730368070942_574941_18661",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_3_1f4204ca_1596789740208_318646_159235",
+    "Name" : "Business or mission analysis process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1567778254489_369345_55863",
+    "Name" : "Operational Context Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730368071892_331108_18664",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690282669997_98291_24631",
+    "Name" : "Characterize the solution space",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1567778254489_369345_55863",
+    "Name" : "Operational Context Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730368072628_50399_18669",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690282618103_601663_24620",
+    "Name" : "Define the problem or opportunity space",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1567778254489_369345_55863",
+    "Name" : "Operational Context Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730368073378_956090_18670",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690282685708_674992_24648",
+    "Name" : "Evaluate alternative solution classes that span the potential solution space",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1567778254489_369345_55863",
+    "Name" : "Operational Context Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730368222033_214373_18681",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1598630589196_412329_1738",
+    "Name" : "Problem or opportunity statement",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_3_8710274_1581675970682_325249_52535",
+    "Name" : "Operational Capability Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730368244010_182251_18684",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1598630589196_412329_1738",
+    "Name" : "Problem or opportunity statement",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1567778254489_369345_55863",
+    "Name" : "Operational Context Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730368253099_552875_18687",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1598630589196_412329_1738",
+    "Name" : "Problem or opportunity statement",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1576232878029_619084_56885",
+    "Name" : "Operational Context Exchange Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730368459464_207127_18696",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_3_1f4204ca_1596789740208_318646_159235",
+    "Name" : "Business or mission analysis process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1576232878029_619084_56885",
+    "Name" : "Operational Context Exchange Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730368460641_58235_18699",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690282669997_98291_24631",
+    "Name" : "Characterize the solution space",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1576232878029_619084_56885",
+    "Name" : "Operational Context Exchange Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730368461648_678549_18704",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690282618103_601663_24620",
+    "Name" : "Define the problem or opportunity space",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1576232878029_619084_56885",
+    "Name" : "Operational Context Exchange Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730368462441_724277_18705",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690282685708_674992_24648",
+    "Name" : "Evaluate alternative solution classes that span the potential solution space",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1576232878029_619084_56885",
+    "Name" : "Operational Context Exchange Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730368475985_664287_18710",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_3_1f4204ca_1596789740208_318646_159235",
+    "Name" : "Business or mission analysis process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1561752880161_57347_50198",
+    "Name" : "Operational Context Interaction Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730368476801_240212_18713",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690282669997_98291_24631",
+    "Name" : "Characterize the solution space",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1561752880161_57347_50198",
+    "Name" : "Operational Context Interaction Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730368477921_669520_18718",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690282618103_601663_24620",
+    "Name" : "Define the problem or opportunity space",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1561752880161_57347_50198",
+    "Name" : "Operational Context Interaction Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730368478696_64004_18719",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690282685708_674992_24648",
+    "Name" : "Evaluate alternative solution classes that span the potential solution space",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1561752880161_57347_50198",
+    "Name" : "Operational Context Interaction Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730368581736_240802_18736",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1603902584180_948967_1122",
+    "Name" : "Stakeholder identification",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1567778254489_369345_55863",
+    "Name" : "Operational Context Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730368593433_180686_18739",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1603902544560_399934_1022",
+    "Name" : "Stakeholder needs and requirements",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1567778254489_369345_55863",
+    "Name" : "Operational Context Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730368756799_677760_18753",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690373696956_269587_29688",
+    "Name" : "Prepare for stakeholder needs and requirements definition",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1567778254489_369345_55863",
+    "Name" : "Operational Context Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730368760270_39981_18760",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597340011797_327809_75",
+    "Name" : "Stakeholder Needs and Requirements Definition Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1567778254489_369345_55863",
+    "Name" : "Operational Context Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730368828847_711239_18761",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690373738564_235564_29713",
+    "Name" : "Define stakeholder needs",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1561752880161_57347_50198",
+    "Name" : "Operational Context Interaction Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730368882038_969217_18764",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690373738747_373050_29714",
+    "Name" : "Develop the operational concept and other life cycle concepts",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1561752880161_57347_50198",
+    "Name" : "Operational Context Interaction Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730368901366_645060_18767",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690373738747_373050_29714",
+    "Name" : "Develop the operational concept and other life cycle concepts",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_4_26f0132_1631280350392_855780_562",
+    "Name" : "Operational Domain Item Kind Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730368904567_973049_18770",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690373738564_235564_29713",
+    "Name" : "Define stakeholder needs",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_4_26f0132_1631280350392_855780_562",
+    "Name" : "Operational Domain Item Kind Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730368918582_772403_18776",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_3_1f4204ca_1596789740208_318646_159235",
+    "Name" : "Business or mission analysis process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_4_26f0132_1631280350392_855780_562",
+    "Name" : "Operational Domain Item Kind Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730368919335_874660_18779",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690282669997_98291_24631",
+    "Name" : "Characterize the solution space",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_4_26f0132_1631280350392_855780_562",
+    "Name" : "Operational Domain Item Kind Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730368920590_951524_18780",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690282618103_601663_24620",
+    "Name" : "Define the problem or opportunity space",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_4_26f0132_1631280350392_855780_562",
+    "Name" : "Operational Domain Item Kind Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730368921863_523580_18781",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690282685708_674992_24648",
+    "Name" : "Evaluate alternative solution classes that span the potential solution space",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_4_26f0132_1631280350392_855780_562",
+    "Name" : "Operational Domain Item Kind Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730368923879_987778_18782",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597340011797_327809_75",
+    "Name" : "Stakeholder Needs and Requirements Definition Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_4_26f0132_1631280350392_855780_562",
+    "Name" : "Operational Domain Item Kind Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730368924990_13735_18783",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597340011797_327809_75",
+    "Name" : "Stakeholder Needs and Requirements Definition Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1561752880161_57347_50198",
+    "Name" : "Operational Context Interaction Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730368953695_131680_18788",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_3_1f4204ca_1596789740208_318646_159235",
+    "Name" : "Business or mission analysis process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_3_6d8019d_1599070472635_176306_252",
+    "Name" : "Operational Performer Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730368954622_710139_18791",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690282669997_98291_24631",
+    "Name" : "Characterize the solution space",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_3_6d8019d_1599070472635_176306_252",
+    "Name" : "Operational Performer Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730368955350_563397_18792",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690282618103_601663_24620",
+    "Name" : "Define the problem or opportunity space",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_3_6d8019d_1599070472635_176306_252",
+    "Name" : "Operational Performer Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730368956095_487003_18793",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690282685708_674992_24648",
+    "Name" : "Evaluate alternative solution classes that span the potential solution space",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_3_6d8019d_1599070472635_176306_252",
+    "Name" : "Operational Performer Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730368957406_543878_18798",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597340011797_327809_75",
+    "Name" : "Stakeholder Needs and Requirements Definition Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_3_6d8019d_1599070472635_176306_252",
+    "Name" : "Operational Performer Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730368958510_671769_18799",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690373696956_269587_29688",
+    "Name" : "Prepare for stakeholder needs and requirements definition",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_3_6d8019d_1599070472635_176306_252",
+    "Name" : "Operational Performer Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730368973143_216687_18800",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_3_1f4204ca_1596789740208_318646_159235",
+    "Name" : "Business or mission analysis process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_3_26f0132_1601459636216_111430_6921",
+    "Name" : "Operational Process Mapping Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730368973846_748113_18803",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690282669997_98291_24631",
+    "Name" : "Characterize the solution space",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_3_26f0132_1601459636216_111430_6921",
+    "Name" : "Operational Process Mapping Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730368974526_156095_18808",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690282618103_601663_24620",
+    "Name" : "Define the problem or opportunity space",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_3_26f0132_1601459636216_111430_6921",
+    "Name" : "Operational Process Mapping Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730368975518_549244_18813",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690282685708_674992_24648",
+    "Name" : "Evaluate alternative solution classes that span the potential solution space",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_3_26f0132_1601459636216_111430_6921",
+    "Name" : "Operational Process Mapping Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730369021068_110058_18814",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597340011797_327809_75",
+    "Name" : "Stakeholder Needs and Requirements Definition Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1565093441772_881981_49327",
+    "Name" : "Stakeholder Identification Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730369023301_291400_18815",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690373696956_269587_29688",
+    "Name" : "Prepare for stakeholder needs and requirements definition",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1565093441772_881981_49327",
+    "Name" : "Stakeholder Identification Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730369037365_436678_18816",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_3_1f4204ca_1596789740208_318646_159235",
+    "Name" : "Business or mission analysis process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1565093441772_881981_49327",
+    "Name" : "Stakeholder Identification Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730369038220_724883_18819",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690282669997_98291_24631",
+    "Name" : "Characterize the solution space",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1565093441772_881981_49327",
+    "Name" : "Stakeholder Identification Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730369039260_431010_18824",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690282618103_601663_24620",
+    "Name" : "Define the problem or opportunity space",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1565093441772_881981_49327",
+    "Name" : "Stakeholder Identification Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730369041524_307309_18829",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690282685708_674992_24648",
+    "Name" : "Evaluate alternative solution classes that span the potential solution space",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1565093441772_881981_49327",
+    "Name" : "Stakeholder Identification Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730369228004_220704_18834",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_3_1f4204ca_1596789740208_318646_159235",
+    "Name" : "Business or mission analysis process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_3_8710274_1581675958756_500127_50979",
+    "Name" : "Operational Process Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730369230405_30592_18837",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690282618103_601663_24620",
+    "Name" : "Define the problem or opportunity space",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_3_8710274_1581675958756_500127_50979",
+    "Name" : "Operational Process Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730369231061_671761_18838",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690282669997_98291_24631",
+    "Name" : "Characterize the solution space",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_3_8710274_1581675958756_500127_50979",
+    "Name" : "Operational Process Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730369232443_42604_18839",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690282685708_674992_24648",
+    "Name" : "Evaluate alternative solution classes that span the potential solution space",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_3_8710274_1581675958756_500127_50979",
+    "Name" : "Operational Process Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730369233772_69610_18844",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597340011797_327809_75",
+    "Name" : "Stakeholder Needs and Requirements Definition Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_3_8710274_1581675958756_500127_50979",
+    "Name" : "Operational Process Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730369237285_469571_18845",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690373738564_235564_29713",
+    "Name" : "Define stakeholder needs",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_3_8710274_1581675958756_500127_50979",
+    "Name" : "Operational Process Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730369298211_168154_18855",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597340011797_327809_75",
+    "Name" : "Stakeholder Needs and Requirements Definition Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1565093441772_890565_49326",
+    "Name" : "Stakeholder Requirement Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730369298987_868456_18860",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690373734295_67274_29711",
+    "Name" : "Analyze stakeholder needs and requirements",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1565093441772_890565_49326",
+    "Name" : "Stakeholder Requirement Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730369315834_470529_18865",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690373738351_773093_29712",
+    "Name" : "Transform stakeholder needs into stakeholder requirements",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1565093441772_890565_49326",
+    "Name" : "Stakeholder Requirement Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730369911523_137516_18872",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1598630589196_412329_1738",
+    "Name" : "Problem or opportunity statement",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_4_26f0132_1631280350392_855780_562",
+    "Name" : "Operational Domain Item Kind Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730369919112_461906_18875",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1598630589196_412329_1738",
+    "Name" : "Problem or opportunity statement",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_3_6d8019d_1599070472635_176306_252",
+    "Name" : "Operational Performer Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730369935903_335757_18878",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1598630589196_412329_1738",
+    "Name" : "Problem or opportunity statement",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1561750369203_901730_48359",
+    "Name" : "Operational Story Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370010919_959470_18887",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_3_1f4204ca_1596789740208_318646_159235",
+    "Name" : "Business or mission analysis process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1561750369203_901730_48359",
+    "Name" : "Operational Story Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370015222_131854_18895",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690282685708_674992_24648",
+    "Name" : "Evaluate alternative solution classes that span the potential solution space",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1561750369203_901730_48359",
+    "Name" : "Operational Story Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370016927_385512_18906",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690282669997_98291_24631",
+    "Name" : "Characterize the solution space",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1561750369203_901730_48359",
+    "Name" : "Operational Story Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370017862_350721_18911",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690282618103_601663_24620",
+    "Name" : "Define the problem or opportunity space",
+    "Type" : "Activity",
+    "Stereotype" : null
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1561750369203_901730_48359",
+    "Name" : "Operational Story Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370071862_59819_18926",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597340722632_832964_270",
+    "Name" : "Design Definition Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_1_26f0132_1547202202696_824153_42420",
+    "Name" : "Physical Context Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370090486_652513_18929",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597340722632_832964_270",
+    "Name" : "Design Definition Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1562303526536_79296_92554",
+    "Name" : "Physical Context Exchange Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370166407_433445_18936",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_4_2a110596_1621624170177_888931_2076",
+    "Name" : "System design description",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_1_26f0132_1547202202696_824153_42420",
+    "Name" : "Physical Context Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370179076_610696_18939",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_4_2a110596_1614849604919_22572_262",
+    "Name" : "System interface definition ",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_1_26f0132_1547202202696_824153_42420",
+    "Name" : "Physical Context Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370191052_588740_18940",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_4_2a110596_1621624170177_888931_2076",
+    "Name" : "System design description",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1562303526536_79296_92554",
+    "Name" : "Physical Context Exchange Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370192245_830918_18943",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_4_2a110596_1614849604919_22572_262",
+    "Name" : "System interface definition ",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1562303526536_79296_92554",
+    "Name" : "Physical Context Exchange Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370206820_411471_18944",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_4_2a110596_1614849604919_22572_262",
+    "Name" : "System interface definition ",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1695205330608_177015_24335",
+    "Name" : "Physical Interface Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370221364_589348_18947",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_4_2a110596_1621624170177_888931_2076",
+    "Name" : "System design description",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1674680950433_310726_23659",
+    "Name" : "Physical Internal Exchange Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370222484_366807_18950",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_4_2a110596_1614849604919_22572_262",
+    "Name" : "System interface definition ",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1674680950433_310726_23659",
+    "Name" : "Physical Internal Exchange Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370237685_12397_18951",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_4_2a110596_1614849713884_84710_286",
+    "Name" : "System element description",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1674680950433_310726_23659",
+    "Name" : "Physical Internal Exchange Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370263483_761225_18952",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690284820162_398019_25941",
+    "Name" : "Traceability mapping",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1698415722718_711881_60045",
+    "Name" : "Physical Logical Item Mapping Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370273052_829741_18955",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690284820162_398019_25941",
+    "Name" : "Traceability mapping",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1676724435544_523379_27331",
+    "Name" : "Physical Logical Mapping Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370301731_913013_18956",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_4_2a110596_1621624170177_888931_2076",
+    "Name" : "System design description",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_3_ebf0350_1580652072992_42812_53692",
+    "Name" : "Physical Structure Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370358165_767021_18959",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1603903151082_631336_1809",
+    "Name" : "System requirements",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_4_6d8019d_1618757838536_301313_442",
+    "Name" : "System Capability Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370368396_632529_18962",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690284820162_398019_25941",
+    "Name" : "Traceability mapping",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_6d8019d_1690628661558_769067_24257",
+    "Name" : "System Capability Mapping Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370389628_16996_18969",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1603903151082_631336_1809",
+    "Name" : "System requirements",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_6d8019d_1690628661558_769067_24257",
+    "Name" : "System Capability Mapping Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370421572_698010_18970",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1603903151082_631336_1809",
+    "Name" : "System requirements",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
+    "Name" : "System Context Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370436421_242070_18973",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1603903151082_631336_1809",
+    "Name" : "System requirements",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_4_6d8019d_1618060963677_605184_292",
+    "Name" : "System Context Exchange Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370502267_256054_18976",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_4_2a110596_1614849604919_22572_262",
+    "Name" : "System interface definition ",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1562303526536_778418_92552",
+    "Name" : "System Domain Item Kind Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370549091_563989_18979",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1603903151082_631336_1809",
+    "Name" : "System requirements",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1676723513864_806117_26880",
+    "Name" : "System Interface Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370560320_12878_18982",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_4_2a110596_1614849604919_22572_262",
+    "Name" : "System interface definition ",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1676723513864_806117_26880",
+    "Name" : "System Interface Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370570435_454545_18985",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_4_2a110596_1614849604919_22572_262",
+    "Name" : "System interface definition ",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_8710274_1567167552896_772779_54664",
+    "Name" : "System Process Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370623258_249483_18995",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1603903151082_631336_1809",
+    "Name" : "System requirements",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1565104337297_671823_55529",
+    "Name" : "System Requirement Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370637595_403214_18996",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690284820162_398019_25941",
+    "Name" : "Traceability mapping",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1565093441772_728957_49328",
+    "Name" : "System Requirement Traceability Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370677289_786747_18997",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
+    "Name" : "System Viewpoints, views and models",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_1_26f0132_1547202202696_824153_42420",
+    "Name" : "Physical Context Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370678074_881764_19000",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
+    "Name" : "System Viewpoints, views and models",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1562303526536_79296_92554",
+    "Name" : "Physical Context Exchange Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370678858_636713_19001",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
+    "Name" : "System Viewpoints, views and models",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1695205330608_177015_24335",
+    "Name" : "Physical Interface Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370680185_871095_19002",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
+    "Name" : "System Viewpoints, views and models",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1675987942868_617787_33116",
+    "Name" : "Physical Functional Mapping Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370681186_955093_19003",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
+    "Name" : "System Viewpoints, views and models",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1674680950433_310726_23659",
+    "Name" : "Physical Internal Exchange Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370681898_217701_19004",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
+    "Name" : "System Viewpoints, views and models",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1698415722718_711881_60045",
+    "Name" : "Physical Logical Item Mapping Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370682579_583892_19005",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
+    "Name" : "System Viewpoints, views and models",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1676724435544_523379_27331",
+    "Name" : "Physical Logical Mapping Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370683257_576198_19006",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
+    "Name" : "System Viewpoints, views and models",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_3_ebf0350_1580652072992_42812_53692",
+    "Name" : "Physical Structure Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370683947_339522_19007",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
+    "Name" : "System Viewpoints, views and models",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1565093441772_890565_49326",
+    "Name" : "Stakeholder Requirement Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370684755_911664_19008",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
+    "Name" : "System Viewpoints, views and models",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1565093441772_881981_49327",
+    "Name" : "Stakeholder Identification Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370685818_707517_19009",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
+    "Name" : "System Viewpoints, views and models",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_4_6d8019d_1618757838536_301313_442",
+    "Name" : "System Capability Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370687266_237928_19011",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
+    "Name" : "System Viewpoints, views and models",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_4_6d8019d_1618060963677_605184_292",
+    "Name" : "System Context Exchange Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370689962_37230_19012",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
+    "Name" : "System Viewpoints, views and models",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_6d8019d_1690628661558_769067_24257",
+    "Name" : "System Capability Mapping Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370690690_809093_19013",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
+    "Name" : "System Viewpoints, views and models",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
+    "Name" : "System Context Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370691498_268029_19014",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
+    "Name" : "System Viewpoints, views and models",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_4_26f0132_1626790419043_61789_443",
+    "Name" : "System Context Interaction Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370692226_108196_19015",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
+    "Name" : "System Viewpoints, views and models",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1562303526536_778418_92552",
+    "Name" : "System Domain Item Kind Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370692953_183171_19016",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
+    "Name" : "System Viewpoints, views and models",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_4_26f0132_1629448496383_291730_10342",
+    "Name" : "System Functional Breakdown Structure Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370693898_372019_19017",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
+    "Name" : "System Viewpoints, views and models",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1676723513864_806117_26880",
+    "Name" : "System Interface Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370694762_299344_19018",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
+    "Name" : "System Viewpoints, views and models",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1676723256334_812178_26576",
+    "Name" : "System Functional Refinement Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370695700_641294_19019",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
+    "Name" : "System Viewpoints, views and models",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_8710274_1567167552896_772779_54664",
+    "Name" : "System Process Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370696824_529537_19020",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
+    "Name" : "System Viewpoints, views and models",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1565093441772_728957_49328",
+    "Name" : "System Requirement Traceability Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370699673_770755_19021",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
+    "Name" : "System Viewpoints, views and models",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1561750369203_901730_48359",
+    "Name" : "Operational Story Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370701394_271075_19022",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
+    "Name" : "System Viewpoints, views and models",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_3_8710274_1581675958756_500127_50979",
+    "Name" : "Operational Process Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370702170_351605_19023",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
+    "Name" : "System Viewpoints, views and models",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_3_26f0132_1601459636216_111430_6921",
+    "Name" : "Operational Process Mapping Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370706779_653167_19024",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
+    "Name" : "System Viewpoints, views and models",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
+    "Name" : "Logical Functional Mapping Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370707482_92281_19025",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
+    "Name" : "System Viewpoints, views and models",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
+    "Name" : "Logical Internal Exchange Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370708154_11423_19026",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
+    "Name" : "System Viewpoints, views and models",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1576222951495_184664_54882",
+    "Name" : "Logical Internal Interaction Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370708861_613290_19027",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
+    "Name" : "System Viewpoints, views and models",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1562303526536_284838_92559",
+    "Name" : "Logical Structure Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370710977_530353_19029",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
+    "Name" : "System Viewpoints, views and models",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_3_6d8019d_1603027079337_312898_286",
+    "Name" : "Operational Capability Mapping Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370711642_513922_19030",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
+    "Name" : "System Viewpoints, views and models",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_3_8710274_1581675970682_325249_52535",
+    "Name" : "Operational Capability Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370713170_974580_19031",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
+    "Name" : "System Viewpoints, views and models",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1576232878029_619084_56885",
+    "Name" : "Operational Context Exchange Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370714147_705596_19032",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
+    "Name" : "System Viewpoints, views and models",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1567778254489_369345_55863",
+    "Name" : "Operational Context Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370715081_992527_19033",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
+    "Name" : "System Viewpoints, views and models",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1561752880161_57347_50198",
+    "Name" : "Operational Context Interaction Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370715754_43144_19034",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
+    "Name" : "System Viewpoints, views and models",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_4_26f0132_1631280350392_855780_562",
+    "Name" : "Operational Domain Item Kind Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370716427_5069_19035",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
+    "Name" : "System Viewpoints, views and models",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_3_6d8019d_1599070472635_176306_252",
+    "Name" : "Operational Performer Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370731075_775772_19037",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
+    "Name" : "System Viewpoints, views and models",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1565104337297_671823_55529",
+    "Name" : "System Requirement Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370732011_839462_19038",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
+    "Name" : "System Viewpoints, views and models",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1562303526536_189439_92549",
+    "Name" : "System State Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370733042_47986_19039",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
+    "Name" : "System Viewpoints, views and models",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_1_26f0132_1554446728606_740631_45702",
+    "Name" : "System Use Case Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370764121_398862_19040",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1603903151082_631336_1809",
+    "Name" : "System requirements",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_1_26f0132_1554446728606_740631_45702",
+    "Name" : "System Use Case Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370787391_64185_19043",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_4_2a110596_1621624170177_888931_2076",
+    "Name" : "System design description",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1695205330608_177015_24335",
+    "Name" : "Physical Interface Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370798121_409322_19046",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690284820162_398019_25941",
+    "Name" : "Traceability mapping",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1675987942868_617787_33116",
+    "Name" : "Physical Functional Mapping Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370865088_842221_19047",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_4_2a110596_1614849508051_389332_250",
+    "Name" : "System architecture description",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1562303526536_284838_92559",
+    "Name" : "Logical Structure Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370903183_211778_19055",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_4_2a110596_1614849508051_389332_250",
+    "Name" : "System architecture description",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
+    "Name" : "System Context Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370905048_248580_19056",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_4_2a110596_1614849508051_389332_250",
+    "Name" : "System architecture description",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_4_6d8019d_1618060963677_605184_292",
+    "Name" : "System Context Exchange Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370906392_619874_19057",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_4_2a110596_1614849508051_389332_250",
+    "Name" : "System architecture description",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_4_26f0132_1626790419043_61789_443",
+    "Name" : "System Context Interaction Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370908107_972610_19058",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_4_2a110596_1614849508051_389332_250",
+    "Name" : "System architecture description",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1562303526536_778418_92552",
+    "Name" : "System Domain Item Kind Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370908855_256815_19059",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_4_2a110596_1614849508051_389332_250",
+    "Name" : "System architecture description",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_4_26f0132_1629448496383_291730_10342",
+    "Name" : "System Functional Breakdown Structure Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370909559_691382_19060",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_4_2a110596_1614849508051_389332_250",
+    "Name" : "System architecture description",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1676723256334_812178_26576",
+    "Name" : "System Functional Refinement Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370911033_389579_19061",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_4_2a110596_1614849508051_389332_250",
+    "Name" : "System architecture description",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1676723513864_806117_26880",
+    "Name" : "System Interface Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370911991_680040_19062",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_4_2a110596_1614849508051_389332_250",
+    "Name" : "System architecture description",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_8710274_1567167552896_772779_54664",
+    "Name" : "System Process Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370913368_647616_19063",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_4_2a110596_1614849508051_389332_250",
+    "Name" : "System architecture description",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1562303526536_189439_92549",
+    "Name" : "System State Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370914447_525860_19064",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_4_2a110596_1614849508051_389332_250",
+    "Name" : "System architecture description",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_1_26f0132_1554446728606_740631_45702",
+    "Name" : "System Use Case Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370951087_203470_19065",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_4_2a110596_1614849508051_389332_250",
+    "Name" : "System architecture description",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
+    "Name" : "Logical Functional Mapping Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730370983263_1696_19068",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1603902584180_948967_1122",
+    "Name" : "Stakeholder identification",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1565093441772_881981_49327",
+    "Name" : "Stakeholder Identification Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730371001359_369863_19070",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1603902544560_399934_1022",
+    "Name" : "Stakeholder needs and requirements",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1565093441772_890565_49326",
+    "Name" : "Stakeholder Requirement Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730371050614_799032_19076",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690364220532_62469_25071",
+    "Name" : "Breakdown structures",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_3_ebf0350_1580652072992_42812_53692",
+    "Name" : "Physical Structure Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730371057639_898506_19079",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690364220532_62469_25071",
+    "Name" : "Breakdown structures",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_4_26f0132_1629448496383_291730_10342",
+    "Name" : "System Functional Breakdown Structure Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730371073925_145793_19080",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690364220532_62469_25071",
+    "Name" : "Breakdown structures",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1562303526536_284838_92559",
+    "Name" : "Logical Structure Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730371118318_947049_19081",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1598628888010_753846_40",
+    "Name" : "Concept of operations(ConOps)",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1567778254489_369345_55863",
+    "Name" : "Operational Context Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730371122100_396542_19084",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1598628888010_753846_40",
+    "Name" : "Concept of operations(ConOps)",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1576232878029_619084_56885",
+    "Name" : "Operational Context Exchange Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730371125326_554894_19085",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1598628888010_753846_40",
+    "Name" : "Concept of operations(ConOps)",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1561752880161_57347_50198",
+    "Name" : "Operational Context Interaction Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730371126902_337993_19086",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1598628888010_753846_40",
+    "Name" : "Concept of operations(ConOps)",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_4_26f0132_1631280350392_855780_562",
+    "Name" : "Operational Domain Item Kind Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730371130422_633586_19087",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1598628888010_753846_40",
+    "Name" : "Concept of operations(ConOps)",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_3_6d8019d_1599070472635_176306_252",
+    "Name" : "Operational Performer Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730371133974_358326_19088",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1598628888010_753846_40",
+    "Name" : "Concept of operations(ConOps)",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_3_26f0132_1601459636216_111430_6921",
+    "Name" : "Operational Process Mapping Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730371135645_25683_19089",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1598628888010_753846_40",
+    "Name" : "Concept of operations(ConOps)",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_3_8710274_1581675958756_500127_50979",
+    "Name" : "Operational Process Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730371137422_667782_19090",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1598628888010_753846_40",
+    "Name" : "Concept of operations(ConOps)",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1561750369203_901730_48359",
+    "Name" : "Operational Story Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730371142254_173462_19091",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1598628888010_753846_40",
+    "Name" : "Concept of operations(ConOps)",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_3_8710274_1581675970682_325249_52535",
+    "Name" : "Operational Capability Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730371143101_86494_19092",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1598628888010_753846_40",
+    "Name" : "Concept of operations(ConOps)",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_3_6d8019d_1603027079337_312898_286",
+    "Name" : "Operational Capability Mapping Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730371181157_119558_19093",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690283633605_825807_24833",
+    "Name" : "Constraints on solution",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1561750369203_901730_48359",
+    "Name" : "Operational Story Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730371193373_102399_19098",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690283633605_825807_24833",
+    "Name" : "Constraints on solution",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1565093441772_881981_49327",
+    "Name" : "Stakeholder Identification Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730371194204_415355_19099",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690283633605_825807_24833",
+    "Name" : "Constraints on solution",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1565093441772_890565_49326",
+    "Name" : "Stakeholder Requirement Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730371204862_80009_19100",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690284273075_243840_25489",
+    "Name" : "Critical performance measurement needs",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1565093441772_881981_49327",
+    "Name" : "Stakeholder Identification Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730371205589_612334_19103",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690284273075_243840_25489",
+    "Name" : "Critical performance measurement needs",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1565093441772_890565_49326",
+    "Name" : "Stakeholder Requirement Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730371223149_563787_19104",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690365554832_424700_25343",
+    "Name" : "Enabling systems",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1565093441772_890565_49326",
+    "Name" : "Stakeholder Requirement Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730371223877_446766_19107",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690365554832_424700_25343",
+    "Name" : "Enabling systems",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1565093441772_881981_49327",
+    "Name" : "Stakeholder Identification Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730371236821_820894_19108",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690365554832_424700_25343",
+    "Name" : "Enabling systems",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1567778254489_369345_55863",
+    "Name" : "Operational Context Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730371246053_229122_19111",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690365554832_424700_25343",
+    "Name" : "Enabling systems",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
+    "Name" : "System Context Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730371250549_838104_19112",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690365554832_424700_25343",
+    "Name" : "Enabling systems",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_4_6d8019d_1618060963677_605184_292",
+    "Name" : "System Context Exchange Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730371284119_346387_19113",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1603902432407_526249_104",
+    "Name" : "Life Cycle Concepts",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1561750369203_901730_48359",
+    "Name" : "Operational Story Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730371354261_969050_19117",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690368931665_147570_25862",
+    "Name" : "Standards",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1676722868986_622372_25044",
+    "Name" : "Common Standards Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730371355667_837620_19120",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690368931665_147570_25862",
+    "Name" : "Standards",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1701349408071_720270_88478",
+    "Name" : "Common Terms Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730371413212_114214_19134",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_4_2a110596_1621624170177_888931_2076",
+    "Name" : "System design description",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1675987942868_617787_33116",
+    "Name" : "Physical Functional Mapping Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730371418611_155937_19135",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_4_2a110596_1621624170177_888931_2076",
+    "Name" : "System design description",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1698415722718_711881_60045",
+    "Name" : "Physical Logical Item Mapping Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730371422475_939210_19136",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_4_2a110596_1621624170177_888931_2076",
+    "Name" : "System design description",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1676724435544_523379_27331",
+    "Name" : "Physical Logical Mapping Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730371440971_40736_19137",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_4_2a110596_1614849713884_84710_286",
+    "Name" : "System element description",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_1_26f0132_1547202202696_824153_42420",
+    "Name" : "Physical Context Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730371442203_640801_19140",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_4_2a110596_1614849713884_84710_286",
+    "Name" : "System element description",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1562303526536_79296_92554",
+    "Name" : "Physical Context Exchange Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730371443260_523970_19141",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_4_2a110596_1614849713884_84710_286",
+    "Name" : "System element description",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1675987942868_617787_33116",
+    "Name" : "Physical Functional Mapping Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730371443948_298629_19142",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_4_2a110596_1614849713884_84710_286",
+    "Name" : "System element description",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1695205330608_177015_24335",
+    "Name" : "Physical Interface Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730371444618_600335_19143",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_4_2a110596_1614849713884_84710_286",
+    "Name" : "System element description",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1698415722718_711881_60045",
+    "Name" : "Physical Logical Item Mapping Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730371445363_52307_19144",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_4_2a110596_1614849713884_84710_286",
+    "Name" : "System element description",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1676724435544_523379_27331",
+    "Name" : "Physical Logical Mapping Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730371446083_109406_19145",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_4_2a110596_1614849713884_84710_286",
+    "Name" : "System element description",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_3_ebf0350_1580652072992_42812_53692",
+    "Name" : "Physical Structure Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730371537391_182290_19161",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597340722632_832964_270",
+    "Name" : "Design Definition Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1675987942868_617787_33116",
+    "Name" : "Physical Functional Mapping Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730371545283_475316_19164",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597340722632_832964_270",
+    "Name" : "Design Definition Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1695205330608_177015_24335",
+    "Name" : "Physical Interface Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730371556643_367777_19165",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597340722632_832964_270",
+    "Name" : "Design Definition Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1674680950433_310726_23659",
+    "Name" : "Physical Internal Exchange Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730371617931_131108_19170",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597340722632_832964_270",
+    "Name" : "Design Definition Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1698415722718_711881_60045",
+    "Name" : "Physical Logical Item Mapping Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730371632849_880017_19171",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597340722632_832964_270",
+    "Name" : "Design Definition Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1676724435544_523379_27331",
+    "Name" : "Physical Logical Mapping Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730371644522_878991_19180",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597340722632_832964_270",
+    "Name" : "Design Definition Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_3_ebf0350_1580652072992_42812_53692",
+    "Name" : "Physical Structure Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730402925087_828498_19434",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2024x_1_26f0132_1730365780955_895751_17558",
+    "Name" : "Information Management  Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1701349408071_720270_88478",
+    "Name" : "Common Terms Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730402952070_962776_19447",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_3_1f4204ca_1596789740208_318646_159235",
+    "Name" : "Business or mission analysis process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1701349408071_720270_88478",
+    "Name" : "Common Terms Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730402955134_939413_19450",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597340011797_327809_75",
+    "Name" : "Stakeholder Needs and Requirements Definition Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1701349408071_720270_88478",
+    "Name" : "Common Terms Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730402967150_984772_19463",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597340544988_988488_180",
+    "Name" : "System Requirements Definition Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1701349408071_720270_88478",
+    "Name" : "Common Terms Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730402968798_766776_19466",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597340659671_935235_225",
+    "Name" : "System Architecture Definition Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1701349408071_720270_88478",
+    "Name" : "Common Terms Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730402969982_713241_19471",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597340722632_832964_270",
+    "Name" : "Design Definition Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1701349408071_720270_88478",
+    "Name" : "Common Terms Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730402973062_215293_19474",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597340873950_398499_319",
+    "Name" : "System Analysis Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1701349408071_720270_88478",
+    "Name" : "Common Terms Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730402977479_569411_19485",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597341064226_303731_369",
+    "Name" : "Implementation Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1701349408071_720270_88478",
+    "Name" : "Common Terms Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730402980913_759416_19492",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597341133636_924653_417",
+    "Name" : "Integration Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1701349408071_720270_88478",
+    "Name" : "Common Terms Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730402984550_248817_19499",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597341202746_795440_465",
+    "Name" : "Verification Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1701349408071_720270_88478",
+    "Name" : "Common Terms Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730402991054_552349_19506",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597341253131_264613_513",
+    "Name" : "Transition Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1701349408071_720270_88478",
+    "Name" : "Common Terms Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730402993054_472921_19513",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597341304011_309505_561",
+    "Name" : "Validation Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1701349408071_720270_88478",
+    "Name" : "Common Terms Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730402998599_430103_19518",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597341363787_932225_609",
+    "Name" : "Operation Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1701349408071_720270_88478",
+    "Name" : "Common Terms Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730402999270_299823_19523",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597341363787_932225_609",
+    "Name" : "Operation Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1676722868986_622372_25044",
+    "Name" : "Common Standards Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730403005319_964960_19536",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597341435867_624500_657",
+    "Name" : "Maintenance Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1701349408071_720270_88478",
+    "Name" : "Common Terms Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730403006367_449998_19539",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597341509771_167844_705",
+    "Name" : "Disposal Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1701349408071_720270_88478",
+    "Name" : "Common Terms Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730404817134_863028_19568",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597340544988_988488_180",
+    "Name" : "System Requirements Definition Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1562303526536_189439_92549",
+    "Name" : "System State Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730404825354_374685_19569",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597340544988_988488_180",
+    "Name" : "System Requirements Definition Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_1_26f0132_1554446728606_740631_45702",
+    "Name" : "System Use Case Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730404931138_484743_19570",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597340544988_988488_180",
+    "Name" : "System Requirements Definition Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_4_6d8019d_1618757838536_301313_442",
+    "Name" : "System Capability Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730404932234_774647_19571",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597340544988_988488_180",
+    "Name" : "System Requirements Definition Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_6d8019d_1690628661558_769067_24257",
+    "Name" : "System Capability Mapping Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730404940522_634069_19576",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597340544988_988488_180",
+    "Name" : "System Requirements Definition Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
+    "Name" : "System Context Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730404943353_947363_19577",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597340544988_988488_180",
+    "Name" : "System Requirements Definition Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_4_6d8019d_1618060963677_605184_292",
+    "Name" : "System Context Exchange Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730404949785_75419_19582",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597340544988_988488_180",
+    "Name" : "System Requirements Definition Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_4_26f0132_1626790419043_61789_443",
+    "Name" : "System Context Interaction Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730404950906_548435_19583",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597340544988_988488_180",
+    "Name" : "System Requirements Definition Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1562303526536_778418_92552",
+    "Name" : "System Domain Item Kind Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730404953122_884328_19592",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597340544988_988488_180",
+    "Name" : "System Requirements Definition Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_4_26f0132_1629448496383_291730_10342",
+    "Name" : "System Functional Breakdown Structure Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730404954025_364152_19593",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597340544988_988488_180",
+    "Name" : "System Requirements Definition Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1676723256334_812178_26576",
+    "Name" : "System Functional Refinement Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730404959281_339104_19598",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597340544988_988488_180",
+    "Name" : "System Requirements Definition Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1676723513864_806117_26880",
+    "Name" : "System Interface Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730404960825_559210_19599",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597340544988_988488_180",
+    "Name" : "System Requirements Definition Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_8710274_1567167552896_772779_54664",
+    "Name" : "System Process Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730404963826_718521_19600",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597340544988_988488_180",
+    "Name" : "System Requirements Definition Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1565104337297_671823_55529",
+    "Name" : "System Requirement Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730404968383_476535_19601",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597340544988_988488_180",
+    "Name" : "System Requirements Definition Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1565093441772_728957_49328",
+    "Name" : "System Requirement Traceability Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730405112192_767601_19612",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597340011797_327809_75",
+    "Name" : "Stakeholder Needs and Requirements Definition Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_6d8019d_1690628661558_769067_24257",
+    "Name" : "System Capability Mapping Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730405112999_633940_19617",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597340011797_327809_75",
+    "Name" : "Stakeholder Needs and Requirements Definition Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_4_6d8019d_1618757838536_301313_442",
+    "Name" : "System Capability Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730405239176_492138_19626",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690364175390_70349_25069",
+    "Name" : "Applicable laws and regulations",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1676722868986_622372_25044",
+    "Name" : "Common Standards Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730405240824_967979_19629",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690364175390_70349_25069",
+    "Name" : "Applicable laws and regulations",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1701349408071_720270_88478",
+    "Name" : "Common Terms Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730406516284_311457_19991",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_4_2a110596_1614849604919_22572_262",
+    "Name" : "System interface definition ",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_4_6d8019d_1618060963677_605184_292",
+    "Name" : "System Context Exchange Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730408446040_512976_21649",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597906015665_585675_54",
+    "Name" : "Project constraints",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1565093441772_890565_49326",
+    "Name" : "Stakeholder Requirement Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730408543520_972112_21652",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_4_2a110596_1614849508051_389332_250",
+    "Name" : "System architecture description",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_2021x_2_8710274_1676724435544_523379_27331",
+    "Name" : "Physical Logical Mapping Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730408615280_874372_21655",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1603903284314_660461_1924",
+    "Name" : "Verification Criteria",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_2_26f0132_1565104337297_671823_55529",
+    "Name" : "System Requirement Definition Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730410451337_777082_23406",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1603902432407_526249_104",
+    "Name" : "Life Cycle Concepts",
+    "Type" : "Class",
+    "Stereotype" : "Information Item"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_3_8710274_1581675958756_500127_50979",
+    "Name" : "Operational Process Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730411047968_639878_23426",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597340011797_327809_75",
+    "Name" : "Stakeholder Needs and Requirements Definition Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_1_26f0132_1554446728606_740631_45702",
+    "Name" : "System Use Case Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_1_26f0132_1730411058936_345246_23431",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597340011797_327809_75",
+    "Name" : "Stakeholder Needs and Requirements Definition Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
+    "Name" : "System Context Definition Viewpoint"
+  }
+} ]
