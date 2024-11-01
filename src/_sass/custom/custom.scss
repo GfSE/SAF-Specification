@@ -1,26 +1,36 @@
-.side-bar {
-  width: 20rem;
- }
+@media (min-width: 50rem) and (max-width:66.5rem) {
+  .side-bar {
+    width: 20rem;
+  }
 
- .site-nav {
-  width: 20rem;
- }
+  .site-nav {
+    width: 20rem;
+  }
 
-
- 
- @media (min-width: 66.5rem) {
-   .main {
+  .main {
     margin-left: 20rem !important;
     max-width: 80% !important;
   }
 }
 
-@media (min-width: 50rem) {
+@media (min-width: 66.5rem) {
   .main {
-   margin-left: 20rem !important;
-   max-width: 80% !important;
- }
+    margin-left: 26rem !important;
+    max-width: 80% !important;
+  }
+
+  .site-nav {
+    width: 26rem !important;
+  }
+
+  .side-bar {
+    width: 26rem !important;
+  }
 }
+
+
+
+
 
 
 .flex-container {
@@ -41,11 +51,11 @@
   color: #000000;
   border-radius: 5px;
   text-decoration: none;
-}  
+}
 
 .flex-child:first-child {
   margin-right: 20px;
-} 
+}
 
 .flex-child:active,
 .flex-child:hover,
@@ -54,13 +64,13 @@
 }
 
 @media (max-width: 800px) {
-.flex-container  {
+  .flex-container {
     display: block;
   }
 }
 
 @media (max-width: 500px) {
-.flex-child  .mobile-ln {
+  .flex-child .mobile-ln {
     display: block;
   }
 }
@@ -108,14 +118,36 @@
 
 .stdreftable {
 
-  tr td:nth-child(1) { width: fit-content; white-space: nowrap; }
-/*tr td:nth-child(2) { width: auto; } not needed */
-tr td:nth-child(3) { width: fit-content; white-space: nowrap; }
-tr td:nth-child(4) { width: fit-content; white-space: nowrap; }
+  tr td:nth-child(1) {
+    width: fit-content;
+    white-space: nowrap;
+  }
 
-tr th:nth-child(1) { width: fit-content; white-space: nowrap; }
-/*tr th:nth-child(2) { width: auto; } not needed  */
-tr th:nth-child(3) { width: fit-content; white-space: nowrap; }
-tr th:nth-child(4) { width: fit-content; white-space: nowrap; }
+  /*tr td:nth-child(2) { width: auto; } not needed */
+  tr td:nth-child(3) {
+    width: fit-content;
+    white-space: nowrap;
+  }
+
+  tr td:nth-child(4) {
+    width: fit-content;
+    white-space: nowrap;
+  }
+
+  tr th:nth-child(1) {
+    width: fit-content;
+    white-space: nowrap;
+  }
+
+  /*tr th:nth-child(2) { width: auto; } not needed  */
+  tr th:nth-child(3) {
+    width: fit-content;
+    white-space: nowrap;
+  }
+
+  tr th:nth-child(4) {
+    width: fit-content;
+    white-space: nowrap;
+  }
 
 }
