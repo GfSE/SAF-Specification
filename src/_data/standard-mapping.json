@@ -5,7 +5,9 @@
     "ID" : "_2024x_1_26f0132_1730365417207_902857_16963",
     "Name" : "define Stakeholders and concerns",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 42010",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_2024x_26f0132_1719735528612_846205_25134",
@@ -18,7 +20,9 @@
     "ID" : "_2024x_1_26f0132_1730365458784_787423_16974",
     "Name" : "Specificy an architecture description framework",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 42010",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_2024x_26f0132_1719735528612_846205_25134",
@@ -31,7 +35,9 @@
     "ID" : "_19_0_3_1f4204ca_1596789740208_318646_159235",
     "Name" : "Business or mission analysis process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676722868986_622372_25044",
@@ -44,7 +50,9 @@
     "ID" : "_19_0_2_3746066c_1597340011797_327809_75",
     "Name" : "Stakeholder Needs and Requirements Definition Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676722868986_622372_25044",
@@ -57,7 +65,9 @@
     "ID" : "_19_0_2_3746066c_1597340544988_988488_180",
     "Name" : "System Requirements Definition Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676722868986_622372_25044",
@@ -70,7 +80,9 @@
     "ID" : "_19_0_2_3746066c_1597340659671_935235_225",
     "Name" : "System Architecture Definition Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676722868986_622372_25044",
@@ -83,7 +95,9 @@
     "ID" : "_19_0_2_3746066c_1597340722632_832964_270",
     "Name" : "Design Definition Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676722868986_622372_25044",
@@ -96,7 +110,9 @@
     "ID" : "_19_0_2_3746066c_1597340873950_398499_319",
     "Name" : "System Analysis Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676722868986_622372_25044",
@@ -109,7 +125,9 @@
     "ID" : "_19_0_2_3746066c_1597341064226_303731_369",
     "Name" : "Implementation Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676722868986_622372_25044",
@@ -122,7 +140,9 @@
     "ID" : "_19_0_2_3746066c_1597341133636_924653_417",
     "Name" : "Integration Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676722868986_622372_25044",
@@ -135,7 +155,9 @@
     "ID" : "_19_0_2_3746066c_1597341202746_795440_465",
     "Name" : "Verification Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676722868986_622372_25044",
@@ -148,7 +170,9 @@
     "ID" : "_19_0_2_3746066c_1597341253131_264613_513",
     "Name" : "Transition Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676722868986_622372_25044",
@@ -161,7 +185,9 @@
     "ID" : "_19_0_2_3746066c_1597341304011_309505_561",
     "Name" : "Validation Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676722868986_622372_25044",
@@ -174,7 +200,9 @@
     "ID" : "_19_0_2_3746066c_1597341435867_624500_657",
     "Name" : "Maintenance Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676722868986_622372_25044",
@@ -187,7 +215,9 @@
     "ID" : "_19_0_2_3746066c_1597341509771_167844_705",
     "Name" : "Disposal Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676722868986_622372_25044",
@@ -200,7 +230,9 @@
     "ID" : "_2024x_1_26f0132_1730365780955_895751_17558",
     "Name" : "Information Management  Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676722868986_622372_25044",
@@ -213,7 +245,9 @@
     "ID" : "_19_0_2_3746066c_1597340659671_935235_225",
     "Name" : "System Architecture Definition Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
@@ -226,7 +260,9 @@
     "ID" : "_2021x_2_8710274_1690284820162_398019_25941",
     "Name" : "Traceability mapping",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
@@ -239,7 +275,9 @@
     "ID" : "_19_0_2_3746066c_1597340659671_935235_225",
     "Name" : "System Architecture Definition Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
@@ -252,7 +290,9 @@
     "ID" : "_19_0_4_2a110596_1614849604919_22572_262",
     "Name" : "System interface definition ",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
@@ -265,7 +305,9 @@
     "ID" : "_19_0_4_2a110596_1614849508051_389332_250",
     "Name" : "System architecture description",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
@@ -278,7 +320,9 @@
     "ID" : "_19_0_4_2a110596_1614849508051_389332_250",
     "Name" : "System architecture description",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1576222951495_184664_54882",
@@ -291,7 +335,9 @@
     "ID" : "_19_0_2_3746066c_1597340659671_935235_225",
     "Name" : "System Architecture Definition Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1576222951495_184664_54882",
@@ -304,7 +350,9 @@
     "ID" : "_2021x_2_8710274_1690373057497_226656_27691",
     "Name" : "Elaborate the system architecture.",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1576222951495_184664_54882",
@@ -317,7 +365,9 @@
     "ID" : "_2021x_2_8710274_1690373057497_226656_27691",
     "Name" : "Elaborate the system architecture.",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
@@ -330,7 +380,9 @@
     "ID" : "_2021x_2_8710274_1690373057497_226656_27691",
     "Name" : "Elaborate the system architecture.",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
@@ -343,7 +395,9 @@
     "ID" : "_2021x_2_8710274_1690372967417_178286_27687",
     "Name" : "Conceptualize the system architecture",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
@@ -356,7 +410,9 @@
     "ID" : "_2021x_2_8710274_1690372967417_178286_27687",
     "Name" : "Conceptualize the system architecture",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
@@ -369,7 +425,9 @@
     "ID" : "_2021x_2_8710274_1690372967417_178286_27687",
     "Name" : "Conceptualize the system architecture",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1576222951495_184664_54882",
@@ -382,7 +440,9 @@
     "ID" : "_2021x_2_8710274_1690373009871_200238_27689",
     "Name" : "Evaluate the system architecture",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
@@ -395,7 +455,9 @@
     "ID" : "_2021x_2_8710274_1690373009871_200238_27689",
     "Name" : "Evaluate the system architecture",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
@@ -408,7 +470,9 @@
     "ID" : "_2021x_2_8710274_1690373009871_200238_27689",
     "Name" : "Evaluate the system architecture",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1576222951495_184664_54882",
@@ -421,7 +485,9 @@
     "ID" : "_19_0_2_3746066c_1597340659671_935235_225",
     "Name" : "System Architecture Definition Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1562303526536_284838_92559",
@@ -434,7 +500,9 @@
     "ID" : "_2021x_2_8710274_1690372967417_178286_27687",
     "Name" : "Conceptualize the system architecture",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1562303526536_284838_92559",
@@ -447,7 +515,9 @@
     "ID" : "_2021x_2_8710274_1690373057497_226656_27691",
     "Name" : "Elaborate the system architecture.",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1562303526536_284838_92559",
@@ -460,7 +530,9 @@
     "ID" : "_2021x_2_8710274_1690373009871_200238_27689",
     "Name" : "Evaluate the system architecture",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1562303526536_284838_92559",
@@ -473,7 +545,9 @@
     "ID" : "_2021x_2_8710274_1690282669997_98291_24631",
     "Name" : "Characterize the solution space",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_8710274_1581675970682_325249_52535",
@@ -486,7 +560,9 @@
     "ID" : "_2021x_2_8710274_1690282618103_601663_24620",
     "Name" : "Define the problem or opportunity space",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_8710274_1581675970682_325249_52535",
@@ -499,7 +575,9 @@
     "ID" : "_2021x_2_8710274_1690282685708_674992_24648",
     "Name" : "Evaluate alternative solution classes that span the potential solution space",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_8710274_1581675970682_325249_52535",
@@ -512,7 +590,9 @@
     "ID" : "_19_0_3_1f4204ca_1596789740208_318646_159235",
     "Name" : "Business or mission analysis process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_8710274_1581675970682_325249_52535",
@@ -525,7 +605,9 @@
     "ID" : "_19_0_3_1f4204ca_1596789740208_318646_159235",
     "Name" : "Business or mission analysis process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_6d8019d_1603027079337_312898_286",
@@ -538,7 +620,9 @@
     "ID" : "_2021x_2_8710274_1690282669997_98291_24631",
     "Name" : "Characterize the solution space",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_6d8019d_1603027079337_312898_286",
@@ -551,7 +635,9 @@
     "ID" : "_2021x_2_8710274_1690282618103_601663_24620",
     "Name" : "Define the problem or opportunity space",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_6d8019d_1603027079337_312898_286",
@@ -564,7 +650,9 @@
     "ID" : "_2021x_2_8710274_1690282685708_674992_24648",
     "Name" : "Evaluate alternative solution classes that span the potential solution space",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_6d8019d_1603027079337_312898_286",
@@ -577,7 +665,9 @@
     "ID" : "_19_0_3_1f4204ca_1596789740208_318646_159235",
     "Name" : "Business or mission analysis process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1567778254489_369345_55863",
@@ -590,7 +680,9 @@
     "ID" : "_2021x_2_8710274_1690282669997_98291_24631",
     "Name" : "Characterize the solution space",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1567778254489_369345_55863",
@@ -603,7 +695,9 @@
     "ID" : "_2021x_2_8710274_1690282618103_601663_24620",
     "Name" : "Define the problem or opportunity space",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1567778254489_369345_55863",
@@ -616,7 +710,9 @@
     "ID" : "_2021x_2_8710274_1690282685708_674992_24648",
     "Name" : "Evaluate alternative solution classes that span the potential solution space",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1567778254489_369345_55863",
@@ -629,7 +725,9 @@
     "ID" : "_19_0_2_3746066c_1598630589196_412329_1738",
     "Name" : "Problem or opportunity statement",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_8710274_1581675970682_325249_52535",
@@ -642,7 +740,9 @@
     "ID" : "_19_0_2_3746066c_1598630589196_412329_1738",
     "Name" : "Problem or opportunity statement",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1567778254489_369345_55863",
@@ -655,7 +755,9 @@
     "ID" : "_19_0_2_3746066c_1598630589196_412329_1738",
     "Name" : "Problem or opportunity statement",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1576232878029_619084_56885",
@@ -668,7 +770,9 @@
     "ID" : "_19_0_3_1f4204ca_1596789740208_318646_159235",
     "Name" : "Business or mission analysis process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1576232878029_619084_56885",
@@ -681,7 +785,9 @@
     "ID" : "_2021x_2_8710274_1690282669997_98291_24631",
     "Name" : "Characterize the solution space",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1576232878029_619084_56885",
@@ -694,7 +800,9 @@
     "ID" : "_2021x_2_8710274_1690282618103_601663_24620",
     "Name" : "Define the problem or opportunity space",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1576232878029_619084_56885",
@@ -707,7 +815,9 @@
     "ID" : "_2021x_2_8710274_1690282685708_674992_24648",
     "Name" : "Evaluate alternative solution classes that span the potential solution space",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1576232878029_619084_56885",
@@ -720,7 +830,9 @@
     "ID" : "_19_0_3_1f4204ca_1596789740208_318646_159235",
     "Name" : "Business or mission analysis process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1561752880161_57347_50198",
@@ -733,7 +845,9 @@
     "ID" : "_2021x_2_8710274_1690282669997_98291_24631",
     "Name" : "Characterize the solution space",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1561752880161_57347_50198",
@@ -746,7 +860,9 @@
     "ID" : "_2021x_2_8710274_1690282618103_601663_24620",
     "Name" : "Define the problem or opportunity space",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1561752880161_57347_50198",
@@ -759,7 +875,9 @@
     "ID" : "_2021x_2_8710274_1690282685708_674992_24648",
     "Name" : "Evaluate alternative solution classes that span the potential solution space",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1561752880161_57347_50198",
@@ -772,7 +890,9 @@
     "ID" : "_19_0_2_3746066c_1603902584180_948967_1122",
     "Name" : "Stakeholder identification",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1567778254489_369345_55863",
@@ -785,7 +905,9 @@
     "ID" : "_19_0_2_3746066c_1603902544560_399934_1022",
     "Name" : "Stakeholder needs and requirements",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1567778254489_369345_55863",
@@ -798,7 +920,9 @@
     "ID" : "_2021x_2_8710274_1690373696956_269587_29688",
     "Name" : "Prepare for stakeholder needs and requirements definition",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1567778254489_369345_55863",
@@ -811,7 +935,9 @@
     "ID" : "_19_0_2_3746066c_1597340011797_327809_75",
     "Name" : "Stakeholder Needs and Requirements Definition Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1567778254489_369345_55863",
@@ -824,7 +950,9 @@
     "ID" : "_2021x_2_8710274_1690373738564_235564_29713",
     "Name" : "Define stakeholder needs",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1561752880161_57347_50198",
@@ -837,7 +965,9 @@
     "ID" : "_2021x_2_8710274_1690373738747_373050_29714",
     "Name" : "Develop the operational concept and other life cycle concepts",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1561752880161_57347_50198",
@@ -850,7 +980,9 @@
     "ID" : "_2021x_2_8710274_1690373738747_373050_29714",
     "Name" : "Develop the operational concept and other life cycle concepts",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1631280350392_855780_562",
@@ -863,7 +995,9 @@
     "ID" : "_2021x_2_8710274_1690373738564_235564_29713",
     "Name" : "Define stakeholder needs",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1631280350392_855780_562",
@@ -876,7 +1010,9 @@
     "ID" : "_19_0_3_1f4204ca_1596789740208_318646_159235",
     "Name" : "Business or mission analysis process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1631280350392_855780_562",
@@ -889,7 +1025,9 @@
     "ID" : "_2021x_2_8710274_1690282669997_98291_24631",
     "Name" : "Characterize the solution space",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1631280350392_855780_562",
@@ -902,7 +1040,9 @@
     "ID" : "_2021x_2_8710274_1690282618103_601663_24620",
     "Name" : "Define the problem or opportunity space",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1631280350392_855780_562",
@@ -915,7 +1055,9 @@
     "ID" : "_2021x_2_8710274_1690282685708_674992_24648",
     "Name" : "Evaluate alternative solution classes that span the potential solution space",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1631280350392_855780_562",
@@ -928,7 +1070,9 @@
     "ID" : "_19_0_2_3746066c_1597340011797_327809_75",
     "Name" : "Stakeholder Needs and Requirements Definition Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1631280350392_855780_562",
@@ -941,7 +1085,9 @@
     "ID" : "_19_0_2_3746066c_1597340011797_327809_75",
     "Name" : "Stakeholder Needs and Requirements Definition Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1561752880161_57347_50198",
@@ -954,7 +1100,9 @@
     "ID" : "_19_0_3_1f4204ca_1596789740208_318646_159235",
     "Name" : "Business or mission analysis process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_6d8019d_1599070472635_176306_252",
@@ -967,7 +1115,9 @@
     "ID" : "_2021x_2_8710274_1690282669997_98291_24631",
     "Name" : "Characterize the solution space",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_6d8019d_1599070472635_176306_252",
@@ -980,7 +1130,9 @@
     "ID" : "_2021x_2_8710274_1690282618103_601663_24620",
     "Name" : "Define the problem or opportunity space",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_6d8019d_1599070472635_176306_252",
@@ -993,7 +1145,9 @@
     "ID" : "_2021x_2_8710274_1690282685708_674992_24648",
     "Name" : "Evaluate alternative solution classes that span the potential solution space",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_6d8019d_1599070472635_176306_252",
@@ -1006,7 +1160,9 @@
     "ID" : "_19_0_2_3746066c_1597340011797_327809_75",
     "Name" : "Stakeholder Needs and Requirements Definition Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_6d8019d_1599070472635_176306_252",
@@ -1019,7 +1175,9 @@
     "ID" : "_2021x_2_8710274_1690373696956_269587_29688",
     "Name" : "Prepare for stakeholder needs and requirements definition",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_6d8019d_1599070472635_176306_252",
@@ -1032,7 +1190,9 @@
     "ID" : "_19_0_3_1f4204ca_1596789740208_318646_159235",
     "Name" : "Business or mission analysis process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_26f0132_1601459636216_111430_6921",
@@ -1045,7 +1205,9 @@
     "ID" : "_2021x_2_8710274_1690282669997_98291_24631",
     "Name" : "Characterize the solution space",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_26f0132_1601459636216_111430_6921",
@@ -1058,7 +1220,9 @@
     "ID" : "_2021x_2_8710274_1690282618103_601663_24620",
     "Name" : "Define the problem or opportunity space",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_26f0132_1601459636216_111430_6921",
@@ -1071,7 +1235,9 @@
     "ID" : "_2021x_2_8710274_1690282685708_674992_24648",
     "Name" : "Evaluate alternative solution classes that span the potential solution space",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_26f0132_1601459636216_111430_6921",
@@ -1084,7 +1250,9 @@
     "ID" : "_19_0_2_3746066c_1597340011797_327809_75",
     "Name" : "Stakeholder Needs and Requirements Definition Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1565093441772_881981_49327",
@@ -1097,7 +1265,9 @@
     "ID" : "_2021x_2_8710274_1690373696956_269587_29688",
     "Name" : "Prepare for stakeholder needs and requirements definition",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1565093441772_881981_49327",
@@ -1110,7 +1280,9 @@
     "ID" : "_19_0_3_1f4204ca_1596789740208_318646_159235",
     "Name" : "Business or mission analysis process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1565093441772_881981_49327",
@@ -1123,7 +1295,9 @@
     "ID" : "_2021x_2_8710274_1690282669997_98291_24631",
     "Name" : "Characterize the solution space",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1565093441772_881981_49327",
@@ -1136,7 +1310,9 @@
     "ID" : "_2021x_2_8710274_1690282618103_601663_24620",
     "Name" : "Define the problem or opportunity space",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1565093441772_881981_49327",
@@ -1149,7 +1325,9 @@
     "ID" : "_2021x_2_8710274_1690282685708_674992_24648",
     "Name" : "Evaluate alternative solution classes that span the potential solution space",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1565093441772_881981_49327",
@@ -1162,7 +1340,9 @@
     "ID" : "_19_0_3_1f4204ca_1596789740208_318646_159235",
     "Name" : "Business or mission analysis process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_8710274_1581675958756_500127_50979",
@@ -1175,7 +1355,9 @@
     "ID" : "_2021x_2_8710274_1690282618103_601663_24620",
     "Name" : "Define the problem or opportunity space",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_8710274_1581675958756_500127_50979",
@@ -1188,7 +1370,9 @@
     "ID" : "_2021x_2_8710274_1690282669997_98291_24631",
     "Name" : "Characterize the solution space",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_8710274_1581675958756_500127_50979",
@@ -1201,7 +1385,9 @@
     "ID" : "_2021x_2_8710274_1690282685708_674992_24648",
     "Name" : "Evaluate alternative solution classes that span the potential solution space",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_8710274_1581675958756_500127_50979",
@@ -1214,7 +1400,9 @@
     "ID" : "_19_0_2_3746066c_1597340011797_327809_75",
     "Name" : "Stakeholder Needs and Requirements Definition Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_8710274_1581675958756_500127_50979",
@@ -1227,7 +1415,9 @@
     "ID" : "_2021x_2_8710274_1690373738564_235564_29713",
     "Name" : "Define stakeholder needs",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_8710274_1581675958756_500127_50979",
@@ -1240,7 +1430,9 @@
     "ID" : "_19_0_2_3746066c_1597340011797_327809_75",
     "Name" : "Stakeholder Needs and Requirements Definition Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1565093441772_890565_49326",
@@ -1253,7 +1445,9 @@
     "ID" : "_2021x_2_8710274_1690373734295_67274_29711",
     "Name" : "Analyze stakeholder needs and requirements",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1565093441772_890565_49326",
@@ -1266,7 +1460,9 @@
     "ID" : "_2021x_2_8710274_1690373738351_773093_29712",
     "Name" : "Transform stakeholder needs into stakeholder requirements",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1565093441772_890565_49326",
@@ -1279,7 +1475,9 @@
     "ID" : "_19_0_2_3746066c_1598630589196_412329_1738",
     "Name" : "Problem or opportunity statement",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1631280350392_855780_562",
@@ -1292,7 +1490,9 @@
     "ID" : "_19_0_2_3746066c_1598630589196_412329_1738",
     "Name" : "Problem or opportunity statement",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_6d8019d_1599070472635_176306_252",
@@ -1305,7 +1505,9 @@
     "ID" : "_19_0_2_3746066c_1598630589196_412329_1738",
     "Name" : "Problem or opportunity statement",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1561750369203_901730_48359",
@@ -1318,7 +1520,9 @@
     "ID" : "_19_0_3_1f4204ca_1596789740208_318646_159235",
     "Name" : "Business or mission analysis process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1561750369203_901730_48359",
@@ -1331,7 +1535,9 @@
     "ID" : "_2021x_2_8710274_1690282685708_674992_24648",
     "Name" : "Evaluate alternative solution classes that span the potential solution space",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1561750369203_901730_48359",
@@ -1344,7 +1550,9 @@
     "ID" : "_2021x_2_8710274_1690282669997_98291_24631",
     "Name" : "Characterize the solution space",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1561750369203_901730_48359",
@@ -1357,7 +1565,9 @@
     "ID" : "_2021x_2_8710274_1690282618103_601663_24620",
     "Name" : "Define the problem or opportunity space",
     "Type" : "Activity",
-    "Stereotype" : null
+    "Stereotype" : null,
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1561750369203_901730_48359",
@@ -1370,7 +1580,9 @@
     "ID" : "_19_0_2_3746066c_1597340722632_832964_270",
     "Name" : "Design Definition Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_19_0_1_26f0132_1547202202696_824153_42420",
@@ -1383,7 +1595,9 @@
     "ID" : "_19_0_2_3746066c_1597340722632_832964_270",
     "Name" : "Design Definition Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1562303526536_79296_92554",
@@ -1396,7 +1610,9 @@
     "ID" : "_19_0_4_2a110596_1621624170177_888931_2076",
     "Name" : "System design description",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_1_26f0132_1547202202696_824153_42420",
@@ -1409,7 +1625,9 @@
     "ID" : "_19_0_4_2a110596_1614849604919_22572_262",
     "Name" : "System interface definition ",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_1_26f0132_1547202202696_824153_42420",
@@ -1422,7 +1640,9 @@
     "ID" : "_19_0_4_2a110596_1621624170177_888931_2076",
     "Name" : "System design description",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1562303526536_79296_92554",
@@ -1435,7 +1655,9 @@
     "ID" : "_19_0_4_2a110596_1614849604919_22572_262",
     "Name" : "System interface definition ",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1562303526536_79296_92554",
@@ -1448,7 +1670,9 @@
     "ID" : "_19_0_4_2a110596_1614849604919_22572_262",
     "Name" : "System interface definition ",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1695205330608_177015_24335",
@@ -1461,7 +1685,9 @@
     "ID" : "_19_0_4_2a110596_1621624170177_888931_2076",
     "Name" : "System design description",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1674680950433_310726_23659",
@@ -1474,7 +1700,9 @@
     "ID" : "_19_0_4_2a110596_1614849604919_22572_262",
     "Name" : "System interface definition ",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1674680950433_310726_23659",
@@ -1487,7 +1715,9 @@
     "ID" : "_19_0_4_2a110596_1614849713884_84710_286",
     "Name" : "System element description",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1674680950433_310726_23659",
@@ -1500,7 +1730,9 @@
     "ID" : "_2021x_2_8710274_1690284820162_398019_25941",
     "Name" : "Traceability mapping",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1698415722718_711881_60045",
@@ -1513,7 +1745,9 @@
     "ID" : "_2021x_2_8710274_1690284820162_398019_25941",
     "Name" : "Traceability mapping",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676724435544_523379_27331",
@@ -1526,7 +1760,9 @@
     "ID" : "_19_0_4_2a110596_1621624170177_888931_2076",
     "Name" : "System design description",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_ebf0350_1580652072992_42812_53692",
@@ -1539,7 +1775,9 @@
     "ID" : "_19_0_2_3746066c_1603903151082_631336_1809",
     "Name" : "System requirements",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618757838536_301313_442",
@@ -1552,7 +1790,9 @@
     "ID" : "_2021x_2_8710274_1690284820162_398019_25941",
     "Name" : "Traceability mapping",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_6d8019d_1690628661558_769067_24257",
@@ -1565,7 +1805,9 @@
     "ID" : "_19_0_2_3746066c_1603903151082_631336_1809",
     "Name" : "System requirements",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_6d8019d_1690628661558_769067_24257",
@@ -1578,7 +1820,9 @@
     "ID" : "_19_0_2_3746066c_1603903151082_631336_1809",
     "Name" : "System requirements",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
@@ -1591,7 +1835,9 @@
     "ID" : "_19_0_2_3746066c_1603903151082_631336_1809",
     "Name" : "System requirements",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618060963677_605184_292",
@@ -1604,7 +1850,9 @@
     "ID" : "_19_0_4_2a110596_1614849604919_22572_262",
     "Name" : "System interface definition ",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1562303526536_778418_92552",
@@ -1617,7 +1865,9 @@
     "ID" : "_19_0_2_3746066c_1603903151082_631336_1809",
     "Name" : "System requirements",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676723513864_806117_26880",
@@ -1630,7 +1880,9 @@
     "ID" : "_19_0_4_2a110596_1614849604919_22572_262",
     "Name" : "System interface definition ",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676723513864_806117_26880",
@@ -1643,7 +1895,9 @@
     "ID" : "_19_0_4_2a110596_1614849604919_22572_262",
     "Name" : "System interface definition ",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_8710274_1567167552896_772779_54664",
@@ -1656,7 +1910,9 @@
     "ID" : "_19_0_2_3746066c_1603903151082_631336_1809",
     "Name" : "System requirements",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1565104337297_671823_55529",
@@ -1669,7 +1925,9 @@
     "ID" : "_2021x_2_8710274_1690284820162_398019_25941",
     "Name" : "Traceability mapping",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1565093441772_728957_49328",
@@ -1682,7 +1940,9 @@
     "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
     "Name" : "System Viewpoints, views and models",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_1_26f0132_1547202202696_824153_42420",
@@ -1695,7 +1955,9 @@
     "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
     "Name" : "System Viewpoints, views and models",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1562303526536_79296_92554",
@@ -1708,7 +1970,9 @@
     "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
     "Name" : "System Viewpoints, views and models",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1695205330608_177015_24335",
@@ -1721,7 +1985,9 @@
     "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
     "Name" : "System Viewpoints, views and models",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1675987942868_617787_33116",
@@ -1734,7 +2000,9 @@
     "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
     "Name" : "System Viewpoints, views and models",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1674680950433_310726_23659",
@@ -1747,7 +2015,9 @@
     "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
     "Name" : "System Viewpoints, views and models",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1698415722718_711881_60045",
@@ -1760,7 +2030,9 @@
     "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
     "Name" : "System Viewpoints, views and models",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676724435544_523379_27331",
@@ -1773,7 +2045,9 @@
     "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
     "Name" : "System Viewpoints, views and models",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_ebf0350_1580652072992_42812_53692",
@@ -1786,7 +2060,9 @@
     "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
     "Name" : "System Viewpoints, views and models",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1565093441772_890565_49326",
@@ -1799,7 +2075,9 @@
     "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
     "Name" : "System Viewpoints, views and models",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1565093441772_881981_49327",
@@ -1812,7 +2090,9 @@
     "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
     "Name" : "System Viewpoints, views and models",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618757838536_301313_442",
@@ -1825,7 +2105,9 @@
     "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
     "Name" : "System Viewpoints, views and models",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618060963677_605184_292",
@@ -1838,7 +2120,9 @@
     "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
     "Name" : "System Viewpoints, views and models",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_6d8019d_1690628661558_769067_24257",
@@ -1851,7 +2135,9 @@
     "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
     "Name" : "System Viewpoints, views and models",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
@@ -1864,7 +2150,9 @@
     "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
     "Name" : "System Viewpoints, views and models",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1626790419043_61789_443",
@@ -1877,7 +2165,9 @@
     "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
     "Name" : "System Viewpoints, views and models",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1562303526536_778418_92552",
@@ -1890,7 +2180,9 @@
     "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
     "Name" : "System Viewpoints, views and models",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1629448496383_291730_10342",
@@ -1903,7 +2195,9 @@
     "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
     "Name" : "System Viewpoints, views and models",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676723513864_806117_26880",
@@ -1916,7 +2210,9 @@
     "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
     "Name" : "System Viewpoints, views and models",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676723256334_812178_26576",
@@ -1929,7 +2225,9 @@
     "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
     "Name" : "System Viewpoints, views and models",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_8710274_1567167552896_772779_54664",
@@ -1942,7 +2240,9 @@
     "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
     "Name" : "System Viewpoints, views and models",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1565093441772_728957_49328",
@@ -1955,7 +2255,9 @@
     "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
     "Name" : "System Viewpoints, views and models",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1561750369203_901730_48359",
@@ -1968,7 +2270,9 @@
     "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
     "Name" : "System Viewpoints, views and models",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_8710274_1581675958756_500127_50979",
@@ -1981,7 +2285,9 @@
     "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
     "Name" : "System Viewpoints, views and models",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_26f0132_1601459636216_111430_6921",
@@ -1994,7 +2300,9 @@
     "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
     "Name" : "System Viewpoints, views and models",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
@@ -2007,7 +2315,9 @@
     "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
     "Name" : "System Viewpoints, views and models",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
@@ -2020,7 +2330,9 @@
     "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
     "Name" : "System Viewpoints, views and models",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1576222951495_184664_54882",
@@ -2033,7 +2345,9 @@
     "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
     "Name" : "System Viewpoints, views and models",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1562303526536_284838_92559",
@@ -2046,7 +2360,9 @@
     "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
     "Name" : "System Viewpoints, views and models",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_6d8019d_1603027079337_312898_286",
@@ -2059,7 +2375,9 @@
     "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
     "Name" : "System Viewpoints, views and models",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_8710274_1581675970682_325249_52535",
@@ -2072,7 +2390,9 @@
     "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
     "Name" : "System Viewpoints, views and models",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1576232878029_619084_56885",
@@ -2085,7 +2405,9 @@
     "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
     "Name" : "System Viewpoints, views and models",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1567778254489_369345_55863",
@@ -2098,7 +2420,9 @@
     "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
     "Name" : "System Viewpoints, views and models",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1561752880161_57347_50198",
@@ -2111,7 +2435,9 @@
     "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
     "Name" : "System Viewpoints, views and models",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1631280350392_855780_562",
@@ -2124,7 +2450,9 @@
     "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
     "Name" : "System Viewpoints, views and models",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_6d8019d_1599070472635_176306_252",
@@ -2137,7 +2465,9 @@
     "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
     "Name" : "System Viewpoints, views and models",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1565104337297_671823_55529",
@@ -2150,7 +2480,9 @@
     "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
     "Name" : "System Viewpoints, views and models",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1562303526536_189439_92549",
@@ -2163,7 +2495,9 @@
     "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
     "Name" : "System Viewpoints, views and models",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_1_26f0132_1554446728606_740631_45702",
@@ -2176,7 +2510,9 @@
     "ID" : "_19_0_2_3746066c_1603903151082_631336_1809",
     "Name" : "System requirements",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_1_26f0132_1554446728606_740631_45702",
@@ -2189,7 +2525,9 @@
     "ID" : "_19_0_4_2a110596_1621624170177_888931_2076",
     "Name" : "System design description",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1695205330608_177015_24335",
@@ -2202,7 +2540,9 @@
     "ID" : "_2021x_2_8710274_1690284820162_398019_25941",
     "Name" : "Traceability mapping",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1675987942868_617787_33116",
@@ -2215,7 +2555,9 @@
     "ID" : "_19_0_4_2a110596_1614849508051_389332_250",
     "Name" : "System architecture description",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1562303526536_284838_92559",
@@ -2228,7 +2570,9 @@
     "ID" : "_19_0_4_2a110596_1614849508051_389332_250",
     "Name" : "System architecture description",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
@@ -2241,7 +2585,9 @@
     "ID" : "_19_0_4_2a110596_1614849508051_389332_250",
     "Name" : "System architecture description",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618060963677_605184_292",
@@ -2254,7 +2600,9 @@
     "ID" : "_19_0_4_2a110596_1614849508051_389332_250",
     "Name" : "System architecture description",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1626790419043_61789_443",
@@ -2267,7 +2615,9 @@
     "ID" : "_19_0_4_2a110596_1614849508051_389332_250",
     "Name" : "System architecture description",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1562303526536_778418_92552",
@@ -2280,7 +2630,9 @@
     "ID" : "_19_0_4_2a110596_1614849508051_389332_250",
     "Name" : "System architecture description",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1629448496383_291730_10342",
@@ -2293,7 +2645,9 @@
     "ID" : "_19_0_4_2a110596_1614849508051_389332_250",
     "Name" : "System architecture description",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676723256334_812178_26576",
@@ -2306,7 +2660,9 @@
     "ID" : "_19_0_4_2a110596_1614849508051_389332_250",
     "Name" : "System architecture description",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676723513864_806117_26880",
@@ -2319,7 +2675,9 @@
     "ID" : "_19_0_4_2a110596_1614849508051_389332_250",
     "Name" : "System architecture description",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_8710274_1567167552896_772779_54664",
@@ -2332,7 +2690,9 @@
     "ID" : "_19_0_4_2a110596_1614849508051_389332_250",
     "Name" : "System architecture description",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1562303526536_189439_92549",
@@ -2345,7 +2705,9 @@
     "ID" : "_19_0_4_2a110596_1614849508051_389332_250",
     "Name" : "System architecture description",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_1_26f0132_1554446728606_740631_45702",
@@ -2358,7 +2720,9 @@
     "ID" : "_19_0_4_2a110596_1614849508051_389332_250",
     "Name" : "System architecture description",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
@@ -2371,7 +2735,9 @@
     "ID" : "_19_0_2_3746066c_1603902584180_948967_1122",
     "Name" : "Stakeholder identification",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1565093441772_881981_49327",
@@ -2384,7 +2750,9 @@
     "ID" : "_19_0_2_3746066c_1603902544560_399934_1022",
     "Name" : "Stakeholder needs and requirements",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1565093441772_890565_49326",
@@ -2397,7 +2765,9 @@
     "ID" : "_2021x_2_8710274_1690364220532_62469_25071",
     "Name" : "Breakdown structures",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_ebf0350_1580652072992_42812_53692",
@@ -2410,7 +2780,9 @@
     "ID" : "_2021x_2_8710274_1690364220532_62469_25071",
     "Name" : "Breakdown structures",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1629448496383_291730_10342",
@@ -2423,7 +2795,9 @@
     "ID" : "_2021x_2_8710274_1690364220532_62469_25071",
     "Name" : "Breakdown structures",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1562303526536_284838_92559",
@@ -2436,7 +2810,9 @@
     "ID" : "_19_0_2_3746066c_1598628888010_753846_40",
     "Name" : "Concept of operations(ConOps)",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1567778254489_369345_55863",
@@ -2449,7 +2825,9 @@
     "ID" : "_19_0_2_3746066c_1598628888010_753846_40",
     "Name" : "Concept of operations(ConOps)",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1576232878029_619084_56885",
@@ -2462,7 +2840,9 @@
     "ID" : "_19_0_2_3746066c_1598628888010_753846_40",
     "Name" : "Concept of operations(ConOps)",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1561752880161_57347_50198",
@@ -2475,7 +2855,9 @@
     "ID" : "_19_0_2_3746066c_1598628888010_753846_40",
     "Name" : "Concept of operations(ConOps)",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1631280350392_855780_562",
@@ -2488,7 +2870,9 @@
     "ID" : "_19_0_2_3746066c_1598628888010_753846_40",
     "Name" : "Concept of operations(ConOps)",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_6d8019d_1599070472635_176306_252",
@@ -2501,7 +2885,9 @@
     "ID" : "_19_0_2_3746066c_1598628888010_753846_40",
     "Name" : "Concept of operations(ConOps)",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_26f0132_1601459636216_111430_6921",
@@ -2514,7 +2900,9 @@
     "ID" : "_19_0_2_3746066c_1598628888010_753846_40",
     "Name" : "Concept of operations(ConOps)",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_8710274_1581675958756_500127_50979",
@@ -2527,7 +2915,9 @@
     "ID" : "_19_0_2_3746066c_1598628888010_753846_40",
     "Name" : "Concept of operations(ConOps)",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1561750369203_901730_48359",
@@ -2540,7 +2930,9 @@
     "ID" : "_19_0_2_3746066c_1598628888010_753846_40",
     "Name" : "Concept of operations(ConOps)",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_8710274_1581675970682_325249_52535",
@@ -2553,7 +2945,9 @@
     "ID" : "_19_0_2_3746066c_1598628888010_753846_40",
     "Name" : "Concept of operations(ConOps)",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_6d8019d_1603027079337_312898_286",
@@ -2566,7 +2960,9 @@
     "ID" : "_2021x_2_8710274_1690283633605_825807_24833",
     "Name" : "Constraints on solution",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1561750369203_901730_48359",
@@ -2579,7 +2975,9 @@
     "ID" : "_2021x_2_8710274_1690283633605_825807_24833",
     "Name" : "Constraints on solution",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1565093441772_881981_49327",
@@ -2592,7 +2990,9 @@
     "ID" : "_2021x_2_8710274_1690283633605_825807_24833",
     "Name" : "Constraints on solution",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1565093441772_890565_49326",
@@ -2605,7 +3005,9 @@
     "ID" : "_2021x_2_8710274_1690284273075_243840_25489",
     "Name" : "Critical performance measurement needs",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1565093441772_881981_49327",
@@ -2618,7 +3020,9 @@
     "ID" : "_2021x_2_8710274_1690284273075_243840_25489",
     "Name" : "Critical performance measurement needs",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1565093441772_890565_49326",
@@ -2631,7 +3035,9 @@
     "ID" : "_2021x_2_8710274_1690365554832_424700_25343",
     "Name" : "Enabling systems",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1565093441772_890565_49326",
@@ -2644,7 +3050,9 @@
     "ID" : "_2021x_2_8710274_1690365554832_424700_25343",
     "Name" : "Enabling systems",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1565093441772_881981_49327",
@@ -2657,7 +3065,9 @@
     "ID" : "_2021x_2_8710274_1690365554832_424700_25343",
     "Name" : "Enabling systems",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1567778254489_369345_55863",
@@ -2670,7 +3080,9 @@
     "ID" : "_2021x_2_8710274_1690365554832_424700_25343",
     "Name" : "Enabling systems",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
@@ -2683,7 +3095,9 @@
     "ID" : "_2021x_2_8710274_1690365554832_424700_25343",
     "Name" : "Enabling systems",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618060963677_605184_292",
@@ -2696,7 +3110,9 @@
     "ID" : "_19_0_2_3746066c_1603902432407_526249_104",
     "Name" : "Life Cycle Concepts",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1561750369203_901730_48359",
@@ -2709,7 +3125,9 @@
     "ID" : "_2021x_2_8710274_1690368931665_147570_25862",
     "Name" : "Standards",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676722868986_622372_25044",
@@ -2722,7 +3140,9 @@
     "ID" : "_2021x_2_8710274_1690368931665_147570_25862",
     "Name" : "Standards",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1701349408071_720270_88478",
@@ -2735,7 +3155,9 @@
     "ID" : "_19_0_4_2a110596_1621624170177_888931_2076",
     "Name" : "System design description",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1675987942868_617787_33116",
@@ -2748,7 +3170,9 @@
     "ID" : "_19_0_4_2a110596_1621624170177_888931_2076",
     "Name" : "System design description",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1698415722718_711881_60045",
@@ -2761,7 +3185,9 @@
     "ID" : "_19_0_4_2a110596_1621624170177_888931_2076",
     "Name" : "System design description",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676724435544_523379_27331",
@@ -2774,7 +3200,9 @@
     "ID" : "_19_0_4_2a110596_1614849713884_84710_286",
     "Name" : "System element description",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_1_26f0132_1547202202696_824153_42420",
@@ -2787,7 +3215,9 @@
     "ID" : "_19_0_4_2a110596_1614849713884_84710_286",
     "Name" : "System element description",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1562303526536_79296_92554",
@@ -2800,7 +3230,9 @@
     "ID" : "_19_0_4_2a110596_1614849713884_84710_286",
     "Name" : "System element description",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1675987942868_617787_33116",
@@ -2813,7 +3245,9 @@
     "ID" : "_19_0_4_2a110596_1614849713884_84710_286",
     "Name" : "System element description",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1695205330608_177015_24335",
@@ -2826,7 +3260,9 @@
     "ID" : "_19_0_4_2a110596_1614849713884_84710_286",
     "Name" : "System element description",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1698415722718_711881_60045",
@@ -2839,7 +3275,9 @@
     "ID" : "_19_0_4_2a110596_1614849713884_84710_286",
     "Name" : "System element description",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676724435544_523379_27331",
@@ -2852,7 +3290,9 @@
     "ID" : "_19_0_4_2a110596_1614849713884_84710_286",
     "Name" : "System element description",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_ebf0350_1580652072992_42812_53692",
@@ -2865,7 +3305,9 @@
     "ID" : "_19_0_2_3746066c_1597340722632_832964_270",
     "Name" : "Design Definition Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1675987942868_617787_33116",
@@ -2878,7 +3320,9 @@
     "ID" : "_19_0_2_3746066c_1597340722632_832964_270",
     "Name" : "Design Definition Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1695205330608_177015_24335",
@@ -2891,7 +3335,9 @@
     "ID" : "_19_0_2_3746066c_1597340722632_832964_270",
     "Name" : "Design Definition Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1674680950433_310726_23659",
@@ -2904,7 +3350,9 @@
     "ID" : "_19_0_2_3746066c_1597340722632_832964_270",
     "Name" : "Design Definition Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1698415722718_711881_60045",
@@ -2917,7 +3365,9 @@
     "ID" : "_19_0_2_3746066c_1597340722632_832964_270",
     "Name" : "Design Definition Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676724435544_523379_27331",
@@ -2930,7 +3380,9 @@
     "ID" : "_19_0_2_3746066c_1597340722632_832964_270",
     "Name" : "Design Definition Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_ebf0350_1580652072992_42812_53692",
@@ -2943,7 +3395,9 @@
     "ID" : "_2024x_1_26f0132_1730365780955_895751_17558",
     "Name" : "Information Management  Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1701349408071_720270_88478",
@@ -2956,7 +3410,9 @@
     "ID" : "_19_0_3_1f4204ca_1596789740208_318646_159235",
     "Name" : "Business or mission analysis process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1701349408071_720270_88478",
@@ -2969,7 +3425,9 @@
     "ID" : "_19_0_2_3746066c_1597340011797_327809_75",
     "Name" : "Stakeholder Needs and Requirements Definition Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1701349408071_720270_88478",
@@ -2982,7 +3440,9 @@
     "ID" : "_19_0_2_3746066c_1597340544988_988488_180",
     "Name" : "System Requirements Definition Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1701349408071_720270_88478",
@@ -2995,7 +3455,9 @@
     "ID" : "_19_0_2_3746066c_1597340659671_935235_225",
     "Name" : "System Architecture Definition Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1701349408071_720270_88478",
@@ -3008,7 +3470,9 @@
     "ID" : "_19_0_2_3746066c_1597340722632_832964_270",
     "Name" : "Design Definition Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1701349408071_720270_88478",
@@ -3021,7 +3485,9 @@
     "ID" : "_19_0_2_3746066c_1597340873950_398499_319",
     "Name" : "System Analysis Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1701349408071_720270_88478",
@@ -3034,7 +3500,9 @@
     "ID" : "_19_0_2_3746066c_1597341064226_303731_369",
     "Name" : "Implementation Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1701349408071_720270_88478",
@@ -3047,7 +3515,9 @@
     "ID" : "_19_0_2_3746066c_1597341133636_924653_417",
     "Name" : "Integration Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1701349408071_720270_88478",
@@ -3060,7 +3530,9 @@
     "ID" : "_19_0_2_3746066c_1597341202746_795440_465",
     "Name" : "Verification Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1701349408071_720270_88478",
@@ -3073,7 +3545,9 @@
     "ID" : "_19_0_2_3746066c_1597341253131_264613_513",
     "Name" : "Transition Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1701349408071_720270_88478",
@@ -3086,7 +3560,9 @@
     "ID" : "_19_0_2_3746066c_1597341304011_309505_561",
     "Name" : "Validation Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1701349408071_720270_88478",
@@ -3099,7 +3575,9 @@
     "ID" : "_19_0_2_3746066c_1597341363787_932225_609",
     "Name" : "Operation Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1701349408071_720270_88478",
@@ -3112,7 +3590,9 @@
     "ID" : "_19_0_2_3746066c_1597341363787_932225_609",
     "Name" : "Operation Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676722868986_622372_25044",
@@ -3125,7 +3605,9 @@
     "ID" : "_19_0_2_3746066c_1597341435867_624500_657",
     "Name" : "Maintenance Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1701349408071_720270_88478",
@@ -3138,7 +3620,9 @@
     "ID" : "_19_0_2_3746066c_1597341509771_167844_705",
     "Name" : "Disposal Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1701349408071_720270_88478",
@@ -3151,7 +3635,9 @@
     "ID" : "_19_0_2_3746066c_1597340544988_988488_180",
     "Name" : "System Requirements Definition Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1562303526536_189439_92549",
@@ -3164,7 +3650,9 @@
     "ID" : "_19_0_2_3746066c_1597340544988_988488_180",
     "Name" : "System Requirements Definition Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_19_0_1_26f0132_1554446728606_740631_45702",
@@ -3177,7 +3665,9 @@
     "ID" : "_19_0_2_3746066c_1597340544988_988488_180",
     "Name" : "System Requirements Definition Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618757838536_301313_442",
@@ -3190,7 +3680,9 @@
     "ID" : "_19_0_2_3746066c_1597340544988_988488_180",
     "Name" : "System Requirements Definition Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_6d8019d_1690628661558_769067_24257",
@@ -3203,7 +3695,9 @@
     "ID" : "_19_0_2_3746066c_1597340544988_988488_180",
     "Name" : "System Requirements Definition Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
@@ -3216,7 +3710,9 @@
     "ID" : "_19_0_2_3746066c_1597340544988_988488_180",
     "Name" : "System Requirements Definition Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618060963677_605184_292",
@@ -3229,7 +3725,9 @@
     "ID" : "_19_0_2_3746066c_1597340544988_988488_180",
     "Name" : "System Requirements Definition Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1626790419043_61789_443",
@@ -3242,7 +3740,9 @@
     "ID" : "_19_0_2_3746066c_1597340544988_988488_180",
     "Name" : "System Requirements Definition Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1562303526536_778418_92552",
@@ -3255,7 +3755,9 @@
     "ID" : "_19_0_2_3746066c_1597340544988_988488_180",
     "Name" : "System Requirements Definition Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1629448496383_291730_10342",
@@ -3268,7 +3770,9 @@
     "ID" : "_19_0_2_3746066c_1597340544988_988488_180",
     "Name" : "System Requirements Definition Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676723256334_812178_26576",
@@ -3281,7 +3785,9 @@
     "ID" : "_19_0_2_3746066c_1597340544988_988488_180",
     "Name" : "System Requirements Definition Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676723513864_806117_26880",
@@ -3294,7 +3800,9 @@
     "ID" : "_19_0_2_3746066c_1597340544988_988488_180",
     "Name" : "System Requirements Definition Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_8710274_1567167552896_772779_54664",
@@ -3307,7 +3815,9 @@
     "ID" : "_19_0_2_3746066c_1597340544988_988488_180",
     "Name" : "System Requirements Definition Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1565104337297_671823_55529",
@@ -3320,7 +3830,9 @@
     "ID" : "_19_0_2_3746066c_1597340544988_988488_180",
     "Name" : "System Requirements Definition Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1565093441772_728957_49328",
@@ -3333,7 +3845,9 @@
     "ID" : "_19_0_2_3746066c_1597340011797_327809_75",
     "Name" : "Stakeholder Needs and Requirements Definition Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_6d8019d_1690628661558_769067_24257",
@@ -3346,7 +3860,9 @@
     "ID" : "_19_0_2_3746066c_1597340011797_327809_75",
     "Name" : "Stakeholder Needs and Requirements Definition Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618757838536_301313_442",
@@ -3359,7 +3875,9 @@
     "ID" : "_2021x_2_8710274_1690364175390_70349_25069",
     "Name" : "Applicable laws and regulations",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676722868986_622372_25044",
@@ -3372,7 +3890,9 @@
     "ID" : "_2021x_2_8710274_1690364175390_70349_25069",
     "Name" : "Applicable laws and regulations",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1701349408071_720270_88478",
@@ -3385,7 +3905,9 @@
     "ID" : "_19_0_4_2a110596_1614849604919_22572_262",
     "Name" : "System interface definition ",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618060963677_605184_292",
@@ -3398,7 +3920,9 @@
     "ID" : "_19_0_2_3746066c_1597906015665_585675_54",
     "Name" : "Project constraints",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1565093441772_890565_49326",
@@ -3411,7 +3935,9 @@
     "ID" : "_19_0_4_2a110596_1614849508051_389332_250",
     "Name" : "System architecture description",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676724435544_523379_27331",
@@ -3424,7 +3950,9 @@
     "ID" : "_19_0_2_3746066c_1603903284314_660461_1924",
     "Name" : "Verification Criteria",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1565104337297_671823_55529",
@@ -3437,7 +3965,9 @@
     "ID" : "_19_0_2_3746066c_1603902432407_526249_104",
     "Name" : "Life Cycle Concepts",
     "Type" : "Class",
-    "Stereotype" : "Information Item"
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "URL" : ""
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_8710274_1581675958756_500127_50979",
@@ -3450,7 +3980,9 @@
     "ID" : "_19_0_2_3746066c_1597340011797_327809_75",
     "Name" : "Stakeholder Needs and Requirements Definition Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_19_0_1_26f0132_1554446728606_740631_45702",
@@ -3463,7 +3995,9 @@
     "ID" : "_19_0_2_3746066c_1597340011797_327809_75",
     "Name" : "Stakeholder Needs and Requirements Definition Process",
     "Type" : "Activity",
-    "Stereotype" : "ISOProcess"
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",

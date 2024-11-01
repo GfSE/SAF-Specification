@@ -105,3 +105,17 @@
   @include fs-3;
   background-color: inherit;
 }
+
+.stdreftable {
+
+  tr td:nth-child(1) { width: fit-content; white-space: nowrap; }
+/*tr td:nth-child(2) { width: auto; } not needed */
+tr td:nth-child(3) { width: fit-content; white-space: nowrap; }
+tr td:nth-child(4) { width: fit-content; white-space: nowrap; }
+
+tr th:nth-child(1) { width: fit-content; white-space: nowrap; }
+/*tr th:nth-child(2) { width: auto; } not needed  */
+tr th:nth-child(3) { width: fit-content; white-space: nowrap; }
+tr th:nth-child(4) { width: fit-content; white-space: nowrap; }
+
+}
