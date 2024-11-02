@@ -25,6 +25,26 @@
 ## Applicability
 {{ vp.Applicability }}
 
+{% assign objects = site.data.standard-mapping | where: "Viewpoint.ID", vp.ID  | map: "ObjectOfStandard" %}
+{% assign processes = objects | where: "Type", "Activity" | where: "Stereotype", "ISOProcess" %}
+{% assign infoitems = objects | where: "Type", "Class"  %}
+## Supported Processes
+
+<UL>
+{% for proc in processes %}
+<LI><div class="tooltip"><A href="{{ proc.URL }}">{{ proc.Name }}<span class="tooltiptext">{{ proc.Standard }}{{'['|escape}}{{ proc.Chapter }}{{']'|escape}}</span></A></div></LI>
+{% endfor %}
+</UL>
+
+## Supported Information Items
+
+<UL>
+{% for ii in infoitems -%}
+<LI><div class="tooltip"><A href="{{ proc.URL }}">{{ ii.Name }}<span class="tooltiptext">{{ ii.Standard }}{{'['|escape}}{{ ii.Chapter }}{{']'|escape}}</span></A></div></LI>
+{% endfor %}
+</UL>
+
+
 ## Presentation
 {% for pres in vp.Presentation %}
 {{ pres }}

@@ -82,7 +82,7 @@
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 120px;
+  width: 160px;
   background-color: black;
   color: #fff;
   text-align: center;
@@ -123,31 +123,13 @@
     white-space: nowrap;
   }
 
-  /*tr td:nth-child(2) { width: auto; } not needed */
-  tr td:nth-child(3) {
-    width: fit-content;
-    white-space: nowrap;
-  }
-
-  tr td:nth-child(4) {
-    width: fit-content;
-    white-space: nowrap;
-  }
-
+  
+  
   tr th:nth-child(1) {
     width: fit-content;
     white-space: nowrap;
   }
 
-  /*tr th:nth-child(2) { width: auto; } not needed  */
-  tr th:nth-child(3) {
-    width: fit-content;
-    white-space: nowrap;
-  }
-
-  tr th:nth-child(4) {
-    width: fit-content;
-    white-space: nowrap;
-  }
-
+  
+  
 }

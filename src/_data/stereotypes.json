@@ -323,6 +323,10 @@
   "ID" : "_2021x_2_8710274_1701360709869_194778_91148",
   "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#SDTcategorizedCOF'>SDTcategorizedCOF</A><BR>SDTcategorizedCOF: Specifies the fact that a standard is categorized by one or more categories.<BR></html>\n"
 }, {
+  "Name" : "SAF_StandardChapter",
+  "ID" : "_2024x_1_26f0132_1730537023123_451623_16921",
+  "Documentation" : "<html>\n  <head>\n\t\t<style>\n\t\t\tp {padding:0px; margin:0px;}\n\t\t</style>\n\t</head>\n  <body>\nSpecies a Chapter in a Standard    \n<br></body>\n</html>"
+}, {
   "Name" : "SAF_StandardDependingOn",
   "ID" : "_2024x_1_26f0132_1730146316549_832482_16733",
   "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#STDdependsOnSTD'>STDdependsOnSTD</A><BR>STDdependsOnSTD: specifies that a standard depends on an other.<BR></html>\n"
