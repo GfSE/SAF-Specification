@@ -1,3 +1,3 @@
-.stdreftable tr th:nth-child(4) { width: fit-content; white-space: nowrap; }
+.stdreftable tr th:nth-child(1) { width: fit-content; white-space: nowrap; }
 
 .site-nav ul li a { background-image: linear-gradient(-90deg, #ebedf5 0%, rgba(235, 237, 245, 0.8) 80%, rgba(235, 237, 245, 0) 100%); }
