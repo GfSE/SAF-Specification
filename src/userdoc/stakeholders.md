@@ -16,7 +16,8 @@ The following subchapters describe the stakeholders and their concerns:
 
 {{ element.Documentation }}
 ## Concern
-{% for rationale in element.Rationales -%}
+
+{% for rationale in element.Rationales %}
 * {{ rationale.Concern }}
    {% unless rationale.Rationale == "" %}  <BR>*{{ rationale.Rationale  }}* {% endunless -%}
 {% endfor %}
