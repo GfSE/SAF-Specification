@@ -21,7 +21,7 @@ The Elements of the SAF Ontology are listed in the following Table. The Table co
 {% assign relsubject = element.AssociationEnds[1] %}
 {% assign relobject = element.AssociationEnds[0] %}
 <td>
-  <A id={{ element.ID }}></A><A href="#{{ relsubject.ID }}">{{ relsubject.Name  }}</A> {{ element.Name }} <A href="#{{ relobject.ID }}">{{ relobject.Name }}</A></td>
+  {{ relsubject.Multiplicity }} <A id={{ element.ID }}></A> <A href="#{{ relsubject.ID }}">{{ relsubject.Name  }}</A> {{ element.Name }} {{ relobject.Multiplicity }} <A href="#{{ relobject.ID }}">{{ relobject.Name }}</A></td>
 <td>{{ element.Documentation }} </td>
 <td>
 {% for base in element.InheritsFrom -%}

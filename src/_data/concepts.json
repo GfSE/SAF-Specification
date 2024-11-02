@@ -11,10 +11,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_2021x_2_6d8019d_1674232167080_274533_23363",
-    "Name" : "Claim"
+    "Name" : "Claim",
+    "Multiplicity" : "1..*"
   }, {
     "ID" : "_2021x_2_6d8019d_1674232167080_762583_23364",
-    "Name" : "Argument"
+    "Name" : "Argument",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "APEbeeingInSSE",
@@ -26,10 +28,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303523973_719860_90882",
-    "Name" : "System State"
+    "Name" : "System State",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_941558_91077",
-    "Name" : "Abstract Physical Element"
+    "Name" : "Abstract Physical Element",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "APEimplementingGFN",
@@ -41,10 +45,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_4_26f0132_1624614161928_694281_1954",
-    "Name" : "General Function"
+    "Name" : "General Function",
+    "Multiplicity" : "1..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_941558_91077",
-    "Name" : "Abstract Physical Element"
+    "Name" : "Abstract Physical Element",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "ASFconformToSTD",
@@ -59,10 +65,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_2021x_2_8710274_1700810118595_556759_48108",
-    "Name" : "Standard"
+    "Name" : "Standard",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_164f041e_1564565587397_301397_54399",
-    "Name" : "Any SAF Element"
+    "Name" : "Any SAF Element",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "Abstract Physical Element",
@@ -176,10 +184,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_2021x_2_6d8019d_1674232167079_323900_23362",
-    "Name" : "Claimable Item"
+    "Name" : "Claimable Item",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_2021x_2_6d8019d_1674232167081_446328_23366",
-    "Name" : "CounterClaim"
+    "Name" : "CounterClaim",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "CFNallocatedToLCE",
@@ -191,10 +201,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1558075029411_79067_44836",
-    "Name" : "Logical Context Element"
+    "Name" : "Logical Context Element",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_4_26f0132_1624611972707_746294_1003",
-    "Name" : "Context Function"
+    "Name" : "Context Function",
+    "Multiplicity" : "1..*"
   } ]
 }, {
   "Name" : "CLMbeingMadeAboutSBC",
@@ -209,10 +221,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_2021x_2_6d8019d_1674232167083_587567_23372",
-    "Name" : "Subject of Claim"
+    "Name" : "Subject of Claim",
+    "Multiplicity" : "0..1"
   }, {
     "ID" : "_2021x_2_6d8019d_1674232167080_274533_23363",
-    "Name" : "Claim"
+    "Name" : "Claim",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "CLMsupportingCIM",
@@ -227,10 +241,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_2021x_2_6d8019d_1674232167079_323900_23362",
-    "Name" : "Claimable Item"
+    "Name" : "Claimable Item",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_2021x_2_6d8019d_1674232167080_274533_23363",
-    "Name" : "Claim"
+    "Name" : "Claim",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "CLTmakingCLM",
@@ -245,10 +261,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_2021x_2_6d8019d_1674232167080_274533_23363",
-    "Name" : "Claim"
+    "Name" : "Claim",
+    "Multiplicity" : "1..*"
   }, {
     "ID" : "_2021x_2_6d8019d_1674232167082_68281_23367",
-    "Name" : "Claimant"
+    "Name" : "Claimant",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "CSTconfirmingSHR",
@@ -263,10 +281,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_8710274_1558520000264_403052_44141",
-    "Name" : "Stakeholder Requirement"
+    "Name" : "Stakeholder Requirement",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_2_26f0132_1565103209454_619592_55337",
-    "Name" : "Compliance Statement"
+    "Name" : "Compliance Statement",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "CallowingE",
@@ -278,10 +298,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_2021x_2_8710274_1698678047406_886240_39552",
-    "Name" : "Exchange"
+    "Name" : "Exchange",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_2021x_2_8710274_1698678231154_589140_39726",
-    "Name" : "Connection"
+    "Name" : "Connection",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "Category Of Standard",
@@ -377,10 +399,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_2021x_2_8710274_1698677453131_434277_39060",
-    "Name" : "Interaction Point"
+    "Name" : "Interaction Point",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_2021x_2_8710274_1698677453131_434277_39060",
-    "Name" : "Interaction Point"
+    "Name" : "Interaction Point",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "Context Function",
@@ -419,10 +443,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_4_26f0132_1624610613457_313794_115",
-    "Name" : "System Process"
+    "Name" : "System Process",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_4_26f0132_1624611972707_746294_1003",
-    "Name" : "Context Function"
+    "Name" : "Context Function",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "CounterClaim",
@@ -455,10 +481,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_2021x_2_8710274_1698665374453_611572_34394",
-    "Name" : "System"
+    "Name" : "System",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_2021x_2_8710274_1698678047406_886240_39552",
-    "Name" : "Exchange"
+    "Name" : "Exchange",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "EEtoSM",
@@ -470,10 +498,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_2021x_2_8710274_1698665374453_611572_34394",
-    "Name" : "System"
+    "Name" : "System",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_2021x_2_8710274_1698678047406_886240_39552",
-    "Name" : "Exchange"
+    "Name" : "Exchange",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "EKtypingE",
@@ -485,10 +515,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_2021x_2_8710274_1698678047406_886240_39552",
-    "Name" : "Exchange"
+    "Name" : "Exchange",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_2021x_2_8710274_1698677520756_878251_39241",
-    "Name" : "Exchange Kind"
+    "Name" : "Exchange Kind",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "EKtypingIPP",
@@ -500,10 +532,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_2021x_2_8710274_1698677814340_398859_39367",
-    "Name" : "Interaction Point Property"
+    "Name" : "Interaction Point Property",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_2021x_2_8710274_1698677520756_878251_39241",
-    "Name" : "Exchange Kind"
+    "Name" : "Exchange Kind",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "EVCreinforcingAGT",
@@ -518,10 +552,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_2021x_2_6d8019d_1674232167080_762583_23364",
-    "Name" : "Argument"
+    "Name" : "Argument",
+    "Multiplicity" : "1..*"
   }, {
     "ID" : "_2021x_2_6d8019d_1674232167081_609406_23365",
-    "Name" : "Evidence"
+    "Name" : "Evidence",
+    "Multiplicity" : "1..*"
   } ]
 }, {
   "Name" : "Evidence",
@@ -569,10 +605,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_164f041e_1564383985280_212499_51679",
-    "Name" : "Non-functional Requirement"
+    "Name" : "Non-functional Requirement",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_164f041e_1564383963900_307503_51643",
-    "Name" : "Functional Requirement"
+    "Name" : "Functional Requirement",
+    "Multiplicity" : "1..*"
   } ]
 }, {
   "Name" : "FRrefiningSFN",
@@ -587,10 +625,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524161_394471_91009",
-    "Name" : "System Function"
+    "Name" : "System Function",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_2_164f041e_1564383963900_307503_51643",
-    "Name" : "Functional Requirement"
+    "Name" : "Functional Requirement",
+    "Multiplicity" : "1..*"
   } ]
 }, {
   "Name" : "Functional Requirement",
@@ -620,10 +660,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_2021x_2_8710274_1697453623560_622137_29153",
-    "Name" : "Aspect"
+    "Name" : "Aspect",
+    "Multiplicity" : "1..*"
   }, {
     "ID" : "_2021x_2_8710274_1697453616439_929610_29143",
-    "Name" : "Grid"
+    "Name" : "Grid",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "GDcontainingDN",
@@ -638,10 +680,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_2021x_2_8710274_1697453629868_350923_29165",
-    "Name" : "Domain"
+    "Name" : "Domain",
+    "Multiplicity" : "1..*"
   }, {
     "ID" : "_2021x_2_8710274_1697453616439_929610_29143",
-    "Name" : "Grid"
+    "Name" : "Grid",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "GDcontainingVP",
@@ -656,10 +700,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_2021x_2_8710274_1697454030821_682386_29382",
-    "Name" : "Viewpoint"
+    "Name" : "Viewpoint",
+    "Multiplicity" : "1..*"
   }, {
     "ID" : "_2021x_2_8710274_1697453616439_929610_29143",
-    "Name" : "Grid"
+    "Name" : "Grid",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "GFEPrelatedToGFUEP",
@@ -671,10 +717,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524161_902110_90999",
-    "Name" : "General Function Usage Exchange Point"
+    "Name" : "General Function Usage Exchange Point",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_2024x_1_26f0132_1729283243560_884162_17589",
-    "Name" : "General Function Exchange Point"
+    "Name" : "General Function Exchange Point",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "GFEbeingPartOfGFNU",
@@ -689,10 +737,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524161_907005_91002",
-    "Name" : "General Functional Usage"
+    "Name" : "General Functional Usage",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_2_8710274_1567168520242_378357_56193",
-    "Name" : "General Functional Exchange"
+    "Name" : "General Functional Exchange",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "GFEfromGFUEP",
@@ -704,10 +754,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524161_902110_90999",
-    "Name" : "General Function Usage Exchange Point"
+    "Name" : "General Function Usage Exchange Point",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_2_8710274_1567168520242_378357_56193",
-    "Name" : "General Functional Exchange"
+    "Name" : "General Functional Exchange",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "GFEtoGFUEP",
@@ -719,10 +771,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524161_902110_90999",
-    "Name" : "General Function Usage Exchange Point"
+    "Name" : "General Function Usage Exchange Point",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_2_8710274_1567168520242_378357_56193",
-    "Name" : "General Functional Exchange"
+    "Name" : "General Functional Exchange",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "GFNcontrolledAFTER",
@@ -740,10 +794,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524161_907005_91002",
-    "Name" : "General Functional Usage"
+    "Name" : "General Functional Usage",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_907005_91002",
-    "Name" : "General Functional Usage"
+    "Name" : "General Functional Usage",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "GFNreceivingINPUT",
@@ -755,10 +811,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_2024x_1_26f0132_1729283243560_884162_17589",
-    "Name" : "General Function Exchange Point"
+    "Name" : "General Function Exchange Point",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_4_26f0132_1624614161928_694281_1954",
-    "Name" : "General Function"
+    "Name" : "General Function",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "GFNsendingOUTPUT",
@@ -770,10 +828,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_2024x_1_26f0132_1729283243560_884162_17589",
-    "Name" : "General Function Exchange Point"
+    "Name" : "General Function Exchange Point",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_4_26f0132_1624614161928_694281_1954",
-    "Name" : "General Function"
+    "Name" : "General Function",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "GFUEPreceivingINPUT",
@@ -785,10 +845,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524161_902110_90999",
-    "Name" : "General Function Usage Exchange Point"
+    "Name" : "General Function Usage Exchange Point",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_907005_91002",
-    "Name" : "General Functional Usage"
+    "Name" : "General Functional Usage",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "GFUEPsendingOUTPUT",
@@ -800,10 +862,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524161_902110_90999",
-    "Name" : "General Function Usage Exchange Point"
+    "Name" : "General Function Usage Exchange Point",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_907005_91002",
-    "Name" : "General Functional Usage"
+    "Name" : "General Functional Usage",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "GYcontainsTRM",
@@ -815,10 +879,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_2021x_2_8710274_1700810107962_53436_48086",
-    "Name" : "Term"
+    "Name" : "Term",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_2024x_1_26f0132_1729193426484_948459_25660",
-    "Name" : "Glossary"
+    "Name" : "Glossary",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "General Chronological Message",
@@ -830,10 +896,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_3_26f0132_1582315991370_633099_58122",
-    "Name" : "General Scenario Participation"
+    "Name" : "General Scenario Participation",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_3_26f0132_1582315991370_633099_58122",
-    "Name" : "General Scenario Participation"
+    "Name" : "General Scenario Participation",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "General Context",
@@ -887,10 +955,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1572501793596_705409_54004",
-    "Name" : "General Context"
+    "Name" : "General Context",
+    "Multiplicity" : "1..*"
   }, {
     "ID" : "_19_0_2_26f0132_1572502319806_138665_54158",
-    "Name" : "General Context Element"
+    "Name" : "General Context Element",
+    "Multiplicity" : "1..*"
   } ]
 }, {
   "Name" : "General Function",
@@ -971,10 +1041,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_4_26f0132_1624614161928_694281_1954",
-    "Name" : "General Function"
+    "Name" : "General Function",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_4_26f0132_1624614161928_694281_1954",
-    "Name" : "General Function"
+    "Name" : "General Function",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "General Interaction Scenario",
@@ -1028,10 +1100,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_3_26f0132_1582315776086_564652_57900",
-    "Name" : "General Interaction Scenario"
+    "Name" : "General Interaction Scenario",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1572502545313_424887_54186",
-    "Name" : "General Context Element Role"
+    "Name" : "General Context Element Role",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "Glossary",
@@ -1109,10 +1183,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_845534_91075",
-    "Name" : "Hardware Element"
+    "Name" : "Hardware Element",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_845534_91075",
-    "Name" : "Hardware Element"
+    "Name" : "Hardware Element",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "IPDtypingIP",
@@ -1124,10 +1200,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_2021x_2_8710274_1698677453131_434277_39060",
-    "Name" : "Interaction Point"
+    "Name" : "Interaction Point",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_2021x_2_8710274_1698677481537_813799_39201",
-    "Name" : "Interaction Point Definition"
+    "Name" : "Interaction Point Definition",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "IPPisDetailOfIPD",
@@ -1139,10 +1217,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_2021x_2_8710274_1698677481537_813799_39201",
-    "Name" : "Interaction Point Definition"
+    "Name" : "Interaction Point Definition",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_2021x_2_8710274_1698677814340_398859_39367",
-    "Name" : "Interaction Point Property"
+    "Name" : "Interaction Point Property",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "Interaction Point",
@@ -1184,10 +1264,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_1_26f0132_1554446894995_335285_45800",
-    "Name" : "System Use Case"
+    "Name" : "System Use Case",
+    "Multiplicity" : "1..*"
   }, {
     "ID" : "_19_0_2_26f0132_1558075029411_79067_44836",
-    "Name" : "Logical Context Element"
+    "Name" : "Logical Context Element",
+    "Multiplicity" : "1..*"
   } ]
 }, {
   "Name" : "LCEperformingCFN",
@@ -1202,10 +1284,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_2021x_2_8710274_1675981347806_599070_29437",
-    "Name" : "Context Function IN System Process"
+    "Name" : "Context Function IN System Process",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_8710274_1567171243005_813677_60746",
-    "Name" : "Logical Context Element Role"
+    "Name" : "Logical Context Element Role",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "LCNallowingLIE",
@@ -1220,10 +1304,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_663216_91033",
-    "Name" : "Logical Item Exchange"
+    "Name" : "Logical Item Exchange",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_980990_91037",
-    "Name" : "Logical Connection"
+    "Name" : "Logical Connection",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "LCPboundedByPLS",
@@ -1235,10 +1321,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_2021x_2_8710274_1681806104102_190543_25889",
-    "Name" : "Physical Layer Stack"
+    "Name" : "Physical Layer Stack",
+    "Multiplicity" : "0..1"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_546931_91032",
-    "Name" : "Logical Interaction Point"
+    "Name" : "Logical Interaction Point",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "LENconceptingPEN",
@@ -1250,10 +1338,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1558075136166_927385_45031",
-    "Name" : "Physical Environment"
+    "Name" : "Physical Environment",
+    "Multiplicity" : "1..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562303989622_501728_139950",
-    "Name" : "Logical Environment"
+    "Name" : "Logical Environment",
+    "Multiplicity" : "1..*"
   } ]
 }, {
   "Name" : "LERspecifyingGPR",
@@ -1268,10 +1358,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524161_107047_91004",
-    "Name" : "General Physical Role"
+    "Name" : "General Physical Role",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_981340_91082",
-    "Name" : "Logical Element Role"
+    "Name" : "Logical Element Role",
+    "Multiplicity" : "1..*"
   } ]
 }, {
   "Name" : "LESconceptingPES",
@@ -1283,10 +1375,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1558075409978_427311_45484",
-    "Name" : "Physical External System"
+    "Name" : "Physical External System",
+    "Multiplicity" : "1..*"
   }, {
     "ID" : "_19_0_2_26f0132_1558075062569_130489_44874",
-    "Name" : "Logical External System"
+    "Name" : "Logical External System",
+    "Multiplicity" : "1..*"
   } ]
 }, {
   "Name" : "LETbeeingInSSE",
@@ -1301,10 +1395,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303523973_719860_90882",
-    "Name" : "System State"
+    "Name" : "System State",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
-    "Name" : "Logical Element"
+    "Name" : "Logical Element",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "LETimplementingGFN",
@@ -1319,10 +1415,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_4_26f0132_1624614161928_694281_1954",
-    "Name" : "General Function"
+    "Name" : "General Function",
+    "Multiplicity" : "1..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
-    "Name" : "Logical Element"
+    "Name" : "Logical Element",
+    "Multiplicity" : "1..*"
   } ]
 }, {
   "Name" : "LETperformingSFN",
@@ -1337,10 +1435,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_2021x_2_8710274_1675981331374_205908_29130",
-    "Name" : "System Function IN System Process"
+    "Name" : "System Function IN System Process",
+    "Multiplicity" : "1..*"
   }, {
     "ID" : "_19_0_2_8710274_1567171329121_821656_60902",
-    "Name" : "Logical SOI Role"
+    "Name" : "Logical SOI Role",
+    "Multiplicity" : "1..*"
   } ]
 }, {
   "Name" : "LETspecifyingAPE",
@@ -1352,10 +1452,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_941558_91077",
-    "Name" : "Abstract Physical Element"
+    "Name" : "Abstract Physical Element",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
-    "Name" : "Logical Element"
+    "Name" : "Logical Element",
+    "Multiplicity" : "1..*"
   } ]
 }, {
   "Name" : "LIEboundedByPL",
@@ -1367,10 +1469,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_2021x_2_8710274_1681805942264_961820_25847",
-    "Name" : "Physical Layer"
+    "Name" : "Physical Layer",
+    "Multiplicity" : "0..1"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_663216_91033",
-    "Name" : "Logical Item Exchange"
+    "Name" : "Logical Item Exchange",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "LIEboundedByPLS",
@@ -1382,10 +1486,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_2021x_2_8710274_1681806104102_190543_25889",
-    "Name" : "Physical Layer Stack"
+    "Name" : "Physical Layer Stack",
+    "Multiplicity" : "0..1"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_663216_91033",
-    "Name" : "Logical Item Exchange"
+    "Name" : "Logical Item Exchange",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "LIEimplementsOIE",
@@ -1397,10 +1503,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_3_26f0132_1583963832153_320549_23021",
-    "Name" : "Operational Item Exchange"
+    "Name" : "Operational Item Exchange",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_663216_91033",
-    "Name" : "Logical Item Exchange"
+    "Name" : "Logical Item Exchange",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "LIPDdefiningDetailOfLIP",
@@ -1418,10 +1526,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_546931_91032",
-    "Name" : "Logical Interaction Point"
+    "Name" : "Logical Interaction Point",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_900081_91027",
-    "Name" : "Logical Interaction Point Definition"
+    "Name" : "Logical Interaction Point Definition",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "LIPPspecifyingDetailOfLIPD",
@@ -1439,10 +1549,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_900081_91027",
-    "Name" : "Logical Interaction Point Definition"
+    "Name" : "Logical Interaction Point Definition",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_980387_91029",
-    "Name" : "Logical Interaction Point Property"
+    "Name" : "Logical Interaction Point Property",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "LIPapplyingToLCE",
@@ -1457,10 +1569,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1558075029411_79067_44836",
-    "Name" : "Logical Context Element"
+    "Name" : "Logical Context Element",
+    "Multiplicity" : "1..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_546931_91032",
-    "Name" : "Logical Interaction Point"
+    "Name" : "Logical Interaction Point",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "LIPapplyingToLET",
@@ -1478,10 +1592,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
-    "Name" : "Logical Element"
+    "Name" : "Logical Element",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_546931_91032",
-    "Name" : "Logical Interaction Point"
+    "Name" : "Logical Interaction Point",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "LIScontainingILCM",
@@ -1493,10 +1609,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_3_26f0132_1582315257123_533586_56785",
-    "Name" : "Logical Chronological Message"
+    "Name" : "Logical Chronological Message",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_3_26f0132_1582314602701_812421_56211",
-    "Name" : "Logical Interaction Scenario"
+    "Name" : "Logical Interaction Scenario",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "LURconceptingPUR",
@@ -1508,10 +1626,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_ebf0350_1555174193029_536383_44542",
-    "Name" : "Physical User"
+    "Name" : "Physical User",
+    "Multiplicity" : "1..*"
   }, {
     "ID" : "_19_0_2_8710274_1558534130432_293473_45375",
-    "Name" : "Logical User"
+    "Name" : "Logical User",
+    "Multiplicity" : "1..*"
   } ]
 }, {
   "Name" : "Logical Chronological Message",
@@ -1526,10 +1646,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_3_26f0132_1582315087346_20721_56621",
-    "Name" : "Logical Scenario Participation"
+    "Name" : "Logical Scenario Participation",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_3_26f0132_1582315087346_20721_56621",
-    "Name" : "Logical Scenario Participation"
+    "Name" : "Logical Scenario Participation",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "Logical Connection",
@@ -1547,10 +1669,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_546931_91032",
-    "Name" : "Logical Interaction Point"
+    "Name" : "Logical Interaction Point",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_546931_91032",
-    "Name" : "Logical Interaction Point"
+    "Name" : "Logical Interaction Point",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "Logical Context Element",
@@ -1595,10 +1719,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1558075086129_173532_44926",
-    "Name" : "Logical System Context"
+    "Name" : "Logical System Context",
+    "Multiplicity" : "1..*"
   }, {
     "ID" : "_19_0_2_26f0132_1558075029411_79067_44836",
-    "Name" : "Logical Context Element"
+    "Name" : "Logical Context Element",
+    "Multiplicity" : "1..*"
   } ]
 }, {
   "Name" : "Logical Context SOI",
@@ -1664,10 +1790,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
-    "Name" : "Logical Element"
+    "Name" : "Logical Element",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
-    "Name" : "Logical Element"
+    "Name" : "Logical Element",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "Logical Environment",
@@ -1811,10 +1939,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1558075086129_173532_44926",
-    "Name" : "Logical System Context"
+    "Name" : "Logical System Context",
+    "Multiplicity" : "1..*"
   }, {
     "ID" : "_19_0_2_26f0132_1558075212525_51415_45174",
-    "Name" : "Logical Context SOI"
+    "Name" : "Logical Context SOI",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "Logical Scenario Participation",
@@ -1829,10 +1959,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_3_26f0132_1582314602701_812421_56211",
-    "Name" : "Logical Interaction Scenario"
+    "Name" : "Logical Interaction Scenario",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_981340_91082",
-    "Name" : "Logical Element Role"
+    "Name" : "Logical Element Role",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "Logical System Context",
@@ -1904,10 +2036,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_3_26f0132_1583963832153_320549_23021",
-    "Name" : "Operational Item Exchange"
+    "Name" : "Operational Item Exchange",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_3_26f0132_1583963707692_371546_22970",
-    "Name" : "Operational Connection"
+    "Name" : "Operational Connection",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "OCYcomposedOF",
@@ -1925,10 +2059,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_3_8710274_1581665911562_310714_48925",
-    "Name" : "Operational Capability"
+    "Name" : "Operational Capability",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_3_8710274_1581665911562_310714_48925",
-    "Name" : "Operational Capability"
+    "Name" : "Operational Capability",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "OCYdependingON",
@@ -1946,10 +2082,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_3_8710274_1581665911562_310714_48925",
-    "Name" : "Operational Capability"
+    "Name" : "Operational Capability",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_3_8710274_1581665911562_310714_48925",
-    "Name" : "Operational Capability"
+    "Name" : "Operational Capability",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "OCYspecializedBY",
@@ -1967,10 +2105,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_3_8710274_1581665911562_310714_48925",
-    "Name" : "Operational Capability"
+    "Name" : "Operational Capability",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_3_8710274_1581665911562_310714_48925",
-    "Name" : "Operational Capability"
+    "Name" : "Operational Capability",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "OCYsupportingOSY",
@@ -1985,10 +2125,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1561750989144_963009_48675",
-    "Name" : "Operational Story"
+    "Name" : "Operational Story",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_3_8710274_1581665911562_310714_48925",
-    "Name" : "Operational Capability"
+    "Name" : "Operational Capability",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "ODKcomposedOF",
@@ -2003,10 +2145,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_3_26f0132_1600783068816_502199_735",
-    "Name" : "Operational Domain Kind"
+    "Name" : "Operational Domain Kind",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_3_26f0132_1600783068816_502199_735",
-    "Name" : "Operational Domain Kind"
+    "Name" : "Operational Domain Kind",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "ODKtypifyingOIE",
@@ -2018,10 +2162,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_3_26f0132_1583963832153_320549_23021",
-    "Name" : "Operational Item Exchange"
+    "Name" : "Operational Item Exchange",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_3_26f0132_1600783068816_502199_735",
-    "Name" : "Operational Domain Kind"
+    "Name" : "Operational Domain Kind",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "ODKtypifyingOPE",
@@ -2036,10 +2182,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_3_26f0132_1600784136485_599221_879",
-    "Name" : "Operational Process Exchange"
+    "Name" : "Operational Process Exchange",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_3_26f0132_1600783068816_502199_735",
-    "Name" : "Operational Domain Kind"
+    "Name" : "Operational Domain Kind",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "OIScontainingOCM",
@@ -2051,10 +2199,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1561753696413_162391_50607",
-    "Name" : "Operational Chronological Message"
+    "Name" : "Operational Chronological Message",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1561752967418_869778_50310",
-    "Name" : "Operational Interaction Scenario"
+    "Name" : "Operational Interaction Scenario",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "OISrefiningOSY",
@@ -2066,10 +2216,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1561750989144_963009_48675",
-    "Name" : "Operational Story"
+    "Name" : "Operational Story",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_2_26f0132_1561752967418_869778_50310",
-    "Name" : "Operational Interaction Scenario"
+    "Name" : "Operational Interaction Scenario",
+    "Multiplicity" : "1..*"
   } ]
 }, {
   "Name" : "OPRactingInOSY",
@@ -2084,10 +2236,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1561750989144_963009_48675",
-    "Name" : "Operational Story"
+    "Name" : "Operational Story",
+    "Multiplicity" : "1..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562316412621_925297_43615",
-    "Name" : "Operational Performer"
+    "Name" : "Operational Performer",
+    "Multiplicity" : "1..*"
   } ]
 }, {
   "Name" : "OPRcapableOFperformingOPS",
@@ -2102,10 +2256,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_164f041e_1564572299224_487951_54901",
-    "Name" : "Operational Process"
+    "Name" : "Operational Process",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562316412621_925297_43615",
-    "Name" : "Operational Performer"
+    "Name" : "Operational Performer",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "OPRcomposedOF",
@@ -2120,10 +2276,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562316412621_925297_43615",
-    "Name" : "Operational Performer"
+    "Name" : "Operational Performer",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562316412621_925297_43615",
-    "Name" : "Operational Performer"
+    "Name" : "Operational Performer",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "OPRexhibitingOCY",
@@ -2138,10 +2296,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_3_8710274_1581665911562_310714_48925",
-    "Name" : "Operational Capability"
+    "Name" : "Operational Capability",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562316412621_925297_43615",
-    "Name" : "Operational Performer"
+    "Name" : "Operational Performer",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "OPRperformingOPSU",
@@ -2156,10 +2316,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_3_8710274_1581674683825_886069_50270",
-    "Name" : "Operational Process Usage"
+    "Name" : "Operational Process Usage",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1567694227019_837886_54521",
-    "Name" : "Operational Context Role"
+    "Name" : "Operational Context Role",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "OPSenablingOCY",
@@ -2177,10 +2339,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_3_8710274_1581665911562_310714_48925",
-    "Name" : "Operational Capability"
+    "Name" : "Operational Capability",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_164f041e_1564572299224_487951_54901",
-    "Name" : "Operational Process"
+    "Name" : "Operational Process",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "OPSrefiningOSY",
@@ -2195,10 +2359,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1561750989144_963009_48675",
-    "Name" : "Operational Story"
+    "Name" : "Operational Story",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_2_164f041e_1564572299224_487951_54901",
-    "Name" : "Operational Process"
+    "Name" : "Operational Process",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "OSYtakingPlaceInOCT",
@@ -2213,10 +2379,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1561763753175_522268_51960",
-    "Name" : "Operational Context"
+    "Name" : "Operational Context",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_2_26f0132_1561750989144_963009_48675",
-    "Name" : "Operational Story"
+    "Name" : "Operational Story",
+    "Multiplicity" : "1..*"
   } ]
 }, {
   "Name" : "Operational Capability",
@@ -2258,10 +2426,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1561753960035_59004_50670",
-    "Name" : "Operational Scenario Participation"
+    "Name" : "Operational Scenario Participation",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_2_26f0132_1561753960035_59004_50670",
-    "Name" : "Operational Scenario Participation"
+    "Name" : "Operational Scenario Participation",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "Operational Connection",
@@ -2276,10 +2446,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1567694227019_837886_54521",
-    "Name" : "Operational Context Role"
+    "Name" : "Operational Context Role",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_2_26f0132_1567694227019_837886_54521",
-    "Name" : "Operational Context Role"
+    "Name" : "Operational Context Role",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "Operational Context",
@@ -2327,10 +2499,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1561763753175_522268_51960",
-    "Name" : "Operational Context"
+    "Name" : "Operational Context",
+    "Multiplicity" : "1..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562316412621_925297_43615",
-    "Name" : "Operational Performer"
+    "Name" : "Operational Performer",
+    "Multiplicity" : "1..*"
   } ]
 }, {
   "Name" : "Operational Domain Kind",
@@ -2438,10 +2612,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_164f041e_1564572299224_487951_54901",
-    "Name" : "Operational Process"
+    "Name" : "Operational Process",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_2_164f041e_1564572299224_487951_54901",
-    "Name" : "Operational Process"
+    "Name" : "Operational Process",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "Operational Process Usage",
@@ -2456,10 +2632,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_164f041e_1564572299224_487951_54901",
-    "Name" : "Operational Process"
+    "Name" : "Operational Process",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_164f041e_1564572299224_487951_54901",
-    "Name" : "Operational Process"
+    "Name" : "Operational Process",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "Operational Scenario Participation",
@@ -2474,10 +2652,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1561752967418_869778_50310",
-    "Name" : "Operational Interaction Scenario"
+    "Name" : "Operational Interaction Scenario",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1567694227019_837886_54521",
-    "Name" : "Operational Context Role"
+    "Name" : "Operational Context Role",
+    "Multiplicity" : "1..*"
   } ]
 }, {
   "Name" : "Operational Sketch",
@@ -2525,10 +2705,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_2021x_2_8710274_1680254047478_590735_24180",
-    "Name" : "Physical Connector Compatibility"
+    "Name" : "Physical Connector Compatibility",
+    "Multiplicity" : "0..1"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_610387_91043",
-    "Name" : "Physical Connection"
+    "Name" : "Physical Connection",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "PCCassertsCompatibiltyForPCPD",
@@ -2540,10 +2722,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_956519_91030",
-    "Name" : "Physical Interaction Point Definition"
+    "Name" : "Physical Interaction Point Definition",
+    "Multiplicity" : "2"
   }, {
     "ID" : "_2021x_2_8710274_1680254047478_590735_24180",
-    "Name" : "Physical Connector Compatibility"
+    "Name" : "Physical Connector Compatibility",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "PCNallowingPIE",
@@ -2561,10 +2745,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_925142_91031",
-    "Name" : "Physical Item Exchange"
+    "Name" : "Physical Item Exchange",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_610387_91043",
-    "Name" : "Physical Connection"
+    "Name" : "Physical Connection",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "PCPOverPCP",
@@ -2585,10 +2771,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_842935_91034",
-    "Name" : "Physical Interaction Point"
+    "Name" : "Physical Interaction Point",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_842935_91034",
-    "Name" : "Physical Interaction Point"
+    "Name" : "Physical Interaction Point",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "PCPPOverPCPP",
@@ -2603,10 +2791,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_114179_91028",
-    "Name" : "Physical Interaction Point Property"
+    "Name" : "Physical Interaction Point Property",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_114179_91028",
-    "Name" : "Physical Interaction Point Property"
+    "Name" : "Physical Interaction Point Property",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "PCPisPartOfPIPD",
@@ -2624,10 +2814,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_956519_91030",
-    "Name" : "Physical Interaction Point Definition"
+    "Name" : "Physical Interaction Point Definition",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_842935_91034",
-    "Name" : "Physical Interaction Point"
+    "Name" : "Physical Interaction Point",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "PEKisAssignedToPL",
@@ -2639,10 +2831,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_482464_91025",
-    "Name" : "Physical Exchange Kind"
+    "Name" : "Physical Exchange Kind",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_2021x_2_8710274_1681805942264_961820_25847",
-    "Name" : "Physical Layer"
+    "Name" : "Physical Layer",
+    "Multiplicity" : "0..1"
   } ]
 }, {
   "Name" : "PEKrealizingSDK",
@@ -2657,10 +2851,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
-    "Name" : "System Domain Kind"
+    "Name" : "System Domain Kind",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_482464_91025",
-    "Name" : "Physical Exchange Kind"
+    "Name" : "Physical Exchange Kind",
+    "Multiplicity" : "1..*"
   } ]
 }, {
   "Name" : "PEKtypingPIE",
@@ -2678,10 +2874,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_925142_91031",
-    "Name" : "Physical Item Exchange"
+    "Name" : "Physical Item Exchange",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_482464_91025",
-    "Name" : "Physical Exchange Kind"
+    "Name" : "Physical Exchange Kind",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "PEKtypingPIPP",
@@ -2699,10 +2897,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_114179_91028",
-    "Name" : "Physical Interaction Point Property"
+    "Name" : "Physical Interaction Point Property",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_482464_91025",
-    "Name" : "Physical Exchange Kind"
+    "Name" : "Physical Exchange Kind",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "PIPDdefiningDetailOfPIP",
@@ -2723,10 +2923,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_842935_91034",
-    "Name" : "Physical Interaction Point"
+    "Name" : "Physical Interaction Point",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_956519_91030",
-    "Name" : "Physical Interaction Point Definition"
+    "Name" : "Physical Interaction Point Definition",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "PIPPspecifyingDetailOfPIPD",
@@ -2741,10 +2943,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_956519_91030",
-    "Name" : "Physical Interaction Point Definition"
+    "Name" : "Physical Interaction Point Definition",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_114179_91028",
-    "Name" : "Physical Interaction Point Property"
+    "Name" : "Physical Interaction Point Property",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "PIPapplyingToAPE",
@@ -2762,10 +2966,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_941558_91077",
-    "Name" : "Abstract Physical Element"
+    "Name" : "Abstract Physical Element",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_842935_91034",
-    "Name" : "Physical Interaction Point"
+    "Name" : "Physical Interaction Point",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "PIPapplyingToPCE",
@@ -2780,10 +2986,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1558075355803_462669_45365",
-    "Name" : "Physical Context Element"
+    "Name" : "Physical Context Element",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_842935_91034",
-    "Name" : "Physical Interaction Point"
+    "Name" : "Physical Interaction Point",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "PIimplementsSEC",
@@ -2798,10 +3006,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_2024x_26f0132_1719749431514_697590_16049",
-    "Name" : "SE Concept"
+    "Name" : "SE Concept",
+    "Multiplicity" : "1..*"
   }, {
     "ID" : "_2024x_26f0132_1719774460002_849168_35401",
-    "Name" : "ProfileItem"
+    "Name" : "ProfileItem",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "PLOisValidInPLS",
@@ -2813,10 +3023,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_2021x_2_8710274_1681806104102_190543_25889",
-    "Name" : "Physical Layer Stack"
+    "Name" : "Physical Layer Stack",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_2021x_2_8710274_1681806159936_213184_25915",
-    "Name" : "Physical Layer Ordering"
+    "Name" : "Physical Layer Ordering",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "Physical Connection",
@@ -2834,10 +3046,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_842935_91034",
-    "Name" : "Physical Interaction Point"
+    "Name" : "Physical Interaction Point",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_842935_91034",
-    "Name" : "Physical Interaction Point"
+    "Name" : "Physical Interaction Point",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "Physical Connector Compatibility",
@@ -2879,10 +3093,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1558075325978_897109_45289",
-    "Name" : "Physical System Context"
+    "Name" : "Physical System Context",
+    "Multiplicity" : "1..*"
   }, {
     "ID" : "_19_0_2_26f0132_1558075355803_462669_45365",
-    "Name" : "Physical Context Element"
+    "Name" : "Physical Context Element",
+    "Multiplicity" : "1..*"
   } ]
 }, {
   "Name" : "Physical Element",
@@ -2930,10 +3146,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_824595_91079",
-    "Name" : "Physical Element"
+    "Name" : "Physical Element",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_824595_91079",
-    "Name" : "Physical Element"
+    "Name" : "Physical Element",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "Physical Environment",
@@ -3011,10 +3229,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_845534_91075",
-    "Name" : "Hardware Element"
+    "Name" : "Hardware Element",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_824595_91079",
-    "Name" : "Physical Element"
+    "Name" : "Physical Element",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "Physical Interaction Point",
@@ -3095,10 +3315,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_2021x_2_8710274_1681805942264_961820_25847",
-    "Name" : "Physical Layer"
+    "Name" : "Physical Layer",
+    "Multiplicity" : "0..1"
   }, {
     "ID" : "_2021x_2_8710274_1681805942264_961820_25847",
-    "Name" : "Physical Layer"
+    "Name" : "Physical Layer",
+    "Multiplicity" : "0..1"
   } ]
 }, {
   "Name" : "Physical Layer Stack",
@@ -3146,10 +3368,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1558075325978_897109_45289",
-    "Name" : "Physical System Context"
+    "Name" : "Physical System Context",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_2_26f0132_1558075337119_355128_45325",
-    "Name" : "Physical SOI"
+    "Name" : "Physical SOI",
+    "Multiplicity" : "1..*"
   } ]
 }, {
   "Name" : "Physical Software Role",
@@ -3173,10 +3397,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_251302_91078",
-    "Name" : "Software Element"
+    "Name" : "Software Element",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_824595_91079",
-    "Name" : "Physical Element"
+    "Name" : "Physical Element",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "Physical System Context",
@@ -3245,10 +3471,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_2021x_2_6d8019d_1674232167081_446328_23366",
-    "Name" : "CounterClaim"
+    "Name" : "CounterClaim",
+    "Multiplicity" : "1..*"
   }, {
     "ID" : "_2021x_2_6d8019d_1674232167082_824671_23368",
-    "Name" : "Refuter"
+    "Name" : "Refuter",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "Rationale",
@@ -3266,10 +3494,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_2024x_26f0132_1719748355302_515347_15328",
-    "Name" : "Concern"
+    "Name" : "Concern",
+    "Multiplicity" : "1..*"
   }, {
     "ID" : "_2024x_26f0132_1719748770980_708368_15656",
-    "Name" : "Stakeholder"
+    "Name" : "Stakeholder",
+    "Multiplicity" : "1..*"
   } ]
 }, {
   "Name" : "Refuter",
@@ -3308,10 +3538,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562316412621_925297_43615",
-    "Name" : "Operational Performer"
+    "Name" : "Operational Performer",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_2_26f0132_1562316546243_649906_43676",
-    "Name" : "System Context Element"
+    "Name" : "System Context Element",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "SCErepresentedBySSH",
@@ -3326,10 +3558,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_8710274_1558519956748_646834_44043",
-    "Name" : "System of Interest Stakeholder"
+    "Name" : "System of Interest Stakeholder",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562316546243_649906_43676",
-    "Name" : "System Context Element"
+    "Name" : "System Context Element",
+    "Multiplicity" : "1..*"
   } ]
 }, {
   "Name" : "SCIScontainingLCM",
@@ -3341,10 +3575,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_3_26f0132_1582318082493_106012_58951",
-    "Name" : "System Context Chronological Message"
+    "Name" : "System Context Chronological Message",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_3_26f0132_1582317772054_442780_58842",
-    "Name" : "System Context Interaction Scenario"
+    "Name" : "System Context Interaction Scenario",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "SCYcomposedOF",
@@ -3362,10 +3598,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_4_6d8019d_1617463709646_290604_336",
-    "Name" : "System Capability"
+    "Name" : "System Capability",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_4_6d8019d_1617463709646_290604_336",
-    "Name" : "System Capability"
+    "Name" : "System Capability",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "SCYdependingON",
@@ -3383,10 +3621,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_4_6d8019d_1617463709646_290604_336",
-    "Name" : "System Capability"
+    "Name" : "System Capability",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_4_6d8019d_1617463709646_290604_336",
-    "Name" : "System Capability"
+    "Name" : "System Capability",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "SCYenablingOCY",
@@ -3401,10 +3641,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_3_8710274_1581665911562_310714_48925",
-    "Name" : "Operational Capability"
+    "Name" : "Operational Capability",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_4_6d8019d_1617463709646_290604_336",
-    "Name" : "System Capability"
+    "Name" : "System Capability",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "SCYsatisfyingSHR",
@@ -3416,10 +3658,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_8710274_1558520000264_403052_44141",
-    "Name" : "Stakeholder Requirement"
+    "Name" : "Stakeholder Requirement",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_4_6d8019d_1617463709646_290604_336",
-    "Name" : "System Capability"
+    "Name" : "System Capability",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "SCYspecializedBY",
@@ -3437,10 +3681,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_4_6d8019d_1617463709646_290604_336",
-    "Name" : "System Capability"
+    "Name" : "System Capability",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_4_6d8019d_1617463709646_290604_336",
-    "Name" : "System Capability"
+    "Name" : "System Capability",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "SCYsupportingSUC",
@@ -3455,10 +3701,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_1_26f0132_1554446894995_335285_45800",
-    "Name" : "System Use Case"
+    "Name" : "System Use Case",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_4_6d8019d_1617463709646_290604_336",
-    "Name" : "System Capability"
+    "Name" : "System Capability",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "SDKbeeingInSSE",
@@ -3473,10 +3721,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303523973_719860_90882",
-    "Name" : "System State"
+    "Name" : "System State",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
-    "Name" : "System Domain Kind"
+    "Name" : "System Domain Kind",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "SDKcomposedOF",
@@ -3491,10 +3741,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
-    "Name" : "System Domain Kind"
+    "Name" : "System Domain Kind",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
-    "Name" : "System Domain Kind"
+    "Name" : "System Domain Kind",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "SDKderivingFromODK",
@@ -3506,10 +3758,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_3_26f0132_1600783068816_502199_735",
-    "Name" : "Operational Domain Kind"
+    "Name" : "Operational Domain Kind",
+    "Multiplicity" : "0..1"
   }, {
     "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
-    "Name" : "System Domain Kind"
+    "Name" : "System Domain Kind",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "SDKtypingFPM",
@@ -3521,10 +3775,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524161_902110_90999",
-    "Name" : "General Function Usage Exchange Point"
+    "Name" : "General Function Usage Exchange Point",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
-    "Name" : "System Domain Kind"
+    "Name" : "System Domain Kind",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "SDKtypingLIE",
@@ -3539,10 +3795,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_663216_91033",
-    "Name" : "Logical Item Exchange"
+    "Name" : "Logical Item Exchange",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
-    "Name" : "System Domain Kind"
+    "Name" : "System Domain Kind",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "SDKtypingLIPP",
@@ -3560,10 +3818,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_980387_91029",
-    "Name" : "Logical Interaction Point Property"
+    "Name" : "Logical Interaction Point Property",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
-    "Name" : "System Domain Kind"
+    "Name" : "System Domain Kind",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "SDTcategorizedCOF",
@@ -3578,10 +3838,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_2021x_2_8710274_1700813046483_995773_50081",
-    "Name" : "Category Of Standard"
+    "Name" : "Category Of Standard",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_2021x_2_8710274_1700810118595_556759_48108",
-    "Name" : "Standard"
+    "Name" : "Standard",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "SDTincludingSDT",
@@ -3596,10 +3858,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_2021x_2_8710274_1700810118595_556759_48108",
-    "Name" : "Standard"
+    "Name" : "Standard",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_2021x_2_8710274_1700810118595_556759_48108",
-    "Name" : "Standard"
+    "Name" : "Standard",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "SDTsupersedingSDT",
@@ -3614,10 +3878,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_2021x_2_8710274_1700810118595_556759_48108",
-    "Name" : "Standard"
+    "Name" : "Standard",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_2021x_2_8710274_1700810118595_556759_48108",
-    "Name" : "Standard"
+    "Name" : "Standard",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "SE Concept",
@@ -3647,10 +3913,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_2021x_2_8710274_1697454030821_682386_29382",
-    "Name" : "Viewpoint"
+    "Name" : "Viewpoint",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_2024x_26f0132_1719749431514_697590_16049",
-    "Name" : "SE Concept"
+    "Name" : "SE Concept",
+    "Multiplicity" : "1..*"
   } ]
 }, {
   "Name" : "SECrelatesToSEC",
@@ -3668,10 +3936,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_2024x_26f0132_1719749431514_697590_16049",
-    "Name" : "SE Concept"
+    "Name" : "SE Concept",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_2024x_26f0132_1719749431514_697590_16049",
-    "Name" : "SE Concept"
+    "Name" : "SE Concept",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "SFNallocatedToAPE",
@@ -3686,10 +3956,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_941558_91077",
-    "Name" : "Abstract Physical Element"
+    "Name" : "Abstract Physical Element",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_394471_91009",
-    "Name" : "System Function"
+    "Name" : "System Function",
+    "Multiplicity" : "1..*"
   } ]
 }, {
   "Name" : "SFNallocatedToLET",
@@ -3701,10 +3973,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1558075212525_51415_45174",
-    "Name" : "Logical Context SOI"
+    "Name" : "Logical Context SOI",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_394471_91009",
-    "Name" : "System Function"
+    "Name" : "System Function",
+    "Multiplicity" : "1..*"
   } ]
 }, {
   "Name" : "SFNboundedByNFR",
@@ -3716,10 +3990,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_164f041e_1564383985280_212499_51679",
-    "Name" : "Non-functional Requirement"
+    "Name" : "Non-functional Requirement",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_394471_91009",
-    "Name" : "System Function"
+    "Name" : "System Function",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "SFNresultingInSSE",
@@ -3734,10 +4010,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303523973_719860_90882",
-    "Name" : "System State"
+    "Name" : "System State",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_394471_91009",
-    "Name" : "System Function"
+    "Name" : "System Function",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "SFNsupportingSCY",
@@ -3752,10 +4030,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_4_6d8019d_1617463709646_290604_336",
-    "Name" : "System Capability"
+    "Name" : "System Capability",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_394471_91009",
-    "Name" : "System Function"
+    "Name" : "System Function",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "SHRimposedBY",
@@ -3770,10 +4050,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_8710274_1558519956748_646834_44043",
-    "Name" : "System of Interest Stakeholder"
+    "Name" : "System of Interest Stakeholder",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_2_8710274_1558520000264_403052_44141",
-    "Name" : "Stakeholder Requirement"
+    "Name" : "Stakeholder Requirement",
+    "Multiplicity" : "1..*"
   } ]
 }, {
   "Name" : "SHRrefiningCRN",
@@ -3788,10 +4070,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_8710274_1558519985294_233543_44077",
-    "Name" : "System of Interest Concern"
+    "Name" : "System of Interest Concern",
+    "Multiplicity" : "1..*"
   }, {
     "ID" : "_19_0_2_8710274_1558520000264_403052_44141",
-    "Name" : "Stakeholder Requirement"
+    "Name" : "Stakeholder Requirement",
+    "Multiplicity" : "1..*"
   } ]
 }, {
   "Name" : "SHRrefiningOCY",
@@ -3809,10 +4093,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_3_8710274_1581665911562_310714_48925",
-    "Name" : "Operational Capability"
+    "Name" : "Operational Capability",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_8710274_1558520000264_403052_44141",
-    "Name" : "Stakeholder Requirement"
+    "Name" : "Stakeholder Requirement",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "SHRrefiningOSY",
@@ -3827,10 +4113,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1561750989144_963009_48675",
-    "Name" : "Operational Story"
+    "Name" : "Operational Story",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_8710274_1558520000264_403052_44141",
-    "Name" : "Stakeholder Requirement"
+    "Name" : "Stakeholder Requirement",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "SMhavingGF",
@@ -3842,10 +4130,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_4_26f0132_1624614161928_694281_1954",
-    "Name" : "General Function"
+    "Name" : "General Function",
+    "Multiplicity" : "1..*"
   }, {
     "ID" : "_2021x_2_8710274_1698665374453_611572_34394",
-    "Name" : "System"
+    "Name" : "System",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "SMhavingIP",
@@ -3857,10 +4147,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_2021x_2_8710274_1698677453131_434277_39060",
-    "Name" : "Interaction Point"
+    "Name" : "Interaction Point",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_2021x_2_8710274_1698665374453_611572_34394",
-    "Name" : "System"
+    "Name" : "System",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "SOIactingForOPR",
@@ -3872,10 +4164,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562316412621_925297_43615",
-    "Name" : "Operational Performer"
+    "Name" : "Operational Performer",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_1_26f0132_1554446894573_10154_45796",
-    "Name" : "System Of Interest"
+    "Name" : "System Of Interest",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "SPFNallocatedToAPE",
@@ -3890,10 +4184,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_941558_91077",
-    "Name" : "Abstract Physical Element"
+    "Name" : "Abstract Physical Element",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_4_26f0132_1624611043495_845903_880",
-    "Name" : "System Partial Function"
+    "Name" : "System Partial Function",
+    "Multiplicity" : "1..*"
   } ]
 }, {
   "Name" : "SPFNallocatedToLET",
@@ -3905,10 +4201,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
-    "Name" : "Logical Element"
+    "Name" : "Logical Element",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_4_26f0132_1624611043495_845903_880",
-    "Name" : "System Partial Function"
+    "Name" : "System Partial Function",
+    "Multiplicity" : "1..*"
   } ]
 }, {
   "Name" : "SPSenablingOPS",
@@ -3920,10 +4218,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_164f041e_1564572299224_487951_54901",
-    "Name" : "Operational Process"
+    "Name" : "Operational Process",
+    "Multiplicity" : "0..1"
   }, {
     "ID" : "_19_0_4_26f0132_1624610613457_313794_115",
-    "Name" : "System Process"
+    "Name" : "System Process",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "SPSenablingSCY",
@@ -3938,10 +4238,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_4_6d8019d_1617463709646_290604_336",
-    "Name" : "System Capability"
+    "Name" : "System Capability",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_4_26f0132_1624610613457_313794_115",
-    "Name" : "System Process"
+    "Name" : "System Process",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "SPSrefiningSUC",
@@ -3956,10 +4258,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_1_26f0132_1554446894995_335285_45800",
-    "Name" : "System Use Case"
+    "Name" : "System Use Case",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_4_26f0132_1624610613457_313794_115",
-    "Name" : "System Process"
+    "Name" : "System Process",
+    "Multiplicity" : "0..1"
   } ]
 }, {
   "Name" : "SRderivingFromSR",
@@ -3977,10 +4281,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_8710274_1558520012975_812587_44177",
-    "Name" : "System Requirement"
+    "Name" : "System Requirement",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_2_8710274_1558520012975_812587_44177",
-    "Name" : "System Requirement"
+    "Name" : "System Requirement",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "SRderivingFromSTKR",
@@ -3998,10 +4304,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_8710274_1558520000264_403052_44141",
-    "Name" : "Stakeholder Requirement"
+    "Name" : "Stakeholder Requirement",
+    "Multiplicity" : "1..*"
   }, {
     "ID" : "_19_0_2_8710274_1558520012975_812587_44177",
-    "Name" : "System Requirement"
+    "Name" : "System Requirement",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "SRrefiningLICP",
@@ -4016,10 +4324,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_546931_91032",
-    "Name" : "Logical Interaction Point"
+    "Name" : "Logical Interaction Point",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_8710274_1558520012975_812587_44177",
-    "Name" : "System Requirement"
+    "Name" : "System Requirement",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "SRrefiningSCY",
@@ -4037,10 +4347,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_4_6d8019d_1617463709646_290604_336",
-    "Name" : "System Capability"
+    "Name" : "System Capability",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_8710274_1558520012975_812587_44177",
-    "Name" : "System Requirement"
+    "Name" : "System Requirement",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "SRrefiningSUC",
@@ -4055,10 +4367,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_1_26f0132_1554446894995_335285_45800",
-    "Name" : "System Use Case"
+    "Name" : "System Use Case",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_8710274_1558520012975_812587_44177",
-    "Name" : "System Requirement"
+    "Name" : "System Requirement",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "SSEperformingSFN",
@@ -4073,10 +4387,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524161_394471_91009",
-    "Name" : "System Function"
+    "Name" : "System Function",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562303523973_719860_90882",
-    "Name" : "System State"
+    "Name" : "System State",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "SSHhavingCRN",
@@ -4091,10 +4407,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_8710274_1558519985294_233543_44077",
-    "Name" : "System of Interest Concern"
+    "Name" : "System of Interest Concern",
+    "Multiplicity" : "1..*"
   }, {
     "ID" : "_19_0_2_8710274_1558519956748_646834_44043",
-    "Name" : "System of Interest Stakeholder"
+    "Name" : "System of Interest Stakeholder",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "SSHrelatedToSSH",
@@ -4109,10 +4427,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_8710274_1558519956748_646834_44043",
-    "Name" : "System of Interest Stakeholder"
+    "Name" : "System of Interest Stakeholder",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_8710274_1558519956748_646834_44043",
-    "Name" : "System of Interest Stakeholder"
+    "Name" : "System of Interest Stakeholder",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "SSHrepresentingOPR",
@@ -4130,10 +4450,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562316412621_925297_43615",
-    "Name" : "Operational Performer"
+    "Name" : "Operational Performer",
+    "Multiplicity" : "1..*"
   }, {
     "ID" : "_19_0_2_8710274_1558519956748_646834_44043",
-    "Name" : "System of Interest Stakeholder"
+    "Name" : "System of Interest Stakeholder",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "SSHrepresentingUSR",
@@ -4145,10 +4467,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1567601057444_940759_53923",
-    "Name" : "User"
+    "Name" : "User",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_8710274_1558519956748_646834_44043",
-    "Name" : "System of Interest Stakeholder"
+    "Name" : "System of Interest Stakeholder",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "SSTimplementsVP",
@@ -4163,10 +4487,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_2021x_2_8710274_1697454030821_682386_29382",
-    "Name" : "Viewpoint"
+    "Name" : "Viewpoint",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_2024x_26f0132_1719773907937_525274_34938",
-    "Name" : "SAF Stereotype"
+    "Name" : "SAF Stereotype",
+    "Multiplicity" : "1..*"
   } ]
 }, {
   "Name" : "STDcontainsGY",
@@ -4178,10 +4504,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_2024x_1_26f0132_1729193426484_948459_25660",
-    "Name" : "Glossary"
+    "Name" : "Glossary",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_2021x_2_8710274_1700810118595_556759_48108",
-    "Name" : "Standard"
+    "Name" : "Standard",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "STDdependsOnSTD",
@@ -4196,10 +4524,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_2021x_2_8710274_1700810118595_556759_48108",
-    "Name" : "Standard"
+    "Name" : "Standard",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_2021x_2_8710274_1700810118595_556759_48108",
-    "Name" : "Standard"
+    "Name" : "Standard",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "STDissuedBySTO",
@@ -4214,10 +4544,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_2021x_2_8710274_1700810355233_788568_48161",
-    "Name" : "Standardization Organization"
+    "Name" : "Standardization Organization",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_2021x_2_8710274_1700810118595_556759_48108",
-    "Name" : "Standard"
+    "Name" : "Standard",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "SUCenablingOSY",
@@ -4232,10 +4564,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1561750989144_963009_48675",
-    "Name" : "Operational Story"
+    "Name" : "Operational Story",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_1_26f0132_1554446894995_335285_45800",
-    "Name" : "System Use Case"
+    "Name" : "System Use Case",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "SUChasPostConditionSSE",
@@ -4250,10 +4584,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303523973_719860_90882",
-    "Name" : "System State"
+    "Name" : "System State",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_1_26f0132_1554446894995_335285_45800",
-    "Name" : "System Use Case"
+    "Name" : "System Use Case",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "SUChasPreConditionSSE",
@@ -4268,10 +4604,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303523973_719860_90882",
-    "Name" : "System State"
+    "Name" : "System State",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_1_26f0132_1554446894995_335285_45800",
-    "Name" : "System Use Case"
+    "Name" : "System Use Case",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "SUCincludingSUC",
@@ -4283,10 +4621,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_1_26f0132_1554446894995_335285_45800",
-    "Name" : "System Use Case"
+    "Name" : "System Use Case",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_1_26f0132_1554446894995_335285_45800",
-    "Name" : "System Use Case"
+    "Name" : "System Use Case",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "SUCrefiningSHR",
@@ -4298,10 +4638,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_8710274_1558520000264_403052_44141",
-    "Name" : "Stakeholder Requirement"
+    "Name" : "Stakeholder Requirement",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_1_26f0132_1554446894995_335285_45800",
-    "Name" : "System Use Case"
+    "Name" : "System Use Case",
+    "Multiplicity" : "0..1"
   } ]
 }, {
   "Name" : "SUCsynthesizingCFN",
@@ -4313,10 +4655,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_4_26f0132_1624611972707_746294_1003",
-    "Name" : "Context Function"
+    "Name" : "Context Function",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_1_26f0132_1554446894995_335285_45800",
-    "Name" : "System Use Case"
+    "Name" : "System Use Case",
+    "Multiplicity" : "1..*"
   } ]
 }, {
   "Name" : "SUCsynthesizingSFN",
@@ -4328,10 +4672,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524161_394471_91009",
-    "Name" : "System Function"
+    "Name" : "System Function",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_1_26f0132_1554446894995_335285_45800",
-    "Name" : "System Use Case"
+    "Name" : "System Use Case",
+    "Multiplicity" : "1..*"
   } ]
 }, {
   "Name" : "SUCtakingPlaceInLSC",
@@ -4346,10 +4692,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1558075086129_173532_44926",
-    "Name" : "Logical System Context"
+    "Name" : "Logical System Context",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_1_26f0132_1554446894995_335285_45800",
-    "Name" : "System Use Case"
+    "Name" : "System Use Case",
+    "Multiplicity" : "1..*"
   } ]
 }, {
   "Name" : "Software Element",
@@ -4397,10 +4745,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_251302_91078",
-    "Name" : "Software Element"
+    "Name" : "Software Element",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_251302_91078",
-    "Name" : "Software Element"
+    "Name" : "Software Element",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "Stakeholder",
@@ -4478,10 +4828,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303523973_719860_90882",
-    "Name" : "System State"
+    "Name" : "System State",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_2_26f0132_1562303523973_719860_90882",
-    "Name" : "System State"
+    "Name" : "System State",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "Subject of Claim",
@@ -4571,10 +4923,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_3_26f0132_1582317965050_858700_58885",
-    "Name" : "System Context Scenario Participation"
+    "Name" : "System Context Scenario Participation",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_3_26f0132_1582317965050_858700_58885",
-    "Name" : "System Context Scenario Participation"
+    "Name" : "System Context Scenario Participation",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "System Context Element",
@@ -4604,10 +4958,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_164f041e_1564089980498_97451_52116",
-    "Name" : "System Context"
+    "Name" : "System Context",
+    "Multiplicity" : "1..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562316546243_649906_43676",
-    "Name" : "System Context Element"
+    "Name" : "System Context Element",
+    "Multiplicity" : "1..*"
   } ]
 }, {
   "Name" : "System Context Interaction Scenario",
@@ -4649,10 +5005,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_3_26f0132_1582317772054_442780_58842",
-    "Name" : "System Context Interaction Scenario"
+    "Name" : "System Context Interaction Scenario",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_3_26f0132_1582317652656_237080_58806",
-    "Name" : "System Context Role"
+    "Name" : "System Context Role",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "System Domain Kind",
@@ -4730,10 +5088,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_4_26f0132_1624610613457_313794_115",
-    "Name" : "System Process"
+    "Name" : "System Process",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_394471_91009",
-    "Name" : "System Function"
+    "Name" : "System Function",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "System Of Interest",
@@ -4784,10 +5144,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_4_26f0132_1624611043495_845903_880",
-    "Name" : "System Partial Function"
+    "Name" : "System Partial Function",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_394471_91009",
-    "Name" : "System Function"
+    "Name" : "System Function",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "System Process",
@@ -4844,10 +5206,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_2021x_2_8710274_1698665374453_611572_34394",
-    "Name" : "System"
+    "Name" : "System",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_2021x_2_8710274_1698665374453_611572_34394",
-    "Name" : "System"
+    "Name" : "System",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "System SOI Role",
@@ -4859,10 +5223,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_164f041e_1564089980498_97451_52116",
-    "Name" : "System Context"
+    "Name" : "System Context",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_1_26f0132_1554446894573_10154_45796",
-    "Name" : "System Of Interest"
+    "Name" : "System Of Interest",
+    "Multiplicity" : "1..*"
   } ]
 }, {
   "Name" : "System State",
@@ -4940,10 +5306,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_2021x_2_8710274_1700810118595_556759_48108",
-    "Name" : "Standard"
+    "Name" : "Standard",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_2021x_2_8710274_1700810107962_53436_48086",
-    "Name" : "Term"
+    "Name" : "Term",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "Term",
@@ -4994,10 +5362,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_981340_91082",
-    "Name" : "Logical Element Role"
+    "Name" : "Logical Element Role",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_907005_91002",
-    "Name" : "General Functional Usage"
+    "Name" : "General Functional Usage",
+    "Multiplicity" : "1..*"
   } ]
 }, {
   "Name" : "User",
@@ -5024,10 +5394,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_2021x_2_8710274_1697453623560_622137_29153",
-    "Name" : "Aspect"
+    "Name" : "Aspect",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_2021x_2_8710274_1697454030821_682386_29382",
-    "Name" : "Viewpoint"
+    "Name" : "Viewpoint",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "VPbelongingToDN",
@@ -5045,10 +5417,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_2021x_2_8710274_1697453629868_350923_29165",
-    "Name" : "Domain"
+    "Name" : "Domain",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_2021x_2_8710274_1697454030821_682386_29382",
-    "Name" : "Viewpoint"
+    "Name" : "Viewpoint",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "VPframesCN",
@@ -5066,10 +5440,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_2024x_26f0132_1719748355302_515347_15328",
-    "Name" : "Concern"
+    "Name" : "Concern",
+    "Multiplicity" : "1..*"
   }, {
     "ID" : "_2021x_2_8710274_1697454030821_682386_29382",
-    "Name" : "Viewpoint"
+    "Name" : "Viewpoint",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "VWconformingToVP",
@@ -5084,10 +5460,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_2021x_2_8710274_1697454030821_682386_29382",
-    "Name" : "Viewpoint"
+    "Name" : "Viewpoint",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_2021x_2_8710274_1697455811202_83226_34987",
-    "Name" : "View"
+    "Name" : "View",
+    "Multiplicity" : "0..*"
   } ]
 }, {
   "Name" : "View",
@@ -5129,10 +5507,12 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_164f041e_1564572299224_487951_54901",
-    "Name" : "Operational Process"
+    "Name" : "Operational Process",
+    "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_2_164f041e_1564572299224_487951_54901",
-    "Name" : "Operational Process"
+    "Name" : "Operational Process",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "satisfyingSHR",
@@ -5144,10 +5524,12 @@
   "InViewpoint" : [ ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_8710274_1558520000264_403052_44141",
-    "Name" : "Stakeholder Requirement"
+    "Name" : "Stakeholder Requirement",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_164f041e_1564565587397_301397_54399",
-    "Name" : "Any SAF Element"
+    "Name" : "Any SAF Element",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "triggering",
@@ -5162,9 +5544,11 @@
   } ],
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562307450269_33287_141718",
-    "Name" : "State Transition"
+    "Name" : "State Transition",
+    "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_4_6d8019d_1627829323787_791914_508",
-    "Name" : "Triggering Event"
+    "Name" : "Triggering Event",
+    "Multiplicity" : "0..1"
   } ]
 } ]

@@ -114,6 +114,9 @@
     "Rationale" : "",
     "Concern" : "Which performers or resources are necessary to operate the intended solution?"
   }, {
+    "Rationale" : "I want to know if standards relevant to the system are applied properly.",
+    "Concern" : "Which terms and abbreviations are applicable to the system of interest or its system elements and their interfaces and interactions?"
+  }, {
     "Rationale" : "",
     "Concern" : "Who are the (Major) Stakeholders involved in the intended solution?"
   }, {
@@ -345,6 +348,9 @@
     "Rationale" : "",
     "Concern" : "Which protection means need to be provided for an interface?"
   }, {
+    "Rationale" : "In my role, I need to know the applicable standards during implementation..",
+    "Concern" : "Which standards, guidance, and policy are applicable to the system of interest or its system elements and their interfaces and interactions?"
+  }, {
     "Rationale" : "In my role, I need to implement the interface.",
     "Concern" : "Which standards, protocols, and format specifications apply to a physical interface?"
   }, {
@@ -512,6 +518,9 @@
   }, {
     "Rationale" : "In my role, as design authority I have to ensure that the Physical Element fulfills the allocated logical concept (specification).",
     "Concern" : "Which logical elements are allocated to which physical elements?"
+  }, {
+    "Rationale" : "In my role, I need to know the applicable standards during implementation..",
+    "Concern" : "Which standards, guidance, and policy are applicable to the system of interest or its system elements and their interfaces and interactions?"
   }, {
     "Rationale" : "In my role, I need to know the meaning of defined terms from applicable standards during implementation.",
     "Concern" : "Which terms and abbreviations are applicable to the system of interest or its system elements and their interfaces and interactions?"
@@ -1139,6 +1148,9 @@
     "Rationale" : "In my role, I need to support integrating and testing the interfaces.",
     "Concern" : "Which physical items (energy, material, information, etc.) are exchanged within the system?"
   }, {
+    "Rationale" : "In my role, I need to know the applicable standards during implementation..",
+    "Concern" : "Which standards, guidance, and policy are applicable to the system of interest or its system elements and their interfaces and interactions?"
+  }, {
     "Rationale" : "In my role, I need to implement the interface.",
     "Concern" : "Which standards, protocols, and format specifications apply to a physical interface?"
   }, {
@@ -1281,6 +1293,9 @@
     "Rationale" : "",
     "Concern" : "What are the scenarios a system function is utilized in?"
   }, {
+    "Rationale" : "I need to check the sources of standards for updates and obsolescence of applied standards.",
+    "Concern" : "What are the sources (e.g. a standard) of terms?"
+  }, {
     "Rationale" : "",
     "Concern" : "What are the system delivery standards?"
   }, {
@@ -1383,6 +1398,9 @@
     "Rationale" : "In my role, I need to validate if they fit the purpose of the system and conform the systems concepts",
     "Concern" : "Which are the protocols used for exchanging information?"
   }, {
+    "Rationale" : "i need to record them in the project baseline-",
+    "Concern" : "Which are the relevant releases of the applicable standards, guidance, and policy to be used for the development of the system of interest and its system elements?"
+  }, {
     "Rationale" : "In my role, I use them as basis for understanding interfaces on logical level.",
     "Concern" : "Which conceptual items (energy, material, information, etc.) are exchanged within the system?"
   }, {
@@ -1435,6 +1453,9 @@
     "Concern" : "Which operational exchanges do operational performers need to consume or provide?"
   }, {
     "Rationale" : "",
+    "Concern" : "Which other standards are referenced or referred to by applicable standards?"
+  }, {
+    "Rationale" : "",
     "Concern" : "Which performers or resources are necessary to operate the intended solution?"
   }, {
     "Rationale" : "In my role, I use them as basis for understanding interfaces on physical level.",
@@ -1449,6 +1470,9 @@
     "Rationale" : "",
     "Concern" : "Which system functions are dependent on a systems mode or state?"
   }, {
+    "Rationale" : "I need to communicate these terms to stakeholders, and make sure they are applied appropriately to systeme elements.",
+    "Concern" : "Which terms and abbreviations are applicable to the system of interest or its system elements and their interfaces and interactions?"
+  }, {
     "Rationale" : "In my role, I need to delegate the implementation of HMI in subsystems.",
     "Concern" : "Which users does the system support? "
   }, {
@@ -1460,6 +1484,9 @@
   }, {
     "Rationale" : "",
     "Concern" : "Why types of exchange can exist between Operational Performers (i.e., flows of information, people, material, or energy)?"
+  }, {
+    "Rationale" : "I need to plan for obsolescence of applicable standards.",
+    "Concern" : "by which standard is an other standard superseded?"
   }, {
     "Rationale" : "i need to plan the architecture to adress the security requirements.",
     "Concern" : "what is the protection need of information"
