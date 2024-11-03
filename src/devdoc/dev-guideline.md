@@ -12,7 +12,7 @@ For details on how to model, please refer to the [metamodeling guide](metamodel-
 Most content of the SAF specification is developed using a Model. Most of the files in this repository are generated from this Model. So the best way to apply a change is to change the Model and generate again. We use Magic Draw to maintain the Model.
 
 ## Core Elements to know
-The main elements to understand and to know are Stakeholders, Concerns, Rationale, Viewpoints and Concepts. See [Core Concepts](../devdoc.md#core-concepts) about their definition and relationships.
+The main elements to understand and to know are Stakeholders, Concerns, Rationale, Viewpoints and Concepts. See [Core Concepts](./devdoc.md#core-concepts) about their definition and relationships.
 
 ## Viewpoint Development
 The main questions to be asked when developing a viewpoint should be: 

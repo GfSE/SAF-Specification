@@ -23,7 +23,7 @@
   "Domain" : "Common",
   "Presentation" : [ "A block definition diagram (BDD) featuring the taxonomy of types of standards,  applicable to the system of interest, or parts of the system of interest. The Standards are represented by packages which allows to use them in model libraries and put e.g. reusable interface definitions, or terms complying to the standard into the package", "A table format listing standards, applicable to the system of interest or parts of it, their relationships and the relation to which parts of the system the standards apply" ],
   "Stakeholders" : [ "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_ebf0350_1554653241806_566270_43560", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
-  "Concern" : [ "_2021x_2_8710274_1700821579663_211989_58619", "_2021x_2_8710274_1700821592720_121043_58626", "_2021x_2_8710274_1700821558610_489259_58612", "_2024x_1_26f0132_1730147177395_667618_16797" ],
+  "Concern" : [ "_2021x_2_8710274_1700821607046_355547_58633", "_2021x_2_8710274_1700821579663_211989_58619", "_2021x_2_8710274_1700821592720_121043_58626", "_2021x_2_8710274_1700821558610_489259_58612", "_2024x_1_26f0132_1730147177395_667618_16797" ],
   "RecommendedVP" : [ ],
   "RequiredVP" : [ ]
 }, {
@@ -163,7 +163,7 @@
   "Domain" : "SAF Development",
   "Presentation" : [ "A content diagram  featuring a graphical grid representation containing graphical representations of the aspects, domains, and viewpoints available in the framework.", "A table featuring the frameworks viewpoints, the domains, aspects, viewpoint implementation diagrams and maturity." ],
   "Stakeholders" : [ "_2024x_26f0132_1719129287848_367992_14650", "_2024x_26f0132_1719129568628_636824_14722", "_2024x_26f0132_1719129555802_233661_14716" ],
-  "Concern" : [ "_2024x_26f0132_1719129513706_329066_14708", "_2024x_26f0132_1719130165383_541840_14769", "_2024x_26f0132_1719130222689_69494_14774", "_2024x_26f0132_1719129141456_206905_14250" ],
+  "Concern" : [ "_2024x_26f0132_1719130253930_728394_14777", "_2024x_26f0132_1719130316161_369021_14784", "_2024x_26f0132_1719129513706_329066_14708", "_2024x_26f0132_1719130165383_541840_14769", "_2024x_26f0132_1719130222689_69494_14774", "_2024x_26f0132_1719129141456_206905_14250" ],
   "RecommendedVP" : [ ],
   "RequiredVP" : [ ]
 }, {
@@ -275,7 +275,7 @@
   "Domain" : "Operational",
   "Presentation" : [ "A block definition diagram (BDD) featuring the identified Operational Performers playing a role in the Operational Context being addressed." ],
   "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_ebf0350_1554653236737_36605_43554", "_19_0_2_ebf0350_1567282723132_468249_52793", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
-  "Concern" : [ "_2021x_2_8710274_1674576758994_334020_23436", "_2021x_2_8710274_1674576759056_423032_23477", "_2021x_2_8710274_1674576759083_315449_23499" ],
+  "Concern" : [ "_2021x_2_8710274_1674576759015_756843_23453", "_2021x_2_8710274_1674576758994_334020_23436", "_2021x_2_8710274_1674576759056_423032_23477", "_2021x_2_8710274_1674576759083_315449_23499" ],
   "RecommendedVP" : [ ],
   "RequiredVP" : [ "_19_0_3_6d8019d_1599070472635_176306_252" ]
 }, {
@@ -401,7 +401,7 @@
   "Domain" : "Physical",
   "Presentation" : [ "A) For each given context, an internal block diagram (IBD is used to identify the physical interfaces, the item flows, that are exchanged on that interfaces, and related documentation.\nNote: To understand the interfaces, a mapping of protocol layers may be depicted.", "B) A tabular format providing a list of all the defined external interfaces and the applicable documentation\n* context element kind (environment, external entity, physical user, etc.)\n* context element role name\n* port name and reference to port type\n* reference to context element type", "C) A tabular format listing the applicable standards, protocols and formats for the item flows exchanged via the identified interfaces." ],
   "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_ebf0350_1554653236737_36605_43554", "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_26f0132_1562303526473_525021_92401", "_19_0_2_ebf0350_1554653241806_566270_43560", "_19_0_2_26f0132_1562303526473_410133_92403", "_19_0_2_ebf0350_1567337062655_160733_52757", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1567282723132_468249_52793", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
-  "Concern" : [ "_2021x_2_8710274_1674576758710_759449_23186", "_2021x_2_8710274_1674576759247_884832_23642", "_2021x_2_8710274_1674576758698_132348_23172", "_2021x_2_8710274_1674576758561_575110_23056", "_2021x_2_8710274_1674576758891_215548_23373" ],
+  "Concern" : [ "_2021x_2_8710274_1674576758710_759449_23186", "_2021x_2_8710274_1674576759247_884832_23642", "_2021x_2_8710274_1674576758698_132348_23172", "_2021x_2_8710274_1674576758561_575110_23056", "_2021x_2_8710274_1674576758932_916610_23397", "_2021x_2_8710274_1674576758891_215548_23373" ],
   "RecommendedVP" : [ ],
   "RequiredVP" : [ "_19_0_1_26f0132_1547202202696_824153_42420" ]
 }, {
@@ -415,7 +415,7 @@
   "Domain" : "Physical",
   "Presentation" : [ "A FBS_to_PBS mapping matrix featuring\n* Functional Breakdown Structure (FBS)\n* Physical Breakdown Structure (PBS)\n* mapping (it is a derived relationship) from system functions and system partial functions to physical SOI elements" ],
   "Stakeholders" : [ "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_26f0132_1562303526473_525021_92401", "_19_0_2_ebf0350_1554653241806_566270_43560", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
-  "Concern" : [ "_2021x_2_8710274_1674576758941_524652_23399", "_2021x_2_8710274_1674576759216_889664_23621", "_2021x_2_8710274_1674576758889_521511_23366", "_2021x_2_8710274_1698399553646_852568_33150" ],
+  "Concern" : [ "_2021x_2_8710274_1674576758941_524652_23399", "_2021x_2_8710274_1674576759216_889664_23621", "_2021x_2_8710274_1674576758889_521511_23366", "_2021x_2_8710274_1698399553646_852568_33150", "_2021x_2_8710274_1698399897245_206032_33220" ],
   "RecommendedVP" : [ ],
   "RequiredVP" : [ "_19_0_2_26f0132_1562303526536_284838_92559" ]
 }, {
@@ -429,7 +429,7 @@
   "Domain" : "Physical",
   "Presentation" : [ "A block definition diagram (BDD) featuring Physical Interface blocks with ports, and flow properties. Compatibility between Physical Interface blocks is expressed by associations and association blocks. Physical Interface blocks may be specialisations of others (use of generalisation).\nNote: When ports are used these shall be proxy ports and be typed by interface blocks.", "A tabular format listing Physical Interface blocks, their ports, and flow properties." ],
   "Stakeholders" : [ "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_ebf0350_1554653241806_566270_43560", "_19_0_2_26f0132_1562303526473_410133_92403", "_19_0_2_ebf0350_1567337062655_160733_52757", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
-  "Concern" : [ "_2021x_2_8710274_1698695280731_979013_48719", "_2021x_2_8710274_1674576759093_319282_23509", "_2021x_2_8710274_1697542838788_945785_24608" ],
+  "Concern" : [ "_2021x_2_8710274_1698695280731_979013_48719", "_2021x_2_8710274_1674576759093_319282_23509", "_2021x_2_8710274_1697542838788_945785_24608", "_2021x_2_8710274_1698695217112_237670_48715" ],
   "RecommendedVP" : [ ],
   "RequiredVP" : [ ]
 }, {
@@ -443,7 +443,7 @@
   "Domain" : "Physical",
   "Presentation" : [ "One or more IBDs featuring the SOI boundary, the parts representing physical elements of the SOI. At the SOI boundary, the interfaces of the SOI represented as proxy ports. At the parts, proxy ports representing the SOI parts interfaces. Binding Connectors for each identified SOI interface delegated to physical SOI elements interfaces.  connectors representing connections between interfaces of SOI parts. Item flows are defined for each planned exchange on the identified interfaces.\nNote: Please use more than one IBD focused on different areas of interest to keep the view comprehensive.\nNote: Ports may be nested to organize interfaces, but it is recommended to use only only one level.", "A Table representing the content or part of the ibd content." ],
   "Stakeholders" : [ "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_26f0132_1562303526473_525021_92401", "_19_0_2_ebf0350_1554653241806_566270_43560", "_19_0_2_26f0132_1562303526473_410133_92403", "_19_0_2_ebf0350_1567337062655_160733_52757", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
-  "Concern" : [ "_2021x_2_8710274_1674576758600_423008_23078", "_2021x_2_8710274_1674576759247_884832_23642", "_2021x_2_8710274_1674576758561_575110_23056", "_2021x_2_8710274_1698410513910_480926_28625", "_2021x_2_8710274_1674576758891_215548_23373" ],
+  "Concern" : [ "_2021x_2_8710274_1674576758600_423008_23078", "_2021x_2_8710274_1674576758718_586539_23194", "_2021x_2_8710274_1674576759247_884832_23642", "_2021x_2_8710274_1674576758561_575110_23056", "_2021x_2_8710274_1698410513910_480926_28625", "_2021x_2_8710274_1674576758891_215548_23373" ],
   "RecommendedVP" : [ "_19_0_2_8710274_1567167552896_772779_54664" ],
   "RequiredVP" : [ "_19_0_3_ebf0350_1580652072992_42812_53692" ]
 }, {
@@ -513,7 +513,7 @@
   "Domain" : "Operational",
   "Presentation" : [ "A tabular format lisiting\n* unique requirement ID, text, and attributes,\n* traceability reference to justifying model artefacts, e.g. operational stories, operational capabilities, identified concerns of stakeholders, and compliance statements\nNote: Stakeholder Requirements are to be structured in a way that the Stakeholder behind the Requirement is identifiable. When appropriate, the relationships between identified Stakeholder Requirements are and the justifying model artefacts, Operational Story, Operational Capability, Operational Performer, Operational Process, and Operational Exchange are presented.\n* \"One Requirement Package for each Stakeholder\" is a best-practice modeling rule. A package contains the Requirements specific for one Stakeholder.\n* Even if different Stakeholders may have intersecting interests and / or concerns resulting in a similar set of Requirements, each Stakeholder shall have its own set managed in a dedicated Requirement Package. Requirements must not be shared due to their different life cycles. Resolving duplications and conflicts is subject of the requirement analysis resulting in an agreed and consolidated set of System Requirements." ],
   "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_ebf0350_1554653236737_36605_43554", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
-  "Concern" : [ "_2021x_2_8710274_1674576758810_143872_23303", "_2021x_2_8710274_1674576758798_122991_23285", "_2021x_2_8710274_1674576758774_361095_23253", "_2021x_2_8710274_1674576758818_166273_23310", "_2021x_2_8710274_1674576759042_480392_23467" ],
+  "Concern" : [ "_2021x_2_8710274_1674576758810_143872_23303", "_2021x_2_8710274_1674576758798_122991_23285", "_2021x_2_8710274_1674576758774_361095_23253", "_2021x_2_8710274_1674576758818_166273_23310", "_2021x_2_8710274_1674576759042_480392_23467", "_2021x_2_8710274_1674576758902_700830_23378" ],
   "RecommendedVP" : [ "_19_0_2_26f0132_1561750369203_901730_48359" ],
   "RequiredVP" : [ "_19_0_2_26f0132_1565093441772_881981_49327" ]
 }, {
@@ -569,7 +569,7 @@
   "Domain" : "Functional",
   "Presentation" : [ "An internal block diagram (IBD) - associated to a system context - featuring the SOI, the system context elements, and the connectors for each identified interface from SOI to the respective context elements. An interface is an interaction point for interaction of the SOI to with context elements. Item flows are defined for each exchange on the identified interface. Connectors/ports may contain reference to the interface documents if applicable. Ports may be structured as appropriate to manage and structure the information.\nNote: more than one IBD focused on different areas of interest may be used in oder to keep the view comprehensive. Depending on the Stakeholder concerns the item exchange information might be suppressed.", "A tabular format listing the identified interfaces of the soi (ports), referencing interface definitions (port types) ,connections (connector) to system context elements, and information exchange (item flows) conveyed over these connections. It is advised to have multiple tables focusing on certain aspects to keep the view comprehensive, e.g. table focusing on contexts or on certain interface partners." ],
   "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_ebf0350_1554653236737_36605_43554", "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_26f0132_1562303526473_525021_92401", "_19_0_2_26f0132_1566037895381_430904_56516", "_19_0_2_26f0132_1562303526473_410133_92403", "_19_0_2_ebf0350_1567337062655_160733_52757", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
-  "Concern" : [ "_2021x_2_8710274_1674576758710_799233_23181", "_2021x_2_8710274_1674576758808_527146_23298", "_2021x_2_8710274_1674576758971_129300_23418", "_2021x_2_8710274_1674576758778_979635_23258", "_2021x_2_8710274_1674576759154_22704_23559" ],
+  "Concern" : [ "_2021x_2_8710274_1674576758710_799233_23181", "_2021x_2_8710274_1674576758808_527146_23298", "_2021x_2_8710274_1674576758971_129300_23418", "_2021x_2_8710274_1674576758778_979635_23258", "_2021x_2_8710274_1674576759154_22704_23559", "_2021x_2_8710274_1674576758878_612030_23357" ],
   "RecommendedVP" : [ "_19_0_2_26f0132_1576232878029_619084_56885" ],
   "RequiredVP" : [ "_19_0_4_6d8019d_1618589543897_213858_307" ]
 }, {
@@ -625,7 +625,7 @@
   "Domain" : "Functional",
   "Presentation" : [ "Activity Diagram featuring System Partial Functions, functional exchange between partial functions. There are explicitely no Swimlanes and no allocations to structure." ],
   "Stakeholders" : [ "_19_0_2_ebf0350_1555170687022_190510_43698" ],
-  "Concern" : [ "_2021x_2_8710274_1674576758790_775644_23272", "_2021x_2_8710274_1674576758728_463822_23204" ],
+  "Concern" : [ "_2021x_2_8710274_1674576758790_775644_23272", "_2021x_2_8710274_1674576758994_378916_23438", "_2021x_2_8710274_1674576758728_463822_23204" ],
   "RecommendedVP" : [ "_19_0_2_26f0132_1562303526536_778418_92552" ],
   "RequiredVP" : [ "_19_0_2_8710274_1567167552896_772779_54664" ]
 }, {
@@ -680,8 +680,8 @@
   "Aspect" : "Traceability & Mapping",
   "Domain" : "Functional",
   "Presentation" : [ "A dependency matrix featuring relationships for every System Requirement to the functional domain level\n* System Use Case\n* System Capability\n* System Context Definition\n* System Context Exchange\n* System Context Interaction\n* System Process\n* System State" ],
-  "Stakeholders" : [ "_19_0_2_ebf0350_1567281039295_665940_53199" ],
-  "Concern" : [ "_2021x_2_8710274_1674576758848_939582_23337", "_2021x_2_8710274_1674576758563_692887_23057", "_2021x_2_8710274_1674576758640_156873_23115" ],
+  "Stakeholders" : [ "_19_0_2_ebf0350_1567281039295_665940_53199", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
+  "Concern" : [ "_2021x_2_8710274_1674576758848_939582_23337", "_2021x_2_8710274_1674576758563_692887_23057", "_2021x_2_8710274_1674576758668_405619_23141", "_2021x_2_8710274_1674576758640_156873_23115" ],
   "RecommendedVP" : [ "_19_0_1_26f0132_1554446728606_740631_45702" ],
   "RequiredVP" : [ "_19_0_2_26f0132_1565093441772_890565_49326" ]
 }, {

@@ -10,9 +10,9 @@ nav_order: 3
 <a href="faq.html#concerns">Concerns</a> are the information needs of <a href="faq.html#stakeholders">Stakeholders</a>. They should be justified by a rationale. Concerns are addressed by <a href="faq.html#viewpoints">viewpoints</a>.
 </div>
 <table>
-
+{% assign sortedconcerns= site.data.concerns | sort: "Owner" %}
 <tr><th> Package</th><th> Concern</th><th>Stakeholder & Rationale</th><th>Viewpoint</th>
-{% for element in site.data.concerns %}
+{% for element in sortedconcerns %}
 <tr>
 <td><A id={{ element.ID }}></A>{{ element.Owner }} </td>
 <td>{{ element.Name }}</td>

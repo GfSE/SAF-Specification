@@ -86,4 +86,8 @@
   "Body" : "2024-10-28",
   "ID" : "_2024x_1_26f0132_1730106332348_61349_16176",
   "Documentation" : "<html>\n  <head>\n\t\t<style>\n\t\t\tp {padding:0px; margin:0px;}\n\t\t</style>\n\t</head>\n  <body>\nAdd dependency relationship among Standards to C2_CSTD Common Standards Definition Viewpoint, see <a href=\"https://github.com/GfSE/SAF-Specification/issues/71 \">Issue 71 </a>&#160;Stereotype:&#160;SAF_StandardDependingOn    \n<br></body>\n</html>"
+}, {
+  "Body" : "2024-11-03",
+  "ID" : "_2024x_1_26f0132_1730626241927_717167_17340",
+  "Documentation" : "<html>\n  <head>\n\t\t<style>\n\t\t\tp {padding:0px; margin:0px;}\n\t\t</style>\n\t</head>\n  <body>\n    <ul>\n      <li>\nAdd an additional formal traceability documentation showing traceability from SAF Viewpoints to ISO 15288:2023 processes and SEHB V5 Information Item definitions. See <a href=\"https://github.com/GfSE/SAF-Specification/issues/75\">Issue 75</a>\n\n      </li>\n      <li>\nRemove unused concerns from documentation. See <a href=\"https://github.com/GfSE/SAF-Specification/issues/76\">Issue 76</a>\n\n      </li>\n    </ul>\n</body>\n</html>"
 } ]
