@@ -1,5 +1,5 @@
 ---
-title: SAF Terms and Standards
+title: SAF_Terms_and_Standards
 parent: "SAF SE Ontology"
 layout: default
 ---
