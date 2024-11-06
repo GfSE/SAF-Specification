@@ -1,8 +1,0 @@
----
-title: Framework Stakeholder Definition Viewpoint
-parent: SAF Development Domain
-layout: default
-nav_order: 1
----
-{% assign vp = site.data.viewpoints | where: "Name","Framework Stakeholder Definition Viewpoint" %}
-{% include dev-viewpoint.md %}

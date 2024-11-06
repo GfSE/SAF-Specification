@@ -379,14 +379,8 @@
   "InheritsFrom" : [ ],
   "ClassType" : "Class",
   "InViewpoint" : [ {
-    "ID" : "_2024x_26f0132_1719735638642_287063_25848",
-    "Name" : "Framework Rationale Definition Viewpoint"
-  }, {
     "ID" : "_2024x_26f0132_1719735528612_846205_25134",
-    "Name" : "Framework Stakeholder Definition Viewpoint"
-  }, {
-    "ID" : "_2024x_26f0132_1719735530442_324624_25471",
-    "Name" : "Framework Concern Definition Viewpoint"
+    "Name" : "Framework Stakeholder and Concern Definition Viewpoint"
   } ],
   "AssociationEnds" : [ ]
 }, {
@@ -3486,11 +3480,8 @@
   "InheritsFrom" : [ ],
   "ClassType" : "AssociationClass",
   "InViewpoint" : [ {
-    "ID" : "_2024x_26f0132_1719735638642_287063_25848",
-    "Name" : "Framework Rationale Definition Viewpoint"
-  }, {
     "ID" : "_2024x_26f0132_1719735528612_846205_25134",
-    "Name" : "Framework Stakeholder Definition Viewpoint"
+    "Name" : "Framework Stakeholder and Concern Definition Viewpoint"
   } ],
   "AssociationEnds" : [ {
     "ID" : "_2024x_26f0132_1719748355302_515347_15328",
@@ -3889,7 +3880,10 @@
   "Name" : "SE Concept",
   "ID" : "_2024x_26f0132_1719749431514_697590_16049",
   "Documentation" : "specifies a SE concept to be supported by SAF",
-  "IsGeneralFor" : [ ],
+  "IsGeneralFor" : [ {
+    "ID" : "_2024x_1_26f0132_1730904149609_844143_17570",
+    "Name" : "SECrelatesToSEC"
+  } ],
   "InheritsFrom" : [ ],
   "ClassType" : "Class",
   "InViewpoint" : [ {
@@ -3922,17 +3916,20 @@
   } ]
 }, {
   "Name" : "SECrelatesToSEC",
-  "ID" : "_2024x_26f0132_1719749468596_132410_16077",
-  "Documentation" : "specifies a relationship of a concept to an other.",
+  "ID" : "_2024x_1_26f0132_1730904149609_844143_17570",
+  "Documentation" : "specifies that a SE concept may be related others. Relations are also concepts and may be subject or object of other relations.",
   "IsGeneralFor" : [ ],
-  "InheritsFrom" : [ ],
-  "ClassType" : "Association",
+  "InheritsFrom" : [ {
+    "ID" : "_2024x_26f0132_1719749431514_697590_16049",
+    "Name" : "SE Concept"
+  } ],
+  "ClassType" : "AssociationClass",
   "InViewpoint" : [ {
-    "ID" : "_2024x_26f0132_1719735639175_641082_26522",
-    "Name" : "Framework Concept Definition Viewpoint"
-  }, {
     "ID" : "_2024x_26f0132_1719735523519_523621_24797",
     "Name" : "Framework Viewpoint Definition Viewpoint"
+  }, {
+    "ID" : "_2024x_26f0132_1719735639175_641082_26522",
+    "Name" : "Framework Concept Definition Viewpoint"
   } ],
   "AssociationEnds" : [ {
     "ID" : "_2024x_26f0132_1719749431514_697590_16049",
@@ -3941,7 +3938,7 @@
   }, {
     "ID" : "_2024x_26f0132_1719749431514_697590_16049",
     "Name" : "SE Concept",
-    "Multiplicity" : "0..*"
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "SFNallocatedToAPE",
@@ -4760,14 +4757,8 @@
   "InheritsFrom" : [ ],
   "ClassType" : "Class",
   "InViewpoint" : [ {
-    "ID" : "_2024x_26f0132_1719735638642_287063_25848",
-    "Name" : "Framework Rationale Definition Viewpoint"
-  }, {
     "ID" : "_2024x_26f0132_1719735528612_846205_25134",
-    "Name" : "Framework Stakeholder Definition Viewpoint"
-  }, {
-    "ID" : "_2024x_26f0132_1719735530442_324624_25471",
-    "Name" : "Framework Concern Definition Viewpoint"
+    "Name" : "Framework Stakeholder and Concern Definition Viewpoint"
   } ],
   "AssociationEnds" : [ ]
 }, {
@@ -5434,9 +5425,6 @@
   "InViewpoint" : [ {
     "ID" : "_2024x_26f0132_1719735523519_523621_24797",
     "Name" : "Framework Viewpoint Definition Viewpoint"
-  }, {
-    "ID" : "_2024x_26f0132_1719735530442_324624_25471",
-    "Name" : "Framework Concern Definition Viewpoint"
   } ],
   "AssociationEnds" : [ {
     "ID" : "_2024x_26f0132_1719748355302_515347_15328",

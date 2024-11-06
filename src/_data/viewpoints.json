@@ -55,20 +55,6 @@
   "RecommendedVP" : [ "_2024x_26f0132_1719735528612_846205_25134" ],
   "RequiredVP" : [ ]
 }, {
-  "Name" : "Framework Concern Definition Viewpoint",
-  "ID" : "_2024x_26f0132_1719735530442_324624_25471",
-  "VP_ID" : "D6_CCND",
-  "Maturity" : "under construction",
-  "Purpose" : "The Framework Concern Definition Viewpoint allows to express the information need of Architecture Stakeholders by the definition of Concerns. The Concerns are related to stakeholders by a rationale and framed by Viewpoints.\n\nThe viewpoint is intended to be used for development or extension of the SAF.\n",
-  "Applicability" : "The Viewpoint supports the definition of  \"Stakeholders and concerns\",  and  \"Specification of an architecture description framework\" as defined in ISO42010:2022",
-  "Aspect" : "Requirement",
-  "Domain" : "SAF Development",
-  "Presentation" : [ "A table featuring the SCM_VPConcerns elements of the SAF, and their relations to SCM_Viewpoints and SCM_VPStakeholders" ],
-  "Stakeholders" : [ "_2024x_26f0132_1719129287848_367992_14650", "_2024x_26f0132_1719129568628_636824_14722" ],
-  "Concern" : [ "_2024x_26f0132_1719129886772_493463_14747", "_2024x_26f0132_1719129962342_738625_14755", "_2024x_26f0132_1719130076292_184990_14761" ],
-  "RecommendedVP" : [ "_2024x_26f0132_1719735528612_846205_25134" ],
-  "RequiredVP" : [ ]
-}, {
   "Name" : "Framework Implementation Traceability Viewpoint",
   "ID" : "_2024x_26f0132_1719746598512_743707_39208",
   "VP_ID" : "D8_STYD",
@@ -83,31 +69,17 @@
   "RecommendedVP" : [ ],
   "RequiredVP" : [ ]
 }, {
-  "Name" : "Framework Rationale Definition Viewpoint",
-  "ID" : "_2024x_26f0132_1719735638642_287063_25848",
-  "VP_ID" : "D6_RATD",
-  "Maturity" : "under construction",
-  "Purpose" : "The Framework Rationale Viewpoint defines the relationship between Stakeholders and their Concerns in the context of Development of SAF. The Rationale formulates why a Stakeholder has a certain concern.\n\nThe viewpoint is intended to be used for development or extension of the SAF.",
-  "Applicability" : "The Viewpoint supports the definition of  \"Stakeholders and concerns\", and  \"Specification of an architecture description framework\" as defined in ISO42010:2022",
-  "Aspect" : "Requirement",
-  "Domain" : "SAF Development",
-  "Presentation" : [ "A matrix featuring SCM_VPStakeholder elements and SCM_VPConcern elements as rows and columns, and a marking in cells where a SCM_ConcernRationale connects a stakeholder with a concern.", "A table featuring the SCM_ConcernRationales that connect SCM_VPStakeholders and SCM_VPConcerns, and the rationales documentation." ],
-  "Stakeholders" : [ "_2024x_26f0132_1719129287848_367992_14650", "_2024x_26f0132_1719129568628_636824_14722" ],
-  "Concern" : [ "_2024x_26f0132_1719129962342_738625_14755", "_2024x_26f0132_1719744888608_624464_37315" ],
-  "RecommendedVP" : [ ],
-  "RequiredVP" : [ ]
-}, {
-  "Name" : "Framework Stakeholder Definition Viewpoint",
+  "Name" : "Framework Stakeholder and Concern Definition Viewpoint",
   "ID" : "_2024x_26f0132_1719735528612_846205_25134",
-  "VP_ID" : "D1_STKD",
+  "VP_ID" : "D2_STKD",
   "Maturity" : "under construction",
-  "Purpose" : "The Framework Stakeholder Viewpoint provides definitions for Architecture Framework Stakeholders having an interest in SAF Viewpoints. The Interest is formulated using Concerns.\n\nThe viewpoint is intended to be used for development or extension of the SAF.",
+  "Purpose" : "The Framework Stakeholder Viewpoint provides definitions for Architecture Framework Stakeholders having an interest in SAF Viewpoints. The Interest is formulated using Concerns. A Rationale formulates why a Stakeholder has a certain concern.\n\nThe viewpoint is intended to be used for development or extension of the SAF.",
   "Applicability" : "The Viewpoint supports the definition of  \"Stakeholders and concerns\",  and  \"Specification of an architecture description framework\" as defined in ISO42010:2022",
-  "Aspect" : "Context & Exchange",
+  "Aspect" : "Taxonomy & Structure",
   "Domain" : "SAF Development",
-  "Presentation" : [ "A Block Definition Diagram (BDD) featuring *SCM_VPStakeholder* elements, and inheritance relationships if applicable.", "A table featuring *SCM_VPStakeholder* elements, their documentation, and the *SCM_VPConcern* elements representing the concerns of the stakeholders regarding to SAF Viewpoints." ],
+  "Presentation" : [ "A Block Definition Diagram (BDD) featuring *SCM_VPStakeholder* elements, and inheritance relationships if applicable.", "A matrix featuring SCM_VPStakeholder elements and SCM_VPConcern elements as rows and columns, and a marking in cells where a SCM_ConcernRationale connects a stakeholder with a concern.", "A table featuring the SCM_ConcernRationales that connect SCM_VPStakeholders and SCM_VPConcerns, and the rationales documentation.", "A table featuring *SCM_VPStakeholder* elements, their documentation,  the *SCM_VPConcern* elements representing the concerns of the stakeholders regarding to SAF Viewpoints, and The SCM_Rationale Elements." ],
   "Stakeholders" : [ "_2024x_26f0132_1719129287848_367992_14650", "_2024x_26f0132_1719129568628_636824_14722" ],
-  "Concern" : [ "_2024x_26f0132_1719129962342_738625_14755", "_2024x_26f0132_1719129843876_724811_14744" ],
+  "Concern" : [ "_2024x_26f0132_1719129962342_738625_14755", "_2024x_26f0132_1719129843876_724811_14744", "_2024x_26f0132_1719744888608_624464_37315" ],
   "RecommendedVP" : [ ],
   "RequiredVP" : [ ]
 }, {

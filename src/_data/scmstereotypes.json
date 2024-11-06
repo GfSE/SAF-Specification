@@ -23,10 +23,6 @@
   "ID" : "_2021x_2_8710274_1681817980233_699586_29433",
   "Documentation" : "Defines a relation where the instances of the client(sterotype or metaclass) is contained in instances of the the supplier (stereotype or metaclass). This is used to specify an inplementation of a SAF concept\nUsed for specifying SAF."
 }, {
-  "Name" : "SCM_D1_STKD_Table",
-  "ID" : "_2024x_26f0132_1719738093050_603021_28974",
-  "Documentation" : ""
-}, {
   "Name" : "SCM_D2_CCND",
   "ID" : "_2024x_26f0132_1719737905318_641589_28831",
   "Documentation" : ""
@@ -37,6 +33,10 @@
 }, {
   "Name" : "SCM_D2_COTD_Table",
   "ID" : "_2024x_26f0132_1719737475680_936292_28621",
+  "Documentation" : ""
+}, {
+  "Name" : "SCM_D2_STKD_Table",
+  "ID" : "_2024x_26f0132_1719738093050_603021_28974",
   "Documentation" : ""
 }, {
   "Name" : "SCM_D2_STYD_Table",
@@ -57,14 +57,6 @@
 }, {
   "Name" : "SCM_D2_VPTO_Table",
   "ID" : "_2024x_26f0132_1719738460476_855266_29208",
-  "Documentation" : ""
-}, {
-  "Name" : "SCM_D6_CCND_Table",
-  "ID" : "_2024x_26f0132_1719737905319_53042_28833",
-  "Documentation" : ""
-}, {
-  "Name" : "SCM_D6_RATD_Table",
-  "ID" : "_2024x_26f0132_1719738001729_783195_28913",
   "Documentation" : ""
 }, {
   "Name" : "SCM_DerivedRelationship",

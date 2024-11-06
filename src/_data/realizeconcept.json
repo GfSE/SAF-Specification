@@ -2736,18 +2736,6 @@
   }
 }, {
   "Name" : "",
-  "ID" : "_2024x_1_26f0132_1724862724464_681787_11115",
-  "Documentation" : "",
-  "RealizedConcept" : {
-    "ID" : "_2024x_26f0132_1719735530442_324624_25471",
-    "Name" : "Framework Concern Definition Viewpoint"
-  },
-  "RealizationOfConcept" : {
-    "ID" : "_2024x_1_26f0132_1724862695951_873891_11098",
-    "Name" : "Framework Concern Viewpoint"
-  }
-}, {
-  "Name" : "",
   "ID" : "_2024x_1_26f0132_1724862752362_785935_11126",
   "Documentation" : "",
   "RealizedConcept" : {
@@ -2760,23 +2748,11 @@
   }
 }, {
   "Name" : "",
-  "ID" : "_2024x_1_26f0132_1724862772720_285544_11137",
-  "Documentation" : "",
-  "RealizedConcept" : {
-    "ID" : "_2024x_26f0132_1719735638642_287063_25848",
-    "Name" : "Framework Rationale Definition Viewpoint"
-  },
-  "RealizationOfConcept" : {
-    "ID" : "_2024x_1_26f0132_1724862759978_194854_11129",
-    "Name" : "Framework Rationale Viewpoint"
-  }
-}, {
-  "Name" : "",
   "ID" : "_2024x_1_26f0132_1724862793176_906269_11148",
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2024x_26f0132_1719735528612_846205_25134",
-    "Name" : "Framework Stakeholder Definition Viewpoint"
+    "Name" : "Framework Stakeholder and Concern Definition Viewpoint"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_1_26f0132_1724862780785_303725_11140",
@@ -3648,39 +3624,15 @@
   }
 }, {
   "Name" : "",
-  "ID" : "_2024x_26f0132_1719737977554_759416_28897",
-  "Documentation" : "",
-  "RealizedConcept" : {
-    "ID" : "_2024x_26f0132_1719735530442_324624_25471",
-    "Name" : "Framework Concern Definition Viewpoint"
-  },
-  "RealizationOfConcept" : {
-    "ID" : "_2024x_26f0132_1719737905319_53042_28833",
-    "Name" : "SCM_D6_CCND_Table"
-  }
-}, {
-  "Name" : "",
-  "ID" : "_2024x_26f0132_1719738056447_152859_28962",
-  "Documentation" : "",
-  "RealizedConcept" : {
-    "ID" : "_2024x_26f0132_1719735638642_287063_25848",
-    "Name" : "Framework Rationale Definition Viewpoint"
-  },
-  "RealizationOfConcept" : {
-    "ID" : "_2024x_26f0132_1719738001729_783195_28913",
-    "Name" : "SCM_D6_RATD_Table"
-  }
-}, {
-  "Name" : "",
   "ID" : "_2024x_26f0132_1719738126183_769391_29015",
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2024x_26f0132_1719735528612_846205_25134",
-    "Name" : "Framework Stakeholder Definition Viewpoint"
+    "Name" : "Framework Stakeholder and Concern Definition Viewpoint"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_26f0132_1719738093050_603021_28974",
-    "Name" : "SCM_D1_STKD_Table"
+    "Name" : "SCM_D2_STKD_Table"
   }
 }, {
   "Name" : "",
@@ -3855,7 +3807,7 @@
   "ID" : "_2024x_26f0132_1719776894962_523265_37434",
   "Documentation" : "",
   "RealizedConcept" : {
-    "ID" : "_2024x_26f0132_1719749468596_132410_16077",
+    "ID" : "_2024x_1_26f0132_1730904149609_844143_17570",
     "Name" : "SECrelatesToSEC"
   },
   "RealizationOfConcept" : {
