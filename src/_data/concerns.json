@@ -409,11 +409,11 @@
   "Name" : "Which requirements apply to a logical interface?",
   "ID" : "_2021x_2_8710274_1674576758878_612030_23357",
   "ConcernsViewpoints" : [ {
-    "Name" : "Logical Internal Exchange Viewpoint",
-    "ID" : "_19_0_4_26f0132_1624951950640_368802_311"
-  }, {
     "Name" : "System Context Exchange Viewpoint",
     "ID" : "_19_0_4_6d8019d_1618060963677_605184_292"
+  }, {
+    "Name" : "Logical Internal Exchange Viewpoint",
+    "ID" : "_19_0_4_26f0132_1624951950640_368802_311"
   } ]
 }, {
   "Documentation" : "",
@@ -1039,7 +1039,7 @@
   "Name" : "Who are the architecture framework stakeholders of the frameworks viewpoints?",
   "ID" : "_2024x_26f0132_1719129843876_724811_14744",
   "ConcernsViewpoints" : [ {
-    "Name" : "Framework Stakeholder Definition Viewpoint",
+    "Name" : "Framework Stakeholder and Concern Definition Viewpoint",
     "ID" : "_2024x_26f0132_1719735528612_846205_25134"
   } ]
 }, {
@@ -1047,10 +1047,7 @@
   "Owner" : "meta-framework",
   "Name" : "What are the concerns adressed by the frameworks viewpoints?",
   "ID" : "_2024x_26f0132_1719129886772_493463_14747",
-  "ConcernsViewpoints" : [ {
-    "Name" : "Framework Concern Definition Viewpoint",
-    "ID" : "_2024x_26f0132_1719735530442_324624_25471"
-  } ]
+  "ConcernsViewpoints" : [ ]
 }, {
   "Documentation" : "",
   "Owner" : "meta-framework",
@@ -1066,14 +1063,8 @@
   "Name" : "Which concerns are does an architecture framework stakeholder have?",
   "ID" : "_2024x_26f0132_1719129962342_738625_14755",
   "ConcernsViewpoints" : [ {
-    "Name" : "Framework Rationale Definition Viewpoint",
-    "ID" : "_2024x_26f0132_1719735638642_287063_25848"
-  }, {
-    "Name" : "Framework Stakeholder Definition Viewpoint",
+    "Name" : "Framework Stakeholder and Concern Definition Viewpoint",
     "ID" : "_2024x_26f0132_1719735528612_846205_25134"
-  }, {
-    "Name" : "Framework Concern Definition Viewpoint",
-    "ID" : "_2024x_26f0132_1719735530442_324624_25471"
   } ]
 }, {
   "Documentation" : "",
@@ -1092,9 +1083,6 @@
   "ConcernsViewpoints" : [ {
     "Name" : "Framework Viewpoint Definition Viewpoint",
     "ID" : "_2024x_26f0132_1719735523519_523621_24797"
-  }, {
-    "Name" : "Framework Concern Definition Viewpoint",
-    "ID" : "_2024x_26f0132_1719735530442_324624_25471"
   } ]
 }, {
   "Documentation" : "",
@@ -1216,8 +1204,8 @@
   "Name" : "Why does a stakeholder have this specific concern ? ",
   "ID" : "_2024x_26f0132_1719744888608_624464_37315",
   "ConcernsViewpoints" : [ {
-    "Name" : "Framework Rationale Definition Viewpoint",
-    "ID" : "_2024x_26f0132_1719735638642_287063_25848"
+    "Name" : "Framework Stakeholder and Concern Definition Viewpoint",
+    "ID" : "_2024x_26f0132_1719735528612_846205_25134"
   } ]
 }, {
   "Documentation" : "",

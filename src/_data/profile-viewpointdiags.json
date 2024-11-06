@@ -1551,11 +1551,11 @@
     "ID" : "_2021x_2_8710274_1697454030821_682386_29382",
     "Name" : "Viewpoint"
   }, {
+    "ID" : "_2024x_1_26f0132_1730904149609_844143_17570",
+    "Name" : "SECrelatesToSEC"
+  }, {
     "ID" : "_2024x_26f0132_1719749431514_697590_16049",
     "Name" : "SE Concept"
-  }, {
-    "ID" : "_2024x_26f0132_1719749468596_132410_16077",
-    "Name" : "SECrelatesToSEC"
   }, {
     "ID" : "_2024x_26f0132_1719749573029_735591_16107",
     "Name" : "SECisProvidedByVP"
@@ -1593,6 +1593,9 @@
     "ID" : "_2021x_2_8710274_1697454030821_682386_29382",
     "Name" : "Viewpoint"
   }, {
+    "ID" : "_2024x_1_26f0132_1730904149609_844143_17570",
+    "Name" : "SECrelatesToSEC"
+  }, {
     "ID" : "_2024x_26f0132_1719141336629_21600_25167",
     "Name" : "VPbelongingToDN"
   }, {
@@ -1608,9 +1611,6 @@
     "ID" : "_2024x_26f0132_1719749431514_697590_16049",
     "Name" : "SE Concept"
   }, {
-    "ID" : "_2024x_26f0132_1719749468596_132410_16077",
-    "Name" : "SECrelatesToSEC"
-  }, {
     "ID" : "_2024x_26f0132_1719749573029_735591_16107",
     "Name" : "SECisProvidedByVP"
   } ],
@@ -1618,7 +1618,7 @@
 }, {
   "ID" : "_2024x_26f0132_1719735528613_353493_25136",
   "Documentation" : "",
-  "Name" : "Framework Stakeholder Definition Profile",
+  "Name" : "Framework Stakeholder and Concern Definition Profile",
   "DiagConcepts" : [ {
     "ID" : "_2024x_26f0132_1719748355302_515347_15328",
     "Name" : "Concern"
@@ -1631,42 +1631,6 @@
   } ],
   "VP_ID" : "_2024x_26f0132_1719735528612_846205_25134"
 }, {
-  "ID" : "_2024x_26f0132_1719735530442_869059_25473",
-  "Documentation" : "",
-  "Name" : "Framework Concern Definition Profile",
-  "DiagConcepts" : [ {
-    "ID" : "_2021x_2_8710274_1697454030821_682386_29382",
-    "Name" : "Viewpoint"
-  }, {
-    "ID" : "_2024x_26f0132_1719748355302_515347_15328",
-    "Name" : "Concern"
-  }, {
-    "ID" : "_2024x_26f0132_1719748378083_695462_15356",
-    "Name" : "VPframesCN"
-  }, {
-    "ID" : "_2024x_26f0132_1719748385761_197755_15378",
-    "Name" : "Rationale"
-  }, {
-    "ID" : "_2024x_26f0132_1719748770980_708368_15656",
-    "Name" : "Stakeholder"
-  } ],
-  "VP_ID" : "_2024x_26f0132_1719735530442_324624_25471"
-}, {
-  "ID" : "_2024x_26f0132_1719735638643_782552_25850",
-  "Documentation" : "",
-  "Name" : "Framework Rationale Definition Profile",
-  "DiagConcepts" : [ {
-    "ID" : "_2024x_26f0132_1719748355302_515347_15328",
-    "Name" : "Concern"
-  }, {
-    "ID" : "_2024x_26f0132_1719748385761_197755_15378",
-    "Name" : "Rationale"
-  }, {
-    "ID" : "_2024x_26f0132_1719748770980_708368_15656",
-    "Name" : "Stakeholder"
-  } ],
-  "VP_ID" : "_2024x_26f0132_1719735638642_287063_25848"
-}, {
   "ID" : "_2024x_26f0132_1719735638892_155489_26187",
   "Documentation" : "",
   "Name" : "Framework Stereotype Overview Profile",
@@ -1677,11 +1641,11 @@
   "Documentation" : "",
   "Name" : "Framework Concept Definition Profile",
   "DiagConcepts" : [ {
+    "ID" : "_2024x_1_26f0132_1730904149609_844143_17570",
+    "Name" : "SECrelatesToSEC"
+  }, {
     "ID" : "_2024x_26f0132_1719749431514_697590_16049",
     "Name" : "SE Concept"
-  }, {
-    "ID" : "_2024x_26f0132_1719749468596_132410_16077",
-    "Name" : "SECrelatesToSEC"
   } ],
   "VP_ID" : "_2024x_26f0132_1719735639175_641082_26522"
 }, {
