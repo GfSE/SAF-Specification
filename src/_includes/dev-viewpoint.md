@@ -100,7 +100,20 @@ The Table shows the realization of exposed concepts.
 {% for real in r %} 
 {% assign scm_st = site.data.scmstereotypes | where: "ID", real %}
 {% assign saf_st = site.data.stereotypes | where: "ID", real %}
-<A href="../../userdoc/stereotypes.html#{{ real }}">{{ scm_st.first.Name }}{{ saf_st.first.Name }}{% unless forloop.last %}, {% endunless %}</A>
+{% assign special = site.data.special-implementations | where: "ID", real %}
+{% if special.first.Stereotype =="SCM_TypedBy" %}
+{% assign specialtext =  special.first.Client.Name | append: " typed by " | append: special.first.Supplier.Name %}
+{% elsif special.first.Stereotype =="SCM_ContainedIn" %}
+{% assign specialtext =  special.first.Client.Name | append: " contained in " | append: special.first.Supplier.Name %}
+{% elsif special.first.Stereotype =="SCM_Attribute" %}
+{% assign specialtext =  "attribute " | append: special.first.Name | append: " of type " | append: special.first.Supplier.Name | append: " at " | append: special.first.Client.Name %}
+{% elsif scm_st.size > 0 %}
+{% assign specialtext =  scm_st.first.Name %}
+{% elsif saf_st.size > 0 %}
+{% assign specialtext =  saf_st.first.Name %}
+{% endif %}
+<A href="../../userdoc/stereotypes.html#{{ real }}">{{ specialtext }}{% unless forloop.last %}, {% endunless %}</A>
+{% assign specialtext = null %}
 {% endfor %}</td></tr>
 {%- endfor %}
 </table>
