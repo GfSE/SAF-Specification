@@ -2756,7 +2756,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_1_26f0132_1724862780785_303725_11140",
-    "Name" : "Framework Stakeholder Viewpoint"
+    "Name" : "Framework Stakeholder and Concern Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2877,6 +2877,30 @@
   "RealizationOfConcept" : {
     "ID" : "_2024x_1_26f0132_1730146316549_832482_16733",
     "Name" : "SAF_StandardDependingOn"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_1_26f0132_1731002613347_737623_18980",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1697454168635_705915_29452",
+    "Name" : "GDcontainingAT"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1719738460476_855266_29208",
+    "Name" : "SCM_D2_VPTO_Table"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_1_26f0132_1731002680267_358509_18987",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1697454194125_161227_29476",
+    "Name" : "GDcontainingDN"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_26f0132_1719738460476_855266_29208",
+    "Name" : "SCM_D2_VPTO_Table"
   }
 }, {
   "Name" : "",

@@ -3720,6 +3720,90 @@
   }
 }, {
   "Name" : "",
+  "ID" : "_2024x_1_26f0132_1731001894921_990516_18364",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2021x_2_8710274_1697454194125_161227_29476",
+    "Name" : "GDcontainingDN"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_26f0132_1719735639638_993311_27196",
+    "Name" : "Framework Viewpoint Overview Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_1_26f0132_1731001898584_382949_18371",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2021x_2_8710274_1697453629868_350923_29165",
+    "Name" : "Domain"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_26f0132_1719735639638_993311_27196",
+    "Name" : "Framework Viewpoint Overview Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_1_26f0132_1731001901969_985420_18378",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2021x_2_8710274_1697453623560_622137_29153",
+    "Name" : "Aspect"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_26f0132_1719735639638_993311_27196",
+    "Name" : "Framework Viewpoint Overview Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_1_26f0132_1731001905896_573525_18385",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2021x_2_8710274_1697454168635_705915_29452",
+    "Name" : "GDcontainingAT"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_26f0132_1719735639638_993311_27196",
+    "Name" : "Framework Viewpoint Overview Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_1_26f0132_1731001921825_662994_18392",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2021x_2_8710274_1697454030821_682386_29382",
+    "Name" : "Viewpoint"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_26f0132_1719735639638_993311_27196",
+    "Name" : "Framework Viewpoint Overview Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_1_26f0132_1731001927657_833570_18399",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_26f0132_1719141336629_21600_25167",
+    "Name" : "VPbelongingToDN"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_26f0132_1719735639638_993311_27196",
+    "Name" : "Framework Viewpoint Overview Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_1_26f0132_1731001932217_529535_18406",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_26f0132_1719141564806_4128_25334",
+    "Name" : "VPbelongingToAT"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_26f0132_1719735639638_993311_27196",
+    "Name" : "Framework Viewpoint Overview Viewpoint"
+  }
+}, {
+  "Name" : "",
   "ID" : "_2024x_26f0132_1718011190633_547312_9906",
   "Documentation" : "",
   "ExposedConcept" : {

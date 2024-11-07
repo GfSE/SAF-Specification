@@ -96,9 +96,12 @@ The Table shows the realization of exposed concepts.
 {%- for c in this_concepts -%}
 {% assign concept = site.data.concepts | where: "ID", c.ID%}
 {% assign r = site.data.realizeconcept | where: "RealizedConcept.ID", c.ID | map: "RealizationOfConcept" |map: "ID"%}
-{% assign scm_st = site.data.scmstereotypes | where: "ID", r.first %}
-{% assign saf_st = site.data.stereotypes | where: "ID", r.first %}
-<tr><td><A href="../concepts.html#{{ c.ID }}">{{ c.Name }}</A></td><td><A href="../../userdoc/stereotypes.html#{{ r.first }}">{{ scm_st.first.Name }}{{ saf_st.first.Name }}</A></td></tr>
+<tr><td><A href="../concepts.html#{{ c.ID }}">{{ c.Name }}</A></td><td>
+{% for real in r %} 
+{% assign scm_st = site.data.scmstereotypes | where: "ID", real %}
+{% assign saf_st = site.data.stereotypes | where: "ID", real %}
+<A href="../../userdoc/stereotypes.html#{{ real }}">{{ scm_st.first.Name }}{{ saf_st.first.Name }}{% unless forloop.last %}, {% endunless %}</A>
+{% endfor %}</td></tr>
 {%- endfor %}
 </table>
 

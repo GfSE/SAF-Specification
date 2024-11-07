@@ -269,6 +269,11 @@
   "Name" : "SAF Stakeholder Table",
   "ExampleForVPID" : "D2_STKD"
 }, {
+  "ID" : "_19_0_2_8710274_1573478021478_364388_55618",
+  "Documentation" : "Aspects and their description",
+  "Name" : "SAF_aspect Table",
+  "ExampleForVPID" : "D2_VPTO"
+}, {
   "ID" : "_19_0_3_8710274_1581665834898_520724_48775",
   "Documentation" : "Describes the relationships between operational capabilities and to other related concepts.",
   "Name" : "SAF_capability_O_Definition",
@@ -278,6 +283,16 @@
   "Documentation" : "",
   "Name" : "SAF_capability_O_Table",
   "ExampleForVPID" : "D2_COTD"
+}, {
+  "ID" : "_19_0_2_8710274_1573477989888_433595_55589",
+  "Documentation" : "Domains and their description",
+  "Name" : "SAF_domain Table",
+  "ExampleForVPID" : "D2_VPTO"
+}, {
+  "ID" : "_2021x_2_8710274_1698413307648_943110_24912",
+  "Documentation" : "Assignment of Viewpoints to Domain and Aspect, Viewpoint Shortcut",
+  "Name" : "SAF_grid Table",
+  "ExampleForVPID" : "D2_VPTO"
 }, {
   "ID" : "_19_0_3_6d8019d_1589112275163_56055_429",
   "Documentation" : "",
