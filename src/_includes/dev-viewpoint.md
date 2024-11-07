@@ -95,12 +95,12 @@ The Table shows the realization of exposed concepts.
 <tr><th>Concept</th><th>Realization</th></tr>
 {%- for c in this_concepts -%}
 {% assign concept = site.data.concepts | where: "ID", c.ID%}
-{% assign r = site.data.realizeconcept | where: "RealizedConcept.ID", c.ID | map: "RealizationOfConcept" |map: "ID"%}
+{% assign r = site.data.realizeconcept | where: "RealizedConcept.ID", c.ID | map: "RealizationOfConcept" %}
 <tr><td><A href="../concepts.html#{{ c.ID }}">{{ c.Name }}</A></td><td>
 {% for real in r %} 
-{% assign scm_st = site.data.scmstereotypes | where: "ID", real %}
-{% assign saf_st = site.data.stereotypes | where: "ID", real %}
-{% assign special = site.data.special-implementations | where: "ID", real %}
+{% assign scm_st = site.data.scmstereotypes | where: "ID", real.ID %}
+{% assign saf_st = site.data.stereotypes | where: "ID", real.ID %}
+{% assign special = site.data.special-implementations | where: "ID", real.ID %}
 {% if special.first.Stereotype =="SCM_TypedBy" %}
 {% assign specialtext =  special.first.Client.Name | append: " typed by " | append: special.first.Supplier.Name %}
 {% elsif special.first.Stereotype =="SCM_ContainedIn" %}
@@ -111,8 +111,10 @@ The Table shows the realization of exposed concepts.
 {% assign specialtext =  scm_st.first.Name %}
 {% elsif saf_st.size > 0 %}
 {% assign specialtext =  saf_st.first.Name %}
+{% else %}
+{% assign specialtext =  real.Name %}
 {% endif %}
-<A href="../../userdoc/stereotypes.html#{{ real }}">{{ specialtext }}{% unless forloop.last %}, {% endunless %}</A>
+<A href="../../userdoc/stereotypes.html#{{ real.ID }}">{{ specialtext }}{% unless forloop.last %}, {% endunless %}</A>
 {% assign specialtext = null %}
 {% endfor %}</td></tr>
 {%- endfor %}

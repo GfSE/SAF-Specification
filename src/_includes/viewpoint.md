@@ -60,14 +60,32 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 {% assign t_i = "" | split: "" %}
 
 {% for c in this_concepts %}
-{% assign r = site.data.realizeconcept | where: "RealizedConcept.ID", c.ID | map: "RealizationOfConcept" |map: "ID"%}
+{% assign r = site.data.realizeconcept | where: "RealizedConcept.ID", c.ID | map: "RealizationOfConcept" %}
 {% assign t_i = t_i | concat: r | uniq%}
 {% endfor %}
 
 <ul>
-{% for c in t_i %}
-{% assign real = site.data.realizeconcept | where: "RealizationOfConcept.ID", c %}
-<li><A href="../../userdoc/stereotypes.html#{{ real.first.RealizationOfConcept.ID }}">{{ real.first.RealizationOfConcept.Name }}</A></li>
+{% for real in t_i %}
+
+
+{% assign scm_st = site.data.scmstereotypes | where: "ID", real.ID %}
+{% assign saf_st = site.data.stereotypes | where: "ID", real.ID %}
+{% assign special = site.data.special-implementations | where: "ID", real.ID %}
+{% if special.first.Stereotype =="SCM_TypedBy" %}
+{% assign specialtext =  special.first.Client.Name | append: " typed by " | append: special.first.Supplier.Name %}
+{% elsif special.first.Stereotype =="SCM_ContainedIn" %}
+{% assign specialtext =  special.first.Client.Name | append: " contained in " | append: special.first.Supplier.Name %}
+{% elsif special.first.Stereotype =="SCM_Attribute" %}
+{% assign specialtext =  "attribute " | append: special.first.Name | append: " of type " | append: special.first.Supplier.Name | append: " at " | append: special.first.Client.Name %}
+{% elsif scm_st.size > 0 %}
+{% assign specialtext =  scm_st.first.Name %}
+{% elsif saf_st.size > 0 %}
+{% assign specialtext =  saf_st.first.Name %}
+{% else %}
+{% assign specialtext =  real.Name %}
+{% endif %}
+
+<li><A href="../../userdoc/stereotypes.html#{{ real.first.RealizationOfConcept.ID }}">{{ specialtext }}</A></li>
 {% endfor %}
 </ul>
 
