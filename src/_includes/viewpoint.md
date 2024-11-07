@@ -85,7 +85,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 {% assign specialtext =  real.Name %}
 {% endif %}
 
-<li><A href="../../userdoc/stereotypes.html#{{ real.first.RealizationOfConcept.ID }}">{{ specialtext }}</A></li>
+<li><A href="../../userdoc/stereotypes.html#{{ real.ID }}">{{ specialtext }}</A></li>
 {% endfor %}
 </ul>
 
