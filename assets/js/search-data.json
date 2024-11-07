@@ -281,7 +281,7 @@
   },"40": {
     "doc": "Common Standards Definition Viewpoint",
     "title": "Profile Model Reference",
-    "content": "The following Stereotypes / Model Elements are used in the Viewpoint: . | SAF_Standard | SAF_StandardizationOrganization | SAF_StandardSuperseding | SAF_IssuedBy | SAF_StandardCategory | SAF_StandardCategoryAssignment | | SAF_ConformsStandard | SAF_StandardDependingOn | . ",
+    "content": "The following Stereotypes / Model Elements are used in the Viewpoint: . | SAF_Standard | SAF_StandardizationOrganization | SAF_StandardSuperseding | SAF_IssuedBy | SAF_StandardCategory | SAF_StandardCategoryAssignment | SAF_Standard contained in SAF_Standard | SAF_ConformsStandard | SAF_StandardDependingOn | . ",
     "url": "/userdoc/Common%20Domain/Common%20Standards%20Definition%20Viewpoint.html#profile-model-reference",
     
     "relUrl": "/userdoc/Common%20Domain/Common%20Standards%20Definition%20Viewpoint.html#profile-model-reference"
@@ -428,7 +428,7 @@
   },"61": {
     "doc": "Common Terms Definition Viewpoint",
     "title": "Profile Model Reference",
-    "content": "The following Stereotypes / Model Elements are used in the Viewpoint: . | SAF_Term | | . ",
+    "content": "The following Stereotypes / Model Elements are used in the Viewpoint: . | SAF_Term | SAF_Term contained in SAF_Standard | . ",
     "url": "/userdoc/Common%20Domain/Common%20Terms%20Definition%20Viewpoint.html#profile-model-reference",
     
     "relUrl": "/userdoc/Common%20Domain/Common%20Terms%20Definition%20Viewpoint.html#profile-model-reference"
@@ -841,7 +841,7 @@
   },"120": {
     "doc": "Framework Viewpoint Definition Viewpoint",
     "title": "Realization of exposed Concepts",
-    "content": "The Diagram shows the realization of exposed concepts. The Table shows the realization of exposed concepts. | Concept | Realization | . | Viewpoint | SAF_Viewpoint, SCM_Viewpoint | . | VPbelongingToAT | SAF_Viewpoint, attribute saf_aspect of type SCM_AspectColumn at SCM_Viewpoint | . | VPbelongingToDN | SAF_Viewpoint, attribute saf_domain of type SCM_DomainLayer at SCM_Viewpoint | . | VPframesCN | SCM_FramesConcern | . | SECisProvidedByVP | | . | SECrelatesToSEC | SCM_Concept | . ",
+    "content": "The Diagram shows the realization of exposed concepts. The Table shows the realization of exposed concepts. | Concept | Realization | . | Viewpoint | SAF_Viewpoint, SCM_Viewpoint | . | VPbelongingToAT | SAF_Viewpoint, attribute saf_aspect of type SCM_AspectColumn at SCM_Viewpoint | . | VPbelongingToDN | SAF_Viewpoint, attribute saf_domain of type SCM_DomainLayer at SCM_Viewpoint | . | VPframesCN | SCM_FramesConcern | . | SECisProvidedByVP | Expose | . | SECrelatesToSEC | SCM_Concept | . ",
     "url": "/devdoc/SAF%20Development%20Domain/Framework%20Viewpoint%20Definition%20Viewpoint.html#realization-of-exposed-concepts",
     
     "relUrl": "/devdoc/SAF%20Development%20Domain/Framework%20Viewpoint%20Definition%20Viewpoint.html#realization-of-exposed-concepts"
@@ -1093,7 +1093,7 @@
   },"156": {
     "doc": "Grid Definition Viewpoint",
     "title": "Realization of exposed Concepts",
-    "content": "The Diagram shows the realization of exposed concepts. The Table shows the realization of exposed concepts. | Concept | Realization | . | Grid | SAF_C2_GRID | . | GDcontainingDN | SCM_D2_VPTO_Table, SAF_C2_GRID | . | GDcontainingAT | SCM_D2_VPTO_Table, SAF_C2_GRID | . | GDcontainingVP | SAF_C2_GRID | . | VPbelongingToAT | SAF_Viewpoint, attribute saf_aspect of type SCM_AspectColumn at SCM_Viewpoint | . | VPbelongingToDN | SAF_Viewpoint, attribute saf_domain of type SCM_DomainLayer at SCM_Viewpoint | . | VWconformingToVP | attribute diagrams of type SAF_Diagram at SAF_Viewpoint | . | View | | . ",
+    "content": "The Diagram shows the realization of exposed concepts. The Table shows the realization of exposed concepts. | Concept | Realization | . | Grid | SAF_C2_GRID | . | GDcontainingDN | SCM_D2_VPTO_Table, SAF_C2_GRID | . | GDcontainingAT | SCM_D2_VPTO_Table, SAF_C2_GRID | . | GDcontainingVP | SAF_C2_GRID | . | VPbelongingToAT | SAF_Viewpoint, attribute saf_aspect of type SCM_AspectColumn at SCM_Viewpoint | . | VPbelongingToDN | SAF_Viewpoint, attribute saf_domain of type SCM_DomainLayer at SCM_Viewpoint | . | VWconformingToVP | attribute diagrams of type SAF_Diagram at SAF_Viewpoint | . | View | SAF_Diagram | . ",
     "url": "/devdoc/Common%20Domain/Grid%20Definition%20Viewpoint.html#realization-of-exposed-concepts",
     
     "relUrl": "/devdoc/Common%20Domain/Grid%20Definition%20Viewpoint.html#realization-of-exposed-concepts"
@@ -1163,7 +1163,7 @@
   },"166": {
     "doc": "Grid Definition Viewpoint",
     "title": "Profile Model Reference",
-    "content": "The following Stereotypes / Model Elements are used in the Viewpoint: . | SAF_C2_GRID | SCM_D2_VPTO_Table | SAF_Viewpoint | saf_aspect | saf_domain | diagrams | SAF_Diagram | . ",
+    "content": "The following Stereotypes / Model Elements are used in the Viewpoint: . | SAF_C2_GRID | SCM_D2_VPTO_Table | SAF_Viewpoint | attribute saf_aspect of type SCM_AspectColumn at SCM_Viewpoint | attribute saf_domain of type SCM_DomainLayer at SCM_Viewpoint | attribute diagrams of type SAF_Diagram at SAF_Viewpoint | SAF_Diagram | . ",
     "url": "/userdoc/Common%20Domain/Grid%20Definition%20Viewpoint.html#profile-model-reference",
     
     "relUrl": "/userdoc/Common%20Domain/Grid%20Definition%20Viewpoint.html#profile-model-reference"
@@ -1240,7 +1240,7 @@
   },"177": {
     "doc": "Logical Functional Mapping Viewpoint",
     "title": "Realization of exposed Concepts",
-    "content": "The Diagram shows the realization of exposed concepts. The Table shows the realization of exposed concepts. | Concept | Realization | . | LETimplementingGFN | | . | System Function | SAF_SystemFunction | . | System Partial Function | SAF_SystemPartialFunction | . | USAGEallocatedTo | | . | Logical Element | SAF_LogicalElement | . | Logical Element Role | SAF_LogicalInternalRole contained in SAF_LogicalElement | . | General Functional Usage | SAF_FunctionAction | . ",
+    "content": "The Diagram shows the realization of exposed concepts. The Table shows the realization of exposed concepts. | Concept | Realization | . | LETimplementingGFN | | . | System Function | SAF_SystemFunction | . | System Partial Function | SAF_SystemPartialFunction | . | USAGEallocatedTo | Allocate | . | Logical Element | SAF_LogicalElement | . | Logical Element Role | SAF_LogicalInternalRole contained in SAF_LogicalElement | . | General Functional Usage | SAF_FunctionAction | . ",
     "url": "/devdoc/Logical%20Domain/Logical%20Functional%20Mapping%20Viewpoint.html#realization-of-exposed-concepts",
     
     "relUrl": "/devdoc/Logical%20Domain/Logical%20Functional%20Mapping%20Viewpoint.html#realization-of-exposed-concepts"
@@ -1310,7 +1310,7 @@
   },"187": {
     "doc": "Logical Functional Mapping Viewpoint",
     "title": "Profile Model Reference",
-    "content": "The following Stereotypes / Model Elements are used in the Viewpoint: . | SAF_SystemFunction | SAF_SystemPartialFunction | Allocate | SAF_LogicalElement | | SAF_FunctionAction | . ",
+    "content": "The following Stereotypes / Model Elements are used in the Viewpoint: . | SAF_SystemFunction | SAF_SystemPartialFunction | Allocate | SAF_LogicalElement | SAF_LogicalInternalRole contained in SAF_LogicalElement | SAF_FunctionAction | . ",
     "url": "/userdoc/Logical%20Domain/Logical%20Functional%20Mapping%20Viewpoint.html#profile-model-reference",
     
     "relUrl": "/userdoc/Logical%20Domain/Logical%20Functional%20Mapping%20Viewpoint.html#profile-model-reference"
@@ -1387,7 +1387,7 @@
   },"198": {
     "doc": "Logical Internal Exchange Viewpoint",
     "title": "Realization of exposed Concepts",
-    "content": "The Diagram shows the realization of exposed concepts. The Table shows the realization of exposed concepts. | Concept | Realization | . | Logical Item Exchange | | . | LIPapplyingToLET | | . | Logical Interaction Point Definition | SAF_ConceptualInterfaceDefinition | . | Logical Interaction Point | | . | Logical Connection | | . | Logical Element | SAF_LogicalElement | . | LCNallowingLIE | attribute realizingConnector of type Connector at InformationFlow | . | Logical Interaction Point Property | | . | System Domain Kind | SAF_DomainKind | . | LIPDdefiningDetailOfLIP | ProxyPort typed by SAF_ConceptualInterfaceDefinition | . | SDKtypingLIPP | FlowProperty typed by SAF_DomainKind | . | LIPPspecifyingDetailOfLIPD | FlowProperty contained in SAF_ConceptualInterfaceDefinition | . | SDKtypingLIE | ItemFlow typed by SAF_DomainKind | . ",
+    "content": "The Diagram shows the realization of exposed concepts. The Table shows the realization of exposed concepts. | Concept | Realization | . | Logical Item Exchange | ItemFlow | . | LIPapplyingToLET | Property | . | Logical Interaction Point Definition | SAF_ConceptualInterfaceDefinition | . | Logical Interaction Point | ProxyPort | . | Logical Connection | Connector | . | Logical Element | SAF_LogicalElement | . | LCNallowingLIE | attribute realizingConnector of type Connector at InformationFlow | . | Logical Interaction Point Property | FlowProperty | . | System Domain Kind | SAF_DomainKind | . | LIPDdefiningDetailOfLIP | ProxyPort typed by SAF_ConceptualInterfaceDefinition | . | SDKtypingLIPP | FlowProperty typed by SAF_DomainKind | . | LIPPspecifyingDetailOfLIPD | FlowProperty contained in SAF_ConceptualInterfaceDefinition | . | SDKtypingLIE | ItemFlow typed by SAF_DomainKind | . ",
     "url": "/devdoc/Logical%20Domain/Logical%20Internal%20Exchange%20Viewpoint.html#realization-of-exposed-concepts",
     
     "relUrl": "/devdoc/Logical%20Domain/Logical%20Internal%20Exchange%20Viewpoint.html#realization-of-exposed-concepts"
@@ -1457,7 +1457,7 @@
   },"208": {
     "doc": "Logical Internal Exchange Viewpoint",
     "title": "Profile Model Reference",
-    "content": "The following Stereotypes / Model Elements are used in the Viewpoint: . | ItemFlow | Property | SAF_ConceptualInterfaceDefinition | ProxyPort | Connector | SAF_LogicalElement | realizingConnector | FlowProperty | SAF_DomainKind | | | | | . ",
+    "content": "The following Stereotypes / Model Elements are used in the Viewpoint: . | ItemFlow | Property | SAF_ConceptualInterfaceDefinition | ProxyPort | Connector | SAF_LogicalElement | attribute realizingConnector of type Connector at InformationFlow | FlowProperty | SAF_DomainKind | ProxyPort typed by SAF_ConceptualInterfaceDefinition | FlowProperty typed by SAF_DomainKind | FlowProperty contained in SAF_ConceptualInterfaceDefinition | ItemFlow typed by SAF_DomainKind | . ",
     "url": "/userdoc/Logical%20Domain/Logical%20Internal%20Exchange%20Viewpoint.html#profile-model-reference",
     
     "relUrl": "/userdoc/Logical%20Domain/Logical%20Internal%20Exchange%20Viewpoint.html#profile-model-reference"
@@ -1534,7 +1534,7 @@
   },"219": {
     "doc": "Logical Internal Interaction Viewpoint",
     "title": "Realization of exposed Concepts",
-    "content": "The Diagram shows the realization of exposed concepts. The Table shows the realization of exposed concepts. | Concept | Realization | . | Logical Interaction Scenario | | . | Logical Scenario Participation | | . | Logical Chronological Message | | . | Logical Element Role | SAF_LogicalInternalRole contained in SAF_LogicalElement | . ",
+    "content": "The Diagram shows the realization of exposed concepts. The Table shows the realization of exposed concepts. | Concept | Realization | . | Logical Interaction Scenario | Interaction | . | Logical Scenario Participation | Lifeline | . | Logical Chronological Message | Message | . | Logical Element Role | SAF_LogicalInternalRole contained in SAF_LogicalElement | . ",
     "url": "/devdoc/Logical%20Domain/Logical%20Internal%20Interaction%20Viewpoint.html#realization-of-exposed-concepts",
     
     "relUrl": "/devdoc/Logical%20Domain/Logical%20Internal%20Interaction%20Viewpoint.html#realization-of-exposed-concepts"
@@ -1604,7 +1604,7 @@
   },"229": {
     "doc": "Logical Internal Interaction Viewpoint",
     "title": "Profile Model Reference",
-    "content": "The following Stereotypes / Model Elements are used in the Viewpoint: . | Interaction | Lifeline | Message | | . ",
+    "content": "The following Stereotypes / Model Elements are used in the Viewpoint: . | Interaction | Lifeline | Message | SAF_LogicalInternalRole contained in SAF_LogicalElement | . ",
     "url": "/userdoc/Logical%20Domain/Logical%20Internal%20Interaction%20Viewpoint.html#profile-model-reference",
     
     "relUrl": "/userdoc/Logical%20Domain/Logical%20Internal%20Interaction%20Viewpoint.html#profile-model-reference"
@@ -1751,7 +1751,7 @@
   },"250": {
     "doc": "Logical Structure Definition Viewpoint",
     "title": "Profile Model Reference",
-    "content": "The following Stereotypes / Model Elements are used in the Viewpoint: . | SAF_LogicalSOI | | SAF_LogicalElement | . ",
+    "content": "The following Stereotypes / Model Elements are used in the Viewpoint: . | SAF_LogicalSOI | SAF_LogicalInternalRole contained in SAF_LogicalElement | SAF_LogicalElement | . ",
     "url": "/userdoc/Logical%20Domain/Logical%20Structure%20Definition%20Viewpoint.html#profile-model-reference",
     
     "relUrl": "/userdoc/Logical%20Domain/Logical%20Structure%20Definition%20Viewpoint.html#profile-model-reference"
@@ -2269,7 +2269,7 @@
   },"324": {
     "doc": "Operational Context Exchange Viewpoint",
     "title": "Realization of exposed Concepts",
-    "content": "The Diagram shows the realization of exposed concepts. The Table shows the realization of exposed concepts. | Concept | Realization | . | Operational Context Role | SAF_OperationalContextRole | . | Operational Connection | | . | Operational Item Exchange | | . | Operational Context | SAF_OperationalContext | . | Operational Domain Kind | SAF_OperationalDomainKind | . ",
+    "content": "The Diagram shows the realization of exposed concepts. The Table shows the realization of exposed concepts. | Concept | Realization | . | Operational Context Role | SAF_OperationalContextRole | . | Operational Connection | Connector | . | Operational Item Exchange | ItemFlow | . | Operational Context | SAF_OperationalContext | . | Operational Domain Kind | SAF_OperationalDomainKind | . ",
     "url": "/devdoc/Operational%20Domain/Operational%20Context%20Exchange%20Viewpoint.html#realization-of-exposed-concepts",
     
     "relUrl": "/devdoc/Operational%20Domain/Operational%20Context%20Exchange%20Viewpoint.html#realization-of-exposed-concepts"
@@ -2416,7 +2416,7 @@
   },"345": {
     "doc": "Operational Context Interaction Viewpoint",
     "title": "Realization of exposed Concepts",
-    "content": "The Diagram shows the realization of exposed concepts. The Table shows the realization of exposed concepts. | Concept | Realization | . | Operational Interaction Scenario | | . | Operational Scenario Participation | | . | Operational Chronological Message | | . | Operational Context Role | SAF_OperationalContextRole | . ",
+    "content": "The Diagram shows the realization of exposed concepts. The Table shows the realization of exposed concepts. | Concept | Realization | . | Operational Interaction Scenario | Interaction | . | Operational Scenario Participation | Lifeline | . | Operational Chronological Message | Message | . | Operational Context Role | SAF_OperationalContextRole | . ",
     "url": "/devdoc/Operational%20Domain/Operational%20Context%20Interaction%20Viewpoint.html#realization-of-exposed-concepts",
     
     "relUrl": "/devdoc/Operational%20Domain/Operational%20Context%20Interaction%20Viewpoint.html#realization-of-exposed-concepts"
@@ -3004,7 +3004,7 @@
   },"429": {
     "doc": "Operational Process Viewpoint",
     "title": "Realization of exposed Concepts",
-    "content": "The Diagram shows the realization of exposed concepts. The Table shows the realization of exposed concepts. | Concept | Realization | . | controlledAFTER | | . | Operational Process Exchange | | . | Operational Context Role | SAF_OperationalContextRole | . | Operational Performer | SAF_OperationalPerformer | . | OPRperformingOPSU | | . | Operational Process | SAF_OperationalProcess | . | Operational Process Usage | SAF_OperationalProcessAction | . | ODKtypifyingOPE | ObjectFlow typed by SAF_OperationalDomainKind | . | Operational Domain Kind | SAF_OperationalDomainKind | . ",
+    "content": "The Diagram shows the realization of exposed concepts. The Table shows the realization of exposed concepts. | Concept | Realization | . | controlledAFTER | ControlFlow | . | Operational Process Exchange | ObjectFlow | . | Operational Context Role | SAF_OperationalContextRole | . | Operational Performer | SAF_OperationalPerformer | . | OPRperformingOPSU | Allocate | . | Operational Process | SAF_OperationalProcess | . | Operational Process Usage | SAF_OperationalProcessAction | . | ODKtypifyingOPE | ObjectFlow typed by SAF_OperationalDomainKind | . | Operational Domain Kind | SAF_OperationalDomainKind | . ",
     "url": "/devdoc/Operational%20Domain/Operational%20Process%20Viewpoint.html#realization-of-exposed-concepts",
     
     "relUrl": "/devdoc/Operational%20Domain/Operational%20Process%20Viewpoint.html#realization-of-exposed-concepts"
@@ -3074,7 +3074,7 @@
   },"439": {
     "doc": "Operational Process Viewpoint",
     "title": "Profile Model Reference",
-    "content": "The following Stereotypes / Model Elements are used in the Viewpoint: . | ControlFlow | ObjectFlow | SAF_OperationalContextRole | SAF_OperationalPerformer | Allocate | SAF_OperationalProcess | SAF_OperationalProcessAction | | SAF_OperationalDomainKind | . ",
+    "content": "The following Stereotypes / Model Elements are used in the Viewpoint: . | ControlFlow | ObjectFlow | SAF_OperationalContextRole | SAF_OperationalPerformer | Allocate | SAF_OperationalProcess | SAF_OperationalProcessAction | ObjectFlow typed by SAF_OperationalDomainKind | SAF_OperationalDomainKind | . ",
     "url": "/userdoc/Operational%20Domain/Operational%20Process%20Viewpoint.html#profile-model-reference",
     
     "relUrl": "/userdoc/Operational%20Domain/Operational%20Process%20Viewpoint.html#profile-model-reference"
@@ -3221,7 +3221,7 @@
   },"460": {
     "doc": "Operational Story Viewpoint",
     "title": "Profile Model Reference",
-    "content": "The following Stereotypes / Model Elements are used in the Viewpoint: . | SAF_OperationalSketch | SAF_OperationalStory | SAF_OperationalPerformer | SAF_OperationalPerformerActing | SAF_OperationalContext | subject | . ",
+    "content": "The following Stereotypes / Model Elements are used in the Viewpoint: . | SAF_OperationalSketch | SAF_OperationalStory | SAF_OperationalPerformer | SAF_OperationalPerformerActing | SAF_OperationalContext | attribute subject of type SAF_OperationalContext at UseCase | . ",
     "url": "/userdoc/Operational%20Domain/Operational%20Story%20Viewpoint.html#profile-model-reference",
     
     "relUrl": "/userdoc/Operational%20Domain/Operational%20Story%20Viewpoint.html#profile-model-reference"
@@ -3445,7 +3445,7 @@
   },"492": {
     "doc": "Physical Context Exchange Viewpoint",
     "title": "Realization of exposed Concepts",
-    "content": "The Diagram shows the realization of exposed concepts. The Table shows the realization of exposed concepts. | Concept | Realization | . | Physical User | SAF_PhysicalUser | . | Physical SOI | SAF_PhysicalSystem | . | Physical External System | SAF_PhysicalExternalSystem | . | Physical Interaction Point | | . | PIPapplyingToAPE | ProxyPort contained in SAF_PhysicalItem | . | Physical Environment | SAF_PhysicalEnvironment | . | Physical Connection | | . | PIPapplyingToPCE | | . | PCPOverPCP | SAF_InterfaceLayerRelationship | . | Physical Item Exchange | | . | PEKtypingPIE | ItemFlow typed by SAF_PhysicalExchangeType | . | PIPDdefiningDetailOfPIP | ProxyPort typed by SAF_PhysicalInterfaceDefinition | . | PCNallowingPIE | attribute realizingConnector of type Connector at InformationFlow | . ",
+    "content": "The Diagram shows the realization of exposed concepts. The Table shows the realization of exposed concepts. | Concept | Realization | . | Physical User | SAF_PhysicalUser | . | Physical SOI | SAF_PhysicalSystem | . | Physical External System | SAF_PhysicalExternalSystem | . | Physical Interaction Point | ProxyPort | . | PIPapplyingToAPE | ProxyPort contained in SAF_PhysicalItem | . | Physical Environment | SAF_PhysicalEnvironment | . | Physical Connection | Connector | . | PIPapplyingToPCE | | . | PCPOverPCP | SAF_InterfaceLayerRelationship | . | Physical Item Exchange | ItemFlow | . | PEKtypingPIE | ItemFlow typed by SAF_PhysicalExchangeType | . | PIPDdefiningDetailOfPIP | ProxyPort typed by SAF_PhysicalInterfaceDefinition | . | PCNallowingPIE | attribute realizingConnector of type Connector at InformationFlow | . ",
     "url": "/devdoc/Physical%20Domain/Physical%20Context%20Exchange%20Viewpoint.html#realization-of-exposed-concepts",
     
     "relUrl": "/devdoc/Physical%20Domain/Physical%20Context%20Exchange%20Viewpoint.html#realization-of-exposed-concepts"
@@ -3515,7 +3515,7 @@
   },"502": {
     "doc": "Physical Context Exchange Viewpoint",
     "title": "Profile Model Reference",
-    "content": "The following Stereotypes / Model Elements are used in the Viewpoint: . | SAF_PhysicalUser | SAF_PhysicalSystem | SAF_PhysicalExternalSystem | ProxyPort | | SAF_PhysicalEnvironment | Connector | SAF_InterfaceLayerRelationship | ItemFlow | | | realizingConnector | . ",
+    "content": "The following Stereotypes / Model Elements are used in the Viewpoint: . | SAF_PhysicalUser | SAF_PhysicalSystem | SAF_PhysicalExternalSystem | ProxyPort | ProxyPort contained in SAF_PhysicalItem | SAF_PhysicalEnvironment | Connector | SAF_InterfaceLayerRelationship | ItemFlow | ItemFlow typed by SAF_PhysicalExchangeType | ProxyPort typed by SAF_PhysicalInterfaceDefinition | attribute realizingConnector of type Connector at InformationFlow | . ",
     "url": "/userdoc/Physical%20Domain/Physical%20Context%20Exchange%20Viewpoint.html#profile-model-reference",
     
     "relUrl": "/userdoc/Physical%20Domain/Physical%20Context%20Exchange%20Viewpoint.html#profile-model-reference"
@@ -3662,7 +3662,7 @@
   },"523": {
     "doc": "Physical Functional Mapping Viewpoint",
     "title": "Profile Model Reference",
-    "content": "The following Stereotypes / Model Elements are used in the Viewpoint: . | SAF_SystemFunction | function | SAF_PhysicalInternalRole | SAF_PhysicalElement | SAF_PhysicalSoftwareElement | SAF_PhysicalHardwareElement | SAF_PhysicalSystem | . ",
+    "content": "The following Stereotypes / Model Elements are used in the Viewpoint: . | SAF_SystemFunction | attribute function of type SAF_SystemFunction at SAF_PhysicalItem | SAF_PhysicalInternalRole | SAF_PhysicalElement | SAF_PhysicalSoftwareElement | SAF_PhysicalHardwareElement | SAF_PhysicalSystem | . ",
     "url": "/userdoc/Physical%20Domain/Physical%20Functional%20Mapping%20Viewpoint.html#profile-model-reference",
     
     "relUrl": "/userdoc/Physical%20Domain/Physical%20Functional%20Mapping%20Viewpoint.html#profile-model-reference"
@@ -3739,7 +3739,7 @@
   },"534": {
     "doc": "Physical Interface Definition Viewpoint",
     "title": "Realization of exposed Concepts",
-    "content": "The Diagram shows the realization of exposed concepts. The Table shows the realization of exposed concepts. | Concept | Realization | . | Physical Interaction Point | | . | Physical Interaction Point Definition | SAF_PhysicalInterfaceDefinition | . | Physical Exchange Kind | SAF_PhysicalExchangeType | . | PEKtypingPIPP | FlowProperty typed by SAF_PhysicalExchangeType | . | Physical Interaction Point Property | | . | PIPPspecifyingDetailOfPIPD | FlowProperty contained in SAF_PhysicalInterfaceDefinition | . | PCPPOverPCPP | SAF_InterfaceLayerRelationship | . | PCPOverPCP | SAF_InterfaceLayerRelationship | . | PIPDdefiningDetailOfPIP | ProxyPort typed by SAF_PhysicalInterfaceDefinition | . | PCPisPartOfPIPD | SAF_PhysicalInterfaceDefinition contained in ProxyPort | . ",
+    "content": "The Diagram shows the realization of exposed concepts. The Table shows the realization of exposed concepts. | Concept | Realization | . | Physical Interaction Point | ProxyPort | . | Physical Interaction Point Definition | SAF_PhysicalInterfaceDefinition | . | Physical Exchange Kind | SAF_PhysicalExchangeType | . | PEKtypingPIPP | FlowProperty typed by SAF_PhysicalExchangeType | . | Physical Interaction Point Property | FlowProperty | . | PIPPspecifyingDetailOfPIPD | FlowProperty contained in SAF_PhysicalInterfaceDefinition | . | PCPPOverPCPP | SAF_InterfaceLayerRelationship | . | PCPOverPCP | SAF_InterfaceLayerRelationship | . | PIPDdefiningDetailOfPIP | ProxyPort typed by SAF_PhysicalInterfaceDefinition | . | PCPisPartOfPIPD | SAF_PhysicalInterfaceDefinition contained in ProxyPort | . ",
     "url": "/devdoc/Physical%20Domain/Physical%20Interface%20Definition%20Viewpoint.html#realization-of-exposed-concepts",
     
     "relUrl": "/devdoc/Physical%20Domain/Physical%20Interface%20Definition%20Viewpoint.html#realization-of-exposed-concepts"
@@ -3809,7 +3809,7 @@
   },"544": {
     "doc": "Physical Interface Definition Viewpoint",
     "title": "Profile Model Reference",
-    "content": "The following Stereotypes / Model Elements are used in the Viewpoint: . | ProxyPort | SAF_PhysicalInterfaceDefinition | SAF_PhysicalExchangeType | | FlowProperty | | SAF_InterfaceLayerRelationship | | | . ",
+    "content": "The following Stereotypes / Model Elements are used in the Viewpoint: . | ProxyPort | SAF_PhysicalInterfaceDefinition | SAF_PhysicalExchangeType | FlowProperty typed by SAF_PhysicalExchangeType | FlowProperty | FlowProperty contained in SAF_PhysicalInterfaceDefinition | SAF_InterfaceLayerRelationship | ProxyPort typed by SAF_PhysicalInterfaceDefinition | SAF_PhysicalInterfaceDefinition contained in ProxyPort | . ",
     "url": "/userdoc/Physical%20Domain/Physical%20Interface%20Definition%20Viewpoint.html#profile-model-reference",
     
     "relUrl": "/userdoc/Physical%20Domain/Physical%20Interface%20Definition%20Viewpoint.html#profile-model-reference"
@@ -3886,7 +3886,7 @@
   },"555": {
     "doc": "Physical Internal Exchange Viewpoint",
     "title": "Realization of exposed Concepts",
-    "content": "The Diagram shows the realization of exposed concepts. The Table shows the realization of exposed concepts. | Concept | Realization | . | Physical Interaction Point Property | | . | Physical Exchange Kind | SAF_PhysicalExchangeType | . | PEKtypingPIPP | FlowProperty typed by SAF_PhysicalExchangeType | . | PCPisPartOfPIPD | SAF_PhysicalInterfaceDefinition contained in ProxyPort | . | PIPapplyingToAPE | ProxyPort contained in SAF_PhysicalItem | . | Physical Interaction Point | | . | Software Element | SAF_PhysicalSoftwareElement | . | Physical Element | SAF_PhysicalElement | . | Hardware Element | SAF_PhysicalHardwareElement | . | PCPOverPCP | SAF_InterfaceLayerRelationship | . | Physical Item Exchange | | . | PCNallowingPIE | attribute realizingConnector of type Connector at InformationFlow | . | Physical Connection | | . | PEKtypingPIE | ItemFlow typed by SAF_PhysicalExchangeType | . | PIPDdefiningDetailOfPIP | ProxyPort typed by SAF_PhysicalInterfaceDefinition | . ",
+    "content": "The Diagram shows the realization of exposed concepts. The Table shows the realization of exposed concepts. | Concept | Realization | . | Physical Interaction Point Property | FlowProperty | . | Physical Exchange Kind | SAF_PhysicalExchangeType | . | PEKtypingPIPP | FlowProperty typed by SAF_PhysicalExchangeType | . | PCPisPartOfPIPD | SAF_PhysicalInterfaceDefinition contained in ProxyPort | . | PIPapplyingToAPE | ProxyPort contained in SAF_PhysicalItem | . | Physical Interaction Point | ProxyPort | . | Software Element | SAF_PhysicalSoftwareElement | . | Physical Element | SAF_PhysicalElement | . | Hardware Element | SAF_PhysicalHardwareElement | . | PCPOverPCP | SAF_InterfaceLayerRelationship | . | Physical Item Exchange | ItemFlow | . | PCNallowingPIE | attribute realizingConnector of type Connector at InformationFlow | . | Physical Connection | Connector | . | PEKtypingPIE | ItemFlow typed by SAF_PhysicalExchangeType | . | PIPDdefiningDetailOfPIP | ProxyPort typed by SAF_PhysicalInterfaceDefinition | . ",
     "url": "/devdoc/Physical%20Domain/Physical%20Internal%20Exchange%20Viewpoint.html#realization-of-exposed-concepts",
     
     "relUrl": "/devdoc/Physical%20Domain/Physical%20Internal%20Exchange%20Viewpoint.html#realization-of-exposed-concepts"
@@ -3956,7 +3956,7 @@
   },"565": {
     "doc": "Physical Internal Exchange Viewpoint",
     "title": "Profile Model Reference",
-    "content": "The following Stereotypes / Model Elements are used in the Viewpoint: . | FlowProperty | SAF_PhysicalExchangeType | | | | ProxyPort | SAF_PhysicalSoftwareElement | SAF_PhysicalElement | SAF_PhysicalHardwareElement | SAF_InterfaceLayerRelationship | ItemFlow | realizingConnector | Connector | | | . ",
+    "content": "The following Stereotypes / Model Elements are used in the Viewpoint: . | FlowProperty | SAF_PhysicalExchangeType | FlowProperty typed by SAF_PhysicalExchangeType | SAF_PhysicalInterfaceDefinition contained in ProxyPort | ProxyPort contained in SAF_PhysicalItem | ProxyPort | SAF_PhysicalSoftwareElement | SAF_PhysicalElement | SAF_PhysicalHardwareElement | SAF_InterfaceLayerRelationship | ItemFlow | attribute realizingConnector of type Connector at InformationFlow | Connector | ItemFlow typed by SAF_PhysicalExchangeType | ProxyPort typed by SAF_PhysicalInterfaceDefinition | . ",
     "url": "/userdoc/Physical%20Domain/Physical%20Internal%20Exchange%20Viewpoint.html#profile-model-reference",
     
     "relUrl": "/userdoc/Physical%20Domain/Physical%20Internal%20Exchange%20Viewpoint.html#profile-model-reference"
@@ -4033,7 +4033,7 @@
   },"576": {
     "doc": "Physical Logical Item Mapping Viewpoint",
     "title": "Realization of exposed Concepts",
-    "content": "The Diagram shows the realization of exposed concepts. The Table shows the realization of exposed concepts. | Concept | Realization | . | PEKrealizingSDK | | . | Physical Exchange Kind | SAF_PhysicalExchangeType | . | System Domain Kind | SAF_DomainKind | . ",
+    "content": "The Diagram shows the realization of exposed concepts. The Table shows the realization of exposed concepts. | Concept | Realization | . | PEKrealizingSDK | Allocate | . | Physical Exchange Kind | SAF_PhysicalExchangeType | . | System Domain Kind | SAF_DomainKind | . ",
     "url": "/devdoc/Physical%20Domain/Physical%20Logical%20Item%20Mapping%20Viewpoint.html#realization-of-exposed-concepts",
     
     "relUrl": "/devdoc/Physical%20Domain/Physical%20Logical%20Item%20Mapping%20Viewpoint.html#realization-of-exposed-concepts"
@@ -4180,7 +4180,7 @@
   },"597": {
     "doc": "Physical Logical Mapping Viewpoint",
     "title": "Realization of exposed Concepts",
-    "content": "The Diagram shows the realization of exposed concepts. The Table shows the realization of exposed concepts. | Concept | Realization | . | Hardware Element | SAF_PhysicalHardwareElement | . | Physical Element | SAF_PhysicalElement | . | Software Element | SAF_PhysicalSoftwareElement | . | Logical Element | SAF_LogicalElement | . | Hardware Element Role | SAF_PhysicalInternalRole | . | LERspecifyingGPR | | . | Physical Hardware Role | SAF_PhysicalInternalRole | . | Physical Element Role | SAF_PhysicalInternalRole | . | Physical Software Role | SAF_PhysicalInternalRole | . | Software Element Role | SAF_PhysicalInternalRole | . | Logical Element Role | SAF_LogicalInternalRole contained in SAF_LogicalElement | . ",
+    "content": "The Diagram shows the realization of exposed concepts. The Table shows the realization of exposed concepts. | Concept | Realization | . | Hardware Element | SAF_PhysicalHardwareElement | . | Physical Element | SAF_PhysicalElement | . | Software Element | SAF_PhysicalSoftwareElement | . | Logical Element | SAF_LogicalElement | . | Hardware Element Role | SAF_PhysicalInternalRole | . | LERspecifyingGPR | Allocate | . | Physical Hardware Role | SAF_PhysicalInternalRole | . | Physical Element Role | SAF_PhysicalInternalRole | . | Physical Software Role | SAF_PhysicalInternalRole | . | Software Element Role | SAF_PhysicalInternalRole | . | Logical Element Role | SAF_LogicalInternalRole contained in SAF_LogicalElement | . ",
     "url": "/devdoc/Physical%20Domain/Physical%20Logical%20Mapping%20Viewpoint.html#realization-of-exposed-concepts",
     
     "relUrl": "/devdoc/Physical%20Domain/Physical%20Logical%20Mapping%20Viewpoint.html#realization-of-exposed-concepts"
@@ -4250,7 +4250,7 @@
   },"607": {
     "doc": "Physical Logical Mapping Viewpoint",
     "title": "Profile Model Reference",
-    "content": "The following Stereotypes / Model Elements are used in the Viewpoint: . | SAF_PhysicalHardwareElement | SAF_PhysicalElement | SAF_PhysicalSoftwareElement | SAF_LogicalElement | SAF_PhysicalInternalRole | Allocate | | . ",
+    "content": "The following Stereotypes / Model Elements are used in the Viewpoint: . | SAF_PhysicalHardwareElement | SAF_PhysicalElement | SAF_PhysicalSoftwareElement | SAF_LogicalElement | SAF_PhysicalInternalRole | Allocate | SAF_LogicalInternalRole contained in SAF_LogicalElement | . ",
     "url": "/userdoc/Physical%20Domain/Physical%20Logical%20Mapping%20Viewpoint.html#profile-model-reference",
     
     "relUrl": "/userdoc/Physical%20Domain/Physical%20Logical%20Mapping%20Viewpoint.html#profile-model-reference"
@@ -4803,7 +4803,7 @@
   },"686": {
     "doc": "Stakeholder Identification Viewpoint",
     "title": "Profile Model Reference",
-    "content": "The following Stereotypes / Model Elements are used in the Viewpoint: . | SAF_Stakeholder | SAF_SystemOfInterestConcern | SAF_StakeholderRelation | SAF_ContextElementRepresentation | concern | SAF_OperationalPerformer | SAF_StakeholderRepresenting | . ",
+    "content": "The following Stereotypes / Model Elements are used in the Viewpoint: . | SAF_Stakeholder | SAF_SystemOfInterestConcern | SAF_StakeholderRelation | SAF_ContextElementRepresentation | attribute concern of type SAF_SystemOfInterestConcern at Stakeholder | SAF_OperationalPerformer | SAF_StakeholderRepresenting | . ",
     "url": "/userdoc/Operational%20Domain/Stakeholder%20Identification%20Viewpoint.html#profile-model-reference",
     
     "relUrl": "/userdoc/Operational%20Domain/Stakeholder%20Identification%20Viewpoint.html#profile-model-reference"
@@ -4880,7 +4880,7 @@
   },"697": {
     "doc": "Stakeholder Requirement Definition Viewpoint",
     "title": "Realization of exposed Concepts",
-    "content": "The Diagram shows the realization of exposed concepts. The Table shows the realization of exposed concepts. | Concept | Realization | . | SHRimposedBY | SAF_StakeholderRequirementImposition, | . | Stakeholder Requirement | SAF_StakeholderRequirement | . | System of Interest Stakeholder | SAF_Stakeholder | . | Operational Story | SAF_OperationalStory | . | System of Interest Concern | SAF_SystemOfInterestConcern | . | SHRrefiningOSY | SAF_StakeholderRequirementRefinement | . | SHRrefiningCRN | SAF_StakeholderRequirementRefinement | . | SHRrefiningOCY | SAF_StakeholderRequirementRefinement | . | Operational Capability | SAF_OperationalCapability | . | Compliance Statement | | . | CSTconfirmingSHR | | . ",
+    "content": "The Diagram shows the realization of exposed concepts. The Table shows the realization of exposed concepts. | Concept | Realization | . | SHRimposedBY | SAF_StakeholderRequirementImposition, Package | . | Stakeholder Requirement | SAF_StakeholderRequirement | . | System of Interest Stakeholder | SAF_Stakeholder | . | Operational Story | SAF_OperationalStory | . | System of Interest Concern | SAF_SystemOfInterestConcern | . | SHRrefiningOSY | SAF_StakeholderRequirementRefinement | . | SHRrefiningCRN | SAF_StakeholderRequirementRefinement | . | SHRrefiningOCY | SAF_StakeholderRequirementRefinement | . | Operational Capability | SAF_OperationalCapability | . | Compliance Statement | | . | CSTconfirmingSHR | | . ",
     "url": "/devdoc/Operational%20Domain/Stakeholder%20Requirement%20Definition%20Viewpoint.html#realization-of-exposed-concepts",
     
     "relUrl": "/devdoc/Operational%20Domain/Stakeholder%20Requirement%20Definition%20Viewpoint.html#realization-of-exposed-concepts"
@@ -5468,7 +5468,7 @@
   },"781": {
     "doc": "System Context Exchange Viewpoint",
     "title": "Realization of exposed Concepts",
-    "content": "The Diagram shows the realization of exposed concepts. The Table shows the realization of exposed concepts. | Concept | Realization | . | Logical Connection | | . | LIPapplyingToLET | | . | Logical Interaction Point | | . | Logical Item Exchange | | . | LIPapplyingToLCE | | . | Logical Interaction Point Definition | SAF_ConceptualInterfaceDefinition | . | Logical SOI Role | SAF_LogicalContextRole | . | Logical System Context | SAF_LogicalContext | . | Logical Context Element Role | SAF_LogicalContextRole | . ",
+    "content": "The Diagram shows the realization of exposed concepts. The Table shows the realization of exposed concepts. | Concept | Realization | . | Logical Connection | Connector | . | LIPapplyingToLET | Property | . | Logical Interaction Point | ProxyPort | . | Logical Item Exchange | ItemFlow | . | LIPapplyingToLCE | Property | . | Logical Interaction Point Definition | SAF_ConceptualInterfaceDefinition | . | Logical SOI Role | SAF_LogicalContextRole | . | Logical System Context | SAF_LogicalContext | . | Logical Context Element Role | SAF_LogicalContextRole | . ",
     "url": "/devdoc/Functional%20Domain/System%20Context%20Exchange%20Viewpoint.html#realization-of-exposed-concepts",
     
     "relUrl": "/devdoc/Functional%20Domain/System%20Context%20Exchange%20Viewpoint.html#realization-of-exposed-concepts"
@@ -5615,7 +5615,7 @@
   },"802": {
     "doc": "System Context Interaction Viewpoint",
     "title": "Realization of exposed Concepts",
-    "content": "The Diagram shows the realization of exposed concepts. The Table shows the realization of exposed concepts. | Concept | Realization | . | System Context Scenario Participation | | . | System Context Interaction Scenario | | . | Logical Context Element Role | SAF_LogicalContextRole | . | System Context Chronological Message | | . | Logical SOI Role | SAF_LogicalContextRole | . ",
+    "content": "The Diagram shows the realization of exposed concepts. The Table shows the realization of exposed concepts. | Concept | Realization | . | System Context Scenario Participation | Lifeline | . | System Context Interaction Scenario | Interaction | . | Logical Context Element Role | SAF_LogicalContextRole | . | System Context Chronological Message | Message | . | Logical SOI Role | SAF_LogicalContextRole | . ",
     "url": "/devdoc/Functional%20Domain/System%20Context%20Interaction%20Viewpoint.html#realization-of-exposed-concepts",
     
     "relUrl": "/devdoc/Functional%20Domain/System%20Context%20Interaction%20Viewpoint.html#realization-of-exposed-concepts"
@@ -5979,7 +5979,7 @@
   },"854": {
     "doc": "System Functional Breakdown Structure Viewpoint",
     "title": "Profile Model Reference",
-    "content": "The following Stereotypes / Model Elements are used in the Viewpoint: . | SAF_SystemFunction | SAF_ContextFunction | | SAF_SystemPartialFunction | SAF_SystemProcess | | | . ",
+    "content": "The following Stereotypes / Model Elements are used in the Viewpoint: . | SAF_SystemFunction | SAF_ContextFunction | SAF_FunctionAction contained in SAF_SystemProcess | SAF_SystemPartialFunction | SAF_SystemProcess | SAF_FunctionAction contained in SAF_SystemFunction | SAF_ContextAction contained in SAF_SystemProcess | . ",
     "url": "/userdoc/Functional%20Domain/System%20Functional%20Breakdown%20Structure%20Viewpoint.html#profile-model-reference",
     
     "relUrl": "/userdoc/Functional%20Domain/System%20Functional%20Breakdown%20Structure%20Viewpoint.html#profile-model-reference"
@@ -6056,7 +6056,7 @@
   },"865": {
     "doc": "System Functional Refinement Viewpoint",
     "title": "Realization of exposed Concepts",
-    "content": "The Diagram shows the realization of exposed concepts. The Table shows the realization of exposed concepts. | Concept | Realization | . | System Function | SAF_SystemFunction | . | System Partial Function in System Function | SAF_FunctionAction contained in SAF_SystemFunction | . | GFNcontrolledAFTER | | . | General Function Usage Exchange Point | | . | General Functional Exchange | | . | GFEbeingPartOfGFNU | | . ",
+    "content": "The Diagram shows the realization of exposed concepts. The Table shows the realization of exposed concepts. | Concept | Realization | . | System Function | SAF_SystemFunction | . | System Partial Function in System Function | SAF_FunctionAction contained in SAF_SystemFunction | . | GFNcontrolledAFTER | ControlFlow | . | General Function Usage Exchange Point | Parameter | . | General Functional Exchange | ObjectFlow | . | GFEbeingPartOfGFNU | | . ",
     "url": "/devdoc/Functional%20Domain/System%20Functional%20Refinement%20Viewpoint.html#realization-of-exposed-concepts",
     
     "relUrl": "/devdoc/Functional%20Domain/System%20Functional%20Refinement%20Viewpoint.html#realization-of-exposed-concepts"
@@ -6126,7 +6126,7 @@
   },"875": {
     "doc": "System Functional Refinement Viewpoint",
     "title": "Profile Model Reference",
-    "content": "The following Stereotypes / Model Elements are used in the Viewpoint: . | SAF_SystemFunction | | ControlFlow | Parameter | ObjectFlow | . ",
+    "content": "The following Stereotypes / Model Elements are used in the Viewpoint: . | SAF_SystemFunction | SAF_FunctionAction contained in SAF_SystemFunction | ControlFlow | Parameter | ObjectFlow | . ",
     "url": "/userdoc/Functional%20Domain/System%20Functional%20Refinement%20Viewpoint.html#profile-model-reference",
     
     "relUrl": "/userdoc/Functional%20Domain/System%20Functional%20Refinement%20Viewpoint.html#profile-model-reference"
@@ -6203,7 +6203,7 @@
   },"886": {
     "doc": "System Interface Definition Viewpoint",
     "title": "Realization of exposed Concepts",
-    "content": "The Diagram shows the realization of exposed concepts. The Table shows the realization of exposed concepts. | Concept | Realization | . | LIPDdefiningDetailOfLIP | ProxyPort typed by SAF_ConceptualInterfaceDefinition | . | Logical Interaction Point | | . | Logical Interaction Point Definition | SAF_ConceptualInterfaceDefinition | . | Logical Interaction Point Property | | . | System Domain Kind | SAF_DomainKind | . | SDKtypingLIPP | FlowProperty typed by SAF_DomainKind | . | LIPPspecifyingDetailOfLIPD | FlowProperty contained in SAF_ConceptualInterfaceDefinition | . ",
+    "content": "The Diagram shows the realization of exposed concepts. The Table shows the realization of exposed concepts. | Concept | Realization | . | LIPDdefiningDetailOfLIP | ProxyPort typed by SAF_ConceptualInterfaceDefinition | . | Logical Interaction Point | ProxyPort | . | Logical Interaction Point Definition | SAF_ConceptualInterfaceDefinition | . | Logical Interaction Point Property | FlowProperty | . | System Domain Kind | SAF_DomainKind | . | SDKtypingLIPP | FlowProperty typed by SAF_DomainKind | . | LIPPspecifyingDetailOfLIPD | FlowProperty contained in SAF_ConceptualInterfaceDefinition | . ",
     "url": "/devdoc/Functional%20Domain/System%20Interface%20Definition%20Viewpoint.html#realization-of-exposed-concepts",
     
     "relUrl": "/devdoc/Functional%20Domain/System%20Interface%20Definition%20Viewpoint.html#realization-of-exposed-concepts"
@@ -6273,7 +6273,7 @@
   },"896": {
     "doc": "System Interface Definition Viewpoint",
     "title": "Profile Model Reference",
-    "content": "The following Stereotypes / Model Elements are used in the Viewpoint: . | | ProxyPort | SAF_ConceptualInterfaceDefinition | FlowProperty | SAF_DomainKind | | | . ",
+    "content": "The following Stereotypes / Model Elements are used in the Viewpoint: . | ProxyPort typed by SAF_ConceptualInterfaceDefinition | ProxyPort | SAF_ConceptualInterfaceDefinition | FlowProperty | SAF_DomainKind | FlowProperty typed by SAF_DomainKind | FlowProperty contained in SAF_ConceptualInterfaceDefinition | . ",
     "url": "/userdoc/Functional%20Domain/System%20Interface%20Definition%20Viewpoint.html#profile-model-reference",
     
     "relUrl": "/userdoc/Functional%20Domain/System%20Interface%20Definition%20Viewpoint.html#profile-model-reference"
@@ -6350,7 +6350,7 @@
   },"907": {
     "doc": "System Process Viewpoint",
     "title": "Realization of exposed Concepts",
-    "content": "The Diagram shows the realization of exposed concepts. The Table shows the realization of exposed concepts. | Concept | Realization | . | System Function | SAF_SystemFunction | . | General Function Usage Exchange Point | | . | Logical Context Element Role | SAF_LogicalContextRole | . | General Functional Exchange | | . | Logical SOI Role | SAF_LogicalContextRole | . | Context Function IN System Process | SAF_ContextAction contained in SAF_SystemProcess | . | System Process | SAF_SystemProcess | . | Context Function | SAF_ContextFunction | . | LCEperformingCFN | | . | LETperformingSFN | | . | GFNcontrolledAFTER | | . | System Function IN System Process | SAF_FunctionAction contained in SAF_SystemProcess | . ",
+    "content": "The Diagram shows the realization of exposed concepts. The Table shows the realization of exposed concepts. | Concept | Realization | . | System Function | SAF_SystemFunction | . | General Function Usage Exchange Point | Parameter | . | Logical Context Element Role | SAF_LogicalContextRole | . | General Functional Exchange | ObjectFlow | . | Logical SOI Role | SAF_LogicalContextRole | . | Context Function IN System Process | SAF_ContextAction contained in SAF_SystemProcess | . | System Process | SAF_SystemProcess | . | Context Function | SAF_ContextFunction | . | LCEperformingCFN | Allocate | . | LETperformingSFN | Allocate | . | GFNcontrolledAFTER | ControlFlow | . | System Function IN System Process | SAF_FunctionAction contained in SAF_SystemProcess | . ",
     "url": "/devdoc/Functional%20Domain/System%20Process%20Viewpoint.html#realization-of-exposed-concepts",
     
     "relUrl": "/devdoc/Functional%20Domain/System%20Process%20Viewpoint.html#realization-of-exposed-concepts"
@@ -6420,7 +6420,7 @@
   },"917": {
     "doc": "System Process Viewpoint",
     "title": "Profile Model Reference",
-    "content": "The following Stereotypes / Model Elements are used in the Viewpoint: . | SAF_SystemFunction | Parameter | SAF_LogicalContextRole | ObjectFlow | | SAF_SystemProcess | SAF_ContextFunction | Allocate | ControlFlow | | . ",
+    "content": "The following Stereotypes / Model Elements are used in the Viewpoint: . | SAF_SystemFunction | Parameter | SAF_LogicalContextRole | ObjectFlow | SAF_ContextAction contained in SAF_SystemProcess | SAF_SystemProcess | SAF_ContextFunction | Allocate | ControlFlow | SAF_FunctionAction contained in SAF_SystemProcess | . ",
     "url": "/userdoc/Functional%20Domain/System%20Process%20Viewpoint.html#profile-model-reference",
     
     "relUrl": "/userdoc/Functional%20Domain/System%20Process%20Viewpoint.html#profile-model-reference"
@@ -6644,7 +6644,7 @@
   },"949": {
     "doc": "System Requirement Traceability Viewpoint",
     "title": "Realization of exposed Concepts",
-    "content": "The Diagram shows the realization of exposed concepts. The Table shows the realization of exposed concepts. | Concept | Realization | . | FRboundedByNFR | SAF_SystemFunctionalRequirementConstraint | . | FRrefiningSFN | SAF_SystemFunctionalRequirementRefinement | . | SRrefiningSUC | SAF_SystemRequirementRefinement | . | SRderivingFromSTKR | SAF_SystemRequirementDerivation | . | SRderivingFromSR | SAF_SystemRequirementDerivation | . | SRrefiningLICP | SAF_SystemRequirementRefinement | . | System Requirement | SAF_SystemRequirement | . | Stakeholder Requirement | SAF_StakeholderRequirement | . | System Use Case | SAF_SystemUseCase | . | System Function | SAF_SystemFunction | . | Logical Interaction Point | | . | System Process | SAF_SystemProcess | . | System Function IN System Process | SAF_FunctionAction contained in SAF_SystemProcess | . | SPSrefiningSUC | SAF_SystemProcessRefinement | . | System Capability | SAF_SystemCapability | . | SRrefiningSCY | SAF_SystemRequirementRefinement | . ",
+    "content": "The Diagram shows the realization of exposed concepts. The Table shows the realization of exposed concepts. | Concept | Realization | . | FRboundedByNFR | SAF_SystemFunctionalRequirementConstraint | . | FRrefiningSFN | SAF_SystemFunctionalRequirementRefinement | . | SRrefiningSUC | SAF_SystemRequirementRefinement | . | SRderivingFromSTKR | SAF_SystemRequirementDerivation | . | SRderivingFromSR | SAF_SystemRequirementDerivation | . | SRrefiningLICP | SAF_SystemRequirementRefinement | . | System Requirement | SAF_SystemRequirement | . | Stakeholder Requirement | SAF_StakeholderRequirement | . | System Use Case | SAF_SystemUseCase | . | System Function | SAF_SystemFunction | . | Logical Interaction Point | ProxyPort | . | System Process | SAF_SystemProcess | . | System Function IN System Process | SAF_FunctionAction contained in SAF_SystemProcess | . | SPSrefiningSUC | SAF_SystemProcessRefinement | . | System Capability | SAF_SystemCapability | . | SRrefiningSCY | SAF_SystemRequirementRefinement | . ",
     "url": "/devdoc/Functional%20Domain/System%20Requirement%20Traceability%20Viewpoint.html#realization-of-exposed-concepts",
     
     "relUrl": "/devdoc/Functional%20Domain/System%20Requirement%20Traceability%20Viewpoint.html#realization-of-exposed-concepts"
@@ -6714,7 +6714,7 @@
   },"959": {
     "doc": "System Requirement Traceability Viewpoint",
     "title": "Profile Model Reference",
-    "content": "The following Stereotypes / Model Elements are used in the Viewpoint: . | SAF_SystemFunctionalRequirementConstraint | SAF_SystemFunctionalRequirementRefinement | SAF_SystemRequirementRefinement | SAF_SystemRequirementDerivation | SAF_SystemRequirement | SAF_StakeholderRequirement | SAF_SystemUseCase | SAF_SystemFunction | ProxyPort | SAF_SystemProcess | | SAF_SystemProcessRefinement | SAF_SystemCapability | . ",
+    "content": "The following Stereotypes / Model Elements are used in the Viewpoint: . | SAF_SystemFunctionalRequirementConstraint | SAF_SystemFunctionalRequirementRefinement | SAF_SystemRequirementRefinement | SAF_SystemRequirementDerivation | SAF_SystemRequirement | SAF_StakeholderRequirement | SAF_SystemUseCase | SAF_SystemFunction | ProxyPort | SAF_SystemProcess | SAF_FunctionAction contained in SAF_SystemProcess | SAF_SystemProcessRefinement | SAF_SystemCapability | . ",
     "url": "/userdoc/Functional%20Domain/System%20Requirement%20Traceability%20Viewpoint.html#profile-model-reference",
     
     "relUrl": "/userdoc/Functional%20Domain/System%20Requirement%20Traceability%20Viewpoint.html#profile-model-reference"
@@ -6791,7 +6791,7 @@
   },"970": {
     "doc": "System State Viewpoint",
     "title": "Realization of exposed Concepts",
-    "content": "The Diagram shows the realization of exposed concepts. The Table shows the realization of exposed concepts. | Concept | Realization | . | LETbeeingInSSE | | . | SDKbeeingInSSE | | . | System State | | . | SSEperformingSFN | | . | State Transition | | . | SFNresultingInSSE | | . | triggering | | . ",
+    "content": "The Diagram shows the realization of exposed concepts. The Table shows the realization of exposed concepts. | Concept | Realization | . | LETbeeingInSSE | StateMachine | . | SDKbeeingInSSE | StateMachine | . | System State | State | . | SSEperformingSFN | | . | State Transition | Transition | . | SFNresultingInSSE | | . | triggering | | . ",
     "url": "/devdoc/Functional%20Domain/System%20State%20Viewpoint.html#realization-of-exposed-concepts",
     
     "relUrl": "/devdoc/Functional%20Domain/System%20State%20Viewpoint.html#realization-of-exposed-concepts"
@@ -7008,7 +7008,7 @@
   },"1001": {
     "doc": "System Use Case Viewpoint",
     "title": "Profile Model Reference",
-    "content": "The following Stereotypes / Model Elements are used in the Viewpoint: . | SAF_SystemUseCase | SAF_LogicalUser | SAF_LogicalContextElementActing | subject | PreConditionStates | PostConditionStates | SAF_LogicalExternalSystem | SAF_LogicalEnvironment | SAF_OperationalStory | SAF_SystemUseCaseEnabling | SAF_LogicalContext | . ",
+    "content": "The following Stereotypes / Model Elements are used in the Viewpoint: . | SAF_SystemUseCase | SAF_LogicalUser | SAF_LogicalContextElementActing | attribute subject of type SAF_LogicalContext at UseCase | attribute PreConditionStates of type State at SAF_SystemUseCase | attribute PostConditionStates of type State at SAF_SystemUseCase | SAF_LogicalExternalSystem | SAF_LogicalEnvironment | SAF_OperationalStory | SAF_SystemUseCaseEnabling | SAF_LogicalContext | . ",
     "url": "/userdoc/Functional%20Domain/System%20Use%20Case%20Viewpoint.html#profile-model-reference",
     
     "relUrl": "/userdoc/Functional%20Domain/System%20Use%20Case%20Viewpoint.html#profile-model-reference"
