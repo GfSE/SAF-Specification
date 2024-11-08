@@ -24,10 +24,7 @@ This site contains both documentation for users of SAF and developers of SAF. To
 The System Architecture Framework Specification application is demonstrated using the **Fire Forest Detection System (FFDS)** example, courtesy of Tim Weilkiens. The Fire Forest Detection System example is based on the publication **SYSMOD - The Systems Modeling Toolbox, 3rd edition Pragmatic MBSE with SysML, Tim Weilkiens**
 
 # Releases
-This documentation is for the TdSE2024 release branch of SAF. See the [change report](CHANGES.md) for an information about major changes.
-
-If you like to see the current state of development of SAF, please head over to the [main branch](https://saf.gfse.org) which is updated as the development of SAF proceeds.
-
+This documentation is for the main branch of SAF that reflects the current state of development and it is updated as required. See the [change report](CHANGES.md) for an information about major changes.
 
 The following SAF releases are available, each of which is managed in a separate branch:
 * [Initial Release](https://github.com/GfSE/SAF-Specification/tree/Initial-Release/README.md)
@@ -38,7 +35,6 @@ The following SAF releases are available, each of which is managed in a separate
 # Tool Implementations
 The SAF specification is implemented by 3 tool specific profiles which are available in separate github repositories:
 
-* [Cameo Systems Modeler (by Dassault Systèmes)](https://github.com/GfSE/SAF-Cameo-Profile/tree/TdSE2024)
-* [Engineering Systems Design Rhapsody (by IBM)](https://github.com/GfSE/SAF-Rhapsody-Profile/tree/TdSE2024)
-* [Enterprise Architect (by Sparx Systems)](https://github.com/GfSE/SAF-EA-Profile/tree/TdSE2024)
-
+* [Cameo Systems Modeler (by Dassault Systèmes)](https://github.com/GfSE/SAF-Cameo-Profile)
+* [Engineering Systems Design Rhapsody (by IBM)](https://github.com/GfSE/SAF-Rhapsody-Profile)
+* [Enterprise Architect (by Sparx Systems)](https://github.com/GfSE/SAF-EA-Profile)
