@@ -7,4 +7,5 @@ We have changed the way the documentation is generated and github is now the sou
 * [TdSE2022](https://github.com/GfSE/SAF-Specification/tree/TdSE2022/README.md)
 * [TdSE2023](https://github.com/GfSE/SAF-Specification/tree/TdSE2023/README.md)
 * [snapshot oct 2024](https://github.com/GfSE/SAF-Specification/tree/legacy-doc/README.md)
+* [TdSE2024](https://saf.gfse.org/version/TdSE2024)
 
