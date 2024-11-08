@@ -18,8 +18,8 @@ Since the Mission Analysis and Stakeholder Requirements definition Processes cov
 
 The same applies to the Common Domain, it is also valid for all decomposition levels.
 
-{: .todo }
-here an image of the vee should be shown with decomposition levels and domains covering the whole vee and others repeated. we could also show a decomposition tree, and the dev workflow tree with the gates (scr, srr, pdr, cdr)*
+
+![recursive application](../assets/images/saf_recursion.png)
 
 ## Application to System of Systems
 A System of Systems(SoS)[^1] approach might take advantage from separate operational domain descriptions for each system, while sharing some overarcing elements. 
@@ -73,7 +73,7 @@ to be continued !
 
 {: .todo }
 Here an image of the Vee should be placed with domains showing where on the vee, or a workflow with the gates. a detail view should show flow through the viewpoints, perhaps with key concerns they address.
-This is complex. details must go to multiple sub pages, possibly organized by SEHB phases. There are also different usage scenarios of SAF
+Details should possibly go to multiple sub pages, possibly organized by SEHB phases. There are also different usage scenarios of SAF
 
 [^1]:Note, that SoS is not just a decomposition - the term should only be used for scenarios which add complexity by independently developed and or operated systems with independent lifecycles, lacking overarcing planning or even agreement.
 [^2]:Assuming there are valid stakeholder requirements, defining what the system should achieve under which constraints. One of motivations for the operational domain is to produce and validate this information.
