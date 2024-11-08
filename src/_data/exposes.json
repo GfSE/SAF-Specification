@@ -3816,6 +3816,18 @@
   }
 }, {
   "Name" : "",
+  "ID" : "_2024x_26f0132_1718014176487_613546_39272",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_26f0132_1717938947368_294492_14308",
+    "Name" : "Protection Goal"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_8710274_1715874205543_398212_14936",
+    "Name" : "Protection Goal Definition Viewpoint"
+  }
+}, {
+  "Name" : "",
   "ID" : "_2024x_26f0132_1718183172910_519486_14455",
   "Documentation" : "",
   "ExposedConcept" : {
@@ -4173,6 +4185,474 @@
   "Viewpoint" : {
     "ID" : "_2024x_26f0132_1719735528612_846205_25134",
     "Name" : "Framework Stakeholder and Concern Definition Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1724768430840_263169_2266",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_ea40342_1724668235875_444109_102",
+    "Name" : "Security Context Element"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_4c5019a_1724766057976_458531_938",
+    "Name" : "Asset Identification Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1724768438147_721268_2273",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_4c5019a_1724750542260_2346_1453",
+    "Name" : "Asset"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_4c5019a_1724766057976_458531_938",
+    "Name" : "Asset Identification Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1724768442630_896191_2280",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_4c5019a_1724750691427_829277_1481",
+    "Name" : "Security Objective"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_4c5019a_1724766057976_458531_938",
+    "Name" : "Asset Identification Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1724768447778_23918_2287",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_4c5019a_1724751736523_167024_1636",
+    "Name" : "Tangible Resource"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_4c5019a_1724766057976_458531_938",
+    "Name" : "Asset Identification Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1724768450899_637531_2294",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_4c5019a_1724751581579_977661_1588",
+    "Name" : "Intangible Resource"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_4c5019a_1724766057976_458531_938",
+    "Name" : "Asset Identification Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1725448958600_268747_1361",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_4c5019a_1724674758529_936816_356",
+    "Name" : "Security Context"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_4c5019a_1725447776446_993396_779",
+    "Name" : "Security Context Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1725448969398_881533_1368",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_ea40342_1724668235875_444109_102",
+    "Name" : "Security Context Element"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_4c5019a_1725447776446_993396_779",
+    "Name" : "Security Context Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1725448974148_335987_1375",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_4c5019a_1724752203589_449075_1766",
+    "Name" : "Security Enviromental Element"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_4c5019a_1725447776446_993396_779",
+    "Name" : "Security Context Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1725448984008_667043_1382",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_4c5019a_1724754064310_650307_1929",
+    "Name" : "Assumption"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_4c5019a_1725447776446_993396_779",
+    "Name" : "Security Context Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1725448989299_970973_1389",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_4c5019a_1724753316265_833673_1841",
+    "Name" : "Adversary"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_4c5019a_1725447776446_993396_779",
+    "Name" : "Security Context Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1725448996365_449236_1396",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_4c5019a_1724754030195_361218_1883",
+    "Name" : "Attack Vector (old)"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_4c5019a_1725447776446_993396_779",
+    "Name" : "Security Context Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1729840971708_988835_311",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_4c5019a_1727856501532_940147_149",
+    "Name" : "SDK is Asset in Security Context"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_4c5019a_1724766057976_458531_938",
+    "Name" : "Asset Identification Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1729840974522_419104_318",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_4c5019a_1727855369397_570583_19",
+    "Name" : "SF is Asset in Security Context"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_4c5019a_1724766057976_458531_938",
+    "Name" : "Asset Identification Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1729841024162_807440_335",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_4c5019a_1724674758529_936816_356",
+    "Name" : "Security Context"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_4c5019a_1724766057976_458531_938",
+    "Name" : "Asset Identification Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1729843267085_905857_1866",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_4c5019a_1728287543061_486317_539",
+    "Name" : "ADV use Attack Path to attack SO"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_4c5019a_1725447776446_993396_779",
+    "Name" : "Security Context Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1729848496275_87252_3348",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_4c5019a_1727770091854_264005_90",
+    "Name" : "Confidentiality"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_4c5019a_1729844949340_14779_2347",
+    "Name" : "Impact Analysis Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1729848519458_897671_3355",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_4c5019a_1724750691427_829277_1481",
+    "Name" : "Security Objective"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_4c5019a_1729844949340_14779_2347",
+    "Name" : "Impact Analysis Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1729848521878_122975_3362",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_4c5019a_1727773842236_29260_132",
+    "Name" : "Integrity"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_4c5019a_1729844949340_14779_2347",
+    "Name" : "Impact Analysis Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1729848524491_59591_3369",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_4c5019a_1727773856081_19672_133",
+    "Name" : "Availability"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_4c5019a_1729844949340_14779_2347",
+    "Name" : "Impact Analysis Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1729848527567_670788_3376",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_4c5019a_1726422601254_223976_195",
+    "Name" : "Consequence"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_4c5019a_1729844949340_14779_2347",
+    "Name" : "Impact Analysis Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1729848531555_628517_3386",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_4c5019a_1726422508426_194688_174",
+    "Name" : "Severity Level"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_4c5019a_1729844949340_14779_2347",
+    "Name" : "Impact Analysis Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1729848537019_317150_3393",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_4c5019a_1728369728101_714894_211",
+    "Name" : "Effect on System"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_4c5019a_1729844949340_14779_2347",
+    "Name" : "Impact Analysis Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1729848541645_838742_3400",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_4c5019a_1728369745464_184930_238",
+    "Name" : "Effect on Operator"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_4c5019a_1729844949340_14779_2347",
+    "Name" : "Impact Analysis Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1729848543663_384101_3407",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_4c5019a_1728369755547_835149_265",
+    "Name" : "Effect on People"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_4c5019a_1729844949340_14779_2347",
+    "Name" : "Impact Analysis Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1729848545823_205071_3414",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_4c5019a_1728369770711_562387_292",
+    "Name" : "Effect on Environment"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_4c5019a_1729844949340_14779_2347",
+    "Name" : "Impact Analysis Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1729848548387_542688_3421",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_4c5019a_1728369277666_81460_25",
+    "Name" : "S0-No Effect"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_4c5019a_1729844949340_14779_2347",
+    "Name" : "Impact Analysis Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1729848550598_161780_3428",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_4c5019a_1728369424801_549514_47",
+    "Name" : "S1-Minor"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_4c5019a_1729844949340_14779_2347",
+    "Name" : "Impact Analysis Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1729848552796_58713_3435",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_4c5019a_1728369435160_106981_69",
+    "Name" : "S2-Major"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_4c5019a_1729844949340_14779_2347",
+    "Name" : "Impact Analysis Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1729848555712_697737_3444",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_4c5019a_1728369460150_326435_118",
+    "Name" : "S3-Hazardous"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_4c5019a_1729844949340_14779_2347",
+    "Name" : "Impact Analysis Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1729848557760_503965_3451",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_4c5019a_1728369479956_331067_145",
+    "Name" : "S4-Catastrophic"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_4c5019a_1729844949340_14779_2347",
+    "Name" : "Impact Analysis Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1730217090625_320887_1331",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_4c5019a_1726430943101_262310_996",
+    "Name" : "Risk"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_4c5019a_1729850878319_101841_4365",
+    "Name" : "Security Risk Analysis Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1730217103032_681369_1338",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_4c5019a_1728711582034_531131_209",
+    "Name" : "Security Requirements"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_4c5019a_1729850878319_101841_4365",
+    "Name" : "Security Risk Analysis Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1730217106748_81692_1345",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_4c5019a_1728711539575_688605_182",
+    "Name" : "Security Measures"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_4c5019a_1729850878319_101841_4365",
+    "Name" : "Security Risk Analysis Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1730217109392_249677_1352",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_4c5019a_1728711798398_384221_251",
+    "Name" : "Security Assurance Level"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_4c5019a_1729850878319_101841_4365",
+    "Name" : "Security Risk Analysis Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1730217404243_460520_1359",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_4c5019a_1726428909034_879245_561",
+    "Name" : "Threat Scenario"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_4c5019a_1729849066734_574747_3879",
+    "Name" : "Threat Szenario Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1730217406855_852210_1366",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_4c5019a_1726428976637_131748_562",
+    "Name" : "Likelyhood Parameter"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_4c5019a_1729849066734_574747_3879",
+    "Name" : "Threat Szenario Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1730217505707_913002_1377",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_4c5019a_1729865951822_392813_2627",
+    "Name" : "Attack Action"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_4c5019a_1729849066734_574747_3879",
+    "Name" : "Threat Szenario Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1730217508191_480363_1384",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_4c5019a_1726428890020_798933_560",
+    "Name" : "Target Misuse Case"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_4c5019a_1729849066734_574747_3879",
+    "Name" : "Threat Szenario Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1730217514377_294885_1391",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_4c5019a_1728710827922_136312_119",
+    "Name" : "Vulnerability"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_4c5019a_1729849066734_574747_3879",
+    "Name" : "Threat Szenario Viewpoint"
   }
 }, {
   "Name" : "",

@@ -1219,4 +1219,103 @@
     "Name" : "Framework Stereotype Overview Viewpoint",
     "ID" : "_2024x_26f0132_1719735638892_806840_26185"
   } ]
+}, {
+  "Documentation" : "",
+  "Owner" : "X-Concern",
+  "Name" : "What are the Security Requirements?",
+  "ID" : "_2024x_2a0c05a1_1731018562402_224934_115",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Security Risk Analysis Viewpoint",
+    "ID" : "_2024x_4c5019a_1729850878319_101841_4365"
+  } ]
+}, {
+  "Documentation" : "",
+  "Owner" : "X-Concern",
+  "Name" : "What are the Security Measures?",
+  "ID" : "_2024x_2a0c05a1_1731018691176_346076_118",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Security Risk Analysis Viewpoint",
+    "ID" : "_2024x_4c5019a_1729850878319_101841_4365"
+  } ]
+}, {
+  "Documentation" : "",
+  "Owner" : "X-Concern",
+  "Name" : "What are the assets that need protection?",
+  "ID" : "_2024x_4c5019a_1718714261315_148021_24",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Asset Identification Viewpoint",
+    "ID" : "_2024x_4c5019a_1724766057976_458531_938"
+  } ]
+}, {
+  "Documentation" : "",
+  "Owner" : "X-Concern",
+  "Name" : "What are the Attack Vectors?",
+  "ID" : "_2024x_4c5019a_1718714855467_803817_37",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Security Context Viewpoint",
+    "ID" : "_2024x_4c5019a_1725447776446_993396_779"
+  } ]
+}, {
+  "Documentation" : "",
+  "Owner" : "X-Concern",
+  "Name" : "Who are the potential adversaries?",
+  "ID" : "_2024x_4c5019a_1718715061610_325235_44",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Security Context Viewpoint",
+    "ID" : "_2024x_4c5019a_1725447776446_993396_779"
+  } ]
+}, {
+  "Documentation" : "",
+  "Owner" : "X-Concern",
+  "Name" : "What are the Assumptions regarding the context Elements?",
+  "ID" : "_2024x_4c5019a_1718715464739_688953_54",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Security Context Viewpoint",
+    "ID" : "_2024x_4c5019a_1725447776446_993396_779"
+  } ]
+}, {
+  "Documentation" : "",
+  "Owner" : "X-Concern",
+  "Name" : "Which severity has the Loss of the Security Objectives? ",
+  "ID" : "_2024x_4c5019a_1718715493582_286659_58",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Impact Analysis Viewpoint",
+    "ID" : "_2024x_4c5019a_1729844949340_14779_2347"
+  } ]
+}, {
+  "Documentation" : "",
+  "Owner" : "X-Concern",
+  "Name" : "Which attack paths exists? ",
+  "ID" : "_2024x_4c5019a_1718715577582_20337_62",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Threat Szenario Viewpoint",
+    "ID" : "_2024x_4c5019a_1729849066734_574747_3879"
+  } ]
+}, {
+  "Documentation" : "",
+  "Owner" : "X-Concern",
+  "Name" : "How are attack paths used?",
+  "ID" : "_2024x_4c5019a_1718715611261_54506_66",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Threat Szenario Viewpoint",
+    "ID" : "_2024x_4c5019a_1729849066734_574747_3879"
+  } ]
+}, {
+  "Documentation" : "",
+  "Owner" : "X-Concern",
+  "Name" : "What is the likelihood of a risk szenario?",
+  "ID" : "_2024x_4c5019a_1718715645801_941993_70",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Threat Szenario Viewpoint",
+    "ID" : "_2024x_4c5019a_1729849066734_574747_3879"
+  } ]
+}, {
+  "Documentation" : "",
+  "Owner" : "X-Concern",
+  "Name" : "How high is the Risk?",
+  "ID" : "_2024x_4c5019a_1718715703235_799252_75",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Security Risk Analysis Viewpoint",
+    "ID" : "_2024x_4c5019a_1729850878319_101841_4365"
+  } ]
 } ]

@@ -9,7 +9,15 @@ nav_order: 26
 This Page is intended to give an overview about the Areas the SAF Ontology covers.
 For a complete list of the Ontology Elements head over to [Ontology Elements](./concepts.html)
 
-There are some [General Concepts](./concepts/SAF_general_concept_Definition.md) forming basic patterns like requirement, structure, behavior, interaction, and exchange. However, these are not used in viewpoints directly, they form abstractions of more specific concepts. The SAF_Concepts are grouped by topics, and SAF_Concepts are shown together with related SAF_Concepts.
+There are some [General Concepts](./concepts/SAF_general_concept_Definition.md) forming basic patterns like requirement, structure, behavior, interaction, and exchange. However, these are not used in viewpoints directly, they form abstractions of more specific concepts.
+
+The Specific Concepts are grouped by topics, and are shown together with related SAF_Concepts.
+
+## New Security Concepts proposed by Hamburg University
+* [Security Context and Asset Identification](./concepts/Concept_Sec_ContextAndAssetIdentification.md)
+* [Impact Analysis](./concepts/Concept_Sec_ImpactAnalysis.md)
+* [Risk Analysis](./concepts/Concept_Sec_RiskAnalysis.md)
+* [Threat Scenario](./concepts/Concept_Sec_ThreatScenario.md)
 
 ## Capabilities
 * [Operational Level Capability](./concepts/SAF_capability_O_Definition.md)

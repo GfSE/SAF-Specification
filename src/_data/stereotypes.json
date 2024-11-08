@@ -1,4 +1,8 @@
 [ {
+  "Name" : "SAF_Adversary",
+  "ID" : "_2024x_4c5019a_1725547950570_166239_37",
+  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2024x_4c5019a_1724753316265_833673_1841'>Adversary</A><BR>Adversary: Adversary definition from NIST Special Publication 800-30, Glossary [APPENDIX B]:\n\n“Individual, group, organization, or government that conducts or has the intent to conduct detrimental activities.”<BR></html>\n"
+}, {
   "Name" : "SAF_Argument",
   "ID" : "_2021x_2_6d8019d_1674232165468_699772_23249",
   "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2021x_2_6d8019d_1674232167080_762583_23364'>Argument</A><BR>Argument: An argument is a rule that provides the bridge between what we know or are assuming (sub-claims, evidence) and the claim we are investigating. The argument used depends on the type, trustworthiness and extent of available evidence and the nature of the claim.<BR></html>\n"
@@ -6,6 +10,30 @@
   "Name" : "SAF_ArgumentClaimSupport",
   "ID" : "_2021x_2_6d8019d_1687623430525_974383_25431",
   "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2021x_2_6d8019d_1687622957056_63882_25313'>AGTsupportingCLM</A><BR>AGTsupportingCLM: Specifies the fact that a claim is supported by one or more arguments via a claim-argument relation.<BR></html>\n"
+}, {
+  "Name" : "SAF_Asset",
+  "ID" : "_2024x_4c5019a_1724838389862_85507_1364",
+  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2024x_4c5019a_1724750542260_2346_1453'>Asset</A><BR>Asset: Asset Definition in ISO 27005, Chapter „Identifying and describing information security risks“ [§7.2.1] (Page 17):\n\n„An asset is anything that has value to the organization and therefore requires protection.“\n\n\nAsset Definition NIST SP 800-160v1r1 „The Concept of Assets“ [§3.4] Page 16:\n\n„An asset is an item of value. There are many different types of assets. Assets are broadly categorized as either tangible or intangible. Tangible assets include physical items, such as hardware, computing platforms, other technology components, and humans. Intangible assets include humans, firmware, software, capabilities, functions, services, trademarks, intellectual property, data, copyrights, patents, image, or reputation.“<BR></html>\n"
+}, {
+  "Name" : "SAF_Assumption",
+  "ID" : "_2024x_4c5019a_1725547916078_557191_25",
+  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2024x_4c5019a_1724754064310_650307_1929'>Assumption</A><BR>Assumption: <BR></html>\n"
+}, {
+  "Name" : "SAF_AttackAction",
+  "ID" : "_2024x_4c5019a_1729866479166_357505_18",
+  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2024x_4c5019a_1729865951822_392813_2627'>Attack Action</A><BR>Attack Action: <BR></html>\n"
+}, {
+  "Name" : "SAF_AttackPath",
+  "ID" : "_2024x_4c5019a_1725547928969_322514_31",
+  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2024x_4c5019a_1728287543061_486317_539'>ADV use Attack Path to attack SO</A><BR>ADV use Attack Path to attack SO: The Aversary uses an Attack Vector to attack a Security Objective of an Asset.<BR></html>\n"
+}, {
+  "Name" : "SAF_AttackVector",
+  "ID" : "_2024x_2a0c05a1_1731001044239_219725_34",
+  "Documentation" : "*none*"
+}, {
+  "Name" : "SAF_Availability",
+  "ID" : "_2024x_4c5019a_1727777620157_683028_20",
+  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2024x_4c5019a_1727773856081_19672_133'>Availability</A><BR>Availability: Availability is a Security Objective.\n\nAvailability:\nEnsuring timely and reliable access to and use of information.\n[44 U.S.C., Sec. 3542]<BR></html>\n"
 }, {
   "Name" : "SAF_C2_ARAS",
   "ID" : "_2021x_2_6d8019d_1674232165479_968036_23271",
@@ -67,9 +95,17 @@
   "ID" : "_2021x_2_6d8019d_1692273490109_662219_24437",
   "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_26f0132_1562303524176_900081_91027'>Logical Interaction Point Definition</A><BR>Logical Interaction Point Definition: Specifies the exchange capabilities of an interaction point on Logical Level.<BR></html>\n"
 }, {
+  "Name" : "SAF_Confidentiality",
+  "ID" : "_2024x_4c5019a_1727777600435_428401_14",
+  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2024x_4c5019a_1727770091854_264005_90'>Confidentiality</A><BR>Confidentiality: Confidentiality is a Security Objective.\n\nConfidentiality:\nPreserving authorized restrictions on information access and disclosure, including means for protecting personal privacy and proprietary information.\n[44 U.S.C., Sec. 3542]<BR></html>\n"
+}, {
   "Name" : "SAF_ConformsStandard",
   "ID" : "_2024x_1_26f0132_1729185092432_155560_16027",
   "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2024x_1_26f0132_1729184481488_984688_15862'>ASFconformToSTD</A><BR>ASFconformToSTD: Specifies, that a SAF Element may be conform to one or more Standards.<BR></html>\n"
+}, {
+  "Name" : "SAF_Consequence",
+  "ID" : "_2024x_4c5019a_1726421761881_744492_308",
+  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2024x_4c5019a_1726422601254_223976_195'>Consequence</A><BR>Consequence: The violation of an Security Objective has a Consequence.\n\nNIST SP 800-160v1r1 and ISO/IEC 15026-1:2019 describing Consequence as following:\n\n\"Effect (change or non-change), usually associated with an event or condition or with the system and usually allowed, facilitated, caused, prevented, changed, or contributed to by the event, condition, or system.\"<BR></html>\n"
 }, {
   "Name" : "SAF_ContextAction",
   "ID" : "_2021x_2_8710274_1676920197680_884628_29235",
@@ -110,6 +146,10 @@
   "Name" : "SAF_DomainKindDerivation",
   "ID" : "_19_0_4_26f0132_1631285127577_990399_5297",
   "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_4_26f0132_1631284129545_438782_4876'>SDKderivingFromODK</A><BR>SDKderivingFromODK: Specifies the fact that a System Domain Kind on system level is derived from an Operational Domain Kind.<BR></html>\n"
+}, {
+  "Name" : "SAF_Effect",
+  "ID" : "_2024x_4c5019a_1726421646707_39826_295",
+  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2024x_4c5019a_1729856541482_59473_223'>CON has Effect On AA</A><BR>CON has Effect On AA: <BR></html>\n"
 }, {
   "Name" : "SAF_Evidence",
   "ID" : "_2021x_2_6d8019d_1674232165469_125342_23251",
@@ -199,6 +239,46 @@
   "ID" : "_19_0_1_26f0132_1548407715628_25139_43804",
   "Documentation" : "The System Requirement Definition Viewpoint specifies functions, non-functional properties, or constraints of the System. System Requirements are captured, the interrelationships between Functional and Non-Functional Requirements on the same level of abstraction and the traceability to Stakeholder Requirements are depicted.\n\nRepresentation:\n\nA tabular format listing\n* unique requirement ID, text, and attributes,\n* traceability reference to Stakeholder Requirements,\n* traceability reference to depended Requirements on the same level of abstraction."
 }, {
+  "Name" : "SAF_F7_ASID",
+  "ID" : "_2024x_4c5019a_1724846855776_360910_2549",
+  "Documentation" : "The Asset Identification viewpoint defines the assets that must be taken into account in the risk analysis. This is the first step of the risk management process according to DIN EN ISO/IEC 27005:2024-05.\n\nRepresentation:\n\n"
+}, {
+  "Name" : "SAF_F7_ASID_Table",
+  "ID" : "_2024x_4c5019a_1724834932932_125760_732",
+  "Documentation" : "The Asset Identification viewpoint defines the assets that must be taken into account in the risk analysis. This is the first step of the risk management process according to DIN EN ISO/IEC 27005:2024-05.\n\nRepresentation:\n\n"
+}, {
+  "Name" : "SAF_F7_IMAN",
+  "ID" : "_2024x_4c5019a_1726421910225_40359_327",
+  "Documentation" : "tbd\n\nRepresentation:\n\n"
+}, {
+  "Name" : "SAF_F7_IMAN_Table",
+  "ID" : "_2024x_4c5019a_1726421828345_746165_321",
+  "Documentation" : "tbd\n\nRepresentation:\n\n"
+}, {
+  "Name" : "SAF_F7_RIAN",
+  "ID" : "_2024x_4c5019a_1726432568406_567060_417",
+  "Documentation" : "tbd\n\nRepresentation:\n\n"
+}, {
+  "Name" : "SAF_F7_RIAN_Table",
+  "ID" : "_2024x_4c5019a_1726432589722_859572_423",
+  "Documentation" : "tbd\n\nRepresentation:\n\n"
+}, {
+  "Name" : "SAF_F7_SECT",
+  "ID" : "_2024x_4c5019a_1725548418126_514094_79",
+  "Documentation" : "The Security Context viewpoint defines the Security Context, that describes the environment and all security relevant aspects of a System. This is the first step of the risk management process according to DIN EN ISO/IEC 27005:2024-05.\n\nThe Security Context describes all internal and external elements, boundaries, interconnections and assumptions that referes to the security of a system or an asset.\nDIN ISO 31000:2018-10 defines: \n\"The context of the risk management process should be derived from an understanding of the external and internal environment in which the organisation operates and should reflect the specific environment of the activity to which the risk management process is applied.\" \n\nRepresentation:\n\n"
+}, {
+  "Name" : "SAF_F7_SECT_Table",
+  "ID" : "_2024x_4c5019a_1725548466184_799473_85",
+  "Documentation" : "The Security Context viewpoint defines the Security Context, that describes the environment and all security relevant aspects of a System. This is the first step of the risk management process according to DIN EN ISO/IEC 27005:2024-05.\n\nThe Security Context describes all internal and external elements, boundaries, interconnections and assumptions that referes to the security of a system or an asset.\nDIN ISO 31000:2018-10 defines: \n\"The context of the risk management process should be derived from an understanding of the external and internal environment in which the organisation operates and should reflect the specific environment of the activity to which the risk management process is applied.\" \n\nRepresentation:\n\n"
+}, {
+  "Name" : "SAF_F7_THSC",
+  "ID" : "_2024x_4c5019a_1726432501687_212033_405",
+  "Documentation" : "tbd\n\nRepresentation:\n\n"
+}, {
+  "Name" : "SAF_F7_THSC_Table",
+  "ID" : "_2024x_4c5019a_1726432538483_126898_411",
+  "Documentation" : "tbd\n\nRepresentation:\n\n"
+}, {
   "Name" : "SAF_F8_SCYM_Table",
   "ID" : "_2021x_2_6d8019d_1691055569911_434596_24894",
   "Documentation" : "The System Capability Mapping Viewpoint describes the relationships of System Capabilities. The reasoning for System Capabilities as support for System Use Cases and the contribution of System Processes to Capabilities are described. Furthermore, the mapping of System Capabilities to Operational Capabilities are identified.\n\nRepresentation:\n\nA tabular format listing the relationships of System Capabilities to Operational Capabilities, System Use Cases, System Process Activities, and System Requirements."
@@ -211,9 +291,21 @@
   "ID" : "_19_0_4_6d8019d_1629825338987_420088_594",
   "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_26f0132_1562303524161_907005_91002'>General Functional Usage</A><BR>General Functional Usage: Specifies a General Usage of a General Function within  one or more other General Functions.<BR></html>\n"
 }, {
+  "Name" : "SAF_FunctionAsset",
+  "ID" : "_2024x_1_26f0132_1725610111066_673801_221",
+  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2024x_4c5019a_1727855369397_570583_19'>SF is Asset in Security Context</A><BR>SF is Asset in Security Context: System Functions are intangible resources of the System. intangible resources are types of Assets. The NIST SP 800-160v1r1 - Engineering Trustworthy Secure Systems describes them following:\n\n„There are many different types of assets. Assets are broadly categorized as either tangible or intangible. Tangible assets include physical items, such as hardware, computing platforms, other technology components, and humans. Intangible assets include humans, firmware, software, capabilities, functions, services, trademarks, intellectual property, data, copyrights, patents, image, or reputation.“<BR></html>\n"
+}, {
   "Name" : "SAF_Glossary",
   "ID" : "_2024x_1_26f0132_1729193328493_921636_25629",
   "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2024x_1_26f0132_1729193426484_948459_25660'>Glossary</A><BR>Glossary: specifies a coherent set of terms.<BR></html>\n"
+}, {
+  "Name" : "SAF_ImpactedActeurs",
+  "ID" : "_2024x_4c5019a_1729857039097_486963_144",
+  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2024x_4c5019a_1729856201681_931608_163'>Affected Acteurs</A><BR>Affected Acteurs: <BR></html>\n"
+}, {
+  "Name" : "SAF_Integrity",
+  "ID" : "_2024x_4c5019a_1727777638965_664243_26",
+  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2024x_4c5019a_1727773842236_29260_132'>Integrity</A><BR>Integrity: Integrity is a Security Objective.\n\nIntegrity:\nGuarding against improper information modification or destruction, and includes ensuring information non-repudiation and authenticity. \n[44 U.S.C., Sec. 3542]<BR></html>\n"
 }, {
   "Name" : "SAF_InterfaceLayerRelationship",
   "ID" : "_2021x_2_8710274_1695985266083_110612_25287",
@@ -238,6 +330,10 @@
   "Name" : "SAF_L8_LFUM_Matrix",
   "ID" : "_2021x_2_6d8019d_1677360534022_847905_25995",
   "Documentation" : "The Logical Functional Mapping Viewpoint supports the definition of assignment of system functions and system partial functions to logical system elements.\n\nRepresentation:\n\nA FBS to LBS mapping matrix featuring\n* Functional Breakdown Structure (FBS)\n* Logical Breakdown Structure (LBS)\n* Allocation from system functions and system partial functions to logical system elements"
+}, {
+  "Name" : "SAF_LikelihoodParameter",
+  "ID" : "_2024x_4c5019a_1726432199859_742406_370",
+  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2024x_4c5019a_1726428976637_131748_562'>Likelyhood Parameter</A><BR>Likelyhood Parameter: <BR></html>\n"
 }, {
   "Name" : "SAF_LogicalContext",
   "ID" : "_19_0_2_26f0132_1558076033373_157322_46890",
@@ -266,6 +362,10 @@
   "Name" : "SAF_LogicalInternalRole",
   "ID" : "_2021x_2_6d8019d_1692006392401_529537_24496",
   "Documentation" : "*none*"
+}, {
+  "Name" : "SAF_LogicalResource",
+  "ID" : "_2024x_4c5019a_1724838612884_200901_1484",
+  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2024x_4c5019a_1724751581579_977661_1588'>Intangible Resource</A><BR>Intangible Resource: tangible & intangible resources are types of Assets. The NIST SP 800-160v1r1 - Engineering Trustworthy Secure Systems describes them following:\n\n„There are many different types of assets. Assets are broadly categorized as either tangible or intangible. Tangible assets include physical items, such as hardware, computing platforms, other technology components, and humans. Intangible assets include humans, firmware, software, capabilities, functions, services, trademarks, intellectual property, data, copyrights, patents, image, or reputation.“<BR></html>\n"
 }, {
   "Name" : "SAF_LogicalSOI",
   "ID" : "_19_0_1_8710274_1547464060642_374530_42162",
@@ -483,6 +583,10 @@
   "ID" : "_19_0_1_26f0132_1547201836188_227821_42212",
   "Documentation" : "*none*"
 }, {
+  "Name" : "SAF_PhysicalResource",
+  "ID" : "_2024x_4c5019a_1724838520834_148039_1465",
+  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2024x_4c5019a_1724751736523_167024_1636'>Tangible Resource</A><BR>Tangible Resource: tangible & intangible resources are types of Assets. The NIST SP 800-160v1r1 - Engineering Trustworthy Secure Systems describes them following:\n\n„There are many different types of assets. Assets are broadly categorized as either tangible or intangible. Tangible assets include physical items, such as hardware, computing platforms, other technology components, and humans. Intangible assets include humans, firmware, software, capabilities, functions, services, trademarks, intellectual property, data, copyrights, patents, image, or reputation.“<BR></html>\n"
+}, {
   "Name" : "SAF_PhysicalSoftwareElement",
   "ID" : "_19_0_2_26f0132_1558090471537_935611_48414",
   "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_26f0132_1562303524176_251302_91078'>Software Element</A><BR>Software Element: Pure Software Elements. Similarity with the V-Model \"software unit\".<BR></html>\n"
@@ -510,6 +614,38 @@
   "Name" : "SAF_RefuterCounterClaimMaking",
   "ID" : "_2021x_2_6d8019d_1687637715067_620676_25736",
   "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2021x_2_6d8019d_1687635765022_652079_24627'>RFTmakingCCM</A><BR>RFTmakingCCM: Specifies the fact that a counter-claim is made by a defined refuter.<BR></html>\n"
+}, {
+  "Name" : "SAF_Risk",
+  "ID" : "_2024x_4c5019a_1726432026287_484307_352",
+  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2024x_4c5019a_1726430943101_262310_996'>Risk</A><BR>Risk: <BR></html>\n"
+}, {
+  "Name" : "SAF_SecurityAssuranceLevel",
+  "ID" : "_2024x_4c5019a_1729866790085_297932_52",
+  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2024x_4c5019a_1728711798398_384221_251'>Security Assurance Level</A><BR>Security Assurance Level: NIST SP 800-89:\n\"The level of assurance (e.g., HIGH, MEDIUM, or LOW) that a\nclaimed signatory possesses the private signature key.\"<BR></html>\n"
+}, {
+  "Name" : "SAF_SecurityContext",
+  "ID" : "_2024x_4c5019a_1724836153200_404924_846",
+  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2024x_4c5019a_1724674758529_936816_356'>Security Context</A><BR>Security Context: The Security Context describes all internal and external elements, boundaries, interconnections and assumptions that referes to the security of a system or an asset.\nDIN ISO 31000:2018-10 defines: \n\"The context of the risk management process should be derived from an understanding of the external and internal environment in which the organisation operates and should reflect the specific environment of the activity to which the risk management process is applied.\" <BR></html>\n"
+}, {
+  "Name" : "SAF_SecurityEnviromentalElement",
+  "ID" : "_2024x_4c5019a_1725547883612_860887_19",
+  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2024x_4c5019a_1724752203589_449075_1766'>Security Enviromental Element</A><BR>Security Enviromental Element: An abstract element representing a Security Context Element occurring in the environment of an asset.<BR></html>\n"
+}, {
+  "Name" : "SAF_SecurityMeasures",
+  "ID" : "_2024x_4c5019a_1729866769685_232637_46",
+  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2024x_4c5019a_1728711539575_688605_182'>Security Measures</A><BR>Security Measures: <BR></html>\n"
+}, {
+  "Name" : "SAF_SecurityObjective",
+  "ID" : "_2024x_4c5019a_1724838496713_843411_1449",
+  "Documentation" : "<html>Stereotype realizes multiple Concepts:<UL><LI>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2024x_4c5019a_1724750691427_829277_1481'>Security Objective</A><BR>Security Objective: The Security Objectives are defined as the CIA-Triad (Confidentiality, Integrity, Availability)\n\n(Synonym: Security Attribute, Security Propaty)\n\nFIPS PUB 199 - Standards for Security Categorization of Federal Information and Information Systems:\n\n\"The FISMA defines three security objectives for information and information systems:\nCONFIDENTIALITY\n“Preserving authorized restrictions on information access and disclosure, including means for\nprotecting personal privacy and proprietary information…” [44 U.S.C., Sec. 3542 ]\nA loss of confidentiality is the unauthorized disclosure of information.\nINTEGRITY\n“Guarding against improper information modification or destruction, and includes ensuring\ninformation non-repudiation and authenticity…” [ 44 U.S.C., Sec. 3542]\nA loss of integrity is the unauthorized modification or destruction of information.\nAVAILABILITY\n“Ensuring timely and reliable access to and use of information…” [44 U.S.C., S EC. 3542 ]\nA loss of availability is the disruption of access to or use of information or an information system.\"<BR></LI>\n<LI>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2024x_4c5019a_1724750691427_829277_1481'>Security Objective</A><BR>Security Objective: The Security Objectives are defined as the CIA-Triad (Confidentiality, Integrity, Availability)\n\n(Synonym: Security Attribute, Security Propaty)\n\nFIPS PUB 199 - Standards for Security Categorization of Federal Information and Information Systems:\n\n\"The FISMA defines three security objectives for information and information systems:\nCONFIDENTIALITY\n“Preserving authorized restrictions on information access and disclosure, including means for\nprotecting personal privacy and proprietary information…” [44 U.S.C., Sec. 3542 ]\nA loss of confidentiality is the unauthorized disclosure of information.\nINTEGRITY\n“Guarding against improper information modification or destruction, and includes ensuring\ninformation non-repudiation and authenticity…” [ 44 U.S.C., Sec. 3542]\nA loss of integrity is the unauthorized modification or destruction of information.\nAVAILABILITY\n“Ensuring timely and reliable access to and use of information…” [44 U.S.C., S EC. 3542 ]\nA loss of availability is the disruption of access to or use of information or an information system.\"<BR></LI>\n</UL>\n</html>\n"
+}, {
+  "Name" : "SAF_SecurityRecuirements",
+  "ID" : "_2024x_4c5019a_1729866714922_602421_33",
+  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2024x_4c5019a_1728711582034_531131_209'>Security Requirements</A><BR>Security Requirements: <BR></html>\n"
+}, {
+  "Name" : "SAF_SeverityLevel",
+  "ID" : "_2024x_4c5019a_1726421366863_823772_271",
+  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2024x_4c5019a_1726422508426_194688_174'>Severity Level</A><BR>Severity Level: <BR></html>\n"
 }, {
   "Name" : "SAF_Stakeholder",
   "ID" : "_19_0_2_26f0132_1565094689606_808099_51895",
@@ -591,6 +727,10 @@
   "ID" : "_19_0_4_6d8019d_1630159558286_241427_911",
   "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_4_6d8019d_1617464677545_852747_1286'>SCYsupportingSUC</A><BR>SCYsupportingSUC: Specifies the fact that a System UseCase is supported by System Capabilities.<BR></html>\n"
 }, {
+  "Name" : "SAF_SystemDomainKindAsset",
+  "ID" : "_2024x_1_26f0132_1725610159794_815187_303",
+  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2024x_4c5019a_1727856501532_940147_149'>SDK is Asset in Security Context</A><BR>SDK is Asset in Security Context: <BR></html>\n"
+}, {
   "Name" : "SAF_SystemFunction",
   "ID" : "_19_0_1_26f0132_1548408079060_514464_44018",
   "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_26f0132_1562303524161_394471_91009'>System Function</A><BR>System Function: Specifies the fundamental action or task that have to take place in the System in accepting and processing the\ninputs and in processing and generating the outputs.\nA System Function\n * accepts input from the System boundary \n * exposes its output at the System boundary\n * changes the System's State\n * is dependent on System's State\nNote: A System Function does not need to expose observable output, when it changes the System's state in a way that is observable by other system functions. Furthermore, a System Function does not need to accept any input from the system boundary, when it is dependent on the System State, which in turn is changeable by other System Functions.<BR></html>\n"
@@ -655,13 +795,25 @@
   "ID" : "_19_0_4_6d8019d_1630778868755_864755_338",
   "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_164f041e_1564571019748_834303_54723'>SUCenablingOSY</A><BR>SUCenablingOSY: Specifies the fact that a System Use Case enables the realization of an Operational Story.<BR></html>\n"
 }, {
+  "Name" : "SAF_TargetMisuseCase",
+  "ID" : "_2024x_4c5019a_1726432132115_888920_364",
+  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2024x_4c5019a_1726428890020_798933_560'>Target Misuse Case</A><BR>Target Misuse Case: <BR></html>\n"
+}, {
   "Name" : "SAF_Term",
   "ID" : "_2021x_2_8710274_1676285202908_857449_35044",
   "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2021x_2_8710274_1700810107962_53436_48086'>Term</A><BR>Term: Specifies the fact that a term is usually defined by a standard, but can also be defined as part of system development work.<BR></html>\n"
 }, {
+  "Name" : "SAF_ThreatScenario",
+  "ID" : "_2024x_4c5019a_1726432059871_801089_358",
+  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2024x_4c5019a_1726428909034_879245_561'>Threat Scenario</A><BR>Threat Scenario: <BR></html>\n"
+}, {
   "Name" : "SAF_Viewpoint",
   "ID" : "_2024x_26f0132_1718446856501_55465_24568",
   "Documentation" : "<html>Stereotype realizes multiple Concepts:<UL><LI>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2021x_2_8710274_1697454030821_682386_29382'>Viewpoint</A><BR>Viewpoint: A architecture viewpoint defines set of conventions for the creation, interpretation and use of an architecture view to frame one or more concerns<BR></LI>\n<LI>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2024x_26f0132_1719141336629_21600_25167'>VPbelongingToDN</A><BR>VPbelongingToDN: specifies that a viewpoint belongs to one domain.<BR></LI>\n<LI>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2024x_26f0132_1719141564806_4128_25334'>VPbelongingToAT</A><BR>VPbelongingToAT: specifies that a viewpoint belongs to one aspect.<BR></LI>\n</UL>\n</html>\n"
+}, {
+  "Name" : "SAF_Vulnerability",
+  "ID" : "_2024x_4c5019a_1729855550162_991277_33",
+  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2024x_4c5019a_1728710827922_136312_119'>Vulnerability</A><BR>Vulnerability: <BR></html>\n"
 }, {
   "Name" : "SysML ActivityDiagram",
   "ID" : "_19_0_3_26f0132_1600503186077_662521_2047",

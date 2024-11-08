@@ -5004,6 +5004,66 @@
   }
 }, {
   "Name" : "",
+  "ID" : "_2024x_26f0132_1715866069177_39016_16454",
+  "Documentation" : "I need to make sure that the security requirements regarding handling of protected information by the system can be adressed appropriately.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1715865876648_409885_16315",
+    "Name" : "what is the protection need of information"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
+    "Name" : "Security Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1715866080461_404727_16457",
+  "Documentation" : "i need to plan the architecture to adress the security requirements.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1715865876648_409885_16315",
+    "Name" : "what is the protection need of information"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1715866405908_203911_16479",
+  "Documentation" : "I need to assessan if  differences in security levels are handled by the architecture appropriately.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1715866272828_61432_16469",
+    "Name" : "what is the security level of information handled by the system or system elements"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718013962649_476989_39133",
+  "Documentation" : "I need to use them to assign protection goals to assets, and to assign trust levels to context elements.",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1718013904611_698880_39125",
+    "Name" : "which protection goals  and subcategories can be used?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
+    "Name" : "Security Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_26f0132_1718013968192_298824_39136",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2024x_26f0132_1718013904611_698880_39125",
+    "Name" : "which protection goals  and subcategories can be used?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
   "ID" : "_2024x_26f0132_1719129313191_823388_14654",
   "Documentation" : "I need an overview over the viewpoints available to identify possible gaps.",
   "Concern" : {
@@ -5625,5 +5685,197 @@
   "Stakeholder" : {
     "ID" : "_2024x_26f0132_1719129287848_367992_14650",
     "Name" : "SAF Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2a0c05a1_1731018953117_274354_122",
+  "Documentation" : "In my role I need to identify Security Requirements to define Security Measures.",
+  "Concern" : {
+    "ID" : "_2024x_2a0c05a1_1731018562402_224934_115",
+    "Name" : "What are the Security Requirements?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
+    "Name" : "Security Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2a0c05a1_1731019019326_38730_123",
+  "Documentation" : "In my role I need to define Security Measures to prevent succesfull attacks.",
+  "Concern" : {
+    "ID" : "_2024x_2a0c05a1_1731018691176_346076_118",
+    "Name" : "What are the Security Measures?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
+    "Name" : "Security Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1718714630125_24708_26",
+  "Documentation" : "In my role, I need to identify critical assets to ensure that the system is adequat protected.",
+  "Concern" : {
+    "ID" : "_2024x_4c5019a_1718714261315_148021_24",
+    "Name" : "What are the assets that need protection?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
+    "Name" : "Security Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1718714642944_799764_27",
+  "Documentation" : "In my role, I need to understand the assets that require protection to design a secure system architecture.",
+  "Concern" : {
+    "ID" : "_2024x_4c5019a_1718714261315_148021_24",
+    "Name" : "What are the assets that need protection?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1718715051158_708395_40",
+  "Documentation" : "In my role, I need to identify potential security vulnerabilities at all external interfaces.",
+  "Concern" : {
+    "ID" : "_2024x_4c5019a_1718714855467_803817_37",
+    "Name" : "What are the Attack Vectors?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
+    "Name" : "Security Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1718715055301_62744_43",
+  "Documentation" : "In my role, I need to delegate the implementation of interfaces in subsystems.",
+  "Concern" : {
+    "ID" : "_2024x_4c5019a_1718714855467_803817_37",
+    "Name" : "What are the Attack Vectors?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1718715401441_459769_49",
+  "Documentation" : "In my role, I need to identify potential adversaries to assess thread szenarios.",
+  "Concern" : {
+    "ID" : "_2024x_4c5019a_1718715061610_325235_44",
+    "Name" : "Who are the potential adversaries?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
+    "Name" : "Security Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1718715402650_909448_50",
+  "Documentation" : "In my role, I need to know adversaries to determine posible misuse cases.",
+  "Concern" : {
+    "ID" : "_2024x_4c5019a_1718715061610_325235_44",
+    "Name" : "Who are the potential adversaries?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1718715488147_805720_56",
+  "Documentation" : "In my role, I need to know the assumptions like the trust level to define sensible threat szenarios.",
+  "Concern" : {
+    "ID" : "_2024x_4c5019a_1718715464739_688953_54",
+    "Name" : "What are the Assumptions regarding the context Elements?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
+    "Name" : "Security Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1718715569037_605222_60",
+  "Documentation" : "In my role, I need to assess the severity to define the impact of of an attack.",
+  "Concern" : {
+    "ID" : "_2024x_4c5019a_1718715493582_286659_58",
+    "Name" : "Which severity has the Loss of the Security Objectives? "
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
+    "Name" : "Security Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1718715590216_11150_64",
+  "Documentation" : "In my role, I need to design and implement security measures in the security architecture.",
+  "Concern" : {
+    "ID" : "_2024x_4c5019a_1718715577582_20337_62",
+    "Name" : "Which attack paths exists? "
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1718715591188_610304_65",
+  "Documentation" : "I my role, I need to know the attack paths to analyse ways an attacker can use to reach the asset.",
+  "Concern" : {
+    "ID" : "_2024x_4c5019a_1718715577582_20337_62",
+    "Name" : "Which attack paths exists? "
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
+    "Name" : "Security Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1718715629189_322744_68",
+  "Documentation" : "In my role, I need to analyze how attack paths are exploited to set security measures.",
+  "Concern" : {
+    "ID" : "_2024x_4c5019a_1718715611261_54506_66",
+    "Name" : "How are attack paths used?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
+    "Name" : "Security Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1718715690666_760067_72",
+  "Documentation" : "In my role, I need to assess the likelihood of threat szenarios to asses the risks.",
+  "Concern" : {
+    "ID" : "_2024x_4c5019a_1718715645801_941993_70",
+    "Name" : "What is the likelihood of a risk szenario?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
+    "Name" : "Security Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1718715718254_670867_77",
+  "Documentation" : "In my role, I need to know the risk value to determine if it is acceptable or not acceptable.",
+  "Concern" : {
+    "ID" : "_2024x_4c5019a_1718715703235_799252_75",
+    "Name" : "How high is the Risk?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
+    "Name" : "Security Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1718715719715_63110_79",
+  "Documentation" : "In my role, I need to integrate risk assessment findings into system design.",
+  "Concern" : {
+    "ID" : "_2024x_4c5019a_1718715703235_799252_75",
+    "Name" : "How high is the Risk?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
   }
 } ]

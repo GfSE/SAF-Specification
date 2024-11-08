@@ -13,6 +13,20 @@
   "RecommendedVP" : [ ],
   "RequiredVP" : [ ]
 }, {
+  "Name" : "Asset Identification Viewpoint",
+  "ID" : "_2024x_4c5019a_1724766057976_458531_938",
+  "VP_ID" : "F7_ASID",
+  "Maturity" : "proposed",
+  "Purpose" : "The Asset Identification viewpoint defines the assets that must be taken into account in the risk analysis. This is the first step of the risk management process according to DIN EN ISO/IEC 27005:2024-05.",
+  "Applicability" : "The Asset Identification Viewpoint supports the activity “Identifying and describing information security risks” [§7.2.1] within the “Information security risk assessment process” according to DIN EN ISO/IEC 27005:2024-05. It contributes to the Asset-based approach which identifies threat scenarios regarding assets and their vulnerabilities.\n\nThis viewpoint also supports the approach of the \"Risk management process\" according to ISO 15288  [§6.3.4] by enabling the definition of the context of the Risk Management process. ",
+  "Aspect" : "Safety & Security",
+  "Domain" : "Functional",
+  "Presentation" : [ ],
+  "Stakeholders" : [ "_19_0_2_ebf0350_1567337062655_160733_52757", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
+  "Concern" : [ "_2024x_4c5019a_1718714261315_148021_24" ],
+  "RecommendedVP" : [ ],
+  "RequiredVP" : [ ]
+}, {
   "Name" : "Common Standards Definition Viewpoint",
   "ID" : "_2021x_2_8710274_1676722868986_622372_25044",
   "VP_ID" : "C2_CSTD",
@@ -150,6 +164,20 @@
   "Presentation" : [ "A content diagram featuring a matrix view for the SAF Viewpoint conceptual model: Rows represent Domains, and columns represent Aspects, and the cells manage the Views.", "A table featuring the saf viewpoints, the views (diagrams, tables, ..) of the system model conforming to those viewpoints, domain and aspect information" ],
   "Stakeholders" : [ "_2024x_26f0132_1719129555802_233661_14716" ],
   "Concern" : [ "_2021x_2_8710274_1696579743010_350358_24968", "_2024x_26f0132_1719133841790_534930_15826" ],
+  "RecommendedVP" : [ ],
+  "RequiredVP" : [ ]
+}, {
+  "Name" : "Impact Analysis Viewpoint",
+  "ID" : "_2024x_4c5019a_1729844949340_14779_2347",
+  "VP_ID" : "F7_IMAN",
+  "Maturity" : "proposed",
+  "Purpose" : "tbd",
+  "Applicability" : "tbd",
+  "Aspect" : "Safety & Security",
+  "Domain" : "Functional",
+  "Presentation" : [ ],
+  "Stakeholders" : [ "_19_0_2_ebf0350_1567337062655_160733_52757" ],
+  "Concern" : [ "_2024x_4c5019a_1718715493582_286659_58" ],
   "RecommendedVP" : [ ],
   "RequiredVP" : [ ]
 }, {
@@ -461,6 +489,34 @@
   "RecommendedVP" : [ ],
   "RequiredVP" : [ ]
 }, {
+  "Name" : "Security Context Viewpoint",
+  "ID" : "_2024x_4c5019a_1725447776446_993396_779",
+  "VP_ID" : "F7_SECT",
+  "Maturity" : "proposed",
+  "Purpose" : "The Security Context viewpoint defines the Security Context, that describes the environment and all security relevant aspects of a System. This is the first step of the risk management process according to DIN EN ISO/IEC 27005:2024-05.\n\nThe Security Context describes all internal and external elements, boundaries, interconnections and assumptions that referes to the security of a system or an asset.\nDIN ISO 31000:2018-10 defines: \n\"The context of the risk management process should be derived from an understanding of the external and internal environment in which the organisation operates and should reflect the specific environment of the activity to which the risk management process is applied.\" ",
+  "Applicability" : "The Security Context Definition Viewpoint supports the activity „Identifying and describing information security risks” [§7.2.1] within the “Information security risk assessment process” according to DIN EN ISO/IEC 27005:2024-05. It contributes the context to the Asset-based approach which identifies threat scenarios regarding assets and their vulnerabilities.\n\nThis viewpoint also supports the approach of the \"Risk management process\" according to ISO 15288 [§6.3.4] by enabling the definition of the context of the Risk Management process. ",
+  "Aspect" : "Safety & Security",
+  "Domain" : "Functional",
+  "Presentation" : [ ],
+  "Stakeholders" : [ "_19_0_2_ebf0350_1567337062655_160733_52757", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
+  "Concern" : [ "_2024x_4c5019a_1718715464739_688953_54", "_2024x_4c5019a_1718714855467_803817_37", "_2024x_4c5019a_1718715061610_325235_44" ],
+  "RecommendedVP" : [ ],
+  "RequiredVP" : [ ]
+}, {
+  "Name" : "Security Risk Analysis Viewpoint",
+  "ID" : "_2024x_4c5019a_1729850878319_101841_4365",
+  "VP_ID" : "F7_RIAN",
+  "Maturity" : "proposed",
+  "Purpose" : "tbd",
+  "Applicability" : "tbd",
+  "Aspect" : "Safety & Security",
+  "Domain" : "Functional",
+  "Presentation" : [ ],
+  "Stakeholders" : [ "_19_0_2_ebf0350_1567337062655_160733_52757", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
+  "Concern" : [ "_2024x_4c5019a_1718715703235_799252_75", "_2024x_2a0c05a1_1731018691176_346076_118", "_2024x_2a0c05a1_1731018562402_224934_115" ],
+  "RecommendedVP" : [ ],
+  "RequiredVP" : [ ]
+}, {
   "Name" : "Stakeholder Identification Viewpoint",
   "ID" : "_19_0_2_26f0132_1565093441772_881981_49327",
   "VP_ID" : "O2_STID",
@@ -684,4 +740,18 @@
   "Concern" : [ "_2021x_2_6d8019d_1674945898325_22078_35809", "_2021x_2_8710274_1674576758841_451500_23327", "_2021x_2_8710274_1697469571914_800497_36599", "_2021x_2_6d8019d_1674922633861_96675_24986", "_2021x_2_6d8019d_1675459822996_961402_23325" ],
   "RecommendedVP" : [ "_19_0_2_26f0132_1561750369203_901730_48359" ],
   "RequiredVP" : [ "_19_0_4_6d8019d_1618589543897_213858_307" ]
+}, {
+  "Name" : "Threat Szenario Viewpoint",
+  "ID" : "_2024x_4c5019a_1729849066734_574747_3879",
+  "VP_ID" : "F7_THSC",
+  "Maturity" : "proposed",
+  "Purpose" : "tbd",
+  "Applicability" : "tbd",
+  "Aspect" : "Safety & Security",
+  "Domain" : "Functional",
+  "Presentation" : [ ],
+  "Stakeholders" : [ "_19_0_2_ebf0350_1567337062655_160733_52757", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
+  "Concern" : [ "_2024x_4c5019a_1718715611261_54506_66", "_2024x_4c5019a_1718715645801_941993_70", "_2024x_4c5019a_1718715577582_20337_62" ],
+  "RecommendedVP" : [ ],
+  "RequiredVP" : [ ]
 } ]

@@ -2553,4 +2553,359 @@
     "ID" : "_19_0_4_26f0132_1639735755383_425330_337",
     "Name" : "SUChasPreConditionSSE"
   } ]
+}, {
+  "ID" : "_2024x_4c5019a_1726420721786_510744_15",
+  "Documentation" : "",
+  "Name" : "Concept_ImpactAnalysis",
+  "DiagConcepts" : [ {
+    "ID" : "_2024x_4c5019a_1724750542260_2346_1453",
+    "Name" : "Asset"
+  }, {
+    "ID" : "_2024x_4c5019a_1724750691427_829277_1481",
+    "Name" : "Security Objective"
+  }, {
+    "ID" : "_2024x_4c5019a_1726422508426_194688_174",
+    "Name" : "Severity Level"
+  }, {
+    "ID" : "_2024x_4c5019a_1726422601254_223976_195",
+    "Name" : "Consequence"
+  }, {
+    "ID" : "_2024x_4c5019a_1726422625556_213745_216",
+    "Name" : "Effect"
+  }, {
+    "ID" : "_2024x_4c5019a_1727770091854_264005_90",
+    "Name" : "Confidentiality"
+  }, {
+    "ID" : "_2024x_4c5019a_1727773842236_29260_132",
+    "Name" : "Integrity"
+  }, {
+    "ID" : "_2024x_4c5019a_1727773856081_19672_133",
+    "Name" : "Availability"
+  }, {
+    "ID" : "_2024x_4c5019a_1728369277666_81460_25",
+    "Name" : "S0-No Effect"
+  }, {
+    "ID" : "_2024x_4c5019a_1728369424801_549514_47",
+    "Name" : "S1-Minor"
+  }, {
+    "ID" : "_2024x_4c5019a_1728369435160_106981_69",
+    "Name" : "S2-Major"
+  }, {
+    "ID" : "_2024x_4c5019a_1728369460150_326435_118",
+    "Name" : "S3-Hazardous"
+  }, {
+    "ID" : "_2024x_4c5019a_1728369479956_331067_145",
+    "Name" : "S4-Catastrophic"
+  }, {
+    "ID" : "_2024x_4c5019a_1728369728101_714894_211",
+    "Name" : "Effect on System"
+  }, {
+    "ID" : "_2024x_4c5019a_1728369745464_184930_238",
+    "Name" : "Effect on Operator"
+  }, {
+    "ID" : "_2024x_4c5019a_1728369755547_835149_265",
+    "Name" : "Effect on People"
+  }, {
+    "ID" : "_2024x_4c5019a_1728369770711_562387_292",
+    "Name" : "Effect on Environment"
+  }, {
+    "ID" : "_2024x_4c5019a_1728709821228_680807_21",
+    "Name" : "Description"
+  } ]
+}, {
+  "ID" : "_2024x_4c5019a_1726428650365_814931_533",
+  "Documentation" : "",
+  "Name" : "Concept_Sec_ThreatScenario",
+  "DiagConcepts" : [ {
+    "ID" : "_2024x_4c5019a_1724750542260_2346_1453",
+    "Name" : "Asset"
+  }, {
+    "ID" : "_2024x_4c5019a_1724750691427_829277_1481",
+    "Name" : "Security Objective"
+  }, {
+    "ID" : "_2024x_4c5019a_1724753316265_833673_1841",
+    "Name" : "Adversary"
+  }, {
+    "ID" : "_2024x_4c5019a_1726428890020_798933_560",
+    "Name" : "Target Misuse Case"
+  }, {
+    "ID" : "_2024x_4c5019a_1726428909034_879245_561",
+    "Name" : "Threat Scenario"
+  }, {
+    "ID" : "_2024x_4c5019a_1726428976637_131748_562",
+    "Name" : "Likelyhood Parameter"
+  }, {
+    "ID" : "_2024x_4c5019a_1728287543061_486317_539",
+    "Name" : "ADV use Attack Path to attack SO"
+  }, {
+    "ID" : "_2024x_4c5019a_1728710827922_136312_119",
+    "Name" : "Vulnerability"
+  }, {
+    "ID" : "_2024x_4c5019a_1729865951822_392813_2627",
+    "Name" : "Attack Action"
+  } ]
+}, {
+  "ID" : "_2024x_4c5019a_1726430703986_35833_919",
+  "Documentation" : "",
+  "Name" : "Concept_Sec_RiskAnalysis",
+  "DiagConcepts" : [ {
+    "ID" : "_2024x_4c5019a_1724750542260_2346_1453",
+    "Name" : "Asset"
+  }, {
+    "ID" : "_2024x_4c5019a_1724750691427_829277_1481",
+    "Name" : "Security Objective"
+  }, {
+    "ID" : "_2024x_4c5019a_1726422508426_194688_174",
+    "Name" : "Severity Level"
+  }, {
+    "ID" : "_2024x_4c5019a_1726422601254_223976_195",
+    "Name" : "Consequence"
+  }, {
+    "ID" : "_2024x_4c5019a_1726428976637_131748_562",
+    "Name" : "Likelyhood Parameter"
+  }, {
+    "ID" : "_2024x_4c5019a_1726430943101_262310_996",
+    "Name" : "Risk"
+  }, {
+    "ID" : "_2024x_4c5019a_1728711539575_688605_182",
+    "Name" : "Security Measures"
+  }, {
+    "ID" : "_2024x_4c5019a_1728711582034_531131_209",
+    "Name" : "Security Requirements"
+  }, {
+    "ID" : "_2024x_4c5019a_1728711798398_384221_251",
+    "Name" : "Security Assurance Level"
+  } ]
+}, {
+  "ID" : "_2024x_4c5019a_1727712495290_281542_15",
+  "Documentation" : "",
+  "Name" : "Concept_ContextAndAssetIdentification_old",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_1_26f0132_1554446894573_10154_45796",
+    "Name" : "System Of Interest"
+  }, {
+    "ID" : "_19_0_2_164f041e_1564089980498_97451_52116",
+    "Name" : "System Context"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524161_394471_91009",
+    "Name" : "System Function"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562316546243_649906_43676",
+    "Name" : "System Context Element"
+  }, {
+    "ID" : "_19_0_2_26f0132_1576253942759_201883_55315",
+    "Name" : "System Context Element Role"
+  }, {
+    "ID" : "_19_0_2_26f0132_1576253948064_845297_55396",
+    "Name" : "System SOI Role"
+  }, {
+    "ID" : "_19_0_4_26f0132_1624614161928_694281_1954",
+    "Name" : "General Function"
+  }, {
+    "ID" : "_2021x_2_8710274_1698665374453_611572_34394",
+    "Name" : "System"
+  }, {
+    "ID" : "_2024x_4c5019a_1724674758529_936816_356",
+    "Name" : "Security Context"
+  }, {
+    "ID" : "_2024x_4c5019a_1724749882286_755102_1398",
+    "Name" : ""
+  }, {
+    "ID" : "_2024x_4c5019a_1724750542260_2346_1453",
+    "Name" : "Asset"
+  }, {
+    "ID" : "_2024x_4c5019a_1724750691427_829277_1481",
+    "Name" : "Security Objective"
+  }, {
+    "ID" : "_2024x_4c5019a_1724751581579_977661_1588",
+    "Name" : "Intangible Resource"
+  }, {
+    "ID" : "_2024x_4c5019a_1724751736523_167024_1636",
+    "Name" : "Tangible Resource"
+  }, {
+    "ID" : "_2024x_4c5019a_1724752203589_449075_1766",
+    "Name" : "Security Enviromental Element"
+  }, {
+    "ID" : "_2024x_4c5019a_1724753316265_833673_1841",
+    "Name" : "Adversary"
+  }, {
+    "ID" : "_2024x_4c5019a_1724754030195_361218_1883",
+    "Name" : "Attack Vector (old)"
+  }, {
+    "ID" : "_2024x_4c5019a_1724754064310_650307_1929",
+    "Name" : "Assumption"
+  }, {
+    "ID" : "_2024x_4c5019a_1724754327333_682035_2001",
+    "Name" : "ADVusesAV"
+  }, {
+    "ID" : "_2024x_ea40342_1724668235875_444109_102",
+    "Name" : "Security Context Element"
+  } ]
+}, {
+  "ID" : "_2024x_4c5019a_1727793588203_488104_460",
+  "Documentation" : "",
+  "Name" : "Concept_Sec_ContextAndAssetIdentification_documented",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_1_26f0132_1554446894573_10154_45796",
+    "Name" : "System Of Interest"
+  }, {
+    "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
+    "Name" : "System Domain Kind"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524161_394471_91009",
+    "Name" : "System Function"
+  }, {
+    "ID" : "_2024x_4c5019a_1724674758529_936816_356",
+    "Name" : "Security Context"
+  }, {
+    "ID" : "_2024x_4c5019a_1724750542260_2346_1453",
+    "Name" : "Asset"
+  }, {
+    "ID" : "_2024x_4c5019a_1724750691427_829277_1481",
+    "Name" : "Security Objective"
+  }, {
+    "ID" : "_2024x_4c5019a_1724752203589_449075_1766",
+    "Name" : "Security Enviromental Element"
+  }, {
+    "ID" : "_2024x_4c5019a_1724753316265_833673_1841",
+    "Name" : "Adversary"
+  }, {
+    "ID" : "_2024x_4c5019a_1724754064310_650307_1929",
+    "Name" : "Assumption"
+  }, {
+    "ID" : "_2024x_4c5019a_1727855369397_570583_19",
+    "Name" : "SF is Asset in Security Context"
+  }, {
+    "ID" : "_2024x_4c5019a_1727856501532_940147_149",
+    "Name" : "SDK is Asset in Security Context"
+  }, {
+    "ID" : "_2024x_4c5019a_1728287543061_486317_539",
+    "Name" : "ADV use Attack Path to attack SO"
+  } ]
+}, {
+  "ID" : "_2024x_4c5019a_1728476070525_171084_67",
+  "Documentation" : "",
+  "Name" : "Concept_Sec_ImpactAnalysis_documented",
+  "DiagConcepts" : [ {
+    "ID" : "_2024x_4c5019a_1724750542260_2346_1453",
+    "Name" : "Asset"
+  }, {
+    "ID" : "_2024x_4c5019a_1724750691427_829277_1481",
+    "Name" : "Security Objective"
+  }, {
+    "ID" : "_2024x_4c5019a_1726422508426_194688_174",
+    "Name" : "Severity Level"
+  }, {
+    "ID" : "_2024x_4c5019a_1726422601254_223976_195",
+    "Name" : "Consequence"
+  }, {
+    "ID" : "_2024x_4c5019a_1727770091854_264005_90",
+    "Name" : "Confidentiality"
+  }, {
+    "ID" : "_2024x_4c5019a_1727773842236_29260_132",
+    "Name" : "Integrity"
+  }, {
+    "ID" : "_2024x_4c5019a_1727773856081_19672_133",
+    "Name" : "Availability"
+  }, {
+    "ID" : "_2024x_4c5019a_1728369277666_81460_25",
+    "Name" : "S0-No Effect"
+  }, {
+    "ID" : "_2024x_4c5019a_1728369424801_549514_47",
+    "Name" : "S1-Minor"
+  }, {
+    "ID" : "_2024x_4c5019a_1728369435160_106981_69",
+    "Name" : "S2-Major"
+  }, {
+    "ID" : "_2024x_4c5019a_1728369460150_326435_118",
+    "Name" : "S3-Hazardous"
+  }, {
+    "ID" : "_2024x_4c5019a_1728369479956_331067_145",
+    "Name" : "S4-Catastrophic"
+  }, {
+    "ID" : "_2024x_4c5019a_1728369728101_714894_211",
+    "Name" : "Effect on System"
+  }, {
+    "ID" : "_2024x_4c5019a_1728369745464_184930_238",
+    "Name" : "Effect on Operator"
+  }, {
+    "ID" : "_2024x_4c5019a_1728369755547_835149_265",
+    "Name" : "Effect on People"
+  }, {
+    "ID" : "_2024x_4c5019a_1728369770711_562387_292",
+    "Name" : "Effect on Environment"
+  } ]
+}, {
+  "ID" : "_2024x_4c5019a_1729193430170_734877_35",
+  "Documentation" : "",
+  "Name" : "Concept_Sec_ContextAndAssetIdentification",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_1_26f0132_1554446894573_10154_45796",
+    "Name" : "System Of Interest"
+  }, {
+    "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
+    "Name" : "System Domain Kind"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524161_394471_91009",
+    "Name" : "System Function"
+  }, {
+    "ID" : "_2024x_4c5019a_1724674758529_936816_356",
+    "Name" : "Security Context"
+  }, {
+    "ID" : "_2024x_4c5019a_1724750542260_2346_1453",
+    "Name" : "Asset"
+  }, {
+    "ID" : "_2024x_4c5019a_1724750691427_829277_1481",
+    "Name" : "Security Objective"
+  }, {
+    "ID" : "_2024x_4c5019a_1724752203589_449075_1766",
+    "Name" : "Security Enviromental Element"
+  }, {
+    "ID" : "_2024x_4c5019a_1724753316265_833673_1841",
+    "Name" : "Adversary"
+  }, {
+    "ID" : "_2024x_4c5019a_1724754064310_650307_1929",
+    "Name" : "Assumption"
+  }, {
+    "ID" : "_2024x_4c5019a_1727855369397_570583_19",
+    "Name" : "SF is Asset in Security Context"
+  }, {
+    "ID" : "_2024x_4c5019a_1727856501532_940147_149",
+    "Name" : "SDK is Asset in Security Context"
+  }, {
+    "ID" : "_2024x_4c5019a_1728287543061_486317_539",
+    "Name" : "ADV use Attack Path to attack SO"
+  } ]
+}, {
+  "ID" : "_2024x_4c5019a_1729848193453_399380_2447",
+  "Documentation" : "",
+  "Name" : "Concept_Sec_ImpactAnalysis",
+  "DiagConcepts" : [ {
+    "ID" : "_2024x_4c5019a_1724750542260_2346_1453",
+    "Name" : "Asset"
+  }, {
+    "ID" : "_2024x_4c5019a_1724750691427_829277_1481",
+    "Name" : "Security Objective"
+  }, {
+    "ID" : "_2024x_4c5019a_1726422508426_194688_174",
+    "Name" : "Severity Level"
+  }, {
+    "ID" : "_2024x_4c5019a_1726422601254_223976_195",
+    "Name" : "Consequence"
+  }, {
+    "ID" : "_2024x_4c5019a_1727770091854_264005_90",
+    "Name" : "Confidentiality"
+  }, {
+    "ID" : "_2024x_4c5019a_1727773842236_29260_132",
+    "Name" : "Integrity"
+  }, {
+    "ID" : "_2024x_4c5019a_1727773856081_19672_133",
+    "Name" : "Availability"
+  }, {
+    "ID" : "_2024x_4c5019a_1729856201681_931608_163",
+    "Name" : "Affected Acteurs"
+  }, {
+    "ID" : "_2024x_4c5019a_1729856541482_59473_223",
+    "Name" : "CON has Effect On AA"
+  } ]
 } ]

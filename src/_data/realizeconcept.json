@@ -3864,6 +3864,462 @@
   }
 }, {
   "Name" : "",
+  "ID" : "_2024x_4c5019a_1724836822797_493574_932",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_4c5019a_1724674758529_936816_356",
+    "Name" : "Security Context"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_4c5019a_1724836153200_404924_846",
+    "Name" : "SAF_SecurityContext"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1724836847826_788608_946",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_4c5019a_1724766057976_458531_938",
+    "Name" : "Asset Identification Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_4c5019a_1724834932932_125760_732",
+    "Name" : "SAF_C8_ASID_Table"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1724838466889_786539_1433",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_4c5019a_1724750542260_2346_1453",
+    "Name" : "Asset"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_4c5019a_1724838389862_85507_1364",
+    "Name" : "SAF_Asset"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1724838827868_614893_1695",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_4c5019a_1724751581579_977661_1588",
+    "Name" : "Intangible Resource"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_4c5019a_1724838612884_200901_1484",
+    "Name" : "SAF_LogicalResource"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1724838833363_810330_1705",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_4c5019a_1724751736523_167024_1636",
+    "Name" : "Tangible Resource"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_4c5019a_1724838520834_148039_1465",
+    "Name" : "SAF_PhysicalResource"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1724838838625_440386_1715",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_4c5019a_1724750691427_829277_1481",
+    "Name" : "Security Objective"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_4c5019a_1724838496713_843411_1449",
+    "Name" : "SAF_SecurityObjective"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1724847228845_949716_2774",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_4c5019a_1724766057976_458531_938",
+    "Name" : "Asset Identification Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_4c5019a_1724846855776_360910_2549",
+    "Name" : "SAF_C8_ASID"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1730196700563_727818_109",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_4c5019a_1727855369397_570583_19",
+    "Name" : "SF is Asset in Security Context"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_1_26f0132_1725610111066_673801_221",
+    "Name" : "SAF_FunctionAsset"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1730196774139_415967_115",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_4c5019a_1727856501532_940147_149",
+    "Name" : "SDK is Asset in Security Context"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_1_26f0132_1725610159794_815187_303",
+    "Name" : "SAF_SystemDomainKindAsset"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1730197647308_977270_221",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_4c5019a_1724754064310_650307_1929",
+    "Name" : "Assumption"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_4c5019a_1725547916078_557191_25",
+    "Name" : "SAF_Assumption"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1730197654824_685046_227",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_4c5019a_1724752203589_449075_1766",
+    "Name" : "Security Enviromental Element"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_4c5019a_1725547883612_860887_19",
+    "Name" : "SAF_SecurityEnviromentalElement"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1730197661567_141724_233",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_4c5019a_1724753316265_833673_1841",
+    "Name" : "Adversary"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_4c5019a_1725547950570_166239_37",
+    "Name" : "SAF_Adversary"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1730197666573_27745_239",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_4c5019a_1728287543061_486317_539",
+    "Name" : "ADV use Attack Path to attack SO"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_4c5019a_1725547928969_322514_31",
+    "Name" : "SAF_AttackPath"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1730197673560_701679_245",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_4c5019a_1724750691427_829277_1481",
+    "Name" : "Security Objective"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_4c5019a_1724838496713_843411_1449",
+    "Name" : "SAF_SecurityObjective"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1730197839484_833501_287",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_4c5019a_1725447776446_993396_779",
+    "Name" : "Security Context Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_4c5019a_1725548418126_514094_79",
+    "Name" : "SAF_C9_SECT"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1730197848040_430819_293",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_4c5019a_1725447776446_993396_779",
+    "Name" : "Security Context Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_4c5019a_1725548466184_799473_85",
+    "Name" : "SAF_C9_SECT_Table"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1730198588023_709071_496",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_4c5019a_1727770091854_264005_90",
+    "Name" : "Confidentiality"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_4c5019a_1727777600435_428401_14",
+    "Name" : "SAF_Confidentiality"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1730198594943_507863_502",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_4c5019a_1727773842236_29260_132",
+    "Name" : "Integrity"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_4c5019a_1727777638965_664243_26",
+    "Name" : "SAF_Integrity"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1730198605722_678566_508",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_4c5019a_1727773856081_19672_133",
+    "Name" : "Availability"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_4c5019a_1727777620157_683028_20",
+    "Name" : "SAF_Availability"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1730198621131_9955_514",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_4c5019a_1726422508426_194688_174",
+    "Name" : "Severity Level"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_4c5019a_1726421366863_823772_271",
+    "Name" : "SAF_SeverityLevel"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1730198625502_295569_520",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_4c5019a_1726422601254_223976_195",
+    "Name" : "Consequence"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_4c5019a_1726421761881_744492_308",
+    "Name" : "SAF_Consequence"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1730198635315_119694_526",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_4c5019a_1729856541482_59473_223",
+    "Name" : "CON has Effect On AA"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_4c5019a_1726421646707_39826_295",
+    "Name" : "SAF_Effect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1730198676002_851548_532",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_4c5019a_1729856201681_931608_163",
+    "Name" : "Affected Acteurs"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_4c5019a_1729857039097_486963_144",
+    "Name" : "SAF_ImpactedActeurs"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1730198682363_844293_538",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_4c5019a_1729844949340_14779_2347",
+    "Name" : "Impact Analysis Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_4c5019a_1726421910225_40359_327",
+    "Name" : "SAF_C10_IMAN"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1730198688545_79227_544",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_4c5019a_1729844949340_14779_2347",
+    "Name" : "Impact Analysis Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_4c5019a_1726421828345_746165_321",
+    "Name" : "SAF_C10_IMAN_Table"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1730214741569_597237_790",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_4c5019a_1728710827922_136312_119",
+    "Name" : "Vulnerability"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_4c5019a_1729855550162_991277_33",
+    "Name" : "SAF_Vulnerability"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1730214745609_662155_796",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_4c5019a_1726428890020_798933_560",
+    "Name" : "Target Misuse Case"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_4c5019a_1726432132115_888920_364",
+    "Name" : "SAF_TargetMisuseCase"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1730214750131_797822_802",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_4c5019a_1729865951822_392813_2627",
+    "Name" : "Attack Action"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_4c5019a_1729866479166_357505_18",
+    "Name" : "SAF_AttackAction"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1730214756260_672100_808",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_4c5019a_1726428976637_131748_562",
+    "Name" : "Likelyhood Parameter"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_4c5019a_1726432199859_742406_370",
+    "Name" : "SAF_LikelihoodParameter"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1730214761963_84332_814",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_4c5019a_1726428909034_879245_561",
+    "Name" : "Threat Scenario"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_4c5019a_1726432059871_801089_358",
+    "Name" : "SAF_ThreatScenario"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1730214780092_270395_820",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_4c5019a_1729849066734_574747_3879",
+    "Name" : "Threat Szenario Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_4c5019a_1726432501687_212033_405",
+    "Name" : "SAF_C11_THSC"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1730214784675_466459_826",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_4c5019a_1729849066734_574747_3879",
+    "Name" : "Threat Szenario Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_4c5019a_1726432538483_126898_411",
+    "Name" : "SAF_C11_THSC_Table"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1730215565791_18354_942",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_4c5019a_1726430943101_262310_996",
+    "Name" : "Risk"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_4c5019a_1726432026287_484307_352",
+    "Name" : "SAF_Risk"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1730215569723_324311_948",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_4c5019a_1728711582034_531131_209",
+    "Name" : "Security Requirements"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_4c5019a_1729866714922_602421_33",
+    "Name" : "SAF_SecurityRecuirements"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1730215572592_40512_954",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_4c5019a_1728711539575_688605_182",
+    "Name" : "Security Measures"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_4c5019a_1729866769685_232637_46",
+    "Name" : "SAF_SecurityMeasures"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1730215575683_510171_960",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_4c5019a_1728711798398_384221_251",
+    "Name" : "Security Assurance Level"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_4c5019a_1729866790085_297932_52",
+    "Name" : "SAF_SecurityAssuranceLevel"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1730215583678_164657_966",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_4c5019a_1729850878319_101841_4365",
+    "Name" : "Security Risk Analysis Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_4c5019a_1726432568406_567060_417",
+    "Name" : "SAF_C12_RIAN"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1730215588355_973439_972",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_4c5019a_1729850878319_101841_4365",
+    "Name" : "Security Risk Analysis Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_4c5019a_1726432589722_859572_423",
+    "Name" : "SAF_C12_RIAN_Table"
+  }
+}, {
+  "Name" : "",
   "ID" : "_2024x_8710274_1715874655525_600737_15899",
   "Documentation" : "",
   "RealizedConcept" : {

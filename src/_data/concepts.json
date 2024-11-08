@@ -1,4 +1,58 @@
 [ {
+  "Name" : "",
+  "ID" : "_2024x_4c5019a_1724749882286_755102_1398",
+  "Documentation" : "",
+  "IsGeneralFor" : [ ],
+  "InheritsFrom" : [ ],
+  "ClassType" : "Association",
+  "InViewpoint" : [ ],
+  "AssociationEnds" : [ {
+    "ID" : "_2024x_ea40342_1724668235875_444109_102",
+    "Name" : "Security Context Element",
+    "Multiplicity" : "1..*"
+  }, {
+    "ID" : "_2024x_4c5019a_1724674758529_936816_356",
+    "Name" : "Security Context",
+    "Multiplicity" : "1..*"
+  } ]
+}, {
+  "Name" : "ADV use Attack Path to attack SO",
+  "ID" : "_2024x_4c5019a_1728287543061_486317_539",
+  "Documentation" : "The Aversary uses an Attack Vector to attack a Security Objective of an Asset.",
+  "IsGeneralFor" : [ ],
+  "InheritsFrom" : [ ],
+  "ClassType" : "AssociationClass",
+  "InViewpoint" : [ {
+    "ID" : "_2024x_4c5019a_1725447776446_993396_779",
+    "Name" : "Security Context Viewpoint"
+  } ],
+  "AssociationEnds" : [ {
+    "ID" : "_2024x_4c5019a_1724750691427_829277_1481",
+    "Name" : "Security Objective",
+    "Multiplicity" : "1"
+  }, {
+    "ID" : "_2024x_4c5019a_1724753316265_833673_1841",
+    "Name" : "Adversary",
+    "Multiplicity" : "1"
+  } ]
+}, {
+  "Name" : "ADVusesAV",
+  "ID" : "_2024x_4c5019a_1724754327333_682035_2001",
+  "Documentation" : "",
+  "IsGeneralFor" : [ ],
+  "InheritsFrom" : [ ],
+  "ClassType" : "Association",
+  "InViewpoint" : [ ],
+  "AssociationEnds" : [ {
+    "ID" : "_2024x_4c5019a_1724754030195_361218_1883",
+    "Name" : "Attack Vector (old)",
+    "Multiplicity" : "1..*"
+  }, {
+    "ID" : "_2024x_4c5019a_1724753316265_833673_1841",
+    "Name" : "Adversary",
+    "Multiplicity" : "0..*"
+  } ]
+}, {
   "Name" : "AGTsupportingCLM",
   "ID" : "_2021x_2_6d8019d_1687622957056_63882_25313",
   "Documentation" : "Specifies the fact that a claim is supported by one or more arguments via a claim-argument relation.",
@@ -73,6 +127,23 @@
     "Multiplicity" : "0..*"
   } ]
 }, {
+  "Name" : "AVoccuresInMUS",
+  "ID" : "_2024x_4c5019a_1726429545604_767746_816",
+  "Documentation" : "",
+  "IsGeneralFor" : [ ],
+  "InheritsFrom" : [ ],
+  "ClassType" : "Association",
+  "InViewpoint" : [ ],
+  "AssociationEnds" : [ {
+    "ID" : "_2024x_4c5019a_1724754030195_361218_1883",
+    "Name" : "Attack Vector (old)",
+    "Multiplicity" : "1"
+  }, {
+    "ID" : "_2024x_4c5019a_1726428890020_798933_560",
+    "Name" : "Target Misuse Case",
+    "Multiplicity" : "1"
+  } ]
+}, {
   "Name" : "Abstract Physical Element",
   "ID" : "_19_0_2_26f0132_1562303524176_941558_91077",
   "Documentation" : "Abstract element representing physical structure items keeping properties and relations applicable to all physical items.",
@@ -89,6 +160,30 @@
     "ID" : "_19_0_2_26f0132_1562303524176_251302_91078",
     "Name" : "Software Element"
   } ],
+  "InheritsFrom" : [ ],
+  "ClassType" : "Class",
+  "InViewpoint" : [ ],
+  "AssociationEnds" : [ ]
+}, {
+  "Name" : "Adversary",
+  "ID" : "_2024x_4c5019a_1724753316265_833673_1841",
+  "Documentation" : "Adversary definition from NIST Special Publication 800-30, Glossary [APPENDIX B]:\n\n“Individual, group, organization, or government that conducts or has the intent to conduct detrimental activities.”",
+  "IsGeneralFor" : [ ],
+  "InheritsFrom" : [ {
+    "ID" : "_2024x_4c5019a_1724752203589_449075_1766",
+    "Name" : "Security Enviromental Element"
+  } ],
+  "ClassType" : "Class",
+  "InViewpoint" : [ {
+    "ID" : "_2024x_4c5019a_1725447776446_993396_779",
+    "Name" : "Security Context Viewpoint"
+  } ],
+  "AssociationEnds" : [ ]
+}, {
+  "Name" : "Affected Acteurs",
+  "ID" : "_2024x_4c5019a_1729856201681_931608_163",
+  "Documentation" : "",
+  "IsGeneralFor" : [ ],
   "InheritsFrom" : [ ],
   "ClassType" : "Class",
   "InViewpoint" : [ ],
@@ -172,6 +267,98 @@
   "InViewpoint" : [ {
     "ID" : "_2024x_26f0132_1719735639638_993311_27196",
     "Name" : "Framework Viewpoint Overview Viewpoint"
+  } ],
+  "AssociationEnds" : [ ]
+}, {
+  "Name" : "Asset",
+  "ID" : "_2024x_4c5019a_1724750542260_2346_1453",
+  "Documentation" : "Asset Definition in ISO 27005, Chapter „Identifying and describing information security risks“ [§7.2.1] (Page 17):\n\n„An asset is anything that has value to the organization and therefore requires protection.“\n\n\nAsset Definition NIST SP 800-160v1r1 „The Concept of Assets“ [§3.4] Page 16:\n\n„An asset is an item of value. There are many different types of assets. Assets are broadly categorized as either tangible or intangible. Tangible assets include physical items, such as hardware, computing platforms, other technology components, and humans. Intangible assets include humans, firmware, software, capabilities, functions, services, trademarks, intellectual property, data, copyrights, patents, image, or reputation.“",
+  "IsGeneralFor" : [ {
+    "ID" : "_2024x_4c5019a_1727855369397_570583_19",
+    "Name" : "SF is Asset in Security Context"
+  }, {
+    "ID" : "_2024x_4c5019a_1727856501532_940147_149",
+    "Name" : "SDK is Asset in Security Context"
+  } ],
+  "InheritsFrom" : [ {
+    "ID" : "_2024x_4c5019a_1724751581579_977661_1588",
+    "Name" : "Intangible Resource"
+  }, {
+    "ID" : "_2024x_ea40342_1724668235875_444109_102",
+    "Name" : "Security Context Element"
+  }, {
+    "ID" : "_2024x_4c5019a_1724751736523_167024_1636",
+    "Name" : "Tangible Resource"
+  } ],
+  "ClassType" : "Class",
+  "InViewpoint" : [ {
+    "ID" : "_2024x_4c5019a_1724766057976_458531_938",
+    "Name" : "Asset Identification Viewpoint"
+  } ],
+  "AssociationEnds" : [ ]
+}, {
+  "Name" : "Assumption",
+  "ID" : "_2024x_4c5019a_1724754064310_650307_1929",
+  "Documentation" : "",
+  "IsGeneralFor" : [ ],
+  "InheritsFrom" : [ {
+    "ID" : "_2024x_ea40342_1724668235875_444109_102",
+    "Name" : "Security Context Element"
+  } ],
+  "ClassType" : "Class",
+  "InViewpoint" : [ {
+    "ID" : "_2024x_4c5019a_1725447776446_993396_779",
+    "Name" : "Security Context Viewpoint"
+  } ],
+  "AssociationEnds" : [ ]
+}, {
+  "Name" : "Attack Action",
+  "ID" : "_2024x_4c5019a_1729865951822_392813_2627",
+  "Documentation" : "",
+  "IsGeneralFor" : [ ],
+  "InheritsFrom" : [ ],
+  "ClassType" : "AssociationClass",
+  "InViewpoint" : [ {
+    "ID" : "_2024x_4c5019a_1729849066734_574747_3879",
+    "Name" : "Threat Szenario Viewpoint"
+  } ],
+  "AssociationEnds" : [ {
+    "ID" : "_2024x_4c5019a_1724753316265_833673_1841",
+    "Name" : "Adversary",
+    "Multiplicity" : "1"
+  }, {
+    "ID" : "_2024x_4c5019a_1726428890020_798933_560",
+    "Name" : "Target Misuse Case",
+    "Multiplicity" : "1"
+  } ]
+}, {
+  "Name" : "Attack Vector (old)",
+  "ID" : "_2024x_4c5019a_1724754030195_361218_1883",
+  "Documentation" : "",
+  "IsGeneralFor" : [ ],
+  "InheritsFrom" : [ {
+    "ID" : "_2024x_ea40342_1724668235875_444109_102",
+    "Name" : "Security Context Element"
+  } ],
+  "ClassType" : "Class",
+  "InViewpoint" : [ {
+    "ID" : "_2024x_4c5019a_1725447776446_993396_779",
+    "Name" : "Security Context Viewpoint"
+  } ],
+  "AssociationEnds" : [ ]
+}, {
+  "Name" : "Availability",
+  "ID" : "_2024x_4c5019a_1727773856081_19672_133",
+  "Documentation" : "Availability is a Security Objective.\n\nAvailability:\nEnsuring timely and reliable access to and use of information.\n[44 U.S.C., Sec. 3542]",
+  "IsGeneralFor" : [ ],
+  "InheritsFrom" : [ {
+    "ID" : "_2024x_4c5019a_1724750691427_829277_1481",
+    "Name" : "Security Objective"
+  } ],
+  "ClassType" : "Class",
+  "InViewpoint" : [ {
+    "ID" : "_2024x_4c5019a_1729844949340_14779_2347",
+    "Name" : "Impact Analysis Viewpoint"
   } ],
   "AssociationEnds" : [ ]
 }, {
@@ -269,6 +456,23 @@
   }, {
     "ID" : "_2021x_2_6d8019d_1674232167082_68281_23367",
     "Name" : "Claimant",
+    "Multiplicity" : "1"
+  } ]
+}, {
+  "Name" : "CON has Effect On AA",
+  "ID" : "_2024x_4c5019a_1729856541482_59473_223",
+  "Documentation" : "",
+  "IsGeneralFor" : [ ],
+  "InheritsFrom" : [ ],
+  "ClassType" : "AssociationClass",
+  "InViewpoint" : [ ],
+  "AssociationEnds" : [ {
+    "ID" : "_2024x_4c5019a_1729856201681_931608_163",
+    "Name" : "Affected Acteurs",
+    "Multiplicity" : "1"
+  }, {
+    "ID" : "_2024x_4c5019a_1726422601254_223976_195",
+    "Name" : "Consequence",
     "Multiplicity" : "1"
   } ]
 }, {
@@ -387,6 +591,21 @@
   } ],
   "AssociationEnds" : [ ]
 }, {
+  "Name" : "Confidentiality",
+  "ID" : "_2024x_4c5019a_1727770091854_264005_90",
+  "Documentation" : "Confidentiality is a Security Objective.\n\nConfidentiality:\nPreserving authorized restrictions on information access and disclosure, including means for protecting personal privacy and proprietary information.\n[44 U.S.C., Sec. 3542]",
+  "IsGeneralFor" : [ ],
+  "InheritsFrom" : [ {
+    "ID" : "_2024x_4c5019a_1724750691427_829277_1481",
+    "Name" : "Security Objective"
+  } ],
+  "ClassType" : "Class",
+  "InViewpoint" : [ {
+    "ID" : "_2024x_4c5019a_1729844949340_14779_2347",
+    "Name" : "Impact Analysis Viewpoint"
+  } ],
+  "AssociationEnds" : [ ]
+}, {
   "Name" : "Connection",
   "ID" : "_2021x_2_8710274_1698678231154_589140_39726",
   "Documentation" : "Specifies the connection of two interaction points.",
@@ -403,6 +622,18 @@
     "Name" : "Interaction Point",
     "Multiplicity" : "1"
   } ]
+}, {
+  "Name" : "Consequence",
+  "ID" : "_2024x_4c5019a_1726422601254_223976_195",
+  "Documentation" : "The violation of an Security Objective has a Consequence.\n\nNIST SP 800-160v1r1 and ISO/IEC 15026-1:2019 describing Consequence as following:\n\n\"Effect (change or non-change), usually associated with an event or condition or with the system and usually allowed, facilitated, caused, prevented, changed, or contributed to by the event, condition, or system.\"",
+  "IsGeneralFor" : [ ],
+  "InheritsFrom" : [ ],
+  "ClassType" : "Class",
+  "InViewpoint" : [ {
+    "ID" : "_2024x_4c5019a_1729844949340_14779_2347",
+    "Name" : "Impact Analysis Viewpoint"
+  } ],
+  "AssociationEnds" : [ ]
 }, {
   "Name" : "Context Function",
   "ID" : "_19_0_4_26f0132_1624611972707_746294_1003",
@@ -458,6 +689,15 @@
     "ID" : "_2021x_2_6d8019d_1674232168228_136119_23449",
     "Name" : "Argumentation Assurance Viewpoint"
   } ],
+  "AssociationEnds" : [ ]
+}, {
+  "Name" : "Description",
+  "ID" : "_2024x_4c5019a_1728709821228_680807_21",
+  "Documentation" : "",
+  "IsGeneralFor" : [ ],
+  "InheritsFrom" : [ ],
+  "ClassType" : "Class",
+  "InViewpoint" : [ ],
   "AssociationEnds" : [ ]
 }, {
   "Name" : "Domain",
@@ -559,6 +799,87 @@
     "Name" : "Evidence",
     "Multiplicity" : "1..*"
   } ]
+}, {
+  "Name" : "Effect",
+  "ID" : "_2024x_4c5019a_1726422625556_213745_216",
+  "Documentation" : "",
+  "IsGeneralFor" : [ {
+    "ID" : "_2024x_4c5019a_1728369770711_562387_292",
+    "Name" : "Effect on Environment"
+  }, {
+    "ID" : "_2024x_4c5019a_1728369755547_835149_265",
+    "Name" : "Effect on People"
+  }, {
+    "ID" : "_2024x_4c5019a_1728369745464_184930_238",
+    "Name" : "Effect on Operator"
+  }, {
+    "ID" : "_2024x_4c5019a_1728369728101_714894_211",
+    "Name" : "Effect on System"
+  } ],
+  "InheritsFrom" : [ ],
+  "ClassType" : "Class",
+  "InViewpoint" : [ ],
+  "AssociationEnds" : [ ]
+}, {
+  "Name" : "Effect on Environment",
+  "ID" : "_2024x_4c5019a_1728369770711_562387_292",
+  "Documentation" : "",
+  "IsGeneralFor" : [ ],
+  "InheritsFrom" : [ {
+    "ID" : "_2024x_4c5019a_1726422625556_213745_216",
+    "Name" : "Effect"
+  } ],
+  "ClassType" : "Class",
+  "InViewpoint" : [ {
+    "ID" : "_2024x_4c5019a_1729844949340_14779_2347",
+    "Name" : "Impact Analysis Viewpoint"
+  } ],
+  "AssociationEnds" : [ ]
+}, {
+  "Name" : "Effect on Operator",
+  "ID" : "_2024x_4c5019a_1728369745464_184930_238",
+  "Documentation" : "",
+  "IsGeneralFor" : [ ],
+  "InheritsFrom" : [ {
+    "ID" : "_2024x_4c5019a_1726422625556_213745_216",
+    "Name" : "Effect"
+  } ],
+  "ClassType" : "Class",
+  "InViewpoint" : [ {
+    "ID" : "_2024x_4c5019a_1729844949340_14779_2347",
+    "Name" : "Impact Analysis Viewpoint"
+  } ],
+  "AssociationEnds" : [ ]
+}, {
+  "Name" : "Effect on People",
+  "ID" : "_2024x_4c5019a_1728369755547_835149_265",
+  "Documentation" : "",
+  "IsGeneralFor" : [ ],
+  "InheritsFrom" : [ {
+    "ID" : "_2024x_4c5019a_1726422625556_213745_216",
+    "Name" : "Effect"
+  } ],
+  "ClassType" : "Class",
+  "InViewpoint" : [ {
+    "ID" : "_2024x_4c5019a_1729844949340_14779_2347",
+    "Name" : "Impact Analysis Viewpoint"
+  } ],
+  "AssociationEnds" : [ ]
+}, {
+  "Name" : "Effect on System",
+  "ID" : "_2024x_4c5019a_1728369728101_714894_211",
+  "Documentation" : "",
+  "IsGeneralFor" : [ ],
+  "InheritsFrom" : [ {
+    "ID" : "_2024x_4c5019a_1726422625556_213745_216",
+    "Name" : "Effect"
+  } ],
+  "ClassType" : "Class",
+  "InViewpoint" : [ {
+    "ID" : "_2024x_4c5019a_1729844949340_14779_2347",
+    "Name" : "Impact Analysis Viewpoint"
+  } ],
+  "AssociationEnds" : [ ]
 }, {
   "Name" : "Evidence",
   "ID" : "_2021x_2_6d8019d_1674232167081_609406_23365",
@@ -1231,6 +1552,36 @@
     "Multiplicity" : "0..*"
   } ]
 }, {
+  "Name" : "Intangible Resource",
+  "ID" : "_2024x_4c5019a_1724751581579_977661_1588",
+  "Documentation" : "tangible & intangible resources are types of Assets. The NIST SP 800-160v1r1 - Engineering Trustworthy Secure Systems describes them following:\n\n„There are many different types of assets. Assets are broadly categorized as either tangible or intangible. Tangible assets include physical items, such as hardware, computing platforms, other technology components, and humans. Intangible assets include humans, firmware, software, capabilities, functions, services, trademarks, intellectual property, data, copyrights, patents, image, or reputation.“",
+  "IsGeneralFor" : [ {
+    "ID" : "_2024x_4c5019a_1724750542260_2346_1453",
+    "Name" : "Asset"
+  } ],
+  "InheritsFrom" : [ ],
+  "ClassType" : "Class",
+  "InViewpoint" : [ {
+    "ID" : "_2024x_4c5019a_1724766057976_458531_938",
+    "Name" : "Asset Identification Viewpoint"
+  } ],
+  "AssociationEnds" : [ ]
+}, {
+  "Name" : "Integrity",
+  "ID" : "_2024x_4c5019a_1727773842236_29260_132",
+  "Documentation" : "Integrity is a Security Objective.\n\nIntegrity:\nGuarding against improper information modification or destruction, and includes ensuring information non-repudiation and authenticity. \n[44 U.S.C., Sec. 3542]",
+  "IsGeneralFor" : [ ],
+  "InheritsFrom" : [ {
+    "ID" : "_2024x_4c5019a_1724750691427_829277_1481",
+    "Name" : "Security Objective"
+  } ],
+  "ClassType" : "Class",
+  "InViewpoint" : [ {
+    "ID" : "_2024x_4c5019a_1729844949340_14779_2347",
+    "Name" : "Impact Analysis Viewpoint"
+  } ],
+  "AssociationEnds" : [ ]
+}, {
   "Name" : "Interaction Point",
   "ID" : "_2021x_2_8710274_1698677453131_434277_39060",
   "Documentation" : "Specifies the existence of an interaction point.",
@@ -1254,6 +1605,66 @@
   "Documentation" : "Specifies a detail of an interaction point.",
   "IsGeneralFor" : [ ],
   "InheritsFrom" : [ ],
+  "ClassType" : "Class",
+  "InViewpoint" : [ ],
+  "AssociationEnds" : [ ]
+}, {
+  "Name" : "L0-Unlikely",
+  "ID" : "_2024x_4c5019a_1728559177581_369405_834",
+  "Documentation" : "",
+  "IsGeneralFor" : [ ],
+  "InheritsFrom" : [ {
+    "ID" : "_2024x_4c5019a_1726428976637_131748_562",
+    "Name" : "Likelyhood Parameter"
+  } ],
+  "ClassType" : "Class",
+  "InViewpoint" : [ ],
+  "AssociationEnds" : [ ]
+}, {
+  "Name" : "L1-Rather Unlikely",
+  "ID" : "_2024x_4c5019a_1728559209934_781327_861",
+  "Documentation" : "",
+  "IsGeneralFor" : [ ],
+  "InheritsFrom" : [ {
+    "ID" : "_2024x_4c5019a_1726428976637_131748_562",
+    "Name" : "Likelyhood Parameter"
+  } ],
+  "ClassType" : "Class",
+  "InViewpoint" : [ ],
+  "AssociationEnds" : [ ]
+}, {
+  "Name" : "L2-Likely",
+  "ID" : "_2024x_4c5019a_1728559225732_137777_888",
+  "Documentation" : "",
+  "IsGeneralFor" : [ ],
+  "InheritsFrom" : [ {
+    "ID" : "_2024x_4c5019a_1726428976637_131748_562",
+    "Name" : "Likelyhood Parameter"
+  } ],
+  "ClassType" : "Class",
+  "InViewpoint" : [ ],
+  "AssociationEnds" : [ ]
+}, {
+  "Name" : "L3-Very Likely",
+  "ID" : "_2024x_4c5019a_1728559234802_899343_915",
+  "Documentation" : "",
+  "IsGeneralFor" : [ ],
+  "InheritsFrom" : [ {
+    "ID" : "_2024x_4c5019a_1726428976637_131748_562",
+    "Name" : "Likelyhood Parameter"
+  } ],
+  "ClassType" : "Class",
+  "InViewpoint" : [ ],
+  "AssociationEnds" : [ ]
+}, {
+  "Name" : "L4-Almost Certain",
+  "ID" : "_2024x_4c5019a_1728559248614_406039_942",
+  "Documentation" : "",
+  "IsGeneralFor" : [ ],
+  "InheritsFrom" : [ {
+    "ID" : "_2024x_4c5019a_1726428976637_131748_562",
+    "Name" : "Likelyhood Parameter"
+  } ],
   "ClassType" : "Class",
   "InViewpoint" : [ ],
   "AssociationEnds" : [ ]
@@ -1639,6 +2050,36 @@
     "Name" : "Logical User",
     "Multiplicity" : "1..*"
   } ]
+}, {
+  "Name" : "Likelyhood Parameter",
+  "ID" : "_2024x_4c5019a_1726428976637_131748_562",
+  "Documentation" : "",
+  "IsGeneralFor" : [ {
+    "ID" : "_2024x_4c5019a_1728559177581_369405_834",
+    "Name" : "L0-Unlikely"
+  }, {
+    "ID" : "_2024x_4c5019a_1728559209934_781327_861",
+    "Name" : "L1-Rather Unlikely"
+  }, {
+    "ID" : "_2024x_4c5019a_1728559248614_406039_942",
+    "Name" : "L4-Almost Certain"
+  }, {
+    "ID" : "_2024x_4c5019a_1728559225732_137777_888",
+    "Name" : "L2-Likely"
+  }, {
+    "ID" : "_2024x_4c5019a_1728559234802_899343_915",
+    "Name" : "L3-Very Likely"
+  } ],
+  "InheritsFrom" : [ {
+    "ID" : "_2024x_ea40342_1724668235875_444109_102",
+    "Name" : "Security Context Element"
+  } ],
+  "ClassType" : "Class",
+  "InViewpoint" : [ {
+    "ID" : "_2024x_4c5019a_1729849066734_574747_3879",
+    "Name" : "Threat Szenario Viewpoint"
+  } ],
+  "AssociationEnds" : [ ]
 }, {
   "Name" : "Logical Chronological Message",
   "ID" : "_19_0_3_26f0132_1582315257123_533586_56785",
@@ -3517,6 +3958,96 @@
   } ],
   "AssociationEnds" : [ ]
 }, {
+  "Name" : "Risk",
+  "ID" : "_2024x_4c5019a_1726430943101_262310_996",
+  "Documentation" : "",
+  "IsGeneralFor" : [ ],
+  "InheritsFrom" : [ {
+    "ID" : "_2024x_ea40342_1724668235875_444109_102",
+    "Name" : "Security Context Element"
+  } ],
+  "ClassType" : "Class",
+  "InViewpoint" : [ {
+    "ID" : "_2024x_4c5019a_1729850878319_101841_4365",
+    "Name" : "Security Risk Analysis Viewpoint"
+  } ],
+  "AssociationEnds" : [ ]
+}, {
+  "Name" : "S0-No Effect",
+  "ID" : "_2024x_4c5019a_1728369277666_81460_25",
+  "Documentation" : "",
+  "IsGeneralFor" : [ ],
+  "InheritsFrom" : [ {
+    "ID" : "_2024x_4c5019a_1726422508426_194688_174",
+    "Name" : "Severity Level"
+  } ],
+  "ClassType" : "Class",
+  "InViewpoint" : [ {
+    "ID" : "_2024x_4c5019a_1729844949340_14779_2347",
+    "Name" : "Impact Analysis Viewpoint"
+  } ],
+  "AssociationEnds" : [ ]
+}, {
+  "Name" : "S1-Minor",
+  "ID" : "_2024x_4c5019a_1728369424801_549514_47",
+  "Documentation" : "",
+  "IsGeneralFor" : [ ],
+  "InheritsFrom" : [ {
+    "ID" : "_2024x_4c5019a_1726422508426_194688_174",
+    "Name" : "Severity Level"
+  } ],
+  "ClassType" : "Class",
+  "InViewpoint" : [ {
+    "ID" : "_2024x_4c5019a_1729844949340_14779_2347",
+    "Name" : "Impact Analysis Viewpoint"
+  } ],
+  "AssociationEnds" : [ ]
+}, {
+  "Name" : "S2-Major",
+  "ID" : "_2024x_4c5019a_1728369435160_106981_69",
+  "Documentation" : "",
+  "IsGeneralFor" : [ ],
+  "InheritsFrom" : [ {
+    "ID" : "_2024x_4c5019a_1726422508426_194688_174",
+    "Name" : "Severity Level"
+  } ],
+  "ClassType" : "Class",
+  "InViewpoint" : [ {
+    "ID" : "_2024x_4c5019a_1729844949340_14779_2347",
+    "Name" : "Impact Analysis Viewpoint"
+  } ],
+  "AssociationEnds" : [ ]
+}, {
+  "Name" : "S3-Hazardous",
+  "ID" : "_2024x_4c5019a_1728369460150_326435_118",
+  "Documentation" : "",
+  "IsGeneralFor" : [ ],
+  "InheritsFrom" : [ {
+    "ID" : "_2024x_4c5019a_1726422508426_194688_174",
+    "Name" : "Severity Level"
+  } ],
+  "ClassType" : "Class",
+  "InViewpoint" : [ {
+    "ID" : "_2024x_4c5019a_1729844949340_14779_2347",
+    "Name" : "Impact Analysis Viewpoint"
+  } ],
+  "AssociationEnds" : [ ]
+}, {
+  "Name" : "S4-Catastrophic",
+  "ID" : "_2024x_4c5019a_1728369479956_331067_145",
+  "Documentation" : "",
+  "IsGeneralFor" : [ ],
+  "InheritsFrom" : [ {
+    "ID" : "_2024x_4c5019a_1726422508426_194688_174",
+    "Name" : "Severity Level"
+  } ],
+  "ClassType" : "Class",
+  "InViewpoint" : [ {
+    "ID" : "_2024x_4c5019a_1729844949340_14779_2347",
+    "Name" : "Impact Analysis Viewpoint"
+  } ],
+  "AssociationEnds" : [ ]
+}, {
   "Name" : "SAF Stereotype",
   "ID" : "_2024x_26f0132_1719773907937_525274_34938",
   "Documentation" : "A stereotype of the SAF Profile Model",
@@ -3530,6 +4061,42 @@
     "ID" : "_2024x_26f0132_1719735411756_812404_24423",
     "Name" : "Framework Viewpoint Implementation Viewpoint"
   } ],
+  "AssociationEnds" : [ ]
+}, {
+  "Name" : "SAL1-Low",
+  "ID" : "_2024x_4c5019a_1728712306540_796220_295",
+  "Documentation" : "",
+  "IsGeneralFor" : [ ],
+  "InheritsFrom" : [ {
+    "ID" : "_2024x_4c5019a_1728711798398_384221_251",
+    "Name" : "Security Assurance Level"
+  } ],
+  "ClassType" : "Class",
+  "InViewpoint" : [ ],
+  "AssociationEnds" : [ ]
+}, {
+  "Name" : "SAL2-Medium",
+  "ID" : "_2024x_4c5019a_1728712337678_300563_322",
+  "Documentation" : "",
+  "IsGeneralFor" : [ ],
+  "InheritsFrom" : [ {
+    "ID" : "_2024x_4c5019a_1728711798398_384221_251",
+    "Name" : "Security Assurance Level"
+  } ],
+  "ClassType" : "Class",
+  "InViewpoint" : [ ],
+  "AssociationEnds" : [ ]
+}, {
+  "Name" : "SAL3-High",
+  "ID" : "_2024x_4c5019a_1728712342792_779661_349",
+  "Documentation" : "",
+  "IsGeneralFor" : [ ],
+  "InheritsFrom" : [ {
+    "ID" : "_2024x_4c5019a_1728711798398_384221_251",
+    "Name" : "Security Assurance Level"
+  } ],
+  "ClassType" : "Class",
+  "InViewpoint" : [ ],
   "AssociationEnds" : [ ]
 }, {
   "Name" : "SCEactingForOPR",
@@ -3710,6 +4277,29 @@
     "ID" : "_19_0_4_6d8019d_1617463709646_290604_336",
     "Name" : "System Capability",
     "Multiplicity" : "0..*"
+  } ]
+}, {
+  "Name" : "SDK is Asset in Security Context",
+  "ID" : "_2024x_4c5019a_1727856501532_940147_149",
+  "Documentation" : "",
+  "IsGeneralFor" : [ ],
+  "InheritsFrom" : [ {
+    "ID" : "_2024x_4c5019a_1724750542260_2346_1453",
+    "Name" : "Asset"
+  } ],
+  "ClassType" : "AssociationClass",
+  "InViewpoint" : [ {
+    "ID" : "_2024x_4c5019a_1724766057976_458531_938",
+    "Name" : "Asset Identification Viewpoint"
+  } ],
+  "AssociationEnds" : [ {
+    "ID" : "_2024x_4c5019a_1724674758529_936816_356",
+    "Name" : "Security Context",
+    "Multiplicity" : "1"
+  }, {
+    "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
+    "Name" : "System Domain Kind",
+    "Multiplicity" : "1"
   } ]
 }, {
   "Name" : "SDKbeeingInSSE",
@@ -3950,6 +4540,29 @@
   }, {
     "ID" : "_2024x_26f0132_1719749431514_697590_16049",
     "Name" : "SE Concept",
+    "Multiplicity" : "1"
+  } ]
+}, {
+  "Name" : "SF is Asset in Security Context",
+  "ID" : "_2024x_4c5019a_1727855369397_570583_19",
+  "Documentation" : "System Functions are intangible resources of the System. intangible resources are types of Assets. The NIST SP 800-160v1r1 - Engineering Trustworthy Secure Systems describes them following:\n\n„There are many different types of assets. Assets are broadly categorized as either tangible or intangible. Tangible assets include physical items, such as hardware, computing platforms, other technology components, and humans. Intangible assets include humans, firmware, software, capabilities, functions, services, trademarks, intellectual property, data, copyrights, patents, image, or reputation.“",
+  "IsGeneralFor" : [ ],
+  "InheritsFrom" : [ {
+    "ID" : "_2024x_4c5019a_1724750542260_2346_1453",
+    "Name" : "Asset"
+  } ],
+  "ClassType" : "AssociationClass",
+  "InViewpoint" : [ {
+    "ID" : "_2024x_4c5019a_1724766057976_458531_938",
+    "Name" : "Asset Identification Viewpoint"
+  } ],
+  "AssociationEnds" : [ {
+    "ID" : "_19_0_2_26f0132_1562303524161_394471_91009",
+    "Name" : "System Function",
+    "Multiplicity" : "1"
+  }, {
+    "ID" : "_2024x_4c5019a_1724674758529_936816_356",
+    "Name" : "Security Context",
     "Multiplicity" : "1"
   } ]
 }, {
@@ -4709,6 +5322,183 @@
     "Multiplicity" : "1..*"
   } ]
 }, {
+  "Name" : "Security Assurance Level",
+  "ID" : "_2024x_4c5019a_1728711798398_384221_251",
+  "Documentation" : "NIST SP 800-89:\n\"The level of assurance (e.g., HIGH, MEDIUM, or LOW) that a\nclaimed signatory possesses the private signature key.\"",
+  "IsGeneralFor" : [ {
+    "ID" : "_2024x_4c5019a_1728712337678_300563_322",
+    "Name" : "SAL2-Medium"
+  }, {
+    "ID" : "_2024x_4c5019a_1728712342792_779661_349",
+    "Name" : "SAL3-High"
+  }, {
+    "ID" : "_2024x_4c5019a_1728712306540_796220_295",
+    "Name" : "SAL1-Low"
+  } ],
+  "InheritsFrom" : [ ],
+  "ClassType" : "Class",
+  "InViewpoint" : [ {
+    "ID" : "_2024x_4c5019a_1729850878319_101841_4365",
+    "Name" : "Security Risk Analysis Viewpoint"
+  } ],
+  "AssociationEnds" : [ ]
+}, {
+  "Name" : "Security Context",
+  "ID" : "_2024x_4c5019a_1724674758529_936816_356",
+  "Documentation" : "The Security Context describes all internal and external elements, boundaries, interconnections and assumptions that referes to the security of a system or an asset.\nDIN ISO 31000:2018-10 defines: \n\"The context of the risk management process should be derived from an understanding of the external and internal environment in which the organisation operates and should reflect the specific environment of the activity to which the risk management process is applied.\" ",
+  "IsGeneralFor" : [ ],
+  "InheritsFrom" : [ {
+    "ID" : "_19_0_2_164f041e_1564089980498_97451_52116",
+    "Name" : "System Context"
+  } ],
+  "ClassType" : "Class",
+  "InViewpoint" : [ {
+    "ID" : "_2024x_4c5019a_1725447776446_993396_779",
+    "Name" : "Security Context Viewpoint"
+  }, {
+    "ID" : "_2024x_4c5019a_1724766057976_458531_938",
+    "Name" : "Asset Identification Viewpoint"
+  } ],
+  "AssociationEnds" : [ ]
+}, {
+  "Name" : "Security Context Element",
+  "ID" : "_2024x_ea40342_1724668235875_444109_102",
+  "Documentation" : "An abstract element representing a Security Context Element. Base class for specific kinds of Security Context Elements.",
+  "IsGeneralFor" : [ {
+    "ID" : "_2024x_4c5019a_1726428890020_798933_560",
+    "Name" : "Target Misuse Case"
+  }, {
+    "ID" : "_2024x_4c5019a_1724754030195_361218_1883",
+    "Name" : "Attack Vector (old)"
+  }, {
+    "ID" : "_2024x_4c5019a_1726428976637_131748_562",
+    "Name" : "Likelyhood Parameter"
+  }, {
+    "ID" : "_2024x_4c5019a_1726422508426_194688_174",
+    "Name" : "Severity Level"
+  }, {
+    "ID" : "_2024x_4c5019a_1726430943101_262310_996",
+    "Name" : "Risk"
+  }, {
+    "ID" : "_2024x_4c5019a_1726428909034_879245_561",
+    "Name" : "Threat Scenario"
+  }, {
+    "ID" : "_2024x_4c5019a_1724752203589_449075_1766",
+    "Name" : "Security Enviromental Element"
+  }, {
+    "ID" : "_2024x_4c5019a_1724754064310_650307_1929",
+    "Name" : "Assumption"
+  }, {
+    "ID" : "_2024x_4c5019a_1724750542260_2346_1453",
+    "Name" : "Asset"
+  } ],
+  "InheritsFrom" : [ ],
+  "ClassType" : "Class",
+  "InViewpoint" : [ {
+    "ID" : "_2024x_4c5019a_1725447776446_993396_779",
+    "Name" : "Security Context Viewpoint"
+  }, {
+    "ID" : "_2024x_4c5019a_1724766057976_458531_938",
+    "Name" : "Asset Identification Viewpoint"
+  } ],
+  "AssociationEnds" : [ ]
+}, {
+  "Name" : "Security Enviromental Element",
+  "ID" : "_2024x_4c5019a_1724752203589_449075_1766",
+  "Documentation" : "An abstract element representing a Security Context Element occurring in the environment of an asset.",
+  "IsGeneralFor" : [ {
+    "ID" : "_2024x_4c5019a_1724753316265_833673_1841",
+    "Name" : "Adversary"
+  } ],
+  "InheritsFrom" : [ {
+    "ID" : "_2024x_ea40342_1724668235875_444109_102",
+    "Name" : "Security Context Element"
+  } ],
+  "ClassType" : "Class",
+  "InViewpoint" : [ {
+    "ID" : "_2024x_4c5019a_1725447776446_993396_779",
+    "Name" : "Security Context Viewpoint"
+  } ],
+  "AssociationEnds" : [ ]
+}, {
+  "Name" : "Security Measures",
+  "ID" : "_2024x_4c5019a_1728711539575_688605_182",
+  "Documentation" : "",
+  "IsGeneralFor" : [ ],
+  "InheritsFrom" : [ ],
+  "ClassType" : "Class",
+  "InViewpoint" : [ {
+    "ID" : "_2024x_4c5019a_1729850878319_101841_4365",
+    "Name" : "Security Risk Analysis Viewpoint"
+  } ],
+  "AssociationEnds" : [ ]
+}, {
+  "Name" : "Security Objective",
+  "ID" : "_2024x_4c5019a_1724750691427_829277_1481",
+  "Documentation" : "The Security Objectives are defined as the CIA-Triad (Confidentiality, Integrity, Availability)\n\n(Synonym: Security Attribute, Security Propaty)\n\nFIPS PUB 199 - Standards for Security Categorization of Federal Information and Information Systems:\n\n\"The FISMA defines three security objectives for information and information systems:\nCONFIDENTIALITY\n“Preserving authorized restrictions on information access and disclosure, including means for\nprotecting personal privacy and proprietary information…” [44 U.S.C., Sec. 3542 ]\nA loss of confidentiality is the unauthorized disclosure of information.\nINTEGRITY\n“Guarding against improper information modification or destruction, and includes ensuring\ninformation non-repudiation and authenticity…” [ 44 U.S.C., Sec. 3542]\nA loss of integrity is the unauthorized modification or destruction of information.\nAVAILABILITY\n“Ensuring timely and reliable access to and use of information…” [44 U.S.C., S EC. 3542 ]\nA loss of availability is the disruption of access to or use of information or an information system.\"",
+  "IsGeneralFor" : [ {
+    "ID" : "_2024x_4c5019a_1727773856081_19672_133",
+    "Name" : "Availability"
+  }, {
+    "ID" : "_2024x_4c5019a_1727770091854_264005_90",
+    "Name" : "Confidentiality"
+  }, {
+    "ID" : "_2024x_4c5019a_1727773842236_29260_132",
+    "Name" : "Integrity"
+  } ],
+  "InheritsFrom" : [ ],
+  "ClassType" : "Class",
+  "InViewpoint" : [ {
+    "ID" : "_2024x_4c5019a_1729844949340_14779_2347",
+    "Name" : "Impact Analysis Viewpoint"
+  }, {
+    "ID" : "_2024x_4c5019a_1724766057976_458531_938",
+    "Name" : "Asset Identification Viewpoint"
+  } ],
+  "AssociationEnds" : [ ]
+}, {
+  "Name" : "Security Requirements",
+  "ID" : "_2024x_4c5019a_1728711582034_531131_209",
+  "Documentation" : "",
+  "IsGeneralFor" : [ ],
+  "InheritsFrom" : [ ],
+  "ClassType" : "Class",
+  "InViewpoint" : [ {
+    "ID" : "_2024x_4c5019a_1729850878319_101841_4365",
+    "Name" : "Security Risk Analysis Viewpoint"
+  } ],
+  "AssociationEnds" : [ ]
+}, {
+  "Name" : "Severity Level",
+  "ID" : "_2024x_4c5019a_1726422508426_194688_174",
+  "Documentation" : "",
+  "IsGeneralFor" : [ {
+    "ID" : "_2024x_4c5019a_1728369479956_331067_145",
+    "Name" : "S4-Catastrophic"
+  }, {
+    "ID" : "_2024x_4c5019a_1728369460150_326435_118",
+    "Name" : "S3-Hazardous"
+  }, {
+    "ID" : "_2024x_4c5019a_1728369435160_106981_69",
+    "Name" : "S2-Major"
+  }, {
+    "ID" : "_2024x_4c5019a_1728369277666_81460_25",
+    "Name" : "S0-No Effect"
+  }, {
+    "ID" : "_2024x_4c5019a_1728369424801_549514_47",
+    "Name" : "S1-Minor"
+  } ],
+  "InheritsFrom" : [ {
+    "ID" : "_2024x_ea40342_1724668235875_444109_102",
+    "Name" : "Security Context Element"
+  } ],
+  "ClassType" : "Class",
+  "InViewpoint" : [ {
+    "ID" : "_2024x_4c5019a_1729844949340_14779_2347",
+    "Name" : "Impact Analysis Viewpoint"
+  } ],
+  "AssociationEnds" : [ ]
+}, {
   "Name" : "Software Element",
   "ID" : "_19_0_2_26f0132_1562303524176_251302_91078",
   "Documentation" : "Pure Software Elements. Similarity with the V-Model \"software unit\".",
@@ -4903,6 +5693,9 @@
   "ID" : "_19_0_2_164f041e_1564089980498_97451_52116",
   "Documentation" : "Specifies the fact that a context for a System of Interest is defined.",
   "IsGeneralFor" : [ {
+    "ID" : "_2024x_4c5019a_1724674758529_936816_356",
+    "Name" : "Security Context"
+  }, {
     "ID" : "_2024x_26f0132_1717939096214_472223_14410",
     "Name" : "Loss Context"
   } ],
@@ -5317,6 +6110,36 @@
     "Multiplicity" : "0..*"
   } ]
 }, {
+  "Name" : "Tangible Resource",
+  "ID" : "_2024x_4c5019a_1724751736523_167024_1636",
+  "Documentation" : "tangible & intangible resources are types of Assets. The NIST SP 800-160v1r1 - Engineering Trustworthy Secure Systems describes them following:\n\n„There are many different types of assets. Assets are broadly categorized as either tangible or intangible. Tangible assets include physical items, such as hardware, computing platforms, other technology components, and humans. Intangible assets include humans, firmware, software, capabilities, functions, services, trademarks, intellectual property, data, copyrights, patents, image, or reputation.“",
+  "IsGeneralFor" : [ {
+    "ID" : "_2024x_4c5019a_1724750542260_2346_1453",
+    "Name" : "Asset"
+  } ],
+  "InheritsFrom" : [ ],
+  "ClassType" : "Class",
+  "InViewpoint" : [ {
+    "ID" : "_2024x_4c5019a_1724766057976_458531_938",
+    "Name" : "Asset Identification Viewpoint"
+  } ],
+  "AssociationEnds" : [ ]
+}, {
+  "Name" : "Target Misuse Case",
+  "ID" : "_2024x_4c5019a_1726428890020_798933_560",
+  "Documentation" : "",
+  "IsGeneralFor" : [ ],
+  "InheritsFrom" : [ {
+    "ID" : "_2024x_ea40342_1724668235875_444109_102",
+    "Name" : "Security Context Element"
+  } ],
+  "ClassType" : "Class",
+  "InViewpoint" : [ {
+    "ID" : "_2024x_4c5019a_1729849066734_574747_3879",
+    "Name" : "Threat Szenario Viewpoint"
+  } ],
+  "AssociationEnds" : [ ]
+}, {
   "Name" : "Term",
   "ID" : "_2021x_2_8710274_1700810107962_53436_48086",
   "Documentation" : "Specifies the fact that a term is usually defined by a standard, but can also be defined as part of system development work.",
@@ -5326,6 +6149,21 @@
   "InViewpoint" : [ {
     "ID" : "_2021x_2_8710274_1701349408071_720270_88478",
     "Name" : "Common Terms Definition Viewpoint"
+  } ],
+  "AssociationEnds" : [ ]
+}, {
+  "Name" : "Threat Scenario",
+  "ID" : "_2024x_4c5019a_1726428909034_879245_561",
+  "Documentation" : "",
+  "IsGeneralFor" : [ ],
+  "InheritsFrom" : [ {
+    "ID" : "_2024x_ea40342_1724668235875_444109_102",
+    "Name" : "Security Context Element"
+  } ],
+  "ClassType" : "Class",
+  "InViewpoint" : [ {
+    "ID" : "_2024x_4c5019a_1729849066734_574747_3879",
+    "Name" : "Threat Szenario Viewpoint"
   } ],
   "AssociationEnds" : [ ]
 }, {
@@ -5501,6 +6339,18 @@
   }, {
     "ID" : "_2024x_26f0132_1719735639638_993311_27196",
     "Name" : "Framework Viewpoint Overview Viewpoint"
+  } ],
+  "AssociationEnds" : [ ]
+}, {
+  "Name" : "Vulnerability",
+  "ID" : "_2024x_4c5019a_1728710827922_136312_119",
+  "Documentation" : "",
+  "IsGeneralFor" : [ ],
+  "InheritsFrom" : [ ],
+  "ClassType" : "Class",
+  "InViewpoint" : [ {
+    "ID" : "_2024x_4c5019a_1729849066734_574747_3879",
+    "Name" : "Threat Szenario Viewpoint"
   } ],
   "AssociationEnds" : [ ]
 }, {

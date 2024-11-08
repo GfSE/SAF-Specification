@@ -942,6 +942,9 @@
   "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
   "Documentation" : "Definition - Security Specialist:\nSecurity is one subject matter of specialty engineering but important enough to be treated separately.\nThe IT-Security experts evaluate a proposed system architecture and design for IT-Security. One outcome of the activity are technical security requirements that need to be considered in the system design. Other outcomes affect the organization or the infrastructure of the user or define procedures that need to be implemented.",
   "Rationales" : [ {
+    "Rationale" : "In my role, I need to analyze how attack paths are exploited to set security measures.",
+    "Concern" : "How are attack paths used?"
+  }, {
     "Rationale" : "",
     "Concern" : "How are error states handled?"
   }, {
@@ -954,6 +957,9 @@
     "Rationale" : "",
     "Concern" : "How do the physical system elements interact to provide the system function?"
   }, {
+    "Rationale" : "In my role, I need to know the risk value to determine if it is acceptable or not acceptable.",
+    "Concern" : "How high is the Risk?"
+  }, {
     "Rationale" : "",
     "Concern" : "How is the interface between different domains protected?"
   }, {
@@ -962,6 +968,21 @@
   }, {
     "Rationale" : "",
     "Concern" : "What are necessary inputs for operating the system expected to be provided by other external entitys?"
+  }, {
+    "Rationale" : "In my role, I need to know the assumptions like the trust level to define sensible threat szenarios.",
+    "Concern" : "What are the Assumptions regarding the context Elements?"
+  }, {
+    "Rationale" : "In my role, I need to identify potential security vulnerabilities at all external interfaces.",
+    "Concern" : "What are the Attack Vectors?"
+  }, {
+    "Rationale" : "In my role I need to define Security Measures to prevent succesfull attacks.",
+    "Concern" : "What are the Security Measures?"
+  }, {
+    "Rationale" : "In my role I need to identify Security Requirements to define Security Measures.",
+    "Concern" : "What are the Security Requirements?"
+  }, {
+    "Rationale" : "In my role, I need to identify critical assets to ensure that the system is adequat protected.",
+    "Concern" : "What are the assets that need protection?"
   }, {
     "Rationale" : "",
     "Concern" : "What are the confidentiality, integrity and availability levels for processed or exchanged information?"
@@ -980,6 +1001,9 @@
   }, {
     "Rationale" : "",
     "Concern" : "What are the scenarios a system function is utilized in?"
+  }, {
+    "Rationale" : "In my role, I need to assess the likelihood of threat szenarios to asses the risks.",
+    "Concern" : "What is the likelihood of a risk szenario?"
   }, {
     "Rationale" : "",
     "Concern" : "What is the necessary response time for an interface or a service?"
@@ -1001,6 +1025,9 @@
   }, {
     "Rationale" : "In my role, I need to assess the security based on protocol usage in general.",
     "Concern" : "Which are the protocols used for exchanging information?"
+  }, {
+    "Rationale" : "I my role, I need to know the attack paths to analyse ways an attacker can use to reach the asset.",
+    "Concern" : "Which attack paths exists? "
   }, {
     "Rationale" : "In my role, I use them as basis for understanding interfaces on logical level.",
     "Concern" : "Which conceptual items (energy, material, information, etc.) are exchanged within the system?"
@@ -1032,8 +1059,14 @@
     "Rationale" : "In my role, I use them as basis for understanding interfaces on physical level.",
     "Concern" : "Which physical items (energy, material, information, etc.) are exchanged within the system?"
   }, {
+    "Rationale" : "In my role, I need to assess the severity to define the impact of of an attack.",
+    "Concern" : "Which severity has the Loss of the Security Objectives? "
+  }, {
     "Rationale" : "In my role, I need to assess the security based on them.",
     "Concern" : "Which standards, protocols, and format specifications apply to a physical interface?"
+  }, {
+    "Rationale" : "In my role, I need to identify potential adversaries to assess thread szenarios.",
+    "Concern" : "Who are the potential adversaries?"
   }, {
     "Rationale" : "",
     "Concern" : "Why types of exchange can exist between Operational Performers (i.e., flows of information, people, material, or energy)?"
@@ -1236,6 +1269,9 @@
     "Rationale" : "",
     "Concern" : "How does the elements of the test environment interact with each other?"
   }, {
+    "Rationale" : "In my role, I need to integrate risk assessment findings into system design.",
+    "Concern" : "How high is the Risk?"
+  }, {
     "Rationale" : "In my role, I want to make sure that the architecture partitioning fulfills safety needs.",
     "Concern" : "How is a safety critical function decomposed and allocated?"
   }, {
@@ -1262,6 +1298,12 @@
   }, {
     "Rationale" : "",
     "Concern" : "What are necessary inputs for operating the system expected to be provided by other external entitys?"
+  }, {
+    "Rationale" : "In my role, I need to delegate the implementation of interfaces in subsystems.",
+    "Concern" : "What are the Attack Vectors?"
+  }, {
+    "Rationale" : "In my role, I need to understand the assets that require protection to design a secure system architecture.",
+    "Concern" : "What are the assets that need protection?"
   }, {
     "Rationale" : "In my role, I need to identify suitable basic components on the grounds of the required system capabilities.",
     "Concern" : "What are the capabilities that are supported by the system?"
@@ -1401,6 +1443,9 @@
     "Rationale" : "i need to record them in the project baseline-",
     "Concern" : "Which are the relevant releases of the applicable standards, guidance, and policy to be used for the development of the system of interest and its system elements?"
   }, {
+    "Rationale" : "In my role, I need to design and implement security measures in the security architecture.",
+    "Concern" : "Which attack paths exists? "
+  }, {
     "Rationale" : "In my role, I use them as basis for understanding interfaces on logical level.",
     "Concern" : "Which conceptual items (energy, material, information, etc.) are exchanged within the system?"
   }, {
@@ -1478,6 +1523,9 @@
   }, {
     "Rationale" : "In my role, I need to give feedback on existing or missing stakeholders.",
     "Concern" : "Who are the (Major) Stakeholders involved in the intended solution?"
+  }, {
+    "Rationale" : "In my role, I need to know adversaries to determine posible misuse cases.",
+    "Concern" : "Who are the potential adversaries?"
   }, {
     "Rationale" : "",
     "Concern" : "Who provides the inputs to a critical function?"
