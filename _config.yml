@@ -3,7 +3,9 @@ description: A scalable SysML Based Framework to foster MBSE for multiple Modeli
 theme: just-the-docs
 source: src
 
+# these are set by the pages.yml configure action
 #url: https://haarer.github.io/SAF-Specification-TestFork
+#repository: haarer/SAF-Specification-TestFork
 
 logo: "/assets/images/Banner_SAF_gross.png"
 
@@ -20,7 +22,6 @@ plugins:
 relative_links:
   enabled:     true
 
-repository: haarer/SAF-Specification-TestFork
 
 callouts:
   highlight:

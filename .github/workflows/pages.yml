@@ -59,6 +59,7 @@ jobs:
           # avoid look up of API as it doesn't work from within actions without exposing the GITHUB_TOKEN here which is a security risk
           cat <<EOF >> ${TEMP_CONFIG}
           repository_nwo: ${GITHUB_REPOSITORY}
+          repository: ${REPO_NAME}
           EOF
 
           if  [[ -n "${TARGET_FOLDER}" ]]
@@ -77,10 +78,10 @@ jobs:
           then
             CNAME_STR=$(cat CNAME)
             echo "CNAME: $CNAME_STR "
-            echo "url: https://$CNAME_STR" >> ${TEMP_CONFIG}
+            echo "url: https://${CNAME_STR}" >> ${TEMP_CONFIG}
           else
-            echo "baseurl: SAF-Specification-TestFork" >> ${TEMP_CONFIG}
-            echo "url: https://haarer.github.io/SAF-Specification-TestFork" >> ${TEMP_CONFIG}
+            echo "baseurl: ${REPO_NAME} >> ${TEMP_CONFIG}
+            echo "url: https://haarer.github.io/${REPO_NAME}" >> ${TEMP_CONFIG}
           fi 
 
           # allow override of everything
