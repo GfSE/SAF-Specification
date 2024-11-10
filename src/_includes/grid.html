@@ -1,0 +1,31 @@
+<table class="SAFGridTable">
+    <tr>
+        <th></th>
+        {% for asp in site.data.aspects | sort: AspectID %}
+        <th>
+            <A href="./userdoc/aspects.html#{{ asp.ID}}">Aspect<BR>{{ asp.Name }}</A>
+        </th>
+        {% endfor %}
+    </tr>
+
+    {% for dc in site.data.domaincolors %}
+    {% assign dom= site.data.domains | where : "DomainID", dc.DomainID %}
+    {% assign dom_vp= site.data.viewpoints | where: "Domain", dom.first.Name %}
+    <tr class="SAF_Domain_{{ dc.DomainID }}">
+        <td><A href="./userdoc/domains.html#{{ dom.first.ID}}">{{ dom.first.Name }}<BR>Domain</A></td>
+        {% for asp in site.data.aspects %}
+        {% assign asp_vp= dom_vp | where: "Aspect", asp.Name %}
+        <td>{% for vp in asp_vp %} 
+            <div class="tooltip">
+                {% if vp.Domain == "SAF Development" -%}
+                <A href="./devdoc/{{ vp.Domain }} Domain/{{ vp.Name }}.html" >{{vp.VP_ID}}<span class="tooltiptext">{{ vp.Name }}</span></A>
+                {% else %}
+                <A href="./userdoc/{{ vp.Domain }} Domain/{{ vp.Name }}.html">{{vp.VP_ID}}<span class="tooltiptext">{{ vp.Name }}</span></A>
+                {% endif %}
+            </div>
+             {% unless forloop.last %}<BR> {% endunless %} {% endfor %}</td>
+        {% endfor %}
+    </tr>
+    {% endfor %}
+
+</table>
