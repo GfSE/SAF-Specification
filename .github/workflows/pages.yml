@@ -80,7 +80,7 @@ jobs:
             echo "CNAME: $CNAME_STR "
             echo "url: https://${CNAME_STR}" >> ${TEMP_CONFIG}
           else
-            echo "baseurl: ${REPO_NAME} >> ${TEMP_CONFIG}
+            echo "baseurl: ${REPO_NAME}" >> ${TEMP_CONFIG}
             echo "url: https://haarer.github.io/${REPO_NAME}" >> ${TEMP_CONFIG}
           fi 
 
