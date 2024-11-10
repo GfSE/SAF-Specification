@@ -22,6 +22,7 @@ The viewpoints specify, which model elements shall be created in which kind of d
 
 ### SAF Viewpoint Grid
 The SAF Viewpoints are organized as a Grid featuring [Domains](domains.md) as rows and [Aspects](aspects.md) as columns.
+See the [SAF grid](../index.md#saf-grid)
 
 ### Domains follow engineering workflow
 The [Domains](domains.md) are based on by a typical engineering workflow. 

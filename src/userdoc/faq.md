@@ -42,7 +42,7 @@ See the [SAF concern documentation](concerns.html).
 
 ## Domains
 **What are Domains?**
-The rows of the SAF grid are called  domains. They organize the viewpoints in a way that typical engineering workflows follow the viewpoints in one domain, then continue to the next domain. 
+The rows of the [SAF grid](../index.md#saf-grid) are called  domains. They organize the viewpoints in a way that typical engineering workflows follow the viewpoints in one domain, then continue to the next domain. 
 
 See the [SAF domain Documentation](domains.md)
 
@@ -51,7 +51,7 @@ See the [SAF domain Documentation](domains.md)
 ## Aspects
 **What are Aspects?**
 
-The columns of the SAF grid are called aspects. They organize the viewpoints by the kind of information need of stakeholders, typically similar diagram kinds appear together in the same aspect, and typically the same information need appears in multiple domains. 
+The columns of the [SAF grid](../index.md#saf-grid) are called aspects. They organize the viewpoints by the kind of information need of stakeholders, typically similar diagram kinds appear together in the same aspect, and typically the same information need appears in multiple domains. 
 
 See the [SAF aspect Documentation](aspects.md)
 
@@ -62,7 +62,7 @@ See the [SAF aspect Documentation](aspects.md)
 
 The Grid of a Framework is a means to organize and structure the Viewpoints of a Framework. It is like a tool-wall in a well organized workshop. Every tool has its place and is easily accessable.
 
-See the [SAF Viewpoint Grid](structure.md#saf-viewpoint-grid)
+See the [SAF grid](../index.md#saf-grid)
 
 ## System Hierarchy
 **What is a System Hierarchy or System Decomposition?**
