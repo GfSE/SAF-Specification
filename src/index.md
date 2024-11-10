@@ -11,12 +11,13 @@ The SAF can be used stand-alone and also complementary to enterprise architectur
 ![Bild](./assets/images/EAandSAF.png)
 
 # What is SAF? 
-* SAF is an architecture framework intended to support the Model Based Systems Engineering (MBSE) of technical systems.
-* SAF is an open toolbox.
+* SAF is SysML based architecture framework intended to support the Model Based Systems Engineering (MBSE) of technical systems.
+* SAF is an open and extensible toolbox. It is developed by the SAF Working Group of the german INCOSE chapter [GfSE](https://gfse.org).
 * SAF is based on a Systems Engineering Ontology and structured by viewpoint definitions.
-* SAF starts where enterprise architecture frameworks end.
+* SAF supports 3 major [MBSE Tools](#tool-implementations). 
 
 # SAF Grid
+The following table shows the organisation of the SAF in [Domains](./userdoc/faq.md#domains) and [Aspects](./userdoc/faq.md#aspects). The cells of the grid contain the [Viewpoints](./userdoc/faq.md#viewpoints), please click on the links in the table to navigate to detailled descriptions of Domains, Aspects and Viewpoints.
 
 {% include grid.html %}
 
