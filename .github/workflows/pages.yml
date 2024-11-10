@@ -50,10 +50,12 @@ jobs:
           [[ ${RUNNER_DEBUG:-0} -eq 1 ]] && set -x
           [[ "$BRANCH_NAME" != "main" ]] && TARGET_FOLDER="${{ github.ref_name }}"
           echo "TARGET_FOLDER=$(echo $TARGET_FOLDER)" >> $GITHUB_ENV
-
           REPO_NAME=$(jq -r ".repository.name" "$GITHUB_EVENT_PATH")
+          UNAME=${GITHUB_REPOSITORY#*/}
+
           echo $TARGET_FOLDER
           echo $REPO_NAME
+          echo $UNAME
 
           TEMP_CONFIG=$(mktemp)
           # avoid look up of API as it doesn't work from within actions without exposing the GITHUB_TOKEN here which is a security risk
@@ -77,11 +79,11 @@ jobs:
           if [[ -f "CNAME" ]]
           then
             CNAME_STR=$(cat CNAME)
-            echo "CNAME: $CNAME_STR "
+            echo "CNAME: $CNAME_STR"
             echo "url: https://${CNAME_STR}" >> ${TEMP_CONFIG}
           else
             echo "baseurl: ${REPO_NAME}" >> ${TEMP_CONFIG}
-            echo "url: https://haarer.github.io/${REPO_NAME}" >> ${TEMP_CONFIG}
+            echo "url: https://${UNAME}.github.io/${REPO_NAME}" >> ${TEMP_CONFIG}
           fi 
 
           # allow override of everything
