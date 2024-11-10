@@ -13,7 +13,15 @@
         <td>{{ dom.first.Name }}</td>
         {% for asp in site.data.aspects %}
         {% assign asp_vp= dom_vp | where: "Aspect", asp.Name %}
-        <td>{% for vp in asp_vp %} {{vp.VP_ID}} {% unless forloop.last %}<BR> {% endunless %} {% endfor %}</td>
+        <td>{% for vp in asp_vp %} 
+            <div class="tooltip">
+                {% if vp.Domain == "SAF Development" -%}
+                <A href="./devdoc/{{ vp.Domain }} Domain/{{ vp.Name }}.html" >{{vp.VP_ID}}<span class="tooltiptext">{{ vp.Name }}</span></A>
+                {% else %}
+                <A href="./userdoc/{{ vp.Domain }} Domain/{{ vp.Name }}.html">{{vp.VP_ID}}<span class="tooltiptext">{{ vp.Name }}</span></A>
+                {% endif %}
+            </div>
+             {% unless forloop.last %}<BR> {% endunless %} {% endfor %}</td>
         {% endfor %}
     </tr>
     {% endfor %}
