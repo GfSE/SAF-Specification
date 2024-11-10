@@ -1,3 +1,3 @@
-.stdreftable tr th:nth-child(1) { width: fit-content; white-space: nowrap; }
+.SAFGridTable tr.SAF_Domain_D td A { color: #000000; text-decoration-color: #000000; }
 
 .site-nav ul li a { background-image: linear-gradient(-90deg, #ebedf5 0%, rgba(235, 237, 245, 0.8) 80%, rgba(235, 237, 245, 0) 100%); }
