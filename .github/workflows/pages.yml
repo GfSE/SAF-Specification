@@ -71,7 +71,8 @@ jobs:
             echo 'baseurl: ""' >> ${TEMP_CONFIG}
             echo " setting baseurl to empty string"
           fi
-
+          #testing
+          echo "baseurl: SAF-Specification-TestFork" >> ${TEMP_CONFIG}
           # allow override of everything
           cat <<EOF >> ${TEMP_CONFIG}
           ${EXTRA_CONFIG}
