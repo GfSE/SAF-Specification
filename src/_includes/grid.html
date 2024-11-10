@@ -1,0 +1,21 @@
+<table class="SAFGridTable">
+    <tr>
+        <th></th>
+        {% for asp in site.data.aspects | sort: AspectID %}
+        <th> {{ asp.Name }}</th>
+        {% endfor %}
+    </tr>
+
+    {% for dc in site.data.domaincolors %}
+    {% assign dom= site.data.domains | where : "DomainID", dc.DomainID %}
+    {% assign dom_vp= site.data.viewpoints | where: "Domain", dom.first.Name %}
+    <tr class="SAF_Domain_{{ dc.DomainID }}">
+        <td>{{ dom.first.Name }}</td>
+        {% for asp in site.data.aspects %}
+        {% assign asp_vp= dom_vp | where: "Aspect", asp.Name %}
+        <td>{% for vp in asp_vp %} {{vp.VP_ID}} {% unless forloop.last %}<BR> {% endunless %} {% endfor %}</td>
+        {% endfor %}
+    </tr>
+    {% endfor %}
+
+</table>

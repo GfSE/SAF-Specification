@@ -16,6 +16,10 @@ The SAF can be used stand-alone and also complementary to enterprise architectur
 * SAF is based on a Systems Engineering Ontology and structured by viewpoint definitions.
 * SAF starts where enterprise architecture frameworks end.
 
+# SAF Grid
+
+{% include grid.html %}
+
 # SAF Documentation
 
 This site contains both documentation for users of SAF and developers of SAF. To understand how to use SAF, head over to [Using SAF](./userdoc/using.md). To understand how we develop SAF, see [Development Documentation](./devdoc/devdoc.md). We always welcome contributions from our MBSE community to improve SAF, see [how to contribute](./userdoc/contributing.md).
