@@ -75,9 +75,9 @@ jobs:
           #testing
           if [[ -f "CNAME" ]]
           then
-            cname_str = $(cat CNAME)
-            echo "CNAME: $cname_str "
-            echo "url: https://$cname_str" >> ${TEMP_CONFIG}
+            CNAME_STR=$(cat CNAME)
+            echo "CNAME: $CNAME_STR "
+            echo "url: https://$CNAME_STR" >> ${TEMP_CONFIG}
           else
             echo "baseurl: SAF-Specification-TestFork" >> ${TEMP_CONFIG}
             echo "url: https://haarer.github.io/SAF-Specification-TestFork" >> ${TEMP_CONFIG}
