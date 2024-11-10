@@ -71,8 +71,18 @@ jobs:
             echo 'baseurl: ""' >> ${TEMP_CONFIG}
             echo " setting baseurl to empty string"
           fi
+
           #testing
-          echo "baseurl: SAF-Specification-TestFork" >> ${TEMP_CONFIG}
+          if [[ -f "CNAME" ]]
+          then
+            cname_str = $(cat CNAME)
+            echo "CNAME: $cname_str "
+            echo "url: https://$cname_str" >> ${TEMP_CONFIG}
+          else
+            echo "baseurl: SAF-Specification-TestFork" >> ${TEMP_CONFIG}
+            echo "url: https://haarer.github.io/SAF-Specification-TestFork" >> ${TEMP_CONFIG}
+          fi 
+
           # allow override of everything
           cat <<EOF >> ${TEMP_CONFIG}
           ${EXTRA_CONFIG}
