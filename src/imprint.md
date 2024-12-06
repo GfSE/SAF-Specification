@@ -8,7 +8,7 @@ nav_order: 99
 
 ## Publisher
 
-<img class="my-align-right size-20" src="./src/assets/images/gfse-logo.png" alt="GfSE-Logo"/>
+<img class="my-align-right size-20" src="./assets/images/gfse-logo.png" alt="GfSE-Logo"/>
 
 <p>Gesellschaft für Systems Engineering e.V.<br>Hermann-Köhl-Straße 7<br> D-28199 Bremen<br>Deutschland<br> Telefon: +49 421 9601-495<br> e-mail: <a href="mailto:office@gfse.org">office(at)gfse.org</a><br> Internet: <a href="http://www.gfse.org">www.gfse.org</a></p>
 <h3>Board of Directors</h3><p>President: Dr.-Ing. Walter Koch<br> Deputy President: Daria Wilke<br> Treasurer: Rüdiger Kaffenberger<br> Secretary: Stefan Dreiseitel</p>
