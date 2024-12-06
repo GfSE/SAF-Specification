@@ -1,7 +1,7 @@
 ---
 title: Changes
 layout: default
-navorder: 99
+navorder: 98
 ---
 {% assign changes = site.data.changes |sort: "Body" |reverse %}
 <table>
