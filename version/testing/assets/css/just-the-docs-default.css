@@ -1760,27 +1760,27 @@ blockquote.warning-title > p:last-child { margin-bottom: 0; }
 
 .stdreftable tr th:nth-child(1) { width: fit-content; white-space: nowrap; }
 
-.SAFGridTable tr.SAF_Domain_C td { background-color: #808080; color: #000000; }
+.SAFGridTable tr.SAF_Domain_C td { background-color: #A5A5A5; color: #000000; }
 
 .SAFGridTable tr.SAF_Domain_C td A { color: #000000; text-decoration-color: #000000; }
 
-.SAFGridTable tr.SAF_Domain_F td { background-color: #6699FF; color: #000000; }
+.SAFGridTable tr.SAF_Domain_F td { background-color: #00B0F0; color: #000000; }
 
 .SAFGridTable tr.SAF_Domain_F td A { color: #000000; text-decoration-color: #000000; }
 
-.SAFGridTable tr.SAF_Domain_L td { background-color: #FFFF33; color: #000000; }
+.SAFGridTable tr.SAF_Domain_L td { background-color: #FFC000; color: #000000; }
 
 .SAFGridTable tr.SAF_Domain_L td A { color: #000000; text-decoration-color: #000000; }
 
-.SAFGridTable tr.SAF_Domain_O td { background-color: #0000ff; color: #ffffff; }
+.SAFGridTable tr.SAF_Domain_O td { background-color: #4472C4; color: #000000; }
 
-.SAFGridTable tr.SAF_Domain_O td A { color: #ffffff; text-decoration-color: #ffffff; }
+.SAFGridTable tr.SAF_Domain_O td A { color: #000000; text-decoration-color: #000000; }
 
-.SAFGridTable tr.SAF_Domain_P td { background-color: #00FF00; color: #000000; }
+.SAFGridTable tr.SAF_Domain_P td { background-color: #92D050; color: #000000; }
 
 .SAFGridTable tr.SAF_Domain_P td A { color: #000000; text-decoration-color: #000000; }
 
-.SAFGridTable tr.SAF_Domain_D td { background-color: #FF00FF; color: #000000; }
+.SAFGridTable tr.SAF_Domain_D td { background-color: #C040C0; color: #000000; }
 
 .SAFGridTable tr.SAF_Domain_D td A { color: #000000; text-decoration-color: #000000; }
 

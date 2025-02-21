@@ -40,7 +40,7 @@
       ><path d="M0 0 L0 16 L16 16 L16 0 Z"
       /></clipPath
       ><clipPath clipPathUnits="userSpaceOnUse" id="a5"
-      ><path d="M0.0207 -0.0217 L0.0207 15.9783 L16.0207 15.9783 L16.0207 -0.0217 Z"
+      ><path d="M0 0 L0 -16 L16 -16 L16 0 Z"
       /></clipPath
       ><clipPath clipPathUnits="userSpaceOnUse" id="b4"
       ><path d="M-196 -438 L760 -438 L760 78 L-196 78 L-196 -438 Z"
@@ -58,17 +58,14 @@
       ><path d="M-98 -222 L858 -222 L858 294 L-98 294 L-98 -222 Z"
       /></clipPath
       ><g fill-opacity="1" color-rendering="auto" color-interpolation="auto" text-rendering="auto" stroke="black" id="a2" stroke-linecap="square" stroke-miterlimit="10" shape-rendering="auto" stroke-opacity="1" fill="black" stroke-dasharray="none" font-weight="normal" stroke-width="1" font-family="'Arial'" font-style="normal" stroke-linejoin="miter" font-size="12px" stroke-dashoffset="0" image-rendering="auto"
-      ><g fill="white" text-rendering="geometricPrecision" stroke-linecap="butt" stroke="white" stroke-linejoin="round"
-        ><rect x="5.7612" width="5.164" height="2.582" y="5.0862" clip-path="url(#a4)" stroke="none"
-          /><rect x="5.7612" y="5.0862" clip-path="url(#a4)" fill="none" width="5.164" stroke-linejoin="miter" height="2.582" stroke="rgb(159,161,180)" stroke-width="0.7071" stroke-miterlimit="4"
+      ><g fill="rgb(159,161,180)" text-rendering="geometricPrecision" stroke-miterlimit="4" stroke-width="0.7071" stroke-linecap="butt" stroke="rgb(159,161,180)"
+        ><rect fill="none" x="5.7612" width="5.164" height="2.582" y="5.0862" clip-path="url(#a4)"
         /></g
-        ><g fill="white" text-rendering="geometricPrecision" stroke-miterlimit="4" stroke-width="0.7071" stroke-linecap="butt" stroke="white"
-        ><rect x="2.0297" width="5.164" height="2.58" y="11.2201" clip-path="url(#a4)" stroke="none"
-          /><rect x="2.0297" y="11.2201" clip-path="url(#a4)" fill="none" width="5.164" height="2.58" stroke="rgb(159,161,180)"
+        ><g fill="rgb(159,161,180)" text-rendering="geometricPrecision" stroke-miterlimit="4" stroke-width="0.7071" stroke-linecap="butt" stroke="rgb(159,161,180)"
+        ><rect fill="none" x="2.0297" width="5.164" height="2.58" y="11.22" clip-path="url(#a4)"
         /></g
-        ><g fill="white" text-rendering="geometricPrecision" stroke-miterlimit="4" stroke-width="0.7071" stroke-linecap="butt" stroke="white"
-        ><rect x="9.0636" width="5.163" height="2.58" y="11.1776" clip-path="url(#a4)" stroke="none"
-          /><rect x="9.0636" y="11.1776" clip-path="url(#a4)" fill="none" width="5.163" height="2.58" stroke="rgb(159,161,180)" stroke-width="0.7072"
+        ><g fill="rgb(159,161,180)" text-rendering="geometricPrecision" stroke-miterlimit="4" stroke-width="0.7072" stroke-linecap="butt" stroke="rgb(159,161,180)"
+        ><rect fill="none" x="9.0636" width="5.163" height="2.58" y="11.178" clip-path="url(#a4)"
         /></g
         ><g fill="rgb(159,161,180)" text-rendering="geometricPrecision" stroke-miterlimit="4" stroke-linecap="round" stroke="rgb(159,161,180)"
         ><path fill="none" d="M8.3934 7.9808 L4.6856 11.0785" clip-path="url(#a4)"
@@ -76,15 +73,15 @@
         ><g fill="rgb(159,161,180)" text-rendering="geometricPrecision" stroke-miterlimit="4" stroke-linecap="round" stroke="rgb(159,161,180)"
         ><path fill="none" d="M8.3934 7.9808 L11.581 10.8595" clip-path="url(#a4)"
         /></g
-        ><g text-rendering="geometricPrecision" stroke-miterlimit="4" stroke-width="0.55" stroke-linecap="butt"
-        ><rect fill="none" x="0.255" width="15.489" height="15.473" y="0.263" clip-path="url(#a5)"
+        ><g fill="rgb(160,160,160)" text-rendering="geometricPrecision" stroke-miterlimit="4" stroke-linecap="round" stroke="rgb(160,160,160)"
+        ><circle r="3" clip-path="url(#a4)" cx="3.275" cy="3.275" stroke="none"
+          /><circle stroke-linecap="butt" clip-path="url(#a4)" fill="none" r="3" cx="3.275" cy="3.275" stroke="black" stroke-width="0.5"
         /></g
-        ><g fill="rgb(64,64,64)" text-rendering="geometricPrecision" stroke-miterlimit="4" stroke-width="0.55" stroke-linecap="butt" stroke="rgb(64,64,64)"
-        ><circle r="3.189" clip-path="url(#a4)" cx="3.4847" cy="3.4847" stroke="none"
-          /><circle fill="none" r="3.189" clip-path="url(#a4)" cx="3.4847" cy="3.4847" stroke="black"
+        ><g text-rendering="geometricPrecision" stroke-miterlimit="4" stroke-width="0.5" stroke-linecap="butt"
+        ><path d="M4.3539 -2.6758 L4.8591 -2.549 Q4.7011 -1.9258 4.2879 -1.5976 Q3.8747 -1.2712 3.2793 -1.2712 Q2.6612 -1.2712 2.2741 -1.523 Q1.8886 -1.7747 1.6855 -2.2504 Q1.4841 -2.7278 1.4841 -3.2747 Q1.4841 -3.8719 1.7116 -4.3146 Q1.9407 -4.7591 2.3609 -4.99 Q2.781 -5.2209 3.2862 -5.2209 Q3.8591 -5.2209 4.2497 -4.9292 Q4.6404 -4.6375 4.7949 -4.108 L4.2966 -3.9917 Q4.1647 -4.4084 3.9112 -4.5976 Q3.6595 -4.7886 3.2758 -4.7886 Q2.8366 -4.7886 2.5397 -4.5768 Q2.2445 -4.3667 2.1248 -4.0108 Q2.005 -3.6549 2.005 -3.2782 Q2.005 -2.7903 2.1473 -2.4275 Q2.2897 -2.0646 2.5883 -1.8841 Q2.8886 -1.7053 3.2376 -1.7053 Q3.6612 -1.7053 3.9546 -1.9501 Q4.2497 -2.1949 4.3539 -2.6758 Z" stroke="none" clip-path="url(#a5)"
         /></g
-        ><g text-rendering="geometricPrecision" stroke-miterlimit="4" stroke-width="0.55" stroke-linecap="butt"
-        ><path d="M4.5967 4.1088 L5.1019 4.2356 Q4.944 4.8588 4.5308 5.187 Q4.1176 5.5134 3.5221 5.5134 Q2.904 5.5134 2.5169 5.2616 Q2.1315 5.0099 1.9283 4.5342 Q1.7269 4.0568 1.7269 3.5099 Q1.7269 2.9127 1.9544 2.47 Q2.1835 2.0255 2.6037 1.7946 Q3.0238 1.5637 3.529 1.5637 Q4.1019 1.5637 4.4926 1.8554 Q4.8832 2.147 5.0377 2.6766 L4.5394 2.7929 Q4.4075 2.3762 4.154 2.187 Q3.9023 1.996 3.5186 1.996 Q3.0794 1.996 2.7825 2.2078 Q2.4874 2.4179 2.3676 2.7738 Q2.2478 3.1297 2.2478 3.5064 Q2.2478 3.9943 2.3901 4.3571 Q2.5325 4.72 2.8311 4.9005 Q3.1315 5.0793 3.4804 5.0793 Q3.904 5.0793 4.1974 4.8345 Q4.4926 4.5898 4.5967 4.1088 Z" stroke="none" clip-path="url(#a4)"
+        ><g text-rendering="geometricPrecision" stroke-miterlimit="4" stroke-width="0.5" stroke-linecap="butt"
+        ><rect fill="none" x="0.2745" width="15.4511" height="15.4511" y="0.2745" clip-path="url(#a4)"
         /></g
       ></g
       ><g fill-opacity="1" color-rendering="auto" color-interpolation="auto" text-rendering="auto" stroke="black" id="b3" stroke-linecap="square" stroke-miterlimit="10" shape-rendering="auto" stroke-opacity="1" fill="black" stroke-dasharray="none" font-weight="normal" stroke-width="1" font-family="'Arial'" font-style="normal" stroke-linejoin="miter" font-size="12px" stroke-dashoffset="0" image-rendering="auto"
