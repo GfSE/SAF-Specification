@@ -5004,66 +5004,6 @@
   }
 }, {
   "Name" : "",
-  "ID" : "_2024x_26f0132_1715866069177_39016_16454",
-  "Documentation" : "I need to make sure that the security requirements regarding handling of protected information by the system can be adressed appropriately.",
-  "Concern" : {
-    "ID" : "_2024x_26f0132_1715865876648_409885_16315",
-    "Name" : "what is the protection need of information"
-  },
-  "Stakeholder" : {
-    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
-    "Name" : "Security Expert"
-  }
-}, {
-  "Name" : "",
-  "ID" : "_2024x_26f0132_1715866080461_404727_16457",
-  "Documentation" : "i need to plan the architecture to adress the security requirements.",
-  "Concern" : {
-    "ID" : "_2024x_26f0132_1715865876648_409885_16315",
-    "Name" : "what is the protection need of information"
-  },
-  "Stakeholder" : {
-    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
-    "Name" : "System Architect"
-  }
-}, {
-  "Name" : "",
-  "ID" : "_2024x_26f0132_1715866405908_203911_16479",
-  "Documentation" : "I need to assessan if  differences in security levels are handled by the architecture appropriately.",
-  "Concern" : {
-    "ID" : "_2024x_26f0132_1715866272828_61432_16469",
-    "Name" : "what is the security level of information handled by the system or system elements"
-  },
-  "Stakeholder" : {
-    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
-    "Name" : "System Architect"
-  }
-}, {
-  "Name" : "",
-  "ID" : "_2024x_26f0132_1718013962649_476989_39133",
-  "Documentation" : "I need to use them to assign protection goals to assets, and to assign trust levels to context elements.",
-  "Concern" : {
-    "ID" : "_2024x_26f0132_1718013904611_698880_39125",
-    "Name" : "which protection goals  and subcategories can be used?"
-  },
-  "Stakeholder" : {
-    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
-    "Name" : "Security Expert"
-  }
-}, {
-  "Name" : "",
-  "ID" : "_2024x_26f0132_1718013968192_298824_39136",
-  "Documentation" : "",
-  "Concern" : {
-    "ID" : "_2024x_26f0132_1718013904611_698880_39125",
-    "Name" : "which protection goals  and subcategories can be used?"
-  },
-  "Stakeholder" : {
-    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
-    "Name" : "System Architect"
-  }
-}, {
-  "Name" : "",
   "ID" : "_2024x_26f0132_1719129313191_823388_14654",
   "Documentation" : "I need an overview over the viewpoints available to identify possible gaps.",
   "Concern" : {

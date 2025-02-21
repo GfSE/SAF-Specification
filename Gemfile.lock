@@ -9,8 +9,8 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
-    faraday (2.12.0)
-      faraday-net_http (>= 2.0, < 3.4)
+    faraday (2.12.2)
+      faraday-net_http (>= 2.0, < 3.5)
       json
       logger
     faraday-net_http (3.3.0)
@@ -64,9 +64,9 @@ GEM
     listen (3.9.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
-    logger (1.6.1)
+    logger (1.6.6)
     mercenary (0.4.0)
-    net-http (0.4.1)
+    net-http (0.6.0)
       uri
     octokit (6.1.1)
       faraday (>= 1, < 3)

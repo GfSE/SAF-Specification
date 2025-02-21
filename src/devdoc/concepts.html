@@ -14,9 +14,10 @@ The Elements of the SAF Ontology are listed in the following Table. The Table co
 </UL>
 </div>
 
+{% assign concepts = site.data.concepts | sort: "Name" %}
 <table>
 <tr><th> Concept</th><th> Documentation</th><th>Base Concept</th><th>Specific Concept</th><th>Viewpoint</th></tr>
-{% for element in site.data.concepts %}
+{% for element in concepts %}
 <tr>
 {% assign relsubject = element.AssociationEnds[1] %}
 {% assign relobject = element.AssociationEnds[0] %}
