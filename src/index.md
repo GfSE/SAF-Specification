@@ -45,6 +45,6 @@ The SAF specification is implemented by 3 tool specific profiles which are avail
 * [Enterprise Architect (by Sparx Systems)](https://github.com/GfSE/SAF-EA-Profile)
 
 # References
-[1] Modellbasierter Bärentango mit dem System Architecture Framework, TdSE 2021, Michael Leute, Alexander Haarer, Sascha Ackva, Christian Lalitsch-Schneider, Markus Andres, Stephan Husung und Piotr Malecki [Link]
-[2] System Safety in SysML, TdSE 2015, T. Weilkiens, A. Berres, D. Endler, A. Haarer, C. Lalitsch-Schneider, M. Krammer, H. Martin
-[3] System Architecture Framework (SAF), EMEASEC 2018, Rodrigo Batista, Alexander Haarer, Sascha Ackva, Christian Lalitsch-Schneider
+* Modellbasierter Bärentango mit dem System Architecture Framework, TdSE 2021, Michael Leute, Alexander Haarer, Sascha Ackva, Christian Lalitsch-Schneider, Markus Andres, Stephan Husung und Piotr Malecki
+* System Architecture Framework (SAF), EMEASEC 2018, Rodrigo Batista, Alexander Haarer, Sascha Ackva, Christian Lalitsch-Schneider
+* System Safety in SysML, TdSE 2015, T. Weilkiens, A. Berres, D. Endler, A. Haarer, C. Lalitsch-Schneider, M. Krammer, H. Martin
