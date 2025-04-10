@@ -14,24 +14,14 @@ The naming scheme for stereotyped diagrams is "SAF_\<domaincode>_\<diagram kind 
 
 Icons shall encode the SAF Domain of primary use, by the colored, and the domain short code, preferably both.
 
-## Domain Colors
+## Domain codes, colors and names
+{% for dc in site.data.domaincolors %}
+{%- assign dn = site.data.domains | where: "DomainID" , dc.DomainID -%}
+ - {{dc.DomainID }} {{dc.Color}} {{ dn.first.Name }} Domain
+{% endfor %}
 
- - Operational Domain  0000FF 0 0 255 (rgb)
- - Functional Domain 6699FF  102 153 255 (rgb)
- - Logical Domain FFFF33    255 255 51 (rgb)
- - Physical Domain 00FF00  0 255 0 (rgb)
- - Common Domain 808080  128 128 128 (rgb)
 
-## Domain codes
-
- * C : Common Domain
- * O : Operational Domain
- * F : Functional Domain
- * L : Logical Domain
- * P : Physical Domain
- * D : SAF Development Domain
-
- ## Diagram Kind codes
+## Diagram Kind codes
 
  * BDD : Block Definition Diagram
  * IBD : Internal Block Diagram

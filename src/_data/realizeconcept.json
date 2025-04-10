@@ -3884,7 +3884,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_4c5019a_1724834932932_125760_732",
-    "Name" : "SAF_C8_ASID_Table"
+    "Name" : "SAF_F7_ASID_Table"
   }
 }, {
   "Name" : "",
@@ -3944,7 +3944,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_4c5019a_1724846855776_360910_2549",
-    "Name" : "SAF_C8_ASID"
+    "Name" : "SAF_F7_ASID"
   }
 }, {
   "Name" : "",
@@ -4040,7 +4040,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_4c5019a_1725548418126_514094_79",
-    "Name" : "SAF_C9_SECT"
+    "Name" : "SAF_F7_SECT"
   }
 }, {
   "Name" : "",
@@ -4052,7 +4052,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_4c5019a_1725548466184_799473_85",
-    "Name" : "SAF_C9_SECT_Table"
+    "Name" : "SAF_F7_SECT_Table"
   }
 }, {
   "Name" : "",
@@ -4148,7 +4148,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_4c5019a_1726421910225_40359_327",
-    "Name" : "SAF_C10_IMAN"
+    "Name" : "SAF_F7_IMAN"
   }
 }, {
   "Name" : "",
@@ -4160,7 +4160,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_4c5019a_1726421828345_746165_321",
-    "Name" : "SAF_C10_IMAN_Table"
+    "Name" : "SAF_F7_IMAN_Table"
   }
 }, {
   "Name" : "",
@@ -4232,7 +4232,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_4c5019a_1726432501687_212033_405",
-    "Name" : "SAF_C11_THSC"
+    "Name" : "SAF_F7_THSC"
   }
 }, {
   "Name" : "",
@@ -4244,7 +4244,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_4c5019a_1726432538483_126898_411",
-    "Name" : "SAF_C11_THSC_Table"
+    "Name" : "SAF_F7_THSC_Table"
   }
 }, {
   "Name" : "",
@@ -4304,7 +4304,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_4c5019a_1726432568406_567060_417",
-    "Name" : "SAF_C12_RIAN"
+    "Name" : "SAF_F7_RIAN"
   }
 }, {
   "Name" : "",
@@ -4316,19 +4316,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_4c5019a_1726432589722_859572_423",
-    "Name" : "SAF_C12_RIAN_Table"
-  }
-}, {
-  "Name" : "",
-  "ID" : "_2024x_8710274_1715874655525_600737_15899",
-  "Documentation" : "",
-  "RealizedConcept" : {
-    "ID" : "_2024x_8710274_1715874205543_398212_14936",
-    "Name" : "Protection Goal Definition Viewpoint"
-  },
-  "RealizationOfConcept" : {
-    "ID" : "_2024x_8710274_1715874592986_911669_15868",
-    "Name" : "SAF_C7_PRND_Table"
+    "Name" : "SAF_F7_RIAN_Table"
   }
 }, {
   "Name" : "",
