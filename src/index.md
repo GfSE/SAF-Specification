@@ -43,3 +43,8 @@ The SAF specification is implemented by 3 tool specific profiles which are avail
 * [Cameo Systems Modeler (by Dassault Systèmes)](https://github.com/GfSE/SAF-Cameo-Profile)
 * [Engineering Systems Design Rhapsody (by IBM)](https://github.com/GfSE/SAF-Rhapsody-Profile)
 * [Enterprise Architect (by Sparx Systems)](https://github.com/GfSE/SAF-EA-Profile)
+
+# References
+* Modellbasierter Bärentango mit dem System Architecture Framework, TdSE 2021, Michael Leute, Alexander Haarer, Sascha Ackva, Christian Lalitsch-Schneider, Markus Andres, Stephan Husung und Piotr Malecki
+* System Architecture Framework (SAF), EMEASEC 2018, Rodrigo Batista, Alexander Haarer, Sascha Ackva, Christian Lalitsch-Schneider
+* System Safety in SysML, TdSE 2015, T. Weilkiens, A. Berres, D. Endler, A. Haarer, C. Lalitsch-Schneider, M. Krammer, H. Martin
