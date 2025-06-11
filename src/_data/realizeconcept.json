@@ -880,7 +880,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_3_6d8019d_1599070472635_176306_252",
-    "Name" : "Operational Performer Viewpoint"
+    "Name" : "Operational Performer Definition Viewpoint"
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_3_26f0132_1601455842479_177976_826",
@@ -3172,7 +3172,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_3_6d8019d_1599070472635_176306_252",
-    "Name" : "Operational Performer Viewpoint"
+    "Name" : "Operational Performer Definition Viewpoint"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_26f0132_1718447567270_264151_25996",
@@ -3532,7 +3532,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_3_6d8019d_1599070472635_176306_252",
-    "Name" : "Operational Performer Viewpoint"
+    "Name" : "Operational Performer Definition Viewpoint"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_26f0132_1718465296666_634864_34126",
@@ -3861,6 +3861,18 @@
   "RealizationOfConcept" : {
     "ID" : "_2021x_2_8710274_1674486070195_664660_27223",
     "Name" : "SCM_VPStakeholder"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1749655977534_558007_290",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_2_26f0132_1749655623218_564595_162",
+    "Name" : "OPRspecializesOPR"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_9_0_62a020a_1105704885195_432731_7879",
+    "Name" : "Generalization"
   }
 }, {
   "Name" : "",

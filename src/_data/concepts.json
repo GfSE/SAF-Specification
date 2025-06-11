@@ -1745,7 +1745,7 @@
     "Name" : "Operational Process Viewpoint"
   }, {
     "ID" : "_19_0_3_6d8019d_1599070472635_176306_252",
-    "Name" : "Operational Performer Viewpoint"
+    "Name" : "Operational Performer Definition Viewpoint"
   }, {
     "ID" : "_19_0_3_26f0132_1601459636216_111430_6921",
     "Name" : "Operational Process Mapping Viewpoint"
@@ -2136,7 +2136,7 @@
     "Name" : "Stakeholder Identification Viewpoint"
   }, {
     "ID" : "_19_0_3_6d8019d_1599070472635_176306_252",
-    "Name" : "Operational Performer Viewpoint"
+    "Name" : "Operational Performer Definition Viewpoint"
   } ],
   "Documentation" : "Specifies the fact that a SOI Stakeholder is representing an Operational Performer.",
   "AssociationEnds" : [ {
@@ -2202,7 +2202,7 @@
     "Name" : "Stakeholder Requirement Definition Viewpoint"
   }, {
     "ID" : "_19_0_3_6d8019d_1599070472635_176306_252",
-    "Name" : "Operational Performer Viewpoint"
+    "Name" : "Operational Performer Definition Viewpoint"
   } ],
   "Documentation" : "An individual, team, or organization (or classes thereof) with interests in, or concerns relative to, a system. It may be involved in any life cycle phase of the System. The Stakeholder represents a class or kind of Stakeholders. Stakeholders have a certain involvement: Stakeholder Involvement captures the influence of a project specific Stakeholder on the System. Stakeholder Involvement is characterized by\n* Contact Person\n* Kind of involvement\n* Life Cycle Phases involved\n* Relevance decision if and up to which degree Stakeholder is considered\n* Rationale for decision when Stakeholder is not considered",
   "AssociationEnds" : [ ],
@@ -2981,7 +2981,7 @@
 }, {
   "InViewpoint" : [ {
     "ID" : "_19_0_3_6d8019d_1599070472635_176306_252",
-    "Name" : "Operational Performer Viewpoint"
+    "Name" : "Operational Performer Definition Viewpoint"
   } ],
   "Documentation" : "Specifies the fact that an Operational Performer consists of one or more Operational Performers.",
   "AssociationEnds" : [ {
@@ -5539,11 +5539,31 @@
   "IsGeneralFor" : [ ]
 }, {
   "InViewpoint" : [ {
-    "ID" : "_2024x_4c5019a_1725447776446_993396_779",
-    "Name" : "Security Context Viewpoint"
+    "ID" : "_19_0_3_6d8019d_1599070472635_176306_252",
+    "Name" : "Operational Performer Definition Viewpoint"
+  } ],
+  "Documentation" : "Specifies the fact that an Operational Performer may be a specialization of an other Operational Performer.",
+  "AssociationEnds" : [ {
+    "ID" : "_19_0_2_26f0132_1562316412621_925297_43615",
+    "Name" : "Operational Performer",
+    "Multiplicity" : "0..1"
   }, {
+    "ID" : "_19_0_2_26f0132_1562316412621_925297_43615",
+    "Name" : "Operational Performer",
+    "Multiplicity" : "0..*"
+  } ],
+  "Name" : "OPRspecializesOPR",
+  "ID" : "_2024x_2_26f0132_1749655623218_564595_162",
+  "InheritsFrom" : [ ],
+  "ClassType" : "Association",
+  "IsGeneralFor" : [ ]
+}, {
+  "InViewpoint" : [ {
     "ID" : "_2024x_4c5019a_1724766057976_458531_938",
     "Name" : "Asset Identification Viewpoint"
+  }, {
+    "ID" : "_2024x_4c5019a_1725447776446_993396_779",
+    "Name" : "Security Context Viewpoint"
   } ],
   "Documentation" : "The Security Context describes all internal and external elements, boundaries, interconnections and assumptions that referes to the security of a system or an asset.\nDIN ISO 31000:2018-10 defines: \n\"The context of the risk management process should be derived from an understanding of the external and internal environment in which the organisation operates and should reflect the specific environment of the activity to which the risk management process is applied.\" ",
   "AssociationEnds" : [ ],
@@ -5601,11 +5621,11 @@
   } ]
 }, {
   "InViewpoint" : [ {
-    "ID" : "_2024x_4c5019a_1729844949340_14779_2347",
-    "Name" : "Impact Analysis Viewpoint"
-  }, {
     "ID" : "_2024x_4c5019a_1724766057976_458531_938",
     "Name" : "Asset Identification Viewpoint"
+  }, {
+    "ID" : "_2024x_4c5019a_1729844949340_14779_2347",
+    "Name" : "Impact Analysis Viewpoint"
   } ],
   "Documentation" : "The Security Objectives are defined as the CIA-Triad (Confidentiality, Integrity, Availability)\n\n(Synonym: Security Attribute, Security Propaty)\n\nFIPS PUB 199 - Standards for Security Categorization of Federal Information and Information Systems:\n\n\"The FISMA defines three security objectives for information and information systems:\nCONFIDENTIALITY\n“Preserving authorized restrictions on information access and disclosure, including means for\nprotecting personal privacy and proprietary information…” [44 U.S.C., Sec. 3542 ]\nA loss of confidentiality is the unauthorized disclosure of information.\nINTEGRITY\n“Guarding against improper information modification or destruction, and includes ensuring\ninformation non-repudiation and authenticity…” [ 44 U.S.C., Sec. 3542]\nA loss of integrity is the unauthorized modification or destruction of information.\nAVAILABILITY\n“Ensuring timely and reliable access to and use of information…” [44 U.S.C., S EC. 3542 ]\nA loss of availability is the disruption of access to or use of information or an information system.\"",
   "AssociationEnds" : [ ],
@@ -6370,11 +6390,11 @@
   "IsGeneralFor" : [ ]
 }, {
   "InViewpoint" : [ {
-    "ID" : "_2024x_4c5019a_1725447776446_993396_779",
-    "Name" : "Security Context Viewpoint"
-  }, {
     "ID" : "_2024x_4c5019a_1724766057976_458531_938",
     "Name" : "Asset Identification Viewpoint"
+  }, {
+    "ID" : "_2024x_4c5019a_1725447776446_993396_779",
+    "Name" : "Security Context Viewpoint"
   } ],
   "Documentation" : "An abstract element representing a Security Context Element. Base class for specific kinds of Security Context Elements.",
   "AssociationEnds" : [ ],

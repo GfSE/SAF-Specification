@@ -968,7 +968,7 @@
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_6d8019d_1599070472635_176306_252",
-    "Name" : "Operational Performer Viewpoint"
+    "Name" : "Operational Performer Definition Viewpoint"
   }
 }, {
   "Name" : "",
@@ -980,7 +980,7 @@
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_6d8019d_1599070472635_176306_252",
-    "Name" : "Operational Performer Viewpoint"
+    "Name" : "Operational Performer Definition Viewpoint"
   }
 }, {
   "Name" : "",
@@ -1040,7 +1040,7 @@
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_6d8019d_1599070472635_176306_252",
-    "Name" : "Operational Performer Viewpoint"
+    "Name" : "Operational Performer Definition Viewpoint"
   }
 }, {
   "Name" : "",
@@ -1052,7 +1052,7 @@
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_6d8019d_1599070472635_176306_252",
-    "Name" : "Operational Performer Viewpoint"
+    "Name" : "Operational Performer Definition Viewpoint"
   }
 }, {
   "Name" : "",
@@ -4173,6 +4173,18 @@
   "Viewpoint" : {
     "ID" : "_2024x_26f0132_1719735528612_846205_25134",
     "Name" : "Framework Stakeholder and Concern Definition Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1749655786981_254186_226",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_2_26f0132_1749655623218_564595_162",
+    "Name" : "OPRspecializesOPR"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_3_6d8019d_1599070472635_176306_252",
+    "Name" : "Operational Performer Definition Viewpoint"
   }
 }, {
   "Name" : "",
