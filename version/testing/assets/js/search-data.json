@@ -8253,18 +8253,18 @@
     "relUrl": "/devdoc/docgen.html#github-workflow-on-saf-specification-repository"
   },"1179": {
     "doc": "Documentation Generation",
-    "title": "local document generation (setup)",
-    "content": ". | clone the SAF Specification repository to your machine . git clone https://github.com/GfSE/SAF-Specification.git . | install ruby,bundler and jekyll . on linux, it is recommended to setup a user specifc tool chain, not interfering with the system : . gem install bundler --user-install export PATH=\"~/.local/share/gem/ruby/3.2.0/bin/:$PATH\" export BUNDLE_PATH=\"~/.local/share/gem/ruby/3.2.0/gems/\" . ",
-    "url": "/version/testing/devdoc/docgen.html#local-document-generation-setup",
+    "title": "Local document generation using docker and vs-code",
+    "content": ". | install git | install wsl 2 (no distro) . in a powershell . wsl --install --no-distro . | install docker desktop (a WSL2 based installation) | clone the SAF Specification repository to your machine git clone https://github.com/GfSE/SAF-Specification.git . | install vs-code | open repo with vs code. Vscode will advise to install some extensions, please follow those recommendations for vscode extensions. Finally this will create the container image and run it. the SAF documentation is available at localhost:4000 | . ",
+    "url": "/version/testing/devdoc/docgen.html#local-document-generation-using-docker-and-vs-code",
     
-    "relUrl": "/devdoc/docgen.html#local-document-generation-setup"
+    "relUrl": "/devdoc/docgen.html#local-document-generation-using-docker-and-vs-code"
   },"1180": {
     "doc": "Documentation Generation",
-    "title": "local document generation (running)",
-    "content": "Run the document generation starting a local web server and open the saf documentation locally . | in the cloned repository dir, start the generation bundle excec jekyll serve . | open http://localhost:4000 with a browser | . The pages are updated on change of the files. It takes a while, give or take 15-20 seconds. The update is reported in the shell where you called bundle excec jekyll serve . ",
-    "url": "/version/testing/devdoc/docgen.html#local-document-generation-running",
+    "title": "Local document generation (manual setup)",
+    "content": "setting up local document generation . | install git | clone the SAF Specification repository to your machine . git clone https://github.com/GfSE/SAF-Specification.git . | install ruby,bundler and jekyll . on linux, it is recommended to setup a user specifc tool chain, not interfering with the system : . gem install bundler --user-install export PATH=\"~/.local/share/gem/ruby/3.2.0/bin/:$PATH\" export BUNDLE_PATH=\"~/.local/share/gem/ruby/3.2.0/gems/\" . running local document generation . Run the document generation starting a local web server and open the saf documentation locally . | in the cloned repository dir, start the generation bundle excec jekyll serve . | open http://localhost:4000 with a browser | . The pages are updated on change of the files. It takes a while, give or take 15-20 seconds. The update is reported in the shell where you called bundle excec jekyll serve . ",
+    "url": "/version/testing/devdoc/docgen.html#local-document-generation-manual-setup",
     
-    "relUrl": "/devdoc/docgen.html#local-document-generation-running"
+    "relUrl": "/devdoc/docgen.html#local-document-generation-manual-setup"
   },"1181": {
     "doc": "Documentation Generation",
     "title": "Documentation Generation",
