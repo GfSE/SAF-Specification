@@ -23,42 +23,6 @@
   "ID" : "_2021x_2_8710274_1681817980233_699586_29433",
   "Documentation" : "Defines a relation where the instances of the client(sterotype or metaclass) is contained in instances of the the supplier (stereotype or metaclass). This is used to specify an inplementation of a SAF concept\nUsed for specifying SAF."
 }, {
-  "Name" : "SCM_D2_CCND",
-  "ID" : "_2024x_26f0132_1719737905318_641589_28831",
-  "Documentation" : ""
-}, {
-  "Name" : "SCM_D2_COTD",
-  "ID" : "_2021x_2_8710274_1702027432699_857546_20465",
-  "Documentation" : ""
-}, {
-  "Name" : "SCM_D2_COTD_Table",
-  "ID" : "_2024x_26f0132_1719737475680_936292_28621",
-  "Documentation" : ""
-}, {
-  "Name" : "SCM_D2_STKD_Table",
-  "ID" : "_2024x_26f0132_1719738093050_603021_28974",
-  "Documentation" : ""
-}, {
-  "Name" : "SCM_D2_STYD_Table",
-  "ID" : "_2024x_26f0132_1719738142966_985767_29029",
-  "Documentation" : "The Stereotype Viewpoint provides an overview over all stereotypes provided by SAF.\n\nRepresentation:\n\nA table featuring the stereotypes of the SAF profile and their documentation."
-}, {
-  "Name" : "SCM_D2_VPTD",
-  "ID" : "_2024x_26f0132_1719737475678_685392_28619",
-  "Documentation" : ""
-}, {
-  "Name" : "SCM_D2_VPTI",
-  "ID" : "_2024x_26f0132_1719737520846_727143_28649",
-  "Documentation" : ""
-}, {
-  "Name" : "SCM_D2_VPTO",
-  "ID" : "_2024x_26f0132_1719737521935_491979_28659",
-  "Documentation" : ""
-}, {
-  "Name" : "SCM_D2_VPTO_Table",
-  "ID" : "_2024x_26f0132_1719738460476_855266_29208",
-  "Documentation" : ""
-}, {
   "Name" : "SCM_DerivedRelationship",
   "ID" : "_19_0_2_26f0132_1562308942006_833345_142878",
   "Documentation" : "a derived relationship among SAF_Concepts which is important for views and stakeholders, but not  a primary information\nThe rule of derivation must be specified and is used if the relationship is exposed in a view.\nThis shall be always used together with SAF_Concept on relationships.\nUsed for specifying SAF."

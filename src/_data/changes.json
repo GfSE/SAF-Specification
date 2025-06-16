@@ -109,5 +109,9 @@
 }, {
   "Body" : "2025-06-11",
   "ID" : "_2024x_2_26f0132_1749659048679_150169_3474",
-  "Documentation" : "<html>\n  <head>\n\t\t<style>\n\t\t\tp {padding:0px; margin:0px;}\n\t\t</style>\n\t</head>\n  <body>\nRename Viewpoint Operational Performer to &quot;Operational Performer Definition&quot;, adressing <a href=\"https://github.com/GfSE/SAF-Specification/issues/114\">#114    \n</a><br>Allow generalizations in Viewpoint &quot;Operational Performer Definition&quot;, adresssing <a href=\"https://github.com/GfSE/SAF-Specification/issues/113\">#113</a></body>\n</html>"
+  "Documentation" : "<html>\n  <head>\n\t\t<style>\n\t\t\tp {padding:0px; margin:0px;}\n\t\t</style>\n\t</head>\n  <body>\nRename Viewpoint Operational Performer to &quot;Operational Performer Definition&quot;, adressing <a href=\"https://github.com/GfSE/SAF-Specification/issues/114\">#114     \n</a><br>Allow generalizations in Viewpoint &quot;Operational Performer Definition&quot;, adresssing <a href=\"https://github.com/GfSE/SAF-Specification/issues/113\">#113</a></body>\n</html>"
+}, {
+  "Body" : "2025-06-16",
+  "ID" : "_2024x_2_26f0132_1750065706766_260147_6480",
+  "Documentation" : "<html>\n  <head>\n\t\t<style>\n\t\t\tp {padding:0px; margin:0px;}\n\t\t</style>\n\t</head>\n  <body>\n    <p>\nCameo implementation:\n\n    </p>\n\n    <ul>\n      <li>\nmove diagram stereotypes for dev viewpoints from scm profile to saf profile\n\n      </li>\n      <li>\nrename them from SCM_* to SAF_*\n\n      </li>\n    </ul>\n</body>\n</html>"
 } ]

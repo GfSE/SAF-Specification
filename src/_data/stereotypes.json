@@ -127,6 +127,42 @@
   "ID" : "_2021x_2_6d8019d_1674232165483_312955_23278",
   "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#a60b5ce7-9533-4627-bb95-5c638e79cf44'>CCMcounteringCIM</A><BR>CCMcounteringCIM: Specifies the fact that any claimable item, e.g., claim, argument, and evidence, is countered by one or more claims.<BR></html>\n"
 }, {
+  "Name" : "SAF_D2_CCND",
+  "ID" : "_2024x_26f0132_1719737905318_641589_28831",
+  "Documentation" : ""
+}, {
+  "Name" : "SAF_D2_COTD",
+  "ID" : "_2021x_2_8710274_1702027432699_857546_20465",
+  "Documentation" : ""
+}, {
+  "Name" : "SAF_D2_COTD_Table",
+  "ID" : "_2024x_26f0132_1719737475680_936292_28621",
+  "Documentation" : ""
+}, {
+  "Name" : "SAF_D2_STKD_Table",
+  "ID" : "_2024x_26f0132_1719738093050_603021_28974",
+  "Documentation" : ""
+}, {
+  "Name" : "SAF_D2_STYD_Table",
+  "ID" : "_2024x_26f0132_1719738142966_985767_29029",
+  "Documentation" : "The Stereotype Viewpoint provides an overview over all stereotypes provided by SAF.\n\nRepresentation:\n\nA table featuring the stereotypes of the SAF profile and their documentation."
+}, {
+  "Name" : "SAF_D2_VPTD",
+  "ID" : "_2024x_26f0132_1719737475678_685392_28619",
+  "Documentation" : ""
+}, {
+  "Name" : "SAF_D2_VPTI",
+  "ID" : "_2024x_26f0132_1719737520846_727143_28649",
+  "Documentation" : ""
+}, {
+  "Name" : "SAF_D2_VPTO",
+  "ID" : "_2024x_26f0132_1719737521935_491979_28659",
+  "Documentation" : ""
+}, {
+  "Name" : "SAF_D2_VPTO_Table",
+  "ID" : "_2024x_26f0132_1719738460476_855266_29208",
+  "Documentation" : ""
+}, {
   "Name" : "SAF_Diagram",
   "ID" : "_2024x_26f0132_1718451954698_578645_28046",
   "Documentation" : "*none*"
@@ -401,7 +437,7 @@
 }, {
   "Name" : "SAF_O2_OPRF",
   "ID" : "_19_0_3_26f0132_1601455842479_177976_826",
-  "Documentation" : "The Operational Performer Viewpoint represents the taxonomy of the identified Operational Performers, if existing and relevant for the understanding of the operation of the intended solution. \n\nRepresentation:\n\nA block definition diagram (BDD) featuring Operational Performers. and their relations in terms of decomposition or generalization at a level of detail required for problem understanding and analysis. \nNote: Identified Stakeholders are related to Operational Performers if appropriate.\n\nA table containing operational performers, their inter relations  and relations to stakeholders"
+  "Documentation" : "The Operational Performer Definition Viewpoint represents the taxonomy of the identified Operational Performers, if existing and relevant for the understanding of the operation of the intended solution. \n\nRepresentation:\n\nA block definition diagram (BDD) featuring Operational Performers. and their relations in terms of decomposition or generalization at a level of detail required for problem understanding and analysis. \nNote: Identified Stakeholders are related to Operational Performers if appropriate.\n\nA table containing operational performers, their interrelations  and relations to stakeholders"
 }, {
   "Name" : "SAF_O2_OPRF_Table",
   "ID" : "_2024x_26f0132_1718465296666_634864_34126",
