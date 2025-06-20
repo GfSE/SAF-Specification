@@ -647,7 +647,7 @@
   "VP_ID" : "_19_0_3_26f0132_1601459636216_111430_6921",
   "ID" : "_19_0_3_26f0132_1601459636385_168806_6952"
 }, {
-  "Name" : "Operational Performer Concept",
+  "Name" : "Operational Performer Definition Concept",
   "DiagConcepts" : [ {
     "ID" : "_19_0_2_26f0132_1562316412621_925297_43615",
     "Name" : "Operational Performer"
@@ -660,6 +660,9 @@
   }, {
     "ID" : "_19_0_3_6d8019d_1598981150221_83799_30",
     "Name" : "OPRcomposedOF"
+  }, {
+    "ID" : "_2024x_2_26f0132_1749655623218_564595_162",
+    "Name" : "OPRspecializesOPR"
   } ],
   "Documentation" : "",
   "VP_ID" : "_19_0_3_6d8019d_1599070472635_176306_252",

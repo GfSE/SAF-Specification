@@ -14,7 +14,27 @@ The SAF Specification is generated into HTML pages from a model. The generation 
 ## Github Workflow on SAF Specification Repository
 The SAF Specification repository contains a workflow which generates the HTML pages from the JSON and markdown files. It is triggered by commits to the Specification repository.
 
-## local document generation (setup)
+## Local document generation using docker and vs-code
+ * [install git](https://git-scm.com/downloads)
+ * install wsl 2 (no distro)
+   
+   in a powershell 
+    ```
+    wsl --install --no-distro
+    ```
+ * [install docker desktop](https://docs.docker.com/desktop/setup/install/windows-install/) (a WSL2 based installation)
+ * clone the SAF Specification repository to your machine
+   ```
+   git clone https://github.com/GfSE/SAF-Specification.git
+   ```
+ * [install vs-code](https://code.visualstudio.com/download)
+ * open repo with vs code. Vscode will advise to install some extensions, please follow those recommendations for vscode extensions.
+   Finally this will create the container image and run it.
+   the SAF documentation is available at localhost:4000
+
+## Local document generation (manual setup)
+### setting up local document generation
+ * [install git](https://git-scm.com/downloads)
  * clone the SAF Specification repository to your machine
 
    ```
@@ -28,7 +48,7 @@ The SAF Specification repository contains a workflow which generates the HTML pa
     export PATH="~/.local/share/gem/ruby/3.2.0/bin/:$PATH"
     export BUNDLE_PATH="~/.local/share/gem/ruby/3.2.0/gems/"
     ```
-## local document generation (running)
+### running local document generation
 Run the document generation starting a local web server and open the saf documentation locally
 * in the cloned repository dir, start the generation
   ```

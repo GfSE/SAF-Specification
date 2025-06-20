@@ -880,7 +880,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_3_6d8019d_1599070472635_176306_252",
-    "Name" : "Operational Performer Viewpoint"
+    "Name" : "Operational Performer Definition Viewpoint"
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_3_26f0132_1601455842479_177976_826",
@@ -2888,7 +2888,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_26f0132_1719738460476_855266_29208",
-    "Name" : "SCM_D2_VPTO_Table"
+    "Name" : "SAF_D2_VPTO_Table"
   }
 }, {
   "Name" : "",
@@ -2900,7 +2900,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_26f0132_1719738460476_855266_29208",
-    "Name" : "SCM_D2_VPTO_Table"
+    "Name" : "SAF_D2_VPTO_Table"
   }
 }, {
   "Name" : "",
@@ -3172,11 +3172,11 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_3_6d8019d_1599070472635_176306_252",
-    "Name" : "Operational Performer Viewpoint"
+    "Name" : "Operational Performer Definition Viewpoint"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_26f0132_1718447567270_264151_25996",
-    "Name" : "Operational Performer Viewpoint"
+    "Name" : "Operational Performer Definition Viewpoint"
   }
 }, {
   "Name" : "",
@@ -3532,7 +3532,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_3_6d8019d_1599070472635_176306_252",
-    "Name" : "Operational Performer Viewpoint"
+    "Name" : "Operational Performer Definition Viewpoint"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_26f0132_1718465296666_634864_34126",
@@ -3632,7 +3632,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2021x_2_8710274_1702027432699_857546_20465",
-    "Name" : "SCM_D2_COTD"
+    "Name" : "SAF_D2_COTD"
   }
 }, {
   "Name" : "",
@@ -3644,7 +3644,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_26f0132_1719737475680_936292_28621",
-    "Name" : "SCM_D2_COTD_Table"
+    "Name" : "SAF_D2_COTD_Table"
   }
 }, {
   "Name" : "",
@@ -3656,7 +3656,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_26f0132_1719738093050_603021_28974",
-    "Name" : "SCM_D2_STKD_Table"
+    "Name" : "SAF_D2_STKD_Table"
   }
 }, {
   "Name" : "",
@@ -3668,7 +3668,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_26f0132_1719738142966_985767_29029",
-    "Name" : "SCM_D2_STYD_Table"
+    "Name" : "SAF_D2_STYD_Table"
   }
 }, {
   "Name" : "",
@@ -3680,7 +3680,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_26f0132_1719737520846_727143_28649",
-    "Name" : "SCM_D2_VPTI"
+    "Name" : "SAF_D2_VPTI"
   }
 }, {
   "Name" : "",
@@ -3692,7 +3692,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_26f0132_1719737475678_685392_28619",
-    "Name" : "SCM_D2_VPTD"
+    "Name" : "SAF_D2_VPTD"
   }
 }, {
   "Name" : "",
@@ -3704,7 +3704,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_26f0132_1719738460476_855266_29208",
-    "Name" : "SCM_D2_VPTO_Table"
+    "Name" : "SAF_D2_VPTO_Table"
   }
 }, {
   "Name" : "",
@@ -3716,7 +3716,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_26f0132_1719737521935_491979_28659",
-    "Name" : "SCM_D2_VPTO"
+    "Name" : "SAF_D2_VPTO"
   }
 }, {
   "Name" : "",
@@ -3861,6 +3861,18 @@
   "RealizationOfConcept" : {
     "ID" : "_2021x_2_8710274_1674486070195_664660_27223",
     "Name" : "SCM_VPStakeholder"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1749655977534_558007_290",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_2_26f0132_1749655623218_564595_162",
+    "Name" : "OPRspecializesOPR"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_9_0_62a020a_1105704885195_432731_7879",
+    "Name" : "Generalization"
   }
 }, {
   "Name" : "",

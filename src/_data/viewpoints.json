@@ -321,12 +321,12 @@
   "RecommendedVP" : [ "_19_0_2_26f0132_1561750369203_901730_48359" ],
   "RequiredVP" : [ ]
 }, {
-  "Name" : "Operational Performer Viewpoint",
+  "Name" : "Operational Performer Definition Viewpoint",
   "ID" : "_19_0_3_6d8019d_1599070472635_176306_252",
   "VP_ID" : "O2_OPRF",
   "Maturity" : "released",
-  "Purpose" : "The Operational Performer Viewpoint represents the taxonomy of the identified Operational Performers, if existing and relevant for the understanding of the operation of the intended solution. ",
-  "Applicability" : "The Operational Performer Viewpoint supports the \"Business or Mission Analysis Process\" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§ 2.3.5.1] and contributes to the problem or opportunity statement.",
+  "Purpose" : "The Operational Performer Definition Viewpoint represents the taxonomy of the identified Operational Performers, if existing and relevant for the understanding of the operation of the intended solution. ",
+  "Applicability" : "The Operational Performer Definition Viewpoint supports the \"Business or Mission Analysis Process\" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§ 2.3.5.1] and contributes to the problem or opportunity statement.",
   "Aspect" : "Taxonomy & Structure",
   "Domain" : "Operational",
   "Presentation" : [ "A block definition diagram (BDD) featuring Operational Performers. and their relations in terms of decomposition or generalization at a level of detail required for problem understanding and analysis. \nNote: Identified Stakeholders are related to Operational Performers if appropriate.", "A table containing operational performers, their inter relations  and relations to stakeholders" ],

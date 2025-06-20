@@ -4,20 +4,15 @@
   "Name" : "01_Standards",
   "ExampleForVPID" : "C2_CSTD"
 }, {
+  "ID" : "_2024x_2_26f0132_1749657364938_302599_314",
+  "Documentation" : "",
+  "Name" : "Air Performers",
+  "ExampleForVPID" : "O2_OPRF"
+}, {
   "ID" : "_2021x_2_8710274_1696593549704_655410_91025",
   "Documentation" : "",
   "Name" : "Arduino Interfaces Types",
   "ExampleForVPID" : "P5_PIFD"
-}, {
-  "ID" : "_2024x_4c5019a_1724845803763_752788_524",
-  "Documentation" : "",
-  "Name" : "Asset Definition",
-  "ExampleForVPID" : "F7_ASID"
-}, {
-  "ID" : "_2024x_4c5019a_1724847258994_116290_2284",
-  "Documentation" : "",
-  "Name" : "Asset Definition",
-  "ExampleForVPID" : "F7_ASID"
 }, {
   "ID" : "_2024x_4c5019a_1724847258994_116290_2284",
   "Documentation" : "",
@@ -124,11 +119,6 @@
   "Name" : "FFDS Security Context Definition",
   "ExampleForVPID" : "F7_SECT"
 }, {
-  "ID" : "_2024x_4c5019a_1725563964505_357247_43",
-  "Documentation" : "",
-  "Name" : "FFDS Security Context Definition",
-  "ExampleForVPID" : "F7_SECT"
-}, {
   "ID" : "_18_1_3c00182_1450814090189_564309_51094",
   "Documentation" : "",
   "Name" : "FFDS System Domain Item Definition",
@@ -189,11 +179,6 @@
   "Name" : "Impact Analysis",
   "ExampleForVPID" : "F7_IMAN"
 }, {
-  "ID" : "_2024x_4c5019a_1730391645065_588734_378",
-  "Documentation" : "",
-  "Name" : "Impact Analysis",
-  "ExampleForVPID" : "F7_IMAN"
-}, {
   "ID" : "_2021x_2_8710274_1696599882339_266143_98316",
   "Documentation" : "",
   "Name" : "Internal Interface Types",
@@ -208,11 +193,6 @@
   "Documentation" : "",
   "Name" : "Logical Structure Definition Profile",
   "ExampleForVPID" : "D2_VPTI"
-}, {
-  "ID" : "_2024x_2a0c05a1_1730985698925_20727_222",
-  "Documentation" : "Adversary discovers a vulnerability in the FFDS communication protocol that enables him to gain access to the main FFDS system. There he can read out all data and change it if he wants.",
-  "Name" : "Manipulate the Analyse FF Data Function",
-  "ExampleForVPID" : "F7_THSC"
 }, {
   "ID" : "_2024x_2a0c05a1_1730985698925_20727_222",
   "Documentation" : "Adversary discovers a vulnerability in the FFDS communication protocol that enables him to gain access to the main FFDS system. There he can read out all data and change it if he wants.",
@@ -309,11 +289,6 @@
   "Name" : "Risk Analysis",
   "ExampleForVPID" : "F7_RIAN"
 }, {
-  "ID" : "_2024x_2a0c05a1_1731012070685_325003_5573",
-  "Documentation" : "",
-  "Name" : "Risk Analysis",
-  "ExampleForVPID" : "F7_RIAN"
-}, {
   "ID" : "_2024x_1_26f0132_1727275405703_529964_16206",
   "Documentation" : "",
   "Name" : "SAF Concern Table (Example)",
@@ -393,11 +368,6 @@
   "Documentation" : "",
   "Name" : "System Requirement Traceability Matrix",
   "ExampleForVPID" : "F8_SRQT"
-}, {
-  "ID" : "_2024x_2a0c05a1_1730981106958_970147_2310",
-  "Documentation" : "",
-  "Name" : "Threat Scenario",
-  "ExampleForVPID" : "F7_THSC"
 }, {
   "ID" : "_2024x_2a0c05a1_1730981106958_970147_2310",
   "Documentation" : "",
