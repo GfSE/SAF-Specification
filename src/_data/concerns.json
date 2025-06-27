@@ -1221,6 +1221,24 @@
   } ]
 }, {
   "Documentation" : "",
+  "Owner" : "traceability & mapping",
+  "Name" : "Which operational process are triggered or executed by an operational state?",
+  "ID" : "_2024x_2_26f0132_1751005074373_263380_1200",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Operational State Viewpoint",
+    "ID" : "_2024x_2_26f0132_1751004870294_93250_27"
+  } ]
+}, {
+  "Documentation" : "",
+  "Owner" : "functional",
+  "Name" : "What operational states are defined for a system or system's operation?",
+  "ID" : "_2024x_2_26f0132_1751005177169_420757_1216",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Operational State Viewpoint",
+    "ID" : "_2024x_2_26f0132_1751004870294_93250_27"
+  } ]
+}, {
+  "Documentation" : "",
   "Owner" : "X-Concern",
   "Name" : "What are the Security Requirements?",
   "ID" : "_2024x_2a0c05a1_1731018562402_224934_115",

@@ -114,4 +114,8 @@
   "Body" : "2025-06-16",
   "ID" : "_2024x_2_26f0132_1750065706766_260147_6480",
   "Documentation" : "<html>\n  <head>\n\t\t<style>\n\t\t\tp {padding:0px; margin:0px;}\n\t\t</style>\n\t</head>\n  <body>\n    <p>\nCameo implementation:\n\n    </p>\n\n    <ul>\n      <li>\nmove diagram stereotypes for dev viewpoints from scm profile to saf profile\n\n      </li>\n      <li>\nrename them from SCM_* to SAF_*\n\n      </li>\n    </ul>\n</body>\n</html>"
+}, {
+  "Body" : "2025-06-27",
+  "ID" : "_2024x_2_26f0132_1751040686249_165192_5283",
+  "Documentation" : "<html>\n  <head>\n\t\t<style>\n\t\t\tp {padding:0px; margin:0px;}\n\t\t</style>\n\t</head>\n  <body>\n    <p>\nAdd Operational State Viewpoint as proposed in <a href=\"https://github.com/GfSE/SAF-Specification/issues/102\">#102</a>\n\n    </p>\n\n    <p>\nnew stereotypes SAF_O3_OSTA for Diagram and SAF_OperationalState\n\n    </p>\n\n    <p>\n&#160;\n\n    </p>\n\n    <p>\nSet System State Viewpont to under construction to review Changes triggered by <a href=\"https://github.com/GfSE/SAF-Specification/issues/102\">#102</a>\n\n    </p>\n\n    <p>\n&#160;new stereotype SAF_SystemState\n\n    </p>\n\n</body>\n</html>"
 } ]

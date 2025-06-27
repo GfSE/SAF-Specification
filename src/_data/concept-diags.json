@@ -391,16 +391,22 @@
     "Name" : "LETbeeingInSSE"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524801_13984_91387",
-    "Name" : "SSEperformingSFN"
+    "Name" : "SFNprovidedInSSE"
   }, {
     "ID" : "_19_0_2_26f0132_1562307450269_33287_141718",
-    "Name" : "State Transition"
+    "Name" : "System State Transition"
   }, {
     "ID" : "_19_0_3_26f0132_1593763413831_223230_668",
     "Name" : "APEbeeingInSSE"
   }, {
     "ID" : "_19_0_3_26f0132_1593764793156_232154_797",
     "Name" : "SFNresultingInSSE"
+  }, {
+    "ID" : "_19_0_4_6d8019d_1627829323787_791914_508",
+    "Name" : "System Triggering Event"
+  }, {
+    "ID" : "_19_0_4_6d8019d_1627829461940_143861_727",
+    "Name" : "triggering"
   } ]
 }, {
   "ID" : "_19_0_2_26f0132_1562307188137_987571_141163",
@@ -1374,13 +1380,13 @@
     "Name" : "General Functional Usage"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524801_13984_91387",
-    "Name" : "SSEperformingSFN"
+    "Name" : "SFNprovidedInSSE"
   }, {
     "ID" : "_19_0_2_26f0132_1562303989622_501728_139950",
     "Name" : "Logical Environment"
   }, {
     "ID" : "_19_0_2_26f0132_1562307450269_33287_141718",
-    "Name" : "State Transition"
+    "Name" : "System State Transition"
   }, {
     "ID" : "_19_0_2_26f0132_1565104656755_27827_55752",
     "Name" : "SRderivingFromSR"
@@ -1486,7 +1492,7 @@
 }, {
   "ID" : "_19_0_4_6d8019d_1630754051112_668386_1238",
   "Documentation" : "\n",
-  "Name" : "SAF_structural_O_Definition",
+  "Name" : "SAF_Operational_Process_Definition",
   "DiagConcepts" : [ {
     "ID" : "_19_0_2_164f041e_1564572299224_487951_54901",
     "Name" : "Operational Process"
@@ -1497,17 +1503,8 @@
     "ID" : "_19_0_2_26f0132_1561750989144_963009_48675",
     "Name" : "Operational Story"
   }, {
-    "ID" : "_19_0_2_26f0132_1561763753175_522268_51960",
-    "Name" : "Operational Context"
-  }, {
     "ID" : "_19_0_2_26f0132_1562316412621_925297_43615",
     "Name" : "Operational Performer"
-  }, {
-    "ID" : "_19_0_2_26f0132_1567694227019_837886_54521",
-    "Name" : "Operational Context Role"
-  }, {
-    "ID" : "_19_0_2_26f0132_1567779491655_900665_58731",
-    "Name" : "OSYtakingPlaceInOCT"
   }, {
     "ID" : "_19_0_3_26f0132_1600501947277_784541_1508",
     "Name" : "controlledAFTER"
@@ -1517,9 +1514,6 @@
   }, {
     "ID" : "_19_0_3_26f0132_1600784136485_599221_879",
     "Name" : "Operational Process Exchange"
-  }, {
-    "ID" : "_19_0_3_6d8019d_1598981150221_83799_30",
-    "Name" : "OPRcomposedOF"
   }, {
     "ID" : "_19_0_3_8710274_1581665911562_310714_48925",
     "Name" : "Operational Capability"
@@ -1533,11 +1527,17 @@
     "ID" : "_19_0_3_8710274_1581674683825_886069_50270",
     "Name" : "Operational Process Usage"
   }, {
-    "ID" : "_19_0_3_8710274_1581675388411_771999_50581",
-    "Name" : "OPRperformingOPSU"
-  }, {
     "ID" : "_19_0_4_26f0132_1631283194173_385626_4558",
     "Name" : "ODKtypifyingOPE"
+  }, {
+    "ID" : "_2024x_2_26f0132_1751005742166_577072_1491",
+    "Name" : "Operational State"
+  }, {
+    "ID" : "_2024x_2_26f0132_1751005742169_326952_1493",
+    "Name" : "OPprovidedInOSE"
+  }, {
+    "ID" : "_2024x_2_26f0132_1751005742257_825702_1594",
+    "Name" : "OPresultingInOSE"
   } ]
 }, {
   "ID" : "_19_0_4_6d8019d_1654515739900_178967_136",
@@ -2555,6 +2555,41 @@
   }, {
     "ID" : "_19_0_4_26f0132_1639735755383_425330_337",
     "Name" : "SUChasPreConditionSSE"
+  } ]
+}, {
+  "ID" : "_2024x_2_26f0132_1751005742187_279381_1496",
+  "Documentation" : "",
+  "Name" : "SAF_state_O_Definition",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_2_164f041e_1564572299224_487951_54901",
+    "Name" : "Operational Process"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562316412621_925297_43615",
+    "Name" : "Operational Performer"
+  }, {
+    "ID" : "_19_0_3_6d8019d_1598981150221_83799_30",
+    "Name" : "OPRcomposedOF"
+  }, {
+    "ID" : "_2024x_2_26f0132_1751005742166_577072_1491",
+    "Name" : "Operational State"
+  }, {
+    "ID" : "_2024x_2_26f0132_1751005742167_311533_1492",
+    "Name" : "Operational State Transition"
+  }, {
+    "ID" : "_2024x_2_26f0132_1751005742169_326952_1493",
+    "Name" : "OPprovidedInOSE"
+  }, {
+    "ID" : "_2024x_2_26f0132_1751005742170_567520_1494",
+    "Name" : "Operational Triggering Event"
+  }, {
+    "ID" : "_2024x_2_26f0132_1751005742171_724764_1495",
+    "Name" : "triggering"
+  }, {
+    "ID" : "_2024x_2_26f0132_1751005742256_520008_1593",
+    "Name" : "OPbeeingInOSE"
+  }, {
+    "ID" : "_2024x_2_26f0132_1751005742257_825702_1594",
+    "Name" : "OPresultingInOSE"
   } ]
 }, {
   "ID" : "_2024x_4c5019a_1726420721786_510744_15",

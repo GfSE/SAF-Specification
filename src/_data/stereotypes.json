@@ -451,6 +451,10 @@
   "ID" : "_19_0_3_26f0132_1600503062173_139730_1994",
   "Documentation" : "The Operational Process Viewpoint describes the Operational Processes related to a specific Operational Story, the sequence of execution, and their Operational Exchanges, including information, materials, natural resources, etc. The assignment of Operational Processes to Operational Performers is captured.\n\nRepresentation:\n\nAn activity diagram featuring the ordered execution of Operational Process Actions. Operational Processes may be linked in terms of control flow and/or data flow visualizing the Operational Exchanges needed. \nNote: Operational Process Actions are assigned to Operational Roles and therefore in a more general manner to Operational Performers."
 }, {
+  "Name" : "SAF_O3_OSTA",
+  "ID" : "_2024x_2_26f0132_1751012321984_702856_2975",
+  "Documentation" : ""
+}, {
   "Name" : "SAF_O4_OCXI",
   "ID" : "_19_0_2_26f0132_1567697216482_129982_55869",
   "Documentation" : "The Operational Context Interaction Viewpoint describes single threads of interaction between Operational Performers in an Operational Context on an operational domain level. \nNote: The Operational Interaction Viewpoint may refine an Operational Story.\n\nRepresentation:\n\nA sequence diagram featuring the flow of control between Operational Performers of an Operational Context to achieve one outcome of an Operational Story. \nNote: This diagram depicts the sending and receiving of messages between the interacting entities called lifelines where time is represented along the vertical axis. The lifelines representatives are part properties typed by Operational Performers."
@@ -538,6 +542,10 @@
   "Name" : "SAF_OperationalSketch",
   "ID" : "_19_0_1_26f0132_1550433084140_670092_43421",
   "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#33088880-4041-4d97-9513-e56e853ed6ff'>Operational Sketch</A><BR>Operational Sketch: Specifies a free form sketch depicting a concept.<BR></html>\n"
+}, {
+  "Name" : "SAF_OperationalState",
+  "ID" : "_2024x_2_26f0132_1751012115640_421211_2857",
+  "Documentation" : "Implementation of SAF Concept Operational State\nSAF_OperationalState: Describes a state (or mode) of on operational level."
 }, {
   "Name" : "SAF_OperationalStory",
   "ID" : "_19_0_1_8710274_1552023067867_433281_43825",
@@ -822,6 +830,10 @@
   "Name" : "SAF_SystemRequirementRefinement",
   "ID" : "_19_0_4_6d8019d_1630755344891_22928_2192",
   "Documentation" : "<html>Stereotype realizes multiple Concepts:<UL><LI>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#d7be0bb7-6909-4089-8d86-0a6f7e226198'>SRrefiningLICP</A><BR>SRrefiningLICP: Specifies the fact that a Logical Interaction Point is refined by System Requirements.<BR></LI>\n<LI>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#517b88de-cf06-4ee6-ac2a-8ba8719baca0'>SRrefiningSUC</A><BR>SRrefiningSUC: Specifies the fact that a System Use Case is refined by System Requirements.<BR></LI>\n<LI>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#b1341625-5a4a-49a6-abec-17468977f718'>SRrefiningSCY</A><BR>SRrefiningSCY: Specifies the fact that a System Capability is refined by System Requirements.<BR></LI>\n</UL>\n</html>\n"
+}, {
+  "Name" : "SAF_SystemState",
+  "ID" : "_2024x_2_26f0132_1751013382405_4997_3245",
+  "Documentation" : "Implementation of SAF Concept System State.\nSystem State: Describes a state (or mode) of something  on system level that can have distinct states.\n"
 }, {
   "Name" : "SAF_SystemUseCase",
   "ID" : "_19_0_1_8710274_1552023080917_369823_43852",
