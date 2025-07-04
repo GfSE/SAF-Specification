@@ -428,6 +428,58 @@
     "Name" : "SAF_LogicalElement"
   }
 }, {
+  "ID" : "_2024x_2_26f0132_1751619584504_299052_126",
+  "Documentation" : "",
+  "Name" : "PreConditionStates",
+  "Stereotype" : "SCM_Attribute",
+  "Client" : {
+    "ID" : "_2024x_2_26f0132_1751012115640_421211_2857",
+    "Name" : "SAF_OperationalState"
+  },
+  "Supplier" : {
+    "ID" : "_19_0_3_8710274_1581679987896_193803_55986",
+    "Name" : "SAF_OperationalProcess"
+  }
+}, {
+  "ID" : "_2024x_2_26f0132_1751619636169_655080_134",
+  "Documentation" : "",
+  "Name" : "PostConditionStates",
+  "Stereotype" : "SCM_Attribute",
+  "Client" : {
+    "ID" : "_2024x_2_26f0132_1751012115640_421211_2857",
+    "Name" : "SAF_OperationalState"
+  },
+  "Supplier" : {
+    "ID" : "_19_0_3_8710274_1581679987896_193803_55986",
+    "Name" : "SAF_OperationalProcess"
+  }
+}, {
+  "ID" : "_2024x_2_26f0132_1751628090453_90338_424",
+  "Documentation" : "",
+  "Name" : "PostConditionStates",
+  "Stereotype" : "SCM_Attribute",
+  "Client" : {
+    "ID" : "_19_0_1_26f0132_1548408079060_514464_44018",
+    "Name" : "SAF_SystemFunction"
+  },
+  "Supplier" : {
+    "ID" : "_2024x_2_26f0132_1751013382405_4997_3245",
+    "Name" : "SAF_SystemState"
+  }
+}, {
+  "ID" : "_2024x_2_26f0132_1751628107407_64314_442",
+  "Documentation" : "",
+  "Name" : "PreConditionStates",
+  "Stereotype" : "SCM_Attribute",
+  "Client" : {
+    "ID" : "_19_0_1_26f0132_1548408079060_514464_44018",
+    "Name" : "SAF_SystemFunction"
+  },
+  "Supplier" : {
+    "ID" : "_2024x_2_26f0132_1751013382405_4997_3245",
+    "Name" : "SAF_SystemState"
+  }
+}, {
   "ID" : "_2024x_8710274_1715874787286_133978_15954",
   "Documentation" : "",
   "Name" : "",

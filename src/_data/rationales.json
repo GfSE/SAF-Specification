@@ -5632,7 +5632,7 @@
   "Documentation" : "",
   "Concern" : {
     "ID" : "_2024x_2_26f0132_1751005074373_263380_1200",
-    "Name" : "Which operational process are triggered or executed by an operational state?"
+    "Name" : "Which operational processes are possible to be performed in an operational state?"
   },
   "Stakeholder" : {
     "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
@@ -5644,7 +5644,7 @@
   "Documentation" : "",
   "Concern" : {
     "ID" : "_2024x_2_26f0132_1751005074373_263380_1200",
-    "Name" : "Which operational process are triggered or executed by an operational state?"
+    "Name" : "Which operational processes are possible to be performed in an operational state?"
   },
   "Stakeholder" : {
     "ID" : "_19_0_2_ebf0350_1554653236737_36605_43554",
@@ -5656,7 +5656,7 @@
   "Documentation" : "",
   "Concern" : {
     "ID" : "_2024x_2_26f0132_1751005074373_263380_1200",
-    "Name" : "Which operational process are triggered or executed by an operational state?"
+    "Name" : "Which operational processes are possible to be performed in an operational state?"
   },
   "Stakeholder" : {
     "ID" : "_2021x_2_8710274_1674680055517_468796_22923",
@@ -5668,7 +5668,7 @@
   "Documentation" : "",
   "Concern" : {
     "ID" : "_2024x_2_26f0132_1751005074373_263380_1200",
-    "Name" : "Which operational process are triggered or executed by an operational state?"
+    "Name" : "Which operational processes are possible to be performed in an operational state?"
   },
   "Stakeholder" : {
     "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
@@ -5721,6 +5721,54 @@
   "Stakeholder" : {
     "ID" : "_19_0_2_ebf0350_1554653236737_36605_43554",
     "Name" : "Customer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1751632777263_104458_61",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2024x_2_26f0132_1751632678372_112390_48",
+    "Name" : "Which operational states are possible results of performing an operational process?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
+    "Name" : "Acquirer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1751632778110_136160_64",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2024x_2_26f0132_1751632678372_112390_48",
+    "Name" : "Which operational states are possible results of performing an operational process?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653236737_36605_43554",
+    "Name" : "Customer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1751632779534_489634_65",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2024x_2_26f0132_1751632678372_112390_48",
+    "Name" : "Which operational states are possible results of performing an operational process?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2021x_2_8710274_1674680055517_468796_22923",
+    "Name" : "Portfolio Manager"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1751632780843_973143_66",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2024x_2_26f0132_1751632678372_112390_48",
+    "Name" : "Which operational states are possible results of performing an operational process?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
   }
 }, {
   "Name" : "",

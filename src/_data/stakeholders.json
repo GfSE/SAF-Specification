@@ -115,7 +115,10 @@
     "Concern" : "Which operational exchanges do operational performers need to consume or provide?"
   }, {
     "Rationale" : "",
-    "Concern" : "Which operational process are triggered or executed by an operational state?"
+    "Concern" : "Which operational processes are possible to be performed in an operational state?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which operational states are possible results of performing an operational process?"
   }, {
     "Rationale" : "",
     "Concern" : "Which performers or resources are necessary to operate the intended solution?"
@@ -225,7 +228,10 @@
     "Concern" : "Which operational exchanges do operational performers need to consume or provide?"
   }, {
     "Rationale" : "",
-    "Concern" : "Which operational process are triggered or executed by an operational state?"
+    "Concern" : "Which operational processes are possible to be performed in an operational state?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which operational states are possible results of performing an operational process?"
   }, {
     "Rationale" : "",
     "Concern" : "Which performers or resources are necessary to operate the intended solution?"
@@ -578,7 +584,10 @@
     "Concern" : "What operational states are defined for a system or system's operation?"
   }, {
     "Rationale" : "",
-    "Concern" : "Which operational process are triggered or executed by an operational state?"
+    "Concern" : "Which operational processes are possible to be performed in an operational state?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which operational states are possible results of performing an operational process?"
   } ]
 }, {
   "Name" : "Project Manager",
@@ -1519,7 +1528,10 @@
     "Concern" : "Which operational exchanges do operational performers need to consume or provide?"
   }, {
     "Rationale" : "",
-    "Concern" : "Which operational process are triggered or executed by an operational state?"
+    "Concern" : "Which operational processes are possible to be performed in an operational state?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which operational states are possible results of performing an operational process?"
   }, {
     "Rationale" : "",
     "Concern" : "Which other standards are referenced or referred to by applicable standards?"

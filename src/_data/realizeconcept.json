@@ -3972,6 +3972,54 @@
   }
 }, {
   "Name" : "",
+  "ID" : "_2024x_2_26f0132_1751619690626_897052_143",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_2_26f0132_1751005742169_326952_1493",
+    "Name" : "OPShasPreconditionOSE"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_2_26f0132_1751619584504_299052_126",
+    "Name" : "PreConditionStates"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1751619715310_761008_149",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_2_26f0132_1751005742257_825702_1594",
+    "Name" : "OPShasPostconditionOSE"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_2_26f0132_1751619636169_655080_134",
+    "Name" : "PostConditionStates"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1751628247134_596683_473",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_3_26f0132_1593764793156_232154_797",
+    "Name" : "SFNhasPostconditionSSE"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_2_26f0132_1751628090453_90338_424",
+    "Name" : "PostConditionStates"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1751628268943_130167_483",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524801_13984_91387",
+    "Name" : "SFNhasPreconditionSSE"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_2_26f0132_1751628107407_64314_442",
+    "Name" : "PreConditionStates"
+  }
+}, {
+  "Name" : "",
   "ID" : "_2024x_4c5019a_1724836822797_493574_932",
   "Documentation" : "",
   "RealizedConcept" : {
