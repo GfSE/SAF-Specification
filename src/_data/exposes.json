@@ -196,7 +196,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524801_13984_91387",
-    "Name" : "SFNprovidedInSSE"
+    "Name" : "SFNhasPreconditionSSE"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1562303526536_189439_92549",
@@ -772,7 +772,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_3_26f0132_1593764793156_232154_797",
-    "Name" : "SFNresultingInSSE"
+    "Name" : "SFNhasPostconditionSSE"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1562303526536_189439_92549",
@@ -4192,7 +4192,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_2024x_2_26f0132_1751005742169_326952_1493",
-    "Name" : "OPprovidedInOSE"
+    "Name" : "OPShasPreconditionOSE"
   },
   "Viewpoint" : {
     "ID" : "_2024x_2_26f0132_1751004870294_93250_27",
@@ -4204,7 +4204,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_2024x_2_26f0132_1751005742257_825702_1594",
-    "Name" : "OPresultingInOSE"
+    "Name" : "OPShasPostconditionOSE"
   },
   "Viewpoint" : {
     "ID" : "_2024x_2_26f0132_1751004870294_93250_27",

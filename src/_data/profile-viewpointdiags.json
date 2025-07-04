@@ -262,13 +262,13 @@
     "Name" : "LETbeeingInSSE"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524801_13984_91387",
-    "Name" : "SFNprovidedInSSE"
+    "Name" : "SFNhasPreconditionSSE"
   }, {
     "ID" : "_19_0_2_26f0132_1562307450269_33287_141718",
     "Name" : "System State Transition"
   }, {
     "ID" : "_19_0_3_26f0132_1593764793156_232154_797",
-    "Name" : "SFNresultingInSSE"
+    "Name" : "SFNhasPostconditionSSE"
   }, {
     "ID" : "_19_0_4_6d8019d_1627829323787_791914_508",
     "Name" : "System Triggering Event"
@@ -1735,7 +1735,7 @@
     "Name" : "Operational State Transition"
   }, {
     "ID" : "_2024x_2_26f0132_1751005742169_326952_1493",
-    "Name" : "OPprovidedInOSE"
+    "Name" : "OPShasPreconditionOSE"
   }, {
     "ID" : "_2024x_2_26f0132_1751005742170_567520_1494",
     "Name" : "Operational Triggering Event"
@@ -1747,7 +1747,7 @@
     "Name" : "OPbeeingInOSE"
   }, {
     "ID" : "_2024x_2_26f0132_1751005742257_825702_1594",
-    "Name" : "OPresultingInOSE"
+    "Name" : "OPShasPostconditionOSE"
   } ],
   "VP_ID" : "_2024x_2_26f0132_1751004870294_93250_27"
 }, {

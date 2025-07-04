@@ -354,6 +354,9 @@
   "Documentation" : "",
   "Name" : "SAF_state_F_Definition",
   "DiagConcepts" : [ {
+    "ID" : "_19_0_1_26f0132_1554446894995_335285_45800",
+    "Name" : "System Use Case"
+  }, {
     "ID" : "_19_0_2_26f0132_1558075212525_51415_45174",
     "Name" : "Logical Context SOI"
   }, {
@@ -391,7 +394,7 @@
     "Name" : "LETbeeingInSSE"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524801_13984_91387",
-    "Name" : "SFNprovidedInSSE"
+    "Name" : "SFNhasPreconditionSSE"
   }, {
     "ID" : "_19_0_2_26f0132_1562307450269_33287_141718",
     "Name" : "System State Transition"
@@ -400,13 +403,28 @@
     "Name" : "APEbeeingInSSE"
   }, {
     "ID" : "_19_0_3_26f0132_1593764793156_232154_797",
-    "Name" : "SFNresultingInSSE"
+    "Name" : "SFNhasPostconditionSSE"
+  }, {
+    "ID" : "_19_0_4_26f0132_1624610613457_313794_115",
+    "Name" : "System Process"
+  }, {
+    "ID" : "_19_0_4_26f0132_1639735748424_245279_316",
+    "Name" : "SUChasPostConditionSSE"
+  }, {
+    "ID" : "_19_0_4_26f0132_1639735755383_425330_337",
+    "Name" : "SUChasPreConditionSSE"
   }, {
     "ID" : "_19_0_4_6d8019d_1627829323787_791914_508",
     "Name" : "System Triggering Event"
   }, {
     "ID" : "_19_0_4_6d8019d_1627829461940_143861_727",
     "Name" : "triggering"
+  }, {
+    "ID" : "_2024x_2_26f0132_1751629270785_299763_886",
+    "Name" : "SPShasPreconditionSSE"
+  }, {
+    "ID" : "_2024x_2_26f0132_1751629307240_413099_934",
+    "Name" : "SPShasPostconditionSSE"
   } ]
 }, {
   "ID" : "_19_0_2_26f0132_1562307188137_987571_141163",
@@ -1380,7 +1398,7 @@
     "Name" : "General Functional Usage"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524801_13984_91387",
-    "Name" : "SFNprovidedInSSE"
+    "Name" : "SFNhasPreconditionSSE"
   }, {
     "ID" : "_19_0_2_26f0132_1562303989622_501728_139950",
     "Name" : "Logical Environment"
@@ -1428,7 +1446,7 @@
     "Name" : "Logical SOI Role"
   }, {
     "ID" : "_19_0_3_26f0132_1593764793156_232154_797",
-    "Name" : "SFNresultingInSSE"
+    "Name" : "SFNhasPostconditionSSE"
   }, {
     "ID" : "_19_0_3_6d8019d_1609520174192_971623_551",
     "Name" : "GFNcontrolledAFTER"
@@ -1534,10 +1552,10 @@
     "Name" : "Operational State"
   }, {
     "ID" : "_2024x_2_26f0132_1751005742169_326952_1493",
-    "Name" : "OPprovidedInOSE"
+    "Name" : "OPShasPreconditionOSE"
   }, {
     "ID" : "_2024x_2_26f0132_1751005742257_825702_1594",
-    "Name" : "OPresultingInOSE"
+    "Name" : "OPShasPostconditionOSE"
   } ]
 }, {
   "ID" : "_19_0_4_6d8019d_1654515739900_178967_136",
@@ -2567,9 +2585,6 @@
     "ID" : "_19_0_2_26f0132_1562316412621_925297_43615",
     "Name" : "Operational Performer"
   }, {
-    "ID" : "_19_0_3_6d8019d_1598981150221_83799_30",
-    "Name" : "OPRcomposedOF"
-  }, {
     "ID" : "_2024x_2_26f0132_1751005742166_577072_1491",
     "Name" : "Operational State"
   }, {
@@ -2577,7 +2592,7 @@
     "Name" : "Operational State Transition"
   }, {
     "ID" : "_2024x_2_26f0132_1751005742169_326952_1493",
-    "Name" : "OPprovidedInOSE"
+    "Name" : "OPShasPreconditionOSE"
   }, {
     "ID" : "_2024x_2_26f0132_1751005742170_567520_1494",
     "Name" : "Operational Triggering Event"
@@ -2589,7 +2604,7 @@
     "Name" : "OPbeeingInOSE"
   }, {
     "ID" : "_2024x_2_26f0132_1751005742257_825702_1594",
-    "Name" : "OPresultingInOSE"
+    "Name" : "OPShasPostconditionOSE"
   } ]
 }, {
   "ID" : "_2024x_4c5019a_1726420721786_510744_15",

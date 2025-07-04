@@ -1643,7 +1643,7 @@
     "ID" : "_19_0_2_26f0132_1562303526536_189439_92549",
     "Name" : "System State Viewpoint"
   } ],
-  "Documentation" : "Specifies the fact that the Function is only provided in distinct States. The state is a precondition for the Function to be able to perform.",
+  "Documentation" : "Specifies the fact a System Function may have System States as precondition. This means that the Function is only provided in distinct States. ",
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524161_394471_91009",
     "Name" : "System Function",
@@ -1653,7 +1653,7 @@
     "Name" : "System State",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "SFNprovidedInSSE",
+  "Name" : "SFNhasPreconditionSSE",
   "ID" : "_19_0_2_26f0132_1562303524801_13984_91387",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -2898,7 +2898,7 @@
     "Name" : "System Function",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "SFNresultingInSSE",
+  "Name" : "SFNhasPostconditionSSE",
   "ID" : "_19_0_3_26f0132_1593764793156_232154_797",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -3468,7 +3468,7 @@
     "ID" : "_19_0_1_26f0132_1554446728606_740631_45702",
     "Name" : "System Use Case Viewpoint"
   } ],
-  "Documentation" : "Specifies the fact that a System Use Case has a state as Postcondition.",
+  "Documentation" : "Specifies the fact that a System Use Case may have System States as Postcondition.",
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303523973_719860_90882",
     "Name" : "System State",
@@ -3488,7 +3488,7 @@
     "ID" : "_19_0_1_26f0132_1554446728606_740631_45702",
     "Name" : "System Use Case Viewpoint"
   } ],
-  "Documentation" : "Specifies the fact that a System Use Case has a state as Precondition.",
+  "Documentation" : "Specifies the fact that a System Use Case may have System States as Precondition.",
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303523973_719860_90882",
     "Name" : "System State",
@@ -5596,15 +5596,15 @@
   } ],
   "Documentation" : "Specifies the fact that the Operational Process is only provided in distinct Operational States. The state is a precondition for the Opeational Process to be able to perform.",
   "AssociationEnds" : [ {
-    "ID" : "_19_0_2_164f041e_1564572299224_487951_54901",
-    "Name" : "Operational Process",
-    "Multiplicity" : "0..*"
-  }, {
     "ID" : "_2024x_2_26f0132_1751005742166_577072_1491",
     "Name" : "Operational State",
     "Multiplicity" : "0..*"
+  }, {
+    "ID" : "_19_0_2_164f041e_1564572299224_487951_54901",
+    "Name" : "Operational Process",
+    "Multiplicity" : "0..*"
   } ],
-  "Name" : "OPprovidedInOSE",
+  "Name" : "OPShasPreconditionOSE",
   "ID" : "_2024x_2_26f0132_1751005742169_326952_1493",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -5663,7 +5663,7 @@
     "ID" : "_2024x_2_26f0132_1751004870294_93250_27",
     "Name" : "Operational State Viewpoint"
   } ],
-  "Documentation" : "Specifies the fact that a Operational State  can perform a particular set of transitions, resulting in the related target Operational States.",
+  "Documentation" : "Specifies the fact that a Operational State  can perform a particular set of transitions, possibly resulting in one of the related target Operational States as a postcondition.",
   "AssociationEnds" : [ {
     "ID" : "_2024x_2_26f0132_1751005742166_577072_1491",
     "Name" : "Operational State",
@@ -5673,8 +5673,42 @@
     "Name" : "Operational Process",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "OPresultingInOSE",
+  "Name" : "OPShasPostconditionOSE",
   "ID" : "_2024x_2_26f0132_1751005742257_825702_1594",
+  "InheritsFrom" : [ ],
+  "ClassType" : "Association",
+  "IsGeneralFor" : [ ]
+}, {
+  "InViewpoint" : [ ],
+  "Documentation" : "Specifies the fact that a System Process may have System States as precondition. This means that the System Process can only be executed in distinct states.",
+  "AssociationEnds" : [ {
+    "ID" : "_19_0_2_26f0132_1562303523973_719860_90882",
+    "Name" : "System State",
+    "Multiplicity" : "0..*"
+  }, {
+    "ID" : "_19_0_4_26f0132_1624610613457_313794_115",
+    "Name" : "System Process",
+    "Multiplicity" : "0..*"
+  } ],
+  "Name" : "SPShasPreconditionSSE",
+  "ID" : "_2024x_2_26f0132_1751629270785_299763_886",
+  "InheritsFrom" : [ ],
+  "ClassType" : "Association",
+  "IsGeneralFor" : [ ]
+}, {
+  "InViewpoint" : [ ],
+  "Documentation" : "Specifies the fact that a System Process can have a particular set of transitions resulting in the System States as postcondition.",
+  "AssociationEnds" : [ {
+    "ID" : "_19_0_2_26f0132_1562303523973_719860_90882",
+    "Name" : "System State",
+    "Multiplicity" : "0..*"
+  }, {
+    "ID" : "_19_0_4_26f0132_1624610613457_313794_115",
+    "Name" : "System Process",
+    "Multiplicity" : "0..*"
+  } ],
+  "Name" : "SPShasPostconditionSSE",
+  "ID" : "_2024x_2_26f0132_1751629307240_413099_934",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
   "IsGeneralFor" : [ ]

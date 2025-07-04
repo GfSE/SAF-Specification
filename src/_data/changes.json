@@ -118,4 +118,8 @@
   "Body" : "2025-06-27",
   "ID" : "_2024x_2_26f0132_1751040686249_165192_5283",
   "Documentation" : "<html>\n  <head>\n\t\t<style>\n\t\t\tp {padding:0px; margin:0px;}\n\t\t</style>\n\t</head>\n  <body>\n    <p>\nAdd Operational State Viewpoint as proposed in <a href=\"https://github.com/GfSE/SAF-Specification/issues/102\">#102</a>\n\n    </p>\n\n    <p>\nnew stereotypes SAF_O3_OSTA for Diagram and SAF_OperationalState\n\n    </p>\n\n    <p>\n&#160;\n\n    </p>\n\n    <p>\nSet System State Viewpont to under construction to review Changes triggered by <a href=\"https://github.com/GfSE/SAF-Specification/issues/102\">#102</a>\n\n    </p>\n\n    <p>\n&#160;new stereotype SAF_SystemState\n\n    </p>\n\n</body>\n</html>"
+}, {
+  "Body" : "2025-07-04",
+  "ID" : "_2024x_2_26f0132_1751630058680_385040_256",
+  "Documentation" : "<html>\n  <head>\n\t\t<style>\n\t\t\tp {padding:0px; margin:0px;}\n\t\t</style>\n\t</head>\n  <body>\nChanges according to <a href=\"https://github.com/GfSE/SAF-Specification/discussions/118\">#118    \n</a><br>Add example for Operational State VP, setting the VP to proposed    \n<br>Add implementation for referencing SAF_OperationalState from SAF_OperationalProcess as pre and postcondition, as tagged values of the stereotype SAF_OperationalProcess    \n<br>Add implementation for referencing SAF_SystemState from SAF_SystemFunction as pre and postcondition, as tagged values of the stereotype SAF_OperationalProcess</body>\n</html>"
 } ]
