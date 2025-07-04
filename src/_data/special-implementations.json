@@ -433,12 +433,12 @@
   "Name" : "PreConditionStates",
   "Stereotype" : "SCM_Attribute",
   "Client" : {
-    "ID" : "_2024x_2_26f0132_1751012115640_421211_2857",
-    "Name" : "SAF_OperationalState"
-  },
-  "Supplier" : {
     "ID" : "_19_0_3_8710274_1581679987896_193803_55986",
     "Name" : "SAF_OperationalProcess"
+  },
+  "Supplier" : {
+    "ID" : "_2024x_2_26f0132_1751012115640_421211_2857",
+    "Name" : "SAF_OperationalState"
   }
 }, {
   "ID" : "_2024x_2_26f0132_1751619636169_655080_134",
@@ -446,12 +446,12 @@
   "Name" : "PostConditionStates",
   "Stereotype" : "SCM_Attribute",
   "Client" : {
-    "ID" : "_2024x_2_26f0132_1751012115640_421211_2857",
-    "Name" : "SAF_OperationalState"
-  },
-  "Supplier" : {
     "ID" : "_19_0_3_8710274_1581679987896_193803_55986",
     "Name" : "SAF_OperationalProcess"
+  },
+  "Supplier" : {
+    "ID" : "_2024x_2_26f0132_1751012115640_421211_2857",
+    "Name" : "SAF_OperationalState"
   }
 }, {
   "ID" : "_2024x_2_26f0132_1751628090453_90338_424",
