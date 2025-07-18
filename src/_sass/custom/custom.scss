@@ -182,15 +182,50 @@
   }
 }
 
-#prev-btn, #next-btn {
-  display: inline-block;
-  padding: 10px 15px;
-  background-color: #333;
-  color: white;
-  border: none;
-  cursor: pointer;
+
+#gallery-container {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  touch-action: pan-y;
 }
 
-#prev-btn:hover, #next-btn:hover {
-  background-color: #555;
+#gallery-image {
+  width: 100%;
+  height: auto;
+}
+
+#prev-btn,
+#next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+
+#prev-btn {
+  left: 10px;
+}
+
+#next-btn {
+  right: 10px;
+}
+
+
+#prev-btn:hover,
+#next-btn:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+/* Optional: Add a focus style for accessibility */
+#prev-btn:focus,
+#next-btn:focus {
+  outline: 2px solid #ffffff;
 }

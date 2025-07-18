@@ -23,16 +23,13 @@
 
 ## Example
 
-<div id="gallery-container" style="max-width: 100%; overflow: hidden; touch-action: pan-y;">
+<div id="gallery-container">
   <img id="gallery-image" 
        src="../../diagrams/examples_md/exa{{ examples[0].ID }}.svg"
-       alt="{{ examples[0].Name }}" 
-       style="max-width: 100%; height: auto;" />
+       alt="{{ examples[0].Name }}"  />
   {% if examples.size > 1 %}
-  <div style="margin-top: 10px;">
-    <button id="prev-btn" onclick="prevImage()">Previous</button>
-    <button id="next-btn" onclick="nextImage()">Next</button>
-  </div>
+  <button id="prev-btn" onclick="prevImage()">&#8592;</button>
+  <button id="next-btn" onclick="nextImage()">&#8594;</button>
   {% endif %}
 </div>
 
