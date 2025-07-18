@@ -22,9 +22,66 @@
 
 
 ## Example
-{% for ex in examples %}
-<img src="../../diagrams/examples_md/exa{{ ex.ID }}.svg" />
-{% endfor %}
+
+<div id="gallery-container">
+  <img id="gallery-image" src="../../diagrams/examples_md/exa{{ examples[0].ID }}.svg" alt="{{ examples[0].Name }}" style="max-width: 100%; height: auto;" />
+  {% if examples.size > 1 %}
+  <div style="margin-top: 10px;">
+    <button id="prev-btn" onclick="prevImage()">Previous</button>
+    <button id="next-btn" onclick="nextImage()">Next</button>
+  </div>
+  {% endif %}
+</div>
+
+<script>
+  const images = [
+    {% for ex in examples %}
+      { "src": "../../diagrams/examples_md/exa{{ ex.ID }}.svg", "alt": "{{ ex.Name }}" },
+    {% endfor %}
+  ];
+
+  let currentIndex = 0;
+
+  function showImage(index) {
+    const img = document.getElementById("gallery-image");
+    img.src = images[index].src;
+    img.alt = images[index].alt;
+  }
+
+  function nextImage() {
+    currentIndex = (currentIndex + 1) % images.length;
+    showImage(currentIndex);
+  }
+
+  function prevImage() {
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
+    showImage(currentIndex);
+  }
+
+    // Swipe detection
+  let startX = 0;
+
+  const galleryImage = document.getElementById("gallery-image");
+
+  galleryImage.addEventListener("touchstart", function (e) {
+    startX = e.touches[0].clientX;
+  });
+
+  galleryImage.addEventListener("touchend", function (e) {
+    const endX = e.changedTouches[0].clientX;
+    const diffX = startX - endX;
+
+    // Minimum distance threshold to consider a swipe
+    if (Math.abs(diffX) > 30) {
+      if (diffX > 0) {
+        nextImage(); // Swiped left
+      } else {
+        prevImage(); // Swiped right
+      }
+    }
+  });
+</script>
+
 
 ## Purpose
 {{ vp.Purpose }}
