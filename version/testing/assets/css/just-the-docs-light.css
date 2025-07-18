@@ -7839,4 +7839,17 @@ blockquote.warning-title > p:last-child {
   text-decoration-color: #000000;
 }
 
+#prev-btn, #next-btn {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#prev-btn:hover, #next-btn:hover {
+  background-color: #555;
+}
+
 /*# sourceMappingURL=just-the-docs-light.css.map */
