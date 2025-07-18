@@ -59,27 +59,36 @@
   }
 
     // Swipe detection
-  let startX = 0;
+  let touchStartX = 0;
+  let touchEndX = 0;
 
   const galleryImage = document.getElementById("gallery-image");
 
-  galleryImage.addEventListener("touchstart", function (e) {
-    startX = e.touches[0].clientX;
-  });
+  // Touch start
+  galleryImage.addEventListener("touchstart", function(e) {
+    touchStartX = e.changedTouches[0].screenX;
+  }, { passive: true });
 
-  galleryImage.addEventListener("touchend", function (e) {
-    const endX = e.changedTouches[0].clientX;
-    const diffX = startX - endX;
+ // Touch end
+  galleryImage.addEventListener("touchend", function(e) {
+    touchEndX = e.changedTouches[0].screenX;
+    handleGesture();
+  }, { passive: true });
 
-    // Minimum distance threshold to consider a swipe
-    if (Math.abs(diffX) > 30) {
-      if (diffX > 0) {
-        nextImage(); // Swiped left
+  function handleGesture() {
+    const swipeThreshold = 50; // minimum distance in px to consider a swipe
+    const distance = touchEndX - touchStartX;
+
+    if (Math.abs(distance) > swipeThreshold) {
+      if (distance < 0) {
+        nextImage(); // swipe left
       } else {
-        prevImage(); // Swiped right
+        prevImage(); // swipe right
       }
     }
-  });
+  }
+
+
 </script>
 
 
