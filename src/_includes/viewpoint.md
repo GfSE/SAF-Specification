@@ -23,8 +23,11 @@
 
 ## Example
 
-<div id="gallery-container">
-  <img id="gallery-image" src="../../diagrams/examples_md/exa{{ examples[0].ID }}.svg" alt="{{ examples[0].Name }}" style="max-width: 100%; height: auto;" />
+<div id="gallery-container" style="max-width: 100%; overflow: hidden; touch-action: pan-y;">
+  <img id="gallery-image" 
+       src="../../diagrams/examples_md/exa{{ examples[0].ID }}.svg"
+       alt="{{ examples[0].Name }}" 
+       style="max-width: 100%; height: auto;" />
   {% if examples.size > 1 %}
   <div style="margin-top: 10px;">
     <button id="prev-btn" onclick="prevImage()">Previous</button>
@@ -58,36 +61,29 @@
     showImage(currentIndex);
   }
 
-    // Swipe detection
-  let touchStartX = 0;
-  let touchEndX = 0;
+   // Swipe support
+  let startX = 0;
+  let endX = 0;
+  const threshold = 50; // swipe sensitivity in px
 
-  const galleryImage = document.getElementById("gallery-image");
+  const gallery = document.getElementById("gallery-container");
 
-  // Touch start
-  galleryImage.addEventListener("touchstart", function(e) {
-    touchStartX = e.changedTouches[0].screenX;
+  gallery.addEventListener("touchstart", function (e) {
+    startX = e.touches[0].clientX;
   }, { passive: true });
 
- // Touch end
-  galleryImage.addEventListener("touchend", function(e) {
-    touchEndX = e.changedTouches[0].screenX;
-    handleGesture();
-  }, { passive: true });
+  gallery.addEventListener("touchend", function (e) {
+    endX = e.changedTouches[0].clientX;
+    const diff = endX - startX;
 
-  function handleGesture() {
-    const swipeThreshold = 50; // minimum distance in px to consider a swipe
-    const distance = touchEndX - touchStartX;
-
-    if (Math.abs(distance) > swipeThreshold) {
-      if (distance < 0) {
+    if (Math.abs(diff) > threshold) {
+      if (diff < 0) {
         nextImage(); // swipe left
       } else {
         prevImage(); // swipe right
       }
     }
-  }
-
+  }, { passive: true });
 
 </script>
 
