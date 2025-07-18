@@ -61,10 +61,10 @@
     showImage(currentIndex);
   }
 
-   // Swipe support
+ 
   let startX = 0;
   let endX = 0;
-  const threshold = 50; // swipe sensitivity in px
+  const threshold = 50;
 
   const gallery = document.getElementById("gallery-container");
 
@@ -78,9 +78,9 @@
 
     if (Math.abs(diff) > threshold) {
       if (diff < 0) {
-        nextImage(); // swipe left
+        nextImage();
       } else {
-        prevImage(); // swipe right
+        prevImage(); 
       }
     }
   }, { passive: true });
