@@ -28,8 +28,8 @@
        src="../../diagrams/examples_md/exa{{ examples[0].ID }}.svg"
        alt="{{ examples[0].Name }}"  />
   {% if examples.size > 1 %}
-  <button id="prev-btn" onclick="prevImage()">&#8592;</button>
-  <button id="next-btn" onclick="nextImage()">&#8594;</button>
+  <button id="prev-btn" onclick="prevImage()">◀︎</button>
+  <button id="next-btn" onclick="nextImage()">▶︎</button>
   {% endif %}
 </div>
 
