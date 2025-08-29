@@ -480,6 +480,32 @@
     "Name" : "SAF_SystemState"
   }
 }, {
+  "ID" : "_2024x_2_26f0132_1756459167394_785795_2170",
+  "Documentation" : "",
+  "Name" : "PostConditionStates",
+  "Stereotype" : "SCM_Attribute",
+  "Client" : {
+    "ID" : "_19_0_4_26f0132_1624963294145_897849_4228",
+    "Name" : "SAF_SystemProcess"
+  },
+  "Supplier" : {
+    "ID" : "_2024x_2_26f0132_1751013382405_4997_3245",
+    "Name" : "SAF_SystemState"
+  }
+}, {
+  "ID" : "_2024x_2_26f0132_1756459325683_955797_2184",
+  "Documentation" : "",
+  "Name" : "PreConditionStates",
+  "Stereotype" : "SCM_Attribute",
+  "Client" : {
+    "ID" : "_19_0_4_26f0132_1624963294145_897849_4228",
+    "Name" : "SAF_SystemProcess"
+  },
+  "Supplier" : {
+    "ID" : "_2024x_2_26f0132_1751013382405_4997_3245",
+    "Name" : "SAF_SystemState"
+  }
+}, {
   "ID" : "_2024x_8710274_1715874787286_133978_15954",
   "Documentation" : "",
   "Name" : "",
