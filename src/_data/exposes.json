@@ -196,7 +196,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524801_13984_91387",
-    "Name" : "SSEperformingSFN"
+    "Name" : "SFNhasPreconditionSSE"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1562303526536_189439_92549",
@@ -760,7 +760,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562307450269_33287_141718",
-    "Name" : "State Transition"
+    "Name" : "System State Transition"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1562303526536_189439_92549",
@@ -772,7 +772,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_3_26f0132_1593764793156_232154_797",
-    "Name" : "SFNresultingInSSE"
+    "Name" : "SFNhasPostconditionSSE"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1562303526536_189439_92549",
@@ -4185,6 +4185,78 @@
   "Viewpoint" : {
     "ID" : "_19_0_3_6d8019d_1599070472635_176306_252",
     "Name" : "Operational Performer Definition Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1751004870304_200470_29",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_2_26f0132_1751005742169_326952_1493",
+    "Name" : "OPShasPreconditionOSE"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_2_26f0132_1751004870294_93250_27",
+    "Name" : "Operational State Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1751004870305_966750_30",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_2_26f0132_1751005742257_825702_1594",
+    "Name" : "OPShasPostconditionOSE"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_2_26f0132_1751004870294_93250_27",
+    "Name" : "Operational State Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1751004870306_262831_32",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_2_26f0132_1751005742166_577072_1491",
+    "Name" : "Operational State"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_2_26f0132_1751004870294_93250_27",
+    "Name" : "Operational State Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1751004870307_393679_35",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_2_26f0132_1751005742256_520008_1593",
+    "Name" : "OPbeeingInOSE"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_2_26f0132_1751004870294_93250_27",
+    "Name" : "Operational State Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1751004870307_909758_34",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_2_26f0132_1751005742167_311533_1492",
+    "Name" : "Operational State Transition"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_2_26f0132_1751004870294_93250_27",
+    "Name" : "Operational State Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1751004870308_610022_36",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_2_26f0132_1751005742171_724764_1495",
+    "Name" : "triggering"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_2_26f0132_1751004870294_93250_27",
+    "Name" : "Operational State Viewpoint"
   }
 }, {
   "Name" : "",

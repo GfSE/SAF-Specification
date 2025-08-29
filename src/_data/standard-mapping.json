@@ -4446,4 +4446,52 @@
     "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
     "Name" : "System Context Definition Viewpoint"
   }
+}, {
+  "ID" : "_2024x_2_26f0132_1751004870308_262567_39",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_2021x_2_8710274_1690289121349_106638_29534",
+    "Name" : "System Viewpoints, views and models",
+    "Type" : "Class",
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "Chapter" : "Appendix E",
+    "URL" : ""
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_2_26f0132_1751004870294_93250_27",
+    "Name" : "Operational State Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_2_26f0132_1751004870309_315820_40",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_4_2a110596_1614849508051_389332_250",
+    "Name" : "System architecture description",
+    "Type" : "Class",
+    "Stereotype" : "Information Item",
+    "Standard" : "SEHB V5",
+    "Chapter" : "Appendix E",
+    "URL" : ""
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_2_26f0132_1751004870294_93250_27",
+    "Name" : "Operational State Viewpoint"
+  }
+}, {
+  "ID" : "_2024x_2_26f0132_1751004870309_95874_41",
+  "Documentation" : "",
+  "ObjectOfStandard" : {
+    "ID" : "_19_0_2_3746066c_1597340544988_988488_180",
+    "Name" : "System Requirements Definition Process",
+    "Type" : "Activity",
+    "Stereotype" : "ISOProcess",
+    "Standard" : "ISO 15288:2023",
+    "Chapter" : "6.4.3",
+    "URL" : "https://en.wikipedia.org/wiki/ISO/IEC_15288"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_2_26f0132_1751004870294_93250_27",
+    "Name" : "Operational State Viewpoint"
+  }
 } ]

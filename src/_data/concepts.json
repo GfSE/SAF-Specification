@@ -671,7 +671,7 @@
     "ID" : "_19_0_2_26f0132_1562303526536_189439_92549",
     "Name" : "System State Viewpoint"
   } ],
-  "Documentation" : "Describes a state (or mode) of something that can have distinct states.",
+  "Documentation" : "Describes a state (or mode) of something  on system level that can have distinct states.",
   "AssociationEnds" : [ ],
   "Name" : "System State",
   "ID" : "_19_0_2_26f0132_1562303523973_719860_90882",
@@ -1643,7 +1643,7 @@
     "ID" : "_19_0_2_26f0132_1562303526536_189439_92549",
     "Name" : "System State Viewpoint"
   } ],
-  "Documentation" : "Specifies the fact that the Function is only provided in distinct States. The state is a precondition for the Function to be able to perform.",
+  "Documentation" : "Specifies the fact a System Function may have System States as precondition. This means that the Function is only provided in distinct States. ",
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524161_394471_91009",
     "Name" : "System Function",
@@ -1653,7 +1653,7 @@
     "Name" : "System State",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "SSEperformingSFN",
+  "Name" : "SFNhasPreconditionSSE",
   "ID" : "_19_0_2_26f0132_1562303524801_13984_91387",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -1715,7 +1715,7 @@
     "ID" : "_19_0_2_26f0132_1562303526536_189439_92549",
     "Name" : "System State Viewpoint"
   } ],
-  "Documentation" : "Describes an allowed transition between two states of an item that can be in distinct States.",
+  "Documentation" : "Describes an allowed transition between two system states of an item that can be in distinct States.",
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303523973_719860_90882",
     "Name" : "System State",
@@ -1725,7 +1725,7 @@
     "Name" : "System State",
     "Multiplicity" : "1"
   } ],
-  "Name" : "State Transition",
+  "Name" : "System State Transition",
   "ID" : "_19_0_2_26f0132_1562307450269_33287_141718",
   "InheritsFrom" : [ ],
   "ClassType" : "AssociationClass",
@@ -2898,7 +2898,7 @@
     "Name" : "System Function",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "SFNresultingInSSE",
+  "Name" : "SFNhasPostconditionSSE",
   "ID" : "_19_0_3_26f0132_1593764793156_232154_797",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -3468,7 +3468,7 @@
     "ID" : "_19_0_1_26f0132_1554446728606_740631_45702",
     "Name" : "System Use Case Viewpoint"
   } ],
-  "Documentation" : "Specifies the fact that a System Use Case has a state as Postcondition.",
+  "Documentation" : "Specifies the fact that a System Use Case may have System States as Postcondition.",
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303523973_719860_90882",
     "Name" : "System State",
@@ -3488,7 +3488,7 @@
     "ID" : "_19_0_1_26f0132_1554446728606_740631_45702",
     "Name" : "System Use Case Viewpoint"
   } ],
-  "Documentation" : "Specifies the fact that a System Use Case has a state as Precondition.",
+  "Documentation" : "Specifies the fact that a System Use Case may have System States as Precondition.",
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303523973_719860_90882",
     "Name" : "System State",
@@ -3672,9 +3672,9 @@
   "IsGeneralFor" : [ ]
 }, {
   "InViewpoint" : [ ],
-  "Documentation" : "",
+  "Documentation" : "an event that trigges a state transition",
   "AssociationEnds" : [ ],
-  "Name" : "Triggering Event",
+  "Name" : "System Triggering Event",
   "ID" : "_19_0_4_6d8019d_1627829323787_791914_508",
   "InheritsFrom" : [ ],
   "ClassType" : "Class",
@@ -3684,14 +3684,14 @@
     "ID" : "_19_0_2_26f0132_1562303526536_189439_92549",
     "Name" : "System State Viewpoint"
   } ],
-  "Documentation" : "",
+  "Documentation" : "specifies that an System Triggering Event triggers a System State Transition.",
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562307450269_33287_141718",
-    "Name" : "State Transition",
+    "Name" : "System State Transition",
     "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_4_6d8019d_1627829323787_791914_508",
-    "Name" : "Triggering Event",
+    "Name" : "System Triggering Event",
     "Multiplicity" : "0..1"
   } ],
   "Name" : "triggering",
@@ -5554,6 +5554,161 @@
   } ],
   "Name" : "OPRspecializesOPR",
   "ID" : "_2024x_2_26f0132_1749655623218_564595_162",
+  "InheritsFrom" : [ ],
+  "ClassType" : "Association",
+  "IsGeneralFor" : [ ]
+}, {
+  "InViewpoint" : [ {
+    "ID" : "_2024x_2_26f0132_1751004870294_93250_27",
+    "Name" : "Operational State Viewpoint"
+  } ],
+  "Documentation" : "Describes a state (or mode) of on operational level.",
+  "AssociationEnds" : [ ],
+  "Name" : "Operational State",
+  "ID" : "_2024x_2_26f0132_1751005742166_577072_1491",
+  "InheritsFrom" : [ ],
+  "ClassType" : "Class",
+  "IsGeneralFor" : [ ]
+}, {
+  "InViewpoint" : [ {
+    "ID" : "_2024x_2_26f0132_1751004870294_93250_27",
+    "Name" : "Operational State Viewpoint"
+  } ],
+  "Documentation" : "Describes an allowed transition between two states on operational level.",
+  "AssociationEnds" : [ {
+    "ID" : "_2024x_2_26f0132_1751005742166_577072_1491",
+    "Name" : "Operational State",
+    "Multiplicity" : "1"
+  }, {
+    "ID" : "_2024x_2_26f0132_1751005742166_577072_1491",
+    "Name" : "Operational State",
+    "Multiplicity" : "1"
+  } ],
+  "Name" : "Operational State Transition",
+  "ID" : "_2024x_2_26f0132_1751005742167_311533_1492",
+  "InheritsFrom" : [ ],
+  "ClassType" : "AssociationClass",
+  "IsGeneralFor" : [ ]
+}, {
+  "InViewpoint" : [ {
+    "ID" : "_2024x_2_26f0132_1751004870294_93250_27",
+    "Name" : "Operational State Viewpoint"
+  } ],
+  "Documentation" : "Specifies the fact that the Operational Process is only provided in distinct Operational States. The states ar a precondition for the Opeational Process to be able to perform.",
+  "AssociationEnds" : [ {
+    "ID" : "_2024x_2_26f0132_1751005742166_577072_1491",
+    "Name" : "Operational State",
+    "Multiplicity" : "0..*"
+  }, {
+    "ID" : "_19_0_2_164f041e_1564572299224_487951_54901",
+    "Name" : "Operational Process",
+    "Multiplicity" : "0..*"
+  } ],
+  "Name" : "OPShasPreconditionOSE",
+  "ID" : "_2024x_2_26f0132_1751005742169_326952_1493",
+  "InheritsFrom" : [ ],
+  "ClassType" : "Association",
+  "IsGeneralFor" : [ ]
+}, {
+  "InViewpoint" : [ ],
+  "Documentation" : "specifies an event causing a state transition on operational level",
+  "AssociationEnds" : [ ],
+  "Name" : "Operational Triggering Event",
+  "ID" : "_2024x_2_26f0132_1751005742170_567520_1494",
+  "InheritsFrom" : [ ],
+  "ClassType" : "Class",
+  "IsGeneralFor" : [ ]
+}, {
+  "InViewpoint" : [ {
+    "ID" : "_2024x_2_26f0132_1751004870294_93250_27",
+    "Name" : "Operational State Viewpoint"
+  } ],
+  "Documentation" : "Specifies that an Operational Triggering Event triggers an Operational State Transition",
+  "AssociationEnds" : [ {
+    "ID" : "_2024x_2_26f0132_1751005742167_311533_1492",
+    "Name" : "Operational State Transition",
+    "Multiplicity" : "0..*"
+  }, {
+    "ID" : "_2024x_2_26f0132_1751005742170_567520_1494",
+    "Name" : "Operational Triggering Event",
+    "Multiplicity" : "0..1"
+  } ],
+  "Name" : "triggering",
+  "ID" : "_2024x_2_26f0132_1751005742171_724764_1495",
+  "InheritsFrom" : [ ],
+  "ClassType" : "Association",
+  "IsGeneralFor" : [ ]
+}, {
+  "InViewpoint" : [ {
+    "ID" : "_2024x_2_26f0132_1751004870294_93250_27",
+    "Name" : "Operational State Viewpoint"
+  } ],
+  "Documentation" : "Specifies that an Operational Perfomer can have certain states.\nNote:\nOf course an item is in only one distinct state at a certain time. The multiplicity means that an Item can have a set of possible states, and a state can be used to specify possible States for several operational performers.",
+  "AssociationEnds" : [ {
+    "ID" : "_2024x_2_26f0132_1751005742166_577072_1491",
+    "Name" : "Operational State",
+    "Multiplicity" : "0..*"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562316412621_925297_43615",
+    "Name" : "Operational Performer",
+    "Multiplicity" : "0..*"
+  } ],
+  "Name" : "OPbeeingInOSE",
+  "ID" : "_2024x_2_26f0132_1751005742256_520008_1593",
+  "InheritsFrom" : [ ],
+  "ClassType" : "Association",
+  "IsGeneralFor" : [ ]
+}, {
+  "InViewpoint" : [ {
+    "ID" : "_2024x_2_26f0132_1751004870294_93250_27",
+    "Name" : "Operational State Viewpoint"
+  } ],
+  "Documentation" : "Specifies the fact that a Operational Process  can perform a particular set of transitions, possibly resulting in one of the related Operational States as a postcondition.",
+  "AssociationEnds" : [ {
+    "ID" : "_2024x_2_26f0132_1751005742166_577072_1491",
+    "Name" : "Operational State",
+    "Multiplicity" : "0..*"
+  }, {
+    "ID" : "_19_0_2_164f041e_1564572299224_487951_54901",
+    "Name" : "Operational Process",
+    "Multiplicity" : "0..*"
+  } ],
+  "Name" : "OPShasPostconditionOSE",
+  "ID" : "_2024x_2_26f0132_1751005742257_825702_1594",
+  "InheritsFrom" : [ ],
+  "ClassType" : "Association",
+  "IsGeneralFor" : [ ]
+}, {
+  "InViewpoint" : [ ],
+  "Documentation" : "Specifies the fact that a System Process may have System States as precondition. This means that the System Process can only be executed in distinct states.",
+  "AssociationEnds" : [ {
+    "ID" : "_19_0_2_26f0132_1562303523973_719860_90882",
+    "Name" : "System State",
+    "Multiplicity" : "0..*"
+  }, {
+    "ID" : "_19_0_4_26f0132_1624610613457_313794_115",
+    "Name" : "System Process",
+    "Multiplicity" : "0..*"
+  } ],
+  "Name" : "SPShasPreconditionSSE",
+  "ID" : "_2024x_2_26f0132_1751629270785_299763_886",
+  "InheritsFrom" : [ ],
+  "ClassType" : "Association",
+  "IsGeneralFor" : [ ]
+}, {
+  "InViewpoint" : [ ],
+  "Documentation" : "Specifies the fact that a System Process can have a particular set of transitions resulting in the System States as postcondition.",
+  "AssociationEnds" : [ {
+    "ID" : "_19_0_2_26f0132_1562303523973_719860_90882",
+    "Name" : "System State",
+    "Multiplicity" : "0..*"
+  }, {
+    "ID" : "_19_0_4_26f0132_1624610613457_313794_115",
+    "Name" : "System Process",
+    "Multiplicity" : "0..*"
+  } ],
+  "Name" : "SPShasPostconditionSSE",
+  "ID" : "_2024x_2_26f0132_1751629307240_413099_934",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
   "IsGeneralFor" : [ ]

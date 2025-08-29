@@ -70,6 +70,9 @@
     "Concern" : "What operational process activities shall be executed during the execution of an operational story?"
   }, {
     "Rationale" : "",
+    "Concern" : "What operational states are defined for a system or system's operation?"
+  }, {
+    "Rationale" : "",
     "Concern" : "What possible threads of operational process activities have to be carried out to achieve the operational story main and alternative goals?"
   }, {
     "Rationale" : "",
@@ -110,6 +113,12 @@
   }, {
     "Rationale" : "",
     "Concern" : "Which operational exchanges do operational performers need to consume or provide?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which operational processes are possible to be performed in an operational state?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which operational states are possible results of performing an operational process?"
   }, {
     "Rationale" : "",
     "Concern" : "Which performers or resources are necessary to operate the intended solution?"
@@ -177,6 +186,9 @@
     "Concern" : "What operational process activities shall be executed during the execution of an operational story?"
   }, {
     "Rationale" : "",
+    "Concern" : "What operational states are defined for a system or system's operation?"
+  }, {
+    "Rationale" : "",
     "Concern" : "What possible threads of operational process activities have to be carried out to achieve the operational story main and alternative goals?"
   }, {
     "Rationale" : "",
@@ -214,6 +226,12 @@
   }, {
     "Rationale" : "",
     "Concern" : "Which operational exchanges do operational performers need to consume or provide?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which operational processes are possible to be performed in an operational state?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which operational states are possible results of performing an operational process?"
   }, {
     "Rationale" : "",
     "Concern" : "Which performers or resources are necessary to operate the intended solution?"
@@ -561,6 +579,15 @@
   }, {
     "Rationale" : "",
     "Concern" : "What operational capabilities are defined?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What operational states are defined for a system or system's operation?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which operational processes are possible to be performed in an operational state?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which operational states are possible results of performing an operational process?"
   } ]
 }, {
   "Name" : "Project Manager",
@@ -1399,6 +1426,9 @@
     "Concern" : "What operational process activities shall be executed during the execution of an operational story?"
   }, {
     "Rationale" : "",
+    "Concern" : "What operational states are defined for a system or system's operation?"
+  }, {
+    "Rationale" : "",
     "Concern" : "What possible threads of operational process activities have to be carried out to achieve the operational story main and alternative goals?"
   }, {
     "Rationale" : "",
@@ -1496,6 +1526,12 @@
   }, {
     "Rationale" : "",
     "Concern" : "Which operational exchanges do operational performers need to consume or provide?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which operational processes are possible to be performed in an operational state?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which operational states are possible results of performing an operational process?"
   }, {
     "Rationale" : "",
     "Concern" : "Which other standards are referenced or referred to by applicable standards?"

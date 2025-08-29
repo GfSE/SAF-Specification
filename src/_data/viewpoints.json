@@ -363,6 +363,20 @@
   "RecommendedVP" : [ "_19_0_2_26f0132_1567778254489_369345_55863" ],
   "RequiredVP" : [ ]
 }, {
+  "Name" : "Operational State Viewpoint",
+  "ID" : "_2024x_2_26f0132_1751004870294_93250_27",
+  "VP_ID" : "O3_OSTA",
+  "Maturity" : "released",
+  "Purpose" : "The viewpoint defines modes of operation for the prosed system (such as normal, on-road, degraded, war-time, maintenance, training etc.) which apply not only to the SOI but also to involved personnel.\nAn operational mode defines a potential life-cycle selection for the SOI which has a relevant impact for the SOI’s stakeholder/users w.r.t. to the operations. [tbd]",
+  "Applicability" : "The Operational State Viewpoint supports the “Business or Mission Analysis Process” activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§ 2.3.5.1] defining states/modes at an operational level (e.g., business or mission profile, and operational scenarios). The operational states/modes viewpoint contributes to Preliminary Life-cycle Concepts and the Business or mission analysis strategy.",
+  "Aspect" : "Process & Behavior",
+  "Domain" : "Operational",
+  "Presentation" : [ "A block definition diagram (BDD) featuring states, and state transitions. Note: References to model elements that are dependent of states, or transitions shall be shown as callout, or compartment notation." ],
+  "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_ebf0350_1554653236737_36605_43554", "_2021x_2_8710274_1674680055517_468796_22923", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
+  "Concern" : [ "_2024x_2_26f0132_1751005177169_420757_1216", "_2024x_2_26f0132_1751005074373_263380_1200", "_2024x_2_26f0132_1751632678372_112390_48" ],
+  "RecommendedVP" : [ "_19_0_4_6d8019d_1618589543897_213858_307" ],
+  "RequiredVP" : [ ]
+}, {
   "Name" : "Operational Story Viewpoint",
   "ID" : "_19_0_2_26f0132_1561750369203_901730_48359",
   "VP_ID" : "O1_OSTY",

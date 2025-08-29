@@ -39,8 +39,10 @@ The Specific Concepts are grouped by topics, and are shown together with related
 * [Operational Level Domain Items](./concepts/SAF_domain_kind_O_Definition.md)
 * [System Level Domain Items](./concepts/SAF_domain_kind_F_Definition.md)
 
+## Process
+* [Operational Process](./concepts/SAF_Operational_Process_Definition.md)
+
 ## Structure
-* [Operational Level Stucture](./concepts/SAF_structural_O_Definition.md)
 * [System Level Functional Stucture](./concepts/SAF_structural_F_Definition.md)
 * [System Level Logical Stucture](./concepts/SAF_structural_L_Definition.md)
 * [System Level Physical Stucture](./concepts/SAF_structural_P_Definition.md)
@@ -52,6 +54,7 @@ The Specific Concepts are grouped by topics, and are shown together with related
 
 ## States
 * [System State](./concepts/SAF_state_F_Definition.md)
+* [Operational State](./concepts/SAF_state_O_Definition.md)
 
 ## Misc
 * [Terms and Standards](./concepts/SAF_Terms_and_Standards.md)

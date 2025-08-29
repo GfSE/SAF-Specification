@@ -508,7 +508,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_2_26f0132_1562307450269_33287_141718",
-    "Name" : "State Transition"
+    "Name" : "System State Transition"
   },
   "RealizationOfConcept" : {
     "ID" : "_9_0_62a020a_1105704932761_361072_9592",
@@ -523,8 +523,8 @@
     "Name" : "System State"
   },
   "RealizationOfConcept" : {
-    "ID" : "_9_0_62a020a_1105704932587_977586_9575",
-    "Name" : "State"
+    "ID" : "_2024x_2_26f0132_1751013382405_4997_3245",
+    "Name" : "SAF_SystemState"
   }
 }, {
   "Name" : "",
@@ -535,8 +535,8 @@
     "Name" : "SDKbeeingInSSE"
   },
   "RealizationOfConcept" : {
-    "ID" : "_9_0_62a020a_1105704932656_223024_9583",
-    "Name" : "StateMachine"
+    "ID" : "_2024x_2_26f0132_1751013834092_499328_3419",
+    "Name" : ""
   }
 }, {
   "Name" : "",
@@ -547,8 +547,8 @@
     "Name" : "LETbeeingInSSE"
   },
   "RealizationOfConcept" : {
-    "ID" : "_9_0_62a020a_1105704932656_223024_9583",
-    "Name" : "StateMachine"
+    "ID" : "_2024x_2_26f0132_1751013847833_210456_3429",
+    "Name" : ""
   }
 }, {
   "Name" : "",
@@ -1456,7 +1456,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_4_6d8019d_1627829323787_791914_508",
-    "Name" : "Triggering Event"
+    "Name" : "System Triggering Event"
   },
   "RealizationOfConcept" : {
     "ID" : "_9_0_62a020a_1105704907923_155432_9176",
@@ -3873,6 +3873,174 @@
   "RealizationOfConcept" : {
     "ID" : "_9_0_62a020a_1105704885195_432731_7879",
     "Name" : "Generalization"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1751012170027_7296_2962",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_2_26f0132_1751005742166_577072_1491",
+    "Name" : "Operational State"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_2_26f0132_1751012115640_421211_2857",
+    "Name" : "SAF_OperationalState"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1751012249327_404935_2970",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_2_26f0132_1751005742167_311533_1492",
+    "Name" : "Operational State Transition"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_9_0_62a020a_1105704932761_361072_9592",
+    "Name" : "Transition"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1751012375652_384052_3006",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_2_26f0132_1751004870294_93250_27",
+    "Name" : "Operational State Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_2_26f0132_1751012321984_702856_2975",
+    "Name" : "SAF_O3_OSTA"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1751012624914_937482_3034",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_2_26f0132_1751005742170_567520_1494",
+    "Name" : "Operational Triggering Event"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_9_0_62a020a_1105704907923_155432_9176",
+    "Name" : "Event"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1751012760212_141352_3046",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_2_26f0132_1751005742256_520008_1593",
+    "Name" : "OPbeeingInOSE"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_2_26f0132_1751012721280_928385_3039",
+    "Name" : ""
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1751013029841_402759_3060",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_2_26f0132_1751005742256_520008_1593",
+    "Name" : "OPbeeingInOSE"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_2_26f0132_1751013004732_633344_3052",
+    "Name" : ""
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1751014108872_197283_3582",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303523801_666926_90760",
+    "Name" : "SDKbeeingInSSE"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_2_26f0132_1751013819561_40907_3405",
+    "Name" : ""
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1751014129545_565285_3594",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524176_991194_91090",
+    "Name" : "LETbeeingInSSE"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_2_26f0132_1751013819561_40907_3405",
+    "Name" : ""
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1751619690626_897052_143",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_2_26f0132_1751005742169_326952_1493",
+    "Name" : "OPShasPreconditionOSE"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_2_26f0132_1751619584504_299052_126",
+    "Name" : "PreConditionStates"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1751619715310_761008_149",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_2_26f0132_1751005742257_825702_1594",
+    "Name" : "OPShasPostconditionOSE"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_2_26f0132_1751619636169_655080_134",
+    "Name" : "PostConditionStates"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1751628247134_596683_473",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_3_26f0132_1593764793156_232154_797",
+    "Name" : "SFNhasPostconditionSSE"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_2_26f0132_1751628090453_90338_424",
+    "Name" : "PostConditionStates"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1751628268943_130167_483",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524801_13984_91387",
+    "Name" : "SFNhasPreconditionSSE"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_2_26f0132_1751628107407_64314_442",
+    "Name" : "PreConditionStates"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1756459253014_188020_2179",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_2_26f0132_1751629307240_413099_934",
+    "Name" : "SPShasPostconditionSSE"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_2_26f0132_1756459167394_785795_2170",
+    "Name" : "PostConditionStates"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1756459570833_802862_2191",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_2_26f0132_1751629270785_299763_886",
+    "Name" : "SPShasPreconditionSSE"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_2_26f0132_1756459325683_955797_2184",
+    "Name" : "PreConditionStates"
   }
 }, {
   "Name" : "",

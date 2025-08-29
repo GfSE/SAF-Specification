@@ -363,6 +363,149 @@
     "Name" : "SAF_Diagram"
   }
 }, {
+  "ID" : "_2024x_2_26f0132_1751012721280_928385_3039",
+  "Documentation" : "The State is not directly contained in the performer, but with a state machin in between. ",
+  "Name" : "",
+  "Stereotype" : "SCM_ContainedIn",
+  "Client" : {
+    "ID" : "_2024x_2_26f0132_1751012115640_421211_2857",
+    "Name" : "SAF_OperationalState"
+  },
+  "Supplier" : {
+    "ID" : "_9_0_62a020a_1105704932656_223024_9583",
+    "Name" : "StateMachine"
+  }
+}, {
+  "ID" : "_2024x_2_26f0132_1751013004732_633344_3052",
+  "Documentation" : "The State is not directly contained in the performer, but with a state machin in between. ",
+  "Name" : "",
+  "Stereotype" : "SCM_ContainedIn",
+  "Client" : {
+    "ID" : "_9_0_62a020a_1105704932656_223024_9583",
+    "Name" : "StateMachine"
+  },
+  "Supplier" : {
+    "ID" : "_19_0_3_26f0132_1581501489077_870542_155174",
+    "Name" : "SAF_OperationalPerformer"
+  }
+}, {
+  "ID" : "_2024x_2_26f0132_1751013819561_40907_3405",
+  "Documentation" : "",
+  "Name" : "",
+  "Stereotype" : "SCM_ContainedIn",
+  "Client" : {
+    "ID" : "_2024x_2_26f0132_1751013382405_4997_3245",
+    "Name" : "SAF_SystemState"
+  },
+  "Supplier" : {
+    "ID" : "_9_0_62a020a_1105704932656_223024_9583",
+    "Name" : "StateMachine"
+  }
+}, {
+  "ID" : "_2024x_2_26f0132_1751013834092_499328_3419",
+  "Documentation" : "",
+  "Name" : "",
+  "Stereotype" : "SCM_ContainedIn",
+  "Client" : {
+    "ID" : "_9_0_62a020a_1105704932656_223024_9583",
+    "Name" : "StateMachine"
+  },
+  "Supplier" : {
+    "ID" : "_19_0_3_26f0132_1614938958203_459716_5653",
+    "Name" : "SAF_DomainKind"
+  }
+}, {
+  "ID" : "_2024x_2_26f0132_1751013847833_210456_3429",
+  "Documentation" : "",
+  "Name" : "",
+  "Stereotype" : "SCM_ContainedIn",
+  "Client" : {
+    "ID" : "_9_0_62a020a_1105704932656_223024_9583",
+    "Name" : "StateMachine"
+  },
+  "Supplier" : {
+    "ID" : "_19_0_1_26f0132_1547201742246_537565_42154",
+    "Name" : "SAF_LogicalElement"
+  }
+}, {
+  "ID" : "_2024x_2_26f0132_1751619584504_299052_126",
+  "Documentation" : "",
+  "Name" : "PreConditionStates",
+  "Stereotype" : "SCM_Attribute",
+  "Client" : {
+    "ID" : "_19_0_3_8710274_1581679987896_193803_55986",
+    "Name" : "SAF_OperationalProcess"
+  },
+  "Supplier" : {
+    "ID" : "_2024x_2_26f0132_1751012115640_421211_2857",
+    "Name" : "SAF_OperationalState"
+  }
+}, {
+  "ID" : "_2024x_2_26f0132_1751619636169_655080_134",
+  "Documentation" : "",
+  "Name" : "PostConditionStates",
+  "Stereotype" : "SCM_Attribute",
+  "Client" : {
+    "ID" : "_19_0_3_8710274_1581679987896_193803_55986",
+    "Name" : "SAF_OperationalProcess"
+  },
+  "Supplier" : {
+    "ID" : "_2024x_2_26f0132_1751012115640_421211_2857",
+    "Name" : "SAF_OperationalState"
+  }
+}, {
+  "ID" : "_2024x_2_26f0132_1751628090453_90338_424",
+  "Documentation" : "",
+  "Name" : "PostConditionStates",
+  "Stereotype" : "SCM_Attribute",
+  "Client" : {
+    "ID" : "_19_0_1_26f0132_1548408079060_514464_44018",
+    "Name" : "SAF_SystemFunction"
+  },
+  "Supplier" : {
+    "ID" : "_2024x_2_26f0132_1751013382405_4997_3245",
+    "Name" : "SAF_SystemState"
+  }
+}, {
+  "ID" : "_2024x_2_26f0132_1751628107407_64314_442",
+  "Documentation" : "",
+  "Name" : "PreConditionStates",
+  "Stereotype" : "SCM_Attribute",
+  "Client" : {
+    "ID" : "_19_0_1_26f0132_1548408079060_514464_44018",
+    "Name" : "SAF_SystemFunction"
+  },
+  "Supplier" : {
+    "ID" : "_2024x_2_26f0132_1751013382405_4997_3245",
+    "Name" : "SAF_SystemState"
+  }
+}, {
+  "ID" : "_2024x_2_26f0132_1756459167394_785795_2170",
+  "Documentation" : "",
+  "Name" : "PostConditionStates",
+  "Stereotype" : "SCM_Attribute",
+  "Client" : {
+    "ID" : "_19_0_4_26f0132_1624963294145_897849_4228",
+    "Name" : "SAF_SystemProcess"
+  },
+  "Supplier" : {
+    "ID" : "_2024x_2_26f0132_1751013382405_4997_3245",
+    "Name" : "SAF_SystemState"
+  }
+}, {
+  "ID" : "_2024x_2_26f0132_1756459325683_955797_2184",
+  "Documentation" : "",
+  "Name" : "PreConditionStates",
+  "Stereotype" : "SCM_Attribute",
+  "Client" : {
+    "ID" : "_19_0_4_26f0132_1624963294145_897849_4228",
+    "Name" : "SAF_SystemProcess"
+  },
+  "Supplier" : {
+    "ID" : "_2024x_2_26f0132_1751013382405_4997_3245",
+    "Name" : "SAF_SystemState"
+  }
+}, {
   "ID" : "_2024x_8710274_1715874787286_133978_15954",
   "Documentation" : "",
   "Name" : "",

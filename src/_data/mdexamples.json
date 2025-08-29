@@ -194,6 +194,11 @@
   "Name" : "Logical Structure Definition Profile",
   "ExampleForVPID" : "D2_VPTI"
 }, {
+  "ID" : "_2024x_1_26f0132_1725615302483_921239_16681",
+  "Documentation" : "",
+  "Name" : "Maintain System",
+  "ExampleForVPID" : "F3_SPRO"
+}, {
   "ID" : "_2024x_2a0c05a1_1730985698925_20727_222",
   "Documentation" : "Adversary discovers a vulnerability in the FFDS communication protocol that enables him to gain access to the main FFDS system. There he can read out all data and change it if he wants.",
   "Name" : "Manipulate the Analyse FF Data Function",
@@ -373,4 +378,9 @@
   "Documentation" : "",
   "Name" : "Threat Scenario",
   "ExampleForVPID" : "F7_THSC"
+}, {
+  "ID" : "_2024x_2_26f0132_1751625531574_404715_3475",
+  "Documentation" : "",
+  "Name" : "operational states",
+  "ExampleForVPID" : "O3_OSTA"
 } ]
