@@ -137,7 +137,10 @@
   "ClassType" : "Association",
   "IsGeneralFor" : [ ]
 }, {
-  "InViewpoint" : [ ],
+  "InViewpoint" : [ {
+    "ID" : "_2024x_2_26f0132_1757420698363_571308_18",
+    "Name" : "EA Traceability Viewpoint"
+  } ],
   "Documentation" : "A concept used only together with relational concepts to specify that the relation goes to any other SAF Concept.",
   "AssociationEnds" : [ ],
   "Name" : "Any SAF Element",
@@ -5709,6 +5712,78 @@
   } ],
   "Name" : "SPShasPostconditionSSE",
   "ID" : "_2024x_2_26f0132_1751629307240_413099_934",
+  "InheritsFrom" : [ ],
+  "ClassType" : "Association",
+  "IsGeneralFor" : [ ]
+}, {
+  "InViewpoint" : [ {
+    "ID" : "_2024x_2_26f0132_1757420698363_571308_18",
+    "Name" : "EA Traceability Viewpoint"
+  } ],
+  "Documentation" : "Represents any conceptual entity of an Enterprise Architecture model.",
+  "AssociationEnds" : [ ],
+  "Name" : "Any EA Element",
+  "ID" : "_2024x_2_26f0132_1757421426352_10867_1155",
+  "InheritsFrom" : [ ],
+  "ClassType" : "Class",
+  "IsGeneralFor" : [ ]
+}, {
+  "InViewpoint" : [ {
+    "ID" : "_2024x_2_26f0132_1757420698363_571308_18",
+    "Name" : "EA Traceability Viewpoint"
+  } ],
+  "Documentation" : "Specifies that a SAF Element represents one EA Element",
+  "AssociationEnds" : [ {
+    "ID" : "_2024x_2_26f0132_1757421426352_10867_1155",
+    "Name" : "Any EA Element",
+    "Multiplicity" : "0..1"
+  }, {
+    "ID" : "_19_0_2_164f041e_1564565587397_301397_54399",
+    "Name" : "Any SAF Element",
+    "Multiplicity" : "0..1"
+  } ],
+  "Name" : "ASErepresentsAEE",
+  "ID" : "_2024x_2_26f0132_1757421548498_984650_1244",
+  "InheritsFrom" : [ ],
+  "ClassType" : "Association",
+  "IsGeneralFor" : [ ]
+}, {
+  "InViewpoint" : [ {
+    "ID" : "_2024x_2_26f0132_1757420698363_571308_18",
+    "Name" : "EA Traceability Viewpoint"
+  } ],
+  "Documentation" : "Specifies that any SAF element may derive from any EA elements",
+  "AssociationEnds" : [ {
+    "ID" : "_2024x_2_26f0132_1757421426352_10867_1155",
+    "Name" : "Any EA Element",
+    "Multiplicity" : "0..*"
+  }, {
+    "ID" : "_19_0_2_164f041e_1564565587397_301397_54399",
+    "Name" : "Any SAF Element",
+    "Multiplicity" : "0..*"
+  } ],
+  "Name" : "ASEderivesFromAEE",
+  "ID" : "_2024x_2_26f0132_1757421734076_475755_1298",
+  "InheritsFrom" : [ ],
+  "ClassType" : "Association",
+  "IsGeneralFor" : [ ]
+}, {
+  "InViewpoint" : [ {
+    "ID" : "_2024x_2_26f0132_1757420698363_571308_18",
+    "Name" : "EA Traceability Viewpoint"
+  } ],
+  "Documentation" : "Specifies that any SAF element may be informed by any EA elements.",
+  "AssociationEnds" : [ {
+    "ID" : "_2024x_2_26f0132_1757421426352_10867_1155",
+    "Name" : "Any EA Element",
+    "Multiplicity" : "0..*"
+  }, {
+    "ID" : "_19_0_2_164f041e_1564565587397_301397_54399",
+    "Name" : "Any SAF Element",
+    "Multiplicity" : "0..*"
+  } ],
+  "Name" : "ASEinformedByAEE",
+  "ID" : "_2024x_2_26f0132_1757421856918_814040_1326",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
   "IsGeneralFor" : [ ]

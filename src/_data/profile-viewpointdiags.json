@@ -1760,6 +1760,27 @@
   } ],
   "VP_ID" : "_2024x_2_26f0132_1751004870294_93250_27"
 }, {
+  "ID" : "_2024x_2_26f0132_1757420698607_19068_71",
+  "Documentation" : "",
+  "Name" : "EA Traceability Profile",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_2_164f041e_1564565587397_301397_54399",
+    "Name" : "Any SAF Element"
+  }, {
+    "ID" : "_2024x_2_26f0132_1757421426352_10867_1155",
+    "Name" : "Any EA Element"
+  }, {
+    "ID" : "_2024x_2_26f0132_1757421548498_984650_1244",
+    "Name" : "ASErepresentsAEE"
+  }, {
+    "ID" : "_2024x_2_26f0132_1757421734076_475755_1298",
+    "Name" : "ASEderivesFromAEE"
+  }, {
+    "ID" : "_2024x_2_26f0132_1757421856918_814040_1326",
+    "Name" : "ASEinformedByAEE"
+  } ],
+  "VP_ID" : "_2024x_2_26f0132_1757420698363_571308_18"
+}, {
   "ID" : "_2024x_4c5019a_1724765363321_68298_844",
   "Documentation" : "",
   "Name" : "Asset Identification Profile",

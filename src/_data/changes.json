@@ -122,4 +122,8 @@
   "Body" : "2025-07-04",
   "ID" : "_2024x_2_26f0132_1751630058680_385040_256",
   "Documentation" : "<html>\n  <head>\n\t\t<style>\n\t\t\tp {padding:0px; margin:0px;}\n\t\t</style>\n\t</head>\n  <body>\nChanges according to <a href=\"https://github.com/GfSE/SAF-Specification/discussions/118\">#118     \n</a><br>Add example for Operational State VP, setting the VP to proposed    \n<br>Add implementation for referencing SAF_OperationalState from SAF_OperationalProcess as pre and postcondition, as tagged values of the stereotype SAF_OperationalProcess    \n<br>Add implementation for referencing SAF_SystemState from SAF_SystemFunction as pre and postcondition, as tagged values of the stereotype SAF_OperationalProcess</body>\n</html>"
+}, {
+  "Body" : "2025-09-09",
+  "ID" : "_2024x_2_26f0132_1757426212217_845919_271",
+  "Documentation" : "Add Enterprise Architecture Traceability Viewpoint in status proposed. "
 } ]

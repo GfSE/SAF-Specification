@@ -4260,6 +4260,66 @@
   }
 }, {
   "Name" : "",
+  "ID" : "_2024x_2_26f0132_1757422004793_501101_1352",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_2_26f0132_1757421426352_10867_1155",
+    "Name" : "Any EA Element"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_2_26f0132_1757420698363_571308_18",
+    "Name" : "EA Traceability Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1757422011609_742040_1359",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_2_26f0132_1757421548498_984650_1244",
+    "Name" : "ASErepresentsAEE"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_2_26f0132_1757420698363_571308_18",
+    "Name" : "EA Traceability Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1757422016226_517470_1366",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_2_26f0132_1757421734076_475755_1298",
+    "Name" : "ASEderivesFromAEE"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_2_26f0132_1757420698363_571308_18",
+    "Name" : "EA Traceability Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1757422021637_670275_1373",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2024x_2_26f0132_1757421856918_814040_1326",
+    "Name" : "ASEinformedByAEE"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_2_26f0132_1757420698363_571308_18",
+    "Name" : "EA Traceability Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1757422033757_525240_1380",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_19_0_2_164f041e_1564565587397_301397_54399",
+    "Name" : "Any SAF Element"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_2_26f0132_1757420698363_571308_18",
+    "Name" : "EA Traceability Viewpoint"
+  }
+}, {
+  "Name" : "",
   "ID" : "_2024x_4c5019a_1724768430840_263169_2266",
   "Documentation" : "",
   "ExposedConcept" : {

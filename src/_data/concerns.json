@@ -1248,6 +1248,33 @@
   } ]
 }, {
   "Documentation" : "",
+  "Owner" : "traceability & mapping",
+  "Name" : "Which elements of a system model are a representing the same entity as an other element of an enterprise architecture model?",
+  "ID" : "_2024x_2_26f0132_1757422565357_592206_1399",
+  "ConcernsViewpoints" : [ {
+    "Name" : "EA Traceability Viewpoint",
+    "ID" : "_2024x_2_26f0132_1757420698363_571308_18"
+  } ]
+}, {
+  "Documentation" : "",
+  "Owner" : "traceability & mapping",
+  "Name" : "Which elements of a system model are derived from elements of an enterprise architecture model?",
+  "ID" : "_2024x_2_26f0132_1757422565358_576242_1400",
+  "ConcernsViewpoints" : [ {
+    "Name" : "EA Traceability Viewpoint",
+    "ID" : "_2024x_2_26f0132_1757420698363_571308_18"
+  } ]
+}, {
+  "Documentation" : "",
+  "Owner" : "traceability & mapping",
+  "Name" : "Which elements of a system model are informed by elements of an enterprise architecture model?",
+  "ID" : "_2024x_2_26f0132_1757422565358_807136_1401",
+  "ConcernsViewpoints" : [ {
+    "Name" : "EA Traceability Viewpoint",
+    "ID" : "_2024x_2_26f0132_1757420698363_571308_18"
+  } ]
+}, {
+  "Documentation" : "",
   "Owner" : "X-Concern",
   "Name" : "What are the Security Requirements?",
   "ID" : "_2024x_2a0c05a1_1731018562402_224934_115",

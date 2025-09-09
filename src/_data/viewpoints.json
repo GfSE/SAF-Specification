@@ -55,6 +55,20 @@
   "RecommendedVP" : [ "_2021x_2_8710274_1676722868986_622372_25044" ],
   "RequiredVP" : [ ]
 }, {
+  "Name" : "EA Traceability Viewpoint",
+  "ID" : "_2024x_2_26f0132_1757420698363_571308_18",
+  "VP_ID" : "C8_EATR",
+  "Maturity" : "proposed",
+  "Purpose" : "The EA Traceability Viewpoint provides a mapping between SAF System Model elements and model elements of an upper Enterprise Architecture (EA) Model.\nThe mapping is accomplished by three kinds of relations\n- a representation relation which states that an element of the SAF System Model and the related model element in the EA model represent the same entity.\n- a derivation relation, stating that an element of the SAF System Model is derived from an EA model element.\n- an informed relation, stating that an element of the  SAF System Model is somehow related to the respective EA Element. ",
+  "Applicability" : "applicability tbd, aspects of ISO 15288 Information Management and ISO 42010, also supports mission analysis, stakeholder requirements, system requirements and architecture definition by providing the reasoning and tracing",
+  "Aspect" : "Traceability & Mapping",
+  "Domain" : "Common",
+  "Presentation" : [ "One or more mapping matrices representing EA model elements and SAF model elements and their represents, derive and inform relations.", "One or more tables containing EA model elements, SAF model elements and the represents, derivation and informs relations." ],
+  "Stakeholders" : [ ],
+  "Concern" : [ "_2024x_2_26f0132_1757422565357_592206_1399", "_2024x_2_26f0132_1757422565358_576242_1400", "_2024x_2_26f0132_1757422565358_807136_1401" ],
+  "RecommendedVP" : [ ],
+  "RequiredVP" : [ ]
+}, {
   "Name" : "Framework Concept Definition Viewpoint",
   "ID" : "_2024x_26f0132_1719735639175_641082_26522",
   "VP_ID" : "D2_COTD",
