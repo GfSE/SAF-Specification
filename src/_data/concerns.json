@@ -1249,7 +1249,7 @@
 }, {
   "Documentation" : "",
   "Owner" : "traceability & mapping",
-  "Name" : "Which elements of a system model are a representing the same entity as an other element of an enterprise architecture model?",
+  "Name" : "Which element of a system model represents the same entity as an other element of the enterprise architecture model?",
   "ID" : "_2024x_2_26f0132_1757422565357_592206_1399",
   "ConcernsViewpoints" : [ {
     "Name" : "EA Traceability Viewpoint",
@@ -1258,7 +1258,7 @@
 }, {
   "Documentation" : "",
   "Owner" : "traceability & mapping",
-  "Name" : "Which elements of a system model are derived from elements of an enterprise architecture model?",
+  "Name" : "Which element of a system model is derived from an element of the enterprise architecture model?",
   "ID" : "_2024x_2_26f0132_1757422565358_576242_1400",
   "ConcernsViewpoints" : [ {
     "Name" : "EA Traceability Viewpoint",
@@ -1267,7 +1267,7 @@
 }, {
   "Documentation" : "",
   "Owner" : "traceability & mapping",
-  "Name" : "Which elements of a system model are informed by elements of an enterprise architecture model?",
+  "Name" : "Which element of a system model is influenced by an element of the enterprise architecture model?",
   "ID" : "_2024x_2_26f0132_1757422565358_807136_1401",
   "ConcernsViewpoints" : [ {
     "Name" : "EA Traceability Viewpoint",
