@@ -5732,7 +5732,7 @@
     "ID" : "_2024x_2_26f0132_1757420698363_571308_18",
     "Name" : "EA Traceability Viewpoint"
   } ],
-  "Documentation" : "Specifies that a SAF Element represents one EA Element",
+  "Documentation" : "Specifies that a SAF Element represents an EA Element.",
   "AssociationEnds" : [ {
     "ID" : "_2024x_2_26f0132_1757421426352_10867_1155",
     "Name" : "Any EA Element",
@@ -5752,7 +5752,7 @@
     "ID" : "_2024x_2_26f0132_1757420698363_571308_18",
     "Name" : "EA Traceability Viewpoint"
   } ],
-  "Documentation" : "Specifies that any SAF element may derive from any EA elements",
+  "Documentation" : "Specifies that any SAF element may derive from any EA elements.",
   "AssociationEnds" : [ {
     "ID" : "_2024x_2_26f0132_1757421426352_10867_1155",
     "Name" : "Any EA Element",

@@ -63,6 +63,10 @@
   "ID" : "_2024x_8710274_1715874592986_911669_15868",
   "Documentation" : "The Protection GoalDefinition Viewpoint supports the definition of protection goals used to assign to Assets.\n\nRepresentation:\n\nA table format listing  protection goals  and subcategories."
 }, {
+  "Name" : "SAF_C8_EATR",
+  "ID" : "_2024x_2_26f0132_1757586882201_912675_456",
+  "Documentation" : "The Standards Definition Viewpoint supports the definition of applicable standards, and their relationships,  e.g., for format and protocol specifications, regulations, and engineering documents that are used throughout the system life cycle. It provides the meta-data for the applied standards, guidance and policy, e.g., issue, version, issue date, and publisher. The Viewpoint helps to keep track of changes to the set of applicable documents and of new versions of applied standards. Links should be used to refer to documents external to the architecture description.\n\nRepresentation:\n\nA block definition diagram (BDD) featuring the taxonomy of types of standards,  applicable to the system of interest, or parts of the system of interest. The Standards are represented by packages which allows to use them in model libraries and put e.g. reusable interface definitions, or terms complying to the standard into the package\n\nA table format listing standards, applicable to the system of interest or parts of it, their relationships and the relation to which parts of the system the standards apply"
+}, {
   "Name" : "SAF_C8_EATR_Matrix",
   "ID" : "_2024x_2_26f0132_1757423193639_473235_10",
   "Documentation" : "tbd gen stereotype doc"
@@ -170,6 +174,10 @@
   "Name" : "SAF_D2_VPTO_Table",
   "ID" : "_2024x_26f0132_1719738460476_855266_29208",
   "Documentation" : ""
+}, {
+  "Name" : "SAF_DerivedFromEA",
+  "ID" : "_2024x_2_26f0132_1757002702622_804051_15213",
+  "Documentation" : "encapsulates vertical derivation mapping and indicates that a SAF element is derived from an abstract EAF element."
 }, {
   "Name" : "SAF_Diagram",
   "ID" : "_2024x_26f0132_1718451954698_578645_28046",
@@ -346,6 +354,10 @@
   "Name" : "SAF_ImpactedActeurs",
   "ID" : "_2024x_4c5019a_1729857039097_486963_144",
   "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#dcc9b142-631a-4d5d-8894-4f7383376e06'>Affected Acteurs</A><BR>Affected Acteurs: <BR></html>\n"
+}, {
+  "Name" : "SAF_InformedByEA",
+  "ID" : "_2024x_2_26f0132_1757002770095_975274_15303",
+  "Documentation" : "complements classic dependency mapping by marking loosely coupled relationships that are nevertheless semantically significant; it emphasizes that information from the EAF influences the SAF element, typically when concepts do not align on the same abstraction level. "
 }, {
   "Name" : "SAF_Integrity",
   "ID" : "_2024x_4c5019a_1727777638965_664243_26",
@@ -666,6 +678,10 @@
   "Name" : "SAF_RefuterCounterClaimMaking",
   "ID" : "_2021x_2_6d8019d_1687637715067_620676_25736",
   "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#c14d6bcc-ef18-4312-9fb5-0bc7c5e08a06'>RFTmakingCCM</A><BR>RFTmakingCCM: Specifies the fact that a counter-claim is made by a defined refuter.<BR></html>\n"
+}, {
+  "Name" : "SAF_RepresentsEA",
+  "ID" : "_2024x_2_26f0132_1757002641692_837788_15175",
+  "Documentation" : " covers horizontal equivalence mapping and signals that “the SAF element represents exactly the same concept as this EAF element.”"
 }, {
   "Name" : "SAF_Risk",
   "ID" : "_2024x_4c5019a_1726432026287_484307_352",
