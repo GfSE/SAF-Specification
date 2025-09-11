@@ -4068,6 +4068,54 @@
   }
 }, {
   "Name" : "",
+  "ID" : "_2024x_2_26f0132_1757586922209_340790_499",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_2_26f0132_1757420698363_571308_18",
+    "Name" : "EA Traceability Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_2_26f0132_1757586882201_912675_456",
+    "Name" : "SAF_C8_EATR"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1757587010518_463409_595",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_2_26f0132_1757421734076_475755_1298",
+    "Name" : "ASEderivesFromAEE"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_2_26f0132_1757002702622_804051_15213",
+    "Name" : "SAF_DerivedFromEA"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1757587018311_271626_607",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_2_26f0132_1757421548498_984650_1244",
+    "Name" : "ASErepresentsAEE"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_2_26f0132_1757002641692_837788_15175",
+    "Name" : "SAF_RepresentsEA"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1757587022382_691626_617",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_2_26f0132_1757421856918_814040_1326",
+    "Name" : "ASEinformedByAEE"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_2_26f0132_1757002770095_975274_15303",
+    "Name" : "SAF_InformedByEA"
+  }
+}, {
+  "Name" : "",
   "ID" : "_2024x_4c5019a_1724836822797_493574_932",
   "Documentation" : "",
   "RealizedConcept" : {
