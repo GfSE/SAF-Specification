@@ -126,4 +126,8 @@
   "Body" : "2025-09-09",
   "ID" : "_2024x_2_26f0132_1757426212217_845919_271",
   "Documentation" : "Add Enterprise Architecture Traceability Viewpoint in status proposed. "
+}, {
+  "Body" : "2025-09-26",
+  "ID" : "_2024x_3_26f0132_1758868633505_546419_93",
+  "Documentation" : "<html>\n  <head>\n\t\t<style>\n\t\t\tp {padding:0px; margin:0px;}\n\t\t</style>\n\t</head>\n  <body>\n    <ul>\n      <li>\nApply relaxed naming convention for associations in conceptual model: pre and post fixing association names is no longer necessary, making them much more readable.\n\n      </li>\n      <li>\nChanged tracing of Operational Process usages solving issue <a href=\"https://github.com/GfSE/SAF-Specification/issues/111\">#111        \n</a><br>\n\n      </li>\n    </ul>\n</body>\n</html>"
 } ]
