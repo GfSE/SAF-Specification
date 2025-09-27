@@ -2800,7 +2800,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_605407_91026",
-    "Name" : "PEKtypingPIPP"
+    "Name" : "typing"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1674680950433_310726_23659",
@@ -3160,7 +3160,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_605407_91026",
-    "Name" : "PEKtypingPIPP"
+    "Name" : "typing"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1695205330608_177015_24335",
@@ -3244,7 +3244,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_539421_91036",
-    "Name" : "PEKtypingPIE"
+    "Name" : "typing"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1562303526536_79296_92554",
@@ -3304,7 +3304,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_539421_91036",
-    "Name" : "PEKtypingPIE"
+    "Name" : "typing"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1674680950433_310726_23659",
@@ -4317,6 +4317,54 @@
   "Viewpoint" : {
     "ID" : "_2024x_2_26f0132_1757420698363_571308_18",
     "Name" : "EA Traceability Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_3_26f0132_1758913515812_779396_41",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524176_482464_91025",
+    "Name" : "Physical Exchange Kind"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_3_26f0132_1758913515809_605410_39",
+    "Name" : "Physical Exchange Type Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_3_26f0132_1758915218034_641118_1447",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524176_539421_91036",
+    "Name" : "typing"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_3_26f0132_1758913515809_605410_39",
+    "Name" : "Physical Exchange Type Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_3_26f0132_1758915224078_128625_1458",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524176_605407_91026",
+    "Name" : "typing"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_3_26f0132_1758913515809_605410_39",
+    "Name" : "Physical Exchange Type Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_3_26f0132_1758915231453_331105_1469",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303523801_894791_90759",
+    "Name" : "realizing"
+  },
+  "Viewpoint" : {
+    "ID" : "_2024x_3_26f0132_1758913515809_605410_39",
+    "Name" : "Physical Exchange Type Viewpoint"
   }
 }, {
   "Name" : "",

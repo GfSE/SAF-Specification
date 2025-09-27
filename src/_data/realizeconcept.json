@@ -2344,7 +2344,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_539421_91036",
-    "Name" : "PEKtypingPIE"
+    "Name" : "typing"
   },
   "RealizationOfConcept" : {
     "ID" : "_2021x_2_8710274_1697104711861_685153_72355",
@@ -2356,7 +2356,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_605407_91026",
-    "Name" : "PEKtypingPIPP"
+    "Name" : "typing"
   },
   "RealizationOfConcept" : {
     "ID" : "_2021x_2_8710274_1697104931657_586086_72562",
@@ -4125,6 +4125,30 @@
   "RealizationOfConcept" : {
     "ID" : "_2024x_3_26f0132_1758636201953_64556_778",
     "Name" : ""
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_3_26f0132_1758915477455_956473_1566",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_3_26f0132_1758913515809_605410_39",
+    "Name" : "Physical Exchange Type Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_3_26f0132_1758914138353_148539_1164",
+    "Name" : "SAF_F2_PETD_Table"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_3_26f0132_1758916037007_974319_1955",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_3_26f0132_1758913515809_605410_39",
+    "Name" : "Physical Exchange Type Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_3_26f0132_1758914098555_163483_1159",
+    "Name" : "SAF_P2_PETD"
   }
 }, {
   "Name" : "",

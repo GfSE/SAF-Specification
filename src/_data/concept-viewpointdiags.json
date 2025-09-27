@@ -158,10 +158,10 @@
     "Name" : "Physical Exchange Kind"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_539421_91036",
-    "Name" : "PEKtypingPIE"
+    "Name" : "typing"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_605407_91026",
-    "Name" : "PEKtypingPIPP"
+    "Name" : "typing"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_610387_91043",
     "Name" : "Physical Connection"
@@ -1211,10 +1211,10 @@
     "Name" : "Physical Exchange Kind"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_539421_91036",
-    "Name" : "PEKtypingPIE"
+    "Name" : "typing"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_605407_91026",
-    "Name" : "PEKtypingPIPP"
+    "Name" : "typing"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_610387_91043",
     "Name" : "Physical Connection"
@@ -1523,7 +1523,7 @@
     "Name" : "Physical Exchange Kind"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_605407_91026",
-    "Name" : "PEKtypingPIPP"
+    "Name" : "typing"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_706808_91045",
     "Name" : "PIPapplyingToPCE"
@@ -1619,10 +1619,10 @@
     "Name" : "Physical Exchange Kind"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_539421_91036",
-    "Name" : "PEKtypingPIE"
+    "Name" : "typing"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_605407_91026",
-    "Name" : "PEKtypingPIPP"
+    "Name" : "typing"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_663216_91033",
     "Name" : "Logical Item Exchange"
@@ -1858,6 +1858,33 @@
   "Documentation" : "",
   "VP_ID" : "_2024x_2_26f0132_1757420698363_571308_18",
   "ID" : "_2024x_2_26f0132_1757420698811_973128_117"
+}, {
+  "Name" : "Physical Exchange Type Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
+    "Name" : "System Domain Kind"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303523801_894791_90759",
+    "Name" : "realizing"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_114179_91028",
+    "Name" : "Physical Interaction Point Property"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_482464_91025",
+    "Name" : "Physical Exchange Kind"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_539421_91036",
+    "Name" : "typing"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_605407_91026",
+    "Name" : "typing"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_925142_91031",
+    "Name" : "Physical Item Exchange"
+  } ],
+  "Documentation" : "",
+  "VP_ID" : "_2024x_3_26f0132_1758913515809_605410_39",
+  "ID" : "_2024x_3_26f0132_1758913516027_638737_80"
 }, {
   "Name" : "Asset Identification Concept",
   "DiagConcepts" : [ {
