@@ -5,7 +5,6 @@
     * references to sysml / uml elements do not work
 * dev doc
 * links to SysML or UML Constructs from Profile model reference point to nothing (disable such links)
-* review all pages
 * bring all new dev viewpoints from proposed to construction
 * there are aspects with tbd in the documentation
 # fix
@@ -17,9 +16,6 @@
 * social bars ?
  * share (shariff tool)
 * contact footer
-* google analytics ? github statistik scheint nicht für pages zu funktionieren.. 
 * favico
-* switchable examples (rhy, sparx)
-* slide examples ?
 * linkable literature references from model
 * move definitions cited to footnotes? See Stakeholder File for example
