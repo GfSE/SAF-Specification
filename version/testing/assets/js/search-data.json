@@ -134,7 +134,7 @@
   },"19": {
     "doc": "Argumentation Assurance Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/Common%20Domain/Argumentation%20Assurance%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/Common%20Domain/Argumentation%20Assurance%20Viewpoint.html#example"
@@ -281,7 +281,7 @@
   },"40": {
     "doc": "Asset Identification Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/Functional%20Domain/Asset%20Identification%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/Functional%20Domain/Asset%20Identification%20Viewpoint.html#example"
@@ -295,7 +295,7 @@
   },"42": {
     "doc": "Changes",
     "title": "Changes",
-    "content": "| Date | Change | . | 2025-09-26 | . | Apply relaxed naming convention for associations in conceptual model: pre and post fixing association names is no longer necessary, making them much more readable. | Changed tracing of Operational Process usages solving issue #111 | Add proposed Viewpoint &#160;for definition of Physical Types, issue #124 | . &#160; . | . | 2025-09-09 | Add Enterprise Architecture Traceability Viewpoint in status proposed. | . | 2025-07-04 | . Changes according to #118 Add example for Operational State VP, setting the VP to proposed Add implementation for referencing SAF_OperationalState from SAF_OperationalProcess as pre and postcondition, as tagged values of the stereotype SAF_OperationalProcess Add implementation for referencing SAF_SystemState from SAF_SystemFunction as pre and postcondition, as tagged values of the stereotype SAF_OperationalProcess . | . | 2025-06-27 | . Add Operational State Viewpoint as proposed in #102 . new stereotypes SAF_O3_OSTA for Diagram and SAF_OperationalState . &#160; . Set System State Viewpont to under construction to review Changes triggered by #102 . &#160;new stereotype SAF_SystemState . | . | 2025-06-16 | . Cameo implementation: . | move diagram stereotypes for dev viewpoints from scm profile to saf profile | rename them from SCM_* to SAF_* | . | . | 2025-06-11 | . Rename Viewpoint Operational Performer to &quot;Operational Performer Definition&quot;, adressing #114 Allow generalizations in Viewpoint &quot;Operational Performer Definition&quot;, adresssing #113 . | . | 2025-02-21 | . change domain colors according to #91 Common Domain: &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;808080&quot; -&gt;&quot;A5A5A5&quot; Operational Domain: &#160;&#160;&#160;&#160;&#160;&quot;0000FF&quot; -&gt; &quot;4472C4&quot; Functional Domain: &#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;6699FF&quot; -&gt;&quot;00B0F0&quot; Logical Domain: &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;FFFF33&quot; -&gt;&quot;FFC000&quot; Physical Domain: &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;00FF00&quot; -&gt; &quot;92D050&quot; Development Domain: &#160;&#160;&#160;&quot;CCCCFF&quot; -&gt; &quot;C040C0&quot; reflect grid assignment of security extension viewpoints in stereotype names, partly adressing #90 . SAF_C8_ASID_Table -&gt; SAF_F7_ASID_Table . SAF_C8_ASID -&gt; SAF_F7_ASID . SAF_C9_SECT -&gt; SAF_F7_SECT . SAF_C9_SECT_Table -&gt; SAF_F7_SECT_Table . SAF_C10_IMAN -&gt; SAF_F7_IMAN . SAF_C10_IMAN_Table -&gt; SAF_F7_IMAN_Table . SAF_C11_THSC&#160;-&gt; SAF_F7_THSC . SAF_C11_THSC_Table&#160;-&gt; SAF_F7_THSC_Table . SAF_C12_RIAN -&gt; SAF_F7_RIAN . SAF_C12_RIAN_Table -&gt; SAF_F7_RIAN_Table . | . | 2024-11-08 | . include proposed viewpoints of University Hamburg for security risk analysis. | F7_IMAN Impact Analysis Viewpoint | F7_SECT Security Context Viewpoint | F7_RIAN Security Risk Analysis Viewpoint | F7_ASID Asset Identification Viewpoint | F7_THSC Threat Szenario Viewpoint | . | . | 2024-11-07 | set maturity of D2_VPTO Framework Viewpoint Overview Viewpointunder construction (added profile diagram, concept diagram and example) | . | 2024-11-06 | . | Fuse Dev Viewpoints Stakeholder Definition, Concern Definition and Rationale Definition in one, because the Information is tightly coupled. Resulting VP is D2_STKD Framework Stakeholder and Concern Definition Viewpoint. This solves issue 79 | Change multiplicity of relationship among SE Concepts from *--*&#160;to 1--0..* Framework Concept Defintion viewpoint and also describe that relations among SE&#160;concepts may be target of relations, too. see Issue 77. | . | . | 2024-11-03 | . | Add an additional formal traceability documentation showing traceability from SAF Viewpoints to ISO 15288:2023 processes and SEHB V5 Information Item definitions. See Issue 75 | Remove unused concerns from documentation. See Issue 76 | . | . | 2024-10-28 | . Add dependency relationship among Standards to C2_CSTD Common Standards Definition Viewpoint, see Issue 71 &#160;Stereotype:&#160;SAF_StandardDependingOn . | . | 2024-10-27 | Switch over to new documentation format. | . | 2024-10-19 | set maturity of D2_VPTI Framework Viewpoint Implementation Viewpoint and D2_VPTD Framework Viewpoint Definition Viewpoint to under construction. | . | 2024-10-18 | set maturity of Functional Refinement Viewpoint F3_SFRE to under construction (added profile diagram and concept diagram). | . | 2024-10-17 | set maturity of Common Terms Definition Viewpoint C2_TRMD and Common Standards Definition Viewpoint C2_CSTD to under construction, reworked example and viewpoint descriptions | . | 2024-09-27 | set maturity of Development Viewpoints Framework Stakeholder Definition Viewpoint ( D1_STKD) and Framework Rationale Definition Viewpoint (D6_RATD) to\"under construction\" | . | 2024-09-25 | set maturity of Development Viewpoints Framework Concept Definition Viewpoint ( D2_COTD) and Framework Concern Definition Viewpoint (D6_CCND) to\"under construction\" | . | 2024-09-24 | change viewpoint short code of system use case viewpoint to F1_SUCD | . | 2024-09-06 | The use case and system process used in were renamed, in the course of model cleanup of the example. | . | 2024-07-29.1 | Add example for Operational Context Interaction (OCXI), set viewpoint to released. | . | 2024-06-30.1 | add proposed viewpoints supporting SAF development into new domain \"SAF Developement\" | . | 2024-06-23.1 | . Add concerns, stakeholders, rationale to justify framework development and specification viewpoints . | SAF Developer, | SAF MBSE approach planner, | SAF System Model user | . revisit change grid definition viewpoint, status now under development. | it has alternate table representation collecting diagrams conform to viewpoints | added a concern | . | . | 2024-06-18.1 | all Stereotypes from SCM_Profile are prefixed \"SCM_\", not \"SAF_\". | . | 2024-06-15.1 | . | write down naming conventions for table and matrix representations of Viewpoints (postfixed with &quot;_Matrix&quot; and &quot;_Table&quot; | Rename stereotypes accordingly (SAF_L8_LFUM_Matrix, SAF_O8_OPRM_Table, SAF_F8_SCYM_Table, SAF_O8_OCYM_Table, SAF_F8_SRQT_Matrix, SAF_F6_SRQD_Table, SAF_C7_PRND_Table, SAF_C2_TRMD_Table) | new, because there is a table representation. They're currently not covered by example : SAF_F3_SSTA_Table, SAF_F3_SPRO_Table, SAF_F2_SDIK_Table, SAF_F1_SUCS_Table, SAF_F1_SCXE_Table, SAF_F1_SCXD_Table | apply coloring legend to all viewpoint concept and profile diagrams, and redactional corrections | In Grid Definition Viewpoint, the Implementation of Viewpoint is changed to a user usable SAF_Viewpoint defined by SAF Profile, late &#160;the SAF_Viewpoint in SCM profile will be renamed to SCM_Viewpoint, since it is used to specify SAF, and not to be intendet to be used in system models. | Add a library of SAF_Viewpoint objects to SAF_Profile to be used to plan modeling using grid Definition VP. The viewpoint objects collect automatically all views(diagrams conform to the Viewpoint) | SAF_LogicalContextRole did not inherit from part property | remove exposure of elements related to domain item kinds in SDIK, since It is by no way covered by concerns of VP SDIK. | . | . | 2024-06-12.1 | . | make internal role stereotypes inherit from part property | dont expose abstract general physical role, but derived non abstract concepts PFUM and PLOM, partly adressing issue #60 | rename stereotypes for PLOM and PFUM Diagrams to *_Matrix, because the Representation is a matrix. | logical element role was'nt exposed in PLOM | . | . | 2024-06-07 .1 | . | Argument concept in argumentation assurance viewpoint is no longer abstract, issue #56 | Separate network PIEX view, issue #57 | . | . | 2024-05-27 | . | shift exposure of abstract concepts (general function, general function usage) to inherited concepts | add missing concept for usage of partial function in system function | fix implementation spec for function usages in functions context (profile not affected) | . | . | 2024-05-18 | . | add own diagram icons | add a proposed viewpoint for security classifications | . | . | 2024-04-30 | fix change stereotype SAF_O1_OCYD to be SAF_O1_OCXD to be consistent with Operational-Context-Definition shortcut | . | 2024-04-26.3 | . Rename some viewpoints for more consistency with other viewpoint names. | Operational Context Interaction Viewpoint | Operational Capability Definition Viewpoint | Logical Structure Definition Viewpoint | Physical Structure Definition Viewpoint | Stakeholder Requirement Definition Viewpoint | System Capability Definition Viewpoint | System Requirement Definition Viewpoint | . | . | 2024-04-26.2 | . Rename Diagram Stereotypes to use the shortcuts, e.g. SAF_SLV02a_View is renamed to SAF_L2_LSTD. This removes the redundant &quot;View&quot; and &quot;V&quot;, while keeping Domain and Aspect encoding. The Numbering is replaced by the same abbreviation as in the Viewpoint. | . | 2024-04-26.1 | . Introduce Viewpoint shortcuts. They are intended to used as an easy to remember abbreviation for the longer viewpoint name, e.g. &#160;O1_OCXD for Operational Context Definition Viewpoint. &#160;The Domain and aspect are also encoded in the shortcut. | . ",
+    "content": "| Date | Change | . | 2025-10-09 | . | Add Table of proposed NAF &amp; ADMBw mappings to EA Traceability Viewpoint | Provide gallery mode also for example diagrams in development section of documentation. | . | . | 2025-09-26 | . | Apply relaxed naming convention for associations in conceptual model: pre and post fixing association names is no longer necessary, making them much more readable. | Changed tracing of Operational Process usages solving issue #111 | Add proposed Viewpoint &#160;for definition of Physical Types, issue #124 | . &#160; . | . | 2025-09-09 | Add Enterprise Architecture Traceability Viewpoint in status proposed. | . | 2025-07-04 | . Changes according to #118 Add example for Operational State VP, setting the VP to proposed Add implementation for referencing SAF_OperationalState from SAF_OperationalProcess as pre and postcondition, as tagged values of the stereotype SAF_OperationalProcess Add implementation for referencing SAF_SystemState from SAF_SystemFunction as pre and postcondition, as tagged values of the stereotype SAF_OperationalProcess . | . | 2025-06-27 | . Add Operational State Viewpoint as proposed in #102 . new stereotypes SAF_O3_OSTA for Diagram and SAF_OperationalState . &#160; . Set System State Viewpont to under construction to review Changes triggered by #102 . &#160;new stereotype SAF_SystemState . | . | 2025-06-16 | . Cameo implementation: . | move diagram stereotypes for dev viewpoints from scm profile to saf profile | rename them from SCM_* to SAF_* | . | . | 2025-06-11 | . Rename Viewpoint Operational Performer to &quot;Operational Performer Definition&quot;, adressing #114 Allow generalizations in Viewpoint &quot;Operational Performer Definition&quot;, adresssing #113 . | . | 2025-02-21 | . change domain colors according to #91 Common Domain: &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;808080&quot; -&gt;&quot;A5A5A5&quot; Operational Domain: &#160;&#160;&#160;&#160;&#160;&quot;0000FF&quot; -&gt; &quot;4472C4&quot; Functional Domain: &#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;6699FF&quot; -&gt;&quot;00B0F0&quot; Logical Domain: &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;FFFF33&quot; -&gt;&quot;FFC000&quot; Physical Domain: &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;00FF00&quot; -&gt; &quot;92D050&quot; Development Domain: &#160;&#160;&#160;&quot;CCCCFF&quot; -&gt; &quot;C040C0&quot; reflect grid assignment of security extension viewpoints in stereotype names, partly adressing #90 . SAF_C8_ASID_Table -&gt; SAF_F7_ASID_Table . SAF_C8_ASID -&gt; SAF_F7_ASID . SAF_C9_SECT -&gt; SAF_F7_SECT . SAF_C9_SECT_Table -&gt; SAF_F7_SECT_Table . SAF_C10_IMAN -&gt; SAF_F7_IMAN . SAF_C10_IMAN_Table -&gt; SAF_F7_IMAN_Table . SAF_C11_THSC&#160;-&gt; SAF_F7_THSC . SAF_C11_THSC_Table&#160;-&gt; SAF_F7_THSC_Table . SAF_C12_RIAN -&gt; SAF_F7_RIAN . SAF_C12_RIAN_Table -&gt; SAF_F7_RIAN_Table . | . | 2024-11-08 | . include proposed viewpoints of University Hamburg for security risk analysis. | F7_IMAN Impact Analysis Viewpoint | F7_SECT Security Context Viewpoint | F7_RIAN Security Risk Analysis Viewpoint | F7_ASID Asset Identification Viewpoint | F7_THSC Threat Szenario Viewpoint | . | . | 2024-11-07 | set maturity of D2_VPTO Framework Viewpoint Overview Viewpointunder construction (added profile diagram, concept diagram and example) | . | 2024-11-06 | . | Fuse Dev Viewpoints Stakeholder Definition, Concern Definition and Rationale Definition in one, because the Information is tightly coupled. Resulting VP is D2_STKD Framework Stakeholder and Concern Definition Viewpoint. This solves issue 79 | Change multiplicity of relationship among SE Concepts from *--*&#160;to 1--0..* Framework Concept Defintion viewpoint and also describe that relations among SE&#160;concepts may be target of relations, too. see Issue 77. | . | . | 2024-11-03 | . | Add an additional formal traceability documentation showing traceability from SAF Viewpoints to ISO 15288:2023 processes and SEHB V5 Information Item definitions. See Issue 75 | Remove unused concerns from documentation. See Issue 76 | . | . | 2024-10-28 | . Add dependency relationship among Standards to C2_CSTD Common Standards Definition Viewpoint, see Issue 71 &#160;Stereotype:&#160;SAF_StandardDependingOn . | . | 2024-10-27 | Switch over to new documentation format. | . | 2024-10-19 | set maturity of D2_VPTI Framework Viewpoint Implementation Viewpoint and D2_VPTD Framework Viewpoint Definition Viewpoint to under construction. | . | 2024-10-18 | set maturity of Functional Refinement Viewpoint F3_SFRE to under construction (added profile diagram and concept diagram). | . | 2024-10-17 | set maturity of Common Terms Definition Viewpoint C2_TRMD and Common Standards Definition Viewpoint C2_CSTD to under construction, reworked example and viewpoint descriptions | . | 2024-09-27 | set maturity of Development Viewpoints Framework Stakeholder Definition Viewpoint ( D1_STKD) and Framework Rationale Definition Viewpoint (D6_RATD) to\"under construction\" | . | 2024-09-25 | set maturity of Development Viewpoints Framework Concept Definition Viewpoint ( D2_COTD) and Framework Concern Definition Viewpoint (D6_CCND) to\"under construction\" | . | 2024-09-24 | change viewpoint short code of system use case viewpoint to F1_SUCD | . | 2024-09-06 | The use case and system process used in were renamed, in the course of model cleanup of the example. | . | 2024-07-29.1 | Add example for Operational Context Interaction (OCXI), set viewpoint to released. | . | 2024-06-30.1 | add proposed viewpoints supporting SAF development into new domain \"SAF Developement\" | . | 2024-06-23.1 | . Add concerns, stakeholders, rationale to justify framework development and specification viewpoints . | SAF Developer, | SAF MBSE approach planner, | SAF System Model user | . revisit change grid definition viewpoint, status now under development. | it has alternate table representation collecting diagrams conform to viewpoints | added a concern | . | . | 2024-06-18.1 | all Stereotypes from SCM_Profile are prefixed \"SCM_\", not \"SAF_\". | . | 2024-06-15.1 | . | write down naming conventions for table and matrix representations of Viewpoints (postfixed with &quot;_Matrix&quot; and &quot;_Table&quot; | Rename stereotypes accordingly (SAF_L8_LFUM_Matrix, SAF_O8_OPRM_Table, SAF_F8_SCYM_Table, SAF_O8_OCYM_Table, SAF_F8_SRQT_Matrix, SAF_F6_SRQD_Table, SAF_C7_PRND_Table, SAF_C2_TRMD_Table) | new, because there is a table representation. They're currently not covered by example : SAF_F3_SSTA_Table, SAF_F3_SPRO_Table, SAF_F2_SDIK_Table, SAF_F1_SUCS_Table, SAF_F1_SCXE_Table, SAF_F1_SCXD_Table | apply coloring legend to all viewpoint concept and profile diagrams, and redactional corrections | In Grid Definition Viewpoint, the Implementation of Viewpoint is changed to a user usable SAF_Viewpoint defined by SAF Profile, late &#160;the SAF_Viewpoint in SCM profile will be renamed to SCM_Viewpoint, since it is used to specify SAF, and not to be intendet to be used in system models. | Add a library of SAF_Viewpoint objects to SAF_Profile to be used to plan modeling using grid Definition VP. The viewpoint objects collect automatically all views(diagrams conform to the Viewpoint) | SAF_LogicalContextRole did not inherit from part property | remove exposure of elements related to domain item kinds in SDIK, since It is by no way covered by concerns of VP SDIK. | . | . | 2024-06-12.1 | . | make internal role stereotypes inherit from part property | dont expose abstract general physical role, but derived non abstract concepts PFUM and PLOM, partly adressing issue #60 | rename stereotypes for PLOM and PFUM Diagrams to *_Matrix, because the Representation is a matrix. | logical element role was'nt exposed in PLOM | . | . | 2024-06-07 .1 | . | Argument concept in argumentation assurance viewpoint is no longer abstract, issue #56 | Separate network PIEX view, issue #57 | . | . | 2024-05-27 | . | shift exposure of abstract concepts (general function, general function usage) to inherited concepts | add missing concept for usage of partial function in system function | fix implementation spec for function usages in functions context (profile not affected) | . | . | 2024-05-18 | . | add own diagram icons | add a proposed viewpoint for security classifications | . | . | 2024-04-30 | fix change stereotype SAF_O1_OCYD to be SAF_O1_OCXD to be consistent with Operational-Context-Definition shortcut | . | 2024-04-26.3 | . Rename some viewpoints for more consistency with other viewpoint names. | Operational Context Interaction Viewpoint | Operational Capability Definition Viewpoint | Logical Structure Definition Viewpoint | Physical Structure Definition Viewpoint | Stakeholder Requirement Definition Viewpoint | System Capability Definition Viewpoint | System Requirement Definition Viewpoint | . | . | 2024-04-26.2 | . Rename Diagram Stereotypes to use the shortcuts, e.g. SAF_SLV02a_View is renamed to SAF_L2_LSTD. This removes the redundant &quot;View&quot; and &quot;V&quot;, while keeping Domain and Aspect encoding. The Numbering is replaced by the same abbreviation as in the Viewpoint. | . | 2024-04-26.1 | . Introduce Viewpoint shortcuts. They are intended to used as an easy to remember abbreviation for the longer viewpoint name, e.g. &#160;O1_OCXD for Operational Context Definition Viewpoint. &#160;The Domain and aspect are also encoded in the shortcut. | . ",
     "url": "/version/testing/CHANGES.html",
     
     "relUrl": "/CHANGES.html"
@@ -435,7 +435,7 @@
   },"62": {
     "doc": "Common Standards Definition Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/Common%20Domain/Common%20Standards%20Definition%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/Common%20Domain/Common%20Standards%20Definition%20Viewpoint.html#example"
@@ -582,7 +582,7 @@
   },"83": {
     "doc": "Common Terms Definition Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/Common%20Domain/Common%20Terms%20Definition%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/Common%20Domain/Common%20Terms%20Definition%20Viewpoint.html#example"
@@ -792,7 +792,7 @@
   },"113": {
     "doc": "EA Traceability Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/Common%20Domain/EA%20Traceability%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/Common%20Domain/EA%20Traceability%20Viewpoint.html#example"
@@ -876,7 +876,7 @@
   },"125": {
     "doc": "Framework Concept Definition Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/SAF%20Development%20Domain/Framework%20Concept%20Definition%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/SAF%20Development%20Domain/Framework%20Concept%20Definition%20Viewpoint.html#example"
@@ -1044,7 +1044,7 @@
   },"149": {
     "doc": "Framework Stakeholder and Concern Definition Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/SAF%20Development%20Domain/Framework%20Stakeholder%20and%20Concern%20Definition%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/SAF%20Development%20Domain/Framework%20Stakeholder%20and%20Concern%20Definition%20Viewpoint.html#example"
@@ -1212,7 +1212,7 @@
   },"173": {
     "doc": "Framework Viewpoint Definition Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/SAF%20Development%20Domain/Framework%20Viewpoint%20Definition%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/SAF%20Development%20Domain/Framework%20Viewpoint%20Definition%20Viewpoint.html#example"
@@ -1296,7 +1296,7 @@
   },"185": {
     "doc": "Framework Viewpoint Implementation Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/SAF%20Development%20Domain/Framework%20Viewpoint%20Implementation%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/SAF%20Development%20Domain/Framework%20Viewpoint%20Implementation%20Viewpoint.html#example"
@@ -1380,7 +1380,7 @@
   },"197": {
     "doc": "Framework Viewpoint Overview Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/SAF%20Development%20Domain/Framework%20Viewpoint%20Overview%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/SAF%20Development%20Domain/Framework%20Viewpoint%20Overview%20Viewpoint.html#example"
@@ -1674,7 +1674,7 @@
   },"239": {
     "doc": "Impact Analysis Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/Functional%20Domain/Impact%20Analysis%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/Functional%20Domain/Impact%20Analysis%20Viewpoint.html#example"
@@ -1821,7 +1821,7 @@
   },"260": {
     "doc": "Logical Functional Mapping Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/Logical%20Domain/Logical%20Functional%20Mapping%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/Logical%20Domain/Logical%20Functional%20Mapping%20Viewpoint.html#example"
@@ -1968,7 +1968,7 @@
   },"281": {
     "doc": "Logical Internal Exchange Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/Logical%20Domain/Logical%20Internal%20Exchange%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/Logical%20Domain/Logical%20Internal%20Exchange%20Viewpoint.html#example"
@@ -2115,7 +2115,7 @@
   },"302": {
     "doc": "Logical Internal Interaction Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/Logical%20Domain/Logical%20Internal%20Interaction%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/Logical%20Domain/Logical%20Internal%20Interaction%20Viewpoint.html#example"
@@ -2262,7 +2262,7 @@
   },"323": {
     "doc": "Logical Structure Definition Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/Logical%20Domain/Logical%20Structure%20Definition%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/Logical%20Domain/Logical%20Structure%20Definition%20Viewpoint.html#example"
@@ -2409,7 +2409,7 @@
   },"344": {
     "doc": "Operational Capability Definition Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/Operational%20Domain/Operational%20Capability%20Definition%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/Operational%20Domain/Operational%20Capability%20Definition%20Viewpoint.html#example"
@@ -2556,7 +2556,7 @@
   },"365": {
     "doc": "Operational Capability Mapping Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/Operational%20Domain/Operational%20Capability%20Mapping%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/Operational%20Domain/Operational%20Capability%20Mapping%20Viewpoint.html#example"
@@ -2703,7 +2703,7 @@
   },"386": {
     "doc": "Operational Context Definition Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/Operational%20Domain/Operational%20Context%20Definition%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/Operational%20Domain/Operational%20Context%20Definition%20Viewpoint.html#example"
@@ -2850,7 +2850,7 @@
   },"407": {
     "doc": "Operational Context Exchange Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/Operational%20Domain/Operational%20Context%20Exchange%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/Operational%20Domain/Operational%20Context%20Exchange%20Viewpoint.html#example"
@@ -2997,7 +2997,7 @@
   },"428": {
     "doc": "Operational Context Interaction Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/Operational%20Domain/Operational%20Context%20Interaction%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/Operational%20Domain/Operational%20Context%20Interaction%20Viewpoint.html#example"
@@ -3144,7 +3144,7 @@
   },"449": {
     "doc": "Operational Domain Item Kind Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/Operational%20Domain/Operational%20Domain%20Item%20Kind%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/Operational%20Domain/Operational%20Domain%20Item%20Kind%20Viewpoint.html#example"
@@ -3291,7 +3291,7 @@
   },"470": {
     "doc": "Operational Performer Definition Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/Operational%20Domain/Operational%20Performer%20Definition%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/Operational%20Domain/Operational%20Performer%20Definition%20Viewpoint.html#example"
@@ -3438,7 +3438,7 @@
   },"491": {
     "doc": "Operational Process Mapping Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/Operational%20Domain/Operational%20Process%20Mapping%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/Operational%20Domain/Operational%20Process%20Mapping%20Viewpoint.html#example"
@@ -3585,7 +3585,7 @@
   },"512": {
     "doc": "Operational Process Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/Operational%20Domain/Operational%20Process%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/Operational%20Domain/Operational%20Process%20Viewpoint.html#example"
@@ -3732,7 +3732,7 @@
   },"533": {
     "doc": "Operational State Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/Operational%20Domain/Operational%20State%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/Operational%20Domain/Operational%20State%20Viewpoint.html#example"
@@ -3879,7 +3879,7 @@
   },"554": {
     "doc": "Operational Story Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/Operational%20Domain/Operational%20Story%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/Operational%20Domain/Operational%20Story%20Viewpoint.html#example"
@@ -4026,7 +4026,7 @@
   },"575": {
     "doc": "Physical Context Definition Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/Physical%20Domain/Physical%20Context%20Definition%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/Physical%20Domain/Physical%20Context%20Definition%20Viewpoint.html#example"
@@ -4173,7 +4173,7 @@
   },"596": {
     "doc": "Physical Context Exchange Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/Physical%20Domain/Physical%20Context%20Exchange%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/Physical%20Domain/Physical%20Context%20Exchange%20Viewpoint.html#example"
@@ -4320,7 +4320,7 @@
   },"617": {
     "doc": "Physical Exchange Type Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/Physical%20Domain/Physical%20Exchange%20Type%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/Physical%20Domain/Physical%20Exchange%20Type%20Viewpoint.html#example"
@@ -4467,7 +4467,7 @@
   },"638": {
     "doc": "Physical Functional Mapping Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/Physical%20Domain/Physical%20Functional%20Mapping%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/Physical%20Domain/Physical%20Functional%20Mapping%20Viewpoint.html#example"
@@ -4614,7 +4614,7 @@
   },"659": {
     "doc": "Physical Interface Definition Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/Physical%20Domain/Physical%20Interface%20Definition%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/Physical%20Domain/Physical%20Interface%20Definition%20Viewpoint.html#example"
@@ -4761,7 +4761,7 @@
   },"680": {
     "doc": "Physical Internal Exchange Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/Physical%20Domain/Physical%20Internal%20Exchange%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/Physical%20Domain/Physical%20Internal%20Exchange%20Viewpoint.html#example"
@@ -5055,7 +5055,7 @@
   },"722": {
     "doc": "Physical Logical Mapping Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/Physical%20Domain/Physical%20Logical%20Mapping%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/Physical%20Domain/Physical%20Logical%20Mapping%20Viewpoint.html#example"
@@ -5202,7 +5202,7 @@
   },"743": {
     "doc": "Physical Structure Definition Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/Physical%20Domain/Physical%20Structure%20Definition%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/Physical%20Domain/Physical%20Structure%20Definition%20Viewpoint.html#example"
@@ -5636,7 +5636,7 @@
   },"805": {
     "doc": "Security Context Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/Functional%20Domain/Security%20Context%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/Functional%20Domain/Security%20Context%20Viewpoint.html#example"
@@ -5783,7 +5783,7 @@
   },"826": {
     "doc": "Security Risk Analysis Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/Functional%20Domain/Security%20Risk%20Analysis%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/Functional%20Domain/Security%20Risk%20Analysis%20Viewpoint.html#example"
@@ -5930,7 +5930,7 @@
   },"847": {
     "doc": "Stakeholder Identification Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/Operational%20Domain/Stakeholder%20Identification%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/Operational%20Domain/Stakeholder%20Identification%20Viewpoint.html#example"
@@ -6077,7 +6077,7 @@
   },"868": {
     "doc": "Stakeholder Requirement Definition Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/Operational%20Domain/Stakeholder%20Requirement%20Definition%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/Operational%20Domain/Stakeholder%20Requirement%20Definition%20Viewpoint.html#example"
@@ -6224,7 +6224,7 @@
   },"889": {
     "doc": "System Capability Definition Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/Functional%20Domain/System%20Capability%20Definition%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/Functional%20Domain/System%20Capability%20Definition%20Viewpoint.html#example"
@@ -6371,7 +6371,7 @@
   },"910": {
     "doc": "System Capability Mapping Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/Functional%20Domain/System%20Capability%20Mapping%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/Functional%20Domain/System%20Capability%20Mapping%20Viewpoint.html#example"
@@ -6518,7 +6518,7 @@
   },"931": {
     "doc": "System Context Definition Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/Functional%20Domain/System%20Context%20Definition%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/Functional%20Domain/System%20Context%20Definition%20Viewpoint.html#example"
@@ -6665,7 +6665,7 @@
   },"952": {
     "doc": "System Context Exchange Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/Functional%20Domain/System%20Context%20Exchange%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/Functional%20Domain/System%20Context%20Exchange%20Viewpoint.html#example"
@@ -6812,7 +6812,7 @@
   },"973": {
     "doc": "System Context Interaction Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/Functional%20Domain/System%20Context%20Interaction%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/Functional%20Domain/System%20Context%20Interaction%20Viewpoint.html#example"
@@ -6959,7 +6959,7 @@
   },"994": {
     "doc": "System Domain Item Kind Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/Functional%20Domain/System%20Domain%20Item%20Kind%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/Functional%20Domain/System%20Domain%20Item%20Kind%20Viewpoint.html#example"
@@ -7106,7 +7106,7 @@
   },"1015": {
     "doc": "System Functional Breakdown Structure Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/Functional%20Domain/System%20Functional%20Breakdown%20Structure%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/Functional%20Domain/System%20Functional%20Breakdown%20Structure%20Viewpoint.html#example"
@@ -7253,7 +7253,7 @@
   },"1036": {
     "doc": "System Functional Refinement Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/Functional%20Domain/System%20Functional%20Refinement%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/Functional%20Domain/System%20Functional%20Refinement%20Viewpoint.html#example"
@@ -7400,7 +7400,7 @@
   },"1057": {
     "doc": "System Interface Definition Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/Functional%20Domain/System%20Interface%20Definition%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/Functional%20Domain/System%20Interface%20Definition%20Viewpoint.html#example"
@@ -7547,7 +7547,7 @@
   },"1078": {
     "doc": "System Process Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/Functional%20Domain/System%20Process%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/Functional%20Domain/System%20Process%20Viewpoint.html#example"
@@ -7694,7 +7694,7 @@
   },"1099": {
     "doc": "System Requirement Definition Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/Functional%20Domain/System%20Requirement%20Definition%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/Functional%20Domain/System%20Requirement%20Definition%20Viewpoint.html#example"
@@ -7841,7 +7841,7 @@
   },"1120": {
     "doc": "System Requirement Traceability Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/Functional%20Domain/System%20Requirement%20Traceability%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/Functional%20Domain/System%20Requirement%20Traceability%20Viewpoint.html#example"
@@ -7988,7 +7988,7 @@
   },"1141": {
     "doc": "System State Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/Functional%20Domain/System%20State%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/Functional%20Domain/System%20State%20Viewpoint.html#example"
@@ -8135,7 +8135,7 @@
   },"1162": {
     "doc": "System Use Case Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/Functional%20Domain/System%20Use%20Case%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/Functional%20Domain/System%20Use%20Case%20Viewpoint.html#example"
@@ -8282,7 +8282,7 @@
   },"1183": {
     "doc": "Threat Szenario Viewpoint",
     "title": "Example",
-    "content": ". ",
+    "content": " ",
     "url": "/version/testing/devdoc/Functional%20Domain/Threat%20Szenario%20Viewpoint.html#example",
     
     "relUrl": "/devdoc/Functional%20Domain/Threat%20Szenario%20Viewpoint.html#example"
