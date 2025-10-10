@@ -40,7 +40,7 @@
     "Name" : "System Use Case",
     "Multiplicity" : "1"
   } ],
-  "Name" : "SUCincludingSUC",
+  "Name" : "including",
   "ID" : "_19_0_1_26f0132_1554447577832_897366_46461",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -137,7 +137,10 @@
   "ClassType" : "Association",
   "IsGeneralFor" : [ ]
 }, {
-  "InViewpoint" : [ ],
+  "InViewpoint" : [ {
+    "ID" : "_2024x_2_26f0132_1757420698363_571308_18",
+    "Name" : "EA Traceability Viewpoint"
+  } ],
   "Documentation" : "A concept used only together with relational concepts to specify that the relation goes to any other SAF Concept.",
   "AssociationEnds" : [ ],
   "Name" : "Any SAF Element",
@@ -215,7 +218,7 @@
     "Name" : "Operational Process",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "OPSrefiningOSY",
+  "Name" : "refining",
   "ID" : "_19_0_2_164f041e_1564572616564_538444_54929",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -558,7 +561,7 @@
     "Name" : "System Use Case",
     "Multiplicity" : "1..*"
   } ],
-  "Name" : "SUCsynthesizingSFN",
+  "Name" : "uses",
   "ID" : "_19_0_2_26f0132_1562303521707_858780_89137",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -598,7 +601,7 @@
     "Name" : "System Domain Kind",
     "Multiplicity" : "1"
   } ],
-  "Name" : "SDKtypingLIE",
+  "Name" : "typing",
   "ID" : "_19_0_2_26f0132_1562303523801_255857_90761",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -621,7 +624,7 @@
     "Name" : "System Domain Kind",
     "Multiplicity" : "1"
   } ],
-  "Name" : "SDKtypingLIPP",
+  "Name" : "typing",
   "ID" : "_19_0_2_26f0132_1562303523801_353773_90762",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -641,7 +644,7 @@
     "Name" : "System Domain Kind",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "SDKbeeingInSSE",
+  "Name" : "beeing in",
   "ID" : "_19_0_2_26f0132_1562303523801_666926_90760",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -650,6 +653,9 @@
   "InViewpoint" : [ {
     "ID" : "_2021x_2_8710274_1698415722718_711881_60045",
     "Name" : "Physical Logical Item Mapping Viewpoint"
+  }, {
+    "ID" : "_2024x_3_26f0132_1758913515809_605410_39",
+    "Name" : "Physical Exchange Type Definition Viewpoint"
   } ],
   "Documentation" : "Specifies the fact that a System Domain Kind is realized by Physical Exchange Kinds.",
   "AssociationEnds" : [ {
@@ -661,7 +667,7 @@
     "Name" : "Physical Exchange Kind",
     "Multiplicity" : "1..*"
   } ],
-  "Name" : "PEKrealizingSDK",
+  "Name" : "realizing",
   "ID" : "_19_0_2_26f0132_1562303523801_894791_90759",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -784,7 +790,7 @@
     "Name" : "General Functional Usage",
     "Multiplicity" : "1"
   } ],
-  "Name" : "GFUEPreceivingINPUT",
+  "Name" : "receiving input through",
   "ID" : "_19_0_2_26f0132_1562303524161_529250_91001",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -801,7 +807,7 @@
     "Name" : "System Domain Kind",
     "Multiplicity" : "1"
   } ],
-  "Name" : "SDKtypingFPM",
+  "Name" : "typing",
   "ID" : "_19_0_2_26f0132_1562303524161_752149_91000",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -838,7 +844,7 @@
     "Name" : "General Functional Usage",
     "Multiplicity" : "1"
   } ],
-  "Name" : "GFUEPsendingOUTPUT",
+  "Name" : "sending output through",
   "ID" : "_19_0_2_26f0132_1562303524161_890620_91008",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -851,7 +857,7 @@
     "ID" : "_2021x_2_8710274_1676723256334_812178_26576",
     "Name" : "System Functional Refinement Viewpoint"
   } ],
-  "Documentation" : "A parameter of a System or Context Function.",
+  "Documentation" : "Exchange point of functional usage.",
   "AssociationEnds" : [ ],
   "Name" : "General Function Usage Exchange Point",
   "ID" : "_19_0_2_26f0132_1562303524161_902110_90999",
@@ -879,10 +885,10 @@
   "ClassType" : "AssociationClass",
   "IsGeneralFor" : [ {
     "ID" : "_2021x_2_8710274_1675981331374_205908_29130",
-    "Name" : "System Function IN System Process"
+    "Name" : "System Function in System Process"
   }, {
     "ID" : "_2021x_2_8710274_1675981347806_599070_29437",
-    "Name" : "Context Function IN System Process"
+    "Name" : "Context Function in System Process"
   }, {
     "ID" : "_2024x_8710274_1716826749795_177784_16590",
     "Name" : "System Partial Function in System Function"
@@ -1057,6 +1063,9 @@
   }, {
     "ID" : "_2021x_2_8710274_1698415722718_711881_60045",
     "Name" : "Physical Logical Item Mapping Viewpoint"
+  }, {
+    "ID" : "_2024x_3_26f0132_1758913515809_605410_39",
+    "Name" : "Physical Exchange Type Definition Viewpoint"
   } ],
   "Documentation" : "Specification for any kind of physical item (energy, material, information, etc.) to be exchanged on Physical Level. This is the realization of the specification made by System Domain Kinds.",
   "AssociationEnds" : [ ],
@@ -1072,6 +1081,9 @@
   }, {
     "ID" : "_2021x_2_8710274_1674680950433_310726_23659",
     "Name" : "Physical Internal Exchange Viewpoint"
+  }, {
+    "ID" : "_2024x_3_26f0132_1758913515809_605410_39",
+    "Name" : "Physical Exchange Type Definition Viewpoint"
   } ],
   "Documentation" : "Specifies the fact that a Physical Exchange Kind defines the type of a Physical Item Exchange.",
   "AssociationEnds" : [ {
@@ -1083,7 +1095,7 @@
     "Name" : "Physical Exchange Kind",
     "Multiplicity" : "1"
   } ],
-  "Name" : "PEKtypingPIE",
+  "Name" : "typing",
   "ID" : "_19_0_2_26f0132_1562303524176_539421_91036",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -1145,6 +1157,9 @@
   }, {
     "ID" : "_2021x_2_8710274_1695205330608_177015_24335",
     "Name" : "Physical Interface Definition Viewpoint"
+  }, {
+    "ID" : "_2024x_3_26f0132_1758913515809_605410_39",
+    "Name" : "Physical Exchange Type Definition Viewpoint"
   } ],
   "Documentation" : "Specifies the fact that a Physical Exchange Kind defines the type of a Physical Interaction Point Property.",
   "AssociationEnds" : [ {
@@ -1156,7 +1171,7 @@
     "Name" : "Physical Exchange Kind",
     "Multiplicity" : "1"
   } ],
-  "Name" : "PEKtypingPIPP",
+  "Name" : "typing",
   "ID" : "_19_0_2_26f0132_1562303524176_605407_91026",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -2403,7 +2418,7 @@
     "ID" : "_2021x_2_8710274_1676723256334_812178_26576",
     "Name" : "System Functional Refinement Viewpoint"
   } ],
-  "Documentation" : "Specifies the fact that an General Functional Exchange between General Function Parameters is taking place.",
+  "Documentation" : "Specifies the fact that an General Functional Exchange between General Function Usage Exchange Points Parameters is taking place.",
   "AssociationEnds" : [ ],
   "Name" : "General Functional Exchange",
   "ID" : "_19_0_2_8710274_1567168520242_378357_56193",
@@ -2425,7 +2440,7 @@
     "Name" : "General Functional Exchange",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "GFEbeingPartOfGFNU",
+  "Name" : "appearing in",
   "ID" : "_19_0_2_8710274_1567168596944_130308_56269",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -2442,7 +2457,7 @@
     "Name" : "General Functional Exchange",
     "Multiplicity" : "1"
   } ],
-  "Name" : "GFEfromGFUEP",
+  "Name" : "coming from",
   "ID" : "_19_0_2_8710274_1567168628900_60412_56295",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -2459,7 +2474,7 @@
     "Name" : "General Functional Exchange",
     "Multiplicity" : "1"
   } ],
-  "Name" : "GFEtoGFUEP",
+  "Name" : "going to",
   "ID" : "_19_0_2_8710274_1567168660956_439379_56337",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -2841,7 +2856,7 @@
     "Name" : "Operational Connection",
     "Multiplicity" : "1"
   } ],
-  "Name" : "OCNallowingOIE",
+  "Name" : "allowing",
   "ID" : "_19_0_3_26f0132_1583963874197_988038_23051",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -2910,15 +2925,15 @@
   } ],
   "Documentation" : "Specifies the sequencing of Operational Processes in time.",
   "AssociationEnds" : [ {
-    "ID" : "_19_0_2_164f041e_1564572299224_487951_54901",
-    "Name" : "Operational Process",
+    "ID" : "_19_0_3_8710274_1581674683825_886069_50270",
+    "Name" : "Operational Process Usage",
     "Multiplicity" : "1"
   }, {
-    "ID" : "_19_0_2_164f041e_1564572299224_487951_54901",
-    "Name" : "Operational Process",
+    "ID" : "_19_0_3_8710274_1581674683825_886069_50270",
+    "Name" : "Operational Process Usage",
     "Multiplicity" : "1"
   } ],
-  "Name" : "controlledAFTER",
+  "Name" : "controlled after",
   "ID" : "_19_0_3_26f0132_1600501947277_784541_1508",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -2943,7 +2958,7 @@
   "IsGeneralFor" : [ ]
 }, {
   "InViewpoint" : [ ],
-  "Documentation" : "Specifies the fact that an Operational Domain Kind typifies an Operational Item Exchange.",
+  "Documentation" : "Specifies the fact that an Operational Domain Kind characterises an Operational Item Exchange.",
   "AssociationEnds" : [ {
     "ID" : "_19_0_3_26f0132_1583963832153_320549_23021",
     "Name" : "Operational Item Exchange",
@@ -2953,7 +2968,7 @@
     "Name" : "Operational Domain Kind",
     "Multiplicity" : "1"
   } ],
-  "Name" : "ODKtypifyingOIE",
+  "Name" : "characterising",
   "ID" : "_19_0_3_26f0132_1600783159281_769767_769",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -2963,17 +2978,17 @@
     "ID" : "_19_0_3_8710274_1581675958756_500127_50979",
     "Name" : "Operational Process Viewpoint"
   } ],
-  "Documentation" : "Specifies the fact that an Operational Process has an exchange with another Operational Process.",
+  "Documentation" : "Specifies the fact that an Operational Process has an exchange with another Operational Process in context of an operational process usage.",
   "AssociationEnds" : [ {
-    "ID" : "_19_0_2_164f041e_1564572299224_487951_54901",
-    "Name" : "Operational Process",
+    "ID" : "_19_0_3_8710274_1581674683825_886069_50270",
+    "Name" : "Operational Process Usage",
     "Multiplicity" : "1"
   }, {
-    "ID" : "_19_0_2_164f041e_1564572299224_487951_54901",
-    "Name" : "Operational Process",
+    "ID" : "_19_0_3_8710274_1581674683825_886069_50270",
+    "Name" : "Operational Process Usage",
     "Multiplicity" : "1"
   } ],
-  "Name" : "Operational Process Exchange",
+  "Name" : "Operational Process Usage Exchange",
   "ID" : "_19_0_3_26f0132_1600784136485_599221_879",
   "InheritsFrom" : [ ],
   "ClassType" : "AssociationClass",
@@ -3070,7 +3085,7 @@
     "Name" : "General Functional Usage",
     "Multiplicity" : "1"
   } ],
-  "Name" : "GFNcontrolledAFTER",
+  "Name" : "controlled after",
   "ID" : "_19_0_3_6d8019d_1609520174192_971623_551",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -3206,7 +3221,7 @@
     "Name" : "Operational Performer",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "OPRcapableOFperformingOPS",
+  "Name" : " capable performing",
   "ID" : "_19_0_3_8710274_1581667736629_896691_49612",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -3229,7 +3244,7 @@
     "Name" : "Operational Process",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "OPSenablingOCY",
+  "Name" : "enabling",
   "ID" : "_19_0_3_8710274_1581673944718_281561_49734",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -3269,7 +3284,7 @@
     "Name" : "Operational Context Role",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "OPRperformingOPSU",
+  "Name" : "performing",
   "ID" : "_19_0_3_8710274_1581675388411_771999_50581",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -3310,7 +3325,7 @@
     "Name" : "System Process",
     "Multiplicity" : "0..1"
   } ],
-  "Name" : "SPSrefiningSUC",
+  "Name" : "refining",
   "ID" : "_19_0_4_26f0132_1624610806163_247313_817",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -3359,14 +3374,14 @@
   "Documentation" : "Specifies the fact that a Context Function is expected to be carried out by the Logical Context Element in this System Context.",
   "AssociationEnds" : [ {
     "ID" : "_2021x_2_8710274_1675981347806_599070_29437",
-    "Name" : "Context Function IN System Process",
+    "Name" : "Context Function in System Process",
     "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_8710274_1567171243005_813677_60746",
     "Name" : "Logical Context Element Role",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "LCEperformingCFN",
+  "Name" : "performing",
   "ID" : "_19_0_4_26f0132_1624612392905_372789_1074",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -3383,7 +3398,7 @@
     "Name" : "System Use Case",
     "Multiplicity" : "1..*"
   } ],
-  "Name" : "SUCsynthesizingCFN",
+  "Name" : "uses",
   "ID" : "_19_0_4_26f0132_1624613247278_510884_1867",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -3414,14 +3429,14 @@
   "Documentation" : "Specifies the fact that a System Function is expected to be carried out by the SOI in this System Context.",
   "AssociationEnds" : [ {
     "ID" : "_2021x_2_8710274_1675981331374_205908_29130",
-    "Name" : "System Function IN System Process",
+    "Name" : "System Function in System Process",
     "Multiplicity" : "1..*"
   }, {
     "ID" : "_19_0_2_8710274_1567171329121_821656_60902",
     "Name" : "Logical SOI Role",
     "Multiplicity" : "1..*"
   } ],
-  "Name" : "LETperformingSFN",
+  "Name" : "performing",
   "ID" : "_19_0_4_26f0132_1624615117147_549388_2197",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -3431,17 +3446,17 @@
     "ID" : "_19_0_3_8710274_1581675958756_500127_50979",
     "Name" : "Operational Process Viewpoint"
   } ],
-  "Documentation" : "Specifies the fact that an Operational Domain Kind typifies an Operational Process Exchange.",
+  "Documentation" : "Specifies the fact that an Operational Domain Kind characterises an Operational Process Usage Exchange.",
   "AssociationEnds" : [ {
     "ID" : "_19_0_3_26f0132_1600784136485_599221_879",
-    "Name" : "Operational Process Exchange",
+    "Name" : "Operational Process Usage Exchange",
     "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_3_26f0132_1600783068816_502199_735",
     "Name" : "Operational Domain Kind",
     "Multiplicity" : "1"
   } ],
-  "Name" : "ODKtypifyingOPE",
+  "Name" : "characterising",
   "ID" : "_19_0_4_26f0132_1631283194173_385626_4558",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -3458,7 +3473,7 @@
     "Name" : "System Domain Kind",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "SDKderivingFromODK",
+  "Name" : "deriving from",
   "ID" : "_19_0_4_26f0132_1631284129545_438782_4876",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -3714,7 +3729,7 @@
     "Name" : "System Domain Kind",
     "Multiplicity" : "1"
   } ],
-  "Name" : "SDKcomposedOF",
+  "Name" : "composed of",
   "ID" : "_19_0_4_6d8019d_1632170395135_344484_397",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -3724,7 +3739,7 @@
     "ID" : "_19_0_4_26f0132_1631280350392_855780_562",
     "Name" : "Operational Domain Item Kind Viewpoint"
   } ],
-  "Documentation" : "Specifies the fact that an Operational Domain Kind consists of one or more Operational Domain Kinds.",
+  "Documentation" : "Specifies the fact that an Operational Domain Kind may consists of zero or more Operational Domain Kinds.",
   "AssociationEnds" : [ {
     "ID" : "_19_0_3_26f0132_1600783068816_502199_735",
     "Name" : "Operational Domain Kind",
@@ -3734,7 +3749,7 @@
     "Name" : "Operational Domain Kind",
     "Multiplicity" : "1"
   } ],
-  "Name" : "ODKcomposedOF",
+  "Name" : "composed of",
   "ID" : "_19_0_4_6d8019d_1632227066479_408164_1197",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -3754,7 +3769,7 @@
     "Name" : "System Process",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "SPSenablingSCY",
+  "Name" : "enabling",
   "ID" : "_19_0_4_6d8019d_1654507324074_749318_302",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -4212,7 +4227,7 @@
     "Name" : "System Function",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "System Function IN System Process",
+  "Name" : "System Function in System Process",
   "ID" : "_2021x_2_8710274_1675981331374_205908_29130",
   "InheritsFrom" : [ {
     "ID" : "_19_0_2_26f0132_1562303524161_907005_91002",
@@ -4238,7 +4253,7 @@
     "Name" : "Context Function",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "Context Function IN System Process",
+  "Name" : "Context Function in System Process",
   "ID" : "_2021x_2_8710274_1675981347806_599070_29437",
   "InheritsFrom" : [ {
     "ID" : "_19_0_2_26f0132_1562303524161_907005_91002",
@@ -4714,7 +4729,7 @@
     "Name" : "System",
     "Multiplicity" : "1"
   } ],
-  "Name" : "SMhavingGF",
+  "Name" : "having",
   "ID" : "_2021x_2_8710274_1698667927781_446840_35099",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -4767,7 +4782,7 @@
     "Name" : "Interaction Point Definition",
     "Multiplicity" : "1"
   } ],
-  "Name" : "IPDtypingIP",
+  "Name" : "typing",
   "ID" : "_2021x_2_8710274_1698677862298_335574_39408",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -4784,7 +4799,7 @@
     "Name" : "Interaction Point Property",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "IPPisDetailOfIPD",
+  "Name" : "is detail of",
   "ID" : "_2021x_2_8710274_1698677911848_684818_39446",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -4801,7 +4816,7 @@
     "Name" : "Exchange Kind",
     "Multiplicity" : "1"
   } ],
-  "Name" : "EKtypingIPP",
+  "Name" : "typing",
   "ID" : "_2021x_2_8710274_1698678011673_899769_39528",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -4827,7 +4842,7 @@
     "Name" : "Exchange Kind",
     "Multiplicity" : "1"
   } ],
-  "Name" : "EKtypingE",
+  "Name" : "typing",
   "ID" : "_2021x_2_8710274_1698678069303_580469_39594",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -4861,7 +4876,7 @@
     "Name" : "Connection",
     "Multiplicity" : "1"
   } ],
-  "Name" : "CallowingE",
+  "Name" : "allowing",
   "ID" : "_2021x_2_8710274_1698678360762_847551_39834",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -4878,14 +4893,14 @@
     "Name" : "System",
     "Multiplicity" : "1"
   } ],
-  "Name" : "SMhavingIP",
+  "Name" : "having",
   "ID" : "_2021x_2_8710274_1698680465664_931289_40252",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
   "IsGeneralFor" : [ ]
 }, {
   "InViewpoint" : [ ],
-  "Documentation" : "Specifies that an exchange goes to a system",
+  "Documentation" : "Specifies that a exchange goes to a system",
   "AssociationEnds" : [ {
     "ID" : "_2021x_2_8710274_1698665374453_611572_34394",
     "Name" : "System",
@@ -4895,7 +4910,7 @@
     "Name" : "Exchange",
     "Multiplicity" : "1"
   } ],
-  "Name" : "EEtoSM",
+  "Name" : "to",
   "ID" : "_2021x_2_8710274_1698691204535_927495_44118",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -4912,7 +4927,7 @@
     "Name" : "Exchange",
     "Multiplicity" : "1"
   } ],
-  "Name" : "EEfromSM",
+  "Name" : "from",
   "ID" : "_2021x_2_8710274_1698691231405_671733_44134",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -5156,7 +5171,7 @@
   "IsGeneralFor" : [ ]
 }, {
   "InViewpoint" : [ ],
-  "Documentation" : "A Exchange Point of a Function Usage",
+  "Documentation" : "A Exchange Point of a Function",
   "AssociationEnds" : [ ],
   "Name" : "General Function Exchange Point",
   "ID" : "_2024x_1_26f0132_1729283243560_884162_17589",
@@ -5175,7 +5190,7 @@
     "Name" : "General Function",
     "Multiplicity" : "1"
   } ],
-  "Name" : "GFNsendingOUTPUT",
+  "Name" : "sending output through",
   "ID" : "_2024x_1_26f0132_1729283433940_32128_17642",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -5192,7 +5207,7 @@
     "Name" : "General Function",
     "Multiplicity" : "1"
   } ],
-  "Name" : "GFNreceivingINPUT",
+  "Name" : "receiving input through",
   "ID" : "_2024x_1_26f0132_1729284623707_916221_17673",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -5209,7 +5224,7 @@
     "Name" : "General Function Exchange Point",
     "Multiplicity" : "1"
   } ],
-  "Name" : "GFEPrelatedToGFUEP",
+  "Name" : "related to",
   "ID" : "_2024x_1_26f0132_1729284796075_770296_17706",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -5604,7 +5619,7 @@
     "Name" : "Operational Process",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "OPShasPreconditionOSE",
+  "Name" : "has precondition",
   "ID" : "_2024x_2_26f0132_1751005742169_326952_1493",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -5673,7 +5688,7 @@
     "Name" : "Operational Process",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "OPShasPostconditionOSE",
+  "Name" : "has postcondition",
   "ID" : "_2024x_2_26f0132_1751005742257_825702_1594",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -5690,7 +5705,7 @@
     "Name" : "System Process",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "SPShasPreconditionSSE",
+  "Name" : "has precondition",
   "ID" : "_2024x_2_26f0132_1751629270785_299763_886",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -5707,8 +5722,80 @@
     "Name" : "System Process",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "SPShasPostconditionSSE",
+  "Name" : "has postcondition",
   "ID" : "_2024x_2_26f0132_1751629307240_413099_934",
+  "InheritsFrom" : [ ],
+  "ClassType" : "Association",
+  "IsGeneralFor" : [ ]
+}, {
+  "InViewpoint" : [ {
+    "ID" : "_2024x_2_26f0132_1757420698363_571308_18",
+    "Name" : "EA Traceability Viewpoint"
+  } ],
+  "Documentation" : "Represents any conceptual entity of an Enterprise Architecture model.",
+  "AssociationEnds" : [ ],
+  "Name" : "Any EA Element",
+  "ID" : "_2024x_2_26f0132_1757421426352_10867_1155",
+  "InheritsFrom" : [ ],
+  "ClassType" : "Class",
+  "IsGeneralFor" : [ ]
+}, {
+  "InViewpoint" : [ {
+    "ID" : "_2024x_2_26f0132_1757420698363_571308_18",
+    "Name" : "EA Traceability Viewpoint"
+  } ],
+  "Documentation" : "Specifies that a SAF Element represents an EA Element.",
+  "AssociationEnds" : [ {
+    "ID" : "_2024x_2_26f0132_1757421426352_10867_1155",
+    "Name" : "Any EA Element",
+    "Multiplicity" : "0..1"
+  }, {
+    "ID" : "_19_0_2_164f041e_1564565587397_301397_54399",
+    "Name" : "Any SAF Element",
+    "Multiplicity" : "0..1"
+  } ],
+  "Name" : "represents",
+  "ID" : "_2024x_2_26f0132_1757421548498_984650_1244",
+  "InheritsFrom" : [ ],
+  "ClassType" : "Association",
+  "IsGeneralFor" : [ ]
+}, {
+  "InViewpoint" : [ {
+    "ID" : "_2024x_2_26f0132_1757420698363_571308_18",
+    "Name" : "EA Traceability Viewpoint"
+  } ],
+  "Documentation" : "Specifies that any SAF element may derive from any EA elements.",
+  "AssociationEnds" : [ {
+    "ID" : "_2024x_2_26f0132_1757421426352_10867_1155",
+    "Name" : "Any EA Element",
+    "Multiplicity" : "0..*"
+  }, {
+    "ID" : "_19_0_2_164f041e_1564565587397_301397_54399",
+    "Name" : "Any SAF Element",
+    "Multiplicity" : "0..*"
+  } ],
+  "Name" : "derives from",
+  "ID" : "_2024x_2_26f0132_1757421734076_475755_1298",
+  "InheritsFrom" : [ ],
+  "ClassType" : "Association",
+  "IsGeneralFor" : [ ]
+}, {
+  "InViewpoint" : [ {
+    "ID" : "_2024x_2_26f0132_1757420698363_571308_18",
+    "Name" : "EA Traceability Viewpoint"
+  } ],
+  "Documentation" : "Specifies that any SAF element may be informed by any EA elements.",
+  "AssociationEnds" : [ {
+    "ID" : "_2024x_2_26f0132_1757421426352_10867_1155",
+    "Name" : "Any EA Element",
+    "Multiplicity" : "0..*"
+  }, {
+    "ID" : "_19_0_2_164f041e_1564565587397_301397_54399",
+    "Name" : "Any SAF Element",
+    "Multiplicity" : "0..*"
+  } ],
+  "Name" : "informed by",
+  "ID" : "_2024x_2_26f0132_1757421856918_814040_1326",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
   "IsGeneralFor" : [ ]

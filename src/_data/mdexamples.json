@@ -14,19 +14,19 @@
   "Name" : "Arduino Interfaces Types",
   "ExampleForVPID" : "P5_PIFD"
 }, {
-  "ID" : "_2024x_4c5019a_1724847258994_116290_2284",
+  "ID" : "_2024x_4c5019a_1724845803763_752788_524",
   "Documentation" : "",
   "Name" : "Asset Definition",
   "ExampleForVPID" : "F7_ASID"
 }, {
-  "ID" : "_2024x_4c5019a_1724845803763_752788_524",
+  "ID" : "_2024x_4c5019a_1724847258994_116290_2284",
   "Documentation" : "",
   "Name" : "Asset Definition",
   "ExampleForVPID" : "F7_ASID"
 }, {
   "ID" : "_2021x_2_8710274_1695208986903_203958_26642",
   "Documentation" : "",
-  "Name" : "Boundary Interface Types",
+  "Name" : "Boundary Interfaces",
   "ExampleForVPID" : "P5_PIFD"
 }, {
   "ID" : "_19_0_3_6d8019d_1587454301720_18697_53466",
@@ -134,6 +134,21 @@
   "Name" : "FFDS System Modes and States",
   "ExampleForVPID" : "F3_SSTA"
 }, {
+  "ID" : "_2024x_2_26f0132_1757372807303_289960_6927",
+  "Documentation" : "",
+  "Name" : "FFDS System to EA -Tracing",
+  "ExampleForVPID" : "C8_EATR"
+}, {
+  "ID" : "_2024x_2_26f0132_1757001683465_405133_14945",
+  "Documentation" : "",
+  "Name" : "FFDS System to FFDS EA -Tracing Matrix",
+  "ExampleForVPID" : "C8_EATR"
+}, {
+  "ID" : "_2024x_2_26f0132_1757005700912_310465_18114",
+  "Documentation" : "",
+  "Name" : "FFDS System to FFDS EA Tracing Table",
+  "ExampleForVPID" : "C8_EATR"
+}, {
   "ID" : "_19_0_4_6d8019d_1626717318881_416688_987",
   "Documentation" : "",
   "Name" : "FFDS Use Case A Day in Life of the System",
@@ -179,9 +194,19 @@
   "Name" : "Impact Analysis",
   "ExampleForVPID" : "F7_IMAN"
 }, {
+  "ID" : "_2024x_3_26f0132_1758922197672_399449_222",
+  "Documentation" : "",
+  "Name" : "Interface Types",
+  "ExampleForVPID" : "P2_PETD"
+}, {
+  "ID" : "_2024x_3_26f0132_1758922758085_157980_351",
+  "Documentation" : "",
+  "Name" : "Interface Types Table",
+  "ExampleForVPID" : "P2_PETD"
+}, {
   "ID" : "_2021x_2_8710274_1696599882339_266143_98316",
   "Documentation" : "",
-  "Name" : "Internal Interface Types",
+  "Name" : "Internal Interfaces",
   "ExampleForVPID" : "P5_PIFD"
 }, {
   "ID" : "_19_0_2_26f0132_1562303529036_923400_94274",

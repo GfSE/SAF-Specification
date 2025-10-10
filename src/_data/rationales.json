@@ -5772,6 +5772,150 @@
   }
 }, {
   "Name" : "",
+  "ID" : "_2024x_2_26f0132_1757511838818_240095_165",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2024x_2_26f0132_1757422565357_592206_1399",
+    "Name" : "Which element of a system model represents the same entity as an other element of the enterprise architecture model?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
+    "Name" : "Acquirer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1757511840048_677973_166",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2024x_2_26f0132_1757422565358_576242_1400",
+    "Name" : "Which element of a system model is derived from an element of the enterprise architecture model?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
+    "Name" : "Acquirer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1757511840947_968884_169",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2024x_2_26f0132_1757422565358_807136_1401",
+    "Name" : "Which element of a system model is influenced by an element of the enterprise architecture model?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
+    "Name" : "Acquirer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1757511943186_905473_184",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2024x_2_26f0132_1757422565357_592206_1399",
+    "Name" : "Which element of a system model represents the same entity as an other element of the enterprise architecture model?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_2_26f0132_1757511908293_572766_174",
+    "Name" : "Configuration Manager"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1757511944123_669010_185",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2024x_2_26f0132_1757422565358_576242_1400",
+    "Name" : "Which element of a system model is derived from an element of the enterprise architecture model?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_2_26f0132_1757511908293_572766_174",
+    "Name" : "Configuration Manager"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1757511944872_731451_186",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2024x_2_26f0132_1757422565358_807136_1401",
+    "Name" : "Which element of a system model is influenced by an element of the enterprise architecture model?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2024x_2_26f0132_1757511908293_572766_174",
+    "Name" : "Configuration Manager"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1757511957127_440333_187",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2024x_2_26f0132_1757422565357_592206_1399",
+    "Name" : "Which element of a system model represents the same entity as an other element of the enterprise architecture model?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1757511958175_864116_188",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2024x_2_26f0132_1757422565358_576242_1400",
+    "Name" : "Which element of a system model is derived from an element of the enterprise architecture model?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1757511958869_479847_191",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2024x_2_26f0132_1757422565358_807136_1401",
+    "Name" : "Which element of a system model is influenced by an element of the enterprise architecture model?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1757511997499_23559_192",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2024x_2_26f0132_1757422565357_592206_1399",
+    "Name" : "Which element of a system model represents the same entity as an other element of the enterprise architecture model?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2021x_2_8710274_1674680055517_468796_22923",
+    "Name" : "Portfolio Manager"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1757511999609_457399_195",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2024x_2_26f0132_1757422565358_807136_1401",
+    "Name" : "Which element of a system model is influenced by an element of the enterprise architecture model?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2021x_2_8710274_1674680055517_468796_22923",
+    "Name" : "Portfolio Manager"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1757512000279_663931_196",
+  "Documentation" : "",
+  "Concern" : {
+    "ID" : "_2024x_2_26f0132_1757422565358_576242_1400",
+    "Name" : "Which element of a system model is derived from an element of the enterprise architecture model?"
+  },
+  "Stakeholder" : {
+    "ID" : "_2021x_2_8710274_1674680055517_468796_22923",
+    "Name" : "Portfolio Manager"
+  }
+}, {
+  "Name" : "",
   "ID" : "_2024x_2a0c05a1_1731018953117_274354_122",
   "Documentation" : "In my role I need to identify Security Requirements to define Security Measures.",
   "Concern" : {

@@ -55,6 +55,20 @@
   "RecommendedVP" : [ "_2021x_2_8710274_1676722868986_622372_25044" ],
   "RequiredVP" : [ ]
 }, {
+  "Name" : "EA Traceability Viewpoint",
+  "ID" : "_2024x_2_26f0132_1757420698363_571308_18",
+  "VP_ID" : "C8_EATR",
+  "Maturity" : "released",
+  "Purpose" : "The EA Traceability Viewpoint provides a mapping between SAF System Model elements and model elements of an upper Enterprise Architecture (EA) Model.\nThe mapping is accomplished by three kinds of relations\n- a representation relation which states that an element of the SAF System Model and the related model element in the EA model represents the same entity.\n- a derivation relation, stating that an element of the SAF System Model is derived from an EA model element.\n- an informed relation, stating that an element of the  SAF System Model is related to the respective EA Element. ",
+  "Applicability" : "<html>\n  <head>\n\t\t<style>\n\t\t\tp {padding:0px; margin:0px;}\n\t\t</style>\n\t</head>\n  <body>\n    <p>\nThe viewpoint supports the\n\n    </p>\n\n    <ul>\n      <li>\n&ldquo;Configuration Management Process&rdquo; activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [&#167;2.3.4.5]\n\n      </li>\n      <li>\n&ldquo;Business or Mission Analysis Process&rdquo; activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [&#167;2.3.5.1]\n\n      </li>\n      <li>\n&ldquo;System Requirements Definition Process&rdquo; activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [&#167;2.3.5.3]\n\n      </li>\n      <li>\n&ldquo;Architecture Definition Process&rdquo; activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [&#167;2.3.5.4]\n\n      </li>\n      <li>\n&ldquo;Validation Process&rdquo; activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [&#167;2.3.5.11]\n\n      </li>\n    </ul>\n    <p>\nby providing the reasoning and tracing.\n\n    </p>\n\n</body>\n</html>",
+  "Aspect" : "Traceability & Mapping",
+  "Domain" : "Common",
+  "Presentation" : [ "One or more mapping matrices representing EA model elements and SAF model elements and their represents, derive and inform relations.", "One or more tables containing EA model elements, SAF model elements and the represents, derivation and informs relations.", "One or more BDD containing EA model elements, SAF model elements and the  represents, derivation and informs relations." ],
+  "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_2024x_2_26f0132_1757511908293_572766_174", "_2021x_2_8710274_1674680055517_468796_22923", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
+  "Concern" : [ "_2024x_2_26f0132_1757422565358_576242_1400", "_2024x_2_26f0132_1757422565358_807136_1401", "_2024x_2_26f0132_1757422565357_592206_1399" ],
+  "RecommendedVP" : [ ],
+  "RequiredVP" : [ ]
+}, {
   "Name" : "Framework Concept Definition Viewpoint",
   "ID" : "_2024x_26f0132_1719735639175_641082_26522",
   "VP_ID" : "D2_COTD",
@@ -419,6 +433,20 @@
   "RecommendedVP" : [ ],
   "RequiredVP" : [ "_19_0_1_26f0132_1547202202696_824153_42420" ]
 }, {
+  "Name" : "Physical Exchange Type Definition Viewpoint",
+  "ID" : "_2024x_3_26f0132_1758913515809_605410_39",
+  "VP_ID" : "P2_PETD",
+  "Maturity" : "released",
+  "Purpose" : "The Physical Exchange Type Definition Viewpoint captures type definitions on design level for any exchanged or stored items, e.g., information, material, or energy, of the Physical Domain. Its purpose is to define these item types, their properties and their relationships. It also shows the traceability of these items to the conceptual layer (Functional and Logical Domain)\n",
+  "Applicability" : "The Physical Exchange Type Definition Viewpoint supports the “Design Definition Process” activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.5] and contributes to the artifacts \"System Design Description\" and \"System Interface Definition\". It also supports the \"Interface Management\" method of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§3.2.4].",
+  "Aspect" : "Taxonomy & Structure",
+  "Domain" : "Physical",
+  "Presentation" : [ "A block definition diagram (BDD) featuring Physical Exchange Types, their properties and relationships.", "A tabular format listing the Physical Exchange Types, their properties and relationships." ],
+  "Stakeholders" : [ "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_26f0132_1562303526473_410133_92403", "_19_0_2_ebf0350_1567337062655_160733_52757", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
+  "Concern" : [ "_2024x_3_26f0132_1758917108502_438726_3067", "_2021x_2_8710274_1697542838788_945785_24608" ],
+  "RecommendedVP" : [ "_19_0_2_26f0132_1562303526536_778418_92552" ],
+  "RequiredVP" : [ ]
+}, {
   "Name" : "Physical Functional Mapping Viewpoint",
   "ID" : "_2021x_2_8710274_1675987942868_617787_33116",
   "VP_ID" : "P8_PFUM",
@@ -442,10 +470,10 @@
   "Aspect" : "Interface",
   "Domain" : "Physical",
   "Presentation" : [ "A block definition diagram (BDD) featuring Physical Interface blocks with ports, and flow properties. Compatibility between Physical Interface blocks is expressed by associations and association blocks. Physical Interface blocks may be specialisations of others (use of generalisation).\nNote: When ports are used these shall be proxy ports and be typed by interface blocks.", "A tabular format listing Physical Interface blocks, their ports, and flow properties." ],
-  "Stakeholders" : [ "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_ebf0350_1554653241806_566270_43560", "_19_0_2_26f0132_1562303526473_410133_92403", "_19_0_2_ebf0350_1567337062655_160733_52757", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
-  "Concern" : [ "_2021x_2_8710274_1698695280731_979013_48719", "_2021x_2_8710274_1674576759093_319282_23509", "_2021x_2_8710274_1697542838788_945785_24608", "_2021x_2_8710274_1698695217112_237670_48715" ],
+  "Stakeholders" : [ "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_ebf0350_1554653241806_566270_43560", "_19_0_2_ebf0350_1567337062655_160733_52757", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
+  "Concern" : [ "_2021x_2_8710274_1698695280731_979013_48719", "_2021x_2_8710274_1674576759093_319282_23509", "_2021x_2_8710274_1698695217112_237670_48715" ],
   "RecommendedVP" : [ ],
-  "RequiredVP" : [ ]
+  "RequiredVP" : [ "_2024x_3_26f0132_1758913515809_605410_39" ]
 }, {
   "Name" : "Physical Internal Exchange Viewpoint",
   "ID" : "_2021x_2_8710274_1674680950433_310726_23659",
@@ -470,8 +498,8 @@
   "Aspect" : "Traceability & Mapping",
   "Domain" : "Physical",
   "Presentation" : [ "A  Physical To Logical Assigment Matrix featuring\n* System Domain Kinds\n* Physical Exchange Kinds\n* Allocation relationship between them" ],
-  "Stakeholders" : [ ],
-  "Concern" : [ ],
+  "Stakeholders" : [ "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_26f0132_1562303526473_525021_92401", "_19_0_2_ebf0350_1554653241806_566270_43560", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
+  "Concern" : [ "_2024x_3_26f0132_1758917108502_438726_3067", "_2021x_2_8710274_1698399385413_529894_33129" ],
   "RecommendedVP" : [ ],
   "RequiredVP" : [ ]
 }, {

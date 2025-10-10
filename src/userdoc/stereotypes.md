@@ -12,7 +12,7 @@ The stereotypes of the SAF Profile are used system models.
 {% assign realizations = site.data.realizeconcept | where: "RealizationOfConcept.ID", element.ID %}
 <A id={{ element.ID }}></A>
 ### {{ element.Name }} 
-{{ element.Documentation }}
+{{ element.Documentation | replace:  "https://saf.gfse.org/devdoc", "../devdoc" | replace:  "https://saf.gfse.org/userdoc", "../userdoc"}}
 {% endfor %}
 
 ## Stereotypes of the SCM Profile
@@ -25,7 +25,8 @@ report dev stereotypes here
 {% for element in scmstereotypes %}
 <A id={{ element.ID }}></A>
 ### {{ element.Name }} 
-{{ element.Documentation }}
+{{ element.Documentation | replace:  "https://saf.gfse.org/devdoc", "../devdoc"}}
+
 {% endfor %}
 
 ## SCM defined Patterns

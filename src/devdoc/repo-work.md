@@ -19,7 +19,8 @@ It is also the only way to interact with the SAF Repository for developers exter
 The fork / pull request workflow is well established and documented in the open source community, thus we give only a very brief overview:
 
 * The developer forks the Specification repository into the own github account.
-* The developer clones the repositiory to the local machine and works on it. A preview of the documentation can be generated locally by installing a toolchain, see [Document Generation](docgen.md)
+  (uncheck "fork main branch only" if you want to contribute to a branch)
+* The developer clones the forked repositiory to the local machine and works on it. A preview of the documentation can be generated locally by installing a toolchain, see [Document Generation](docgen.md)
 * The developer creates a pull request
 * The pull request is reviewed by the SAF working group and either applied or rejected for rework
 

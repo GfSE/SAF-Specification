@@ -114,13 +114,9 @@ The name for the association indicates how the two concepts are related. The rea
 
 One should be able to assemble a sentence like:
 
-**“Concept A”     “CA has relation with CB”   “Concept B”**.
-
-Include shortended Pre and Postfixes to indicate which concepts are related
+**“Concept A”     “has relation with”   “Concept B”**.
 
 `Rule: Name every association.`
-
-`Rule: Association names must be unique.`
 
 `Rule: Use direction arrow on association name.`
 
@@ -147,6 +143,10 @@ The example shows a Concept “State”, and the relationship between “State�
 #### Association Classes
 
 If the Association represents a valuable concept; it may be worth to model it as an association class. Since an association class can be part of other associations, an association class may be the only way to express elaborated concept relationships.
+
+`Rule: Do not display the SCM_Concept stereotype at the relation - it is already in the class symbol`
+
+`Rule: Do not display the name at the relation - it is already in the class symbol`
 
 Example:
 
