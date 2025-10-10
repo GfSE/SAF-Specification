@@ -433,12 +433,12 @@
   "RecommendedVP" : [ ],
   "RequiredVP" : [ "_19_0_1_26f0132_1547202202696_824153_42420" ]
 }, {
-  "Name" : "Physical Exchange Type Viewpoint",
+  "Name" : "Physical Exchange Type Definition Viewpoint",
   "ID" : "_2024x_3_26f0132_1758913515809_605410_39",
   "VP_ID" : "P2_PETD",
   "Maturity" : "proposed",
-  "Purpose" : "The Physical Exchange Type Viewpoint captures type definitions on design level for any exchanged or stored items, e.g., information, material, or energy, of the Physical Domain. Its purpose is to define these item types, their properties and their relationships. It also shows the traceability of these items to the conceptual layer (Functional and Logical Domain)\n",
-  "Applicability" : "The Physical Exchange Type Viewpoint supports the “Design Definition Process” activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.5] and contributes to the artifacts \"System Design Description\" and \"System Interface Definition\". It also supports the \"Interface Management\" method of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§3.2.4].",
+  "Purpose" : "The Physical Exchange Type Definition Viewpoint captures type definitions on design level for any exchanged or stored items, e.g., information, material, or energy, of the Physical Domain. Its purpose is to define these item types, their properties and their relationships. It also shows the traceability of these items to the conceptual layer (Functional and Logical Domain)\n",
+  "Applicability" : "The Physical Exchange Type Definition Viewpoint supports the “Design Definition Process” activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.5] and contributes to the artifacts \"System Design Description\" and \"System Interface Definition\". It also supports the \"Interface Management\" method of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§3.2.4].",
   "Aspect" : "Taxonomy & Structure",
   "Domain" : "Physical",
   "Presentation" : [ "A block definition diagram (BDD) featuring Physical Exchange Types, their properties and relationships.", "A tabular format listing the Physical Exchange Types, their properties and relationships." ],
