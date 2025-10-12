@@ -511,7 +511,7 @@
   "Applicability" : "The Physical Logical Mapping Viewpoint supports the “Design Definition Process” activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.5] and contributes to the artifact \"Traceability Mapping\".\n\nFurthermore, the Physical Logical Mapping Viewpoint supports the \"Allocation and Partitioning of Logical Entities to Physical Entities\" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2015 [§4.4.2.7].",
   "Aspect" : "Traceability & Mapping",
   "Domain" : "Physical",
-  "Presentation" : [ "A assignment matrix featuring\n* Logical Element Breakdown Structure showing Logical Element Roles and Logical Elements\n* Physical Element Breakdown Structure showing physical element roles and physical elements\n* Allocation relationship from logical system element roles to physical system element roles" ],
+  "Presentation" : [ "A assignment matrix featuring\n* Logical Element Breakdown Structure showing Logical Element Roles and Logical Elements\n* Physical Element Breakdown Structure showing physical element roles and physical elements\n* Realization relationship from physical system element roles to logical system element roles" ],
   "Stakeholders" : [ "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_26f0132_1562303526473_525021_92401", "_19_0_2_ebf0350_1554653241806_566270_43560", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "Concern" : [ "_2021x_2_8710274_1698399385413_529894_33129" ],
   "RecommendedVP" : [ ],
