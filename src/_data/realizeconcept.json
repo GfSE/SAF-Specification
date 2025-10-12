@@ -2512,11 +2512,11 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2021x_2_8710274_1697730753339_508227_29549",
-    "Name" : "LERspecifyingGPR"
+    "Name" : "specifying"
   },
   "RealizationOfConcept" : {
-    "ID" : "_11_5EAPbeta_be00301_1147866646230_488749_1541",
-    "Name" : "Allocate"
+    "ID" : "_2024x_3_ea40342_1760102235622_120598_2",
+    "Name" : "SAF_PhysicalRealization"
   }
 }, {
   "Name" : "",
@@ -2536,7 +2536,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2021x_2_8710274_1675988365178_267674_34276",
-    "Name" : "LETspecifyingAPE"
+    "Name" : "specifying"
   },
   "RealizationOfConcept" : {
     "ID" : "_2021x_2_8710274_1697733962746_416639_32555",
@@ -2587,8 +2587,8 @@
     "Name" : "realizing"
   },
   "RealizationOfConcept" : {
-    "ID" : "_11_5EAPbeta_be00301_1147866646230_488749_1541",
-    "Name" : "Allocate"
+    "ID" : "_2024x_3_ea40342_1760102235622_120598_2",
+    "Name" : "SAF_PhysicalRealization"
   }
 }, {
   "Name" : "",

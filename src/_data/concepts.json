@@ -1972,6 +1972,9 @@
   }, {
     "ID" : "_19_0_2_26f0132_1561763753175_522268_51960",
     "Name" : "Operational Context"
+  }, {
+    "ID" : "_2024x_4c5019a_1724674758529_936816_356",
+    "Name" : "Security Context"
   } ]
 }, {
   "InViewpoint" : [ ],
@@ -1990,6 +1993,9 @@
   }, {
     "ID" : "_19_0_2_26f0132_1562316546243_649906_43676",
     "Name" : "System Context Element"
+  }, {
+    "ID" : "_2024x_ea40342_1724668235875_444109_102",
+    "Name" : "Security Context Element"
   } ]
 }, {
   "InViewpoint" : [ ],
@@ -4293,7 +4299,7 @@
     "Name" : "Logical Element",
     "Multiplicity" : "1..*"
   } ],
-  "Name" : "LETspecifyingAPE",
+  "Name" : "specifying",
   "ID" : "_2021x_2_8710274_1675988365178_267674_34276",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -4677,7 +4683,7 @@
     "Name" : "Logical Element Role",
     "Multiplicity" : "1..*"
   } ],
-  "Name" : "LERspecifyingGPR",
+  "Name" : "specifying",
   "ID" : "_2021x_2_8710274_1697730753339_508227_29549",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -5800,6 +5806,40 @@
   "ClassType" : "Association",
   "IsGeneralFor" : [ ]
 }, {
+  "InViewpoint" : [ ],
+  "Documentation" : "specifies the fact, that a system of interest exists \nin a security context.",
+  "AssociationEnds" : [ {
+    "ID" : "_19_0_1_26f0132_1554446894573_10154_45796",
+    "Name" : "System Of Interest",
+    "Multiplicity" : "1"
+  }, {
+    "ID" : "_2024x_4c5019a_1724674758529_936816_356",
+    "Name" : "Security Context",
+    "Multiplicity" : "1..*"
+  } ],
+  "Name" : "",
+  "ID" : "_2024x_3_ea40342_1760282680996_480246_483",
+  "InheritsFrom" : [ ],
+  "ClassType" : "Association",
+  "IsGeneralFor" : [ ]
+}, {
+  "InViewpoint" : [ ],
+  "Documentation" : "",
+  "AssociationEnds" : [ {
+    "ID" : "_2024x_4c5019a_1724674758529_936816_356",
+    "Name" : "Security Context",
+    "Multiplicity" : "1"
+  }, {
+    "ID" : "_2024x_ea40342_1724668235875_444109_102",
+    "Name" : "Security Context Element",
+    "Multiplicity" : "1"
+  } ],
+  "Name" : "Security Context Element Role",
+  "ID" : "_2024x_3_ea40342_1760283322595_18363_691",
+  "InheritsFrom" : [ ],
+  "ClassType" : "AssociationClass",
+  "IsGeneralFor" : [ ]
+}, {
   "InViewpoint" : [ {
     "ID" : "_2024x_4c5019a_1724766057976_458531_938",
     "Name" : "Asset Identification Viewpoint"
@@ -5814,6 +5854,9 @@
   "InheritsFrom" : [ {
     "ID" : "_19_0_2_164f041e_1564089980498_97451_52116",
     "Name" : "System Context"
+  }, {
+    "ID" : "_19_0_2_26f0132_1572501793596_705409_54004",
+    "Name" : "General Context"
   } ],
   "ClassType" : "Class",
   "IsGeneralFor" : [ ]
@@ -6642,7 +6685,10 @@
   "AssociationEnds" : [ ],
   "Name" : "Security Context Element",
   "ID" : "_2024x_ea40342_1724668235875_444109_102",
-  "InheritsFrom" : [ ],
+  "InheritsFrom" : [ {
+    "ID" : "_19_0_2_26f0132_1572502319806_138665_54158",
+    "Name" : "General Context Element"
+  } ],
   "ClassType" : "Class",
   "IsGeneralFor" : [ {
     "ID" : "_2024x_4c5019a_1724750542260_2346_1453",
