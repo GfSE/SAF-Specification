@@ -2644,7 +2644,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2021x_2_8710274_1700812231614_683776_49715",
-    "Name" : "SDTincludingSDT"
+    "Name" : "including"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_1_26f0132_1729184994458_912940_16021",
@@ -2668,7 +2668,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2021x_2_8710274_1700817559642_660412_50682",
-    "Name" : "SDTsupersedingSDT"
+    "Name" : "superseding"
   },
   "RealizationOfConcept" : {
     "ID" : "_2021x_2_8710274_1700817699465_496750_50736",
@@ -2680,7 +2680,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2021x_2_8710274_1700814367039_336586_50268",
-    "Name" : "SDTcategorizedCOF"
+    "Name" : "categorized"
   },
   "RealizationOfConcept" : {
     "ID" : "_2021x_2_8710274_1701360709869_194778_91148",
@@ -2716,7 +2716,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2021x_2_8710274_1700810136506_485576_48133",
-    "Name" : "TRMdefinedBySDT"
+    "Name" : "defined by"
   },
   "RealizationOfConcept" : {
     "ID" : "_2021x_2_8710274_1701358178670_429073_90632",
@@ -2812,7 +2812,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2024x_1_26f0132_1729184481488_984688_15862",
-    "Name" : "ASFconformToSTD"
+    "Name" : "conform to"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_1_26f0132_1729185092432_155560_16027",
@@ -2824,7 +2824,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2021x_2_8710274_1700810378676_882309_48192",
-    "Name" : "STDissuedBySTO"
+    "Name" : "issued by"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_1_26f0132_1729185567557_816733_16281",
@@ -2848,7 +2848,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2024x_1_26f0132_1729193587037_719455_25763",
-    "Name" : "STDcontainsGY"
+    "Name" : "contains"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_1_26f0132_1729193858003_422786_25967",
@@ -2860,7 +2860,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2024x_1_26f0132_1729193445510_304510_25731",
-    "Name" : "GYcontainsTRM"
+    "Name" : "contains"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_1_26f0132_1729193785155_512673_25935",
@@ -2872,7 +2872,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2024x_1_26f0132_1730145934888_287548_16610",
-    "Name" : "STDdependsOnSTD"
+    "Name" : "depends on"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_1_26f0132_1730146316549_832482_16733",
