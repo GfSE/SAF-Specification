@@ -4977,7 +4977,7 @@
     "Name" : "Term",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "TRMdefinedBySDT",
+  "Name" : "defined by",
   "ID" : "_2021x_2_8710274_1700810136506_485576_48133",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -5009,7 +5009,7 @@
     "Name" : "Standard",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "STDissuedBySTO",
+  "Name" : "issued by",
   "ID" : "_2021x_2_8710274_1700810378676_882309_48192",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -5038,7 +5038,7 @@
     "Name" : "Standard",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "SDTincludingSDT",
+  "Name" : "including",
   "ID" : "_2021x_2_8710274_1700812231614_683776_49715",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -5070,7 +5070,7 @@
     "Name" : "Standard",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "SDTcategorizedCOF",
+  "Name" : "categorized",
   "ID" : "_2021x_2_8710274_1700814367039_336586_50268",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -5090,7 +5090,7 @@
     "Name" : "Standard",
     "Multiplicity" : "1"
   } ],
-  "Name" : "SDTsupersedingSDT",
+  "Name" : "superseding",
   "ID" : "_2021x_2_8710274_1700817559642_660412_50682",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -5127,7 +5127,7 @@
     "Name" : "Any SAF Element",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "ASFconformToSTD",
+  "Name" : "conform to",
   "ID" : "_2024x_1_26f0132_1729184481488_984688_15862",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -5153,7 +5153,7 @@
     "Name" : "Glossary",
     "Multiplicity" : "1"
   } ],
-  "Name" : "GYcontainsTRM",
+  "Name" : "contains",
   "ID" : "_2024x_1_26f0132_1729193445510_304510_25731",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -5170,7 +5170,7 @@
     "Name" : "Standard",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "STDcontainsGY",
+  "Name" : "contains",
   "ID" : "_2024x_1_26f0132_1729193587037_719455_25763",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -5250,7 +5250,7 @@
     "Name" : "Standard",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "STDdependsOnSTD",
+  "Name" : "depends on",
   "ID" : "_2024x_1_26f0132_1730145934888_287548_16610",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",

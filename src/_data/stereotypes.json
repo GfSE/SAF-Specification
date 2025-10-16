@@ -113,7 +113,7 @@
 }, {
   "Name" : "SAF_ConformsStandard",
   "ID" : "_2024x_1_26f0132_1729185092432_155560_16027",
-  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2024x_1_26f0132_1729184481488_984688_15862'>ASFconformToSTD</A></html>"
+  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2024x_1_26f0132_1729184481488_984688_15862'>conform to</A></html>"
 }, {
   "Name" : "SAF_Consequence",
   "ID" : "_2024x_4c5019a_1726421761881_744492_308",
@@ -369,7 +369,7 @@
 }, {
   "Name" : "SAF_IssuedBy",
   "ID" : "_2024x_1_26f0132_1729185567557_816733_16281",
-  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2021x_2_8710274_1700810378676_882309_48192'>STDissuedBySTO</A></html>"
+  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2021x_2_8710274_1700810378676_882309_48192'>issued by</A></html>"
 }, {
   "Name" : "SAF_L2_LSTD",
   "ID" : "_19_0_4_26f0132_1625209562736_284155_381",
@@ -613,7 +613,7 @@
 }, {
   "Name" : "SAF_P8_PLOM_Matrix",
   "ID" : "_2021x_2_6d8019d_1677947386605_221993_24617",
-  "Documentation" : "<html>Implementation of <A HREF='https://saf.gfse.org/userdoc/Physical Domain/Physical Logical Mapping Viewpoint'>Physical Logical Mapping Viewpoint</A><BR>Purpose:<BR>The Physical Logical Mapping Viewpoint  supports the definition of the realization of conceptual logical system elements by physical system elements comprising the SOI.\n\nFollowing the identification of physical system elements capable of performing the system functions of logical elements, the Physical Logical Mapping Viewpoint provides feedback to the System Architecture Definition process to consolidate or confirm the allocation, partitioning, and alignment of logical elements to physical elements that comprise the SOI.<BR>Presentation:<BR>A assignment matrix featuring\n* Logical Element Breakdown Structure showing Logical Element Roles and Logical Elements\n* Physical Element Breakdown Structure showing physical element roles and physical elements\n* Allocation relationship from logical system element roles to physical system element roles</html>"
+  "Documentation" : "<html>Implementation of <A HREF='https://saf.gfse.org/userdoc/Physical Domain/Physical Logical Mapping Viewpoint'>Physical Logical Mapping Viewpoint</A><BR>Purpose:<BR>The Physical Logical Mapping Viewpoint  supports the definition of the realization of conceptual logical system elements by physical system elements comprising the SOI.\n\nFollowing the identification of physical system elements capable of performing the system functions of logical elements, the Physical Logical Mapping Viewpoint provides feedback to the System Architecture Definition process to consolidate or confirm the allocation, partitioning, and alignment of logical elements to physical elements that comprise the SOI.<BR>Presentation:<BR>A assignment matrix featuring\n* Logical Element Breakdown Structure showing Logical Element Roles and Logical Elements\n* Physical Element Breakdown Structure showing physical element roles and physical elements\n* Realization relationship from physical system element roles to logical system element roles</html>"
 }, {
   "Name" : "SAF_PhysicalContext",
   "ID" : "_19_0_2_164f041e_1564558860534_409677_52063",
@@ -761,7 +761,7 @@
 }, {
   "Name" : "SAF_StandardCategoryAssignment",
   "ID" : "_2021x_2_8710274_1701360709869_194778_91148",
-  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2021x_2_8710274_1700814367039_336586_50268'>SDTcategorizedCOF</A></html>"
+  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2021x_2_8710274_1700814367039_336586_50268'>categorized</A></html>"
 }, {
   "Name" : "SAF_StandardChapter",
   "ID" : "_2024x_1_26f0132_1730537023123_451623_16921",
@@ -769,11 +769,11 @@
 }, {
   "Name" : "SAF_StandardDependingOn",
   "ID" : "_2024x_1_26f0132_1730146316549_832482_16733",
-  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2024x_1_26f0132_1730145934888_287548_16610'>STDdependsOnSTD</A></html>"
+  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2024x_1_26f0132_1730145934888_287548_16610'>depends on</A></html>"
 }, {
   "Name" : "SAF_StandardSuperseding",
   "ID" : "_2021x_2_8710274_1700817699465_496750_50736",
-  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2021x_2_8710274_1700817559642_660412_50682'>SDTsupersedingSDT</A></html>"
+  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2021x_2_8710274_1700817559642_660412_50682'>superseding</A></html>"
 }, {
   "Name" : "SAF_StandardizationOrganization",
   "ID" : "_2021x_2_8710274_1700812596870_49325_49849",
