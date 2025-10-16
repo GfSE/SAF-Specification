@@ -613,7 +613,7 @@
 }, {
   "Name" : "SAF_P8_PLOM_Matrix",
   "ID" : "_2021x_2_6d8019d_1677947386605_221993_24617",
-  "Documentation" : "<html>Implementation of <A HREF='https://saf.gfse.org/userdoc/Physical Domain/Physical Logical Mapping Viewpoint'>Physical Logical Mapping Viewpoint</A><BR>Purpose:<BR>The Physical Logical Mapping Viewpoint  supports the definition of the assignment of conceptual logical system elements to physical system elements comprising the SOI.\n\nFollowing the identification of physical system elements capable of performing the system functions of logical elements, the Physical Logical Mapping Viewpoint provides feedback to the System Architecture Definition process to consolidate or confirm the allocation, partitioning, and alignment of logical elements to physical elements that comprise the SOI.<BR>Presentation:<BR>A assignment matrix featuring\n* Logical Element Breakdown Structure showing Logical Element Roles and Logical Elements\n* Physical Element Breakdown Structure showing physical element roles and physical elements\n* Allocation relationship from logical system element roles to physical system element roles</html>"
+  "Documentation" : "<html>Implementation of <A HREF='https://saf.gfse.org/userdoc/Physical Domain/Physical Logical Mapping Viewpoint'>Physical Logical Mapping Viewpoint</A><BR>Purpose:<BR>The Physical Logical Mapping Viewpoint  supports the definition of the realization of conceptual logical system elements by physical system elements comprising the SOI.\n\nFollowing the identification of physical system elements capable of performing the system functions of logical elements, the Physical Logical Mapping Viewpoint provides feedback to the System Architecture Definition process to consolidate or confirm the allocation, partitioning, and alignment of logical elements to physical elements that comprise the SOI.<BR>Presentation:<BR>A assignment matrix featuring\n* Logical Element Breakdown Structure showing Logical Element Roles and Logical Elements\n* Physical Element Breakdown Structure showing physical element roles and physical elements\n* Allocation relationship from logical system element roles to physical system element roles</html>"
 }, {
   "Name" : "SAF_PhysicalContext",
   "ID" : "_19_0_2_164f041e_1564558860534_409677_52063",
@@ -654,6 +654,10 @@
   "Name" : "SAF_PhysicalItem",
   "ID" : "_19_0_1_26f0132_1547201836188_227821_42212",
   "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "SAF_PhysicalRealization",
+  "ID" : "_2024x_3_ea40342_1760102235622_120598_2",
+  "Documentation" : "<html>Implementation of SAF Concepts\n <ul><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_2021x_2_8710274_1697730753339_508227_29549'>specifying</A></LI><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_26f0132_1562303523801_894791_90759'>realizing</A></LI></ul></html>"
 }, {
   "Name" : "SAF_PhysicalResource",
   "ID" : "_2024x_4c5019a_1724838520834_148039_1465",

@@ -138,4 +138,8 @@
   "Body" : "2025-10-10",
   "ID" : "_2024x_3_26f0132_1760091804521_880457_8",
   "Documentation" : "<html>\n  <head>\n\t\t<style>\n\t\t\tp {padding:0px; margin:0px;}\n\t\t</style>\n\t</head>\n  <body>\n    <ul>\n      <li>\nRename P2_PETD Physical Exchange Type Viewpoint to P2_PETD Physical Exchange Type Definition Viewpoint and set status to released\n\n      </li>\n      <li>\nSet status of <strong http-equiv=\"content-type\" content=\"text/html; charset=utf-8\">C8_EATR</strong> EA Traceability Viewpoint to released\n\n      </li>\n    </ul>\n</body>\n</html>"
+}, {
+  "Body" : "2025-10-12",
+  "ID" : "_2024x_3_26f0132_1760292784581_14425_34",
+  "Documentation" : "<html>\n  <head>\n\t\t<style>\n\t\t\tp {padding:0px; margin:0px;}\n\t\t</style>\n\t</head>\n  <body>\nReplace Allocate for mappings between Physical Domain items and conceptual items from the Logical /Functional domain by SAF_PhysicalRealization pointing from the physical element to the conceptual element  (Implementation of issue <a href=\"https://github.com/GfSE/SAF-Specification/issues/127\">#127)</a></body>\n</html>"
 } ]

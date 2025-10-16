@@ -252,10 +252,10 @@
     "Name" : "Logical Element Role"
   }, {
     "ID" : "_2021x_2_8710274_1675988365178_267674_34276",
-    "Name" : "LETspecifyingAPE"
+    "Name" : "specifying"
   }, {
     "ID" : "_2021x_2_8710274_1697730753339_508227_29549",
-    "Name" : "LERspecifyingGPR"
+    "Name" : "specifying"
   }, {
     "ID" : "_2021x_2_8710274_1698665374453_611572_34394",
     "Name" : "System"
@@ -853,7 +853,7 @@
     "Name" : "LETimplementingGFN"
   }, {
     "ID" : "_2021x_2_8710274_1675988365178_267674_34276",
-    "Name" : "LETspecifyingAPE"
+    "Name" : "specifying"
   } ]
 }, {
   "ID" : "_19_0_2_6d8019d_1578394565730_677039_58929",
@@ -2687,6 +2687,82 @@
   }, {
     "ID" : "_2024x_8710274_1716826749795_177784_16590",
     "Name" : "System Partial Function in System Function"
+  } ]
+}, {
+  "ID" : "_2024x_3_ea40342_1760280983343_954755_218",
+  "Documentation" : "",
+  "Name" : "Concept_Sec_Context",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_1_26f0132_1554446894573_10154_45796",
+    "Name" : "System Of Interest"
+  }, {
+    "ID" : "_19_0_2_26f0132_1572501793596_705409_54004",
+    "Name" : "General Context"
+  }, {
+    "ID" : "_19_0_2_26f0132_1572502319806_138665_54158",
+    "Name" : "General Context Element"
+  }, {
+    "ID" : "_19_0_2_26f0132_1572502545313_424887_54186",
+    "Name" : "General Context Element Role"
+  }, {
+    "ID" : "_2024x_3_ea40342_1760282680996_480246_483",
+    "Name" : ""
+  }, {
+    "ID" : "_2024x_3_ea40342_1760283322595_18363_691",
+    "Name" : "Security Context Element Role"
+  }, {
+    "ID" : "_2024x_4c5019a_1724674758529_936816_356",
+    "Name" : "Security Context"
+  }, {
+    "ID" : "_2024x_4c5019a_1724750542260_2346_1453",
+    "Name" : "Asset"
+  }, {
+    "ID" : "_2024x_4c5019a_1724753316265_833673_1841",
+    "Name" : "Adversary"
+  }, {
+    "ID" : "_2024x_4c5019a_1724754064310_650307_1929",
+    "Name" : "Assumption"
+  }, {
+    "ID" : "_2024x_ea40342_1724668235875_444109_102",
+    "Name" : "Security Context Element"
+  } ]
+}, {
+  "ID" : "_2024x_3_ea40342_1760280983343_954755_218",
+  "Documentation" : "",
+  "Name" : "Concept_Sec_Context",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_1_26f0132_1554446894573_10154_45796",
+    "Name" : "System Of Interest"
+  }, {
+    "ID" : "_19_0_2_26f0132_1572501793596_705409_54004",
+    "Name" : "General Context"
+  }, {
+    "ID" : "_19_0_2_26f0132_1572502319806_138665_54158",
+    "Name" : "General Context Element"
+  }, {
+    "ID" : "_19_0_2_26f0132_1572502545313_424887_54186",
+    "Name" : "General Context Element Role"
+  }, {
+    "ID" : "_2024x_3_ea40342_1760282680996_480246_483",
+    "Name" : ""
+  }, {
+    "ID" : "_2024x_3_ea40342_1760283322595_18363_691",
+    "Name" : "Security Context Element Role"
+  }, {
+    "ID" : "_2024x_4c5019a_1724674758529_936816_356",
+    "Name" : "Security Context"
+  }, {
+    "ID" : "_2024x_4c5019a_1724750542260_2346_1453",
+    "Name" : "Asset"
+  }, {
+    "ID" : "_2024x_4c5019a_1724753316265_833673_1841",
+    "Name" : "Adversary"
+  }, {
+    "ID" : "_2024x_4c5019a_1724754064310_650307_1929",
+    "Name" : "Assumption"
+  }, {
+    "ID" : "_2024x_ea40342_1724668235875_444109_102",
+    "Name" : "Security Context Element"
   } ]
 }, {
   "ID" : "_2024x_4c5019a_1726420721786_510744_15",
