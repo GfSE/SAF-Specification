@@ -244,7 +244,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_2_164f041e_1564572616564_538444_54929",
-    "Name" : "OPSrefiningOSY"
+    "Name" : "refining"
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_3_8710274_1581684654332_634229_49093",
@@ -268,7 +268,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_3_8710274_1581673944718_281561_49734",
-    "Name" : "OPSenablingOCY"
+    "Name" : "enabling"
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_3_8710274_1581681312847_255155_56868",
@@ -364,7 +364,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_1_26f0132_1554447577832_897366_46461",
-    "Name" : "SUCincludingSUC"
+    "Name" : "including"
   },
   "RealizationOfConcept" : {
     "ID" : "_9_0_62a020a_1105704919620_597571_9304",
@@ -532,7 +532,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303523801_666926_90760",
-    "Name" : "SDKbeeingInSSE"
+    "Name" : "beeing in"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_2_26f0132_1751013834092_499328_3419",
@@ -772,7 +772,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_3_26f0132_1600501947277_784541_1508",
-    "Name" : "controlledAFTER"
+    "Name" : "controlled after"
   },
   "RealizationOfConcept" : {
     "ID" : "_9_0_62a020a_1105704893364_624946_8539",
@@ -784,7 +784,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_3_26f0132_1600784136485_599221_879",
-    "Name" : "Operational Process Exchange"
+    "Name" : "Operational Process Usage Exchange"
   },
   "RealizationOfConcept" : {
     "ID" : "_9_0_62a020a_1105704893403_369088_8547",
@@ -796,7 +796,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_3_26f0132_1583963874197_988038_23051",
-    "Name" : "OCNallowingOIE"
+    "Name" : "allowing"
   },
   "RealizationOfConcept" : {
     "ID" : "_2021x_2_8710274_1681827830138_917224_24184",
@@ -808,7 +808,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_3_8710274_1581675388411_771999_50581",
-    "Name" : "OPRperformingOPSU"
+    "Name" : "performing"
   },
   "RealizationOfConcept" : {
     "ID" : "_11_5EAPbeta_be00301_1147866646230_488749_1541",
@@ -1084,7 +1084,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_3_6d8019d_1609520174192_971623_551",
-    "Name" : "GFNcontrolledAFTER"
+    "Name" : "controlled after"
   },
   "RealizationOfConcept" : {
     "ID" : "_9_0_62a020a_1105704893364_624946_8539",
@@ -1096,7 +1096,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2021x_2_8710274_1675981331374_205908_29130",
-    "Name" : "System Function IN System Process"
+    "Name" : "System Function in System Process"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_8710274_1716829149831_366341_18205",
@@ -1240,7 +1240,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_4_26f0132_1631284129545_438782_4876",
-    "Name" : "SDKderivingFromODK"
+    "Name" : "deriving from"
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_4_26f0132_1631285127577_990399_5297",
@@ -1468,7 +1468,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_4_26f0132_1624612392905_372789_1074",
-    "Name" : "LCEperformingCFN"
+    "Name" : "performing"
   },
   "RealizationOfConcept" : {
     "ID" : "_11_5EAPbeta_be00301_1147866646230_488749_1541",
@@ -1480,7 +1480,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_4_26f0132_1624615117147_549388_2197",
-    "Name" : "LETperformingSFN"
+    "Name" : "performing"
   },
   "RealizationOfConcept" : {
     "ID" : "_11_5EAPbeta_be00301_1147866646230_488749_1541",
@@ -1540,7 +1540,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_4_6d8019d_1632170395135_344484_397",
-    "Name" : "SDKcomposedOF"
+    "Name" : "composed of"
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_4_6d8019d_1632170657124_127768_451",
@@ -1552,7 +1552,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_2_8710274_1567168660956_439379_56337",
-    "Name" : "GFEtoGFUEP"
+    "Name" : "going to"
   },
   "RealizationOfConcept" : {
     "ID" : "_9_0_62a020a_1105704887035_839239_8133",
@@ -1564,7 +1564,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_2_8710274_1567168628900_60412_56295",
-    "Name" : "GFEfromGFUEP"
+    "Name" : "coming from"
   },
   "RealizationOfConcept" : {
     "ID" : "_9_0_62a020a_1105704886374_19265_8125",
@@ -1576,7 +1576,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_4_6d8019d_1632227066479_408164_1197",
-    "Name" : "ODKcomposedOF"
+    "Name" : "composed of"
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_4_6d8019d_1632227659718_825878_1667",
@@ -2008,7 +2008,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_4_6d8019d_1654507324074_749318_302",
-    "Name" : "SPSenablingSCY"
+    "Name" : "enabling"
   },
   "RealizationOfConcept" : {
     "ID" : "_2021x_2_6d8019d_1691052942497_211885_24413",
@@ -2044,7 +2044,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_4_26f0132_1624610806163_247313_817",
-    "Name" : "SPSrefiningSUC"
+    "Name" : "refining"
   },
   "RealizationOfConcept" : {
     "ID" : "_2021x_2_6d8019d_1691063354251_379935_24633",
@@ -2092,7 +2092,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2021x_2_8710274_1675981347806_599070_29437",
-    "Name" : "Context Function IN System Process"
+    "Name" : "Context Function in System Process"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_8710274_1716829255386_751832_18291",
@@ -2164,7 +2164,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303523801_353773_90762",
-    "Name" : "SDKtypingLIPP"
+    "Name" : "typing"
   },
   "RealizationOfConcept" : {
     "ID" : "_2021x_2_8710274_1681817408348_216387_29249",
@@ -2212,7 +2212,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303523801_255857_90761",
-    "Name" : "SDKtypingLIE"
+    "Name" : "typing"
   },
   "RealizationOfConcept" : {
     "ID" : "_2021x_2_8710274_1681827927413_511049_24222",
@@ -2344,7 +2344,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_539421_91036",
-    "Name" : "PEKtypingPIE"
+    "Name" : "typing"
   },
   "RealizationOfConcept" : {
     "ID" : "_2021x_2_8710274_1697104711861_685153_72355",
@@ -2356,7 +2356,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_605407_91026",
-    "Name" : "PEKtypingPIPP"
+    "Name" : "typing"
   },
   "RealizationOfConcept" : {
     "ID" : "_2021x_2_8710274_1697104931657_586086_72562",
@@ -2512,11 +2512,11 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2021x_2_8710274_1697730753339_508227_29549",
-    "Name" : "LERspecifyingGPR"
+    "Name" : "specifying"
   },
   "RealizationOfConcept" : {
-    "ID" : "_11_5EAPbeta_be00301_1147866646230_488749_1541",
-    "Name" : "Allocate"
+    "ID" : "_2024x_3_ea40342_1760102235622_120598_2",
+    "Name" : "SAF_PhysicalRealization"
   }
 }, {
   "Name" : "",
@@ -2536,7 +2536,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2021x_2_8710274_1675988365178_267674_34276",
-    "Name" : "LETspecifyingAPE"
+    "Name" : "specifying"
   },
   "RealizationOfConcept" : {
     "ID" : "_2021x_2_8710274_1697733962746_416639_32555",
@@ -2572,7 +2572,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524161_752149_91000",
-    "Name" : "SDKtypingFPM"
+    "Name" : "typing"
   },
   "RealizationOfConcept" : {
     "ID" : "_2021x_2_8710274_1698416923256_28235_62703",
@@ -2584,11 +2584,11 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303523801_894791_90759",
-    "Name" : "PEKrealizingSDK"
+    "Name" : "realizing"
   },
   "RealizationOfConcept" : {
-    "ID" : "_11_5EAPbeta_be00301_1147866646230_488749_1541",
-    "Name" : "Allocate"
+    "ID" : "_2024x_3_ea40342_1760102235622_120598_2",
+    "Name" : "SAF_PhysicalRealization"
   }
 }, {
   "Name" : "",
@@ -2644,7 +2644,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2021x_2_8710274_1700812231614_683776_49715",
-    "Name" : "SDTincludingSDT"
+    "Name" : "including"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_1_26f0132_1729184994458_912940_16021",
@@ -2668,7 +2668,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2021x_2_8710274_1700817559642_660412_50682",
-    "Name" : "SDTsupersedingSDT"
+    "Name" : "superseding"
   },
   "RealizationOfConcept" : {
     "ID" : "_2021x_2_8710274_1700817699465_496750_50736",
@@ -2680,7 +2680,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2021x_2_8710274_1700814367039_336586_50268",
-    "Name" : "SDTcategorizedCOF"
+    "Name" : "categorized"
   },
   "RealizationOfConcept" : {
     "ID" : "_2021x_2_8710274_1701360709869_194778_91148",
@@ -2716,7 +2716,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2021x_2_8710274_1700810136506_485576_48133",
-    "Name" : "TRMdefinedBySDT"
+    "Name" : "defined by"
   },
   "RealizationOfConcept" : {
     "ID" : "_2021x_2_8710274_1701358178670_429073_90632",
@@ -2812,7 +2812,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2024x_1_26f0132_1729184481488_984688_15862",
-    "Name" : "ASFconformToSTD"
+    "Name" : "conform to"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_1_26f0132_1729185092432_155560_16027",
@@ -2824,7 +2824,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2021x_2_8710274_1700810378676_882309_48192",
-    "Name" : "STDissuedBySTO"
+    "Name" : "issued by"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_1_26f0132_1729185567557_816733_16281",
@@ -2848,7 +2848,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2024x_1_26f0132_1729193587037_719455_25763",
-    "Name" : "STDcontainsGY"
+    "Name" : "contains"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_1_26f0132_1729193858003_422786_25967",
@@ -2860,7 +2860,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2024x_1_26f0132_1729193445510_304510_25731",
-    "Name" : "GYcontainsTRM"
+    "Name" : "contains"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_1_26f0132_1729193785155_512673_25935",
@@ -2872,7 +2872,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2024x_1_26f0132_1730145934888_287548_16610",
-    "Name" : "STDdependsOnSTD"
+    "Name" : "depends on"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_1_26f0132_1730146316549_832482_16733",
@@ -3520,7 +3520,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_4_26f0132_1631283194173_385626_4558",
-    "Name" : "ODKtypifyingOPE"
+    "Name" : "characterising"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_26f0132_1718462363364_57669_30134",
@@ -3952,7 +3952,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303523801_666926_90760",
-    "Name" : "SDKbeeingInSSE"
+    "Name" : "beeing in"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_2_26f0132_1751013819561_40907_3405",
@@ -3976,7 +3976,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2024x_2_26f0132_1751005742169_326952_1493",
-    "Name" : "OPShasPreconditionOSE"
+    "Name" : "has precondition"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_2_26f0132_1751619584504_299052_126",
@@ -3988,7 +3988,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2024x_2_26f0132_1751005742257_825702_1594",
-    "Name" : "OPShasPostconditionOSE"
+    "Name" : "has postcondition"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_2_26f0132_1751619636169_655080_134",
@@ -4024,7 +4024,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2024x_2_26f0132_1751629307240_413099_934",
-    "Name" : "SPShasPostconditionSSE"
+    "Name" : "has postcondition"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_2_26f0132_1756459167394_785795_2170",
@@ -4036,11 +4036,119 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2024x_2_26f0132_1751629270785_299763_886",
-    "Name" : "SPShasPreconditionSSE"
+    "Name" : "has precondition"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_2_26f0132_1756459325683_955797_2184",
     "Name" : "PreConditionStates"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1757423832682_764388_1729",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_2_26f0132_1757420698363_571308_18",
+    "Name" : "EA Traceability Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_2_26f0132_1757423193639_473235_10",
+    "Name" : "SAF_C8_EATR_Matrix"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1757423846006_848534_1739",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_2_26f0132_1757420698363_571308_18",
+    "Name" : "EA Traceability Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_2_26f0132_1757423370722_685247_31",
+    "Name" : "SAF_C8_EATR_Table"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1757586922209_340790_499",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_2_26f0132_1757420698363_571308_18",
+    "Name" : "EA Traceability Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_2_26f0132_1757586882201_912675_456",
+    "Name" : "SAF_C8_EATR"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1757587010518_463409_595",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_2_26f0132_1757421734076_475755_1298",
+    "Name" : "derives from"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_2_26f0132_1757002702622_804051_15213",
+    "Name" : "SAF_DerivedFromEA"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1757587018311_271626_607",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_2_26f0132_1757421548498_984650_1244",
+    "Name" : "represents"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_2_26f0132_1757002641692_837788_15175",
+    "Name" : "SAF_RepresentsEA"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_2_26f0132_1757587022382_691626_617",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_2_26f0132_1757421856918_814040_1326",
+    "Name" : "informed by"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_2_26f0132_1757002770095_975274_15303",
+    "Name" : "SAF_InformedByEA"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_3_26f0132_1758636236380_777619_785",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_3_26f0132_1600783159281_769767_769",
+    "Name" : "characterising"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_3_26f0132_1758636201953_64556_778",
+    "Name" : ""
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_3_26f0132_1758915477455_956473_1566",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_3_26f0132_1758913515809_605410_39",
+    "Name" : "Physical Exchange Type Definition Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_3_26f0132_1758914138353_148539_1164",
+    "Name" : "SAF_P2_PETD_Table"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2024x_3_26f0132_1758916037007_974319_1955",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_3_26f0132_1758913515809_605410_39",
+    "Name" : "Physical Exchange Type Definition Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_3_26f0132_1758914098555_163483_1159",
+    "Name" : "SAF_P2_PETD"
   }
 }, {
   "Name" : "",

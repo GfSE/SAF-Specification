@@ -139,6 +139,65 @@ The Table shows the realization of exposed concepts.
 </ul>
 
 ## Example
-{% for ex in examples %}
-<img src="../../diagrams/examples_md/exa{{ ex.ID }}.svg" />
-{% endfor %}
+
+
+<div id="gallery-container">
+  <img id="gallery-image" 
+       src="../../diagrams/examples_md/exa{{ examples[0].ID }}.svg"
+       alt="{{ examples[0].Name }}"  />
+  {% if examples.size > 1 %}
+  <button id="prev-btn" onclick="prevImage()"><img src="../../assets/images/arrow-left.svg" alt="Previous" /></button>
+  <button id="next-btn" onclick="nextImage()"><img src="../../assets/images/arrow-right.svg" alt="Next" /></button>
+  {% endif %}
+</div>
+
+<script>
+  const images = [
+    {% for ex in examples %}
+      { "src": "../../diagrams/examples_md/exa{{ ex.ID }}.svg", "alt": "{{ ex.Name }}" },
+    {% endfor %}
+  ];
+
+  let currentIndex = 0;
+
+  function showImage(index) {
+    const img = document.getElementById("gallery-image");
+    img.src = images[index].src;
+    img.alt = images[index].alt;
+  }
+
+  function nextImage() {
+    currentIndex = (currentIndex + 1) % images.length;
+    showImage(currentIndex);
+  }
+
+  function prevImage() {
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
+    showImage(currentIndex);
+  }
+
+ 
+  let startX = 0;
+  let endX = 0;
+  const threshold = 50;
+
+  const gallery = document.getElementById("gallery-container");
+
+  gallery.addEventListener("touchstart", function (e) {
+    startX = e.touches[0].clientX;
+  }, { passive: true });
+
+  gallery.addEventListener("touchend", function (e) {
+    endX = e.changedTouches[0].clientX;
+    const diff = endX - startX;
+
+    if (Math.abs(diff) > threshold) {
+      if (diff < 0) {
+        nextImage();
+      } else {
+        prevImage(); 
+      }
+    }
+  }, { passive: true });
+
+</script>

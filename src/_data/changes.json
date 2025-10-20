@@ -122,4 +122,28 @@
   "Body" : "2025-07-04",
   "ID" : "_2024x_2_26f0132_1751630058680_385040_256",
   "Documentation" : "<html>\n  <head>\n\t\t<style>\n\t\t\tp {padding:0px; margin:0px;}\n\t\t</style>\n\t</head>\n  <body>\nChanges according to <a href=\"https://github.com/GfSE/SAF-Specification/discussions/118\">#118     \n</a><br>Add example for Operational State VP, setting the VP to proposed    \n<br>Add implementation for referencing SAF_OperationalState from SAF_OperationalProcess as pre and postcondition, as tagged values of the stereotype SAF_OperationalProcess    \n<br>Add implementation for referencing SAF_SystemState from SAF_SystemFunction as pre and postcondition, as tagged values of the stereotype SAF_OperationalProcess</body>\n</html>"
+}, {
+  "Body" : "2025-09-09",
+  "ID" : "_2024x_2_26f0132_1757426212217_845919_271",
+  "Documentation" : "Add Enterprise Architecture Traceability Viewpoint in status proposed. "
+}, {
+  "Body" : "2025-09-26",
+  "ID" : "_2024x_3_26f0132_1758868633505_546419_93",
+  "Documentation" : "<html>\n  <head>\n\t\t<style>\n\t\t\tp {padding:0px; margin:0px;}\n\t\t</style>\n\t</head>\n  <body>\n    <ul>\n      <li>\nApply relaxed naming convention for associations in conceptual model: pre and post fixing association names is no longer necessary, making them much more readable.\n\n      </li>\n      <li>\nChanged tracing of Operational Process usages solving issue <a href=\"https://github.com/GfSE/SAF-Specification/issues/111\">#111</a>\n\n      </li>\n      <li>\nAdd proposed Viewpoint &#160;for definition of Physical Types, <a href=\"https://github.com/GfSE/SAF-Specification/issues/124\">issue #124</a>\n\n      </li>\n    </ul>\n    <p>\n&#160;\n\n    </p>\n\n</body>\n</html>"
+}, {
+  "Body" : "2025-10-09",
+  "ID" : "_2024x_3_26f0132_1759990842893_948202_8",
+  "Documentation" : "<html>\n  <head>\n\t\t<style>\n\t\t\tp {padding:0px; margin:0px;}\n\t\t</style>\n\t</head>\n  <body>\n    <ul>\n      <li>\nAdd Table of proposed NAF &amp; ADMBw mappings to EA Traceability Viewpoint\n\n      </li>\n      <li>\nProvide gallery mode also for example diagrams in development section of documentation.\n\n      </li>\n    </ul>\n</body>\n</html>"
+}, {
+  "Body" : "2025-10-10",
+  "ID" : "_2024x_3_26f0132_1760091804521_880457_8",
+  "Documentation" : "<html>\n  <head>\n\t\t<style>\n\t\t\tp {padding:0px; margin:0px;}\n\t\t</style>\n\t</head>\n  <body>\n    <ul>\n      <li>\nRename P2_PETD Physical Exchange Type Viewpoint to P2_PETD Physical Exchange Type Definition Viewpoint and set status to released\n\n      </li>\n      <li>\nSet status of <strong http-equiv=\"content-type\" content=\"text/html; charset=utf-8\">C8_EATR</strong> EA Traceability Viewpoint to released\n\n      </li>\n    </ul>\n</body>\n</html>"
+}, {
+  "Body" : "2025-10-12",
+  "ID" : "_2024x_3_26f0132_1760292784581_14425_34",
+  "Documentation" : "<html>\n  <head>\n\t\t<style>\n\t\t\tp {padding:0px; margin:0px;}\n\t\t</style>\n\t</head>\n  <body>\nReplace Allocate for mappings between Physical Domain items and conceptual items from the Logical /Functional domain by SAF_PhysicalRealization pointing from the physical element to the conceptual element  (Implementation of issue <a href=\"https://github.com/GfSE/SAF-Specification/issues/127\">#127)</a></body>\n</html>"
+}, {
+  "Body" : "2025-10-16",
+  "ID" : "_2024x_3_26f0132_1760616242658_273648_34",
+  "Documentation" : "<html>\n  <head>\n\t\t<style>\n\t\t\tp {padding:0px; margin:0px;}\n\t\t</style>\n\t</head>\n  <body>\n    <ul>\n      <li>\nSet the <strong>C2_CSTD</strong> Common Standards Definition Viewpoint to released\n\n      </li>\n      <li>\nSet the <strong>C2_TRMD</strong> Common Terms Definition Viewpoint to released\n\n      </li>\n    </ul>\n</body>\n</html>"
 } ]

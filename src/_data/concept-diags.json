@@ -164,7 +164,7 @@
     "Name" : "Operational Capability"
   }, {
     "ID" : "_19_0_3_8710274_1581667736629_896691_49612",
-    "Name" : "OPRcapableOFperformingOPS"
+    "Name" : " capable performing"
   }, {
     "ID" : "_2024x_2_26f0132_1749655623218_564595_162",
     "Name" : "OPRspecializesOPR"
@@ -252,10 +252,10 @@
     "Name" : "Logical Element Role"
   }, {
     "ID" : "_2021x_2_8710274_1675988365178_267674_34276",
-    "Name" : "LETspecifyingAPE"
+    "Name" : "specifying"
   }, {
     "ID" : "_2021x_2_8710274_1697730753339_508227_29549",
-    "Name" : "LERspecifyingGPR"
+    "Name" : "specifying"
   }, {
     "ID" : "_2021x_2_8710274_1698665374453_611572_34394",
     "Name" : "System"
@@ -269,19 +269,19 @@
     "Name" : "System Use Case"
   }, {
     "ID" : "_19_0_1_26f0132_1554447577832_897366_46461",
-    "Name" : "SUCincludingSUC"
+    "Name" : "including"
   }, {
     "ID" : "_19_0_2_26f0132_1562303521707_858780_89137",
-    "Name" : "SUCsynthesizingSFN"
+    "Name" : "uses"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_394471_91009",
     "Name" : "System Function"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_529250_91001",
-    "Name" : "GFUEPreceivingINPUT"
+    "Name" : "receiving input through"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_890620_91008",
-    "Name" : "GFUEPsendingOUTPUT"
+    "Name" : "sending output through"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_902110_90999",
     "Name" : "General Function Usage Exchange Point"
@@ -293,22 +293,22 @@
     "Name" : "General Functional Exchange"
   }, {
     "ID" : "_19_0_2_8710274_1567168596944_130308_56269",
-    "Name" : "GFEbeingPartOfGFNU"
+    "Name" : "appearing in"
   }, {
     "ID" : "_19_0_2_8710274_1567168628900_60412_56295",
-    "Name" : "GFEfromGFUEP"
+    "Name" : "coming from"
   }, {
     "ID" : "_19_0_2_8710274_1567168660956_439379_56337",
-    "Name" : "GFEtoGFUEP"
+    "Name" : "going to"
   }, {
     "ID" : "_19_0_3_6d8019d_1609520174192_971623_551",
-    "Name" : "GFNcontrolledAFTER"
+    "Name" : "controlled after"
   }, {
     "ID" : "_19_0_4_26f0132_1624610613457_313794_115",
     "Name" : "System Process"
   }, {
     "ID" : "_19_0_4_26f0132_1624610806163_247313_817",
-    "Name" : "SPSrefiningSUC"
+    "Name" : "refining"
   }, {
     "ID" : "_19_0_4_26f0132_1624611043495_845903_880",
     "Name" : "System Partial Function"
@@ -317,7 +317,7 @@
     "Name" : "Context Function"
   }, {
     "ID" : "_19_0_4_26f0132_1624613247278_510884_1867",
-    "Name" : "SUCsynthesizingCFN"
+    "Name" : "uses"
   }, {
     "ID" : "_19_0_4_26f0132_1624614161928_694281_1954",
     "Name" : "General Function"
@@ -326,25 +326,25 @@
     "Name" : "System Capability"
   }, {
     "ID" : "_19_0_4_6d8019d_1654507324074_749318_302",
-    "Name" : "SPSenablingSCY"
+    "Name" : "enabling"
   }, {
     "ID" : "_2021x_2_8710274_1675981331374_205908_29130",
-    "Name" : "System Function IN System Process"
+    "Name" : "System Function in System Process"
   }, {
     "ID" : "_2021x_2_8710274_1675981347806_599070_29437",
-    "Name" : "Context Function IN System Process"
+    "Name" : "Context Function in System Process"
   }, {
     "ID" : "_2024x_1_26f0132_1729283243560_884162_17589",
     "Name" : "General Function Exchange Point"
   }, {
     "ID" : "_2024x_1_26f0132_1729283433940_32128_17642",
-    "Name" : "GFNsendingOUTPUT"
+    "Name" : "sending output through"
   }, {
     "ID" : "_2024x_1_26f0132_1729284623707_916221_17673",
-    "Name" : "GFNreceivingINPUT"
+    "Name" : "receiving input through"
   }, {
     "ID" : "_2024x_1_26f0132_1729284796075_770296_17706",
-    "Name" : "GFEPrelatedToGFUEP"
+    "Name" : "related to"
   }, {
     "ID" : "_2024x_8710274_1716826749795_177784_16590",
     "Name" : "System Partial Function in System Function"
@@ -367,7 +367,7 @@
     "Name" : "System Domain Kind"
   }, {
     "ID" : "_19_0_2_26f0132_1562303523801_666926_90760",
-    "Name" : "SDKbeeingInSSE"
+    "Name" : "beeing in"
   }, {
     "ID" : "_19_0_2_26f0132_1562303523973_719860_90882",
     "Name" : "System State"
@@ -421,10 +421,10 @@
     "Name" : "triggering"
   }, {
     "ID" : "_2024x_2_26f0132_1751629270785_299763_886",
-    "Name" : "SPShasPreconditionSSE"
+    "Name" : "has precondition"
   }, {
     "ID" : "_2024x_2_26f0132_1751629307240_413099_934",
-    "Name" : "SPShasPostconditionSSE"
+    "Name" : "has postcondition"
   } ]
 }, {
   "ID" : "_19_0_2_26f0132_1562307188137_987571_141163",
@@ -435,22 +435,22 @@
     "Name" : "System Domain Kind"
   }, {
     "ID" : "_19_0_2_26f0132_1562303523801_255857_90761",
-    "Name" : "SDKtypingLIE"
+    "Name" : "typing"
   }, {
     "ID" : "_19_0_2_26f0132_1562303523801_353773_90762",
-    "Name" : "SDKtypingLIPP"
+    "Name" : "typing"
   }, {
     "ID" : "_19_0_2_26f0132_1562303523801_666926_90760",
-    "Name" : "SDKbeeingInSSE"
+    "Name" : "beeing in"
   }, {
     "ID" : "_19_0_2_26f0132_1562303523801_894791_90759",
-    "Name" : "PEKrealizingSDK"
+    "Name" : "realizing"
   }, {
     "ID" : "_19_0_2_26f0132_1562303523973_719860_90882",
     "Name" : "System State"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_752149_91000",
-    "Name" : "SDKtypingFPM"
+    "Name" : "typing"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_902110_90999",
     "Name" : "General Function Usage Exchange Point"
@@ -468,7 +468,7 @@
     "Name" : "Operational Domain Kind"
   }, {
     "ID" : "_19_0_4_26f0132_1631284129545_438782_4876",
-    "Name" : "SDKderivingFromODK"
+    "Name" : "deriving from"
   } ]
 }, {
   "ID" : "_19_0_2_26f0132_1562312605244_52130_147227",
@@ -503,10 +503,10 @@
     "Name" : "Physical Exchange Kind"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_539421_91036",
-    "Name" : "PEKtypingPIE"
+    "Name" : "typing"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_605407_91026",
-    "Name" : "PEKtypingPIPP"
+    "Name" : "typing"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_610387_91043",
     "Name" : "Physical Connection"
@@ -580,10 +580,10 @@
     "Name" : "LCNallowingLIE"
   }, {
     "ID" : "_19_0_2_26f0132_1562303523801_255857_90761",
-    "Name" : "SDKtypingLIE"
+    "Name" : "typing"
   }, {
     "ID" : "_19_0_2_26f0132_1562303523801_353773_90762",
-    "Name" : "SDKtypingLIPP"
+    "Name" : "typing"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_125039_91041",
     "Name" : "LIPapplyingToLET"
@@ -853,7 +853,7 @@
     "Name" : "LETimplementingGFN"
   }, {
     "ID" : "_2021x_2_8710274_1675988365178_267674_34276",
-    "Name" : "LETspecifyingAPE"
+    "Name" : "specifying"
   } ]
 }, {
   "ID" : "_19_0_2_6d8019d_1578394565730_677039_58929",
@@ -864,7 +864,7 @@
     "Name" : "System Use Case"
   }, {
     "ID" : "_19_0_1_26f0132_1554447577832_897366_46461",
-    "Name" : "SUCincludingSUC"
+    "Name" : "including"
   }, {
     "ID" : "_19_0_2_164f041e_1564383963900_307503_51643",
     "Name" : "Functional Requirement"
@@ -885,7 +885,7 @@
     "Name" : "Operational Process"
   }, {
     "ID" : "_19_0_2_164f041e_1564572616564_538444_54929",
-    "Name" : "OPSrefiningOSY"
+    "Name" : "refining"
   }, {
     "ID" : "_19_0_2_164f041e_1564572632681_128528_54942",
     "Name" : "SPSenablingOPS"
@@ -894,7 +894,7 @@
     "Name" : "Operational Story"
   }, {
     "ID" : "_19_0_2_26f0132_1562303521707_858780_89137",
-    "Name" : "SUCsynthesizingSFN"
+    "Name" : "uses"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_394471_91009",
     "Name" : "System Function"
@@ -921,13 +921,13 @@
     "Name" : "SRrefiningLICP"
   }, {
     "ID" : "_19_0_3_26f0132_1600501947277_784541_1508",
-    "Name" : "controlledAFTER"
+    "Name" : "controlled after"
   }, {
     "ID" : "_19_0_4_26f0132_1624610613457_313794_115",
     "Name" : "System Process"
   }, {
     "ID" : "_19_0_4_26f0132_1624610806163_247313_817",
-    "Name" : "SPSrefiningSUC"
+    "Name" : "refining"
   }, {
     "ID" : "_19_0_4_ebf0350_1640955667334_871926_455",
     "Name" : "SFNboundedByNFR"
@@ -936,7 +936,7 @@
     "Name" : "SUCrefiningSHR"
   }, {
     "ID" : "_2021x_2_8710274_1675981331374_205908_29130",
-    "Name" : "System Function IN System Process"
+    "Name" : "System Function in System Process"
   } ]
 }, {
   "ID" : "_19_0_2_ebf0350_1578263528322_79798_55227",
@@ -950,7 +950,7 @@
     "Name" : "System Use Case"
   }, {
     "ID" : "_19_0_1_26f0132_1554447577832_897366_46461",
-    "Name" : "SUCincludingSUC"
+    "Name" : "including"
   }, {
     "ID" : "_19_0_2_164f041e_1564571019748_834303_54723",
     "Name" : "SUCenablingOSY"
@@ -1098,10 +1098,10 @@
     "Name" : "OCYsupportingOSY"
   }, {
     "ID" : "_19_0_3_26f0132_1600501947277_784541_1508",
-    "Name" : "controlledAFTER"
+    "Name" : "controlled after"
   }, {
     "ID" : "_19_0_3_26f0132_1600784136485_599221_879",
-    "Name" : "Operational Process Exchange"
+    "Name" : "Operational Process Usage Exchange"
   }, {
     "ID" : "_19_0_3_6d8019d_1598981150221_83799_30",
     "Name" : "OPRcomposedOF"
@@ -1122,16 +1122,16 @@
     "Name" : "OCYdependingON"
   }, {
     "ID" : "_19_0_3_8710274_1581667736629_896691_49612",
-    "Name" : "OPRcapableOFperformingOPS"
+    "Name" : " capable performing"
   }, {
     "ID" : "_19_0_3_8710274_1581673944718_281561_49734",
-    "Name" : "OPSenablingOCY"
+    "Name" : "enabling"
   }, {
     "ID" : "_19_0_3_8710274_1581674683825_886069_50270",
     "Name" : "Operational Process Usage"
   }, {
     "ID" : "_19_0_3_8710274_1581675388411_771999_50581",
-    "Name" : "OPRperformingOPSU"
+    "Name" : "performing"
   } ]
 }, {
   "ID" : "_19_0_3_6d8019d_1608887779426_398261_327",
@@ -1142,7 +1142,7 @@
     "Name" : "System Use Case"
   }, {
     "ID" : "_19_0_1_26f0132_1554447577832_897366_46461",
-    "Name" : "SUCincludingSUC"
+    "Name" : "including"
   }, {
     "ID" : "_19_0_2_164f041e_1564571019748_834303_54723",
     "Name" : "SUCenablingOSY"
@@ -1151,7 +1151,7 @@
     "Name" : "Operational Story"
   }, {
     "ID" : "_19_0_2_26f0132_1562303521707_858780_89137",
-    "Name" : "SUCsynthesizingSFN"
+    "Name" : "uses"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_394471_91009",
     "Name" : "System Function"
@@ -1175,7 +1175,7 @@
     "Name" : "System Process"
   }, {
     "ID" : "_19_0_4_26f0132_1624610806163_247313_817",
-    "Name" : "SPSrefiningSUC"
+    "Name" : "refining"
   }, {
     "ID" : "_19_0_4_6d8019d_1617463709646_290604_336",
     "Name" : "System Capability"
@@ -1199,7 +1199,7 @@
     "Name" : "SFNsupportingSCY"
   }, {
     "ID" : "_19_0_4_6d8019d_1654507324074_749318_302",
-    "Name" : "SPSenablingSCY"
+    "Name" : "enabling"
   }, {
     "ID" : "_19_0_4_ebf0350_1640956074635_630812_483",
     "Name" : "SUCrefiningSHR"
@@ -1211,7 +1211,7 @@
     "Name" : "SCYsatisfyingSHR"
   }, {
     "ID" : "_2021x_2_8710274_1675981331374_205908_29130",
-    "Name" : "System Function IN System Process"
+    "Name" : "System Function in System Process"
   } ]
 }, {
   "ID" : "_19_0_3_6d8019d_1611088881975_654543_7",
@@ -1227,7 +1227,7 @@
     "Name" : "Operational Process"
   }, {
     "ID" : "_19_0_2_164f041e_1564572616564_538444_54929",
-    "Name" : "OPSrefiningOSY"
+    "Name" : "refining"
   }, {
     "ID" : "_19_0_2_26f0132_1561750989144_963009_48675",
     "Name" : "Operational Story"
@@ -1260,10 +1260,10 @@
     "Name" : "OCYdependingON"
   }, {
     "ID" : "_19_0_3_8710274_1581667736629_896691_49612",
-    "Name" : "OPRcapableOFperformingOPS"
+    "Name" : " capable performing"
   }, {
     "ID" : "_19_0_3_8710274_1581673944718_281561_49734",
-    "Name" : "OPSenablingOCY"
+    "Name" : "enabling"
   } ]
 }, {
   "ID" : "_19_0_3_8710274_1583764858043_48179_57333",
@@ -1289,13 +1289,13 @@
     "Name" : "Operational Item Exchange"
   }, {
     "ID" : "_19_0_3_26f0132_1583963874197_988038_23051",
-    "Name" : "OCNallowingOIE"
+    "Name" : "allowing"
   }, {
     "ID" : "_19_0_3_26f0132_1600783068816_502199_735",
     "Name" : "Operational Domain Kind"
   }, {
     "ID" : "_19_0_3_26f0132_1600783159281_769767_769",
-    "Name" : "ODKtypifyingOIE"
+    "Name" : "characterising"
   }, {
     "ID" : "_2021x_2_8710274_1701723853139_501062_17868",
     "Name" : "LIEimplementsOIE"
@@ -1330,7 +1330,7 @@
     "Name" : "LETbeeingInSSE"
   }, {
     "ID" : "_19_0_3_6d8019d_1609520174192_971623_551",
-    "Name" : "GFNcontrolledAFTER"
+    "Name" : "controlled after"
   }, {
     "ID" : "_19_0_4_26f0132_1624614161928_694281_1954",
     "Name" : "General Function"
@@ -1350,7 +1350,7 @@
     "Name" : "System Use Case"
   }, {
     "ID" : "_19_0_1_26f0132_1554447577832_897366_46461",
-    "Name" : "SUCincludingSUC"
+    "Name" : "including"
   }, {
     "ID" : "_19_0_2_164f041e_1564383963900_307503_51643",
     "Name" : "Functional Requirement"
@@ -1377,7 +1377,7 @@
     "Name" : "Logical Context SOI"
   }, {
     "ID" : "_19_0_2_26f0132_1562303521707_858780_89137",
-    "Name" : "SUCsynthesizingSFN"
+    "Name" : "uses"
   }, {
     "ID" : "_19_0_2_26f0132_1562303523973_719860_90882",
     "Name" : "System State"
@@ -1386,10 +1386,10 @@
     "Name" : "System Function"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_529250_91001",
-    "Name" : "GFUEPreceivingINPUT"
+    "Name" : "receiving input through"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_890620_91008",
-    "Name" : "GFUEPsendingOUTPUT"
+    "Name" : "sending output through"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_902110_90999",
     "Name" : "General Function Usage Exchange Point"
@@ -1431,13 +1431,13 @@
     "Name" : "General Functional Exchange"
   }, {
     "ID" : "_19_0_2_8710274_1567168596944_130308_56269",
-    "Name" : "GFEbeingPartOfGFNU"
+    "Name" : "appearing in"
   }, {
     "ID" : "_19_0_2_8710274_1567168628900_60412_56295",
-    "Name" : "GFEfromGFUEP"
+    "Name" : "coming from"
   }, {
     "ID" : "_19_0_2_8710274_1567168660956_439379_56337",
-    "Name" : "GFEtoGFUEP"
+    "Name" : "going to"
   }, {
     "ID" : "_19_0_2_8710274_1567171243005_813677_60746",
     "Name" : "Logical Context Element Role"
@@ -1449,25 +1449,25 @@
     "Name" : "SFNhasPostconditionSSE"
   }, {
     "ID" : "_19_0_3_6d8019d_1609520174192_971623_551",
-    "Name" : "GFNcontrolledAFTER"
+    "Name" : "controlled after"
   }, {
     "ID" : "_19_0_4_26f0132_1624610613457_313794_115",
     "Name" : "System Process"
   }, {
     "ID" : "_19_0_4_26f0132_1624610806163_247313_817",
-    "Name" : "SPSrefiningSUC"
+    "Name" : "refining"
   }, {
     "ID" : "_19_0_4_26f0132_1624611972707_746294_1003",
     "Name" : "Context Function"
   }, {
     "ID" : "_19_0_4_26f0132_1624612392905_372789_1074",
-    "Name" : "LCEperformingCFN"
+    "Name" : "performing"
   }, {
     "ID" : "_19_0_4_26f0132_1624614161928_694281_1954",
     "Name" : "General Function"
   }, {
     "ID" : "_19_0_4_26f0132_1624615117147_549388_2197",
-    "Name" : "LETperformingSFN"
+    "Name" : "performing"
   }, {
     "ID" : "_19_0_4_26f0132_1639735748424_245279_316",
     "Name" : "SUChasPostConditionSSE"
@@ -1479,10 +1479,10 @@
     "Name" : "SUCtakingPlaceInLSC"
   }, {
     "ID" : "_2021x_2_8710274_1675981331374_205908_29130",
-    "Name" : "System Function IN System Process"
+    "Name" : "System Function in System Process"
   }, {
     "ID" : "_2021x_2_8710274_1675981347806_599070_29437",
-    "Name" : "Context Function IN System Process"
+    "Name" : "Context Function in System Process"
   } ]
 }, {
   "ID" : "_19_0_4_6d8019d_1627138960892_222015_2705",
@@ -1516,7 +1516,7 @@
     "Name" : "Operational Process"
   }, {
     "ID" : "_19_0_2_164f041e_1564572616564_538444_54929",
-    "Name" : "OPSrefiningOSY"
+    "Name" : "refining"
   }, {
     "ID" : "_19_0_2_26f0132_1561750989144_963009_48675",
     "Name" : "Operational Story"
@@ -1525,37 +1525,37 @@
     "Name" : "Operational Performer"
   }, {
     "ID" : "_19_0_3_26f0132_1600501947277_784541_1508",
-    "Name" : "controlledAFTER"
+    "Name" : "controlled after"
   }, {
     "ID" : "_19_0_3_26f0132_1600783068816_502199_735",
     "Name" : "Operational Domain Kind"
   }, {
     "ID" : "_19_0_3_26f0132_1600784136485_599221_879",
-    "Name" : "Operational Process Exchange"
+    "Name" : "Operational Process Usage Exchange"
   }, {
     "ID" : "_19_0_3_8710274_1581665911562_310714_48925",
     "Name" : "Operational Capability"
   }, {
     "ID" : "_19_0_3_8710274_1581667736629_896691_49612",
-    "Name" : "OPRcapableOFperformingOPS"
+    "Name" : " capable performing"
   }, {
     "ID" : "_19_0_3_8710274_1581673944718_281561_49734",
-    "Name" : "OPSenablingOCY"
+    "Name" : "enabling"
   }, {
     "ID" : "_19_0_3_8710274_1581674683825_886069_50270",
     "Name" : "Operational Process Usage"
   }, {
     "ID" : "_19_0_4_26f0132_1631283194173_385626_4558",
-    "Name" : "ODKtypifyingOPE"
+    "Name" : "characterising"
   }, {
     "ID" : "_2024x_2_26f0132_1751005742166_577072_1491",
     "Name" : "Operational State"
   }, {
     "ID" : "_2024x_2_26f0132_1751005742169_326952_1493",
-    "Name" : "OPShasPreconditionOSE"
+    "Name" : "has precondition"
   }, {
     "ID" : "_2024x_2_26f0132_1751005742257_825702_1594",
-    "Name" : "OPShasPostconditionOSE"
+    "Name" : "has postcondition"
   } ]
 }, {
   "ID" : "_19_0_4_6d8019d_1654515739900_178967_136",
@@ -1575,22 +1575,25 @@
     "Name" : "Operational Domain Kind"
   }, {
     "ID" : "_19_0_3_26f0132_1600783159281_769767_769",
-    "Name" : "ODKtypifyingOIE"
+    "Name" : "characterising"
   }, {
     "ID" : "_19_0_3_26f0132_1600784136485_599221_879",
-    "Name" : "Operational Process Exchange"
+    "Name" : "Operational Process Usage Exchange"
+  }, {
+    "ID" : "_19_0_3_8710274_1581674683825_886069_50270",
+    "Name" : "Operational Process Usage"
   }, {
     "ID" : "_19_0_4_26f0132_1631283194173_385626_4558",
-    "Name" : "ODKtypifyingOPE"
+    "Name" : "characterising"
   }, {
     "ID" : "_19_0_4_26f0132_1631284129545_438782_4876",
-    "Name" : "SDKderivingFromODK"
+    "Name" : "deriving from"
   }, {
     "ID" : "_19_0_4_6d8019d_1632170395135_344484_397",
-    "Name" : "SDKcomposedOF"
+    "Name" : "composed of"
   }, {
     "ID" : "_19_0_4_6d8019d_1632227066479_408164_1197",
-    "Name" : "ODKcomposedOF"
+    "Name" : "composed of"
   } ]
 }, {
   "ID" : "_2021x_2_6d8019d_1674232168056_447500_23376",
@@ -1657,10 +1660,10 @@
   "Name" : "SAF_functional_concept_Definition",
   "DiagConcepts" : [ {
     "ID" : "_19_0_2_26f0132_1562303524161_529250_91001",
-    "Name" : "GFUEPreceivingINPUT"
+    "Name" : "receiving input through"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_890620_91008",
-    "Name" : "GFUEPsendingOUTPUT"
+    "Name" : "sending output through"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_902110_90999",
     "Name" : "General Function Usage Exchange Point"
@@ -1672,16 +1675,16 @@
     "Name" : "General Functional Exchange"
   }, {
     "ID" : "_19_0_2_8710274_1567168596944_130308_56269",
-    "Name" : "GFEbeingPartOfGFNU"
+    "Name" : "appearing in"
   }, {
     "ID" : "_19_0_2_8710274_1567168628900_60412_56295",
-    "Name" : "GFEfromGFUEP"
+    "Name" : "coming from"
   }, {
     "ID" : "_19_0_2_8710274_1567168660956_439379_56337",
-    "Name" : "GFEtoGFUEP"
+    "Name" : "going to"
   }, {
     "ID" : "_19_0_3_6d8019d_1609520174192_971623_551",
-    "Name" : "GFNcontrolledAFTER"
+    "Name" : "controlled after"
   }, {
     "ID" : "_19_0_4_26f0132_1624614161928_694281_1954",
     "Name" : "General Function"
@@ -1740,10 +1743,10 @@
     "Name" : "LCNallowingLIE"
   }, {
     "ID" : "_19_0_2_26f0132_1562303523801_255857_90761",
-    "Name" : "SDKtypingLIE"
+    "Name" : "typing"
   }, {
     "ID" : "_19_0_2_26f0132_1562303523801_353773_90762",
-    "Name" : "SDKtypingLIPP"
+    "Name" : "typing"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_394471_91009",
     "Name" : "System Function"
@@ -1773,13 +1776,13 @@
     "Name" : "Physical Exchange Kind"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_539421_91036",
-    "Name" : "PEKtypingPIE"
+    "Name" : "typing"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_546931_91032",
     "Name" : "Logical Interaction Point"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_605407_91026",
-    "Name" : "PEKtypingPIPP"
+    "Name" : "typing"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_610387_91043",
     "Name" : "Physical Connection"
@@ -1902,13 +1905,13 @@
     "Name" : "Operational Item Exchange"
   }, {
     "ID" : "_19_0_3_26f0132_1583963874197_988038_23051",
-    "Name" : "OCNallowingOIE"
+    "Name" : "allowing"
   }, {
     "ID" : "_19_0_3_26f0132_1600783068816_502199_735",
     "Name" : "Operational Domain Kind"
   }, {
     "ID" : "_19_0_3_26f0132_1600783159281_769767_769",
-    "Name" : "ODKtypifyingOIE"
+    "Name" : "characterising"
   }, {
     "ID" : "_19_0_3_6d8019d_1608891146807_63172_951",
     "Name" : "SCIScontainingLCM"
@@ -1950,7 +1953,7 @@
     "Name" : "System Role"
   }, {
     "ID" : "_2021x_2_8710274_1698667927781_446840_35099",
-    "Name" : "SMhavingGF"
+    "Name" : "having"
   }, {
     "ID" : "_2021x_2_8710274_1698677453131_434277_39060",
     "Name" : "Interaction Point"
@@ -1965,28 +1968,28 @@
     "Name" : "Interaction Point Property"
   }, {
     "ID" : "_2021x_2_8710274_1698677862298_335574_39408",
-    "Name" : "IPDtypingIP"
+    "Name" : "typing"
   }, {
     "ID" : "_2021x_2_8710274_1698677911848_684818_39446",
-    "Name" : "IPPisDetailOfIPD"
+    "Name" : "is detail of"
   }, {
     "ID" : "_2021x_2_8710274_1698678011673_899769_39528",
-    "Name" : "EKtypingIPP"
+    "Name" : "typing"
   }, {
     "ID" : "_2021x_2_8710274_1698678047406_886240_39552",
     "Name" : "Exchange"
   }, {
     "ID" : "_2021x_2_8710274_1698678069303_580469_39594",
-    "Name" : "EKtypingE"
+    "Name" : "typing"
   }, {
     "ID" : "_2021x_2_8710274_1698678231154_589140_39726",
     "Name" : "Connection"
   }, {
     "ID" : "_2021x_2_8710274_1698678360762_847551_39834",
-    "Name" : "CallowingE"
+    "Name" : "allowing"
   }, {
     "ID" : "_2021x_2_8710274_1698680465664_931289_40252",
-    "Name" : "SMhavingIP"
+    "Name" : "having"
   } ]
 }, {
   "ID" : "_2021x_2_6d8019d_1701080157136_976247_25019",
@@ -2026,13 +2029,13 @@
     "Name" : "LCNallowingLIE"
   }, {
     "ID" : "_19_0_2_26f0132_1562303523801_255857_90761",
-    "Name" : "SDKtypingLIE"
+    "Name" : "typing"
   }, {
     "ID" : "_19_0_2_26f0132_1562303523801_353773_90762",
-    "Name" : "SDKtypingLIPP"
+    "Name" : "typing"
   }, {
     "ID" : "_19_0_2_26f0132_1562303523801_894791_90759",
-    "Name" : "PEKrealizingSDK"
+    "Name" : "realizing"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_114179_91028",
     "Name" : "Physical Interaction Point Property"
@@ -2056,13 +2059,13 @@
     "Name" : "Physical Exchange Kind"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_539421_91036",
-    "Name" : "PEKtypingPIE"
+    "Name" : "typing"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_546931_91032",
     "Name" : "Logical Interaction Point"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_605407_91026",
-    "Name" : "PEKtypingPIPP"
+    "Name" : "typing"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_610387_91043",
     "Name" : "Physical Connection"
@@ -2276,7 +2279,7 @@
     "Name" : "System Role"
   }, {
     "ID" : "_2021x_2_8710274_1698667927781_446840_35099",
-    "Name" : "SMhavingGF"
+    "Name" : "having"
   }, {
     "ID" : "_2021x_2_8710274_1698677453131_434277_39060",
     "Name" : "Interaction Point"
@@ -2291,34 +2294,34 @@
     "Name" : "Interaction Point Property"
   }, {
     "ID" : "_2021x_2_8710274_1698677862298_335574_39408",
-    "Name" : "IPDtypingIP"
+    "Name" : "typing"
   }, {
     "ID" : "_2021x_2_8710274_1698677911848_684818_39446",
-    "Name" : "IPPisDetailOfIPD"
+    "Name" : "is detail of"
   }, {
     "ID" : "_2021x_2_8710274_1698678011673_899769_39528",
-    "Name" : "EKtypingIPP"
+    "Name" : "typing"
   }, {
     "ID" : "_2021x_2_8710274_1698678047406_886240_39552",
     "Name" : "Exchange"
   }, {
     "ID" : "_2021x_2_8710274_1698678069303_580469_39594",
-    "Name" : "EKtypingE"
+    "Name" : "typing"
   }, {
     "ID" : "_2021x_2_8710274_1698678231154_589140_39726",
     "Name" : "Connection"
   }, {
     "ID" : "_2021x_2_8710274_1698678360762_847551_39834",
-    "Name" : "CallowingE"
+    "Name" : "allowing"
   }, {
     "ID" : "_2021x_2_8710274_1698680465664_931289_40252",
-    "Name" : "SMhavingIP"
+    "Name" : "having"
   }, {
     "ID" : "_2021x_2_8710274_1698691204535_927495_44118",
-    "Name" : "EEtoSM"
+    "Name" : "to"
   }, {
     "ID" : "_2021x_2_8710274_1698691231405_671733_44134",
-    "Name" : "EEfromSM"
+    "Name" : "from"
   } ]
 }, {
   "ID" : "_2021x_2_8710274_1700810074468_724882_47626",
@@ -2335,40 +2338,40 @@
     "Name" : "Standard"
   }, {
     "ID" : "_2021x_2_8710274_1700810136506_485576_48133",
-    "Name" : "TRMdefinedBySDT"
+    "Name" : "defined by"
   }, {
     "ID" : "_2021x_2_8710274_1700810355233_788568_48161",
     "Name" : "Standardization Organization"
   }, {
     "ID" : "_2021x_2_8710274_1700810378676_882309_48192",
-    "Name" : "STDissuedBySTO"
+    "Name" : "issued by"
   }, {
     "ID" : "_2021x_2_8710274_1700812231614_683776_49715",
-    "Name" : "SDTincludingSDT"
+    "Name" : "including"
   }, {
     "ID" : "_2021x_2_8710274_1700813046483_995773_50081",
     "Name" : "Category Of Standard"
   }, {
     "ID" : "_2021x_2_8710274_1700814367039_336586_50268",
-    "Name" : "SDTcategorizedCOF"
+    "Name" : "categorized"
   }, {
     "ID" : "_2021x_2_8710274_1700817559642_660412_50682",
-    "Name" : "SDTsupersedingSDT"
+    "Name" : "superseding"
   }, {
     "ID" : "_2024x_1_26f0132_1729184481488_984688_15862",
-    "Name" : "ASFconformToSTD"
+    "Name" : "conform to"
   }, {
     "ID" : "_2024x_1_26f0132_1729193426484_948459_25660",
     "Name" : "Glossary"
   }, {
     "ID" : "_2024x_1_26f0132_1729193445510_304510_25731",
-    "Name" : "GYcontainsTRM"
+    "Name" : "contains"
   }, {
     "ID" : "_2024x_1_26f0132_1729193587037_719455_25763",
-    "Name" : "STDcontainsGY"
+    "Name" : "contains"
   }, {
     "ID" : "_2024x_1_26f0132_1730145934888_287548_16610",
-    "Name" : "STDdependsOnSTD"
+    "Name" : "depends on"
   } ]
 }, {
   "ID" : "_2021x_2_8710274_1700811159302_777311_48920",
@@ -2414,7 +2417,7 @@
     "Name" : "LCNallowingLIE"
   }, {
     "ID" : "_19_0_2_26f0132_1562303523801_255857_90761",
-    "Name" : "SDKtypingLIE"
+    "Name" : "typing"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_546931_91032",
     "Name" : "Logical Interaction Point"
@@ -2489,7 +2492,7 @@
     "Name" : "Operational Item Exchange"
   }, {
     "ID" : "_19_0_3_26f0132_1583963874197_988038_23051",
-    "Name" : "OCNallowingOIE"
+    "Name" : "allowing"
   }, {
     "ID" : "_19_0_3_26f0132_1593161538343_235854_323",
     "Name" : "OCYsupportingOSY"
@@ -2498,7 +2501,7 @@
     "Name" : "Operational Domain Kind"
   }, {
     "ID" : "_19_0_3_26f0132_1600783159281_769767_769",
-    "Name" : "ODKtypifyingOIE"
+    "Name" : "characterising"
   }, {
     "ID" : "_19_0_3_6d8019d_1609067438603_923129_400",
     "Name" : "SHRrefiningOSY"
@@ -2510,7 +2513,7 @@
     "Name" : "Operational Capability"
   }, {
     "ID" : "_19_0_4_26f0132_1631284129545_438782_4876",
-    "Name" : "SDKderivingFromODK"
+    "Name" : "deriving from"
   }, {
     "ID" : "_19_0_4_6d8019d_1617463709646_290604_336",
     "Name" : "System Capability"
@@ -2545,10 +2548,10 @@
     "Name" : "System Use Case"
   }, {
     "ID" : "_19_0_1_26f0132_1554447577832_897366_46461",
-    "Name" : "SUCincludingSUC"
+    "Name" : "including"
   }, {
     "ID" : "_19_0_2_26f0132_1562303521707_858780_89137",
-    "Name" : "SUCsynthesizingSFN"
+    "Name" : "uses"
   }, {
     "ID" : "_19_0_2_26f0132_1562303523973_719860_90882",
     "Name" : "System State"
@@ -2560,13 +2563,13 @@
     "Name" : "System Process"
   }, {
     "ID" : "_19_0_4_26f0132_1624610806163_247313_817",
-    "Name" : "SPSrefiningSUC"
+    "Name" : "refining"
   }, {
     "ID" : "_19_0_4_26f0132_1624611972707_746294_1003",
     "Name" : "Context Function"
   }, {
     "ID" : "_19_0_4_26f0132_1624613247278_510884_1867",
-    "Name" : "SUCsynthesizingCFN"
+    "Name" : "uses"
   }, {
     "ID" : "_19_0_4_26f0132_1639735748424_245279_316",
     "Name" : "SUChasPostConditionSSE"
@@ -2592,7 +2595,7 @@
     "Name" : "Operational State Transition"
   }, {
     "ID" : "_2024x_2_26f0132_1751005742169_326952_1493",
-    "Name" : "OPShasPreconditionOSE"
+    "Name" : "has precondition"
   }, {
     "ID" : "_2024x_2_26f0132_1751005742170_567520_1494",
     "Name" : "Operational Triggering Event"
@@ -2604,7 +2607,162 @@
     "Name" : "OPbeeingInOSE"
   }, {
     "ID" : "_2024x_2_26f0132_1751005742257_825702_1594",
-    "Name" : "OPShasPostconditionOSE"
+    "Name" : "has postcondition"
+  } ]
+}, {
+  "ID" : "_2024x_3_26f0132_1758621671013_744129_206",
+  "Documentation" : "",
+  "Name" : "SAF_general_concept_Function",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_2_26f0132_1562303524161_529250_91001",
+    "Name" : "receiving input through"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524161_890620_91008",
+    "Name" : "sending output through"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524161_902110_90999",
+    "Name" : "General Function Usage Exchange Point"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524161_907005_91002",
+    "Name" : "General Functional Usage"
+  }, {
+    "ID" : "_19_0_2_8710274_1567168520242_378357_56193",
+    "Name" : "General Functional Exchange"
+  }, {
+    "ID" : "_19_0_2_8710274_1567168596944_130308_56269",
+    "Name" : "appearing in"
+  }, {
+    "ID" : "_19_0_2_8710274_1567168628900_60412_56295",
+    "Name" : "coming from"
+  }, {
+    "ID" : "_19_0_2_8710274_1567168660956_439379_56337",
+    "Name" : "going to"
+  }, {
+    "ID" : "_19_0_3_6d8019d_1609520174192_971623_551",
+    "Name" : "controlled after"
+  }, {
+    "ID" : "_19_0_4_26f0132_1624614161928_694281_1954",
+    "Name" : "General Function"
+  }, {
+    "ID" : "_2024x_1_26f0132_1729283243560_884162_17589",
+    "Name" : "General Function Exchange Point"
+  }, {
+    "ID" : "_2024x_1_26f0132_1729283433940_32128_17642",
+    "Name" : "sending output through"
+  }, {
+    "ID" : "_2024x_1_26f0132_1729284623707_916221_17673",
+    "Name" : "receiving input through"
+  }, {
+    "ID" : "_2024x_1_26f0132_1729284796075_770296_17706",
+    "Name" : "related to"
+  } ]
+}, {
+  "ID" : "_2024x_3_26f0132_1758622442105_304032_1868",
+  "Documentation" : "The diagram shows specializations of General Function and General Functional Usage",
+  "Name" : "SAF_general_concept_Function_Specializations",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_2_26f0132_1562303524161_394471_91009",
+    "Name" : "System Function"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524161_907005_91002",
+    "Name" : "General Functional Usage"
+  }, {
+    "ID" : "_19_0_4_26f0132_1624610613457_313794_115",
+    "Name" : "System Process"
+  }, {
+    "ID" : "_19_0_4_26f0132_1624611043495_845903_880",
+    "Name" : "System Partial Function"
+  }, {
+    "ID" : "_19_0_4_26f0132_1624611972707_746294_1003",
+    "Name" : "Context Function"
+  }, {
+    "ID" : "_19_0_4_26f0132_1624614161928_694281_1954",
+    "Name" : "General Function"
+  }, {
+    "ID" : "_2021x_2_8710274_1675981331374_205908_29130",
+    "Name" : "System Function in System Process"
+  }, {
+    "ID" : "_2021x_2_8710274_1675981347806_599070_29437",
+    "Name" : "Context Function in System Process"
+  }, {
+    "ID" : "_2024x_8710274_1716826749795_177784_16590",
+    "Name" : "System Partial Function in System Function"
+  } ]
+}, {
+  "ID" : "_2024x_3_ea40342_1760280983343_954755_218",
+  "Documentation" : "",
+  "Name" : "Concept_Sec_Context",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_1_26f0132_1554446894573_10154_45796",
+    "Name" : "System Of Interest"
+  }, {
+    "ID" : "_19_0_2_26f0132_1572501793596_705409_54004",
+    "Name" : "General Context"
+  }, {
+    "ID" : "_19_0_2_26f0132_1572502319806_138665_54158",
+    "Name" : "General Context Element"
+  }, {
+    "ID" : "_19_0_2_26f0132_1572502545313_424887_54186",
+    "Name" : "General Context Element Role"
+  }, {
+    "ID" : "_2024x_3_ea40342_1760282680996_480246_483",
+    "Name" : ""
+  }, {
+    "ID" : "_2024x_3_ea40342_1760283322595_18363_691",
+    "Name" : "Security Context Element Role"
+  }, {
+    "ID" : "_2024x_4c5019a_1724674758529_936816_356",
+    "Name" : "Security Context"
+  }, {
+    "ID" : "_2024x_4c5019a_1724750542260_2346_1453",
+    "Name" : "Asset"
+  }, {
+    "ID" : "_2024x_4c5019a_1724753316265_833673_1841",
+    "Name" : "Adversary"
+  }, {
+    "ID" : "_2024x_4c5019a_1724754064310_650307_1929",
+    "Name" : "Assumption"
+  }, {
+    "ID" : "_2024x_ea40342_1724668235875_444109_102",
+    "Name" : "Security Context Element"
+  } ]
+}, {
+  "ID" : "_2024x_3_ea40342_1760280983343_954755_218",
+  "Documentation" : "",
+  "Name" : "Concept_Sec_Context",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_1_26f0132_1554446894573_10154_45796",
+    "Name" : "System Of Interest"
+  }, {
+    "ID" : "_19_0_2_26f0132_1572501793596_705409_54004",
+    "Name" : "General Context"
+  }, {
+    "ID" : "_19_0_2_26f0132_1572502319806_138665_54158",
+    "Name" : "General Context Element"
+  }, {
+    "ID" : "_19_0_2_26f0132_1572502545313_424887_54186",
+    "Name" : "General Context Element Role"
+  }, {
+    "ID" : "_2024x_3_ea40342_1760282680996_480246_483",
+    "Name" : ""
+  }, {
+    "ID" : "_2024x_3_ea40342_1760283322595_18363_691",
+    "Name" : "Security Context Element Role"
+  }, {
+    "ID" : "_2024x_4c5019a_1724674758529_936816_356",
+    "Name" : "Security Context"
+  }, {
+    "ID" : "_2024x_4c5019a_1724750542260_2346_1453",
+    "Name" : "Asset"
+  }, {
+    "ID" : "_2024x_4c5019a_1724753316265_833673_1841",
+    "Name" : "Adversary"
+  }, {
+    "ID" : "_2024x_4c5019a_1724754064310_650307_1929",
+    "Name" : "Assumption"
+  }, {
+    "ID" : "_2024x_ea40342_1724668235875_444109_102",
+    "Name" : "Security Context Element"
   } ]
 }, {
   "ID" : "_2024x_4c5019a_1726420721786_510744_15",

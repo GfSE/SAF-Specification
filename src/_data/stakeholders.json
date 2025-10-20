@@ -90,6 +90,15 @@
     "Rationale" : "",
     "Concern" : "Which are the given contexts the system is embedded and utilized in?"
   }, {
+    "Rationale" : "",
+    "Concern" : "Which element of a system model is derived from an element of the enterprise architecture model?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which element of a system model is influenced by an element of the enterprise architecture model?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which element of a system model represents the same entity as an other element of the enterprise architecture model?"
+  }, {
     "Rationale" : "In my role, I need to check whether the overall system purpose is supported.",
     "Concern" : "Which functions will the system provide?"
   }, {
@@ -134,6 +143,20 @@
   }, {
     "Rationale" : "",
     "Concern" : "Why types of exchange can exist between Operational Performers (i.e., flows of information, people, material, or energy)?"
+  } ]
+}, {
+  "Name" : "Configuration Manager",
+  "ID" : "_2024x_2_26f0132_1757511908293_572766_174",
+  "Documentation" : "Definition - Configuration Managagert:\nThe Configuration Managager as an individual or group is controlling the versioning, baselining and change of system elements and artefacts of the systems engineering effort.",
+  "Rationales" : [ {
+    "Rationale" : "",
+    "Concern" : "Which element of a system model is derived from an element of the enterprise architecture model?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which element of a system model is influenced by an element of the enterprise architecture model?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which element of a system model represents the same entity as an other element of the enterprise architecture model?"
   } ]
 }, {
   "Name" : "Customer",
@@ -582,6 +605,15 @@
   }, {
     "Rationale" : "",
     "Concern" : "What operational states are defined for a system or system's operation?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which element of a system model is derived from an element of the enterprise architecture model?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which element of a system model is influenced by an element of the enterprise architecture model?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which element of a system model represents the same entity as an other element of the enterprise architecture model?"
   }, {
     "Rationale" : "",
     "Concern" : "Which operational processes are possible to be performed in an operational state?"
@@ -1478,6 +1510,15 @@
   }, {
     "Rationale" : "In my role, I use them as basis for understanding interfaces on logical level.",
     "Concern" : "Which conceptual items (energy, material, information, etc.) are exchanged within the system?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which element of a system model is derived from an element of the enterprise architecture model?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which element of a system model is influenced by an element of the enterprise architecture model?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which element of a system model represents the same entity as an other element of the enterprise architecture model?"
   }, {
     "Rationale" : "",
     "Concern" : "Which functions are allocated to which parts of the logical architecture?"

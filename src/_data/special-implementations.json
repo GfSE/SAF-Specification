@@ -506,6 +506,19 @@
     "Name" : "SAF_SystemState"
   }
 }, {
+  "ID" : "_2024x_3_26f0132_1758636201953_64556_778",
+  "Documentation" : "",
+  "Name" : "",
+  "Stereotype" : "SCM_TypedBy",
+  "Client" : {
+    "ID" : "_11_0_be00301_1147691436170_978680_223",
+    "Name" : "ItemFlow"
+  },
+  "Supplier" : {
+    "ID" : "_19_0_4_6d8019d_1618158382195_41606_448",
+    "Name" : "SAF_OperationalDomainKind"
+  }
+}, {
   "ID" : "_2024x_8710274_1715874787286_133978_15954",
   "Documentation" : "",
   "Name" : "",

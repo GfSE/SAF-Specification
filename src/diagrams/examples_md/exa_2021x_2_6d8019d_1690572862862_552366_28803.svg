@@ -6,11 +6,11 @@
  This is MagicDraw diagram.--><defs id="genericDefs"
   /><g
   ><defs id="d2"
-    ><linearGradient transform="matrix(1.0 0.0 8.0 1.0 0.0 -595.0)" x1="0.19580000638961792" x2="0.19580000638961792" gradientUnits="userSpaceOnUse" y1="609.0557250976562" y2="596.9442749023438" id="b5" color-interpolation="sRGB" spreadMethod="pad"
+    ><linearGradient gradientTransform="matrix(1.0 0.0 0.0 1.0 8.0 -595.0)" x1="0.19580000638961792" x2="0.19580000638961792" gradientUnits="userSpaceOnUse" y1="609.0557250976562" y2="596.9442749023438" id="b4" color-interpolation="sRGB" spreadMethod="pad"
       ><stop stop-color="white" offset="0%"
         /><stop stop-color="rgb(255,255,102)" offset="100%"
       /></linearGradient
-      ><radialGradient transform="matrix(0.0 -1.0 -1048.4375 0.0 -1.0 -1775.12890625)" gradientUnits="userSpaceOnUse" r="3.91" cx="-1784.595703125" id="b7" cy="-1056.427734375" color-interpolation="sRGB" fx="-1784.595703125" fy="-1056.427734375" spreadMethod="pad"
+      ><radialGradient gradientTransform="matrix(0.0 -1.0 -1.0 0.0 -1048.4375 -1775.12890625)" gradientUnits="userSpaceOnUse" r="3.91" cx="-1784.595703125" id="b6" cy="-1056.427734375" color-interpolation="sRGB" fx="-1784.595703125" fy="-1056.427734375" spreadMethod="pad"
       ><stop stop-color="white" offset="34%"
         /><stop stop-color="rgb(143,145,167)" offset="100%"
       /></radialGradient
@@ -47,11 +47,11 @@
       ><clipPath clipPathUnits="userSpaceOnUse" id="b2"
       ><path d="M0 0 L0 16 L24 16 L24 0 Z"
       /></clipPath
-      ><clipPath clipPathUnits="userSpaceOnUse" id="b4"
-      ><path d="M-4 0 L-4 16 L20 16 L20 0 Z"
+      ><clipPath clipPathUnits="userSpaceOnUse" id="b5"
+      ><path d="M0 0 L16 0 L16 16 L0 16 L0 0 Z"
       /></clipPath
-      ><clipPath clipPathUnits="userSpaceOnUse" id="b6"
-      ><path d="M0 0 L0 16 L16 16 L16 0 Z"
+      ><clipPath clipPathUnits="userSpaceOnUse" id="b7"
+      ><path d="M-4 0 L-4 16 L20 16 L20 0 Z"
       /></clipPath
       ><clipPath clipPathUnits="userSpaceOnUse" id="b8"
       ><path d="M0 0 L0 52 L146 52 L146 0 Z"
@@ -90,23 +90,23 @@
       ><path d="M0 0 L0 210 L532 210 L532 0 Z"
       /></clipPath
       ><g fill-opacity="1" color-rendering="auto" color-interpolation="auto" text-rendering="auto" stroke="black" id="b3" stroke-linecap="square" stroke-miterlimit="10" shape-rendering="auto" stroke-opacity="1" fill="black" stroke-dasharray="none" font-weight="normal" stroke-width="1" font-family="'Arial'" font-style="normal" stroke-linejoin="miter" font-size="12px" stroke-dashoffset="0" image-rendering="auto"
-      ><g fill="url(#b5)" text-rendering="geometricPrecision" font-family="'Segoe UI'" stroke="url(#b5)"
-        ><path d="M1.354 14.056 L15.037 14.056 L15.037 4.88 L7.288 4.88 L7.288 1.944 L1.354 1.944 Z" stroke="none" clip-path="url(#b6)"
-          /><path stroke-linecap="butt" clip-path="url(#b6)" fill="none" d="M1.354 14.056 L15.037 14.056 L15.037 4.88 L7.288 4.88 L7.288 1.944 L1.354 1.944 Z" stroke="rgb(35,31,32)" stroke-width="0.25" stroke-miterlimit="4"
+      ><g fill="url(#b4)" text-rendering="geometricPrecision" font-family="'Segoe UI'" stroke="url(#b4)"
+        ><path d="M1.354 14.056 L15.037 14.056 L15.037 4.88 L7.288 4.88 L7.288 1.944 L1.354 1.944 Z" stroke="none" clip-path="url(#b5)"
+          /><path stroke-linecap="butt" clip-path="url(#b5)" fill="none" d="M1.354 14.056 L15.037 14.056 L15.037 4.88 L7.288 4.88 L7.288 1.944 L1.354 1.944 Z" stroke="rgb(35,31,32)" stroke-width="0.25" stroke-miterlimit="4"
         /></g
         ><g stroke-linecap="round" fill="rgb(35,31,32)" text-rendering="geometricPrecision" font-family="'Segoe UI'" stroke-linejoin="round" stroke="rgb(35,31,32)" stroke-width="0.5" stroke-miterlimit="4"
-        ><rect fill="none" x="1.047" width="13.906" height="9.407" y="4.763" clip-path="url(#b6)"
+        ><rect fill="none" x="1.047" width="13.906" height="9.407" y="4.763" clip-path="url(#b5)"
         /></g
         ><g stroke-linecap="round" fill="rgb(35,31,32)" text-rendering="geometricPrecision" font-family="'Segoe UI'" stroke-linejoin="round" stroke="rgb(35,31,32)" stroke-width="0.5" stroke-miterlimit="4"
-        ><rect fill="none" x="1.047" width="6.185" height="2.933" y="1.83" clip-path="url(#b6)"
+        ><rect fill="none" x="1.047" width="6.185" height="2.933" y="1.83" clip-path="url(#b5)"
         /></g
-        ><g stroke-linecap="round" fill="url(#b7)" text-rendering="geometricPrecision" font-family="'Segoe UI'" stroke-linejoin="round" stroke="url(#b7)" stroke-width="0.5" stroke-miterlimit="4"
-        ><path d="M11.614 11.564 L7.972 13.66 L4.386 11.564 L4.386 7.371 L7.972 5.273 L11.614 7.371 Z" stroke="none" clip-path="url(#b6)"
-          /><path stroke-linecap="butt" clip-path="url(#b6)" fill="none" stroke-linejoin="miter" d="M11.614 11.564 L7.972 13.66 L4.386 11.564 L4.386 7.371 L7.972 5.273 L11.614 7.371 Z" stroke="black" stroke-width="0.55"
+        ><g stroke-linecap="round" fill="url(#b6)" text-rendering="geometricPrecision" font-family="'Segoe UI'" stroke-linejoin="round" stroke="url(#b6)" stroke-width="0.5" stroke-miterlimit="4"
+        ><path d="M11.614 11.564 L7.972 13.66 L4.386 11.564 L4.386 7.371 L7.972 5.273 L11.614 7.371 Z" stroke="none" clip-path="url(#b5)"
+          /><path stroke-linecap="butt" clip-path="url(#b5)" fill="none" stroke-linejoin="miter" d="M11.614 11.564 L7.972 13.66 L4.386 11.564 L4.386 7.371 L7.972 5.273 L11.614 7.371 Z" stroke="black" stroke-width="0.55"
         /></g
         ><g stroke-linecap="butt" fill="rgb(0,59,130)" text-rendering="geometricPrecision" font-family="'Segoe UI'" stroke="rgb(0,59,130)" stroke-width="0.55" stroke-miterlimit="4"
-        ><path d="M7.972 5.273 L7.972 9.59 L5.088 6.96 Z" stroke="none" clip-path="url(#b6)"
-          /><path fill="none" d="M7.972 5.273 L7.972 9.59 L5.088 6.96 Z" clip-path="url(#b6)" stroke="black" stroke-linejoin="round"
+        ><path d="M7.972 5.273 L7.972 9.59 L5.088 6.96 Z" stroke="none" clip-path="url(#b5)"
+          /><path fill="none" d="M7.972 5.273 L7.972 9.59 L5.088 6.96 Z" clip-path="url(#b5)" stroke="black" stroke-linejoin="round"
         /></g
       ></g
     ></defs
@@ -189,8 +189,8 @@
     ><g fill="white" font-family="'Segoe UI'" transform="translate(52,23)" stroke="white"
     ><rect x="0" width="170" height="52" y="0" clip-path="url(#a9)" stroke="none"
     /></g
-    ><g fill="gray" text-rendering="geometricPrecision" font-family="'Segoe UI'" transform="translate(56,41)" stroke="gray"
-    ><use fill="none" clip-path="url(#b4)" xlink:href="#b3"
+    ><g fill="gray" text-rendering="geometricPrecision" font-family="'Segoe UI'" transform="matrix(1,0,0,1,56,41)" stroke="gray"
+    ><use fill="none" clip-path="url(#b7)" xlink:href="#b3"
     /></g
     ><g fill="white" font-family="'Segoe UI'" transform="translate(76,23)" stroke="white"
     ><rect x="0" width="146" height="52" y="0" clip-path="url(#b8)" stroke="none"
@@ -221,7 +221,7 @@
     ><rect x="0" width="170" height="212" y="0" clip-path="url(#c5)" stroke="none"
     /></g
     ><g fill="gray" text-rendering="geometricPrecision" font-family="'Segoe UI'" transform="translate(56,174)" stroke="gray"
-    ><use fill="none" clip-path="url(#b4)" xlink:href="#b3"
+    ><use fill="none" clip-path="url(#b7)" xlink:href="#b3"
     /></g
     ><g fill="white" font-family="'Segoe UI'" transform="translate(76,76)" stroke="white"
     ><rect x="0" width="146" height="212" y="0" clip-path="url(#c7)" stroke="none"
@@ -260,7 +260,7 @@
     ><rect x="0" width="170" height="52" y="0" clip-path="url(#a9)" stroke="none"
     /></g
     ><g fill="gray" text-rendering="geometricPrecision" font-family="'Segoe UI'" transform="translate(56,307)" stroke="gray"
-    ><use fill="none" clip-path="url(#b4)" xlink:href="#b3"
+    ><use fill="none" clip-path="url(#b7)" xlink:href="#b3"
     /></g
     ><g fill="white" font-family="'Segoe UI'" transform="translate(76,289)" stroke="white"
     ><rect x="0" width="146" height="52" y="0" clip-path="url(#b8)" stroke="none"
