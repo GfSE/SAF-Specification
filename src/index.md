@@ -36,6 +36,8 @@ The following SAF releases are available, each of which is managed in a separate
 * [TdSE2022](https://github.com/GfSE/SAF-Specification/tree/TdSE2022/README.md)
 * [TdSE2023](https://github.com/GfSE/SAF-Specification/tree/TdSE2023/README.md)
 * [TdSE2024](https://saf.gfse.org/version/TdSE2024)
+* [TdSE2025](https://saf.gfse.org/version/TdSE2025)
+
 
 # Tool Implementations
 The SAF specification is implemented by 3 tool specific profiles which are available in separate github repositories:
