@@ -43,9 +43,9 @@ The following SAF releases are available, each of which is managed in a separate
 # Tool Implementations
 The SAF specification is implemented by 3 tool specific profiles which are available in separate github repositories:
 
-* [Cameo Systems Modeler (by Dassault Systèmes)](https://github.com/GfSE/SAF-Cameo-Profile)
-* [Engineering Systems Design Rhapsody (by IBM)](https://github.com/GfSE/SAF-Rhapsody-Profile)
-* [Enterprise Architect (by Sparx Systems)](https://github.com/GfSE/SAF-EA-Profile)
+* [Cameo Systems Modeler (by Dassault Systèmes)](https://github.com/GfSE/SAF-Cameo-Profile/tree/TdSE2025)
+* [Engineering Systems Design Rhapsody (by IBM)](https://github.com/GfSE/SAF-Rhapsody-Profile/tree/TdSE2025)
+* [Enterprise Architect (by Sparx Systems)](https://github.com/GfSE/SAF-EA-Profile/tree/TdSE2025)
 
 # References
 * Modellbasierter Bärentango mit dem System Architecture Framework, TdSE 2021, Michael Leute, Alexander Haarer, Sascha Ackva, Christian Lalitsch-Schneider, Markus Andres, Stephan Husung und Piotr Malecki
