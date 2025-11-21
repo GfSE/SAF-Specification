@@ -8117,33 +8117,10 @@ blockquote.warning-title > p:last-child {
 
 #prev-btn,
 #next-btn {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
   background: rgba(255, 255, 255, 0.486);
-  border: none;
-  width: 40px;
-  height: 40px;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  padding: 2;
   transition: background 0.3s ease;
-}
-
-#prev-btn svg,
-#next-btn svg {
-  width: 16px;
-  height: 16px;
-  display: block;
-}
-
-#prev-btn {
-  left: 10px;
-}
-
-#next-btn {
-  right: 10px;
+  border-radius: 4px;
+  background-color: lightgray;
 }
 
 #prev-btn:hover,
