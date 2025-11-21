@@ -1,6 +1,8 @@
 {% assign vp_tmp = site.data.viewpoints | where: "Name", page.title %}
 {% assign vp = vp_tmp.first %}
-{% assign examples = site.data.mdexamples | where: "ExampleForVPID", vp.VP_ID %}
+{% assign md_examples = site.data.mdexamples | where: "ExampleForVPID", vp.VP_ID %}
+{% assign rhy_examples = site.data.rhyexamples | where: "ExampleForVPID", vp.VP_ID %}
+{% assign ea_examples = site.data.eaexamples | where: "ExampleForVPID", vp.VP_ID %}
 {% capture maturityimage -%}
 <img src="../../assets/images/maturity-{{ vp.Maturity | replace: " ", "-"  }}.svg " height="20" width="20" >
 {%- endcapture %}
@@ -20,12 +22,11 @@
 |{{ domainlink }}|{{ aspectlink }}|{{ maturityimage }}{{ maturitylink }}|
 
 
-
 ## Example
-
+{% assign examples = md_examples |concat: rhy_examples |concat: ea_examples %}
 <div id="gallery-container">
   <img id="gallery-image" 
-       src="../../diagrams/examples_md/exa{{ examples[0].ID }}.svg"
+       src="../../diagrams/{{ examples[0].File }}"
        alt="{{ examples[0].Name }}"  />
   {% if examples.size > 1 %}
   <button id="prev-btn" onclick="prevImage()"><img src="../../assets/images/arrow-left.svg" alt="Previous" /></button>
@@ -36,7 +37,7 @@
 <script>
   const images = [
     {% for ex in examples %}
-      { "src": "../../diagrams/examples_md/exa{{ ex.ID }}.svg", "alt": "{{ ex.Name }}" },
+      { "src": "../../diagrams/{{ ex.File }}", "alt": "{{ ex.Name }}" },
     {% endfor %}
   ];
 
