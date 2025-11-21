@@ -24,6 +24,17 @@
 
 ## Example
 {% assign examples = md_examples |concat: rhy_examples |concat: ea_examples %}
+{% assign tools = examples | map: "Tool" | uniq | sort %}
+<div>
+<label for="tool-filter">Filter by tool:</label>
+<select id="tool-filter" onchange="onToolFilterChange()">
+<option value="All">All</option>
+{% for t in tools %}
+<option value="{{ t }}">{{ t }}</option>
+{% endfor %}
+</select>
+</div>
+{% if examples.size > 0 %}
 <div id="gallery-container">
   <img id="gallery-image" 
        src="../../diagrams/{{ examples[0].File }}"
@@ -31,35 +42,68 @@
   {% if examples.size > 1 %}
   <button id="prev-btn" onclick="prevImage()"><img src="../../assets/images/arrow-left.svg" alt="Previous" /></button>
   <button id="next-btn" onclick="nextImage()"><img src="../../assets/images/arrow-right.svg" alt="Next" /></button>
+  {% else %}
+  <button id="prev-btn" style="display:none" onclick="prevImage()"><img src="../../assets/images/arrow-left.svg" alt="Previous" /></button>
+  <button id="next-btn" style="display:none" onclick="nextImage()"><img src="../../assets/images/arrow-right.svg" alt="Next" /></button>
   {% endif %}
 </div>
 
 <script>
   const images = [
     {% for ex in examples %}
-      { "src": "../../diagrams/{{ ex.File }}", "alt": "{{ ex.Name }}" },
+      { src: {{ "../../diagrams/" | append: ex.File | jsonify }}, alt: {{ ex.Name | jsonify }}, tool: {{ ex.Tool | jsonify }} },
     {% endfor %}
   ];
 
+  let filteredImages = images.slice();
   let currentIndex = 0;
 
   function showImage(index) {
     const img = document.getElementById("gallery-image");
-    img.src = images[index].src;
-    img.alt = images[index].alt;
+    if (!filteredImages.length) {
+      img.src = "";
+      img.alt = "No image available";
+      document.getElementById("prev-btn").style.display = "none";
+      document.getElementById("next-btn").style.display = "none";
+      return;
+    }
+    currentIndex = (index + filteredImages.length) % filteredImages.length;
+    img.src = filteredImages[currentIndex].src;
+    img.alt = filteredImages[currentIndex].alt;
+    const showNav = filteredImages.length > 1;
+    document.getElementById("prev-btn").style.display = showNav ? "inline-block" : "none";
+    document.getElementById("next-btn").style.display = showNav ? "inline-block" : "none";
   }
 
   function nextImage() {
-    currentIndex = (currentIndex + 1) % images.length;
+    if (!filteredImages.length) return;
+    currentIndex = (currentIndex + 1) % filteredImages.length;
     showImage(currentIndex);
   }
 
   function prevImage() {
-    currentIndex = (currentIndex - 1 + images.length) % images.length;
+    if (!filteredImages.length) return;
+    currentIndex = (currentIndex - 1 + filteredImages.length) % filteredImages.length;
     showImage(currentIndex);
   }
 
- 
+  function updateFilteredImages() {
+    const select = document.getElementById("tool-filter");
+    const tool = select.value;
+    if (tool === "All") {
+      filteredImages = images.slice();
+    } else {
+      filteredImages = images.filter(i => i.tool === tool);
+    }
+    currentIndex = 0;
+    showImage(0);
+  }
+
+  function onToolFilterChange() {
+    updateFilteredImages();
+  }
+
+  // Touch swipe support
   let startX = 0;
   let endX = 0;
   const threshold = 50;
@@ -83,7 +127,14 @@
     }
   }, { passive: true });
 
+  // Initialize
+  document.addEventListener("DOMContentLoaded", function() {
+    updateFilteredImages();
+  });
 </script>
+{% else %}
+<p>No examples available.</p>
+{% endif %}
 
 
 ## Purpose
