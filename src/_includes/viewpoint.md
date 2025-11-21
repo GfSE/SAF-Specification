@@ -33,19 +33,20 @@
 <option value="{{ t }}">{{ t }}</option>
 {% endfor %}
 </select>
+  {% if examples.size > 1 %}
+  <button id="prev-btn" onclick="prevImage()"><span >&#x1F81C;</span> </button>
+  <button id="next-btn" onclick="nextImage()"><span >&#x1F81E;</span> </button>
+  {% else %}
+  <button id="prev-btn" style="display:none" onclick="prevImage()"><span >&#x1F81C;</span></button>
+  <button id="next-btn" style="display:none" onclick="nextImage()"><span >&#x1F81E;</span></button>
+  {% endif %}
+
 </div>
 {% if examples.size > 0 %}
 <div id="gallery-container">
   <img id="gallery-image" 
        src="../../diagrams/{{ examples[0].File }}"
        alt="{{ examples[0].Name }}"  />
-  {% if examples.size > 1 %}
-  <button id="prev-btn" onclick="prevImage()"><img src="../../assets/images/arrow-left.svg" alt="Previous" /></button>
-  <button id="next-btn" onclick="nextImage()"><img src="../../assets/images/arrow-right.svg" alt="Next" /></button>
-  {% else %}
-  <button id="prev-btn" style="display:none" onclick="prevImage()"><img src="../../assets/images/arrow-left.svg" alt="Previous" /></button>
-  <button id="next-btn" style="display:none" onclick="nextImage()"><img src="../../assets/images/arrow-right.svg" alt="Next" /></button>
-  {% endif %}
 </div>
 
 <script>
