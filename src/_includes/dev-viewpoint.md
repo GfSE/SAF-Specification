@@ -144,63 +144,44 @@ The Table shows the realization of exposed concepts.
 
 {% assign examples = md_examples |concat: rhy_examples |concat: ea_examples %}
 
+{% assign tools = examples | map: "Tool" | uniq | sort %}
+<div id="gallery-controls">
+
+
+<label for="tool-filter">Filter by tool:</label>
+<select id="tool-filter" onchange="onToolFilterChange()">
+  <option value="All">All</option>
+  {% for t in tools %}
+  <option value="{{ t }}">{{ t }}</option>
+  {% endfor %}
+</select>
+
+{% if examples.size > 1 %}
+  <button id="prev-btn" onclick="prevImage()" aria-label="Previous">◀</button>
+  <button id="next-btn" onclick="nextImage()" aria-label="Next">▶</button>
+{% else %}
+  <button id="prev-btn" style="display:none" onclick="prevImage()" aria-label="Previous">◀</button>
+  <button id="next-btn" style="display:none" onclick="nextImage()" aria-label="Next">▶</button>
+{% endif %}
+
+</div>
+{% if examples.size > 0 %}
 <div id="gallery-container">
   <img id="gallery-image" 
        src="../../diagrams/{{ examples[0].File }}"
        alt="{{ examples[0].Name }}"  />
-  {% if examples.size > 1 %}
-  <button id="prev-btn" onclick="prevImage()"><img src="../../assets/images/arrow-left.svg" alt="Previous" /></button>
-  <button id="next-btn" onclick="nextImage()"><img src="../../assets/images/arrow-right.svg" alt="Next" /></button>
-  {% endif %}
 </div>
 
 <script>
   const images = [
     {% for ex in examples %}
-      { "src": "../../diagrams/{{ ex.File }}", "alt": "{{ ex.Name }}" },
+      { src: {{ "../../diagrams/" | append: ex.File | jsonify }}, alt: {{ ex.Name | jsonify }}, tool: {{ ex.Tool | jsonify }} },
     {% endfor %}
   ];
-
-  let currentIndex = 0;
-
-  function showImage(index) {
-    const img = document.getElementById("gallery-image");
-    img.src = images[index].src;
-    img.alt = images[index].alt;
-  }
-
-  function nextImage() {
-    currentIndex = (currentIndex + 1) % images.length;
-    showImage(currentIndex);
-  }
-
-  function prevImage() {
-    currentIndex = (currentIndex - 1 + images.length) % images.length;
-    showImage(currentIndex);
-  }
-
- 
-  let startX = 0;
-  let endX = 0;
-  const threshold = 50;
-
-  const gallery = document.getElementById("gallery-container");
-
-  gallery.addEventListener("touchstart", function (e) {
-    startX = e.touches[0].clientX;
-  }, { passive: true });
-
-  gallery.addEventListener("touchend", function (e) {
-    endX = e.changedTouches[0].clientX;
-    const diff = endX - startX;
-
-    if (Math.abs(diff) > threshold) {
-      if (diff < 0) {
-        nextImage();
-      } else {
-        prevImage(); 
-      }
-    }
-  }, { passive: true });
-
 </script>
+<script src="{{ basePath }}/assets/js/examplegallery.js"></script>
+
+{% else %}
+<p>No examples available.</p>
+{% endif %}
+
