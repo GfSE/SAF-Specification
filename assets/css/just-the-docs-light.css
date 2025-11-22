@@ -7839,6 +7839,43 @@ blockquote.warning-title > p:last-child {
   text-decoration-color: #000000;
 }
 
+:root {
+  --control-height: 36px;
+  --control-padding: 6px 10px;
+  --gap: 8px;
+}
+
+#gallery-controls {
+  display: inline-flex;
+  gap: var(--gap);
+  align-items: center;
+}
+
+#gallery-controls button, #gallery-controls select {
+  height: var(--control-height);
+  padding: var(--control-padding);
+  line-height: 1;
+  box-sizing: border-box;
+  font: inherit;
+}
+
+#gallery-controls button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+#gallery-controls select {
+  min-width: 120px;
+}
+
+#gallery-container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 #gallery-container {
   position: relative;
   max-width: 100%;
