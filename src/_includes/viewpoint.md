@@ -25,21 +25,24 @@
 ## Example
 {% assign examples = md_examples |concat: rhy_examples |concat: ea_examples %}
 {% assign tools = examples | map: "Tool" | uniq | sort %}
-<div>
+<div id="gallery-controls">
+
+
 <label for="tool-filter">Filter by tool:</label>
 <select id="tool-filter" onchange="onToolFilterChange()">
-<option value="All">All</option>
-{% for t in tools %}
-<option value="{{ t }}">{{ t }}</option>
-{% endfor %}
+  <option value="All">All</option>
+  {% for t in tools %}
+  <option value="{{ t }}">{{ t }}</option>
+  {% endfor %}
 </select>
-  {% if examples.size > 1 %}
-  <button id="prev-btn" onclick="prevImage()"><span >&#x1F81C;</span> </button>
-  <button id="next-btn" onclick="nextImage()"><span >&#x1F81E;</span> </button>
-  {% else %}
-  <button id="prev-btn" style="display:none" onclick="prevImage()"><span >&#x1F81C;</span></button>
-  <button id="next-btn" style="display:none" onclick="nextImage()"><span >&#x1F81E;</span></button>
-  {% endif %}
+
+{% if examples.size > 1 %}
+  <button id="prev-btn" onclick="prevImage()"><span>&#x1F81C;</span></button>
+  <button id="next-btn" onclick="nextImage()"><span>&#x1F81E;</span></button>
+{% else %}
+  <button id="prev-btn" style="display:none" onclick="prevImage()"><span>&#x1F81C;</span></button>
+  <button id="next-btn" style="display:none" onclick="nextImage()"><span>&#x1F81E;</span></button>
+{% endif %}
 
 </div>
 {% if examples.size > 0 %}
