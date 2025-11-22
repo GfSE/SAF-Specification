@@ -37,11 +37,11 @@
 </select>
 
 {% if examples.size > 1 %}
-  <button id="prev-btn" onclick="prevImage()"><span>&#x1F81C;</span></button>
-  <button id="next-btn" onclick="nextImage()"><span>&#x1F81E;</span></button>
+  <button id="prev-btn" onclick="prevImage()" aria-label="Previous">◀</button>
+  <button id="next-btn" onclick="nextImage()" aria-label="Next">▶</button>
 {% else %}
-  <button id="prev-btn" style="display:none" onclick="prevImage()"><span>&#x1F81C;</span></button>
-  <button id="next-btn" style="display:none" onclick="nextImage()"><span>&#x1F81E;</span></button>
+  <button id="prev-btn" style="display:none" onclick="prevImage()" aria-label="Previous">◀</button>
+  <button id="next-btn" style="display:none" onclick="nextImage()" aria-label="Next">▶</button>
 {% endif %}
 
 </div>
