@@ -62,7 +62,7 @@
 </script>
 
 {% assign cachebuster = site.github.build_revision %}
-<script src="{{ basePath }}/assets/js/examplegallery.js?v={{ cachebuster }}"></script>
+<script src="{{ site.baseurl }}/assets/js/examplegallery.js?v={{ site.github.build_revision }}"></script>
 
 {% else %}
 <p>No examples available.</p>
