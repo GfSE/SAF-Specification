@@ -8,7 +8,7 @@ name: Deploy Jekyll site to Pages
 
 on:
   push:
-    branches: ["main","testing","rhapsody-images"]
+    branches: ["main","testing","rhapsody-images","experimantal-sysml2"]
   workflow_dispatch:
 env:
   BRANCH_NAME: ${{ github.head_ref || github.ref_name }}
