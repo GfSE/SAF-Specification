@@ -60,7 +60,9 @@
     {% endfor %}
   ];
 </script>
-<script src="{{ basePath }}/assets/js/examplegallery.js"></script>
+
+{% assign cachebuster = site.github.build_revision %}
+<script src="{{ basePath }}/assets/js/examplegallery.js?v={{ cachebuster }}"></script>
 
 {% else %}
 <p>No examples available.</p>
