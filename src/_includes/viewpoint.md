@@ -3,6 +3,7 @@
 {% assign md_examples = site.data.mdexamples | where: "ExampleForVPID", vp.VP_ID %}
 {% assign rhy_examples = site.data.rhyexamples | where: "ExampleForVPID", vp.VP_ID %}
 {% assign ea_examples = site.data.eaexamples | where: "ExampleForVPID", vp.VP_ID %}
+{% assign sysml2_examples = site.data.sysml2examples | where: "ExampleForVPID", vp.VP_ID %}
 {% capture maturityimage -%}
 <img src="../../assets/images/maturity-{{ vp.Maturity | replace: " ", "-"  }}.svg " height="20" width="20" >
 {%- endcapture %}
@@ -23,7 +24,7 @@
 
 
 ## Example
-{% assign examples = md_examples |concat: rhy_examples |concat: ea_examples %}
+{% assign examples = md_examples |concat: rhy_examples |concat: ea_examples |concat: sysml2_examples %}
 {% assign tools = examples | map: "Tool" | uniq | sort %}
 <div id="gallery-controls">
 
@@ -47,13 +48,13 @@
 </div>
 {% if examples.size > 0 %}
 <div id="gallery-container">
-  <img id="gallery-image" 
-       src="../../diagrams/{{ examples[0].File }}"
-       alt="{{ examples[0].Name }}"  />
+  <img id="gallery-image" style="display:none" />
+  <pre id="gallery-text" style="display:none"></pre>
 </div>
 
+
 <script>
-  const images = [
+  const examplesData = [
     {% for ex in examples %}
       { src: {{ "../../diagrams/" | append: ex.File | jsonify }}, alt: {{ ex.Name | jsonify }}, tool: {{ ex.Tool | jsonify }} },
     {% endfor %}
