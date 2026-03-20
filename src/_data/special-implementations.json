@@ -9,7 +9,7 @@
   },
   "Supplier" : {
     "ID" : "_19_0_3_26f0132_1614938958203_459716_5653",
-    "Name" : "SAF_DomainKind"
+    "Name" : "SAF_ConceptualExchangeType"
   }
 }, {
   "ID" : "_2021x_2_8710274_1681818167067_310281_29495",
@@ -61,7 +61,7 @@
   },
   "Supplier" : {
     "ID" : "_19_0_3_26f0132_1614938958203_459716_5653",
-    "Name" : "SAF_DomainKind"
+    "Name" : "SAF_ConceptualExchangeType"
   }
 }, {
   "ID" : "_2021x_2_8710274_1697104711861_685153_72355",
@@ -165,7 +165,7 @@
   },
   "Supplier" : {
     "ID" : "_19_0_2_26f0132_1558076033373_157322_46890",
-    "Name" : "SAF_LogicalContext"
+    "Name" : "SAF_ConceptualContext"
   }
 }, {
   "ID" : "_2021x_2_8710274_1697273920739_355569_30251",
@@ -230,7 +230,7 @@
   },
   "Supplier" : {
     "ID" : "_19_0_1_26f0132_1547201742246_537565_42154",
-    "Name" : "SAF_LogicalElement"
+    "Name" : "SAF_ConceptualSystem"
   }
 }, {
   "ID" : "_2021x_2_8710274_1698303867220_276708_33791",
@@ -252,11 +252,11 @@
   "Stereotype" : "SCM_ContainedIn",
   "Client" : {
     "ID" : "_2021x_2_6d8019d_1692006392401_529537_24496",
-    "Name" : "SAF_LogicalInternalRole"
+    "Name" : "SAF_ConceptualInternalRole"
   },
   "Supplier" : {
     "ID" : "_19_0_1_26f0132_1547201742246_537565_42154",
-    "Name" : "SAF_LogicalElement"
+    "Name" : "SAF_ConceptualSystem"
   }
 }, {
   "ID" : "_2021x_2_8710274_1698328999912_130185_48821",
@@ -269,7 +269,7 @@
   },
   "Supplier" : {
     "ID" : "_19_0_1_26f0132_1548408079060_514464_44018",
-    "Name" : "SAF_SystemFunction"
+    "Name" : "SAF_Function"
   }
 }, {
   "ID" : "_2021x_2_8710274_1698416923256_28235_62703",
@@ -282,7 +282,7 @@
   },
   "Supplier" : {
     "ID" : "_19_0_3_26f0132_1614938958203_459716_5653",
-    "Name" : "SAF_DomainKind"
+    "Name" : "SAF_ConceptualExchangeType"
   }
 }, {
   "ID" : "_2021x_2_8710274_1701358178670_429073_90632",
@@ -347,7 +347,7 @@
   },
   "Supplier" : {
     "ID" : "_19_0_4_6d8019d_1618158382195_41606_448",
-    "Name" : "SAF_OperationalDomainKind"
+    "Name" : "SAF_OperationalExchangeType"
   }
 }, {
   "ID" : "_2024x_26f0132_1719143076012_462143_28415",
@@ -412,7 +412,7 @@
   },
   "Supplier" : {
     "ID" : "_19_0_3_26f0132_1614938958203_459716_5653",
-    "Name" : "SAF_DomainKind"
+    "Name" : "SAF_ConceptualExchangeType"
   }
 }, {
   "ID" : "_2024x_2_26f0132_1751013847833_210456_3429",
@@ -425,7 +425,7 @@
   },
   "Supplier" : {
     "ID" : "_19_0_1_26f0132_1547201742246_537565_42154",
-    "Name" : "SAF_LogicalElement"
+    "Name" : "SAF_ConceptualSystem"
   }
 }, {
   "ID" : "_2024x_2_26f0132_1751619584504_299052_126",
@@ -460,7 +460,7 @@
   "Stereotype" : "SCM_Attribute",
   "Client" : {
     "ID" : "_19_0_1_26f0132_1548408079060_514464_44018",
-    "Name" : "SAF_SystemFunction"
+    "Name" : "SAF_Function"
   },
   "Supplier" : {
     "ID" : "_2024x_2_26f0132_1751013382405_4997_3245",
@@ -473,7 +473,7 @@
   "Stereotype" : "SCM_Attribute",
   "Client" : {
     "ID" : "_19_0_1_26f0132_1548408079060_514464_44018",
-    "Name" : "SAF_SystemFunction"
+    "Name" : "SAF_Function"
   },
   "Supplier" : {
     "ID" : "_2024x_2_26f0132_1751013382405_4997_3245",
@@ -516,7 +516,7 @@
   },
   "Supplier" : {
     "ID" : "_19_0_4_6d8019d_1618158382195_41606_448",
-    "Name" : "SAF_OperationalDomainKind"
+    "Name" : "SAF_OperationalExchangeType"
   }
 }, {
   "ID" : "_2024x_8710274_1715874787286_133978_15954",
@@ -555,7 +555,7 @@
   },
   "Supplier" : {
     "ID" : "_19_0_1_26f0132_1548408079060_514464_44018",
-    "Name" : "SAF_SystemFunction"
+    "Name" : "SAF_Function"
   }
 }, {
   "ID" : "_2024x_8710274_1716829255386_751832_18291",

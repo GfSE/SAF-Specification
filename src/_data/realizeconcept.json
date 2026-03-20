@@ -20,7 +20,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_2_26f0132_1558090585793_420384_48529",
-    "Name" : "SAF_PhysicalElement"
+    "Name" : "SAF_PhysicalSystem"
   }
 }, {
   "Name" : "",
@@ -32,7 +32,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_2_26f0132_1558076033373_157322_46890",
-    "Name" : "SAF_LogicalContext"
+    "Name" : "SAF_ConceptualContext"
   }
 }, {
   "Name" : "",
@@ -44,7 +44,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_1_26f0132_1547201742246_537565_42154",
-    "Name" : "SAF_LogicalElement"
+    "Name" : "SAF_ConceptualSystem"
   }
 }, {
   "Name" : "",
@@ -56,7 +56,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_2_26f0132_1562313107961_803548_148677",
-    "Name" : "SAF_LogicalEnvironment"
+    "Name" : "SAF_ConceptualEnvironment"
   }
 }, {
   "Name" : "",
@@ -68,7 +68,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_1_26f0132_1547202431219_827789_42473",
-    "Name" : "SAF_LogicalExternalSystem"
+    "Name" : "SAF_LogicalExternalSystem_deprecated"
   }
 }, {
   "Name" : "",
@@ -80,7 +80,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_1_8710274_1547464060642_374530_42162",
-    "Name" : "SAF_LogicalSOI"
+    "Name" : "SAF_LogicalSOI_deprecated"
   }
 }, {
   "Name" : "",
@@ -140,7 +140,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_2_26f0132_1560372077241_905943_48390",
-    "Name" : "SAF_PhysicalExternalSystem"
+    "Name" : "SAF_PhysicalExternalSystem_deprecated"
   }
 }, {
   "Name" : "",
@@ -152,7 +152,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_1_8710274_1547464071851_635988_42197",
-    "Name" : "SAF_PhysicalSystem"
+    "Name" : "SAF_PhysicalSystem_deprecated"
   }
 }, {
   "Name" : "",
@@ -176,7 +176,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_2_26f0132_1558076117783_295122_47010",
-    "Name" : "SAF_LogicalUser"
+    "Name" : "SAF_ConceptualUser"
   }
 }, {
   "Name" : "",
@@ -380,7 +380,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_4_6d8019d_1617440763282_465948_2187",
-    "Name" : "SAF_LogicalContextElementActing"
+    "Name" : "SAF_ConceptualContextElementActing"
   }
 }, {
   "Name" : "",
@@ -464,7 +464,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_4_6d8019d_1630175259198_859971_358",
-    "Name" : "SAF_LogicalContextRole"
+    "Name" : "SAF_ConceptualContextRole"
   }
 }, {
   "Name" : "",
@@ -560,7 +560,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_4_6d8019d_1630175259198_859971_358",
-    "Name" : "SAF_LogicalContextRole"
+    "Name" : "SAF_ConceptualContextRole"
   }
 }, {
   "Name" : "",
@@ -584,7 +584,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_1_26f0132_1548408079060_514464_44018",
-    "Name" : "SAF_SystemFunction"
+    "Name" : "SAF_Function"
   }
 }, {
   "Name" : "",
@@ -916,11 +916,11 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
-    "Name" : "System Domain Kind"
+    "Name" : "Conceptual Exchange Type"
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_3_26f0132_1614938958203_459716_5653",
-    "Name" : "SAF_DomainKind"
+    "Name" : "SAF_ConceptualExchangeType"
   }
 }, {
   "Name" : "",
@@ -1076,7 +1076,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_4_6d8019d_1624825970650_773062_2087",
-    "Name" : "SAF_ContextFunction"
+    "Name" : "SAF_ContextFunction_deprecated"
   }
 }, {
   "Name" : "",
@@ -1192,11 +1192,11 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303526536_778418_92552",
-    "Name" : "System Domain Item Kind Viewpoint"
+    "Name" : "System Exchange Type Definition Viewpoint"
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_4_26f0132_1631267986737_158302_36",
-    "Name" : "SAF_F2_SDIK"
+    "Name" : "SAF_F2_SETD"
   }
 }, {
   "Name" : "",
@@ -1228,11 +1228,11 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_4_26f0132_1631280350392_855780_562",
-    "Name" : "Operational Domain Item Kind Viewpoint"
+    "Name" : "Operational Exchange Type Definition Viewpoint"
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_4_26f0132_1630062793069_290685_155",
-    "Name" : "SAF_O2_ODIK"
+    "Name" : "SAF_O2_OETD"
   }
 }, {
   "Name" : "",
@@ -1244,7 +1244,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_4_26f0132_1631285127577_990399_5297",
-    "Name" : "SAF_DomainKindDerivation"
+    "Name" : "SAF_ConceptualExchangeTypeDerivation"
   }
 }, {
   "Name" : "",
@@ -1312,11 +1312,11 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_3_26f0132_1600783068816_502199_735",
-    "Name" : "Operational Domain Kind"
+    "Name" : "Operational Exchange Type"
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_4_6d8019d_1618158382195_41606_448",
-    "Name" : "SAF_OperationalDomainKind"
+    "Name" : "SAF_OperationalExchangeType"
   }
 }, {
   "Name" : "",
@@ -1544,7 +1544,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_4_6d8019d_1632170657124_127768_451",
-    "Name" : "SAF_DomainKindComposition"
+    "Name" : "SAF_ConceptualExchangeTypeComposition"
   }
 }, {
   "Name" : "",
@@ -1580,7 +1580,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_4_6d8019d_1632227659718_825878_1667",
-    "Name" : "SAF_OperationalDomainKindComposition"
+    "Name" : "SAF_OperationalExchangeTypeComposition"
   }
 }, {
   "Name" : "",
@@ -1792,7 +1792,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_482464_91025",
-    "Name" : "Physical Exchange Kind"
+    "Name" : "Physical Exchange Type"
   },
   "RealizationOfConcept" : {
     "ID" : "_2021x_2_8710274_1675099152786_518672_26637",
@@ -1832,7 +1832,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_2_26f0132_1558090471537_935611_48414",
-    "Name" : "SAF_PhysicalSoftwareElement"
+    "Name" : "SAF_PhysicalSoftware"
   }
 }, {
   "Name" : "",
@@ -1844,7 +1844,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_2_26f0132_1558090490396_87116_48464",
-    "Name" : "SAF_PhysicalHardwareElement"
+    "Name" : "SAF_PhysicalHardware"
   }
 }, {
   "Name" : "",
@@ -2132,7 +2132,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2021x_2_8710274_1676729827724_699643_30171",
-    "Name" : "SAF_SystemPartialFunction"
+    "Name" : "SAF_SystemPartialFunction_deprecated"
   }
 }, {
   "Name" : "",
@@ -2908,11 +2908,11 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_4_26f0132_1631280350392_855780_562",
-    "Name" : "Operational Domain Item Kind Viewpoint"
+    "Name" : "Operational Exchange Type Definition Viewpoint"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_26f0132_1717876271033_50962_14573",
-    "Name" : "SAF_O2_ODIK_Table"
+    "Name" : "SAF_O2_OETD_Table"
   }
 }, {
   "Name" : "",
@@ -2956,11 +2956,11 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303526536_778418_92552",
-    "Name" : "System Domain Item Kind Viewpoint"
+    "Name" : "System Exchange Type Definition Viewpoint"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_26f0132_1718444573319_748914_22693",
-    "Name" : "SAF_F2_SDIK_Table"
+    "Name" : "SAF_F2_SETD_Table"
   }
 }, {
   "Name" : "",
@@ -3160,11 +3160,11 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_4_26f0132_1631280350392_855780_562",
-    "Name" : "Operational Domain Item Kind Viewpoint"
+    "Name" : "Operational Exchange Type Definition Viewpoint"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_26f0132_1718447567081_75277_25995",
-    "Name" : "Operational Domain Item Kind Viewpoint"
+    "Name" : "Operational Exchange Type Definition Viewpoint"
   }
 }, {
   "Name" : "",
@@ -3400,11 +3400,11 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303526536_778418_92552",
-    "Name" : "System Domain Item Kind Viewpoint"
+    "Name" : "System Exchange Type Definition Viewpoint"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_26f0132_1718447571779_826028_26015",
-    "Name" : "System Domain Item Kind Viewpoint"
+    "Name" : "System Exchange Type Definition Viewpoint"
   }
 }, {
   "Name" : "",

@@ -28,10 +28,10 @@
 }, {
   "Documentation" : "",
   "Owner" : "exchange & interface",
-  "Name" : "Which kind of conceptual items (energy, material, information, etc.)  are used in the logical architecture of the system?",
+  "Name" : "Which kind of conceptual items (energy, material, information, etc.)  are used in the conceptual architecture of the system?",
   "ID" : "_2021x_2_6d8019d_1693308265004_421376_24972",
   "ConcernsViewpoints" : [ {
-    "Name" : "System Domain Item Kind Viewpoint",
+    "Name" : "System Exchange Type Definition Viewpoint",
     "ID" : "_19_0_2_26f0132_1562303526536_778418_92552"
   } ]
 }, {
@@ -40,7 +40,7 @@
   "Name" : "Why types of exchange can exist between Operational Performers (i.e., flows of information, people, material, or energy)?",
   "ID" : "_2021x_2_6d8019d_1693570065115_738458_24748",
   "ConcernsViewpoints" : [ {
-    "Name" : "Operational Domain Item Kind Viewpoint",
+    "Name" : "Operational Exchange Type Definition Viewpoint",
     "ID" : "_19_0_4_26f0132_1631280350392_855780_562"
   } ]
 }, {

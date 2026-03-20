@@ -34,18 +34,18 @@
   "File" : "examples_md/exa_2021x_2_8710274_1696593549704_655410_91025.svg",
   "Tool" : "Cameo"
 }, {
-  "ID" : "_2024x_4c5019a_1724847258994_116290_2284",
-  "Documentation" : "",
-  "Name" : "Asset Definition",
-  "ExampleForVPID" : "F7_ASID",
-  "File" : "examples_md/exa_2024x_4c5019a_1724847258994_116290_2284.svg",
-  "Tool" : "Cameo"
-}, {
   "ID" : "_2024x_4c5019a_1724845803763_752788_524",
   "Documentation" : "",
   "Name" : "Asset Definition",
   "ExampleForVPID" : "F7_ASID",
   "File" : "examples_md/exa_2024x_4c5019a_1724845803763_752788_524.svg",
+  "Tool" : "Cameo"
+}, {
+  "ID" : "_2024x_4c5019a_1724847258994_116290_2284",
+  "Documentation" : "",
+  "Name" : "Asset Definition",
+  "ExampleForVPID" : "F7_ASID",
+  "File" : "examples_md/exa_2024x_4c5019a_1724847258994_116290_2284.svg",
   "Tool" : "Cameo"
 }, {
   "ID" : "_2021x_2_8710274_1695208986903_203958_26642",
@@ -183,8 +183,8 @@
 }, {
   "ID" : "_18_1_3c00182_1450814090189_564309_51094",
   "Documentation" : "",
-  "Name" : "FFDS System Domain Item Definition",
-  "ExampleForVPID" : "F2_SDIK",
+  "Name" : "FFDS System Exchange Type Definition",
+  "ExampleForVPID" : "F2_SETD",
   "File" : "examples_md/exa_18_1_3c00182_1450814090189_564309_51094.svg",
   "Tool" : "Cameo"
 }, {
@@ -372,15 +372,15 @@
 }, {
   "ID" : "_19_0_4_26f0132_1631262476561_915469_2823",
   "Documentation" : "",
-  "Name" : "Operational Domain Item Definition",
-  "ExampleForVPID" : "O2_ODIK",
+  "Name" : "Operational Exchange Type Definition",
+  "ExampleForVPID" : "O2_OETD",
   "File" : "examples_md/exa_19_0_4_26f0132_1631262476561_915469_2823.svg",
   "Tool" : "Cameo"
 }, {
   "ID" : "_2021x_2_6d8019d_1690572862862_552366_28803",
   "Documentation" : "",
-  "Name" : "Operational Domain Item Table",
-  "ExampleForVPID" : "O2_ODIK",
+  "Name" : "Operational Exchange Type Table",
+  "ExampleForVPID" : "O2_OETD",
   "File" : "examples_md/exa_2021x_2_6d8019d_1690572862862_552366_28803.svg",
   "Tool" : "Cameo"
 }, {

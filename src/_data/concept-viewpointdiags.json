@@ -155,7 +155,7 @@
     "Name" : "PIPDdefiningDetailOfPIP"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_482464_91025",
-    "Name" : "Physical Exchange Kind"
+    "Name" : "Physical Exchange Type"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_539421_91036",
     "Name" : "typing"
@@ -203,7 +203,7 @@
   "Name" : "System State Concept",
   "DiagConcepts" : [ {
     "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
-    "Name" : "System Domain Kind"
+    "Name" : "Conceptual Exchange Type"
   }, {
     "ID" : "_19_0_2_26f0132_1562303523801_666926_90760",
     "Name" : "beeing in"
@@ -239,10 +239,10 @@
   "VP_ID" : "_19_0_2_26f0132_1562303526536_189439_92549",
   "ID" : "_19_0_2_26f0132_1562303528301_979708_93927"
 }, {
-  "Name" : "System Domain Item Kind Concept",
+  "Name" : "System Exchange Type Definition Concept",
   "DiagConcepts" : [ {
     "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
-    "Name" : "System Domain Kind"
+    "Name" : "Conceptual Exchange Type"
   }, {
     "ID" : "_19_0_2_26f0132_1562303523801_255857_90761",
     "Name" : "typing"
@@ -266,7 +266,7 @@
     "Name" : "General Function Usage Exchange Point"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_482464_91025",
-    "Name" : "Physical Exchange Kind"
+    "Name" : "Physical Exchange Type"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_663216_91033",
     "Name" : "Logical Item Exchange"
@@ -275,7 +275,7 @@
     "Name" : "Logical Interaction Point Property"
   }, {
     "ID" : "_19_0_3_26f0132_1600783068816_502199_735",
-    "Name" : "Operational Domain Kind"
+    "Name" : "Operational Exchange Type"
   }, {
     "ID" : "_19_0_4_26f0132_1631284129545_438782_4876",
     "Name" : "deriving from"
@@ -728,7 +728,7 @@
     "Name" : "controlled after"
   }, {
     "ID" : "_19_0_3_26f0132_1600783068816_502199_735",
-    "Name" : "Operational Domain Kind"
+    "Name" : "Operational Exchange Type"
   }, {
     "ID" : "_19_0_3_26f0132_1600784136485_599221_879",
     "Name" : "Operational Process Usage Exchange"
@@ -785,7 +785,7 @@
     "Name" : "allowing"
   }, {
     "ID" : "_19_0_3_26f0132_1600783068816_502199_735",
-    "Name" : "Operational Domain Kind"
+    "Name" : "Operational Exchange Type"
   }, {
     "ID" : "_19_0_3_26f0132_1600783159281_769767_769",
     "Name" : "characterising"
@@ -836,7 +836,7 @@
   "Name" : "Logical Internal Exchange Concept",
   "DiagConcepts" : [ {
     "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
-    "Name" : "System Domain Kind"
+    "Name" : "Conceptual Exchange Type"
   }, {
     "ID" : "_19_0_2_26f0132_1562303522067_850826_89482",
     "Name" : "LCNallowingLIE"
@@ -947,7 +947,7 @@
   "VP_ID" : "_19_0_4_26f0132_1629448496383_291730_10342",
   "ID" : "_19_0_4_26f0132_1629448496508_367595_10378"
 }, {
-  "Name" : "Operational Domain Item Kind Concept",
+  "Name" : "Operational Exchange Type Definition Concept",
   "DiagConcepts" : [ {
     "ID" : "_19_0_2_164f041e_1564572299224_487951_54901",
     "Name" : "Operational Process"
@@ -956,7 +956,7 @@
     "Name" : "Operational Item Exchange"
   }, {
     "ID" : "_19_0_3_26f0132_1600783068816_502199_735",
-    "Name" : "Operational Domain Kind"
+    "Name" : "Operational Exchange Type"
   }, {
     "ID" : "_19_0_3_26f0132_1600783159281_769767_769",
     "Name" : "characterising"
@@ -1208,7 +1208,7 @@
     "Name" : "PIPDdefiningDetailOfPIP"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_482464_91025",
-    "Name" : "Physical Exchange Kind"
+    "Name" : "Physical Exchange Type"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_539421_91036",
     "Name" : "typing"
@@ -1421,7 +1421,7 @@
     "Name" : "Logical Context Element"
   }, {
     "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
-    "Name" : "System Domain Kind"
+    "Name" : "Conceptual Exchange Type"
   }, {
     "ID" : "_19_0_2_26f0132_1562303523801_353773_90762",
     "Name" : "typing"
@@ -1520,7 +1520,7 @@
     "Name" : "PIPDdefiningDetailOfPIP"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_482464_91025",
-    "Name" : "Physical Exchange Kind"
+    "Name" : "Physical Exchange Type"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_605407_91026",
     "Name" : "typing"
@@ -1595,7 +1595,7 @@
   "Name" : "Physical Logical Item Mapping Concept",
   "DiagConcepts" : [ {
     "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
-    "Name" : "System Domain Kind"
+    "Name" : "Conceptual Exchange Type"
   }, {
     "ID" : "_19_0_2_26f0132_1562303523801_255857_90761",
     "Name" : "typing"
@@ -1616,7 +1616,7 @@
     "Name" : "Physical Interaction Point Property"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_482464_91025",
-    "Name" : "Physical Exchange Kind"
+    "Name" : "Physical Exchange Type"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_539421_91036",
     "Name" : "typing"
@@ -1862,7 +1862,7 @@
   "Name" : "Physical Exchange Type Definition Concept",
   "DiagConcepts" : [ {
     "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
-    "Name" : "System Domain Kind"
+    "Name" : "Conceptual Exchange Type"
   }, {
     "ID" : "_19_0_2_26f0132_1562303523801_894791_90759",
     "Name" : "realizing"
@@ -1871,7 +1871,7 @@
     "Name" : "Physical Interaction Point Property"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_482464_91025",
-    "Name" : "Physical Exchange Kind"
+    "Name" : "Physical Exchange Type"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_539421_91036",
     "Name" : "typing"
@@ -1892,7 +1892,7 @@
     "Name" : "System Of Interest"
   }, {
     "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
-    "Name" : "System Domain Kind"
+    "Name" : "Conceptual Exchange Type"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_394471_91009",
     "Name" : "System Function"
@@ -1919,7 +1919,7 @@
     "Name" : "System Of Interest"
   }, {
     "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
-    "Name" : "System Domain Kind"
+    "Name" : "Conceptual Exchange Type"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_394471_91009",
     "Name" : "System Function"

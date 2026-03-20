@@ -172,11 +172,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
-    "Name" : "System Domain Kind"
+    "Name" : "Conceptual Exchange Type"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1562303526536_778418_92552",
-    "Name" : "System Domain Item Kind Viewpoint"
+    "Name" : "System Exchange Type Definition Viewpoint"
   }
 }, {
   "Name" : "",
@@ -1156,7 +1156,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_3_26f0132_1600783068816_502199_735",
-    "Name" : "Operational Domain Kind"
+    "Name" : "Operational Exchange Type"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1576232878029_619084_56885",
@@ -2020,7 +2020,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_3_26f0132_1600783068816_502199_735",
-    "Name" : "Operational Domain Kind"
+    "Name" : "Operational Exchange Type"
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_8710274_1581675958756_500127_50979",
@@ -2036,7 +2036,7 @@
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1562303526536_778418_92552",
-    "Name" : "System Domain Item Kind Viewpoint"
+    "Name" : "System Exchange Type Definition Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2044,11 +2044,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_3_26f0132_1600783068816_502199_735",
-    "Name" : "Operational Domain Kind"
+    "Name" : "Operational Exchange Type"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1631280350392_855780_562",
-    "Name" : "Operational Domain Item Kind Viewpoint"
+    "Name" : "Operational Exchange Type Definition Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2060,7 +2060,7 @@
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1631280350392_855780_562",
-    "Name" : "Operational Domain Item Kind Viewpoint"
+    "Name" : "Operational Exchange Type Definition Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2704,7 +2704,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
-    "Name" : "System Domain Kind"
+    "Name" : "Conceptual Exchange Type"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
@@ -2788,7 +2788,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_482464_91025",
-    "Name" : "Physical Exchange Kind"
+    "Name" : "Physical Exchange Type"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1674680950433_310726_23659",
@@ -3100,7 +3100,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
-    "Name" : "System Domain Kind"
+    "Name" : "Conceptual Exchange Type"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676723513864_806117_26880",
@@ -3148,7 +3148,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_482464_91025",
-    "Name" : "Physical Exchange Kind"
+    "Name" : "Physical Exchange Type"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1695205330608_177015_24335",
@@ -3496,7 +3496,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_482464_91025",
-    "Name" : "Physical Exchange Kind"
+    "Name" : "Physical Exchange Type"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1698415722718_711881_60045",
@@ -3508,7 +3508,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
-    "Name" : "System Domain Kind"
+    "Name" : "Conceptual Exchange Type"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1698415722718_711881_60045",
@@ -4324,7 +4324,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_482464_91025",
-    "Name" : "Physical Exchange Kind"
+    "Name" : "Physical Exchange Type"
   },
   "Viewpoint" : {
     "ID" : "_2024x_3_26f0132_1758913515809_605410_39",

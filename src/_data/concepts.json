@@ -470,7 +470,7 @@
 }, {
   "InViewpoint" : [ {
     "ID" : "_19_0_2_26f0132_1562303526536_778418_92552",
-    "Name" : "System Domain Item Kind Viewpoint"
+    "Name" : "System Exchange Type Definition Viewpoint"
   }, {
     "ID" : "_2021x_2_8710274_1676723513864_806117_26880",
     "Name" : "System Interface Definition Viewpoint"
@@ -481,9 +481,9 @@
     "ID" : "_2021x_2_8710274_1698415722718_711881_60045",
     "Name" : "Physical Logical Item Mapping Viewpoint"
   } ],
-  "Documentation" : "Specification for any kind of conceptual item (energy, material, information, etc.) to be exchanged on Functional or Logical Level. The System Domain Kind is agnostic to any realization on Physical Level.",
+  "Documentation" : "Specification for any type of conceptual item (energy, material, information, etc.) to be exchanged on Conceptual (Functional Architecture and  Logical Architecture) Level. The Conceptual Exchange Type is agnostic to any realization on Physical Level.",
   "AssociationEnds" : [ ],
-  "Name" : "System Domain Kind",
+  "Name" : "Conceptual Exchange Type",
   "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
   "InheritsFrom" : [ ],
   "ClassType" : "Class",
@@ -591,14 +591,14 @@
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
     "Name" : "Logical Internal Exchange Viewpoint"
   } ],
-  "Documentation" : "Specifies the fact that a System Domain Kind defines the type of a Logical Item Exchange.",
+  "Documentation" : "Specifies the fact that a Conceptual Exchange Type defines the type of a Logical Item Exchange.",
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_663216_91033",
     "Name" : "Logical Item Exchange",
     "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
-    "Name" : "System Domain Kind",
+    "Name" : "Conceptual Exchange Type",
     "Multiplicity" : "1"
   } ],
   "Name" : "typing",
@@ -614,14 +614,14 @@
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
     "Name" : "Logical Internal Exchange Viewpoint"
   } ],
-  "Documentation" : "Specifies the fact that a System Domain Kind defines the type of a Logical Interaction Point Property.",
+  "Documentation" : "Specifies the fact that a Conceptual Exchange Type defines the type of a Logical Interaction Point Property.",
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_980387_91029",
     "Name" : "Logical Interaction Point Property",
     "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
-    "Name" : "System Domain Kind",
+    "Name" : "Conceptual Exchange Type",
     "Multiplicity" : "1"
   } ],
   "Name" : "typing",
@@ -634,14 +634,14 @@
     "ID" : "_19_0_2_26f0132_1562303526536_189439_92549",
     "Name" : "System State Viewpoint"
   } ],
-  "Documentation" : "Specifies that a System Domain Kind can have certain states.\nNote:\nOf course an item is in only one distinct state at a certain time. The multiplicity means that an Item can have a set of possible states, and a state can be used to specify possible States for several domain items.",
+  "Documentation" : "Specifies that a Conceptual Exchange Type can have certain states.\nNote:\nOf course an item is in only one distinct state at a certain time. The multiplicity means that an Item can have a set of possible states, and a state can be used to specify possible States for several Conceptual Exchange Types.",
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303523973_719860_90882",
     "Name" : "System State",
     "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
-    "Name" : "System Domain Kind",
+    "Name" : "Conceptual Exchange Type",
     "Multiplicity" : "0..*"
   } ],
   "Name" : "beeing in",
@@ -657,14 +657,14 @@
     "ID" : "_2024x_3_26f0132_1758913515809_605410_39",
     "Name" : "Physical Exchange Type Definition Viewpoint"
   } ],
-  "Documentation" : "Specifies the fact that a System Domain Kind is realized by Physical Exchange Kinds.",
+  "Documentation" : "Specifies the fact that a Conceptual Exchange Type is realized by Physical Exchange Types.",
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
-    "Name" : "System Domain Kind",
+    "Name" : "Conceptual Exchange Type",
     "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_482464_91025",
-    "Name" : "Physical Exchange Kind",
+    "Name" : "Physical Exchange Type",
     "Multiplicity" : "1..*"
   } ],
   "Name" : "realizing",
@@ -797,14 +797,14 @@
   "IsGeneralFor" : [ ]
 }, {
   "InViewpoint" : [ ],
-  "Documentation" : "Specifies the fact that a System Domain Kind defines the type of a Function Parameter.",
+  "Documentation" : "Specifies the fact that a Conceptual Exchange Type defines the type of a Function Parameter.",
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524161_902110_90999",
     "Name" : "General Function Usage Exchange Point",
     "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
-    "Name" : "System Domain Kind",
+    "Name" : "Conceptual Exchange Type",
     "Multiplicity" : "1"
   } ],
   "Name" : "typing",
@@ -1069,7 +1069,7 @@
   } ],
   "Documentation" : "Specification for any kind of physical item (energy, material, information, etc.) to be exchanged on Physical Level. This is the realization of the specification made by System Domain Kinds.",
   "AssociationEnds" : [ ],
-  "Name" : "Physical Exchange Kind",
+  "Name" : "Physical Exchange Type",
   "ID" : "_19_0_2_26f0132_1562303524176_482464_91025",
   "InheritsFrom" : [ ],
   "ClassType" : "Class",
@@ -1092,7 +1092,7 @@
     "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_482464_91025",
-    "Name" : "Physical Exchange Kind",
+    "Name" : "Physical Exchange Type",
     "Multiplicity" : "1"
   } ],
   "Name" : "typing",
@@ -1168,7 +1168,7 @@
     "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_482464_91025",
-    "Name" : "Physical Exchange Kind",
+    "Name" : "Physical Exchange Type",
     "Multiplicity" : "1"
   } ],
   "Name" : "typing",
@@ -2953,25 +2953,25 @@
     "Name" : "Operational Context Exchange Viewpoint"
   }, {
     "ID" : "_19_0_4_26f0132_1631280350392_855780_562",
-    "Name" : "Operational Domain Item Kind Viewpoint"
+    "Name" : "Operational Exchange Type Definition Viewpoint"
   } ],
-  "Documentation" : "Specifies the kind of Operational Item Exchange between Operational Context Roles or Operational Processes.",
+  "Documentation" : "Specifies the type of Operational Item Exchange between Operational Context Roles or Operational Processes.",
   "AssociationEnds" : [ ],
-  "Name" : "Operational Domain Kind",
+  "Name" : "Operational Exchange Type",
   "ID" : "_19_0_3_26f0132_1600783068816_502199_735",
   "InheritsFrom" : [ ],
   "ClassType" : "Class",
   "IsGeneralFor" : [ ]
 }, {
   "InViewpoint" : [ ],
-  "Documentation" : "Specifies the fact that an Operational Domain Kind characterises an Operational Item Exchange.",
+  "Documentation" : "Specifies the fact that an Operational Exchange Type characterises an Operational Item Exchange.",
   "AssociationEnds" : [ {
     "ID" : "_19_0_3_26f0132_1583963832153_320549_23021",
     "Name" : "Operational Item Exchange",
     "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_3_26f0132_1600783068816_502199_735",
-    "Name" : "Operational Domain Kind",
+    "Name" : "Operational Exchange Type",
     "Multiplicity" : "1"
   } ],
   "Name" : "characterising",
@@ -3452,14 +3452,14 @@
     "ID" : "_19_0_3_8710274_1581675958756_500127_50979",
     "Name" : "Operational Process Viewpoint"
   } ],
-  "Documentation" : "Specifies the fact that an Operational Domain Kind characterises an Operational Process Usage Exchange.",
+  "Documentation" : "Specifies the fact that an Operational Exchange Type characterises an Operational Process Usage Exchange.",
   "AssociationEnds" : [ {
     "ID" : "_19_0_3_26f0132_1600784136485_599221_879",
     "Name" : "Operational Process Usage Exchange",
     "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_3_26f0132_1600783068816_502199_735",
-    "Name" : "Operational Domain Kind",
+    "Name" : "Operational Exchange Type",
     "Multiplicity" : "1"
   } ],
   "Name" : "characterising",
@@ -3469,14 +3469,14 @@
   "IsGeneralFor" : [ ]
 }, {
   "InViewpoint" : [ ],
-  "Documentation" : "Specifies the fact that a System Domain Kind on system level is derived from an Operational Domain Kind.",
+  "Documentation" : "Specifies the fact that a Conceptual Exchange Type on system level is derived from an Operational Exchange Type.",
   "AssociationEnds" : [ {
     "ID" : "_19_0_3_26f0132_1600783068816_502199_735",
-    "Name" : "Operational Domain Kind",
+    "Name" : "Operational Exchange Type",
     "Multiplicity" : "0..1"
   }, {
     "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
-    "Name" : "System Domain Kind",
+    "Name" : "Conceptual Exchange Type",
     "Multiplicity" : "0..*"
   } ],
   "Name" : "deriving from",
@@ -3723,16 +3723,16 @@
 }, {
   "InViewpoint" : [ {
     "ID" : "_19_0_2_26f0132_1562303526536_778418_92552",
-    "Name" : "System Domain Item Kind Viewpoint"
+    "Name" : "System Exchange Type Definition Viewpoint"
   } ],
-  "Documentation" : "Specifies the fact that a System Domain Kind consists of one or more System Domain Kinds.",
+  "Documentation" : "Specifies the fact that a Conceptual Exchange Type consists of one or more Conceptual Exchange Types.",
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
-    "Name" : "System Domain Kind",
+    "Name" : "Conceptual Exchange Type",
     "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
-    "Name" : "System Domain Kind",
+    "Name" : "Conceptual Exchange Type",
     "Multiplicity" : "1"
   } ],
   "Name" : "composed of",
@@ -3743,16 +3743,16 @@
 }, {
   "InViewpoint" : [ {
     "ID" : "_19_0_4_26f0132_1631280350392_855780_562",
-    "Name" : "Operational Domain Item Kind Viewpoint"
+    "Name" : "Operational Exchange Type Definition Viewpoint"
   } ],
   "Documentation" : "Specifies the fact that an Operational Domain Kind may consists of zero or more Operational Domain Kinds.",
   "AssociationEnds" : [ {
     "ID" : "_19_0_3_26f0132_1600783068816_502199_735",
-    "Name" : "Operational Domain Kind",
+    "Name" : "Operational Exchange Type",
     "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_3_26f0132_1600783068816_502199_735",
-    "Name" : "Operational Domain Kind",
+    "Name" : "Operational Exchange Type",
     "Multiplicity" : "1"
   } ],
   "Name" : "composed of",
@@ -4404,7 +4404,7 @@
   "Documentation" : "Specifies the fact that a Physical Exchange Kind is assigned to a particular Physical Layer.",
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_482464_91025",
-    "Name" : "Physical Exchange Kind",
+    "Name" : "Physical Exchange Type",
     "Multiplicity" : "0..*"
   }, {
     "ID" : "_2021x_2_8710274_1681805942264_961820_25847",
@@ -6273,7 +6273,7 @@
     "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
-    "Name" : "System Domain Kind",
+    "Name" : "Conceptual Exchange Type",
     "Multiplicity" : "1"
   } ],
   "Name" : "SDK is Asset in Security Context",
