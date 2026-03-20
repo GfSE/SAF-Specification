@@ -1,9 +1,16 @@
 [
-    {
-        "File": "examples_sysml2/FFDS_Context_Definition.sysml",
-        "Documentation": "",
-        "Name": "FFDS Context Definition",
-        "ExampleForVPID": "F1_SCXD",
-        "Tool" : "SysML2"
-    }
+  {
+    "File": "examples_sysml2/FFDS_Context_Definition.sysml",
+    "Name": "FFDS Context Definition",
+    "ExampleForVPID": "F1_SCXD",
+    "Tool": "SysML2",
+    "Presentation": "sysml2.code"
+  },
+  {
+    "File": "examples_sysml2/FFDS_Context_Definition.svg",
+    "Name": "FFDS Context Definition",
+    "ExampleForVPID": "F1_SCXD",
+    "Tool": "SysML2",
+    "Presentation": "sysml2.iv"
+  }
 ]
