@@ -105,7 +105,7 @@
 }, {
   "Name" : "SAF_ConceptualContext",
   "ID" : "_19_0_2_26f0132_1558076033373_157322_46890",
-  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_26f0132_1558075086129_173532_44926'>Logical System Context</A></html>"
+  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_26f0132_1558075086129_173532_44926'>Conceptual System Context</A></html>"
 }, {
   "Name" : "SAF_ConceptualContextElementActing",
   "ID" : "_19_0_4_6d8019d_1617440763282_465948_2187",
@@ -113,15 +113,15 @@
 }, {
   "Name" : "SAF_ConceptualContextRole",
   "ID" : "_19_0_4_6d8019d_1630175259198_859971_358",
-  "Documentation" : "<html>Implementation of SAF Concepts\n <ul><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_8710274_1567171243005_813677_60746'>Logical Context Element Role</A></LI><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_8710274_1567171329121_821656_60902'>Logical SOI Role</A></LI></ul></html>"
+  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_8710274_1567171243005_813677_60746'>Conceptual Context Element Role</A></html>"
 }, {
   "Name" : "SAF_ConceptualContextRole_SoI",
   "ID" : "_2026x_26f0132_1774016792383_186039_4257",
-  "Documentation" : "<html>Not implementing a concept</html>"
+  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_8710274_1567171329121_821656_60902'>Conceptual SOI Role</A></html>"
 }, {
   "Name" : "SAF_ConceptualEnvironment",
   "ID" : "_19_0_2_26f0132_1562313107961_803548_148677",
-  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_26f0132_1562303989622_501728_139950'>Logical Environment</A></html>"
+  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_26f0132_1562303989622_501728_139950'>Conceptual Environment</A></html>"
 }, {
   "Name" : "SAF_ConceptualExchangeType",
   "ID" : "_19_0_3_26f0132_1614938958203_459716_5653",
@@ -145,11 +145,11 @@
 }, {
   "Name" : "SAF_ConceptualSystem",
   "ID" : "_19_0_1_26f0132_1547201742246_537565_42154",
-  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_26f0132_1562303524176_845719_91080'>Logical Element</A></html>"
+  "Documentation" : "<html>Implementation of SAF Concepts\n <ul><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_26f0132_1562303524176_845719_91080'>Conceptual System</A></LI><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_26f0132_1558075062569_130489_44874'>Conceptual External System</A></LI></ul></html>"
 }, {
   "Name" : "SAF_ConceptualUser",
   "ID" : "_19_0_2_26f0132_1558076117783_295122_47010",
-  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_8710274_1558534130432_293473_45375'>Logical User</A></html>"
+  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_8710274_1558534130432_293473_45375'>Conceptual User</A></html>"
 }, {
   "Name" : "SAF_Confidentiality",
   "ID" : "_2024x_4c5019a_1727777600435_428401_14",
@@ -249,11 +249,11 @@
 }, {
   "Name" : "SAF_F1_SCXD",
   "ID" : "_19_0_4_6d8019d_1618591731111_585346_2477",
-  "Documentation" : "<html>Implementation of <A HREF='https://saf.gfse.org/userdoc/Functional Domain/System Context Definition Viewpoint'>System Context Definition Viewpoint</A><BR>Purpose:<BR>The System Context Definition Viewpoint defines how the SOI is embedded in its environment, i.e., where the boundary of the SOI is and who the external entities are the SOI interacts with (e.g., users, other external systems, environmental conditions, etc.).  In addition, the System Context Definition Viewpoint serves as architecture concept to demonstrate how the architecture description defined in the Operational Context Definition Viewpoint is realized.<BR>Presentations:<BR> <UL><li>A block definition diagram (BDD) featuring the following elements\n* a Logical element block representing SOI in the logical domain\n* a Logical context block representing the addressed context in the logical domain\n* Logical context element blocks for each relevant context element\n* a composition relationship from context block to each context element used in the context\n* a composition relationship from context block to the SOI</li><li>A tabular format listing context roles, context elements, and respective descriptions.</li></UL></html>"
+  "Documentation" : "<html>Implementation of <A HREF='https://saf.gfse.org/userdoc/Functional Domain/System Context Definition Viewpoint'>System Context Definition Viewpoint</A><BR>Purpose:<BR>The System Context Definition Viewpoint defines on a conceptual level how the SOI is embedded in its environment, i.e., where the boundary of the SOI is and who the external entities are the SOI interacts with (e.g., users, other external systems, environmental conditions, etc.).  In addition, the System Context Definition Viewpoint serves as architecture concept to demonstrate how the architecture description defined in the Operational Context Definition Viewpoint is realized.<BR>Presentations:<BR> <UL><li><html>\n  <head>\n\t\t<style>\n\t\t\tp {padding:0px; margin:0px;}\n\t\t</style>\n\t</head>\n  <body>\n    <p>\nA block definition diagram (BDD) featuring the following elements\n\n    </p>\n\n    <ul>\n      <li>\none Conceptual System block representing SOI in the conceptual domain\n\n      </li>\n      <li>\na Conceptual Context block representing the addressed context in the conceptual domain\n\n      </li>\n      <li>\nContextual System, Conceptual User and Conceptual Environment blocks for each relevant context element\n\n      </li>\n      <li>\ncomposition relationship from context block to each context element used in the context\n\n      </li>\n      <li>\na composition relationship from context block to the SOI\n\n      </li>\n    </ul>\n    <p>\nThe SOI&#160;is identified by the part stereotype\n\n    </p>\n\n</body>\n</html></li><li>A tabular format listing context roles, context elements, and respective descriptions.</li></UL></html>"
 }, {
   "Name" : "SAF_F1_SCXD_Table",
   "ID" : "_2024x_26f0132_1718445860250_114816_23014",
-  "Documentation" : "<html>Implementation of <A HREF='https://saf.gfse.org/userdoc/Functional Domain/System Context Definition Viewpoint'>System Context Definition Viewpoint</A><BR>Purpose:<BR>The System Context Definition Viewpoint defines how the SOI is embedded in its environment, i.e., where the boundary of the SOI is and who the external entities are the SOI interacts with (e.g., users, other external systems, environmental conditions, etc.).  In addition, the System Context Definition Viewpoint serves as architecture concept to demonstrate how the architecture description defined in the Operational Context Definition Viewpoint is realized.<BR>Presentations:<BR> <UL><li>A block definition diagram (BDD) featuring the following elements\n* a Logical element block representing SOI in the logical domain\n* a Logical context block representing the addressed context in the logical domain\n* Logical context element blocks for each relevant context element\n* a composition relationship from context block to each context element used in the context\n* a composition relationship from context block to the SOI</li><li>A tabular format listing context roles, context elements, and respective descriptions.</li></UL></html>"
+  "Documentation" : "<html>Implementation of <A HREF='https://saf.gfse.org/userdoc/Functional Domain/System Context Definition Viewpoint'>System Context Definition Viewpoint</A><BR>Purpose:<BR>The System Context Definition Viewpoint defines on a conceptual level how the SOI is embedded in its environment, i.e., where the boundary of the SOI is and who the external entities are the SOI interacts with (e.g., users, other external systems, environmental conditions, etc.).  In addition, the System Context Definition Viewpoint serves as architecture concept to demonstrate how the architecture description defined in the Operational Context Definition Viewpoint is realized.<BR>Presentations:<BR> <UL><li><html>\n  <head>\n\t\t<style>\n\t\t\tp {padding:0px; margin:0px;}\n\t\t</style>\n\t</head>\n  <body>\n    <p>\nA block definition diagram (BDD) featuring the following elements\n\n    </p>\n\n    <ul>\n      <li>\none Conceptual System block representing SOI in the conceptual domain\n\n      </li>\n      <li>\na Conceptual Context block representing the addressed context in the conceptual domain\n\n      </li>\n      <li>\nContextual System, Conceptual User and Conceptual Environment blocks for each relevant context element\n\n      </li>\n      <li>\ncomposition relationship from context block to each context element used in the context\n\n      </li>\n      <li>\na composition relationship from context block to the SOI\n\n      </li>\n    </ul>\n    <p>\nThe SOI&#160;is identified by the part stereotype\n\n    </p>\n\n</body>\n</html></li><li>A tabular format listing context roles, context elements, and respective descriptions.</li></UL></html>"
 }, {
   "Name" : "SAF_F1_SCXE",
   "ID" : "_19_0_4_6d8019d_1618081524318_206808_1303",
@@ -413,7 +413,7 @@
 }, {
   "Name" : "SAF_L2_LSTD",
   "ID" : "_19_0_4_26f0132_1625209562736_284155_381",
-  "Documentation" : "<html>Implementation of <A HREF='https://saf.gfse.org/userdoc/Logical Domain/Logical Structure Definition Viewpoint'>Logical Structure Definition Viewpoint</A><BR>Purpose:<BR>The Logical Structure Definition Viewpoint describes how the system is decomposed into a hierarchical structure of logical elements responsible for different system functions (divide & conquer principle). It covers related logical concepts and principles that support the logical operation of the system and is widely reusable among similar systems like product families, or product generations.<BR>Presentation:<BR>A block definition diagram (BDD) featuring the logical system block and logical blocks for any kind of logical element the system is composed of. These elements are connected to the system block by means of aggregation relationships. \nNote: Multiple relationships to a kind of element are allowed meaning, that this kind of element is used in several roles.</html>"
+  "Documentation" : "<html>Implementation of <A HREF='https://saf.gfse.org/userdoc/Logical Domain/Logical Structure Definition Viewpoint'>Logical Structure Definition Viewpoint</A><BR>Purpose:<BR>The Logical Structure Definition Viewpoint describes how the system is decomposed into a hierarchical structure of conceptual elements.\nThese conceptual system parts will be used to assign responsibilty to functions to them (divide & conquer principle). It covers related concepts and principles that define what the system does and is widely reusable among similar systems like product families, or product generations.<BR>Presentation:<BR>A block definition diagram (BDD) featuring the conceptual system block and conceptual system blocks for parts of the system. These elements are connected to the system block by means of aggregation relationships. \nNote: Multiple relationships to a kind of element are allowed. This means, that this kind of element is used in several roles.</html>"
 }, {
   "Name" : "SAF_L4_LIEX",
   "ID" : "_19_0_4_26f0132_1625209687705_869914_419",
@@ -433,7 +433,7 @@
 }, {
   "Name" : "SAF_LogicalExternalSystem_deprecated",
   "ID" : "_19_0_1_26f0132_1547202431219_827789_42473",
-  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_26f0132_1558075062569_130489_44874'>Logical External System</A></html>"
+  "Documentation" : "<html>Not implementing a concept</html>"
 }, {
   "Name" : "SAF_LogicalResource",
   "ID" : "_2024x_4c5019a_1724838612884_200901_1484",
@@ -441,7 +441,7 @@
 }, {
   "Name" : "SAF_LogicalSOI_deprecated",
   "ID" : "_19_0_1_8710274_1547464060642_374530_42162",
-  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_26f0132_1558075212525_51415_45174'>Logical Context SOI</A></html>"
+  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_26f0132_1558075212525_51415_45174'>Logical Context SOI_ Deprecated</A></html>"
 }, {
   "Name" : "SAF_O1_OCXD",
   "ID" : "_19_0_1_26f0132_1548401929328_77241_42963",

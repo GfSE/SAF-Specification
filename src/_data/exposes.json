@@ -12,18 +12,6 @@
   }
 }, {
   "Name" : "",
-  "ID" : "_19_0_2_164f041e_1564092118646_840443_52539",
-  "Documentation" : "",
-  "ExposedConcept" : {
-    "ID" : "_19_0_2_26f0132_1558075212525_51415_45174",
-    "Name" : "Logical Context SOI"
-  },
-  "Viewpoint" : {
-    "ID" : "_19_0_2_26f0132_1562303526536_284838_92559",
-    "Name" : "Logical Structure Definition Viewpoint"
-  }
-}, {
-  "Name" : "",
   "ID" : "_19_0_2_26f0132_1560372869959_769442_48878",
   "Documentation" : "",
   "ExposedConcept" : {
@@ -124,7 +112,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_981340_91082",
-    "Name" : "Logical Element Role"
+    "Name" : "Conceptual Internal Role"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1562303526536_284838_92559",
@@ -232,7 +220,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
-    "Name" : "Logical Element"
+    "Name" : "Conceptual System"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1562303526536_284838_92559",
@@ -448,7 +436,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_8710274_1558534130432_293473_45375",
-    "Name" : "Logical User"
+    "Name" : "Conceptual User"
   },
   "Viewpoint" : {
     "ID" : "_19_0_1_26f0132_1554446728606_740631_45702",
@@ -496,7 +484,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_8710274_1567171243005_813677_60746",
-    "Name" : "Logical Context Element Role"
+    "Name" : "Conceptual Context Element Role"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_8710274_1567167552896_772779_54664",
@@ -520,7 +508,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_8710274_1567171329121_821656_60902",
-    "Name" : "Logical SOI Role"
+    "Name" : "Conceptual SOI Role"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_8710274_1567167552896_772779_54664",
@@ -712,7 +700,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_981340_91082",
-    "Name" : "Logical Element Role"
+    "Name" : "Conceptual Internal Role"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1576222951495_184664_54882",
@@ -1492,7 +1480,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
-    "Name" : "Logical Element"
+    "Name" : "Conceptual System"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
@@ -1528,7 +1516,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_8710274_1567171243005_813677_60746",
-    "Name" : "Logical Context Element Role"
+    "Name" : "Conceptual Context Element Role"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1626790419043_61789_443",
@@ -1552,7 +1540,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_8710274_1567171329121_821656_60902",
-    "Name" : "Logical SOI Role"
+    "Name" : "Conceptual SOI Role"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1626790419043_61789_443",
@@ -1684,7 +1672,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_8710274_1567171329121_821656_60902",
-    "Name" : "Logical SOI Role"
+    "Name" : "Conceptual SOI Role"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618060963677_605184_292",
@@ -1696,7 +1684,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1558075086129_173532_44926",
-    "Name" : "Logical System Context"
+    "Name" : "Conceptual System Context"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618060963677_605184_292",
@@ -1708,7 +1696,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_8710274_1567171243005_813677_60746",
-    "Name" : "Logical Context Element Role"
+    "Name" : "Conceptual Context Element Role"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618060963677_605184_292",
@@ -1720,7 +1708,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1558075062569_130489_44874",
-    "Name" : "Logical External System"
+    "Name" : "Conceptual External System"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
@@ -1732,7 +1720,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_8710274_1558534130432_293473_45375",
-    "Name" : "Logical User"
+    "Name" : "Conceptual User"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
@@ -1744,7 +1732,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_8710274_1567171243005_813677_60746",
-    "Name" : "Logical Context Element Role"
+    "Name" : "Conceptual Context Element Role"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
@@ -1756,7 +1744,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1558075086129_173532_44926",
-    "Name" : "Logical System Context"
+    "Name" : "Conceptual System Context"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
@@ -1768,19 +1756,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_8710274_1567171329121_821656_60902",
-    "Name" : "Logical SOI Role"
-  },
-  "Viewpoint" : {
-    "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
-    "Name" : "System Context Definition Viewpoint"
-  }
-}, {
-  "Name" : "",
-  "ID" : "_19_0_4_6d8019d_1618589543904_745831_314",
-  "Documentation" : "",
-  "ExposedConcept" : {
-    "ID" : "_19_0_2_26f0132_1558075212525_51415_45174",
-    "Name" : "Logical Context SOI"
+    "Name" : "Conceptual SOI Role"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
@@ -1792,7 +1768,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303989622_501728_139950",
-    "Name" : "Logical Environment"
+    "Name" : "Conceptual Environment"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
@@ -1804,7 +1780,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1558075062569_130489_44874",
-    "Name" : "Logical External System"
+    "Name" : "Conceptual External System"
   },
   "Viewpoint" : {
     "ID" : "_19_0_1_26f0132_1554446728606_740631_45702",
@@ -1816,7 +1792,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303989622_501728_139950",
-    "Name" : "Logical Environment"
+    "Name" : "Conceptual Environment"
   },
   "Viewpoint" : {
     "ID" : "_19_0_1_26f0132_1554446728606_740631_45702",
@@ -2944,7 +2920,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
-    "Name" : "Logical Element"
+    "Name" : "Conceptual System"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
@@ -2956,7 +2932,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_981340_91082",
-    "Name" : "Logical Element Role"
+    "Name" : "Conceptual Internal Role"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
@@ -2992,7 +2968,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
-    "Name" : "Logical Element"
+    "Name" : "Conceptual System"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676724435544_523379_27331",
@@ -3808,7 +3784,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1558075086129_173532_44926",
-    "Name" : "Logical System Context"
+    "Name" : "Conceptual System Context"
   },
   "Viewpoint" : {
     "ID" : "_19_0_1_26f0132_1554446728606_740631_45702",
@@ -3916,7 +3892,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_981340_91082",
-    "Name" : "Logical Element Role"
+    "Name" : "Conceptual Internal Role"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676724435544_523379_27331",
@@ -4881,5 +4857,17 @@
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1629448496383_291730_10342",
     "Name" : "System Functional Breakdown Structure Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1774095463902_144680_3052",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
+    "Name" : "Conceptual System"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
+    "Name" : "System Context Definition Viewpoint"
   }
 } ]

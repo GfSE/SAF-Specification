@@ -242,21 +242,21 @@
   "IsGeneralFor" : [ ]
 }, {
   "InViewpoint" : [ ],
-  "Documentation" : "Represents an abstract element in the given System Context on Logical Level, outside the SOI scope, interacting with the SOI.",
+  "Documentation" : "Represents an abstract element in the given System Context on Conceptual Level, outside the SOI scope, interacting with the SOI.",
   "AssociationEnds" : [ ],
-  "Name" : "Logical Context Element",
+  "Name" : "Conceptual Context Element",
   "ID" : "_19_0_2_26f0132_1558075029411_79067_44836",
   "InheritsFrom" : [ ],
   "ClassType" : "Class",
   "IsGeneralFor" : [ {
     "ID" : "_19_0_2_26f0132_1558075062569_130489_44874",
-    "Name" : "Logical External System"
+    "Name" : "Conceptual External System"
   }, {
     "ID" : "_19_0_2_26f0132_1562303989622_501728_139950",
-    "Name" : "Logical Environment"
+    "Name" : "Conceptual Environment"
   }, {
     "ID" : "_19_0_2_8710274_1558534130432_293473_45375",
-    "Name" : "Logical User"
+    "Name" : "Conceptual User"
   } ]
 }, {
   "InViewpoint" : [ {
@@ -266,13 +266,13 @@
     "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
     "Name" : "System Context Definition Viewpoint"
   } ],
-  "Documentation" : "A Logical External System in the Logical Domain, outside the SOI scope, interacting with the SOI. E.g., power grid, mobile network, fresh water system (in a house).",
+  "Documentation" : "A Conceptual External System in the Conceptual Domain, outside the SOI scope, interacting with the SOI. E.g., power grid, mobile network, fresh water system (in a house).",
   "AssociationEnds" : [ ],
-  "Name" : "Logical External System",
+  "Name" : "Conceptual External System",
   "ID" : "_19_0_2_26f0132_1558075062569_130489_44874",
   "InheritsFrom" : [ {
     "ID" : "_19_0_2_26f0132_1558075029411_79067_44836",
-    "Name" : "Logical Context Element"
+    "Name" : "Conceptual Context Element"
   } ],
   "ClassType" : "Class",
   "IsGeneralFor" : [ ]
@@ -287,9 +287,9 @@
     "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
     "Name" : "System Context Definition Viewpoint"
   } ],
-  "Documentation" : "Specifies the fact that a System Context for a System of Interest is defined on Logical Level.",
+  "Documentation" : "Specifies the fact that a System Context for a System of Interest is defined on Conceptual Level.",
   "AssociationEnds" : [ ],
-  "Name" : "Logical System Context",
+  "Name" : "Conceptual System Context",
   "ID" : "_19_0_2_26f0132_1558075086129_173532_44926",
   "InheritsFrom" : [ ],
   "ClassType" : "Class",
@@ -313,20 +313,14 @@
   "ClassType" : "Class",
   "IsGeneralFor" : [ ]
 }, {
-  "InViewpoint" : [ {
-    "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
-    "Name" : "System Context Definition Viewpoint"
-  }, {
-    "ID" : "_19_0_2_26f0132_1562303526536_284838_92559",
-    "Name" : "Logical Structure Definition Viewpoint"
-  } ],
+  "InViewpoint" : [ ],
   "Documentation" : "Represents the Logical SOI in the System Context on Logical Level.",
   "AssociationEnds" : [ ],
-  "Name" : "Logical Context SOI",
+  "Name" : "Logical Context SOI_ Deprecated",
   "ID" : "_19_0_2_26f0132_1558075212525_51415_45174",
   "InheritsFrom" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
-    "Name" : "Logical Element"
+    "Name" : "Conceptual System"
   } ],
   "ClassType" : "Class",
   "IsGeneralFor" : [ ]
@@ -713,7 +707,7 @@
   "Documentation" : "Specifies the fact that a System Function is assigned to a Logical SOI.\nNote: This fact may be derived from the Usage of a System Function in a System Process allocated to a Logical Context SOI Role.",
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1558075212525_51415_45174",
-    "Name" : "Logical Context SOI",
+    "Name" : "Logical Context SOI_ Deprecated",
     "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_394471_91009",
@@ -820,7 +814,7 @@
   "Documentation" : "Specifies the fact that a Usage of Function is allocated to a Usage of System Element.",
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_981340_91082",
-    "Name" : "Logical Element Role",
+    "Name" : "Conceptual Internal Role",
     "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_907005_91002",
@@ -919,7 +913,7 @@
   "Documentation" : "Specifies the fact that a Logical Interaction Point applies to a Logical Element.",
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
-    "Name" : "Logical Element",
+    "Name" : "Conceptual System",
     "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_546931_91032",
@@ -1469,16 +1463,19 @@
   }, {
     "ID" : "_2021x_2_8710274_1676724435544_523379_27331",
     "Name" : "Physical Logical Mapping Viewpoint"
+  }, {
+    "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
+    "Name" : "System Context Definition Viewpoint"
   } ],
-  "Documentation" : "Describes a conceptual Logical Element as specification for an implementation of a system, or system element.",
+  "Documentation" : "Describes a conceptual system as specification for an implementation of a system. It is used in both functional and logical architectures on any hierarchy level.",
   "AssociationEnds" : [ ],
-  "Name" : "Logical Element",
+  "Name" : "Conceptual System",
   "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
   "InheritsFrom" : [ ],
   "ClassType" : "Class",
   "IsGeneralFor" : [ {
     "ID" : "_19_0_2_26f0132_1558075212525_51415_45174",
-    "Name" : "Logical Context SOI"
+    "Name" : "Logical Context SOI_ Deprecated"
   } ]
 }, {
   "InViewpoint" : [ {
@@ -1488,7 +1485,7 @@
   "Documentation" : "Specifies the fact that a Logical Interaction Point applies to a Logical Context Element.",
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1558075029411_79067_44836",
-    "Name" : "Logical Context Element",
+    "Name" : "Conceptual Context Element",
     "Multiplicity" : "1..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_546931_91032",
@@ -1618,17 +1615,17 @@
     "ID" : "_2021x_2_8710274_1676724435544_523379_27331",
     "Name" : "Physical Logical Mapping Viewpoint"
   } ],
-  "Documentation" : "Specifies the fact that a logical element comprises logical elements.",
+  "Documentation" : "Specifies the fact that a Conceptual System may consist of Conceptual Systems (a white box perspective on a conceptual system).",
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
-    "Name" : "Logical Element",
+    "Name" : "Conceptual System",
     "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
-    "Name" : "Logical Element",
+    "Name" : "Conceptual System",
     "Multiplicity" : "1"
   } ],
-  "Name" : "Logical Element Role",
+  "Name" : "Conceptual Internal Role",
   "ID" : "_19_0_2_26f0132_1562303524176_981340_91082",
   "InheritsFrom" : [ ],
   "ClassType" : "AssociationClass",
@@ -1645,7 +1642,7 @@
     "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
-    "Name" : "Logical Element",
+    "Name" : "Conceptual System",
     "Multiplicity" : "0..*"
   } ],
   "Name" : "LETbeeingInSSE",
@@ -1681,13 +1678,13 @@
     "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
     "Name" : "System Context Definition Viewpoint"
   } ],
-  "Documentation" : "A Logical Environment in the Logical Domain, outside the SOI scope, interacting with the SOI. E.g., air, dirt, sun, road.",
+  "Documentation" : "A Conceptual Environment in the Conceptual Domain, outside the SOI scope, interacting with the SOI. E.g., air, dirt, sun, road.",
   "AssociationEnds" : [ ],
-  "Name" : "Logical Environment",
+  "Name" : "Conceptual Environment",
   "ID" : "_19_0_2_26f0132_1562303989622_501728_139950",
   "InheritsFrom" : [ {
     "ID" : "_19_0_2_26f0132_1558075029411_79067_44836",
-    "Name" : "Logical Context Element"
+    "Name" : "Conceptual Context Element"
   } ],
   "ClassType" : "Class",
   "IsGeneralFor" : [ ]
@@ -1700,7 +1697,7 @@
     "Multiplicity" : "1..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562303989622_501728_139950",
-    "Name" : "Logical Environment",
+    "Name" : "Conceptual Environment",
     "Multiplicity" : "1..*"
   } ],
   "Name" : "LENconceptingPEN",
@@ -1717,7 +1714,7 @@
     "Multiplicity" : "1..*"
   }, {
     "ID" : "_19_0_2_26f0132_1558075062569_130489_44874",
-    "Name" : "Logical External System",
+    "Name" : "Conceptual External System",
     "Multiplicity" : "1..*"
   } ],
   "Name" : "LESconceptingPES",
@@ -2206,7 +2203,7 @@
     "Multiplicity" : "1..*"
   }, {
     "ID" : "_19_0_2_26f0132_1558075029411_79067_44836",
-    "Name" : "Logical Context Element",
+    "Name" : "Conceptual Context Element",
     "Multiplicity" : "1..*"
   } ],
   "Name" : "LCEactingInSUC",
@@ -2389,13 +2386,13 @@
     "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
     "Name" : "System Context Definition Viewpoint"
   } ],
-  "Documentation" : "The Logical User is the representation for a human in the Logical Domain, outside the SOI scope, interacting with the SOI.",
+  "Documentation" : "The Conceptual User is the representation for a human in the Conceptual Domain, outside the SOI scope, interacting with the SOI.",
   "AssociationEnds" : [ ],
-  "Name" : "Logical User",
+  "Name" : "Conceptual User",
   "ID" : "_19_0_2_8710274_1558534130432_293473_45375",
   "InheritsFrom" : [ {
     "ID" : "_19_0_2_26f0132_1558075029411_79067_44836",
-    "Name" : "Logical Context Element"
+    "Name" : "Conceptual Context Element"
   } ],
   "ClassType" : "Class",
   "IsGeneralFor" : [ ]
@@ -2408,7 +2405,7 @@
     "Multiplicity" : "1..*"
   }, {
     "ID" : "_19_0_2_8710274_1558534130432_293473_45375",
-    "Name" : "Logical User",
+    "Name" : "Conceptual User",
     "Multiplicity" : "1..*"
   } ],
   "Name" : "LURconceptingPUR",
@@ -2499,17 +2496,17 @@
     "ID" : "_19_0_4_26f0132_1626790419043_61789_443",
     "Name" : "System Context Interaction Viewpoint"
   } ],
-  "Documentation" : "Specifies the fact that a Logical Context Element exists in a given Logical System Context.",
+  "Documentation" : "Specifies the fact that a Conceptual Context Element acts in a given Conceptual System Context.",
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1558075086129_173532_44926",
-    "Name" : "Logical System Context",
+    "Name" : "Conceptual System Context",
     "Multiplicity" : "1..*"
   }, {
     "ID" : "_19_0_2_26f0132_1558075029411_79067_44836",
-    "Name" : "Logical Context Element",
+    "Name" : "Conceptual Context Element",
     "Multiplicity" : "1..*"
   } ],
-  "Name" : "Logical Context Element Role",
+  "Name" : "Conceptual Context Element Role",
   "ID" : "_19_0_2_8710274_1567171243005_813677_60746",
   "InheritsFrom" : [ {
     "ID" : "_19_0_3_26f0132_1582317652656_237080_58806",
@@ -2531,17 +2528,17 @@
     "ID" : "_19_0_4_26f0132_1626790419043_61789_443",
     "Name" : "System Context Interaction Viewpoint"
   } ],
-  "Documentation" : "Specifies the fact that a Logical Context SOI exists in a given Logical System Context.",
+  "Documentation" : "Specifies the fact that a Conceptual System acts as  SOI exists in a given Conceptual System Context.",
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1558075086129_173532_44926",
-    "Name" : "Logical System Context",
+    "Name" : "Conceptual System Context",
     "Multiplicity" : "1..*"
   }, {
-    "ID" : "_19_0_2_26f0132_1558075212525_51415_45174",
-    "Name" : "Logical Context SOI",
+    "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
+    "Name" : "Conceptual System",
     "Multiplicity" : "1"
   } ],
-  "Name" : "Logical SOI Role",
+  "Name" : "Conceptual SOI Role",
   "ID" : "_19_0_2_8710274_1567171329121_821656_60902",
   "InheritsFrom" : [ {
     "ID" : "_19_0_3_26f0132_1582317652656_237080_58806",
@@ -2651,7 +2648,7 @@
     "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_981340_91082",
-    "Name" : "Logical Element Role",
+    "Name" : "Conceptual Internal Role",
     "Multiplicity" : "0..*"
   } ],
   "Name" : "Logical Scenario Participation",
@@ -2741,10 +2738,10 @@
   "ClassType" : "Class",
   "IsGeneralFor" : [ {
     "ID" : "_19_0_2_8710274_1567171243005_813677_60746",
-    "Name" : "Logical Context Element Role"
+    "Name" : "Conceptual Context Element Role"
   }, {
     "ID" : "_19_0_2_8710274_1567171329121_821656_60902",
-    "Name" : "Logical SOI Role"
+    "Name" : "Conceptual SOI Role"
   } ]
 }, {
   "InViewpoint" : [ {
@@ -3384,7 +3381,7 @@
     "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_8710274_1567171243005_813677_60746",
-    "Name" : "Logical Context Element Role",
+    "Name" : "Conceptual Context Element Role",
     "Multiplicity" : "0..*"
   } ],
   "Name" : "performing",
@@ -3439,7 +3436,7 @@
     "Multiplicity" : "1..*"
   }, {
     "ID" : "_19_0_2_8710274_1567171329121_821656_60902",
-    "Name" : "Logical SOI Role",
+    "Name" : "Conceptual SOI Role",
     "Multiplicity" : "1..*"
   } ],
   "Name" : "performing",
@@ -3659,7 +3656,7 @@
   "Documentation" : "Specifies the fact that a System Use Case takes place in a Logical System Context.",
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1558075086129_173532_44926",
-    "Name" : "Logical System Context",
+    "Name" : "Conceptual System Context",
     "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_1_26f0132_1554446894995_335285_45800",
@@ -3785,7 +3782,7 @@
   "Documentation" : "Specifies the fact that a Context Function is assigned to a Logical Context Element.\nNote: This fact may be derived from the Usage of Function of a Context Function allocated to a Logical Context Element.",
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1558075029411_79067_44836",
-    "Name" : "Logical Context Element",
+    "Name" : "Conceptual Context Element",
     "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_4_26f0132_1624611972707_746294_1003",
@@ -4067,7 +4064,7 @@
   "Documentation" : "Specifies the fact that a System Partial Function is assigned to a Logical SOI Element.\nNote: This fact may be derived from the Usage of Function of a System Partial Function allocated to a Internal Logical Element Role",
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
-    "Name" : "Logical Element",
+    "Name" : "Conceptual System",
     "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_4_26f0132_1624611043495_845903_880",
@@ -4279,7 +4276,7 @@
     "Multiplicity" : "1..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
-    "Name" : "Logical Element",
+    "Name" : "Conceptual System",
     "Multiplicity" : "1..*"
   } ],
   "Name" : "LETimplementingGFN",
@@ -4296,7 +4293,7 @@
     "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
-    "Name" : "Logical Element",
+    "Name" : "Conceptual System",
     "Multiplicity" : "1..*"
   } ],
   "Name" : "specifying",
@@ -4680,7 +4677,7 @@
     "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_981340_91082",
-    "Name" : "Logical Element Role",
+    "Name" : "Conceptual Internal Role",
     "Multiplicity" : "1..*"
   } ],
   "Name" : "specifying",

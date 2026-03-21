@@ -28,7 +28,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_2_26f0132_1558075086129_173532_44926",
-    "Name" : "Logical System Context"
+    "Name" : "Conceptual System Context"
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_2_26f0132_1558076033373_157322_46890",
@@ -40,7 +40,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
-    "Name" : "Logical Element"
+    "Name" : "Conceptual System"
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_1_26f0132_1547201742246_537565_42154",
@@ -52,7 +52,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303989622_501728_139950",
-    "Name" : "Logical Environment"
+    "Name" : "Conceptual Environment"
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_2_26f0132_1562313107961_803548_148677",
@@ -64,11 +64,11 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_2_26f0132_1558075062569_130489_44874",
-    "Name" : "Logical External System"
+    "Name" : "Conceptual External System"
   },
   "RealizationOfConcept" : {
-    "ID" : "_19_0_1_26f0132_1547202431219_827789_42473",
-    "Name" : "SAF_LogicalExternalSystem_deprecated"
+    "ID" : "_19_0_1_26f0132_1547201742246_537565_42154",
+    "Name" : "SAF_ConceptualSystem"
   }
 }, {
   "Name" : "",
@@ -76,7 +76,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_2_26f0132_1558075212525_51415_45174",
-    "Name" : "Logical Context SOI"
+    "Name" : "Logical Context SOI_ Deprecated"
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_1_8710274_1547464060642_374530_42162",
@@ -172,7 +172,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_2_8710274_1558534130432_293473_45375",
-    "Name" : "Logical User"
+    "Name" : "Conceptual User"
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_2_26f0132_1558076117783_295122_47010",
@@ -460,11 +460,11 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_2_8710274_1567171329121_821656_60902",
-    "Name" : "Logical SOI Role"
+    "Name" : "Conceptual SOI Role"
   },
   "RealizationOfConcept" : {
-    "ID" : "_19_0_4_6d8019d_1630175259198_859971_358",
-    "Name" : "SAF_ConceptualContextRole"
+    "ID" : "_2026x_26f0132_1774016792383_186039_4257",
+    "Name" : "SAF_ConceptualContextRole_SoI"
   }
 }, {
   "Name" : "",
@@ -556,7 +556,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_2_8710274_1567171243005_813677_60746",
-    "Name" : "Logical Context Element Role"
+    "Name" : "Conceptual Context Element Role"
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_4_6d8019d_1630175259198_859971_358",
@@ -2068,7 +2068,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_981340_91082",
-    "Name" : "Logical Element Role"
+    "Name" : "Conceptual Internal Role"
   },
   "RealizationOfConcept" : {
     "ID" : "_2021x_2_8710274_1698318103660_937765_37340",

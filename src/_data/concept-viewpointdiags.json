@@ -11,13 +11,13 @@
     "Name" : "SUCenablingOSY"
   }, {
     "ID" : "_19_0_2_26f0132_1558075029411_79067_44836",
-    "Name" : "Logical Context Element"
+    "Name" : "Conceptual Context Element"
   }, {
     "ID" : "_19_0_2_26f0132_1558075062569_130489_44874",
-    "Name" : "Logical External System"
+    "Name" : "Conceptual External System"
   }, {
     "ID" : "_19_0_2_26f0132_1558075086129_173532_44926",
-    "Name" : "Logical System Context"
+    "Name" : "Conceptual System Context"
   }, {
     "ID" : "_19_0_2_26f0132_1561750989144_963009_48675",
     "Name" : "Operational Story"
@@ -26,13 +26,13 @@
     "Name" : "System State"
   }, {
     "ID" : "_19_0_2_26f0132_1562303989622_501728_139950",
-    "Name" : "Logical Environment"
+    "Name" : "Conceptual Environment"
   }, {
     "ID" : "_19_0_2_6d8019d_1555339282353_464909_46799",
     "Name" : "LCEactingInSUC"
   }, {
     "ID" : "_19_0_2_8710274_1558534130432_293473_45375",
-    "Name" : "Logical User"
+    "Name" : "Conceptual User"
   }, {
     "ID" : "_19_0_4_26f0132_1639735748424_245279_316",
     "Name" : "SUChasPostConditionSSE"
@@ -215,7 +215,7 @@
     "Name" : "System Function"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
-    "Name" : "Logical Element"
+    "Name" : "Conceptual System"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_991194_91090",
     "Name" : "LETbeeingInSSE"
@@ -289,14 +289,11 @@
 }, {
   "Name" : "Logical Structure Definition Concept",
   "DiagConcepts" : [ {
-    "ID" : "_19_0_2_26f0132_1558075212525_51415_45174",
-    "Name" : "Logical Context SOI"
-  }, {
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
-    "Name" : "Logical Element"
+    "Name" : "Conceptual System"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_981340_91082",
-    "Name" : "Logical Element Role"
+    "Name" : "Conceptual Internal Role"
   } ],
   "Documentation" : "",
   "VP_ID" : "_19_0_2_26f0132_1562303526536_284838_92559",
@@ -389,7 +386,7 @@
   "Name" : "Logical Functional Mapping Concept",
   "DiagConcepts" : [ {
     "ID" : "_19_0_2_26f0132_1558075212525_51415_45174",
-    "Name" : "Logical Context SOI"
+    "Name" : "Logical Context SOI_ Deprecated"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_367314_91006",
     "Name" : "SFNallocatedToLET"
@@ -404,10 +401,10 @@
     "Name" : "General Functional Usage"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
-    "Name" : "Logical Element"
+    "Name" : "Conceptual System"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_981340_91082",
-    "Name" : "Logical Element Role"
+    "Name" : "Conceptual Internal Role"
   }, {
     "ID" : "_19_0_4_26f0132_1624611043495_845903_880",
     "Name" : "System Partial Function"
@@ -428,13 +425,13 @@
   "Name" : "System Process Concept",
   "DiagConcepts" : [ {
     "ID" : "_19_0_2_26f0132_1558075029411_79067_44836",
-    "Name" : "Logical Context Element"
+    "Name" : "Conceptual Context Element"
   }, {
     "ID" : "_19_0_2_26f0132_1558075086129_173532_44926",
-    "Name" : "Logical System Context"
+    "Name" : "Conceptual System Context"
   }, {
     "ID" : "_19_0_2_26f0132_1558075212525_51415_45174",
-    "Name" : "Logical Context SOI"
+    "Name" : "Logical Context SOI_ Deprecated"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_394471_91009",
     "Name" : "System Function"
@@ -464,10 +461,7 @@
     "Name" : "going to"
   }, {
     "ID" : "_19_0_2_8710274_1567171243005_813677_60746",
-    "Name" : "Logical Context Element Role"
-  }, {
-    "ID" : "_19_0_2_8710274_1567171329121_821656_60902",
-    "Name" : "Logical SOI Role"
+    "Name" : "Conceptual Context Element Role"
   }, {
     "ID" : "_19_0_3_6d8019d_1609520174192_971623_551",
     "Name" : "controlled after"
@@ -483,9 +477,6 @@
   }, {
     "ID" : "_19_0_4_26f0132_1624614161928_694281_1954",
     "Name" : "General Function"
-  }, {
-    "ID" : "_19_0_4_26f0132_1624615117147_549388_2197",
-    "Name" : "performing"
   }, {
     "ID" : "_2021x_2_8710274_1675981331374_205908_29130",
     "Name" : "System Function in System Process"
@@ -599,10 +590,10 @@
   "Name" : "Logical Internal Interaction Concept",
   "DiagConcepts" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
-    "Name" : "Logical Element"
+    "Name" : "Conceptual System"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_981340_91082",
-    "Name" : "Logical Element Role"
+    "Name" : "Conceptual Internal Role"
   }, {
     "ID" : "_19_0_3_26f0132_1582314602701_812421_56211",
     "Name" : "Logical Interaction Scenario"
@@ -863,7 +854,7 @@
     "Name" : "LIPPspecifyingDetailOfLIPD"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
-    "Name" : "Logical Element"
+    "Name" : "Conceptual System"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_900081_91027",
     "Name" : "Logical Interaction Point Definition"
@@ -881,19 +872,16 @@
   "Name" : "System Context Interaction Concept",
   "DiagConcepts" : [ {
     "ID" : "_19_0_2_26f0132_1558075029411_79067_44836",
-    "Name" : "Logical Context Element"
+    "Name" : "Conceptual Context Element"
   }, {
     "ID" : "_19_0_2_26f0132_1558075086129_173532_44926",
-    "Name" : "Logical System Context"
+    "Name" : "Conceptual System Context"
   }, {
     "ID" : "_19_0_2_26f0132_1558075212525_51415_45174",
-    "Name" : "Logical Context SOI"
+    "Name" : "Logical Context SOI_ Deprecated"
   }, {
     "ID" : "_19_0_2_8710274_1567171243005_813677_60746",
-    "Name" : "Logical Context Element Role"
-  }, {
-    "ID" : "_19_0_2_8710274_1567171329121_821656_60902",
-    "Name" : "Logical SOI Role"
+    "Name" : "Conceptual Context Element Role"
   }, {
     "ID" : "_19_0_3_26f0132_1582317652656_237080_58806",
     "Name" : "System Context Role"
@@ -980,16 +968,16 @@
   "Name" : "System Context Exchange Concept",
   "DiagConcepts" : [ {
     "ID" : "_19_0_2_26f0132_1558075029411_79067_44836",
-    "Name" : "Logical Context Element"
+    "Name" : "Conceptual Context Element"
   }, {
     "ID" : "_19_0_2_26f0132_1558075062569_130489_44874",
-    "Name" : "Logical External System"
+    "Name" : "Conceptual External System"
   }, {
     "ID" : "_19_0_2_26f0132_1558075086129_173532_44926",
-    "Name" : "Logical System Context"
+    "Name" : "Conceptual System Context"
   }, {
     "ID" : "_19_0_2_26f0132_1558075212525_51415_45174",
-    "Name" : "Logical Context SOI"
+    "Name" : "Logical Context SOI_ Deprecated"
   }, {
     "ID" : "_19_0_2_26f0132_1562303522067_850826_89482",
     "Name" : "LCNallowingLIE"
@@ -1007,7 +995,7 @@
     "Name" : "Logical Item Exchange"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
-    "Name" : "Logical Element"
+    "Name" : "Conceptual System"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_849218_91042",
     "Name" : "LIPapplyingToLCE"
@@ -1019,16 +1007,16 @@
     "Name" : "Logical Connection"
   }, {
     "ID" : "_19_0_2_26f0132_1562303989622_501728_139950",
-    "Name" : "Logical Environment"
+    "Name" : "Conceptual Environment"
   }, {
     "ID" : "_19_0_2_8710274_1558534130432_293473_45375",
-    "Name" : "Logical User"
+    "Name" : "Conceptual User"
   }, {
     "ID" : "_19_0_2_8710274_1567171243005_813677_60746",
-    "Name" : "Logical Context Element Role"
+    "Name" : "Conceptual Context Element Role"
   }, {
     "ID" : "_19_0_2_8710274_1567171329121_821656_60902",
-    "Name" : "Logical SOI Role"
+    "Name" : "Conceptual SOI Role"
   } ],
   "Documentation" : "",
   "VP_ID" : "_19_0_4_6d8019d_1618060963677_605184_292",
@@ -1037,28 +1025,28 @@
   "Name" : "System Context Definition Concept",
   "DiagConcepts" : [ {
     "ID" : "_19_0_2_26f0132_1558075029411_79067_44836",
-    "Name" : "Logical Context Element"
+    "Name" : "Conceptual Context Element"
   }, {
     "ID" : "_19_0_2_26f0132_1558075062569_130489_44874",
-    "Name" : "Logical External System"
+    "Name" : "Conceptual External System"
   }, {
     "ID" : "_19_0_2_26f0132_1558075086129_173532_44926",
-    "Name" : "Logical System Context"
+    "Name" : "Conceptual System Context"
   }, {
-    "ID" : "_19_0_2_26f0132_1558075212525_51415_45174",
-    "Name" : "Logical Context SOI"
+    "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
+    "Name" : "Conceptual System"
   }, {
     "ID" : "_19_0_2_26f0132_1562303989622_501728_139950",
-    "Name" : "Logical Environment"
+    "Name" : "Conceptual Environment"
   }, {
     "ID" : "_19_0_2_8710274_1558534130432_293473_45375",
-    "Name" : "Logical User"
+    "Name" : "Conceptual User"
   }, {
     "ID" : "_19_0_2_8710274_1567171243005_813677_60746",
-    "Name" : "Logical Context Element Role"
+    "Name" : "Conceptual Context Element Role"
   }, {
     "ID" : "_19_0_2_8710274_1567171329121_821656_60902",
-    "Name" : "Logical SOI Role"
+    "Name" : "Conceptual SOI Role"
   } ],
   "Documentation" : "",
   "VP_ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
@@ -1256,7 +1244,7 @@
   "Name" : "Physical Functional Mapping Concept",
   "DiagConcepts" : [ {
     "ID" : "_19_0_2_26f0132_1558075212525_51415_45174",
-    "Name" : "Logical Context SOI"
+    "Name" : "Logical Context SOI_ Deprecated"
   }, {
     "ID" : "_19_0_2_26f0132_1558075337119_355128_45325",
     "Name" : "Physical SOI"
@@ -1304,13 +1292,13 @@
     "Name" : "Hardware Element"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
-    "Name" : "Logical Element"
+    "Name" : "Conceptual System"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_941558_91077",
     "Name" : "Abstract Physical Element"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_981340_91082",
-    "Name" : "Logical Element Role"
+    "Name" : "Conceptual Internal Role"
   }, {
     "ID" : "_19_0_4_26f0132_1624611043495_845903_880",
     "Name" : "System Partial Function"
@@ -1418,7 +1406,7 @@
   "Name" : "System Interface Definition Concept",
   "DiagConcepts" : [ {
     "ID" : "_19_0_2_26f0132_1558075029411_79067_44836",
-    "Name" : "Logical Context Element"
+    "Name" : "Conceptual Context Element"
   }, {
     "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
     "Name" : "Conceptual Exchange Type"
@@ -1439,7 +1427,7 @@
     "Name" : "LIPPspecifyingDetailOfLIPD"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
-    "Name" : "Logical Element"
+    "Name" : "Conceptual System"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_849218_91042",
     "Name" : "LIPapplyingToLCE"
@@ -1457,7 +1445,7 @@
   "Name" : "Physical Logical Mapping Concept",
   "DiagConcepts" : [ {
     "ID" : "_19_0_2_26f0132_1558075212525_51415_45174",
-    "Name" : "Logical Context SOI"
+    "Name" : "Logical Context SOI_ Deprecated"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_107047_91004",
     "Name" : "General Physical Role"
@@ -1487,13 +1475,13 @@
     "Name" : "Hardware Element"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
-    "Name" : "Logical Element"
+    "Name" : "Conceptual System"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_941558_91077",
     "Name" : "Abstract Physical Element"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_981340_91082",
-    "Name" : "Logical Element Role"
+    "Name" : "Conceptual Internal Role"
   }, {
     "ID" : "_2021x_2_8710274_1675988365178_267674_34276",
     "Name" : "specifying"
