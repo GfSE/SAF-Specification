@@ -28,11 +28,6 @@
   }
 }
 
-
-
-
-
-
 .flex-container {
   display: flex;
   padding: 20px;
@@ -77,7 +72,8 @@
 
 .tooltip {
   position: relative;
-  display: inline-block;
+  display: block;
+  width: fit-content;
 }
 
 .tooltip .tooltiptext {
@@ -92,7 +88,7 @@
   z-index: 1;
   bottom: 150%;
   left: 50%;
-  margin-left: -60px;
+  transform: translateX(-50%);
 }
 
 .tooltip .tooltiptext::after {
@@ -100,7 +96,8 @@
   position: absolute;
   top: 100%;
   left: 50%;
-  margin-left: -5px;
+  transform: translateX(-50%);
+  margin-left: 0;
   border-width: 5px;
   border-style: solid;
   border-color: black transparent transparent transparent;
@@ -123,8 +120,6 @@
     white-space: nowrap;
   }
 
-
-
   tr th:nth-child(1) {
     width: fit-content;
     white-space: nowrap;
@@ -138,55 +133,76 @@ div.whitebox {
 
 div.blackbox {
   border: 5px dashed #333333;
-  color: #ffffff;
   padding: 20px;
 }
 
+div.na_or_both {
+  padding: 20px;
+}
+
+div.blackbox,
+div.whitebox div.na_or_both {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* optional: keeps left alignment */
+}
 
 .SAFGridTable {
   tr.SAF_Domain_C td {
     background-color: #A5A5A5;
     color: #000000;
+
     A {
       color: #000000;
       text-decoration-color: #000000;
     }
   }
+
   tr.SAF_Domain_F td {
     background-color: #00B0F0;
     color: #000000;
+
     A {
       color: #000000;
       text-decoration-color: #000000;
     }
   }
+
   tr.SAF_Domain_L td {
     background-color: #FFC000;
     color: #000000;
+
     A {
       color: #000000;
       text-decoration-color: #000000;
     }
   }
+
   tr.SAF_Domain_O td {
     background-color: #4472C4;
     color: #000000;
+
     A {
       color: #000000;
       text-decoration-color: #000000;
     }
   }
+
   tr.SAF_Domain_P td {
     background-color: #92D050;
     color: #000000;
+
     A {
       color: #000000;
       text-decoration-color: #000000;
     }
   }
+
   tr.SAF_Domain_D td {
     background-color: #C040C0;
     color: #000000;
+
     A {
       color: #000000;
       text-decoration-color: #000000;
@@ -195,18 +211,43 @@ div.blackbox {
 }
 
 
-:root { --control-height: 36px; --control-padding: 6px 10px; --gap: 8px; }
-#gallery-controls { display: inline-flex; gap: var(--gap); align-items: center; }
-#gallery-controls button, #gallery-controls select {
+:root {
+  --control-height: 36px;
+  --control-padding: 6px 10px;
+  --gap: 8px;
+}
+
+#gallery-controls {
+  display: inline-flex;
+  gap: var(--gap);
+  align-items: center;
+}
+
+#gallery-controls button,
+#gallery-controls select {
   height: var(--control-height);
   padding: var(--control-padding);
   line-height: 1;
   box-sizing: border-box;
   font: inherit;
 }
-#gallery-controls button { display: inline-flex; align-items: center; justify-content: center; cursor: pointer; }
-#gallery-controls select { min-width: 120px; }
-#gallery-container img { max-width: 100%; height: auto; display: block; }
+
+#gallery-controls button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+#gallery-controls select {
+  min-width: 120px;
+}
+
+#gallery-container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
 
 
 #gallery-container {
