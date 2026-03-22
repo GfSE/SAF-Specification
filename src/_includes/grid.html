@@ -14,12 +14,16 @@
     <tr class="SAF_Domain_{{ dc.DomainID }}">
         <td><A href="./userdoc/domains.html#{{ dom.first.ID}}">{{ dom.first.Name }}<BR>Domain</A></td>
         {% for asp in site.data.aspects %}
-        {% assign asp_vp= dom_vp | where: "Aspect", asp.Name %}
+        {% assign asp_vp_bb= dom_vp | where: "Aspect", asp.Name | where: "Exposure", "BlackBox" %}
+        {% assign asp_vp_wb= dom_vp | where: "Aspect", asp.Name | where: "Exposure", "WhiteBox" %}
+        {% assign asp_vp_bbwb= dom_vp | where: "Aspect", asp.Name | where: "Exposure", "Both" %}
+        {% assign asp_vp_na= dom_vp | where: "Aspect", asp.Name | where: "Exposure", "NotApplicable" %}
+                
 
         <td>
+            {% if asp_vp_bb.size > 0 %}
             <div class="blackbox">
-                {% for vp in asp_vp %}
-                {% if vp.Exposure == "BlackBox" %}
+                {% for vp in asp_vp_bb %}
 
                 {{ vp.Exposure }}
                 <div class="tooltip">
@@ -31,13 +35,13 @@
                             class="tooltiptext">{{ vp.Name }}</span></A>
                     {% endif %}
                 </div>
-                {% endif %}
                 {% endfor %}
             </div>
+            {% endif %}
 
+            {% if asp_vp_wb.size > 0 %}
             <div class="whitebox">
-                {% for vp in asp_vp %}
-                {% if vp.Exposure == "WhiteBox" %}
+                {% for vp in asp_vp_wb %}
                 {{ vp.Exposure }}
                 <div class="tooltip">
                     {% if vp.Domain == "SAF Development" -%}
@@ -48,13 +52,13 @@
                             class="tooltiptext">{{ vp.Name }}</span></A>
                     {% endif %}
                 </div>
-                {% endif %}
                 {% endfor %}
             </div>
-   
+            {% endif %}
+
+            {% if asp_vp_bbwb.size > 0 or asp_vp_na.size > 0 %}
             <div class="na_or_both">
-                {% for vp in asp_vp %}
-                {% if vp.Exposure == "NotApplicable" or vp.Exposure == "Both" %}
+                {% for vp in asp_vp_bbwb  %}
                 {{ vp.Exposure }}
                 <div class="tooltip">
                     {% if vp.Domain == "SAF Development" -%}
@@ -65,9 +69,21 @@
                             class="tooltiptext">{{ vp.Name }}</span></A>
                     {% endif %}
                 </div>
-                {% endif %}
                 {% endfor %}
-            </div>            
+                {% for vp in asp_vp_na  %}
+                {{ vp.Exposure }}
+                <div class="tooltip">
+                    {% if vp.Domain == "SAF Development" -%}
+                    <A href="./devdoc/{{ vp.Domain }} Domain/{{ vp.Name }}.html">{{vp.VP_ID}}<span
+                            class="tooltiptext">{{ vp.Name }}</span></A>
+                    {% else %}
+                    <A href="./userdoc/{{ vp.Domain }} Domain/{{ vp.Name }}.html">{{vp.VP_ID}}<span
+                            class="tooltiptext">{{ vp.Name }}</span></A>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </div>
+            {% endif %}
         </td>
         {% endfor %}
     </tr>
