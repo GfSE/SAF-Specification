@@ -131,6 +131,18 @@
   }
 }
 
+div.whitebox {
+  border: 5px dashed #ffffff;
+  padding: 20px;
+}
+
+div.blackbox {
+  border: 5px dashed #333333;
+  color: #ffffff;
+  padding: 20px;
+}
+
+
 .SAFGridTable {
   tr.SAF_Domain_C td {
     background-color: #A5A5A5;
