@@ -8078,27 +8078,19 @@ div.whitebox div.na_or_both {
   /* optional: keeps left alignment */
 }
 
-.SAFGridTable tr.SAF_Domain_C td {
+.SAFGridTable tr.SAF_Domain_A td {
   background-color: #A5A5A5;
   color: #000000;
 }
-.SAFGridTable tr.SAF_Domain_C td A {
+.SAFGridTable tr.SAF_Domain_A td A {
   color: #000000;
   text-decoration-color: #000000;
 }
-.SAFGridTable tr.SAF_Domain_F td {
-  background-color: #00B0F0;
-  color: #000000;
-}
-.SAFGridTable tr.SAF_Domain_F td A {
-  color: #000000;
-  text-decoration-color: #000000;
-}
-.SAFGridTable tr.SAF_Domain_L td {
+.SAFGridTable tr.SAF_Domain_C td {
   background-color: #FFC000;
   color: #000000;
 }
-.SAFGridTable tr.SAF_Domain_L td A {
+.SAFGridTable tr.SAF_Domain_C td A {
   color: #000000;
   text-decoration-color: #000000;
 }
