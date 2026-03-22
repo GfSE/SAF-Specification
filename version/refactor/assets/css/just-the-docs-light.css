@@ -7736,7 +7736,8 @@ blockquote.warning-title > p:last-child {
 }
 .tooltip {
   position: relative;
-  display: inline-block;
+  display: block;
+  width: fit-content;
 }
 
 .tooltip .tooltiptext {
@@ -7751,7 +7752,7 @@ blockquote.warning-title > p:last-child {
   z-index: 1;
   bottom: 150%;
   left: 50%;
-  margin-left: -60px;
+  transform: translateX(-50%);
 }
 
 .tooltip .tooltiptext::after {
@@ -7759,7 +7760,8 @@ blockquote.warning-title > p:last-child {
   position: absolute;
   top: 100%;
   left: 50%;
-  margin-left: -5px;
+  transform: translateX(-50%);
+  margin-left: 0;
   border-width: 5px;
   border-style: solid;
   border-color: black transparent transparent transparent;
@@ -7788,6 +7790,28 @@ blockquote.warning-title > p:last-child {
 .stdreftable tr th:nth-child(1) {
   width: fit-content;
   white-space: nowrap;
+}
+
+div.whitebox {
+  border: 5px dashed #ffffff;
+  padding: 20px;
+}
+
+div.blackbox {
+  border: 5px dashed #333333;
+  padding: 20px;
+}
+
+div.na_or_both {
+  padding: 20px;
+}
+
+div.blackbox,
+div.whitebox div.na_or_both {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* optional: keeps left alignment */
 }
 
 .SAFGridTable tr.SAF_Domain_C td {
@@ -7851,7 +7875,8 @@ blockquote.warning-title > p:last-child {
   align-items: center;
 }
 
-#gallery-controls button, #gallery-controls select {
+#gallery-controls button,
+#gallery-controls select {
   height: var(--control-height);
   padding: var(--control-padding);
   line-height: 1;
