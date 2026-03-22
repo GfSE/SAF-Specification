@@ -3,7 +3,7 @@
         <th></th>
         {% for asp in site.data.aspects | sort: AspectID %}
         <th>
-            <A href="./userdoc/aspects.html#{{ asp.ID}}">Aspect<BR>{{ asp.Name }}</A>
+            <A href="/userdoc/aspects.html#{{ asp.ID}}">Aspect<BR>{{ asp.Name }}</A>
         </th>
         {% endfor %}
     </tr>
@@ -12,7 +12,7 @@
     {% assign dom= site.data.domains | where : "DomainID", dc.DomainID %}
     {% assign dom_vp= site.data.viewpoints | where: "Domain", dom.first.Name %}
     <tr class="SAF_Domain_{{ dc.DomainID }}">
-        <td><A href="./userdoc/domains.html#{{ dom.first.ID}}">{{ dom.first.Name }}<BR>Domain</A></td>
+        <td><A href="/userdoc/domains.html#{{ dom.first.ID}}">{{ dom.first.Name }}<BR>Domain</A></td>
         {% for asp in site.data.aspects %}
         {% assign asp_vp_bb= dom_vp | where: "Aspect", asp.Name | where: "Exposure", "BlackBox" %}
         {% assign asp_vp_wb= dom_vp | where: "Aspect", asp.Name | where: "Exposure", "WhiteBox" %}
@@ -27,10 +27,10 @@
                 {% for vp in asp_vp_bb %}
                 <div class="tooltip">
                     {% if vp.Domain == "SAF Development" -%}
-                    <A href="./devdoc/{{ vp.Domain }} Domain/{{ vp.Name }}.html">{{vp.VP_ID}}<span
+                    <A href="/devdoc/{{ vp.Domain }} Domain/{{ vp.Name }}.html">{{vp.VP_ID}}<span
                             class="tooltiptext">{{ vp.Name }}</span></A>
                     {% else %}
-                    <A href="./userdoc/{{ vp.Domain }} Domain/{{ vp.Name }}.html">{{vp.VP_ID}}<span
+                    <A href="/userdoc/{{ vp.Domain }} Domain/{{ vp.Name }}.html">{{vp.VP_ID}}<span
                             class="tooltiptext">{{ vp.Name }}</span></A>
                     {% endif %}
                 </div>
@@ -44,10 +44,10 @@
                 {% for vp in asp_vp_wb %}
                 <div class="tooltip">
                     {% if vp.Domain == "SAF Development" -%}
-                    <A href="./devdoc/{{ vp.Domain }} Domain/{{ vp.Name }}.html">{{vp.VP_ID}}<span
+                    <A href="/devdoc/{{ vp.Domain }} Domain/{{ vp.Name }}.html">{{vp.VP_ID}}<span
                             class="tooltiptext">{{ vp.Name }}</span></A>
                     {% else %}
-                    <A href="./userdoc/{{ vp.Domain }} Domain/{{ vp.Name }}.html">{{vp.VP_ID}}<span
+                    <A href="/userdoc/{{ vp.Domain }} Domain/{{ vp.Name }}.html">{{vp.VP_ID}}<span
                             class="tooltiptext">{{ vp.Name }}</span></A>
                     {% endif %}
                 </div>
@@ -60,10 +60,10 @@
                 {% for vp in asp_vp_bbwb  %}
                 <div class="tooltip">
                     {% if vp.Domain == "SAF Development" -%}
-                    <A href="./devdoc/{{ vp.Domain }} Domain/{{ vp.Name }}.html">{{vp.VP_ID}}<span
+                    <A href="/devdoc/{{ vp.Domain }} Domain/{{ vp.Name }}.html">{{vp.VP_ID}}<span
                             class="tooltiptext">{{ vp.Name }}</span></A>
                     {% else %}
-                    <A href="./userdoc/{{ vp.Domain }} Domain/{{ vp.Name }}.html">{{vp.VP_ID}}<span
+                    <A href="/userdoc/{{ vp.Domain }} Domain/{{ vp.Name }}.html">{{vp.VP_ID}}<span
                             class="tooltiptext">{{ vp.Name }}</span></A>
                     {% endif %}
                 </div>
@@ -71,10 +71,10 @@
                 {% for vp in asp_vp_na  %}
                 <div class="tooltip">
                     {% if vp.Domain == "SAF Development" -%}
-                    <A href="./devdoc/{{ vp.Domain }} Domain/{{ vp.Name }}.html">{{vp.VP_ID}}<span
+                    <A href="/devdoc/{{ vp.Domain }} Domain/{{ vp.Name }}.html">{{vp.VP_ID}}<span
                             class="tooltiptext">{{ vp.Name }}</span></A>
                     {% else %}
-                    <A href="./userdoc/{{ vp.Domain }} Domain/{{ vp.Name }}.html">{{vp.VP_ID}}<span
+                    <A href="/userdoc/{{ vp.Domain }} Domain/{{ vp.Name }}.html">{{vp.VP_ID}}<span
                             class="tooltiptext">{{ vp.Name }}</span></A>
                     {% endif %}
                 </div>

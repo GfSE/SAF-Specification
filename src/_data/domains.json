@@ -1,8 +1,13 @@
 [ {
-  "Name" : "Common",
+  "Name" : "Architecture Foundation",
   "ID" : "_19_0_3_ebf0350_1584204842123_940980_356",
-  "DomainID" : "C",
+  "DomainID" : "A",
   "Documentation" : "Defines overarcing content, e.g. Terms, Applicable Standards"
+}, {
+  "Name" : "Conceptual",
+  "ID" : "_2026x_26f0132_1774174239894_989742_381",
+  "DomainID" : "C",
+  "Documentation" : "Conceptual Domain Viewpoints\n \nThe Functional Architecture addresses information needs during the System Requirements Definition process. It focuses on the black box aspects of the system, considering how the system interacts with its environment and the user, without delving into internal details.\nFor example, it translates the intended solution from the Operational Domain into the system’s Functions, defining the expected behavior and quality attributes such as performance, safety, and security. These system behaviors are perceived by the user or external entities at the system boundary (referred to as usage behavior). The outcome of this viewpoint is a comprehensive System Specification, which outlines the required system performance from an external perspective.\n\nThe Logical Architecture addresses the information needs during the Architecture Definition process, focusing on the system's internal structure and how its components interact.\nIt describes the Logical Structure of the System of Interest (SOI) and how responsibilities for system functionality are distributed across a network of interacting Logical Elements. These Logical Elements are tasked with specific functions, and their interactions are arranged in the system’s Logical Architecture. This architecture is often influenced by non-functional criteria, such as maintainability, reliability, safety, and security, ensuring that the system is robust and scalable.\n "
 }, {
   "Name" : "SAF Development",
   "ID" : "_2024x_26f0132_1719736322867_114112_27937",

@@ -149,7 +149,8 @@ div.whitebox div.na_or_both {
 }
 
 .SAFGridTable {
-  tr.SAF_Domain_C td {
+
+  tr.SAF_Domain_A td {
     background-color: #A5A5A5;
     color: #000000;
 
@@ -159,17 +160,7 @@ div.whitebox div.na_or_both {
     }
   }
 
-  tr.SAF_Domain_F td {
-    background-color: #00B0F0;
-    color: #000000;
-
-    A {
-      color: #000000;
-      text-decoration-color: #000000;
-    }
-  }
-
-  tr.SAF_Domain_L td {
+  tr.SAF_Domain_C td {
     background-color: #FFC000;
     color: #000000;
 
