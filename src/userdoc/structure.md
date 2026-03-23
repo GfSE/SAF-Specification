@@ -26,7 +26,7 @@ See the [SAF grid](../index.md#saf-grid)
 
 ### Domains follow engineering workflow
 The [Domains](domains.md) are based on by a typical engineering workflow. 
- * The [Architecture Foundation Domain](archfound.md) contains workflow overarching content such as Terms and Standards. 
+ * The [Architecture Management Domain](archfound.md) contains workflow overarching content such as Terms and Standards. 
  * The [Operational Domain](operational.md) addresses information need during the Business and Mission Analysis Process and Stakeholder Needs and Requirements Definition Process
  * The [Conceptual Domain](conceptual.md) addresses information needs during the System Requiements Definition Process (The conceptualk System blackbox ) and information needs during the Architecture Definition Process (the conceptual System Whitebox)
  * The [Physical Domain](physical.md) adresses information needs during the Design Definition Process (System Black Box and Whitebox on solution / design level)
