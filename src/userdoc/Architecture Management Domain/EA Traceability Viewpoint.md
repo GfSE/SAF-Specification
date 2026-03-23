@@ -1,6 +1,6 @@
 ---
 title: EA Traceability Viewpoint
-parent: Architecture Foundation Domain
+parent: Architecture Management Domain
 layout: default
 nav_order: 8
 ---

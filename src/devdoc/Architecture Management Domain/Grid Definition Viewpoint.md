@@ -1,6 +1,6 @@
 ---
 title: Grid Definition Viewpoint
-parent: "Dev-View Architecture Foundation Domain"
+parent: "Dev-View Architecture Management Domain"
 layout: default
 nav_order: 2
 ---

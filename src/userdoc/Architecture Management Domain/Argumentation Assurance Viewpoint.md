@@ -1,6 +1,6 @@
 ---
 title: Argumentation Assurance Viewpoint
-parent: Architecture Foundation Domain
+parent: Architecture Management Domain
 layout: default
 nav_order: 2
 ---

@@ -5,7 +5,7 @@
   "Purpose" : "The Argumentation Assurance Viewpoint presents claims backed up by arguments that are supported by evidence, together with the possibility to counter such claims in a similar manner.",
   "Applicability" : "The Argumentation Assurance Viewpoint supports the ability to present an evidence pattern, a structure of claims, arguments, and evidence, which is a common need in systems engineering. It applies equally to the establishment of traceability, definition of safety assurance cases, and even the presentation of business cases.",
   "Aspect" : "Taxonomy & Structure",
-  "Domain" : "Architecture Foundation",
+  "Domain" : "Architecture Management",
   "Presentation" : [ "A block definition diagram (BDD) featuring a claim-argument-evidence pattern (CAE)." ],
   "Stakeholders" : [ ],
   "Concern" : [ "_2021x_2_8710274_1674576758703_316775_23176" ],
@@ -26,7 +26,7 @@
   "Concern" : [ "_2024x_4c5019a_1718714261315_148021_24" ],
   "RecommendedVP" : [ ],
   "RequiredVP" : [ ],
-  "Exposure" : "NotApplicable",
+  "Exposure" : "WhiteBox",
   "VP_ID" : "F7_ASID"
 }, {
   "Name" : "Common Standards Definition Viewpoint",
@@ -35,7 +35,7 @@
   "Purpose" : "The Standards Definition Viewpoint supports the definition of applicable standards, and their relationships,  e.g., for format and protocol specifications, regulations, and engineering documents that are used throughout the system life cycle. It provides the meta-data for the applied standards, guidance and policy, e.g., issue, version, issue date, and publisher. The Viewpoint helps to keep track of changes to the set of applicable documents and of new versions of applied standards. Links should be used to refer to documents external to the architecture description.",
   "Applicability" : "The Standards Definition Viewpoint supports the definition of standards, and assignment of model elements to standards, during the technical processes and according to the information management process  of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 .",
   "Aspect" : "Taxonomy & Structure",
-  "Domain" : "Architecture Foundation",
+  "Domain" : "Architecture Management",
   "Presentation" : [ "A block definition diagram (BDD) featuring the taxonomy of types of standards,  applicable to the system of interest, or parts of the system of interest. The Standards are represented by packages which allows to use them in model libraries and put e.g. reusable interface definitions, or terms complying to the standard into the package", "A table format listing standards, applicable to the system of interest or parts of it, their relationships and the relation to which parts of the system the standards apply" ],
   "Stakeholders" : [ "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_ebf0350_1554653241806_566270_43560", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "Concern" : [ "_2021x_2_8710274_1700821607046_355547_58633", "_2021x_2_8710274_1700821579663_211989_58619", "_2021x_2_8710274_1700821592720_121043_58626", "_2021x_2_8710274_1700821558610_489259_58612", "_2024x_1_26f0132_1730147177395_667618_16797" ],
@@ -50,7 +50,7 @@
   "Purpose" : "The Common Terms Definition Viewpoint supports the definition of applicable terms used in standards or defined during the systems engineering activities.",
   "Applicability" : "The Common Terms Definition Viewpoint supports the definition of glossaries and terms during the technical processes and according to the information management process  of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 .",
   "Aspect" : "Taxonomy & Structure",
-  "Domain" : "Architecture Foundation",
+  "Domain" : "Architecture Management",
   "Presentation" : [ "A table format listing terms included in glossaries, or standards if applicable.", "A table format listing abbreviations included in glossaries, orstandards if applicable." ],
   "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_ebf0350_1554653241806_566270_43560", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "Concern" : [ "_2021x_2_8710274_1701365358930_669398_98281", "_2021x_2_8710274_1701365325155_727486_98279" ],
@@ -65,7 +65,7 @@
   "Purpose" : "The EA Traceability Viewpoint provides a mapping between SAF System Model elements and model elements of an upper Enterprise Architecture (EA) Model.\nThe mapping is accomplished by three kinds of relations\n- a representation relation which states that an element of the SAF System Model and the related model element in the EA model represents the same entity.\n- a derivation relation, stating that an element of the SAF System Model is derived from an EA model element.\n- an informed relation, stating that an element of the  SAF System Model is related to the respective EA Element. ",
   "Applicability" : "<html>\n  <head>\n\t\t<style>\n\t\t\tp {padding:0px; margin:0px;}\n\t\t</style>\n\t</head>\n  <body>\n    <p>\nThe viewpoint supports the\n\n    </p>\n\n    <ul>\n      <li>\n&ldquo;Configuration Management Process&rdquo; activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [&#167;2.3.4.5]\n\n      </li>\n      <li>\n&ldquo;Business or Mission Analysis Process&rdquo; activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [&#167;2.3.5.1]\n\n      </li>\n      <li>\n&ldquo;System Requirements Definition Process&rdquo; activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [&#167;2.3.5.3]\n\n      </li>\n      <li>\n&ldquo;Architecture Definition Process&rdquo; activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [&#167;2.3.5.4]\n\n      </li>\n      <li>\n&ldquo;Validation Process&rdquo; activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [&#167;2.3.5.11]\n\n      </li>\n    </ul>\n    <p>\nby providing the reasoning and tracing.\n\n    </p>\n\n</body>\n</html>",
   "Aspect" : "Traceability & Mapping",
-  "Domain" : "Architecture Foundation",
+  "Domain" : "Architecture Management",
   "Presentation" : [ "One or more mapping matrices representing EA model elements and SAF model elements and their represents, derive and inform relations.", "One or more tables containing EA model elements, SAF model elements and the represents, derivation and informs relations.", "One or more BDD containing EA model elements, SAF model elements and the  represents, derivation and informs relations." ],
   "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_2024x_2_26f0132_1757511908293_572766_174", "_2021x_2_8710274_1674680055517_468796_22923", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "Concern" : [ "_2024x_2_26f0132_1757422565358_576242_1400", "_2024x_2_26f0132_1757422565358_807136_1401", "_2024x_2_26f0132_1757422565357_592206_1399" ],
@@ -185,7 +185,7 @@
   "Purpose" : "The Grid Definition Viewpoint serves as overview about the of the Views present in a System Model.",
   "Applicability" : "The Grid Definition Viewpoint supports the \"System Viewpoints, Views and Models\" input/output of various Technical Processes in INCOSE SYSTEMS ENGINEERING HANDBOOK 2023.",
   "Aspect" : "Taxonomy & Structure",
-  "Domain" : "Architecture Foundation",
+  "Domain" : "Architecture Management",
   "Presentation" : [ "A content diagram featuring a matrix view for the SAF Viewpoint conceptual model: Rows represent Domains, and columns represent Aspects, and the cells manage the Views.", "A table featuring the saf viewpoints, the views (diagrams, tables, ..) of the system model conforming to those viewpoints, domain and aspect information" ],
   "Stakeholders" : [ "_2024x_26f0132_1719129555802_233661_14716" ],
   "Concern" : [ "_2021x_2_8710274_1696579743010_350358_24968", "_2024x_26f0132_1719133841790_534930_15826" ],
@@ -206,7 +206,7 @@
   "Concern" : [ "_2024x_4c5019a_1718715493582_286659_58" ],
   "RecommendedVP" : [ ],
   "RequiredVP" : [ ],
-  "Exposure" : "NotApplicable",
+  "Exposure" : "WhiteBox",
   "VP_ID" : "F7_IMAN"
 }, {
   "Name" : "Logical Functional Mapping Viewpoint",
@@ -581,7 +581,7 @@
   "Concern" : [ "_2024x_4c5019a_1718715464739_688953_54", "_2024x_4c5019a_1718714855467_803817_37", "_2024x_4c5019a_1718715061610_325235_44" ],
   "RecommendedVP" : [ ],
   "RequiredVP" : [ ],
-  "Exposure" : "NotApplicable",
+  "Exposure" : "BlackBox",
   "VP_ID" : "F7_SECT"
 }, {
   "Name" : "Security Risk Analysis Viewpoint",
@@ -596,7 +596,7 @@
   "Concern" : [ "_2024x_4c5019a_1718715703235_799252_75", "_2024x_2a0c05a1_1731018691176_346076_118", "_2024x_2a0c05a1_1731018562402_224934_115" ],
   "RecommendedVP" : [ ],
   "RequiredVP" : [ ],
-  "Exposure" : "NotApplicable",
+  "Exposure" : "WhiteBox",
   "VP_ID" : "F7_RIAN"
 }, {
   "Name" : "Stakeholder Identification Viewpoint",
@@ -851,6 +851,6 @@
   "Concern" : [ "_2024x_4c5019a_1718715611261_54506_66", "_2024x_4c5019a_1718715645801_941993_70", "_2024x_4c5019a_1718715577582_20337_62" ],
   "RecommendedVP" : [ ],
   "RequiredVP" : [ ],
-  "Exposure" : "NotApplicable",
+  "Exposure" : "WhiteBox",
   "VP_ID" : "F7_THSC"
 } ]
