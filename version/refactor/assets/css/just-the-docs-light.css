@@ -7798,7 +7798,7 @@ div.whitebox {
 }
 
 div.blackbox {
-  border: 5px dashed #333333;
+  border: 5px solid #333333;
   padding: 20px;
 }
 
