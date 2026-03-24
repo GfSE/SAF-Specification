@@ -353,9 +353,6 @@
     "Rationale" : "In my role, I need to implement the interface.",
     "Concern" : "Which are the interface definitions for the physical architecture?"
   }, {
-    "Rationale" : "In my role, I need to implement the protocol.",
-    "Concern" : "Which are the protocols for exchanging physical items on a specific interface?"
-  }, {
     "Rationale" : "In my role, I need to understand the concepts of system internal interfaces  in order to implement them.",
     "Concern" : "Which conceptual items (energy, material, information, etc.) are exchanged within the system?"
   }, {
@@ -372,7 +369,7 @@
     "Concern" : "Which kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?"
   }, {
     "Rationale" : "In my role, I must use these in interface design.",
-    "Concern" : "Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the system?"
+    "Concern" : "Which kind of physical items (energy, material, information, etc.) are defined for the physical architecture of the system?"
   }, {
     "Rationale" : "In my role, I need to implement the interfaces in my HW subsystem, if necessary.",
     "Concern" : "Which kind of physical items (energy, material, information, etc.) are used on an interface of a physical architecture element?"
@@ -465,9 +462,6 @@
   }, {
     "Rationale" : "In my role, I need to integrate and test the interfaces.",
     "Concern" : "Which are the external physical entities the system interacts with in the given context?"
-  }, {
-    "Rationale" : "In my role, I need to integrate and test the interface.",
-    "Concern" : "Which are the protocols for exchanging physical items on a specific interface?"
   }, {
     "Rationale" : "In my role, I need to integrate and test the interfaces.",
     "Concern" : "Which conceptual items (energy, material, information, etc.) are exchanged within the system?"
@@ -982,7 +976,7 @@
     "Concern" : "Which kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?"
   }, {
     "Rationale" : "In my role, I use them as basis for understanding interfaces on design level.",
-    "Concern" : "Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the system?"
+    "Concern" : "Which kind of physical items (energy, material, information, etc.) are defined for the physical architecture of the system?"
   }, {
     "Rationale" : "",
     "Concern" : "Which modes and states does the system have?"
@@ -1079,11 +1073,8 @@
     "Rationale" : "",
     "Concern" : "What shall be validated to the customer at system level?"
   }, {
-    "Rationale" : "In my role, I need to assess the security on the interface.",
-    "Concern" : "Which are the protocols for exchanging physical items on a specific interface?"
-  }, {
     "Rationale" : "In my role, I need to assess the security based on protocol usage in general.",
-    "Concern" : "Which are the protocols used for exchanging information?"
+    "Concern" : "Which are the protocol definitions used for exchanging information?"
   }, {
     "Rationale" : "I my role, I need to know the attack paths to analyse ways an attacker can use to reach the asset.",
     "Concern" : "Which attack paths exists? "
@@ -1107,7 +1098,7 @@
     "Concern" : "Which kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?"
   }, {
     "Rationale" : "In my role, I use them as basis for understanding interfaces on design level.",
-    "Concern" : "Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the system?"
+    "Concern" : "Which kind of physical items (energy, material, information, etc.) are defined for the physical architecture of the system?"
   }, {
     "Rationale" : "",
     "Concern" : "Which modes and states does the system have?"
@@ -1201,9 +1192,6 @@
     "Rationale" : "In my role, I need to implement the interface.",
     "Concern" : "Which are the interface definitions for the physical architecture?"
   }, {
-    "Rationale" : "In my role, I need to implement the protocol.",
-    "Concern" : "Which are the protocols for exchanging physical items on a specific interface?"
-  }, {
     "Rationale" : "In my role, I need to understand the concepts of system internal interfaces  in order to implement them.",
     "Concern" : "Which conceptual items (energy, material, information, etc.) are exchanged within the system?"
   }, {
@@ -1226,7 +1214,7 @@
     "Concern" : "Which kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?"
   }, {
     "Rationale" : "In my role, I must use these in interface design.",
-    "Concern" : "Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the system?"
+    "Concern" : "Which kind of physical items (energy, material, information, etc.) are defined for the physical architecture of the system?"
   }, {
     "Rationale" : "In my role, I need to implement the interfaces in my SW subsystem, if necessary.",
     "Concern" : "Which kind of physical items (energy, material, information, etc.) are used on an interface of a physical architecture element?"
@@ -1496,11 +1484,8 @@
     "Rationale" : "In my role, I need to orchestrate interface agreements between the system and external interface partners",
     "Concern" : "Which are the interface definitions for the physical architecture?"
   }, {
-    "Rationale" : "In my role, I need to asses if the usage of protocols on interfaces is compatible with the system lifecyle concepts.",
-    "Concern" : "Which are the protocols for exchanging physical items on a specific interface?"
-  }, {
     "Rationale" : "In my role, I need to validate if they fit the purpose of the system and conform the systems concepts",
-    "Concern" : "Which are the protocols used for exchanging information?"
+    "Concern" : "Which are the protocol definitions used for exchanging information?"
   }, {
     "Rationale" : "i need to record them in the project baseline-",
     "Concern" : "Which are the relevant releases of the applicable standards, guidance, and policy to be used for the development of the system of interest and its system elements?"
@@ -1547,11 +1532,11 @@
     "Rationale" : "In my role, I need to coordinate external interfaces with external partners.",
     "Concern" : "Which kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?"
   }, {
+    "Rationale" : "In my role, I have to foster reuse of system wide concept definitions within the architecture design.",
+    "Concern" : "Which kind of physical items (energy, material, information, etc.) are defined for the physical architecture of the system?"
+  }, {
     "Rationale" : "In my role, I need to orchestrate interface agreements between the system and external interface partners.",
     "Concern" : "Which kind of physical items (energy, material, information, etc.) are exchanged between the system and external entities?"
-  }, {
-    "Rationale" : "In my role, I have to foster reuse of system wide concept definitions within the architecture design.",
-    "Concern" : "Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the system?"
   }, {
     "Rationale" : "In my role, I orchestrate interface agreements between architecture elements, and between the system and elements of the system context.",
     "Concern" : "Which kind of physical items (energy, material, information, etc.) are used on an interface of a physical architecture element?"

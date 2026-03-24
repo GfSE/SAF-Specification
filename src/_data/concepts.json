@@ -565,17 +565,17 @@
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
     "Name" : "Logical Internal Exchange Viewpoint"
   } ],
-  "Documentation" : "Specifies the fact that a Logical Item Exchange is allowed on the Logical Connection.",
+  "Documentation" : "Specifies the fact that a Conceptual Item Exchange is allowed on the Conceptual Connection.",
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_663216_91033",
-    "Name" : "Logical Item Exchange",
+    "Name" : "Conceptual Item Exchange",
     "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_980990_91037",
-    "Name" : "Logical Connection",
+    "Name" : "Conceptual Connection",
     "Multiplicity" : "1"
   } ],
-  "Name" : "LCNallowingLIE",
+  "Name" : "allowing",
   "ID" : "_19_0_2_26f0132_1562303522067_850826_89482",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -588,7 +588,7 @@
   "Documentation" : "Specifies the fact that a Conceptual Exchange Type defines the type of a Logical Item Exchange.",
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_663216_91033",
-    "Name" : "Logical Item Exchange",
+    "Name" : "Conceptual Item Exchange",
     "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
@@ -608,10 +608,10 @@
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
     "Name" : "Logical Internal Exchange Viewpoint"
   } ],
-  "Documentation" : "Specifies the fact that a Conceptual Exchange Type defines the type of a Logical Interaction Point Property.",
+  "Documentation" : "Specifies the fact that a Conceptual Exchange Type defines the type of a Conceptual Interaction Point Property.",
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_980387_91029",
-    "Name" : "Logical Interaction Point Property",
+    "Name" : "Conceptual Interaction Point Property",
     "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
@@ -910,17 +910,17 @@
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
     "Name" : "Logical Internal Exchange Viewpoint"
   } ],
-  "Documentation" : "Specifies the fact that a Logical Interaction Point applies to a Logical Element.",
+  "Documentation" : "Specifies the fact that a Conceptual Interaction Point applies to a Conceptual System.",
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
     "Name" : "Conceptual System",
     "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_546931_91032",
-    "Name" : "Logical Interaction Point",
+    "Name" : "Conceptual Interaction Point",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "LIPapplyingToLET",
+  "Name" : "applyingTo",
   "ID" : "_19_0_2_26f0132_1562303524176_125039_91041",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -986,17 +986,17 @@
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
     "Name" : "Logical Internal Exchange Viewpoint"
   } ],
-  "Documentation" : "Specifies the fact that a Logical Interaction Point Definition defines the exchange capabilities of a Logical Interaction Point.",
+  "Documentation" : "Specifies the fact that a Conceptual Interaction Point Definition defines the exchange capabilities of a Conceptual Interaction Point.",
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_546931_91032",
-    "Name" : "Logical Interaction Point",
+    "Name" : "Conceptual Interaction Point",
     "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_900081_91027",
-    "Name" : "Logical Interaction Point Definition",
+    "Name" : "Conceptual Interaction Point Definition",
     "Multiplicity" : "1"
   } ],
-  "Name" : "LIPDdefiningDetailOfLIP",
+  "Name" : "defining",
   "ID" : "_19_0_2_26f0132_1562303524176_349234_91039",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -1108,9 +1108,9 @@
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
     "Name" : "Logical Internal Exchange Viewpoint"
   } ],
-  "Documentation" : "Specifies the existence of an interaction point on Logical Level.",
+  "Documentation" : "Specifies the existence of an interaction point on Conceptual  Level.",
   "AssociationEnds" : [ ],
-  "Name" : "Logical Interaction Point",
+  "Name" : "Conceptual Interaction Point",
   "ID" : "_19_0_2_26f0132_1562303524176_546931_91032",
   "InheritsFrom" : [ ],
   "ClassType" : "Class",
@@ -1259,9 +1259,9 @@
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
     "Name" : "Logical Internal Exchange Viewpoint"
   } ],
-  "Documentation" : "Specifies the exchange that is to take place on a connection of two interaction points on Logical Level.",
+  "Documentation" : "Specifies the exchange that is to take place on a connection of two interaction points on Conceptual Level.",
   "AssociationEnds" : [ ],
-  "Name" : "Logical Item Exchange",
+  "Name" : "Conceptual Item Exchange",
   "ID" : "_19_0_2_26f0132_1562303524176_663216_91033",
   "InheritsFrom" : [ ],
   "ClassType" : "Class",
@@ -1346,17 +1346,17 @@
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
     "Name" : "Logical Internal Exchange Viewpoint"
   } ],
-  "Documentation" : "Specifies the fact that a Logical Interaction Point Property is a detail of a Logical Interaction Point Definition.",
+  "Documentation" : "Specifies the fact that a Conceptual Interaction Point Property is a detail of a Conceptual Interaction Point Definition.",
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_900081_91027",
-    "Name" : "Logical Interaction Point Definition",
+    "Name" : "Conceptual Interaction Point Definition",
     "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_980387_91029",
-    "Name" : "Logical Interaction Point Property",
+    "Name" : "Conceptual Interaction Point Property",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "LIPPspecifyingDetailOfLIPD",
+  "Name" : "specifyingDetailOf",
   "ID" : "_19_0_2_26f0132_1562303524176_770729_91040",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -1482,17 +1482,17 @@
     "ID" : "_19_0_4_6d8019d_1618060963677_605184_292",
     "Name" : "System Context Exchange Viewpoint"
   } ],
-  "Documentation" : "Specifies the fact that a Logical Interaction Point applies to a Logical Context Element.",
+  "Documentation" : "Specifies the fact that a Conceptual Interaction Point applies to a Conceptual Context Element.",
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1558075029411_79067_44836",
     "Name" : "Conceptual Context Element",
     "Multiplicity" : "1..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_546931_91032",
-    "Name" : "Logical Interaction Point",
+    "Name" : "Conceptual Interaction Point",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "LIPapplyingToLCE",
+  "Name" : "applyingTo",
   "ID" : "_19_0_2_26f0132_1562303524176_849218_91042",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -1508,9 +1508,9 @@
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
     "Name" : "Logical Internal Exchange Viewpoint"
   } ],
-  "Documentation" : "Specifies the exchange capabilities of an interaction point on Logical Level.",
+  "Documentation" : "Specifies the exchange capabilities of an interaction point on Conceptual Level.",
   "AssociationEnds" : [ ],
-  "Name" : "Logical Interaction Point Definition",
+  "Name" : "Conceptual Interaction Point Definition",
   "ID" : "_19_0_2_26f0132_1562303524176_900081_91027",
   "InheritsFrom" : [ ],
   "ClassType" : "Class",
@@ -1573,7 +1573,7 @@
   } ],
   "Documentation" : "Specifies a detail of an interaction point on Logical Level.",
   "AssociationEnds" : [ ],
-  "Name" : "Logical Interaction Point Property",
+  "Name" : "Conceptual Interaction Point Property",
   "ID" : "_19_0_2_26f0132_1562303524176_980387_91029",
   "InheritsFrom" : [ ],
   "ClassType" : "Class",
@@ -1589,14 +1589,14 @@
   "Documentation" : "Specifies the connection of two interaction points on Logical Level.\nNote: Connections between logical components indicate that item flows are passed from one output of a source component to one or more inputs of target components.",
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_546931_91032",
-    "Name" : "Logical Interaction Point",
+    "Name" : "Conceptual Interaction Point",
     "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_546931_91032",
-    "Name" : "Logical Interaction Point",
+    "Name" : "Conceptual Interaction Point",
     "Multiplicity" : "1"
   } ],
-  "Name" : "Logical Connection",
+  "Name" : "Conceptual Connection",
   "ID" : "_19_0_2_26f0132_1562303524176_980990_91037",
   "InheritsFrom" : [ ],
   "ClassType" : "AssociationClass",
@@ -2612,7 +2612,7 @@
   "Documentation" : "Specifies the fact that a Logical Interaction Point is refined by System Requirements.",
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_546931_91032",
-    "Name" : "Logical Interaction Point",
+    "Name" : "Conceptual Interaction Point",
     "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_8710274_1558520012975_812587_44177",
@@ -4422,7 +4422,7 @@
     "Multiplicity" : "0..1"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_663216_91033",
-    "Name" : "Logical Item Exchange",
+    "Name" : "Conceptual Item Exchange",
     "Multiplicity" : "0..*"
   } ],
   "Name" : "LIEboundedByPL",
@@ -4439,7 +4439,7 @@
     "Multiplicity" : "0..1"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_663216_91033",
-    "Name" : "Logical Item Exchange",
+    "Name" : "Conceptual Item Exchange",
     "Multiplicity" : "0..*"
   } ],
   "Name" : "LIEboundedByPLS",
@@ -4456,7 +4456,7 @@
     "Multiplicity" : "0..1"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_546931_91032",
-    "Name" : "Logical Interaction Point",
+    "Name" : "Conceptual Interaction Point",
     "Multiplicity" : "0..*"
   } ],
   "Name" : "LCPboundedByPLS",
@@ -5101,7 +5101,7 @@
     "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_663216_91033",
-    "Name" : "Logical Item Exchange",
+    "Name" : "Conceptual Item Exchange",
     "Multiplicity" : "0..*"
   } ],
   "Name" : "LIEimplementsOIE",

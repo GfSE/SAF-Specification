@@ -460,7 +460,7 @@
     "Name" : "System Function"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_546931_91032",
-    "Name" : "Logical Interaction Point"
+    "Name" : "Conceptual Interaction Point"
   }, {
     "ID" : "_19_0_2_26f0132_1565104656755_27827_55752",
     "Name" : "SRderivingFromSR"
@@ -790,7 +790,7 @@
     "Name" : "Conceptual Exchange Type"
   }, {
     "ID" : "_19_0_2_26f0132_1562303522067_850826_89482",
-    "Name" : "LCNallowingLIE"
+    "Name" : "allowing"
   }, {
     "ID" : "_19_0_2_26f0132_1562303523801_255857_90761",
     "Name" : "typing"
@@ -799,31 +799,31 @@
     "Name" : "typing"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_125039_91041",
-    "Name" : "LIPapplyingToLET"
+    "Name" : "applyingTo"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_349234_91039",
-    "Name" : "LIPDdefiningDetailOfLIP"
+    "Name" : "defining"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_546931_91032",
-    "Name" : "Logical Interaction Point"
+    "Name" : "Conceptual Interaction Point"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_663216_91033",
-    "Name" : "Logical Item Exchange"
+    "Name" : "Conceptual Item Exchange"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_770729_91040",
-    "Name" : "LIPPspecifyingDetailOfLIPD"
+    "Name" : "specifyingDetailOf"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
     "Name" : "Conceptual System"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_900081_91027",
-    "Name" : "Logical Interaction Point Definition"
+    "Name" : "Conceptual Interaction Point Definition"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_980387_91029",
-    "Name" : "Logical Interaction Point Property"
+    "Name" : "Conceptual Interaction Point Property"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_980990_91037",
-    "Name" : "Logical Connection"
+    "Name" : "Conceptual Connection"
   } ],
   "VP_ID" : "_19_0_4_26f0132_1624951950640_368802_311"
 }, {
@@ -919,7 +919,7 @@
     "Name" : "Conceptual Exchange Type"
   }, {
     "ID" : "_19_0_2_26f0132_1562303522067_850826_89482",
-    "Name" : "LCNallowingLIE"
+    "Name" : "allowing"
   }, {
     "ID" : "_19_0_2_26f0132_1562303523801_255857_90761",
     "Name" : "typing"
@@ -928,34 +928,34 @@
     "Name" : "typing"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_125039_91041",
-    "Name" : "LIPapplyingToLET"
+    "Name" : "applyingTo"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_349234_91039",
-    "Name" : "LIPDdefiningDetailOfLIP"
+    "Name" : "defining"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_546931_91032",
-    "Name" : "Logical Interaction Point"
+    "Name" : "Conceptual Interaction Point"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_663216_91033",
-    "Name" : "Logical Item Exchange"
+    "Name" : "Conceptual Item Exchange"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_770729_91040",
-    "Name" : "LIPPspecifyingDetailOfLIPD"
+    "Name" : "specifyingDetailOf"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
     "Name" : "Conceptual System"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_849218_91042",
-    "Name" : "LIPapplyingToLCE"
+    "Name" : "applyingTo"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_900081_91027",
-    "Name" : "Logical Interaction Point Definition"
+    "Name" : "Conceptual Interaction Point Definition"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_980387_91029",
-    "Name" : "Logical Interaction Point Property"
+    "Name" : "Conceptual Interaction Point Property"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_980990_91037",
-    "Name" : "Logical Connection"
+    "Name" : "Conceptual Connection"
   }, {
     "ID" : "_19_0_2_26f0132_1562303989622_501728_139950",
     "Name" : "Conceptual Environment"
@@ -1339,7 +1339,7 @@
     "Name" : "Conceptual Exchange Type"
   }, {
     "ID" : "_19_0_2_26f0132_1562303522067_850826_89482",
-    "Name" : "LCNallowingLIE"
+    "Name" : "allowing"
   }, {
     "ID" : "_19_0_2_26f0132_1562303523801_255857_90761",
     "Name" : "typing"
@@ -1348,34 +1348,34 @@
     "Name" : "typing"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_125039_91041",
-    "Name" : "LIPapplyingToLET"
+    "Name" : "applyingTo"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_349234_91039",
-    "Name" : "LIPDdefiningDetailOfLIP"
+    "Name" : "defining"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_546931_91032",
-    "Name" : "Logical Interaction Point"
+    "Name" : "Conceptual Interaction Point"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_663216_91033",
-    "Name" : "Logical Item Exchange"
+    "Name" : "Conceptual Item Exchange"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_770729_91040",
-    "Name" : "LIPPspecifyingDetailOfLIPD"
+    "Name" : "specifyingDetailOf"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
     "Name" : "Conceptual System"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_849218_91042",
-    "Name" : "LIPapplyingToLCE"
+    "Name" : "applyingTo"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_900081_91027",
-    "Name" : "Logical Interaction Point Definition"
+    "Name" : "Conceptual Interaction Point Definition"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_980387_91029",
-    "Name" : "Logical Interaction Point Property"
+    "Name" : "Conceptual Interaction Point Property"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_980990_91037",
-    "Name" : "Logical Connection"
+    "Name" : "Conceptual Connection"
   } ],
   "VP_ID" : "_2021x_2_8710274_1676723513864_806117_26880"
 }, {

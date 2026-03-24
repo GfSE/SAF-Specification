@@ -96,10 +96,7 @@
   "Owner" : "exchange & interface",
   "Name" : "How do physical system elements interact to provide system functions?",
   "ID" : "_2021x_2_8710274_1674576758600_423008_23078",
-  "ConcernsViewpoints" : [ {
-    "Name" : "Physical Internal Exchange Viewpoint",
-    "ID" : "_2021x_2_8710274_1674680950433_310726_23659"
-  } ]
+  "ConcernsViewpoints" : [ ]
 }, {
   "Documentation" : "",
   "Owner" : "functional",
@@ -363,6 +360,9 @@
   "ConcernsViewpoints" : [ {
     "Name" : "Logical Internal Exchange Viewpoint",
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311"
+  }, {
+    "Name" : "System Interface Definition Viewpoint",
+    "ID" : "_2021x_2_8710274_1676723513864_806117_26880"
   } ]
 }, {
   "Documentation" : "",
@@ -448,9 +448,6 @@
   "Name" : "Which standards, protocols, and format specifications apply to a physical interface?",
   "ID" : "_2021x_2_8710274_1674576758891_215548_23373",
   "ConcernsViewpoints" : [ {
-    "Name" : "System Interface Definition Viewpoint",
-    "ID" : "_2021x_2_8710274_1676723513864_806117_26880"
-  }, {
     "Name" : "Physical Context Exchange Viewpoint",
     "ID" : "_19_0_2_26f0132_1562303526536_79296_92554"
   }, {
@@ -700,7 +697,7 @@
 }, {
   "Documentation" : "",
   "Owner" : "exchange & interface",
-  "Name" : "Which are the protocols used for exchanging information?",
+  "Name" : "Which are the protocol definitions used for exchanging information?",
   "ID" : "_2021x_2_8710274_1674576759093_319282_23509",
   "ConcernsViewpoints" : [ {
     "Name" : "Physical Interface Definition Viewpoint",
@@ -816,18 +813,6 @@
   } ]
 }, {
   "Documentation" : "",
-  "Owner" : "exchange & interface",
-  "Name" : "Which are the protocols for exchanging physical items on a specific interface?",
-  "ID" : "_2021x_2_8710274_1674576759247_884832_23642",
-  "ConcernsViewpoints" : [ {
-    "Name" : "Physical Context Exchange Viewpoint",
-    "ID" : "_19_0_2_26f0132_1562303526536_79296_92554"
-  }, {
-    "Name" : "Physical Internal Exchange Viewpoint",
-    "ID" : "_2021x_2_8710274_1674680950433_310726_23659"
-  } ]
-}, {
-  "Documentation" : "",
   "Owner" : "functional",
   "Name" : "What operational process activities shall be executed during the execution of an operational story?",
   "ID" : "_2021x_2_8710274_1674576759250_575950_23644",
@@ -856,7 +841,7 @@
 }, {
   "Documentation" : "",
   "Owner" : "exchange & interface",
-  "Name" : "Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the system?",
+  "Name" : "Which kind of physical items (energy, material, information, etc.) are defined for the physical architecture of the system?",
   "ID" : "_2021x_2_8710274_1697542838788_945785_24608",
   "ConcernsViewpoints" : [ {
     "Name" : "Physical Exchange Type Definition Viewpoint",
@@ -909,15 +894,6 @@
   "ConcernsViewpoints" : [ {
     "Name" : "Physical Internal Exchange Viewpoint",
     "ID" : "_2021x_2_8710274_1674680950433_310726_23659"
-  } ]
-}, {
-  "Documentation" : "",
-  "Owner" : "exchange & interface",
-  "Name" : "what are the interface definitions for physical elements",
-  "ID" : "_2021x_2_8710274_1698695217112_237670_48715",
-  "ConcernsViewpoints" : [ {
-    "Name" : "Physical Interface Definition Viewpoint",
-    "ID" : "_2021x_2_8710274_1695205330608_177015_24335"
   } ]
 }, {
   "Documentation" : "",

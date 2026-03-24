@@ -2992,7 +2992,7 @@
   "Documentation" : "In my role, I need to assess the security based on protocol usage in general.",
   "Concern" : {
     "ID" : "_2021x_2_8710274_1674576759093_319282_23509",
-    "Name" : "Which are the protocols used for exchanging information?"
+    "Name" : "Which are the protocol definitions used for exchanging information?"
   },
   "Stakeholder" : {
     "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
@@ -3768,18 +3768,6 @@
   }
 }, {
   "Name" : "",
-  "ID" : "_2021x_2_8710274_1674576759247_381703_23643",
-  "Documentation" : "In my role, I need to implement the protocol.",
-  "Concern" : {
-    "ID" : "_2021x_2_8710274_1674576759247_884832_23642",
-    "Name" : "Which are the protocols for exchanging physical items on a specific interface?"
-  },
-  "Stakeholder" : {
-    "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
-    "Name" : "Software Developer"
-  }
-}, {
-  "Name" : "",
   "ID" : "_2021x_2_8710274_1675089448455_338264_25097",
   "Documentation" : "",
   "Concern" : {
@@ -3789,54 +3777,6 @@
   "Stakeholder" : {
     "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
     "Name" : "Hardware Developer"
-  }
-}, {
-  "Name" : "",
-  "ID" : "_2021x_2_8710274_1695983218475_597708_24421",
-  "Documentation" : "In my role, I need to implement the protocol.",
-  "Concern" : {
-    "ID" : "_2021x_2_8710274_1674576759247_884832_23642",
-    "Name" : "Which are the protocols for exchanging physical items on a specific interface?"
-  },
-  "Stakeholder" : {
-    "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
-    "Name" : "Hardware Developer"
-  }
-}, {
-  "Name" : "",
-  "ID" : "_2021x_2_8710274_1695983221548_953656_24424",
-  "Documentation" : "In my role, I need to integrate and test the interface.",
-  "Concern" : {
-    "ID" : "_2021x_2_8710274_1674576759247_884832_23642",
-    "Name" : "Which are the protocols for exchanging physical items on a specific interface?"
-  },
-  "Stakeholder" : {
-    "ID" : "_19_0_2_26f0132_1562303526473_525021_92401",
-    "Name" : "IV&V Engineer"
-  }
-}, {
-  "Name" : "",
-  "ID" : "_2021x_2_8710274_1695983233053_931993_24425",
-  "Documentation" : "In my role, I need to assess the security on the interface.",
-  "Concern" : {
-    "ID" : "_2021x_2_8710274_1674576759247_884832_23642",
-    "Name" : "Which are the protocols for exchanging physical items on a specific interface?"
-  },
-  "Stakeholder" : {
-    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
-    "Name" : "Security Expert"
-  }
-}, {
-  "Name" : "",
-  "ID" : "_2021x_2_8710274_1695983240188_850760_24426",
-  "Documentation" : "In my role, I need to asses if the usage of protocols on interfaces is compatible with the system lifecyle concepts.",
-  "Concern" : {
-    "ID" : "_2021x_2_8710274_1674576759247_884832_23642",
-    "Name" : "Which are the protocols for exchanging physical items on a specific interface?"
-  },
-  "Stakeholder" : {
-    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
-    "Name" : "System Architect"
   }
 }, {
   "Name" : "",
@@ -3952,7 +3892,7 @@
   "Documentation" : "In my role, I need to validate if they fit the purpose of the system and conform the systems concepts",
   "Concern" : {
     "ID" : "_2021x_2_8710274_1674576759093_319282_23509",
-    "Name" : "Which are the protocols used for exchanging information?"
+    "Name" : "Which are the protocol definitions used for exchanging information?"
   },
   "Stakeholder" : {
     "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
@@ -4264,7 +4204,7 @@
   "Documentation" : "In my role, I have to foster reuse of system wide concept definitions within the architecture design.",
   "Concern" : {
     "ID" : "_2021x_2_8710274_1697542838788_945785_24608",
-    "Name" : "Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the system?"
+    "Name" : "Which kind of physical items (energy, material, information, etc.) are defined for the physical architecture of the system?"
   },
   "Stakeholder" : {
     "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
@@ -4276,7 +4216,7 @@
   "Documentation" : "In my role, I use them as basis for understanding interfaces on design level.",
   "Concern" : {
     "ID" : "_2021x_2_8710274_1697542838788_945785_24608",
-    "Name" : "Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the system?"
+    "Name" : "Which kind of physical items (energy, material, information, etc.) are defined for the physical architecture of the system?"
   },
   "Stakeholder" : {
     "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
@@ -4288,7 +4228,7 @@
   "Documentation" : "In my role, I use them as basis for understanding interfaces on design level.",
   "Concern" : {
     "ID" : "_2021x_2_8710274_1697542838788_945785_24608",
-    "Name" : "Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the system?"
+    "Name" : "Which kind of physical items (energy, material, information, etc.) are defined for the physical architecture of the system?"
   },
   "Stakeholder" : {
     "ID" : "_19_0_2_26f0132_1562303526473_410133_92403",
@@ -4300,7 +4240,7 @@
   "Documentation" : "In my role, I must use these in interface design.",
   "Concern" : {
     "ID" : "_2021x_2_8710274_1697542838788_945785_24608",
-    "Name" : "Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the system?"
+    "Name" : "Which kind of physical items (energy, material, information, etc.) are defined for the physical architecture of the system?"
   },
   "Stakeholder" : {
     "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
@@ -4324,7 +4264,7 @@
   "Documentation" : "In my role, I must use these in interface design.",
   "Concern" : {
     "ID" : "_2021x_2_8710274_1697542838788_945785_24608",
-    "Name" : "Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the system?"
+    "Name" : "Which kind of physical items (energy, material, information, etc.) are defined for the physical architecture of the system?"
   },
   "Stakeholder" : {
     "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",

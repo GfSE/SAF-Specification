@@ -592,7 +592,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_663216_91033",
-    "Name" : "Logical Item Exchange"
+    "Name" : "Conceptual Item Exchange"
   },
   "RealizationOfConcept" : {
     "ID" : "_11_0_be00301_1147691436170_978680_223",
@@ -604,7 +604,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_980990_91037",
-    "Name" : "Logical Connection"
+    "Name" : "Conceptual Connection"
   },
   "RealizationOfConcept" : {
     "ID" : "_9_0_62a020a_1105704884559_152470_7636",
@@ -616,7 +616,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_546931_91032",
-    "Name" : "Logical Interaction Point"
+    "Name" : "Conceptual Interaction Point"
   },
   "RealizationOfConcept" : {
     "ID" : "_17_0_3_17530432_1320213131032_5397_2410",
@@ -628,7 +628,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_125039_91041",
-    "Name" : "LIPapplyingToLET"
+    "Name" : "applyingTo"
   },
   "RealizationOfConcept" : {
     "ID" : "_9_0_62a020a_1105704884574_96724_7644",
@@ -640,7 +640,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_849218_91042",
-    "Name" : "LIPapplyingToLCE"
+    "Name" : "applyingTo"
   },
   "RealizationOfConcept" : {
     "ID" : "_9_0_62a020a_1105704884574_96724_7644",
@@ -736,7 +736,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_980387_91029",
-    "Name" : "Logical Interaction Point Property"
+    "Name" : "Conceptual Interaction Point Property"
   },
   "RealizationOfConcept" : {
     "ID" : "_11_5EAPbeta_be00301_1147436061009_177713_1911",
@@ -760,7 +760,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_900081_91027",
-    "Name" : "Logical Interaction Point Definition"
+    "Name" : "Conceptual Interaction Point Definition"
   },
   "RealizationOfConcept" : {
     "ID" : "_2021x_2_6d8019d_1692273490109_662219_24437",
@@ -2176,7 +2176,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_770729_91040",
-    "Name" : "LIPPspecifyingDetailOfLIPD"
+    "Name" : "specifyingDetailOf"
   },
   "RealizationOfConcept" : {
     "ID" : "_2021x_2_8710274_1681818167067_310281_29495",
@@ -2188,7 +2188,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_349234_91039",
-    "Name" : "LIPDdefiningDetailOfLIP"
+    "Name" : "defining"
   },
   "RealizationOfConcept" : {
     "ID" : "_2021x_2_8710274_1681818473370_517582_29594",
@@ -2200,7 +2200,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303522067_850826_89482",
-    "Name" : "LCNallowingLIE"
+    "Name" : "allowing"
   },
   "RealizationOfConcept" : {
     "ID" : "_2021x_2_8710274_1681827830138_917224_24184",

@@ -459,10 +459,10 @@
     "Name" : "Physical Exchange Type"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_663216_91033",
-    "Name" : "Logical Item Exchange"
+    "Name" : "Conceptual Item Exchange"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_980387_91029",
-    "Name" : "Logical Interaction Point Property"
+    "Name" : "Conceptual Interaction Point Property"
   }, {
     "ID" : "_19_0_3_26f0132_1600783068816_502199_735",
     "Name" : "Operational Exchange Type"
@@ -577,7 +577,7 @@
     "Name" : "Conceptual Exchange Type"
   }, {
     "ID" : "_19_0_2_26f0132_1562303522067_850826_89482",
-    "Name" : "LCNallowingLIE"
+    "Name" : "allowing"
   }, {
     "ID" : "_19_0_2_26f0132_1562303523801_255857_90761",
     "Name" : "typing"
@@ -586,34 +586,34 @@
     "Name" : "typing"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_125039_91041",
-    "Name" : "LIPapplyingToLET"
+    "Name" : "applyingTo"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_349234_91039",
-    "Name" : "LIPDdefiningDetailOfLIP"
+    "Name" : "defining"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_546931_91032",
-    "Name" : "Logical Interaction Point"
+    "Name" : "Conceptual Interaction Point"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_663216_91033",
-    "Name" : "Logical Item Exchange"
+    "Name" : "Conceptual Item Exchange"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_770729_91040",
-    "Name" : "LIPPspecifyingDetailOfLIPD"
+    "Name" : "specifyingDetailOf"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
     "Name" : "Conceptual System"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_849218_91042",
-    "Name" : "LIPapplyingToLCE"
+    "Name" : "applyingTo"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_900081_91027",
-    "Name" : "Logical Interaction Point Definition"
+    "Name" : "Conceptual Interaction Point Definition"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_980387_91029",
-    "Name" : "Logical Interaction Point Property"
+    "Name" : "Conceptual Interaction Point Property"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_980990_91037",
-    "Name" : "Logical Connection"
+    "Name" : "Conceptual Connection"
   }, {
     "ID" : "_19_0_2_26f0132_1562303989622_501728_139950",
     "Name" : "Conceptual Environment"
@@ -660,25 +660,25 @@
     "Name" : "Operational Context"
   }, {
     "ID" : "_19_0_2_26f0132_1562303522067_850826_89482",
-    "Name" : "LCNallowingLIE"
+    "Name" : "allowing"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_125039_91041",
-    "Name" : "LIPapplyingToLET"
+    "Name" : "applyingTo"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_546931_91032",
-    "Name" : "Logical Interaction Point"
+    "Name" : "Conceptual Interaction Point"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_663216_91033",
-    "Name" : "Logical Item Exchange"
+    "Name" : "Conceptual Item Exchange"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
     "Name" : "Conceptual System"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_849218_91042",
-    "Name" : "LIPapplyingToLCE"
+    "Name" : "applyingTo"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_980990_91037",
-    "Name" : "Logical Connection"
+    "Name" : "Conceptual Connection"
   }, {
     "ID" : "_19_0_2_26f0132_1562316412621_925297_43615",
     "Name" : "Operational Performer"
@@ -900,7 +900,7 @@
     "Name" : "System Function"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_546931_91032",
-    "Name" : "Logical Interaction Point"
+    "Name" : "Conceptual Interaction Point"
   }, {
     "ID" : "_19_0_2_26f0132_1565104656755_27827_55752",
     "Name" : "SRderivingFromSR"
@@ -1265,7 +1265,7 @@
     "Name" : "Operational Context"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_663216_91033",
-    "Name" : "Logical Item Exchange"
+    "Name" : "Conceptual Item Exchange"
   }, {
     "ID" : "_19_0_2_26f0132_1562316412621_925297_43615",
     "Name" : "Operational Performer"
@@ -1725,7 +1725,7 @@
     "Name" : "Operational Context"
   }, {
     "ID" : "_19_0_2_26f0132_1562303522067_850826_89482",
-    "Name" : "LCNallowingLIE"
+    "Name" : "allowing"
   }, {
     "ID" : "_19_0_2_26f0132_1562303523801_255857_90761",
     "Name" : "typing"
@@ -1743,13 +1743,13 @@
     "Name" : "Physical Interaction Point Property"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_125039_91041",
-    "Name" : "LIPapplyingToLET"
+    "Name" : "applyingTo"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_251302_91078",
     "Name" : "Software Element"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_349234_91039",
-    "Name" : "LIPDdefiningDetailOfLIP"
+    "Name" : "defining"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_401348_91038",
     "Name" : "PIPPspecifyingDetailOfPIPD"
@@ -1764,7 +1764,7 @@
     "Name" : "typing"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_546931_91032",
-    "Name" : "Logical Interaction Point"
+    "Name" : "Conceptual Interaction Point"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_605407_91026",
     "Name" : "typing"
@@ -1773,7 +1773,7 @@
     "Name" : "Physical Connection"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_663216_91033",
-    "Name" : "Logical Item Exchange"
+    "Name" : "Conceptual Item Exchange"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_706808_91045",
     "Name" : "PIPapplyingToPCE"
@@ -1782,7 +1782,7 @@
     "Name" : "PCNallowingPIE"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_770729_91040",
-    "Name" : "LIPPspecifyingDetailOfLIPD"
+    "Name" : "specifyingDetailOf"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_824595_91079",
     "Name" : "Physical Element"
@@ -1800,10 +1800,10 @@
     "Name" : "Conceptual System"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_849218_91042",
-    "Name" : "LIPapplyingToLCE"
+    "Name" : "applyingTo"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_900081_91027",
-    "Name" : "Logical Interaction Point Definition"
+    "Name" : "Conceptual Interaction Point Definition"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_925142_91031",
     "Name" : "Physical Item Exchange"
@@ -1815,10 +1815,10 @@
     "Name" : "Physical Interaction Point Definition"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_980387_91029",
-    "Name" : "Logical Interaction Point Property"
+    "Name" : "Conceptual Interaction Point Property"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_980990_91037",
-    "Name" : "Logical Connection"
+    "Name" : "Conceptual Connection"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_981340_91082",
     "Name" : "Conceptual Internal Role"
@@ -2011,7 +2011,7 @@
     "Name" : "Conceptual Exchange Type"
   }, {
     "ID" : "_19_0_2_26f0132_1562303522067_850826_89482",
-    "Name" : "LCNallowingLIE"
+    "Name" : "allowing"
   }, {
     "ID" : "_19_0_2_26f0132_1562303523801_255857_90761",
     "Name" : "typing"
@@ -2026,13 +2026,13 @@
     "Name" : "Physical Interaction Point Property"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_125039_91041",
-    "Name" : "LIPapplyingToLET"
+    "Name" : "applyingTo"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_251302_91078",
     "Name" : "Software Element"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_349234_91039",
-    "Name" : "LIPDdefiningDetailOfLIP"
+    "Name" : "defining"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_401348_91038",
     "Name" : "PIPPspecifyingDetailOfPIPD"
@@ -2047,7 +2047,7 @@
     "Name" : "typing"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_546931_91032",
-    "Name" : "Logical Interaction Point"
+    "Name" : "Conceptual Interaction Point"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_605407_91026",
     "Name" : "typing"
@@ -2056,7 +2056,7 @@
     "Name" : "Physical Connection"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_663216_91033",
-    "Name" : "Logical Item Exchange"
+    "Name" : "Conceptual Item Exchange"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_706808_91045",
     "Name" : "PIPapplyingToPCE"
@@ -2065,7 +2065,7 @@
     "Name" : "PCNallowingPIE"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_770729_91040",
-    "Name" : "LIPPspecifyingDetailOfLIPD"
+    "Name" : "specifyingDetailOf"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_824595_91079",
     "Name" : "Physical Element"
@@ -2083,10 +2083,10 @@
     "Name" : "Conceptual System"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_849218_91042",
-    "Name" : "LIPapplyingToLCE"
+    "Name" : "applyingTo"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_900081_91027",
-    "Name" : "Logical Interaction Point Definition"
+    "Name" : "Conceptual Interaction Point Definition"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_925142_91031",
     "Name" : "Physical Item Exchange"
@@ -2098,10 +2098,10 @@
     "Name" : "Physical Interaction Point Definition"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_980387_91029",
-    "Name" : "Logical Interaction Point Property"
+    "Name" : "Conceptual Interaction Point Property"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_980990_91037",
-    "Name" : "Logical Connection"
+    "Name" : "Conceptual Connection"
   }, {
     "ID" : "_19_0_2_26f0132_1562303989622_501728_139950",
     "Name" : "Conceptual Environment"
@@ -2399,22 +2399,22 @@
     "Name" : "Operational Context"
   }, {
     "ID" : "_19_0_2_26f0132_1562303522067_850826_89482",
-    "Name" : "LCNallowingLIE"
+    "Name" : "allowing"
   }, {
     "ID" : "_19_0_2_26f0132_1562303523801_255857_90761",
     "Name" : "typing"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_546931_91032",
-    "Name" : "Logical Interaction Point"
+    "Name" : "Conceptual Interaction Point"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_663216_91033",
-    "Name" : "Logical Item Exchange"
+    "Name" : "Conceptual Item Exchange"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_849218_91042",
-    "Name" : "LIPapplyingToLCE"
+    "Name" : "applyingTo"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_980990_91037",
-    "Name" : "Logical Connection"
+    "Name" : "Conceptual Connection"
   }, {
     "ID" : "_19_0_2_26f0132_1562316412621_925297_43615",
     "Name" : "Operational Performer"
