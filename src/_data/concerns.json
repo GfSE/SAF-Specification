@@ -253,13 +253,13 @@
 }, {
   "Documentation" : "",
   "Owner" : "interaction",
-  "Name" : "How do the logical system elements interact to provide the system functions?",
+  "Name" : "How do the conceptual system elements interact to provide the system functions?",
   "ID" : "_2021x_2_8710274_1674576758760_611640_23247",
   "ConcernsViewpoints" : [ {
-    "Name" : "Logical Internal Interaction Viewpoint",
+    "Name" : "System Internal Interaction Viewpoint",
     "ID" : "_19_0_2_26f0132_1576222951495_184664_54882"
   }, {
-    "Name" : "Logical Internal Exchange Viewpoint",
+    "Name" : "System Internal Exchange Viewpoint",
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311"
   } ]
 }, {
@@ -358,7 +358,7 @@
   "Name" : "Which conceptual items (energy, material, information, etc.) are exchanged within the system?",
   "ID" : "_2021x_2_8710274_1674576758825_79081_23317",
   "ConcernsViewpoints" : [ {
-    "Name" : "Logical Internal Exchange Viewpoint",
+    "Name" : "System Internal Exchange Viewpoint",
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311"
   }, {
     "Name" : "System Interface Definition Viewpoint",
@@ -367,10 +367,10 @@
 }, {
   "Documentation" : "",
   "Owner" : "structure",
-  "Name" : "What is the logical breakdown of the system?",
+  "Name" : "What is the conceptual breakdown of the system?",
   "ID" : "_2021x_2_8710274_1674576758828_494985_23322",
   "ConcernsViewpoints" : [ {
-    "Name" : "Logical Structure Definition Viewpoint",
+    "Name" : "System Structure Definition Viewpoint",
     "ID" : "_19_0_2_26f0132_1562303526536_284838_92559"
   } ]
 }, {
@@ -406,13 +406,13 @@
 }, {
   "Documentation" : "",
   "Owner" : "requirement",
-  "Name" : "Which requirements apply to a logical interface?",
+  "Name" : "Which requirements apply to a coinceptual interface?",
   "ID" : "_2021x_2_8710274_1674576758878_612030_23357",
   "ConcernsViewpoints" : [ {
     "Name" : "System Context Exchange Viewpoint",
     "ID" : "_19_0_4_6d8019d_1618060963677_605184_292"
   }, {
-    "Name" : "Logical Internal Exchange Viewpoint",
+    "Name" : "System Internal Exchange Viewpoint",
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311"
   } ]
 }, {
@@ -562,13 +562,13 @@
 }, {
   "Documentation" : "",
   "Owner" : "interaction",
-  "Name" : "What are the items exchanged between logical system elements during an interaction?",
+  "Name" : "What are the items exchanged between conceptual system elements during an interaction?",
   "ID" : "_2021x_2_8710274_1674576758991_165534_23433",
   "ConcernsViewpoints" : [ {
-    "Name" : "Logical Internal Interaction Viewpoint",
+    "Name" : "System Internal Interaction Viewpoint",
     "ID" : "_19_0_2_26f0132_1576222951495_184664_54882"
   }, {
-    "Name" : "Logical Internal Exchange Viewpoint",
+    "Name" : "System Internal Exchange Viewpoint",
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311"
   } ]
 }, {
@@ -712,16 +712,16 @@
     "Name" : "System Context Interaction Viewpoint",
     "ID" : "_19_0_4_26f0132_1626790419043_61789_443"
   }, {
-    "Name" : "Logical Internal Interaction Viewpoint",
+    "Name" : "System Internal Interaction Viewpoint",
     "ID" : "_19_0_2_26f0132_1576222951495_184664_54882"
   } ]
 }, {
   "Documentation" : "",
   "Owner" : "traceability & mapping",
-  "Name" : "Which functions are allocated to which parts of the logical architecture?",
+  "Name" : "Which functions are allocated to which parts of the conceptual architecture?",
   "ID" : "_2021x_2_8710274_1674576759104_328839_23526",
   "ConcernsViewpoints" : [ {
-    "Name" : "Logical Functional Mapping Viewpoint",
+    "Name" : "System Function Mapping Viewpoint",
     "ID" : "_19_0_2_26f0132_1575539296547_649713_56759"
   } ]
 }, {
@@ -859,7 +859,7 @@
 }, {
   "Documentation" : "",
   "Owner" : "traceability & mapping",
-  "Name" : "Which logical elements are allocated to which physical elements?",
+  "Name" : "Which conceptual elements are allocated to which physical elements?",
   "ID" : "_2021x_2_8710274_1698399385413_529894_33129",
   "ConcernsViewpoints" : [ {
     "Name" : "Physical Logical Mapping Viewpoint",
@@ -898,7 +898,7 @@
 }, {
   "Documentation" : "",
   "Owner" : "exchange & interface",
-  "Name" : "Which are the interface definitions for the logical architecture?",
+  "Name" : "Which are the interface definitions for the conceptual architecture?",
   "ID" : "_2021x_2_8710274_1698695260372_8568_48717",
   "ConcernsViewpoints" : [ {
     "Name" : "System Interface Definition Viewpoint",

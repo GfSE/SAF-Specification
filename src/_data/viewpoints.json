@@ -12,7 +12,7 @@
   "RecommendedVP" : [ ],
   "RequiredVP" : [ ],
   "Exposure" : "NotApplicable",
-  "VP_ID" : "C2_ARAS"
+  "VP_ID" : "A2_ARAS"
 }, {
   "Name" : "Asset Identification Viewpoint",
   "ID" : "_2024x_4c5019a_1724766057976_458531_938",
@@ -27,7 +27,7 @@
   "RecommendedVP" : [ ],
   "RequiredVP" : [ ],
   "Exposure" : "WhiteBox",
-  "VP_ID" : "F7_ASID"
+  "VP_ID" : "C7_ASID"
 }, {
   "Name" : "Common Standards Definition Viewpoint",
   "ID" : "_2021x_2_8710274_1676722868986_622372_25044",
@@ -42,7 +42,7 @@
   "RecommendedVP" : [ ],
   "RequiredVP" : [ ],
   "Exposure" : "NotApplicable",
-  "VP_ID" : "C2_CSTD"
+  "VP_ID" : "A2_CSTD"
 }, {
   "Name" : "Common Terms Definition Viewpoint",
   "ID" : "_2021x_2_8710274_1701349408071_720270_88478",
@@ -57,7 +57,7 @@
   "RecommendedVP" : [ "_2021x_2_8710274_1676722868986_622372_25044" ],
   "RequiredVP" : [ ],
   "Exposure" : "NotApplicable",
-  "VP_ID" : "C2_TRMD"
+  "VP_ID" : "A2_TRMD"
 }, {
   "Name" : "EA Traceability Viewpoint",
   "ID" : "_2024x_2_26f0132_1757420698363_571308_18",
@@ -72,7 +72,7 @@
   "RecommendedVP" : [ ],
   "RequiredVP" : [ ],
   "Exposure" : "BlackBox",
-  "VP_ID" : "C8_EATR"
+  "VP_ID" : "A8_EATR"
 }, {
   "Name" : "Framework Concept Definition Viewpoint",
   "ID" : "_2024x_26f0132_1719735639175_641082_26522",
@@ -192,7 +192,7 @@
   "RecommendedVP" : [ ],
   "RequiredVP" : [ ],
   "Exposure" : "NotApplicable",
-  "VP_ID" : "C2_GRID"
+  "VP_ID" : "A2_GRID"
 }, {
   "Name" : "Impact Analysis Viewpoint",
   "ID" : "_2024x_4c5019a_1729844949340_14779_2347",
@@ -207,67 +207,7 @@
   "RecommendedVP" : [ ],
   "RequiredVP" : [ ],
   "Exposure" : "WhiteBox",
-  "VP_ID" : "F7_IMAN"
-}, {
-  "Name" : "Logical Functional Mapping Viewpoint",
-  "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
-  "Maturity" : "released",
-  "Purpose" : "The Logical Functional Mapping Viewpoint supports the definition of assignment of system functions and system partial functions to logical system elements.",
-  "Applicability" : "The Logical Functional Mapping Viewpoint supports the “System Architecture Definition Process” activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.4] and contributes to the artifact \"Traceability Mapping\".\n\nFurthermore, the Logical Functional Mapping Viewpoint supports the \"Allocation and Partitioning of Functional Entities to Logical Entities\" activities.",
-  "Aspect" : "Traceability & Mapping",
-  "Domain" : "Conceptual",
-  "Presentation" : [ "A FBS to LBS mapping matrix featuring\n* Functional Breakdown Structure (FBS)\n* Logical Breakdown Structure (LBS)\n* Allocation from system functions and system partial functions to logical system elements" ],
-  "Stakeholders" : [ "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
-  "Concern" : [ "_2021x_2_8710274_1674576759104_328839_23526" ],
-  "RecommendedVP" : [ "_19_0_4_26f0132_1629448496383_291730_10342" ],
-  "RequiredVP" : [ "_19_0_2_8710274_1567167552896_772779_54664" ],
-  "Exposure" : "WhiteBox",
-  "VP_ID" : "L8_LFUM"
-}, {
-  "Name" : "Logical Internal Exchange Viewpoint",
-  "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-  "Maturity" : "released",
-  "Purpose" : "The Logical Internal Exchange Viewpoint serves for the identification and definition of interfaces of elements of the logical system. also, the delegation of system element interfaces to the logical system boundary interfaces is covered.\nThe Logical Internal Exchange Viewpoint\n* identifies system element interfaces on a logical level\n* states to which other logical elements the interfaces are connected to\n* assigns conceptual interface definitions to interfaces\n* defines the usage of interfaces, e.g., if only a subset of the interfaces is used \n* defines the delegation of logical system element interfaces to the logical system boundary interfaces",
-  "Applicability" : "The Logical Internal Exchange Viewpoint supports the \"System Architecture Definition Process\" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.4] and contributes to the artifacts \"System Architecture Description\" and \"System Interface Definition\".",
-  "Aspect" : "Interaction & Collaboration",
-  "Domain" : "Conceptual",
-  "Presentation" : [ "One or more IBDs featuring the SOI boundary, the logical elements of the SOI, as well as the connectors for each identified SOI interface delegation to logical SOI elements. An interface is a connection resource for hooking on the logical SOI elements to other logical SOI elements. Item flows are defined for each exchange on the identified interface.\nNote: Please use more than one IBD focused on different areas of interest to keep the view comprehensive." ],
-  "Stakeholders" : [ "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_26f0132_1562303526473_525021_92401", "_19_0_2_26f0132_1562303526473_410133_92403", "_19_0_2_ebf0350_1567337062655_160733_52757", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
-  "Concern" : [ "_2021x_2_8710274_1674576758760_611640_23247", "_2021x_2_8710274_1674576758991_165534_23433", "_2021x_2_8710274_1674576758825_79081_23317", "_2021x_2_8710274_1674576758878_612030_23357" ],
-  "RecommendedVP" : [ ],
-  "RequiredVP" : [ "_19_0_2_26f0132_1562303526536_778418_92552" ],
-  "Exposure" : "WhiteBox",
-  "VP_ID" : "L4_LIEX"
-}, {
-  "Name" : "Logical Internal Interaction Viewpoint",
-  "ID" : "_19_0_2_26f0132_1576222951495_184664_54882",
-  "Maturity" : "released",
-  "Purpose" : "The Logical Internal Interaction Viewpoint describes System internal behavior based on the exchange between the Logical SOI Elements Usage. It depicts the sequence of interactions between the Logical SOI Elements and the exchanged Domain Item Kinds needed to accomplish a System Partial Function.",
-  "Applicability" : "The Logical Internal Interaction Viewpoint supports the activities of the System Architecture Definition Process\" of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.4] and contributes to the System Architecture description.",
-  "Aspect" : "Interaction & Collaboration",
-  "Domain" : "Conceptual",
-  "Presentation" : [ "A sequence diagram featuring the flow of control between Internal Logical Elements of the SOI.\nNote: This diagram depicts the sending and receiving of messages between the interacting entities called lifelines where time is represented along the vertical axis. The lifeline representatives are part properties typed by Logical System Elements." ],
-  "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_ebf0350_1554653236737_36605_43554", "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_26f0132_1562303526473_525021_92401", "_19_0_2_ebf0350_1554653238260_245225_43556", "_19_0_2_26f0132_1562303526473_410133_92403", "_19_0_2_ebf0350_1567337062655_160733_52757", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1555170687022_190510_43698", "_19_0_2_ebf0350_1567280920665_435327_53193" ],
-  "Concern" : [ "_2021x_2_8710274_1674576758760_611640_23247", "_2021x_2_8710274_1674576758991_165534_23433", "_2021x_2_8710274_1674576759095_626726_23511" ],
-  "RecommendedVP" : [ "_19_0_2_8710274_1567167552896_772779_54664" ],
-  "RequiredVP" : [ "_19_0_2_26f0132_1562303526536_284838_92559" ],
-  "Exposure" : "WhiteBox",
-  "VP_ID" : "L4_LITI"
-}, {
-  "Name" : "Logical Structure Definition Viewpoint",
-  "ID" : "_19_0_2_26f0132_1562303526536_284838_92559",
-  "Maturity" : "released",
-  "Purpose" : "The Logical Structure Definition Viewpoint describes how the system is decomposed into a hierarchical structure of conceptual elements.\nThese conceptual system parts will be used to assign responsibilty to functions to them (divide & conquer principle). It covers related concepts and principles that define what the system does and is widely reusable among similar systems like product families, or product generations.",
-  "Applicability" : "The Logical Structure Viewpoint supports the \"System Architecture Definition Process\" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.4] and contributes to the artifact \"System Architecture Description\".\n\nFurthermore, the Logical Structure Viewpoint supports the \"Allocation and Partitioning of System Functions to Logical Entities\" activities, by providing the structure to allocate functions to.",
-  "Aspect" : "Taxonomy & Structure",
-  "Domain" : "Conceptual",
-  "Presentation" : [ "A block definition diagram (BDD) featuring the conceptual system block and conceptual system blocks for parts of the system. These elements are connected to the system block by means of aggregation relationships. \nNote: Multiple relationships to a kind of element are allowed. This means, that this kind of element is used in several roles." ],
-  "Stakeholders" : [ "_19_0_2_ebf0350_1555170687022_190510_43698" ],
-  "Concern" : [ "_2021x_2_8710274_1674576758828_494985_23322" ],
-  "RecommendedVP" : [ "_19_0_2_8710274_1567167552896_772779_54664" ],
-  "RequiredVP" : [ "_19_0_4_26f0132_1629448496383_291730_10342" ],
-  "Exposure" : "WhiteBox",
-  "VP_ID" : "L2_LSTD"
+  "VP_ID" : "C7_IMAN"
 }, {
   "Name" : "Operational Capability Definition Viewpoint",
   "ID" : "_19_0_3_8710274_1581675970682_325249_52535",
@@ -582,7 +522,7 @@
   "RecommendedVP" : [ ],
   "RequiredVP" : [ ],
   "Exposure" : "BlackBox",
-  "VP_ID" : "F7_SECT"
+  "VP_ID" : "C7_SECT"
 }, {
   "Name" : "Security Risk Analysis Viewpoint",
   "ID" : "_2024x_4c5019a_1729850878319_101841_4365",
@@ -597,7 +537,7 @@
   "RecommendedVP" : [ ],
   "RequiredVP" : [ ],
   "Exposure" : "WhiteBox",
-  "VP_ID" : "F7_RIAN"
+  "VP_ID" : "C7_RIAN"
 }, {
   "Name" : "Stakeholder Identification Viewpoint",
   "ID" : "_19_0_2_26f0132_1565093441772_881981_49327",
@@ -642,7 +582,7 @@
   "RecommendedVP" : [ "_19_0_3_8710274_1581675970682_325249_52535" ],
   "RequiredVP" : [ ],
   "Exposure" : "BlackBox",
-  "VP_ID" : "F2_SCYD"
+  "VP_ID" : "C2_SCYD"
 }, {
   "Name" : "System Capability Mapping Viewpoint",
   "ID" : "_2021x_2_6d8019d_1690628661558_769067_24257",
@@ -657,7 +597,7 @@
   "RecommendedVP" : [ "_19_0_3_8710274_1581675970682_325249_52535" ],
   "RequiredVP" : [ "_19_0_4_6d8019d_1618757838536_301313_442" ],
   "Exposure" : "NotApplicable",
-  "VP_ID" : "F8_SCYM"
+  "VP_ID" : "C8_SCYM"
 }, {
   "Name" : "System Context Definition Viewpoint",
   "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
@@ -672,7 +612,7 @@
   "RecommendedVP" : [ "_19_0_2_26f0132_1567778254489_369345_55863" ],
   "RequiredVP" : [ ],
   "Exposure" : "BlackBox",
-  "VP_ID" : "F1_SCXD"
+  "VP_ID" : "C1_SCXD"
 }, {
   "Name" : "System Context Exchange Viewpoint",
   "ID" : "_19_0_4_6d8019d_1618060963677_605184_292",
@@ -687,7 +627,7 @@
   "RecommendedVP" : [ "_19_0_2_26f0132_1576232878029_619084_56885" ],
   "RequiredVP" : [ "_19_0_4_6d8019d_1618589543897_213858_307" ],
   "Exposure" : "BlackBox",
-  "VP_ID" : "F1_SCXE"
+  "VP_ID" : "C1_SCXE"
 }, {
   "Name" : "System Context Interaction Viewpoint",
   "ID" : "_19_0_4_26f0132_1626790419043_61789_443",
@@ -702,7 +642,7 @@
   "RecommendedVP" : [ "_19_0_2_8710274_1567167552896_772779_54664" ],
   "RequiredVP" : [ "_19_0_4_6d8019d_1618589543897_213858_307" ],
   "Exposure" : "BlackBox",
-  "VP_ID" : "F4_SCXI"
+  "VP_ID" : "C4_SCXI"
 }, {
   "Name" : "System Exchange Type Definition Viewpoint",
   "ID" : "_19_0_2_26f0132_1562303526536_778418_92552",
@@ -717,7 +657,22 @@
   "RecommendedVP" : [ "_19_0_4_26f0132_1631280350392_855780_562" ],
   "RequiredVP" : [ ],
   "Exposure" : "Both",
-  "VP_ID" : "F2_SETD"
+  "VP_ID" : "C2_SETD"
+}, {
+  "Name" : "System Function Mapping Viewpoint",
+  "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
+  "Maturity" : "released",
+  "Purpose" : "The System Function Mapping Viewpoint supports the definition of assignment of system functions (and their sub functions) to conceptual system elements.",
+  "Applicability" : "The Systtem Function Mapping Viewpoint supports the “System Architecture Definition Process” activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.4] and contributes to the artifact \"Traceability Mapping\".\n\nFurthermore, the System Function Mapping Viewpoint supports the \"Allocation and Partitioning of Functional Entities to Logical Entities\" activities.",
+  "Aspect" : "Traceability & Mapping",
+  "Domain" : "Conceptual",
+  "Presentation" : [ "A FBS to CBS mapping matrix featuring\n* Functional Breakdown Structure (FBS)\n* Conceptual Breakdown Structure (CBS)\n* Allocation from system functions and system partial functions to conceptual system elements" ],
+  "Stakeholders" : [ "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
+  "Concern" : [ "_2021x_2_8710274_1674576759104_328839_23526" ],
+  "RecommendedVP" : [ "_19_0_4_26f0132_1629448496383_291730_10342" ],
+  "RequiredVP" : [ "_19_0_2_8710274_1567167552896_772779_54664" ],
+  "Exposure" : "WhiteBox",
+  "VP_ID" : "C8_SFUM"
 }, {
   "Name" : "System Functional Breakdown Structure Viewpoint",
   "ID" : "_19_0_4_26f0132_1629448496383_291730_10342",
@@ -732,7 +687,7 @@
   "RecommendedVP" : [ "_19_0_2_8710274_1567167552896_772779_54664" ],
   "RequiredVP" : [ ],
   "Exposure" : "WhiteBox",
-  "VP_ID" : "F2_SFBS"
+  "VP_ID" : "C2_SFBS"
 }, {
   "Name" : "System Functional Refinement Viewpoint",
   "ID" : "_2021x_2_8710274_1676723256334_812178_26576",
@@ -747,7 +702,7 @@
   "RecommendedVP" : [ "_19_0_2_26f0132_1562303526536_778418_92552" ],
   "RequiredVP" : [ "_19_0_2_8710274_1567167552896_772779_54664" ],
   "Exposure" : "BlackBox",
-  "VP_ID" : "F3_SFRE"
+  "VP_ID" : "C3_SFRE"
 }, {
   "Name" : "System Interface Definition Viewpoint",
   "ID" : "_2021x_2_8710274_1676723513864_806117_26880",
@@ -762,7 +717,37 @@
   "RecommendedVP" : [ ],
   "RequiredVP" : [ ],
   "Exposure" : "Both",
-  "VP_ID" : "F5_SIFD"
+  "VP_ID" : "C5_SIFD"
+}, {
+  "Name" : "System Internal Exchange Viewpoint",
+  "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
+  "Maturity" : "released",
+  "Purpose" : "The System Internal Exchange Viewpoint serves for the identification and definition of interfaces of elements of the conceptual system. also, the delegation of system element interfaces to the conceptual system boundary interfaces is covered.\nThe System Internal Exchange Viewpoint\n* identifies system element interfaces on a conceptual level\n* states to which other conceptual elements the interfaces are connected to\n* assigns conceptual interface definitions to interfaces\n* defines the usage of interfaces, e.g., if only a subset of the interfaces is used \n* defines the delegation of conceptual system element interfaces to the conceptual system boundary interfaces",
+  "Applicability" : "The Conceptual Internal Exchange Viewpoint supports the \"System Architecture Definition Process\" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.4] and contributes to the artifacts \"System Architecture Description\" and \"System Interface Definition\".",
+  "Aspect" : "Interaction & Collaboration",
+  "Domain" : "Conceptual",
+  "Presentation" : [ "One or more IBDs featuring the SOI boundary, the conceptual elements of the SOI, as well as the connectors for each identified SOI interface delegation to conceptual SOI elements. An interface is a connection resource for hooking on the conceptual SOI elements to other conceptual SOI elements. Item flows are defined for each exchange on the identified interface.\nNote: Please use more than one IBD focused on different areas of interest to keep the view comprehensive." ],
+  "Stakeholders" : [ "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_26f0132_1562303526473_525021_92401", "_19_0_2_26f0132_1562303526473_410133_92403", "_19_0_2_ebf0350_1567337062655_160733_52757", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
+  "Concern" : [ "_2021x_2_8710274_1674576758760_611640_23247", "_2021x_2_8710274_1674576758991_165534_23433", "_2021x_2_8710274_1674576758825_79081_23317", "_2021x_2_8710274_1674576758878_612030_23357" ],
+  "RecommendedVP" : [ ],
+  "RequiredVP" : [ "_19_0_2_26f0132_1562303526536_778418_92552" ],
+  "Exposure" : "WhiteBox",
+  "VP_ID" : "C4_SIEX"
+}, {
+  "Name" : "System Internal Interaction Viewpoint",
+  "ID" : "_19_0_2_26f0132_1576222951495_184664_54882",
+  "Maturity" : "released",
+  "Purpose" : "The SystemInternal Interaction Viewpoint describes System internal behavior based on the exchange between the Conceptual Systems internal Roles It depicts the sequence of interactions between the Conceptual SOI Elements and the exchanged Domain Item Kinds.",
+  "Applicability" : "The System Internal Interaction Viewpoint supports the activities of the System Architecture Definition Process\" of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.4] and contributes to the System Architecture description.",
+  "Aspect" : "Interaction & Collaboration",
+  "Domain" : "Conceptual",
+  "Presentation" : [ "A sequence diagram featuring the flow of control between Conceptual Internal Roles within the SOI.\nNote: This diagram depicts the sending and receiving of messages between the interacting entities called lifelines where time is represented along the vertical axis. The lifeline representatives are part properties typed by Conceptual System." ],
+  "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_ebf0350_1554653236737_36605_43554", "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_26f0132_1562303526473_525021_92401", "_19_0_2_ebf0350_1554653238260_245225_43556", "_19_0_2_26f0132_1562303526473_410133_92403", "_19_0_2_ebf0350_1567337062655_160733_52757", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1555170687022_190510_43698", "_19_0_2_ebf0350_1567280920665_435327_53193" ],
+  "Concern" : [ "_2021x_2_8710274_1674576758760_611640_23247", "_2021x_2_8710274_1674576758991_165534_23433", "_2021x_2_8710274_1674576759095_626726_23511" ],
+  "RecommendedVP" : [ "_19_0_2_8710274_1567167552896_772779_54664" ],
+  "RequiredVP" : [ "_19_0_2_26f0132_1562303526536_284838_92559" ],
+  "Exposure" : "WhiteBox",
+  "VP_ID" : "C4_SITI"
 }, {
   "Name" : "System Process Viewpoint",
   "ID" : "_19_0_2_8710274_1567167552896_772779_54664",
@@ -777,7 +762,7 @@
   "RecommendedVP" : [ "_19_0_2_26f0132_1567778254489_369345_55863" ],
   "RequiredVP" : [ ],
   "Exposure" : "BlackBox",
-  "VP_ID" : "F3_SPRO"
+  "VP_ID" : "C3_SPRO"
 }, {
   "Name" : "System Requirement Definition Viewpoint",
   "ID" : "_19_0_2_26f0132_1565104337297_671823_55529",
@@ -792,7 +777,7 @@
   "RecommendedVP" : [ "_19_0_1_26f0132_1554446728606_740631_45702" ],
   "RequiredVP" : [ "_19_0_2_26f0132_1565093441772_890565_49326" ],
   "Exposure" : "BlackBox",
-  "VP_ID" : "F6_SRQD"
+  "VP_ID" : "C6_SRQD"
 }, {
   "Name" : "System Requirement Traceability Viewpoint",
   "ID" : "_19_0_2_26f0132_1565093441772_728957_49328",
@@ -807,7 +792,7 @@
   "RecommendedVP" : [ "_19_0_1_26f0132_1554446728606_740631_45702" ],
   "RequiredVP" : [ "_19_0_2_26f0132_1565093441772_890565_49326" ],
   "Exposure" : "NotApplicable",
-  "VP_ID" : "F8_SRQT"
+  "VP_ID" : "C8_SRQT"
 }, {
   "Name" : "System State Viewpoint",
   "ID" : "_19_0_2_26f0132_1562303526536_189439_92549",
@@ -822,7 +807,22 @@
   "RecommendedVP" : [ "_19_0_4_6d8019d_1618589543897_213858_307" ],
   "RequiredVP" : [ ],
   "Exposure" : "BlackBox",
-  "VP_ID" : "F3_SSTA"
+  "VP_ID" : "C3_SSTA"
+}, {
+  "Name" : "System Structure Definition Viewpoint",
+  "ID" : "_19_0_2_26f0132_1562303526536_284838_92559",
+  "Maturity" : "released",
+  "Purpose" : "The System Structure Definition Viewpoint describes how the system is decomposed into a hierarchical structure of conceptual elements.\nThese conceptual system parts will be used to assign responsibilty to functions to them (divide & conquer principle). It covers related concepts and principles that define what the system does and is widely reusable among similar systems like product families, or product generations.",
+  "Applicability" : "The System Structure Viewpoint supports the \"System Architecture Definition Process\" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.4] and contributes to the artifact \"System Architecture Description\".\n\nFurthermore, the System Structure Viewpoint supports the \"Allocation and Partitioning of System Functions to Logical Entities\" activities, by providing the structure to allocate functions to.",
+  "Aspect" : "Taxonomy & Structure",
+  "Domain" : "Conceptual",
+  "Presentation" : [ "A block definition diagram (BDD) featuring the conceptual system block and conceptual system blocks for parts of the system. These elements are connected to the system block by means of aggregation relationships. \nNote: Multiple relationships to a kind of element are allowed. This means, that this kind of element is used in several roles." ],
+  "Stakeholders" : [ "_19_0_2_ebf0350_1555170687022_190510_43698" ],
+  "Concern" : [ "_2021x_2_8710274_1674576758828_494985_23322" ],
+  "RecommendedVP" : [ "_19_0_2_8710274_1567167552896_772779_54664" ],
+  "RequiredVP" : [ "_19_0_4_26f0132_1629448496383_291730_10342" ],
+  "Exposure" : "WhiteBox",
+  "VP_ID" : "C2_SSTD"
 }, {
   "Name" : "System Use Case Viewpoint",
   "ID" : "_19_0_1_26f0132_1554446728606_740631_45702",
@@ -837,7 +837,7 @@
   "RecommendedVP" : [ "_19_0_2_26f0132_1561750369203_901730_48359" ],
   "RequiredVP" : [ "_19_0_4_6d8019d_1618589543897_213858_307" ],
   "Exposure" : "BlackBox",
-  "VP_ID" : "F1_SUCD"
+  "VP_ID" : "C1_SUCD"
 }, {
   "Name" : "Threat Szenario Viewpoint",
   "ID" : "_2024x_4c5019a_1729849066734_574747_3879",
@@ -852,5 +852,5 @@
   "RecommendedVP" : [ ],
   "RequiredVP" : [ ],
   "Exposure" : "WhiteBox",
-  "VP_ID" : "F7_THSC"
+  "VP_ID" : "C7_THSC"
 } ]

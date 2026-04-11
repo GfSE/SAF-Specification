@@ -799,7 +799,7 @@
     "Name" : "Logical Context SOI_ Deprecated"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_367314_91006",
-    "Name" : "SFNallocatedToLET"
+    "Name" : "allocatedTo"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_394471_91009",
     "Name" : "System Function"
@@ -1481,16 +1481,16 @@
     "Name" : "Conceptual Internal Role"
   }, {
     "ID" : "_19_0_3_26f0132_1582314602701_812421_56211",
-    "Name" : "Logical Interaction Scenario"
+    "Name" : "Conceptual Interaction Scenario"
   }, {
     "ID" : "_19_0_3_26f0132_1582315087346_20721_56621",
-    "Name" : "Logical Scenario Participation"
+    "Name" : "Conceptual Scenario Participation"
   }, {
     "ID" : "_19_0_3_26f0132_1582315257123_533586_56785",
-    "Name" : "Logical Chronological Message"
+    "Name" : "Conceptual Chronological Message"
   }, {
     "ID" : "_19_0_3_6d8019d_1608891158785_105089_964",
-    "Name" : "LIScontainingILCM"
+    "Name" : "containing"
   } ]
 }, {
   "ID" : "_19_0_4_6d8019d_1630754051112_668386_1238",
@@ -1854,13 +1854,13 @@
     "Name" : "Physical User"
   }, {
     "ID" : "_19_0_3_26f0132_1582314602701_812421_56211",
-    "Name" : "Logical Interaction Scenario"
+    "Name" : "Conceptual Interaction Scenario"
   }, {
     "ID" : "_19_0_3_26f0132_1582315087346_20721_56621",
-    "Name" : "Logical Scenario Participation"
+    "Name" : "Conceptual Scenario Participation"
   }, {
     "ID" : "_19_0_3_26f0132_1582315257123_533586_56785",
-    "Name" : "Logical Chronological Message"
+    "Name" : "Conceptual Chronological Message"
   }, {
     "ID" : "_19_0_3_26f0132_1582315776086_564652_57900",
     "Name" : "General Interaction Scenario"
@@ -1902,7 +1902,7 @@
     "Name" : "SCIScontainingLCM"
   }, {
     "ID" : "_19_0_3_6d8019d_1608891158785_105089_964",
-    "Name" : "LIScontainingILCM"
+    "Name" : "containing"
   }, {
     "ID" : "_19_0_4_26f0132_1624611043495_845903_880",
     "Name" : "System Partial Function"

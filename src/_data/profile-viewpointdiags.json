@@ -67,7 +67,7 @@
 }, {
   "ID" : "_19_0_2_26f0132_1562303529036_753566_94295",
   "Documentation" : "",
-  "Name" : "Logical Structure Definition Profile",
+  "Name" : "System Structure Definition Profile",
   "DiagConcepts" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
     "Name" : "Conceptual System"
@@ -292,13 +292,13 @@
 }, {
   "ID" : "_19_0_2_26f0132_1575539296562_379520_56790",
   "Documentation" : "",
-  "Name" : "Logical Functional Mapping Profile",
+  "Name" : "System Function Mapping Profile",
   "DiagConcepts" : [ {
     "ID" : "_19_0_2_26f0132_1558075212525_51415_45174",
     "Name" : "Logical Context SOI_ Deprecated"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_367314_91006",
-    "Name" : "SFNallocatedToLET"
+    "Name" : "allocatedTo"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_394471_91009",
     "Name" : "System Function"
@@ -499,7 +499,7 @@
 }, {
   "ID" : "_19_0_3_26f0132_1582314374138_941902_54211",
   "Documentation" : "",
-  "Name" : "Logical Internal Interaction Profile",
+  "Name" : "System Internal Interaction Profile",
   "DiagConcepts" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
     "Name" : "Conceptual System"
@@ -508,16 +508,16 @@
     "Name" : "Conceptual Internal Role"
   }, {
     "ID" : "_19_0_3_26f0132_1582314602701_812421_56211",
-    "Name" : "Logical Interaction Scenario"
+    "Name" : "Conceptual Interaction Scenario"
   }, {
     "ID" : "_19_0_3_26f0132_1582315087346_20721_56621",
-    "Name" : "Logical Scenario Participation"
+    "Name" : "Conceptual Scenario Participation"
   }, {
     "ID" : "_19_0_3_26f0132_1582315257123_533586_56785",
-    "Name" : "Logical Chronological Message"
+    "Name" : "Conceptual Chronological Message"
   }, {
     "ID" : "_19_0_3_6d8019d_1608891158785_105089_964",
-    "Name" : "LIScontainingILCM"
+    "Name" : "containing"
   } ],
   "VP_ID" : "_19_0_2_26f0132_1576222951495_184664_54882"
 }, {
@@ -784,7 +784,7 @@
 }, {
   "ID" : "_19_0_4_26f0132_1624951952583_316552_387",
   "Documentation" : "",
-  "Name" : "Logical Internal Exchange Profile",
+  "Name" : "System Internal Exchange Profile",
   "DiagConcepts" : [ {
     "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
     "Name" : "Conceptual Exchange Type"

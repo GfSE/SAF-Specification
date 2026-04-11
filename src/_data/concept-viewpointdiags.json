@@ -287,7 +287,7 @@
   "VP_ID" : "_19_0_2_26f0132_1562303526536_778418_92552",
   "ID" : "_19_0_2_26f0132_1562303528426_375017_93960"
 }, {
-  "Name" : "Logical Structure Definition Concept",
+  "Name" : "System Structure Definition Concept",
   "DiagConcepts" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
     "Name" : "Conceptual System"
@@ -383,13 +383,10 @@
   "VP_ID" : "_19_0_2_26f0132_1567778254489_369345_55863",
   "ID" : "_19_0_2_26f0132_1567778254458_727689_55820"
 }, {
-  "Name" : "Logical Functional Mapping Concept",
+  "Name" : "System Function Mapping Concept",
   "DiagConcepts" : [ {
-    "ID" : "_19_0_2_26f0132_1558075212525_51415_45174",
-    "Name" : "Logical Context SOI_ Deprecated"
-  }, {
     "ID" : "_19_0_2_26f0132_1562303524161_367314_91006",
-    "Name" : "SFNallocatedToLET"
+    "Name" : "allocatedTo"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_394471_91009",
     "Name" : "System Function"
@@ -587,7 +584,7 @@
   "VP_ID" : "_19_0_2_26f0132_1565093441772_728957_49328",
   "ID" : "_19_0_3_26f0132_1582298684627_615861_54627"
 }, {
-  "Name" : "Logical Internal Interaction Concept",
+  "Name" : "System Internal Interaction Concept",
   "DiagConcepts" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
     "Name" : "Conceptual System"
@@ -596,16 +593,16 @@
     "Name" : "Conceptual Internal Role"
   }, {
     "ID" : "_19_0_3_26f0132_1582314602701_812421_56211",
-    "Name" : "Logical Interaction Scenario"
+    "Name" : "Conceptual Interaction Scenario"
   }, {
     "ID" : "_19_0_3_26f0132_1582315087346_20721_56621",
-    "Name" : "Logical Scenario Participation"
+    "Name" : "Conceptual Scenario Participation"
   }, {
     "ID" : "_19_0_3_26f0132_1582315257123_533586_56785",
-    "Name" : "Logical Chronological Message"
+    "Name" : "Conceptual Chronological Message"
   }, {
     "ID" : "_19_0_3_6d8019d_1608891158785_105089_964",
-    "Name" : "LIScontainingILCM"
+    "Name" : "containing"
   } ],
   "Documentation" : "",
   "VP_ID" : "_19_0_2_26f0132_1576222951495_184664_54882",
@@ -824,7 +821,7 @@
   "VP_ID" : "_19_0_3_ebf0350_1580652072992_42812_53692",
   "ID" : "_19_0_3_ebf0350_1580652073344_557638_53710"
 }, {
-  "Name" : "Logical Internal Exchange Concept",
+  "Name" : "System Internal Exchange Concept",
   "DiagConcepts" : [ {
     "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
     "Name" : "Conceptual Exchange Type"
@@ -1253,7 +1250,7 @@
     "Name" : "General Physical Role"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_367314_91006",
-    "Name" : "SFNallocatedToLET"
+    "Name" : "allocatedTo"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_394471_91009",
     "Name" : "System Function"

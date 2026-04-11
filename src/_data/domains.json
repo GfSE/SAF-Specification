@@ -14,16 +14,6 @@
   "DomainID" : "D",
   "Documentation" : "The SAF Development Domain supports the development, maintenance and extension of the SAF. "
 }, {
-  "Name" : "Functional",
-  "ID" : "_19_0_2_8710274_1573478560509_477211_55776",
-  "DomainID" : "F",
-  "Documentation" : "The Functional Domain Viewpoints addresses information needs during the System Requirements definition Process. It focuses on conceptual black box aspects of the system.\n\nE.g. it translates Operational Domain (intended solution) usage into the notion of System Functions defining the demanded system behavior and quality attributes - performance, safety, security, etc.; the demanded system behavior as it is perceived by the User or other Entities at the System Boundary (known as usage behavior). The result of the Functional Domain viewpoint-oriented elaboration approach is a comprehensive System Specification.\n"
-}, {
-  "Name" : "Logical",
-  "ID" : "_19_0_2_8710274_1573478570540_322780_55779",
-  "DomainID" : "L",
-  "Documentation" : "The Logical Domain Viewpoints address the information need during the architecture definition process. It focuses on conceptual white box aspect of the system.\n\nIt describes the SOI Logical Structure and the distribution of responsibilities for the functionality of the SOI by means of a network of interacting Logical Elements that are responsible for a set of desired Functions. These Logical Elements and their Interactions are arranged in the Logical Architecture of the SOI. The structure of the Logical Architecture is in general influenced by Non-functional criteria, e.g., maintainability, reliability, safety, and security.\n"
-}, {
   "Name" : "Operational",
   "ID" : "_19_0_2_8710274_1573478201473_148841_55747",
   "DomainID" : "O",

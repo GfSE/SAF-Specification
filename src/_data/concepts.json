@@ -470,7 +470,7 @@
     "Name" : "System Interface Definition Viewpoint"
   }, {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   }, {
     "ID" : "_2021x_2_8710274_1698415722718_711881_60045",
     "Name" : "Physical Logical Item Mapping Viewpoint"
@@ -563,7 +563,7 @@
 }, {
   "InViewpoint" : [ {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   } ],
   "Documentation" : "Specifies the fact that a Conceptual Item Exchange is allowed on the Conceptual Connection.",
   "AssociationEnds" : [ {
@@ -583,7 +583,7 @@
 }, {
   "InViewpoint" : [ {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   } ],
   "Documentation" : "Specifies the fact that a Conceptual Exchange Type defines the type of a Logical Item Exchange.",
   "AssociationEnds" : [ {
@@ -606,7 +606,7 @@
     "Name" : "System Interface Definition Viewpoint"
   }, {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   } ],
   "Documentation" : "Specifies the fact that a Conceptual Exchange Type defines the type of a Conceptual Interaction Point Property.",
   "AssociationEnds" : [ {
@@ -704,17 +704,17 @@
   } ]
 }, {
   "InViewpoint" : [ ],
-  "Documentation" : "Specifies the fact that a System Function is assigned to a Logical SOI.\nNote: This fact may be derived from the Usage of a System Function in a System Process allocated to a Logical Context SOI Role.",
+  "Documentation" : "Specifies the fact that a System Function is assigned to a Conceptual System.\nNote: This fact may be derived from the Usage of a System Function in a System Process allocated to a System Conceptual SOI Role.",
   "AssociationEnds" : [ {
-    "ID" : "_19_0_2_26f0132_1558075212525_51415_45174",
-    "Name" : "Logical Context SOI_ Deprecated",
+    "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
+    "Name" : "Conceptual System",
     "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_394471_91009",
     "Name" : "System Function",
     "Multiplicity" : "1..*"
   } ],
-  "Name" : "SFNallocatedToLET",
+  "Name" : "allocatedTo",
   "ID" : "_19_0_2_26f0132_1562303524161_367314_91006",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -737,7 +737,7 @@
     "Name" : "System Capability Mapping Viewpoint"
   }, {
     "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
-    "Name" : "Logical Functional Mapping Viewpoint"
+    "Name" : "System Function Mapping Viewpoint"
   }, {
     "ID" : "_2021x_2_8710274_1675987942868_617787_33116",
     "Name" : "Physical Functional Mapping Viewpoint"
@@ -809,7 +809,7 @@
 }, {
   "InViewpoint" : [ {
     "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
-    "Name" : "Logical Functional Mapping Viewpoint"
+    "Name" : "System Function Mapping Viewpoint"
   } ],
   "Documentation" : "Specifies the fact that a Usage of Function is allocated to a Usage of System Element.",
   "AssociationEnds" : [ {
@@ -861,7 +861,7 @@
 }, {
   "InViewpoint" : [ {
     "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
-    "Name" : "Logical Functional Mapping Viewpoint"
+    "Name" : "System Function Mapping Viewpoint"
   } ],
   "Documentation" : "Specifies a General Usage of a General Function within  one or more other General Functions.",
   "AssociationEnds" : [ {
@@ -908,7 +908,7 @@
     "Name" : "System Context Exchange Viewpoint"
   }, {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   } ],
   "Documentation" : "Specifies the fact that a Conceptual Interaction Point applies to a Conceptual System.",
   "AssociationEnds" : [ {
@@ -984,7 +984,7 @@
     "Name" : "System Interface Definition Viewpoint"
   }, {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   } ],
   "Documentation" : "Specifies the fact that a Conceptual Interaction Point Definition defines the exchange capabilities of a Conceptual Interaction Point.",
   "AssociationEnds" : [ {
@@ -1106,7 +1106,7 @@
     "Name" : "System Interface Definition Viewpoint"
   }, {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   } ],
   "Documentation" : "Specifies the existence of an interaction point on Conceptual  Level.",
   "AssociationEnds" : [ ],
@@ -1257,7 +1257,7 @@
     "Name" : "System Context Exchange Viewpoint"
   }, {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   } ],
   "Documentation" : "Specifies the exchange that is to take place on a connection of two interaction points on Conceptual Level.",
   "AssociationEnds" : [ ],
@@ -1344,7 +1344,7 @@
     "Name" : "System Interface Definition Viewpoint"
   }, {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   } ],
   "Documentation" : "Specifies the fact that a Conceptual Interaction Point Property is a detail of a Conceptual Interaction Point Definition.",
   "AssociationEnds" : [ {
@@ -1453,13 +1453,13 @@
 }, {
   "InViewpoint" : [ {
     "ID" : "_19_0_2_26f0132_1562303526536_284838_92559",
-    "Name" : "Logical Structure Definition Viewpoint"
+    "Name" : "System Structure Definition Viewpoint"
   }, {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   }, {
     "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
-    "Name" : "Logical Functional Mapping Viewpoint"
+    "Name" : "System Function Mapping Viewpoint"
   }, {
     "ID" : "_2021x_2_8710274_1676724435544_523379_27331",
     "Name" : "Physical Logical Mapping Viewpoint"
@@ -1506,7 +1506,7 @@
     "Name" : "System Interface Definition Viewpoint"
   }, {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   } ],
   "Documentation" : "Specifies the exchange capabilities of an interaction point on Conceptual Level.",
   "AssociationEnds" : [ ],
@@ -1569,7 +1569,7 @@
     "Name" : "System Interface Definition Viewpoint"
   }, {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   } ],
   "Documentation" : "Specifies a detail of an interaction point on Logical Level.",
   "AssociationEnds" : [ ],
@@ -1584,7 +1584,7 @@
     "Name" : "System Context Exchange Viewpoint"
   }, {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   } ],
   "Documentation" : "Specifies the connection of two interaction points on Logical Level.\nNote: Connections between logical components indicate that item flows are passed from one output of a source component to one or more inputs of target components.",
   "AssociationEnds" : [ {
@@ -1604,13 +1604,13 @@
 }, {
   "InViewpoint" : [ {
     "ID" : "_19_0_2_26f0132_1562303526536_284838_92559",
-    "Name" : "Logical Structure Definition Viewpoint"
+    "Name" : "System Structure Definition Viewpoint"
   }, {
     "ID" : "_19_0_2_26f0132_1576222951495_184664_54882",
-    "Name" : "Logical Internal Interaction Viewpoint"
+    "Name" : "System Internal Interaction Viewpoint"
   }, {
     "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
-    "Name" : "Logical Functional Mapping Viewpoint"
+    "Name" : "System Function Mapping Viewpoint"
   }, {
     "ID" : "_2021x_2_8710274_1676724435544_523379_27331",
     "Name" : "Physical Logical Mapping Viewpoint"
@@ -2627,11 +2627,11 @@
 }, {
   "InViewpoint" : [ {
     "ID" : "_19_0_2_26f0132_1576222951495_184664_54882",
-    "Name" : "Logical Internal Interaction Viewpoint"
+    "Name" : "System Internal Interaction Viewpoint"
   } ],
-  "Documentation" : "Ordered sequence of exchanges of information, energy, or material between Logical Interaction Scenario Participants.",
+  "Documentation" : "Ordered sequence of exchanges of information, energy, or material between Conceptual Interaction Scenario Participants.",
   "AssociationEnds" : [ ],
-  "Name" : "Logical Interaction Scenario",
+  "Name" : "Conceptual Interaction Scenario",
   "ID" : "_19_0_3_26f0132_1582314602701_812421_56211",
   "InheritsFrom" : [ ],
   "ClassType" : "Class",
@@ -2639,19 +2639,19 @@
 }, {
   "InViewpoint" : [ {
     "ID" : "_19_0_2_26f0132_1576222951495_184664_54882",
-    "Name" : "Logical Internal Interaction Viewpoint"
+    "Name" : "System Internal Interaction Viewpoint"
   } ],
-  "Documentation" : "Specifies the fact that a Logical Element Role participates in a Logical Interaction Scenario.",
+  "Documentation" : "Specifies the fact that a Conceptual Internal Role participates in a Conceptual Interaction Scenario.",
   "AssociationEnds" : [ {
     "ID" : "_19_0_3_26f0132_1582314602701_812421_56211",
-    "Name" : "Logical Interaction Scenario",
+    "Name" : "Conceptual Interaction Scenario",
     "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_981340_91082",
     "Name" : "Conceptual Internal Role",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "Logical Scenario Participation",
+  "Name" : "Conceptual Scenario Participation",
   "ID" : "_19_0_3_26f0132_1582315087346_20721_56621",
   "InheritsFrom" : [ ],
   "ClassType" : "AssociationClass",
@@ -2659,19 +2659,19 @@
 }, {
   "InViewpoint" : [ {
     "ID" : "_19_0_2_26f0132_1576222951495_184664_54882",
-    "Name" : "Logical Internal Interaction Viewpoint"
+    "Name" : "System Internal Interaction Viewpoint"
   } ],
-  "Documentation" : "Ordered sequential occurrence of exchanges between Logical Interaction Scenario Participants.",
+  "Documentation" : "Ordered sequential occurrence of exchanges between Conceptual Interaction Scenario Participants.",
   "AssociationEnds" : [ {
     "ID" : "_19_0_3_26f0132_1582315087346_20721_56621",
-    "Name" : "Logical Scenario Participation",
+    "Name" : "Conceptual Scenario Participation",
     "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_3_26f0132_1582315087346_20721_56621",
-    "Name" : "Logical Scenario Participation",
+    "Name" : "Conceptual Scenario Participation",
     "Multiplicity" : "1"
   } ],
-  "Name" : "Logical Chronological Message",
+  "Name" : "Conceptual Chronological Message",
   "ID" : "_19_0_3_26f0132_1582315257123_533586_56785",
   "InheritsFrom" : [ ],
   "ClassType" : "AssociationClass",
@@ -3035,17 +3035,17 @@
   "IsGeneralFor" : [ ]
 }, {
   "InViewpoint" : [ ],
-  "Documentation" : "Specifies the fact that an Internal Logical Interaction Scenario contains one or more Internal Logical Chronological Messages.",
+  "Documentation" : "Specifies the fact that an Conceptual Interaction Scenario contains one or more Conceptual Chronological Messages.",
   "AssociationEnds" : [ {
     "ID" : "_19_0_3_26f0132_1582315257123_533586_56785",
-    "Name" : "Logical Chronological Message",
+    "Name" : "Conceptual Chronological Message",
     "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_3_26f0132_1582314602701_812421_56211",
-    "Name" : "Logical Interaction Scenario",
+    "Name" : "Conceptual Interaction Scenario",
     "Multiplicity" : "1"
   } ],
-  "Name" : "LIScontainingILCM",
+  "Name" : "containing",
   "ID" : "_19_0_3_6d8019d_1608891158785_105089_964",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -3339,7 +3339,7 @@
     "Name" : "System Functional Breakdown Structure Viewpoint"
   }, {
     "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
-    "Name" : "Logical Functional Mapping Viewpoint"
+    "Name" : "System Function Mapping Viewpoint"
   } ],
   "Documentation" : "Specifies the fact that a System Partial Function is a decomposed part of a System Function and defines details of the System Function it belongs to.",
   "AssociationEnds" : [ ],
@@ -4267,7 +4267,7 @@
 }, {
   "InViewpoint" : [ {
     "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
-    "Name" : "Logical Functional Mapping Viewpoint"
+    "Name" : "System Function Mapping Viewpoint"
   } ],
   "Documentation" : "Specifies the fact that a Logical Element is responsible to implement a System Function.\nNote: Logical Elements don't \"implement\" anything, they pass the function implementation task to Physical Elements.",
   "AssociationEnds" : [ {

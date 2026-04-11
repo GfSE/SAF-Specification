@@ -116,7 +116,7 @@
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1562303526536_284838_92559",
-    "Name" : "Logical Structure Definition Viewpoint"
+    "Name" : "System Structure Definition Viewpoint"
   }
 }, {
   "Name" : "",
@@ -224,7 +224,7 @@
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1562303526536_284838_92559",
-    "Name" : "Logical Structure Definition Viewpoint"
+    "Name" : "System Structure Definition Viewpoint"
   }
 }, {
   "Name" : "",
@@ -664,11 +664,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_3_26f0132_1582314602701_812421_56211",
-    "Name" : "Logical Interaction Scenario"
+    "Name" : "Conceptual Interaction Scenario"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1576222951495_184664_54882",
-    "Name" : "Logical Internal Interaction Viewpoint"
+    "Name" : "System Internal Interaction Viewpoint"
   }
 }, {
   "Name" : "",
@@ -676,11 +676,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_3_26f0132_1582315087346_20721_56621",
-    "Name" : "Logical Scenario Participation"
+    "Name" : "Conceptual Scenario Participation"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1576222951495_184664_54882",
-    "Name" : "Logical Internal Interaction Viewpoint"
+    "Name" : "System Internal Interaction Viewpoint"
   }
 }, {
   "Name" : "",
@@ -688,11 +688,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_3_26f0132_1582315257123_533586_56785",
-    "Name" : "Logical Chronological Message"
+    "Name" : "Conceptual Chronological Message"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1576222951495_184664_54882",
-    "Name" : "Logical Internal Interaction Viewpoint"
+    "Name" : "System Internal Interaction Viewpoint"
   }
 }, {
   "Name" : "",
@@ -704,7 +704,7 @@
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1576222951495_184664_54882",
-    "Name" : "Logical Internal Interaction Viewpoint"
+    "Name" : "System Internal Interaction Viewpoint"
   }
 }, {
   "Name" : "",
@@ -1424,7 +1424,7 @@
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   }
 }, {
   "Name" : "",
@@ -1436,7 +1436,7 @@
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   }
 }, {
   "Name" : "",
@@ -1448,7 +1448,7 @@
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   }
 }, {
   "Name" : "",
@@ -1460,7 +1460,7 @@
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   }
 }, {
   "Name" : "",
@@ -1472,7 +1472,7 @@
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   }
 }, {
   "Name" : "",
@@ -1484,7 +1484,7 @@
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2240,7 +2240,7 @@
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
-    "Name" : "Logical Functional Mapping Viewpoint"
+    "Name" : "System Function Mapping Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2252,7 +2252,7 @@
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
-    "Name" : "Logical Functional Mapping Viewpoint"
+    "Name" : "System Function Mapping Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2288,7 +2288,7 @@
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
-    "Name" : "Logical Functional Mapping Viewpoint"
+    "Name" : "System Function Mapping Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2648,7 +2648,7 @@
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2660,7 +2660,7 @@
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
-    "Name" : "Logical Functional Mapping Viewpoint"
+    "Name" : "System Function Mapping Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2672,7 +2672,7 @@
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2684,7 +2684,7 @@
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2696,7 +2696,7 @@
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2708,7 +2708,7 @@
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2720,7 +2720,7 @@
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2732,7 +2732,7 @@
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2924,7 +2924,7 @@
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
-    "Name" : "Logical Functional Mapping Viewpoint"
+    "Name" : "System Function Mapping Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2936,7 +2936,7 @@
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
-    "Name" : "Logical Functional Mapping Viewpoint"
+    "Name" : "System Function Mapping Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2948,7 +2948,7 @@
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
-    "Name" : "Logical Functional Mapping Viewpoint"
+    "Name" : "System Function Mapping Viewpoint"
   }
 }, {
   "Name" : "",

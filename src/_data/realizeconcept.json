@@ -316,11 +316,11 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_2_26f0132_1576222951495_184664_54882",
-    "Name" : "Logical Internal Interaction Viewpoint"
+    "Name" : "System Internal Interaction Viewpoint"
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_3_26f0132_1582319340394_382321_60610",
-    "Name" : "SAF_L4_LITI"
+    "Name" : "SAF_C4_SITI"
   }
 }, {
   "Name" : "",
@@ -652,7 +652,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_3_26f0132_1582314602701_812421_56211",
-    "Name" : "Logical Interaction Scenario"
+    "Name" : "Conceptual Interaction Scenario"
   },
   "RealizationOfConcept" : {
     "ID" : "_9_0_62a020a_1105704887901_869040_8246",
@@ -664,7 +664,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_3_26f0132_1582315257123_533586_56785",
-    "Name" : "Logical Chronological Message"
+    "Name" : "Conceptual Chronological Message"
   },
   "RealizationOfConcept" : {
     "ID" : "_9_0_62a020a_1105704888195_415551_8289",
@@ -676,7 +676,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_3_26f0132_1582315087346_20721_56621",
-    "Name" : "Logical Scenario Participation"
+    "Name" : "Conceptual Scenario Participation"
   },
   "RealizationOfConcept" : {
     "ID" : "_9_0_62a020a_1105704887938_842870_8254",
@@ -1108,11 +1108,11 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303526536_284838_92559",
-    "Name" : "Logical Structure Definition Viewpoint"
+    "Name" : "System Structure Definition Viewpoint"
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_4_26f0132_1625209562736_284155_381",
-    "Name" : "SAF_L2_LSTD"
+    "Name" : "SAF_C2_SSTD"
   }
 }, {
   "Name" : "",
@@ -1120,11 +1120,11 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_4_26f0132_1625209687705_869914_419",
-    "Name" : "SAF_L4_LIEX"
+    "Name" : "SAF_C4_SIEX"
   }
 }, {
   "Name" : "",
@@ -1136,7 +1136,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_4_26f0132_1626791693357_994866_3136",
-    "Name" : "SAF_F4_SCXI"
+    "Name" : "SAF_C4_SCXI"
   }
 }, {
   "Name" : "",
@@ -1184,7 +1184,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_4_26f0132_1629448019169_887442_9417",
-    "Name" : "SAF_F2_SFBS"
+    "Name" : "SAF_C2_SFBS"
   }
 }, {
   "Name" : "",
@@ -1196,7 +1196,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_4_26f0132_1631267986737_158302_36",
-    "Name" : "SAF_F2_SETD"
+    "Name" : "SAF_C2_SETD"
   }
 }, {
   "Name" : "",
@@ -1280,7 +1280,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_4_6d8019d_1617380348210_24096_555",
-    "Name" : "SAF_F1_SUCD"
+    "Name" : "SAF_C1_SUCD"
   }
 }, {
   "Name" : "",
@@ -1292,7 +1292,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_4_6d8019d_1617380277228_633159_552",
-    "Name" : "SAF_F3_SPRO"
+    "Name" : "SAF_C3_SPRO"
   }
 }, {
   "Name" : "",
@@ -1304,7 +1304,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_4_6d8019d_1618081524318_206808_1303",
-    "Name" : "SAF_F1_SCXE"
+    "Name" : "SAF_C1_SCXE"
   }
 }, {
   "Name" : "",
@@ -1328,7 +1328,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_4_6d8019d_1618591731111_585346_2477",
-    "Name" : "SAF_F1_SCXD"
+    "Name" : "SAF_C1_SCXD"
   }
 }, {
   "Name" : "",
@@ -1388,7 +1388,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_4_6d8019d_1618762989365_936788_2353",
-    "Name" : "SAF_F2_SCYD"
+    "Name" : "SAF_C2_SCYD"
   }
 }, {
   "Name" : "",
@@ -1436,7 +1436,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_4_6d8019d_1624904106285_850809_1491",
-    "Name" : "SAF_F8_SRQT_Matrix"
+    "Name" : "SAF_C8_SRQT_Matrix"
   }
 }, {
   "Name" : "",
@@ -1448,7 +1448,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_1_26f0132_1548407715628_25139_43804",
-    "Name" : "SAF_F6_SRQD_Table"
+    "Name" : "SAF_C6_SRQD_Table"
   }
 }, {
   "Name" : "",
@@ -1496,7 +1496,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_4_6d8019d_1627582668863_723808_2445",
-    "Name" : "SAF_F3_SSTA"
+    "Name" : "SAF_C3_SSTA"
   }
 }, {
   "Name" : "",
@@ -1712,7 +1712,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2021x_2_6d8019d_1674232165479_968036_23271",
-    "Name" : "SAF_C2_ARAS"
+    "Name" : "SAF_A2_ARAS"
   }
 }, {
   "Name" : "",
@@ -1892,7 +1892,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2021x_2_6d8019d_1677616004198_497557_24505",
-    "Name" : "SAF_F3_SFRE"
+    "Name" : "SAF_C3_SFRE"
   }
 }, {
   "Name" : "",
@@ -1900,11 +1900,11 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
-    "Name" : "Logical Functional Mapping Viewpoint"
+    "Name" : "System Function Mapping Viewpoint"
   },
   "RealizationOfConcept" : {
     "ID" : "_2021x_2_6d8019d_1677360534022_847905_25995",
-    "Name" : "SAF_L8_LFUM_Matrix"
+    "Name" : "SAF_C8_SFUM_Matrix"
   }
 }, {
   "Name" : "",
@@ -2024,7 +2024,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2021x_2_6d8019d_1691055569911_434596_24894",
-    "Name" : "SAF_F8_SCYM_Table"
+    "Name" : "SAF_C8_SCYM_Table"
   }
 }, {
   "Name" : "",
@@ -2156,7 +2156,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2021x_2_8710274_1679480698224_528018_25860",
-    "Name" : "SAF_F5_SIFD"
+    "Name" : "SAF_C5_SIFD"
   }
 }, {
   "Name" : "",
@@ -2444,7 +2444,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2021x_2_8710274_1697453280481_761317_28570",
-    "Name" : "SAF_C2_GRID"
+    "Name" : "SAF_A2_GRID"
   }
 }, {
   "Name" : "",
@@ -2492,7 +2492,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2021x_2_8710274_1697453280481_761317_28570",
-    "Name" : "SAF_C2_GRID"
+    "Name" : "SAF_A2_GRID"
   }
 }, {
   "Name" : "",
@@ -2660,7 +2660,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2021x_2_8710274_1700817327515_843725_50585",
-    "Name" : "SAF_C2_CSTD"
+    "Name" : "SAF_A2_CSTD"
   }
 }, {
   "Name" : "",
@@ -2708,7 +2708,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2021x_2_8710274_1701349840148_646810_89384",
-    "Name" : "SAF_C2_TRMD_Table"
+    "Name" : "SAF_A2_TRMD_Table"
   }
 }, {
   "Name" : "",
@@ -2936,7 +2936,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_26f0132_1718444107324_646747_22569",
-    "Name" : "SAF_F3_SSTA_Table"
+    "Name" : "SAF_C3_SSTA_Table"
   }
 }, {
   "Name" : "",
@@ -2948,7 +2948,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_26f0132_1718444307071_150416_22623",
-    "Name" : "SAF_F3_SPRO_Table"
+    "Name" : "SAF_C3_SPRO_Table"
   }
 }, {
   "Name" : "",
@@ -2960,7 +2960,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_26f0132_1718444573319_748914_22693",
-    "Name" : "SAF_F2_SETD_Table"
+    "Name" : "SAF_C2_SETD_Table"
   }
 }, {
   "Name" : "",
@@ -2972,7 +2972,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_26f0132_1718444691784_101759_22771",
-    "Name" : "SAF_F2_SCYD_Table"
+    "Name" : "SAF_C2_SCYD_Table"
   }
 }, {
   "Name" : "",
@@ -2984,7 +2984,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_26f0132_1718444814950_893924_22854",
-    "Name" : "SAF_F1_SUCD_Table"
+    "Name" : "SAF_C1_SUCD_Table"
   }
 }, {
   "Name" : "",
@@ -2996,7 +2996,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_26f0132_1718445081588_464851_22944",
-    "Name" : "SAF_F1_SCXE_Table"
+    "Name" : "SAF_C1_SCXE_Table"
   }
 }, {
   "Name" : "",
@@ -3008,7 +3008,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_26f0132_1718445860250_114816_23014",
-    "Name" : "SAF_F1_SCXD_Table"
+    "Name" : "SAF_C1_SCXD_Table"
   }
 }, {
   "Name" : "",
@@ -3064,11 +3064,11 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
-    "Name" : "Logical Functional Mapping Viewpoint"
+    "Name" : "System Function Mapping Viewpoint"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_26f0132_1718447565457_357991_25986",
-    "Name" : "Logical Functional Mapping Viewpoint"
+    "Name" : "System Function Mapping Viewpoint"
   }
 }, {
   "Name" : "",
@@ -3076,11 +3076,11 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_26f0132_1718447565610_859431_25987",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   }
 }, {
   "Name" : "",
@@ -3088,11 +3088,11 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303526536_284838_92559",
-    "Name" : "Logical Structure Definition Viewpoint"
+    "Name" : "System Structure Definition Viewpoint"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_26f0132_1718447565958_836365_25989",
-    "Name" : "Logical Structure Definition Viewpoint"
+    "Name" : "System Structure Definition Viewpoint"
   }
 }, {
   "Name" : "",
@@ -3508,11 +3508,11 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_2_26f0132_1576222951495_184664_54882",
-    "Name" : "Logical Internal Interaction Viewpoint"
+    "Name" : "System Internal Interaction Viewpoint"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_26f0132_1718447565780_3658_25988",
-    "Name" : "Logical Internal Interaction Viewpoint"
+    "Name" : "System Internal Interaction Viewpoint"
   }
 }, {
   "Name" : "",
@@ -3560,7 +3560,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_26f0132_1719141205004_162437_25125",
-    "Name" : "SAF_C2_GRID_Table"
+    "Name" : "SAF_A2_GRID_Table"
   }
 }, {
   "Name" : "",
@@ -3596,7 +3596,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2021x_2_8710274_1697453280481_761317_28570",
-    "Name" : "SAF_C2_GRID"
+    "Name" : "SAF_A2_GRID"
   }
 }, {
   "Name" : "",
@@ -3608,7 +3608,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2021x_2_8710274_1697453280481_761317_28570",
-    "Name" : "SAF_C2_GRID"
+    "Name" : "SAF_A2_GRID"
   }
 }, {
   "Name" : "",
@@ -3620,7 +3620,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2021x_2_8710274_1697453280481_761317_28570",
-    "Name" : "SAF_C2_GRID"
+    "Name" : "SAF_A2_GRID"
   }
 }, {
   "Name" : "",
@@ -4052,7 +4052,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_2_26f0132_1757423193639_473235_10",
-    "Name" : "SAF_C8_EATR_Matrix"
+    "Name" : "SAF_A8_EATR_Matrix"
   }
 }, {
   "Name" : "",
@@ -4064,7 +4064,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_2_26f0132_1757423370722_685247_31",
-    "Name" : "SAF_C8_EATR_Table"
+    "Name" : "SAF_A8_EATR_Table"
   }
 }, {
   "Name" : "",
@@ -4076,7 +4076,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_2_26f0132_1757586882201_912675_456",
-    "Name" : "SAF_C8_EATR"
+    "Name" : "SAF_A8_EATR"
   }
 }, {
   "Name" : "",
@@ -4172,7 +4172,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_4c5019a_1724834932932_125760_732",
-    "Name" : "SAF_F7_ASID_Table"
+    "Name" : "SAF_C7_ASID_Table"
   }
 }, {
   "Name" : "",
@@ -4232,7 +4232,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_4c5019a_1724846855776_360910_2549",
-    "Name" : "SAF_F7_ASID"
+    "Name" : "SAF_C7_ASID"
   }
 }, {
   "Name" : "",
@@ -4328,7 +4328,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_4c5019a_1725548418126_514094_79",
-    "Name" : "SAF_F7_SECT"
+    "Name" : "SAF_C7_SECT"
   }
 }, {
   "Name" : "",
@@ -4340,7 +4340,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_4c5019a_1725548466184_799473_85",
-    "Name" : "SAF_F7_SECT_Table"
+    "Name" : "SAF_C7_SECT_Table"
   }
 }, {
   "Name" : "",
@@ -4436,7 +4436,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_4c5019a_1726421910225_40359_327",
-    "Name" : "SAF_F7_IMAN"
+    "Name" : "SAF_C7_IMAN"
   }
 }, {
   "Name" : "",
@@ -4448,7 +4448,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_4c5019a_1726421828345_746165_321",
-    "Name" : "SAF_F7_IMAN_Table"
+    "Name" : "SAF_C7_IMAN_Table"
   }
 }, {
   "Name" : "",
@@ -4520,7 +4520,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_4c5019a_1726432501687_212033_405",
-    "Name" : "SAF_F7_THSC"
+    "Name" : "SAF_C7_THSC"
   }
 }, {
   "Name" : "",
@@ -4532,7 +4532,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_4c5019a_1726432538483_126898_411",
-    "Name" : "SAF_F7_THSC_Table"
+    "Name" : "SAF_C7_THSC_Table"
   }
 }, {
   "Name" : "",
@@ -4592,7 +4592,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_4c5019a_1726432568406_567060_417",
-    "Name" : "SAF_F7_RIAN"
+    "Name" : "SAF_C7_RIAN"
   }
 }, {
   "Name" : "",
@@ -4604,7 +4604,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_4c5019a_1726432589722_859572_423",
-    "Name" : "SAF_F7_RIAN_Table"
+    "Name" : "SAF_C7_RIAN_Table"
   }
 }, {
   "Name" : "",
@@ -4640,6 +4640,6 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_8710274_1717680274694_162060_14786",
-    "Name" : "SAF_C2_CSTD_Table"
+    "Name" : "SAF_A2_CSTD_Table"
   }
 } ]
