@@ -3988,7 +3988,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_2024x_26f0132_1719749573029_735591_16107",
-    "Name" : "SECisProvidedByVP"
+    "Name" : "isProvidedBy"
   },
   "Viewpoint" : {
     "ID" : "_2024x_26f0132_1719735523519_523621_24797",
@@ -4000,7 +4000,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_2024x_1_26f0132_1730904149609_844143_17570",
-    "Name" : "SECrelatesToSEC"
+    "Name" : "relatesTo"
   },
   "Viewpoint" : {
     "ID" : "_2024x_26f0132_1719735523519_523621_24797",
@@ -4036,7 +4036,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_2024x_26f0132_1719773960755_475101_34978",
-    "Name" : "PIimplementsSEC"
+    "Name" : "implements"
   },
   "Viewpoint" : {
     "ID" : "_2024x_26f0132_1719735411756_812404_24423",
@@ -4084,7 +4084,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_2024x_26f0132_1719774817697_854148_35615",
-    "Name" : "SSTimplementsVP"
+    "Name" : "implements"
   },
   "Viewpoint" : {
     "ID" : "_2024x_26f0132_1719735411756_812404_24423",
@@ -4108,7 +4108,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_2024x_1_26f0132_1730904149609_844143_17570",
-    "Name" : "SECrelatesToSEC"
+    "Name" : "relatesTo"
   },
   "Viewpoint" : {
     "ID" : "_2024x_26f0132_1719735639175_641082_26522",

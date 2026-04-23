@@ -1552,19 +1552,19 @@
     "Name" : "Viewpoint"
   }, {
     "ID" : "_2024x_1_26f0132_1730904149609_844143_17570",
-    "Name" : "SECrelatesToSEC"
+    "Name" : "relatesTo"
   }, {
     "ID" : "_2024x_26f0132_1719749431514_697590_16049",
     "Name" : "SE Concept"
   }, {
     "ID" : "_2024x_26f0132_1719749573029_735591_16107",
-    "Name" : "SECisProvidedByVP"
+    "Name" : "isProvidedBy"
   }, {
     "ID" : "_2024x_26f0132_1719773907937_525274_34938",
     "Name" : "SAF Stereotype"
   }, {
     "ID" : "_2024x_26f0132_1719773960755_475101_34978",
-    "Name" : "PIimplementsSEC"
+    "Name" : "implements"
   }, {
     "ID" : "_2024x_26f0132_1719774257000_927866_35293",
     "Name" : "SysML Stereotype"
@@ -1576,7 +1576,7 @@
     "Name" : "ProfileItem"
   }, {
     "ID" : "_2024x_26f0132_1719774817697_854148_35615",
-    "Name" : "SSTimplementsVP"
+    "Name" : "implements"
   } ],
   "VP_ID" : "_2024x_26f0132_1719735411756_812404_24423"
 }, {
@@ -1594,7 +1594,7 @@
     "Name" : "Viewpoint"
   }, {
     "ID" : "_2024x_1_26f0132_1730904149609_844143_17570",
-    "Name" : "SECrelatesToSEC"
+    "Name" : "relatesTo"
   }, {
     "ID" : "_2024x_26f0132_1719141336629_21600_25167",
     "Name" : "VPbelongingToDN"
@@ -1612,7 +1612,7 @@
     "Name" : "SE Concept"
   }, {
     "ID" : "_2024x_26f0132_1719749573029_735591_16107",
-    "Name" : "SECisProvidedByVP"
+    "Name" : "isProvidedBy"
   } ],
   "VP_ID" : "_2024x_26f0132_1719735523519_523621_24797"
 }, {
@@ -1669,7 +1669,7 @@
   "Name" : "Framework Concept Definition Profile",
   "DiagConcepts" : [ {
     "ID" : "_2024x_1_26f0132_1730904149609_844143_17570",
-    "Name" : "SECrelatesToSEC"
+    "Name" : "relatesTo"
   }, {
     "ID" : "_2024x_26f0132_1719749431514_697590_16049",
     "Name" : "SE Concept"

@@ -3796,7 +3796,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2024x_26f0132_1719749573029_735591_16107",
-    "Name" : "SECisProvidedByVP"
+    "Name" : "isProvidedBy"
   },
   "RealizationOfConcept" : {
     "ID" : "_17_0_5beta_17530432_1382587480303_325976_12505",
@@ -3808,7 +3808,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2024x_26f0132_1719773960755_475101_34978",
-    "Name" : "PIimplementsSEC"
+    "Name" : "implements"
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_3_26f0132_1599119762456_465222_334",
@@ -3820,7 +3820,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2024x_26f0132_1719774817697_854148_35615",
-    "Name" : "SSTimplementsVP"
+    "Name" : "implements"
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_3_26f0132_1599119762456_465222_334",
@@ -3832,7 +3832,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2024x_1_26f0132_1730904149609_844143_17570",
-    "Name" : "SECrelatesToSEC"
+    "Name" : "relatesTo"
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_1_26f0132_1554446849880_209491_45751",

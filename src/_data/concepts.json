@@ -5270,7 +5270,7 @@
     "Name" : "SE Concept",
     "Multiplicity" : "1"
   } ],
-  "Name" : "SECrelatesToSEC",
+  "Name" : "relatesTo",
   "ID" : "_2024x_1_26f0132_1730904149609_844143_17570",
   "InheritsFrom" : [ {
     "ID" : "_2024x_26f0132_1719749431514_697590_16049",
@@ -5430,7 +5430,7 @@
   "ClassType" : "Class",
   "IsGeneralFor" : [ {
     "ID" : "_2024x_1_26f0132_1730904149609_844143_17570",
-    "Name" : "SECrelatesToSEC"
+    "Name" : "relatesTo"
   } ]
 }, {
   "InViewpoint" : [ {
@@ -5447,7 +5447,7 @@
     "Name" : "SE Concept",
     "Multiplicity" : "1..*"
   } ],
-  "Name" : "SECisProvidedByVP",
+  "Name" : "isProvidedBy",
   "ID" : "_2024x_26f0132_1719749573029_735591_16107",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -5482,7 +5482,7 @@
     "Name" : "ProfileItem",
     "Multiplicity" : "1"
   } ],
-  "Name" : "PIimplementsSEC",
+  "Name" : "implements",
   "ID" : "_2024x_26f0132_1719773960755_475101_34978",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -5550,7 +5550,7 @@
     "Name" : "SAF Stereotype",
     "Multiplicity" : "1..*"
   } ],
-  "Name" : "SSTimplementsVP",
+  "Name" : "implements",
   "ID" : "_2024x_26f0132_1719774817697_854148_35615",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
