@@ -8179,4 +8179,12 @@ div.whitebox div.na_or_both {
   font-style: italic;
 }
 
+.annotation-context-menu-item.annotation-filter-active {
+  background: #e8f4fc;
+  color: #2563eb;
+}
+.annotation-context-menu-item.annotation-filter-active:hover {
+  background: #dbeafe;
+}
+
 /*# sourceMappingURL=just-the-docs-light.css.map */

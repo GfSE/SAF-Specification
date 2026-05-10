@@ -1,21 +1,27 @@
-(function() {
-  'use strict';
-
-  const STORAGE_KEY_PREFIX = 'saf_annotations_';
-  const COLORS = {
-    yellow: '#FFF59D',
-    blue: '#90CAF9',
-    green: '#A5D6A7',
-    red: '#EF9A9A',
-    purple: '#CE93D8'
-  };
-
-  let createModeEnabled = false;
-  let annotationsDisplayed = false;
-  let annotations = [];
-  let activeAnnotation = null;
-  let isDragging = false;
-  let dragOffset = { x: 0, y: 0 };
+ (function() {
+   'use strict';
+ 
+   const STORAGE_KEY_PREFIX = 'saf_annotations_';
+   const USERNAME_STORAGE_KEY = 'saf_annotations_username';
+   const FILTER_STORAGE_KEY = 'saf_annotations_filter';
+   
+   const COLORS = {
+     yellow: '#FFF59D',
+     blue: '#90CAF9',
+     green: '#A5D6A7',
+     red: '#EF9A9A',
+     purple: '#CE93D8'
+   };
+ 
+   let createModeEnabled = false;
+   let annotationsDisplayed = false;
+   let annotations = [];
+   let activeAnnotation = null;
+   let isDragging = false;
+   let dragOffset = { x: 0, y: 0 };
+   
+   let currentUsername = null;
+   let userFilter = null;  // null = show all, 'me' = show only mine, array of usernames = show specific users
 
   function log(msg, obj) {
     if (obj !== undefined) {
@@ -74,11 +80,162 @@
     }
   }
 
-  function generateId() {
-    return 'ann_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
-  }
+   function generateId() {
+     return 'ann_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+   }
 
-  function getContentRoots() {
+   function getCurrentUsername() {
+     if (currentUsername) {
+       return currentUsername;
+     }
+     
+     try {
+       const stored = localStorage.getItem(USERNAME_STORAGE_KEY);
+       if (stored && stored.trim()) {
+         currentUsername = stored.trim();
+         return currentUsername;
+       }
+     } catch (e) {}
+     
+     return null;
+   }
+
+   function setCurrentUsername(username) {
+     if (username && username.trim()) {
+       username = username.trim();
+       currentUsername = username;
+       try {
+         localStorage.setItem(USERNAME_STORAGE_KEY, username);
+       } catch (e) {}
+       log('Username set to: ' + username);
+     } else {
+       currentUsername = null;
+       try {
+         localStorage.removeItem(USERNAME_STORAGE_KEY);
+       } catch (e) {}
+       log('Username cleared');
+     }
+   }
+
+   function promptForUsername() {
+     const current = getCurrentUsername();
+     const message = current ? 
+       'Enter your username (current: ' + current + '):\n\n(This identifies your annotations when sharing with others)' :
+       'Enter your username:\n\n(This identifies your annotations when sharing with others)';
+     
+     const result = prompt(message, current || '');
+     if (result !== null) {
+       setCurrentUsername(result);
+       if (annotationsDisplayed) {
+         renderAnnotations();
+       }
+     }
+   }
+
+   function getUserFilter() {
+     if (userFilter !== null && userFilter !== undefined) {
+       return userFilter;
+     }
+     
+     try {
+       const stored = localStorage.getItem(FILTER_STORAGE_KEY);
+       if (stored) {
+         if (stored === 'all') {
+           userFilter = null;
+         } else if (stored === 'me') {
+           userFilter = 'me';
+         } else {
+           try {
+             userFilter = JSON.parse(stored);
+           } catch (e) {
+             userFilter = null;
+           }
+         }
+       }
+     } catch (e) {
+       userFilter = null;
+     }
+     
+     return userFilter;
+   }
+
+   function setUserFilter(filter) {
+     userFilter = filter;
+     
+     try {
+       if (filter === null) {
+         localStorage.setItem(FILTER_STORAGE_KEY, 'all');
+       } else if (filter === 'me') {
+         localStorage.setItem(FILTER_STORAGE_KEY, 'me');
+       } else {
+         localStorage.setItem(FILTER_STORAGE_KEY, JSON.stringify(filter));
+       }
+     } catch (e) {}
+     
+     log('User filter set to: ' + (filter === null ? 'all' : JSON.stringify(filter)));
+     
+     if (annotationsDisplayed) {
+       renderAnnotations();
+     }
+   }
+
+   function getUniqueUsernames() {
+     const usernames = new Set();
+     
+     const keys = [];
+     for (let i = 0; i < localStorage.length; i++) {
+       const key = localStorage.key(i);
+       if (key && key.startsWith(STORAGE_KEY_PREFIX)) {
+         keys.push(key);
+       }
+     }
+     
+     for (let k = 0; k < keys.length; k++) {
+       try {
+         const data = JSON.parse(localStorage.getItem(keys[k]));
+         for (let i = 0; i < data.length; i++) {
+           if (data[i].username) {
+             usernames.add(data[i].username);
+           }
+         }
+       } catch (e) {}
+     }
+     
+     for (let i = 0; i < annotations.length; i++) {
+       if (annotations[i].username) {
+         usernames.add(annotations[i].username);
+       }
+     }
+     
+     return Array.from(usernames).sort();
+   }
+
+   function isAnnotationVisible(annotation) {
+     const filter = getUserFilter();
+     
+     if (filter === null) {
+       return true;
+     }
+     
+     if (filter === 'me') {
+       const myUsername = getCurrentUsername();
+       if (!myUsername) {
+         return !annotation.username;
+       }
+       return annotation.username === myUsername;
+     }
+     
+     if (Array.isArray(filter)) {
+       if (filter.length === 0) {
+         return true;
+       }
+       return filter.indexOf(annotation.username) >= 0;
+     }
+     
+     return true;
+   }
+
+   function getContentRoots() {
     const roots = [];
     const seenIds = new Set();
     
@@ -262,65 +419,138 @@
      return btn;
    }
 
-   function showContextMenu(x, y) {
-     hideContextMenu();
-     
-     const menu = document.createElement('div');
-     menu.id = 'annotation-context-menu';
-     menu.className = 'annotation-context-menu';
-     menu.style.left = x + 'px';
-     menu.style.top = y + 'px';
-     
-     const pageId = getPageId();
-     const hasPageAnnotations = annotations.length > 0;
-     
-     const allKeys = [];
-     for (let i = 0; i < localStorage.length; i++) {
-       const key = localStorage.key(i);
-       if (key && key.startsWith(STORAGE_KEY_PREFIX)) {
-         allKeys.push(key);
-       }
-     }
-     const hasAnyAnnotations = allKeys.length > 0;
-     
-     let html = '';
-     html += '<div class="annotation-context-menu-info">Annotations: ' + annotations.length + ' on this page</div>';
-     html += '<div class="annotation-context-menu-divider"></div>';
-     
-     html += '<button class="annotation-context-menu-item" id="ann-export-page" ' + (!hasPageAnnotations ? 'disabled' : '') + '>';
-     html += '📄 Export This Page (' + annotations.length + ')';
-     html += '</button>';
-     
-     html += '<button class="annotation-context-menu-item" id="ann-export-all" ' + (!hasAnyAnnotations ? 'disabled' : '') + '>';
-     html += '📦 Export All Pages (' + allKeys.length + ' pages)';
-     html += '</button>';
-     
-     html += '<div class="annotation-context-menu-divider"></div>';
-     
-     html += '<button class="annotation-context-menu-item" id="ann-import">';
-     html += '📥 Import Annotations...';
-     html += '</button>';
-     
-     menu.innerHTML = html;
-     document.body.appendChild(menu);
-     
-     document.getElementById('ann-export-page').onclick = function() {
-       hideContextMenu();
-       exportAnnotations('page');
-     };
-     
-     document.getElementById('ann-export-all').onclick = function() {
-       hideContextMenu();
-       exportAnnotations('all');
-     };
-     
-     document.getElementById('ann-import').onclick = function() {
-       hideContextMenu();
-       importAnnotations();
-     };
-     
-     log('Context menu shown');
-   }
+    function showContextMenu(x, y) {
+      hideContextMenu();
+      
+      const menu = document.createElement('div');
+      menu.id = 'annotation-context-menu';
+      menu.className = 'annotation-context-menu';
+      menu.style.left = x + 'px';
+      menu.style.top = y + 'px';
+      
+      const currentUser = getCurrentUsername();
+      const hasPageAnnotations = annotations.length > 0;
+      
+      const allKeys = [];
+      for (let i = 0; i < localStorage.length; i++) {
+        const key = localStorage.key(i);
+        if (key && key.startsWith(STORAGE_KEY_PREFIX)) {
+          allKeys.push(key);
+        }
+      }
+      const hasAnyAnnotations = allKeys.length > 0;
+      
+      const uniqueUsers = getUniqueUsernames();
+      const currentFilter = getUserFilter();
+      
+      let html = '';
+      
+      html += '<div class="annotation-context-menu-info">';
+      if (currentUser) {
+        html += 'User: <strong>' + escapeHtml(currentUser) + '</strong>';
+      } else {
+        html += 'User: <em>(not set)</em>';
+      }
+      html += '</div>';
+      
+      html += '<button class="annotation-context-menu-item" id="ann-set-username">';
+      html += '👤 ' + (currentUser ? 'Change Username' : 'Set Username');
+      html += '</button>';
+      
+      html += '<div class="annotation-context-menu-divider"></div>';
+      
+      html += '<div class="annotation-context-menu-info">Filter:</div>';
+      
+      html += '<button class="annotation-context-menu-item ' + (currentFilter === null ? 'annotation-filter-active' : '') + '" id="ann-filter-all">';
+      html += '👁 Show All Annotations';
+      html += '</button>';
+      
+      html += '<button class="annotation-context-menu-item ' + (currentFilter === 'me' ? 'annotation-filter-active' : '') + '" id="ann-filter-me" ' + (!currentUser ? 'disabled' : '') + '>';
+      html += '👤 Show Only My Annotations';
+      if (!currentUser) {
+        html += ' <em style="opacity:0.6">(set username first)</em>';
+      }
+      html += '</button>';
+      
+      if (uniqueUsers.length > 0) {
+        html += '<div class="annotation-context-menu-info">Users in storage:</div>';
+        for (let i = 0; i < uniqueUsers.length; i++) {
+          const u = uniqueUsers[i];
+          const isActiveFilter = Array.isArray(currentFilter) && currentFilter.length === 1 && currentFilter[0] === u;
+          html += '<button class="annotation-context-menu-item ' + (isActiveFilter ? 'annotation-filter-active' : '') + '" id="ann-filter-user-' + i + '">';
+          html += '👤 Show Only: ' + escapeHtml(u);
+          html += '</button>';
+        }
+      }
+      
+      html += '<div class="annotation-context-menu-divider"></div>';
+      
+      html += '<button class="annotation-context-menu-item" id="ann-export-page" ' + (!hasPageAnnotations ? 'disabled' : '') + '>';
+      html += '📄 Export This Page (' + annotations.length + ')';
+      html += '</button>';
+      
+      html += '<button class="annotation-context-menu-item" id="ann-export-all" ' + (!hasAnyAnnotations ? 'disabled' : '') + '>';
+      html += '📦 Export All Pages (' + allKeys.length + ' pages)';
+      html += '</button>';
+      
+      html += '<div class="annotation-context-menu-divider"></div>';
+      
+      html += '<button class="annotation-context-menu-item" id="ann-import">';
+      html += '📥 Import Annotations...';
+      html += '</button>';
+      
+      menu.innerHTML = html;
+      document.body.appendChild(menu);
+      
+      document.getElementById('ann-set-username').onclick = function() {
+        hideContextMenu();
+        promptForUsername();
+      };
+      
+      document.getElementById('ann-filter-all').onclick = function() {
+        hideContextMenu();
+        setUserFilter(null);
+      };
+      
+      if (document.getElementById('ann-filter-me')) {
+        document.getElementById('ann-filter-me').onclick = function() {
+          if (currentUser) {
+            hideContextMenu();
+            setUserFilter('me');
+          }
+        };
+      }
+      
+      for (let i = 0; i < uniqueUsers.length; i++) {
+        const btn = document.getElementById('ann-filter-user-' + i);
+        if (btn) {
+          const u = uniqueUsers[i];
+          btn.onclick = (function(user) {
+            return function() {
+              hideContextMenu();
+              setUserFilter([user]);
+            };
+          })(u);
+        }
+      }
+      
+      document.getElementById('ann-export-page').onclick = function() {
+        hideContextMenu();
+        exportAnnotations('page');
+      };
+      
+      document.getElementById('ann-export-all').onclick = function() {
+        hideContextMenu();
+        exportAnnotations('all');
+      };
+      
+      document.getElementById('ann-import').onclick = function() {
+        hideContextMenu();
+        importAnnotations();
+      };
+      
+      log('Context menu shown, currentUser=' + currentUser + ', uniqueUsers=' + uniqueUsers.length);
+    }
 
    function hideContextMenu() {
      const existing = document.getElementById('annotation-context-menu');
@@ -660,7 +890,11 @@
     box.style.top = pos.top + 'px';
     box.style.backgroundColor = COLORS[annotation.color] || COLORS.yellow;
 
-    box.innerHTML = '<div class="annotation-note-header"><span class="annotation-note-title">Note</span><div class="annotation-note-controls"><button class="annotation-note-btn annotation-edit-btn" title="Edit">✏</button><button class="annotation-note-btn annotation-delete-btn" title="Delete">×</button></div></div><div class="annotation-note-content">' + escapeHtml(annotation.text) + '</div>';
+     const titleText = annotation.username ? 
+       'Note (' + escapeHtml(annotation.username) + ')' : 
+       'Note';
+     
+     box.innerHTML = '<div class="annotation-note-header"><span class="annotation-note-title">' + titleText + '</span><div class="annotation-note-controls"><button class="annotation-note-btn annotation-edit-btn" title="Edit">✏</button><button class="annotation-note-btn annotation-delete-btn" title="Delete">×</button></div></div><div class="annotation-note-content">' + escapeHtml(annotation.text) + '</div>';
 
     const header = box.querySelector('.annotation-note-header');
     
@@ -746,38 +980,50 @@
     };
   }
 
-  function createAnnotation(element) {
-    if (!isInContent(element)) {
-      log('Element not in content area, skipping', element);
-      return;
-    }
+   function createAnnotation(element) {
+     if (!isInContent(element)) {
+       log('Element not in content area, skipping', element);
+       return;
+     }
 
-    const selector = generateStableSelector(element);
-    const verifyEl = findElementBySelector(selector);
-    
-    if (verifyEl !== element) {
-      log('Warning: Selector verification failed for:', selector);
-      if (element.id) {
-        log('Using simple #id selector');
-      } else {
-        log('Generated selector may be unstable');
-      }
-    } else {
-      log('Generated selector: ' + selector);
-    }
+     let username = getCurrentUsername();
+     if (!username) {
+       const userInput = prompt('To create annotations, please enter your username:\n\n(This identifies your notes when sharing with others)');
+       if (userInput === null || !userInput.trim()) {
+         log('User cancelled username entry - not creating annotation');
+         return;
+       }
+       username = userInput.trim();
+       setCurrentUsername(username);
+     }
 
-    const initialText = prompt('Enter your annotation:');
-    if (initialText === null || initialText.trim() === '') return;
+     const selector = generateStableSelector(element);
+     const verifyEl = findElementBySelector(selector);
+     
+     if (verifyEl !== element) {
+       log('Warning: Selector verification failed for:', selector);
+       if (element.id) {
+         log('Using simple #id selector');
+       } else {
+         log('Generated selector may be unstable');
+       }
+     } else {
+       log('Generated selector: ' + selector);
+     }
 
-    const offset = getPageOffset(element);
-    const annotation = {
-      id: generateId(),
-      selector: selector,
-      text: initialText,
-      color: 'yellow',
-      offsetFromElementX: 60,
-      offsetFromElementY: 0
-    };
+     const initialText = prompt('Enter your annotation:');
+     if (initialText === null || initialText.trim() === '') return;
+
+     const offset = getPageOffset(element);
+     const annotation = {
+       id: generateId(),
+       selector: selector,
+       text: initialText,
+       color: 'yellow',
+       offsetFromElementX: 60,
+       offsetFromElementY: 0,
+       username: username
+     };
 
     const noteWidth = 200;
     const elemCenterX = offset.left + offset.width / 2;
@@ -893,34 +1139,43 @@
     }
   }
 
-   function renderAnnotations() {
-     const boxesContainer = document.getElementById('annotation-boxes');
-     if (!boxesContainer) {
-       log('No #annotation-boxes container found');
-       return;
-     }
+    function renderAnnotations() {
+      const boxesContainer = document.getElementById('annotation-boxes');
+      if (!boxesContainer) {
+        log('No #annotation-boxes container found');
+        return;
+      }
 
-     boxesContainer.innerHTML = '';
-     let boxesRendered = 0;
+      boxesContainer.innerHTML = '';
+      let boxesRendered = 0;
+      let filteredOut = 0;
 
-     for (let i = 0; i < annotations.length; i++) {
-       const annotation = annotations[i];
-       const element = findElementBySelector(annotation.selector);
-       
-       if (!element) {
-         log('Skipping annotation - element not found for selector: ' + annotation.selector);
-         continue;
-       }
+      for (let i = 0; i < annotations.length; i++) {
+        const annotation = annotations[i];
+        
+        if (!isAnnotationVisible(annotation)) {
+          filteredOut++;
+          continue;
+        }
+        
+        const element = findElementBySelector(annotation.selector);
+        
+        if (!element) {
+          log('Skipping annotation - element not found for selector: ' + annotation.selector);
+          continue;
+        }
 
-       const offset = getPageOffset(element);
-       const noteBox = createNoteBox(annotation, offset);
-       boxesContainer.appendChild(noteBox);
-       boxesRendered++;
-     }
+        const offset = getPageOffset(element);
+        const noteBox = createNoteBox(annotation, offset);
+        boxesContainer.appendChild(noteBox);
+        boxesRendered++;
+      }
 
-     log('Rendered ' + boxesRendered + '/' + annotations.length + ' annotation box(es)');
-     updateLines();
-   }
+      const total = annotations.length;
+      const visible = total - filteredOut;
+      log('Rendered ' + boxesRendered + '/' + visible + ' visible annotation(s) (filtered out ' + filteredOut + ' of ' + total + ' total)');
+      updateLines();
+    }
 
   function enableElementHover() {
     const roots = getContentRoots();
