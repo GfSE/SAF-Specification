@@ -103,20 +103,17 @@ function handleVersionedDocs(repository_nwo, basePath) {
         const defaultBranch = await defaultBranchPromise;
         options.unshift({ value: 'latest', text: defaultBranch });
 
-        var currentVersion = "";
-        const versionPath = `${basePath}/`;
-        const path = window.location.pathname;
-        //const path = window.location.pathname.toLowerCase();
-        //if (path.startsWith(versionPath.toLowerCase())) {
-         if (path.startsWith(versionPath) && versionPath != "/") {
-             const start = versionPath.length;
-             const end = path.indexOf('/', start+1);
-             currentVersion = path.substring(start, end < 0 ? path.length : end);
-             currentPage = path.substring(basePath.length);
+         var currentVersion = "";
+         const versionPath = `${basePath}/`;
+         const path = window.location.pathname;
+         const versionPrefix = '/version/';
+         
+         if (basePath && basePath.startsWith(versionPrefix)) {
+             currentVersion = basePath.substring(versionPrefix.length);
          } else {
              currentVersion = defaultBranch;
-             currentPage = path.substring(basePath.length);
          }
+         currentPage = path.substring(basePath.length);
         menu.innerHTML = `Branch: ${currentVersion}`;
         menu.appendChild(dropdown);
 
