@@ -541,10 +541,7 @@
 
    function updateLines() {
      const svg = document.getElementById('annotation-svg');
-     if (!svg) {
-       log('updateLines(): No SVG found - cannot draw lines');
-       return;
-     }
+     if (!svg) return;
 
      svg.innerHTML = '';
      svg.setAttribute('width', window.innerWidth);
@@ -557,32 +554,23 @@
      svg.style.pointerEvents = 'none';
      svg.style.zIndex = '999';
 
-     log('=== updateLines() START ===');
-     log('SVG height set to: ' + Math.max(document.body.scrollHeight, window.innerHeight));
-     log('window.scrollY: ' + window.scrollY);
-
      let linesDrawn = 0;
      for (let i = 0; i < annotations.length; i++) {
        const annotation = annotations[i];
-       log('--- Line[' + i + '] id=' + annotation.id + ' ---');
-       
        const element = findElementBySelector(annotation.selector);
        const box = document.getElementById('note_' + annotation.id);
 
        if (!element) {
-         log('    !!! NO ELEMENT for selector: ' + annotation.selector);
+         log('Could not find element for selector: ' + annotation.selector);
          continue;
        }
        if (!box) {
-         log('    !!! NO NOTE BOX for id: ' + annotation.id);
+         log('Could not find note box for id: ' + annotation.id);
          continue;
        }
 
        const elementOffset = getPageOffset(element);
        const boxRect = box.getBoundingClientRect();
-
-       log('    elementOffset: top=' + elementOffset.top + ', left=' + elementOffset.left + ', width=' + elementOffset.width + ', height=' + elementOffset.height);
-       log('    boxRect: top=' + boxRect.top + ', left=' + boxRect.left + ', width=' + boxRect.width + ', height=' + boxRect.height);
 
        const startX = elementOffset.left + elementOffset.width / 2;
        const startY = elementOffset.top + elementOffset.height / 2;
@@ -590,15 +578,10 @@
        const boxCenterX = boxRect.left + boxRect.width / 2 + window.scrollX;
        const boxCenterY = boxRect.top + 40 + window.scrollY;
 
-       log('    start point: (' + startX + ', ' + startY + ')');
-       log('    box point: (' + boxCenterX + ', ' + boxCenterY + ')');
-
        const midX = (startX + boxCenterX) / 2;
 
        const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
        const d = 'M ' + startX + ' ' + startY + ' C ' + midX + ' ' + startY + ', ' + midX + ' ' + boxCenterY + ', ' + boxCenterX + ' ' + boxCenterY;
-
-       log('    path d="' + d + '"');
 
        path.setAttribute('d', d);
        path.setAttribute('stroke', '#555');
@@ -637,33 +620,22 @@
      boxesContainer.innerHTML = '';
      let boxesRendered = 0;
 
-     log('=== renderAnnotations() START ===');
-     log('Total annotations to render: ' + annotations.length);
-
      for (let i = 0; i < annotations.length; i++) {
        const annotation = annotations[i];
-       log('--- Annotation[' + i + '] id=' + annotation.id + ' ---');
-       log('    selector: ' + annotation.selector);
-       log('    text preview: ' + annotation.text.substring(0, 50) + (annotation.text.length > 50 ? '...' : ''));
-       
        const element = findElementBySelector(annotation.selector);
        
        if (!element) {
-         log('    !!! ELEMENT NOT FOUND - skipping this annotation');
+         log('Skipping annotation - element not found for selector: ' + annotation.selector);
          continue;
        }
 
-       log('    ELEMENT FOUND: ' + generateElementPath(element));
        const offset = getPageOffset(element);
-       log('    element offset: top=' + offset.top + ', left=' + offset.left + ', width=' + offset.width + ', height=' + offset.height);
-       
        const noteBox = createNoteBox(annotation, offset);
        boxesContainer.appendChild(noteBox);
        boxesRendered++;
-       log('    Box created and appended');
      }
 
-     log('=== renderAnnotations() END - Rendered ' + boxesRendered + '/' + annotations.length + ' ===');
+     log('Rendered ' + boxesRendered + '/' + annotations.length + ' annotation box(es)');
      updateLines();
    }
 
