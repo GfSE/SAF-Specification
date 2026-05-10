@@ -127,14 +127,20 @@ Each annotation is stored as a JSON object with position stored **relative to th
 
 ### How Elements are Identified
 
-The system generates stable CSS selectors:
+The system generates robust CSS selectors:
 
-1. **First choice:** If the element has an `id` attribute → `#element-id`
-2. **Fallback:** A path using `:nth-of-type()` selectors from the nearest ancestor with an ID, or from `body`
+1. **First choice:** If the element has an `id` attribute → `#element-id` (most stable)
+2. **Fallback:** A path using class names + `:nth-of-type()` selectors
+
+**Improved selector stability:**
+- Uses element **class names** in addition to tag names
+- Stops at the main content container boundary, never traversing up to `body`
+- Compares elements with **both same tag AND same class** when calculating `:nth-of-type`
+- Handles URLs with spaces correctly through proper URL decoding
 
 Example paths:
 - `#introduction > p:nth-of-type(3)`
-- `body > main > h2:nth-of-type(2) > table > tbody > tr:nth-of-type(4) > td:nth-of-type(2)`
+- `.main-content > h2.section-title > table > tbody > tr:nth-of-type(4) > td:nth-of-type(2)`
 
 ### Smart Initial Placement
 
@@ -189,15 +195,37 @@ Annotations are part of your browser's "site data." They may be cleared if:
 
 ### Annotations not appearing?
 
-1. Ensure you're clicking the **Annotations** button to enable the mode
-2. Check that your browser allows localStorage (not in a restricted/incognito mode)
-3. Check browser console (F12 → Console) for any errors
+1. **Button color check:** Blue (active) = annotations exist or create mode is on; Gray = no annotations saved
+2. **Auto-display behavior:** Saved annotations should appear automatically without clicking. Only create mode requires clicking.
+3. **Check localStorage:** Open browser DevTools → Application → Local Storage → look for keys starting with `saf_annotations_`
+4. **Not in incognito/private:** Browser localStorage is often disabled in private modes
+5. **Check console logs:** F12 → Console and filter for `[Annotations]` prefix
+
+### Console Debugging
+
+The annotations system logs detailed information to the browser console (F12 → Console). Filter by `[Annotations]` to see:
+
+| Log Entry | Meaning |
+|-----------|---------|
+| `pageId: ...` | Shows the hashed page key used for localStorage |
+| `Loaded X annotation(s) from key: ...` | Found and loaded stored annotations |
+| `Generated selector: ...` | CSS selector being used when creating annotations |
+| `Rendered X/Y annotation box(es)` | Some annotations couldn't find their target elements |
+| `Could not find element for selector: ...` | The element referenced by selector doesn't exist (page changed?) |
+| `window.load fired` / `Delayed re-render` | Re-render after images and resources load |
 
 ### Notes not connecting to the right element?
 
-This can happen if the page structure changed significantly since you created the annotation. The CSS selector approach relies on:
-- Stable element IDs when available
-- Consistent DOM hierarchy and element ordering
+This can happen if the page structure changed significantly since you created the annotation. The system is now more robust:
+
+- Uses **class names** in selectors for better matching
+- Stops at content container (never goes up to `body`, avoiding issues with dynamic elements)
+- **Handles URL spaces** via proper `decodeURIComponent()` URL decoding
+- **Image-aware re-renders:** Re-renders at `window.load` after all images finish loading
+
+{: .highlight }
+> **Most robust:** Elements with `id="..."` attributes provide the most stable reference. An annotation saved as `#element-id` is practically immune to page layout changes.
+
 
 ### Button doesn't appear?
 

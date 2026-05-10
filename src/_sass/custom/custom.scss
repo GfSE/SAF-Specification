@@ -329,25 +329,24 @@ div.whitebox div.na_or_both {
   }
 }
 
-.annotation-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  z-index: 998;
-}
+ .annotation-overlay {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 0;
+   height: 0;
+   pointer-events: none;
+   z-index: 998;
+ }
 
-.annotation-svg {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  pointer-events: none;
-  z-index: 999;
-}
+ .annotation-svg {
+   position: absolute;
+   top: 0;
+   left: 0;
+   pointer-events: none;
+   z-index: 999;
+   overflow: visible;
+ }
 
 #annotation-boxes {
   position: absolute;
