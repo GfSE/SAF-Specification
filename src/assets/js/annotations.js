@@ -10,7 +10,8 @@
     purple: '#CE93D8'
   };
 
-  let annotationsEnabled = false;
+  let createModeEnabled = false;
+  let annotationsDisplayed = false;
   let currentPageId = getPageId();
   let annotations = loadAnnotations();
   let activeAnnotation = null;
@@ -99,7 +100,7 @@
     const btn = document.createElement('button');
     btn.id = 'annotation-toggle';
     btn.className = 'annotation-toggle-btn';
-    btn.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4L18.5 2.5z"/></svg> Annotations';
+    btn.innerHTML = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4L18.5 2.5z"/></svg>';
     btn.title = 'Toggle annotations mode';
     btn.onclick = toggleAnnotations;
     return btn;
@@ -154,13 +155,57 @@
     return div.innerHTML;
   }
 
-  function createNoteBox(annotation) {
+  function getNotePositionForRender(annotation, elementOffset) {
+    const elemCenterX = elementOffset.left + elementOffset.width / 2;
+    const elemTop = elementOffset.top;
+    const noteWidth = 200;
+    const viewportWidth = window.innerWidth;
+    const viewportRight = window.scrollX + viewportWidth;
+    const margin = 20;
+
+    let left, top;
+
+    if (annotation.offsetFromElementX !== undefined) {
+      left = elemCenterX + annotation.offsetFromElementX;
+      top = elemTop + annotation.offsetFromElementY;
+    } else if (annotation.boxX !== undefined) {
+      left = annotation.boxX;
+      top = annotation.boxY;
+    } else {
+      left = elemCenterX + 60;
+      top = elemTop;
+    }
+
+    if (left + noteWidth > viewportRight - margin) {
+      left = elemCenterX - noteWidth - 60;
+    }
+    if (left < window.scrollX + margin) {
+      left = window.scrollX + margin;
+    }
+
+    return { left: left, top: top };
+  }
+
+  function updateAnnotationOffsets(annotation, boxLeft, boxTop, elementOffset) {
+    const elemCenterX = elementOffset.left + elementOffset.width / 2;
+    const elemTop = elementOffset.top;
+
+    annotation.offsetFromElementX = boxLeft - elemCenterX;
+    annotation.offsetFromElementY = boxTop - elemTop;
+
+    delete annotation.boxX;
+    delete annotation.boxY;
+  }
+
+  function createNoteBox(annotation, elementOffset) {
+    const pos = getNotePositionForRender(annotation, elementOffset);
+
     const box = document.createElement('div');
     box.className = 'annotation-note';
     box.id = 'note_' + annotation.id;
     box.dataset.id = annotation.id;
-    box.style.left = annotation.boxX + 'px';
-    box.style.top = annotation.boxY + 'px';
+    box.style.left = pos.left + 'px';
+    box.style.top = pos.top + 'px';
     box.style.backgroundColor = COLORS[annotation.color] || COLORS.yellow;
 
     box.innerHTML = '<div class="annotation-note-header"><span class="annotation-note-title">Note</span><div class="annotation-note-controls"><button class="annotation-note-btn annotation-edit-btn" title="Edit">✏</button><button class="annotation-note-btn annotation-delete-btn" title="Delete">×</button></div></div><div class="annotation-note-content">' + escapeHtml(annotation.text) + '</div>';
@@ -261,11 +306,18 @@
       selector: selector,
       text: initialText,
       color: 'yellow',
-      elementX: offset.left + offset.width / 2,
-      elementY: offset.top + offset.height / 2,
-      boxX: offset.left + offset.width + 30,
-      boxY: offset.top
+      offsetFromElementX: 60,
+      offsetFromElementY: 0
     };
+
+    const noteWidth = 200;
+    const elemCenterX = offset.left + offset.width / 2;
+    const viewportRight = window.scrollX + window.innerWidth;
+    const margin = 20;
+
+    if (elemCenterX + 60 + noteWidth > viewportRight - margin) {
+      annotation.offsetFromElementX = -noteWidth - 60;
+    }
 
     annotations.push(annotation);
     saveAnnotations();
@@ -345,12 +397,10 @@
 
     annotations.forEach(annotation => {
       const element = findElement(annotation.selector);
-      if (element) {
-        const offset = getPageOffset(element);
-        annotation.elementX = offset.left + offset.width / 2;
-        annotation.elementY = offset.top + offset.height / 2;
-      }
-      const noteBox = createNoteBox(annotation);
+      if (!element) return;
+
+      const offset = getPageOffset(element);
+      const noteBox = createNoteBox(annotation, offset);
       boxesContainer.appendChild(noteBox);
     });
 
@@ -384,24 +434,61 @@
     createAnnotation(target);
   }
 
-  function toggleAnnotations() {
-    annotationsEnabled = !annotationsEnabled;
-    const btn = document.getElementById('annotation-toggle');
+  function showAnnotations() {
+    if (annotationsDisplayed) return;
+    annotationsDisplayed = true;
+    createAnnotationOverlay();
+    renderAnnotations();
+    updateButtonState();
+  }
 
-    if (annotationsEnabled) {
+  function hideAnnotations() {
+    if (!annotationsDisplayed) return;
+    annotationsDisplayed = false;
+    const overlay = document.getElementById('annotation-overlay');
+    if (overlay) overlay.remove();
+    updateButtonState();
+  }
+
+  function enableCreateMode() {
+    if (createModeEnabled) return;
+    createModeEnabled = true;
+    document.body.classList.add('annotations-mode');
+    document.addEventListener('click', handleContentClick, true);
+    enableElementHover();
+    if (!annotationsDisplayed) {
+      showAnnotations();
+    }
+    updateButtonState();
+  }
+
+  function disableCreateMode() {
+    if (!createModeEnabled) return;
+    createModeEnabled = false;
+    document.body.classList.remove('annotations-mode');
+    document.removeEventListener('click', handleContentClick, true);
+    disableElementHover();
+    updateButtonState();
+  }
+
+  function updateButtonState() {
+    const btn = document.getElementById('annotation-toggle');
+    if (!btn) return;
+    if (createModeEnabled || (annotationsDisplayed && annotations.length > 0)) {
       btn.classList.add('active');
-      document.body.classList.add('annotations-mode');
-      createAnnotationOverlay();
-      renderAnnotations();
-      document.addEventListener('click', handleContentClick, true);
-      enableElementHover();
     } else {
       btn.classList.remove('active');
-      document.body.classList.remove('annotations-mode');
-      document.removeEventListener('click', handleContentClick, true);
-      disableElementHover();
-      const overlay = document.getElementById('annotation-overlay');
-      if (overlay) overlay.remove();
+    }
+  }
+
+  function toggleAnnotations() {
+    if (createModeEnabled) {
+      disableCreateMode();
+      if (annotations.length === 0) {
+        hideAnnotations();
+      }
+    } else {
+      enableCreateMode();
     }
   }
 
@@ -416,8 +503,11 @@
       box.style.left = newX + 'px';
       box.style.top = newY + 'px';
 
-      activeAnnotation.boxX = newX;
-      activeAnnotation.boxY = newY;
+      const element = findElement(activeAnnotation.selector);
+      if (element) {
+        const elementOffset = getPageOffset(element);
+        updateAnnotationOffsets(activeAnnotation, newX, newY, elementOffset);
+      }
 
       saveAnnotations();
       updateLines();
@@ -435,23 +525,31 @@
   });
 
   window.addEventListener('scroll', () => {
-    if (annotationsEnabled) {
+    if (annotationsDisplayed) {
       updateLines();
     }
   });
 
   window.addEventListener('resize', () => {
-    if (annotationsEnabled) {
-      updateLines();
+    if (annotationsDisplayed) {
+      renderAnnotations();
     }
   });
 
-  document.addEventListener('DOMContentLoaded', () => {
+  function autoInitialize() {
     injectToggleButton();
+    if (annotations.length > 0) {
+      showAnnotations();
+    }
+    updateButtonState();
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    autoInitialize();
   });
 
   if (document.readyState !== 'loading') {
-    injectToggleButton();
+    autoInitialize();
   }
 
 })();

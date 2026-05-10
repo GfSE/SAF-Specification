@@ -281,20 +281,21 @@ div.whitebox div.na_or_both {
   z-index: 10000;
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  padding: 6px 12px;
-  margin-right: 10px;
+  justify-content: center;
+  padding: 6px;
+  margin-right: 8px;
   background: #f5f5f5;
   border: 1px solid #ccc;
   border-radius: 4px;
   cursor: pointer;
-  font-size: 13px;
-  color: #333;
+  color: #555;
   transition: all 0.2s ease;
+  line-height: 1;
 
   &:hover {
     background: #e8e8e8;
-    border-color: #bbb;
+    border-color: #999;
+    color: #333;
   }
 
   &.active {
@@ -308,8 +309,7 @@ div.whitebox div.na_or_both {
   }
 
   svg {
-    display: inline-block;
-    vertical-align: middle;
+    display: block;
   }
 }
 
