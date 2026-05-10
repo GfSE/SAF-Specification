@@ -59,7 +59,8 @@
     {% endfor %}
   ];
 </script>
-<script src="{{ basePath }}/assets/js/examplegallery.js"></script>
+ {%- assign cacheBuster = site.time | date: "%Y%m%d%H%M%S" %}
+ <script src="{{ basePath }}/assets/js/examplegallery.js?v={{ cacheBuster }}"></script>
 
 {% else %}
 <p>No examples available.</p>
