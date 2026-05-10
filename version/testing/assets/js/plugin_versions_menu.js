@@ -104,7 +104,7 @@ function handleVersionedDocs(repository_nwo, basePath) {
         options.unshift({ value: 'latest', text: defaultBranch });
 
         var currentVersion = "";
-        const versionPath = `${basePath}/version/`;
+        const versionPath = `${basePath}`;
         const path = window.location.pathname;
         //const path = window.location.pathname.toLowerCase();
         //if (path.startsWith(versionPath.toLowerCase())) {
