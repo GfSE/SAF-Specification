@@ -20,8 +20,21 @@
    let isDragging = false;
    let dragOffset = { x: 0, y: 0 };
    
-   let currentUsername = null;
-   let userFilter = null;  // null = show all, 'me' = show only mine, array of usernames = show specific users
+    let currentUsername = null;
+    let userFilter = null;  // null = show all, 'me' = show only mine, array of usernames = show specific users
+
+    function getPageAnnotationKeys() {
+      const keys = [];
+      for (let i = 0; i < localStorage.length; i++) {
+        const key = localStorage.key(i);
+        if (key && key.startsWith(STORAGE_KEY_PREFIX) && 
+            key !== USERNAME_STORAGE_KEY && 
+            key !== FILTER_STORAGE_KEY) {
+          keys.push(key);
+        }
+      }
+      return keys;
+    }
 
   function log(msg, obj) {
     if (obj !== undefined) {
@@ -179,18 +192,12 @@
      }
    }
 
-   function getUniqueUsernames() {
-     const usernames = new Set();
-     
-     const keys = [];
-     for (let i = 0; i < localStorage.length; i++) {
-       const key = localStorage.key(i);
-       if (key && key.startsWith(STORAGE_KEY_PREFIX)) {
-         keys.push(key);
-       }
-     }
-     
-     for (let k = 0; k < keys.length; k++) {
+    function getUniqueUsernames() {
+      const usernames = new Set();
+      
+      const keys = getPageAnnotationKeys();
+      
+      for (let k = 0; k < keys.length; k++) {
        try {
          const data = JSON.parse(localStorage.getItem(keys[k]));
          for (let i = 0; i < data.length; i++) {
@@ -431,16 +438,19 @@
       const currentUser = getCurrentUsername();
       const hasPageAnnotations = annotations.length > 0;
       
-      const allKeys = [];
-      for (let i = 0; i < localStorage.length; i++) {
-        const key = localStorage.key(i);
-        if (key && key.startsWith(STORAGE_KEY_PREFIX)) {
-          allKeys.push(key);
-        }
+        const allKeys = getPageAnnotationKeys();
+      let totalAnnotationsAllPages = 0;
+      for (let k = 0; k < allKeys.length; k++) {
+        try {
+          const data = JSON.parse(localStorage.getItem(allKeys[k]));
+          if (Array.isArray(data)) {
+            totalAnnotationsAllPages += data.length;
+          }
+        } catch (e) {}
       }
       const hasAnyAnnotations = allKeys.length > 0;
-      
-      const uniqueUsers = getUniqueUsernames();
+       
+       const uniqueUsers = getUniqueUsernames();
       const currentFilter = getUserFilter();
       
       let html = '';
@@ -489,9 +499,9 @@
       html += '📄 Export This Page (' + annotations.length + ')';
       html += '</button>';
       
-      html += '<button class="annotation-context-menu-item" id="ann-export-all" ' + (!hasAnyAnnotations ? 'disabled' : '') + '>';
-      html += '📦 Export All Pages (' + allKeys.length + ' pages)';
-      html += '</button>';
+       html += '<button class="annotation-context-menu-item" id="ann-export-all" ' + (!hasAnyAnnotations ? 'disabled' : '') + '>';
+       html += '📦 Export All Pages (' + totalAnnotationsAllPages + ' annotations across ' + allKeys.length + ' pages)';
+       html += '</button>';
       
       html += '<div class="annotation-context-menu-divider"></div>';
       
@@ -587,22 +597,21 @@
        };
        filename = 'saf-annotations-page-' + timestamp + '.json';
        log('Exporting ' + annotations.length + ' annotation(s) from current page');
-     } else {
-       const allAnnotations = {};
-       const pagePaths = {};
-       
-       for (let i = 0; i < localStorage.length; i++) {
-         const key = localStorage.key(i);
-         if (key && key.startsWith(STORAGE_KEY_PREFIX)) {
-           try {
-             const data = JSON.parse(localStorage.getItem(key));
-             const pageId = key.substring(STORAGE_KEY_PREFIX.length);
-             allAnnotations[pageId] = data;
-           } catch (e) {
-             log('Failed to parse annotations from key: ' + key);
-           }
-         }
-       }
+      } else {
+        const allAnnotations = {};
+        const pagePaths = {};
+        
+        const keys = getPageAnnotationKeys();
+        for (let k = 0; k < keys.length; k++) {
+          const key = keys[k];
+          try {
+            const data = JSON.parse(localStorage.getItem(key));
+            const pageId = key.substring(STORAGE_KEY_PREFIX.length);
+            allAnnotations[pageId] = data;
+          } catch (e) {
+            log('Failed to parse annotations from key: ' + key);
+          }
+        }
        
        exportData = {
          version: 1,
