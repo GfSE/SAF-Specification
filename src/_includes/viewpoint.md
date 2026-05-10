@@ -21,12 +21,6 @@
 | --- | --- | --- |
 |{{ domainlink }}|{{ aspectlink }}|{{ maturityimage }}{{ maturitylink }}|
 
-Test: 
-
-Site.BaseURL = {{  site.baseurl }}
-
-basePath  = {{  basePath  }}
-
 ## Example
 {% assign examples = md_examples |concat: rhy_examples |concat: ea_examples %}
 {% assign tools = examples | map: "Tool" | uniq | sort %}
