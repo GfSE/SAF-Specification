@@ -273,3 +273,256 @@ div.whitebox div.na_or_both {
 #next-btn:focus {
   outline: 2px solid #ffffff;
 }
+
+/* ============== Annotations System ============== */
+
+.annotation-toggle-btn {
+  position: relative;
+  z-index: 10000;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  margin-right: 10px;
+  background: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  color: #333;
+  transition: all 0.2s ease;
+
+  &:hover {
+    background: #e8e8e8;
+    border-color: #bbb;
+  }
+
+  &.active {
+    background: #4a90d9;
+    color: white;
+    border-color: #3a7bc8;
+
+    &:hover {
+      background: #3a7bc8;
+    }
+  }
+
+  svg {
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+
+.annotations-mode {
+  cursor: crosshair;
+}
+
+.annotation-hover-target {
+  position: relative;
+  transition: background 0.15s ease;
+
+  &:hover {
+    background: rgba(74, 144, 217, 0.15) !important;
+    outline: 2px dashed rgba(74, 144, 217, 0.5);
+    outline-offset: 2px;
+    cursor: crosshair;
+  }
+}
+
+.annotation-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 998;
+}
+
+.annotation-svg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 999;
+}
+
+#annotation-boxes {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+  z-index: 1000;
+}
+
+.annotation-note {
+  position: absolute;
+  min-width: 180px;
+  max-width: 300px;
+  background: #FFF59D;
+  border-radius: 6px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  pointer-events: auto;
+  z-index: 1001;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 13px;
+  line-height: 1.4;
+
+  &:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+    z-index: 1002;
+  }
+}
+
+.annotation-note-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 8px;
+  background: rgba(0, 0, 0, 0.08);
+  border-radius: 6px 6px 0 0;
+  cursor: grab;
+  user-select: none;
+
+  &:active {
+    cursor: grabbing;
+  }
+}
+
+.annotation-note-title {
+  font-weight: 600;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.annotation-note-controls {
+  display: flex;
+  gap: 2px;
+}
+
+.annotation-note-btn {
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  border: none;
+  background: transparent;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 11px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.5);
+  transition: all 0.15s ease;
+
+  &:hover {
+    background: rgba(0, 0, 0, 0.1);
+    color: rgba(0, 0, 0, 0.8);
+  }
+}
+
+.annotation-note-content {
+  padding: 8px 10px;
+  color: #333;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+.annotation-edit-container {
+  width: 100%;
+}
+
+.annotation-edit-textarea {
+  width: 100%;
+  min-height: 80px;
+  max-height: 300px;
+  padding: 6px 8px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.9);
+  font-family: inherit;
+  font-size: 13px;
+  line-height: 1.4;
+  resize: vertical;
+  box-sizing: border-box;
+  color: #333;
+
+  &:focus {
+    outline: none;
+    border-color: #4a90d9;
+    box-shadow: 0 0 0 2px rgba(74, 144, 217, 0.2);
+  }
+}
+
+.annotation-edit-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+  gap: 8px;
+}
+
+.annotation-color-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.annotation-color-picker {
+  display: flex;
+  gap: 4px;
+}
+
+.annotation-color-btn {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  padding: 0;
+  box-sizing: border-box;
+
+  &:hover {
+    transform: scale(1.15);
+  }
+
+  &.selected {
+    border-color: #333;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
+  }
+}
+
+.annotation-save-btn,
+.annotation-cancel-btn {
+  padding: 4px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.annotation-save-btn {
+  background: #4a90d9;
+  color: white;
+  border-color: #3a7bc8;
+
+  &:hover {
+    background: #3a7bc8;
+  }
+}
+
+.annotation-cancel-btn {
+  background: #f5f5f5;
+  color: #333;
+
+  &:hover {
+    background: #e8e8e8;
+  }
+}
