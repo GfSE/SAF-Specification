@@ -108,15 +108,15 @@ function handleVersionedDocs(repository_nwo, basePath) {
         const path = window.location.pathname;
         //const path = window.location.pathname.toLowerCase();
         //if (path.startsWith(versionPath.toLowerCase())) {
-        if (path.startsWith(versionPath) && versionPath != "/") {
-            const start = versionPath.length;
-            const end = path.indexOf('/', start+1);
-            currentVersion = path.substring(start, end < 0 ? path.length : end);
-            currentPage = path.substring(end < 0 ? path.length : end);
-        } else {
-            currentVersion = defaultBranch;
-            currentPage = path.substring(basePath.length);
-        }
+         if (path.startsWith(versionPath) && versionPath != "/") {
+             const start = versionPath.length;
+             const end = path.indexOf('/', start+1);
+             currentVersion = path.substring(start, end < 0 ? path.length : end);
+             currentPage = path.substring(basePath.length);
+         } else {
+             currentVersion = defaultBranch;
+             currentPage = path.substring(basePath.length);
+         }
         menu.innerHTML = `Branch: ${currentVersion}`;
         menu.appendChild(dropdown);
 
@@ -126,13 +126,13 @@ function handleVersionedDocs(repository_nwo, basePath) {
         options.forEach( item => {
             var link = document.createElement('a');
             var wrapper = document.createElement('div');
-            if ( ['TdSE2023','TdSE2022','Initial-Release'].includes(item.value))
-            {
-                link.href = 'https://github.com/GfSE/SAF-Specification/tree/' + item.value + '/README.md';
-            }else
-            {
-                link.href = (item.value === 'latest' ? basePath : versionPath + item.value) + currentPage;
-            }            
+             if ( ['TdSE2023','TdSE2022','Initial-Release'].includes(item.value))
+             {
+                 link.href = 'https://github.com/GfSE/SAF-Specification/tree/' + item.value + '/README.md';
+             }else
+             {
+                 link.href = (item.value === 'latest' ? '' : '/version/' + item.value) + currentPage;
+             }
             link.innerHTML = item.text;
             link.className = 'plugin-version-menu-option';
             link.style.cssText = `
