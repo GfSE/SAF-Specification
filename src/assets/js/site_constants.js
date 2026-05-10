@@ -1,7 +1,5 @@
----
-title: my js file
----
-{%- comment %}handle development serving site on root{% endcomment %}
+
+//handle development serving site on root
 {%- if site.baseurl.size == 0 %}
 const basePath = '';
 {%- else %}
