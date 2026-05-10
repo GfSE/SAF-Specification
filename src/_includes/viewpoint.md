@@ -21,6 +21,11 @@
 | --- | --- | --- |
 |{{ domainlink }}|{{ aspectlink }}|{{ maturityimage }}{{ maturitylink }}|
 
+Test: 
+
+Site.BaseURL = {{  site.baseurl }}
+
+basePath  = {{  basePath  }}
 
 ## Example
 {% assign examples = md_examples |concat: rhy_examples |concat: ea_examples %}
@@ -59,14 +64,9 @@
     {% endfor %}
   ];
 </script>
-  {%- assign basePath = "" %}
- {%- if site.plugin_script_base_path %}
- {%-   assign basePath = site.plugin_script_base_path %}
- {%- elsif site.baseurl and site.baseurl.size > 0 %}
- {%-   assign basePath = site.baseurl %}
- {%- endif %}
+
  {%- assign cacheBuster = site.time | date: "%Y%m%d%H%M%S" %}
- <script src="{{ basePath }}/assets/js/examplegallery.js?v={{ cacheBuster }}"></script>
+ <script src="{{  site.baseurl }}/assets/js/examplegallery.js?v={{ cacheBuster }}"></script>
 
 {% else %}
 <p>No examples available.</p>
