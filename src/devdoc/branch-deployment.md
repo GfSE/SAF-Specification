@@ -30,15 +30,18 @@ The deployment is configured in `.github/workflows/pages.yml`.
 
 ### Key Environment Variables
 
+{% raw %}
 ```yaml
 env:
   BRANCH_NAME: ${{ github.head_ref || github.ref_name }}
 ```
+{% endraw %}
 
 ### Build Step Configuration
 
 The workflow dynamically determines the `TARGET_FOLDER` and `baseurl`:
 
+{% raw %}
 ```bash
 [[ "$BRANCH_NAME" != "main" ]] && TARGET_FOLDER="${{ github.ref_name }}"
 
@@ -49,6 +52,7 @@ else
   echo 'baseurl: ""' >> ${TEMP_CONFIG}
 fi
 ```
+{% endraw %}
 
 **Logic:**
 - For `main` branch: `baseurl = ""` (empty string)
@@ -56,8 +60,9 @@ fi
 
 ### Deployment Step
 
-The built site is deployed to the `gh-pages` branch:
+The built site is deployed to the `gh-pages` branch. The YAML syntax uses GitHub Actions expressions:
 
+{% raw %}
 ```yaml
 - name: Deploy To gh-pages Branch 🚀
   uses: JamesIves/github-pages-deploy-action@v4.4.3
@@ -65,11 +70,12 @@ The built site is deployed to the `gh-pages` branch:
     branch: gh-pages
     folder: build
     force: false
-    target-folder: ${{  env.BRANCH_NAME != 'main'  &&  format('version/{0}',env.BRANCH_NAME) || '' }}
+    target-folder: ${{ env.BRANCH_NAME != 'main' && format('version/{0}', env.BRANCH_NAME) || '' }}
     clean-exclude: |
       pr-preview/
       version/
 ```
+{% endraw %}
 
 **Key points:**
 - `target-folder`: Non-main branches deploy to `version/{branch-name}/`
@@ -98,6 +104,9 @@ All HTML includes that reference JavaScript assets must use a dynamic `basePath`
 
 #### Template Logic
 
+The template uses Liquid to determine the correct base path:
+
+{% raw %}
 ```liquid
 {%- assign basePath = "" %}
 {%- if site.plugin_script_base_path %}
@@ -108,6 +117,7 @@ All HTML includes that reference JavaScript assets must use a dynamic `basePath`
 
 <script src="{{ basePath }}/assets/js/script.js"></script>
 ```
+{% endraw %}
 
 **Priority Order:**
 1. `site.plugin_script_base_path` (if explicitly set)
@@ -118,10 +128,12 @@ All HTML includes that reference JavaScript assets must use a dynamic `basePath`
 
 To ensure users get the latest JavaScript after deployments, a cache buster using the build timestamp is added:
 
+{% raw %}
 ```liquid
 {%- assign cacheBuster = site.time | date: "%Y%m%d%H%M%S" %}
 <script src="{{ basePath }}/assets/js/annotations.js?v={{ cacheBuster }}"></script>
 ```
+{% endraw %}
 
 **Generated Output Example:**
 ```html
@@ -132,9 +144,11 @@ To ensure users get the latest JavaScript after deployments, a cache buster usin
 
 CSS files are referenced relative to the HTML file location, and images use the same `basePath` logic:
 
+{% raw %}
 ```html
 <A href="https://gfse.org"><img src="{{ basePath }}/assets/images/gfse-logo.png" .../></A>
 ```
+{% endraw %}
 
 ## Troubleshooting
 
@@ -148,8 +162,8 @@ CSS files are referenced relative to the HTML file location, and images use the 
    - Fix: Ensure the template uses the `basePath` assignment logic
 
 2. **Bug in `basePath` logic (common pitfall)**
-   - **Wrong:** `{%- elsif site.baseurl.size != 0 %}{%-   assign basePath = "" %}`
-   - **Right:** `{%- elsif site.baseurl and site.baseurl.size > 0 %}{%-   assign basePath = site.baseurl %}`
+   - **Wrong:** This logic sets `basePath` to empty when `baseurl` is set (backwards)
+   - **Right:** This logic assigns `basePath = site.baseurl` when `baseurl` has a value
 
 3. **Cache issue**
    - Fix: The `?v=timestamp` cache buster should handle this. If not, try a hard refresh (Ctrl+Shift+R).
@@ -174,16 +188,4 @@ When adding a new JavaScript file to the project, update these files if they ref
 | `src/_includes/viewpoint.md` | Viewpoint-specific scripts |
 | `src/_includes/dev-viewpoint.md` | Dev viewpoint-specific scripts |
 
-Always use the `basePath` pattern with cache buster:
-
-```liquid
-{%- assign basePath = "" %}
-{%- if site.plugin_script_base_path %}
-{%-   assign basePath = site.plugin_script_base_path %}
-{%- elsif site.baseurl and site.baseurl.size > 0 %}
-{%-   assign basePath = site.baseurl %}
-{%- endif %}
-{%- assign cacheBuster = site.time | date: "%Y%m%d%H%M%S" %}
-
-<script src="{{ basePath }}/assets/js/your-new-script.js?v={{ cacheBuster }}"></script>
-```
+Always use the `basePath` pattern with cache buster as described in the **Template Logic** section above.

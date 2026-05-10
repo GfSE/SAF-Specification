@@ -1,5 +1,5 @@
 ---
-title: Annotations Developer Docs
+title: Annotations
 layout: default
 parent: Documentation Generation
 nav_order: 99
