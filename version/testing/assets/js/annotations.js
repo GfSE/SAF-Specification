@@ -1,11 +1,12 @@
  (function() {
    'use strict';
  
-   const STORAGE_KEY_PREFIX = 'saf_annotations_';
-   const USERNAME_STORAGE_KEY = 'saf_annotations_username';
-   const FILTER_STORAGE_KEY = 'saf_annotations_filter';
-   
-   const COLORS = {
+    const STORAGE_KEY_PREFIX = 'saf_annotations_';
+    const USERNAME_STORAGE_KEY = 'saf_annotations_username';
+    const FILTER_STORAGE_KEY = 'saf_annotations_filter';
+    const PAGE_INDEX_STORAGE_KEY = 'saf_annotations_page_index';
+    
+    const COLORS = {
      yellow: '#FFF59D',
      blue: '#90CAF9',
      green: '#A5D6A7',
@@ -23,17 +24,42 @@
     let currentUsername = null;
     let userFilter = null;  // null = show all, 'me' = show only mine, array of usernames = show specific users
 
-    function getPageAnnotationKeys() {
+     function getPageAnnotationKeys() {
       const keys = [];
       for (let i = 0; i < localStorage.length; i++) {
         const key = localStorage.key(i);
         if (key && key.startsWith(STORAGE_KEY_PREFIX) && 
             key !== USERNAME_STORAGE_KEY && 
-            key !== FILTER_STORAGE_KEY) {
+            key !== FILTER_STORAGE_KEY &&
+            key !== PAGE_INDEX_STORAGE_KEY) {
           keys.push(key);
         }
       }
       return keys;
+    }
+
+    function getPageIndex() {
+      try {
+        const data = localStorage.getItem(PAGE_INDEX_STORAGE_KEY);
+        if (data) {
+          return JSON.parse(data);
+        }
+      } catch (e) {}
+      return {};
+    }
+
+    function updatePageIndex(pageId, pagePath) {
+      try {
+        const index = getPageIndex();
+        index[pageId] = {
+          path: pagePath,
+          lastUpdated: new Date().toISOString()
+        };
+        localStorage.setItem(PAGE_INDEX_STORAGE_KEY, JSON.stringify(index));
+        log('Updated page index: ' + pageId + ' -> ' + pagePath);
+      } catch (e) {
+        console.warn('[Annotations] Failed to update page index:', e);
+      }
     }
 
   function log(msg, obj) {
@@ -83,15 +109,16 @@
     return [];
   }
 
-  function saveAnnotations() {
-    try {
-      const key = getStorageKey();
-      localStorage.setItem(key, JSON.stringify(annotations));
-      log('Saved ' + annotations.length + ' annotation(s) to key: ' + key);
-    } catch (e) {
-      console.warn('[Annotations] Failed to save:', e);
-    }
-  }
+   function saveAnnotations() {
+     try {
+       const key = getStorageKey();
+       localStorage.setItem(key, JSON.stringify(annotations));
+       updatePageIndex(getPageId(), window.location.pathname);
+       log('Saved ' + annotations.length + ' annotation(s) to key: ' + key);
+     } catch (e) {
+       console.warn('[Annotations] Failed to save:', e);
+     }
+   }
 
    function generateId() {
      return 'ann_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
@@ -499,13 +526,19 @@
       html += '📄 Export This Page (' + annotations.length + ')';
       html += '</button>';
       
-       html += '<button class="annotation-context-menu-item" id="ann-export-all" ' + (!hasAnyAnnotations ? 'disabled' : '') + '>';
+        html += '<button class="annotation-context-menu-item" id="ann-export-all" ' + (!hasAnyAnnotations ? 'disabled' : '') + '>';
        html += '📦 Export All Pages (' + totalAnnotationsAllPages + ' annotations across ' + allKeys.length + ' pages)';
        html += '</button>';
-      
+       
       html += '<div class="annotation-context-menu-divider"></div>';
-      
-      html += '<button class="annotation-context-menu-item" id="ann-import">';
+
+       html += '<button class="annotation-context-menu-item" id="ann-navigator">';
+       html += '📋 Annotation List';
+       html += '</button>';
+
+      html += '<div class="annotation-context-menu-divider"></div>';
+       
+       html += '<button class="annotation-context-menu-item" id="ann-import">';
       html += '📥 Import Annotations...';
       html += '</button>';
       
@@ -549,12 +582,17 @@
         exportAnnotations('page');
       };
       
-      document.getElementById('ann-export-all').onclick = function() {
-        hideContextMenu();
-        exportAnnotations('all');
-      };
-      
-      document.getElementById('ann-import').onclick = function() {
+       document.getElementById('ann-export-all').onclick = function() {
+         hideContextMenu();
+         exportAnnotations('all');
+       };
+       
+       document.getElementById('ann-navigator').onclick = function() {
+         hideContextMenu();
+         showAnnotationNavigator();
+       };
+       
+       document.getElementById('ann-import').onclick = function() {
         hideContextMenu();
         importAnnotations();
       };
@@ -562,14 +600,188 @@
       log('Context menu shown, currentUser=' + currentUser + ', uniqueUsers=' + uniqueUsers.length);
     }
 
-   function hideContextMenu() {
-     const existing = document.getElementById('annotation-context-menu');
-     if (existing) {
-       existing.remove();
-     }
-   }
+    function hideContextMenu() {
+      const existing = document.getElementById('annotation-context-menu');
+      if (existing) {
+        existing.remove();
+      }
+    }
 
-   document.addEventListener('click', function(e) {
+    function hideAnnotationNavigator() {
+      const overlay = document.getElementById('annotation-navigator-overlay');
+      const dialog = document.getElementById('annotation-navigator-dialog');
+      if (overlay) overlay.remove();
+      if (dialog) dialog.remove();
+    }
+
+    function showAnnotationNavigator() {
+      hideContextMenu();
+      hideAnnotationNavigator();
+      
+      const overlay = document.createElement('div');
+      overlay.id = 'annotation-navigator-overlay';
+      overlay.style.cssText = 'position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.5);z-index:2000;';
+      
+      const dialog = document.createElement('div');
+      dialog.id = 'annotation-navigator-dialog';
+      dialog.style.cssText = 'position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);width:600px;max-width:90vw;max-height:80vh;background:#fff;border-radius:8px;box-shadow:0 10px 40px rgba(0,0,0,0.3);z-index:2001;display:flex;flex-direction:column;';
+      
+      const pageIndex = getPageIndex();
+      const keys = getPageAnnotationKeys();
+      
+      let allAnnotations = [];
+      
+      for (let k = 0; k < keys.length; k++) {
+        const key = keys[k];
+        const pageId = key.substring(STORAGE_KEY_PREFIX.length);
+        const pageInfo = pageIndex[pageId];
+        const pagePath = pageInfo ? pageInfo.path : null;
+        
+        try {
+          const data = JSON.parse(localStorage.getItem(key));
+          if (Array.isArray(data)) {
+            for (let i = 0; i < data.length; i++) {
+              allAnnotations.push({
+                annotation: data[i],
+                pageId: pageId,
+                pagePath: pagePath
+              });
+            }
+          }
+        } catch (e) {}
+      }
+      
+      const currentPageId = getPageId();
+      
+      allAnnotations.sort(function(a, b) {
+        if (a.pageId === currentPageId && b.pageId !== currentPageId) return -1;
+        if (b.pageId === currentPageId && a.pageId !== currentPageId) return 1;
+        if (a.pageId !== b.pageId) {
+          return (a.pagePath || a.pageId).localeCompare(b.pagePath || b.pageId);
+        }
+        return 0;
+      });
+      
+      let html = '<div style="padding:16px 20px;border-bottom:1px solid #eee;display:flex;justify-content:space-between;align-items:center;">';
+      html += '<h3 style="margin:0;font-size:16px;">Annotation List</h3>';
+      html += '<button id="ann-navigator-close" style="background:none;border:none;font-size:20px;cursor:pointer;padding:0 8px;color:#666;">×</button>';
+      html += '</div>';
+      
+      html += '<div style="overflow-y:auto;flex:1;min-height:100px;">';
+      
+      if (allAnnotations.length === 0) {
+        html += '<div style="padding:40px 20px;text-align:center;color:#666;">';
+        html += 'No annotations found in storage.';
+        html += '</div>';
+      } else {
+        let lastPageId = null;
+        
+        for (let i = 0; i < allAnnotations.length; i++) {
+          const item = allAnnotations[i];
+          const ann = item.annotation;
+          
+          if (item.pageId !== lastPageId) {
+            lastPageId = item.pageId;
+            const displayPath = item.pagePath || ('(Unknown: ' + item.pageId + ')');
+            const isCurrentPage = item.pageId === currentPageId;
+            
+            html += '<div style="padding:12px 16px 4px 16px;background:' + (isCurrentPage ? '#f0f8ff' : '#f9f9f9') + ';border-top:1px solid #eee;font-size:11px;color:#666;position:sticky;top:0;z-index:1;">';
+            html += escapeHtml(displayPath);
+            if (isCurrentPage) {
+              html += ' <span style="color:#2196F3;font-weight:bold;">(current page)</span>';
+            }
+            html += '</div>';
+          }
+          
+          const colorHex = COLORS[ann.color] || COLORS.yellow;
+          const displayText = ann.text || '(no text)';
+          const truncatedText = displayText.length > 80 ? displayText.substring(0, 80) + '...' : displayText;
+          const displayUser = ann.username || '(anonymous)';
+          
+          html += '<div class="ann-navigator-item" data-page-path="' + escapeHtml(item.pagePath || '') + '" data-page-id="' + escapeHtml(item.pageId) + '" style="padding:10px 16px 10px 36px;cursor:pointer;border-bottom:1px solid #f0f0f0;position:relative;';
+          if (item.pageId === currentPageId) {
+            html += 'background:#f8fbff;';
+          }
+          html += '">';
+          
+          html += '<div style="position:absolute;left:12px;top:12px;width:12px;height:12px;border-radius:50%;border:1px solid rgba(0,0,0,0.2);background:' + colorHex + ';"></div>';
+           
+          html += '<div style="font-size:13px;color:#333;line-height:1.4;">';
+          html += '<span style="font-weight:bold;color:#555;">' + escapeHtml(displayUser) + ':</span> ';
+          html += escapeHtml(truncatedText);
+          html += '</div>';
+          
+          html += '</div>';
+        }
+      }
+      
+      html += '</div>';
+      
+      html += '<div style="padding:10px 16px;border-top:1px solid #eee;font-size:11px;color:#666;text-align:right;">';
+      html += allAnnotations.length + ' annotation(s) across ' + keys.length + ' page(s)';
+      html += '</div>';
+      
+      dialog.innerHTML = html;
+      
+      document.body.appendChild(overlay);
+      document.body.appendChild(dialog);
+      
+      document.getElementById('ann-navigator-close').onclick = function(e) {
+        e.stopPropagation();
+        hideAnnotationNavigator();
+      };
+      
+      overlay.onclick = function(e) {
+        if (e.target === overlay) {
+          hideAnnotationNavigator();
+        }
+      };
+      
+      const navItems = dialog.querySelectorAll('.ann-navigator-item');
+      for (let i = 0; i < navItems.length; i++) {
+        navItems[i].onclick = function(e) {
+          const pagePath = this.dataset.pagePath;
+          const pageId = this.dataset.pageId;
+          
+          if (!pagePath) {
+            alert('Cannot navigate: page URL not recorded for this annotation.\n(Visit this page first to record its path.)');
+            return;
+          }
+          
+          if (pageId === currentPageId) {
+            hideAnnotationNavigator();
+            if (!annotationsDisplayed) {
+              showAnnotations();
+            }
+            if (!createModeEnabled) {
+              enableCreateMode();
+            }
+            return;
+          }
+          
+          window.location.href = pagePath;
+        };
+        
+        navItems[i].onmouseenter = function() {
+          this.style.background = '#f0f7ff';
+        };
+        navItems[i].onmouseleave = function() {
+          const isCurrent = this.dataset.pageId === currentPageId;
+          this.style.background = isCurrent ? '#f8fbff' : 'transparent';
+        };
+      }
+      
+      document.addEventListener('keydown', function escHandler(e) {
+        if (e.key === 'Escape') {
+          hideAnnotationNavigator();
+          document.removeEventListener('keydown', escHandler);
+        }
+      });
+      
+      log('Annotation navigator shown, found ' + allAnnotations.length + ' annotations');
+    }
+
+    document.addEventListener('click', function(e) {
      if (!e.target.closest('#annotation-context-menu') && !e.target.closest('#annotation-toggle')) {
        hideContextMenu();
      }
@@ -1337,22 +1549,24 @@
     }
   });
 
-  function initialize() {
-    log('===== Initializing Annotations =====');
-    log('URL: ' + window.location.href);
-    log('pathname: ' + window.location.pathname);
-    
-    injectToggleButton();
-    annotations = loadAnnotations();
-    
-    if (annotations.length > 0) {
-      log('Found ' + annotations.length + ' annotation(s) - displaying automatically');
-      showAnnotations();
-    } else {
-      log('No annotations found on this page');
-      updateButtonState();
-    }
-  }
+   function initialize() {
+     log('===== Initializing Annotations =====');
+     log('URL: ' + window.location.href);
+     log('pathname: ' + window.location.pathname);
+     
+     injectToggleButton();
+     annotations = loadAnnotations();
+     
+     updatePageIndex(getPageId(), window.location.pathname);
+     
+     if (annotations.length > 0) {
+       log('Found ' + annotations.length + ' annotation(s) - displaying automatically');
+       showAnnotations();
+     } else {
+       log('No annotations found on this page');
+       updateButtonState();
+     }
+   }
 
   document.addEventListener('DOMContentLoaded', function() {
     initialize();
