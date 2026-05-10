@@ -517,11 +517,63 @@ div.whitebox div.na_or_both {
   }
 }
 
-.annotation-cancel-btn {
-  background: #f5f5f5;
-  color: #333;
+ .annotation-cancel-btn {
+   background: #f5f5f5;
+   color: #333;
 
-  &:hover {
-    background: #e8e8e8;
-  }
-}
+   &:hover {
+     background: #e8e8e8;
+   }
+ }
+
+ .annotation-context-menu {
+   position: fixed;
+   background: white;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+   z-index: 10001;
+   min-width: 160px;
+   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+   font-size: 13px;
+   padding: 4px 0;
+ }
+
+ .annotation-context-menu-item {
+   display: block;
+   width: 100%;
+   text-align: left;
+   padding: 8px 12px;
+   background: none;
+   border: none;
+   cursor: pointer;
+   color: #333;
+   font-size: 13px;
+   font-family: inherit;
+
+   &:hover {
+     background: #f0f0f0;
+   }
+
+   &:disabled {
+     color: #999;
+     cursor: default;
+
+     &:hover {
+       background: none;
+     }
+   }
+ }
+
+ .annotation-context-menu-divider {
+   height: 1px;
+   background: #eee;
+   margin: 4px 0;
+ }
+
+ .annotation-context-menu-info {
+   padding: 6px 12px;
+   font-size: 11px;
+   color: #666;
+   font-style: italic;
+ }

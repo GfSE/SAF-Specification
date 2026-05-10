@@ -246,15 +246,298 @@
     };
   }
 
-  function createToggleButton() {
-    const btn = document.createElement('button');
-    btn.id = 'annotation-toggle';
-    btn.className = 'annotation-toggle-btn';
-    btn.innerHTML = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4L18.5 2.5z"/></svg>';
-    btn.title = 'Toggle annotations create mode (click any element to annotate)';
-    btn.onclick = toggleAnnotations;
-    return btn;
-  }
+   function createToggleButton() {
+     const btn = document.createElement('button');
+     btn.id = 'annotation-toggle';
+     btn.className = 'annotation-toggle-btn';
+     btn.innerHTML = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4L18.5 2.5z"/></svg>';
+     btn.title = 'Toggle annotations create mode (click to toggle, right-click for export/import)';
+     btn.onclick = toggleAnnotations;
+     
+     btn.addEventListener('contextmenu', function(e) {
+       e.preventDefault();
+       showContextMenu(e.clientX, e.clientY);
+     });
+     
+     return btn;
+   }
+
+   function showContextMenu(x, y) {
+     hideContextMenu();
+     
+     const menu = document.createElement('div');
+     menu.id = 'annotation-context-menu';
+     menu.className = 'annotation-context-menu';
+     menu.style.left = x + 'px';
+     menu.style.top = y + 'px';
+     
+     const pageId = getPageId();
+     const hasPageAnnotations = annotations.length > 0;
+     
+     const allKeys = [];
+     for (let i = 0; i < localStorage.length; i++) {
+       const key = localStorage.key(i);
+       if (key && key.startsWith(STORAGE_KEY_PREFIX)) {
+         allKeys.push(key);
+       }
+     }
+     const hasAnyAnnotations = allKeys.length > 0;
+     
+     let html = '';
+     html += '<div class="annotation-context-menu-info">Annotations: ' + annotations.length + ' on this page</div>';
+     html += '<div class="annotation-context-menu-divider"></div>';
+     
+     html += '<button class="annotation-context-menu-item" id="ann-export-page" ' + (!hasPageAnnotations ? 'disabled' : '') + '>';
+     html += '📄 Export This Page (' + annotations.length + ')';
+     html += '</button>';
+     
+     html += '<button class="annotation-context-menu-item" id="ann-export-all" ' + (!hasAnyAnnotations ? 'disabled' : '') + '>';
+     html += '📦 Export All Pages (' + allKeys.length + ' pages)';
+     html += '</button>';
+     
+     html += '<div class="annotation-context-menu-divider"></div>';
+     
+     html += '<button class="annotation-context-menu-item" id="ann-import">';
+     html += '📥 Import Annotations...';
+     html += '</button>';
+     
+     menu.innerHTML = html;
+     document.body.appendChild(menu);
+     
+     document.getElementById('ann-export-page').onclick = function() {
+       hideContextMenu();
+       exportAnnotations('page');
+     };
+     
+     document.getElementById('ann-export-all').onclick = function() {
+       hideContextMenu();
+       exportAnnotations('all');
+     };
+     
+     document.getElementById('ann-import').onclick = function() {
+       hideContextMenu();
+       importAnnotations();
+     };
+     
+     log('Context menu shown');
+   }
+
+   function hideContextMenu() {
+     const existing = document.getElementById('annotation-context-menu');
+     if (existing) {
+       existing.remove();
+     }
+   }
+
+   document.addEventListener('click', function(e) {
+     if (!e.target.closest('#annotation-context-menu') && !e.target.closest('#annotation-toggle')) {
+       hideContextMenu();
+     }
+   });
+
+   document.addEventListener('keydown', function(e) {
+     if (e.key === 'Escape') {
+       hideContextMenu();
+     }
+   });
+
+   function exportAnnotations(scope) {
+     let exportData;
+     let filename;
+     const timestamp = new Date().toISOString().replace(/[:.]/g, '-').substring(0, 19);
+     
+     if (scope === 'page') {
+       exportData = {
+         version: 1,
+         exportedAt: new Date().toISOString(),
+         scope: 'page',
+         pageId: getPageId(),
+         pagePath: window.location.pathname,
+         annotations: annotations
+       };
+       filename = 'saf-annotations-page-' + timestamp + '.json';
+       log('Exporting ' + annotations.length + ' annotation(s) from current page');
+     } else {
+       const allAnnotations = {};
+       const pagePaths = {};
+       
+       for (let i = 0; i < localStorage.length; i++) {
+         const key = localStorage.key(i);
+         if (key && key.startsWith(STORAGE_KEY_PREFIX)) {
+           try {
+             const data = JSON.parse(localStorage.getItem(key));
+             const pageId = key.substring(STORAGE_KEY_PREFIX.length);
+             allAnnotations[pageId] = data;
+           } catch (e) {
+             log('Failed to parse annotations from key: ' + key);
+           }
+         }
+       }
+       
+       exportData = {
+         version: 1,
+         exportedAt: new Date().toISOString(),
+         scope: 'all',
+         allAnnotations: allAnnotations
+       };
+       filename = 'saf-annotations-all-' + timestamp + '.json';
+       log('Exporting annotations from ' + Object.keys(allAnnotations).length + ' page(s)');
+     }
+     
+     const jsonStr = JSON.stringify(exportData, null, 2);
+     const blob = new Blob([jsonStr], { type: 'application/json' });
+     const url = URL.createObjectURL(blob);
+     
+     const a = document.createElement('a');
+     a.href = url;
+     a.download = filename;
+     document.body.appendChild(a);
+     a.click();
+     document.body.removeChild(a);
+     URL.revokeObjectURL(url);
+     
+     log('Exported to: ' + filename);
+   }
+
+   function importAnnotations() {
+     const input = document.createElement('input');
+     input.type = 'file';
+     input.accept = '.json,application/json';
+     
+     input.onchange = function(e) {
+       const file = e.target.files[0];
+       if (!file) return;
+       
+       const reader = new FileReader();
+       reader.onload = function(loadEvent) {
+         try {
+           const data = JSON.parse(loadEvent.target.result);
+           processImportData(data);
+         } catch (err) {
+           alert('Failed to parse annotations file: ' + err.message);
+           log('Import parse error:', err);
+         }
+       };
+       reader.readAsText(file);
+     };
+     
+     input.click();
+   }
+
+   function processImportData(data) {
+     if (!data || !data.version) {
+       alert('Invalid annotations file format (missing version)');
+       return;
+     }
+     
+     if (data.version !== 1) {
+       alert('Unsupported annotations file version: ' + data.version);
+       return;
+     }
+     
+     let importedCount = 0;
+     let pagesCount = 0;
+     
+     if (data.scope === 'page') {
+       const pageId = data.pageId;
+       const pageAnnotations = data.annotations || [];
+       
+       if (pageId && pageAnnotations.length > 0) {
+         let existing = [];
+         const key = STORAGE_KEY_PREFIX + pageId;
+         const existingData = localStorage.getItem(key);
+         if (existingData) {
+           try {
+             existing = JSON.parse(existingData);
+           } catch (e) {}
+         }
+         
+         const existingIds = new Set(existing.map(function(a) { return a.id; }));
+         let added = 0;
+         
+         for (let i = 0; i < pageAnnotations.length; i++) {
+           const ann = pageAnnotations[i];
+           if (!existingIds.has(ann.id)) {
+             existing.push(ann);
+             added++;
+           }
+         }
+         
+         localStorage.setItem(key, JSON.stringify(existing));
+         importedCount = added;
+         pagesCount = 1;
+         
+         if (pageId === getPageId()) {
+           annotations = existing;
+           if (!annotationsDisplayed && annotations.length > 0) {
+             showAnnotations();
+           } else {
+             renderAnnotations();
+           }
+           updateButtonState();
+         }
+       }
+       
+     } else if (data.scope === 'all') {
+       const allAnnotations = data.allAnnotations || {};
+       const pageIds = Object.keys(allAnnotations);
+       
+       for (let p = 0; p < pageIds.length; p++) {
+         const pageId = pageIds[p];
+         const pageAnnotations = allAnnotations[pageId] || [];
+         
+         if (pageAnnotations.length > 0) {
+           let existing = [];
+           const key = STORAGE_KEY_PREFIX + pageId;
+           const existingData = localStorage.getItem(key);
+           if (existingData) {
+             try {
+               existing = JSON.parse(existingData);
+             } catch (e) {}
+           }
+           
+           const existingIds = new Set(existing.map(function(a) { return a.id; }));
+           let added = 0;
+           
+           for (let i = 0; i < pageAnnotations.length; i++) {
+             const ann = pageAnnotations[i];
+             if (!existingIds.has(ann.id)) {
+               existing.push(ann);
+               added++;
+             }
+           }
+           
+           if (added > 0) {
+             localStorage.setItem(key, JSON.stringify(existing));
+             importedCount += added;
+             pagesCount++;
+             
+             if (pageId === getPageId()) {
+               annotations = existing;
+             }
+           }
+         }
+       }
+       
+       if (getPageId() && annotations.length > 0) {
+         if (!annotationsDisplayed) {
+           showAnnotations();
+         } else {
+           renderAnnotations();
+         }
+         updateButtonState();
+       }
+     }
+     
+     log('Import complete: ' + importedCount + ' annotation(s) across ' + pagesCount + ' page(s)');
+     
+     let message = 'Import complete:\n\n';
+     message += '• ' + importedCount + ' annotation(s) imported\n';
+     message += '• ' + pagesCount + ' page(s) affected\n\n';
+     message += '(Existing annotations with same IDs were skipped to avoid duplicates)';
+     
+     alert(message);
+   }
 
   function injectToggleButton() {
     const existing = document.getElementById('annotation-toggle');

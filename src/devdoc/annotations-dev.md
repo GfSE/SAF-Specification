@@ -18,7 +18,7 @@ The annotations system allows users to attach personal notes to DOM elements on 
 | Component | File/Location | Purpose |
 |-----------|---------------|---------|
 | Core Logic | `assets/js/annotations.js` | All annotation functionality |
-| Styles | `_sass/custom/custom.scss` | CSS for notes, lines, button |
+| Styles | `_sass/custom/custom.scss` | CSS for notes, lines, button, context menu |
 | Integration | `_includes/header_custom.html` | Script inclusion |
 | User Docs | `userdoc/annotations.md` | End-user documentation |
 | Dev Docs | `devdoc/annotations-dev.md` | This file |
@@ -195,6 +195,109 @@ Lines are updated on:
 - `window.resize` event
 - After dragging a note
 
+## Export & Import System
+
+### Context Menu (Right-Click)
+
+The toggle button has a `contextmenu` handler that shows a popup menu:
+
+```javascript
+btn.addEventListener('contextmenu', function(e) {
+  e.preventDefault();
+  showContextMenu(e.clientX, e.clientY);
+});
+```
+
+Menu options:
+- **📄 Export This Page** - disabled if `annotations.length === 0`
+- **📦 Export All Pages** - disabled if no `saf_annotations_*` keys in localStorage
+- **📥 Import Annotations...** - always enabled
+
+Menu closes on:
+- Click outside menu (and outside button)
+- Press `Esc` key
+- Selecting any menu item
+
+### Export Function (`exportAnnotations(scope)`)
+
+| Scope | Behavior |
+|-------|----------|
+| `'page'` | Exports only `annotations` array (current page) |
+| `'all'` | Scans localStorage for all `saf_annotations_*` keys |
+
+**Page Export Format:**
+```json
+{
+  "version": 1,
+  "exportedAt": "2026-05-10T14:30:00.000Z",
+  "scope": "page",
+  "pageId": "_devdoc_devdoc_html",
+  "pagePath": "/devdoc/devdoc.html",
+  "annotations": [...]
+}
+```
+
+**All Pages Export Format:**
+```json
+{
+  "version": 1,
+  "exportedAt": "2026-05-10T14:30:00.000Z",
+  "scope": "all",
+  "allAnnotations": {
+    "_devdoc_devdoc_html": [...],
+    "_index_html": [...],
+    "_userdoc_faq_html": [...]
+  }
+}
+```
+
+**Download Mechanism:**
+1. `JSON.stringify(data, null, 2)` - pretty-printed JSON
+2. `new Blob([jsonStr], { type: 'application/json' })`
+3. `URL.createObjectURL(blob)`
+4. Create `<a>` element, set `download` attribute, trigger click
+
+Filename: `saf-annotations-{scope}-{timestamp}.json`
+- Timestamp: ISO format with `:` and `.` replaced with `-`
+
+### Import Functions
+
+**`importAnnotations()`** - Opens file picker:
+```javascript
+const input = document.createElement('input');
+input.type = 'file';
+input.accept = '.json,application/json';
+// ... onchange handler reads file
+```
+
+**`processImportData(data)`** - Parses and merges:
+
+**Validation:**
+- Checks `data.version === 1`
+- Checks `data.scope` is `'page'` or `'all'`
+
+**Merge Strategy (Page Scope):**
+1. Get existing annotations from `localStorage.getItem(key)`
+2. Create `Set` of existing annotation `id`s
+3. For each imported annotation:
+   - If `id` NOT in existing Set → push to array
+4. `localStorage.setItem(key, JSON.stringify(existing))`
+5. If affected page is current page → update `annotations` array and re-render
+
+**Merge Strategy (All Pages Scope):**
+1. Iterate through each `pageId` in `data.allAnnotations`
+2. For each page, apply same merge logic as page scope
+3. Track `importedCount` and `pagesCount`
+4. If current page was affected → re-render
+
+**User Feedback:**
+```javascript
+alert('Import complete:\n\n' +
+  '• ' + importedCount + ' annotation(s) imported\n' +
+  '• ' + pagesCount + ' page(s) affected\n\n' +
+  '(Existing annotations with same IDs were skipped to avoid duplicates)');
+```
+
 ## DOM Elements Created
 
 ### Overlay Structure
@@ -223,6 +326,19 @@ Added to `document.body` when first needed.
 </div>
 ```
 
+### Context Menu Structure
+
+```html
+<div id="annotation-context-menu" class="annotation-context-menu" style="left: Xpx; top: Ypx;">
+  <div class="annotation-context-menu-info">Annotations: N on this page</div>
+  <div class="annotation-context-menu-divider"></div>
+  <button class="annotation-context-menu-item" id="ann-export-page">📄 Export This Page (N)</button>
+  <button class="annotation-context-menu-item" id="ann-export-all">📦 Export All Pages (M pages)</button>
+  <div class="annotation-context-menu-divider"></div>
+  <button class="annotation-context-menu-item" id="ann-import">📥 Import Annotations...</button>
+</div>
+```
+
 ## Event Flow
 
 ### Initialization
@@ -248,6 +364,25 @@ User clicks annotation button
       → document.body.classList.add('annotations-mode')
       → add 'click' capture listener
       → enableElementHover() - adds .annotation-hover-target class
+```
+
+### Context Menu (Right-Click)
+
+```
+User right-clicks annotation button
+  → contextmenu event
+  → e.preventDefault()
+  → showContextMenu(e.clientX, e.clientY)
+    → creates #annotation-context-menu
+    → calculates button states (disabled/enabled)
+    → registers onclick handlers for menu items
+
+User clicks menu item
+  → hideContextMenu()
+  → exportAnnotations(scope) OR importAnnotations()
+
+User clicks outside OR presses Esc
+  → hideContextMenu()
 ```
 
 ### Creating an Annotation
@@ -284,6 +419,36 @@ mousemove (anywhere)
 mouseup (anywhere)
   → isDragging = false
   → activeAnnotation = null
+```
+
+### Export Flow
+
+```
+User selects "Export This Page"
+  → exportAnnotations('page')
+    → builds exportData with scope='page'
+    → JSON.stringify with indent=2
+    → creates Blob, URL.createObjectURL
+    → creates <a download=...>, clicks it
+    → URL.revokeObjectURL
+```
+
+### Import Flow
+
+```
+User selects "Import Annotations..."
+  → importAnnotations()
+    → creates <input type="file" accept=".json">
+    → input.click()
+
+User selects file
+  → FileReader.readAsText()
+  → JSON.parse(loadEvent.target.result)
+  → processImportData(data)
+    → validate version and scope
+    → for each page: load existing, merge by ID, save
+    → if current page affected: renderAnnotations()
+    → alert() with summary
 ```
 
 ## Content Area Detection
@@ -323,34 +488,77 @@ Dumps comprehensive debug info to console:
 - Note box existence and computed styles
 - SVG dimensions and position
 
+## CSS Classes
+
+### Button Styles
+
+| Class | Purpose |
+|-------|---------|
+| `.annotation-toggle-btn` | The pencil button in header |
+| `.annotation-toggle-btn.active` | Blue active state |
+| `.annotations-mode` | On body when create mode enabled (crosshair cursor) |
+| `.annotation-hover-target` | Elements that highlight on hover in create mode |
+
+### Note Styles
+
+| Class | Purpose |
+|-------|---------|
+| `.annotation-overlay` | Container for SVG and boxes |
+| `.annotation-svg` | The connector lines SVG |
+| `#annotation-boxes` | Container for all note boxes |
+| `.annotation-note` | Individual note box |
+| `.annotation-note-header` | Draggable header with title and controls |
+| `.annotation-note-title` | "Note" text |
+| `.annotation-note-controls` | Container for edit/delete buttons |
+| `.annotation-note-btn` | Edit/delete buttons |
+| `.annotation-note-content` | The note text |
+
+### Edit Mode Styles
+
+| Class | Purpose |
+|-------|---------|
+| `.annotation-edit-container` | Wrapper around textarea + controls |
+| `.annotation-edit-textarea` | The text input area |
+| `.annotation-edit-controls` | Color picker + Save/Cancel buttons |
+| `.annotation-color-wrapper` | Container for color picker |
+| `.annotation-color-picker` | The color buttons container |
+| `.annotation-color-btn` | Individual color circle button |
+| `.annotation-color-btn.selected` | Selected color (dark border) |
+| `.annotation-save-btn` | Save button (blue) |
+| `.annotation-cancel-btn` | Cancel button (gray) |
+
+### Context Menu Styles
+
+| Class | Purpose |
+|-------|---------|
+| `.annotation-context-menu` | The popup menu container |
+| `.annotation-context-menu-item` | Individual menu button |
+| `.annotation-context-menu-item:disabled` | Grayed out button |
+| `.annotation-context-menu-divider` | Horizontal line separator |
+| `.annotation-context-menu-info` | Info text at top of menu |
+
 ## Browser Support
 
 - Uses `localStorage` - IE8+
 - Uses `getBoundingClientRect()` - all modern browsers
 - Uses `classList` - IE10+
 - Uses SVG - all modern browsers
+- Uses `Blob`/`URL.createObjectURL` - IE10+
+- Uses `FileReader` - IE10+
 
 ## Known Limitations
 
 1. **DOM-dependent**: If page structure changes significantly, annotations may not reconnect
-2. **No sync**: Per-browser, per-device only
+2. **No automatic sync**: Per-browser, per-device only (use Export/Import manually)
 3. **Private browsing**: localStorage often disabled or ephemeral
-4. **No export**: Currently no way to backup/transfer annotations (planned feature)
-
-## Future Enhancements (Ideas)
-
-- Export/import annotations as JSON
-- Markdown support in notes
-- Annotation search
-- Per-page annotation count in UI
-- Collapsible notes
-- Note z-index management
 
 ## Troubleshooting
 
-See user documentation for troubleshooting guide. Key developer debug points:
+Key developer debug points:
 
 1. **Selector not finding element**: Check `generateStableSelector()` stops at correct content root
 2. **Lines not appearing**: Verify SVG uses `position: absolute`, not `fixed`
 3. **Wrong element matched**: Verify `findElementBySelector()` is filtering by `isInContent()`
 4. **Positions wrong on reload**: Check `offsetFromElementX/Y` vs legacy `boxX/Y` fields
+5. **Export not working**: Check `Blob`/`URL.createObjectURL` availability
+6. **Import not merging**: Verify annotation `id`s are being compared correctly
