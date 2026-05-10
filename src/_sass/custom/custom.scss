@@ -577,3 +577,12 @@ div.whitebox div.na_or_both {
    color: #666;
    font-style: italic;
  }
+
+ .annotation-context-menu-item.annotation-filter-active {
+   background: #e8f4fc;
+   color: #2563eb;
+
+   &:hover {
+     background: #dbeafe;
+   }
+ }

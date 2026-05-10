@@ -13,6 +13,11 @@ This document describes the technical implementation of the personal annotations
 
 The annotations system allows users to attach personal notes to DOM elements on documentation pages. Notes are stored locally in the browser's `localStorage` and are never sent to any server.
 
+**Multi-user collaboration** is supported through:
+- Username field in each annotation
+- Export/import of JSON files
+- User-based filtering
+
 ### Key Components
 
 | Component | File/Location | Purpose |
@@ -47,7 +52,18 @@ let annotations = [];                 // Array of annotation objects
 let activeAnnotation = null;          // Currently dragged annotation
 let isDragging = false;               // Drag state
 let dragOffset = { x: 0, y: 0 };     // Mouse offset during drag
+
+let currentUsername = null;           // Cached current username
+let userFilter = null;                // null=show all, 'me'=show only mine, [users]=filter list
 ```
+
+### Storage Keys
+
+| Key | Purpose |
+|-----|---------|
+| `saf_annotations_{pageId}` | Per-page annotation arrays |
+| `saf_annotations_username` | Current user's username |
+| `saf_annotations_filter` | User filter preference |
 
 ## Annotation Data Structure
 
@@ -60,7 +76,8 @@ Each annotation is stored as a JSON object in `localStorage`:
   "text": "My annotation text",
   "color": "yellow",
   "offsetFromElementX": 60,
-  "offsetFromElementY": 0
+  "offsetFromElementY": 0,
+  "username": "alice"
 }
 ```
 
@@ -72,23 +89,51 @@ Each annotation is stored as a JSON object in `localStorage`:
 | `color` | string | Color name: yellow, blue, green, red, purple |
 | `offsetFromElementX` | number | Horizontal offset from element center (pixels) |
 | `offsetFromElementY` | number | Vertical offset from element top (pixels) |
+| `username` | string | **New in v2** - Username of annotation author |
 
 **Legacy fields** (still supported for backwards compatibility):
 - `boxX` / `boxY` - absolute pixel positions (converted to offsets on load)
+- Annotations without `username` field are treated as "unknown" user
 
-### Storage Key Format
+### Username Management
 
+**`getCurrentUsername()`** - Returns cached or stored username:
+```javascript
+function getCurrentUsername() {
+  if (currentUsername) return currentUsername;
+  try {
+    const stored = localStorage.getItem(USERNAME_STORAGE_KEY);
+    if (stored && stored.trim()) {
+      currentUsername = stored.trim();
+      return currentUsername;
+    }
+  } catch (e) {}
+  return null;
+}
 ```
-saf_annotations_{page_path_hash}
+
+**`setCurrentUsername(username)`** - Saves username to localStorage:
+```javascript
+function setCurrentUsername(username) {
+  if (username && username.trim()) {
+    username = username.trim();
+    currentUsername = username;
+    localStorage.setItem(USERNAME_STORAGE_KEY, username);
+  } else {
+    currentUsername = null;
+    localStorage.removeItem(USERNAME_STORAGE_KEY);
+  }
+}
 ```
 
-Page path is derived from `window.location.pathname`:
-1. URL-decoded via `decodeURIComponent()`
-2. Lowercased
-3. Trailing `/` → `/index.html`
-4. All non-alphanumeric chars replaced with `_`
+**`promptForUsername()`** - Shows prompt dialog to set/change username:
+- Shows current username if set
+- After setting, re-renders annotations if displayed
 
-Example: `/devdoc/devdoc.html` → `saf_annotations__devdoc_devdoc_html`
+**Username Enforcement:** When `createAnnotation()` is called without a username set:
+1. User is prompted to enter a username
+2. If cancelled, annotation creation is aborted
+3. Username is saved before proceeding
 
 ## Selector Generation
 
@@ -195,35 +240,139 @@ Lines are updated on:
 - `window.resize` event
 - After dragging a note
 
-## Export & Import System
+## User Filtering System
 
-### Context Menu (Right-Click)
+### Filter Storage
 
-The toggle button has a `contextmenu` handler that shows a popup menu:
+Filter preferences are stored in localStorage as `saf_annotations_filter`:
 
+| Stored Value | Meaning |
+|--------------|---------|
+| `"all"` | Show all annotations (userFilter = null) |
+| `"me"` | Show only current user's annotations |
+| `["alice"]` | JSON array - show only specific users |
+
+### Filter Functions
+
+**`getUserFilter()`** - Returns cached or stored filter:
 ```javascript
-btn.addEventListener('contextmenu', function(e) {
-  e.preventDefault();
-  showContextMenu(e.clientX, e.clientY);
-});
+function getUserFilter() {
+  if (userFilter !== null && userFilter !== undefined) {
+    return userFilter;
+  }
+  // Read from localStorage and parse
+  // 'all' → null, 'me' → 'me', JSON → array
+}
 ```
 
-Menu options:
-- **📄 Export This Page** - disabled if `annotations.length === 0`
-- **📦 Export All Pages** - disabled if no `saf_annotations_*` keys in localStorage
-- **📥 Import Annotations...** - always enabled
+**`setUserFilter(filter)`** - Saves filter and re-renders:
+```javascript
+function setUserFilter(filter) {
+  userFilter = filter;
+  // Save to localStorage: null→'all', 'me'→'me', array→JSON.stringify
+  if (annotationsDisplayed) {
+    renderAnnotations();  // Re-render with new filter
+  }
+}
+```
+
+**`getUniqueUsernames()`** - Scans localStorage for all unique usernames:
+```javascript
+function getUniqueUsernames() {
+  const usernames = new Set();
+  // Scan ALL saf_annotations_* keys in localStorage
+  // Also check current page's annotations array
+  return Array.from(usernames).sort();
+}
+```
+
+**`isAnnotationVisible(annotation)`** - Core filtering logic:
+```javascript
+function isAnnotationVisible(annotation) {
+  const filter = getUserFilter();
+  
+  if (filter === null) return true;  // Show all
+  
+  if (filter === 'me') {
+    const myUsername = getCurrentUsername();
+    if (!myUsername) {
+      return !annotation.username;  // No user set → show only unknown annotations
+    }
+    return annotation.username === myUsername;
+  }
+  
+  if (Array.isArray(filter)) {
+    if (filter.length === 0) return true;
+    return filter.indexOf(annotation.username) >= 0;
+  }
+  
+  return true;
+}
+```
+
+### Filtered Rendering
+
+`renderAnnotations()` checks `isAnnotationVisible()` for each annotation:
+
+```javascript
+for (let i = 0; i < annotations.length; i++) {
+  const annotation = annotations[i];
+  
+  if (!isAnnotationVisible(annotation)) {
+    filteredOut++;
+    continue;  // Skip this annotation
+  }
+  // ... render annotation
+}
+```
+
+## Context Menu (Right-Click)
+
+The context menu is shown on `contextmenu` event of the toggle button.
+
+### Menu Structure
+
+```
+┌─────────────────────────────┐
+│ User: alice                 │  ← Info with current username
+│ 👤 Change Username          │  ← Prompts for new username
+├─────────────────────────────┤
+│ Filter:                     │  ← Section header
+│ 👁 Show All Annotations     │  ← Highlighted if active
+│ 👤 Show Only My Annotations │  ← Disabled if no username set
+│ Users in storage:           │
+│ 👤 Show Only: alice         │  ← Dynamic from getUniqueUsernames()
+│ 👤 Show Only: bob           │
+├─────────────────────────────┤
+│ 📄 Export This Page (3)     │  ← Disabled if no annotations
+│ 📦 Export All Pages (5)     │  ← Disabled if no annotations
+├─────────────────────────────┤
+│ 📥 Import Annotations...    │  ← Always enabled
+└─────────────────────────────┘
+```
+
+### Active Filter Highlighting
+
+- `.annotation-filter-active` class applied to currently selected filter
+- Blue background (`#e8f4fc`) and blue text (`#2563eb`)
+
+### Menu Closing
 
 Menu closes on:
-- Click outside menu (and outside button)
+- Click outside menu AND outside toggle button
 - Press `Esc` key
-- Selecting any menu item
+- Clicking any menu item
 
-### Export Function (`exportAnnotations(scope)`)
+## Export & Import System
+
+### Export Functions
+
+**`exportAnnotations(scope)`** - Downloads annotations as JSON:
 
 | Scope | Behavior |
 |-------|----------|
 | `'page'` | Exports only `annotations` array (current page) |
-| `'all'` | Scans localStorage for all `saf_annotations_*` keys |
+| `'all'` | Scans localStorage for ALL `saf_annotations_*` keys |
 
 **Page Export Format:**
 ```json
@@ -233,7 +382,10 @@ Menu closes on:
   "scope": "page",
   "pageId": "_devdoc_devdoc_html",
   "pagePath": "/devdoc/devdoc.html",
-  "annotations": [...]
+  "annotations": [
+    { "id": "...", "username": "alice", ... },
+    { "id": "...", "username": "bob", ... }
+  ]
 }
 ```
 
@@ -244,9 +396,12 @@ Menu closes on:
   "exportedAt": "2026-05-10T14:30:00.000Z",
   "scope": "all",
   "allAnnotations": {
-    "_devdoc_devdoc_html": [...],
-    "_index_html": [...],
-    "_userdoc_faq_html": [...]
+    "_devdoc_devdoc_html": [
+      { "id": "...", "username": "alice", ... }
+    ],
+    "_index_html": [
+      { "id": "...", "username": "bob", ... }
+    ]
   }
 }
 ```
@@ -256,6 +411,7 @@ Menu closes on:
 2. `new Blob([jsonStr], { type: 'application/json' })`
 3. `URL.createObjectURL(blob)`
 4. Create `<a>` element, set `download` attribute, trigger click
+5. `URL.revokeObjectURL`
 
 Filename: `saf-annotations-{scope}-{timestamp}.json`
 - Timestamp: ISO format with `:` and `.` replaced with `-`
@@ -276,19 +432,23 @@ input.accept = '.json,application/json';
 - Checks `data.version === 1`
 - Checks `data.scope` is `'page'` or `'all'`
 
-**Merge Strategy (Page Scope):**
-1. Get existing annotations from `localStorage.getItem(key)`
-2. Create `Set` of existing annotation `id`s
-3. For each imported annotation:
-   - If `id` NOT in existing Set → push to array
-4. `localStorage.setItem(key, JSON.stringify(existing))`
-5. If affected page is current page → update `annotations` array and re-render
+**Merge Strategy (ID-based):**
+```javascript
+const existingIds = new Set(existing.map(function(a) { return a.id; }));
 
-**Merge Strategy (All Pages Scope):**
-1. Iterate through each `pageId` in `data.allAnnotations`
-2. For each page, apply same merge logic as page scope
-3. Track `importedCount` and `pagesCount`
-4. If current page was affected → re-render
+for (let i = 0; i < pageAnnotations.length; i++) {
+  const ann = pageAnnotations[i];
+  if (!existingIds.has(ann.id)) {  // Only add if ID doesn't exist
+    existing.push(ann);
+    added++;
+  }
+}
+```
+
+**This means:**
+- Same annotation imported twice → no duplicate (ID already exists)
+- Edited annotation re-imported → NOT updated (same ID skipped)
+- For true collaboration, users should use different usernames and filter views
 
 **User Feedback:**
 ```javascript
@@ -316,7 +476,7 @@ Added to `document.body` when first needed.
 ```html
 <div id="note_{id}" class="annotation-note" style="left: Xpx; top: Ypx; background-color: ...">
   <div class="annotation-note-header">
-    <span class="annotation-note-title">Note</span>
+    <span class="annotation-note-title">Note (alice)</span>  <!-- Shows username now -->
     <div class="annotation-note-controls">
       <button class="annotation-note-btn annotation-edit-btn">✏</button>
       <button class="annotation-note-btn annotation-delete-btn">×</button>
@@ -330,12 +490,12 @@ Added to `document.body` when first needed.
 
 ```html
 <div id="annotation-context-menu" class="annotation-context-menu" style="left: Xpx; top: Ypx;">
-  <div class="annotation-context-menu-info">Annotations: N on this page</div>
+  <div class="annotation-context-menu-info">User: <strong>alice</strong></div>
+  <button class="annotation-context-menu-item" id="ann-set-username">👤 Change Username</button>
   <div class="annotation-context-menu-divider"></div>
-  <button class="annotation-context-menu-item" id="ann-export-page">📄 Export This Page (N)</button>
-  <button class="annotation-context-menu-item" id="ann-export-all">📦 Export All Pages (M pages)</button>
-  <div class="annotation-context-menu-divider"></div>
-  <button class="annotation-context-menu-item" id="ann-import">📥 Import Annotations...</button>
+  <div class="annotation-context-menu-info">Filter:</div>
+  <button class="annotation-context-menu-item annotation-filter-active" id="ann-filter-all">👁 Show All</button>
+  <!-- ... more buttons ... -->
 </div>
 ```
 
@@ -357,7 +517,7 @@ window.load
 ### Create Mode Toggle
 
 ```
-User clicks annotation button
+User left-clicks annotation button
   → toggleAnnotations()
     → if creating: disableCreateMode()
     → else: enableCreateMode()
@@ -374,12 +534,13 @@ User right-clicks annotation button
   → e.preventDefault()
   → showContextMenu(e.clientX, e.clientY)
     → creates #annotation-context-menu
-    → calculates button states (disabled/enabled)
-    → registers onclick handlers for menu items
+    → gets currentUser, uniqueUsers, currentFilter
+    → builds menu HTML with dynamic filter options
+    → registers onclick handlers
 
 User clicks menu item
   → hideContextMenu()
-  → exportAnnotations(scope) OR importAnnotations()
+  → action: promptForUsername() OR setUserFilter() OR export/import
 
 User clicks outside OR presses Esc
   → hideContextMenu()
@@ -392,10 +553,13 @@ User clicks element in create mode
   → handleContentClick(e)
     → e.preventDefault(), e.stopPropagation()
     → createAnnotation(targetElement)
+      → Check/get username: if not set, promptForUsername()
+      → If user cancels username prompt → return (don't create)
       → generateStableSelector(element)
       → findElementBySelector() verification
       → prompt() for text
       → calculate smart initial position
+      → create annotation object with username field
       → push to annotations array
       → saveAnnotations()
       → renderAnnotations()
@@ -451,6 +615,18 @@ User selects file
     → alert() with summary
 ```
 
+### Filter Change Flow
+
+```
+User selects "Show Only My Annotations"
+  → setUserFilter('me')
+    → userFilter = 'me'
+    → save to localStorage
+    → renderAnnotations()
+      → isAnnotationVisible() checks each annotation
+      → filtered annotations are skipped
+```
+
 ## Content Area Detection
 
 ### `isInContent(el)`
@@ -488,7 +664,7 @@ Dumps comprehensive debug info to console:
 - Note box existence and computed styles
 - SVG dimensions and position
 
-## CSS Classes
+## CSS Classes Reference
 
 ### Button Styles
 
@@ -508,7 +684,7 @@ Dumps comprehensive debug info to console:
 | `#annotation-boxes` | Container for all note boxes |
 | `.annotation-note` | Individual note box |
 | `.annotation-note-header` | Draggable header with title and controls |
-| `.annotation-note-title` | "Note" text |
+| `.annotation-note-title` | "Note (username)" text |
 | `.annotation-note-controls` | Container for edit/delete buttons |
 | `.annotation-note-btn` | Edit/delete buttons |
 | `.annotation-note-content` | The note text |
@@ -535,7 +711,8 @@ Dumps comprehensive debug info to console:
 | `.annotation-context-menu-item` | Individual menu button |
 | `.annotation-context-menu-item:disabled` | Grayed out button |
 | `.annotation-context-menu-divider` | Horizontal line separator |
-| `.annotation-context-menu-info` | Info text at top of menu |
+| `.annotation-context-menu-info` | Info text at top of sections |
+| `.annotation-filter-active` | Currently selected filter (blue highlight) |
 
 ## Browser Support
 
@@ -551,6 +728,8 @@ Dumps comprehensive debug info to console:
 1. **DOM-dependent**: If page structure changes significantly, annotations may not reconnect
 2. **No automatic sync**: Per-browser, per-device only (use Export/Import manually)
 3. **Private browsing**: localStorage often disabled or ephemeral
+4. **ID-based merge**: Import doesn't update existing annotations with same ID (only adds new ones)
+5. **Username-based filtering**: No user management - filtering based on username strings only
 
 ## Troubleshooting
 
@@ -562,3 +741,5 @@ Key developer debug points:
 4. **Positions wrong on reload**: Check `offsetFromElementX/Y` vs legacy `boxX/Y` fields
 5. **Export not working**: Check `Blob`/`URL.createObjectURL` availability
 6. **Import not merging**: Verify annotation `id`s are being compared correctly
+7. **Filter not working**: Check `isAnnotationVisible()` logic and `userFilter` state
+8. **Username not saving**: Check `localStorage.setItem()` for USERNAME_STORAGE_KEY

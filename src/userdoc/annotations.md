@@ -6,10 +6,10 @@ nav_order: 99
 
 # Page Annotations
 
-The SAF documentation site supports **personal annotations** that you can attach to any documentation element. These annotations are stored locally in your browser and are only visible to you.
+The SAF documentation site supports **personal annotations** that you can attach to any documentation element. Annotations include your username, making it easy to share and collaborate with others by exporting/importing JSON files.
 
 {: .highlight }
-> **Privacy Note:** Annotations are stored in your browser's localStorage. They never leave your computer and are not shared with the SAF project or any server.
+> **Privacy Note:** Annotations are stored in your browser's localStorage. They never leave your computer and are not shared with the SAF project or any server — unless you explicitly export and share them.
 
 {: .highlight }
 > **Auto-Display:** If you previously created annotations on a page, they automatically appear when you revisit. No manual enabling required.
@@ -20,7 +20,13 @@ The Annotations toggle button appears in the site header alongside the GfSE logo
 
 - **Blue active state:** Either annotations exist on page OR create mode is enabled
 - **Left-click:** Toggles **create mode** on/off
-- **Right-click:** Opens export/import menu (see below)
+- **Right-click:** Opens the full menu (username settings, filter, export/import)
+
+## First Time: Set Your Username
+
+When you create your first annotation, you'll be asked to enter a username. This identifies your annotations when sharing with others.
+
+You can change your username at any time by **right-clicking** the annotation button and selecting **Change Username**.
 
 ## Display vs Create Mode
 
@@ -33,16 +39,12 @@ Annotations have two separate states:
 
 ## Creating Annotations
 
-1. **Enable annotation mode** by **left-clicking** the Annotations button (pencil icon)
+1. **Left-click** the Annotations button to enable create mode
 2. **Click on any element** - heading, paragraph, table cell, list item, code block, or image
 3. **Enter your note** in the dialog that appears
 4. Click **OK** to save
 
-A colored note box will appear, connected by a dashed line to the element you annotated.
-
-## Annotatable Elements
-
-You can annotate: headings, paragraphs, table cells, list items, code blocks, images, and definition lists.
+Your annotation will show "Note (yourusername)" in the header to identify it as yours.
 
 ## Working with Notes
 
@@ -71,60 +73,78 @@ While editing, you can change the text and choose a different color. Click **Sav
 
 Click the **× (close icon)** button in the note header.
 
-## Export & Import
+## Filtering Annotations
 
-You can backup and transfer your annotations using JSON files. Access these features by **right-clicking** the Annotations button in the header.
+When multiple people's annotations are imported, you can filter what you see. **Right-click** the annotation button to see filter options:
 
-### Export Options
+| Filter Option | Description |
+|---------------|-------------|
+| 👁 Show All Annotations | Display everyone's annotations (default) |
+| 👤 Show Only My Annotations | Display only annotations with your username |
+| 👤 Show Only: [username] | Display only annotations from a specific user |
+
+Filters are remembered between sessions.
+
+## Sharing Annotations (Export & Import)
+
+You can share your annotations with others, or import annotations from teammates, using JSON files.
+
+### How to Export
+
+**Right-click** the annotation button and choose:
 
 | Option | Description |
 |--------|-------------|
-| **📄 Export This Page** | Downloads only annotations from the current page |
-| **📦 Export All Pages** | Downloads annotations from ALL pages you've annotated |
+| 📄 Export This Page | Downloads only annotations from the current page |
+| 📦 Export All Pages | Downloads ALL annotations from all pages you've annotated |
 
-Filename format: `saf-annotations-{scope}-{timestamp}.json`
+Send the downloaded JSON file to your collaborators.
 
-### Import Annotations
+### How to Import
 
-1. **Right-click** the Annotations button
+1. **Right-click** the annotation button
 2. Select **📥 Import Annotations...**
 3. Choose a previously exported JSON file
 4. Annotations are merged into your existing storage
 
-**Important:** Import uses annotation IDs to avoid duplicates. If you import the same file twice, the second import won't create duplicates.
+**Important:** 
+- Import uses annotation IDs to avoid duplicates. Importing the same file twice won't create duplicates.
+- Annotations from other users will appear with their usernames in the note header.
+- Use the **Filter** options to show/hide annotations from specific users.
 
-### Example Workflow - Transfer to Another Computer
+### Collaboration Workflow Example
 
-1. On source computer: Right-click → **📦 Export All Pages**
-2. Copy the downloaded JSON file to target computer
-3. On target computer: Right-click → **📥 Import Annotations...**
-4. Select the JSON file
-5. All annotations are now available on the target computer
-
-### Example Workflow - Backup Before Clearing Browser Data
-
-1. Right-click → **📦 Export All Pages**
-2. Save the JSON file in a safe location
-3. Clear browser data
-4. Later: Right-click → **📥 Import Annotations...** to restore
+1. **Alice** creates annotations on several pages
+2. **Alice** right-clicks → **📦 Export All Pages** → sends JSON to **Bob**
+3. **Bob** right-clicks → **📥 Import Annotations...** → selects Alice's file
+4. **Bob** sees Alice's annotations with "Note (alice)" in headers
+5. **Bob** can filter: **👁 Show All** to see both his and Alice's notes, or **👤 Show Only My Annotations** to see only his
 
 ## Keyboard Shortcuts
 
 | Shortcut | Action |
 |----------|--------|
 | `Esc` while editing | Cancel edit |
-| `Esc` while context menu open | Close menu |
+| `Esc` while menu open | Close menu |
 
 ## Limitations
 
-1. **Per-browser only:** Annotations in Chrome won't appear in Firefox (but you can use Export/Import to transfer)
+1. **Per-browser only:** Annotations in Chrome won't appear in Firefox (use Export/Import to transfer)
 2. **Per-device only:** No automatic sync between computers (use Export/Import manually)
 3. **No server backup:** If you clear browser data without exporting, annotations are lost
+4. **Username-based filtering:** Filtering works by username string — make sure everyone uses consistent usernames when collaborating
 
 ## Troubleshooting
 
 ### Annotations not appearing?
 
 1. **Button color:** Blue = annotations exist; Gray = no annotations saved
-2. **Auto-display:** Saved annotations should appear automatically
-3. **Check in private/incognito:** localStorage is often disabled or ephemeral
+2. **Check filter:** Maybe you're filtering to show only certain users. Right-click → **👁 Show All Annotations**
+3. **Auto-display:** Saved annotations should appear automatically
+4. **Check in private/incognito:** localStorage is often disabled or ephemeral
+
+### Annotations from other users not showing?
+
+1. **Right-click** the annotation button
+2. Make sure **👁 Show All Annotations** is selected (look for the blue highlight)
+3. Or select the specific user's filter option
