@@ -180,7 +180,6 @@ These concerns exist in the catalog but have no viewpoints associated with them.
 | *What is the allocated reliability for the complete item?* | reliability |
 | *What is the sequence of interactions among the system and context elements on physical level?* | interaction |
 | *How do the conceptual system elements interact to provide the system functions?* | interaction |
-| *What are the items exchanged between conceptual system elements during an interaction?* | interaction |
 
 **Recommendation:** Either assign these to appropriate viewpoints or deprecate them.
 
@@ -204,9 +203,9 @@ Some concerns appear to be assigned to the wrong owner domain.
 |---|---|
 | Total concerns analyzed | 141 |
 | HIGH confidence duplicate pairs | 3 groups (~7 concerns) |
-| MEDIUM confidence conceptual/physical pairs | 8 pairs (~16 concerns) |
-| Exchange item fragmentation | 7 concerns → 2 recommended |
-| Orphaned concerns (no viewpoint) | 8+ |
+| Conceptual/physical pairs (deliberate — keep separate) | 8 pairs (~16 concerns) |
+| Exchange item concerns (3 categories × 2 levels, valid structure) | 8 |
+| Orphaned concerns (no viewpoint) | 6 (4 reliability + 2 interaction) |
 | Categorization mismatches | 3 |
 
 ### Priority Actions
@@ -214,7 +213,6 @@ Some concerns appear to be assigned to the wrong owner domain.
 1. **Merge functional decomposition concerns** (1.1) — trivial, clear win.
 2. **Merge functional scope concerns** (1.2) — same viewpoint, same intent.
 3. **Collapse the framework grid concerns** (1.3) — three into one.
-4. **Parameterize conceptual vs. physical** across all affected pairs — reduces concern count by ~8 while preserving semantic fidelity.
-5. **Collapse exchange item fragmentation** (2.6) — 7 concerns → 2.
-6. **Assign or deprecate orphaned concerns** — especially the 4 reliability concerns that have zero viewpoint coverage.
-7. **Fix categorization mismatches** — move 3 concerns to appropriate owners.
+4. **Investigate #1 vs #2 in exchange items** (2.6) — these are the only two occupying the same cell (conceptual + identification); everything else in that section is structurally justified.
+5. **Assign or deprecate orphaned concerns** — especially the 4 reliability concerns that have zero viewpoint coverage.
+6. **Fix categorization mismatches** — move 3 concerns to appropriate owners.
