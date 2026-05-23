@@ -1,17 +1,25 @@
+import argparse
 import json
 import os
 import sys
 import asyncio
+import logging
 from pathlib import Path
 
 from mcp.server import Server
 from mcp.server.models import InitializationOptions
 import mcp.server.stdio
+from mcp.server.sse import SseServerTransport
 import mcp.types as types
 
 from mcp.types import ServerCapabilities, ToolsCapability
+from starlette.applications import Starlette
+from starlette.routing import Mount, Route
+from starlette.responses import Response
 
 from .loader import create_store, DataStore
+
+logger = logging.getLogger(__name__)
 
 store: DataStore | None = None
 
@@ -106,7 +114,8 @@ async def list_tools() -> list[types.Tool]:
             name="search",
             description=(
                 "Search across viewpoints, concepts, concerns, and stakeholders by name. "
-                "Returns matching entities with their type and identifier for drill-down."
+                "Returns matching entities with their type and identifier for drill-down. "
+                "Set include_content=true to also search documentation and purpose fields."
             ),
             inputSchema={
                 "type": "object",
@@ -119,6 +128,10 @@ async def list_tools() -> list[types.Tool]:
                         "type": "string",
                         "description": "Filter by entity type: 'viewpoint', 'concept', 'concern', 'stakeholder', or omit for all",
                         "enum": ["viewpoint", "concept", "concern", "stakeholder"],
+                    },
+                    "include_content": {
+                        "type": "boolean",
+                        "description": "When true, also search documentation and purpose fields (default: false)",
                     },
                 },
                 "required": ["query"],
@@ -146,6 +159,75 @@ async def list_tools() -> list[types.Tool]:
                         "description": "Filter by maturity (e.g. 'released', 'proposed', 'under construction')",
                     },
                 },
+            },
+        ),
+        types.Tool(
+            name="list_concepts",
+            description=(
+                "List all concepts with their name, type, and identifier. "
+                "Useful for browsing the full concept catalog before drilling into a specific one."
+            ),
+            inputSchema={
+                "type": "object",
+                "properties": {},
+            },
+        ),
+        types.Tool(
+            name="list_concerns",
+            description=(
+                "List all concerns with their name, owner, and identifier. "
+                "Useful for browsing what concerns are defined in SAF."
+            ),
+            inputSchema={
+                "type": "object",
+                "properties": {},
+            },
+        ),
+        types.Tool(
+            name="list_stakeholders",
+            description=(
+                "List all stakeholders with their name and identifier. "
+                "Useful for browsing who the stakeholders are in SAF."
+            ),
+            inputSchema={
+                "type": "object",
+                "properties": {},
+            },
+        ),
+        types.Tool(
+            name="get_stakeholder",
+            description=(
+                "Get a stakeholder's full profile: documentation, and all their "
+                "concerns with rationales explaining why they care. "
+                "Use this to understand a stakeholder's information needs."
+            ),
+            inputSchema={
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "description": "Stakeholder name (e.g. 'System Architect')",
+                    }
+                },
+                "required": ["name"],
+            },
+        ),
+        types.Tool(
+            name="get_concern",
+            description=(
+                "Get a concern's details: the question it frames, its owner, "
+                "and which viewpoints address it. "
+                "Use this to understand how a concern is covered across viewpoints."
+            ),
+            inputSchema={
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "description": "Concern name or question text",
+                    }
+                },
+                "required": ["name"],
             },
         ),
     ]
@@ -186,6 +268,7 @@ async def call_tool(name: str, arguments: dict) -> list[types.TextContent]:
             results = store.search(
                 arguments["query"],
                 type_filter=arguments.get("type"),
+                include_content=arguments.get("include_content", False),
             )
             return _ok(results)
 
@@ -197,6 +280,27 @@ async def call_tool(name: str, arguments: dict) -> list[types.TextContent]:
             )
             return _ok(results)
 
+        elif name == "list_concepts":
+            return _ok(store.list_concepts())
+
+        elif name == "list_concerns":
+            return _ok(store.list_concerns())
+
+        elif name == "list_stakeholders":
+            return _ok(store.list_stakeholders())
+
+        elif name == "get_stakeholder":
+            sh = store.find_stakeholder(arguments["name"])
+            if not sh:
+                return _err(f"Stakeholder not found: {arguments['name']}")
+            return _ok(store.get_stakeholder_profile(sh))
+
+        elif name == "get_concern":
+            cn = store.find_concern(arguments["name"])
+            if not cn:
+                return _err(f"Concern not found: {arguments['name']}")
+            return _ok(store.get_concern_detail(cn))
+
         else:
             return _err(f"Unknown tool: {name}")
 
@@ -204,16 +308,22 @@ async def call_tool(name: str, arguments: dict) -> list[types.TextContent]:
         return _err(str(e))
 
 
-async def main():
-    global store
-
+def _get_data_dir() -> Path:
     data_dir = Path(__file__).resolve().parent.parent.parent.parent / "src" / "_data"
     env_dir = os.environ.get("SAF_DATA_DIR")
     if env_dir:
         data_dir = Path(env_dir)
+    return data_dir
 
-    store = create_store(str(data_dir))
 
+def _init_store():
+    global store
+    if store is None:
+        store = create_store(str(_get_data_dir()))
+
+
+async def run_stdio():
+    _init_store()
     async with mcp.server.stdio.stdio_server() as (read, write):
         await server.run(
             read,
@@ -224,6 +334,56 @@ async def main():
                 capabilities=ServerCapabilities(tools=ToolsCapability(listChanged=False)),
             ),
         )
+
+
+async def run_http(host: str, port: int):
+    _init_store()
+
+    sse = SseServerTransport("/messages/")
+
+    async def handle_sse(request):
+        async with sse.connect_sse(
+            request.scope, request.receive, request._send
+        ) as streams:
+            await server.run(
+                streams[0],
+                streams[1],
+                InitializationOptions(
+                    server_name="saf-ontology",
+                    server_version="0.1.0",
+                    capabilities=ServerCapabilities(tools=ToolsCapability(listChanged=False)),
+                ),
+            )
+        return Response()
+
+    routes = [
+        Route("/sse", endpoint=handle_sse, methods=["GET"]),
+        Mount("/messages/", app=sse.handle_post_message),
+    ]
+
+    app = Starlette(routes=routes)
+
+    import uvicorn
+    config = uvicorn.Config(app, host=host, port=port, log_level="info")
+    server_uv = uvicorn.Server(config)
+    logger.info(f"Starting HTTP server on {host}:{port}")
+    await server_uv.serve()
+
+
+async def main():
+    parser = argparse.ArgumentParser(description="SAF Ontology MCP Server")
+    parser.add_argument("--port", type=int, default=None, help="Port for HTTP/SSE transport (omit for stdio)")
+    parser.add_argument("--host", type=str, default="127.0.0.1", help="Host for HTTP/SSE transport")
+    parser.add_argument("--data-dir", type=str, default=None, help="Path to SAF data directory (overrides SAF_DATA_DIR env)")
+    args = parser.parse_args()
+
+    if args.data_dir:
+        os.environ["SAF_DATA_DIR"] = args.data_dir
+
+    if args.port:
+        await run_http(args.host, args.port)
+    else:
+        await run_stdio()
 
 
 if __name__ == "__main__":

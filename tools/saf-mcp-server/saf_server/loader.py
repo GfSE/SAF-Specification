@@ -24,9 +24,11 @@ class DataStore:
         self.viewpoints_by_vpid: dict[str, Viewpoint] = {}
         self.concerns: dict[str, Concern] = {}       # guid -> Concern
         self.concerns_by_text_hash: dict[str, Concern] = {}
+        self.concerns_by_name: dict[str, Concern] = {}
         self.rationales: list[Rationale] = []
         self.rationales_by_concern_guid: dict[str, list[Rationale]] = {}
         self.stakeholders: dict[str, Stakeholder] = {}
+        self.stakeholders_by_name: dict[str, Stakeholder] = {}
         self.exposes: list[Expose] = []
         self.exposes_by_viewpoint_guid: dict[str, list[Expose]] = {}
         self._load()
@@ -70,11 +72,12 @@ class DataStore:
                 name=item["Name"],
                 id=item["ID"],
                 documentation=item.get("Documentation", ""),
-                owner=item.get("Owner", ""),
+                category=item.get("Owner", ""),
                 concerns_viewpoints=item.get("ConcernsViewpoints", []),
             )
             self.concerns[c.id] = c
             self.concerns_by_text_hash[_text_hash(c.name)] = c
+            self.concerns_by_name[c.name.lower()] = c
 
     def _load_stakeholders(self):
         arr = self._json("stakeholders.json")
@@ -97,6 +100,7 @@ class DataStore:
                 rationales=resolved_rationales,
             )
             self.stakeholders[sh.id] = sh
+            self.stakeholders_by_name[sh.name.lower()] = sh
 
     def _load_rationales(self):
         arr = self._json("rationales.json")
@@ -165,6 +169,20 @@ class DataStore:
             return c
         return self.concepts.get(name_or_id)
 
+    def find_stakeholder(self, name_or_id: str) -> Stakeholder | None:
+        key = name_or_id.lower()
+        sh = self.stakeholders_by_name.get(key)
+        if sh:
+            return sh
+        return self.stakeholders.get(name_or_id)
+
+    def find_concern(self, name_or_id: str) -> Concern | None:
+        key = name_or_id.lower()
+        cn = self.concerns_by_name.get(key)
+        if cn:
+            return cn
+        return self.concerns.get(name_or_id)
+
     def resolve_concept_refs(self, refs: list[dict]) -> list[dict]:
         resolved = []
         for ref in refs:
@@ -197,24 +215,32 @@ class DataStore:
             ],
         }
 
-    def search(self, query: str, type_filter: str | None = None) -> list[dict]:
+    def search(self, query: str, type_filter: str | None = None, include_content: bool = False) -> list[dict]:
         q = query.lower()
         results = []
         if type_filter is None or type_filter == "viewpoint":
             for vp in self.viewpoints.values():
                 if q in vp.name.lower() or q in vp.vp_id.lower():
                     results.append({"type": "viewpoint", "name": vp.name, "identifier": vp.vp_id or vp.id})
+                elif include_content and (q in vp.purpose.lower() or q in vp.applicability.lower()):
+                    results.append({"type": "viewpoint", "name": vp.name, "identifier": vp.vp_id or vp.id})
         if type_filter is None or type_filter == "concept":
             for c in self.concepts.values():
                 if q in c.name.lower():
+                    results.append({"type": "concept", "name": c.name, "identifier": c.id})
+                elif include_content and q in c.documentation.lower():
                     results.append({"type": "concept", "name": c.name, "identifier": c.id})
         if type_filter is None or type_filter == "concern":
             for cn in self.concerns.values():
                 if q in cn.name.lower():
                     results.append({"type": "concern", "name": cn.name, "identifier": cn.id})
+                elif include_content and q in (cn.documentation or "").lower():
+                    results.append({"type": "concern", "name": cn.name, "identifier": cn.id})
         if type_filter is None or type_filter == "stakeholder":
             for sh in self.stakeholders.values():
                 if q in sh.name.lower():
+                    results.append({"type": "stakeholder", "name": sh.name, "identifier": sh.id})
+                elif include_content and q in sh.documentation.lower():
                     results.append({"type": "stakeholder", "name": sh.name, "identifier": sh.id})
         return results
 
@@ -257,6 +283,7 @@ class DataStore:
             "domain": vp.domain,
             "aspect": vp.aspect,
             "purpose": vp.purpose.strip(),
+            "applicability": vp.applicability.strip(),
             "exposure": vp.exposure,
             "maturity": vp.maturity,
             "stakeholders": sorted(set(stakeholder_names)),
@@ -293,9 +320,71 @@ class DataStore:
                 })
             results.append({
                 "question": cn.name,
-                "owner": cn.owner,
+                "category": cn.category,
                 "stakeholders": stakeholders_with_rationales,
             })
+        return results
+
+
+    def get_stakeholder_profile(self, stakeholder: Stakeholder) -> dict:
+        return {
+            "name": stakeholder.name,
+            "id": stakeholder.id,
+            "documentation": stakeholder.documentation.strip(),
+            "rationales": [
+                {
+                    "concern": r.get("ConcernName", r.get("Concern", "")),
+                    "rationale": r.get("Rationale", ""),
+                }
+                for r in stakeholder.rationales
+            ],
+        }
+
+    def get_concern_detail(self, concern: Concern) -> dict:
+        viewpoints = []
+        for vp_ref in concern.concerns_viewpoints:
+            vp = self.viewpoints.get(vp_ref.get("ID", ""))
+            viewpoints.append({
+                "name": vp.name if vp else vp_ref.get("Name", ""),
+                "id": vp_ref.get("ID", ""),
+            })
+        return {
+            "name": concern.name,
+            "id": concern.id,
+            "category": concern.category,
+            "viewpoints": viewpoints,
+        }
+
+    def list_concepts(self) -> list[dict]:
+        results = []
+        for c in self.concepts.values():
+            results.append({
+                "name": c.name,
+                "type": c.class_type,
+                "id": c.id,
+            })
+        results.sort(key=lambda x: x["name"].lower())
+        return results
+
+    def list_concerns(self) -> list[dict]:
+        results = []
+        for cn in self.concerns.values():
+            results.append({
+                "name": cn.name,
+                "category": cn.category,
+                "id": cn.id,
+            })
+        results.sort(key=lambda x: x["name"].lower())
+        return results
+
+    def list_stakeholders(self) -> list[dict]:
+        results = []
+        for sh in self.stakeholders.values():
+            results.append({
+                "name": sh.name,
+                "id": sh.id,
+            })
+        results.sort(key=lambda x: x["name"].lower())
         return results
 
 

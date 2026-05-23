@@ -37,7 +37,7 @@ class Concern:
     name: str
     id: str
     documentation: str
-    owner: str
+    category: str
     concerns_viewpoints: list[dict]
 
 
