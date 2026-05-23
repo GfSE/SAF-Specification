@@ -52,8 +52,18 @@ The SAF Specification repository contains a workflow which generates the HTML pa
 Run the document generation starting a local web server and open the saf documentation locally
 * in the cloned repository dir, start the generation
   ```
-  bundle excec jekyll serve
-  ```
-* open http://localhost:4000 with a browser
+   bundle exec jekyll serve
+   ```
+ * open http://localhost:4000 with a browser
 
-The pages are updated on change of the files. It takes a while, give or take 15-20 seconds. The update is reported in the shell where you called *bundle excec jekyll serve*
+The pages are updated on change of the files. It takes a while, give or take 15-20 seconds. The update is reported in the shell where you called *bundle exec jekyll serve*.
+
+### one-time build (without server)
+
+To generate HTML pages once (e.g., for CI or inspection), run:
+
+```
+bundle exec jekyll build --destination build
+```
+
+The output will be written to the `build/` directory.
