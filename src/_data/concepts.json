@@ -180,7 +180,7 @@
     "Name" : "System Use Case",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "SUCenablingOSY",
+  "Name" : "enabling",
   "ID" : "_19_0_2_164f041e_1564571019748_834303_54723",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -2126,7 +2126,7 @@
     "Name" : "System Context Element",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "SCEactingForOPR",
+  "Name" : "acting for",
   "ID" : "_19_0_2_26f0132_1576255251560_709609_55539",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -2143,7 +2143,7 @@
     "Name" : "System Of Interest",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "SOIactingForOPR",
+  "Name" : "acting for",
   "ID" : "_19_0_2_26f0132_1576255326396_680115_55587",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -2196,7 +2196,7 @@
     "ID" : "_19_0_1_26f0132_1554446728606_740631_45702",
     "Name" : "System Use Case Viewpoint"
   } ],
-  "Documentation" : "Specifies the fact that a Logical Context Element acts in one or more System Use Cases.",
+  "Documentation" : "Specifies the fact that a Conceptual Context Element acts in one or more System Use Cases.",
   "AssociationEnds" : [ {
     "ID" : "_19_0_1_26f0132_1554446894995_335285_45800",
     "Name" : "System Use Case",
@@ -2206,7 +2206,7 @@
     "Name" : "Conceptual Context Element",
     "Multiplicity" : "1..*"
   } ],
-  "Name" : "LCEactingInSUC",
+  "Name" : "acting in",
   "ID" : "_19_0_2_6d8019d_1555339282353_464909_46799",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -3011,7 +3011,7 @@
     "Name" : "Operational Performer",
     "Multiplicity" : "1"
   } ],
-  "Name" : "OPRcomposedOF",
+  "Name" : "composed",
   "ID" : "_19_0_3_6d8019d_1598981150221_83799_30",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -3496,7 +3496,7 @@
     "Name" : "System Use Case",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "SUChasPostConditionSSE",
+  "Name" : "has post condition",
   "ID" : "_19_0_4_26f0132_1639735748424_245279_316",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -3516,7 +3516,7 @@
     "Name" : "System Use Case",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "SUChasPreConditionSSE",
+  "Name" : "has pre condition",
   "ID" : "_19_0_4_26f0132_1639735755383_425330_337",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -3653,7 +3653,7 @@
     "ID" : "_19_0_1_26f0132_1554446728606_740631_45702",
     "Name" : "System Use Case Viewpoint"
   } ],
-  "Documentation" : "Specifies the fact that a System Use Case takes place in a Logical System Context.",
+  "Documentation" : "Specifies the fact that a System Use Case takes place in a Conceptual System Context.",
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1558075086129_173532_44926",
     "Name" : "Conceptual System Context",
@@ -3663,7 +3663,7 @@
     "Name" : "System Use Case",
     "Multiplicity" : "1..*"
   } ],
-  "Name" : "SUCtakingPlaceInLSC",
+  "Name" : "taking place in",
   "ID" : "_19_0_4_6d8019d_1621167443409_435880_621",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -6715,4 +6715,21 @@
     "ID" : "_2024x_4c5019a_1726430943101_262310_996",
     "Name" : "Risk"
   } ]
+}, {
+  "InViewpoint" : [ ],
+  "Documentation" : "Specifies the fact that a Conceptual System acts in one or more System Use Cases (Derived Relationship)",
+  "AssociationEnds" : [ {
+    "ID" : "_19_0_1_26f0132_1554446894995_335285_45800",
+    "Name" : "System Use Case",
+    "Multiplicity" : "1..*"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
+    "Name" : "Conceptual System",
+    "Multiplicity" : "1"
+  } ],
+  "Name" : "acting in",
+  "ID" : "_2026x_b6f02e1_1780432184098_143774_34",
+  "InheritsFrom" : [ ],
+  "ClassType" : "Association",
+  "IsGeneralFor" : [ ]
 } ]

@@ -376,7 +376,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_2_6d8019d_1555339282353_464909_46799",
-    "Name" : "LCEactingInSUC"
+    "Name" : "acting in"
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_4_6d8019d_1617440763282_465948_2187",
@@ -928,7 +928,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_4_6d8019d_1621167443409_435880_621",
-    "Name" : "SUCtakingPlaceInLSC"
+    "Name" : "taking place in"
   },
   "RealizationOfConcept" : {
     "ID" : "_2021x_2_8710274_1697273420898_578612_29983",
@@ -940,7 +940,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_3_6d8019d_1598981150221_83799_30",
-    "Name" : "OPRcomposedOF"
+    "Name" : "composed"
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_3_6d8019d_1599414738887_63027_366",
@@ -1252,7 +1252,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_4_26f0132_1639735748424_245279_316",
-    "Name" : "SUChasPostConditionSSE"
+    "Name" : "has post condition"
   },
   "RealizationOfConcept" : {
     "ID" : "_2021x_2_8710274_1697273945667_128653_30263",
@@ -1264,7 +1264,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_4_26f0132_1639735755383_425330_337",
-    "Name" : "SUChasPreConditionSSE"
+    "Name" : "has pre condition"
   },
   "RealizationOfConcept" : {
     "ID" : "_2021x_2_8710274_1697273920739_355569_30251",
@@ -1600,7 +1600,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_2_164f041e_1564571019748_834303_54723",
-    "Name" : "SUCenablingOSY"
+    "Name" : "enabling"
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_4_6d8019d_1630778868755_864755_338",
@@ -4641,5 +4641,17 @@
   "RealizationOfConcept" : {
     "ID" : "_2024x_8710274_1717680274694_162060_14786",
     "Name" : "SAF_A2_CSTD_Table"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_b6f02e1_1780434690537_987459_256",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2026x_b6f02e1_1780432184098_143774_34",
+    "Name" : "acting in"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_4_6d8019d_1617440763282_465948_2187",
+    "Name" : "SAF_ConceptualContextElementActing"
   }
 } ]
