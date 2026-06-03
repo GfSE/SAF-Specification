@@ -111,7 +111,7 @@
     "Name" : "Functional Requirement",
     "Multiplicity" : "1..*"
   } ],
-  "Name" : "FRboundedByNFR",
+  "Name" : "bounded by",
   "ID" : "_19_0_2_164f041e_1564384014791_156524_51726",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -131,7 +131,7 @@
     "Name" : "Functional Requirement",
     "Multiplicity" : "1..*"
   } ],
-  "Name" : "FRrefiningSFN",
+  "Name" : "refining",
   "ID" : "_19_0_2_164f041e_1564384276906_470959_51917",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -235,7 +235,7 @@
     "Name" : "System Process",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "SPSenablingOPS",
+  "Name" : "enabling",
   "ID" : "_19_0_2_164f041e_1564572632681_128528_54942",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -456,7 +456,7 @@
     "Name" : "Operational Interaction Scenario",
     "Multiplicity" : "1"
   } ],
-  "Name" : "OIScontainingOCM",
+  "Name" : "containing",
   "ID" : "_19_0_2_26f0132_1561753002121_745876_50345",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -767,7 +767,7 @@
     "Name" : "System Function",
     "Multiplicity" : "1..*"
   } ],
-  "Name" : "SFNallocatedToAPE",
+  "Name" : "allocated to",
   "ID" : "_19_0_2_26f0132_1562303524161_503942_91010",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -1016,7 +1016,7 @@
     "Name" : "Physical Interaction Point Property",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "PIPPspecifyingDetailOfPIPD",
+  "Name" : "specifying detail of",
   "ID" : "_19_0_2_26f0132_1562303524176_401348_91038",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -1042,7 +1042,7 @@
     "Name" : "Physical Interaction Point Definition",
     "Multiplicity" : "1"
   } ],
-  "Name" : "PIPDdefiningDetailOfPIP",
+  "Name" : "defining detail of",
   "ID" : "_19_0_2_26f0132_1562303524176_477765_91035",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -1310,7 +1310,7 @@
     "Name" : "Physical Interaction Point",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "PIPapplyingToPCE",
+  "Name" : "applying to",
   "ID" : "_19_0_2_26f0132_1562303524176_706808_91045",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -1333,7 +1333,7 @@
     "Name" : "Physical Connection",
     "Multiplicity" : "1"
   } ],
-  "Name" : "PCNallowingPIE",
+  "Name" : "allowing",
   "ID" : "_19_0_2_26f0132_1562303524176_759771_91046",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -1403,7 +1403,7 @@
     "Name" : "Physical Interaction Point",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "PIPapplyingToAPE",
+  "Name" : "applying to",
   "ID" : "_19_0_2_26f0132_1562303524176_827364_91044",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -1645,7 +1645,7 @@
     "Name" : "Conceptual System",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "LETbeeingInSSE",
+  "Name" : "beeing in",
   "ID" : "_19_0_2_26f0132_1562303524176_991194_91090",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -1665,7 +1665,7 @@
     "Name" : "System State",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "SFNhasPreconditionSSE",
+  "Name" : "has precondition",
   "ID" : "_19_0_2_26f0132_1562303524801_13984_91387",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -1700,7 +1700,7 @@
     "Name" : "Conceptual Environment",
     "Multiplicity" : "1..*"
   } ],
-  "Name" : "LENconceptingPEN",
+  "Name" : "concepting",
   "ID" : "_19_0_2_26f0132_1562304212535_601553_139979",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -1717,7 +1717,7 @@
     "Name" : "Conceptual External System",
     "Multiplicity" : "1..*"
   } ],
-  "Name" : "LESconceptingPES",
+  "Name" : "concepting",
   "ID" : "_19_0_2_26f0132_1562304232883_201583_139995",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -1817,7 +1817,7 @@
     "Name" : "Compliance Statement",
     "Multiplicity" : "1"
   } ],
-  "Name" : "CSTconfirmingSHR",
+  "Name" : "confirming",
   "ID" : "_19_0_2_26f0132_1565103607495_867687_55406",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -1840,7 +1840,7 @@
     "Name" : "System Requirement",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "SRderivingFromSR",
+  "Name" : "deriving from",
   "ID" : "_19_0_2_26f0132_1565104656755_27827_55752",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -1881,7 +1881,7 @@
     "Name" : "Stakeholder Requirement",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "SHRrefiningOCY",
+  "Name" : "refining",
   "ID" : "_19_0_2_26f0132_1567606884034_616995_54129",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -1930,7 +1930,7 @@
     "Name" : "Operational Interaction Scenario",
     "Multiplicity" : "1..*"
   } ],
-  "Name" : "OISrefiningOSY",
+  "Name" : "refining",
   "ID" : "_19_0_2_26f0132_1567695835791_28300_55090",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -1950,7 +1950,7 @@
     "Name" : "Operational Story",
     "Multiplicity" : "1..*"
   } ],
-  "Name" : "OSYtakingPlaceInOCT",
+  "Name" : "taking place in",
   "ID" : "_19_0_2_26f0132_1567779491655_900665_58731",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -2032,7 +2032,7 @@
     "Name" : "System of Interest Stakeholder",
     "Multiplicity" : "1"
   } ],
-  "Name" : "SSHrepresentingUSR",
+  "Name" : "representing",
   "ID" : "_19_0_2_26f0132_1575019604241_255622_55408",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -2052,7 +2052,7 @@
     "Name" : "System of Interest Stakeholder",
     "Multiplicity" : "1"
   } ],
-  "Name" : "SSHrelatedToSSH",
+  "Name" : "related to",
   "ID" : "_19_0_2_26f0132_1575019807024_82785_55519",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -2072,7 +2072,7 @@
     "Name" : "System Requirement",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "SRrefiningSUC",
+  "Name" : "refining",
   "ID" : "_19_0_2_26f0132_1575561280252_959861_56562",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -2166,7 +2166,7 @@
     "Name" : "System of Interest Stakeholder",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "SSHrepresentingOPR",
+  "Name" : "representing",
   "ID" : "_19_0_2_26f0132_1576255381074_947214_55662",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -2186,7 +2186,7 @@
     "Name" : "System Context Element",
     "Multiplicity" : "1..*"
   } ],
-  "Name" : "SCErepresentedBySSH",
+  "Name" : "represented by",
   "ID" : "_19_0_2_26f0132_1576255436585_904360_55710",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -2310,7 +2310,7 @@
     "Name" : "System of Interest Stakeholder",
     "Multiplicity" : "1"
   } ],
-  "Name" : "SSHhavingCRN",
+  "Name" : "having",
   "ID" : "_19_0_2_8710274_1558520091750_118256_44283",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -2330,7 +2330,7 @@
     "Name" : "Stakeholder Requirement",
     "Multiplicity" : "1..*"
   } ],
-  "Name" : "SHRimposedBY",
+  "Name" : "imposed",
   "ID" : "_19_0_2_8710274_1558520103521_679129_44321",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -2353,7 +2353,7 @@
     "Name" : "System Requirement",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "SRderivingFromSTKR",
+  "Name" : "deriving from",
   "ID" : "_19_0_2_8710274_1558520123795_924466_44365",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -2373,7 +2373,7 @@
     "Name" : "Stakeholder Requirement",
     "Multiplicity" : "1..*"
   } ],
-  "Name" : "SHRrefiningCRN",
+  "Name" : "refining",
   "ID" : "_19_0_2_8710274_1558520697796_594436_44679",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -2408,7 +2408,7 @@
     "Name" : "Conceptual User",
     "Multiplicity" : "1..*"
   } ],
-  "Name" : "LURconceptingPUR",
+  "Name" : "concepting",
   "ID" : "_19_0_2_8710274_1558534173240_845746_45405",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -2619,7 +2619,7 @@
     "Name" : "System Requirement",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "SRrefiningLICP",
+  "Name" : "refining",
   "ID" : "_19_0_3_26f0132_1582299953373_258701_56319",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -2810,7 +2810,7 @@
     "Name" : "Operational Performer",
     "Multiplicity" : "1..*"
   } ],
-  "Name" : "OPRactingInOSY",
+  "Name" : "acting in",
   "ID" : "_19_0_3_26f0132_1582984690099_348707_50208",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -2879,7 +2879,7 @@
     "Name" : "Operational Capability",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "OCYsupportingOSY",
+  "Name" : "supporting",
   "ID" : "_19_0_3_26f0132_1593161538343_235854_323",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -2896,7 +2896,7 @@
     "Name" : "Abstract Physical Element",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "APEbeeingInSSE",
+  "Name" : "beeing in",
   "ID" : "_19_0_3_26f0132_1593763413831_223230_668",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -2916,7 +2916,7 @@
     "Name" : "System Function",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "SFNhasPostconditionSSE",
+  "Name" : "has postcondition",
   "ID" : "_19_0_3_26f0132_1593764793156_232154_797",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -3028,7 +3028,7 @@
     "Name" : "System Context Interaction Scenario",
     "Multiplicity" : "1"
   } ],
-  "Name" : "SCIScontainingLCM",
+  "Name" : "containing",
   "ID" : "_19_0_3_6d8019d_1608891146807_63172_951",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -3065,7 +3065,7 @@
     "Name" : "Stakeholder Requirement",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "SHRrefiningOSY",
+  "Name" : "refining",
   "ID" : "_19_0_3_6d8019d_1609067438603_923129_400",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -3108,7 +3108,7 @@
     "Name" : "Operational Performer",
     "Multiplicity" : "1"
   } ],
-  "Name" : "OPRexhibitingOCY",
+  "Name" : "exhibiting",
   "ID" : "_19_0_3_6d8019d_1611592925440_283346_480",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -3158,7 +3158,7 @@
     "Name" : "Operational Capability",
     "Multiplicity" : "1"
   } ],
-  "Name" : "OCYspecializedBY",
+  "Name" : "specialized",
   "ID" : "_19_0_3_8710274_1581666154134_936493_49002",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -3181,7 +3181,7 @@
     "Name" : "Operational Capability",
     "Multiplicity" : "1"
   } ],
-  "Name" : "OCYcomposedOF",
+  "Name" : "composed",
   "ID" : "_19_0_3_8710274_1581666201982_100862_49030",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -3204,7 +3204,7 @@
     "Name" : "Operational Capability",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "OCYdependingON",
+  "Name" : "depending",
   "ID" : "_19_0_3_8710274_1581666429993_560174_49054",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -3557,7 +3557,7 @@
     "Name" : "System Capability",
     "Multiplicity" : "1"
   } ],
-  "Name" : "SCYcomposedOF",
+  "Name" : "composed",
   "ID" : "_19_0_4_6d8019d_1617463709658_247814_337",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -3580,7 +3580,7 @@
     "Name" : "System Capability",
     "Multiplicity" : "1"
   } ],
-  "Name" : "SCYspecializedBY",
+  "Name" : "specialized",
   "ID" : "_19_0_4_6d8019d_1617463709660_425346_338",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -3603,7 +3603,7 @@
     "Name" : "System Capability",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "SCYdependingON",
+  "Name" : "depending",
   "ID" : "_19_0_4_6d8019d_1617463709661_722502_339",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -3623,7 +3623,7 @@
     "Name" : "System Capability",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "SCYsupportingSUC",
+  "Name" : "supporting",
   "ID" : "_19_0_4_6d8019d_1617464677545_852747_1286",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -3643,7 +3643,7 @@
     "Name" : "System Capability",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "SCYenablingOCY",
+  "Name" : "enabling",
   "ID" : "_19_0_4_6d8019d_1617524582560_511978_675",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -3683,7 +3683,7 @@
     "Name" : "System Function",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "SFNsupportingSCY",
+  "Name" : "supporting",
   "ID" : "_19_0_4_6d8019d_1624798205940_66834_232",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -3789,7 +3789,7 @@
     "Name" : "Context Function",
     "Multiplicity" : "1..*"
   } ],
-  "Name" : "CFNallocatedToLCE",
+  "Name" : "allocated to",
   "ID" : "_19_0_4_6d8019d_1654685045905_147820_659",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -3806,7 +3806,7 @@
     "Name" : "System Function",
     "Multiplicity" : "1"
   } ],
-  "Name" : "SFNboundedByNFR",
+  "Name" : "bounded by",
   "ID" : "_19_0_4_ebf0350_1640955667334_871926_455",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -3823,7 +3823,7 @@
     "Name" : "System Use Case",
     "Multiplicity" : "0..1"
   } ],
-  "Name" : "SUCrefiningSHR",
+  "Name" : "refining",
   "ID" : "_19_0_4_ebf0350_1640956074635_630812_483",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -3921,7 +3921,7 @@
     "Name" : "Evidence",
     "Multiplicity" : "1..*"
   } ],
-  "Name" : "EVCreinforcingAGT",
+  "Name" : "reinforcing",
   "ID" : "_2021x_2_6d8019d_1674232167082_51450_23369",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -3965,7 +3965,7 @@
     "Name" : "Claim",
     "Multiplicity" : "1"
   } ],
-  "Name" : "CLMbeingMadeAboutSBC",
+  "Name" : "being made about",
   "ID" : "_2021x_2_6d8019d_1674232167083_240422_23373",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -3997,7 +3997,7 @@
     "Name" : "Claimant",
     "Multiplicity" : "1"
   } ],
-  "Name" : "CLTmakingCLM",
+  "Name" : "making",
   "ID" : "_2021x_2_6d8019d_1674232167083_795162_23371",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -4017,7 +4017,7 @@
     "Name" : "Claim",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "CLMsupportingCIM",
+  "Name" : "supporting",
   "ID" : "_2021x_2_6d8019d_1674232167084_618602_23374",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -4037,7 +4037,7 @@
     "Name" : "CounterClaim",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "CCMcounteringCIM",
+  "Name" : "countering",
   "ID" : "_2021x_2_6d8019d_1674232167084_655777_23375",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -4054,7 +4054,7 @@
     "Name" : "Abstract Physical Element",
     "Multiplicity" : "1"
   } ],
-  "Name" : "APEimplementingGFN",
+  "Name" : "implementing",
   "ID" : "_2021x_2_6d8019d_1677665541732_554257_25017",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -4071,7 +4071,7 @@
     "Name" : "System Partial Function",
     "Multiplicity" : "1..*"
   } ],
-  "Name" : "SPFNallocatedToLET",
+  "Name" : "allocated to",
   "ID" : "_2021x_2_6d8019d_1677750594124_815801_24716",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -4091,7 +4091,7 @@
     "Name" : "System Partial Function",
     "Multiplicity" : "1..*"
   } ],
-  "Name" : "SPFNallocatedToAPE",
+  "Name" : "allocated to",
   "ID" : "_2021x_2_6d8019d_1677952512216_184791_24859",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -4111,7 +4111,7 @@
     "Name" : "Argument",
     "Multiplicity" : "1"
   } ],
-  "Name" : "AGTsupportingCLM",
+  "Name" : "supporting",
   "ID" : "_2021x_2_6d8019d_1687622957056_63882_25313",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -4128,7 +4128,7 @@
     "Name" : "Refuter",
     "Multiplicity" : "1"
   } ],
-  "Name" : "RFTmakingCCM",
+  "Name" : "making",
   "ID" : "_2021x_2_6d8019d_1687635765022_652079_24627",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -4151,7 +4151,7 @@
     "Name" : "System Requirement",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "SRrefiningSCY",
+  "Name" : "refining",
   "ID" : "_2021x_2_6d8019d_1690055913036_853745_24319",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -4168,7 +4168,7 @@
     "Name" : "System Capability",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "SCYsatisfyingSHR",
+  "Name" : "satisfying",
   "ID" : "_2021x_2_6d8019d_1691056625013_260300_25600",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -4279,7 +4279,7 @@
     "Name" : "Conceptual System",
     "Multiplicity" : "1..*"
   } ],
-  "Name" : "LETimplementingGFN",
+  "Name" : "implementing",
   "ID" : "_2021x_2_8710274_1675987240210_459780_32823",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -4322,7 +4322,7 @@
     "Name" : "Physical Connection",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "PCCapplyingToPCN",
+  "Name" : "applying to",
   "ID" : "_2021x_2_8710274_1680254104367_829868_24205",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -4339,7 +4339,7 @@
     "Name" : "Physical Connector Compatibility",
     "Multiplicity" : "1"
   } ],
-  "Name" : "PCCassertsCompatibiltyForPCPD",
+  "Name" : "asserts compatibilty for",
   "ID" : "_2021x_2_8710274_1680254348056_919437_24234",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -4391,7 +4391,7 @@
     "Name" : "Physical Layer Ordering",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "PLOisValidInPLS",
+  "Name" : "is valid in",
   "ID" : "_2021x_2_8710274_1681806275066_283969_25955",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -4408,7 +4408,7 @@
     "Name" : "Physical Layer",
     "Multiplicity" : "0..1"
   } ],
-  "Name" : "PEKisAssignedToPL",
+  "Name" : "is assigned to",
   "ID" : "_2021x_2_8710274_1681806652560_49043_25989",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -4425,7 +4425,7 @@
     "Name" : "Conceptual Item Exchange",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "LIEboundedByPL",
+  "Name" : "bounded by",
   "ID" : "_2021x_2_8710274_1681806912644_135691_26021",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -4442,7 +4442,7 @@
     "Name" : "Conceptual Item Exchange",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "LIEboundedByPLS",
+  "Name" : "bounded by",
   "ID" : "_2021x_2_8710274_1681806951884_434595_26037",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -4459,7 +4459,7 @@
     "Name" : "Conceptual Interaction Point",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "LCPboundedByPLS",
+  "Name" : "bounded by",
   "ID" : "_2021x_2_8710274_1681807422644_523831_26079",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -4485,7 +4485,7 @@
     "Name" : "Physical Interaction Point",
     "Multiplicity" : "1"
   } ],
-  "Name" : "PCPOverPCP",
+  "Name" : "over",
   "ID" : "_2021x_2_8710274_1695984535441_481088_24822",
   "InheritsFrom" : [ ],
   "ClassType" : "AssociationClass",
@@ -4505,7 +4505,7 @@
     "Name" : "Physical Interaction Point Property",
     "Multiplicity" : "1"
   } ],
-  "Name" : "PCPPOverPCPP",
+  "Name" : "over",
   "ID" : "_2021x_2_8710274_1697109899298_943155_150586",
   "InheritsFrom" : [ ],
   "ClassType" : "AssociationClass",
@@ -4528,7 +4528,7 @@
     "Name" : "Physical Interaction Point",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "PCPisPartOfPIPD",
+  "Name" : "is part of",
   "ID" : "_2021x_2_8710274_1697110372756_168059_150785",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -4584,7 +4584,7 @@
     "Name" : "Grid",
     "Multiplicity" : "1"
   } ],
-  "Name" : "GDcontainingVP",
+  "Name" : "containing",
   "ID" : "_2021x_2_8710274_1697453884307_467076_29314",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -4625,7 +4625,7 @@
     "Name" : "Grid",
     "Multiplicity" : "1"
   } ],
-  "Name" : "GDcontainingAT",
+  "Name" : "containing",
   "ID" : "_2021x_2_8710274_1697454168635_705915_29452",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -4648,7 +4648,7 @@
     "Name" : "Grid",
     "Multiplicity" : "1"
   } ],
-  "Name" : "GDcontainingDN",
+  "Name" : "containing",
   "ID" : "_2021x_2_8710274_1697454194125_161227_29476",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -5104,7 +5104,7 @@
     "Name" : "Conceptual Item Exchange",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "LIEimplementsOIE",
+  "Name" : "implements",
   "ID" : "_2021x_2_8710274_1701723853139_501062_17868",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -5299,7 +5299,7 @@
     "Name" : "Viewpoint",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "VPbelongingToDN",
+  "Name" : "belonging to",
   "ID" : "_2024x_26f0132_1719141336629_21600_25167",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -5325,7 +5325,7 @@
     "Name" : "Viewpoint",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "VPbelongingToAT",
+  "Name" : "belonging to",
   "ID" : "_2024x_26f0132_1719141564806_4128_25334",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -5345,7 +5345,7 @@
     "Name" : "View",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "VWconformingToVP",
+  "Name" : "conforming to",
   "ID" : "_2024x_26f0132_1719142742046_407324_28278",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -5377,7 +5377,7 @@
     "Name" : "Viewpoint",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "VPframesCN",
+  "Name" : "frames",
   "ID" : "_2024x_26f0132_1719748378083_695462_15356",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -5570,7 +5570,7 @@
     "Name" : "Operational Performer",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "OPRspecializesOPR",
+  "Name" : "specializes",
   "ID" : "_2024x_2_26f0132_1749655623218_564595_162",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -5671,7 +5671,7 @@
     "Name" : "Operational Performer",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "OPbeeingInOSE",
+  "Name" : "beeing in",
   "ID" : "_2024x_2_26f0132_1751005742256_520008_1593",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -6030,7 +6030,7 @@
     "Name" : "Adversary",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "ADVusesAV",
+  "Name" : "uses",
   "ID" : "_2024x_4c5019a_1724754327333_682035_2001",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -6170,7 +6170,7 @@
     "Name" : "Target Misuse Case",
     "Multiplicity" : "1"
   } ],
-  "Name" : "AVoccuresInMUS",
+  "Name" : "occures in",
   "ID" : "_2024x_4c5019a_1726429545604_767746_816",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",

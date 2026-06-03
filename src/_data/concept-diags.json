@@ -31,10 +31,10 @@
     "Name" : "Conceptual Environment"
   }, {
     "ID" : "_19_0_2_26f0132_1562304212535_601553_139979",
-    "Name" : "LENconceptingPEN"
+    "Name" : "concepting"
   }, {
     "ID" : "_19_0_2_26f0132_1562304232883_201583_139995",
-    "Name" : "LESconceptingPES"
+    "Name" : "concepting"
   }, {
     "ID" : "_19_0_2_26f0132_1562316546243_649906_43676",
     "Name" : "System Context Element"
@@ -49,7 +49,7 @@
     "Name" : "Conceptual User"
   }, {
     "ID" : "_19_0_2_8710274_1558534173240_845746_45405",
-    "Name" : "LURconceptingPUR"
+    "Name" : "concepting"
   }, {
     "ID" : "_19_0_2_8710274_1567172425344_546313_62832",
     "Name" : "Physical Context Element Role"
@@ -81,10 +81,10 @@
     "Name" : "Goal"
   }, {
     "ID" : "_19_0_2_26f0132_1575019604241_255622_55408",
-    "Name" : "SSHrepresentingUSR"
+    "Name" : "representing"
   }, {
     "ID" : "_19_0_2_26f0132_1575019807024_82785_55519",
-    "Name" : "SSHrelatedToSSH"
+    "Name" : "related to"
   }, {
     "ID" : "_19_0_2_8710274_1558519956748_646834_44043",
     "Name" : "System of Interest Stakeholder"
@@ -99,13 +99,13 @@
     "Name" : "Stakeholder Requirement"
   }, {
     "ID" : "_19_0_2_8710274_1558520091750_118256_44283",
-    "Name" : "SSHhavingCRN"
+    "Name" : "having"
   }, {
     "ID" : "_19_0_2_8710274_1558520103521_679129_44321",
-    "Name" : "SHRimposedBY"
+    "Name" : "imposed"
   }, {
     "ID" : "_19_0_2_8710274_1558520697796_594436_44679",
-    "Name" : "SHRrefiningCRN"
+    "Name" : "refining"
   } ]
 }, {
   "ID" : "_19_0_2_26f0132_1561750845871_402382_48509",
@@ -134,31 +134,31 @@
     "Name" : "Operational Context Role"
   }, {
     "ID" : "_19_0_2_26f0132_1567779491655_900665_58731",
-    "Name" : "OSYtakingPlaceInOCT"
+    "Name" : "taking place in"
   }, {
     "ID" : "_19_0_2_26f0132_1576255251560_709609_55539",
-    "Name" : "SCEactingForOPR"
+    "Name" : "acting for"
   }, {
     "ID" : "_19_0_2_26f0132_1576255326396_680115_55587",
-    "Name" : "SOIactingForOPR"
+    "Name" : "acting for"
   }, {
     "ID" : "_19_0_2_26f0132_1576255381074_947214_55662",
-    "Name" : "SSHrepresentingOPR"
+    "Name" : "representing"
   }, {
     "ID" : "_19_0_2_26f0132_1576255436585_904360_55710",
-    "Name" : "SCErepresentedBySSH"
+    "Name" : "represented by"
   }, {
     "ID" : "_19_0_2_8710274_1558519956748_646834_44043",
     "Name" : "System of Interest Stakeholder"
   }, {
     "ID" : "_19_0_3_26f0132_1582984690099_348707_50208",
-    "Name" : "OPRactingInOSY"
+    "Name" : "acting in"
   }, {
     "ID" : "_19_0_3_6d8019d_1598981150221_83799_30",
-    "Name" : "OPRcomposedOF"
+    "Name" : "composed"
   }, {
     "ID" : "_19_0_3_6d8019d_1611592925440_283346_480",
-    "Name" : "OPRexhibitingOCY"
+    "Name" : "exhibiting"
   }, {
     "ID" : "_19_0_3_8710274_1581665911562_310714_48925",
     "Name" : "Operational Capability"
@@ -167,7 +167,7 @@
     "Name" : " capable performing"
   }, {
     "ID" : "_2024x_2_26f0132_1749655623218_564595_162",
-    "Name" : "OPRspecializesOPR"
+    "Name" : "specializes"
   } ]
 }, {
   "ID" : "_19_0_2_26f0132_1561752958641_615073_50263",
@@ -181,7 +181,7 @@
     "Name" : "Operational Interaction Scenario"
   }, {
     "ID" : "_19_0_2_26f0132_1561753002121_745876_50345",
-    "Name" : "OIScontainingOCM"
+    "Name" : "containing"
   }, {
     "ID" : "_19_0_2_26f0132_1561753696413_162391_50607",
     "Name" : "Operational Chronological Message"
@@ -199,7 +199,7 @@
     "Name" : "Operational Context Role"
   }, {
     "ID" : "_19_0_2_26f0132_1567695835791_28300_55090",
-    "Name" : "OISrefiningOSY"
+    "Name" : "refining"
   } ]
 }, {
   "ID" : "_19_0_2_26f0132_1562303524176_255359_91092",
@@ -391,28 +391,28 @@
     "Name" : "Abstract Physical Element"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_991194_91090",
-    "Name" : "LETbeeingInSSE"
+    "Name" : "beeing in"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524801_13984_91387",
-    "Name" : "SFNhasPreconditionSSE"
+    "Name" : "has precondition"
   }, {
     "ID" : "_19_0_2_26f0132_1562307450269_33287_141718",
     "Name" : "System State Transition"
   }, {
     "ID" : "_19_0_3_26f0132_1593763413831_223230_668",
-    "Name" : "APEbeeingInSSE"
+    "Name" : "beeing in"
   }, {
     "ID" : "_19_0_3_26f0132_1593764793156_232154_797",
-    "Name" : "SFNhasPostconditionSSE"
+    "Name" : "has postcondition"
   }, {
     "ID" : "_19_0_4_26f0132_1624610613457_313794_115",
     "Name" : "System Process"
   }, {
     "ID" : "_19_0_4_26f0132_1639735748424_245279_316",
-    "Name" : "SUChasPostConditionSSE"
+    "Name" : "has post condition"
   }, {
     "ID" : "_19_0_4_26f0132_1639735755383_425330_337",
-    "Name" : "SUChasPreConditionSSE"
+    "Name" : "has pre condition"
   }, {
     "ID" : "_19_0_4_6d8019d_1627829323787_791914_508",
     "Name" : "System Triggering Event"
@@ -494,10 +494,10 @@
     "Name" : "Software Element"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_401348_91038",
-    "Name" : "PIPPspecifyingDetailOfPIPD"
+    "Name" : "specifying detail of"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_477765_91035",
-    "Name" : "PIPDdefiningDetailOfPIP"
+    "Name" : "defining detail of"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_482464_91025",
     "Name" : "Physical Exchange Type"
@@ -512,16 +512,16 @@
     "Name" : "Physical Connection"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_706808_91045",
-    "Name" : "PIPapplyingToPCE"
+    "Name" : "applying to"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_759771_91046",
-    "Name" : "PCNallowingPIE"
+    "Name" : "allowing"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_824595_91079",
     "Name" : "Physical Element"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_827364_91044",
-    "Name" : "PIPapplyingToAPE"
+    "Name" : "applying to"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_842935_91034",
     "Name" : "Physical Interaction Point"
@@ -545,19 +545,19 @@
     "Name" : "Physical Connector Compatibility"
   }, {
     "ID" : "_2021x_2_8710274_1680254104367_829868_24205",
-    "Name" : "PCCapplyingToPCN"
+    "Name" : "applying to"
   }, {
     "ID" : "_2021x_2_8710274_1680254348056_919437_24234",
-    "Name" : "PCCassertsCompatibiltyForPCPD"
+    "Name" : "asserts compatibilty for"
   }, {
     "ID" : "_2021x_2_8710274_1695984535441_481088_24822",
-    "Name" : "PCPOverPCP"
+    "Name" : "over"
   }, {
     "ID" : "_2021x_2_8710274_1697109899298_943155_150586",
-    "Name" : "PCPPOverPCPP"
+    "Name" : "over"
   }, {
     "ID" : "_2021x_2_8710274_1697110372756_168059_150785",
-    "Name" : "PCPisPartOfPIPD"
+    "Name" : "is part of"
   } ]
 }, {
   "ID" : "_19_0_2_26f0132_1562312646505_809606_147806",
@@ -625,7 +625,7 @@
     "Name" : "Operational Item Exchange"
   }, {
     "ID" : "_2021x_2_8710274_1701723853139_501062_17868",
-    "Name" : "LIEimplementsOIE"
+    "Name" : "implements"
   } ]
 }, {
   "ID" : "_19_0_2_26f0132_1572502159277_127751_54042",
@@ -737,7 +737,7 @@
     "Name" : "Compliance Statement"
   }, {
     "ID" : "_19_0_2_26f0132_1565103607495_867687_55406",
-    "Name" : "CSTconfirmingSHR"
+    "Name" : "confirming"
   }, {
     "ID" : "_19_0_2_26f0132_1567601057444_940759_53923",
     "Name" : "User"
@@ -746,13 +746,13 @@
     "Name" : "Goal"
   }, {
     "ID" : "_19_0_2_26f0132_1567606884034_616995_54129",
-    "Name" : "SHRrefiningOCY"
+    "Name" : "refining"
   }, {
     "ID" : "_19_0_2_26f0132_1575019604241_255622_55408",
-    "Name" : "SSHrepresentingUSR"
+    "Name" : "representing"
   }, {
     "ID" : "_19_0_2_26f0132_1575019807024_82785_55519",
-    "Name" : "SSHrelatedToSSH"
+    "Name" : "related to"
   }, {
     "ID" : "_19_0_2_8710274_1558519956748_646834_44043",
     "Name" : "System of Interest Stakeholder"
@@ -767,19 +767,19 @@
     "Name" : "Stakeholder Requirement"
   }, {
     "ID" : "_19_0_2_8710274_1558520091750_118256_44283",
-    "Name" : "SSHhavingCRN"
+    "Name" : "having"
   }, {
     "ID" : "_19_0_2_8710274_1558520103521_679129_44321",
-    "Name" : "SHRimposedBY"
+    "Name" : "imposed"
   }, {
     "ID" : "_19_0_2_8710274_1558520697796_594436_44679",
-    "Name" : "SHRrefiningCRN"
+    "Name" : "refining"
   }, {
     "ID" : "_19_0_3_26f0132_1593161538343_235854_323",
-    "Name" : "OCYsupportingOSY"
+    "Name" : "supporting"
   }, {
     "ID" : "_19_0_3_6d8019d_1609067438603_923129_400",
-    "Name" : "SHRrefiningOSY"
+    "Name" : "refining"
   }, {
     "ID" : "_19_0_3_8710274_1581665911562_310714_48925",
     "Name" : "Operational Capability"
@@ -805,7 +805,7 @@
     "Name" : "System Function"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_503942_91010",
-    "Name" : "SFNallocatedToAPE"
+    "Name" : "allocated to"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_863086_91005",
     "Name" : "USAGEallocatedTo"
@@ -838,19 +838,19 @@
     "Name" : "General Function"
   }, {
     "ID" : "_19_0_4_6d8019d_1654685045905_147820_659",
-    "Name" : "CFNallocatedToLCE"
+    "Name" : "allocated to"
   }, {
     "ID" : "_2021x_2_6d8019d_1677665541732_554257_25017",
-    "Name" : "APEimplementingGFN"
+    "Name" : "implementing"
   }, {
     "ID" : "_2021x_2_6d8019d_1677750594124_815801_24716",
-    "Name" : "SPFNallocatedToLET"
+    "Name" : "allocated to"
   }, {
     "ID" : "_2021x_2_6d8019d_1677952512216_184791_24859",
-    "Name" : "SPFNallocatedToAPE"
+    "Name" : "allocated to"
   }, {
     "ID" : "_2021x_2_8710274_1675987240210_459780_32823",
-    "Name" : "LETimplementingGFN"
+    "Name" : "implementing"
   }, {
     "ID" : "_2021x_2_8710274_1675988365178_267674_34276",
     "Name" : "specifying"
@@ -873,13 +873,13 @@
     "Name" : "Non-functional Requirement"
   }, {
     "ID" : "_19_0_2_164f041e_1564384014791_156524_51726",
-    "Name" : "FRboundedByNFR"
+    "Name" : "bounded by"
   }, {
     "ID" : "_19_0_2_164f041e_1564384276906_470959_51917",
-    "Name" : "FRrefiningSFN"
+    "Name" : "refining"
   }, {
     "ID" : "_19_0_2_164f041e_1564571019748_834303_54723",
-    "Name" : "SUCenablingOSY"
+    "Name" : "enabling"
   }, {
     "ID" : "_19_0_2_164f041e_1564572299224_487951_54901",
     "Name" : "Operational Process"
@@ -888,7 +888,7 @@
     "Name" : "refining"
   }, {
     "ID" : "_19_0_2_164f041e_1564572632681_128528_54942",
-    "Name" : "SPSenablingOPS"
+    "Name" : "enabling"
   }, {
     "ID" : "_19_0_2_26f0132_1561750989144_963009_48675",
     "Name" : "Operational Story"
@@ -903,10 +903,10 @@
     "Name" : "Conceptual Interaction Point"
   }, {
     "ID" : "_19_0_2_26f0132_1565104656755_27827_55752",
-    "Name" : "SRderivingFromSR"
+    "Name" : "deriving from"
   }, {
     "ID" : "_19_0_2_26f0132_1575561280252_959861_56562",
-    "Name" : "SRrefiningSUC"
+    "Name" : "refining"
   }, {
     "ID" : "_19_0_2_8710274_1558520000264_403052_44141",
     "Name" : "Stakeholder Requirement"
@@ -915,10 +915,10 @@
     "Name" : "System Requirement"
   }, {
     "ID" : "_19_0_2_8710274_1558520123795_924466_44365",
-    "Name" : "SRderivingFromSTKR"
+    "Name" : "deriving from"
   }, {
     "ID" : "_19_0_3_26f0132_1582299953373_258701_56319",
-    "Name" : "SRrefiningLICP"
+    "Name" : "refining"
   }, {
     "ID" : "_19_0_4_26f0132_1624610613457_313794_115",
     "Name" : "System Process"
@@ -927,10 +927,10 @@
     "Name" : "refining"
   }, {
     "ID" : "_19_0_4_ebf0350_1640955667334_871926_455",
-    "Name" : "SFNboundedByNFR"
+    "Name" : "bounded by"
   }, {
     "ID" : "_19_0_4_ebf0350_1640956074635_630812_483",
-    "Name" : "SUCrefiningSHR"
+    "Name" : "refining"
   }, {
     "ID" : "_2021x_2_8710274_1675981331374_205908_29130",
     "Name" : "System Function in System Process"
@@ -950,7 +950,7 @@
     "Name" : "including"
   }, {
     "ID" : "_19_0_2_164f041e_1564571019748_834303_54723",
-    "Name" : "SUCenablingOSY"
+    "Name" : "enabling"
   }, {
     "ID" : "_19_0_2_26f0132_1558075029411_79067_44836",
     "Name" : "Conceptual Context Element"
@@ -967,6 +967,9 @@
     "ID" : "_19_0_2_26f0132_1561750989144_963009_48675",
     "Name" : "Operational Story"
   }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
+    "Name" : "Conceptual System"
+  }, {
     "ID" : "_19_0_2_26f0132_1562303989622_501728_139950",
     "Name" : "Conceptual Environment"
   }, {
@@ -977,13 +980,13 @@
     "Name" : "System Context Element"
   }, {
     "ID" : "_19_0_2_26f0132_1576255251560_709609_55539",
-    "Name" : "SCEactingForOPR"
+    "Name" : "acting for"
   }, {
     "ID" : "_19_0_2_26f0132_1576255326396_680115_55587",
-    "Name" : "SOIactingForOPR"
+    "Name" : "acting for"
   }, {
     "ID" : "_19_0_2_6d8019d_1555339282353_464909_46799",
-    "Name" : "LCEactingInSUC"
+    "Name" : "acting in"
   }, {
     "ID" : "_19_0_2_8710274_1558534130432_293473_45375",
     "Name" : "Conceptual User"
@@ -991,14 +994,20 @@
     "ID" : "_19_0_2_8710274_1567171243005_813677_60746",
     "Name" : "Conceptual Context Element Role"
   }, {
+    "ID" : "_19_0_2_8710274_1567171329121_821656_60902",
+    "Name" : "Conceptual SOI Role"
+  }, {
     "ID" : "_19_0_3_26f0132_1582317652656_237080_58806",
     "Name" : "System Context Role"
   }, {
     "ID" : "_19_0_3_6d8019d_1598981150221_83799_30",
-    "Name" : "OPRcomposedOF"
+    "Name" : "composed"
   }, {
     "ID" : "_19_0_4_6d8019d_1621167443409_435880_621",
-    "Name" : "SUCtakingPlaceInLSC"
+    "Name" : "taking place in"
+  }, {
+    "ID" : "_2026x_b6f02e1_1780432184098_143774_34",
+    "Name" : "acting in"
   } ]
 }, {
   "ID" : "_19_0_3_26f0132_1582314561045_987074_55831",
@@ -1030,7 +1039,7 @@
     "Name" : "System Context Chronological Message"
   }, {
     "ID" : "_19_0_3_6d8019d_1608891146807_63172_951",
-    "Name" : "SCIScontainingLCM"
+    "Name" : "containing"
   } ]
 }, {
   "ID" : "_19_0_3_26f0132_1605540516391_996561_23",
@@ -1056,13 +1065,13 @@
     "Name" : "Operational Context Role"
   }, {
     "ID" : "_19_0_2_26f0132_1575019807024_82785_55519",
-    "Name" : "SSHrelatedToSSH"
+    "Name" : "related to"
   }, {
     "ID" : "_19_0_2_26f0132_1576255326396_680115_55587",
-    "Name" : "SOIactingForOPR"
+    "Name" : "acting for"
   }, {
     "ID" : "_19_0_2_26f0132_1576255381074_947214_55662",
-    "Name" : "SSHrepresentingOPR"
+    "Name" : "representing"
   }, {
     "ID" : "_19_0_2_8710274_1558519956748_646834_44043",
     "Name" : "System of Interest Stakeholder"
@@ -1074,19 +1083,19 @@
     "Name" : "Stakeholder Requirement"
   }, {
     "ID" : "_19_0_2_8710274_1558520091750_118256_44283",
-    "Name" : "SSHhavingCRN"
+    "Name" : "having"
   }, {
     "ID" : "_19_0_2_8710274_1558520103521_679129_44321",
-    "Name" : "SHRimposedBY"
+    "Name" : "imposed"
   }, {
     "ID" : "_19_0_2_8710274_1558520697796_594436_44679",
-    "Name" : "SHRrefiningCRN"
+    "Name" : "refining"
   }, {
     "ID" : "_19_0_3_26f0132_1582984690099_348707_50208",
-    "Name" : "OPRactingInOSY"
+    "Name" : "acting in"
   }, {
     "ID" : "_19_0_3_26f0132_1593161538343_235854_323",
-    "Name" : "OCYsupportingOSY"
+    "Name" : "supporting"
   }, {
     "ID" : "_19_0_3_26f0132_1600501947277_784541_1508",
     "Name" : "controlled after"
@@ -1095,22 +1104,22 @@
     "Name" : "Operational Process Usage Exchange"
   }, {
     "ID" : "_19_0_3_6d8019d_1598981150221_83799_30",
-    "Name" : "OPRcomposedOF"
+    "Name" : "composed"
   }, {
     "ID" : "_19_0_3_6d8019d_1611592925440_283346_480",
-    "Name" : "OPRexhibitingOCY"
+    "Name" : "exhibiting"
   }, {
     "ID" : "_19_0_3_8710274_1581665911562_310714_48925",
     "Name" : "Operational Capability"
   }, {
     "ID" : "_19_0_3_8710274_1581666154134_936493_49002",
-    "Name" : "OCYspecializedBY"
+    "Name" : "specialized"
   }, {
     "ID" : "_19_0_3_8710274_1581666201982_100862_49030",
-    "Name" : "OCYcomposedOF"
+    "Name" : "composed"
   }, {
     "ID" : "_19_0_3_8710274_1581666429993_560174_49054",
-    "Name" : "OCYdependingON"
+    "Name" : "depending"
   }, {
     "ID" : "_19_0_3_8710274_1581667736629_896691_49612",
     "Name" : " capable performing"
@@ -1136,7 +1145,7 @@
     "Name" : "including"
   }, {
     "ID" : "_19_0_2_164f041e_1564571019748_834303_54723",
-    "Name" : "SUCenablingOSY"
+    "Name" : "enabling"
   }, {
     "ID" : "_19_0_2_26f0132_1561750989144_963009_48675",
     "Name" : "Operational Story"
@@ -1148,10 +1157,10 @@
     "Name" : "System Function"
   }, {
     "ID" : "_19_0_2_26f0132_1565104656755_27827_55752",
-    "Name" : "SRderivingFromSR"
+    "Name" : "deriving from"
   }, {
     "ID" : "_19_0_2_26f0132_1567606884034_616995_54129",
-    "Name" : "SHRrefiningOCY"
+    "Name" : "refining"
   }, {
     "ID" : "_19_0_2_8710274_1558520000264_403052_44141",
     "Name" : "Stakeholder Requirement"
@@ -1172,34 +1181,34 @@
     "Name" : "System Capability"
   }, {
     "ID" : "_19_0_4_6d8019d_1617463709658_247814_337",
-    "Name" : "SCYcomposedOF"
+    "Name" : "composed"
   }, {
     "ID" : "_19_0_4_6d8019d_1617463709660_425346_338",
-    "Name" : "SCYspecializedBY"
+    "Name" : "specialized"
   }, {
     "ID" : "_19_0_4_6d8019d_1617463709661_722502_339",
-    "Name" : "SCYdependingON"
+    "Name" : "depending"
   }, {
     "ID" : "_19_0_4_6d8019d_1617464677545_852747_1286",
-    "Name" : "SCYsupportingSUC"
+    "Name" : "supporting"
   }, {
     "ID" : "_19_0_4_6d8019d_1617524582560_511978_675",
-    "Name" : "SCYenablingOCY"
+    "Name" : "enabling"
   }, {
     "ID" : "_19_0_4_6d8019d_1624798205940_66834_232",
-    "Name" : "SFNsupportingSCY"
+    "Name" : "supporting"
   }, {
     "ID" : "_19_0_4_6d8019d_1654507324074_749318_302",
     "Name" : "enabling"
   }, {
     "ID" : "_19_0_4_ebf0350_1640956074635_630812_483",
-    "Name" : "SUCrefiningSHR"
+    "Name" : "refining"
   }, {
     "ID" : "_2021x_2_6d8019d_1690055913036_853745_24319",
-    "Name" : "SRrefiningSCY"
+    "Name" : "refining"
   }, {
     "ID" : "_2021x_2_6d8019d_1691056625013_260300_25600",
-    "Name" : "SCYsatisfyingSHR"
+    "Name" : "satisfying"
   }, {
     "ID" : "_2021x_2_8710274_1675981331374_205908_29130",
     "Name" : "System Function in System Process"
@@ -1227,28 +1236,28 @@
     "Name" : "Operational Performer"
   }, {
     "ID" : "_19_0_2_26f0132_1567606884034_616995_54129",
-    "Name" : "SHRrefiningOCY"
+    "Name" : "refining"
   }, {
     "ID" : "_19_0_2_8710274_1558520000264_403052_44141",
     "Name" : "Stakeholder Requirement"
   }, {
     "ID" : "_19_0_3_26f0132_1593161538343_235854_323",
-    "Name" : "OCYsupportingOSY"
+    "Name" : "supporting"
   }, {
     "ID" : "_19_0_3_6d8019d_1611592925440_283346_480",
-    "Name" : "OPRexhibitingOCY"
+    "Name" : "exhibiting"
   }, {
     "ID" : "_19_0_3_8710274_1581665911562_310714_48925",
     "Name" : "Operational Capability"
   }, {
     "ID" : "_19_0_3_8710274_1581666154134_936493_49002",
-    "Name" : "OCYspecializedBY"
+    "Name" : "specialized"
   }, {
     "ID" : "_19_0_3_8710274_1581666201982_100862_49030",
-    "Name" : "OCYcomposedOF"
+    "Name" : "composed"
   }, {
     "ID" : "_19_0_3_8710274_1581666429993_560174_49054",
-    "Name" : "OCYdependingON"
+    "Name" : "depending"
   }, {
     "ID" : "_19_0_3_8710274_1581667736629_896691_49612",
     "Name" : " capable performing"
@@ -1289,7 +1298,7 @@
     "Name" : "characterising"
   }, {
     "ID" : "_2021x_2_8710274_1701723853139_501062_17868",
-    "Name" : "LIEimplementsOIE"
+    "Name" : "implements"
   } ]
 }, {
   "ID" : "_19_0_3_ebf0350_1581848717751_213364_53834",
@@ -1318,7 +1327,7 @@
     "Name" : "Conceptual Internal Role"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_991194_91090",
-    "Name" : "LETbeeingInSSE"
+    "Name" : "beeing in"
   }, {
     "ID" : "_19_0_3_6d8019d_1609520174192_971623_551",
     "Name" : "controlled after"
@@ -1327,7 +1336,7 @@
     "Name" : "General Function"
   }, {
     "ID" : "_2021x_2_8710274_1675987240210_459780_32823",
-    "Name" : "LETimplementingGFN"
+    "Name" : "implementing"
   }, {
     "ID" : "_2021x_2_8710274_1698665374453_611572_34394",
     "Name" : "System"
@@ -1350,10 +1359,10 @@
     "Name" : "Non-functional Requirement"
   }, {
     "ID" : "_19_0_2_164f041e_1564384014791_156524_51726",
-    "Name" : "FRboundedByNFR"
+    "Name" : "bounded by"
   }, {
     "ID" : "_19_0_2_164f041e_1564384276906_470959_51917",
-    "Name" : "FRrefiningSFN"
+    "Name" : "refining"
   }, {
     "ID" : "_19_0_2_26f0132_1558075029411_79067_44836",
     "Name" : "Conceptual Context Element"
@@ -1389,7 +1398,7 @@
     "Name" : "General Functional Usage"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524801_13984_91387",
-    "Name" : "SFNhasPreconditionSSE"
+    "Name" : "has precondition"
   }, {
     "ID" : "_19_0_2_26f0132_1562303989622_501728_139950",
     "Name" : "Conceptual Environment"
@@ -1398,13 +1407,13 @@
     "Name" : "System State Transition"
   }, {
     "ID" : "_19_0_2_26f0132_1565104656755_27827_55752",
-    "Name" : "SRderivingFromSR"
+    "Name" : "deriving from"
   }, {
     "ID" : "_19_0_2_26f0132_1575561280252_959861_56562",
-    "Name" : "SRrefiningSUC"
+    "Name" : "refining"
   }, {
     "ID" : "_19_0_2_6d8019d_1555339282353_464909_46799",
-    "Name" : "LCEactingInSUC"
+    "Name" : "acting in"
   }, {
     "ID" : "_19_0_2_8710274_1558520000264_403052_44141",
     "Name" : "Stakeholder Requirement"
@@ -1413,7 +1422,7 @@
     "Name" : "System Requirement"
   }, {
     "ID" : "_19_0_2_8710274_1558520123795_924466_44365",
-    "Name" : "SRderivingFromSTKR"
+    "Name" : "deriving from"
   }, {
     "ID" : "_19_0_2_8710274_1558534130432_293473_45375",
     "Name" : "Conceptual User"
@@ -1434,7 +1443,7 @@
     "Name" : "Conceptual Context Element Role"
   }, {
     "ID" : "_19_0_3_26f0132_1593764793156_232154_797",
-    "Name" : "SFNhasPostconditionSSE"
+    "Name" : "has postcondition"
   }, {
     "ID" : "_19_0_3_6d8019d_1609520174192_971623_551",
     "Name" : "controlled after"
@@ -1455,13 +1464,13 @@
     "Name" : "General Function"
   }, {
     "ID" : "_19_0_4_26f0132_1639735748424_245279_316",
-    "Name" : "SUChasPostConditionSSE"
+    "Name" : "has post condition"
   }, {
     "ID" : "_19_0_4_26f0132_1639735755383_425330_337",
-    "Name" : "SUChasPreConditionSSE"
+    "Name" : "has pre condition"
   }, {
     "ID" : "_19_0_4_6d8019d_1621167443409_435880_621",
-    "Name" : "SUCtakingPlaceInLSC"
+    "Name" : "taking place in"
   }, {
     "ID" : "_2021x_2_8710274_1675981331374_205908_29130",
     "Name" : "System Function in System Process"
@@ -1601,7 +1610,7 @@
     "Name" : "Evidence"
   }, {
     "ID" : "_2021x_2_6d8019d_1674232167082_51450_23369",
-    "Name" : "EVCreinforcingAGT"
+    "Name" : "reinforcing"
   }, {
     "ID" : "_2021x_2_6d8019d_1674232167082_68281_23367",
     "Name" : "Claimant"
@@ -1610,25 +1619,25 @@
     "Name" : "Refuter"
   }, {
     "ID" : "_2021x_2_6d8019d_1674232167083_240422_23373",
-    "Name" : "CLMbeingMadeAboutSBC"
+    "Name" : "being made about"
   }, {
     "ID" : "_2021x_2_6d8019d_1674232167083_587567_23372",
     "Name" : "Subject of Claim"
   }, {
     "ID" : "_2021x_2_6d8019d_1674232167083_795162_23371",
-    "Name" : "CLTmakingCLM"
+    "Name" : "making"
   }, {
     "ID" : "_2021x_2_6d8019d_1674232167084_618602_23374",
-    "Name" : "CLMsupportingCIM"
+    "Name" : "supporting"
   }, {
     "ID" : "_2021x_2_6d8019d_1674232167084_655777_23375",
-    "Name" : "CCMcounteringCIM"
+    "Name" : "countering"
   }, {
     "ID" : "_2021x_2_6d8019d_1687622957056_63882_25313",
-    "Name" : "AGTsupportingCLM"
+    "Name" : "supporting"
   }, {
     "ID" : "_2021x_2_6d8019d_1687635765022_652079_24627",
-    "Name" : "RFTmakingCCM"
+    "Name" : "making"
   }, {
     "ID" : "_2021x_2_6d8019d_1699912369161_544412_25607",
     "Name" : "Argument Decomposition"
@@ -1710,7 +1719,7 @@
     "Name" : "Operational Interaction Scenario"
   }, {
     "ID" : "_19_0_2_26f0132_1561753002121_745876_50345",
-    "Name" : "OIScontainingOCM"
+    "Name" : "containing"
   }, {
     "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
     "Name" : "Conceptual Exchange Type"
@@ -1752,10 +1761,10 @@
     "Name" : "defining"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_401348_91038",
-    "Name" : "PIPPspecifyingDetailOfPIPD"
+    "Name" : "specifying detail of"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_477765_91035",
-    "Name" : "PIPDdefiningDetailOfPIP"
+    "Name" : "defining detail of"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_482464_91025",
     "Name" : "Physical Exchange Type"
@@ -1776,10 +1785,10 @@
     "Name" : "Conceptual Item Exchange"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_706808_91045",
-    "Name" : "PIPapplyingToPCE"
+    "Name" : "applying to"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_759771_91046",
-    "Name" : "PCNallowingPIE"
+    "Name" : "allowing"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_770729_91040",
     "Name" : "specifyingDetailOf"
@@ -1788,7 +1797,7 @@
     "Name" : "Physical Element"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_827364_91044",
-    "Name" : "PIPapplyingToAPE"
+    "Name" : "applying to"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_842935_91034",
     "Name" : "Physical Interaction Point"
@@ -1899,7 +1908,7 @@
     "Name" : "characterising"
   }, {
     "ID" : "_19_0_3_6d8019d_1608891146807_63172_951",
-    "Name" : "SCIScontainingLCM"
+    "Name" : "containing"
   }, {
     "ID" : "_19_0_3_6d8019d_1608891158785_105089_964",
     "Name" : "containing"
@@ -1917,19 +1926,19 @@
     "Name" : "Physical Connector Compatibility"
   }, {
     "ID" : "_2021x_2_8710274_1680254104367_829868_24205",
-    "Name" : "PCCapplyingToPCN"
+    "Name" : "applying to"
   }, {
     "ID" : "_2021x_2_8710274_1680254348056_919437_24234",
-    "Name" : "PCCassertsCompatibiltyForPCPD"
+    "Name" : "asserts compatibilty for"
   }, {
     "ID" : "_2021x_2_8710274_1695984535441_481088_24822",
-    "Name" : "PCPOverPCP"
+    "Name" : "over"
   }, {
     "ID" : "_2021x_2_8710274_1697109899298_943155_150586",
-    "Name" : "PCPPOverPCPP"
+    "Name" : "over"
   }, {
     "ID" : "_2021x_2_8710274_1697110372756_168059_150785",
-    "Name" : "PCPisPartOfPIPD"
+    "Name" : "is part of"
   }, {
     "ID" : "_2021x_2_8710274_1698665374453_611572_34394",
     "Name" : "System"
@@ -2035,10 +2044,10 @@
     "Name" : "defining"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_401348_91038",
-    "Name" : "PIPPspecifyingDetailOfPIPD"
+    "Name" : "specifying detail of"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_477765_91035",
-    "Name" : "PIPDdefiningDetailOfPIP"
+    "Name" : "defining detail of"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_482464_91025",
     "Name" : "Physical Exchange Type"
@@ -2059,10 +2068,10 @@
     "Name" : "Conceptual Item Exchange"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_706808_91045",
-    "Name" : "PIPapplyingToPCE"
+    "Name" : "applying to"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_759771_91046",
-    "Name" : "PCNallowingPIE"
+    "Name" : "allowing"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_770729_91040",
     "Name" : "specifyingDetailOf"
@@ -2071,7 +2080,7 @@
     "Name" : "Physical Element"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_827364_91044",
-    "Name" : "PIPapplyingToAPE"
+    "Name" : "applying to"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_842935_91034",
     "Name" : "Physical Interaction Point"
@@ -2116,10 +2125,10 @@
     "Name" : "Physical Connector Compatibility"
   }, {
     "ID" : "_2021x_2_8710274_1680254104367_829868_24205",
-    "Name" : "PCCapplyingToPCN"
+    "Name" : "applying to"
   }, {
     "ID" : "_2021x_2_8710274_1680254348056_919437_24234",
-    "Name" : "PCCassertsCompatibiltyForPCPD"
+    "Name" : "asserts compatibilty for"
   }, {
     "ID" : "_2021x_2_8710274_1681805942264_961820_25847",
     "Name" : "Physical Layer"
@@ -2131,22 +2140,22 @@
     "Name" : "Physical Layer Ordering"
   }, {
     "ID" : "_2021x_2_8710274_1681806275066_283969_25955",
-    "Name" : "PLOisValidInPLS"
+    "Name" : "is valid in"
   }, {
     "ID" : "_2021x_2_8710274_1681806652560_49043_25989",
-    "Name" : "PEKisAssignedToPL"
+    "Name" : "is assigned to"
   }, {
     "ID" : "_2021x_2_8710274_1681806912644_135691_26021",
-    "Name" : "LIEboundedByPL"
+    "Name" : "bounded by"
   }, {
     "ID" : "_2021x_2_8710274_1681806951884_434595_26037",
-    "Name" : "LIEboundedByPLS"
+    "Name" : "bounded by"
   }, {
     "ID" : "_2021x_2_8710274_1681807422644_523831_26079",
-    "Name" : "LCPboundedByPLS"
+    "Name" : "bounded by"
   }, {
     "ID" : "_2021x_2_8710274_1695984535441_481088_24822",
-    "Name" : "PCPOverPCP"
+    "Name" : "over"
   } ]
 }, {
   "ID" : "_2021x_2_8710274_1697453573357_725014_28760",
@@ -2163,16 +2172,16 @@
     "Name" : "Domain"
   }, {
     "ID" : "_2021x_2_8710274_1697453884307_467076_29314",
-    "Name" : "GDcontainingVP"
+    "Name" : "containing"
   }, {
     "ID" : "_2021x_2_8710274_1697454030821_682386_29382",
     "Name" : "Viewpoint"
   }, {
     "ID" : "_2021x_2_8710274_1697454168635_705915_29452",
-    "Name" : "GDcontainingAT"
+    "Name" : "containing"
   }, {
     "ID" : "_2021x_2_8710274_1697454194125_161227_29476",
-    "Name" : "GDcontainingDN"
+    "Name" : "containing"
   }, {
     "ID" : "_2021x_2_8710274_1697455811202_83226_34987",
     "Name" : "View"
@@ -2181,19 +2190,19 @@
     "Name" : "relatesTo"
   }, {
     "ID" : "_2024x_26f0132_1719141336629_21600_25167",
-    "Name" : "VPbelongingToDN"
+    "Name" : "belonging to"
   }, {
     "ID" : "_2024x_26f0132_1719141564806_4128_25334",
-    "Name" : "VPbelongingToAT"
+    "Name" : "belonging to"
   }, {
     "ID" : "_2024x_26f0132_1719142742046_407324_28278",
-    "Name" : "VWconformingToVP"
+    "Name" : "conforming to"
   }, {
     "ID" : "_2024x_26f0132_1719748355302_515347_15328",
     "Name" : "Concern"
   }, {
     "ID" : "_2024x_26f0132_1719748378083_695462_15356",
-    "Name" : "VPframesCN"
+    "Name" : "frames"
   }, {
     "ID" : "_2024x_26f0132_1719748385761_197755_15378",
     "Name" : "Rationale"
@@ -2378,7 +2387,7 @@
     "Name" : "System Use Case"
   }, {
     "ID" : "_19_0_2_164f041e_1564571019748_834303_54723",
-    "Name" : "SUCenablingOSY"
+    "Name" : "enabling"
   }, {
     "ID" : "_19_0_2_26f0132_1558075029411_79067_44836",
     "Name" : "Conceptual Context Element"
@@ -2423,28 +2432,28 @@
     "Name" : "System Context Element"
   }, {
     "ID" : "_19_0_2_26f0132_1567606884034_616995_54129",
-    "Name" : "SHRrefiningOCY"
+    "Name" : "refining"
   }, {
     "ID" : "_19_0_2_26f0132_1567694227019_837886_54521",
     "Name" : "Operational Context Role"
   }, {
     "ID" : "_19_0_2_26f0132_1575561280252_959861_56562",
-    "Name" : "SRrefiningSUC"
+    "Name" : "refining"
   }, {
     "ID" : "_19_0_2_26f0132_1576255251560_709609_55539",
-    "Name" : "SCEactingForOPR"
+    "Name" : "acting for"
   }, {
     "ID" : "_19_0_2_26f0132_1576255326396_680115_55587",
-    "Name" : "SOIactingForOPR"
+    "Name" : "acting for"
   }, {
     "ID" : "_19_0_2_26f0132_1576255381074_947214_55662",
-    "Name" : "SSHrepresentingOPR"
+    "Name" : "representing"
   }, {
     "ID" : "_19_0_2_26f0132_1576255436585_904360_55710",
-    "Name" : "SCErepresentedBySSH"
+    "Name" : "represented by"
   }, {
     "ID" : "_19_0_2_6d8019d_1555339282353_464909_46799",
-    "Name" : "LCEactingInSUC"
+    "Name" : "acting in"
   }, {
     "ID" : "_19_0_2_8710274_1558519956748_646834_44043",
     "Name" : "System of Interest Stakeholder"
@@ -2456,16 +2465,16 @@
     "Name" : "System Requirement"
   }, {
     "ID" : "_19_0_2_8710274_1558520103521_679129_44321",
-    "Name" : "SHRimposedBY"
+    "Name" : "imposed"
   }, {
     "ID" : "_19_0_2_8710274_1558520123795_924466_44365",
-    "Name" : "SRderivingFromSTKR"
+    "Name" : "deriving from"
   }, {
     "ID" : "_19_0_2_8710274_1567171243005_813677_60746",
     "Name" : "Conceptual Context Element Role"
   }, {
     "ID" : "_19_0_3_26f0132_1582984690099_348707_50208",
-    "Name" : "OPRactingInOSY"
+    "Name" : "acting in"
   }, {
     "ID" : "_19_0_3_26f0132_1583963707692_371546_22970",
     "Name" : "Operational Connection"
@@ -2477,7 +2486,7 @@
     "Name" : "allowing"
   }, {
     "ID" : "_19_0_3_26f0132_1593161538343_235854_323",
-    "Name" : "OCYsupportingOSY"
+    "Name" : "supporting"
   }, {
     "ID" : "_19_0_3_26f0132_1600783068816_502199_735",
     "Name" : "Operational Exchange Type"
@@ -2486,10 +2495,10 @@
     "Name" : "characterising"
   }, {
     "ID" : "_19_0_3_6d8019d_1609067438603_923129_400",
-    "Name" : "SHRrefiningOSY"
+    "Name" : "refining"
   }, {
     "ID" : "_19_0_3_6d8019d_1611592925440_283346_480",
-    "Name" : "OPRexhibitingOCY"
+    "Name" : "exhibiting"
   }, {
     "ID" : "_19_0_3_8710274_1581665911562_310714_48925",
     "Name" : "Operational Capability"
@@ -2501,25 +2510,25 @@
     "Name" : "System Capability"
   }, {
     "ID" : "_19_0_4_6d8019d_1617464677545_852747_1286",
-    "Name" : "SCYsupportingSUC"
+    "Name" : "supporting"
   }, {
     "ID" : "_19_0_4_6d8019d_1617524582560_511978_675",
-    "Name" : "SCYenablingOCY"
+    "Name" : "enabling"
   }, {
     "ID" : "_19_0_4_6d8019d_1621167443409_435880_621",
-    "Name" : "SUCtakingPlaceInLSC"
+    "Name" : "taking place in"
   }, {
     "ID" : "_19_0_4_ebf0350_1640956074635_630812_483",
-    "Name" : "SUCrefiningSHR"
+    "Name" : "refining"
   }, {
     "ID" : "_2021x_2_6d8019d_1690055913036_853745_24319",
-    "Name" : "SRrefiningSCY"
+    "Name" : "refining"
   }, {
     "ID" : "_2021x_2_6d8019d_1691056625013_260300_25600",
-    "Name" : "SCYsatisfyingSHR"
+    "Name" : "satisfying"
   }, {
     "ID" : "_2021x_2_8710274_1701723853139_501062_17868",
-    "Name" : "LIEimplementsOIE"
+    "Name" : "implements"
   } ]
 }, {
   "ID" : "_2024x_1_26f0132_1729288668211_540506_26963",
@@ -2554,10 +2563,10 @@
     "Name" : "uses"
   }, {
     "ID" : "_19_0_4_26f0132_1639735748424_245279_316",
-    "Name" : "SUChasPostConditionSSE"
+    "Name" : "has post condition"
   }, {
     "ID" : "_19_0_4_26f0132_1639735755383_425330_337",
-    "Name" : "SUChasPreConditionSSE"
+    "Name" : "has pre condition"
   } ]
 }, {
   "ID" : "_2024x_2_26f0132_1751005742187_279381_1496",
@@ -2586,7 +2595,7 @@
     "Name" : "triggering"
   }, {
     "ID" : "_2024x_2_26f0132_1751005742256_520008_1593",
-    "Name" : "OPbeeingInOSE"
+    "Name" : "beeing in"
   }, {
     "ID" : "_2024x_2_26f0132_1751005742257_825702_1594",
     "Name" : "has postcondition"
@@ -3052,7 +3061,7 @@
     "Name" : "Assumption"
   }, {
     "ID" : "_2024x_4c5019a_1724754327333_682035_2001",
-    "Name" : "ADVusesAV"
+    "Name" : "uses"
   }, {
     "ID" : "_2024x_ea40342_1724668235875_444109_102",
     "Name" : "Security Context Element"
@@ -3117,7 +3126,7 @@
     "Name" : "Assumption"
   }, {
     "ID" : "_2024x_4c5019a_1724754327333_682035_2001",
-    "Name" : "ADVusesAV"
+    "Name" : "uses"
   }, {
     "ID" : "_2024x_ea40342_1724668235875_444109_102",
     "Name" : "Security Context Element"
