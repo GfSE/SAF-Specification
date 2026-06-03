@@ -1,7 +1,6 @@
 # to complete for docu switchover
 * user doc
   * viewpoints
-    * reference to diagram sterotypes is missing
     * references to sysml / uml elements do not work
 * dev doc
 * links to SysML or UML Constructs from Profile model reference point to nothing (disable such links)
@@ -19,3 +18,4 @@
 * favico
 * linkable literature references from model
 * move definitions cited to footnotes? See Stakeholder File for example
+* taking notes (store in cookie, graphical note like in pdf)
