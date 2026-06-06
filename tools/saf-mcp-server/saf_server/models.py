@@ -66,3 +66,33 @@ class Expose:
     concept_name: str
     viewpoint_id: str
     viewpoint_name: str
+
+
+@dataclass
+class Stereotype:
+    name: str
+    id: str
+    documentation: str
+
+
+@dataclass
+class RealizeConcept:
+    id: str
+    name: str
+    documentation: str
+    realized_concept_id: str
+    realized_concept_name: str
+    realization_of_concept_id: str
+    realization_of_concept_name: str
+
+
+@dataclass
+class SpecialImplementation:
+    id: str
+    name: str
+    documentation: str
+    stereotype: str
+    client_id: str
+    client_name: str
+    supplier_id: str
+    supplier_name: str

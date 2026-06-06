@@ -3,7 +3,7 @@ import hashlib
 import os
 from pathlib import Path
 
-from .models import Concept, Viewpoint, Concern, Rationale, Stakeholder, Expose
+from .models import Concept, Viewpoint, Concern, Rationale, Stakeholder, Expose, Stereotype, RealizeConcept, SpecialImplementation
 
 
 def _normalize(text: str) -> str:
@@ -12,6 +12,37 @@ def _normalize(text: str) -> str:
 
 def _text_hash(text: str) -> str:
     return hashlib.sha256(_normalize(text).encode()).hexdigest()
+
+
+def _format_special_impl(si: SpecialImplementation) -> dict:
+    """Format a SpecialImplementation with semantic role labels instead of client/supplier."""
+    base = {
+        "id": si.id,
+        "name": si.name,
+        "documentation": si.documentation.strip(),
+        "relation_type": si.stereotype,
+    }
+    if si.stereotype == "SCM_TypedBy":
+        base["typed_element"] = si.client_name
+        base["typed_element_id"] = si.client_id
+        base["type_definition"] = si.supplier_name
+        base["type_definition_id"] = si.supplier_id
+    elif si.stereotype == "SCM_ContainedIn":
+        base["contained_element"] = si.client_name
+        base["contained_element_id"] = si.client_id
+        base["container"] = si.supplier_name
+        base["container_id"] = si.supplier_id
+    elif si.stereotype == "SCM_Attribute":
+        base["owner"] = si.client_name
+        base["owner_id"] = si.client_id
+        base["value"] = si.supplier_name
+        base["value_id"] = si.supplier_id
+    else:
+        base["client"] = si.client_name
+        base["client_id"] = si.client_id
+        base["supplier"] = si.supplier_name
+        base["supplier_id"] = si.supplier_id
+    return base
 
 
 class DataStore:
@@ -31,6 +62,15 @@ class DataStore:
         self.stakeholders_by_name: dict[str, Stakeholder] = {}
         self.exposes: list[Expose] = []
         self.exposes_by_viewpoint_guid: dict[str, list[Expose]] = {}
+        self.stereotypes: dict[str, Stereotype] = {}         # guid -> Stereotype
+        self.stereotypes_by_name: dict[str, Stereotype] = {}
+        self.realize_concepts: list[RealizeConcept] = []
+        self.realizations_by_concept_id: dict[str, list[RealizeConcept]] = {}      # concept id -> list
+        self.realizations_by_stereotype_id: dict[str, list[RealizeConcept]] = {}   # stereotype id -> list
+        self.special_implementations: list[SpecialImplementation] = []
+        self.special_impls_by_stereotype: dict[str, list[SpecialImplementation]] = {}
+        self.special_impls_by_client_name: dict[str, list[SpecialImplementation]] = {}
+        self.special_impls_by_supplier_name: dict[str, list[SpecialImplementation]] = {}
         self._load()
 
     def _load(self):
@@ -40,6 +80,9 @@ class DataStore:
         self._load_rationales()
         self._load_concepts()
         self._load_exposes()
+        self._load_stereotypes()
+        self._load_realizeconcept()
+        self._load_special_implementations()
 
     def _load_viewpoints(self):
         arr = self._json("viewpoints.json")
@@ -145,6 +188,51 @@ class DataStore:
             self.exposes.append(e)
             self.exposes_by_viewpoint_guid.setdefault(e.viewpoint_id, []).append(e)
 
+    def _load_stereotypes(self):
+        arr = self._json("stereotypes.json")
+        for item in arr:
+            s = Stereotype(
+                name=item["Name"],
+                id=item["ID"],
+                documentation=item.get("Documentation", ""),
+            )
+            self.stereotypes[s.id] = s
+            self.stereotypes_by_name[s.name.lower()] = s
+
+    def _load_realizeconcept(self):
+        arr = self._json("realizeconcept.json")
+        for item in arr:
+            rc = RealizeConcept(
+                id=item["ID"],
+                name=item.get("Name", ""),
+                documentation=item.get("Documentation", ""),
+                realized_concept_id=item["RealizedConcept"]["ID"],
+                realized_concept_name=item["RealizedConcept"]["Name"],
+                realization_of_concept_id=item["RealizationOfConcept"]["ID"],
+                realization_of_concept_name=item["RealizationOfConcept"]["Name"],
+            )
+            self.realize_concepts.append(rc)
+            self.realizations_by_concept_id.setdefault(rc.realized_concept_id, []).append(rc)
+            self.realizations_by_stereotype_id.setdefault(rc.realization_of_concept_id, []).append(rc)
+
+    def _load_special_implementations(self):
+        arr = self._json("special-implementations.json")
+        for item in arr:
+            si = SpecialImplementation(
+                id=item["ID"],
+                name=item.get("Name", ""),
+                documentation=item.get("Documentation", ""),
+                stereotype=item.get("Stereotype", ""),
+                client_id=item["Client"]["ID"],
+                client_name=item["Client"]["Name"],
+                supplier_id=item["Supplier"]["ID"],
+                supplier_name=item["Supplier"]["Name"],
+            )
+            self.special_implementations.append(si)
+            self.special_impls_by_stereotype.setdefault(si.stereotype, []).append(si)
+            self.special_impls_by_client_name.setdefault(si.client_name.lower(), []).append(si)
+            self.special_impls_by_supplier_name.setdefault(si.supplier_name.lower(), []).append(si)
+
     def _json(self, filename: str) -> list:
         path = self.data_dir / filename
         with open(path, encoding="utf-8") as f:
@@ -182,6 +270,13 @@ class DataStore:
         if cn:
             return cn
         return self.concerns.get(name_or_id)
+
+    def find_stereotype(self, name_or_id: str) -> Stereotype | None:
+        key = name_or_id.lower()
+        s = self.stereotypes_by_name.get(key)
+        if s:
+            return s
+        return self.stereotypes.get(name_or_id)
 
     def resolve_concept_refs(self, refs: list[dict]) -> list[dict]:
         resolved = []
@@ -385,6 +480,79 @@ class DataStore:
                 "id": sh.id,
             })
         results.sort(key=lambda x: x["name"].lower())
+        return results
+
+    # ── Stereotype / RealizeConcept queries ────────────────────────────────
+
+    def list_stereotypes(self) -> list[dict]:
+        results = []
+        for s in self.stereotypes.values():
+            realized = self.realizations_by_stereotype_id.get(s.id, [])
+            special_count = sum(
+                1 for si in self.special_implementations
+                if si.client_name.lower() == s.name.lower() or si.supplier_name.lower() == s.name.lower()
+            )
+            results.append({
+                "name": s.name,
+                "id": s.id,
+                "realized_concepts": [rc.realized_concept_name for rc in realized],
+                "special_implementation_count": special_count,
+            })
+        results.sort(key=lambda x: x["name"].lower())
+        return results
+
+    def get_stereotype_neighborhood(self, stereotype: Stereotype) -> dict:
+        realizations = self.realizations_by_stereotype_id.get(stereotype.id, [])
+        realized_detail = []
+        for rc in realizations:
+            concept = self.concepts.get(rc.realized_concept_id)
+            realized_detail.append({
+                "concept_name": rc.realized_concept_name,
+                "concept_id": rc.realized_concept_id,
+                "concept_type": concept.class_type if concept else None,
+                "concept_documentation": concept.documentation.strip() if concept else None,
+            })
+        special_impls = []
+        for si in self.special_implementations:
+            if si.client_name.lower() == stereotype.name.lower() or si.supplier_name.lower() == stereotype.name.lower():
+                special_impls.append(_format_special_impl(si))
+        return {
+            "name": stereotype.name,
+            "id": stereotype.id,
+            "documentation": stereotype.documentation.strip(),
+            "realized_concepts": realized_detail,
+            "special_implementations": special_impls,
+        }
+
+    def get_concept_stereotypes(self, concept: Concept) -> list[dict]:
+        realizations = self.realizations_by_concept_id.get(concept.id, [])
+        results = []
+        for rc in realizations:
+            ster = self.stereotypes.get(rc.realization_of_concept_id)
+            realized_concepts = [rc.realized_concept_name]
+            if ster:
+                realized_self = self.realizations_by_stereotype_id.get(ster.id, [])
+                realized_concepts = [r.realized_concept_name for r in realized_self]
+            special_impls = []
+            if ster:
+                for si in self.special_implementations:
+                    if si.supplier_name.lower() == ster.name.lower():
+                        special_impls.append(_format_special_impl(si))
+            results.append({
+                "stereotype_name": rc.realization_of_concept_name,
+                "stereotype_id": rc.realization_of_concept_id,
+                "stereotype_documentation": ster.documentation.strip() if ster else None,
+                "realized_concepts": realized_concepts,
+                "special_implementations": special_impls,
+            })
+        return results
+
+    def get_special_implementations(self, stereotype_name: str | None = None) -> list[dict]:
+        results = []
+        for si in self.special_implementations:
+            if stereotype_name and si.client_name.lower() != stereotype_name.lower() and si.supplier_name.lower() != stereotype_name.lower():
+                continue
+            results.append(_format_special_impl(si))
         return results
 
 

@@ -13,7 +13,7 @@ The driving question: *"Does viewpoint X expose enough concepts (data + relation
 3. **Least context per query.** Tools should return fully resolved, joined data — no raw GUIDs the model must chase.
 4. **One server.** Monolithic, with focused tools.
 5. **Proven stack.** Python + `mcp` SDK (official Python package).
-6. **Start small.** 11 tools, stdio + HTTP/SSE transport.
+6. **Start small.** 15 tools, stdio + HTTP/SSE transport.
 
 ## Data Model (Loaded at Startup)
 
@@ -32,6 +32,11 @@ Index maps:
   stakeholders_by_guid: dict[str, Stakeholder]
   stakeholders_by_name: dict[str, Stakeholder]
   exposes_by_viewpoint_guid: dict[str, list[Expose]]
+  stereotypes: dict[str, Stereotype]
+  stereotypes_by_name: dict[str, Stereotype]
+  realize_concepts: list[RealizeConcept]
+  realizations_by_concept_id: dict[str, list[RealizeConcept]]
+  realizations_by_stereotype_id: dict[str, list[RealizeConcept]]
 ```
 
 All cross-references resolved at load time:
@@ -67,6 +72,8 @@ Concern texts are normalized (strip, lowercase, collapse whitespace) and hashed 
 3. `get_viewpoint_concepts(...)` → full concept details (~3 KB, only when model decides it needs them)
 4. `get_concept("Operational Context Role")` → specific concept deep-dive (~1 KB)
 5. `get_viewpoint_concerns(...)` → concerns with rationales (~2 KB)
+6. `get_concept_stereotypes("Conceptual System Context")` → what stereotypes realize this concept (~0.5 KB)
+7. `get_stereotype("SAF_ConceptualSystem")` → drill into stereotype details (~1 KB)
 
 vs monolithic: step 1 alone returns 5-15 KB regardless of what the model needs.
 
@@ -133,6 +140,89 @@ Returns a stakeholder's full profile: documentation, and all their concerns with
 ### 11. `get_concern`
 
 Returns a concern's details: the question it frames, its owner, and which viewpoints address it.
+
+### 12. `get_stereotype`
+
+Returns a stereotype's full details: documentation, which SAF concepts it realizes, and which special implementations (typing, containment, attribute) involve it. Use this to drill into a specific stereotype. To trace from a concept forward, use `get_concept_stereotypes`.
+
+```json
+{
+  "name": "SAF_ConceptualSystem",
+  "id": "_19_0_1_26f0132_...",
+  "documentation": "...",
+  "realized_concepts": [
+    {
+      "concept_name": "Conceptual System",
+      "concept_id": "...",
+      "concept_type": "Class",
+      "concept_documentation": "..."
+    }
+  ]
+}
+```
+
+### 13. `get_concept_stereotypes`
+
+Returns all stereotypes that realize a given SAF concept — including both **direct realizations** (from `realizeconcept.json`) and **indirect UML metaclass mappings** via special implementations (SCM_TypedBy, SCM_ContainedIn, SCM_Attribute). This is the single entry point for full concept→stereotype→UML traceability. Use `get_stereotype` to drill into a specific stereotype for full detail.
+
+Each entry includes:
+- `stereotype_name`, `stereotype_id`, `stereotype_documentation`
+- `realized_concepts` — concept names this stereotype realizes
+- `special_implementations` — resolved UML↔SAF relations with semantic role labels
+
+```json
+[
+  {
+    "stereotype_name": "SAF_ConceptualExchangeType",
+    "stereotype_id": "_19_0_3_26f0132_...",
+    "stereotype_documentation": "...",
+    "realized_concepts": ["Conceptual Exchange Type"],
+    "special_implementations": [
+      {
+        "relation_type": "SCM_TypedBy",
+        "typed_element": "FlowProperty",
+        "type_definition": "SAF_ConceptualExchangeType"
+      },
+      {
+        "relation_type": "SCM_TypedBy",
+        "typed_element": "ItemFlow",
+        "type_definition": "SAF_ConceptualExchangeType"
+      }
+    ]
+  }
+]
+```
+
+Role labels vary by relation type:
+
+| Relation | Role A | Role B |
+|---|---|---|
+| `SCM_TypedBy` | `typed_element` | `type_definition` |
+| `SCM_ContainedIn` | `contained_element` | `container` |
+| `SCM_Attribute` | `owner` | `value` |
+
+### 14. `list_stereotypes`
+
+Lists all stereotypes with their name and the concepts they realize. Useful for browsing the full catalog.
+
+### 15. `get_special_implementations`
+
+Returns special implementation relations (`SCM_TypedBy`, `SCM_ContainedIn`, `SCM_Attribute`) that link UML/SysML metaclasses to SAF stereotypes. Optionally filter by `stereotype_name` to see all special implementations involving a specific stereotype (as client or supplier). Use this to understand how UML/SysML elements are mapped to SAF stereotypes at the metamodel level.
+
+```json
+[
+  {
+    "id": "_2021x_2_8710274_1681817408348_216387_29249",
+    "stereotype": "SCM_TypedBy",
+    "client": "FlowProperty",
+    "client_id": "...",
+    "supplier": "SAF_ConceptualExchangeType",
+    "supplier_id": "...",
+    "name": "",
+    "documentation": ""
+  }
+]
+```
 
 ## Why This Design Minimizes Context
 

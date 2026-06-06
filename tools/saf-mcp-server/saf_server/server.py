@@ -230,6 +230,77 @@ async def list_tools() -> list[types.Tool]:
                 "required": ["name"],
             },
         ),
+        types.Tool(
+            name="get_stereotype",
+            description=(
+                "Get a stereotype's details: its documentation, which SAF concepts it realizes, "
+                "and which special implementations (SCM_TypedBy, SCM_ContainedIn, SCM_Attribute) "
+                "involve it (as typed_element, container, etc.). "
+                "Use this to drill into a specific stereotype. "
+                "To trace from a concept forward, use get_concept_stereotypes."
+            ),
+            inputSchema={
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "description": "Stereotype name (e.g. 'SAF_ConceptualSystem' or 'SAF_C1_SCXD')",
+                    }
+                },
+                "required": ["name"],
+            },
+        ),
+        types.Tool(
+            name="get_concept_stereotypes",
+            description=(
+                "Get all stereotypes that realize a given SAF concept — including both direct "
+                "realizations and indirect UML metaclass mappings via special implementations "
+                "(SCM_TypedBy, SCM_ContainedIn, SCM_Attribute). Each entry includes "
+                "realized_concepts and special_implementations. "
+                "Use this to trace from a SAF concept forward to its UML/SysML stereotype implementations. "
+                "Use get_stereotype to drill into a specific stereotype for full detail."
+            ),
+            inputSchema={
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "description": "Concept name (e.g. 'Conceptual System Context')",
+                    }
+                },
+                "required": ["name"],
+            },
+        ),
+        types.Tool(
+            name="list_stereotypes",
+            description=(
+                "List all stereotypes with their name and which concepts they realize. "
+                "Useful for browsing the full stereotype catalog."
+            ),
+            inputSchema={
+                "type": "object",
+                "properties": {},
+            },
+        ),
+        types.Tool(
+            name="get_special_implementations",
+            description=(
+                "Get special implementation relations (SCM_TypedBy, SCM_ContainedIn, SCM_Attribute) "
+                "that link UML metaclasses to SAF stereotypes. Optionally filter by a stereotype name "
+                "to see all special implementations involving that stereotype. "
+                "Typically reached via get_concept_stereotypes or get_stereotype which already resolve these. "
+                "Use this as a standalone filter to understand how UML/SysML elements are mapped to SAF stereotypes."
+            ),
+            inputSchema={
+                "type": "object",
+                "properties": {
+                    "stereotype_name": {
+                        "type": "string",
+                        "description": "Optional filter: only show implementations involving this stereotype (as typed_element, container, etc.)",
+                    }
+                },
+            },
+        ),
     ]
 
 
@@ -300,6 +371,26 @@ async def call_tool(name: str, arguments: dict) -> list[types.TextContent]:
             if not cn:
                 return _err(f"Concern not found: {arguments['name']}")
             return _ok(store.get_concern_detail(cn))
+
+        elif name == "get_stereotype":
+            s = store.find_stereotype(arguments["name"])
+            if not s:
+                return _err(f"Stereotype not found: {arguments['name']}")
+            return _ok(store.get_stereotype_neighborhood(s))
+
+        elif name == "get_concept_stereotypes":
+            c = store.find_concept(arguments["name"])
+            if not c:
+                return _err(f"Concept not found: {arguments['name']}")
+            return _ok(store.get_concept_stereotypes(c))
+
+        elif name == "list_stereotypes":
+            return _ok(store.list_stereotypes())
+
+        elif name == "get_special_implementations":
+            return _ok(store.get_special_implementations(
+                stereotype_name=arguments.get("stereotype_name"),
+            ))
 
         else:
             return _err(f"Unknown tool: {name}")

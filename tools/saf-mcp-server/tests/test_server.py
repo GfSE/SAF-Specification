@@ -212,6 +212,69 @@ class TestStoreQueries:
         with_content = store.search("integration", include_content=True)
         assert len(with_content) >= len(name_only)
 
+    # ── Stereotype / RealizeConcept queries ──
+
+    def test_stereotypes_loaded(self, store):
+        assert len(store.stereotypes) >= 200
+
+    def test_realizeconcept_loaded(self, store):
+        assert len(store.realize_concepts) >= 100
+
+    def test_stereotype_lookup_by_name(self, store):
+        s = store.find_stereotype("SAF_ConceptualSystem")
+        assert s is not None
+
+    def test_stereotype_lookup_case_insensitive(self, store):
+        s = store.find_stereotype("saf_conceptualsystem")
+        assert s is not None
+
+    def test_missing_stereotype_returns_none(self, store):
+        assert store.find_stereotype("nonexistent") is None
+
+    def test_list_stereotypes(self, store):
+        r = store.list_stereotypes()
+        assert len(r) >= 200
+        assert all("name" in s for s in r)
+        assert all("realized_concepts" in s for s in r)
+
+    def test_stereotype_neighborhood(self, store):
+        s = store.find_stereotype("SAF_ConceptualSystem")
+        nh = store.get_stereotype_neighborhood(s)
+        assert nh["name"] == "SAF_ConceptualSystem"
+        assert len(nh["realized_concepts"]) > 0
+
+    def test_concept_stereotypes(self, store):
+        c = store.find_concept("Conceptual System")
+        sts = store.get_concept_stereotypes(c)
+        assert len(sts) > 0
+        assert all("stereotype_name" in s for s in sts)
+        assert all("realized_concepts" in s for s in sts)
+        assert all("special_implementations" in s for s in sts)
+
+    def test_special_implementations_loaded(self, store):
+        assert len(store.special_implementations) >= 40
+
+    def test_special_implementations_no_filter(self, store):
+        r = store.get_special_implementations()
+        assert len(r) >= 40
+        assert all("relation_type" in s for s in r)
+        # Each entry should have role-labeled keys instead of generic client/supplier
+        for s in r:
+            assert "client" not in s
+            assert "supplier" not in s
+
+    def test_special_implementations_filtered(self, store):
+        r = store.get_special_implementations(stereotype_name="SAF_ConceptualExchangeType")
+        assert len(r) > 0
+        for s in r:
+            assert "client" not in s
+            assert "supplier" not in s
+            assert "relation_type" in s
+
+    def test_special_implementations_empty_filter(self, store):
+        r = store.get_special_implementations(stereotype_name="NONEXISTENT_STEREO")
+        assert len(r) == 0
+
     def test_list_viewpoints(self, store):
         r = store.list_viewpoints()
         assert len(r) >= 57
@@ -263,10 +326,12 @@ class TestStdioTransport:
                     "get_concept", "search", "list_viewpoints",
                     "list_concepts", "list_concerns", "list_stakeholders",
                     "get_stakeholder", "get_concern",
+                    "get_stereotype", "get_concept_stereotypes", "list_stereotypes",
+                    "get_special_implementations",
                 ]
                 for name in expected:
                     assert name in names, f"Missing: {name}"
-                assert len(result.tools) == 11
+                assert len(result.tools) == 15
 
     @pytest.mark.asyncio
     async def test_get_viewpoint(self, stdio_params):
@@ -368,6 +433,46 @@ class TestStdioTransport:
     async def test_unknown_tool(self, stdio_params):
         data = await call(stdio_params, "nonexistent_tool", {})
         assert "error" in data
+
+    @pytest.mark.asyncio
+    async def test_get_stereotype(self, stdio_params):
+        data = await call(stdio_params, "get_stereotype", {"name": "SAF_ConceptualSystem"})
+        assert data["name"] == "SAF_ConceptualSystem"
+        assert "realized_concepts" in data
+
+    @pytest.mark.asyncio
+    async def test_get_stereotype_not_found(self, stdio_params):
+        data = await call(stdio_params, "get_stereotype", {"name": "NONEXISTENT"})
+        assert "error" in data
+
+    @pytest.mark.asyncio
+    async def test_get_concept_stereotypes(self, stdio_params):
+        data = await call(stdio_params, "get_concept_stereotypes", {"name": "Conceptual System"})
+        assert len(data) > 0
+        assert data[0]["stereotype_name"]
+        assert "realized_concepts" in data[0]
+        assert "special_implementations" in data[0]
+
+    @pytest.mark.asyncio
+    async def test_get_concept_stereotypes_not_found(self, stdio_params):
+        data = await call(stdio_params, "get_concept_stereotypes", {"name": "NONEXISTENT"})
+        assert "error" in data
+
+    @pytest.mark.asyncio
+    async def test_list_stereotypes(self, stdio_params):
+        data = await call(stdio_params, "list_stereotypes", {})
+        assert len(data) >= 200
+
+    @pytest.mark.asyncio
+    async def test_get_special_implementations(self, stdio_params):
+        data = await call(stdio_params, "get_special_implementations", {})
+        assert len(data) >= 40
+
+    @pytest.mark.asyncio
+    async def test_get_special_implementations_filtered(self, stdio_params):
+        data = await call(stdio_params, "get_special_implementations",
+                          {"stereotype_name": "SAF_ConceptualExchangeType"})
+        assert len(data) > 0
 
 
 
