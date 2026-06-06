@@ -147,20 +147,20 @@ The MCP server supports two transport modes: **stdio** (for opencode integration
 ### Stdio mode (default)
 
 ```bash
-cd /workspace/SAF-Specification
-python -m saf_server.server
+cd tools/saf-mcp-server
+uv run python -m saf_server.server
 ```
 
 The data directory defaults to `src/_data/` relative to the repo root. Override with `SAF_DATA_DIR`:
 
 ```bash
-SAF_DATA_DIR=/custom/path python -m saf_server.server
+SAF_DATA_DIR=/custom/path uv run python -m saf_server.server
 ```
 
 ### HTTP/SSE mode
 
 ```bash
-python -m saf_server.server --port 8000 --host 0.0.0.0
+uv run python -m saf_server.server --port 8000 --host 0.0.0.0
 ```
 
 This starts a Starlette server with:
@@ -178,18 +178,14 @@ async with sse_client("http://host:8000/sse") as (read, write):
         tools = await session.list_tools()
 ```
 
-### Python venv setup (first time)
+### One-time setup
 
 ```bash
-python3 -m venv /path/to/venv
-/path/to/venv/bin/pip install -r saf_server/requirements.txt
+cd tools/saf-mcp-server
+uv sync
 ```
 
-**Using uv (recommended):**
-```bash
-uv venv /path/to/venv
-uv pip install -r saf_server/requirements.txt
-```
+This creates a `.venv` and installs all dependencies (including dev/test deps). Activate with `source .venv/bin/activate`, or prefix commands with `uv run`.
 
 ## Configuring opencode
 
@@ -202,10 +198,9 @@ Add an entry to opencode's config (`~/.config/opencode/opencode.json`):
   "mcp": {
     "saf-ontology": {
       "type": "local",
-      "command": ["/path/to/venv/bin/python", "-m", "saf_server.server"],
+      "command": [".venv/bin/python", "-m", "saf_server.server"],
       "environment": {
-        "SAF_DATA_DIR": "/workspace/SAF-Specification/src/_data",
-        "PYTHONPATH": "/workspace/SAF-Specification/tools/saf-mcp-server"
+        "SAF_DATA_DIR": "/workspace/SAF-Specification/src/_data"
       },
       "enabled": true
     }
@@ -213,7 +208,7 @@ Add an entry to opencode's config (`~/.config/opencode/opencode.json`):
 }
 ```
 
-Replace `/path/to/venv/bin/python` with your actual venv path. After editing, type `/reload` in the opencode TUI.
+Run `uv sync` in the `saf-mcp-server` directory first, then the `.venv/bin/python` path will exist. After editing, type `/reload` in the opencode TUI.
 
 ### HTTP/SSE transport (remote server)
 
@@ -222,7 +217,7 @@ opencode also supports connecting to a remotely running MCP server. This is usef
 First, start the server in HTTP mode:
 
 ```bash
-python -m saf_server.server --port 8000 --host 0.0.0.0
+uv run python -m saf_server.server --port 8000 --host 0.0.0.0
 ```
 
 Then configure opencode to connect via `remote` type:
@@ -254,14 +249,15 @@ The server runs independently — you can restart opencode without restarting th
 tools/
   plan.md                    # This file
   saf-mcp-server/
+    pyproject.toml            # Project config for uv sync
     saf_server/
       __init__.py
       server.py                # MCP server entry point (stdio + HTTP/SSE)
       loader.py                # JSON loading + index building + cross-reference resolution
       models.py                # Dataclasses for Concept, Viewpoint, Concern, etc.
-      requirements.txt         # Dependencies: mcp, uvicorn, starlette
     tests/
       __init__.py
+      conftest.py              # Pytest config (--run-http flag)
       test_server.py           # 61 tests: data integrity, store queries, stdio transport, HTTP transport
     .venv/                     # Virtual environment (not checked in)
 ```
@@ -271,10 +267,10 @@ tools/
 ```bash
 # Core tests (data integrity + stdio transport, 54 tests)
 cd tools/saf-mcp-server
-pytest tests/test_server.py -v -k "not Http"
+uv run pytest tests/test_server.py -v -k "not Http"
 
 # Full suite including HTTP transport (requires --run-http flag, starts server on port 19876)
-pytest tests/test_server.py -v --run-http
+uv run pytest tests/test_server.py -v --run-http
 ```
 
 ## Non-Goals
