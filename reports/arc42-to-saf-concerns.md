@@ -497,7 +497,7 @@ O6_SKRD captures *operational* constraints (environmental conditions, performanc
 |---|---|
 | What is the static decomposition of the system into building blocks? | ✅ C2_SSTD: "What is the conceptual breakdown of the system?" / P2_PSTD: "What is the physical breakdown of the system?" |
 | What are the dependencies (relationships, associations) between building blocks? | ⚠️ Partial — C4_SIEX covers conceptual connections between elements; no concern explicitly about general dependency/association. |
-| **What is the responsibility/purpose of each building block?** | ❌ **GAP** — SAF structure viewpoints identify elements but no concern asks "what does this element do?" |
+| **What is the responsibility/purpose of each building block?** | ✅ **Covered** — C8_SFUM (System Function Mapping) asks "Which functions are allocated to which parts of the conceptual architecture?" P8_PFUM (Physical Functional Mapping) asks "What is the mapping of functions to the physical SOI physical architecture?" Together they answer what each element does at both conceptual and physical levels. SAF frames this as "function" rather than "responsibility" — a terminology difference, not a gap. |
 | **Where is the source code located for each building block?** | ❌ **GAP** — Out of scope (documentation practice). SAF does not link architecture elements to source code location — see paradigm note in Introduction. |
 
 #### 5.1 — Whitebox Overall System
@@ -550,7 +550,7 @@ O6_SKRD captures *operational* constraints (environmental conditions, performanc
 
 | Engineering concern / question | SAF coverage |
 |---|---|
-| What is the responsibility of each blackbox? | ❌ **GAP** — SAF doesn't ask about element responsibility. |
+| What is the responsibility of each blackbox? | ✅ **Covered** — C8_SFUM (System Function Mapping) asks which functions are allocated to which elements, answering what each element does. SAF frames this as "function" rather than "responsibility" — a terminology difference, not a gap. |
 | What is the interface of each blackbox (input/output, API)? | ✅ C4_SIEX covers conceptual interaction points and item exchanges. |
 
 #### Post [C-5-8](https://faq.arc42.org/questions/C-5-8) / [C-5-9](https://faq.arc42.org/questions/C-5-9): Internal vs. external interfaces
@@ -578,14 +578,15 @@ O6_SKRD captures *operational* constraints (environmental conditions, performanc
 
 | # | Missing Concern | Source |
 |---|---|---|
-| 31 | What is the responsibility/purpose of each building block? | [doc §5.1](https://docs.arc42.org/section-5), [C-5-6](https://faq.arc42.org/questions/C-5-6) |
-| 32 | Where is the source code located for each building block? | [doc §5.1](https://docs.arc42.org/section-5) |
-| 33 | What is the motivation/rationale for the decomposition? | [doc §5.1](https://docs.arc42.org/section-5) |
-| 34 | Which building blocks are important enough to detail at deeper levels? | [doc §5.2](https://docs.arc42.org/section-5), [C-5-4](https://faq.arc42.org/questions/C-5-4) |
-| 35 | Which building blocks should be documented vs. omitted? | [C-5-12](https://faq.arc42.org/questions/C-5-12), [C-5-13](https://faq.arc42.org/questions/C-5-13) |
-| 36 | Should external/COTS libraries be shown in building blocks? | [C-5-2](https://faq.arc42.org/questions/C-5-2) |
-| 37 | How does source code directory structure map to building blocks? | [C-5-3](https://faq.arc42.org/questions/C-5-3) |
-| 38 | How do external vs. internal interfaces differ in risk and stakeholder control? | [C-5-8](https://faq.arc42.org/questions/C-5-8), [C-5-9](https://faq.arc42.org/questions/C-5-9) |
+| 31 | Where is the source code located for each building block? | [doc §5.1](https://docs.arc42.org/section-5) |
+| 32 | What is the motivation/rationale for the decomposition? | [doc §5.1](https://docs.arc42.org/section-5) |
+| 33 | Which building blocks are important enough to detail at deeper levels? | [doc §5.2](https://docs.arc42.org/section-5), [C-5-4](https://faq.arc42.org/questions/C-5-4) |
+| 34 | Which building blocks should be documented vs. omitted? | [C-5-12](https://faq.arc42.org/questions/C-5-12), [C-5-13](https://faq.arc42.org/questions/C-5-13) |
+| 35 | Should external/COTS libraries be shown in building blocks? | [C-5-2](https://faq.arc42.org/questions/C-5-2) |
+| 36 | How does source code directory structure map to building blocks? | [C-5-3](https://faq.arc42.org/questions/C-5-3) |
+| 37 | How do external vs. internal interfaces differ in risk and stakeholder control? | [C-5-8](https://faq.arc42.org/questions/C-5-8), [C-5-9](https://faq.arc42.org/questions/C-5-9) |
+
+The responsibility/purpose of building blocks was a terminology mismatch — SAF calls it "function" (C8_SFUM/P8_PFUM) rather than "responsibility." Now classified as ✅ covered in the detailed analysis above.
 
 ---
 
@@ -1114,56 +1115,56 @@ The following concerns raised by arc42 are not fully covered by SAF concerns. Ga
 | 27 | How do solution approaches address key quality goals? | 04 |
 | 28 | What organizational decisions affect the architecture? | 04 |
 | 29 | How to present solution strategy at the right abstraction level? | 04 |
-| 30 | What is the responsibility/purpose of each building block? | 05 |
-| 31 | Where is the source code located for each building block? | 05 |
-| 32 | What is the motivation/rationale for the decomposition? | 05 |
-| 33 | Which building blocks are important enough to detail at deeper levels? | 05 |
-| 34 | Which building blocks should be documented vs. omitted? | 05 |
-| 35 | Should external/COTS libraries be shown in building blocks? | 05 |
-| 36 | How does source code directory structure map to building blocks? | 05 |
-| 37 | How do external vs. internal interfaces differ in risk and control? | 05 |
-| 38 | How does the system behave in error or exception scenarios? | 06 |
-| 39 | Which scenarios are architecturally relevant to document? | 06 |
-| 40 | How to focus on interesting/risky parts of scenarios? | 06 |
-| 41 | How to document timing-constrained or non-standard behavior? | 06 |
-| 42 | What is the mapping of software to infrastructure nodes? | 07 |
-| 43 | What are the different deployment environments? | 07 |
-| 44 | What is the justification for the deployment structure? | 07 |
-| 45 | What quality/performance features of infrastructure are relevant? | 07 |
-| 46 | Who documents infrastructure vs. deployment mapping? | 07 |
-| 47 | What are the deployment variants/alternatives? | 07 |
-| 48 | How to describe dynamic/elastic deployment? | 07 |
-| 49 | What crosscutting concepts exist in the system? | 08 |
-| 50 | What architecture/design patterns have been applied? | 08 |
-| 51 | What technical concepts (persistence, distribution, caching, etc.) exist? | 08 |
-| 52 | What operations concepts (deployment, monitoring) exist? | 08 | ⚠️
-| 53 | How to organize/group crosscutting topics? | 08 |
-| 54 | How to prioritize which crosscutting concepts to document? | 08 |
-| 55 | How to describe a concept practically? | 08 |
-| 56 | What are the architecturally significant decisions? | 09 |
-| 57 | What is the context/rationale behind each decision? | 09 |
-| 58 | What alternatives were considered and why chosen? | 09 |
-| 59 | What is the status of each decision? | 09 |
-| 60 | What are the consequences of each decision? | 09 |
-| 61 | How to manage a large number of decisions? | 09 |
-| 62 | What are the quality requirements for the system? | 10 |
-| 63 | How to make quality requirements measurable (scenarios)? | 10 |
-| 64 | How to categorize/summarize quality requirements? | 10 |
-| 65 | What usage scenarios describe runtime quality? | 10 |
-| 66 | What change scenarios describe modifiability/extensibility? | 10 |
-| 67 | What failure scenarios describe behavior under fault conditions? | 10 |
-| 68 | How to structure quality requirements (tree, tagging)? | 10 |
-| 69 | How to prioritize top quality goals vs. the rest? | 10 |
-| 70 | What are the general technical risks (beyond security)? | 11 |
-| 71 | What is the technical debt? | 11 |
-| 72 | What measures mitigate risks or reduce technical debt? | 11 |
-| 73 | What is the definition of each term? | 12 |
-| 74 | How to ensure common understanding and avoid synonyms/homonyms? | 12 |
-| 75 | How to keep the glossary lean and who owns it? | 12 |
+| 30 | Where is the source code located for each building block? | 05 |
+| 31 | What is the motivation/rationale for the decomposition? | 05 |
+| 32 | Which building blocks are important enough to detail at deeper levels? | 05 |
+| 33 | Which building blocks should be documented vs. omitted? | 05 |
+| 34 | Should external/COTS libraries be shown in building blocks? | 05 |
+| 35 | How does source code directory structure map to building blocks? | 05 |
+| 36 | How do external vs. internal interfaces differ in risk and control? | 05 |
+| 37 | How does the system behave in error or exception scenarios? | 06 |
+| 38 | Which scenarios are architecturally relevant to document? | 06 |
+| 39 | How to focus on interesting/risky parts of scenarios? | 06 |
+| 40 | How to document timing-constrained or non-standard behavior? | 06 |
+| 41 | What is the mapping of software to infrastructure nodes? | 07 |
+| 42 | What are the different deployment environments? | 07 |
+| 43 | What is the justification for the deployment structure? | 07 |
+| 44 | What quality/performance features of infrastructure are relevant? | 07 |
+| 45 | Who documents infrastructure vs. deployment mapping? | 07 |
+| 46 | What are the deployment variants/alternatives? | 07 |
+| 47 | How to describe dynamic/elastic deployment? | 07 |
+| 48 | What crosscutting concepts exist in the system? | 08 |
+| 49 | What architecture/design patterns have been applied? | 08 |
+| 50 | What technical concepts (persistence, distribution, caching, etc.) exist? | 08 |
+| 51 | What operations concepts (deployment, monitoring) exist? | 08 | ⚠️
+| 52 | How to organize/group crosscutting topics? | 08 |
+| 53 | How to prioritize which crosscutting concepts to document? | 08 |
+| 54 | How to describe a concept practically? | 08 |
+| 55 | What are the architecturally significant decisions? | 09 |
+| 56 | What is the context/rationale behind each decision? | 09 |
+| 57 | What alternatives were considered and why chosen? | 09 |
+| 58 | What is the status of each decision? | 09 |
+| 59 | What are the consequences of each decision? | 09 |
+| 60 | How to manage a large number of decisions? | 09 |
+| 61 | What are the quality requirements for the system? | 10 |
+| 62 | How to make quality requirements measurable (scenarios)? | 10 |
+| 63 | How to categorize/summarize quality requirements? | 10 |
+| 64 | What usage scenarios describe runtime quality? | 10 |
+| 65 | What change scenarios describe modifiability/extensibility? | 10 |
+| 66 | What failure scenarios describe behavior under fault conditions? | 10 |
+| 67 | How to structure quality requirements (tree, tagging)? | 10 |
+| 68 | How to prioritize top quality goals vs. the rest? | 10 |
+| 69 | What are the general technical risks (beyond security)? | 11 |
+| 70 | What is the technical debt? | 11 |
+| 71 | What measures mitigate risks or reduce technical debt? | 11 |
+| 72 | What is the definition of each term? | 12 |
+| 73 | How to ensure common understanding and avoid synonyms/homonyms? | 12 |
+| 74 | How to keep the glossary lean and who owns it? | 12 |
 
 **Concerns addressed by SAF (covered, not gaps):**
 - Business goals driving the system (Section 01) — O1_OSTY, O2_OCYD, O1_OCXD (Operational domain)
 - Startup/shutdown behavior (Section 06) — ✅ fully covered by O3_OSTA (Operational State) + C3_SSTA (System State) acting together
+- Building block responsibility / what each element does (Section 05) — ✅ fully covered by C8_SFUM + P8_PFUM (System Function Mapping)
 - Building block → runtime behavior responsibility (Section 06) — ✅ fully covered by C8_SFUM (System Function Mapping) + P8_PFUM (Physical Functional Mapping)
 - Domain and technical terms (Section 12) — ✅ fully covered by A2_TRMD (Common Terms Definition Viewpoint)
 
