@@ -65,7 +65,7 @@ The document follows arc42's 12-section structure. Sections that have not yet be
 ### Terminology
 
 | Term | Meaning |
-|---|---|---|
+|---|---|
 | arc42 doc | Canonical documentation page for an arc42 section (`_pages/section-<N>.md`) |
 | arc42 FAQ | Community-contributed Q&A posts (`_posts/C-arc42/<section>/`) |
 | SAF | System Architecture Framework — an architecture framework with a formal ontology of concepts, viewpoints, and concerns |
@@ -145,31 +145,31 @@ The document follows arc42's 12-section structure. Sections that have not yet be
 
 ### FAQ Posts
 
-#### Post C-1-1: "How extensive shall I describe requirements?"
+#### Post [C-1-1](https://faq.arc42.org/questions/C-1-1): "How extensive shall I describe requirements?"
 
 | Engineering concern / question | SAF coverage |
 |---|---|
 | **How detailed should requirements be described in the architecture documentation?** | ❌ **GAP** — Out of scope (documentation practice). No concern about appropriate granularity — see paradigm note in Introduction. |
 
-#### Post C-1-2: "What are quality goals (quality attributes)?"
+#### Post [C-1-2](https://faq.arc42.org/questions/C-1-2): "What are quality goals (quality attributes)?"
 
 | Engineering concern / question | SAF coverage |
 |---|---|
 | What distinguishes runtime, non-runtime, and business quality attributes? | ❌ **GAP** — SAF doesn't categorize quality attributes by observability at runtime. |
 
-#### Post C-1-3 to C-1-5: Stakeholder table and deliverables
+#### Post [C-1-3](https://faq.arc42.org/questions/C-1-3) to [C-1-5](https://faq.arc42.org/questions/C-1-5): Stakeholder table and deliverables
 
 | Engineering concern / question | SAF coverage |
 |---|---|
 | **What are the expected deliverables from architecture for each stakeholder?** | ❌ **GAP** — Out of scope (project management). SAF doesn't ask what each stakeholder expects to receive from the architecture team — see paradigm note in Introduction. |
 
-#### Post C-1-6: "When to describe requirements more extensively?"
+#### Post [C-1-6](https://faq.arc42.org/questions/C-1-6): "When to describe requirements more extensively?"
 
 | Engineering concern / question | SAF coverage |
 |---|---|
 | **Which requirements have disproportionate architectural impact?** | ❌ **GAP** — No concern identifies which requirements have outsized influence on architecture decisions. |
 
-#### Post C-1-7: "Where to document quality requirements?"
+#### Post [C-1-7](https://faq.arc42.org/questions/C-1-7): "Where to document quality requirements?"
 
 | Engineering concern / question | SAF coverage |
 |---|---|
@@ -181,16 +181,16 @@ The document follows arc42's 12-section structure. Sections that have not yet be
 
 | # | Missing Concern | Source |
 |---|---|---|
-| 11 | Where are detailed requirements documents referenced? | doc §1.1 |
-| 12 | How to balance readability vs. redundancy with requirements docs? | doc §1.1 |
-| 13 | What are the top prioritized quality goals for the architecture? | doc §1.2 |
-| 14 | How to distinguish runtime, non-runtime, and business quality attributes? | C-1-2 |
-| 15 | How to make quality goals measurable via concrete scenarios? | doc §1.2 |
-| 16 | What does each stakeholder expect from the architecture (deliverables)? | doc §1.3, C-1-3/4/5 |
-| 17 | Who should know, be convinced of, work with, or decide about the architecture? | doc §1.3 |
-| 18 | How detailed should requirements be in architecture documentation? | C-1-1 |
-| 19 | Which requirements have disproportionate architectural impact? | C-1-6 |
-| 20 | How to split quality requirements between high-priority and the rest? | C-1-7 |
+| 11 | Where are detailed requirements documents referenced? | [doc §1.1](https://docs.arc42.org/section-1) |
+| 12 | How to balance readability vs. redundancy with requirements docs? | [doc §1.1](https://docs.arc42.org/section-1) |
+| 13 | What are the top prioritized quality goals for the architecture? | [doc §1.2](https://docs.arc42.org/section-1) |
+| 14 | How to distinguish runtime, non-runtime, and business quality attributes? | [C-1-2](https://faq.arc42.org/questions/C-1-2) |
+| 15 | How to make quality goals measurable via concrete scenarios? | [doc §1.2](https://docs.arc42.org/section-1) |
+| 16 | What does each stakeholder expect from the architecture (deliverables)? | [doc §1.3](https://docs.arc42.org/section-1), [C-1-3](https://faq.arc42.org/questions/C-1-3)/4/5 |
+| 17 | Who should know, be convinced of, work with, or decide about the architecture? | [doc §1.3](https://docs.arc42.org/section-1) |
+| 18 | How detailed should requirements be in architecture documentation? | [C-1-1](https://faq.arc42.org/questions/C-1-1) |
+| 19 | Which requirements have disproportionate architectural impact? | [C-1-6](https://faq.arc42.org/questions/C-1-6) |
+| 20 | How to split quality requirements between high-priority and the rest? | [C-1-7](https://faq.arc42.org/questions/C-1-7) |
 
 Gap #11 (business goals) is addressed by SAF's Operational domain (O1_OSTY, O2_OCYD, O1_OCXD) — see detailed analysis.
 
@@ -227,25 +227,25 @@ Gap #11 (business goals) is addressed by SAF's Operational domain (O1_OSTY, O2_O
 
 ### FAQ Posts
 
-#### Post C-2-1: "What are constraints?"
+#### Post [C-2-1](https://faq.arc42.org/questions/C-2-1): "What are constraints?"
 
 | Engineering concern / question | SAF coverage |
 |---|---|
 | **What constraints restrict freedom in architectural decisions?** | ❌ **GAP** — O6_SKRD operational constraints do not cover supplier/development constraints on architect freedom. |
 
-#### Post C-2-2: "What types of constraints exist?"
+#### Post [C-2-2](https://faq.arc42.org/questions/C-2-2): "What types of constraints exist?"
 
 | Engineering concern / question | SAF coverage |
 |---|---|
 | **How to differentiate organizational, technical, and convention constraints?** | ❌ **GAP** — SAF has no concept of categorizing constraints by type. The arc42 categorization applies to supplier work constraints, not operational context. |
 
-#### Post C-2-3: "What kind of constraints shall I document?"
+#### Post [C-2-3](https://faq.arc42.org/questions/C-2-3): "What kind of constraints shall I document?"
 
 | Engineering concern / question | SAF coverage |
 |---|---|
 | **Which constraints shaped important architectural decisions?** | ❌ **GAP** — SAF does not link constraints to architectural decisions, nor does it have a general constraint concept for supplier work. |
 
-#### Post C-2-4: "Can/shall we negotiate constraints?"
+#### Post [C-2-4](https://faq.arc42.org/questions/C-2-4): "Can/shall we negotiate constraints?"
 
 | Engineering concern / question | SAF coverage |
 |---|---|
@@ -259,10 +259,10 @@ O6_SKRD captures *operational* constraints (environmental conditions, performanc
 
 | # | Missing Concern | Source |
 |---|---|---|
-| 22 | What constraints restrict freedom of design and implementation? | doc §2, C-2-1 |
-| 23 | What are the types of constraints (technical, organizational, conventions)? | C-2-2 |
-| 24 | Which constraints shaped important architectural decisions? | C-2-3 |
-| 25 | When should unfavorable/risky/expensive constraints be negotiated? | C-2-4 |
+| 22 | What constraints restrict freedom of design and implementation? | [doc §2](https://docs.arc42.org/section-2), [C-2-1](https://faq.arc42.org/questions/C-2-1) |
+| 23 | What are the types of constraints (technical, organizational, conventions)? | [C-2-2](https://faq.arc42.org/questions/C-2-2) |
+| 24 | Which constraints shaped important architectural decisions? | [C-2-3](https://faq.arc42.org/questions/C-2-3) |
+| 25 | When should unfavorable/risky/expensive constraints be negotiated? | [C-2-4](https://faq.arc42.org/questions/C-2-4) |
 
 ---
 
@@ -331,7 +331,7 @@ O6_SKRD captures *operational* constraints (environmental conditions, performanc
 
 ### FAQ Posts
 
-#### Post C-3-1: "What is the context?"
+#### Post [C-3-1](https://faq.arc42.org/questions/C-3-1): "What is the context?"
 
 **Question:** What delimits the system from its communication partners? What are the external interfaces?
 
@@ -341,7 +341,7 @@ O6_SKRD captures *operational* constraints (environmental conditions, performanc
 | What are the external interfaces? | ✅ C1_SCXE: "Which are the conceptual interfaces of the system?" / P1_PCXE: "Which standards, protocols, and format specifications apply to a physical interface?" |
 | **How do the Conceptual System Context and Physical System Context relate — what traceability exists between Conceptual Item Exchanges and Physical Connections?** | ❌ **GAP** — SAF has separate viewpoints for conceptual context (C1_SCXD/C1_SCXE) and physical context (P1_PCXD/P1_PCXE). P8_PLOM maps conceptual elements to physical *elements* (functions/components), but no concern asks how context-level exchanges map to physical connections (channels). |
 
-#### Post C-3-2: "What does business and technical context mean?"
+#### Post [C-3-2](https://faq.arc42.org/questions/C-3-2): "What does business and technical context mean?"
 
 **Question:** What is the difference between domain-level interactions and technical infrastructure?
 
@@ -351,7 +351,7 @@ O6_SKRD captures *operational* constraints (environmental conditions, performanc
 | What technical infrastructure, hardware details, protocols, and network details define the physical context? | ✅ P1_PCXD / P1_PCXE cover physical external entities, physical items exchanged, standards/protocols. |
 | **When is the physical/technical context relevant vs. deferrable to deployment?** | ❌ **GAP** — Out of scope (documentation practice). Deciding when to include physical context is a documentation scoping decision — see paradigm note in Introduction. |
 
-#### Post C-3-3: "Does it make sense to show major components in context view?"
+#### Post [C-3-3](https://faq.arc42.org/questions/C-3-3): "Does it make sense to show major components in context view?"
 
 **Question:** Should context view show internal structure or remain black-box?
 
@@ -359,11 +359,11 @@ O6_SKRD captures *operational* constraints (environmental conditions, performanc
 |---|---|
 | **How is the context view (external scope) separated from internal building block structure?** | ❌ **GAP** — Out of scope (documentation practice). SAF marks context viewpoints as "BlackBox" exposure; the boundary between scoping and internal architecture is assumed — see paradigm note in Introduction. |
 
-#### Post C-3-4: "When shall I document the business context?"
+#### Post [C-3-4](https://faq.arc42.org/questions/C-3-4): "When shall I document the business context?"
 
 **Answer:** Always. (Design guidance, not a question.)
 
-#### Post C-3-5: "How can I simplify documentation of the business context?"
+#### Post [C-3-5](https://faq.arc42.org/questions/C-3-5): "How can I simplify documentation of the business context?"
 
 **Question:** How can context documentation be kept lean?
 
@@ -372,7 +372,7 @@ O6_SKRD captures *operational* constraints (environmental conditions, performanc
 | **How can external context elements be abstracted or aggregated?** | ❌ **GAP** — Out of scope (documentation practice). No concern asks about abstraction level or granularity — see paradigm note in Introduction. |
 | **How can communication partners be categorized into meaningful groups or clusters?** | ❌ **GAP** — Out of scope (documentation practice). SAF defines concrete element types but does not address grouping strategies — see paradigm note in Introduction. |
 
-#### Post C-3-6: "Shall I document risks or problems in the context?"
+#### Post [C-3-6](https://faq.arc42.org/questions/C-3-6): "Shall I document risks or problems in the context?"
 
 **Question:** What risks associated with external interfaces need attention?
 
@@ -390,16 +390,16 @@ O6_SKRD captures *operational* constraints (environmental conditions, performanc
 
 | # | Missing Concern | Source |
 |---|---|---|
-| 1 | How do the conceptual (business) context and physical (technical) context relate and map at the context level? | doc §3.0, C-3-1 |
-| 2 | Which Physical Connection realizes each Conceptual Item Exchange (i.e., which channel carries which domain I/O)? | doc §3.2 |
-| 3 | When is physical/technical context relevant vs. deferrable to deployment? | C-3-2 |
-| 4 | How is the context view (external scope) separated from internal architecture? | C-3-3 |
-| 5 | How can external context elements be abstracted or aggregated? | doc §3.1, C-3-5 |
-| 6 | How can communication partners be categorized into meaningful groups? | C-3-5 |
-| 7 | What availability risks exist at external interfaces? | C-3-6 |
-| 8 | What cost risks exist at external interfaces? | C-3-6 |
-| 9 | What volatility/change risks exist at external interfaces? | C-3-6 |
-| 10 | What complexity risks exist at external interfaces? | C-3-6 |
+| 1 | How do the conceptual (business) context and physical (technical) context relate and map at the context level? | [doc §3.0](https://docs.arc42.org/section-3), [C-3-1](https://faq.arc42.org/questions/C-3-1) |
+| 2 | Which Physical Connection realizes each Conceptual Item Exchange (i.e., which channel carries which domain I/O)? | [doc §3.2](https://docs.arc42.org/section-3) |
+| 3 | When is physical/technical context relevant vs. deferrable to deployment? | [C-3-2](https://faq.arc42.org/questions/C-3-2) |
+| 4 | How is the context view (external scope) separated from internal architecture? | [C-3-3](https://faq.arc42.org/questions/C-3-3) |
+| 5 | How can external context elements be abstracted or aggregated? | [doc §3.1](https://docs.arc42.org/section-3), [C-3-5](https://faq.arc42.org/questions/C-3-5) |
+| 6 | How can communication partners be categorized into meaningful groups? | [C-3-5](https://faq.arc42.org/questions/C-3-5) |
+| 7 | What availability risks exist at external interfaces? | [C-3-6](https://faq.arc42.org/questions/C-3-6) |
+| 8 | What cost risks exist at external interfaces? | [C-3-6](https://faq.arc42.org/questions/C-3-6) |
+| 9 | What volatility/change risks exist at external interfaces? | [C-3-6](https://faq.arc42.org/questions/C-3-6) |
+| 10 | What complexity risks exist at external interfaces? | [C-3-6](https://faq.arc42.org/questions/C-3-6) |
 
 ---
 
@@ -433,25 +433,25 @@ O6_SKRD captures *operational* constraints (environmental conditions, performanc
 
 ### FAQ Posts
 
-#### Post C-4-1: "What is the solution strategy?"
+#### Post [C-4-1](https://faq.arc42.org/questions/C-4-1): "What is the solution strategy?"
 
 | Engineering concern / question | SAF coverage |
 |---|---|
 | **What are the fundamental solution ideas and strategies?** | ❌ **GAP** — SAF has no concept of a solution strategy summary. |
 
-#### Post C-4-2: "How to document the solution strategy?"
+#### Post [C-4-2](https://faq.arc42.org/questions/C-4-2): "How to document the solution strategy?"
 
 | Engineering concern / question | SAF coverage |
 |---|---|
 | **How to present solution strategy at the right abstraction level for diverse stakeholders?** | ❌ **GAP** — Out of scope (documentation practice). No concern about presentation/abstraction for mixed audiences — see paradigm note in Introduction. |
 
-#### Post C-4-3: "Examples for solution strategy"
+#### Post [C-4-3](https://faq.arc42.org/questions/C-4-3): "Examples for solution strategy"
 
 | Engineering concern / question | SAF coverage |
 |---|---|
 | (Examples of technology decisions, pattern applications) | ❌ **GAP** — See above. |
 
-#### Post C-4-4: "Relation between solution strategy and quality goals"
+#### Post [C-4-4](https://faq.arc42.org/questions/C-4-4): "Relation between solution strategy and quality goals"
 
 | Engineering concern / question | SAF coverage |
 |---|---|
@@ -463,11 +463,11 @@ O6_SKRD captures *operational* constraints (environmental conditions, performanc
 
 | # | Missing Concern | Source |
 |---|---|---|
-| 26 | What are the fundamental technology decisions shaping the architecture? | doc §4, C-4-1 |
-| 27 | What architectural/decomposition patterns were chosen and why? | doc §4, C-4-3 |
-| 28 | How do solution approaches address key quality goals (traceability)? | doc §4, C-4-4 |
-| 29 | What organizational decisions affect the architecture? | doc §4 |
-| 30 | How to present solution strategy at the right abstraction level? | C-4-2 |
+| 26 | What are the fundamental technology decisions shaping the architecture? | [doc §4](https://docs.arc42.org/section-4), [C-4-1](https://faq.arc42.org/questions/C-4-1) |
+| 27 | What architectural/decomposition patterns were chosen and why? | [doc §4](https://docs.arc42.org/section-4), [C-4-3](https://faq.arc42.org/questions/C-4-3) |
+| 28 | How do solution approaches address key quality goals (traceability)? | [doc §4](https://docs.arc42.org/section-4), [C-4-4](https://faq.arc42.org/questions/C-4-4) |
+| 29 | What organizational decisions affect the architecture? | [doc §4](https://docs.arc42.org/section-4) |
+| 30 | How to present solution strategy at the right abstraction level? | [C-4-2](https://faq.arc42.org/questions/C-4-2) |
 
 ---
 
@@ -522,51 +522,51 @@ O6_SKRD captures *operational* constraints (environmental conditions, performanc
 
 ### FAQ Posts
 
-#### Post C-5-1: "What is a building block?"
+#### Post [C-5-1](https://faq.arc42.org/questions/C-5-1): "What is a building block?"
 
 | Engineering concern / question | SAF coverage |
 |---|---|
 | **What source code constructs are abstracted as building blocks?** | ❌ **GAP** — Out of scope (documentation practice). SAF defines Conceptual System but not what source-level constructs it maps to — see paradigm note in Introduction. |
 
-#### Post C-5-2: "Do third-party libraries count?"
+#### Post [C-5-2](https://faq.arc42.org/questions/C-5-2): "Do third-party libraries count?"
 
 | Engineering concern / question | SAF coverage |
 |---|---|
 | **Should external libraries/frameworks be shown in the building block view?** | ❌ **GAP** — Out of scope (documentation practice). SAF does not address inclusion of third-party/COTS elements in structural views — see paradigm note in Introduction. |
 
-#### Post C-5-3: "How does source code relate to building blocks?"
+#### Post [C-5-3](https://faq.arc42.org/questions/C-5-3): "How does source code relate to building blocks?"
 
 | Engineering concern / question | SAF coverage |
 |---|---|
 | **How does the source code directory/organization map to building blocks?** | ❌ **GAP** — Out of scope (documentation practice). SAF does not trace architecture elements to source code artifacts — see paradigm note in Introduction. |
 
-#### Post C-5-4: "How detailed shall we document the building block view?"
+#### Post [C-5-4](https://faq.arc42.org/questions/C-5-4): "How detailed shall we document the building block view?"
 
 | Engineering concern / question | SAF coverage |
 |---|---|
 | **What level of building block detail is appropriate for stakeholders?** | ❌ **GAP** — Out of scope (documentation practice). No concern about appropriate documentation depth — see paradigm note in Introduction. |
 
-#### Post C-5-6: "How to document building blocks?"
+#### Post [C-5-6](https://faq.arc42.org/questions/C-5-6): "How to document building blocks?"
 
 | Engineering concern / question | SAF coverage |
 |---|---|
 | What is the responsibility of each blackbox? | ❌ **GAP** — SAF doesn't ask about element responsibility. |
 | What is the interface of each blackbox (input/output, API)? | ✅ C4_SIEX covers conceptual interaction points and item exchanges. |
 
-#### Post C-5-8 / C-5-9: Internal vs. external interfaces
+#### Post [C-5-8](https://faq.arc42.org/questions/C-5-8) / [C-5-9](https://faq.arc42.org/questions/C-5-9): Internal vs. external interfaces
 
 | Engineering concern / question | SAF coverage |
 |---|---|
 | How to describe internal interfaces between building blocks? | ✅ C4_SIEX: "How do the conceptual system elements interact?" / P4_PIEX for physical level. |
 | How do external interfaces differ from internal ones in terms of risk and stakeholder control? | ❌ **GAP** — SAF has separate viewpoints for context vs. internal exchange, but no concern asks about the difference in risk/stakeholder management. |
 
-#### Post C-5-10: "How to avoid interface redundancy across hierarchy levels?"
+#### Post [C-5-10](https://faq.arc42.org/questions/C-5-10): "How to avoid interface redundancy across hierarchy levels?"
 
 | Engineering concern / question | SAF coverage |
 |---|---|
 | **How to avoid redundant interface descriptions across context, level-1, and level-2 views?** | ✅ **Covered** — SAF separates interface definitions from their application to interaction points, allowing interface definition libraries to be reused across hierarchy levels without redundancy. |
 
-#### Post C-5-12 / C-5-13: "What building blocks to document or omit?"
+#### Post [C-5-12](https://faq.arc42.org/questions/C-5-12) / [C-5-13](https://faq.arc42.org/questions/C-5-13): "What building blocks to document or omit?"
 
 | Engineering concern / question | SAF coverage |
 |---|---|
@@ -578,14 +578,14 @@ O6_SKRD captures *operational* constraints (environmental conditions, performanc
 
 | # | Missing Concern | Source |
 |---|---|---|
-| 31 | What is the responsibility/purpose of each building block? | doc §5.1, C-5-6 |
-| 32 | Where is the source code located for each building block? | doc §5.1 |
-| 33 | What is the motivation/rationale for the decomposition? | doc §5.1 |
-| 34 | Which building blocks are important enough to detail at deeper levels? | doc §5.2, C-5-4 |
-| 35 | Which building blocks should be documented vs. omitted? | C-5-12, C-5-13 |
-| 36 | Should external/COTS libraries be shown in building blocks? | C-5-2 |
-| 37 | How does source code directory structure map to building blocks? | C-5-3 |
-| 38 | How do external vs. internal interfaces differ in risk and stakeholder control? | C-5-8, C-5-9 |
+| 31 | What is the responsibility/purpose of each building block? | [doc §5.1](https://docs.arc42.org/section-5), [C-5-6](https://faq.arc42.org/questions/C-5-6) |
+| 32 | Where is the source code located for each building block? | [doc §5.1](https://docs.arc42.org/section-5) |
+| 33 | What is the motivation/rationale for the decomposition? | [doc §5.1](https://docs.arc42.org/section-5) |
+| 34 | Which building blocks are important enough to detail at deeper levels? | [doc §5.2](https://docs.arc42.org/section-5), [C-5-4](https://faq.arc42.org/questions/C-5-4) |
+| 35 | Which building blocks should be documented vs. omitted? | [C-5-12](https://faq.arc42.org/questions/C-5-12), [C-5-13](https://faq.arc42.org/questions/C-5-13) |
+| 36 | Should external/COTS libraries be shown in building blocks? | [C-5-2](https://faq.arc42.org/questions/C-5-2) |
+| 37 | How does source code directory structure map to building blocks? | [C-5-3](https://faq.arc42.org/questions/C-5-3) |
+| 38 | How do external vs. internal interfaces differ in risk and stakeholder control? | [C-5-8](https://faq.arc42.org/questions/C-5-8), [C-5-9](https://faq.arc42.org/questions/C-5-9) |
 
 ---
 
@@ -619,25 +619,25 @@ O6_SKRD captures *operational* constraints (environmental conditions, performanc
 
 ### FAQ Posts
 
-#### Post C-6-1 / C-6-2: "What is the runtime view?"
+#### Post [C-6-1](https://faq.arc42.org/questions/C-6-1) / [C-6-2](https://faq.arc42.org/questions/C-6-2): "What is the runtime view?"
 
 | Engineering concern / question | SAF coverage |
 |---|---|
 | **What scenarios should be captured (use cases, external interfaces, startup, errors)?** | ❌ **GAP** — Out of scope (documentation practice). SAF does not guide which scenarios are architecturally relevant — see paradigm note in Introduction. |
 
-#### Post C-6-3: "How to describe scenarios?"
+#### Post [C-6-3](https://faq.arc42.org/questions/C-6-3): "How to describe scenarios?"
 
 | Engineering concern / question | SAF coverage |
 |---|---|
 | (plain text, activity diagrams, sequence diagrams as notations) | ⚠️ Partial — SAF supports sequence-like interaction scenarios (C4_SCXI) but does not guide notation choice. |
 
-#### Post C-6-4: "What are partial scenarios?"
+#### Post [C-6-4](https://faq.arc42.org/questions/C-6-4): "What are partial scenarios?"
 
 | Engineering concern / question | SAF coverage |
 |---|---|
 | **How to document only the interesting/difficult/risky parts of a scenario without the trivial parts?** | ❌ **GAP** — Out of scope (documentation practice). No concern about scenario abstraction or partial/de-scoped scenarios — see paradigm note in Introduction. |
 
-#### Post C-6-5: "Which scenarios to describe?"
+#### Post [C-6-5](https://faq.arc42.org/questions/C-6-5): "Which scenarios to describe?"
 
 | Engineering concern / question | SAF coverage |
 |---|---|
@@ -649,10 +649,10 @@ O6_SKRD captures *operational* constraints (environmental conditions, performanc
 
 | # | Missing Concern | Source |
 |---|---|---|
-| 40 | How does the system behave in error or exception scenarios? | doc §6 |
-| 41 | Which scenarios are architecturally relevant to document? | C-6-2, C-6-5 |
-| 42 | How to focus on interesting/risky parts of scenarios (partial scenarios)? | C-6-4 |
-| 43 | How to document timing-constrained or non-standard behavior? | C-6-5 |
+| 40 | How does the system behave in error or exception scenarios? | [doc §6](https://docs.arc42.org/section-6) |
+| 41 | Which scenarios are architecturally relevant to document? | [C-6-2](https://faq.arc42.org/questions/C-6-2), [C-6-5](https://faq.arc42.org/questions/C-6-5) |
+| 42 | How to focus on interesting/risky parts of scenarios (partial scenarios)? | [C-6-4](https://faq.arc42.org/questions/C-6-4) |
+| 43 | How to document timing-constrained or non-standard behavior? | [C-6-5](https://faq.arc42.org/questions/C-6-5) |
 
 Gap #40 (startup/shutdown behavior) is fully covered by SAF — O3_OSTA (Operational State) captures operational-level state changes, and C3_SSTA (System State) defines system-level modes and states directly. Both viewpoints act together.
 
@@ -708,19 +708,19 @@ Gap #40 (startup/shutdown behavior) is fully covered by SAF — O3_OSTA (Operati
 
 ### FAQ Posts
 
-#### Post C-7-1 to C-7-3: "What, why, and who for deployment?"
+#### Post [C-7-1](https://faq.arc42.org/questions/C-7-1) to [C-7-3](https://faq.arc42.org/questions/C-7-3): "What, why, and who for deployment?"
 
 | Engineering concern / question | SAF coverage |
 |---|---|
 | Who is responsible for documenting the infrastructure vs. the deployment mapping? | ❌ **GAP** — Out of scope (project management). SAF does not assign documentation responsibility to roles — see paradigm note in Introduction. |
 
-#### Post C-7-5: "Deployment variants?"
+#### Post [C-7-5](https://faq.arc42.org/questions/C-7-5): "Deployment variants?"
 
 | Engineering concern / question | SAF coverage |
 |---|---|
 | **What are the different deployment scenarios or variants (stages, alternatives)?** | ❌ **GAP** — SAF does not model deployment variants. |
 
-#### Post C-7-6: "Dynamic deployment?"
+#### Post [C-7-6](https://faq.arc42.org/questions/C-7-6): "Dynamic deployment?"
 
 | Engineering concern / question | SAF coverage |
 |---|---|
@@ -732,13 +732,13 @@ Gap #40 (startup/shutdown behavior) is fully covered by SAF — O3_OSTA (Operati
 
 | # | Missing Concern | Source |
 |---|---|---|
-| 46 | What is the mapping of software building blocks to infrastructure nodes? | doc §7, C-7-1 |
-| 47 | What are the different deployment environments (dev, test, production)? | doc §7 |
-| 48 | What is the justification/rationale for the deployment structure? | doc §7.1 |
-| 49 | What quality/performance features of the infrastructure are relevant? | doc §7.1 |
-| 50 | Who is responsible for documenting infrastructure vs. deployment mapping? | C-7-3 |
-| 51 | What are the deployment variants/alternatives? | C-7-5 |
-| 52 | How to describe dynamic/elastic deployment (microservices, serverless)? | C-7-6 |
+| 46 | What is the mapping of software building blocks to infrastructure nodes? | [doc §7](https://docs.arc42.org/section-7), [C-7-1](https://faq.arc42.org/questions/C-7-1) |
+| 47 | What are the different deployment environments (dev, test, production)? | [doc §7](https://docs.arc42.org/section-7) |
+| 48 | What is the justification/rationale for the deployment structure? | [doc §7.1](https://docs.arc42.org/section-7) |
+| 49 | What quality/performance features of the infrastructure are relevant? | [doc §7.1](https://docs.arc42.org/section-7) |
+| 50 | Who is responsible for documenting infrastructure vs. deployment mapping? | [C-7-3](https://faq.arc42.org/questions/C-7-3) |
+| 51 | What are the deployment variants/alternatives? | [C-7-5](https://faq.arc42.org/questions/C-7-5) |
+| 52 | How to describe dynamic/elastic deployment (microservices, serverless)? | [C-7-6](https://faq.arc42.org/questions/C-7-6) |
 
 ---
 
@@ -773,37 +773,37 @@ Gap #40 (startup/shutdown behavior) is fully covered by SAF — O3_OSTA (Operati
 
 ### FAQ Posts
 
-#### Post C-8-1: "What is a crosscutting concept?"
+#### Post [C-8-1](https://faq.arc42.org/questions/C-8-1): "What is a crosscutting concept?"
 
 | Engineering concern / question | SAF coverage |
 |---|---|
 | **Which rules, principles, or decisions influence multiple building blocks?** | ❌ **GAP** — SAF does not frame this as a concern. |
 
-#### Post C-8-2: "How to organize crosscutting concepts?"
+#### Post [C-8-2](https://faq.arc42.org/questions/C-8-2): "How to organize crosscutting concepts?"
 
 | Engineering concern / question | SAF coverage |
 |---|---|
 | **How to group/order crosscutting topics (domain, patterns, UX, safety/security, dev, operations)?** | ❌ **GAP** — Out of scope (documentation practice). SAF does not guide organization of crosscutting topics — see paradigm note in Introduction. |
 
-#### Post C-8-3: "How to deal with the multitude of topics?"
+#### Post [C-8-3](https://faq.arc42.org/questions/C-8-3): "How to deal with the multitude of topics?"
 
 | Engineering concern / question | SAF coverage |
 |---|---|
 | **How to prioritize and select which crosscutting concepts to document?** | ❌ **GAP** — Out of scope (documentation practice). SAF does not guide selection/prioritization — see paradigm note in Introduction. |
 
-#### Post C-8-4: "How to describe the business/domain model?"
+#### Post [C-8-4](https://faq.arc42.org/questions/C-8-4): "How to describe the business/domain model?"
 
 | Engineering concern / question | SAF coverage |
 |---|---|
 | **How to describe the domain model (tabular glossary, entity model, DDD)?** | ✅ **Covered** — See Terminology entry "Exchange Type (as domain model)". SAF provides domain modeling via O2_OETD (Operational Exchange Type Definition) at the operational level and C2_SETD (System Exchange Type Definition) at the conceptual level. Both define entity types, attributes, and relationships (via `composed of`). The name "exchange type" reflects that most domain concepts are visible on conceptual interfaces — they are what flows between performers or functions. SAF does not prescribe a tabular/DDD notation but provides the underlying concept model. |
 
-#### Post C-8-5: "Rules for describing a concept?"
+#### Post [C-8-5](https://faq.arc42.org/questions/C-8-5): "Rules for describing a concept?"
 
 | Engineering concern / question | SAF coverage |
 |---|---|
 | **How to describe a concept practically (source code examples, developer use cases, rationale, applicability, limits)?** | ❌ **GAP** — Out of scope (documentation practice). SAF does not guide concept description format — see paradigm note in Introduction. |
 
-#### Post C-8-6: "Candidates for concepts?"
+#### Post [C-8-6](https://faq.arc42.org/questions/C-8-6): "Candidates for concepts?"
 
 | Engineering concern / question | SAF coverage |
 |---|---|
@@ -815,13 +815,13 @@ Gap #40 (startup/shutdown behavior) is fully covered by SAF — O3_OSTA (Operati
 
 | # | Missing Concern | Source |
 |---|---|---|
-| 53 | What crosscutting concepts exist in the system? | doc §8, C-8-1 |
-| 54 | What architecture/design patterns have been applied? | doc §8 |
-| 55 | What persistence, distribution, caching, threading, error handling concepts exist? | doc §8, C-8-6 |
-| 56 | What operations concepts (deployment, monitoring) exist? | doc §8 | ⚠️ Partial — see detailed analysis |
-| 57 | How to organize/group crosscutting topics? | C-8-2 |
-| 58 | How to prioritize which crosscutting concepts to document? | C-8-3 |
-| 59 | How to describe a concept practically (examples, rationale, applicability)? | C-8-5 |
+| 53 | What crosscutting concepts exist in the system? | [doc §8](https://docs.arc42.org/section-8), [C-8-1](https://faq.arc42.org/questions/C-8-1) |
+| 54 | What architecture/design patterns have been applied? | [doc §8](https://docs.arc42.org/section-8) |
+| 55 | What persistence, distribution, caching, threading, error handling concepts exist? | [doc §8](https://docs.arc42.org/section-8), [C-8-6](https://faq.arc42.org/questions/C-8-6) |
+| 56 | What operations concepts (deployment, monitoring) exist? | [doc §8](https://docs.arc42.org/section-8) | ⚠️ Partial — see detailed analysis |
+| 57 | How to organize/group crosscutting topics? | [C-8-2](https://faq.arc42.org/questions/C-8-2) |
+| 58 | How to prioritize which crosscutting concepts to document? | [C-8-3](https://faq.arc42.org/questions/C-8-3) |
+| 59 | How to describe a concept practically (examples, rationale, applicability)? | [C-8-5](https://faq.arc42.org/questions/C-8-5) |
 
 Gap #54 (domain/business model) is covered by C2_SETD — see detailed analysis.<br>Gap #56 (operations concepts) is partially covered by Operational domain — see detailed analysis.
 
@@ -856,19 +856,19 @@ Gap #54 (domain/business model) is covered by C2_SETD — see detailed analysis.
 
 ### FAQ Posts
 
-#### Post C-9-1: "What kind of decisions to document?"
+#### Post [C-9-1](https://faq.arc42.org/questions/C-9-1): "What kind of decisions to document?"
 
 | Engineering concern / question | SAF coverage |
 |---|---|
 | **Which decisions are architecturally significant (critical, quality-influencing, unconventional, risky, expensive, long-lasting)?** | ❌ **GAP** — Entirely missing from SAF. |
 
-#### Post C-9-2 / C-9-3: "How to document decisions (ADR format)?"
+#### Post [C-9-2](https://faq.arc42.org/questions/C-9-2) / [C-9-3](https://faq.arc42.org/questions/C-9-3): "How to document decisions (ADR format)?"
 
 | Engineering concern / question | SAF coverage |
 |---|---|
 | **What format should be used for documenting decisions (context, decision, status, consequences)?** | ❌ **GAP** — Out of scope (documentation practice). SAF has no decision documentation format — see paradigm note in Introduction. |
 
-#### Post C-9-4: "How to handle many decisions?"
+#### Post [C-9-4](https://faq.arc42.org/questions/C-9-4): "How to handle many decisions?"
 
 | Engineering concern / question | SAF coverage |
 |---|---|
@@ -880,12 +880,12 @@ Gap #54 (domain/business model) is covered by C2_SETD — see detailed analysis.
 
 | # | Missing Concern | Source |
 |---|---|---|
-| 61 | What are the architecturally significant decisions? | doc §9, C-9-1 |
-| 62 | What is the context/rationale behind each decision? | doc §9, C-9-3 |
-| 63 | What alternatives were considered and why was this chosen? | C-9-2 |
-| 64 | What is the status of each decision? | C-9-3 |
-| 65 | What are the consequences of each decision? | C-9-3 |
-| 66 | How to manage a large number of decisions? | C-9-4 |
+| 61 | What are the architecturally significant decisions? | [doc §9](https://docs.arc42.org/section-9), [C-9-1](https://faq.arc42.org/questions/C-9-1) |
+| 62 | What is the context/rationale behind each decision? | [doc §9](https://docs.arc42.org/section-9), [C-9-3](https://faq.arc42.org/questions/C-9-3) |
+| 63 | What alternatives were considered and why was this chosen? | [C-9-2](https://faq.arc42.org/questions/C-9-2) |
+| 64 | What is the status of each decision? | [C-9-3](https://faq.arc42.org/questions/C-9-3) |
+| 65 | What are the consequences of each decision? | [C-9-3](https://faq.arc42.org/questions/C-9-3) |
+| 66 | How to manage a large number of decisions? | [C-9-4](https://faq.arc42.org/questions/C-9-4) |
 
 ---
 
@@ -939,25 +939,25 @@ Gap #54 (domain/business model) is covered by C2_SETD — see detailed analysis.
 
 ### FAQ Posts
 
-#### Post C-10-1: "What is software quality?"
+#### Post [C-10-1](https://faq.arc42.org/questions/C-10-1): "What is software quality?"
 
 | Engineering concern / question | SAF coverage |
 |---|---|
 | (Definition of software quality) | ❌ **GAP** — SAF has no definition or concept of software quality. |
 
-#### Post C-10-2 / C-10-3: "Quality scenarios and quality tree"
+#### Post [C-10-2](https://faq.arc42.org/questions/C-10-2) / [C-10-3](https://faq.arc42.org/questions/C-10-3): "Quality scenarios and quality tree"
 
 | Engineering concern / question | SAF coverage |
 |---|---|
 | **How to structure quality requirements (quality tree, Q42 tagging)?** | ❌ **GAP** — Out of scope (documentation practice). SAF does not model quality documentation structures — see paradigm note in Introduction. |
 
-#### Post C-10-4: "Examples of quality scenarios"
+#### Post [C-10-4](https://faq.arc42.org/questions/C-10-4): "Examples of quality scenarios"
 
 | Engineering concern / question | SAF coverage |
 |---|---|
 | (Examples: performance, modifiability, failure handling, memory) | ❌ **GAP** — Entirely missing from SAF. |
 
-#### Post C-10-5: "Why is quality section at the end?"
+#### Post [C-10-5](https://faq.arc42.org/questions/C-10-5): "Why is quality section at the end?"
 
 | Engineering concern / question | SAF coverage |
 |---|---|
@@ -969,14 +969,14 @@ Gap #54 (domain/business model) is covered by C2_SETD — see detailed analysis.
 
 | # | Missing Concern | Source |
 |---|---|---|
-| 67 | What are the quality requirements for the system? | doc §10 |
-| 68 | How to make quality requirements specific and measurable (scenarios)? | doc §10.2, C-10-2 |
-| 69 | How to categorize/summarize quality requirements? | doc §10.1 |
-| 70 | What usage scenarios describe runtime quality (performance, throughput)? | C-10-2 |
-| 71 | What change scenarios describe modifiability/extensibility? | C-10-2 |
-| 72 | What failure scenarios describe behavior under fault conditions? | C-10-2 |
-| 73 | How to structure quality requirements (tree, tagging)? | C-10-3 |
-| 74 | How to prioritize top quality goals vs. the rest? | C-10-5 |
+| 67 | What are the quality requirements for the system? | [doc §10](https://docs.arc42.org/section-10) |
+| 68 | How to make quality requirements specific and measurable (scenarios)? | [doc §10.2](https://docs.arc42.org/section-10), [C-10-2](https://faq.arc42.org/questions/C-10-2) |
+| 69 | How to categorize/summarize quality requirements? | [doc §10.1](https://docs.arc42.org/section-10) |
+| 70 | What usage scenarios describe runtime quality (performance, throughput)? | [C-10-2](https://faq.arc42.org/questions/C-10-2) |
+| 71 | What change scenarios describe modifiability/extensibility? | [C-10-2](https://faq.arc42.org/questions/C-10-2) |
+| 72 | What failure scenarios describe behavior under fault conditions? | [C-10-2](https://faq.arc42.org/questions/C-10-2) |
+| 73 | How to structure quality requirements (tree, tagging)? | [C-10-3](https://faq.arc42.org/questions/C-10-3) |
+| 74 | How to prioritize top quality goals vs. the rest? | [C-10-5](https://faq.arc42.org/questions/C-10-5) |
 
 ---
 
@@ -1007,7 +1007,7 @@ Gap #54 (domain/business model) is covered by C2_SETD — see detailed analysis.
 
 ### FAQ Posts
 
-#### Post C-11-1: "What are risks and technical debt?"
+#### Post [C-11-1](https://faq.arc42.org/questions/C-11-1): "What are risks and technical debt?"
 
 | Engineering concern / question | SAF coverage |
 |---|---|
@@ -1020,9 +1020,9 @@ Gap #54 (domain/business model) is covered by C2_SETD — see detailed analysis.
 
 | # | Missing Concern | Source |
 |---|---|---|
-| 75 | What are the general technical risks for the system (beyond security)? | doc §11, C-11-1 |
-| 76 | What is the technical debt? | doc §11, C-11-1 |
-| 77 | What measures mitigate risks or reduce technical debt? | doc §11 |
+| 75 | What are the general technical risks for the system (beyond security)? | [doc §11](https://docs.arc42.org/section-11), [C-11-1](https://faq.arc42.org/questions/C-11-1) |
+| 76 | What is the technical debt? | [doc §11](https://docs.arc42.org/section-11), [C-11-1](https://faq.arc42.org/questions/C-11-1) |
+| 77 | What measures mitigate risks or reduce technical debt? | [doc §11](https://docs.arc42.org/section-11) |
 
 ---
 
@@ -1053,13 +1053,13 @@ Gap #54 (domain/business model) is covered by C2_SETD — see detailed analysis.
 
 ### FAQ Posts
 
-#### Post C-12-1: "Why is the glossary important?"
+#### Post [C-12-1](https://faq.arc42.org/questions/C-12-1): "Why is the glossary important?"
 
 | Engineering concern / question | SAF coverage |
 |---|---|
 | **How to ensure all participants have a common understanding of terminology?** | ⚠️ **Partial** — A2_TRMD provides a single authoritative source for project-specific terms (via "Which terms and abbreviations are applicable to the system of interest?"), which enables common understanding. However, the concern is not explicitly framed as a stakeholder question. |
 
-#### Post C-12-2: "How to describe terms without much effort?"
+#### Post [C-12-2](https://faq.arc42.org/questions/C-12-2): "How to describe terms without much effort?"
 
 | Engineering concern / question | SAF coverage |
 |---|---|
@@ -1071,9 +1071,9 @@ Gap #54 (domain/business model) is covered by C2_SETD — see detailed analysis.
 
 | # | Missing Concern | Source |
 |---|---|---|
-| 78 | What is the definition of each term? | doc §12 |
-| 79 | How to ensure common understanding and avoid synonyms/homonyms? | doc §12, C-12-1 |
-| 80 | How to keep the glossary lean and who owns it? | C-12-2 |
+| 78 | What is the definition of each term? | [doc §12](https://docs.arc42.org/section-12) |
+| 79 | How to ensure common understanding and avoid synonyms/homonyms? | [doc §12](https://docs.arc42.org/section-12), [C-12-1](https://faq.arc42.org/questions/C-12-1) |
+| 80 | How to keep the glossary lean and who owns it? | [C-12-2](https://faq.arc42.org/questions/C-12-2) |
 
 Gap #78 (important domain and technical terms) is covered by A2_TRMD — see detailed analysis.
 
