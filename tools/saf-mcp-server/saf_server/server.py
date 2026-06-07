@@ -477,5 +477,8 @@ async def main():
         await run_stdio()
 
 
-if __name__ == "__main__":
+def cli():
     asyncio.run(main())
+
+if __name__ == "__main__":
+    cli()

@@ -9,6 +9,9 @@ dependencies = [
     "starlette>=0.30.0",
 ]
 
+[project.scripts]
+saf-server = "saf_server.server:cli"
+
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"

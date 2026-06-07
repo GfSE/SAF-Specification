@@ -307,7 +307,7 @@ opencode also supports connecting to a remotely running MCP server. This is usef
 First, start the server in HTTP mode:
 
 ```bash
-uv run python -m saf_server.server --port 8000 --host 0.0.0.0
+uv run saf-server --port 8000 --host 0.0.0.0
 ```
 
 Then configure opencode to connect via `remote` type:
