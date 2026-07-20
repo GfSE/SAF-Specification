@@ -28,10 +28,10 @@
 }, {
   "Documentation" : "",
   "Owner" : "exchange & interface",
-  "Name" : "Which kind of conceptual items (energy, material, information, etc.)  are used in the logical architecture of the system?",
+  "Name" : "Which kind of conceptual items (energy, material, information, etc.)  are used in the conceptual architecture of the system?",
   "ID" : "_2021x_2_6d8019d_1693308265004_421376_24972",
   "ConcernsViewpoints" : [ {
-    "Name" : "System Domain Item Kind Viewpoint",
+    "Name" : "System Exchange Type Definition Viewpoint",
     "ID" : "_19_0_2_26f0132_1562303526536_778418_92552"
   } ]
 }, {
@@ -40,7 +40,7 @@
   "Name" : "Why types of exchange can exist between Operational Performers (i.e., flows of information, people, material, or energy)?",
   "ID" : "_2021x_2_6d8019d_1693570065115_738458_24748",
   "ConcernsViewpoints" : [ {
-    "Name" : "Operational Domain Item Kind Viewpoint",
+    "Name" : "Operational Exchange Type Definition Viewpoint",
     "ID" : "_19_0_4_26f0132_1631280350392_855780_562"
   } ]
 }, {
@@ -96,10 +96,7 @@
   "Owner" : "exchange & interface",
   "Name" : "How do physical system elements interact to provide system functions?",
   "ID" : "_2021x_2_8710274_1674576758600_423008_23078",
-  "ConcernsViewpoints" : [ {
-    "Name" : "Physical Internal Exchange Viewpoint",
-    "ID" : "_2021x_2_8710274_1674680950433_310726_23659"
-  } ]
+  "ConcernsViewpoints" : [ ]
 }, {
   "Documentation" : "",
   "Owner" : "functional",
@@ -256,13 +253,13 @@
 }, {
   "Documentation" : "",
   "Owner" : "interaction",
-  "Name" : "How do the logical system elements interact to provide the system functions?",
+  "Name" : "How do the conceptual system elements interact to provide the system functions?",
   "ID" : "_2021x_2_8710274_1674576758760_611640_23247",
   "ConcernsViewpoints" : [ {
-    "Name" : "Logical Internal Interaction Viewpoint",
+    "Name" : "System Internal Interaction Viewpoint",
     "ID" : "_19_0_2_26f0132_1576222951495_184664_54882"
   }, {
-    "Name" : "Logical Internal Exchange Viewpoint",
+    "Name" : "System Internal Exchange Viewpoint",
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311"
   } ]
 }, {
@@ -361,16 +358,19 @@
   "Name" : "Which conceptual items (energy, material, information, etc.) are exchanged within the system?",
   "ID" : "_2021x_2_8710274_1674576758825_79081_23317",
   "ConcernsViewpoints" : [ {
-    "Name" : "Logical Internal Exchange Viewpoint",
+    "Name" : "System Internal Exchange Viewpoint",
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311"
+  }, {
+    "Name" : "System Interface Definition Viewpoint",
+    "ID" : "_2021x_2_8710274_1676723513864_806117_26880"
   } ]
 }, {
   "Documentation" : "",
   "Owner" : "structure",
-  "Name" : "What is the logical breakdown of the system?",
+  "Name" : "What is the conceptual breakdown of the system?",
   "ID" : "_2021x_2_8710274_1674576758828_494985_23322",
   "ConcernsViewpoints" : [ {
-    "Name" : "Logical Structure Definition Viewpoint",
+    "Name" : "System Structure Definition Viewpoint",
     "ID" : "_19_0_2_26f0132_1562303526536_284838_92559"
   } ]
 }, {
@@ -406,13 +406,13 @@
 }, {
   "Documentation" : "",
   "Owner" : "requirement",
-  "Name" : "Which requirements apply to a logical interface?",
+  "Name" : "Which requirements apply to a coinceptual interface?",
   "ID" : "_2021x_2_8710274_1674576758878_612030_23357",
   "ConcernsViewpoints" : [ {
     "Name" : "System Context Exchange Viewpoint",
     "ID" : "_19_0_4_6d8019d_1618060963677_605184_292"
   }, {
-    "Name" : "Logical Internal Exchange Viewpoint",
+    "Name" : "System Internal Exchange Viewpoint",
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311"
   } ]
 }, {
@@ -448,9 +448,6 @@
   "Name" : "Which standards, protocols, and format specifications apply to a physical interface?",
   "ID" : "_2021x_2_8710274_1674576758891_215548_23373",
   "ConcernsViewpoints" : [ {
-    "Name" : "System Interface Definition Viewpoint",
-    "ID" : "_2021x_2_8710274_1676723513864_806117_26880"
-  }, {
     "Name" : "Physical Context Exchange Viewpoint",
     "ID" : "_19_0_2_26f0132_1562303526536_79296_92554"
   }, {
@@ -565,13 +562,13 @@
 }, {
   "Documentation" : "",
   "Owner" : "interaction",
-  "Name" : "What are the items exchanged between logical system elements during an interaction?",
+  "Name" : "What are the items exchanged between conceptual system elements during an interaction?",
   "ID" : "_2021x_2_8710274_1674576758991_165534_23433",
   "ConcernsViewpoints" : [ {
-    "Name" : "Logical Internal Interaction Viewpoint",
+    "Name" : "System Internal Interaction Viewpoint",
     "ID" : "_19_0_2_26f0132_1576222951495_184664_54882"
   }, {
-    "Name" : "Logical Internal Exchange Viewpoint",
+    "Name" : "System Internal Exchange Viewpoint",
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311"
   } ]
 }, {
@@ -700,7 +697,7 @@
 }, {
   "Documentation" : "",
   "Owner" : "exchange & interface",
-  "Name" : "Which are the protocols used for exchanging information?",
+  "Name" : "Which are the protocol definitions used for exchanging information?",
   "ID" : "_2021x_2_8710274_1674576759093_319282_23509",
   "ConcernsViewpoints" : [ {
     "Name" : "Physical Interface Definition Viewpoint",
@@ -715,16 +712,16 @@
     "Name" : "System Context Interaction Viewpoint",
     "ID" : "_19_0_4_26f0132_1626790419043_61789_443"
   }, {
-    "Name" : "Logical Internal Interaction Viewpoint",
+    "Name" : "System Internal Interaction Viewpoint",
     "ID" : "_19_0_2_26f0132_1576222951495_184664_54882"
   } ]
 }, {
   "Documentation" : "",
   "Owner" : "traceability & mapping",
-  "Name" : "Which functions are allocated to which parts of the logical architecture?",
+  "Name" : "Which functions are allocated to which parts of the conceptual architecture?",
   "ID" : "_2021x_2_8710274_1674576759104_328839_23526",
   "ConcernsViewpoints" : [ {
-    "Name" : "Logical Functional Mapping Viewpoint",
+    "Name" : "System Function Mapping Viewpoint",
     "ID" : "_19_0_2_26f0132_1575539296547_649713_56759"
   } ]
 }, {
@@ -816,18 +813,6 @@
   } ]
 }, {
   "Documentation" : "",
-  "Owner" : "exchange & interface",
-  "Name" : "Which are the protocols for exchanging physical items on a specific interface?",
-  "ID" : "_2021x_2_8710274_1674576759247_884832_23642",
-  "ConcernsViewpoints" : [ {
-    "Name" : "Physical Context Exchange Viewpoint",
-    "ID" : "_19_0_2_26f0132_1562303526536_79296_92554"
-  }, {
-    "Name" : "Physical Internal Exchange Viewpoint",
-    "ID" : "_2021x_2_8710274_1674680950433_310726_23659"
-  } ]
-}, {
-  "Documentation" : "",
   "Owner" : "functional",
   "Name" : "What operational process activities shall be executed during the execution of an operational story?",
   "ID" : "_2021x_2_8710274_1674576759250_575950_23644",
@@ -856,7 +841,7 @@
 }, {
   "Documentation" : "",
   "Owner" : "exchange & interface",
-  "Name" : "Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the system?",
+  "Name" : "Which kind of physical items (energy, material, information, etc.) are defined for the physical architecture of the system?",
   "ID" : "_2021x_2_8710274_1697542838788_945785_24608",
   "ConcernsViewpoints" : [ {
     "Name" : "Physical Exchange Type Definition Viewpoint",
@@ -874,7 +859,7 @@
 }, {
   "Documentation" : "",
   "Owner" : "traceability & mapping",
-  "Name" : "Which logical elements are allocated to which physical elements?",
+  "Name" : "Which conceptual elements are allocated to which physical elements?",
   "ID" : "_2021x_2_8710274_1698399385413_529894_33129",
   "ConcernsViewpoints" : [ {
     "Name" : "Physical Logical Mapping Viewpoint",
@@ -913,16 +898,7 @@
 }, {
   "Documentation" : "",
   "Owner" : "exchange & interface",
-  "Name" : "what are the interface definitions for physical elements",
-  "ID" : "_2021x_2_8710274_1698695217112_237670_48715",
-  "ConcernsViewpoints" : [ {
-    "Name" : "Physical Interface Definition Viewpoint",
-    "ID" : "_2021x_2_8710274_1695205330608_177015_24335"
-  } ]
-}, {
-  "Documentation" : "",
-  "Owner" : "exchange & interface",
-  "Name" : "Which are the interface definitions for the logical architecture?",
+  "Name" : "Which are the interface definitions for the conceptual architecture?",
   "ID" : "_2021x_2_8710274_1698695260372_8568_48717",
   "ConcernsViewpoints" : [ {
     "Name" : "System Interface Definition Viewpoint",
@@ -1300,11 +1276,11 @@
   "Name" : "From which conceptual item (energy, material, information) is a physical item derived?",
   "ID" : "_2024x_3_26f0132_1758917108502_438726_3067",
   "ConcernsViewpoints" : [ {
-    "Name" : "Physical Logical Item Mapping Viewpoint",
-    "ID" : "_2021x_2_8710274_1698415722718_711881_60045"
-  }, {
     "Name" : "Physical Exchange Type Definition Viewpoint",
     "ID" : "_2024x_3_26f0132_1758913515809_605410_39"
+  }, {
+    "Name" : "Physical Logical Item Mapping Viewpoint",
+    "ID" : "_2021x_2_8710274_1698415722718_711881_60045"
   } ]
 }, {
   "Documentation" : "",

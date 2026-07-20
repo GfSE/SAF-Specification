@@ -112,7 +112,7 @@
     "Concern" : "Which is the operational scenario, i.e., course of action, for the mission and the context in which the system of systems solution will exist?"
   }, {
     "Rationale" : "In my role, I use them as basis for understanding interfaces on conceptual level.",
-    "Concern" : "Which kind of conceptual items (energy, material, information, etc.)  are used in the logical architecture of the system?"
+    "Concern" : "Which kind of conceptual items (energy, material, information, etc.)  are used in the conceptual architecture of the system?"
   }, {
     "Rationale" : "",
     "Concern" : "Which kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?"
@@ -239,7 +239,7 @@
     "Concern" : "Which is the operational scenario, i.e., course of action, for the mission and the context in which the system of systems solution will exist?"
   }, {
     "Rationale" : "In my role, I use them as basis for understanding interfaces on conceptual level.",
-    "Concern" : "Which kind of conceptual items (energy, material, information, etc.)  are used in the logical architecture of the system?"
+    "Concern" : "Which kind of conceptual items (energy, material, information, etc.)  are used in the conceptual architecture of the system?"
   }, {
     "Rationale" : "",
     "Concern" : "Which kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?"
@@ -353,32 +353,29 @@
     "Rationale" : "In my role, I need to implement the interface.",
     "Concern" : "Which are the interface definitions for the physical architecture?"
   }, {
-    "Rationale" : "In my role, I need to implement the protocol.",
-    "Concern" : "Which are the protocols for exchanging physical items on a specific interface?"
+    "Rationale" : "In my role, as design authority I have to ensure that the HW Element fulfills the allocated logical concept (specification).",
+    "Concern" : "Which conceptual elements are allocated to which physical elements?"
   }, {
     "Rationale" : "In my role, I need to understand the concepts of system internal interfaces  in order to implement them.",
     "Concern" : "Which conceptual items (energy, material, information, etc.) are exchanged within the system?"
   }, {
     "Rationale" : "In my role, I need to take this into account when planning implementation.",
-    "Concern" : "Which functions are allocated to which parts of the logical architecture?"
+    "Concern" : "Which functions are allocated to which parts of the conceptual architecture?"
   }, {
     "Rationale" : "In my role, I need to provide qualified feedback on how my how the sub-functions assigned to my subsystem contributes to the function of the system.",
     "Concern" : "Which functions will the system provide?"
   }, {
     "Rationale" : "In my role, I must derive interface design from them.",
-    "Concern" : "Which kind of conceptual items (energy, material, information, etc.)  are used in the logical architecture of the system?"
+    "Concern" : "Which kind of conceptual items (energy, material, information, etc.)  are used in the conceptual architecture of the system?"
   }, {
     "Rationale" : "In my role, I need to understand the concepts of external interfaces to external partners in order to implement them.",
     "Concern" : "Which kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?"
   }, {
     "Rationale" : "In my role, I must use these in interface design.",
-    "Concern" : "Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the system?"
+    "Concern" : "Which kind of physical items (energy, material, information, etc.) are defined for the physical architecture of the system?"
   }, {
     "Rationale" : "In my role, I need to implement the interfaces in my HW subsystem, if necessary.",
     "Concern" : "Which kind of physical items (energy, material, information, etc.) are used on an interface of a physical architecture element?"
-  }, {
-    "Rationale" : "In my role, as design authority I have to ensure that the HW Element fulfills the allocated logical concept (specification).",
-    "Concern" : "Which logical elements are allocated to which physical elements?"
   }, {
     "Rationale" : "In my role, I need to know which system modes and states my subsystem must support.",
     "Concern" : "Which modes and states does the system have?"
@@ -466,8 +463,8 @@
     "Rationale" : "In my role, I need to integrate and test the interfaces.",
     "Concern" : "Which are the external physical entities the system interacts with in the given context?"
   }, {
-    "Rationale" : "In my role, I need to integrate and test the interface.",
-    "Concern" : "Which are the protocols for exchanging physical items on a specific interface?"
+    "Rationale" : "In my role, I have to plan IV&V activities to evaluate the Physical Element as unit under test against the logical concept (specification).",
+    "Concern" : "Which conceptual elements are allocated to which physical elements?"
   }, {
     "Rationale" : "In my role, I need to integrate and test the interfaces.",
     "Concern" : "Which conceptual items (energy, material, information, etc.) are exchanged within the system?"
@@ -489,9 +486,6 @@
   }, {
     "Rationale" : "In my role, I need to  test the interface.",
     "Concern" : "Which kind of physical items (energy, material, information, etc.) are used on an interface of a physical architecture element?"
-  }, {
-    "Rationale" : "In my role, I have to plan IV&V activities to evaluate the Physical Element as unit under test against the logical concept (specification).",
-    "Concern" : "Which logical elements are allocated to which physical elements?"
   }, {
     "Rationale" : "In my role, I need to understand the system in order to put it into operation.",
     "Concern" : "Which modes and states does the system have?"
@@ -554,11 +548,11 @@
     "Rationale" : "In my role, I need to implement the interface.",
     "Concern" : "Which are the interface definitions for the physical architecture?"
   }, {
+    "Rationale" : "In my role, as design authority I have to ensure that the Physical Element fulfills the allocated logical concept (specification).",
+    "Concern" : "Which conceptual elements are allocated to which physical elements?"
+  }, {
     "Rationale" : "In my role, I need to implement the interfaces in my mechanical subsystem, if necessary.",
     "Concern" : "Which kind of physical items (energy, material, information, etc.) are used on an interface of a physical architecture element?"
-  }, {
-    "Rationale" : "In my role, as design authority I have to ensure that the Physical Element fulfills the allocated logical concept (specification).",
-    "Concern" : "Which logical elements are allocated to which physical elements?"
   }, {
     "Rationale" : "In my role, I need to know the applicable standards during implementation..",
     "Concern" : "Which standards, guidance, and policy are applicable to the system of interest or its system elements and their interfaces and interactions?"
@@ -901,7 +895,7 @@
     "Concern" : "How are safety features verified?"
   }, {
     "Rationale" : "In my role, I use them as basis for understanding interfaces on logical level.",
-    "Concern" : "How do the logical system elements interact to provide the system functions?"
+    "Concern" : "How do the conceptual system elements interact to provide the system functions?"
   }, {
     "Rationale" : "",
     "Concern" : "How do the physical system elements interact to provide the system function?"
@@ -976,13 +970,13 @@
     "Concern" : "Which interface partners does the system have?"
   }, {
     "Rationale" : "In my role, I use them as basis for understanding interfaces on conceptual level.",
-    "Concern" : "Which kind of conceptual items (energy, material, information, etc.)  are used in the logical architecture of the system?"
+    "Concern" : "Which kind of conceptual items (energy, material, information, etc.)  are used in the conceptual architecture of the system?"
   }, {
     "Rationale" : "",
     "Concern" : "Which kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?"
   }, {
     "Rationale" : "In my role, I use them as basis for understanding interfaces on design level.",
-    "Concern" : "Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the system?"
+    "Concern" : "Which kind of physical items (energy, material, information, etc.) are defined for the physical architecture of the system?"
   }, {
     "Rationale" : "",
     "Concern" : "Which modes and states does the system have?"
@@ -1011,7 +1005,7 @@
     "Concern" : "How do physical system elements interact to provide system functions?"
   }, {
     "Rationale" : "In my role, I use them as basis for understanding interfaces on logical level.",
-    "Concern" : "How do the logical system elements interact to provide the system functions?"
+    "Concern" : "How do the conceptual system elements interact to provide the system functions?"
   }, {
     "Rationale" : "",
     "Concern" : "How do the physical system elements interact to provide the system function?"
@@ -1079,11 +1073,8 @@
     "Rationale" : "",
     "Concern" : "What shall be validated to the customer at system level?"
   }, {
-    "Rationale" : "In my role, I need to assess the security on the interface.",
-    "Concern" : "Which are the protocols for exchanging physical items on a specific interface?"
-  }, {
     "Rationale" : "In my role, I need to assess the security based on protocol usage in general.",
-    "Concern" : "Which are the protocols used for exchanging information?"
+    "Concern" : "Which are the protocol definitions used for exchanging information?"
   }, {
     "Rationale" : "I my role, I need to know the attack paths to analyse ways an attacker can use to reach the asset.",
     "Concern" : "Which attack paths exists? "
@@ -1101,13 +1092,13 @@
     "Concern" : "Which interface partners does the system have?"
   }, {
     "Rationale" : "In my role, I use them as basis for understanding interfaces on conceptual level.",
-    "Concern" : "Which kind of conceptual items (energy, material, information, etc.)  are used in the logical architecture of the system?"
+    "Concern" : "Which kind of conceptual items (energy, material, information, etc.)  are used in the conceptual architecture of the system?"
   }, {
     "Rationale" : "",
     "Concern" : "Which kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?"
   }, {
     "Rationale" : "In my role, I use them as basis for understanding interfaces on design level.",
-    "Concern" : "Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the system?"
+    "Concern" : "Which kind of physical items (energy, material, information, etc.) are defined for the physical architecture of the system?"
   }, {
     "Rationale" : "",
     "Concern" : "Which modes and states does the system have?"
@@ -1201,8 +1192,8 @@
     "Rationale" : "In my role, I need to implement the interface.",
     "Concern" : "Which are the interface definitions for the physical architecture?"
   }, {
-    "Rationale" : "In my role, I need to implement the protocol.",
-    "Concern" : "Which are the protocols for exchanging physical items on a specific interface?"
+    "Rationale" : "In my role, as design authority I have to ensure that the SW Element fulfills the allocated logical concept (specification).",
+    "Concern" : "Which conceptual elements are allocated to which physical elements?"
   }, {
     "Rationale" : "In my role, I need to understand the concepts of system internal interfaces  in order to implement them.",
     "Concern" : "Which conceptual items (energy, material, information, etc.) are exchanged within the system?"
@@ -1211,7 +1202,7 @@
     "Concern" : "Which functions and services need to be implemented in SW?"
   }, {
     "Rationale" : "In my role, I need to take this into account when planning implementation.",
-    "Concern" : "Which functions are allocated to which parts of the logical architecture?"
+    "Concern" : "Which functions are allocated to which parts of the conceptual architecture?"
   }, {
     "Rationale" : "In my role, I need to provide qualified feedback on how my how the sub-functions assigned to my subsystem contributes to the function of the system.",
     "Concern" : "Which functions will the system provide?"
@@ -1220,19 +1211,16 @@
     "Concern" : "Which interface partners does a SW item have?"
   }, {
     "Rationale" : "In my role, I must derive interface design from them.",
-    "Concern" : "Which kind of conceptual items (energy, material, information, etc.)  are used in the logical architecture of the system?"
+    "Concern" : "Which kind of conceptual items (energy, material, information, etc.)  are used in the conceptual architecture of the system?"
   }, {
     "Rationale" : "In my role, I need to understand the concepts of external interfaces to external partners in order to implement them.",
     "Concern" : "Which kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?"
   }, {
     "Rationale" : "In my role, I must use these in interface design.",
-    "Concern" : "Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the system?"
+    "Concern" : "Which kind of physical items (energy, material, information, etc.) are defined for the physical architecture of the system?"
   }, {
     "Rationale" : "In my role, I need to implement the interfaces in my SW subsystem, if necessary.",
     "Concern" : "Which kind of physical items (energy, material, information, etc.) are used on an interface of a physical architecture element?"
-  }, {
-    "Rationale" : "In my role, as design authority I have to ensure that the SW Element fulfills the allocated logical concept (specification).",
-    "Concern" : "Which logical elements are allocated to which physical elements?"
   }, {
     "Rationale" : "In my role, I need to know which system modes and states my subsystem must support.",
     "Concern" : "Which modes and states does the system have?"
@@ -1302,7 +1290,7 @@
     "Concern" : "For what purpose is the system developed or adapted?"
   }, {
     "Rationale" : "",
-    "Concern" : "Have the logical decomposition guidelines been followed?"
+    "Concern" : "Have the conceptual decomposition guidelines been followed?"
   }, {
     "Rationale" : "",
     "Concern" : "How are applicable requirements considered in the system architecture?"
@@ -1314,7 +1302,7 @@
     "Concern" : "How do physical system elements interact to provide system functions?"
   }, {
     "Rationale" : "In my role, I need to coordinate internal interfaces with internal subsystem partners.",
-    "Concern" : "How do the logical system elements interact to provide the system functions?"
+    "Concern" : "How do the conceptual system elements interact to provide the system functions?"
   }, {
     "Rationale" : "",
     "Concern" : "How do the physical system elements interact to provide the system function?"
@@ -1410,6 +1398,9 @@
     "Concern" : "What is the breakdown of functions into sub-functions?"
   }, {
     "Rationale" : "",
+    "Concern" : "What is the conceptual breakdown of the system?"
+  }, {
+    "Rationale" : "",
     "Concern" : "What is the configuration or version of each configuration item?"
   }, {
     "Rationale" : "",
@@ -1423,9 +1414,6 @@
   }, {
     "Rationale" : "",
     "Concern" : "What is the lack / deficiency / gap in current capability implementation that is addressed with the intended solution?"
-  }, {
-    "Rationale" : "",
-    "Concern" : "What is the logical breakdown of the system?"
   }, {
     "Rationale" : "In my role, I need to delegate the implementation of sub-function in physical subsystems (HW/SW/...).",
     "Concern" : "What is the mapping of functions to the physical SOI physical architecture?"
@@ -1491,22 +1479,22 @@
     "Concern" : "Which are the given contexts the system is embedded and utilized in?"
   }, {
     "Rationale" : "In my role, I need to orchestrate interface agreements between the system and external interface partners",
-    "Concern" : "Which are the interface definitions for the logical architecture?"
+    "Concern" : "Which are the interface definitions for the conceptual architecture?"
   }, {
     "Rationale" : "In my role, I need to orchestrate interface agreements between the system and external interface partners",
     "Concern" : "Which are the interface definitions for the physical architecture?"
   }, {
-    "Rationale" : "In my role, I need to asses if the usage of protocols on interfaces is compatible with the system lifecyle concepts.",
-    "Concern" : "Which are the protocols for exchanging physical items on a specific interface?"
-  }, {
     "Rationale" : "In my role, I need to validate if they fit the purpose of the system and conform the systems concepts",
-    "Concern" : "Which are the protocols used for exchanging information?"
+    "Concern" : "Which are the protocol definitions used for exchanging information?"
   }, {
     "Rationale" : "i need to record them in the project baseline-",
     "Concern" : "Which are the relevant releases of the applicable standards, guidance, and policy to be used for the development of the system of interest and its system elements?"
   }, {
     "Rationale" : "In my role, I need to design and implement security measures in the security architecture.",
     "Concern" : "Which attack paths exists? "
+  }, {
+    "Rationale" : "In my role, I have to check that all aspects of the logical concept (specification) are allocated to physical elements (with assigned design authorities).",
+    "Concern" : "Which conceptual elements are allocated to which physical elements?"
   }, {
     "Rationale" : "In my role, I use them as basis for understanding interfaces on logical level.",
     "Concern" : "Which conceptual items (energy, material, information, etc.) are exchanged within the system?"
@@ -1521,7 +1509,7 @@
     "Concern" : "Which element of a system model represents the same entity as an other element of the enterprise architecture model?"
   }, {
     "Rationale" : "",
-    "Concern" : "Which functions are allocated to which parts of the logical architecture?"
+    "Concern" : "Which functions are allocated to which parts of the conceptual architecture?"
   }, {
     "Rationale" : "In my role, I need to break these down further to be able to delegate sub-functions to subsystems.",
     "Concern" : "Which functions will the system provide?"
@@ -1542,22 +1530,19 @@
     "Concern" : "Which is the operational scenario, i.e., course of action, for the mission and the context in which the system of systems solution will exist?"
   }, {
     "Rationale" : "In my role, I want to foster reuse of system wide concept definitions within the architecture design.",
-    "Concern" : "Which kind of conceptual items (energy, material, information, etc.)  are used in the logical architecture of the system?"
+    "Concern" : "Which kind of conceptual items (energy, material, information, etc.)  are used in the conceptual architecture of the system?"
   }, {
     "Rationale" : "In my role, I need to coordinate external interfaces with external partners.",
     "Concern" : "Which kind of conceptual items (energy, material, information, etc.) are exchanged between the system and external entities?"
   }, {
+    "Rationale" : "In my role, I have to foster reuse of system wide concept definitions within the architecture design.",
+    "Concern" : "Which kind of physical items (energy, material, information, etc.) are defined for the physical architecture of the system?"
+  }, {
     "Rationale" : "In my role, I need to orchestrate interface agreements between the system and external interface partners.",
     "Concern" : "Which kind of physical items (energy, material, information, etc.) are exchanged between the system and external entities?"
   }, {
-    "Rationale" : "In my role, I have to foster reuse of system wide concept definitions within the architecture design.",
-    "Concern" : "Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the system?"
-  }, {
     "Rationale" : "In my role, I orchestrate interface agreements between architecture elements, and between the system and elements of the system context.",
     "Concern" : "Which kind of physical items (energy, material, information, etc.) are used on an interface of a physical architecture element?"
-  }, {
-    "Rationale" : "In my role, I have to check that all aspects of the logical concept (specification) are allocated to physical elements (with assigned design authorities).",
-    "Concern" : "Which logical elements are allocated to which physical elements?"
   }, {
     "Rationale" : "In my role, I need to understand the required system behavior in order to further design the system.",
     "Concern" : "Which modes and states does the system have?"

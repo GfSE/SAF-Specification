@@ -26,16 +26,15 @@ See the [SAF grid](../index.md#saf-grid)
 
 ### Domains follow engineering workflow
 The [Domains](domains.md) are based on by a typical engineering workflow. 
- * The [Common Domain](common.md) contains workflow overarching content such as Terms and Standards. 
+ * The [Architecture Management Domain](archfound.md) contains workflow overarching content such as Terms and Standards. 
  * The [Operational Domain](operational.md) addresses information need during the Business and Mission Analysis Process and Stakeholder Needs and Requirements Definition Process
- * The [Functional Domain](functional.md) addresses information needs during the System Requirements Definition Process (The System blackbox on a conceptual level)
- * The [Logical Domain](logical.md) adresses information needs during the Architecture Definition Process (the System Whitebox on conceptual level)
- * The [Physical Domain](physical.md) adresses information needs during the Design Definition Process (the System Black Box and Whitebox on solution / design level)
+ * The [Conceptual Domain](conceptual.md) addresses information needs during the System Requiements Definition Process (The conceptualk System blackbox ) and information needs during the Architecture Definition Process (the conceptual System Whitebox)
+ * The [Physical Domain](physical.md) adresses information needs during the Design Definition Process (System Black Box and Whitebox on solution / design level)
 
 ### Aspects follow kinds of concerns
 The  [Aspects](aspects.md) are oriented by the kind of information needs, e.g. questions about structure are answered by viewpoints in the taxonomy and structure aspect. Typically similar kinds of questions need to be answered in multiple domains, hence the organisation of grid columns.
 
-![SAF Grid](../assets/images/SAF_Viewpoint-Grid-Structuring-Formalism.svg)
+{% include grid.html %}
 
 
 ## Recursive Application of the Framework due to System decomposition

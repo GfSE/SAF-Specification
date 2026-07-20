@@ -3,7 +3,7 @@
         <th></th>
         {% for asp in site.data.aspects | sort: AspectID %}
         <th>
-            <A href="./userdoc/aspects.html#{{ asp.ID}}">Aspect<BR>{{ asp.Name }}</A>
+            <A href="{{ site.baseurl }}/userdoc/aspects.html#{{ asp.ID}}">Aspect<BR>{{ asp.Name }}</A>
         </th>
         {% endfor %}
     </tr>
@@ -12,18 +12,76 @@
     {% assign dom= site.data.domains | where : "DomainID", dc.DomainID %}
     {% assign dom_vp= site.data.viewpoints | where: "Domain", dom.first.Name %}
     <tr class="SAF_Domain_{{ dc.DomainID }}">
-        <td><A href="./userdoc/domains.html#{{ dom.first.ID}}">{{ dom.first.Name }}<BR>Domain</A></td>
+        <td><A href="{{ site.baseurl }}/userdoc/domains.html#{{ dom.first.ID}}">{{ dom.first.Name }}<BR>Domain</A></td>
         {% for asp in site.data.aspects %}
-        {% assign asp_vp= dom_vp | where: "Aspect", asp.Name %}
-        <td>{% for vp in asp_vp %} 
-            <div class="tooltip">
-                {% if vp.Domain == "SAF Development" -%}
-                <A href="./devdoc/{{ vp.Domain }} Domain/{{ vp.Name }}.html" >{{vp.VP_ID}}<span class="tooltiptext">{{ vp.Name }}</span></A>
-                {% else %}
-                <A href="./userdoc/{{ vp.Domain }} Domain/{{ vp.Name }}.html">{{vp.VP_ID}}<span class="tooltiptext">{{ vp.Name }}</span></A>
-                {% endif %}
+        {% assign asp_vp_bb= dom_vp | where: "Aspect", asp.Name | where: "Exposure", "BlackBox" %}
+        {% assign asp_vp_wb= dom_vp | where: "Aspect", asp.Name | where: "Exposure", "WhiteBox" %}
+        {% assign asp_vp_bbwb= dom_vp | where: "Aspect", asp.Name | where: "Exposure", "Both" %}
+        {% assign asp_vp_na= dom_vp | where: "Aspect", asp.Name | where: "Exposure", "NotApplicable" %}
+                
+
+        <td>
+            {% if asp_vp_bb.size > 0 %}
+            <div class="blackbox">
+                {{ vp.Exposure }}
+                {% for vp in asp_vp_bb %}
+                <div class="tooltip">
+                    {% if vp.Domain == "SAF Development" -%}
+                    <A href="{{ site.baseurl }}/devdoc/{{ vp.Domain }} Domain/{{ vp.Name }}.html">{{vp.VP_ID}}<span
+                            class="tooltiptext">{{ vp.Name }}</span></A>
+                    {% else %}
+                    <A href="{{ site.baseurl }}/userdoc/{{ vp.Domain }} Domain/{{ vp.Name }}.html">{{vp.VP_ID}}<span
+                            class="tooltiptext">{{ vp.Name }}</span></A>
+                    {% endif %}
+                </div>
+                {% endfor %}
             </div>
-             {% unless forloop.last %}<BR> {% endunless %} {% endfor %}</td>
+            {% endif %}
+
+            {% if asp_vp_wb.size > 0 %}
+            <div class="whitebox">
+                {{ vp.Exposure }}
+                {% for vp in asp_vp_wb %}
+                <div class="tooltip">
+                    {% if vp.Domain == "SAF Development" -%}
+                    <A href="{{ site.baseurl }}/devdoc/{{ vp.Domain }} Domain/{{ vp.Name }}.html">{{vp.VP_ID}}<span
+                            class="tooltiptext">{{ vp.Name }}</span></A>
+                    {% else %}
+                    <A href="{{ site.baseurl }}/userdoc/{{ vp.Domain }} Domain/{{ vp.Name }}.html">{{vp.VP_ID}}<span
+                            class="tooltiptext">{{ vp.Name }}</span></A>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </div>
+            {% endif %}
+
+            {% if asp_vp_bbwb.size > 0 or asp_vp_na.size > 0 %}
+            <div class="na_or_both">
+                {% for vp in asp_vp_bbwb  %}
+                <div class="tooltip">
+                    {% if vp.Domain == "SAF Development" -%}
+                    <A href="{{ site.baseurl }}/devdoc/{{ vp.Domain }} Domain/{{ vp.Name }}.html">{{vp.VP_ID}}<span
+                            class="tooltiptext">{{ vp.Name }}</span></A>
+                    {% else %}
+                    <A href="{{ site.baseurl }}/userdoc/{{ vp.Domain }} Domain/{{ vp.Name }}.html">{{vp.VP_ID}}<span
+                            class="tooltiptext">{{ vp.Name }}</span></A>
+                    {% endif %}
+                </div>
+                {% endfor %}
+                {% for vp in asp_vp_na  %}
+                <div class="tooltip">
+                    {% if vp.Domain == "SAF Development" -%}
+                    <A href="{{ site.baseurl }}/devdoc/{{ vp.Domain }} Domain/{{ vp.Name }}.html">{{vp.VP_ID}}<span
+                            class="tooltiptext">{{ vp.Name }}</span></A>
+                    {% else %}
+                    <A href="{{ site.baseurl }}/userdoc/{{ vp.Domain }} Domain/{{ vp.Name }}.html">{{vp.VP_ID}}<span
+                            class="tooltiptext">{{ vp.Name }}</span></A>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </div>
+            {% endif %}
+        </td>
         {% endfor %}
     </tr>
     {% endfor %}

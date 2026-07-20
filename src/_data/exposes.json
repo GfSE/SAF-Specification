@@ -12,18 +12,6 @@
   }
 }, {
   "Name" : "",
-  "ID" : "_19_0_2_164f041e_1564092118646_840443_52539",
-  "Documentation" : "",
-  "ExposedConcept" : {
-    "ID" : "_19_0_2_26f0132_1558075212525_51415_45174",
-    "Name" : "Logical Context SOI"
-  },
-  "Viewpoint" : {
-    "ID" : "_19_0_2_26f0132_1562303526536_284838_92559",
-    "Name" : "Logical Structure Definition Viewpoint"
-  }
-}, {
-  "Name" : "",
   "ID" : "_19_0_2_26f0132_1560372869959_769442_48878",
   "Documentation" : "",
   "ExposedConcept" : {
@@ -124,11 +112,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_981340_91082",
-    "Name" : "Logical Element Role"
+    "Name" : "Conceptual Internal Role"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1562303526536_284838_92559",
-    "Name" : "Logical Structure Definition Viewpoint"
+    "Name" : "System Structure Definition Viewpoint"
   }
 }, {
   "Name" : "",
@@ -172,11 +160,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
-    "Name" : "System Domain Kind"
+    "Name" : "Conceptual Exchange Type"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1562303526536_778418_92552",
-    "Name" : "System Domain Item Kind Viewpoint"
+    "Name" : "System Exchange Type Definition Viewpoint"
   }
 }, {
   "Name" : "",
@@ -232,11 +220,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
-    "Name" : "Logical Element"
+    "Name" : "Conceptual System"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1562303526536_284838_92559",
-    "Name" : "Logical Structure Definition Viewpoint"
+    "Name" : "System Structure Definition Viewpoint"
   }
 }, {
   "Name" : "",
@@ -448,7 +436,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_8710274_1558534130432_293473_45375",
-    "Name" : "Logical User"
+    "Name" : "Conceptual User"
   },
   "Viewpoint" : {
     "ID" : "_19_0_1_26f0132_1554446728606_740631_45702",
@@ -496,7 +484,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_8710274_1567171243005_813677_60746",
-    "Name" : "Logical Context Element Role"
+    "Name" : "Conceptual Context Element Role"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_8710274_1567167552896_772779_54664",
@@ -520,7 +508,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_8710274_1567171329121_821656_60902",
-    "Name" : "Logical SOI Role"
+    "Name" : "Conceptual SOI Role"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_8710274_1567167552896_772779_54664",
@@ -676,11 +664,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_3_26f0132_1582314602701_812421_56211",
-    "Name" : "Logical Interaction Scenario"
+    "Name" : "Conceptual Interaction Scenario"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1576222951495_184664_54882",
-    "Name" : "Logical Internal Interaction Viewpoint"
+    "Name" : "System Internal Interaction Viewpoint"
   }
 }, {
   "Name" : "",
@@ -688,11 +676,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_3_26f0132_1582315087346_20721_56621",
-    "Name" : "Logical Scenario Participation"
+    "Name" : "Conceptual Scenario Participation"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1576222951495_184664_54882",
-    "Name" : "Logical Internal Interaction Viewpoint"
+    "Name" : "System Internal Interaction Viewpoint"
   }
 }, {
   "Name" : "",
@@ -700,11 +688,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_3_26f0132_1582315257123_533586_56785",
-    "Name" : "Logical Chronological Message"
+    "Name" : "Conceptual Chronological Message"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1576222951495_184664_54882",
-    "Name" : "Logical Internal Interaction Viewpoint"
+    "Name" : "System Internal Interaction Viewpoint"
   }
 }, {
   "Name" : "",
@@ -712,11 +700,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_981340_91082",
-    "Name" : "Logical Element Role"
+    "Name" : "Conceptual Internal Role"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1576222951495_184664_54882",
-    "Name" : "Logical Internal Interaction Viewpoint"
+    "Name" : "System Internal Interaction Viewpoint"
   }
 }, {
   "Name" : "",
@@ -1156,7 +1144,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_3_26f0132_1600783068816_502199_735",
-    "Name" : "Operational Domain Kind"
+    "Name" : "Operational Exchange Type"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1576232878029_619084_56885",
@@ -1432,11 +1420,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_663216_91033",
-    "Name" : "Logical Item Exchange"
+    "Name" : "Conceptual Item Exchange"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   }
 }, {
   "Name" : "",
@@ -1444,11 +1432,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_125039_91041",
-    "Name" : "LIPapplyingToLET"
+    "Name" : "applyingTo"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   }
 }, {
   "Name" : "",
@@ -1456,11 +1444,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_900081_91027",
-    "Name" : "Logical Interaction Point Definition"
+    "Name" : "Conceptual Interaction Point Definition"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   }
 }, {
   "Name" : "",
@@ -1468,11 +1456,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_546931_91032",
-    "Name" : "Logical Interaction Point"
+    "Name" : "Conceptual Interaction Point"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   }
 }, {
   "Name" : "",
@@ -1480,11 +1468,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_980990_91037",
-    "Name" : "Logical Connection"
+    "Name" : "Conceptual Connection"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   }
 }, {
   "Name" : "",
@@ -1492,11 +1480,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
-    "Name" : "Logical Element"
+    "Name" : "Conceptual System"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   }
 }, {
   "Name" : "",
@@ -1528,7 +1516,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_8710274_1567171243005_813677_60746",
-    "Name" : "Logical Context Element Role"
+    "Name" : "Conceptual Context Element Role"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1626790419043_61789_443",
@@ -1552,7 +1540,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_8710274_1567171329121_821656_60902",
-    "Name" : "Logical SOI Role"
+    "Name" : "Conceptual SOI Role"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1626790419043_61789_443",
@@ -1612,7 +1600,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_980990_91037",
-    "Name" : "Logical Connection"
+    "Name" : "Conceptual Connection"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618060963677_605184_292",
@@ -1624,7 +1612,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_125039_91041",
-    "Name" : "LIPapplyingToLET"
+    "Name" : "applyingTo"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618060963677_605184_292",
@@ -1636,7 +1624,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_546931_91032",
-    "Name" : "Logical Interaction Point"
+    "Name" : "Conceptual Interaction Point"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618060963677_605184_292",
@@ -1648,7 +1636,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_663216_91033",
-    "Name" : "Logical Item Exchange"
+    "Name" : "Conceptual Item Exchange"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618060963677_605184_292",
@@ -1660,7 +1648,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_849218_91042",
-    "Name" : "LIPapplyingToLCE"
+    "Name" : "applyingTo"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618060963677_605184_292",
@@ -1672,7 +1660,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_900081_91027",
-    "Name" : "Logical Interaction Point Definition"
+    "Name" : "Conceptual Interaction Point Definition"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618060963677_605184_292",
@@ -1684,7 +1672,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_8710274_1567171329121_821656_60902",
-    "Name" : "Logical SOI Role"
+    "Name" : "Conceptual SOI Role"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618060963677_605184_292",
@@ -1696,7 +1684,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1558075086129_173532_44926",
-    "Name" : "Logical System Context"
+    "Name" : "Conceptual System Context"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618060963677_605184_292",
@@ -1708,7 +1696,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_8710274_1567171243005_813677_60746",
-    "Name" : "Logical Context Element Role"
+    "Name" : "Conceptual Context Element Role"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618060963677_605184_292",
@@ -1720,7 +1708,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1558075062569_130489_44874",
-    "Name" : "Logical External System"
+    "Name" : "Conceptual External System"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
@@ -1732,7 +1720,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_8710274_1558534130432_293473_45375",
-    "Name" : "Logical User"
+    "Name" : "Conceptual User"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
@@ -1744,7 +1732,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_8710274_1567171243005_813677_60746",
-    "Name" : "Logical Context Element Role"
+    "Name" : "Conceptual Context Element Role"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
@@ -1756,7 +1744,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1558075086129_173532_44926",
-    "Name" : "Logical System Context"
+    "Name" : "Conceptual System Context"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
@@ -1768,19 +1756,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_8710274_1567171329121_821656_60902",
-    "Name" : "Logical SOI Role"
-  },
-  "Viewpoint" : {
-    "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
-    "Name" : "System Context Definition Viewpoint"
-  }
-}, {
-  "Name" : "",
-  "ID" : "_19_0_4_6d8019d_1618589543904_745831_314",
-  "Documentation" : "",
-  "ExposedConcept" : {
-    "ID" : "_19_0_2_26f0132_1558075212525_51415_45174",
-    "Name" : "Logical Context SOI"
+    "Name" : "Conceptual SOI Role"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
@@ -1792,7 +1768,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303989622_501728_139950",
-    "Name" : "Logical Environment"
+    "Name" : "Conceptual Environment"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
@@ -1804,7 +1780,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1558075062569_130489_44874",
-    "Name" : "Logical External System"
+    "Name" : "Conceptual External System"
   },
   "Viewpoint" : {
     "ID" : "_19_0_1_26f0132_1554446728606_740631_45702",
@@ -1816,7 +1792,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303989622_501728_139950",
-    "Name" : "Logical Environment"
+    "Name" : "Conceptual Environment"
   },
   "Viewpoint" : {
     "ID" : "_19_0_1_26f0132_1554446728606_740631_45702",
@@ -1972,7 +1948,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_546931_91032",
-    "Name" : "Logical Interaction Point"
+    "Name" : "Conceptual Interaction Point"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1565093441772_728957_49328",
@@ -2020,7 +1996,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_3_26f0132_1600783068816_502199_735",
-    "Name" : "Operational Domain Kind"
+    "Name" : "Operational Exchange Type"
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_8710274_1581675958756_500127_50979",
@@ -2036,7 +2012,7 @@
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1562303526536_778418_92552",
-    "Name" : "System Domain Item Kind Viewpoint"
+    "Name" : "System Exchange Type Definition Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2044,11 +2020,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_3_26f0132_1600783068816_502199_735",
-    "Name" : "Operational Domain Kind"
+    "Name" : "Operational Exchange Type"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1631280350392_855780_562",
-    "Name" : "Operational Domain Item Kind Viewpoint"
+    "Name" : "Operational Exchange Type Definition Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2060,7 +2036,7 @@
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1631280350392_855780_562",
-    "Name" : "Operational Domain Item Kind Viewpoint"
+    "Name" : "Operational Exchange Type Definition Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2264,7 +2240,7 @@
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
-    "Name" : "Logical Functional Mapping Viewpoint"
+    "Name" : "System Function Mapping Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2276,7 +2252,7 @@
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
-    "Name" : "Logical Functional Mapping Viewpoint"
+    "Name" : "System Function Mapping Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2312,7 +2288,7 @@
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
-    "Name" : "Logical Functional Mapping Viewpoint"
+    "Name" : "System Function Mapping Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2644,7 +2620,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_349234_91039",
-    "Name" : "LIPDdefiningDetailOfLIP"
+    "Name" : "defining"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676723513864_806117_26880",
@@ -2656,7 +2632,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_546931_91032",
-    "Name" : "Logical Interaction Point"
+    "Name" : "Conceptual Interaction Point"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676723513864_806117_26880",
@@ -2668,11 +2644,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303522067_850826_89482",
-    "Name" : "LCNallowingLIE"
+    "Name" : "allowing"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2684,7 +2660,7 @@
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
-    "Name" : "Logical Functional Mapping Viewpoint"
+    "Name" : "System Function Mapping Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2692,11 +2668,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_980387_91029",
-    "Name" : "Logical Interaction Point Property"
+    "Name" : "Conceptual Interaction Point Property"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2704,11 +2680,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
-    "Name" : "System Domain Kind"
+    "Name" : "Conceptual Exchange Type"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2716,11 +2692,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_349234_91039",
-    "Name" : "LIPDdefiningDetailOfLIP"
+    "Name" : "defining"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2732,7 +2708,7 @@
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2740,11 +2716,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_770729_91040",
-    "Name" : "LIPPspecifyingDetailOfLIPD"
+    "Name" : "specifyingDetailOf"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2756,7 +2732,7 @@
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2788,7 +2764,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_482464_91025",
-    "Name" : "Physical Exchange Kind"
+    "Name" : "Physical Exchange Type"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1674680950433_310726_23659",
@@ -2944,11 +2920,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
-    "Name" : "Logical Element"
+    "Name" : "Conceptual System"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
-    "Name" : "Logical Functional Mapping Viewpoint"
+    "Name" : "System Function Mapping Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2956,11 +2932,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_981340_91082",
-    "Name" : "Logical Element Role"
+    "Name" : "Conceptual Internal Role"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
-    "Name" : "Logical Functional Mapping Viewpoint"
+    "Name" : "System Function Mapping Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2972,7 +2948,7 @@
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
-    "Name" : "Logical Functional Mapping Viewpoint"
+    "Name" : "System Function Mapping Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2992,7 +2968,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
-    "Name" : "Logical Element"
+    "Name" : "Conceptual System"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676724435544_523379_27331",
@@ -3076,7 +3052,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_900081_91027",
-    "Name" : "Logical Interaction Point Definition"
+    "Name" : "Conceptual Interaction Point Definition"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676723513864_806117_26880",
@@ -3088,7 +3064,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_980387_91029",
-    "Name" : "Logical Interaction Point Property"
+    "Name" : "Conceptual Interaction Point Property"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676723513864_806117_26880",
@@ -3100,7 +3076,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
-    "Name" : "System Domain Kind"
+    "Name" : "Conceptual Exchange Type"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676723513864_806117_26880",
@@ -3124,7 +3100,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_770729_91040",
-    "Name" : "LIPPspecifyingDetailOfLIPD"
+    "Name" : "specifyingDetailOf"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676723513864_806117_26880",
@@ -3148,7 +3124,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_482464_91025",
-    "Name" : "Physical Exchange Kind"
+    "Name" : "Physical Exchange Type"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1695205330608_177015_24335",
@@ -3496,7 +3472,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_482464_91025",
-    "Name" : "Physical Exchange Kind"
+    "Name" : "Physical Exchange Type"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1698415722718_711881_60045",
@@ -3508,7 +3484,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
-    "Name" : "System Domain Kind"
+    "Name" : "Conceptual Exchange Type"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1698415722718_711881_60045",
@@ -3808,7 +3784,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1558075086129_173532_44926",
-    "Name" : "Logical System Context"
+    "Name" : "Conceptual System Context"
   },
   "Viewpoint" : {
     "ID" : "_19_0_1_26f0132_1554446728606_740631_45702",
@@ -3916,7 +3892,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_981340_91082",
-    "Name" : "Logical Element Role"
+    "Name" : "Conceptual Internal Role"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676724435544_523379_27331",
@@ -4012,7 +3988,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_2024x_26f0132_1719749573029_735591_16107",
-    "Name" : "SECisProvidedByVP"
+    "Name" : "isProvidedBy"
   },
   "Viewpoint" : {
     "ID" : "_2024x_26f0132_1719735523519_523621_24797",
@@ -4024,7 +4000,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_2024x_1_26f0132_1730904149609_844143_17570",
-    "Name" : "SECrelatesToSEC"
+    "Name" : "relatesTo"
   },
   "Viewpoint" : {
     "ID" : "_2024x_26f0132_1719735523519_523621_24797",
@@ -4060,7 +4036,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_2024x_26f0132_1719773960755_475101_34978",
-    "Name" : "PIimplementsSEC"
+    "Name" : "implements"
   },
   "Viewpoint" : {
     "ID" : "_2024x_26f0132_1719735411756_812404_24423",
@@ -4108,7 +4084,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_2024x_26f0132_1719774817697_854148_35615",
-    "Name" : "SSTimplementsVP"
+    "Name" : "implements"
   },
   "Viewpoint" : {
     "ID" : "_2024x_26f0132_1719735411756_812404_24423",
@@ -4132,7 +4108,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_2024x_1_26f0132_1730904149609_844143_17570",
-    "Name" : "SECrelatesToSEC"
+    "Name" : "relatesTo"
   },
   "Viewpoint" : {
     "ID" : "_2024x_26f0132_1719735639175_641082_26522",
@@ -4324,7 +4300,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_482464_91025",
-    "Name" : "Physical Exchange Kind"
+    "Name" : "Physical Exchange Type"
   },
   "Viewpoint" : {
     "ID" : "_2024x_3_26f0132_1758913515809_605410_39",
@@ -4881,5 +4857,17 @@
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1629448496383_291730_10342",
     "Name" : "System Functional Breakdown Structure Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1774095463902_144680_3052",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
+    "Name" : "Conceptual System"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
+    "Name" : "System Context Definition Viewpoint"
   }
 } ]

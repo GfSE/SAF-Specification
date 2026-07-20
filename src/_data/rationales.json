@@ -328,7 +328,7 @@
   "Documentation" : "In my role, I need to take this into account when planning implementation.",
   "Concern" : {
     "ID" : "_2021x_2_8710274_1674576759104_328839_23526",
-    "Name" : "Which functions are allocated to which parts of the logical architecture?"
+    "Name" : "Which functions are allocated to which parts of the conceptual architecture?"
   },
   "Stakeholder" : {
     "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
@@ -340,7 +340,7 @@
   "Documentation" : "In my role, I need to take this into account when planning implementation.",
   "Concern" : {
     "ID" : "_2021x_2_8710274_1674576759104_328839_23526",
-    "Name" : "Which functions are allocated to which parts of the logical architecture?"
+    "Name" : "Which functions are allocated to which parts of the conceptual architecture?"
   },
   "Stakeholder" : {
     "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
@@ -352,7 +352,7 @@
   "Documentation" : "",
   "Concern" : {
     "ID" : "_2021x_2_8710274_1674576759104_328839_23526",
-    "Name" : "Which functions are allocated to which parts of the logical architecture?"
+    "Name" : "Which functions are allocated to which parts of the conceptual architecture?"
   },
   "Stakeholder" : {
     "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
@@ -424,7 +424,7 @@
   "Documentation" : "In my role, I use them as basis for understanding interfaces on conceptual level.",
   "Concern" : {
     "ID" : "_2021x_2_6d8019d_1693308265004_421376_24972",
-    "Name" : "Which kind of conceptual items (energy, material, information, etc.)  are used in the logical architecture of the system?"
+    "Name" : "Which kind of conceptual items (energy, material, information, etc.)  are used in the conceptual architecture of the system?"
   },
   "Stakeholder" : {
     "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
@@ -436,7 +436,7 @@
   "Documentation" : "In my role, I use them as basis for understanding interfaces on conceptual level.",
   "Concern" : {
     "ID" : "_2021x_2_6d8019d_1693308265004_421376_24972",
-    "Name" : "Which kind of conceptual items (energy, material, information, etc.)  are used in the logical architecture of the system?"
+    "Name" : "Which kind of conceptual items (energy, material, information, etc.)  are used in the conceptual architecture of the system?"
   },
   "Stakeholder" : {
     "ID" : "_19_0_2_ebf0350_1554653236737_36605_43554",
@@ -448,7 +448,7 @@
   "Documentation" : "In my role, I use them as basis for understanding interfaces on conceptual level.",
   "Concern" : {
     "ID" : "_2021x_2_6d8019d_1693308265004_421376_24972",
-    "Name" : "Which kind of conceptual items (energy, material, information, etc.)  are used in the logical architecture of the system?"
+    "Name" : "Which kind of conceptual items (energy, material, information, etc.)  are used in the conceptual architecture of the system?"
   },
   "Stakeholder" : {
     "ID" : "_19_0_2_26f0132_1562303526473_410133_92403",
@@ -460,7 +460,7 @@
   "Documentation" : "In my role, I use them as basis for understanding interfaces on conceptual level.",
   "Concern" : {
     "ID" : "_2021x_2_6d8019d_1693308265004_421376_24972",
-    "Name" : "Which kind of conceptual items (energy, material, information, etc.)  are used in the logical architecture of the system?"
+    "Name" : "Which kind of conceptual items (energy, material, information, etc.)  are used in the conceptual architecture of the system?"
   },
   "Stakeholder" : {
     "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
@@ -472,7 +472,7 @@
   "Documentation" : "In my role, I want to foster reuse of system wide concept definitions within the architecture design.",
   "Concern" : {
     "ID" : "_2021x_2_6d8019d_1693308265004_421376_24972",
-    "Name" : "Which kind of conceptual items (energy, material, information, etc.)  are used in the logical architecture of the system?"
+    "Name" : "Which kind of conceptual items (energy, material, information, etc.)  are used in the conceptual architecture of the system?"
   },
   "Stakeholder" : {
     "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
@@ -2656,7 +2656,7 @@
   "Documentation" : "",
   "Concern" : {
     "ID" : "_2021x_2_8710274_1674576758960_734270_23413",
-    "Name" : "Have the logical decomposition guidelines been followed?"
+    "Name" : "Have the conceptual decomposition guidelines been followed?"
   },
   "Stakeholder" : {
     "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
@@ -2992,7 +2992,7 @@
   "Documentation" : "In my role, I need to assess the security based on protocol usage in general.",
   "Concern" : {
     "ID" : "_2021x_2_8710274_1674576759093_319282_23509",
-    "Name" : "Which are the protocols used for exchanging information?"
+    "Name" : "Which are the protocol definitions used for exchanging information?"
   },
   "Stakeholder" : {
     "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
@@ -3768,18 +3768,6 @@
   }
 }, {
   "Name" : "",
-  "ID" : "_2021x_2_8710274_1674576759247_381703_23643",
-  "Documentation" : "In my role, I need to implement the protocol.",
-  "Concern" : {
-    "ID" : "_2021x_2_8710274_1674576759247_884832_23642",
-    "Name" : "Which are the protocols for exchanging physical items on a specific interface?"
-  },
-  "Stakeholder" : {
-    "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
-    "Name" : "Software Developer"
-  }
-}, {
-  "Name" : "",
   "ID" : "_2021x_2_8710274_1675089448455_338264_25097",
   "Documentation" : "",
   "Concern" : {
@@ -3789,54 +3777,6 @@
   "Stakeholder" : {
     "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
     "Name" : "Hardware Developer"
-  }
-}, {
-  "Name" : "",
-  "ID" : "_2021x_2_8710274_1695983218475_597708_24421",
-  "Documentation" : "In my role, I need to implement the protocol.",
-  "Concern" : {
-    "ID" : "_2021x_2_8710274_1674576759247_884832_23642",
-    "Name" : "Which are the protocols for exchanging physical items on a specific interface?"
-  },
-  "Stakeholder" : {
-    "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
-    "Name" : "Hardware Developer"
-  }
-}, {
-  "Name" : "",
-  "ID" : "_2021x_2_8710274_1695983221548_953656_24424",
-  "Documentation" : "In my role, I need to integrate and test the interface.",
-  "Concern" : {
-    "ID" : "_2021x_2_8710274_1674576759247_884832_23642",
-    "Name" : "Which are the protocols for exchanging physical items on a specific interface?"
-  },
-  "Stakeholder" : {
-    "ID" : "_19_0_2_26f0132_1562303526473_525021_92401",
-    "Name" : "IV&V Engineer"
-  }
-}, {
-  "Name" : "",
-  "ID" : "_2021x_2_8710274_1695983233053_931993_24425",
-  "Documentation" : "In my role, I need to assess the security on the interface.",
-  "Concern" : {
-    "ID" : "_2021x_2_8710274_1674576759247_884832_23642",
-    "Name" : "Which are the protocols for exchanging physical items on a specific interface?"
-  },
-  "Stakeholder" : {
-    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
-    "Name" : "Security Expert"
-  }
-}, {
-  "Name" : "",
-  "ID" : "_2021x_2_8710274_1695983240188_850760_24426",
-  "Documentation" : "In my role, I need to asses if the usage of protocols on interfaces is compatible with the system lifecyle concepts.",
-  "Concern" : {
-    "ID" : "_2021x_2_8710274_1674576759247_884832_23642",
-    "Name" : "Which are the protocols for exchanging physical items on a specific interface?"
-  },
-  "Stakeholder" : {
-    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
-    "Name" : "System Architect"
   }
 }, {
   "Name" : "",
@@ -3952,7 +3892,7 @@
   "Documentation" : "In my role, I need to validate if they fit the purpose of the system and conform the systems concepts",
   "Concern" : {
     "ID" : "_2021x_2_8710274_1674576759093_319282_23509",
-    "Name" : "Which are the protocols used for exchanging information?"
+    "Name" : "Which are the protocol definitions used for exchanging information?"
   },
   "Stakeholder" : {
     "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
@@ -4024,7 +3964,7 @@
   "Documentation" : "",
   "Concern" : {
     "ID" : "_2021x_2_8710274_1674576758828_494985_23322",
-    "Name" : "What is the logical breakdown of the system?"
+    "Name" : "What is the conceptual breakdown of the system?"
   },
   "Stakeholder" : {
     "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
@@ -4228,7 +4168,7 @@
   "Documentation" : "In my role, I use them as basis for understanding interfaces on logical level.",
   "Concern" : {
     "ID" : "_2021x_2_8710274_1674576758760_611640_23247",
-    "Name" : "How do the logical system elements interact to provide the system functions?"
+    "Name" : "How do the conceptual system elements interact to provide the system functions?"
   },
   "Stakeholder" : {
     "ID" : "_19_0_2_26f0132_1562303526473_410133_92403",
@@ -4240,7 +4180,7 @@
   "Documentation" : "In my role, I use them as basis for understanding interfaces on logical level.",
   "Concern" : {
     "ID" : "_2021x_2_8710274_1674576758760_611640_23247",
-    "Name" : "How do the logical system elements interact to provide the system functions?"
+    "Name" : "How do the conceptual system elements interact to provide the system functions?"
   },
   "Stakeholder" : {
     "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
@@ -4252,7 +4192,7 @@
   "Documentation" : "In my role, I need to coordinate internal interfaces with internal subsystem partners.",
   "Concern" : {
     "ID" : "_2021x_2_8710274_1674576758760_611640_23247",
-    "Name" : "How do the logical system elements interact to provide the system functions?"
+    "Name" : "How do the conceptual system elements interact to provide the system functions?"
   },
   "Stakeholder" : {
     "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
@@ -4264,7 +4204,7 @@
   "Documentation" : "In my role, I have to foster reuse of system wide concept definitions within the architecture design.",
   "Concern" : {
     "ID" : "_2021x_2_8710274_1697542838788_945785_24608",
-    "Name" : "Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the system?"
+    "Name" : "Which kind of physical items (energy, material, information, etc.) are defined for the physical architecture of the system?"
   },
   "Stakeholder" : {
     "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
@@ -4276,7 +4216,7 @@
   "Documentation" : "In my role, I use them as basis for understanding interfaces on design level.",
   "Concern" : {
     "ID" : "_2021x_2_8710274_1697542838788_945785_24608",
-    "Name" : "Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the system?"
+    "Name" : "Which kind of physical items (energy, material, information, etc.) are defined for the physical architecture of the system?"
   },
   "Stakeholder" : {
     "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
@@ -4288,7 +4228,7 @@
   "Documentation" : "In my role, I use them as basis for understanding interfaces on design level.",
   "Concern" : {
     "ID" : "_2021x_2_8710274_1697542838788_945785_24608",
-    "Name" : "Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the system?"
+    "Name" : "Which kind of physical items (energy, material, information, etc.) are defined for the physical architecture of the system?"
   },
   "Stakeholder" : {
     "ID" : "_19_0_2_26f0132_1562303526473_410133_92403",
@@ -4300,7 +4240,7 @@
   "Documentation" : "In my role, I must use these in interface design.",
   "Concern" : {
     "ID" : "_2021x_2_8710274_1697542838788_945785_24608",
-    "Name" : "Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the system?"
+    "Name" : "Which kind of physical items (energy, material, information, etc.) are defined for the physical architecture of the system?"
   },
   "Stakeholder" : {
     "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
@@ -4312,7 +4252,7 @@
   "Documentation" : "In my role, I must derive interface design from them.",
   "Concern" : {
     "ID" : "_2021x_2_6d8019d_1693308265004_421376_24972",
-    "Name" : "Which kind of conceptual items (energy, material, information, etc.)  are used in the logical architecture of the system?"
+    "Name" : "Which kind of conceptual items (energy, material, information, etc.)  are used in the conceptual architecture of the system?"
   },
   "Stakeholder" : {
     "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
@@ -4324,7 +4264,7 @@
   "Documentation" : "In my role, I must use these in interface design.",
   "Concern" : {
     "ID" : "_2021x_2_8710274_1697542838788_945785_24608",
-    "Name" : "Which kind of physical items (energy, material, information, etc.) are used in the physical architecture of the system?"
+    "Name" : "Which kind of physical items (energy, material, information, etc.) are defined for the physical architecture of the system?"
   },
   "Stakeholder" : {
     "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
@@ -4336,7 +4276,7 @@
   "Documentation" : "In my role, I must derive interface design from them.",
   "Concern" : {
     "ID" : "_2021x_2_6d8019d_1693308265004_421376_24972",
-    "Name" : "Which kind of conceptual items (energy, material, information, etc.)  are used in the logical architecture of the system?"
+    "Name" : "Which kind of conceptual items (energy, material, information, etc.)  are used in the conceptual architecture of the system?"
   },
   "Stakeholder" : {
     "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
@@ -4492,7 +4432,7 @@
   "Documentation" : "In my role, as design authority I have to ensure that the Physical Element fulfills the allocated logical concept (specification).",
   "Concern" : {
     "ID" : "_2021x_2_8710274_1698399385413_529894_33129",
-    "Name" : "Which logical elements are allocated to which physical elements?"
+    "Name" : "Which conceptual elements are allocated to which physical elements?"
   },
   "Stakeholder" : {
     "ID" : "_19_0_2_ebf0350_1554653241806_566270_43560",
@@ -4504,7 +4444,7 @@
   "Documentation" : "In my role, I have to plan IV&V activities to evaluate the Physical Element as unit under test against the logical concept (specification).",
   "Concern" : {
     "ID" : "_2021x_2_8710274_1698399385413_529894_33129",
-    "Name" : "Which logical elements are allocated to which physical elements?"
+    "Name" : "Which conceptual elements are allocated to which physical elements?"
   },
   "Stakeholder" : {
     "ID" : "_19_0_2_26f0132_1562303526473_525021_92401",
@@ -4516,7 +4456,7 @@
   "Documentation" : "In my role, as design authority I have to ensure that the HW Element fulfills the allocated logical concept (specification).",
   "Concern" : {
     "ID" : "_2021x_2_8710274_1698399385413_529894_33129",
-    "Name" : "Which logical elements are allocated to which physical elements?"
+    "Name" : "Which conceptual elements are allocated to which physical elements?"
   },
   "Stakeholder" : {
     "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
@@ -4540,7 +4480,7 @@
   "Documentation" : "In my role, as design authority I have to ensure that the SW Element fulfills the allocated logical concept (specification).",
   "Concern" : {
     "ID" : "_2021x_2_8710274_1698399385413_529894_33129",
-    "Name" : "Which logical elements are allocated to which physical elements?"
+    "Name" : "Which conceptual elements are allocated to which physical elements?"
   },
   "Stakeholder" : {
     "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
@@ -4552,7 +4492,7 @@
   "Documentation" : "In my role, I have to check that all aspects of the logical concept (specification) are allocated to physical elements (with assigned design authorities).",
   "Concern" : {
     "ID" : "_2021x_2_8710274_1698399385413_529894_33129",
-    "Name" : "Which logical elements are allocated to which physical elements?"
+    "Name" : "Which conceptual elements are allocated to which physical elements?"
   },
   "Stakeholder" : {
     "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
@@ -4720,7 +4660,7 @@
   "Documentation" : "In my role, I need to orchestrate interface agreements between the system and external interface partners",
   "Concern" : {
     "ID" : "_2021x_2_8710274_1698695260372_8568_48717",
-    "Name" : "Which are the interface definitions for the logical architecture?"
+    "Name" : "Which are the interface definitions for the conceptual architecture?"
   },
   "Stakeholder" : {
     "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
