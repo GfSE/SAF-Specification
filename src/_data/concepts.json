@@ -318,10 +318,7 @@
   "AssociationEnds" : [ ],
   "Name" : "Logical Context SOI_ Deprecated",
   "ID" : "_19_0_2_26f0132_1558075212525_51415_45174",
-  "InheritsFrom" : [ {
-    "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
-    "Name" : "Conceptual System"
-  } ],
+  "InheritsFrom" : [ ],
   "ClassType" : "Class",
   "IsGeneralFor" : [ ]
 }, {
@@ -337,26 +334,14 @@
   "ClassType" : "Class",
   "IsGeneralFor" : [ ]
 }, {
-  "InViewpoint" : [ {
-    "ID" : "_19_0_1_26f0132_1547202202696_824153_42420",
-    "Name" : "Physical Context Definition Viewpoint"
-  }, {
-    "ID" : "_19_0_2_26f0132_1562303526536_79296_92554",
-    "Name" : "Physical Context Exchange Viewpoint"
-  }, {
-    "ID" : "_19_0_3_ebf0350_1580652072992_42812_53692",
-    "Name" : "Physical Structure Definition Viewpoint"
-  }, {
-    "ID" : "_2021x_2_8710274_1675987942868_617787_33116",
-    "Name" : "Physical Functional Mapping Viewpoint"
-  } ],
+  "InViewpoint" : [ ],
   "Documentation" : "Represents the Physical SOI on Physical Level.",
   "AssociationEnds" : [ ],
-  "Name" : "Physical SOI",
+  "Name" : "Physical SOI_deprecated",
   "ID" : "_19_0_2_26f0132_1558075337119_355128_45325",
   "InheritsFrom" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_941558_91077",
-    "Name" : "Abstract Physical Element"
+    "Name" : "Physical System"
   } ],
   "ClassType" : "Class",
   "IsGeneralFor" : [ ]
@@ -760,7 +745,7 @@
   "Documentation" : "Specifies the fact that a relationship is derived from the assignment of Functions to Logical Elements and the assignment of Logical Elements to Physical Elements.",
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_941558_91077",
-    "Name" : "Abstract Physical Element",
+    "Name" : "Physical System",
     "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_394471_91009",
@@ -821,7 +806,7 @@
     "Name" : "General Functional Usage",
     "Multiplicity" : "1..*"
   } ],
-  "Name" : "USAGEallocatedTo",
+  "Name" : "allocatedTo",
   "ID" : "_19_0_2_26f0132_1562303524161_863086_91005",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -974,7 +959,7 @@
   "ID" : "_19_0_2_26f0132_1562303524176_251302_91078",
   "InheritsFrom" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_941558_91077",
-    "Name" : "Abstract Physical Element"
+    "Name" : "Physical System"
   } ],
   "ClassType" : "Class",
   "IsGeneralFor" : [ ]
@@ -1381,7 +1366,7 @@
   "ID" : "_19_0_2_26f0132_1562303524176_824595_91079",
   "InheritsFrom" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_941558_91077",
-    "Name" : "Abstract Physical Element"
+    "Name" : "Physical System"
   } ],
   "ClassType" : "Class",
   "IsGeneralFor" : [ ]
@@ -1396,7 +1381,7 @@
   "Documentation" : "Specifies the fact that a Physical Interaction Point applies to an Abstract Physical Element.",
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_941558_91077",
-    "Name" : "Abstract Physical Element",
+    "Name" : "Physical System",
     "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_842935_91034",
@@ -1446,7 +1431,7 @@
   "ID" : "_19_0_2_26f0132_1562303524176_845534_91075",
   "InheritsFrom" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_941558_91077",
-    "Name" : "Abstract Physical Element"
+    "Name" : "Physical System"
   } ],
   "ClassType" : "Class",
   "IsGeneralFor" : [ ]
@@ -1473,10 +1458,7 @@
   "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
   "InheritsFrom" : [ ],
   "ClassType" : "Class",
-  "IsGeneralFor" : [ {
-    "ID" : "_19_0_2_26f0132_1558075212525_51415_45174",
-    "Name" : "Logical Context SOI_ Deprecated"
-  } ]
+  "IsGeneralFor" : [ ]
 }, {
   "InViewpoint" : [ {
     "ID" : "_19_0_4_6d8019d_1618060963677_605184_292",
@@ -1531,16 +1513,28 @@
   "ClassType" : "Class",
   "IsGeneralFor" : [ ]
 }, {
-  "InViewpoint" : [ ],
+  "InViewpoint" : [ {
+    "ID" : "_19_0_3_ebf0350_1580652072992_42812_53692",
+    "Name" : "Physical Structure Definition Viewpoint"
+  }, {
+    "ID" : "_2021x_2_8710274_1675987942868_617787_33116",
+    "Name" : "Physical Functional Mapping Viewpoint"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303526536_79296_92554",
+    "Name" : "Physical Context Exchange Viewpoint"
+  }, {
+    "ID" : "_19_0_1_26f0132_1547202202696_824153_42420",
+    "Name" : "Physical Context Definition Viewpoint"
+  } ],
   "Documentation" : "Abstract element representing physical structure items keeping properties and relations applicable to all physical items.",
   "AssociationEnds" : [ ],
-  "Name" : "Abstract Physical Element",
+  "Name" : "Physical System",
   "ID" : "_19_0_2_26f0132_1562303524176_941558_91077",
   "InheritsFrom" : [ ],
   "ClassType" : "Class",
   "IsGeneralFor" : [ {
     "ID" : "_19_0_2_26f0132_1558075337119_355128_45325",
-    "Name" : "Physical SOI"
+    "Name" : "Physical SOI_deprecated"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_251302_91078",
     "Name" : "Software Element"
@@ -2577,8 +2571,8 @@
     "Name" : "Physical System Context",
     "Multiplicity" : "1"
   }, {
-    "ID" : "_19_0_2_26f0132_1558075337119_355128_45325",
-    "Name" : "Physical SOI",
+    "ID" : "_19_0_2_26f0132_1562303524176_941558_91077",
+    "Name" : "Physical System",
     "Multiplicity" : "1..*"
   } ],
   "Name" : "Physical SOI Role",
@@ -2893,7 +2887,7 @@
     "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_941558_91077",
-    "Name" : "Abstract Physical Element",
+    "Name" : "Physical System",
     "Multiplicity" : "0..*"
   } ],
   "Name" : "beeing in",
@@ -4051,7 +4045,7 @@
     "Multiplicity" : "1..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_941558_91077",
-    "Name" : "Abstract Physical Element",
+    "Name" : "Physical System",
     "Multiplicity" : "1"
   } ],
   "Name" : "implementing",
@@ -4084,7 +4078,7 @@
   "Documentation" : "Specifies the fact that a System Partial Function is assigned to an Abstract Physical Element.\nNote: This fact may be derived from the Usage of Function of a System Partial Function allocated to a Physical SOI Element Role",
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_941558_91077",
-    "Name" : "Abstract Physical Element",
+    "Name" : "Physical System",
     "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_4_26f0132_1624611043495_845903_880",
@@ -4289,7 +4283,7 @@
   "Documentation" : "Specifies the fact that one or more Logical Element specifies exactly one Physical Element. \nRationale:\nIf more than one Physical Element would offer to realize the functionality specified by a Logical Element the responsibility would be ambiguous.\nIt is okay to assign several Logical Elements to one Physical Element. This means all specified functionality assigned to the Logical Elements is to be implemented by the Physical Element.\n\nNote, that typically the usage of logical elements in a context is mapped to the usage of physical elements in a context (allocation of usage). Thus this relationship between the definitions is derived.",
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_941558_91077",
-    "Name" : "Abstract Physical Element",
+    "Name" : "Physical System",
     "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",

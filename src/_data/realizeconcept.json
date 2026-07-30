@@ -72,18 +72,6 @@
   }
 }, {
   "Name" : "",
-  "ID" : "_19_0_3_26f0132_1599120098156_272995_722",
-  "Documentation" : "",
-  "RealizedConcept" : {
-    "ID" : "_19_0_2_26f0132_1558075212525_51415_45174",
-    "Name" : "Logical Context SOI_ Deprecated"
-  },
-  "RealizationOfConcept" : {
-    "ID" : "_19_0_1_8710274_1547464060642_374530_42162",
-    "Name" : "SAF_LogicalSOI_deprecated"
-  }
-}, {
-  "Name" : "",
   "ID" : "_19_0_3_26f0132_1599120098266_901881_739",
   "Documentation" : "",
   "RealizedConcept" : {
@@ -139,20 +127,8 @@
     "Name" : "Physical External System"
   },
   "RealizationOfConcept" : {
-    "ID" : "_19_0_2_26f0132_1560372077241_905943_48390",
-    "Name" : "SAF_PhysicalExternalSystem_deprecated"
-  }
-}, {
-  "Name" : "",
-  "ID" : "_19_0_3_26f0132_1599120098703_595071_764",
-  "Documentation" : "",
-  "RealizedConcept" : {
-    "ID" : "_19_0_2_26f0132_1558075337119_355128_45325",
-    "Name" : "Physical SOI"
-  },
-  "RealizationOfConcept" : {
-    "ID" : "_19_0_1_8710274_1547464071851_635988_42197",
-    "Name" : "SAF_PhysicalSystem_deprecated"
+    "ID" : "_19_0_2_26f0132_1558090585793_420384_48529",
+    "Name" : "SAF_PhysicalSystem"
   }
 }, {
   "Name" : "",
@@ -727,8 +703,8 @@
     "Name" : "Physical SOI Role"
   },
   "RealizationOfConcept" : {
-    "ID" : "_2021x_2_8710274_1697706707436_503229_24914",
-    "Name" : "SAF_PhysicalContextRole"
+    "ID" : "_2026x_26f0132_1774016600060_402707_4233",
+    "Name" : "SAF_PhysicalRole_SoI"
   }
 }, {
   "Name" : "",
@@ -2116,7 +2092,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524161_863086_91005",
-    "Name" : "USAGEallocatedTo"
+    "Name" : "allocatedTo"
   },
   "RealizationOfConcept" : {
     "ID" : "_11_5EAPbeta_be00301_1147866646230_488749_1541",
@@ -4641,6 +4617,18 @@
   "RealizationOfConcept" : {
     "ID" : "_2024x_8710274_1717680274694_162060_14786",
     "Name" : "SAF_A2_CSTD_Table"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1785442354538_968210_1561",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524176_941558_91077",
+    "Name" : "Physical System"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_19_0_2_26f0132_1558090585793_420384_48529",
+    "Name" : "SAF_PhysicalSystem"
   }
 }, {
   "Name" : "",

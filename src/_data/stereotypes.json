@@ -441,7 +441,7 @@
 }, {
   "Name" : "SAF_LogicalSOI_deprecated",
   "ID" : "_19_0_1_8710274_1547464060642_374530_42162",
-  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_26f0132_1558075212525_51415_45174'>Logical Context SOI_ Deprecated</A></html>"
+  "Documentation" : "<html>Not implementing a concept</html>"
 }, {
   "Name" : "SAF_O1_OCXD",
   "ID" : "_19_0_1_26f0132_1548401929328_77241_42963",
@@ -633,7 +633,7 @@
 }, {
   "Name" : "SAF_PhysicalContextRole",
   "ID" : "_2021x_2_8710274_1697706707436_503229_24914",
-  "Documentation" : "<html>Implementation of SAF Concepts\n <ul><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_8710274_1567172443186_403777_62964'>Physical SOI Role</A></LI><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_8710274_1567172425344_546313_62832'>Physical Context Element Role</A></LI></ul></html>"
+  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_8710274_1567172425344_546313_62832'>Physical Context Element Role</A></html>"
 }, {
   "Name" : "SAF_PhysicalEnvironment",
   "ID" : "_19_0_2_26f0132_1558076176279_434857_47106",
@@ -645,7 +645,7 @@
 }, {
   "Name" : "SAF_PhysicalExternalSystem_deprecated",
   "ID" : "_19_0_2_26f0132_1560372077241_905943_48390",
-  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_26f0132_1558075409978_427311_45484'>Physical External System</A></html>"
+  "Documentation" : "<html>Not implementing a concept</html>"
 }, {
   "Name" : "SAF_PhysicalHardware",
   "ID" : "_19_0_2_26f0132_1558090490396_87116_48464",
@@ -673,7 +673,7 @@
 }, {
   "Name" : "SAF_PhysicalRole_SoI",
   "ID" : "_2026x_26f0132_1774016600060_402707_4233",
-  "Documentation" : "<html>Not implementing a concept</html>"
+  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_8710274_1567172443186_403777_62964'>Physical SOI Role</A></html>"
 }, {
   "Name" : "SAF_PhysicalSoftware",
   "ID" : "_19_0_2_26f0132_1558090471537_935611_48414",
@@ -681,11 +681,11 @@
 }, {
   "Name" : "SAF_PhysicalSystem",
   "ID" : "_19_0_2_26f0132_1558090585793_420384_48529",
-  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_26f0132_1562303524176_824595_91079'>Physical Element</A></html>"
+  "Documentation" : "<html>Implementation of SAF Concepts\n <ul><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_26f0132_1562303524176_824595_91079'>Physical Element</A></LI><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_26f0132_1558075409978_427311_45484'>Physical External System</A></LI><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_26f0132_1562303524176_941558_91077'>Physical System</A></LI></ul></html>"
 }, {
   "Name" : "SAF_PhysicalSystem_deprecated",
   "ID" : "_19_0_1_8710274_1547464071851_635988_42197",
-  "Documentation" : "<html>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_26f0132_1558075337119_355128_45325'>Physical SOI</A></html>"
+  "Documentation" : "<html>Not implementing a concept</html>"
 }, {
   "Name" : "SAF_PhysicalUser",
   "ID" : "_19_0_1_26f0132_1547202486398_568937_42535",

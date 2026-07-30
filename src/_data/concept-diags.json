@@ -18,14 +18,14 @@
     "ID" : "_19_0_2_26f0132_1558075325978_897109_45289",
     "Name" : "Physical System Context"
   }, {
-    "ID" : "_19_0_2_26f0132_1558075337119_355128_45325",
-    "Name" : "Physical SOI"
-  }, {
     "ID" : "_19_0_2_26f0132_1558075355803_462669_45365",
     "Name" : "Physical Context Element"
   }, {
     "ID" : "_19_0_2_26f0132_1558075409978_427311_45484",
     "Name" : "Physical External System"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_941558_91077",
+    "Name" : "Physical System"
   }, {
     "ID" : "_19_0_2_26f0132_1562303989622_501728_139950",
     "Name" : "Conceptual Environment"
@@ -213,7 +213,7 @@
     "Name" : "Logical Context SOI_ Deprecated"
   }, {
     "ID" : "_19_0_2_26f0132_1558075337119_355128_45325",
-    "Name" : "Physical SOI"
+    "Name" : "Physical SOI_deprecated"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_107047_91004",
     "Name" : "General Physical Role"
@@ -246,7 +246,7 @@
     "Name" : "Conceptual System"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_941558_91077",
-    "Name" : "Abstract Physical Element"
+    "Name" : "Physical System"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_981340_91082",
     "Name" : "Conceptual Internal Role"
@@ -361,7 +361,7 @@
     "Name" : "Logical Context SOI_ Deprecated"
   }, {
     "ID" : "_19_0_2_26f0132_1558075337119_355128_45325",
-    "Name" : "Physical SOI"
+    "Name" : "Physical SOI_deprecated"
   }, {
     "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
     "Name" : "Conceptual Exchange Type"
@@ -388,7 +388,7 @@
     "Name" : "Conceptual System"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_941558_91077",
-    "Name" : "Abstract Physical Element"
+    "Name" : "Physical System"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_991194_91090",
     "Name" : "beeing in"
@@ -479,7 +479,7 @@
     "Name" : "Physical Environment"
   }, {
     "ID" : "_19_0_2_26f0132_1558075337119_355128_45325",
-    "Name" : "Physical SOI"
+    "Name" : "Physical SOI_deprecated"
   }, {
     "ID" : "_19_0_2_26f0132_1558075355803_462669_45365",
     "Name" : "Physical Context Element"
@@ -533,7 +533,7 @@
     "Name" : "Physical Item Exchange"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_941558_91077",
-    "Name" : "Abstract Physical Element"
+    "Name" : "Physical System"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_956519_91030",
     "Name" : "Physical Interaction Point Definition"
@@ -651,7 +651,7 @@
     "Name" : "Physical System Context"
   }, {
     "ID" : "_19_0_2_26f0132_1558075337119_355128_45325",
-    "Name" : "Physical SOI"
+    "Name" : "Physical SOI_deprecated"
   }, {
     "ID" : "_19_0_2_26f0132_1558075355803_462669_45365",
     "Name" : "Physical Context Element"
@@ -808,7 +808,7 @@
     "Name" : "allocated to"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_863086_91005",
-    "Name" : "USAGEallocatedTo"
+    "Name" : "allocatedTo"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_907005_91002",
     "Name" : "General Functional Usage"
@@ -817,7 +817,7 @@
     "Name" : "Conceptual System"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_941558_91077",
-    "Name" : "Abstract Physical Element"
+    "Name" : "Physical System"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_981340_91082",
     "Name" : "Conceptual Internal Role"
@@ -1315,7 +1315,7 @@
     "Name" : "System State"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_863086_91005",
-    "Name" : "USAGEallocatedTo"
+    "Name" : "allocatedTo"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_907005_91002",
     "Name" : "General Functional Usage"
@@ -1703,12 +1703,6 @@
     "ID" : "_19_0_2_26f0132_1558075136166_927385_45031",
     "Name" : "Physical Environment"
   }, {
-    "ID" : "_19_0_2_26f0132_1558075212525_51415_45174",
-    "Name" : "Logical Context SOI_ Deprecated"
-  }, {
-    "ID" : "_19_0_2_26f0132_1558075337119_355128_45325",
-    "Name" : "Physical SOI"
-  }, {
     "ID" : "_19_0_2_26f0132_1558075355803_462669_45365",
     "Name" : "Physical Context Element"
   }, {
@@ -1818,7 +1812,7 @@
     "Name" : "Physical Item Exchange"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_941558_91077",
-    "Name" : "Abstract Physical Element"
+    "Name" : "Physical System"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_956519_91030",
     "Name" : "Physical Interaction Point Definition"
@@ -2008,7 +2002,7 @@
     "Name" : "Logical Context SOI_ Deprecated"
   }, {
     "ID" : "_19_0_2_26f0132_1558075337119_355128_45325",
-    "Name" : "Physical SOI"
+    "Name" : "Physical SOI_deprecated"
   }, {
     "ID" : "_19_0_2_26f0132_1558075355803_462669_45365",
     "Name" : "Physical Context Element"
@@ -2101,7 +2095,7 @@
     "Name" : "Physical Item Exchange"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_941558_91077",
-    "Name" : "Abstract Physical Element"
+    "Name" : "Physical System"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_956519_91030",
     "Name" : "Physical Interaction Point Definition"
@@ -3464,5 +3458,171 @@
   }, {
     "ID" : "_2024x_4c5019a_1729856541482_59473_223",
     "Name" : "CON has Effect On AA"
+  } ]
+}, {
+  "ID" : "_2026x_26f0132_1785441560659_726566_1159",
+  "Documentation" : "",
+  "Name" : "concept_soi_cleanup",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_2_26f0132_1558075029411_79067_44836",
+    "Name" : "Conceptual Context Element"
+  }, {
+    "ID" : "_19_0_2_26f0132_1558075062569_130489_44874",
+    "Name" : "Conceptual External System"
+  }, {
+    "ID" : "_19_0_2_26f0132_1558075086129_173532_44926",
+    "Name" : "Conceptual System Context"
+  }, {
+    "ID" : "_19_0_2_26f0132_1558075136166_927385_45031",
+    "Name" : "Physical Environment"
+  }, {
+    "ID" : "_19_0_2_26f0132_1558075325978_897109_45289",
+    "Name" : "Physical System Context"
+  }, {
+    "ID" : "_19_0_2_26f0132_1558075337119_355128_45325",
+    "Name" : "Physical SOI_deprecated"
+  }, {
+    "ID" : "_19_0_2_26f0132_1558075355803_462669_45365",
+    "Name" : "Physical Context Element"
+  }, {
+    "ID" : "_19_0_2_26f0132_1558075409978_427311_45484",
+    "Name" : "Physical External System"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303523973_719860_90882",
+    "Name" : "System State"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524161_394471_91009",
+    "Name" : "System Function"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524161_503942_91010",
+    "Name" : "allocated to"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_251302_91078",
+    "Name" : "Software Element"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_824595_91079",
+    "Name" : "Physical Element"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_827364_91044",
+    "Name" : "applying to"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_842935_91034",
+    "Name" : "Physical Interaction Point"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_845534_91075",
+    "Name" : "Hardware Element"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
+    "Name" : "Conceptual System"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_941558_91077",
+    "Name" : "Physical System"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303989622_501728_139950",
+    "Name" : "Conceptual Environment"
+  }, {
+    "ID" : "_19_0_2_8710274_1558534130432_293473_45375",
+    "Name" : "Conceptual User"
+  }, {
+    "ID" : "_19_0_2_8710274_1567171243005_813677_60746",
+    "Name" : "Conceptual Context Element Role"
+  }, {
+    "ID" : "_19_0_2_8710274_1567171329121_821656_60902",
+    "Name" : "Conceptual SOI Role"
+  }, {
+    "ID" : "_19_0_2_8710274_1567172425344_546313_62832",
+    "Name" : "Physical Context Element Role"
+  }, {
+    "ID" : "_19_0_2_8710274_1567172443186_403777_62964",
+    "Name" : "Physical SOI Role"
+  }, {
+    "ID" : "_19_0_2_ebf0350_1555174193029_536383_44542",
+    "Name" : "Physical User"
+  }, {
+    "ID" : "_19_0_3_26f0132_1593763413831_223230_668",
+    "Name" : "beeing in"
+  }, {
+    "ID" : "_19_0_4_26f0132_1624611043495_845903_880",
+    "Name" : "System Partial Function"
+  }, {
+    "ID" : "_19_0_4_26f0132_1624614161928_694281_1954",
+    "Name" : "General Function"
+  }, {
+    "ID" : "_2021x_2_6d8019d_1677665541732_554257_25017",
+    "Name" : "implementing"
+  }, {
+    "ID" : "_2021x_2_6d8019d_1677952512216_184791_24859",
+    "Name" : "allocated to"
+  }, {
+    "ID" : "_2021x_2_8710274_1675988365178_267674_34276",
+    "Name" : "specifying"
+  }, {
+    "ID" : "_2021x_2_8710274_1698665374453_611572_34394",
+    "Name" : "System"
+  } ]
+}, {
+  "ID" : "_2026x_26f0132_1785441569545_392710_1172",
+  "Documentation" : "",
+  "Name" : "concept_soi_cleanup",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_2_26f0132_1558075029411_79067_44836",
+    "Name" : "Conceptual Context Element"
+  }, {
+    "ID" : "_19_0_2_26f0132_1558075062569_130489_44874",
+    "Name" : "Conceptual External System"
+  }, {
+    "ID" : "_19_0_2_26f0132_1558075086129_173532_44926",
+    "Name" : "Conceptual System Context"
+  }, {
+    "ID" : "_19_0_2_26f0132_1558075136166_927385_45031",
+    "Name" : "Physical Environment"
+  }, {
+    "ID" : "_19_0_2_26f0132_1558075325978_897109_45289",
+    "Name" : "Physical System Context"
+  }, {
+    "ID" : "_19_0_2_26f0132_1558075355803_462669_45365",
+    "Name" : "Physical Context Element"
+  }, {
+    "ID" : "_19_0_2_26f0132_1558075409978_427311_45484",
+    "Name" : "Physical External System"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_251302_91078",
+    "Name" : "Software Element"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_824595_91079",
+    "Name" : "Physical Element"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_845534_91075",
+    "Name" : "Hardware Element"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
+    "Name" : "Conceptual System"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_941558_91077",
+    "Name" : "Physical System"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303989622_501728_139950",
+    "Name" : "Conceptual Environment"
+  }, {
+    "ID" : "_19_0_2_8710274_1558534130432_293473_45375",
+    "Name" : "Conceptual User"
+  }, {
+    "ID" : "_19_0_2_8710274_1567171243005_813677_60746",
+    "Name" : "Conceptual Context Element Role"
+  }, {
+    "ID" : "_19_0_2_8710274_1567171329121_821656_60902",
+    "Name" : "Conceptual SOI Role"
+  }, {
+    "ID" : "_19_0_2_8710274_1567172425344_546313_62832",
+    "Name" : "Physical Context Element Role"
+  }, {
+    "ID" : "_19_0_2_8710274_1567172443186_403777_62964",
+    "Name" : "Physical SOI Role"
+  }, {
+    "ID" : "_19_0_2_ebf0350_1555174193029_536383_44542",
+    "Name" : "Physical User"
+  }, {
+    "ID" : "_2021x_2_8710274_1675988365178_267674_34276",
+    "Name" : "specifying"
   } ]
 } ]
