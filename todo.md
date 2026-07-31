@@ -18,4 +18,5 @@
 * favico
 * linkable literature references from model
 * move definitions cited to footnotes? See Stakeholder File for example
-* taking notes (store in cookie, graphical note like in pdf)
+* taking notes (store in cookie, graphical note like in pdf) (implemented in testing)
+* in stereotypes.md report also association ends for relational concepts
