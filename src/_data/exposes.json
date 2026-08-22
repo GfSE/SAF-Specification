@@ -964,7 +964,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_3_6d8019d_1598981150221_83799_30",
-    "Name" : "composed"
+    "Name" : "composed of"
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_6d8019d_1599070472635_176306_252",
@@ -1084,7 +1084,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_3_8710274_1581666201982_100862_49030",
-    "Name" : "composed"
+    "Name" : "composed of"
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_6d8019d_1603027079337_312898_286",
@@ -1096,7 +1096,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_3_8710274_1581666154134_936493_49002",
-    "Name" : "specialized"
+    "Name" : "specialized by"
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_6d8019d_1603027079337_312898_286",
@@ -1108,7 +1108,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_3_8710274_1581666429993_560174_49054",
-    "Name" : "depending"
+    "Name" : "depending on"
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_6d8019d_1603027079337_312898_286",
@@ -1264,7 +1264,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_3_8710274_1581666201982_100862_49030",
-    "Name" : "composed"
+    "Name" : "composed of"
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_8710274_1581675970682_325249_52535",
@@ -1276,7 +1276,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_3_8710274_1581666429993_560174_49054",
-    "Name" : "depending"
+    "Name" : "depending on"
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_8710274_1581675970682_325249_52535",
@@ -1288,7 +1288,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_3_8710274_1581666154134_936493_49002",
-    "Name" : "specialized"
+    "Name" : "specialized by"
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_8710274_1581675970682_325249_52535",
@@ -1432,7 +1432,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_125039_91041",
-    "Name" : "applyingTo"
+    "Name" : "applying to"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
@@ -1612,7 +1612,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_125039_91041",
-    "Name" : "applyingTo"
+    "Name" : "applying to"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618060963677_605184_292",
@@ -1648,7 +1648,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_849218_91042",
-    "Name" : "applyingTo"
+    "Name" : "applying to"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618060963677_605184_292",
@@ -1804,7 +1804,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_4_6d8019d_1617463709660_425346_338",
-    "Name" : "specialized"
+    "Name" : "specialized by"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618757838536_301313_442",
@@ -1828,7 +1828,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_4_6d8019d_1617463709658_247814_337",
-    "Name" : "composed"
+    "Name" : "composed of"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618757838536_301313_442",
@@ -1840,7 +1840,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_4_6d8019d_1617463709661_722502_339",
-    "Name" : "depending"
+    "Name" : "depending of"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618757838536_301313_442",
@@ -2524,7 +2524,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_4_6d8019d_1617463709660_425346_338",
-    "Name" : "specialized"
+    "Name" : "specialized by"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_6d8019d_1690628661558_769067_24257",
@@ -2584,7 +2584,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_4_6d8019d_1617463709658_247814_337",
-    "Name" : "composed"
+    "Name" : "composed of"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_6d8019d_1690628661558_769067_24257",
@@ -2596,7 +2596,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_4_6d8019d_1617463709661_722502_339",
-    "Name" : "depending"
+    "Name" : "depending of"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_6d8019d_1690628661558_769067_24257",
@@ -2716,7 +2716,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_770729_91040",
-    "Name" : "specifyingDetailOf"
+    "Name" : "specifying detail of"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
@@ -3100,7 +3100,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_770729_91040",
-    "Name" : "specifyingDetailOf"
+    "Name" : "specifying detail of"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676723513864_806117_26880",
@@ -3463,8 +3463,8 @@
     "Name" : "realizing"
   },
   "Viewpoint" : {
-    "ID" : "_2021x_2_8710274_1698415722718_711881_60045",
-    "Name" : "Physical Logical Item Mapping Viewpoint"
+    "ID" : "_2021x_2_8710274_1676724435544_523379_27331",
+    "Name" : "Physical Logical Mapping Viewpoint"
   }
 }, {
   "Name" : "",
@@ -3475,8 +3475,8 @@
     "Name" : "Physical Exchange Type"
   },
   "Viewpoint" : {
-    "ID" : "_2021x_2_8710274_1698415722718_711881_60045",
-    "Name" : "Physical Logical Item Mapping Viewpoint"
+    "ID" : "_2021x_2_8710274_1676724435544_523379_27331",
+    "Name" : "Physical Logical Mapping Viewpoint"
   }
 }, {
   "Name" : "",
@@ -3487,8 +3487,8 @@
     "Name" : "Conceptual Exchange Type"
   },
   "Viewpoint" : {
-    "ID" : "_2021x_2_8710274_1698415722718_711881_60045",
-    "Name" : "Physical Logical Item Mapping Viewpoint"
+    "ID" : "_2021x_2_8710274_1676724435544_523379_27331",
+    "Name" : "Physical Logical Mapping Viewpoint"
   }
 }, {
   "Name" : "",
@@ -3556,7 +3556,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_2021x_2_8710274_1700814367039_336586_50268",
-    "Name" : "categorized"
+    "Name" : "categorized as"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676722868986_622372_25044",

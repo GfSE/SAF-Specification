@@ -457,8 +457,8 @@
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
     "Name" : "System Internal Exchange Viewpoint"
   }, {
-    "ID" : "_2021x_2_8710274_1698415722718_711881_60045",
-    "Name" : "Physical Logical Item Mapping Viewpoint"
+    "ID" : "_2021x_2_8710274_1676724435544_523379_27331",
+    "Name" : "Physical Logical Mapping Viewpoint"
   } ],
   "Documentation" : "Specification for any type of conceptual item (energy, material, information, etc.) to be exchanged on Conceptual (Functional Architecture and  Logical Architecture) Level. The Conceptual Exchange Type is agnostic to any realization on Physical Level.",
   "AssociationEnds" : [ ],
@@ -630,8 +630,8 @@
   "IsGeneralFor" : [ ]
 }, {
   "InViewpoint" : [ {
-    "ID" : "_2021x_2_8710274_1698415722718_711881_60045",
-    "Name" : "Physical Logical Item Mapping Viewpoint"
+    "ID" : "_2021x_2_8710274_1676724435544_523379_27331",
+    "Name" : "Physical Logical Mapping Viewpoint"
   }, {
     "ID" : "_2024x_3_26f0132_1758913515809_605410_39",
     "Name" : "Physical Exchange Type Definition Viewpoint"
@@ -699,7 +699,7 @@
     "Name" : "System Function",
     "Multiplicity" : "1..*"
   } ],
-  "Name" : "allocatedTo",
+  "Name" : "allocated  to",
   "ID" : "_19_0_2_26f0132_1562303524161_367314_91006",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -905,7 +905,7 @@
     "Name" : "Conceptual Interaction Point",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "applyingTo",
+  "Name" : "applying to",
   "ID" : "_19_0_2_26f0132_1562303524176_125039_91041",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -1040,8 +1040,8 @@
     "ID" : "_2021x_2_8710274_1695205330608_177015_24335",
     "Name" : "Physical Interface Definition Viewpoint"
   }, {
-    "ID" : "_2021x_2_8710274_1698415722718_711881_60045",
-    "Name" : "Physical Logical Item Mapping Viewpoint"
+    "ID" : "_2021x_2_8710274_1676724435544_523379_27331",
+    "Name" : "Physical Logical Mapping Viewpoint"
   }, {
     "ID" : "_2024x_3_26f0132_1758913515809_605410_39",
     "Name" : "Physical Exchange Type Definition Viewpoint"
@@ -1341,7 +1341,7 @@
     "Name" : "Conceptual Interaction Point Property",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "specifyingDetailOf",
+  "Name" : "specifying detail of",
   "ID" : "_19_0_2_26f0132_1562303524176_770729_91040",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -1474,7 +1474,7 @@
     "Name" : "Conceptual Interaction Point",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "applyingTo",
+  "Name" : "applying to",
   "ID" : "_19_0_2_26f0132_1562303524176_849218_91042",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -3005,7 +3005,7 @@
     "Name" : "Operational Performer",
     "Multiplicity" : "1"
   } ],
-  "Name" : "composed",
+  "Name" : "composed of",
   "ID" : "_19_0_3_6d8019d_1598981150221_83799_30",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -3152,7 +3152,7 @@
     "Name" : "Operational Capability",
     "Multiplicity" : "1"
   } ],
-  "Name" : "specialized",
+  "Name" : "specialized by",
   "ID" : "_19_0_3_8710274_1581666154134_936493_49002",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -3175,7 +3175,7 @@
     "Name" : "Operational Capability",
     "Multiplicity" : "1"
   } ],
-  "Name" : "composed",
+  "Name" : "composed of",
   "ID" : "_19_0_3_8710274_1581666201982_100862_49030",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -3198,7 +3198,7 @@
     "Name" : "Operational Capability",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "depending",
+  "Name" : "depending on",
   "ID" : "_19_0_3_8710274_1581666429993_560174_49054",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -3551,7 +3551,7 @@
     "Name" : "System Capability",
     "Multiplicity" : "1"
   } ],
-  "Name" : "composed",
+  "Name" : "composed of",
   "ID" : "_19_0_4_6d8019d_1617463709658_247814_337",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -3574,7 +3574,7 @@
     "Name" : "System Capability",
     "Multiplicity" : "1"
   } ],
-  "Name" : "specialized",
+  "Name" : "specialized by",
   "ID" : "_19_0_4_6d8019d_1617463709660_425346_338",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -3597,7 +3597,7 @@
     "Name" : "System Capability",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "depending",
+  "Name" : "depending of",
   "ID" : "_19_0_4_6d8019d_1617463709661_722502_339",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",
@@ -5061,7 +5061,7 @@
     "Name" : "Standard",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "categorized",
+  "Name" : "categorized as",
   "ID" : "_2021x_2_8710274_1700814367039_336586_50268",
   "InheritsFrom" : [ ],
   "ClassType" : "Association",

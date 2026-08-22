@@ -155,7 +155,7 @@
     "Name" : "acting in"
   }, {
     "ID" : "_19_0_3_6d8019d_1598981150221_83799_30",
-    "Name" : "composed"
+    "Name" : "composed of"
   }, {
     "ID" : "_19_0_3_6d8019d_1611592925440_283346_480",
     "Name" : "exhibiting"
@@ -586,7 +586,7 @@
     "Name" : "typing"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_125039_91041",
-    "Name" : "applyingTo"
+    "Name" : "applying to"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_349234_91039",
     "Name" : "defining"
@@ -598,13 +598,13 @@
     "Name" : "Conceptual Item Exchange"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_770729_91040",
-    "Name" : "specifyingDetailOf"
+    "Name" : "specifying detail of"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
     "Name" : "Conceptual System"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_849218_91042",
-    "Name" : "applyingTo"
+    "Name" : "applying to"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_900081_91027",
     "Name" : "Conceptual Interaction Point Definition"
@@ -663,7 +663,7 @@
     "Name" : "allowing"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_125039_91041",
-    "Name" : "applyingTo"
+    "Name" : "applying to"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_546931_91032",
     "Name" : "Conceptual Interaction Point"
@@ -675,7 +675,7 @@
     "Name" : "Conceptual System"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_849218_91042",
-    "Name" : "applyingTo"
+    "Name" : "applying to"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_980990_91037",
     "Name" : "Conceptual Connection"
@@ -712,9 +712,6 @@
   }, {
     "ID" : "_19_0_2_8710274_1567172425344_546313_62832",
     "Name" : "Physical Context Element Role"
-  }, {
-    "ID" : "_19_0_2_8710274_1567172443186_403777_62964",
-    "Name" : "Physical SOI Role"
   }, {
     "ID" : "_19_0_3_26f0132_1582317652656_237080_58806",
     "Name" : "System Context Role"
@@ -799,7 +796,7 @@
     "Name" : "Logical Context SOI_ Deprecated"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_367314_91006",
-    "Name" : "allocatedTo"
+    "Name" : "allocated  to"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_394471_91009",
     "Name" : "System Function"
@@ -1001,7 +998,7 @@
     "Name" : "System Context Role"
   }, {
     "ID" : "_19_0_3_6d8019d_1598981150221_83799_30",
-    "Name" : "composed"
+    "Name" : "composed of"
   }, {
     "ID" : "_19_0_4_6d8019d_1621167443409_435880_621",
     "Name" : "taking place in"
@@ -1104,7 +1101,7 @@
     "Name" : "Operational Process Usage Exchange"
   }, {
     "ID" : "_19_0_3_6d8019d_1598981150221_83799_30",
-    "Name" : "composed"
+    "Name" : "composed of"
   }, {
     "ID" : "_19_0_3_6d8019d_1611592925440_283346_480",
     "Name" : "exhibiting"
@@ -1113,13 +1110,13 @@
     "Name" : "Operational Capability"
   }, {
     "ID" : "_19_0_3_8710274_1581666154134_936493_49002",
-    "Name" : "specialized"
+    "Name" : "specialized by"
   }, {
     "ID" : "_19_0_3_8710274_1581666201982_100862_49030",
-    "Name" : "composed"
+    "Name" : "composed of"
   }, {
     "ID" : "_19_0_3_8710274_1581666429993_560174_49054",
-    "Name" : "depending"
+    "Name" : "depending on"
   }, {
     "ID" : "_19_0_3_8710274_1581667736629_896691_49612",
     "Name" : " capable performing"
@@ -1181,13 +1178,13 @@
     "Name" : "System Capability"
   }, {
     "ID" : "_19_0_4_6d8019d_1617463709658_247814_337",
-    "Name" : "composed"
+    "Name" : "composed of"
   }, {
     "ID" : "_19_0_4_6d8019d_1617463709660_425346_338",
-    "Name" : "specialized"
+    "Name" : "specialized by"
   }, {
     "ID" : "_19_0_4_6d8019d_1617463709661_722502_339",
-    "Name" : "depending"
+    "Name" : "depending of"
   }, {
     "ID" : "_19_0_4_6d8019d_1617464677545_852747_1286",
     "Name" : "supporting"
@@ -1251,13 +1248,13 @@
     "Name" : "Operational Capability"
   }, {
     "ID" : "_19_0_3_8710274_1581666154134_936493_49002",
-    "Name" : "specialized"
+    "Name" : "specialized by"
   }, {
     "ID" : "_19_0_3_8710274_1581666201982_100862_49030",
-    "Name" : "composed"
+    "Name" : "composed of"
   }, {
     "ID" : "_19_0_3_8710274_1581666429993_560174_49054",
-    "Name" : "depending"
+    "Name" : "depending on"
   }, {
     "ID" : "_19_0_3_8710274_1581667736629_896691_49612",
     "Name" : " capable performing"
@@ -1746,7 +1743,7 @@
     "Name" : "Physical Interaction Point Property"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_125039_91041",
-    "Name" : "applyingTo"
+    "Name" : "applying to"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_251302_91078",
     "Name" : "Software Element"
@@ -1785,7 +1782,7 @@
     "Name" : "allowing"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_770729_91040",
-    "Name" : "specifyingDetailOf"
+    "Name" : "specifying detail of"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_824595_91079",
     "Name" : "Physical Element"
@@ -1803,7 +1800,7 @@
     "Name" : "Conceptual System"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_849218_91042",
-    "Name" : "applyingTo"
+    "Name" : "applying to"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_900081_91027",
     "Name" : "Conceptual Interaction Point Definition"
@@ -2029,7 +2026,7 @@
     "Name" : "Physical Interaction Point Property"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_125039_91041",
-    "Name" : "applyingTo"
+    "Name" : "applying to"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_251302_91078",
     "Name" : "Software Element"
@@ -2068,7 +2065,7 @@
     "Name" : "allowing"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_770729_91040",
-    "Name" : "specifyingDetailOf"
+    "Name" : "specifying detail of"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_824595_91079",
     "Name" : "Physical Element"
@@ -2086,7 +2083,7 @@
     "Name" : "Conceptual System"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_849218_91042",
-    "Name" : "applyingTo"
+    "Name" : "applying to"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_900081_91027",
     "Name" : "Conceptual Interaction Point Definition"
@@ -2341,7 +2338,7 @@
     "Name" : "Category Of Standard"
   }, {
     "ID" : "_2021x_2_8710274_1700814367039_336586_50268",
-    "Name" : "categorized"
+    "Name" : "categorized as"
   }, {
     "ID" : "_2021x_2_8710274_1700817559642_660412_50682",
     "Name" : "superseding"
@@ -2414,7 +2411,7 @@
     "Name" : "Conceptual Item Exchange"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_849218_91042",
-    "Name" : "applyingTo"
+    "Name" : "applying to"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_980990_91037",
     "Name" : "Conceptual Connection"

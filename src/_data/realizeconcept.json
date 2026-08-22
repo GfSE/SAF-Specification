@@ -364,7 +364,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_3_8710274_1581666201982_100862_49030",
-    "Name" : "composed"
+    "Name" : "composed of"
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_3_6d8019d_1600160576148_12235_366",
@@ -376,7 +376,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_3_8710274_1581666154134_936493_49002",
-    "Name" : "specialized"
+    "Name" : "specialized by"
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_3_6d8019d_1600163146864_328836_471",
@@ -388,7 +388,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_3_8710274_1581666429993_560174_49054",
-    "Name" : "depending"
+    "Name" : "depending on"
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_3_6d8019d_1600678873153_400736_372",
@@ -604,7 +604,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_125039_91041",
-    "Name" : "applyingTo"
+    "Name" : "applying to"
   },
   "RealizationOfConcept" : {
     "ID" : "_9_0_62a020a_1105704884574_96724_7644",
@@ -616,7 +616,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_849218_91042",
-    "Name" : "applyingTo"
+    "Name" : "applying to"
   },
   "RealizationOfConcept" : {
     "ID" : "_9_0_62a020a_1105704884574_96724_7644",
@@ -704,7 +704,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2026x_26f0132_1774016600060_402707_4233",
-    "Name" : "SAF_PhysicalRole_SoI"
+    "Name" : "SAF_PhysicalContextRole_SoI"
   }
 }, {
   "Name" : "",
@@ -916,7 +916,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_3_6d8019d_1598981150221_83799_30",
-    "Name" : "composed"
+    "Name" : "composed of"
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_3_6d8019d_1599414738887_63027_366",
@@ -1312,7 +1312,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_4_6d8019d_1617463709658_247814_337",
-    "Name" : "composed"
+    "Name" : "composed of"
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_4_6d8019d_1618761245041_564044_2064",
@@ -1324,7 +1324,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_4_6d8019d_1617463709661_722502_339",
-    "Name" : "depending"
+    "Name" : "depending of"
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_4_6d8019d_1618761245046_533877_2065",
@@ -1348,7 +1348,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_4_6d8019d_1617463709660_425346_338",
-    "Name" : "specialized"
+    "Name" : "specialized by"
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_4_6d8019d_1618761245048_815843_2066",
@@ -2012,7 +2012,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2021x_2_6d8019d_1691057742693_17377_25753",
-    "Name" : "SAF_SystemFunctionSupport"
+    "Name" : "SAF_FunctionSupport"
   }
 }, {
   "Name" : "",
@@ -2152,7 +2152,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_770729_91040",
-    "Name" : "specifyingDetailOf"
+    "Name" : "specifying detail of"
   },
   "RealizationOfConcept" : {
     "ID" : "_2021x_2_8710274_1681818167067_310281_29495",
@@ -2656,7 +2656,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2021x_2_8710274_1700814367039_336586_50268",
-    "Name" : "categorized"
+    "Name" : "categorized as"
   },
   "RealizationOfConcept" : {
     "ID" : "_2021x_2_8710274_1701360709869_194778_91148",
@@ -3249,18 +3249,6 @@
   "RealizationOfConcept" : {
     "ID" : "_2024x_26f0132_1718447569760_95303_26004",
     "Name" : "Physical Internal Exchange Viewpoint"
-  }
-}, {
-  "Name" : "",
-  "ID" : "_2024x_26f0132_1718447608894_835784_26095",
-  "Documentation" : "",
-  "RealizedConcept" : {
-    "ID" : "_2021x_2_8710274_1698415722718_711881_60045",
-    "Name" : "Physical Logical Item Mapping Viewpoint"
-  },
-  "RealizationOfConcept" : {
-    "ID" : "_2024x_26f0132_1718447569945_157481_26005",
-    "Name" : "Physical Logical Item Mapping Viewpoint"
   }
 }, {
   "Name" : "",
@@ -4629,6 +4617,18 @@
   "RealizationOfConcept" : {
     "ID" : "_19_0_2_26f0132_1558090585793_420384_48529",
     "Name" : "SAF_PhysicalSystem"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1787427436333_545240_3729",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_3_6d8019d_1598981150221_83799_30",
+    "Name" : "composed of"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2026x_26f0132_1787424248135_596027_4314",
+    "Name" : "SAF_OperationalPerformerRole"
   }
 }, {
   "Name" : "",
