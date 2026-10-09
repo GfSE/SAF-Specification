@@ -4870,4 +4870,64 @@
     "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
     "Name" : "System Context Definition Viewpoint"
   }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1790285748629_991243_427",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2026x_26f0132_1790279894308_15447_34",
+    "Name" : "Physical Context Interaction Scenario"
+  },
+  "Viewpoint" : {
+    "ID" : "_2026x_26f0132_1790279984505_372916_59",
+    "Name" : "Physical Context Interaction Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1790285750861_253383_428",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2026x_26f0132_1790279898293_25515_36",
+    "Name" : "Physical Context Scenario Participation"
+  },
+  "Viewpoint" : {
+    "ID" : "_2026x_26f0132_1790279984505_372916_59",
+    "Name" : "Physical Context Interaction Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1790285752816_231090_429",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2026x_26f0132_1790279909483_726187_44",
+    "Name" : "Physical Context Chronological Message"
+  },
+  "Viewpoint" : {
+    "ID" : "_2026x_26f0132_1790279984505_372916_59",
+    "Name" : "Physical Context Interaction Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1790285755032_337650_430",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_19_0_2_8710274_1567172425344_546313_62832",
+    "Name" : "Physical Context Element Role"
+  },
+  "Viewpoint" : {
+    "ID" : "_2026x_26f0132_1790279984505_372916_59",
+    "Name" : "Physical Context Interaction Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1790285756935_430844_431",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_19_0_2_8710274_1567172443186_403777_62964",
+    "Name" : "Physical SOI Role"
+  },
+  "Viewpoint" : {
+    "ID" : "_2026x_26f0132_1790279984505_372916_59",
+    "Name" : "Physical Context Interaction Viewpoint"
+  }
 } ]

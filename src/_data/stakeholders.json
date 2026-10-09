@@ -57,6 +57,9 @@
     "Rationale" : "",
     "Concern" : "What is the priority of each function?"
   }, {
+    "Rationale" : "In my role, I need to assess if the sequence of physical context interactions supports the acquisition of a feasible solution.",
+    "Concern" : "What is the sequence of interactions among the system and context elements on physical level?"
+  }, {
     "Rationale" : "",
     "Concern" : "What is the system boundary definition?"
   }, {
@@ -198,6 +201,9 @@
   }, {
     "Rationale" : "",
     "Concern" : "What is the rationale when requirements are not considered?"
+  }, {
+    "Rationale" : "In my role, I need to check whether the sequence of physical context interactions satisfies my customer needs.",
+    "Concern" : "What is the sequence of interactions among the system and context elements on physical level?"
   }, {
     "Rationale" : "",
     "Concern" : "What is the system boundary definition?"
@@ -579,6 +585,9 @@
   }, {
     "Rationale" : "",
     "Concern" : "What is the necessary response time for an interface or a service?"
+  }, {
+    "Rationale" : "In my role, I need to perform the sequence of physical context interactions when operating the system.",
+    "Concern" : "What is the sequence of interactions among the system and context elements on physical level?"
   }, {
     "Rationale" : "In my role, I need to check whether the system fits into the higher-level user concept.",
     "Concern" : "Which users does the system support? "
@@ -1626,6 +1635,9 @@
   }, {
     "Rationale" : "",
     "Concern" : "What is the necessary response time for an interface or a service?"
+  }, {
+    "Rationale" : "In my role, I need to check whether the sequence of physical context interactions satisfies my user needs.",
+    "Concern" : "What is the sequence of interactions among the system and context elements on physical level?"
   }, {
     "Rationale" : "In my role, I need to check whether the system fits into the higher-level user concept.",
     "Concern" : "Which users does the system support? "

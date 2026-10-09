@@ -1,0 +1,559 @@
+[ {
+  "Name" : "AbstractRequirement",
+  "ID" : "_19_0beta_8c4028a_1491909612801_342688_5361",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "NamedElement" ],
+  "General" : [ ]
+}, {
+  "Name" : "AcceptChangeStructuralFeatureEventAction",
+  "ID" : "_17_0_3_17530432_1320212889034_110598_2266",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "AcceptEventAction" ],
+  "General" : [ ]
+}, {
+  "Name" : "Actuator",
+  "ID" : "_12_1_8740266_1172578094250_957630_1549",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Actor" ],
+  "General" : [ "External system" ]
+}, {
+  "Name" : "AddFlowPropertyValueOnNestedPortAction",
+  "ID" : "_20_0_2e60112_1594368541726_775369_1368",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "AddStructuralFeatureValueAction" ],
+  "General" : [ "ElementPropertyPath", "InvisibleStereotype" ]
+}, {
+  "Name" : "AdjunctProperty",
+  "ID" : "_17_0_5beta_17530432_1382595829800_90522_13318",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Property" ],
+  "General" : [ ]
+}, {
+  "Name" : "Allocate",
+  "ID" : "_11_5EAPbeta_be00301_1147866646230_488749_1541",
+  "Documentation" : "<html>Implementation of SAF Concepts\n <ul><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_4_26f0132_1624612392905_372789_1074'>performing</A></LI><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_3_8710274_1581675388411_771999_50581'>performing</A></LI><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_4_26f0132_1624615117147_549388_2197'>performing</A></LI><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_26f0132_1562303524161_863086_91005'>allocatedTo</A></LI></ul></html>",
+  "MetaClass" : [ "Abstraction" ],
+  "General" : [ "DirectedRelationshipPropertyPath" ]
+}, {
+  "Name" : "AllocateActivityPartition",
+  "ID" : "_11_5EAPbeta_be00301_1147870196585_633942_1728",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "ActivityPartition" ],
+  "General" : [ ]
+}, {
+  "Name" : "Allocated",
+  "ID" : "_11_5EAPbeta_be00301_1147866677244_999655_1628",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "NamedElement" ],
+  "General" : [ ]
+}, {
+  "Name" : "BasicInterval",
+  "ID" : "_12_1_8740266_1172576734640_342779_257",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Property" ],
+  "General" : [ "DistributedProperty" ]
+}, {
+  "Name" : "BindingConnector",
+  "ID" : "_15_0_be00301_1204738115945_253883_5044",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Connector" ],
+  "General" : [ ]
+}, {
+  "Name" : "Block",
+  "ID" : "_11_5EAPbeta_be00301_1147424179914_458922_958",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Class" ],
+  "General" : [ ]
+}, {
+  "Name" : "BlockHierarchy",
+  "ID" : "_12_1_8740266_1172576734656_487917_289",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Diagram" ],
+  "General" : [ ]
+}, {
+  "Name" : "BoundReference",
+  "ID" : "_17_0_5beta_17530432_1382589402278_962385_13079",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Property" ],
+  "General" : [ "EndPathMultiplicity" ]
+}, {
+  "Name" : "Boundary system",
+  "ID" : "_12_1_8740266_1172578094250_216542_1547",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Actor" ],
+  "General" : [ "External system" ]
+}, {
+  "Name" : "ChangeStructuralFeatureEvent",
+  "ID" : "_17_0_3_17530432_1320212957445_232003_2290",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "ChangeEvent" ],
+  "General" : [ ]
+}, {
+  "Name" : "ClassifierBehaviorProperty",
+  "ID" : "_17_0_5beta_17530432_1382596103711_316615_13367",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Property" ],
+  "General" : [ ]
+}, {
+  "Name" : "Conform",
+  "ID" : "_11_5EAPbeta_be00301_1147420728091_674481_152",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Generalization", "Dependency" ],
+  "General" : [ ]
+}, {
+  "Name" : "ConnectorProperty",
+  "ID" : "_15_0_be00301_1204738519224_422618_1163",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Property" ],
+  "General" : [ ]
+}, {
+  "Name" : "ConstraintBlock",
+  "ID" : "_11_5EAPbeta_be00301_1147767804973_159489_404",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Class" ],
+  "General" : [ "Block" ]
+}, {
+  "Name" : "ContextDiagram",
+  "ID" : "_12_1_8740266_1172576734656_121806_285",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Diagram" ],
+  "General" : [ ]
+}, {
+  "Name" : "Continuous",
+  "ID" : "_11_5EAPbeta_be00301_1147781516379_523424_746",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Parameter", "ActivityEdge", "ObjectNode" ],
+  "General" : [ "Rate" ]
+}, {
+  "Name" : "ControlOperator",
+  "ID" : "_11_5EAPbeta_be00301_1147852116807_575008_1176",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Behavior", "Operation" ],
+  "General" : [ ]
+}, {
+  "Name" : "Copy",
+  "ID" : "_11_5EAPbeta_be00301_1147873127229_923575_2046",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Abstraction" ],
+  "General" : [ "Trace", "DirectedRelationshipPropertyPath" ]
+}, {
+  "Name" : "DeriveReqt",
+  "ID" : "_11_5EAPbeta_be00301_1147872860786_209724_1848",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Abstraction" ],
+  "General" : [ "Trace", "DirectedRelationshipPropertyPath" ]
+}, {
+  "Name" : "Diagram Description",
+  "ID" : "_12_1_8740266_1173775032859_804702_281",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Diagram" ],
+  "General" : [ ]
+}, {
+  "Name" : "DirectedFeature",
+  "ID" : "_17_0_3_17530432_1320213007890_392543_2314",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Feature" ],
+  "General" : [ "InvisibleStereotype" ]
+}, {
+  "Name" : "DirectedRelationshipPropertyPath",
+  "ID" : "_17_0_5beta_17530432_1382583834110_524897_11405",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "DirectedRelationship" ],
+  "General" : [ ]
+}, {
+  "Name" : "Discrete",
+  "ID" : "_11_5EAPbeta_be00301_1147781531681_406380_792",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Parameter", "ActivityEdge", "ObjectNode" ],
+  "General" : [ "Rate" ]
+}, {
+  "Name" : "DistributedProperty",
+  "ID" : "_11_5EAPbeta_be00301_1147424472816_170898_1144",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Property" ],
+  "General" : [ ]
+}, {
+  "Name" : "Domain",
+  "ID" : "_12_1_8740266_1172578094265_388539_1575",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Class" ],
+  "General" : [ "Block" ]
+}, {
+  "Name" : "ElementGroup",
+  "ID" : "_17_0_5beta_17530432_1382588727729_600191_12925",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Comment" ],
+  "General" : [ ]
+}, {
+  "Name" : "ElementPropertyPath",
+  "ID" : "_17_0_5beta_17530432_1382583868131_903533_11430",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Element" ],
+  "General" : [ "InvisibleStereotype" ]
+}, {
+  "Name" : "EndPathMultiplicity",
+  "ID" : "_17_0_5beta_17530432_1382589293714_676330_13011",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Property" ],
+  "General" : [ ]
+}, {
+  "Name" : "Environmental effect",
+  "ID" : "_12_1_8740266_1172578094250_839556_1553",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Actor" ],
+  "General" : [ ]
+}, {
+  "Name" : "Essential",
+  "ID" : "_12_1_8740266_1172578094234_705470_1518",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Activity" ],
+  "General" : [ ]
+}, {
+  "Name" : "Expose",
+  "ID" : "_17_0_5beta_17530432_1382587480303_325976_12505",
+  "Documentation" : "<html>Specifies, that one or more SE Concepts are provided by the Viewpoints Views<BR><BR>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2021x_2_8710274_1697454030821_682386_29382'>Viewpoint</A> <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2024x_26f0132_1719749573029_735591_16107'>isProvidedBy</A> <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2024x_26f0132_1719749431514_697590_16049'>SE Concept</A></html>",
+  "MetaClass" : [ "Dependency" ],
+  "General" : [ ]
+}, {
+  "Name" : "External",
+  "ID" : "_12_1_8740266_1173094714531_37548_260",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Class" ],
+  "General" : [ "Block" ]
+}, {
+  "Name" : "External system",
+  "ID" : "_12_1_8740266_1172578094250_866559_1543",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Actor" ],
+  "General" : [ ]
+}, {
+  "Name" : "FlowPort",
+  "ID" : "_11_0_be00301_1147682946132_981479_8",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Port" ],
+  "General" : [ ]
+}, {
+  "Name" : "FlowProperty",
+  "ID" : "_11_5EAPbeta_be00301_1147436061009_177713_1911",
+  "Documentation" : "<html>Implementation of SAF Concepts\n <ul><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_26f0132_1562303524176_980387_91029'>Conceptual Interaction Point Property</A></LI><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_26f0132_1562303524176_114179_91028'>Physical Interaction Point Property</A></LI></ul></html>",
+  "MetaClass" : [ "Property" ],
+  "General" : [ ]
+}, {
+  "Name" : "FlowSpecification",
+  "ID" : "_11_5EAPbeta_be00301_1147436929898_779228_1998",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Interface" ],
+  "General" : [ ]
+}, {
+  "Name" : "FullPort",
+  "ID" : "_17_0_3_17530432_1320213032822_616987_2338",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Port" ],
+  "General" : [ ]
+}, {
+  "Name" : "InterfaceBlock",
+  "ID" : "_17_0_3_17530432_1320213059640_259248_2362",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Class" ],
+  "General" : [ "Block" ]
+}, {
+  "Name" : "Interval",
+  "ID" : "_12_1_8740266_1172576734640_318444_261",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Property" ],
+  "General" : [ "BasicInterval", "DistributedProperty" ]
+}, {
+  "Name" : "InvocationOnNestedPortAction",
+  "ID" : "_17_0_3_17530432_1320213093492_61640_2386",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "InvocationAction" ],
+  "General" : [ "ElementPropertyPath", "InvisibleStereotype" ]
+}, {
+  "Name" : "ItemFlow",
+  "ID" : "_11_0_be00301_1147691436170_978680_223",
+  "Documentation" : "<html>Implementation of SAF Concepts\n <ul><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_26f0132_1562303524176_663216_91033'>Conceptual Item Exchange</A></LI><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_3_26f0132_1583963832153_320549_23021'>Operational Item Exchange</A></LI><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_26f0132_1562303524176_925142_91031'>Physical Item Exchange</A></LI></ul></html>",
+  "MetaClass" : [ "InformationFlow" ],
+  "General" : [ ]
+}, {
+  "Name" : "NestedConnectorEnd",
+  "ID" : "_11_5EAPbeta_be00301_1147431307463_773225_1455",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "ConnectorEnd" ],
+  "General" : [ "InvisibleStereotype", "ElementPropertyPath" ]
+}, {
+  "Name" : "NoBuffer",
+  "ID" : "_11_5EAPbeta_be00301_1147853221115_789113_1340",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "ObjectNode" ],
+  "General" : [ ]
+}, {
+  "Name" : "Normal",
+  "ID" : "_12_1_8740266_1172576734640_549510_259",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Property" ],
+  "General" : [ "DistributedProperty" ]
+}, {
+  "Name" : "Optional",
+  "ID" : "_11_5EAPbeta_be00301_1147781357961_454792_562",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Parameter" ],
+  "General" : [ ]
+}, {
+  "Name" : "Overwrite",
+  "ID" : "_11_5EAPbeta_be00301_1147853229748_66367_1360",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "ObjectNode" ],
+  "General" : [ ]
+}, {
+  "Name" : "ParticipantProperty",
+  "ID" : "_15_0_be00301_1204738438075_92104_1078",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Property" ],
+  "General" : [ ]
+}, {
+  "Name" : "Probability",
+  "ID" : "_11_5EAPbeta_be00301_1147791539091_825444_1027",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "ParameterSet", "ActivityEdge" ],
+  "General" : [ ]
+}, {
+  "Name" : "Problem",
+  "ID" : "_11_5EAPbeta_be00301_1147421421037_25607_638",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Comment" ],
+  "General" : [ ]
+}, {
+  "Name" : "PropertySpecificType",
+  "ID" : "_15_0_be00301_1204738666848_701421_1246",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Classifier" ],
+  "General" : [ ]
+}, {
+  "Name" : "ProxyPort",
+  "ID" : "_17_0_3_17530432_1320213131032_5397_2410",
+  "Documentation" : "<html>Implementation of SAF Concepts\n <ul><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_26f0132_1562303524176_546931_91032'>Conceptual Interaction Point</A></LI><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_26f0132_1562303524176_842935_91034'>Physical Interaction Point</A></LI></ul></html>",
+  "MetaClass" : [ "Port" ],
+  "General" : [ ]
+}, {
+  "Name" : "Rate",
+  "ID" : "_11_5EAPbeta_be00301_1147781440810_933798_669",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Parameter", "ActivityEdge", "ObjectNode" ],
+  "General" : [ ]
+}, {
+  "Name" : "Rationale",
+  "ID" : "_11_5EAPbeta_be00301_1147421401018_777370_546",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Comment" ],
+  "General" : [ ]
+}, {
+  "Name" : "Refine",
+  "ID" : "_17_0_5beta_17530432_1382584914591_39608_11809",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Abstraction" ],
+  "General" : [ "Refine", "DirectedRelationshipPropertyPath" ]
+}, {
+  "Name" : "Requirement",
+  "ID" : "_11_5EAPbeta_be00301_1147873190330_159934_2220",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Class" ],
+  "General" : [ "AbstractRequirement" ]
+}, {
+  "Name" : "RequirementRelated",
+  "ID" : "_11_5EAPbeta_be00301_1147937995745_366126_2645",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "NamedElement" ],
+  "General" : [ ]
+}, {
+  "Name" : "Satisfy",
+  "ID" : "_11_5EAPbeta_be00301_1147873165274_736484_2128",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Abstraction" ],
+  "General" : [ "Trace", "DirectedRelationshipPropertyPath" ]
+}, {
+  "Name" : "Sensor",
+  "ID" : "_12_1_8740266_1172578094250_807075_1551",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Actor" ],
+  "General" : [ "External system" ]
+}, {
+  "Name" : "Stakeholder",
+  "ID" : "_17_0_5beta_17530432_1382587450944_361333_12499",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Classifier" ],
+  "General" : [ ]
+}, {
+  "Name" : "Subsystem",
+  "ID" : "_12_1_8740266_1172578094265_898135_1579",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Class" ],
+  "General" : [ "Block" ]
+}, {
+  "Name" : "SwimLaneDiagram",
+  "ID" : "_12_1_8740266_1172576734656_686200_287",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Diagram" ],
+  "General" : [ ]
+}, {
+  "Name" : "System",
+  "ID" : "_12_1_8740266_1172578094265_375361_1577",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Class" ],
+  "General" : [ "Block" ]
+}, {
+  "Name" : "System context",
+  "ID" : "_12_1_8740266_1172578094265_310701_1581",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Class" ],
+  "General" : [ "Block" ]
+}, {
+  "Name" : "System process",
+  "ID" : "_12_1_8740266_1172578094234_714969_1520",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Activity", "UseCase" ],
+  "General" : [ ]
+}, {
+  "Name" : "TestCase",
+  "ID" : "_11_5EAPbeta_be00301_1147937772815_210871_2448",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Behavior", "Operation" ],
+  "General" : [ ]
+}, {
+  "Name" : "Trace",
+  "ID" : "_17_0_5beta_17530432_1382584906245_122734_11803",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Abstraction" ],
+  "General" : [ "Trace", "DirectedRelationshipPropertyPath" ]
+}, {
+  "Name" : "TriggerOnNestedPort",
+  "ID" : "_17_0_3_17530432_1320213149797_551008_2434",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Trigger" ],
+  "General" : [ "ElementPropertyPath", "InvisibleStereotype" ]
+}, {
+  "Name" : "Uniform",
+  "ID" : "_12_1_8740266_1172576734640_591251_263",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Property" ],
+  "General" : [ "BasicInterval", "DistributedProperty" ]
+}, {
+  "Name" : "User system",
+  "ID" : "_12_1_8740266_1172578094250_952766_1545",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Actor" ],
+  "General" : [ "External system" ]
+}, {
+  "Name" : "ValueType",
+  "ID" : "_11_5EAPbeta_be00301_1147430239267_179145_1189",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "DataType" ],
+  "General" : [ ]
+}, {
+  "Name" : "Verify",
+  "ID" : "_11_5EAPbeta_be00301_1147873114711_445574_2026",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Abstraction" ],
+  "General" : [ "Trace", "DirectedRelationshipPropertyPath" ]
+}, {
+  "Name" : "View",
+  "ID" : "_11_5EAPbeta_be00301_1147420760998_43940_227",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Class", "Package" ],
+  "General" : [ ]
+}, {
+  "Name" : "Viewpoint",
+  "ID" : "_11_5EAPbeta_be00301_1147420812402_281263_364",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Class" ],
+  "General" : [ ]
+}, {
+  "Name" : "businessRequirement",
+  "ID" : "_12_1_8740266_1172577924546_705207_930",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Class" ],
+  "General" : [ "extendedRequirement", "Requirement", "AbstractRequirement" ]
+}, {
+  "Name" : "designConstraint",
+  "ID" : "_12_1_8740266_1172576734609_234637_202",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Class" ],
+  "General" : [ "extendedRequirement", "Requirement", "AbstractRequirement" ]
+}, {
+  "Name" : "diagramUsage",
+  "ID" : "_12_1_8740266_1173775654796_77943_1609",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Diagram" ],
+  "General" : [ ]
+}, {
+  "Name" : "effbd",
+  "ID" : "_12_1_8740266_1172576734562_288312_164",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Activity" ],
+  "General" : [ ]
+}, {
+  "Name" : "extendedRequirement",
+  "ID" : "_12_1_8740266_1172576734593_228534_190",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Class" ],
+  "General" : [ "Requirement", "AbstractRequirement" ]
+}, {
+  "Name" : "functionalRequirement",
+  "ID" : "_12_1_8740266_1172576734609_530688_194",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Class" ],
+  "General" : [ "extendedRequirement", "Requirement", "AbstractRequirement" ]
+}, {
+  "Name" : "interfaceRequirement",
+  "ID" : "_12_1_8740266_1172576734609_387880_196",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Class" ],
+  "General" : [ "extendedRequirement", "Requirement", "AbstractRequirement" ]
+}, {
+  "Name" : "moe",
+  "ID" : "_12_1_8740266_1172576734625_231808_234",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Property" ],
+  "General" : [ ]
+}, {
+  "Name" : "nonStreaming",
+  "ID" : "_12_1_8740266_1172576734578_110349_168",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Activity" ],
+  "General" : [ ]
+}, {
+  "Name" : "objectiveFunction",
+  "ID" : "_12_1_8740266_1172576734625_106167_232",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Property", "Class" ],
+  "General" : [ ]
+}, {
+  "Name" : "performanceRequirement",
+  "ID" : "_12_1_8740266_1172576734609_725391_198",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Class" ],
+  "General" : [ "extendedRequirement", "Requirement", "AbstractRequirement" ]
+}, {
+  "Name" : "physicalRequirement",
+  "ID" : "_12_1_8740266_1172576734609_380772_200",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Class" ],
+  "General" : [ "extendedRequirement", "Requirement", "AbstractRequirement" ]
+}, {
+  "Name" : "streaming",
+  "ID" : "_12_1_8740266_1172576734578_611548_166",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Activity" ],
+  "General" : [ ]
+}, {
+  "Name" : "usabilityRequirement",
+  "ID" : "_12_1_8740266_1172576899359_902879_864",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Class" ],
+  "General" : [ "extendedRequirement", "Requirement", "AbstractRequirement" ]
+}, {
+  "Name" : "~InterfaceBlock",
+  "ID" : "_20_0_3360132_1592906761079_745602_1358",
+  "Documentation" : "<html>Not implementing a concept</html>",
+  "MetaClass" : [ "Class" ],
+  "General" : [ "InterfaceBlock", "Block" ]
+} ]

@@ -1999,4 +1999,37 @@
   "Documentation" : "",
   "VP_ID" : "_2024x_4c5019a_1729850878319_101841_4365",
   "ID" : "_2024x_4c5019a_1729850958304_267826_4366"
+}, {
+  "Name" : "Physical Context Interaction Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_2_26f0132_1558075325978_897109_45289",
+    "Name" : "Physical System Context"
+  }, {
+    "ID" : "_19_0_2_26f0132_1558075355803_462669_45365",
+    "Name" : "Physical Context Element"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_941558_91077",
+    "Name" : "Physical System"
+  }, {
+    "ID" : "_19_0_2_8710274_1567172425344_546313_62832",
+    "Name" : "Physical Context Element Role"
+  }, {
+    "ID" : "_19_0_2_8710274_1567172443186_403777_62964",
+    "Name" : "Physical SOI Role"
+  }, {
+    "ID" : "_2026x_26f0132_1790279889204_394444_32",
+    "Name" : "Physical Context Role"
+  }, {
+    "ID" : "_2026x_26f0132_1790279894308_15447_34",
+    "Name" : "Physical Context Interaction Scenario"
+  }, {
+    "ID" : "_2026x_26f0132_1790279898293_25515_36",
+    "Name" : "Physical Context Scenario Participation"
+  }, {
+    "ID" : "_2026x_26f0132_1790279909483_726187_44",
+    "Name" : "Physical Context Chronological Message"
+  } ],
+  "Documentation" : "",
+  "VP_ID" : "_2026x_26f0132_1790279984505_372916_59",
+  "ID" : "_2026x_26f0132_1790339140413_157815_382"
 } ]

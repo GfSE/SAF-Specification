@@ -96,7 +96,10 @@
   "Owner" : "exchange & interface",
   "Name" : "How do physical system elements interact to provide system functions?",
   "ID" : "_2021x_2_8710274_1674576758600_423008_23078",
-  "ConcernsViewpoints" : [ ]
+  "ConcernsViewpoints" : [ {
+    "Name" : "Physical Context Interaction Viewpoint",
+    "ID" : "_2026x_26f0132_1790279984505_372916_59"
+  } ]
 }, {
   "Documentation" : "",
   "Owner" : "functional",
@@ -228,6 +231,9 @@
   "ConcernsViewpoints" : [ {
     "Name" : "Physical Internal Exchange Viewpoint",
     "ID" : "_2021x_2_8710274_1674680950433_310726_23659"
+  }, {
+    "Name" : "Physical Context Interaction Viewpoint",
+    "ID" : "_2026x_26f0132_1790279984505_372916_59"
   } ]
 }, {
   "Documentation" : "",
@@ -300,7 +306,10 @@
   "Owner" : "interaction",
   "Name" : "What is the sequence of interactions among the system and context elements on physical level?",
   "ID" : "_2021x_2_8710274_1674576758792_625414_23275",
-  "ConcernsViewpoints" : [ ]
+  "ConcernsViewpoints" : [ {
+    "Name" : "Physical Context Interaction Viewpoint",
+    "ID" : "_2026x_26f0132_1790279984505_372916_59"
+  } ]
 }, {
   "Documentation" : "",
   "Owner" : "requirement",

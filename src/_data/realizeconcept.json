@@ -4632,6 +4632,78 @@
   }
 }, {
   "Name" : "",
+  "ID" : "_2026x_26f0132_1790318474071_763413_334",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_19_0_3_6d8019d_1608891146807_63172_951",
+    "Name" : "containing"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2026x_26f0132_1790318452839_57500_332",
+    "Name" : ""
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1790335512115_199596_357",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2026x_26f0132_1790279984505_372916_59",
+    "Name" : "Physical Context Interaction Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2026x_26f0132_1790327235277_500025_4322",
+    "Name" : "SAF_P4_PCXI"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1790339729449_258280_683",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2026x_26f0132_1790279909483_726187_44",
+    "Name" : "Physical Context Chronological Message"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_9_0_62a020a_1105704888195_415551_8289",
+    "Name" : "Message"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1790339749249_981205_689",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2026x_26f0132_1790279930647_605693_48",
+    "Name" : "containing"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2026x_26f0132_1790318452839_57500_332",
+    "Name" : ""
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1790339853386_12780_706",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2026x_26f0132_1790279894308_15447_34",
+    "Name" : "Physical Context Interaction Scenario"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_9_0_62a020a_1105704887901_869040_8246",
+    "Name" : "Interaction"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1790339892118_696693_720",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2026x_26f0132_1790279898293_25515_36",
+    "Name" : "Physical Context Scenario Participation"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_9_0_62a020a_1105704887938_842870_8254",
+    "Name" : "Lifeline"
+  }
+}, {
+  "Name" : "",
   "ID" : "_2026x_b6f02e1_1780434690537_987459_256",
   "Documentation" : "",
   "RealizedConcept" : {

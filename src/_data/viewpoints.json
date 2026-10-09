@@ -404,6 +404,21 @@
   "Exposure" : "BlackBox",
   "VP_ID" : "P1_PCXE"
 }, {
+  "Name" : "Physical Context Interaction Viewpoint",
+  "ID" : "_2026x_26f0132_1790279984505_372916_59",
+  "Maturity" : "proposed",
+  "Purpose" : "The Physical Context Interaction Viewpoint describes the System external behavior based on the exchange between Physical SOI and Physical Context Elements Usage in a given Physical System Context. It depicts the sequence of interactions between the Physical SOI, the Context Elements and the exchanged Physical Items needed to the conceptual functions and exchanges.",
+  "Applicability" : "\n\nThe Physical Context Exchange Viewpoint supports the \"create system design\" activity part of the \"Design Definition Process\" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.5] and contributes to the artifacts \"System Design Description\" and \"System Interface Definition\".\n\nFurthermore, the viewpoint supports the \"Interface Management\" approach of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§3.2.4].",
+  "Aspect" : "Interaction & Collaboration",
+  "Domain" : "Physical",
+  "Presentation" : [ "A sequence diagram featuring the flow of control between SOI and Context Elements Roles of a Physical Context. \nNote: This diagram depicts the sending and receiving of messages between the interacting entities called lifelines, where time is represented along the vertical axis. The lifelines representatives are part properties typed by a Physical Context Elements." ],
+  "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_ebf0350_1554653236737_36605_43554", "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_26f0132_1562303526473_525021_92401", "_19_0_2_ebf0350_1554653238260_245225_43556", "_19_0_2_26f0132_1562303526473_410133_92403", "_19_0_2_ebf0350_1567337062655_160733_52757", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1555170687022_190510_43698", "_19_0_2_ebf0350_1567280920665_435327_53193" ],
+  "Concern" : [ "_2021x_2_8710274_1674576758600_423008_23078", "_2021x_2_8710274_1674576758718_586539_23194", "_2021x_2_8710274_1674576758792_625414_23275" ],
+  "RecommendedVP" : [ "_2021x_2_8710274_1674680950433_310726_23659" ],
+  "RequiredVP" : [ "_19_0_1_26f0132_1547202202696_824153_42420" ],
+  "Exposure" : "BlackBox",
+  "VP_ID" : "P4_PCXI"
+}, {
   "Name" : "Physical Exchange Type Definition Viewpoint",
   "ID" : "_2024x_3_26f0132_1758913515809_605410_39",
   "Maturity" : "released",

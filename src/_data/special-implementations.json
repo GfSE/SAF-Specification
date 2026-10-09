@@ -570,4 +570,17 @@
     "ID" : "_19_0_4_26f0132_1624963294145_897849_4228",
     "Name" : "SAF_SystemProcess"
   }
+}, {
+  "ID" : "_2026x_26f0132_1790318452839_57500_332",
+  "Documentation" : "",
+  "Name" : "",
+  "Stereotype" : "SCM_ContainedIn",
+  "Client" : {
+    "ID" : "_9_0_62a020a_1105704888195_415551_8289",
+    "Name" : "Message"
+  },
+  "Supplier" : {
+    "ID" : "_9_0_62a020a_1105704887901_869040_8246",
+    "Name" : "Interaction"
+  }
 } ]

@@ -2127,14 +2127,14 @@
   "IsGeneralFor" : [ ]
 }, {
   "InViewpoint" : [ ],
-  "Documentation" : "Specifies the fact that a SOI is acting for the benefit of an Operational Performer.",
+  "Documentation" : "Specifies the fact that a Conceptual System is acting for the benefit of an Operational Performer.",
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562316412621_925297_43615",
     "Name" : "Operational Performer",
     "Multiplicity" : "1"
   }, {
-    "ID" : "_19_0_1_26f0132_1554446894573_10154_45796",
-    "Name" : "System Of Interest",
+    "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
+    "Name" : "Conceptual System",
     "Multiplicity" : "0..*"
   } ],
   "Name" : "acting for",
@@ -2544,6 +2544,9 @@
   "InViewpoint" : [ {
     "ID" : "_19_0_1_26f0132_1547202202696_824153_42420",
     "Name" : "Physical Context Definition Viewpoint"
+  }, {
+    "ID" : "_2026x_26f0132_1790279984505_372916_59",
+    "Name" : "Physical Context Interaction Viewpoint"
   } ],
   "Documentation" : "Specifies the fact that a Physical Context Element exists in a given Physical System Context.",
   "AssociationEnds" : [ {
@@ -2557,13 +2560,19 @@
   } ],
   "Name" : "Physical Context Element Role",
   "ID" : "_19_0_2_8710274_1567172425344_546313_62832",
-  "InheritsFrom" : [ ],
+  "InheritsFrom" : [ {
+    "ID" : "_2026x_26f0132_1790279889204_394444_32",
+    "Name" : "Physical Context Role"
+  } ],
   "ClassType" : "AssociationClass",
   "IsGeneralFor" : [ ]
 }, {
   "InViewpoint" : [ {
     "ID" : "_19_0_1_26f0132_1547202202696_824153_42420",
     "Name" : "Physical Context Definition Viewpoint"
+  }, {
+    "ID" : "_2026x_26f0132_1790279984505_372916_59",
+    "Name" : "Physical Context Interaction Viewpoint"
   } ],
   "Documentation" : "Specifies the fact that a Physical SOI exists in a given Physical System Context.",
   "AssociationEnds" : [ {
@@ -2577,7 +2586,10 @@
   } ],
   "Name" : "Physical SOI Role",
   "ID" : "_19_0_2_8710274_1567172443186_403777_62964",
-  "InheritsFrom" : [ ],
+  "InheritsFrom" : [ {
+    "ID" : "_2026x_26f0132_1790279889204_394444_32",
+    "Name" : "Physical Context Role"
+  } ],
   "ClassType" : "AssociationClass",
   "IsGeneralFor" : [ ]
 }, {
@@ -4280,7 +4292,7 @@
   "IsGeneralFor" : [ ]
 }, {
   "InViewpoint" : [ ],
-  "Documentation" : "Specifies the fact that one or more Logical Element specifies exactly one Physical Element. \nRationale:\nIf more than one Physical Element would offer to realize the functionality specified by a Logical Element the responsibility would be ambiguous.\nIt is okay to assign several Logical Elements to one Physical Element. This means all specified functionality assigned to the Logical Elements is to be implemented by the Physical Element.\n\nNote, that typically the usage of logical elements in a context is mapped to the usage of physical elements in a context (allocation of usage). Thus this relationship between the definitions is derived.",
+  "Documentation" : "Specifies the fact that one or more Logical Element specifies exactly one Physical Element. \nRationale:\nIf more than one Physical Element would offer to realize the functionality specified by a Logical Element the responsibility would be ambiguous.\nIt is okay to assign several Logical Elements to one Physical Element. This means all specified functionality assigned to the Logical Elements is to be implemented by the Physical Element.\n\nNote, that typically the usage of logical elements in a context is mapped to the usage of physical elements in a context (allocation of usage). Thus this relationship between the definitions is derived.\n",
   "AssociationEnds" : [ {
     "ID" : "_19_0_2_26f0132_1562303524176_941558_91077",
     "Name" : "Physical System",
@@ -6709,6 +6721,107 @@
     "ID" : "_2024x_4c5019a_1726430943101_262310_996",
     "Name" : "Risk"
   } ]
+}, {
+  "InViewpoint" : [ ],
+  "Documentation" : "General role of a Physical System Context.",
+  "AssociationEnds" : [ ],
+  "Name" : "Physical Context Role",
+  "ID" : "_2026x_26f0132_1790279889204_394444_32",
+  "InheritsFrom" : [ ],
+  "ClassType" : "Class",
+  "IsGeneralFor" : [ {
+    "ID" : "_19_0_2_8710274_1567172425344_546313_62832",
+    "Name" : "Physical Context Element Role"
+  }, {
+    "ID" : "_19_0_2_8710274_1567172443186_403777_62964",
+    "Name" : "Physical SOI Role"
+  } ]
+}, {
+  "InViewpoint" : [ {
+    "ID" : "_2026x_26f0132_1790279984505_372916_59",
+    "Name" : "Physical Context Interaction Viewpoint"
+  } ],
+  "Documentation" : "Ordered sequence of exchanges of information, energy, or material between Physical Context Interaction Scenario Participants.",
+  "AssociationEnds" : [ ],
+  "Name" : "Physical Context Interaction Scenario",
+  "ID" : "_2026x_26f0132_1790279894308_15447_34",
+  "InheritsFrom" : [ ],
+  "ClassType" : "Class",
+  "IsGeneralFor" : [ ]
+}, {
+  "InViewpoint" : [ {
+    "ID" : "_2026x_26f0132_1790279984505_372916_59",
+    "Name" : "Physical Context Interaction Viewpoint"
+  } ],
+  "Documentation" : "Specifies the fact that a Physical Context Role participates in a Physical Context Interaction Scenario.",
+  "AssociationEnds" : [ {
+    "ID" : "_2026x_26f0132_1790279894308_15447_34",
+    "Name" : "Physical Context Interaction Scenario",
+    "Multiplicity" : "0..*"
+  }, {
+    "ID" : "_2026x_26f0132_1790279889204_394444_32",
+    "Name" : "Physical Context Role",
+    "Multiplicity" : "0..*"
+  } ],
+  "Name" : "Physical Context Scenario Participation",
+  "ID" : "_2026x_26f0132_1790279898293_25515_36",
+  "InheritsFrom" : [ ],
+  "ClassType" : "AssociationClass",
+  "IsGeneralFor" : [ ]
+}, {
+  "InViewpoint" : [ {
+    "ID" : "_2026x_26f0132_1790279984505_372916_59",
+    "Name" : "Physical Context Interaction Viewpoint"
+  } ],
+  "Documentation" : "Ordered sequential occurrence of exchanges between Physical Context Interaction Scenario Participants.",
+  "AssociationEnds" : [ {
+    "ID" : "_2026x_26f0132_1790279898293_25515_36",
+    "Name" : "Physical Context Scenario Participation",
+    "Multiplicity" : "1"
+  }, {
+    "ID" : "_2026x_26f0132_1790279898293_25515_36",
+    "Name" : "Physical Context Scenario Participation",
+    "Multiplicity" : "1"
+  } ],
+  "Name" : "Physical Context Chronological Message",
+  "ID" : "_2026x_26f0132_1790279909483_726187_44",
+  "InheritsFrom" : [ ],
+  "ClassType" : "AssociationClass",
+  "IsGeneralFor" : [ ]
+}, {
+  "InViewpoint" : [ ],
+  "Documentation" : "Specifies the fact that a Physical Context Interaction Scenario contains one or more Physical Context Chronological Messages.",
+  "AssociationEnds" : [ {
+    "ID" : "_2026x_26f0132_1790279909483_726187_44",
+    "Name" : "Physical Context Chronological Message",
+    "Multiplicity" : "0..*"
+  }, {
+    "ID" : "_2026x_26f0132_1790279894308_15447_34",
+    "Name" : "Physical Context Interaction Scenario",
+    "Multiplicity" : "1"
+  } ],
+  "Name" : "containing",
+  "ID" : "_2026x_26f0132_1790279930647_605693_48",
+  "InheritsFrom" : [ ],
+  "ClassType" : "Association",
+  "IsGeneralFor" : [ ]
+}, {
+  "InViewpoint" : [ ],
+  "Documentation" : "Specifies the fact that one Conceptual SOI Role  specifies one Physical SOI Role. \ndefinitions is derived.",
+  "AssociationEnds" : [ {
+    "ID" : "_19_0_2_8710274_1567172443186_403777_62964",
+    "Name" : "Physical SOI Role",
+    "Multiplicity" : "0..1"
+  }, {
+    "ID" : "_19_0_2_8710274_1567171329121_821656_60902",
+    "Name" : "Conceptual SOI Role",
+    "Multiplicity" : "0..1"
+  } ],
+  "Name" : "specifying",
+  "ID" : "_2026x_26f0132_1790316835128_565027_228",
+  "InheritsFrom" : [ ],
+  "ClassType" : "Association",
+  "IsGeneralFor" : [ ]
 }, {
   "InViewpoint" : [ ],
   "Documentation" : "Specifies the fact that a Conceptual System acts in one or more System Use Cases (Derived Relationship)",

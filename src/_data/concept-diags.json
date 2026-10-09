@@ -3,14 +3,14 @@
   "Documentation" : "Describes concepts used to describe system contexts in the SAF Physical Domain and related concepts.",
   "Name" : "SAF_context_P_Definition",
   "DiagConcepts" : [ {
-    "ID" : "_19_0_1_26f0132_1554446894573_10154_45796",
-    "Name" : "System Of Interest"
-  }, {
-    "ID" : "_19_0_2_164f041e_1564089980498_97451_52116",
-    "Name" : "System Context"
+    "ID" : "_19_0_2_26f0132_1558075029411_79067_44836",
+    "Name" : "Conceptual Context Element"
   }, {
     "ID" : "_19_0_2_26f0132_1558075062569_130489_44874",
     "Name" : "Conceptual External System"
+  }, {
+    "ID" : "_19_0_2_26f0132_1558075086129_173532_44926",
+    "Name" : "Conceptual System Context"
   }, {
     "ID" : "_19_0_2_26f0132_1558075136166_927385_45031",
     "Name" : "Physical Environment"
@@ -24,6 +24,9 @@
     "ID" : "_19_0_2_26f0132_1558075409978_427311_45484",
     "Name" : "Physical External System"
   }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
+    "Name" : "Conceptual System"
+  }, {
     "ID" : "_19_0_2_26f0132_1562303524176_941558_91077",
     "Name" : "Physical System"
   }, {
@@ -36,20 +39,17 @@
     "ID" : "_19_0_2_26f0132_1562304232883_201583_139995",
     "Name" : "concepting"
   }, {
-    "ID" : "_19_0_2_26f0132_1562316546243_649906_43676",
-    "Name" : "System Context Element"
-  }, {
-    "ID" : "_19_0_2_26f0132_1576253942759_201883_55315",
-    "Name" : "System Context Element Role"
-  }, {
-    "ID" : "_19_0_2_26f0132_1576253948064_845297_55396",
-    "Name" : "System SOI Role"
-  }, {
     "ID" : "_19_0_2_8710274_1558534130432_293473_45375",
     "Name" : "Conceptual User"
   }, {
     "ID" : "_19_0_2_8710274_1558534173240_845746_45405",
     "Name" : "concepting"
+  }, {
+    "ID" : "_19_0_2_8710274_1567171243005_813677_60746",
+    "Name" : "Conceptual Context Element Role"
+  }, {
+    "ID" : "_19_0_2_8710274_1567171329121_821656_60902",
+    "Name" : "Conceptual SOI Role"
   }, {
     "ID" : "_19_0_2_8710274_1567172425344_546313_62832",
     "Name" : "Physical Context Element Role"
@@ -59,6 +59,18 @@
   }, {
     "ID" : "_19_0_2_ebf0350_1555174193029_536383_44542",
     "Name" : "Physical User"
+  }, {
+    "ID" : "_19_0_3_26f0132_1582317652656_237080_58806",
+    "Name" : "System Context Role"
+  }, {
+    "ID" : "_2021x_2_8710274_1675988365178_267674_34276",
+    "Name" : "specifying"
+  }, {
+    "ID" : "_2026x_26f0132_1790279889204_394444_32",
+    "Name" : "Physical Context Role"
+  }, {
+    "ID" : "_2026x_26f0132_1790316835128_565027_228",
+    "Name" : "specifying"
   } ]
 }, {
   "ID" : "_19_0_2_26f0132_1561750267221_345412_48257",
@@ -137,9 +149,6 @@
     "Name" : "taking place in"
   }, {
     "ID" : "_19_0_2_26f0132_1576255251560_709609_55539",
-    "Name" : "acting for"
-  }, {
-    "ID" : "_19_0_2_26f0132_1576255326396_680115_55587",
     "Name" : "acting for"
   }, {
     "ID" : "_19_0_2_26f0132_1576255381074_947214_55662",
@@ -935,11 +944,8 @@
 }, {
   "ID" : "_19_0_2_ebf0350_1578263528322_79798_55227",
   "Documentation" : "Describes concepts used to describe the system context in the SAF Functional Domain and related concepts.",
-  "Name" : "SAF_context_F_Definition",
+  "Name" : "SAF_context_C_Definition",
   "DiagConcepts" : [ {
-    "ID" : "_19_0_1_26f0132_1554446894573_10154_45796",
-    "Name" : "System Of Interest"
-  }, {
     "ID" : "_19_0_1_26f0132_1554446894995_335285_45800",
     "Name" : "System Use Case"
   }, {
@@ -957,9 +963,6 @@
   }, {
     "ID" : "_19_0_2_26f0132_1558075086129_173532_44926",
     "Name" : "Conceptual System Context"
-  }, {
-    "ID" : "_19_0_2_26f0132_1558075212525_51415_45174",
-    "Name" : "Logical Context SOI_ Deprecated"
   }, {
     "ID" : "_19_0_2_26f0132_1561750989144_963009_48675",
     "Name" : "Operational Story"
@@ -1063,9 +1066,6 @@
   }, {
     "ID" : "_19_0_2_26f0132_1575019807024_82785_55519",
     "Name" : "related to"
-  }, {
-    "ID" : "_19_0_2_26f0132_1576255326396_680115_55587",
-    "Name" : "acting for"
   }, {
     "ID" : "_19_0_2_26f0132_1576255381074_947214_55662",
     "Name" : "representing"
@@ -2434,9 +2434,6 @@
     "ID" : "_19_0_2_26f0132_1576255251560_709609_55539",
     "Name" : "acting for"
   }, {
-    "ID" : "_19_0_2_26f0132_1576255326396_680115_55587",
-    "Name" : "acting for"
-  }, {
     "ID" : "_19_0_2_26f0132_1576255381074_947214_55662",
     "Name" : "representing"
   }, {
@@ -3560,7 +3557,7 @@
 }, {
   "ID" : "_2026x_26f0132_1785441569545_392710_1172",
   "Documentation" : "",
-  "Name" : "concept_soi_cleanup",
+  "Name" : "context_and_structure_overview",
   "DiagConcepts" : [ {
     "ID" : "_19_0_2_26f0132_1558075029411_79067_44836",
     "Name" : "Conceptual Context Element"
@@ -3583,8 +3580,26 @@
     "ID" : "_19_0_2_26f0132_1558075409978_427311_45484",
     "Name" : "Physical External System"
   }, {
+    "ID" : "_19_0_2_26f0132_1562303524161_107047_91004",
+    "Name" : "General Physical Role"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_174876_91086",
+    "Name" : "Hardware Element Role"
+  }, {
     "ID" : "_19_0_2_26f0132_1562303524176_251302_91078",
     "Name" : "Software Element"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_594816_91083",
+    "Name" : "Software Element Role"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_61581_91084",
+    "Name" : "Physical Software Role"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_635820_91087",
+    "Name" : "Physical Element Role"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_672620_91085",
+    "Name" : "Physical Hardware Role"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_824595_91079",
     "Name" : "Physical Element"
@@ -3597,6 +3612,9 @@
   }, {
     "ID" : "_19_0_2_26f0132_1562303524176_941558_91077",
     "Name" : "Physical System"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_981340_91082",
+    "Name" : "Conceptual Internal Role"
   }, {
     "ID" : "_19_0_2_26f0132_1562303989622_501728_139950",
     "Name" : "Conceptual Environment"
@@ -3621,5 +3639,46 @@
   }, {
     "ID" : "_2021x_2_8710274_1675988365178_267674_34276",
     "Name" : "specifying"
+  }, {
+    "ID" : "_2021x_2_8710274_1697730753339_508227_29549",
+    "Name" : "specifying"
+  }, {
+    "ID" : "_2026x_26f0132_1790279889204_394444_32",
+    "Name" : "Physical Context Role"
+  }, {
+    "ID" : "_2026x_26f0132_1790316835128_565027_228",
+    "Name" : "specifying"
+  } ]
+}, {
+  "ID" : "_2026x_26f0132_1790284530583_357017_224",
+  "Documentation" : "",
+  "Name" : "SAF_interaction_P_Definition",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_2_26f0132_1558075325978_897109_45289",
+    "Name" : "Physical System Context"
+  }, {
+    "ID" : "_19_0_2_26f0132_1558075355803_462669_45365",
+    "Name" : "Physical Context Element"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_941558_91077",
+    "Name" : "Physical System"
+  }, {
+    "ID" : "_19_0_2_8710274_1567172425344_546313_62832",
+    "Name" : "Physical Context Element Role"
+  }, {
+    "ID" : "_19_0_2_8710274_1567172443186_403777_62964",
+    "Name" : "Physical SOI Role"
+  }, {
+    "ID" : "_2026x_26f0132_1790279889204_394444_32",
+    "Name" : "Physical Context Role"
+  }, {
+    "ID" : "_2026x_26f0132_1790279894308_15447_34",
+    "Name" : "Physical Context Interaction Scenario"
+  }, {
+    "ID" : "_2026x_26f0132_1790279898293_25515_36",
+    "Name" : "Physical Context Scenario Participation"
+  }, {
+    "ID" : "_2026x_26f0132_1790279909483_726187_44",
+    "Name" : "Physical Context Chronological Message"
   } ]
 } ]

@@ -1,0 +1,1001 @@
+[ {
+  "Name" : "Abstraction",
+  "ID" : "_9_0_62a020a_1105704885806_49506_8067",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "AcceptCallAction",
+  "ID" : "_9_0_62a020a_1105704904303_180462_9075",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "AcceptEventAction",
+  "ID" : "_9_0_62a020a_1105704904246_626651_9067",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Action",
+  "ID" : "_9_0_62a020a_1105704887258_863804_8181",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ActionExecutionSpecification",
+  "ID" : "_9_0_62a020a_1105704888495_278169_8353",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ActionInputPin",
+  "ID" : "_9_0_62a020a_1105704910250_737922_9241",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Activity",
+  "ID" : "_9_0_62a020a_1105704892254_121736_8466",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ActivityEdge",
+  "ID" : "_9_0_62a020a_1105704893217_304959_8514",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ActivityFinalNode",
+  "ID" : "_9_0_62a020a_1105704893490_637380_8563",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ActivityGroup",
+  "ID" : "_9_0_62a020a_1105704892465_927741_8500",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ActivityNode",
+  "ID" : "_9_0_62a020a_1105704892300_640426_8474",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ActivityParameterNode",
+  "ID" : "_9_0_62a020a_1105704893559_436315_8572",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ActivityPartition",
+  "ID" : "_9_0_62a020a_1105704921570_774139_9419",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Actor",
+  "ID" : "_9_0_62a020a_1105704919482_11686_9288",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "AddStructuralFeatureValueAction",
+  "ID" : "_9_0_62a020a_1105704896930_275083_8743",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "AddVariableValueAction",
+  "ID" : "_9_0_62a020a_1105704910072_346755_9217",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "AnyReceiveEvent",
+  "ID" : "_9_0_62a020a_1105704907801_516752_9167",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Artifact",
+  "ID" : "_9_0_62a020a_1105704928546_39588_9532",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Association",
+  "ID" : "_9_0_62a020a_1105704885473_18793_7971",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "AssociationClass",
+  "ID" : "_9_0_62a020a_1105704903198_579542_8992",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Behavior",
+  "ID" : "_9_0_62a020a_1105704884715_427797_7700",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "BehaviorExecutionSpecification",
+  "ID" : "_9_0_62a020a_1105704888560_464349_8361",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "BehavioralFeature",
+  "ID" : "_9_0_62a020a_1105704884755_923432_7717",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "BehavioredClassifier",
+  "ID" : "_9_0_62a020a_1105704884683_360250_7684",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "BooleanTaggedValue",
+  "ID" : "_19_1beta_4290188_1576408905234_874015_4797",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "BroadcastSignalAction",
+  "ID" : "_9_0_62a020a_1105704897450_215481_8815",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "CallAction",
+  "ID" : "_9_0_62a020a_1105704887093_429156_8149",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "CallBehaviorAction",
+  "ID" : "_9_0_62a020a_1105704887225_574298_8173",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "CallEvent",
+  "ID" : "_9_0_62a020a_1105704906416_900968_9100",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "CallOperationAction",
+  "ID" : "_9_0_62a020a_1105704887160_569760_8165",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "CentralBufferNode",
+  "ID" : "_9_0_62a020a_1105704921503_594569_9411",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ChangeEvent",
+  "ID" : "_9_0_62a020a_1105704906476_241761_9108",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Class",
+  "ID" : "_9_0_62a020a_1105704885343_144138_7929",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Classifier",
+  "ID" : "_9_0_62a020a_1105704884514_638424_7612",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ClassifierTemplateParameter",
+  "ID" : "_9_0_62a020a_1105704901157_279901_8966",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Clause",
+  "ID" : "_9_0_62a020a_1105704892213_544240_8458",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ClearAssociationAction",
+  "ID" : "_9_0_62a020a_1105704897377_529572_8807",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ClearStructuralFeatureAction",
+  "ID" : "_9_0_62a020a_1105704896825_731209_8727",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ClearVariableAction",
+  "ID" : "_9_0_62a020a_1105704910004_908767_9209",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Collaboration",
+  "ID" : "_9_0_62a020a_1105704884500_158087_7604",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "CollaborationUse",
+  "ID" : "_9_0_62a020a_1105704884486_457683_7596",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "CombinedFragment",
+  "ID" : "_9_0_62a020a_1105704887866_658911_8238",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Comment",
+  "ID" : "_9_0_62a020a_1105704884825_217290_7749",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "CommunicationPath",
+  "ID" : "_9_0_62a020a_1105704928458_703520_9522",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Component",
+  "ID" : "_9_0_62a020a_1105704910326_404756_9249",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ComponentRealization",
+  "ID" : "_15_0EAPbeta1_62a020a_1188227547971_982857_4117",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ConditionalNode",
+  "ID" : "_9_0_62a020a_1105704892132_915377_8442",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ConnectableElement",
+  "ID" : "_9_0_62a020a_1105704884604_454742_7660",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ConnectableElementTemplateParameter",
+  "ID" : "_9_0_62a020a_1105704901288_213457_8983",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ConnectionPointReference",
+  "ID" : "_9_0_62a020a_1105704933044_828010_9624",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Connector",
+  "ID" : "_9_0_62a020a_1105704884559_152470_7636",
+  "Documentation" : "<html>Implementation of SAF Concepts\n <ul><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_26f0132_1562303524176_980990_91037'>Conceptual Connection</A></LI><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_3_26f0132_1583963707692_371546_22970'>Operational Connection</A></LI><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_26f0132_1562303524176_610387_91043'>Physical Connection</A></LI></ul></html>"
+}, {
+  "Name" : "ConnectorEnd",
+  "ID" : "_9_0_62a020a_1105704884546_526097_7628",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ConsiderIgnoreFragment",
+  "ID" : "_9_0_62a020a_1105704888127_412468_8278",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Constraint",
+  "ID" : "_9_0_62a020a_1105704885023_176929_7830",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Continuation",
+  "ID" : "_9_0_62a020a_1105704887979_908730_8262",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ControlFlow",
+  "ID" : "_9_0_62a020a_1105704893364_624946_8539",
+  "Documentation" : "<html>Implementation of SAF Concepts\n <ul><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_3_6d8019d_1609520174192_971623_551'>controlled after</A></LI><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_3_26f0132_1600501947277_784541_1508'>controlled after</A></LI></ul></html>"
+}, {
+  "Name" : "ControlNode",
+  "ID" : "_9_0_62a020a_1105704893317_43821_8530",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "CreateLinkAction",
+  "ID" : "_9_0_62a020a_1105704897221_909420_8783",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "CreateLinkObjectAction",
+  "ID" : "_9_0_62a020a_1105704904181_963443_9058",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "CreateObjectAction",
+  "ID" : "_9_0_62a020a_1105704896464_764149_8671",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "DataStoreNode",
+  "ID" : "_9_0_62a020a_1105704920907_627672_9345",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "DataType",
+  "ID" : "_9_0_62a020a_1105704885376_903292_7939",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "DecisionNode",
+  "ID" : "_9_0_62a020a_1105704921751_161098_9437",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Dependency",
+  "ID" : "_9_0_62a020a_1105704885833_713624_8075",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "DeployedArtifact",
+  "ID" : "_9_0_62a020a_1105704928388_9803_9514",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Deployment",
+  "ID" : "_9_0_62a020a_1105704927953_507488_9465",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "DeploymentSpecification",
+  "ID" : "_9_0_62a020a_1105704928019_111206_9473",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "DeploymentTarget",
+  "ID" : "_9_0_62a020a_1105704928324_491769_9506",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "DestroyLinkAction",
+  "ID" : "_9_0_62a020a_1105704897273_173302_8791",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "DestroyObjectAction",
+  "ID" : "_9_0_62a020a_1105704896512_837942_8679",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "DestructionOccurrenceSpecification",
+  "ID" : "_17_0_1beta1_641020e_1303285297245_245033_1703",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Device",
+  "ID" : "_9_0_62a020a_1105704928167_806350_9490",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Diagram",
+  "ID" : "_9_0_62a020a_1106296071977_61607_0",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "DirectedRelationship",
+  "ID" : "_9_0_62a020a_1105704884846_260393_7757",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Duration",
+  "ID" : "_9_0_62a020a_1105704895827_777691_8591",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "DurationConstraint",
+  "ID" : "_9_0_62a020a_1105704896124_718126_8639",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "DurationInterval",
+  "ID" : "_9_0_62a020a_1105704895912_517624_8607",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "DurationObservation",
+  "ID" : "_15_0EAPbeta1_62a020a_1188227447739_704079_3844",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Element",
+  "ID" : "_9_0_62a020a_1105704884807_371561_7741",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ElementImport",
+  "ID" : "_9_0_62a020a_1105704885047_824117_7838",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ElementTaggedValue",
+  "ID" : "_19_1beta_4290188_1576408818994_98671_4793",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ElementValue",
+  "ID" : "_15_0EAPbeta1_62a020a_1188227198752_444342_394",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "EncapsulatedClassifier",
+  "ID" : "_9_0_62a020a_1105704911283_887622_9277",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Enumeration",
+  "ID" : "_9_0_62a020a_1105704885400_895774_7947",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "EnumerationLiteral",
+  "ID" : "_9_0_62a020a_1105704885423_380971_7955",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Event",
+  "ID" : "_9_0_62a020a_1105704907923_155432_9176",
+  "Documentation" : "<html>Implementation of SAF Concepts\n <ul><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_4_6d8019d_1627829323787_791914_508'>System Triggering Event</A></LI><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_2024x_2_26f0132_1751005742170_567520_1494'>Operational Triggering Event</A></LI></ul></html>"
+}, {
+  "Name" : "ExceptionHandler",
+  "ID" : "_9_0_62a020a_1105704898275_476746_8872",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ExecutableNode",
+  "ID" : "_9_0_62a020a_1105704892340_187059_8482",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ExecutionEnvironment",
+  "ID" : "_9_0_62a020a_1105704928255_655549_9498",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ExecutionOccurrenceSpecification",
+  "ID" : "_9_0_62a020a_1105704888868_726848_8417",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ExecutionSpecification",
+  "ID" : "_9_0_62a020a_1105704888268_224535_8305",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ExpansionNode",
+  "ID" : "_9_0_62a020a_1105704898100_833704_8847",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ExpansionRegion",
+  "ID" : "_9_0_62a020a_1105704898151_886287_8855",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Expression",
+  "ID" : "_9_0_62a020a_1105704885754_51496_8051",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Extend",
+  "ID" : "_9_0_62a020a_1105704919558_745543_9296",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Extension",
+  "ID" : "_9_0_62a020a_1105704941686_391373_9690",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ExtensionEnd",
+  "ID" : "_9_0_62a020a_1105704941342_247264_9658",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ExtensionPoint",
+  "ID" : "_9_0_62a020a_1105704919767_187766_9320",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Feature",
+  "ID" : "_9_0_62a020a_1105704885153_836117_7863",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "FinalNode",
+  "ID" : "_9_0_62a020a_1105704921816_730725_9445",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "FinalState",
+  "ID" : "_9_0_62a020a_1105704932975_359279_9616",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "FlowFinalNode",
+  "ID" : "_9_0_62a020a_1105704921438_294509_9403",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ForkNode",
+  "ID" : "_9_0_62a020a_1105704921375_808153_9395",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "FunctionBehavior",
+  "ID" : "_9_0_62a020a_1105704884790_409021_7733",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Gate",
+  "ID" : "_9_0_62a020a_1105704887836_236837_8230",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "GeneralOrdering",
+  "ID" : "_9_0_62a020a_1105704888229_601341_8297",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Generalization",
+  "ID" : "_9_0_62a020a_1105704885195_432731_7879",
+  "Documentation" : "<html>Specifies the fact that an Operational Performer may be a specialization of an other Operational Performer.<BR><BR>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_26f0132_1562316412621_925297_43615'>Operational Performer</A> <A HREF='https://saf.gfse.org/devdoc/concepts.html#_2024x_2_26f0132_1749655623218_564595_162'>specializes</A> <A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_26f0132_1562316412621_925297_43615'>Operational Performer</A></html>"
+}, {
+  "Name" : "GeneralizationSet",
+  "ID" : "_9_0_62a020a_1105704927407_799308_9455",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Image",
+  "ID" : "_9_0_62a020a_1105704941500_175567_9674",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Include",
+  "ID" : "_9_0_62a020a_1105704919620_597571_9304",
+  "Documentation" : "<html>Specifies the fact that a System Use Case includes other System Use Cases. The included use case is then no longer a full System Use Case, but a partial System Use Case.<BR><BR>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_1_26f0132_1554446894995_335285_45800'>System Use Case</A> <A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_1_26f0132_1554447577832_897366_46461'>including</A> <A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_1_26f0132_1554446894995_335285_45800'>System Use Case</A></html>"
+}, {
+  "Name" : "InformationFlow",
+  "ID" : "_9_0_62a020a_1105704899911_307257_8888",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "InformationItem",
+  "ID" : "_9_0_62a020a_1105704899836_442270_8880",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "InitialNode",
+  "ID" : "_9_0_62a020a_1105704893447_508814_8555",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "InputPin",
+  "ID" : "_9_0_62a020a_1105704887035_839239_8133",
+  "Documentation" : "<html>Implementation of SAF Concepts\n <ul><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_8710274_1567168660956_439379_56337'>going to</A></LI><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_3_26f0132_1600784085690_759296_860'>TO</A></LI></ul></html>"
+}, {
+  "Name" : "InstanceSpecification",
+  "ID" : "_9_0_62a020a_1105704885251_933969_7897",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "InstanceValue",
+  "ID" : "_9_0_62a020a_1105704885650_203318_8019",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "IntegerTaggedValue",
+  "ID" : "_19_1beta_4290188_1576408858008_297923_4796",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Interaction",
+  "ID" : "_9_0_62a020a_1105704887901_869040_8246",
+  "Documentation" : "<html>Implementation of SAF Concepts\n <ul><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_3_26f0132_1582317772054_442780_58842'>System Context Interaction Scenario</A></LI><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_3_26f0132_1582314602701_812421_56211'>Conceptual Interaction Scenario</A></LI><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_26f0132_1561752967418_869778_50310'>Operational Interaction Scenario</A></LI><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_2026x_26f0132_1790279894308_15447_34'>Physical Context Interaction Scenario</A></LI></ul></html>"
+}, {
+  "Name" : "InteractionConstraint",
+  "ID" : "_9_0_62a020a_1105704887391_255251_8214",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "InteractionFragment",
+  "ID" : "_9_0_62a020a_1105704888057_444832_8270",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "InteractionOperand",
+  "ID" : "_9_0_62a020a_1105704887361_983947_8206",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "InteractionUse",
+  "ID" : "_9_0_62a020a_1105704887302_348848_8190",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Interface",
+  "ID" : "_9_0_62a020a_1105704884649_358727_7668",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "InterfaceRealization",
+  "ID" : "_9_0_62a020a_1105704884665_934832_7676",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "InterruptibleActivityRegion",
+  "ID" : "_9_0_62a020a_1105704921265_575333_9383",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Interval",
+  "ID" : "_9_0_62a020a_1105704896213_281788_8655",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "IntervalConstraint",
+  "ID" : "_9_0_62a020a_1105704896170_814021_8647",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "InvocationAction",
+  "ID" : "_9_0_62a020a_1105704887064_979432_8141",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "JoinNode",
+  "ID" : "_9_0_62a020a_1105704920844_549689_9337",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Lifeline",
+  "ID" : "_9_0_62a020a_1105704887938_842870_8254",
+  "Documentation" : "<html>Implementation of SAF Concepts\n <ul><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_26f0132_1561753960035_59004_50670'>Operational Scenario Participation</A></LI><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_3_26f0132_1582317965050_858700_58885'>System Context Scenario Participation</A></LI><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_3_26f0132_1582315087346_20721_56621'>Conceptual Scenario Participation</A></LI><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_2026x_26f0132_1790279898293_25515_36'>Physical Context Scenario Participation</A></LI></ul></html>"
+}, {
+  "Name" : "LinkAction",
+  "ID" : "_9_0_62a020a_1105704897011_278202_8751",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "LinkEndCreationData",
+  "ID" : "_9_0_62a020a_1105704897169_828570_8775",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "LinkEndData",
+  "ID" : "_9_0_62a020a_1105704897068_938981_8759",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "LinkEndDestructionData",
+  "ID" : "_9_0_62a020a_1105704897562_260957_8831",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "LiteralBoolean",
+  "ID" : "_9_0_62a020a_1105704884985_340030_7814",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "LiteralInteger",
+  "ID" : "_9_0_62a020a_1105704884947_594252_7798",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "LiteralNull",
+  "ID" : "_9_0_62a020a_1105704885003_342880_7822",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "LiteralReal",
+  "ID" : "_17_0beta_f720368_1291218250816_792539_1888",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "LiteralSpecification",
+  "ID" : "_9_0_62a020a_1105704884926_203015_7790",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "LiteralString",
+  "ID" : "_9_0_62a020a_1105704884964_577317_7806",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "LiteralUnlimitedNatural",
+  "ID" : "_9_0_62a020a_1105704885703_732670_8035",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "LoopNode",
+  "ID" : "_9_0_62a020a_1105704892169_230137_8450",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Manifestation",
+  "ID" : "_9_0_62a020a_1105704932261_613241_9541",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "MergeNode",
+  "ID" : "_9_0_62a020a_1105704921684_282475_9429",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Message",
+  "ID" : "_9_0_62a020a_1105704888195_415551_8289",
+  "Documentation" : "<html>Implementation of SAF Concepts\n <ul><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_3_26f0132_1582318082493_106012_58951'>System Context Chronological Message</A></LI><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_3_26f0132_1582315257123_533586_56785'>Conceptual Chronological Message</A></LI><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_26f0132_1561753696413_162391_50607'>Operational Chronological Message</A></LI><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_2026x_26f0132_1790279909483_726187_44'>Physical Context Chronological Message</A></LI></ul></html>"
+}, {
+  "Name" : "MessageEnd",
+  "ID" : "_9_0_62a020a_1105704888340_990071_8321",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "MessageEvent",
+  "ID" : "_9_0_62a020a_1105704907728_648806_9159",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "MessageOccurrenceSpecification",
+  "ID" : "_9_0_62a020a_1105704888825_465279_8409",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Model",
+  "ID" : "_9_0_62a020a_1105704920340_825592_9329",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "MultiplicityElement",
+  "ID" : "_9_0_62a020a_1105704885067_105135_7846",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "NamedElement",
+  "ID" : "_9_0_62a020a_1105704884863_927714_7765",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Namespace",
+  "ID" : "_9_0_62a020a_1105704885497_588069_7979",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Node",
+  "ID" : "_9_0_62a020a_1105704928097_912503_9482",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ObjectFlow",
+  "ID" : "_9_0_62a020a_1105704893403_369088_8547",
+  "Documentation" : "<html>Implementation of SAF Concepts\n <ul><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_3_26f0132_1600784136485_599221_879'>Operational Process Usage Exchange</A></LI><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_8710274_1567168520242_378357_56193'>General Functional Exchange</A></LI></ul></html>"
+}, {
+  "Name" : "ObjectNode",
+  "ID" : "_9_0_62a020a_1105704893267_8162_8522",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Observation",
+  "ID" : "_15_0EAPbeta1_62a020a_1188227316455_415327_531",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "OccurrenceSpecification",
+  "ID" : "_9_0_62a020a_1105704888303_261838_8313",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "OpaqueAction",
+  "ID" : "_9_0_62a020a_1105704886256_729983_8101",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "OpaqueBehavior",
+  "ID" : "_9_0_62a020a_1105704884771_85405_7725",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "OpaqueExpression",
+  "ID" : "_9_0_62a020a_1105704884738_770774_7709",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Operation",
+  "ID" : "_9_0_62a020a_1105704884698_645168_7692",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "OperationTemplateParameter",
+  "ID" : "_9_0_62a020a_1105704901058_400566_8956",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "OutputPin",
+  "ID" : "_9_0_62a020a_1105704886374_19265_8125",
+  "Documentation" : "<html>Implementation of SAF Concepts\n <ul><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_8710274_1567168628900_60412_56295'>coming from</A></LI><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_3_26f0132_1600784085690_130474_861'>FROM</A></LI></ul></html>"
+}, {
+  "Name" : "Package",
+  "ID" : "_9_0_62a020a_1105704885298_713292_7913",
+  "Documentation" : "<html>Specifies the fact that a Stakeholder Requirement is provided by Stakeholders.<BR><BR>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_8710274_1558519956748_646834_44043'>System of Interest Stakeholder</A> <A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_8710274_1558520103521_679129_44321'>imposed</A> <A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_8710274_1558520000264_403052_44141'>Stakeholder Requirement</A></html>"
+}, {
+  "Name" : "PackageImport",
+  "ID" : "_9_0_62a020a_1105704885319_392905_7921",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "PackageMerge",
+  "ID" : "_9_0_62a020a_1105704885624_927264_8011",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "PackageableElement",
+  "ID" : "_9_0_62a020a_1105704884883_670212_7773",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Parameter",
+  "ID" : "_9_0_62a020a_1105704884528_587873_7620",
+  "Documentation" : "<html>Exchange point of functional usage.<BR><BR>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_26f0132_1562303524161_902110_90999'>General Function Usage Exchange Point</A></html>"
+}, {
+  "Name" : "ParameterSet",
+  "ID" : "_9_0_62a020a_1105704921145_783591_9372",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ParameterableElement",
+  "ID" : "_9_0_62a020a_1105704900969_832991_8945",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "PartDecomposition",
+  "ID" : "_9_0_62a020a_1105704887331_472205_8198",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Pin",
+  "ID" : "_9_0_62a020a_1105704886287_935006_8109",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Port",
+  "ID" : "_9_0_62a020a_1105704911199_900094_9269",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "PrimitiveType",
+  "ID" : "_9_0_62a020a_1105704885449_652048_7963",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Profile",
+  "ID" : "_9_0_62a020a_1105704941771_497275_9699",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ProfileApplication",
+  "ID" : "_9_0_62a020a_1105704941572_937414_9682",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Property",
+  "ID" : "_9_0_62a020a_1105704884574_96724_7644",
+  "Documentation" : "<html>Implementation of SAF Concepts\n <ul><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_26f0132_1562303524176_849218_91042'>applying to</A></LI><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_26f0132_1562303524176_125039_91041'>applying to</A></LI></ul></html>"
+}, {
+  "Name" : "ProtocolConformance",
+  "ID" : "_9_0_62a020a_1105704932354_30061_9549",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ProtocolStateMachine",
+  "ID" : "_9_0_62a020a_1105704932517_261495_9567",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ProtocolTransition",
+  "ID" : "_9_0_62a020a_1105704932447_458425_9559",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Pseudostate",
+  "ID" : "_9_0_62a020a_1105704932903_534887_9608",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "QualifierValue",
+  "ID" : "_9_0_62a020a_1105704903982_7688_9033",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "RaiseExceptionAction",
+  "ID" : "_9_0_62a020a_1105704910191_31265_9233",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ReadExtentAction",
+  "ID" : "_9_0_62a020a_1105704903747_836193_9001",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ReadIsClassifiedObjectAction",
+  "ID" : "_9_0_62a020a_1105704903874_864575_9017",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ReadLinkAction",
+  "ID" : "_9_0_62a020a_1105704897124_532491_8767",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ReadLinkObjectEndAction",
+  "ID" : "_9_0_62a020a_1105704904049_817856_9042",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ReadLinkObjectEndQualifierAction",
+  "ID" : "_9_0_62a020a_1105704904103_710448_9050",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ReadSelfAction",
+  "ID" : "_9_0_62a020a_1105704896624_101949_8695",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ReadStructuralFeatureAction",
+  "ID" : "_9_0_62a020a_1105704896721_782477_8711",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ReadVariableAction",
+  "ID" : "_9_0_62a020a_1105704909858_831429_9193",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "RealTaggedValue",
+  "ID" : "_19_1beta_4290188_1576408834130_39476_4794",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Realization",
+  "ID" : "_9_0_62a020a_1105704885860_877151_8083",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Reception",
+  "ID" : "_9_0_62a020a_1105704907408_866714_9126",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ReclassifyObjectAction",
+  "ID" : "_9_0_62a020a_1105704903822_36535_9009",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "RedefinableElement",
+  "ID" : "_9_0_62a020a_1105704885173_952834_7871",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "RedefinableTemplateSignature",
+  "ID" : "_9_0_62a020a_1105704901217_803639_8974",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ReduceAction",
+  "ID" : "_15_0EAPbeta1_62a020a_1188227280978_761467_467",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Region",
+  "ID" : "_9_0_62a020a_1105704933219_299257_9640",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Relationship",
+  "ID" : "_9_0_62a020a_1105704885599_925260_8003",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "RemoveStructuralFeatureValueAction",
+  "ID" : "_9_0_62a020a_1105704896878_576411_8735",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "RemoveVariableValueAction",
+  "ID" : "_9_0_62a020a_1105704910133_619352_9225",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ReplyAction",
+  "ID" : "_9_0_62a020a_1105704904356_235357_9083",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "SendObjectAction",
+  "ID" : "_9_0_62a020a_1105704897504_144024_8823",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "SendSignalAction",
+  "ID" : "_9_0_62a020a_1105704887121_121073_8157",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "SequenceNode",
+  "ID" : "_9_0_62a020a_1105704892401_738929_8490",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Signal",
+  "ID" : "_9_0_62a020a_1105704907512_504308_9134",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "SignalEvent",
+  "ID" : "_9_0_62a020a_1105704907577_698817_9142",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Slot",
+  "ID" : "_9_0_62a020a_1105704885275_885607_7905",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "StartClassifierBehaviorAction",
+  "ID" : "_9_0_62a020a_1105704903928_843196_9025",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "StartObjectBehaviorAction",
+  "ID" : "_16_0beta1_62a020a_1219131557942_89085_240",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "State",
+  "ID" : "_9_0_62a020a_1105704932587_977586_9575",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "StateInvariant",
+  "ID" : "_9_0_62a020a_1105704888416_506222_8337",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "StateMachine",
+  "ID" : "_9_0_62a020a_1105704932656_223024_9583",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Stereotype",
+  "ID" : "_9_0_62a020a_1105704941426_574917_9666",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "StringExpression",
+  "ID" : "_9_0_62a020a_1105704900715_890391_8913",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "StringTaggedValue",
+  "ID" : "_19_1beta_4290188_1576408800702_178998_4792",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "StructuralFeature",
+  "ID" : "_9_0_62a020a_1105704885228_400432_7889",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "StructuralFeatureAction",
+  "ID" : "_9_0_62a020a_1105704896675_779403_8703",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "StructuredActivityNode",
+  "ID" : "_9_0_62a020a_1105704892095_330690_8434",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "StructuredClassifier",
+  "ID" : "_9_0_62a020a_1105704884590_293684_7652",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Substitution",
+  "ID" : "_9_0_62a020a_1105704885889_983575_8091",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "TaggedValue",
+  "ID" : "_19_1beta_4290188_1576142795317_196226_4792",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "TemplateBinding",
+  "ID" : "_9_0_62a020a_1105704900812_735213_8921",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "TemplateParameter",
+  "ID" : "_9_0_62a020a_1105704900663_235770_8905",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "TemplateParameterSubstitution",
+  "ID" : "_9_0_62a020a_1105704900866_586714_8929",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "TemplateSignature",
+  "ID" : "_9_0_62a020a_1105704900524_611695_8896",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "TemplateableElement",
+  "ID" : "_9_0_62a020a_1105704900918_648825_8937",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "TestIdentityAction",
+  "ID" : "_9_0_62a020a_1105704896581_982450_8687",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "TimeConstraint",
+  "ID" : "_9_0_62a020a_1105704895977_530126_8615",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "TimeEvent",
+  "ID" : "_9_0_62a020a_1105704896324_51502_8663",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "TimeExpression",
+  "ID" : "_9_0_62a020a_1105704895761_64066_8583",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "TimeInterval",
+  "ID" : "_9_0_62a020a_1105704896023_931757_8623",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "TimeObservation",
+  "ID" : "_15_0EAPbeta1_62a020a_1188227519356_865463_4007",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Transition",
+  "ID" : "_9_0_62a020a_1105704932761_361072_9592",
+  "Documentation" : "<html>Implementation of SAF Concepts\n <ul><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_26f0132_1562307450269_33287_141718'>System State Transition</A></LI><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_2024x_2_26f0132_1751005742167_311533_1492'>Operational State Transition</A></LI></ul></html>"
+}, {
+  "Name" : "Trigger",
+  "ID" : "_9_0_62a020a_1105704907324_573147_9117",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Type",
+  "ID" : "_9_0_62a020a_1105704885727_795332_8043",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "TypedElement",
+  "ID" : "_9_0_62a020a_1105704885097_350012_7854",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "UnmarshallAction",
+  "ID" : "_9_0_62a020a_1105704904410_395906_9091",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Usage",
+  "ID" : "_9_0_62a020a_1105704885779_949036_8059",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "UseCase",
+  "ID" : "_9_0_62a020a_1105704919680_932732_9312",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ValuePin",
+  "ID" : "_9_0_62a020a_1105704886319_270101_8117",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ValueSpecification",
+  "ID" : "_9_0_62a020a_1105704885549_50839_7995",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "ValueSpecificationAction",
+  "ID" : "_9_0_62a020a_1105704897612_977025_8839",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Variable",
+  "ID" : "_9_0_62a020a_1105704890307_266823_8425",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "VariableAction",
+  "ID" : "_9_0_62a020a_1105704909724_568572_9185",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "Vertex",
+  "ID" : "_9_0_62a020a_1105704932833_799001_9600",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "WriteLinkAction",
+  "ID" : "_9_0_62a020a_1105704897330_715729_8799",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "WriteStructuralFeatureAction",
+  "ID" : "_9_0_62a020a_1105704896769_282989_8719",
+  "Documentation" : "<html>Not implementing a concept</html>"
+}, {
+  "Name" : "WriteVariableAction",
+  "ID" : "_9_0_62a020a_1105704909923_687782_9201",
+  "Documentation" : "<html>Not implementing a concept</html>"
+} ]
