@@ -158,4 +158,8 @@
   "Body" : "2026-08-22",
   "ID" : "_2026x_26f0132_1787423872183_349426_304",
   "Documentation" : "<html>\n  <head>\n\t\t<style>\n\t\t\tp {padding:0px; margin:0px;}\n\t\t</style>\n\t</head>\n  <body>\n    <ul>\n      <li>\nimplement <a href=\"https://github.com/GfSE/SAF-Specification/issues/142\">issue #142</a> &#160;rename &quot;SAF_PhysicalRole_SoI&quot; --&gt; &quot;SAF_PhysicalContextRole_SoI&quot;\n\n      </li>\n      <li>\nimplement <a href=\"https://github.com/GfSE/SAF-Specification/issues/143\">issue #143</a> rename &quot;SAF_SystemFunctionSupport&quot; to &quot;SAF_FunctionSupport&quot;\n\n      </li>\n      <li>\nimplement &#160;<a href=\"https://github.com/GfSE/SAF-Specification/issues/144\">issue #144</a> add &quot;SAF_OperationalPerformerRole&quot;\n\n      </li>\n      <li>\nimplement <a href=\"https://github.com/GfSE/SAF-Specification/issues/126\">issue #126</a> merge P8_PLIM Physical Logical Item Mapping Viewpoint into P8_PLOM Physical Logical Mapping Viewpoint\n\n      </li>\n      <li>\nimplement <a href=\"https://github.com/GfSE/SAF-Specification/issues/145\">issue #145</a> improve stereotype documentation format\n\n      </li>\n    </ul>\n</body>\n</html>"
+}, {
+  "Body" : "2026-10-09",
+  "ID" : "_2026x_26f0132_1791528958418_754958_8",
+  "Documentation" : "<html>\n  <head>\n\t\t<style>\n\t\t\tp {padding:0px; margin:0px;}\n\t\t</style>\n\t</head>\n  <body>\nAdd proposed Viewpoint Physical Context Interaction <a href=\"https://github.com/GfSE/SAF-Specification/issues/74\">issue#74</a></body>\n</html>"
 } ]
