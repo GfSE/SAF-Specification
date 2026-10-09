@@ -56,10 +56,6 @@ jobs:
           echo $REPO_NAME
 
           TEMP_CONFIG=$(mktemp)
-          # avoid look up of API as it doesn't work from within actions without exposing the GITHUB_TOKEN here which is a security risk
-          cat <<EOF >> ${TEMP_CONFIG}
-          repository_nwo: ${GITHUB_REPOSITORY}
-          EOF
 
           if  [[ -n "${TARGET_FOLDER}" ]]
           then

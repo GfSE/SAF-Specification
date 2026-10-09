@@ -162,4 +162,7 @@
   "Body" : "2026-10-09",
   "ID" : "_2026x_26f0132_1791528958418_754958_8",
   "Documentation" : "<html>\n  <head>\n\t\t<style>\n\t\t\tp {padding:0px; margin:0px;}\n\t\t</style>\n\t</head>\n  <body>\nAdd proposed Viewpoint Physical Context Interaction <a href=\"https://github.com/GfSE/SAF-Specification/issues/74\">issue#74</a></body>\n</html>"
+}, {
+  "Body" : "2026-10-09.1",
+  "Documentation" : "Header release dropdown menu now reads a curated list from src/_data/releases.yml instead of deriving entries from the gh-pages branches. Branches not listed there stay reachable via /version/&lt;branch&gt;/ but no longer clutter the menu; the GitHub API (axios) dependency was dropped from the page."
 } ]

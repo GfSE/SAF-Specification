@@ -8,9 +8,6 @@ const basePath = '';
 const basePath = '{{ site.baseurl }}';
 {%- endif %}
 
-{%- if site.repository_nwo != nil %}
-const repository_nwo = '{{ site.repository_nwo }}';
-{%- else %}
-const repository_nwo = '{{ site.github.repository_nwo }}';
-{%- endif %}
+// release menu entries; curated in _data/releases.yml, order = menu order
+const releases = {{ site.data.releases | jsonify }};
 
