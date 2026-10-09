@@ -1,139 +1,47 @@
 // source from https://github.com/vagrant-libvirt/vagrant-libvirt/blob/main/docs/assets/js/plugin_versions_menu.js#L214
+//
+// Menu entries come from _data/releases.yml, rendered into site_constants.js at build time.
 
-
-// Look at webpack to replace the dependency loading
-// also would allow use yarn + jest to support unit testing code below
-
-const dependencies = [
-    {
-        src: 'https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js',
-        integrity: 'sha512-odNmoc1XJy5x1TMVMdC7EMs3IVdItLPlCeL5vSUPN2llYKMJ2eByTTAIiiuqLg+GdNr9hF6z81p27DArRFKT7A==',
-        crossOrigin: 'anonymous',
-    },
-    {
-        src: 'https://cdn.jsdelivr.net/npm/axios-cache-interceptor@0.10.6/dist/index.bundle.js',
-        integrity: 'sha256-yJbSlTxKmgU+sjlMx48OSjoiUsboy18gXTxUBniEEO0=',
-        crossOrigin: 'anonymous',
-    },
-]
-
-const loaded = [];
-
-dependencies.forEach( (dep, i) => {
-    loaded[i] = false;
-    loadScript(dep, function() {
-        loaded[i] = true;
-        if (loaded.every(value => value === true)) {
-            // arguments come from a site constants file
-            handleVersionedDocs(repository_nwo, basePath);
-        }
-    });
-})
-
-// helper taken from https://stackoverflow.com/a/950146 under CC BY-SA 4.0, added support
-// for additional attributes to be set on the script tag.
-function loadScript(url, callback)
-{
-    // Adding the script tag to the head as suggested before
-    var head = document.head;
-    var script = document.createElement('script');
-    script.type = 'text/javascript';
-    script.src = url.src;
-    delete url.src;
-    for (var attribute in url) {
-        script[attribute] = url[attribute];
-    }
-
-    // Then bind the event to the callback function.
-    // There are several events for cross browser compatibility.
-    script.onreadystatechange = callback;
-    script.onload = callback;
-
-    // Fire the loading
-    head.appendChild(script);
-}
-
-// main function, must wait until dependencies are loaded before calling
-function handleVersionedDocs(repository_nwo, basePath) {
-    const { buildWebStorage, setupCache } = window.AxiosCacheInterceptor;
-    const storage = buildWebStorage(sessionStorage, 'axios-cache:');
-    const axiosCached = setupCache(axios.create(), { storage });
-
+// main function; the menu markup and the site constants are already in place when this runs
+function handleVersionedDocs(basePath, releases) {
     menuBackgroundImageClosed = "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='15 6 9 12 15 18'%3E%3C/polyline%3E%3C/svg%3E\")";
     menuBackgroundImageOpen = "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E\")";
 
-    async function loadOptions(menu, dropdown) {
-        const defaultBranchPromise = axiosCached.get(
-            `https://api.github.com/repos/${repository_nwo}`,
-        ).then(res => {
-            return res.data.default_branch;
-        });
+    function loadOptions(menu, dropdown) {
+        const options = Array.isArray(releases) && releases.length > 0
+            ? releases
+            : [{ id: 'latest', label: 'latest' }];
 
-        const statusPredicate = (status) => status === 404 || status >= 200 && status < 400
-        const versionDir = await axiosCached.get(
-            `https://api.github.com/repos/${repository_nwo}/git/trees/gh-pages`, {
-                cache: {
-                    cachePredicate: {
-                        statusCheck: statusPredicate
-                    }
-                },
-                validateStatus: statusPredicate
-            }
-        ).then(res => {
-            if (res.status === 404) {
-                return null;
-            }
-
-            return res.data.tree.find(t => {
-                return t.path.toLowerCase() === 'version';
-            });
-        });
-
-        if (versionDir === undefined || versionDir === null) {
-            var options = [];
-        } else {
-            res = await axios.get(versionDir.url);
-            var options = res.data.tree.map(t => {
-                return {value: t.path, text: t.path};
-            });
-        };
-
-        options = options.sort( (a, b) => b.value.localeCompare(a.value, undefined, { numeric:true }) );
-
-        const defaultBranch = await defaultBranchPromise;
-        options.unshift({ value: 'latest', text: defaultBranch });
-
-        var currentVersion = "";
+        let currentPage = '';
+        let currentId = 'latest';
         const versionPath = `${basePath}/version/`;
         const path = window.location.pathname;
-        //const path = window.location.pathname.toLowerCase();
-        //if (path.startsWith(versionPath.toLowerCase())) {
         if (path.startsWith(versionPath)) {
             const start = versionPath.length;
-            const end = path.indexOf('/', start+1);
-            currentVersion = path.substring(start, end < 0 ? path.length : end);
+            const end = path.indexOf('/', start + 1);
+            currentId = path.substring(start, end < 0 ? path.length : end);
             currentPage = path.substring(end < 0 ? path.length : end);
         } else {
-            currentVersion = defaultBranch;
             currentPage = path.substring(basePath.length);
         }
-        menu.innerHTML = `Branch: ${currentVersion}`;
+        const current = options.find(item => item.id === currentId);
+        menu.innerHTML = `Branch: ${current ? (current.label || current.id) : currentId}`;
         menu.appendChild(dropdown);
 
-        options.push({text:'TdSE2023',value:'TdSE2023'})
-        options.push({text:'TdSE2022',value:'TdSE2022'})
-        options.push({text:'Initial-Release',value:'Initial-Release'})
-        options.forEach( item => {
-            var link = document.createElement('a');
-            var wrapper = document.createElement('div');
-            if ( ['TdSE2023','TdSE2022','Initial-Release'].includes(item.value))
-            {
-                link.href = 'https://github.com/GfSE/SAF-Specification/tree/' + item.value + '/README.md';
-            }else
-            {
-                link.href = (item.value === 'latest' ? basePath : versionPath + item.value) + currentPage;
-            }            
-            link.innerHTML = item.text;
+        options.forEach(item => {
+            const link = document.createElement('a');
+            const wrapper = document.createElement('div');
+            if (item.url) {
+                link.href = item.url;
+            } else if (item.id === 'latest') {
+                link.href = basePath + currentPage;
+            } else {
+                link.href = versionPath + item.id + currentPage;
+            }
+            link.innerHTML = item.label || item.id;
+            if (item.note) {
+                link.title = item.note;
+            }
             link.className = 'plugin-version-menu-option';
             link.style.cssText = `
             width: 100%;
@@ -150,7 +58,7 @@ function handleVersionedDocs(repository_nwo, basePath) {
             wrapper.addEventListener('mouseover', function(e) { brightenMenuOption(e.target); });
             wrapper.addEventListener('mouseout', function(e) { restoreMenuOption(e.target); });
 
-            if (item.text === currentVersion) {
+            if (item.id === currentId) {
                 link.style.fontWeight = 'bold';
             }
 
@@ -241,3 +149,5 @@ function handleVersionedDocs(repository_nwo, basePath) {
         }
     });
 }
+
+handleVersionedDocs(basePath, releases);
