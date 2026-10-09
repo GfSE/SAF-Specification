@@ -1,6 +1,14 @@
 // source from https://github.com/vagrant-libvirt/vagrant-libvirt/blob/main/docs/assets/js/plugin_versions_menu.js#L214
 //
 // Menu entries come from _data/releases.yml, rendered into site_constants.js at build time.
+//
+// PUBLIC CONTRACT: released pages under /version/<x>/ load this file from the site root, so the
+// contract with the page markup must stay backwards compatible:
+//   - a <div id="plugin-version-menu"> element exists,
+//   - site_constants.js defines `basePath` (string) and `releases` (array of menu entries).
+// Additive changes are safe. Renaming or removing any of these, or requiring new markup, is a
+// breaking change: leave this path untouched for the already-released pages and add a new
+// revision directory (e.g. /assets/js/menu/r2/) referenced from _includes/header_custom.html.
 
 // main function; the menu markup and the site constants are already in place when this runs
 function handleVersionedDocs(basePath, releases) {

@@ -8,6 +8,9 @@ const basePath = '';
 const basePath = '{{ site.baseurl }}';
 {%- endif %}
 
+// Public contract for the root-served plugin scripts (see plugin_versions_menu.js): released
+// pages under /version/<x>/ load this file from the site root, so `basePath` and `releases`
+// must keep their names and shapes; additions are fine.
 // release menu entries; curated in _data/releases.yml, order = menu order
 const releases = {{ site.data.releases | jsonify }};
 
