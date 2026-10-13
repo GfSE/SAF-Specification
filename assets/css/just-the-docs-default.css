@@ -7892,4 +7892,22 @@ div.whitebox div.na_or_both {
   outline: 2px solid #ffffff;
 }
 
+.stereo-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+.stereo-filters label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  cursor: pointer;
+}
+.stereo-filters .stereo-search {
+  margin-left: auto;
+  min-width: 16rem;
+}
+
 /*# sourceMappingURL=just-the-docs-default.css.map */
