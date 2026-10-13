@@ -8,7 +8,8 @@
         {% endfor %}
     </tr>
 
-    {% for dc in site.data.domaincolors %}
+    {% assign domains = site.data.domaincolors | where_exp: "dc", "dc.DomainID != 'D'" %}
+    {% for dc in domains %}
     {% assign dom= site.data.domains | where : "DomainID", dc.DomainID %}
     {% assign dom_vp= site.data.viewpoints | where: "Domain", dom.first.Name %}
     <tr class="SAF_Domain_{{ dc.DomainID }}">

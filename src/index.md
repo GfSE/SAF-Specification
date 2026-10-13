@@ -32,11 +32,8 @@ The System Architecture Framework Specification application is demonstrated usin
 This documentation is for the main branch of SAF that reflects the current state of development and it is updated as required. See the [change report](CHANGES.md) for an information about major changes.
 
 The following SAF releases are available, each of which is managed in a separate branch:
-* [Initial Release](https://github.com/GfSE/SAF-Specification/tree/Initial-Release/README.md)
-* [TdSE2022](https://github.com/GfSE/SAF-Specification/tree/TdSE2022/README.md)
-* [TdSE2023](https://github.com/GfSE/SAF-Specification/tree/TdSE2023/README.md)
-* [TdSE2024](https://saf.gfse.org/version/TdSE2024)
-* [TdSE2025](https://saf.gfse.org/version/TdSE2025)
+{% for release in site.data.releases %}{% if release.id != "latest" %}* [{% if release.label %}{{ release.label }}{% else %}{{ release.id }}{% endif %}]({% if release.url %}{{ release.url }}{% else %}{{ site.url }}/version/{{ release.id }}{% endif %})
+{% endif %}{% endfor %}
 
 
 # Tool Implementations
