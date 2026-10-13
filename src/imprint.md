@@ -10,11 +10,11 @@ nav_order: 99
 
 <img class="my-align-right size-20" src="./assets/images/gfse-logo.png" alt="GfSE-Logo"/>
 
-<p>Gesellschaft für Systems Engineering e.V.<br>Hermann-Köhl-Straße 7<br> D-28199 Bremen<br>Deutschland<br> Telefon: +49 421 9601-495<br> e-mail: <a href="mailto:office@gfse.org">office(at)gfse.org</a><br> Internet: <a href="http://www.gfse.org">www.gfse.org</a></p>
-<h3>Board of Directors</h3><p>President: Dr.-Ing. Walter Koch<br> Deputy President: Daria Wilke<br> Treasurer: Rüdiger Kaffenberger<br> Secretary: Stefan Dreiseitel</p>
+<p>Gesellschaft für Systems Engineering e.V. - German Chapter of INCOSE<br>Hermann-Köhl-Straße 7<br> D-28199 Bremen<br>Deutschland<br> Telefon: +49 (0) 421 9896639-0<br> e-mail: <a href="mailto:office@gfse.org">office(at)gfse.org</a><br> Internet: <a href="http://www.gfse.org">www.gfse.org</a></p>
+<h3>Board of Directors</h3><p>President: Dr.-Ing. Walter Koch<br> Deputy President: Daria Wilke<br> Treasurer: Ilona Hofmann<br> Secretary: Stefan Dreiseitel</p>
 <h3>Registration Office</h3><p>Amtsgericht München</p>
 <h3>Registration Number</h3><p>VR 16037</p>
-<h3>Responsible for the Content</h3><p>Dr. Walter Koch, e-mail: <a href="mailto:office@gfse.org">office(at)gfse.org</a></p>
+<h3>Responsible for the Content (§ 10 para. 3 MDStV)</h3><p>Dr. Walter Koch, e-mail: <a href="mailto:office@gfse.org">office(at)gfse.org</a></p>
 
 ## Data Protection and Privacy
 
@@ -26,7 +26,7 @@ nav_order: 99
 
 ## Copyright
 
-Copyright 2024 by SAF Authors
+Copyright 2024-2026 by SAF Authors
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
