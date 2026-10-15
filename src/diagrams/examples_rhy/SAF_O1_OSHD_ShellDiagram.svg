@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+  xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+  xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0"
+  version="1.0"
+  width="269.26999mm"
+  height="203.37mm"
+  diagram:hGridSize="12"
+  diagram:vGridSize="12">
+<defs>
+
+   <pattern id="EMFhbasepattern"     
+        patternUnits="userSpaceOnUse"
+        width="6"                    
+        height="6"                   
+        x="0"                        
+        y="0">                       
+   </pattern>                          
+</defs>
+   <rect 
+	style="fill:none;stroke:#ffffff;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	x="0" y="0" width="1018.1871" height="770.37984" /> 
+   <rect 
+	style="fill:#f7f7f7;fill-rule:evenodd;fill-opacity:1;stroke:#0070c0;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	x="11.405354" y="11.405354" width="995.37638" height="747.56913" /> 
+   <path 
+	style="fill:#f7f7f7;fill-rule:evenodd;fill-opacity:1;stroke:#0070c0;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 11.405354,11.405354 
+	L 11.405354,11.405354 
+	L 444.80882,11.405354 
+	L 444.80882,11.405354 
+	L 444.80882,19.700157 
+	L 437.55087,26.95811 
+	L 11.405354,26.95811 
+	L 11.405354,26.95811 
+	z " /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,38.363465,11.405354)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#0000FF;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>O1_OSHD - bdd [Package] DiagramContainer_O1_OSHD_Pkg [ShellDiagram]</tspan></tspan></text>
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="890.65449" y="238.47559" width="12.442205" height="18.663307" /> 
+   <ellipse 
+	style="fill:#9eb0de;fill-rule:evenodd;fill-opacity:1;stroke:#768fd1;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	cx="517.90677" cy="400.22425" rx="467.1011" ry="336.97638" /> 
+   <ellipse 
+	style="fill:#768fd1;fill-rule:evenodd;fill-opacity:1;stroke:#5978c8;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	cx="517.90677" cy="400.22425" rx="362.37921" ry="235.36504" /> 
+   <ellipse 
+	style="fill:#5978c8;fill-rule:evenodd;fill-opacity:1;stroke:#0070c0;stroke-width:4.1474018px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	cx="518.4252" cy="399.70583" rx="197.00157" ry="128.05102" /> 
+   <rect 
+	style="fill:#5978c8;fill-rule:evenodd;fill-opacity:1;stroke:#0070c0;stroke-width:4.1474018px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	x="401.2611" y="256.10205" width="223.95969" height="80.874331" /> 
+   <rect 
+	style="fill:#768fd1;fill-rule:evenodd;fill-opacity:1;stroke:#5978c8;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	x="401.2611" y="144.1222" width="223.95969" height="80.874331" /> 
+   <rect 
+	style="fill:#9eb0de;fill-rule:evenodd;fill-opacity:1;stroke:#768fd1;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	x="401.2611" y="32.142362" width="223.95969" height="80.874331" /> 
+   <ellipse 
+	style="fill:#9eb0de;fill-rule:evenodd;fill-opacity:1;stroke:#768fd1;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	cx="368.08189" cy="80.874331" rx="15.552756" ry="15.552756" /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="355.63969" y="72.579528" width="32.142362" height="18.663307" /> 
+<text
+xml:space="preserve"
+style="font-size:13.500000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Condensed;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,360.823937,72.579528)"
+x="0.000000" y="12.030029"
+><tspan sodipodi:role="line"
+x="0.000000" y="12.030029"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#FFFFFF;font-size:13.500000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Condensed;font-family:Times New Roman;"
+>L-2</tspan></tspan></text>
+   <ellipse 
+	style="fill:#768fd1;fill-rule:evenodd;fill-opacity:1;stroke:#5978c8;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	cx="368.08189" cy="179.37512" rx="15.552756" ry="15.552756" /> 
+   <ellipse 
+	style="fill:#5978c8;fill-rule:evenodd;fill-opacity:1;stroke:#0070c0;stroke-width:4.1474018px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	cx="368.08189" cy="314.16567" rx="15.552756" ry="15.552756" /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="355.63969" y="172.11717" width="32.142362" height="18.663307" /> 
+<text
+xml:space="preserve"
+style="font-size:13.500000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Condensed;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,360.823937,172.117165)"
+x="0.000000" y="12.030029"
+><tspan sodipodi:role="line"
+x="0.000000" y="12.030029"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#FFFFFF;font-size:13.500000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Condensed;font-family:Times New Roman;"
+>L-1</tspan></tspan></text>
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="357.71339" y="305.87087" width="26.95811" height="18.663307" /> 
+<text
+xml:space="preserve"
+style="font-size:13.500000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Condensed;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,362.897638,305.870866)"
+x="0.000000" y="12.030029"
+><tspan sodipodi:role="line"
+x="0.000000" y="12.030029"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#FFFFFF;font-size:13.500000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Condensed;font-family:Times New Roman;"
+>L0</tspan></tspan></text>
+</svg>
