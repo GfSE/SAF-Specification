@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+  xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+  xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0"
+  version="1.0"
+  width="203.39999mm"
+  height="176.24001mm">
+<defs>
+
+   <pattern id="EMFhbasepattern"     
+        patternUnits="userSpaceOnUse"
+        width="6"                    
+        height="6"                   
+        x="0"                        
+        y="0">                       
+   </pattern>                          
+</defs>
+   <rect 
+	style="fill:none;stroke:#ffffff;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	x="0" y="0" width="769.34299" height="667.73165" /> 
+   <rect 
+	style="fill:#f7f7f7;fill-rule:evenodd;fill-opacity:1;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	x="11.405354" y="11.405354" width="746.53228" height="644.92094" /> 
+   <path 
+	style="fill:#f7f7f7;fill-rule:evenodd;fill-opacity:1;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 11.405354,11.405354 
+	L 11.405354,11.405354 
+	L 374.30299,11.405354 
+	L 374.30299,11.405354 
+	L 374.30299,19.700157 
+	L 367.04504,26.95811 
+	L 11.405354,26.95811 
+	L 11.405354,26.95811 
+	z " /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,32.142362,11.405354)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#0000FF;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>C4_SITI - seq [Package] System_Pkg [sdModingCommands_WB]</tspan></tspan></text>
+<g diagram:semanticTargetId="da5bbb14-4e60-4a36-9a7d-3ad8619bedd0" diagram:parentSemanticTargetId="0b4bce09-f880-4eb1-8470-2c45d7ec9faf"  diagram:x="557.30708" diagram:y="41.992441" diagram:width="141.01165" diagram:height="594.11527">
+   <path 
+	style="fill:none;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:3,1;stroke-dashoffset:0;stroke-opacity:1;" 
+	
+	d="
+	M 628.33134,96.427087 
+	L 628.33134,635.58929  " /> 
+   <rect 
+	style="fill:#ccffff;fill-rule:evenodd;fill-opacity:1;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	x="557.82551" y="42.510866" width="139.9748" height="53.91622" /> 
+   <path 
+	style="fill:none;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 608.63118,635.58929 
+	L 646.99465,635.58929  " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="558.86236" y="43.547717" width="137.9011" height="52.87937" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,587.894173,43.547717)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000000;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>:FFDS_Analyzer</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="b8d3c4ba-6a14-4802-885a-79299c067c16" diagram:parentSemanticTargetId="0b4bce09-f880-4eb1-8470-2c45d7ec9faf"  diagram:x="375.85826" diagram:y="41.992441" diagram:width="138.93795" diagram:height="594.11527">
+   <path 
+	style="fill:none;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:3,1;stroke-dashoffset:0;stroke-opacity:1;" 
+	
+	d="
+	M 445.84567,96.427087 
+	L 445.84567,635.58929  " /> 
+   <rect 
+	style="fill:#ccffff;fill-rule:evenodd;fill-opacity:1;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	x="376.37669" y="42.510866" width="137.9011" height="53.91622" /> 
+   <path 
+	style="fill:none;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 426.14551,635.58929 
+	L 464.50898,635.58929  " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="377.41354" y="43.547717" width="135.8274" height="52.87937" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,391.929449,43.547717)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000000;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>:FFDS_UserInterface</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="75b77020-ff5c-4f8a-a31b-ac0c7465bf57" diagram:parentSemanticTargetId="0b4bce09-f880-4eb1-8470-2c45d7ec9faf"  diagram:x="247.28881" diagram:y="41.992441" diagram:width="100.57449" diagram:height="594.11527">
+   <path 
+	style="fill:none;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:3,1;stroke-dashoffset:0;stroke-opacity:1;" 
+	
+	d="
+	M 297.57606,96.427087 
+	L 297.57606,635.58929  " /> 
+   <rect 
+	style="fill:#ffffff;fill-rule:evenodd;fill-opacity:1;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	x="247.80724" y="42.510866" width="99.537638" height="53.91622" /> 
+   <path 
+	style="fill:none;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 284.09701,635.58929 
+	L 311.05512,635.58929  " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="248.84409" y="43.547717" width="97.463937" height="52.87937" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,269.581102,43.547717)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000000;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>:Maintainer</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="123a994e-bf68-43da-bc9b-63e1abdd59a6" diagram:parentSemanticTargetId="0b4bce09-f880-4eb1-8470-2c45d7ec9faf"  diagram:x="76.208504" diagram:y="41.992441" diagram:width="100.57449" diagram:height="594.11527">
+   <path 
+	style="fill:none;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:3,1;stroke-dashoffset:0;stroke-opacity:1;" 
+	
+	d="
+	M 126.49575,96.427087 
+	L 126.49575,635.58929  " /> 
+   <rect 
+	style="fill:#ffffff;fill-rule:evenodd;fill-opacity:1;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	x="76.726929" y="42.510866" width="99.537638" height="53.91622" /> 
+   <path 
+	style="fill:none;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 113.01669,635.58929 
+	L 139.9748,635.58929  " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="77.76378" y="43.547717" width="97.463937" height="52.87937" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,101.611339,43.547717)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000000;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>:Operator</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="f6b8e8c0-ae87-4c73-bc7e-2bd90d5e6181" diagram:parentSemanticTargetId="da5bbb14-4e60-4a36-9a7d-3ad8619bedd0"  diagram:x="517.90677" diagram:y="248.32566" diagram:width="219.81228" diagram:height="32.142371">
+   <path 
+	style="fill:#ffffff;fill-rule:evenodd;fill-opacity:1;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 539.1622,248.84409 
+	L 716.46362,248.84409 
+	L 737.20063,264.39685 
+	L 716.46362,279.94961 
+	L 539.1622,279.94961 
+	L 518.4252,264.39685 
+	L 518.4252,264.39685 
+	z " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="533.97795" y="251.95465" width="189.74362" height="24.884409" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,580.636220,251.954646)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000000;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>enter Testing Mode</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="afbd429a-e442-47b9-a551-14df2921a03c" diagram:parentSemanticTargetId="da5bbb14-4e60-4a36-9a7d-3ad8619bedd0"  diagram:x="517.90677" diagram:y="360.30551" diagram:width="219.81228" diagram:height="32.14236">
+   <path 
+	style="fill:#ffffff;fill-rule:evenodd;fill-opacity:1;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 539.1622,360.82394 
+	L 716.46362,360.82394 
+	L 737.20063,376.37669 
+	L 716.46362,391.92945 
+	L 539.1622,391.92945 
+	L 518.4252,376.37669 
+	L 518.4252,376.37669 
+	z " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="533.97795" y="363.93449" width="189.74362" height="24.884409" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,567.157165,363.934488)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000000;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>enter Maintenance Mode</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="1653c982-7d59-476d-86a5-dd102fc3cc3c" diagram:parentSemanticTargetId="da5bbb14-4e60-4a36-9a7d-3ad8619bedd0"  diagram:x="517.90677" diagram:y="516.86992" diagram:width="219.81228" diagram:height="32.14236">
+   <path 
+	style="fill:#ffffff;fill-rule:evenodd;fill-opacity:1;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 539.1622,517.38835 
+	L 716.46362,517.38835 
+	L 737.20063,532.9411 
+	L 716.46362,548.49386 
+	L 539.1622,548.49386 
+	L 518.4252,532.9411 
+	L 518.4252,532.9411 
+	z " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="533.97795" y="520.4989" width="189.74362" height="24.884409" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,589.967874,520.498898)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000000;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>enter Off Mode</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="05c4607c-f2c9-40ac-b90d-306a3e45780e" diagram:parentSemanticTargetId="da5bbb14-4e60-4a36-9a7d-3ad8619bedd0"  diagram:x="517.90677" diagram:y="158.11968" diagram:width="219.81228" diagram:height="32.14236">
+   <path 
+	style="fill:#ffffff;fill-rule:evenodd;fill-opacity:1;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 539.1622,158.63811 
+	L 716.46362,158.63811 
+	L 737.20063,174.19087 
+	L 716.46362,189.74362 
+	L 539.1622,189.74362 
+	L 518.4252,174.19087 
+	L 518.4252,174.19087 
+	z " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="533.97795" y="161.74866" width="189.74362" height="24.884409" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,573.378268,161.748661)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000000;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>enter Operating Mode</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="4a5de753-2fb6-4b79-9402-6daab5747d37" diagram:parentSemanticTargetId="da5bbb14-4e60-4a36-9a7d-3ad8619bedd0"  diagram:x="517.90677" diagram:y="421.47968" diagram:width="219.81228" diagram:height="32.14236">
+   <path 
+	style="fill:#ffffff;fill-rule:evenodd;fill-opacity:1;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 539.1622,421.99811 
+	L 716.46362,421.99811 
+	L 737.20063,437.55087 
+	L 716.46362,453.10362 
+	L 539.1622,453.10362 
+	L 518.4252,437.55087 
+	L 518.4252,437.55087 
+	z " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="533.97795" y="425.10866" width="189.74362" height="24.884409" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,567.157165,425.108661)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000000;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>enter Maintenance Mode</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="f3854d6e-2460-4d58-ad90-63e188761411" diagram:parentSemanticTargetId="0b4bce09-f880-4eb1-8470-2c45d7ec9faf"  diagram:x="445.32724" diagram:y="131.68" diagram:width="182.48567" diagram:height="23.329135">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 445.84567,146.19591 
+	L 627.29449,146.19591  " /> 
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 614.85228,137.9011 
+	L 627.29449,146.19591 
+	L 614.85228,154.49071  " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="445.84567" y="131.68" width="94.353386" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,451.029921,132.716850)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>2. reqOpMode()</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="9d8a6ecb-4777-4501-ba17-91ca0a80dce2" diagram:parentSemanticTargetId="0b4bce09-f880-4eb1-8470-2c45d7ec9faf"  diagram:x="445.32724" diagram:y="207.37008" diagram:width="182.48567" diagram:height="23.329135">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 445.84567,221.88598 
+	L 627.29449,221.88598  " /> 
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 614.85228,213.59118 
+	L 627.29449,221.88598 
+	L 614.85228,230.18079  " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="445.84567" y="207.37008" width="101.61134" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,451.029921,208.406929)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>4. reqTestMode()</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="691a45d4-ca62-4dc3-be44-5dd0e8b13115" diagram:parentSemanticTargetId="0b4bce09-f880-4eb1-8470-2c45d7ec9faf"  diagram:x="445.32724" diagram:y="480.06173" diagram:width="182.48567" diagram:height="23.329135">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 445.84567,494.57764 
+	L 627.29449,494.57764  " /> 
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 614.85228,486.28283 
+	L 627.29449,494.57764 
+	L 614.85228,502.87244  " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="445.84567" y="480.06173" width="66.358425" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,451.029921,481.098583)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>8. reqOff()</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="821158c7-ecf1-497a-8898-7239dd137c32" diagram:parentSemanticTargetId="0b4bce09-f880-4eb1-8470-2c45d7ec9faf"  diagram:x="445.32724" diagram:y="326.60787" diagram:width="182.48567" diagram:height="23.329135">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 627.29449,341.12378 
+	L 445.84567,341.12378  " /> 
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 458.28787,349.41858 
+	L 445.84567,341.12378 
+	L 458.28787,332.82898  " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="489.39339" y="326.60787" width="137.9011" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,502.872441,327.644724)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>6. reqMaintanceComm()</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="c0bc1742-a758-4957-96aa-34cf860cb8fe" diagram:parentSemanticTargetId="0b4bce09-f880-4eb1-8470-2c45d7ec9faf"  diagram:x="296.53921" diagram:y="290.31811" diagram:width="331.27371" diagram:height="26.439685">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 297.57606,307.94457 
+	L 627.29449,307.94457  " /> 
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 614.85228,299.64976 
+	L 627.29449,307.94457 
+	L 614.85228,316.23937  " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="296.53921" y="290.31811" width="194.92787" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,301.723465,291.354961)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>5. SigSwitchToMaintenanceMode()</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="9a45b3a9-8a09-461c-9b2f-e9c4df2a370f" diagram:parentSemanticTargetId="0b4bce09-f880-4eb1-8470-2c45d7ec9faf"  diagram:x="125.97732" diagram:y="455.17732" diagram:width="319.34992" diagram:height="23.329135">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 126.49575,469.69323 
+	L 444.80882,469.69323  " /> 
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 432.36661,461.39843 
+	L 444.80882,469.69323 
+	L 432.36661,477.98803  " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="126.49575" y="455.17732" width="134.79055" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,131.680000,456.214173)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>7. SigStopTheSystem()</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="3eb83d92-0c32-4b29-be2e-8379652a6b5f" diagram:parentSemanticTargetId="0b4bce09-f880-4eb1-8470-2c45d7ec9faf"  diagram:x="125.97732" diagram:y="110.94299" diagram:width="319.34992" diagram:height="23.329135">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 126.49575,125.4589 
+	L 444.80882,125.4589  " /> 
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 432.36661,117.16409 
+	L 444.80882,125.4589 
+	L 432.36661,133.7537  " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="126.49575" y="110.94299" width="135.8274" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,131.680000,111.979843)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>1. SigStartTheSystem()</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="9e9b5d13-0830-4750-b02d-f714eb4ec1c4" diagram:parentSemanticTargetId="0b4bce09-f880-4eb1-8470-2c45d7ec9faf"  diagram:x="125.97732" diagram:y="186.63307" diagram:width="319.34992" diagram:height="23.329135">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 126.49575,201.14898 
+	L 444.80882,201.14898  " /> 
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 432.36661,192.85417 
+	L 444.80882,201.14898 
+	L 432.36661,209.44378  " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="126.49575" y="186.63307" width="151.38016" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,131.680000,187.669921)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>3. SigSwitchToTestMode()</tspan></tspan></text>
+</g>
+</svg>
