@@ -4938,7 +4938,10 @@
     "ID" : "_2026x_26f0132_1792700096521_312868_229",
     "Name" : "Physical Internal Interaction Scenario"
   },
-  "Viewpoint" : [ ]
+  "Viewpoint" : {
+    "ID" : "_2026x_26f0132_1792701198578_467010_500",
+    "Name" : "Physical Internal Interaction Viewpoint"
+  }
 }, {
   "Name" : "",
   "ID" : "_2026x_26f0132_1792701314307_422080_522",
@@ -4947,7 +4950,10 @@
     "ID" : "_2026x_26f0132_1792700105398_495059_231",
     "Name" : "Physical Internal Scenario Participation"
   },
-  "Viewpoint" : [ ]
+  "Viewpoint" : {
+    "ID" : "_2026x_26f0132_1792701198578_467010_500",
+    "Name" : "Physical Internal Interaction Viewpoint"
+  }
 }, {
   "Name" : "",
   "ID" : "_2026x_26f0132_1792701314386_864134_523",
@@ -4956,7 +4962,10 @@
     "ID" : "_2026x_26f0132_1792700117129_367317_235",
     "Name" : "Physical Internal Chronological Message"
   },
-  "Viewpoint" : [ ]
+  "Viewpoint" : {
+    "ID" : "_2026x_26f0132_1792701198578_467010_500",
+    "Name" : "Physical Internal Interaction Viewpoint"
+  }
 }, {
   "Name" : "",
   "ID" : "_2026x_26f0132_1792702285847_304704_799",
@@ -4965,7 +4974,10 @@
     "ID" : "_19_0_2_26f0132_1562303524176_174876_91086",
     "Name" : "Hardware Element Role"
   },
-  "Viewpoint" : [ ]
+  "Viewpoint" : {
+    "ID" : "_2026x_26f0132_1792701198578_467010_500",
+    "Name" : "Physical Internal Interaction Viewpoint"
+  }
 }, {
   "Name" : "",
   "ID" : "_2026x_26f0132_1792702288613_675915_806",
@@ -4974,7 +4986,10 @@
     "ID" : "_19_0_2_26f0132_1562303524176_672620_91085",
     "Name" : "Physical Hardware Role"
   },
-  "Viewpoint" : [ ]
+  "Viewpoint" : {
+    "ID" : "_2026x_26f0132_1792701198578_467010_500",
+    "Name" : "Physical Internal Interaction Viewpoint"
+  }
 }, {
   "Name" : "",
   "ID" : "_2026x_26f0132_1792702291444_894148_813",
@@ -4983,7 +4998,10 @@
     "ID" : "_19_0_2_26f0132_1562303524176_635820_91087",
     "Name" : "Physical Element Role"
   },
-  "Viewpoint" : [ ]
+  "Viewpoint" : {
+    "ID" : "_2026x_26f0132_1792701198578_467010_500",
+    "Name" : "Physical Internal Interaction Viewpoint"
+  }
 }, {
   "Name" : "",
   "ID" : "_2026x_26f0132_1792702294845_752850_820",
@@ -4992,7 +5010,10 @@
     "ID" : "_19_0_2_26f0132_1562303524176_61581_91084",
     "Name" : "Physical Software Role"
   },
-  "Viewpoint" : [ ]
+  "Viewpoint" : {
+    "ID" : "_2026x_26f0132_1792701198578_467010_500",
+    "Name" : "Physical Internal Interaction Viewpoint"
+  }
 }, {
   "Name" : "",
   "ID" : "_2026x_26f0132_1792702297717_479873_827",
@@ -5001,5 +5022,8 @@
     "ID" : "_19_0_2_26f0132_1562303524176_594816_91083",
     "Name" : "Software Element Role"
   },
-  "Viewpoint" : [ ]
+  "Viewpoint" : {
+    "ID" : "_2026x_26f0132_1792701198578_467010_500",
+    "Name" : "Physical Internal Interaction Viewpoint"
+  }
 } ]
