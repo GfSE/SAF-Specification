@@ -12,11 +12,7 @@
 # new nice features to add
 * beispiel diagramme  auf verschiedene tools umschaltbar
 * sortier und filterbare fancy tabellen
-* social bars ?
- * share (shariff tool)
-* contact footer
 * favico
 * linkable literature references from model
 * move definitions cited to footnotes? See Stakeholder File for example
 * taking notes (store in cookie, graphical note like in pdf) (implemented in testing)
-* in stereotypes.md report also association ends for relational concepts
