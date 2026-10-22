@@ -4930,4 +4930,76 @@
     "ID" : "_2026x_26f0132_1790279984505_372916_59",
     "Name" : "Physical Context Interaction Viewpoint"
   }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1792701314265_805857_521",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2026x_26f0132_1792700096521_312868_229",
+    "Name" : "Physical Internal Interaction Scenario"
+  },
+  "Viewpoint" : [ ]
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1792701314307_422080_522",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2026x_26f0132_1792700105398_495059_231",
+    "Name" : "Physical Internal Scenario Participation"
+  },
+  "Viewpoint" : [ ]
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1792701314386_864134_523",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2026x_26f0132_1792700117129_367317_235",
+    "Name" : "Physical Internal Chronological Message"
+  },
+  "Viewpoint" : [ ]
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1792702285847_304704_799",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524176_174876_91086",
+    "Name" : "Hardware Element Role"
+  },
+  "Viewpoint" : [ ]
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1792702288613_675915_806",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524176_672620_91085",
+    "Name" : "Physical Hardware Role"
+  },
+  "Viewpoint" : [ ]
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1792702291444_894148_813",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524176_635820_91087",
+    "Name" : "Physical Element Role"
+  },
+  "Viewpoint" : [ ]
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1792702294845_752850_820",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524176_61581_91084",
+    "Name" : "Physical Software Role"
+  },
+  "Viewpoint" : [ ]
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1792702297717_479873_827",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524176_594816_91083",
+    "Name" : "Software Element Role"
+  },
+  "Viewpoint" : [ ]
 } ]

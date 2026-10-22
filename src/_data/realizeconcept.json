@@ -4704,6 +4704,54 @@
   }
 }, {
   "Name" : "",
+  "ID" : "_2026x_26f0132_1792702807957_56819_1100",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2026x_26f0132_1792700117129_367317_235",
+    "Name" : "Physical Internal Chronological Message"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_9_0_62a020a_1105704888195_415551_8289",
+    "Name" : "Message"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1792702821200_574141_1108",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2026x_26f0132_1792700105398_495059_231",
+    "Name" : "Physical Internal Scenario Participation"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_9_0_62a020a_1105704887938_842870_8254",
+    "Name" : "Lifeline"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1792702849204_738449_1116",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2026x_26f0132_1792700096521_312868_229",
+    "Name" : "Physical Internal Interaction Scenario"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_9_0_62a020a_1105704887901_869040_8246",
+    "Name" : "Interaction"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1792703100940_473782_1212",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2026x_26f0132_1792702900339_728664_1128",
+    "Name" : "containing"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2026x_26f0132_1790318452839_57500_332",
+    "Name" : ""
+  }
+}, {
+  "Name" : "",
   "ID" : "_2026x_b6f02e1_1780434690537_987459_256",
   "Documentation" : "",
   "RealizedConcept" : {

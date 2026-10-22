@@ -97,8 +97,8 @@
   "Name" : "How do physical system elements interact to provide system functions?",
   "ID" : "_2021x_2_8710274_1674576758600_423008_23078",
   "ConcernsViewpoints" : [ {
-    "Name" : "Physical Context Interaction Viewpoint",
-    "ID" : "_2026x_26f0132_1790279984505_372916_59"
+    "Name" : "Physical Internal Exchange Viewpoint",
+    "ID" : "_2021x_2_8710274_1674680950433_310726_23659"
   } ]
 }, {
   "Documentation" : "",
@@ -1368,5 +1368,14 @@
   "ConcernsViewpoints" : [ {
     "Name" : "Security Risk Analysis Viewpoint",
     "ID" : "_2024x_4c5019a_1729850878319_101841_4365"
+  } ]
+}, {
+  "Documentation" : "",
+  "Owner" : "interaction",
+  "Name" : "What sequences of exchanges occur between physical systems within the system boundary through physical connections?",
+  "ID" : "_2026x_26f0132_1792700702858_379463_371",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Physical Internal Interaction Viewpoint",
+    "ID" : "_2026x_26f0132_1792701198578_467010_500"
   } ]
 } ]

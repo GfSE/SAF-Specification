@@ -6094,4 +6094,64 @@
     "ID" : "_19_0_2_ebf0350_1567280920665_435327_53193",
     "Name" : "User"
   }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1792700839953_898206_419",
+  "Documentation" : "In my role, I need to use the specified interaction sequences for integration and verification.",
+  "Concern" : {
+    "ID" : "_2026x_26f0132_1792700702858_379463_371",
+    "Name" : "What sequences of exchanges occur between physical systems within the system boundary through physical connections?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_525021_92401",
+    "Name" : "IV&V Engineer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1792700895915_281599_426",
+  "Documentation" : "In my role, I need to align the physical internal interaction behaviour with system and integration needs and concerns.",
+  "Concern" : {
+    "ID" : "_2026x_26f0132_1792700702858_379463_371",
+    "Name" : "What sequences of exchanges occur between physical systems within the system boundary through physical connections?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
+    "Name" : "Acquirer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1792700895997_733052_427",
+  "Documentation" : "In my role, I need to define and assess the physical internal interaction behaviour.",
+  "Concern" : {
+    "ID" : "_2026x_26f0132_1792700702858_379463_371",
+    "Name" : "What sequences of exchanges occur between physical systems within the system boundary through physical connections?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1792700896075_681749_428",
+  "Documentation" : "In my role, I need to implement the software-related aspects of the specified interaction behaviour.",
+  "Concern" : {
+    "ID" : "_2026x_26f0132_1792700702858_379463_371",
+    "Name" : "What sequences of exchanges occur between physical systems within the system boundary through physical connections?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
+    "Name" : "Software Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1792700896153_349494_429",
+  "Documentation" : "In my role, I need to implement the hardware-related aspects of the specified interaction behaviour.",
+  "Concern" : {
+    "ID" : "_2026x_26f0132_1792700702858_379463_371",
+    "Name" : "What sequences of exchanges occur between physical systems within the system boundary through physical connections?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
+    "Name" : "Hardware Developer"
+  }
 } ]
