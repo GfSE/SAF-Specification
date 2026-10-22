@@ -943,7 +943,7 @@
 }, {
   "Name" : "SAF_P4_PITI",
   "ID" : "_2026x_26f0132_1790327727626_406663_4344",
-  "Documentation" : "<html>Not implementing a concept</html>",
+  "Documentation" : "<html>Implementation of <A HREF='https://saf.gfse.org/userdoc/Physical Domain/Physical Internal Interaction Viewpoint'>Physical Internal Interaction Viewpoint</A><BR>Purpose:<BR>The P4_PITI Physical Internal Interaction Viewpoint supports the specification of sequences of interactions between physical systems within the system boundary through physical connections. It captures interaction behaviour that is relevant to the physical realization of the system, particularly where it results from physical or technical architectural decisions, such as initialization, handshaking, synchronization, startup, shutdown or recovery. The viewpoint uses the physical structure defined in the P2_PSTD Physical Structure Definition Viewpoint and does not define physical use cases or refine conceptual system behaviour.<BR>Presentation:<BR>A sequence diagram featuring the flow of control between the internal physical elements of the System within the system boundary. \nNote: This diagram depicts the sending and receiving of messages between the interacting entities called lifelines, where time is represented along the vertical axis. The lifelines representatives are part properties typed by physical elements roles.</html>",
   "MetaClass" : [ "Diagram" ],
   "General" : [ "SysML SequenceDiagram", "SAF_Diagram" ]
 }, {
