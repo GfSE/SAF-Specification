@@ -73,7 +73,10 @@ jobs:
           [[ -n "${TARGET_FOLDER}" ]] && BASEURL="${BASEURL}/version/${TARGET_FOLDER}"
 
           # The theme applies relative_url to site.logo, so only baseurl is injected here.
-          echo "baseurl: ${BASEURL}" >> ${TEMP_CONFIG}
+          # The value must stay quoted: an unquoted empty value parses as nil, and
+          # jekyll-github-metadata replaces a nil baseurl with its own fallback in
+          # production builds (an enterprise-style /pages/<owner>/<name> path).
+          echo "baseurl: \"${BASEURL}\"" >> ${TEMP_CONFIG}
           echo "is_fork: ${IS_FORK}" >> ${TEMP_CONFIG}
           echo "fork_repository: ${BUILD_REPO}" >> ${TEMP_CONFIG}
           echo "fork_owner: ${GITHUB_REPOSITORY_OWNER}" >> ${TEMP_CONFIG}
