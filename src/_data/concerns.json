@@ -231,9 +231,6 @@
   "ConcernsViewpoints" : [ {
     "Name" : "Physical Internal Exchange Viewpoint",
     "ID" : "_2021x_2_8710274_1674680950433_310726_23659"
-  }, {
-    "Name" : "Physical Context Interaction Viewpoint",
-    "ID" : "_2026x_26f0132_1790279984505_372916_59"
   } ]
 }, {
   "Documentation" : "",
@@ -415,7 +412,7 @@
 }, {
   "Documentation" : "",
   "Owner" : "requirement",
-  "Name" : "Which requirements apply to a coinceptual interface?",
+  "Name" : "Which requirements apply to a conceptual interface?",
   "ID" : "_2021x_2_8710274_1674576758878_612030_23357",
   "ConcernsViewpoints" : [ {
     "Name" : "System Context Exchange Viewpoint",
@@ -859,7 +856,7 @@
 }, {
   "Documentation" : "",
   "Owner" : "interaction",
-  "Name" : "What is the sequence of interactions among the system and context elements on concpetual level?",
+  "Name" : "What is the sequence of interactions among the system and context elements on conceptual level?",
   "ID" : "_2021x_2_8710274_1697718624828_512543_29114",
   "ConcernsViewpoints" : [ {
     "Name" : "System Context Interaction Viewpoint",
