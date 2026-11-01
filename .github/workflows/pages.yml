@@ -8,7 +8,7 @@ name: Deploy Jekyll site to Pages
 
 on:
   push:
-    branches: ["main","testing"]
+    branches: ["main","refactor"]
   workflow_dispatch:
 env:
   BRANCH_NAME: ${{ github.head_ref || github.ref_name }}
@@ -52,25 +52,35 @@ jobs:
           echo "TARGET_FOLDER=$(echo $TARGET_FOLDER)" >> $GITHUB_ENV
 
           REPO_NAME=$(jq -r ".repository.name" "$GITHUB_EVENT_PATH")
-          echo $TARGET_FOLDER
-          echo $REPO_NAME
+          BUILD_REPO="${GITHUB_REPOSITORY}"
+          CANONICAL=$(grep -E '^canonical_repository:' _config.yml | sed -E 's/^canonical_repository:[[:space:]]*//; s/^"//; s/"$//')
+          echo "building in ${BUILD_REPO} (canonical: ${CANONICAL})"
 
           TEMP_CONFIG=$(mktemp)
-          # avoid look up of API as it doesn't work from within actions without exposing the GITHUB_TOKEN here which is a security risk
-          cat <<EOF >> ${TEMP_CONFIG}
-          repository_nwo: ${GITHUB_REPOSITORY}
-          EOF
 
-          if  [[ -n "${TARGET_FOLDER}" ]]
-          then
-            #echo "baseurl: /${REPO_NAME}/version/${TARGET_FOLDER}" >> ${TEMP_CONFIG}
-            echo "baseurl: /version/${TARGET_FOLDER}" >> ${TEMP_CONFIG}
-            echo "setting baseurl to /version/${TARGET_FOLDER}"
-          else
-            #echo "baseurl: /${REPO_NAME}" >> ${TEMP_CONFIG}
-            echo 'baseurl: ""' >> ${TEMP_CONFIG}
-            echo " setting baseurl to empty string"
-          fi
+          # The site is a fork/derivative unless it is built in the canonical
+          # repository. This makes the fork notices appear or disappear
+          # automatically across fork, pull request preview and merge.
+          if [[ "${BUILD_REPO}" == "${CANONICAL}" ]]; then IS_FORK="false"; else IS_FORK="true"; fi
+
+          # Project pages are served at https://<owner>.github.io/<repo-name>/,
+          # so the baseurl must be the repository name - unless the canonical
+          # site is served from its custom domain (CNAME), where it lives at
+          # the root. The domain is bound to the canonical account, so a
+          # CNAME file inherited by a fork must not affect the fork's build.
+          # Pages URLs are case-sensitive: keep the repository name exactly as-is.
+          if [[ "${BUILD_REPO}" == "${CANONICAL}" && -f CNAME ]]; then BASEURL=""; else BASEURL="/${REPO_NAME}"; fi
+          [[ -n "${TARGET_FOLDER}" ]] && BASEURL="${BASEURL}/version/${TARGET_FOLDER}"
+
+          # The theme applies relative_url to site.logo, so only baseurl is injected here.
+          # The value must stay quoted: an unquoted empty value parses as nil, and
+          # jekyll-github-metadata replaces a nil baseurl with its own fallback in
+          # production builds (an enterprise-style /pages/<owner>/<name> path).
+          echo "baseurl: \"${BASEURL}\"" >> ${TEMP_CONFIG}
+          echo "is_fork: ${IS_FORK}" >> ${TEMP_CONFIG}
+          echo "fork_repository: ${BUILD_REPO}" >> ${TEMP_CONFIG}
+          echo "fork_owner: ${GITHUB_REPOSITORY_OWNER}" >> ${TEMP_CONFIG}
+          echo "baseurl=${BASEURL} is_fork=${IS_FORK}"
 
           # allow override of everything
           cat <<EOF >> ${TEMP_CONFIG}

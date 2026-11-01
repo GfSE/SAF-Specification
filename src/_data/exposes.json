@@ -12,18 +12,6 @@
   }
 }, {
   "Name" : "",
-  "ID" : "_19_0_2_164f041e_1564092118646_840443_52539",
-  "Documentation" : "",
-  "ExposedConcept" : {
-    "ID" : "_19_0_2_26f0132_1558075212525_51415_45174",
-    "Name" : "Logical Context SOI"
-  },
-  "Viewpoint" : {
-    "ID" : "_19_0_2_26f0132_1562303526536_284838_92559",
-    "Name" : "Logical Structure Definition Viewpoint"
-  }
-}, {
-  "Name" : "",
   "ID" : "_19_0_2_26f0132_1560372869959_769442_48878",
   "Documentation" : "",
   "ExposedConcept" : {
@@ -124,11 +112,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_981340_91082",
-    "Name" : "Logical Element Role"
+    "Name" : "Conceptual Internal Role"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1562303526536_284838_92559",
-    "Name" : "Logical Structure Definition Viewpoint"
+    "Name" : "System Structure Definition Viewpoint"
   }
 }, {
   "Name" : "",
@@ -136,7 +124,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_991194_91090",
-    "Name" : "LETbeeingInSSE"
+    "Name" : "beeing in"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1562303526536_189439_92549",
@@ -147,8 +135,8 @@
   "ID" : "_19_0_2_26f0132_1562303526364_402123_92090",
   "Documentation" : "",
   "ExposedConcept" : {
-    "ID" : "_19_0_2_26f0132_1558075337119_355128_45325",
-    "Name" : "Physical SOI"
+    "ID" : "_19_0_2_26f0132_1562303524176_941558_91077",
+    "Name" : "Physical System"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1562303526536_79296_92554",
@@ -172,11 +160,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
-    "Name" : "System Domain Kind"
+    "Name" : "Conceptual Exchange Type"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1562303526536_778418_92552",
-    "Name" : "System Domain Item Kind Viewpoint"
+    "Name" : "System Exchange Type Definition Viewpoint"
   }
 }, {
   "Name" : "",
@@ -196,7 +184,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524801_13984_91387",
-    "Name" : "SFNhasPreconditionSSE"
+    "Name" : "has precondition"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1562303526536_189439_92549",
@@ -232,11 +220,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
-    "Name" : "Logical Element"
+    "Name" : "Conceptual System"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1562303526536_284838_92559",
-    "Name" : "Logical Structure Definition Viewpoint"
+    "Name" : "System Structure Definition Viewpoint"
   }
 }, {
   "Name" : "",
@@ -244,7 +232,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_827364_91044",
-    "Name" : "PIPapplyingToAPE"
+    "Name" : "applying to"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1562303526536_79296_92554",
@@ -304,7 +292,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_8710274_1558520103521_679129_44321",
-    "Name" : "SHRimposedBY"
+    "Name" : "imposed"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1565093441772_890565_49326",
@@ -352,7 +340,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_164f041e_1564384014791_156524_51726",
-    "Name" : "FRboundedByNFR"
+    "Name" : "bounded by"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1565104337297_671823_55529",
@@ -364,7 +352,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_8710274_1558520123795_924466_44365",
-    "Name" : "SRderivingFromSTKR"
+    "Name" : "deriving from"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1565104337297_671823_55529",
@@ -436,7 +424,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1575019807024_82785_55519",
-    "Name" : "SSHrelatedToSSH"
+    "Name" : "related to"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1565093441772_881981_49327",
@@ -448,7 +436,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_8710274_1558534130432_293473_45375",
-    "Name" : "Logical User"
+    "Name" : "Conceptual User"
   },
   "Viewpoint" : {
     "ID" : "_19_0_1_26f0132_1554446728606_740631_45702",
@@ -460,7 +448,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_6d8019d_1555339282353_464909_46799",
-    "Name" : "LCEactingInSUC"
+    "Name" : "acting in"
   },
   "Viewpoint" : {
     "ID" : "_19_0_1_26f0132_1554446728606_740631_45702",
@@ -496,7 +484,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_8710274_1567171243005_813677_60746",
-    "Name" : "Logical Context Element Role"
+    "Name" : "Conceptual Context Element Role"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_8710274_1567167552896_772779_54664",
@@ -520,7 +508,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_8710274_1567171329121_821656_60902",
-    "Name" : "Logical SOI Role"
+    "Name" : "Conceptual SOI Role"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_8710274_1567167552896_772779_54664",
@@ -532,7 +520,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1576255436585_904360_55710",
-    "Name" : "SCErepresentedBySSH"
+    "Name" : "represented by"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1565093441772_881981_49327",
@@ -567,8 +555,8 @@
   "ID" : "_19_0_2_ebf0350_1555175828878_235789_44055",
   "Documentation" : "",
   "ExposedConcept" : {
-    "ID" : "_19_0_2_26f0132_1558075337119_355128_45325",
-    "Name" : "Physical SOI"
+    "ID" : "_19_0_2_26f0132_1562303524176_941558_91077",
+    "Name" : "Physical System"
   },
   "Viewpoint" : {
     "ID" : "_19_0_1_26f0132_1547202202696_824153_42420",
@@ -604,7 +592,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_164f041e_1564384014791_156524_51726",
-    "Name" : "FRboundedByNFR"
+    "Name" : "bounded by"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1565093441772_728957_49328",
@@ -616,7 +604,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_164f041e_1564384276906_470959_51917",
-    "Name" : "FRrefiningSFN"
+    "Name" : "refining"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1565093441772_728957_49328",
@@ -628,7 +616,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1575561280252_959861_56562",
-    "Name" : "SRrefiningSUC"
+    "Name" : "refining"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1565093441772_728957_49328",
@@ -640,7 +628,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_8710274_1558520123795_924466_44365",
-    "Name" : "SRderivingFromSTKR"
+    "Name" : "deriving from"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1565093441772_728957_49328",
@@ -652,7 +640,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1565104656755_27827_55752",
-    "Name" : "SRderivingFromSR"
+    "Name" : "deriving from"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1565093441772_728957_49328",
@@ -664,7 +652,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_3_26f0132_1582299953373_258701_56319",
-    "Name" : "SRrefiningLICP"
+    "Name" : "refining"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1565093441772_728957_49328",
@@ -676,11 +664,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_3_26f0132_1582314602701_812421_56211",
-    "Name" : "Logical Interaction Scenario"
+    "Name" : "Conceptual Interaction Scenario"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1576222951495_184664_54882",
-    "Name" : "Logical Internal Interaction Viewpoint"
+    "Name" : "System Internal Interaction Viewpoint"
   }
 }, {
   "Name" : "",
@@ -688,11 +676,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_3_26f0132_1582315087346_20721_56621",
-    "Name" : "Logical Scenario Participation"
+    "Name" : "Conceptual Scenario Participation"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1576222951495_184664_54882",
-    "Name" : "Logical Internal Interaction Viewpoint"
+    "Name" : "System Internal Interaction Viewpoint"
   }
 }, {
   "Name" : "",
@@ -700,11 +688,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_3_26f0132_1582315257123_533586_56785",
-    "Name" : "Logical Chronological Message"
+    "Name" : "Conceptual Chronological Message"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1576222951495_184664_54882",
-    "Name" : "Logical Internal Interaction Viewpoint"
+    "Name" : "System Internal Interaction Viewpoint"
   }
 }, {
   "Name" : "",
@@ -712,11 +700,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_981340_91082",
-    "Name" : "Logical Element Role"
+    "Name" : "Conceptual Internal Role"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1576222951495_184664_54882",
-    "Name" : "Logical Internal Interaction Viewpoint"
+    "Name" : "System Internal Interaction Viewpoint"
   }
 }, {
   "Name" : "",
@@ -772,7 +760,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_3_26f0132_1593764793156_232154_797",
-    "Name" : "SFNhasPostconditionSSE"
+    "Name" : "has postcondition"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1562303526536_189439_92549",
@@ -940,7 +928,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_4_6d8019d_1621167443409_435880_621",
-    "Name" : "SUCtakingPlaceInLSC"
+    "Name" : "taking place in"
   },
   "Viewpoint" : {
     "ID" : "_19_0_1_26f0132_1554446728606_740631_45702",
@@ -976,7 +964,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_3_6d8019d_1598981150221_83799_30",
-    "Name" : "OPRcomposedOF"
+    "Name" : "composed of"
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_6d8019d_1599070472635_176306_252",
@@ -988,7 +976,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_3_26f0132_1582984690099_348707_50208",
-    "Name" : "OPRactingInOSY"
+    "Name" : "acting in"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1561750369203_901730_48359",
@@ -1000,7 +988,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_8710274_1558520091750_118256_44283",
-    "Name" : "SSHhavingCRN"
+    "Name" : "having"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1565093441772_881981_49327",
@@ -1024,7 +1012,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1565104656755_27827_55752",
-    "Name" : "SRderivingFromSR"
+    "Name" : "deriving from"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1565104337297_671823_55529",
@@ -1048,7 +1036,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1576255381074_947214_55662",
-    "Name" : "SSHrepresentingOPR"
+    "Name" : "representing"
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_6d8019d_1599070472635_176306_252",
@@ -1096,7 +1084,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_3_8710274_1581666201982_100862_49030",
-    "Name" : "OCYcomposedOF"
+    "Name" : "composed of"
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_6d8019d_1603027079337_312898_286",
@@ -1108,7 +1096,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_3_8710274_1581666154134_936493_49002",
-    "Name" : "OCYspecializedBY"
+    "Name" : "specialized by"
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_6d8019d_1603027079337_312898_286",
@@ -1120,7 +1108,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_3_8710274_1581666429993_560174_49054",
-    "Name" : "OCYdependingON"
+    "Name" : "depending on"
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_6d8019d_1603027079337_312898_286",
@@ -1144,7 +1132,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_3_26f0132_1593161538343_235854_323",
-    "Name" : "OCYsupportingOSY"
+    "Name" : "supporting"
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_6d8019d_1603027079337_312898_286",
@@ -1156,7 +1144,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_3_26f0132_1600783068816_502199_735",
-    "Name" : "Operational Domain Kind"
+    "Name" : "Operational Exchange Type"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1576232878029_619084_56885",
@@ -1192,7 +1180,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_3_6d8019d_1609067438603_923129_400",
-    "Name" : "SHRrefiningOSY"
+    "Name" : "refining"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1565093441772_890565_49326",
@@ -1204,7 +1192,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_8710274_1558520697796_594436_44679",
-    "Name" : "SHRrefiningCRN"
+    "Name" : "refining"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1565093441772_890565_49326",
@@ -1240,7 +1228,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_3_6d8019d_1611592925440_283346_480",
-    "Name" : "OPRexhibitingOCY"
+    "Name" : "exhibiting"
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_6d8019d_1603027079337_312898_286",
@@ -1276,7 +1264,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_3_8710274_1581666201982_100862_49030",
-    "Name" : "OCYcomposedOF"
+    "Name" : "composed of"
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_8710274_1581675970682_325249_52535",
@@ -1288,7 +1276,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_3_8710274_1581666429993_560174_49054",
-    "Name" : "OCYdependingON"
+    "Name" : "depending on"
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_8710274_1581675970682_325249_52535",
@@ -1300,7 +1288,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_3_8710274_1581666154134_936493_49002",
-    "Name" : "OCYspecializedBY"
+    "Name" : "specialized by"
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_8710274_1581675970682_325249_52535",
@@ -1323,8 +1311,8 @@
   "ID" : "_19_0_3_ebf0350_1580652072994_152028_53699",
   "Documentation" : "",
   "ExposedConcept" : {
-    "ID" : "_19_0_2_26f0132_1558075337119_355128_45325",
-    "Name" : "Physical SOI"
+    "ID" : "_19_0_2_26f0132_1562303524176_941558_91077",
+    "Name" : "Physical System"
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_ebf0350_1580652072992_42812_53692",
@@ -1432,11 +1420,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_663216_91033",
-    "Name" : "Logical Item Exchange"
+    "Name" : "Conceptual Item Exchange"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   }
 }, {
   "Name" : "",
@@ -1444,11 +1432,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_125039_91041",
-    "Name" : "LIPapplyingToLET"
+    "Name" : "applying to"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   }
 }, {
   "Name" : "",
@@ -1456,11 +1444,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_900081_91027",
-    "Name" : "Logical Interaction Point Definition"
+    "Name" : "Conceptual Interaction Point Definition"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   }
 }, {
   "Name" : "",
@@ -1468,11 +1456,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_546931_91032",
-    "Name" : "Logical Interaction Point"
+    "Name" : "Conceptual Interaction Point"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   }
 }, {
   "Name" : "",
@@ -1480,11 +1468,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_980990_91037",
-    "Name" : "Logical Connection"
+    "Name" : "Conceptual Connection"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   }
 }, {
   "Name" : "",
@@ -1492,11 +1480,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
-    "Name" : "Logical Element"
+    "Name" : "Conceptual System"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   }
 }, {
   "Name" : "",
@@ -1528,7 +1516,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_8710274_1567171243005_813677_60746",
-    "Name" : "Logical Context Element Role"
+    "Name" : "Conceptual Context Element Role"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1626790419043_61789_443",
@@ -1552,7 +1540,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_8710274_1567171329121_821656_60902",
-    "Name" : "Logical SOI Role"
+    "Name" : "Conceptual SOI Role"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1626790419043_61789_443",
@@ -1588,7 +1576,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_4_26f0132_1639735755383_425330_337",
-    "Name" : "SUChasPreConditionSSE"
+    "Name" : "has pre condition"
   },
   "Viewpoint" : {
     "ID" : "_19_0_1_26f0132_1554446728606_740631_45702",
@@ -1600,7 +1588,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_4_26f0132_1639735748424_245279_316",
-    "Name" : "SUChasPostConditionSSE"
+    "Name" : "has post condition"
   },
   "Viewpoint" : {
     "ID" : "_19_0_1_26f0132_1554446728606_740631_45702",
@@ -1612,7 +1600,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_980990_91037",
-    "Name" : "Logical Connection"
+    "Name" : "Conceptual Connection"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618060963677_605184_292",
@@ -1624,7 +1612,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_125039_91041",
-    "Name" : "LIPapplyingToLET"
+    "Name" : "applying to"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618060963677_605184_292",
@@ -1636,7 +1624,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_546931_91032",
-    "Name" : "Logical Interaction Point"
+    "Name" : "Conceptual Interaction Point"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618060963677_605184_292",
@@ -1648,7 +1636,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_663216_91033",
-    "Name" : "Logical Item Exchange"
+    "Name" : "Conceptual Item Exchange"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618060963677_605184_292",
@@ -1660,7 +1648,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_849218_91042",
-    "Name" : "LIPapplyingToLCE"
+    "Name" : "applying to"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618060963677_605184_292",
@@ -1672,7 +1660,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_900081_91027",
-    "Name" : "Logical Interaction Point Definition"
+    "Name" : "Conceptual Interaction Point Definition"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618060963677_605184_292",
@@ -1684,7 +1672,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_8710274_1567171329121_821656_60902",
-    "Name" : "Logical SOI Role"
+    "Name" : "Conceptual SOI Role"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618060963677_605184_292",
@@ -1696,7 +1684,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1558075086129_173532_44926",
-    "Name" : "Logical System Context"
+    "Name" : "Conceptual System Context"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618060963677_605184_292",
@@ -1708,7 +1696,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_8710274_1567171243005_813677_60746",
-    "Name" : "Logical Context Element Role"
+    "Name" : "Conceptual Context Element Role"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618060963677_605184_292",
@@ -1720,7 +1708,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1558075062569_130489_44874",
-    "Name" : "Logical External System"
+    "Name" : "Conceptual External System"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
@@ -1732,7 +1720,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_8710274_1558534130432_293473_45375",
-    "Name" : "Logical User"
+    "Name" : "Conceptual User"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
@@ -1744,7 +1732,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_8710274_1567171243005_813677_60746",
-    "Name" : "Logical Context Element Role"
+    "Name" : "Conceptual Context Element Role"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
@@ -1756,7 +1744,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1558075086129_173532_44926",
-    "Name" : "Logical System Context"
+    "Name" : "Conceptual System Context"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
@@ -1768,19 +1756,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_8710274_1567171329121_821656_60902",
-    "Name" : "Logical SOI Role"
-  },
-  "Viewpoint" : {
-    "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
-    "Name" : "System Context Definition Viewpoint"
-  }
-}, {
-  "Name" : "",
-  "ID" : "_19_0_4_6d8019d_1618589543904_745831_314",
-  "Documentation" : "",
-  "ExposedConcept" : {
-    "ID" : "_19_0_2_26f0132_1558075212525_51415_45174",
-    "Name" : "Logical Context SOI"
+    "Name" : "Conceptual SOI Role"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
@@ -1792,7 +1768,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303989622_501728_139950",
-    "Name" : "Logical Environment"
+    "Name" : "Conceptual Environment"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
@@ -1804,7 +1780,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1558075062569_130489_44874",
-    "Name" : "Logical External System"
+    "Name" : "Conceptual External System"
   },
   "Viewpoint" : {
     "ID" : "_19_0_1_26f0132_1554446728606_740631_45702",
@@ -1816,7 +1792,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303989622_501728_139950",
-    "Name" : "Logical Environment"
+    "Name" : "Conceptual Environment"
   },
   "Viewpoint" : {
     "ID" : "_19_0_1_26f0132_1554446728606_740631_45702",
@@ -1828,7 +1804,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_4_6d8019d_1617463709660_425346_338",
-    "Name" : "SCYspecializedBY"
+    "Name" : "specialized by"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618757838536_301313_442",
@@ -1852,7 +1828,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_4_6d8019d_1617463709658_247814_337",
-    "Name" : "SCYcomposedOF"
+    "Name" : "composed of"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618757838536_301313_442",
@@ -1864,7 +1840,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_4_6d8019d_1617463709661_722502_339",
-    "Name" : "SCYdependingON"
+    "Name" : "depending of"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618757838536_301313_442",
@@ -1972,7 +1948,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_546931_91032",
-    "Name" : "Logical Interaction Point"
+    "Name" : "Conceptual Interaction Point"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1565093441772_728957_49328",
@@ -2020,7 +1996,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_3_26f0132_1600783068816_502199_735",
-    "Name" : "Operational Domain Kind"
+    "Name" : "Operational Exchange Type"
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_8710274_1581675958756_500127_50979",
@@ -2036,7 +2012,7 @@
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1562303526536_778418_92552",
-    "Name" : "System Domain Item Kind Viewpoint"
+    "Name" : "System Exchange Type Definition Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2044,11 +2020,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_3_26f0132_1600783068816_502199_735",
-    "Name" : "Operational Domain Kind"
+    "Name" : "Operational Exchange Type"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1631280350392_855780_562",
-    "Name" : "Operational Domain Item Kind Viewpoint"
+    "Name" : "Operational Exchange Type Definition Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2060,7 +2036,7 @@
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1631280350392_855780_562",
-    "Name" : "Operational Domain Item Kind Viewpoint"
+    "Name" : "Operational Exchange Type Definition Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2080,7 +2056,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_164f041e_1564571019748_834303_54723",
-    "Name" : "SUCenablingOSY"
+    "Name" : "enabling"
   },
   "Viewpoint" : {
     "ID" : "_19_0_1_26f0132_1554446728606_740631_45702",
@@ -2092,7 +2068,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_4_6d8019d_1617524582560_511978_675",
-    "Name" : "SCYenablingOCY"
+    "Name" : "enabling"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_6d8019d_1618757838536_301313_442",
@@ -2164,7 +2140,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_2021x_2_6d8019d_1674232167082_51450_23369",
-    "Name" : "EVCreinforcingAGT"
+    "Name" : "reinforcing"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_6d8019d_1674232168228_136119_23449",
@@ -2176,7 +2152,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_2021x_2_6d8019d_1674232167083_795162_23371",
-    "Name" : "CLTmakingCLM"
+    "Name" : "making"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_6d8019d_1674232168228_136119_23449",
@@ -2200,7 +2176,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_2021x_2_6d8019d_1674232167083_240422_23373",
-    "Name" : "CLMbeingMadeAboutSBC"
+    "Name" : "being made about"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_6d8019d_1674232168228_136119_23449",
@@ -2224,7 +2200,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_2021x_2_6d8019d_1674232167084_655777_23375",
-    "Name" : "CCMcounteringCIM"
+    "Name" : "countering"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_6d8019d_1674232168228_136119_23449",
@@ -2260,11 +2236,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_2021x_2_8710274_1675987240210_459780_32823",
-    "Name" : "LETimplementingGFN"
+    "Name" : "implementing"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
-    "Name" : "Logical Functional Mapping Viewpoint"
+    "Name" : "System Function Mapping Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2276,7 +2252,7 @@
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
-    "Name" : "Logical Functional Mapping Viewpoint"
+    "Name" : "System Function Mapping Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2284,7 +2260,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524161_503942_91010",
-    "Name" : "SFNallocatedToAPE"
+    "Name" : "allocated to"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1675987942868_617787_33116",
@@ -2296,7 +2272,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_2021x_2_6d8019d_1677952512216_184791_24859",
-    "Name" : "SPFNallocatedToAPE"
+    "Name" : "allocated to"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1675987942868_617787_33116",
@@ -2312,7 +2288,7 @@
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
-    "Name" : "Logical Functional Mapping Viewpoint"
+    "Name" : "System Function Mapping Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2356,7 +2332,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_2021x_2_6d8019d_1674232167084_618602_23374",
-    "Name" : "CLMsupportingCIM"
+    "Name" : "supporting"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_6d8019d_1674232168228_136119_23449",
@@ -2368,7 +2344,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_2021x_2_6d8019d_1687622957056_63882_25313",
-    "Name" : "AGTsupportingCLM"
+    "Name" : "supporting"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_6d8019d_1674232168228_136119_23449",
@@ -2404,7 +2380,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_2021x_2_6d8019d_1690055913036_853745_24319",
-    "Name" : "SRrefiningSCY"
+    "Name" : "refining"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1565093441772_728957_49328",
@@ -2428,7 +2404,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1567606884034_616995_54129",
-    "Name" : "SHRrefiningOCY"
+    "Name" : "refining"
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_6d8019d_1603027079337_312898_286",
@@ -2440,7 +2416,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1567606884034_616995_54129",
-    "Name" : "SHRrefiningOCY"
+    "Name" : "refining"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1565093441772_890565_49326",
@@ -2476,7 +2452,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1565103607495_867687_55406",
-    "Name" : "CSTconfirmingSHR"
+    "Name" : "confirming"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1565093441772_890565_49326",
@@ -2548,7 +2524,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_4_6d8019d_1617463709660_425346_338",
-    "Name" : "SCYspecializedBY"
+    "Name" : "specialized by"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_6d8019d_1690628661558_769067_24257",
@@ -2560,7 +2536,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_4_6d8019d_1617464677545_852747_1286",
-    "Name" : "SCYsupportingSUC"
+    "Name" : "supporting"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_6d8019d_1690628661558_769067_24257",
@@ -2572,7 +2548,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_4_6d8019d_1624798205940_66834_232",
-    "Name" : "SFNsupportingSCY"
+    "Name" : "supporting"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_6d8019d_1690628661558_769067_24257",
@@ -2608,7 +2584,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_4_6d8019d_1617463709658_247814_337",
-    "Name" : "SCYcomposedOF"
+    "Name" : "composed of"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_6d8019d_1690628661558_769067_24257",
@@ -2620,7 +2596,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_4_6d8019d_1617463709661_722502_339",
-    "Name" : "SCYdependingON"
+    "Name" : "depending of"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_6d8019d_1690628661558_769067_24257",
@@ -2632,7 +2608,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_2021x_2_6d8019d_1690055913036_853745_24319",
-    "Name" : "SRrefiningSCY"
+    "Name" : "refining"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_6d8019d_1690628661558_769067_24257",
@@ -2644,7 +2620,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_349234_91039",
-    "Name" : "LIPDdefiningDetailOfLIP"
+    "Name" : "defining"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676723513864_806117_26880",
@@ -2656,7 +2632,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_546931_91032",
-    "Name" : "Logical Interaction Point"
+    "Name" : "Conceptual Interaction Point"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676723513864_806117_26880",
@@ -2668,11 +2644,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303522067_850826_89482",
-    "Name" : "LCNallowingLIE"
+    "Name" : "allowing"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2680,11 +2656,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524161_863086_91005",
-    "Name" : "USAGEallocatedTo"
+    "Name" : "allocatedTo"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
-    "Name" : "Logical Functional Mapping Viewpoint"
+    "Name" : "System Function Mapping Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2692,11 +2668,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_980387_91029",
-    "Name" : "Logical Interaction Point Property"
+    "Name" : "Conceptual Interaction Point Property"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2704,11 +2680,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
-    "Name" : "System Domain Kind"
+    "Name" : "Conceptual Exchange Type"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2716,11 +2692,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_349234_91039",
-    "Name" : "LIPDdefiningDetailOfLIP"
+    "Name" : "defining"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2732,7 +2708,7 @@
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2740,11 +2716,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_770729_91040",
-    "Name" : "LIPPspecifyingDetailOfLIPD"
+    "Name" : "specifying detail of"
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2756,7 +2732,7 @@
   },
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1624951950640_368802_311",
-    "Name" : "Logical Internal Exchange Viewpoint"
+    "Name" : "System Internal Exchange Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2788,7 +2764,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_482464_91025",
-    "Name" : "Physical Exchange Kind"
+    "Name" : "Physical Exchange Type"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1674680950433_310726_23659",
@@ -2812,7 +2788,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_2021x_2_8710274_1697110372756_168059_150785",
-    "Name" : "PCPisPartOfPIPD"
+    "Name" : "is part of"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1674680950433_310726_23659",
@@ -2824,7 +2800,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_706808_91045",
-    "Name" : "PIPapplyingToPCE"
+    "Name" : "applying to"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1562303526536_79296_92554",
@@ -2884,7 +2860,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_827364_91044",
-    "Name" : "PIPapplyingToAPE"
+    "Name" : "applying to"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1674680950433_310726_23659",
@@ -2944,11 +2920,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
-    "Name" : "Logical Element"
+    "Name" : "Conceptual System"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
-    "Name" : "Logical Functional Mapping Viewpoint"
+    "Name" : "System Function Mapping Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2956,11 +2932,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_981340_91082",
-    "Name" : "Logical Element Role"
+    "Name" : "Conceptual Internal Role"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
-    "Name" : "Logical Functional Mapping Viewpoint"
+    "Name" : "System Function Mapping Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2972,7 +2948,7 @@
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
-    "Name" : "Logical Functional Mapping Viewpoint"
+    "Name" : "System Function Mapping Viewpoint"
   }
 }, {
   "Name" : "",
@@ -2992,7 +2968,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
-    "Name" : "Logical Element"
+    "Name" : "Conceptual System"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676724435544_523379_27331",
@@ -3039,8 +3015,8 @@
   "ID" : "_2021x_2_8710274_1676728791973_883920_29876",
   "Documentation" : "",
   "ExposedConcept" : {
-    "ID" : "_19_0_2_26f0132_1558075337119_355128_45325",
-    "Name" : "Physical SOI"
+    "ID" : "_19_0_2_26f0132_1562303524176_941558_91077",
+    "Name" : "Physical System"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1675987942868_617787_33116",
@@ -3076,7 +3052,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_900081_91027",
-    "Name" : "Logical Interaction Point Definition"
+    "Name" : "Conceptual Interaction Point Definition"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676723513864_806117_26880",
@@ -3088,7 +3064,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_980387_91029",
-    "Name" : "Logical Interaction Point Property"
+    "Name" : "Conceptual Interaction Point Property"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676723513864_806117_26880",
@@ -3100,7 +3076,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
-    "Name" : "System Domain Kind"
+    "Name" : "Conceptual Exchange Type"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676723513864_806117_26880",
@@ -3124,7 +3100,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_770729_91040",
-    "Name" : "LIPPspecifyingDetailOfLIPD"
+    "Name" : "specifying detail of"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676723513864_806117_26880",
@@ -3148,7 +3124,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_482464_91025",
-    "Name" : "Physical Exchange Kind"
+    "Name" : "Physical Exchange Type"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1695205330608_177015_24335",
@@ -3184,7 +3160,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_401348_91038",
-    "Name" : "PIPPspecifyingDetailOfPIPD"
+    "Name" : "specifying detail of"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1695205330608_177015_24335",
@@ -3196,7 +3172,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_2021x_2_8710274_1695984535441_481088_24822",
-    "Name" : "PCPOverPCP"
+    "Name" : "over"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1674680950433_310726_23659",
@@ -3208,7 +3184,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_2021x_2_8710274_1695984535441_481088_24822",
-    "Name" : "PCPOverPCP"
+    "Name" : "over"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1562303526536_79296_92554",
@@ -3220,7 +3196,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1576255381074_947214_55662",
-    "Name" : "SSHrepresentingOPR"
+    "Name" : "representing"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1565093441772_881981_49327",
@@ -3256,7 +3232,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_477765_91035",
-    "Name" : "PIPDdefiningDetailOfPIP"
+    "Name" : "defining detail of"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1562303526536_79296_92554",
@@ -3280,7 +3256,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_759771_91046",
-    "Name" : "PCNallowingPIE"
+    "Name" : "allowing"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1674680950433_310726_23659",
@@ -3316,7 +3292,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_759771_91046",
-    "Name" : "PCNallowingPIE"
+    "Name" : "allowing"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1562303526536_79296_92554",
@@ -3328,7 +3304,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_2021x_2_8710274_1697109899298_943155_150586",
-    "Name" : "PCPPOverPCPP"
+    "Name" : "over"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1695205330608_177015_24335",
@@ -3340,7 +3316,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_2021x_2_8710274_1695984535441_481088_24822",
-    "Name" : "PCPOverPCP"
+    "Name" : "over"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1695205330608_177015_24335",
@@ -3352,7 +3328,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_477765_91035",
-    "Name" : "PIPDdefiningDetailOfPIP"
+    "Name" : "defining detail of"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1695205330608_177015_24335",
@@ -3364,7 +3340,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_2021x_2_8710274_1697110372756_168059_150785",
-    "Name" : "PCPisPartOfPIPD"
+    "Name" : "is part of"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1695205330608_177015_24335",
@@ -3376,7 +3352,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_477765_91035",
-    "Name" : "PIPDdefiningDetailOfPIP"
+    "Name" : "defining detail of"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1674680950433_310726_23659",
@@ -3400,7 +3376,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1567779491655_900665_58731",
-    "Name" : "OSYtakingPlaceInOCT"
+    "Name" : "taking place in"
   },
   "Viewpoint" : {
     "ID" : "_19_0_2_26f0132_1561750369203_901730_48359",
@@ -3424,7 +3400,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_2021x_2_8710274_1697454194125_161227_29476",
-    "Name" : "GDcontainingDN"
+    "Name" : "containing"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1696576589232_543559_24371",
@@ -3436,7 +3412,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_2021x_2_8710274_1697454168635_705915_29452",
-    "Name" : "GDcontainingAT"
+    "Name" : "containing"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1696576589232_543559_24371",
@@ -3448,7 +3424,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_2021x_2_8710274_1697453884307_467076_29314",
-    "Name" : "GDcontainingVP"
+    "Name" : "containing"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1696576589232_543559_24371",
@@ -3460,7 +3436,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_2024x_26f0132_1719141564806_4128_25334",
-    "Name" : "VPbelongingToAT"
+    "Name" : "belonging to"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1696576589232_543559_24371",
@@ -3487,8 +3463,8 @@
     "Name" : "realizing"
   },
   "Viewpoint" : {
-    "ID" : "_2021x_2_8710274_1698415722718_711881_60045",
-    "Name" : "Physical Logical Item Mapping Viewpoint"
+    "ID" : "_2021x_2_8710274_1676724435544_523379_27331",
+    "Name" : "Physical Logical Mapping Viewpoint"
   }
 }, {
   "Name" : "",
@@ -3496,11 +3472,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_482464_91025",
-    "Name" : "Physical Exchange Kind"
+    "Name" : "Physical Exchange Type"
   },
   "Viewpoint" : {
-    "ID" : "_2021x_2_8710274_1698415722718_711881_60045",
-    "Name" : "Physical Logical Item Mapping Viewpoint"
+    "ID" : "_2021x_2_8710274_1676724435544_523379_27331",
+    "Name" : "Physical Logical Mapping Viewpoint"
   }
 }, {
   "Name" : "",
@@ -3508,11 +3484,11 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
-    "Name" : "System Domain Kind"
+    "Name" : "Conceptual Exchange Type"
   },
   "Viewpoint" : {
-    "ID" : "_2021x_2_8710274_1698415722718_711881_60045",
-    "Name" : "Physical Logical Item Mapping Viewpoint"
+    "ID" : "_2021x_2_8710274_1676724435544_523379_27331",
+    "Name" : "Physical Logical Mapping Viewpoint"
   }
 }, {
   "Name" : "",
@@ -3580,7 +3556,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_2021x_2_8710274_1700814367039_336586_50268",
-    "Name" : "categorized"
+    "Name" : "categorized as"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676722868986_622372_25044",
@@ -3724,7 +3700,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_2021x_2_8710274_1697454194125_161227_29476",
-    "Name" : "GDcontainingDN"
+    "Name" : "containing"
   },
   "Viewpoint" : {
     "ID" : "_2024x_26f0132_1719735639638_993311_27196",
@@ -3760,7 +3736,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_2021x_2_8710274_1697454168635_705915_29452",
-    "Name" : "GDcontainingAT"
+    "Name" : "containing"
   },
   "Viewpoint" : {
     "ID" : "_2024x_26f0132_1719735639638_993311_27196",
@@ -3784,7 +3760,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_2024x_26f0132_1719141336629_21600_25167",
-    "Name" : "VPbelongingToDN"
+    "Name" : "belonging to"
   },
   "Viewpoint" : {
     "ID" : "_2024x_26f0132_1719735639638_993311_27196",
@@ -3796,7 +3772,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_2024x_26f0132_1719141564806_4128_25334",
-    "Name" : "VPbelongingToAT"
+    "Name" : "belonging to"
   },
   "Viewpoint" : {
     "ID" : "_2024x_26f0132_1719735639638_993311_27196",
@@ -3808,7 +3784,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1558075086129_173532_44926",
-    "Name" : "Logical System Context"
+    "Name" : "Conceptual System Context"
   },
   "Viewpoint" : {
     "ID" : "_19_0_1_26f0132_1554446728606_740631_45702",
@@ -3916,7 +3892,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_981340_91082",
-    "Name" : "Logical Element Role"
+    "Name" : "Conceptual Internal Role"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1676724435544_523379_27331",
@@ -3928,7 +3904,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_2024x_26f0132_1719141336629_21600_25167",
-    "Name" : "VPbelongingToDN"
+    "Name" : "belonging to"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1696576589232_543559_24371",
@@ -3940,7 +3916,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_2024x_26f0132_1719142742046_407324_28278",
-    "Name" : "VWconformingToVP"
+    "Name" : "conforming to"
   },
   "Viewpoint" : {
     "ID" : "_2021x_2_8710274_1696576589232_543559_24371",
@@ -3976,7 +3952,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_2024x_26f0132_1719141564806_4128_25334",
-    "Name" : "VPbelongingToAT"
+    "Name" : "belonging to"
   },
   "Viewpoint" : {
     "ID" : "_2024x_26f0132_1719735523519_523621_24797",
@@ -3988,7 +3964,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_2024x_26f0132_1719141336629_21600_25167",
-    "Name" : "VPbelongingToDN"
+    "Name" : "belonging to"
   },
   "Viewpoint" : {
     "ID" : "_2024x_26f0132_1719735523519_523621_24797",
@@ -4000,7 +3976,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_2024x_26f0132_1719748378083_695462_15356",
-    "Name" : "VPframesCN"
+    "Name" : "frames"
   },
   "Viewpoint" : {
     "ID" : "_2024x_26f0132_1719735523519_523621_24797",
@@ -4012,7 +3988,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_2024x_26f0132_1719749573029_735591_16107",
-    "Name" : "SECisProvidedByVP"
+    "Name" : "isProvidedBy"
   },
   "Viewpoint" : {
     "ID" : "_2024x_26f0132_1719735523519_523621_24797",
@@ -4024,7 +4000,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_2024x_1_26f0132_1730904149609_844143_17570",
-    "Name" : "SECrelatesToSEC"
+    "Name" : "relatesTo"
   },
   "Viewpoint" : {
     "ID" : "_2024x_26f0132_1719735523519_523621_24797",
@@ -4060,7 +4036,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_2024x_26f0132_1719773960755_475101_34978",
-    "Name" : "PIimplementsSEC"
+    "Name" : "implements"
   },
   "Viewpoint" : {
     "ID" : "_2024x_26f0132_1719735411756_812404_24423",
@@ -4108,7 +4084,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_2024x_26f0132_1719774817697_854148_35615",
-    "Name" : "SSTimplementsVP"
+    "Name" : "implements"
   },
   "Viewpoint" : {
     "ID" : "_2024x_26f0132_1719735411756_812404_24423",
@@ -4132,7 +4108,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_2024x_1_26f0132_1730904149609_844143_17570",
-    "Name" : "SECrelatesToSEC"
+    "Name" : "relatesTo"
   },
   "Viewpoint" : {
     "ID" : "_2024x_26f0132_1719735639175_641082_26522",
@@ -4180,7 +4156,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_2024x_2_26f0132_1749655623218_564595_162",
-    "Name" : "OPRspecializesOPR"
+    "Name" : "specializes"
   },
   "Viewpoint" : {
     "ID" : "_19_0_3_6d8019d_1599070472635_176306_252",
@@ -4228,7 +4204,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_2024x_2_26f0132_1751005742256_520008_1593",
-    "Name" : "OPbeeingInOSE"
+    "Name" : "beeing in"
   },
   "Viewpoint" : {
     "ID" : "_2024x_2_26f0132_1751004870294_93250_27",
@@ -4324,7 +4300,7 @@
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_482464_91025",
-    "Name" : "Physical Exchange Kind"
+    "Name" : "Physical Exchange Type"
   },
   "Viewpoint" : {
     "ID" : "_2024x_3_26f0132_1758913515809_605410_39",
@@ -4881,5 +4857,173 @@
   "Viewpoint" : {
     "ID" : "_19_0_4_26f0132_1629448496383_291730_10342",
     "Name" : "System Functional Breakdown Structure Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1774095463902_144680_3052",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
+    "Name" : "Conceptual System"
+  },
+  "Viewpoint" : {
+    "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
+    "Name" : "System Context Definition Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1790285748629_991243_427",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2026x_26f0132_1790279894308_15447_34",
+    "Name" : "Physical Context Interaction Scenario"
+  },
+  "Viewpoint" : {
+    "ID" : "_2026x_26f0132_1790279984505_372916_59",
+    "Name" : "Physical Context Interaction Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1790285750861_253383_428",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2026x_26f0132_1790279898293_25515_36",
+    "Name" : "Physical Context Scenario Participation"
+  },
+  "Viewpoint" : {
+    "ID" : "_2026x_26f0132_1790279984505_372916_59",
+    "Name" : "Physical Context Interaction Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1790285752816_231090_429",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2026x_26f0132_1790279909483_726187_44",
+    "Name" : "Physical Context Chronological Message"
+  },
+  "Viewpoint" : {
+    "ID" : "_2026x_26f0132_1790279984505_372916_59",
+    "Name" : "Physical Context Interaction Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1790285755032_337650_430",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_19_0_2_8710274_1567172425344_546313_62832",
+    "Name" : "Physical Context Element Role"
+  },
+  "Viewpoint" : {
+    "ID" : "_2026x_26f0132_1790279984505_372916_59",
+    "Name" : "Physical Context Interaction Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1790285756935_430844_431",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_19_0_2_8710274_1567172443186_403777_62964",
+    "Name" : "Physical SOI Role"
+  },
+  "Viewpoint" : {
+    "ID" : "_2026x_26f0132_1790279984505_372916_59",
+    "Name" : "Physical Context Interaction Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1792701314265_805857_521",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2026x_26f0132_1792700096521_312868_229",
+    "Name" : "Physical Internal Interaction Scenario"
+  },
+  "Viewpoint" : {
+    "ID" : "_2026x_26f0132_1792701198578_467010_500",
+    "Name" : "Physical Internal Interaction Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1792701314307_422080_522",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2026x_26f0132_1792700105398_495059_231",
+    "Name" : "Physical Internal Scenario Participation"
+  },
+  "Viewpoint" : {
+    "ID" : "_2026x_26f0132_1792701198578_467010_500",
+    "Name" : "Physical Internal Interaction Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1792701314386_864134_523",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_2026x_26f0132_1792700117129_367317_235",
+    "Name" : "Physical Internal Chronological Message"
+  },
+  "Viewpoint" : {
+    "ID" : "_2026x_26f0132_1792701198578_467010_500",
+    "Name" : "Physical Internal Interaction Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1792702285847_304704_799",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524176_174876_91086",
+    "Name" : "Hardware Element Role"
+  },
+  "Viewpoint" : {
+    "ID" : "_2026x_26f0132_1792701198578_467010_500",
+    "Name" : "Physical Internal Interaction Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1792702288613_675915_806",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524176_672620_91085",
+    "Name" : "Physical Hardware Role"
+  },
+  "Viewpoint" : {
+    "ID" : "_2026x_26f0132_1792701198578_467010_500",
+    "Name" : "Physical Internal Interaction Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1792702291444_894148_813",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524176_635820_91087",
+    "Name" : "Physical Element Role"
+  },
+  "Viewpoint" : {
+    "ID" : "_2026x_26f0132_1792701198578_467010_500",
+    "Name" : "Physical Internal Interaction Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1792702294845_752850_820",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524176_61581_91084",
+    "Name" : "Physical Software Role"
+  },
+  "Viewpoint" : {
+    "ID" : "_2026x_26f0132_1792701198578_467010_500",
+    "Name" : "Physical Internal Interaction Viewpoint"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1792702297717_479873_827",
+  "Documentation" : "",
+  "ExposedConcept" : {
+    "ID" : "_19_0_2_26f0132_1562303524176_594816_91083",
+    "Name" : "Software Element Role"
+  },
+  "Viewpoint" : {
+    "ID" : "_2026x_26f0132_1792701198578_467010_500",
+    "Name" : "Physical Internal Interaction Viewpoint"
   }
 } ]

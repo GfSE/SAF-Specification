@@ -179,7 +179,7 @@ The Table shows the realization of exposed concepts.
     {% endfor %}
   ];
 </script>
-<script src="{{ basePath }}/assets/js/examplegallery.js"></script>
+<script src="{{ site.baseurl }}/assets/js/examplegallery.js"></script>
 
 {% else %}
 <p>No examples available.</p>

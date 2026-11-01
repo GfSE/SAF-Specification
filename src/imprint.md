@@ -6,15 +6,32 @@ nav_order: 99
 
 # Imprint
 
+{% if site.is_fork %}
+## Publisher
+
+This site is a fork of the official [SAF specification](https://github.com/{{ site.canonical_repository }}), built from the [`{{ site.fork_repository }}`](https://github.com/{{ site.fork_repository }}) repository.
+
+**The owner of the repository ([{{ site.fork_owner }}](https://github.com/{{ site.fork_owner }})) is entirely responsible for the content of this site.**
+{% assign canonical_owner = site.canonical_repository | split: "/" | first %}
+{% if site.fork_owner != canonical_owner %}The Gesellschaft für Systems Engineering e.V. (GfSE) is not responsible for the content of this fork.{% endif %}
+
+## Data Protection and Privacy
+
+Data processing on this site is the responsibility of the repository owner.
+
+## Disclaimer
+
+<p>This website contains links to external pages. External pages are not part of this site and their respective publishers are responsible for their content. The owner of the repository is entirely responsible for all content published on this fork.</p>
+{% else %}
 ## Publisher
 
 <img class="my-align-right size-20" src="./assets/images/gfse-logo.png" alt="GfSE-Logo"/>
 
-<p>Gesellschaft für Systems Engineering e.V.<br>Hermann-Köhl-Straße 7<br> D-28199 Bremen<br>Deutschland<br> Telefon: +49 421 9601-495<br> e-mail: <a href="mailto:office@gfse.org">office(at)gfse.org</a><br> Internet: <a href="http://www.gfse.org">www.gfse.org</a></p>
-<h3>Board of Directors</h3><p>President: Dr.-Ing. Walter Koch<br> Deputy President: Daria Wilke<br> Treasurer: Rüdiger Kaffenberger<br> Secretary: Stefan Dreiseitel</p>
+<p>Gesellschaft für Systems Engineering e.V. - German Chapter of INCOSE<br>Hermann-Köhl-Straße 7<br> D-28199 Bremen<br>Deutschland<br> Telefon: +49 (0) 421 9896639-0<br> e-mail: <a href="mailto:office@gfse.org">office(at)gfse.org</a><br> Internet: <a href="http://www.gfse.org">www.gfse.org</a></p>
+<h3>Board of Directors</h3><p>President: Dr.-Ing. Walter Koch<br> Deputy President: Daria Wilke<br> Treasurer: Ilona Hofmann<br> Secretary: Stefan Dreiseitel</p>
 <h3>Registration Office</h3><p>Amtsgericht München</p>
 <h3>Registration Number</h3><p>VR 16037</p>
-<h3>Responsible for the Content</h3><p>Dr. Walter Koch, e-mail: <a href="mailto:office@gfse.org">office(at)gfse.org</a></p>
+<h3>Responsible for the Content (§ 10 para. 3 MDStV)</h3><p>Dr. Walter Koch, e-mail: <a href="mailto:office@gfse.org">office(at)gfse.org</a></p>
 
 ## Data Protection and Privacy
 
@@ -23,10 +40,11 @@ nav_order: 99
 ## Disclaimer
 
 <p>This website contains links to external pages. External pages are not part of this site and their respective publishers are responsible for their content. We have carefully checked linked pages for illegal and offensive content. Still, we can neither warrant that we don't have overlooked anything, nor that the content has been changed, meanwhile. In case you find illegal or offensive content, please notify our <a href="mailto:webmaster@enso-managers.de">webmaster</a>. Thank you for your cooperation!</p>
+{% endif %}
 
 ## Copyright
 
-Copyright 2024 by SAF Authors
+Copyright 2024-2026 by SAF Authors
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.

@@ -24,7 +24,17 @@ relative_links:
 
 repository: GfSE/SAF-Specification
 
+# Canonical home of this specification. The Pages workflow compares the
+# repository it runs in against this value: builds in any other repository
+# (forks, copies) automatically render the site with fork notices, while
+# builds in the canonical repository (including after a merged pull
+# request) render the site without them.
+canonical_repository: GfSE/SAF-Specification
+
 callouts:
+  note:
+    title: Note
+    color: blue
   highlight:
     color: yellow
   important:

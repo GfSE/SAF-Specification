@@ -1,0 +1,24 @@
+# Curated entries for the header release/version dropdown menu.
+# File order = menu order. Branches NOT listed here still deploy and stay
+# reachable via their /version/<branch>/ URL - they are just hidden from the menu.
+#
+#   id:    branch name of the release; its site is served at <basePath>/version/<id>/
+#   label: menu text (optional, defaults to id)
+#   url:   full link override for entries without a generated site page (optional)
+#   note:  tooltip text shown on hover (optional)
+#
+# The entry with id "latest" links to the site root (main branch).
+- id: latest
+  label: main
+- id: PreRefactor2026
+- id: TdSE2025
+- id: TdSE2024
+- id: TdSE2023
+  url: https://github.com/GfSE/SAF-Specification/tree/TdSE2023/README.md
+  note: Opens the release branch on GitHub
+- id: TdSE2022
+  url: https://github.com/GfSE/SAF-Specification/tree/TdSE2022/README.md
+  note: Opens the release branch on GitHub
+- id: Initial-Release
+  url: https://github.com/GfSE/SAF-Specification/tree/Initial-Release/README.md
+  note: Opens the release branch on GitHub

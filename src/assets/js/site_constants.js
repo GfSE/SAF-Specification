@@ -8,9 +8,9 @@ const basePath = '';
 const basePath = '{{ site.baseurl }}';
 {%- endif %}
 
-{%- if site.repository_nwo != nil %}
-const repository_nwo = '{{ site.repository_nwo }}';
-{%- else %}
-const repository_nwo = '{{ site.github.repository_nwo }}';
-{%- endif %}
+// Public contract for the root-served plugin scripts (see plugin_versions_menu.js): released
+// pages under /version/<x>/ load this file from the site root, so `basePath` and `releases`
+// must keep their names and shapes; additions are fine.
+// release menu entries; curated in _data/releases.yml, order = menu order
+const releases = {{ site.data.releases | jsonify }};
 

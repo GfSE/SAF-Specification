@@ -1,0 +1,1082 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+  xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+  xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0"
+  version="1.0"
+  width="202.58mm"
+  height="253.8mm">
+<defs>
+
+   <pattern id="EMFhbasepattern"     
+        patternUnits="userSpaceOnUse"
+        width="6"                    
+        height="6"                   
+        x="0"                        
+        y="0">                       
+   </pattern>                          
+</defs>
+   <rect 
+	style="fill:none;stroke:#ffffff;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	x="0" y="0" width="766.23244" height="961.16031" /> 
+   <rect 
+	style="fill:#f7f7f7;fill-rule:evenodd;fill-opacity:1;stroke:#c2c0c0;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	x="11.405354" y="11.405354" width="717.50047" height="938.34961" /> 
+   <path 
+	style="fill:#f7f7f7;fill-rule:evenodd;fill-opacity:1;stroke:#c2c0c0;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 11.405354,11.405354 
+	L 11.405354,11.405354 
+	L 416.81386,11.405354 
+	L 416.81386,11.405354 
+	L 416.81386,19.700157 
+	L 409.55591,26.95811 
+	L 11.405354,26.95811 
+	L 11.405354,26.95811 
+	z " /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,30.068661,11.405354)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#0000FF;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>O4_OCXI - sd [Package] OperationalStories_Pkg [sdSAR_StandardProfile]</tspan></tspan></text>
+   <path 
+	style="fill:none;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 358.75024,688.46866 
+	L 358.75024,688.46866 
+	L 391.92945,688.46866 
+	L 391.92945,688.46866 
+	L 391.92945,696.76346 
+	L 384.6715,704.02142 
+	L 358.75024,704.02142 
+	L 358.75024,704.02142 
+	z " /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,363.934488,688.468661)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#0000FF;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>loop</tspan></tspan></text>
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="346.30803" y="438.58772" width="169.00661" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,356.676535,438.587717)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>[EmergencySituation=Critical]</tspan></tspan></text>
+   <path 
+	style="fill:none;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 158.63811,435.47717 
+	L 158.63811,435.47717 
+	L 186.63307,435.47717 
+	L 186.63307,435.47717 
+	L 186.63307,443.77197 
+	L 179.37512,451.02992 
+	L 158.63811,451.02992 
+	L 158.63811,451.02992 
+	z " /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,163.822362,435.477165)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#0000FF;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>opt</tspan></tspan></text>
+   <path 
+	style="fill:none;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 132.71685,213.59118 
+	L 132.71685,213.59118 
+	L 181.44882,213.59118 
+	L 181.44882,213.59118 
+	L 181.44882,221.88598 
+	L 174.19087,229.14394 
+	L 132.71685,229.14394 
+	L 132.71685,229.14394 
+	z " /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,137.901102,213.591181)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#0000FF;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>parallel</tspan></tspan></text>
+   <path 
+	style="fill:none;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:3,1;stroke-dashoffset:0;stroke-opacity:1;" 
+	
+	d="
+	M 132.71685,274.76535 
+	L 708.16882,274.76535  " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="346.30803" y="438.58772" width="169.00661" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,356.676535,438.587717)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>[EmergencySituation=Critical]</tspan></tspan></text>
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="454.14047" y="691.57921" width="119.2378" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,460.361575,691.579213)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>[en route to hospital]</tspan></tspan></text>
+<g diagram:semanticTargetId="f48bad91-4f0d-4a21-bfd3-5cb377cf9aa6" diagram:parentSemanticTargetId="0ac2b393-9954-4442-ab8f-26b87304b1fe"  diagram:x="578.04409" diagram:y="767.26929" diagram:width="165.37764" diagram:height="39.918745">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 578.56252,781.7852 
+	L 609.66803,781.7852 
+	L 609.66803,802.5222 
+	L 578.56252,802.5222  " /> 
+   <path 
+	style="fill:#808080;fill-rule:evenodd;fill-opacity:1;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 578.56252,802.5222 
+	L 588.93102,806.66961 
+	L 588.93102,798.3748 
+	z " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="578.56252" y="767.26929" width="164.85921" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,583.746772,768.306142)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>16. ProvideEmergencyCare()</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="156583bc-5ac7-4eb5-a0f9-a24726847ecf" diagram:parentSemanticTargetId="0ac2b393-9954-4442-ab8f-26b87304b1fe"  diagram:x="322.97889" diagram:y="381.56094" diagram:width="105.24032" diagram:height="39.918745">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 323.49732,396.07685 
+	L 354.60283,396.07685 
+	L 354.60283,416.81386 
+	L 323.49732,416.81386  " /> 
+   <path 
+	style="fill:#808080;fill-rule:evenodd;fill-opacity:1;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 323.49732,416.81386 
+	L 333.86583,420.96126 
+	L 333.86583,412.66646 
+	z " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="323.49732" y="381.56094" width="104.72189" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,328.681575,382.597795)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>7. ApplyFirstAid()</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="f386c2be-12ad-4908-9dab-ee006a191fbe" diagram:parentSemanticTargetId="0ac2b393-9954-4442-ab8f-26b87304b1fe"  diagram:x="322.97889" diagram:y="319.34992" diagram:width="253.50993" diagram:height="39.918745">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 323.49732,333.86583 
+	L 354.60283,333.86583 
+	L 354.60283,354.60283 
+	L 323.49732,354.60283  " /> 
+   <path 
+	style="fill:#808080;fill-rule:evenodd;fill-opacity:1;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 323.49732,354.60283 
+	L 333.86583,358.75024 
+	L 333.86583,350.45543 
+	z " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="323.49732" y="319.34992" width="252.9915" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,328.681575,320.386772)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>5. FindVictim(RescueTask_Truck RescueTask)</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="bad20f2c-5c12-4314-97c4-0186acad9543" diagram:parentSemanticTargetId="0ac2b393-9954-4442-ab8f-26b87304b1fe"  diagram:x="273.21007" diagram:y="41.992441" diagram:width="100.57449" diagram:height="887.54393">
+   <path 
+	style="fill:none;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:3,1;stroke-dashoffset:0;stroke-opacity:1;" 
+	
+	d="
+	M 323.49732,96.427087 
+	L 323.49732,929.01795  " /> 
+   <rect 
+	style="fill:#ffffff;fill-rule:evenodd;fill-opacity:1;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	x="273.7285" y="42.510866" width="99.537638" height="53.91622" /> 
+   <path 
+	style="fill:none;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 310.01827,929.01795 
+	L 336.97638,929.01795  " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="274.76535" y="43.547717" width="97.463937" height="52.87937" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,298.612913,43.547717)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000000;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>:FireTruck</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="361d1814-70a8-4d55-81f5-70323887cbe0" diagram:parentSemanticTargetId="0ac2b393-9954-4442-ab8f-26b87304b1fe"  diagram:x="141.53007" diagram:y="41.992441" diagram:width="122.34835" diagram:height="887.54393">
+   <path 
+	style="fill:none;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:3,1;stroke-dashoffset:0;stroke-opacity:1;" 
+	
+	d="
+	M 203.22268,96.427087 
+	L 203.22268,929.01795  " /> 
+   <rect 
+	style="fill:#ffffff;fill-rule:evenodd;fill-opacity:1;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	x="142.0485" y="42.510866" width="121.3115" height="53.91622" /> 
+   <path 
+	style="fill:none;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 186.63307,929.01795 
+	L 218.77543,929.01795  " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="143.08535" y="43.547717" width="119.2378" height="52.87937" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,151.380157,43.547717)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000000;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>:CoordinationCenter</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="1dc1d9a3-5ac0-48ec-b118-12f39adc315d" diagram:parentSemanticTargetId="0ac2b393-9954-4442-ab8f-26b87304b1fe"  diagram:x="202.70425" diagram:y="224.99654" diagram:width="152.93544" diagram:height="39.918735">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 203.22268,239.51244 
+	L 240.54929,239.51244 
+	L 240.54929,260.24945 
+	L 203.22268,260.24945  " /> 
+   <path 
+	style="fill:#808080;fill-rule:evenodd;fill-opacity:1;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 203.22268,260.24945 
+	L 213.59118,264.39685 
+	L 213.59118,256.10205 
+	z " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="203.22268" y="224.99654" width="152.41701" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,208.406929,226.033386)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>3. MonitorSituation(SitRep)</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="711a46f6-36b2-4ba1-b50d-5bd08fd781df" diagram:parentSemanticTargetId="0ac2b393-9954-4442-ab8f-26b87304b1fe"  diagram:x="132.19842" diagram:y="213.07275" diagram:width="576.48882" diagram:height="624.18394">
+   <rect 
+	style="fill:#ffffff;fill-rule:evenodd;fill-opacity:1;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	x="132.71685" y="213.59118" width="575.45197" height="623.14709" /> 
+</g>
+<g diagram:semanticTargetId="412eb8b4-cd86-4a1a-a42a-6ee5e35da31e" diagram:parentSemanticTargetId="0ac2b393-9954-4442-ab8f-26b87304b1fe"  diagram:x="31.623937" diagram:y="41.992441" diagram:width="100.57449" diagram:height="887.54393">
+   <path 
+	style="fill:none;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:3,1;stroke-dashoffset:0;stroke-opacity:1;" 
+	
+	d="
+	M 81.911181,96.427087 
+	L 81.911181,929.01795  " /> 
+   <rect 
+	style="fill:#ffffff;fill-rule:evenodd;fill-opacity:1;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	x="32.142362" y="42.510866" width="99.537638" height="53.91622" /> 
+   <path 
+	style="fill:none;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 68.432126,929.01795 
+	L 95.390236,929.01795  " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="33.179213" y="43.547717" width="97.463937" height="52.87937" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,39.400315,43.547717)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000000;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>:PersonInDanger</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="24e29a17-b6be-4c04-8d0d-8cf02174bafa" diagram:parentSemanticTargetId="0ac2b393-9954-4442-ab8f-26b87304b1fe"  diagram:x="202.70425" diagram:y="156.56441" diagram:width="404.89008" diagram:height="41.992445">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 203.22268,171.08031 
+	L 240.54929,171.08031 
+	L 240.54929,193.89102 
+	L 203.22268,193.89102  " /> 
+   <path 
+	style="fill:#808080;fill-rule:evenodd;fill-opacity:1;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 203.22268,193.89102 
+	L 213.59118,198.03843 
+	L 213.59118,189.74362 
+	z " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="203.22268" y="156.56441" width="404.37165" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,208.406929,157.601260)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>2. ReceiveDistressSignal(DistressCall,RescueTask_Truck,RescueTask_Heli)</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="d40e80a6-3eea-4f58-8ebc-6ecea9983705" diagram:parentSemanticTargetId="0ac2b393-9954-4442-ab8f-26b87304b1fe"  diagram:x="202.70425" diagram:y="603.44693" diagram:width="272.17323" diagram:height="44.066145">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 203.22268,617.96283 
+	L 240.54929,617.96283 
+	L 240.54929,642.84724 
+	L 203.22268,642.84724  " /> 
+   <path 
+	style="fill:#808080;fill-rule:evenodd;fill-opacity:1;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 203.22268,642.84724 
+	L 213.59118,646.99465 
+	L 213.59118,638.69984 
+	z " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="203.22268" y="603.44693" width="271.6548" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,208.406929,604.483780)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>12. RequestHospitalTreament(TreatmentRequest)</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="465cd74a-effc-4969-ad1d-0dedfd12ff79" diagram:parentSemanticTargetId="0ac2b393-9954-4442-ab8f-26b87304b1fe"  diagram:x="442.21669" diagram:y="497.68819" diagram:width="312.6104" diagram:height="41.992435">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 442.73512,512.20409 
+	L 480.06173,512.20409 
+	L 480.06173,535.0148 
+	L 442.73512,535.0148  " /> 
+   <path 
+	style="fill:#808080;fill-rule:evenodd;fill-opacity:1;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 442.73512,535.0148 
+	L 453.10362,539.1622 
+	L 453.10362,530.8674 
+	z " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="442.73512" y="497.68819" width="312.09197" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,447.919370,498.725039)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>9. RecoverVictim(RescueTask_Truck RescueTask,SitRep)</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="e2f013a0-8742-4238-93ca-d214626dcd8a" diagram:parentSemanticTargetId="0ac2b393-9954-4442-ab8f-26b87304b1fe"  diagram:x="383.11622" diagram:y="41.992441" diagram:width="119.23779" diagram:height="887.54393">
+   <path 
+	style="fill:none;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:3,1;stroke-dashoffset:0;stroke-opacity:1;" 
+	
+	d="
+	M 442.73512,96.427087 
+	L 442.73512,929.01795  " /> 
+   <rect 
+	style="fill:#ffffff;fill-rule:evenodd;fill-opacity:1;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	x="383.63465" y="42.510866" width="118.20094" height="53.91622" /> 
+   <path 
+	style="fill:none;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 427.18236,929.01795 
+	L 458.28787,929.01795  " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="384.6715" y="43.547717" width="116.12724" height="52.87937" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,397.113701,43.547717)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000000;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>:RescueHelicopter</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="7f198256-37a4-4766-b7d8-6d9a0892ef89" diagram:parentSemanticTargetId="0ac2b393-9954-4442-ab8f-26b87304b1fe"  diagram:x="442.21669" diagram:y="541.23591" diagram:width="174.7093" diagram:height="39.918735">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 442.73512,555.75181 
+	L 480.06173,555.75181 
+	L 480.06173,576.48882 
+	L 442.73512,576.48882  " /> 
+   <path 
+	style="fill:#808080;fill-rule:evenodd;fill-opacity:1;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 442.73512,576.48882 
+	L 453.10362,580.63622 
+	L 453.10362,572.34142 
+	z " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="442.73512" y="541.23591" width="174.19087" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,447.919370,542.272756)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>10. ProvideMedicalAssistance()</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="3b11000a-20d1-48e7-8126-d0ac1e77a16f" diagram:parentSemanticTargetId="0ac2b393-9954-4442-ab8f-26b87304b1fe"  diagram:x="528.27527" diagram:y="41.992441" diagram:width="100.57449" diagram:height="887.54393">
+   <path 
+	style="fill:none;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:3,1;stroke-dashoffset:0;stroke-opacity:1;" 
+	
+	d="
+	M 578.56252,96.427087 
+	L 578.56252,929.01795  " /> 
+   <rect 
+	style="fill:#ffffff;fill-rule:evenodd;fill-opacity:1;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	x="528.7937" y="42.510866" width="99.537638" height="53.91622" /> 
+   <path 
+	style="fill:none;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 565.08346,929.01795 
+	L 592.04157,929.01795  " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="529.83055" y="43.547717" width="97.463937" height="52.87937" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,556.788661,43.547717)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000000;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>:Hospital</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="66523f2e-8615-48f7-a729-b427e0ba9056" diagram:parentSemanticTargetId="0ac2b393-9954-4442-ab8f-26b87304b1fe"  diagram:x="81.392756" diagram:y="128.56945" diagram:width="169.52504" diagram:height="23.329135">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 81.911181,143.08535 
+	L 202.18583,143.08535  " /> 
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 189.74362,134.79055 
+	L 202.18583,143.08535 
+	L 189.74362,151.38016  " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="81.911181" y="128.56945" width="169.00661" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,87.095433,129.606299)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>1. evDistressCall(DistressCall)</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="d40e80a6-3eea-4f58-8ebc-6ecea9983705" diagram:parentSemanticTargetId="0ac2b393-9954-4442-ab8f-26b87304b1fe"  diagram:x="202.70425" diagram:y="603.44693" diagram:width="272.17323" diagram:height="44.066145">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 203.22268,617.96283 
+	L 240.54929,617.96283 
+	L 240.54929,642.84724 
+	L 203.22268,642.84724  " /> 
+   <path 
+	style="fill:#808080;fill-rule:evenodd;fill-opacity:1;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 203.22268,642.84724 
+	L 213.59118,646.99465 
+	L 213.59118,638.69984 
+	z " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="203.22268" y="603.44693" width="271.6548" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,208.406929,604.483780)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>12. RequestHospitalTreament(TreatmentRequest)</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="f386c2be-12ad-4908-9dab-ee006a191fbe" diagram:parentSemanticTargetId="0ac2b393-9954-4442-ab8f-26b87304b1fe"  diagram:x="322.97889" diagram:y="319.34992" diagram:width="253.50993" diagram:height="39.918745">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 323.49732,333.86583 
+	L 354.60283,333.86583 
+	L 354.60283,354.60283 
+	L 323.49732,354.60283  " /> 
+   <path 
+	style="fill:#808080;fill-rule:evenodd;fill-opacity:1;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 323.49732,354.60283 
+	L 333.86583,358.75024 
+	L 333.86583,350.45543 
+	z " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="323.49732" y="319.34992" width="252.9915" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,328.681575,320.386772)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>5. FindVictim(RescueTask_Truck RescueTask)</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="156583bc-5ac7-4eb5-a0f9-a24726847ecf" diagram:parentSemanticTargetId="0ac2b393-9954-4442-ab8f-26b87304b1fe"  diagram:x="322.97889" diagram:y="381.56094" diagram:width="105.24032" diagram:height="39.918745">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 323.49732,396.07685 
+	L 354.60283,396.07685 
+	L 354.60283,416.81386 
+	L 323.49732,416.81386  " /> 
+   <path 
+	style="fill:#808080;fill-rule:evenodd;fill-opacity:1;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 323.49732,416.81386 
+	L 333.86583,420.96126 
+	L 333.86583,412.66646 
+	z " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="323.49732" y="381.56094" width="104.72189" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,328.681575,382.597795)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>7. ApplyFirstAid()</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="372daa03-fc33-4a22-9984-41cf2977d764" diagram:parentSemanticTargetId="0ac2b393-9954-4442-ab8f-26b87304b1fe"  diagram:x="202.70425" diagram:y="295.50236" diagram:width="220.33071" diagram:height="23.329135">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 203.22268,310.01827 
+	L 322.46047,310.01827  " /> 
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 310.01827,301.72346 
+	L 322.46047,310.01827 
+	L 310.01827,318.31307  " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="203.22268" y="295.50236" width="219.81228" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,208.406929,296.539213)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>4. evAlertFireTruck(RescueTask_Truck)</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="8248cd31-5881-448d-a534-924895781e23" diagram:parentSemanticTargetId="0ac2b393-9954-4442-ab8f-26b87304b1fe"  diagram:x="155.52756" diagram:y="360.82394" diagram:width="167.45134" diagram:height="23.329135">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 322.46047,375.33984 
+	L 203.22268,375.33984  " /> 
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 215.66488,383.63465 
+	L 203.22268,375.33984 
+	L 215.66488,367.04504  " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="155.52756" y="360.82394" width="166.93291" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,166.932913,361.860787)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>6. updSituationReport(SitRep)</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="4c79eae0-a976-45d3-a9b7-5d7fb5208f1b" diagram:parentSemanticTargetId="711a46f6-36b2-4ba1-b50d-5bd08fd781df"  diagram:x="132.71685" diagram:y="274.76535" diagram:width="575.45197" diagram:height="561.97291">
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="132.71685" y="274.76535" width="575.45197" height="561.97291" /> 
+</g>
+<g diagram:semanticTargetId="465cd74a-effc-4969-ad1d-0dedfd12ff79" diagram:parentSemanticTargetId="0ac2b393-9954-4442-ab8f-26b87304b1fe"  diagram:x="442.21669" diagram:y="497.68819" diagram:width="312.6104" diagram:height="41.992435">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 442.73512,512.20409 
+	L 480.06173,512.20409 
+	L 480.06173,535.0148 
+	L 442.73512,535.0148  " /> 
+   <path 
+	style="fill:#808080;fill-rule:evenodd;fill-opacity:1;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 442.73512,535.0148 
+	L 453.10362,539.1622 
+	L 453.10362,530.8674 
+	z " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="442.73512" y="497.68819" width="312.09197" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,447.919370,498.725039)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>9. RecoverVictim(RescueTask_Truck RescueTask,SitRep)</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="7f198256-37a4-4766-b7d8-6d9a0892ef89" diagram:parentSemanticTargetId="0ac2b393-9954-4442-ab8f-26b87304b1fe"  diagram:x="442.21669" diagram:y="541.23591" diagram:width="174.7093" diagram:height="39.918735">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 442.73512,555.75181 
+	L 480.06173,555.75181 
+	L 480.06173,576.48882 
+	L 442.73512,576.48882  " /> 
+   <path 
+	style="fill:#808080;fill-rule:evenodd;fill-opacity:1;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 442.73512,576.48882 
+	L 453.10362,580.63622 
+	L 453.10362,572.34142 
+	z " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="442.73512" y="541.23591" width="174.19087" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,447.919370,542.272756)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>10. ProvideMedicalAssistance()</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="17a14d01-2294-428c-aba6-9daafabf437f" diagram:parentSemanticTargetId="0ac2b393-9954-4442-ab8f-26b87304b1fe"  diagram:x="202.70425" diagram:y="471.76693" diagram:width="251.43623" diagram:height="28.513385">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 203.22268,491.46709 
+	L 441.69827,491.46709  " /> 
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 429.25606,483.17228 
+	L 441.69827,491.46709 
+	L 429.25606,499.76189  " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="203.22268" y="471.76693" width="250.9178" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,208.406929,472.803780)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>8. evAlertRescueHelicopter(RescueTask_Heli)</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="1d372064-275e-4e14-a7ee-d403be9daabe" diagram:parentSemanticTargetId="0ac2b393-9954-4442-ab8f-26b87304b1fe"  diagram:x="202.70425" diagram:y="580.63622" diagram:width="239.51244" diagram:height="25.402835">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 441.69827,597.22583 
+	L 203.22268,597.22583  " /> 
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 215.66488,605.52063 
+	L 203.22268,597.22583 
+	L 215.66488,588.93102  " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="261.2863" y="580.63622" width="173.15402" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,272.691654,581.673071)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>11. updSituationReport(SitRep)</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="f3d6e3ac-1115-4b7f-b3d1-df85188b698a" diagram:parentSemanticTargetId="711a46f6-36b2-4ba1-b50d-5bd08fd781df"  diagram:x="132.71685" diagram:y="213.59118" diagram:width="575.45197" diagram:height="61.174173">
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="132.71685" y="213.59118" width="575.45197" height="61.174173" /> 
+</g>
+<g diagram:semanticTargetId="24e29a17-b6be-4c04-8d0d-8cf02174bafa" diagram:parentSemanticTargetId="0ac2b393-9954-4442-ab8f-26b87304b1fe"  diagram:x="202.70425" diagram:y="156.56441" diagram:width="404.89008" diagram:height="41.992445">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 203.22268,171.08031 
+	L 240.54929,171.08031 
+	L 240.54929,193.89102 
+	L 203.22268,193.89102  " /> 
+   <path 
+	style="fill:#808080;fill-rule:evenodd;fill-opacity:1;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 203.22268,193.89102 
+	L 213.59118,198.03843 
+	L 213.59118,189.74362 
+	z " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="203.22268" y="156.56441" width="404.37165" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,208.406929,157.601260)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>2. ReceiveDistressSignal(DistressCall,RescueTask_Truck,RescueTask_Heli)</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="f48bad91-4f0d-4a21-bfd3-5cb377cf9aa6" diagram:parentSemanticTargetId="0ac2b393-9954-4442-ab8f-26b87304b1fe"  diagram:x="578.04409" diagram:y="767.26929" diagram:width="165.37764" diagram:height="39.918745">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 578.56252,781.7852 
+	L 609.66803,781.7852 
+	L 609.66803,802.5222 
+	L 578.56252,802.5222  " /> 
+   <path 
+	style="fill:#808080;fill-rule:evenodd;fill-opacity:1;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 578.56252,802.5222 
+	L 588.93102,806.66961 
+	L 588.93102,798.3748 
+	z " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="578.56252" y="767.26929" width="164.85921" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,583.746772,768.306142)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>16. ProvideEmergencyCare()</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="e94a6f83-3d7d-4acc-bbc6-6eda10b50b50" diagram:parentSemanticTargetId="0ac2b393-9954-4442-ab8f-26b87304b1fe"  diagram:x="442.21669" diagram:y="746.53228" diagram:width="230.69922" diagram:height="23.329135">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 442.73512,761.04819 
+	L 577.52567,761.04819  " /> 
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 565.08346,752.75339 
+	L 577.52567,761.04819 
+	L 565.08346,769.34299  " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="442.73512" y="746.53228" width="230.18079" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,447.919370,747.569134)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>15. evHandOverVictim(ConditionUpdate)</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="f0375e21-02d0-4944-bfba-b0e3544bdf31" diagram:parentSemanticTargetId="0ac2b393-9954-4442-ab8f-26b87304b1fe"  diagram:x="442.21669" diagram:y="706.09512" diagram:width="229.66237" diagram:height="23.329135">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 442.73512,720.61102 
+	L 577.52567,720.61102  " /> 
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 565.08346,712.31622 
+	L 577.52567,720.61102 
+	L 565.08346,728.90583  " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="442.73512" y="706.09512" width="229.14394" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,447.919370,707.131969)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>14. updVictimCondition(ConditionUpdate)</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="b452a1d2-f42f-479d-9b14-39ddb02559ef" diagram:parentSemanticTargetId="0ac2b393-9954-4442-ab8f-26b87304b1fe"  diagram:x="202.70425" diagram:y="653.21575" diagram:width="375.33984" diagram:height="23.329135">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 203.22268,667.73165 
+	L 577.52567,667.73165  " /> 
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 565.08346,659.43685 
+	L 577.52567,667.73165 
+	L 565.08346,676.02646  " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="203.22268" y="653.21575" width="306.90772" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,208.406929,654.252598)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>13. evRequestEmergencyTreatment(TreatmentRequest)</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="1dc1d9a3-5ac0-48ec-b118-12f39adc315d" diagram:parentSemanticTargetId="0ac2b393-9954-4442-ab8f-26b87304b1fe"  diagram:x="202.70425" diagram:y="224.99654" diagram:width="152.93544" diagram:height="39.918735">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 203.22268,239.51244 
+	L 240.54929,239.51244 
+	L 240.54929,260.24945 
+	L 203.22268,260.24945  " /> 
+   <path 
+	style="fill:#808080;fill-rule:evenodd;fill-opacity:1;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 203.22268,260.24945 
+	L 213.59118,264.39685 
+	L 213.59118,256.10205 
+	z " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="203.22268" y="224.99654" width="152.41701" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,208.406929,226.033386)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>3. MonitorSituation(SitRep)</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="31529d4d-30e7-4b83-bf0c-260b5f6fd608" diagram:parentSemanticTargetId="4c79eae0-a976-45d3-a9b7-5d7fb5208f1b"  diagram:x="158.11968" diagram:y="434.95874" diagram:width="535.0148" diagram:height="388.8189">
+   <rect 
+	style="fill:#ffffff;fill-rule:evenodd;fill-opacity:1;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	x="158.63811" y="435.47717" width="533.97795" height="387.78205" /> 
+</g>
+<g diagram:semanticTargetId="e8a3d892-7c25-4844-a87f-83668c045f5b" diagram:parentSemanticTargetId="31529d4d-30e7-4b83-bf0c-260b5f6fd608"  diagram:x="158.63811" diagram:y="435.47717" diagram:width="533.97795" diagram:height="387.78205">
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="158.63811" y="435.47717" width="533.97795" height="387.78205" /> 
+</g>
+<g diagram:semanticTargetId="7b5ce903-b419-4df3-83fa-e08d69524393" diagram:parentSemanticTargetId="e8a3d892-7c25-4844-a87f-83668c045f5b"  diagram:x="358.23181" diagram:y="687.95023" diagram:width="300.68661" diagram:height="46.658267">
+   <rect 
+	style="fill:#ffffff;fill-rule:evenodd;fill-opacity:1;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	x="358.75024" y="688.46866" width="299.64976" height="45.621417" /> 
+</g>
+<g diagram:semanticTargetId="a6af1d8d-e062-41c8-8ae7-b0fdd4c76c20" diagram:parentSemanticTargetId="7b5ce903-b419-4df3-83fa-e08d69524393"  diagram:x="358.75024" diagram:y="688.46866" diagram:width="299.64976" diagram:height="45.621417">
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="358.75024" y="688.46866" width="299.64976" height="45.621417" /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="454.14047" y="691.57921" width="119.2378" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,460.361575,691.579213)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>[en route to hospital]</tspan></tspan></text>
+</g>
+</svg>
