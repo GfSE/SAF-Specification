@@ -1,5 +1,5 @@
 
-const basePath = '';
+const basePath = '/pages/GfSE/SAF-Specification';
 
 // Public contract for the root-served plugin scripts (see plugin_versions_menu.js): released
 // pages under /version/<x>/ load this file from the site root, so `basePath` and `releases`
