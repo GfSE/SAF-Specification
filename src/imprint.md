@@ -11,7 +11,9 @@ nav_order: 99
 
 This site is a fork of the official [SAF specification](https://github.com/{{ site.canonical_repository }}), built from the [`{{ site.fork_repository }}`](https://github.com/{{ site.fork_repository }}) repository.
 
-**The owner of the repository ([{{ site.fork_owner }}](https://github.com/{{ site.fork_owner }})) is entirely responsible for the content of this site.** The Gesellschaft für Systems Engineering e.V. (GfSE) is not responsible for the content of this fork.
+**The owner of the repository ([{{ site.fork_owner }}](https://github.com/{{ site.fork_owner }})) is entirely responsible for the content of this site.**
+{% assign canonical_owner = site.canonical_repository | split: "/" | first %}
+{% if site.fork_owner != canonical_owner %}The Gesellschaft für Systems Engineering e.V. (GfSE) is not responsible for the content of this fork.{% endif %}
 
 ## Data Protection and Privacy
 
