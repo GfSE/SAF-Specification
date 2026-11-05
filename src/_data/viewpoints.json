@@ -145,7 +145,7 @@
   "Stakeholders" : [ "_2024x_26f0132_1719129287848_367992_14650", "_2024x_26f0132_1719129568628_636824_14722", "_2024x_26f0132_1719129555802_233661_14716" ],
   "Concern" : [ "_2024x_26f0132_1719130644780_901120_14852", "_2024x_26f0132_1719130113094_957740_14764", "_2024x_26f0132_1719130556191_78836_14843", "_2024x_26f0132_1719130165383_541840_14769", "_2024x_26f0132_1719130076292_184990_14761", "_2024x_26f0132_1719130608615_351381_14849", "_2024x_26f0132_1719130583650_18980_14846", "_2024x_26f0132_1719130002321_367858_14758" ],
   "RecommendedVP" : [ ],
-  "RequiredVP" : [ "_2024x_26f0132_1719735639175_641082_26522" ],
+  "RequiredVP" : [ "_2024x_26f0132_1719735639175_641082_26522", "_2024x_26f0132_1719735528612_846205_25134" ],
   "Exposure" : "NotApplicable",
   "VP_ID" : "D2_VPTD"
 }, {
@@ -160,7 +160,7 @@
   "Stakeholders" : [ "_2024x_26f0132_1719129287848_367992_14650", "_2024x_26f0132_1719129555802_233661_14716" ],
   "Concern" : [ "_2024x_26f0132_1719130358584_780281_14792", "_2024x_26f0132_1719130336926_829742_14789" ],
   "RecommendedVP" : [ ],
-  "RequiredVP" : [ ],
+  "RequiredVP" : [ "_2024x_26f0132_1719735523519_523621_24797" ],
   "Exposure" : "NotApplicable",
   "VP_ID" : "D2_VPTI"
 }, {
@@ -219,7 +219,7 @@
   "Presentation" : [ "A block definition diagram (BDD) featuring Operational Capabilities, their composition, specialization, and dependency relationships." ],
   "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_ebf0350_1554653236737_36605_43554", "_2021x_2_8710274_1674680055517_468796_22923", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "Concern" : [ "_2021x_2_8710274_1674479775616_727128_23367", "_2021x_2_8710274_1674576759229_963784_23628" ],
-  "RecommendedVP" : [ "_19_0_2_26f0132_1561750369203_901730_48359" ],
+  "RecommendedVP" : [ "_19_0_2_26f0132_1561750369203_901730_48359", "_19_0_3_8710274_1581675958756_500127_50979" ],
   "RequiredVP" : [ ],
   "Exposure" : "NotApplicable",
   "VP_ID" : "O2_OCYD"
@@ -234,7 +234,7 @@
   "Presentation" : [ "A tabular format listing the relationships of Operational Capabilities to Stakeholder Requirements, Operational Stories, and Operational Process Activities." ],
   "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_ebf0350_1554653236737_36605_43554", "_2021x_2_8710274_1674680055517_468796_22923", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "Concern" : [ "_2021x_2_8710274_1674576758591_594647_23070" ],
-  "RecommendedVP" : [ "_19_0_2_26f0132_1561750369203_901730_48359" ],
+  "RecommendedVP" : [ "_19_0_2_26f0132_1561750369203_901730_48359", "_19_0_3_6d8019d_1599070472635_176306_252", "_19_0_3_8710274_1581675958756_500127_50979" ],
   "RequiredVP" : [ "_19_0_3_8710274_1581675970682_325249_52535" ],
   "Exposure" : "NotApplicable",
   "VP_ID" : "O8_OCYM"
@@ -265,7 +265,7 @@
   "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_ebf0350_1554653236737_36605_43554", "_19_0_2_26f0132_1562303526473_410133_92403", "_19_0_2_ebf0350_1567337062655_160733_52757", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "Concern" : [ "_2021x_2_8710274_1674576758910_672482_23380" ],
   "RecommendedVP" : [ "_19_0_3_8710274_1581675958756_500127_50979" ],
-  "RequiredVP" : [ "_19_0_2_26f0132_1567778254489_369345_55863" ],
+  "RequiredVP" : [ "_19_0_2_26f0132_1567778254489_369345_55863", "_19_0_4_26f0132_1631280350392_855780_562" ],
   "Exposure" : "NotApplicable",
   "VP_ID" : "O1_OCXE"
 }, {
@@ -324,7 +324,7 @@
   "Presentation" : [ "A tabular format listing the relationships of Operational Process Activities to Operational Capabilities, Operational Stories, and Operational Performers." ],
   "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_ebf0350_1554653236737_36605_43554", "_2021x_2_8710274_1674680055517_468796_22923", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "Concern" : [ "_2021x_2_8710274_1674576758928_485242_23392" ],
-  "RecommendedVP" : [ "_19_0_2_26f0132_1561750369203_901730_48359" ],
+  "RecommendedVP" : [ "_19_0_2_26f0132_1561750369203_901730_48359", "_19_0_3_6d8019d_1599070472635_176306_252", "_19_0_3_8710274_1581675970682_325249_52535" ],
   "RequiredVP" : [ "_19_0_3_8710274_1581675958756_500127_50979" ],
   "Exposure" : "NotApplicable",
   "VP_ID" : "O8_OPRM"
@@ -339,7 +339,7 @@
   "Presentation" : [ "An activity diagram featuring the ordered execution of Operational Process Actions. Operational Processes may be linked in terms of control flow and/or data flow visualizing the Operational Exchanges needed. \nNote: Operational Process Actions are assigned to Operational Roles and therefore in a more general manner to Operational Performers." ],
   "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_ebf0350_1554653236737_36605_43554", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "Concern" : [ "_2021x_2_8710274_1674576759250_575950_23644", "_2021x_2_8710274_1674576758680_939269_23154" ],
-  "RecommendedVP" : [ "_19_0_2_26f0132_1567778254489_369345_55863" ],
+  "RecommendedVP" : [ "_19_0_2_26f0132_1567778254489_369345_55863", "_19_0_4_26f0132_1631280350392_855780_562" ],
   "RequiredVP" : [ ],
   "Exposure" : "NotApplicable",
   "VP_ID" : "O3_OPRO"
@@ -354,7 +354,7 @@
   "Presentation" : [ "A block definition diagram (BDD) featuring states, and state transitions. Note: References to model elements that are dependent of states, or transitions shall be shown as callout, or compartment notation." ],
   "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_ebf0350_1554653236737_36605_43554", "_2021x_2_8710274_1674680055517_468796_22923", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "Concern" : [ "_2024x_2_26f0132_1751005177169_420757_1216", "_2024x_2_26f0132_1751005074373_263380_1200", "_2024x_2_26f0132_1751632678372_112390_48" ],
-  "RecommendedVP" : [ "_19_0_4_6d8019d_1618589543897_213858_307" ],
+  "RecommendedVP" : [ "_19_0_4_6d8019d_1618589543897_213858_307", "_19_0_2_26f0132_1562303526536_778418_92552", "_19_0_2_8710274_1567167552896_772779_54664" ],
   "RequiredVP" : [ ],
   "Exposure" : "NotApplicable",
   "VP_ID" : "O3_OSTA"
@@ -400,7 +400,7 @@
   "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_ebf0350_1554653236737_36605_43554", "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_26f0132_1562303526473_525021_92401", "_19_0_2_ebf0350_1554653241806_566270_43560", "_19_0_2_26f0132_1562303526473_410133_92403", "_19_0_2_ebf0350_1567337062655_160733_52757", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1567282723132_468249_52793", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "Concern" : [ "_2021x_2_8710274_1674576758710_759449_23186", "_2021x_2_8710274_1674576758698_132348_23172", "_2021x_2_8710274_1674576758561_575110_23056", "_2021x_2_8710274_1674576758932_916610_23397", "_2021x_2_8710274_1674576758891_215548_23373" ],
   "RecommendedVP" : [ ],
-  "RequiredVP" : [ "_19_0_1_26f0132_1547202202696_824153_42420" ],
+  "RequiredVP" : [ "_19_0_1_26f0132_1547202202696_824153_42420", "_2024x_3_26f0132_1758913515809_605410_39" ],
   "Exposure" : "BlackBox",
   "VP_ID" : "P1_PCXE"
 }, {
@@ -445,7 +445,7 @@
   "Stakeholders" : [ "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_26f0132_1562303526473_525021_92401", "_19_0_2_ebf0350_1554653241806_566270_43560", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "Concern" : [ "_2021x_2_8710274_1674576758941_524652_23399", "_2021x_2_8710274_1674576759216_889664_23621", "_2021x_2_8710274_1674576758889_521511_23366", "_2021x_2_8710274_1698399553646_852568_33150", "_2021x_2_8710274_1698399897245_206032_33220" ],
   "RecommendedVP" : [ ],
-  "RequiredVP" : [ "_19_0_2_26f0132_1562303526536_284838_92559" ],
+  "RequiredVP" : [ "_19_0_2_26f0132_1562303526536_284838_92559", "_19_0_3_ebf0350_1580652072992_42812_53692", "_19_0_2_26f0132_1575539296547_649713_56759" ],
   "Exposure" : "BlackBox",
   "VP_ID" : "P8_PFUM"
 }, {
@@ -475,7 +475,7 @@
   "Stakeholders" : [ "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_26f0132_1562303526473_525021_92401", "_19_0_2_ebf0350_1554653241806_566270_43560", "_19_0_2_26f0132_1562303526473_410133_92403", "_19_0_2_ebf0350_1567337062655_160733_52757", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "Concern" : [ "_2021x_2_8710274_1674576758600_423008_23078", "_2021x_2_8710274_1674576758718_586539_23194", "_2021x_2_8710274_1674576758561_575110_23056", "_2021x_2_8710274_1698410513910_480926_28625", "_2021x_2_8710274_1674576758891_215548_23373" ],
   "RecommendedVP" : [ "_19_0_2_8710274_1567167552896_772779_54664" ],
-  "RequiredVP" : [ "_19_0_3_ebf0350_1580652072992_42812_53692" ],
+  "RequiredVP" : [ "_19_0_3_ebf0350_1580652072992_42812_53692", "_2024x_3_26f0132_1758913515809_605410_39" ],
   "Exposure" : "WhiteBox",
   "VP_ID" : "P4_PIEX"
 }, {
@@ -490,7 +490,7 @@
   "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_26f0132_1562303526473_525021_92401", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "Concern" : [ "_2026x_26f0132_1792700702858_379463_371" ],
   "RecommendedVP" : [ ],
-  "RequiredVP" : [ "_19_0_3_ebf0350_1580652072992_42812_53692" ],
+  "RequiredVP" : [ "_19_0_3_ebf0350_1580652072992_42812_53692", "_2021x_2_8710274_1674680950433_310726_23659" ],
   "Exposure" : "WhiteBox",
   "VP_ID" : "P4_PITI"
 }, {
@@ -505,7 +505,7 @@
   "Stakeholders" : [ "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_26f0132_1562303526473_525021_92401", "_19_0_2_ebf0350_1554653241806_566270_43560", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "Concern" : [ "_2024x_3_26f0132_1758917108502_438726_3067", "_2021x_2_8710274_1698399385413_529894_33129" ],
   "RecommendedVP" : [ ],
-  "RequiredVP" : [ "_19_0_2_26f0132_1562303526536_284838_92559" ],
+  "RequiredVP" : [ "_19_0_2_26f0132_1562303526536_284838_92559", "_19_0_3_ebf0350_1580652072992_42812_53692", "_19_0_2_26f0132_1575539296547_649713_56759" ],
   "Exposure" : "NotApplicable",
   "VP_ID" : "P8_PLOM"
 }, {
@@ -564,7 +564,7 @@
   "Presentation" : [ "A block definition diagram (BDD) depicting the identified, analysed, and classified Stakeholders, their interrelaions and their relations to the Intended Solution. Relations to represented Operational Performers shall also be shown." ],
   "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_ebf0350_1567281039295_665940_53199", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1567282723132_468249_52793", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "Concern" : [ "_2021x_2_8710274_1674576758728_957718_23218", "_2021x_2_8710274_1674576759190_739382_23597", "_2021x_2_8710274_1674576759059_36560_23481", "_2021x_2_8710274_1674576758881_572143_23359", "_2021x_2_8710274_1674576758668_120660_23139", "_2021x_2_8710274_1674576759083_315449_23499" ],
-  "RecommendedVP" : [ "_19_0_2_26f0132_1561750369203_901730_48359" ],
+  "RecommendedVP" : [ "_19_0_2_26f0132_1561750369203_901730_48359", "_19_0_3_6d8019d_1599070472635_176306_252" ],
   "RequiredVP" : [ ],
   "Exposure" : "NotApplicable",
   "VP_ID" : "O2_STID"
@@ -579,7 +579,7 @@
   "Presentation" : [ "A tabular format lisiting\n* unique requirement ID, text, and attributes,\n* traceability reference to justifying model artefacts, e.g. operational stories, operational capabilities, identified concerns of stakeholders, and compliance statements\nNote: Stakeholder Requirements are to be structured in a way that the Stakeholder behind the Requirement is identifiable. When appropriate, the relationships between identified Stakeholder Requirements are and the justifying model artefacts, Operational Story, Operational Capability, Operational Performer, Operational Process, and Operational Exchange are presented.\n* \"One Requirement Package for each Stakeholder\" is a best-practice modeling rule. A package contains the Requirements specific for one Stakeholder.\n* Even if different Stakeholders may have intersecting interests and / or concerns resulting in a similar set of Requirements, each Stakeholder shall have its own set managed in a dedicated Requirement Package. Requirements must not be shared due to their different life cycles. Resolving duplications and conflicts is subject of the requirement analysis resulting in an agreed and consolidated set of System Requirements." ],
   "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_ebf0350_1554653236737_36605_43554", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "Concern" : [ "_2021x_2_8710274_1674576758810_143872_23303", "_2021x_2_8710274_1674576758798_122991_23285", "_2021x_2_8710274_1674576758774_361095_23253", "_2021x_2_8710274_1674576758818_166273_23310", "_2021x_2_8710274_1674576759042_480392_23467", "_2021x_2_8710274_1674576758902_700830_23378" ],
-  "RecommendedVP" : [ "_19_0_2_26f0132_1561750369203_901730_48359" ],
+  "RecommendedVP" : [ "_19_0_2_26f0132_1561750369203_901730_48359", "_19_0_2_26f0132_1576232878029_619084_56885", "_19_0_3_8710274_1581675970682_325249_52535", "_19_0_3_8710274_1581675958756_500127_50979", "_19_0_2_26f0132_1561752880161_57347_50198", "_19_0_3_6d8019d_1603027079337_312898_286", "_19_0_3_26f0132_1601459636216_111430_6921" ],
   "RequiredVP" : [ "_19_0_2_26f0132_1565093441772_881981_49327" ],
   "Exposure" : "NotApplicable",
   "VP_ID" : "O6_SKRD"
@@ -594,7 +594,7 @@
   "Presentation" : [ "A block definition diagram (BDD) featuring System Capabilities, their composition, specialization, and dependency relationships.\nNote: The relationship to operational capabilities shall be shown if applicable.", "A tabular format listing System Capabilities, their composition, specialisation, and dependency relationships, as well as relations to operational capabilities." ],
   "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_ebf0350_1567282723132_468249_52793", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "Concern" : [ "_2021x_2_8710274_1674576759126_506455_23537" ],
-  "RecommendedVP" : [ "_19_0_3_8710274_1581675970682_325249_52535" ],
+  "RecommendedVP" : [ "_19_0_3_8710274_1581675970682_325249_52535", "_19_0_1_26f0132_1554446728606_740631_45702", "_19_0_2_8710274_1567167552896_772779_54664" ],
   "RequiredVP" : [ ],
   "Exposure" : "BlackBox",
   "VP_ID" : "C2_SCYD"
@@ -609,7 +609,7 @@
   "Presentation" : [ "A tabular format listing the relationships of System Capabilities to Operational Capabilities, System Use Cases, System Process Activities, and System Requirements." ],
   "Stakeholders" : [ ],
   "Concern" : [ ],
-  "RecommendedVP" : [ "_19_0_3_8710274_1581675970682_325249_52535" ],
+  "RecommendedVP" : [ "_19_0_3_8710274_1581675970682_325249_52535", "_19_0_1_26f0132_1554446728606_740631_45702", "_19_0_2_8710274_1567167552896_772779_54664", "_19_0_2_26f0132_1565104337297_671823_55529" ],
   "RequiredVP" : [ "_19_0_4_6d8019d_1618757838536_301313_442" ],
   "Exposure" : "NotApplicable",
   "VP_ID" : "C8_SCYM"
@@ -639,8 +639,8 @@
   "Presentation" : [ "An internal block diagram (IBD) - associated to a system context - featuring the SOI, the system context elements, and the connectors for each identified interface from SOI to the respective context elements. An interface is an interaction point for interaction of the SOI to with context elements. Item flows are defined for each exchange on the identified interface. Connectors/ports may contain reference to the interface documents if applicable. Ports may be structured as appropriate to manage and structure the information.\nNote: more than one IBD focused on different areas of interest may be used in oder to keep the view comprehensive. Depending on the Stakeholder concerns the item exchange information might be suppressed.", "A tabular format listing the identified interfaces of the soi (ports), referencing interface definitions (port types) ,connections (connector) to system context elements, and information exchange (item flows) conveyed over these connections. It is advised to have multiple tables focusing on certain aspects to keep the view comprehensive, e.g. table focusing on contexts or on certain interface partners." ],
   "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_ebf0350_1554653236737_36605_43554", "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_26f0132_1562303526473_525021_92401", "_19_0_2_26f0132_1566037895381_430904_56516", "_19_0_2_26f0132_1562303526473_410133_92403", "_19_0_2_ebf0350_1567337062655_160733_52757", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "Concern" : [ "_2021x_2_8710274_1674576758710_799233_23181", "_2021x_2_8710274_1674576758808_527146_23298", "_2021x_2_8710274_1674576758971_129300_23418", "_2021x_2_8710274_1674576758778_979635_23258", "_2021x_2_8710274_1674576759154_22704_23559", "_2021x_2_8710274_1674576758878_612030_23357" ],
-  "RecommendedVP" : [ "_19_0_2_26f0132_1576232878029_619084_56885" ],
-  "RequiredVP" : [ "_19_0_4_6d8019d_1618589543897_213858_307" ],
+  "RecommendedVP" : [ "_19_0_2_26f0132_1576232878029_619084_56885", "_2021x_2_8710274_1676723513864_806117_26880" ],
+  "RequiredVP" : [ "_19_0_4_6d8019d_1618589543897_213858_307", "_19_0_2_26f0132_1562303526536_778418_92552" ],
   "Exposure" : "BlackBox",
   "VP_ID" : "C1_SCXE"
 }, {
@@ -685,7 +685,7 @@
   "Stakeholders" : [ "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "Concern" : [ "_2021x_2_8710274_1674576759104_328839_23526" ],
   "RecommendedVP" : [ "_19_0_4_26f0132_1629448496383_291730_10342" ],
-  "RequiredVP" : [ "_19_0_2_8710274_1567167552896_772779_54664" ],
+  "RequiredVP" : [ "_19_0_2_8710274_1567167552896_772779_54664", "_2021x_2_8710274_1676723256334_812178_26576", "_19_0_2_26f0132_1562303526536_284838_92559" ],
   "Exposure" : "WhiteBox",
   "VP_ID" : "C8_SFUM"
 }, {
@@ -745,7 +745,7 @@
   "Stakeholders" : [ "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_26f0132_1562303526473_525021_92401", "_19_0_2_26f0132_1562303526473_410133_92403", "_19_0_2_ebf0350_1567337062655_160733_52757", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "Concern" : [ "_2021x_2_8710274_1674576758760_611640_23247", "_2021x_2_8710274_1674576758991_165534_23433", "_2021x_2_8710274_1674576758825_79081_23317", "_2021x_2_8710274_1674576758878_612030_23357" ],
   "RecommendedVP" : [ ],
-  "RequiredVP" : [ "_19_0_2_26f0132_1562303526536_778418_92552" ],
+  "RequiredVP" : [ "_19_0_2_26f0132_1562303526536_778418_92552", "_19_0_2_26f0132_1562303526536_284838_92559" ],
   "Exposure" : "WhiteBox",
   "VP_ID" : "C4_SIEX"
 }, {
@@ -774,7 +774,7 @@
   "Presentation" : [ "An activity diagram featuring the ordered execution of System Process Actions. The activity diagram swim lanes are typed with Context Element usage and SOI usage from the same System Context. \nNote: In order to improve the clarity of presentation it may be appropriate to use several activity diagrams for one System Process.", "A tabular format listing all identified System Functions, the System Processes in which they appear, and the Comtext Exchange with the Context Functions." ],
   "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_ebf0350_1554653236737_36605_43554", "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_26f0132_1562303526473_525021_92401", "_19_0_2_ebf0350_1554653238260_245225_43556", "_19_0_2_ebf0350_1567281039295_665940_53199", "_19_0_2_26f0132_1562303526473_410133_92403", "_19_0_2_ebf0350_1567337062655_160733_52757", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1567282723132_468249_52793", "_19_0_2_ebf0350_1555170687022_190510_43698", "_19_0_2_ebf0350_1567280920665_435327_53193" ],
   "Concern" : [ "_2021x_2_8710274_1674576758952_658537_23403", "_2021x_2_8710274_1674576758710_799233_23181", "_2021x_2_8710274_1674576758674_250912_23143", "_2021x_2_8710274_1674576758630_745758_23103", "_2021x_2_8710274_1674576758960_189958_23415", "_2021x_2_8710274_1674576758798_462644_23290", "_2021x_2_8710274_1674576758808_527146_23298", "_2021x_2_8710274_1674576758924_539039_23390", "_2021x_2_8710274_1674576758649_392764_23120" ],
-  "RecommendedVP" : [ "_19_0_2_26f0132_1567778254489_369345_55863" ],
+  "RecommendedVP" : [ "_19_0_2_26f0132_1567778254489_369345_55863", "_19_0_4_26f0132_1631280350392_855780_562", "_19_0_4_6d8019d_1618589543897_213858_307", "_19_0_2_26f0132_1562303526536_778418_92552" ],
   "RequiredVP" : [ ],
   "Exposure" : "BlackBox",
   "VP_ID" : "C3_SPRO"
@@ -789,7 +789,7 @@
   "Presentation" : [ "A tabular format listing\n* unique requirement ID, text, and attributes,\n* traceability reference to Stakeholder Requirements,\n* traceability reference to depended Requirements on the same level of abstraction." ],
   "Stakeholders" : [ "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_26f0132_1562303526473_525021_92401", "_19_0_2_ebf0350_1567281039295_665940_53199", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "Concern" : [ "_2021x_2_8710274_1674576758978_464279_23425", "_2021x_2_8710274_1674576758860_195868_23350", "_2021x_2_8710274_1674576758640_180559_23118", "_2021x_2_8710274_1674576758798_122991_23285", "_2021x_2_8710274_1674576759042_480392_23467", "_2021x_2_8710274_1674576758563_692887_23057", "_2021x_2_8710274_1674576758778_979635_23258" ],
-  "RecommendedVP" : [ "_19_0_1_26f0132_1554446728606_740631_45702" ],
+  "RecommendedVP" : [ "_19_0_1_26f0132_1554446728606_740631_45702", "_19_0_4_6d8019d_1618757838536_301313_442", "_19_0_4_6d8019d_1618060963677_605184_292", "_19_0_4_26f0132_1626790419043_61789_443", "_19_0_2_8710274_1567167552896_772779_54664", "_2021x_2_8710274_1676723256334_812178_26576", "_19_0_2_26f0132_1562303526536_189439_92549" ],
   "RequiredVP" : [ "_19_0_2_26f0132_1565093441772_890565_49326" ],
   "Exposure" : "BlackBox",
   "VP_ID" : "C6_SRQD"
@@ -804,8 +804,8 @@
   "Presentation" : [ "A dependency matrix featuring relationships for every System Requirement to the functional domain level\n* System Use Case\n* System Capability\n* System Context Definition\n* System Context Exchange\n* System Context Interaction\n* System Process\n* System State" ],
   "Stakeholders" : [ "_19_0_2_ebf0350_1567281039295_665940_53199", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "Concern" : [ "_2021x_2_8710274_1674576758848_939582_23337", "_2021x_2_8710274_1674576758563_692887_23057", "_2021x_2_8710274_1674576758668_405619_23141", "_2021x_2_8710274_1674576758640_156873_23115" ],
-  "RecommendedVP" : [ "_19_0_1_26f0132_1554446728606_740631_45702" ],
-  "RequiredVP" : [ "_19_0_2_26f0132_1565093441772_890565_49326" ],
+  "RecommendedVP" : [ "_19_0_1_26f0132_1554446728606_740631_45702", "_19_0_4_6d8019d_1618757838536_301313_442", "_19_0_4_6d8019d_1618060963677_605184_292", "_19_0_4_26f0132_1626790419043_61789_443", "_19_0_2_8710274_1567167552896_772779_54664", "_2021x_2_8710274_1676723256334_812178_26576", "_19_0_2_26f0132_1562303526536_189439_92549" ],
+  "RequiredVP" : [ "_19_0_2_26f0132_1565093441772_890565_49326", "_19_0_2_26f0132_1565104337297_671823_55529" ],
   "Exposure" : "NotApplicable",
   "VP_ID" : "C8_SRQT"
 }, {
@@ -819,7 +819,7 @@
   "Presentation" : [ "A block definition diagram (BDD) featuring states, and state transitions. \nNote: References to model elements that are dependent of states, or transitions shall be shown as callout, or compartment notation.", "A tabular format listing states, state transitions, and the conditons to be fullfilled before the transition will occur. References to model elements that are dependent of states (Domain Item Kinds, System Functions, System Use Cases, etc.), or transitions shall be shown in the table." ],
   "Stakeholders" : [ "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_26f0132_1562303526473_525021_92401", "_19_0_2_26f0132_1566037895381_430904_56516", "_19_0_2_ebf0350_1554653234809_156018_43552", "_19_0_2_26f0132_1562303526473_410133_92403", "_19_0_2_ebf0350_1567337062655_160733_52757", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "Concern" : [ "_2021x_2_8710274_1674576759199_155259_23602", "_2021x_2_8710274_1674576759086_661396_23504" ],
-  "RecommendedVP" : [ "_19_0_4_6d8019d_1618589543897_213858_307" ],
+  "RecommendedVP" : [ "_19_0_4_6d8019d_1618589543897_213858_307", "_19_0_2_26f0132_1562303526536_778418_92552", "_19_0_2_8710274_1567167552896_772779_54664" ],
   "RequiredVP" : [ ],
   "Exposure" : "BlackBox",
   "VP_ID" : "C3_SSTA"
@@ -834,7 +834,7 @@
   "Presentation" : [ "A block definition diagram (BDD) featuring the conceptual system block and conceptual system blocks for parts of the system. These elements are connected to the system block by means of aggregation relationships. \nNote: Multiple relationships to a kind of element are allowed. This means, that this kind of element is used in several roles." ],
   "Stakeholders" : [ "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "Concern" : [ "_2021x_2_8710274_1674576758828_494985_23322" ],
-  "RecommendedVP" : [ "_19_0_2_8710274_1567167552896_772779_54664" ],
+  "RecommendedVP" : [ "_19_0_2_8710274_1567167552896_772779_54664", "_2021x_2_8710274_1676723256334_812178_26576" ],
   "RequiredVP" : [ "_19_0_4_26f0132_1629448496383_291730_10342" ],
   "Exposure" : "WhiteBox",
   "VP_ID" : "C2_SSTD"
@@ -849,7 +849,7 @@
   "Presentation" : [ "A use case diagram featuring model elements representing System Use Cases, System Context, and System Context Elements. The System Context shall be used as subject of the use case. The System Context Elements playing a Role in the Use Case shall be connected to the Use Case by associations.\nNote: System Use Case pre- and postconditions shall be represented either by callout or compartment notation.\nRelationship to operational stories can be related to the use case in order trace to mission analysis.", "A tabular format listing the System Use Cases, the System Use Case pre- and postconditions, the System Context, and the System Context Elements. Additionaly, the relationship to operational stories, if applicable." ],
   "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_ebf0350_1554653236737_36605_43554", "_19_0_2_26f0132_1562303526473_525021_92401", "_19_0_2_ebf0350_1554653238260_245225_43556", "_19_0_2_ebf0350_1567281039295_665940_53199", "_19_0_2_ebf0350_1555170687022_190510_43698", "_19_0_2_ebf0350_1567280920665_435327_53193" ],
   "Concern" : [ "_2021x_2_6d8019d_1674945898325_22078_35809", "_2021x_2_8710274_1674576758841_451500_23327", "_2021x_2_8710274_1697469571914_800497_36599", "_2021x_2_6d8019d_1674922633861_96675_24986", "_2021x_2_6d8019d_1675459822996_961402_23325" ],
-  "RecommendedVP" : [ "_19_0_2_26f0132_1561750369203_901730_48359" ],
+  "RecommendedVP" : [ "_19_0_2_26f0132_1561750369203_901730_48359", "_19_0_3_8710274_1581675958756_500127_50979", "_19_0_2_26f0132_1565093441772_890565_49326", "_19_0_2_26f0132_1562303526536_189439_92549" ],
   "RequiredVP" : [ "_19_0_4_6d8019d_1618589543897_213858_307" ],
   "Exposure" : "BlackBox",
   "VP_ID" : "C1_SUCD"
