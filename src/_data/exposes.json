@@ -5010,7 +5010,10 @@
     "ID" : "_19_0_4_26f0132_1624610613457_313794_115",
     "Name" : "System Process"
   },
-  "Viewpoint" : [ ]
+  "Viewpoint" : {
+    "ID" : "_2026x_26f0132_1793918191913_265921_386",
+    "Name" : "System Process White Box Viewpoint"
+  }
 }, {
   "Name" : "",
   "ID" : "_2026x_26f0132_1793919217147_806679_526",
@@ -5019,7 +5022,10 @@
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
     "Name" : "Conceptual System"
   },
-  "Viewpoint" : [ ]
+  "Viewpoint" : {
+    "ID" : "_2026x_26f0132_1793918191913_265921_386",
+    "Name" : "System Process White Box Viewpoint"
+  }
 }, {
   "Name" : "",
   "ID" : "_2026x_26f0132_1793919217225_765966_527",
@@ -5028,7 +5034,10 @@
     "ID" : "_19_0_2_26f0132_1558075062569_130489_44874",
     "Name" : "Conceptual External System"
   },
-  "Viewpoint" : [ ]
+  "Viewpoint" : {
+    "ID" : "_2026x_26f0132_1793918191913_265921_386",
+    "Name" : "System Process White Box Viewpoint"
+  }
 }, {
   "Name" : "",
   "ID" : "_2026x_26f0132_1793919217303_399461_528",
@@ -5037,7 +5046,10 @@
     "ID" : "_19_0_2_26f0132_1562303524176_981340_91082",
     "Name" : "Conceptual Internal Role"
   },
-  "Viewpoint" : [ ]
+  "Viewpoint" : {
+    "ID" : "_2026x_26f0132_1793918191913_265921_386",
+    "Name" : "System Process White Box Viewpoint"
+  }
 }, {
   "Name" : "",
   "ID" : "_2026x_26f0132_1793919217383_823635_529",
@@ -5046,7 +5058,10 @@
     "ID" : "_19_0_2_26f0132_1562303524161_907005_91002",
     "Name" : "General Functional Usage"
   },
-  "Viewpoint" : [ ]
+  "Viewpoint" : {
+    "ID" : "_2026x_26f0132_1793918191913_265921_386",
+    "Name" : "System Process White Box Viewpoint"
+  }
 }, {
   "Name" : "",
   "ID" : "_2026x_26f0132_1793919217459_431166_530",
@@ -5055,7 +5070,10 @@
     "ID" : "_19_0_2_26f0132_1562303524161_394471_91009",
     "Name" : "System Function"
   },
-  "Viewpoint" : [ ]
+  "Viewpoint" : {
+    "ID" : "_2026x_26f0132_1793918191913_265921_386",
+    "Name" : "System Process White Box Viewpoint"
+  }
 }, {
   "Name" : "",
   "ID" : "_2026x_26f0132_1793919217535_356844_531",
@@ -5064,7 +5082,10 @@
     "ID" : "_2021x_2_8710274_1675981331374_205908_29130",
     "Name" : "System Function in System Process"
   },
-  "Viewpoint" : [ ]
+  "Viewpoint" : {
+    "ID" : "_2026x_26f0132_1793918191913_265921_386",
+    "Name" : "System Process White Box Viewpoint"
+  }
 }, {
   "Name" : "",
   "ID" : "_2026x_26f0132_1793919217609_759700_532",
@@ -5073,7 +5094,10 @@
     "ID" : "_19_0_4_26f0132_1624611972707_746294_1003",
     "Name" : "Context Function"
   },
-  "Viewpoint" : [ ]
+  "Viewpoint" : {
+    "ID" : "_2026x_26f0132_1793918191913_265921_386",
+    "Name" : "System Process White Box Viewpoint"
+  }
 }, {
   "Name" : "",
   "ID" : "_2026x_26f0132_1793919217685_631881_533",
@@ -5082,7 +5106,10 @@
     "ID" : "_19_0_2_8710274_1567168520242_378357_56193",
     "Name" : "General Functional Exchange"
   },
-  "Viewpoint" : [ ]
+  "Viewpoint" : {
+    "ID" : "_2026x_26f0132_1793918191913_265921_386",
+    "Name" : "System Process White Box Viewpoint"
+  }
 }, {
   "Name" : "",
   "ID" : "_2026x_26f0132_1793919217761_825260_534",
@@ -5091,7 +5118,10 @@
     "ID" : "_19_0_2_26f0132_1558075029411_79067_44836",
     "Name" : "Conceptual Context Element"
   },
-  "Viewpoint" : [ ]
+  "Viewpoint" : {
+    "ID" : "_2026x_26f0132_1793918191913_265921_386",
+    "Name" : "System Process White Box Viewpoint"
+  }
 }, {
   "Name" : "",
   "ID" : "_2026x_26f0132_1793919217839_769930_535",
@@ -5100,7 +5130,10 @@
     "ID" : "_19_0_2_26f0132_1562303989622_501728_139950",
     "Name" : "Conceptual Environment"
   },
-  "Viewpoint" : [ ]
+  "Viewpoint" : {
+    "ID" : "_2026x_26f0132_1793918191913_265921_386",
+    "Name" : "System Process White Box Viewpoint"
+  }
 }, {
   "Name" : "",
   "ID" : "_2026x_26f0132_1793919217919_73826_536",
@@ -5109,5 +5142,8 @@
     "ID" : "_19_0_2_8710274_1558534130432_293473_45375",
     "Name" : "Conceptual User"
   },
-  "Viewpoint" : [ ]
+  "Viewpoint" : {
+    "ID" : "_2026x_26f0132_1793918191913_265921_386",
+    "Name" : "System Process White Box Viewpoint"
+  }
 } ]
