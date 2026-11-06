@@ -175,7 +175,7 @@
 }, {
   "Name" : "SAF_C2_SFBS",
   "ID" : "_19_0_4_26f0132_1629448019169_887442_9417",
-  "Documentation" : "<html>Implementation of <A HREF='https://saf.gfse.org/userdoc/Conceptual Domain/System Functional Breakdown Structure Viewpoint'>System Functional Breakdown Structure Viewpoint</A><BR>Purpose:<BR>The System Functional Breakdown Structure Viewpoint defines the structured, modular functional breakdown of the SOI beginning with System Processes, over identified System Functions further refined down to System Partial Functions. The reuse of System Functions, and System Partial Functions over Function Trees of the SOI is facilitated. <BR>Presentations:<BR> <UL><li>One or more more block definition diagrams (BDD) featuring activities representing System Processes, System Functions, System Partial Functions, and their aggregation composing the functional breakdown structure.</li><li>Tool specific analysis diagram featuring the relationships between System Processes, System Functions, and System Partial Functions.</li></UL></html>",
+  "Documentation" : "<html>Implementation of <A HREF='https://saf.gfse.org/userdoc/Conceptual Domain/System Functional Breakdown Structure Viewpoint'>System Functional Breakdown Structure Viewpoint</A><BR>Purpose:<BR>The System Functional Breakdown Structure Viewpoint defines the structured, modular functional breakdown of the SOI beginning with System Processes, over identified System Functions further refined down to smaller System Functions. The reuse of System Functions over Function Trees of the SOI is facilitated. <BR>Presentations:<BR> <UL><li>One or more more block definition diagrams (BDD) featuring activities representing System Processes, System Functions, and subordinate System Functions, and their aggregation composing the functional breakdown structure.</li><li>Tool specific analysis diagram featuring the relationships between System Processes, System Functions, and subordinate System Functions.</li></UL></html>",
   "MetaClass" : [ "Diagram" ],
   "General" : [ "SysML BlockDiagram", "SAF_Diagram" ]
 }, {
@@ -187,7 +187,7 @@
 }, {
   "Name" : "SAF_C3_SFRE",
   "ID" : "_2021x_2_6d8019d_1677616004198_497557_24505",
-  "Documentation" : "<html>Implementation of <A HREF='https://saf.gfse.org/userdoc/Conceptual Domain/System Functional Refinement Viewpoint'>System Functional Refinement Viewpoint</A><BR>Purpose:<BR>The System Functional Refinement Viewpoint analyses decomposition of System Functions into System Partial Functions in order achieve understanding and agreement about the System functions sufficient to derive system  requirements.<BR>Presentation:<BR>Activity Diagram featuring System Partial Functions, functional exchange between partial functions. There are explicitely no Swimlanes and no allocations to structure.</html>",
+  "Documentation" : "<html>Implementation of <A HREF='https://saf.gfse.org/userdoc/Conceptual Domain/System Functional Refinement Viewpoint'>System Functional Refinement Viewpoint</A><BR>Purpose:<BR>The System Functional Refinement Viewpoint analyses decomposition of System Functions into subordinate System Functions in order achieve understanding and agreement about the System functions sufficient to derive system  requirements.<BR>Presentation:<BR>Activity Diagram featuring System Partial Functions, functional exchange between\nsubordinate system functions. There are explicitely no Swimlanes and no allocations to structure.</html>",
   "MetaClass" : [ "Diagram" ],
   "General" : [ "SysML ActivityDiagram", "SAF_Diagram" ]
 }, {
@@ -202,6 +202,12 @@
   "Documentation" : "<html>Implementation of <A HREF='https://saf.gfse.org/userdoc/Conceptual Domain/System Process Viewpoint'>System Process Viewpoint</A><BR>Purpose:<BR>The System Process Viewpoint provides the functional representation of the system using a black-box approach\n* the representation of the SOI and all Context Elements\n* the System Functions the SOI shall be able to perform\n* the Context Functions the Context Elements are expected to perform\n* the exchange between SOI System Functions and Context Functions of Context Elements\n* the functional flows crossing the boundary between SOI and Context Elements<BR>Presentations:<BR> <UL><li>An activity diagram featuring the ordered execution of System Process Actions. The activity diagram swim lanes are typed with Context Element usage and SOI usage from the same System Context. \nNote: In order to improve the clarity of presentation it may be appropriate to use several activity diagrams for one System Process.</li><li>A tabular format listing all identified System Functions, the System Processes in which they appear, and the Comtext Exchange with the Context Functions.</li></UL></html>",
   "MetaClass" : [ "Diagram" ],
   "General" : [ "SAF_Diagram" ]
+}, {
+  "Name" : "SAF_C3_SPWB",
+  "ID" : "_2026x_26f0132_1793917727971_250119_4387",
+  "Documentation" : "<html>Implementation of <A HREF='https://saf.gfse.org/userdoc/Conceptual Domain/System Process White Box Viewpoint'>System Process White Box Viewpoint</A><BR>Purpose:<BR>The C3_SPWB System Process White Box Viewpoint supports the specification of the internal functional realization of the System of Interest (SoI) through the collaboration of its constituent Conceptual Systems.\n\nIt provides a white-box perspective on the SoI, complementing the black-box perspective of the C3_SPRO System Process Viewpoint.\n\nThe viewpoint refines the internal realization of the SoI while preserving its externally visible functional behaviour.<BR>Presentations:<BR> <UL><li>An activity diagram featuring the ordered execution of SAF_FunctionActions. The activity diagram swim lanes (partitions) represent the Conceptual Systems constituting the System of Interest (SoI) and the Context Elements of the same System Context. The activity diagram shows the allocation of SAF_SystemFunctions to the Conceptual Systems and the functional flows between Conceptual Systems and between Conceptual Systems and Context Elements.\nNote: In order to improve the clarity of presentation it may be appropriate to use several activity diagrams for one System Process.</li><li>A tabular representation listing the Conceptual Systems contained in the SoI and the SAF_Functions allocated to each Conceptual System.</li></UL></html>",
+  "MetaClass" : [ "Diagram" ],
+  "General" : [ "SysML ActivityDiagram", "SAF_Diagram" ]
 }, {
   "Name" : "SAF_C3_SSTA",
   "ID" : "_19_0_4_6d8019d_1627582668863_723808_2445",
@@ -421,7 +427,7 @@
 }, {
   "Name" : "SAF_ConceptualInternalRole",
   "ID" : "_2021x_2_6d8019d_1692006392401_529537_24496",
-  "Documentation" : "<html>Not implementing a concept</html>",
+  "Documentation" : "<html>Specifies the fact that a Conceptual System may consist of Conceptual Systems (a white box perspective on a conceptual system).<BR><BR>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_26f0132_1562303524176_845719_91080'>Conceptual System</A> <A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_26f0132_1562303524176_981340_91082'>Conceptual Internal Role</A> <A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_26f0132_1562303524176_845719_91080'>Conceptual System</A></html>",
   "MetaClass" : [ "Property" ],
   "General" : [ "SAF_AbstractItem", "PartProperty", "BlockProperty", "InvisibleStereotype" ]
 }, {
@@ -589,7 +595,7 @@
 }, {
   "Name" : "SAF_FunctionAction",
   "ID" : "_19_0_4_6d8019d_1629825338987_420088_594",
-  "Documentation" : "<html>Specifies a General Usage of a General Function within  one or more other General Functions.<BR><BR>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_4_26f0132_1624614161928_694281_1954'>General Function</A> <A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_26f0132_1562303524161_907005_91002'>General Functional Usage</A> <A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_4_26f0132_1624614161928_694281_1954'>General Function</A></html>",
+  "Documentation" : "<html>Implementation of SAF Concepts\n <ul><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_26f0132_1562303524161_907005_91002'>General Functional Usage</A></LI><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_2021x_2_8710274_1675981331374_205908_29130'>System Function in System Process</A></LI></ul></html>",
   "MetaClass" : [ "CallBehaviorAction" ],
   "General" : [ "SAF_AbstractItem" ]
 }, {
@@ -1297,7 +1303,7 @@
 }, {
   "Name" : "SAF_SystemPartialFunction_deprecated",
   "ID" : "_2021x_2_8710274_1676729827724_699643_30171",
-  "Documentation" : "<html>Specifies the fact that a System Partial Function is a decomposed part of a System Function and defines details of the System Function it belongs to.<BR><BR>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_4_26f0132_1624611043495_845903_880'>System Partial Function</A></html>",
+  "Documentation" : "<html>Specifies the fact that a System Partial Function is a decomposed part of a System Function and defines details of the System Function it belongs to.<BR><BR>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_4_26f0132_1624611043495_845903_880'>System Partial Function_deprecated</A></html>",
   "MetaClass" : [ "Activity" ],
   "General" : [ "SAF_AbstractItem" ]
 }, {

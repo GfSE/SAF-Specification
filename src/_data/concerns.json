@@ -102,12 +102,6 @@
   } ]
 }, {
   "Documentation" : "",
-  "Owner" : "functional",
-  "Name" : "Which services will the system provide?",
-  "ID" : "_2021x_2_8710274_1674576758618_380934_23092",
-  "ConcernsViewpoints" : [ ]
-}, {
-  "Documentation" : "",
   "Owner" : "traceability & mapping",
   "Name" : "What are the scenarios a system function is utilized in?",
   "ID" : "_2021x_2_8710274_1674576758630_745758_23103",
@@ -1374,5 +1368,59 @@
   "ConcernsViewpoints" : [ {
     "Name" : "Physical Internal Interaction Viewpoint",
     "ID" : "_2026x_26f0132_1792701198578_467010_500"
+  } ]
+}, {
+  "Documentation" : "",
+  "Owner" : "functional",
+  "Name" : "How is the functional behaviour of the System of Interest realized internally?",
+  "ID" : "_2026x_26f0132_1793915638702_88454_203",
+  "ConcernsViewpoints" : [ {
+    "Name" : "System Process White Box Viewpoint",
+    "ID" : "_2026x_26f0132_1793918191913_265921_386"
+  } ]
+}, {
+  "Documentation" : "",
+  "Owner" : "functional",
+  "Name" : "Which Conceptual Systems are involved in the realization of the functional behaviour?",
+  "ID" : "_2026x_26f0132_1793915638819_522349_205",
+  "ConcernsViewpoints" : [ {
+    "Name" : "System Process White Box Viewpoint",
+    "ID" : "_2026x_26f0132_1793918191913_265921_386"
+  } ]
+}, {
+  "Documentation" : "",
+  "Owner" : "functional",
+  "Name" : "How do the Conceptual Systems collaborate to realize the functional behaviour of the System of Interest?",
+  "ID" : "_2026x_26f0132_1793915638949_382112_207",
+  "ConcernsViewpoints" : [ {
+    "Name" : "System Process White Box Viewpoint",
+    "ID" : "_2026x_26f0132_1793918191913_265921_386"
+  } ]
+}, {
+  "Documentation" : "",
+  "Owner" : "functional",
+  "Name" : "Which Conceptual Systems participate in interactions between the System of Interest and Context Elements?",
+  "ID" : "_2026x_26f0132_1793915639101_167654_209",
+  "ConcernsViewpoints" : [ {
+    "Name" : "System Process White Box Viewpoint",
+    "ID" : "_2026x_26f0132_1793918191913_265921_386"
+  } ]
+}, {
+  "Documentation" : "",
+  "Owner" : "functional",
+  "Name" : "How are the functional responsibilities allocated among the Conceptual Systems?",
+  "ID" : "_2026x_26f0132_1793915639167_452510_211",
+  "ConcernsViewpoints" : [ {
+    "Name" : "System Process White Box Viewpoint",
+    "ID" : "_2026x_26f0132_1793918191913_265921_386"
+  } ]
+}, {
+  "Documentation" : "",
+  "Owner" : "functional",
+  "Name" : "Is the internal functional realization consistent with the externally visible functional behaviour of the System of Interest?",
+  "ID" : "_2026x_26f0132_1793915639230_893213_213",
+  "ConcernsViewpoints" : [ {
+    "Name" : "System Process White Box Viewpoint",
+    "ID" : "_2026x_26f0132_1793918191913_265921_386"
   } ]
 } ]

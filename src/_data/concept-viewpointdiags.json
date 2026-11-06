@@ -412,14 +412,8 @@
     "ID" : "_19_0_2_26f0132_1562303524176_981340_91082",
     "Name" : "Conceptual Internal Role"
   }, {
-    "ID" : "_19_0_4_26f0132_1624611043495_845903_880",
-    "Name" : "System Partial Function"
-  }, {
     "ID" : "_19_0_4_26f0132_1624614161928_694281_1954",
     "Name" : "General Function"
-  }, {
-    "ID" : "_2021x_2_6d8019d_1677750594124_815801_24716",
-    "Name" : "allocated to"
   }, {
     "ID" : "_2021x_2_8710274_1675987240210_459780_32823",
     "Name" : "implementing"
@@ -916,9 +910,6 @@
     "ID" : "_19_0_4_26f0132_1624610613457_313794_115",
     "Name" : "System Process"
   }, {
-    "ID" : "_19_0_4_26f0132_1624611043495_845903_880",
-    "Name" : "System Partial Function"
-  }, {
     "ID" : "_19_0_4_26f0132_1624611972707_746294_1003",
     "Name" : "Context Function"
   }, {
@@ -932,7 +923,7 @@
     "Name" : "Context Function in System Process"
   }, {
     "ID" : "_2024x_8710274_1716826749795_177784_16590",
-    "Name" : "System Partial Function in System Function"
+    "Name" : "System Function in System Function"
   } ],
   "Documentation" : "",
   "VP_ID" : "_19_0_4_26f0132_1629448496383_291730_10342",
@@ -1298,7 +1289,7 @@
     "Name" : "Conceptual Internal Role"
   }, {
     "ID" : "_19_0_4_26f0132_1624611043495_845903_880",
-    "Name" : "System Partial Function"
+    "Name" : "System Partial Function_deprecated"
   }, {
     "ID" : "_19_0_4_26f0132_1624614161928_694281_1954",
     "Name" : "General Function"
@@ -1313,7 +1304,7 @@
     "Name" : "implementing"
   }, {
     "ID" : "_2024x_8710274_1716826749795_177784_16590",
-    "Name" : "System Partial Function in System Function"
+    "Name" : "System Function in System Function"
   } ],
   "Documentation" : "",
   "VP_ID" : "_2021x_2_8710274_1675987942868_617787_33116",
@@ -1387,14 +1378,11 @@
     "ID" : "_19_0_3_6d8019d_1609520174192_971623_551",
     "Name" : "controlled after"
   }, {
-    "ID" : "_19_0_4_26f0132_1624611043495_845903_880",
-    "Name" : "System Partial Function"
-  }, {
     "ID" : "_19_0_4_26f0132_1624614161928_694281_1954",
     "Name" : "General Function"
   }, {
     "ID" : "_2024x_8710274_1716826749795_177784_16590",
-    "Name" : "System Partial Function in System Function"
+    "Name" : "System Function in System Function"
   } ],
   "Documentation" : "",
   "VP_ID" : "_2021x_2_8710274_1676723256334_812178_26576",
@@ -2074,4 +2062,55 @@
   "Documentation" : "",
   "VP_ID" : "_2026x_26f0132_1792701198578_467010_500",
   "ID" : "_2026x_26f0132_1792701420869_138334_526"
+}, {
+  "Name" : "System Process White Box Concept",
+  "DiagConcepts" : [ {
+    "ID" : "_19_0_2_26f0132_1558075029411_79067_44836",
+    "Name" : "Conceptual Context Element"
+  }, {
+    "ID" : "_19_0_2_26f0132_1558075062569_130489_44874",
+    "Name" : "Conceptual External System"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524161_367314_91006",
+    "Name" : "allocated  to"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524161_394471_91009",
+    "Name" : "System Function"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
+    "Name" : "Conceptual System"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_981340_91082",
+    "Name" : "Conceptual Internal Role"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303989622_501728_139950",
+    "Name" : "Conceptual Environment"
+  }, {
+    "ID" : "_19_0_2_8710274_1558534130432_293473_45375",
+    "Name" : "Conceptual User"
+  }, {
+    "ID" : "_19_0_2_8710274_1567168520242_378357_56193",
+    "Name" : "General Functional Exchange"
+  }, {
+    "ID" : "_19_0_4_26f0132_1624610613457_313794_115",
+    "Name" : "System Process"
+  }, {
+    "ID" : "_19_0_4_26f0132_1624611972707_746294_1003",
+    "Name" : "Context Function"
+  }, {
+    "ID" : "_19_0_4_6d8019d_1654685045905_147820_659",
+    "Name" : "allocated to"
+  }, {
+    "ID" : "_2021x_2_8710274_1675981331374_205908_29130",
+    "Name" : "System Function in System Process"
+  }, {
+    "ID" : "_2021x_2_8710274_1675981347806_599070_29437",
+    "Name" : "Context Function in System Process"
+  }, {
+    "ID" : "_2024x_8710274_1716826749795_177784_16590",
+    "Name" : "System Function in System Function"
+  } ],
+  "Documentation" : "",
+  "VP_ID" : "_2026x_26f0132_1793918191913_265921_386",
+  "ID" : "_2026x_26f0132_1793919418902_178337_543"
 } ]

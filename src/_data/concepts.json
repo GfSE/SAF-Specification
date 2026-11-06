@@ -241,7 +241,10 @@
   "ClassType" : "Association",
   "IsGeneralFor" : [ ]
 }, {
-  "InViewpoint" : [ ],
+  "InViewpoint" : [ {
+    "ID" : "_2026x_26f0132_1793918191913_265921_386",
+    "Name" : "System Process White Box Viewpoint"
+  } ],
   "Documentation" : "Represents an abstract element in the given System Context on Conceptual Level, outside the SOI scope, interacting with the SOI.",
   "AssociationEnds" : [ ],
   "Name" : "Conceptual Context Element",
@@ -265,6 +268,9 @@
   }, {
     "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
     "Name" : "System Context Definition Viewpoint"
+  }, {
+    "ID" : "_2026x_26f0132_1793918191913_265921_386",
+    "Name" : "System Process White Box Viewpoint"
   } ],
   "Documentation" : "A Conceptual External System in the Conceptual Domain, outside the SOI scope, interacting with the SOI. E.g., power grid, mobile network, fresh water system (in a house).",
   "AssociationEnds" : [ ],
@@ -726,6 +732,9 @@
   }, {
     "ID" : "_2021x_2_8710274_1675987942868_617787_33116",
     "Name" : "Physical Functional Mapping Viewpoint"
+  }, {
+    "ID" : "_2026x_26f0132_1793918191913_265921_386",
+    "Name" : "System Process White Box Viewpoint"
   } ],
   "Documentation" : "Specifies the fundamental action or task that have to take place in the System in accepting and processing the\ninputs and in processing and generating the outputs.\nA System Function\n * accepts input from the System boundary \n * exposes its output at the System boundary\n * changes the System's State\n * is dependent on System's State\nNote: A System Function does not need to expose observable output, when it changes the System's state in a way that is observable by other system functions. Furthermore, a System Function does not need to accept any input from the system boundary, when it is dependent on the System State, which in turn is changeable by other System Functions.",
   "AssociationEnds" : [ ],
@@ -847,6 +856,9 @@
   "InViewpoint" : [ {
     "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
     "Name" : "System Function Mapping Viewpoint"
+  }, {
+    "ID" : "_2026x_26f0132_1793918191913_265921_386",
+    "Name" : "System Process White Box Viewpoint"
   } ],
   "Documentation" : "Specifies a General Usage of a General Function within  one or more other General Functions.",
   "AssociationEnds" : [ {
@@ -870,7 +882,7 @@
     "Name" : "Context Function in System Process"
   }, {
     "ID" : "_2024x_8710274_1716826749795_177784_16590",
-    "Name" : "System Partial Function in System Function"
+    "Name" : "System Function in System Function"
   } ]
 }, {
   "InViewpoint" : [ {
@@ -1466,6 +1478,9 @@
   }, {
     "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
     "Name" : "System Context Definition Viewpoint"
+  }, {
+    "ID" : "_2026x_26f0132_1793918191913_265921_386",
+    "Name" : "System Process White Box Viewpoint"
   } ],
   "Documentation" : "Describes a conceptual system as specification for an implementation of a system. It is used in both functional and logical architectures on any hierarchy level.",
   "AssociationEnds" : [ ],
@@ -1623,6 +1638,9 @@
   }, {
     "ID" : "_2021x_2_8710274_1676724435544_523379_27331",
     "Name" : "Physical Logical Mapping Viewpoint"
+  }, {
+    "ID" : "_2026x_26f0132_1793918191913_265921_386",
+    "Name" : "System Process White Box Viewpoint"
   } ],
   "Documentation" : "Specifies the fact that a Conceptual System may consist of Conceptual Systems (a white box perspective on a conceptual system).",
   "AssociationEnds" : [ {
@@ -1686,6 +1704,9 @@
   }, {
     "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
     "Name" : "System Context Definition Viewpoint"
+  }, {
+    "ID" : "_2026x_26f0132_1793918191913_265921_386",
+    "Name" : "System Process White Box Viewpoint"
   } ],
   "Documentation" : "A Conceptual Environment in the Conceptual Domain, outside the SOI scope, interacting with the SOI. E.g., air, dirt, sun, road.",
   "AssociationEnds" : [ ],
@@ -2394,6 +2415,9 @@
   }, {
     "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
     "Name" : "System Context Definition Viewpoint"
+  }, {
+    "ID" : "_2026x_26f0132_1793918191913_265921_386",
+    "Name" : "System Process White Box Viewpoint"
   } ],
   "Documentation" : "The Conceptual User is the representation for a human in the Conceptual Domain, outside the SOI scope, interacting with the SOI.",
   "AssociationEnds" : [ ],
@@ -2429,6 +2453,9 @@
   }, {
     "ID" : "_2021x_2_8710274_1676723256334_812178_26576",
     "Name" : "System Functional Refinement Viewpoint"
+  }, {
+    "ID" : "_2026x_26f0132_1793918191913_265921_386",
+    "Name" : "System Process White Box Viewpoint"
   } ],
   "Documentation" : "Specifies the fact that an General Functional Exchange between General Function Usage Exchange Points Parameters is taking place.",
   "AssociationEnds" : [ ],
@@ -3326,6 +3353,9 @@
   }, {
     "ID" : "_2021x_2_6d8019d_1690628661558_769067_24257",
     "Name" : "System Capability Mapping Viewpoint"
+  }, {
+    "ID" : "_2026x_26f0132_1793918191913_265921_386",
+    "Name" : "System Process White Box Viewpoint"
   } ],
   "Documentation" : "Specifies the fact that a System Process captures system behavior as a specific sequence of actions or tasks, and system exchanges including information, materials, energy, etc.",
   "AssociationEnds" : [ ],
@@ -3355,16 +3385,10 @@
   "ClassType" : "Association",
   "IsGeneralFor" : [ ]
 }, {
-  "InViewpoint" : [ {
-    "ID" : "_19_0_4_26f0132_1629448496383_291730_10342",
-    "Name" : "System Functional Breakdown Structure Viewpoint"
-  }, {
-    "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
-    "Name" : "System Function Mapping Viewpoint"
-  } ],
+  "InViewpoint" : [ ],
   "Documentation" : "Specifies the fact that a System Partial Function is a decomposed part of a System Function and defines details of the System Function it belongs to.",
   "AssociationEnds" : [ ],
-  "Name" : "System Partial Function",
+  "Name" : "System Partial Function_deprecated",
   "ID" : "_19_0_4_26f0132_1624611043495_845903_880",
   "InheritsFrom" : [ {
     "ID" : "_19_0_4_26f0132_1624614161928_694281_1954",
@@ -3379,6 +3403,9 @@
   }, {
     "ID" : "_19_0_4_26f0132_1629448496383_291730_10342",
     "Name" : "System Functional Breakdown Structure Viewpoint"
+  }, {
+    "ID" : "_2026x_26f0132_1793918191913_265921_386",
+    "Name" : "System Process White Box Viewpoint"
   } ],
   "Documentation" : "Specifies the fact that a fundamental action or task is expected to be carried out by an External Entity. \nNote: The intention is to capture the expectations and to explicitly dissect the functionality. This must not be interpreted as an attempt for a behavior specification of an External Entity. Capturing this valuable information is the basis to reach agreement on the functionality at the System boundary by clarifying the expectations about what is performed by Context Elements.",
   "AssociationEnds" : [ ],
@@ -3440,7 +3467,7 @@
     "Name" : "System Function"
   }, {
     "ID" : "_19_0_4_26f0132_1624611043495_845903_880",
-    "Name" : "System Partial Function"
+    "Name" : "System Partial Function_deprecated"
   }, {
     "ID" : "_19_0_4_26f0132_1624611972707_746294_1003",
     "Name" : "Context Function"
@@ -4089,7 +4116,7 @@
     "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_4_26f0132_1624611043495_845903_880",
-    "Name" : "System Partial Function",
+    "Name" : "System Partial Function_deprecated",
     "Multiplicity" : "1..*"
   } ],
   "Name" : "allocated to",
@@ -4109,7 +4136,7 @@
     "Multiplicity" : "1"
   }, {
     "ID" : "_19_0_4_26f0132_1624611043495_845903_880",
-    "Name" : "System Partial Function",
+    "Name" : "System Partial Function_deprecated",
     "Multiplicity" : "1..*"
   } ],
   "Name" : "allocated to",
@@ -4240,6 +4267,9 @@
   }, {
     "ID" : "_19_0_4_26f0132_1629448496383_291730_10342",
     "Name" : "System Functional Breakdown Structure Viewpoint"
+  }, {
+    "ID" : "_2026x_26f0132_1793918191913_265921_386",
+    "Name" : "System Process White Box Viewpoint"
   } ],
   "Documentation" : "Specifies the fact that a System Function is used in a System Process.",
   "AssociationEnds" : [ {
@@ -6673,17 +6703,17 @@
     "ID" : "_2021x_2_8710274_1676723256334_812178_26576",
     "Name" : "System Functional Refinement Viewpoint"
   } ],
-  "Documentation" : "Specifies that a System Partial Function is used in a system function",
+  "Documentation" : "Specifies that a System Function is decomposed into a subordinate system functions",
   "AssociationEnds" : [ {
-    "ID" : "_19_0_4_26f0132_1624611043495_845903_880",
-    "Name" : "System Partial Function",
+    "ID" : "_19_0_2_26f0132_1562303524161_394471_91009",
+    "Name" : "System Function",
     "Multiplicity" : "0..*"
   }, {
     "ID" : "_19_0_2_26f0132_1562303524161_394471_91009",
     "Name" : "System Function",
     "Multiplicity" : "0..*"
   } ],
-  "Name" : "System Partial Function in System Function",
+  "Name" : "System Function in System Function",
   "ID" : "_2024x_8710274_1716826749795_177784_16590",
   "InheritsFrom" : [ {
     "ID" : "_19_0_2_26f0132_1562303524161_907005_91002",

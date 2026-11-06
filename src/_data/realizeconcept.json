@@ -1075,8 +1075,8 @@
     "Name" : "System Function in System Process"
   },
   "RealizationOfConcept" : {
-    "ID" : "_2024x_8710274_1716829149831_366341_18205",
-    "Name" : ""
+    "ID" : "_19_0_4_6d8019d_1629825338987_420088_594",
+    "Name" : "SAF_FunctionAction"
   }
 }, {
   "Name" : "",
@@ -2047,8 +2047,8 @@
     "Name" : "Conceptual Internal Role"
   },
   "RealizationOfConcept" : {
-    "ID" : "_2021x_2_8710274_1698318103660_937765_37340",
-    "Name" : ""
+    "ID" : "_2021x_2_6d8019d_1692006392401_529537_24496",
+    "Name" : "SAF_ConceptualInternalRole"
   }
 }, {
   "Name" : "",
@@ -2104,7 +2104,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_19_0_4_26f0132_1624611043495_845903_880",
-    "Name" : "System Partial Function"
+    "Name" : "System Partial Function_deprecated"
   },
   "RealizationOfConcept" : {
     "ID" : "_2021x_2_8710274_1676729827724_699643_30171",
@@ -4576,7 +4576,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2024x_8710274_1716826749795_177784_16590",
-    "Name" : "System Partial Function in System Function"
+    "Name" : "System Function in System Function"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_8710274_1716829205771_563297_18246",
@@ -4761,6 +4761,18 @@
   "RealizationOfConcept" : {
     "ID" : "_2026x_26f0132_1790327727626_406663_4344",
     "Name" : "SAF_P4_PITI"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1793948659286_705945_5181",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2026x_26f0132_1793918191913_265921_386",
+    "Name" : "System Process White Box Viewpoint"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2026x_26f0132_1793917727971_250119_4387",
+    "Name" : "SAF_C3_SPWB"
   }
 }, {
   "Name" : "",

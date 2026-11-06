@@ -9,11 +9,20 @@
     "Rationale" : "In my role, I need to check whether the overall system purpose is supported.",
     "Concern" : "For what purpose is the system developed or adapted?"
   }, {
+    "Rationale" : "In my role, I assess whether the internal functional realization supports the required system capabilities and architectural objectives.",
+    "Concern" : "How are the functional responsibilities allocated among the Conceptual Systems?"
+  }, {
     "Rationale" : "",
     "Concern" : "How does a system function interact with its environment?"
   }, {
+    "Rationale" : "In my role, I assess whether the internal functional realization supports the required system capabilities and architectural objectives.",
+    "Concern" : "How is the functional behaviour of the System of Interest realized internally?"
+  }, {
     "Rationale" : "In my role, I need to check whether the system complies with the higher-level operating concept.",
     "Concern" : "How is the system being used or utilized and interacting with other external systems to satisfy user needs?"
+  }, {
+    "Rationale" : "In my role, I assess whether the internal functional realization supports the required system capabilities and architectural objectives.",
+    "Concern" : "Is the internal functional realization consistent with the externally visible functional behaviour of the System of Interest?"
   }, {
     "Rationale" : "",
     "Concern" : "Show in a concise manner the relationships from operational capability to operational story, to operational activity, and to operational performer."
@@ -169,11 +178,20 @@
   "ID" : "_19_0_2_ebf0350_1554653236737_36605_43554",
   "Documentation" : "Definition - Customer (also Acquirer):\nOrganization or person that receives a product or service, [ISO/IEC 15288:2022 – Systems engineering - System life-cycle processes]\nThe Customer is an organization or person that receives a product. Examples: Consumer, client, end user, retailer, beneficiary, and purchaser. A customer can be internal or external to the organization. Customer is a broader reference than Acquirer, operator, or user and includes those roles as well as others. However, the Customer provides the funding.",
   "Rationales" : [ {
+    "Rationale" : "In my role, I assess whether the internal functional realization is consistent with the intended system behaviour and architectural expectations.",
+    "Concern" : "How are the functional responsibilities allocated among the Conceptual Systems?"
+  }, {
     "Rationale" : "",
     "Concern" : "How does a system function interact with its environment?"
   }, {
+    "Rationale" : "In my role, I assess whether the internal functional realization is consistent with the intended system behaviour and architectural expectations.",
+    "Concern" : "How is the functional behaviour of the System of Interest realized internally?"
+  }, {
     "Rationale" : "In my role, I need to check whether intended solution satisfies my customer needs.",
     "Concern" : "How is the system being used or utilized and interacting with other external systems to satisfy user needs?"
+  }, {
+    "Rationale" : "In my role, I assess whether the internal functional realization is consistent with the intended system behaviour and architectural expectations.",
+    "Concern" : "Is the internal functional realization consistent with the externally visible functional behaviour of the System of Interest?"
   }, {
     "Rationale" : "",
     "Concern" : "Show in a concise manner the relationships from operational capability to operational story, to operational activity, and to operational performer."
@@ -287,8 +305,14 @@
     "Rationale" : "",
     "Concern" : "How are error states handled?"
   }, {
+    "Rationale" : "In my role, I use the viewpoint to understand functional responsibilities and interactions relevant to hardware realization.",
+    "Concern" : "How are the functional responsibilities allocated among the Conceptual Systems?"
+  }, {
     "Rationale" : "In my role, I need to implement the interfaces in my HW subsystem, if necessary.",
     "Concern" : "How do physical system elements interact to provide system functions?"
+  }, {
+    "Rationale" : "In my role, I use the viewpoint to understand functional responsibilities and interactions relevant to hardware realization.",
+    "Concern" : "How do the Conceptual Systems collaborate to realize the functional behaviour of the System of Interest?"
   }, {
     "Rationale" : "",
     "Concern" : "What additional information the system or a system element needs to generate to enable testing?"
@@ -355,6 +379,12 @@
   }, {
     "Rationale" : "In my role, I need to implement the hardware-related aspects of the specified interaction behaviour.",
     "Concern" : "What sequences of exchanges occur between physical systems within the system boundary through physical connections?"
+  }, {
+    "Rationale" : "In my role, I use the viewpoint to understand functional responsibilities and interactions relevant to hardware realization.",
+    "Concern" : "Which Conceptual Systems are involved in the realization of the functional behaviour?"
+  }, {
+    "Rationale" : "In my role, I use the viewpoint to understand functional responsibilities and interactions relevant to hardware realization.",
+    "Concern" : "Which Conceptual Systems participate in interactions between the System of Interest and Context Elements?"
   }, {
     "Rationale" : "In my role, I need to implement the interfaces in my HW subsystem, if necessary.",
     "Concern" : "Which HW interfaces are necessary?"
@@ -427,17 +457,26 @@
     "Rationale" : "In my role, I need to integrate and test the interfaces.",
     "Concern" : "How do physical system elements interact to provide system functions?"
   }, {
+    "Rationale" : "In my role, I assess the consistency between the internal functional realization and the externally visible functional behaviour of the System of Interest.",
+    "Concern" : "How do the Conceptual Systems collaborate to realize the functional behaviour of the System of Interest?"
+  }, {
     "Rationale" : "In my role, I need to perform the integration of the system into its deployment environment.",
     "Concern" : "How does a system function interact with its environment?"
   }, {
     "Rationale" : "",
     "Concern" : "How does the elements of the test environment interact with each other?"
   }, {
+    "Rationale" : "In my role, I assess the consistency between the internal functional realization and the externally visible functional behaviour of the System of Interest.",
+    "Concern" : "How is the functional behaviour of the System of Interest realized internally?"
+  }, {
     "Rationale" : "In my role, I need to take this into account when planning integration.",
     "Concern" : "How is the system being used or utilized and interacting with other external systems to satisfy user needs?"
   }, {
     "Rationale" : "In my role, I need to plan the test environment",
     "Concern" : "How to connect the system or a system element to a test equipment?"
+  }, {
+    "Rationale" : "In my role, I assess the consistency between the internal functional realization and the externally visible functional behaviour of the System of Interest.",
+    "Concern" : "Is the internal functional realization consistent with the externally visible functional behaviour of the System of Interest?"
   }, {
     "Rationale" : "",
     "Concern" : "What additional information the system or a system element needs to generate to enable testing?"
@@ -474,6 +513,9 @@
   }, {
     "Rationale" : "",
     "Concern" : "What shall be validated to the customer at system level?"
+  }, {
+    "Rationale" : "In my role, I assess the consistency between the internal functional realization and the externally visible functional behaviour of the System of Interest.",
+    "Concern" : "Which Conceptual Systems are involved in the realization of the functional behaviour?"
   }, {
     "Rationale" : "In my role, I need to integrate and test the interfaces.",
     "Concern" : "Which are the external physical entities the system interacts with in the given context?"
@@ -580,6 +622,9 @@
   "ID" : "_19_0_2_ebf0350_1554653238260_245225_43556",
   "Documentation" : "Definition - Operator:\nIndividual or organization that performs the operations of a system, [ISO/IEC 15288:2022 – Systems engineering - System life-cycle processes]\nThe Operator is an individual or organization that uses knowledge, skills and procedures to perform the functions of the system to provide the benefit, product or service. \nAn individual Operator combined with knowledge, skills, and procedures may be considered as an element of the system. The role of the operator and the role of the user can be delegated to a single individual or may be simultaneously instantiated in the same organization. \n*For example: Air passengers are the user of the air transport system while a single flight is operated by an air carrier like the Lufthansa using aircrafts of various types to provide the transport service. \nTo provide the service to the passengers the carrier’s organization must implement lots of services utilizing several other enabling systems. \nThe individual aircraft is operated by the pilot who uses the on-board systems to control the aircraft and to navigate during that flight. \nThe example illustrates, that the roles user and operator are depending heavily on the definition of the SOI Scope.*",
   "Rationales" : [ {
+    "Rationale" : "In my role, I use the viewpoint to understand the internal functional realization relevant to operation and operational interactions.",
+    "Concern" : "How do the Conceptual Systems collaborate to realize the functional behaviour of the System of Interest?"
+  }, {
     "Rationale" : "",
     "Concern" : "How does a system function interact with its environment?"
   }, {
@@ -597,6 +642,9 @@
   }, {
     "Rationale" : "In my role, I need to perform the sequence of physical context interactions when operating the system.",
     "Concern" : "What is the sequence of interactions among the system and context elements on physical level?"
+  }, {
+    "Rationale" : "In my role, I use the viewpoint to understand the internal functional realization relevant to operation and operational interactions.",
+    "Concern" : "Which Conceptual Systems participate in interactions between the System of Interest and Context Elements?"
   }, {
     "Rationale" : "In my role, I need to check whether the system fits into the higher-level user concept.",
     "Concern" : "Which users does the system support? "
@@ -641,6 +689,12 @@
     "Rationale" : "In my role, I need to check whether the project order is implemented correctly.",
     "Concern" : "For what purpose is the system developed or adapted?"
   }, {
+    "Rationale" : "In my role, I use the viewpoint to understand the allocation and dependencies of functional responsibilities within the System of Interest.",
+    "Concern" : "How are the functional responsibilities allocated among the Conceptual Systems?"
+  }, {
+    "Rationale" : "In my role, I use the viewpoint to understand the allocation and dependencies of functional responsibilities within the System of Interest.",
+    "Concern" : "How is the functional behaviour of the System of Interest realized internally?"
+  }, {
     "Rationale" : "",
     "Concern" : "How to involve a Stakeholder and to what degree?"
   }, {
@@ -676,6 +730,9 @@
   }, {
     "Rationale" : "",
     "Concern" : "When do product functions or features become available?"
+  }, {
+    "Rationale" : "In my role, I use the viewpoint to understand the allocation and dependencies of functional responsibilities within the System of Interest.",
+    "Concern" : "Which Conceptual Systems are involved in the realization of the functional behaviour?"
   }, {
     "Rationale" : "In my role, I need to give feedback on existing or missing stakeholders.",
     "Concern" : "Which Stakeholders are relevant to the system and might impose requirements?"
@@ -912,6 +969,9 @@
     "Rationale" : "",
     "Concern" : "How are safety features verified?"
   }, {
+    "Rationale" : "In my role, I assess the internal functional realization and interactions relevant to safety-related functions and behaviour.",
+    "Concern" : "How do the Conceptual Systems collaborate to realize the functional behaviour of the System of Interest?"
+  }, {
     "Rationale" : "In my role, I use them as basis for understanding interfaces on logical level.",
     "Concern" : "How do the conceptual system elements interact to provide the system functions?"
   }, {
@@ -926,6 +986,9 @@
   }, {
     "Rationale" : "In my role, I need to check if proper safety measures are taken in the design.",
     "Concern" : "How is a safety critical function decomposed and allocated?"
+  }, {
+    "Rationale" : "In my role, I assess the internal functional realization and interactions relevant to safety-related functions and behaviour.",
+    "Concern" : "Is the internal functional realization consistent with the externally visible functional behaviour of the System of Interest?"
   }, {
     "Rationale" : "",
     "Concern" : "What additional information the system or a system element needs to generate to enable testing?"
@@ -1022,6 +1085,9 @@
     "Rationale" : "In my role, I need to assess if internal interfaces conform to security separation concepts.",
     "Concern" : "How do physical system elements interact to provide system functions?"
   }, {
+    "Rationale" : "In my role, I assess the internal functional realization and interactions relevant to security-related functions and behaviour.",
+    "Concern" : "How do the Conceptual Systems collaborate to realize the functional behaviour of the System of Interest?"
+  }, {
     "Rationale" : "In my role, I use them as basis for understanding interfaces on logical level.",
     "Concern" : "How do the conceptual system elements interact to provide the system functions?"
   }, {
@@ -1033,6 +1099,9 @@
   }, {
     "Rationale" : "",
     "Concern" : "How is the interface between different domains protected?"
+  }, {
+    "Rationale" : "In my role, I assess the internal functional realization and interactions relevant to security-related functions and behaviour.",
+    "Concern" : "Is the internal functional realization consistent with the externally visible functional behaviour of the System of Interest?"
   }, {
     "Rationale" : "",
     "Concern" : "What additional information the system or a system element needs to generate to enable testing?"
@@ -1153,8 +1222,14 @@
     "Rationale" : "",
     "Concern" : "How are error states handled?"
   }, {
+    "Rationale" : "In my role, I use the viewpoint to understand functional responsibilities and interactions relevant to software realization.",
+    "Concern" : "How are the functional responsibilities allocated among the Conceptual Systems?"
+  }, {
     "Rationale" : "In my role, I need to implement the interfaces in my SW subsystem, if necessary.",
     "Concern" : "How do physical system elements interact to provide system functions?"
+  }, {
+    "Rationale" : "In my role, I use the viewpoint to understand functional responsibilities and interactions relevant to software realization.",
+    "Concern" : "How do the Conceptual Systems collaborate to realize the functional behaviour of the System of Interest?"
   }, {
     "Rationale" : "",
     "Concern" : "What additional information the system or a system element needs to generate to enable testing?"
@@ -1203,6 +1278,12 @@
   }, {
     "Rationale" : "In my role, I need to implement the software-related aspects of the specified interaction behaviour.",
     "Concern" : "What sequences of exchanges occur between physical systems within the system boundary through physical connections?"
+  }, {
+    "Rationale" : "In my role, I use the viewpoint to understand functional responsibilities and interactions relevant to software realization.",
+    "Concern" : "Which Conceptual Systems are involved in the realization of the functional behaviour?"
+  }, {
+    "Rationale" : "In my role, I use the viewpoint to understand functional responsibilities and interactions relevant to software realization.",
+    "Concern" : "Which Conceptual Systems participate in interactions between the System of Interest and Context Elements?"
   }, {
     "Rationale" : "In my role, I need to implement the interfaces in my SW subsystem, if necessary.",
     "Concern" : "Which SW interfaces are necessary?"
@@ -1269,6 +1350,12 @@
   "ID" : "_19_0_2_ebf0350_1567282723132_468249_52793",
   "Documentation" : "Definition - Supplier:\nOrganization or an individual that enters into an agreement with the Acquirer for the supply of a product or service, [ISO/IEC 15288:2022 – Systems engineering - System life-cycle processes]\nThe Supplier is the organization or individual that enters into an agreement with the Acquirer to supply a product or service. Usually, the system architect and the developers for make-items are part of the supplier’s organization. Other terms commonly used for Supplier are contractor, producer, seller or vendor.",
   "Rationales" : [ {
+    "Rationale" : "In my role, I use the viewpoint to understand allocated functional responsibilities and interactions relevant to supplied system elements.",
+    "Concern" : "How are the functional responsibilities allocated among the Conceptual Systems?"
+  }, {
+    "Rationale" : "In my role, I use the viewpoint to understand allocated functional responsibilities and interactions relevant to supplied system elements.",
+    "Concern" : "How do the Conceptual Systems collaborate to realize the functional behaviour of the System of Interest?"
+  }, {
     "Rationale" : "",
     "Concern" : "What are necessary enabling systems?"
   }, {
@@ -1292,6 +1379,12 @@
   }, {
     "Rationale" : "",
     "Concern" : "Where and what are the geographical and physical locations of the intended or proposed elements of the solution?"
+  }, {
+    "Rationale" : "In my role, I use the viewpoint to understand allocated functional responsibilities and interactions relevant to supplied system elements.",
+    "Concern" : "Which Conceptual Systems are involved in the realization of the functional behaviour?"
+  }, {
+    "Rationale" : "In my role, I use the viewpoint to understand allocated functional responsibilities and interactions relevant to supplied system elements.",
+    "Concern" : "Which Conceptual Systems participate in interactions between the System of Interest and Context Elements?"
   }, {
     "Rationale" : "",
     "Concern" : "Which are the external physical entities the system interacts with in the given context?"
@@ -1319,8 +1412,14 @@
     "Rationale" : "",
     "Concern" : "How are error states handled?"
   }, {
+    "Rationale" : "In my role, I define and assess the internal functional realization and collaboration of the Conceptual Systems constituting the System of Interest.",
+    "Concern" : "How are the functional responsibilities allocated among the Conceptual Systems?"
+  }, {
     "Rationale" : "In my role, I need to orchestrate interface agreements between the system internal interface partners.",
     "Concern" : "How do physical system elements interact to provide system functions?"
+  }, {
+    "Rationale" : "In my role, I define and assess the internal functional realization and collaboration of the Conceptual Systems constituting the System of Interest.",
+    "Concern" : "How do the Conceptual Systems collaborate to realize the functional behaviour of the System of Interest?"
   }, {
     "Rationale" : "In my role, I need to coordinate internal interfaces with internal subsystem partners.",
     "Concern" : "How do the conceptual system elements interact to provide the system functions?"
@@ -1343,6 +1442,9 @@
     "Rationale" : "In my role, I want to make sure that the architecture partitioning fulfills safety needs.",
     "Concern" : "How is a safety critical function decomposed and allocated?"
   }, {
+    "Rationale" : "In my role, I define and assess the internal functional realization and collaboration of the Conceptual Systems constituting the System of Interest.",
+    "Concern" : "How is the functional behaviour of the System of Interest realized internally?"
+  }, {
     "Rationale" : "In my role, I need to pass on the resulting System Requirements to the subsystems.",
     "Concern" : "How is the system being used or utilized and interacting with other external systems to satisfy user needs?"
   }, {
@@ -1351,6 +1453,9 @@
   }, {
     "Rationale" : "In my role, I need to give feedback on existing or missing stakeholders.",
     "Concern" : "In which phases of the life cycle is a Stakeholder involved in the project?"
+  }, {
+    "Rationale" : "In my role, I define and assess the internal functional realization and collaboration of the Conceptual Systems constituting the System of Interest.",
+    "Concern" : "Is the internal functional realization consistent with the externally visible functional behaviour of the System of Interest?"
   }, {
     "Rationale" : "",
     "Concern" : "Show in a concise manner the relationships from operational capability to operational story, to operational activity, and to operational performer."
@@ -1486,6 +1591,12 @@
   }, {
     "Rationale" : "",
     "Concern" : "Where and what are the geographical and physical locations of the intended or proposed elements of the solution?"
+  }, {
+    "Rationale" : "In my role, I define and assess the internal functional realization and collaboration of the Conceptual Systems constituting the System of Interest.",
+    "Concern" : "Which Conceptual Systems are involved in the realization of the functional behaviour?"
+  }, {
+    "Rationale" : "In my role, I define and assess the internal functional realization and collaboration of the Conceptual Systems constituting the System of Interest.",
+    "Concern" : "Which Conceptual Systems participate in interactions between the System of Interest and Context Elements?"
   }, {
     "Rationale" : "",
     "Concern" : "Which HW interfaces are necessary?"
@@ -1639,8 +1750,14 @@
     "Rationale" : "",
     "Concern" : "How does a system function interact with its environment?"
   }, {
+    "Rationale" : "In my role, I use the viewpoint to understand the internal realization of functions relevant to intended system use.",
+    "Concern" : "How is the functional behaviour of the System of Interest realized internally?"
+  }, {
     "Rationale" : "In my role, I need to check whether intended solution satisfies my user needs.",
     "Concern" : "How is the system being used or utilized and interacting with other external systems to satisfy user needs?"
+  }, {
+    "Rationale" : "In my role, I use the viewpoint to understand the internal realization of functions relevant to intended system use.",
+    "Concern" : "Is the internal functional realization consistent with the externally visible functional behaviour of the System of Interest?"
   }, {
     "Rationale" : "",
     "Concern" : "What are necessary inputs for operating the system expected to be provided by other external entitys?"
@@ -1653,6 +1770,9 @@
   }, {
     "Rationale" : "In my role, I need to check whether the sequence of physical context interactions satisfies my user needs.",
     "Concern" : "What is the sequence of interactions among the system and context elements on physical level?"
+  }, {
+    "Rationale" : "In my role, I use the viewpoint to understand the internal realization of functions relevant to intended system use.",
+    "Concern" : "Which Conceptual Systems participate in interactions between the System of Interest and Context Elements?"
   }, {
     "Rationale" : "In my role, I need to check whether the system fits into the higher-level user concept.",
     "Concern" : "Which users does the system support? "

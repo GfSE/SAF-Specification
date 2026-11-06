@@ -319,9 +319,6 @@
     "ID" : "_19_0_4_26f0132_1624610806163_247313_817",
     "Name" : "refining"
   }, {
-    "ID" : "_19_0_4_26f0132_1624611043495_845903_880",
-    "Name" : "System Partial Function"
-  }, {
     "ID" : "_19_0_4_26f0132_1624611972707_746294_1003",
     "Name" : "Context Function"
   }, {
@@ -356,7 +353,7 @@
     "Name" : "related to"
   }, {
     "ID" : "_2024x_8710274_1716826749795_177784_16590",
-    "Name" : "System Partial Function in System Function"
+    "Name" : "System Function in System Function"
   } ]
 }, {
   "ID" : "_19_0_2_26f0132_1562303526333_701268_92004",
@@ -835,7 +832,7 @@
     "Name" : "Conceptual SOI Role"
   }, {
     "ID" : "_19_0_4_26f0132_1624611043495_845903_880",
-    "Name" : "System Partial Function"
+    "Name" : "System Partial Function_deprecated"
   }, {
     "ID" : "_19_0_4_26f0132_1624611972707_746294_1003",
     "Name" : "Context Function"
@@ -1210,11 +1207,6 @@
     "ID" : "_2021x_2_8710274_1675981331374_205908_29130",
     "Name" : "System Function in System Process"
   } ]
-}, {
-  "ID" : "_19_0_3_6d8019d_1611088881975_654543_7",
-  "Documentation" : "",
-  "Name" : "SAF_safety_concept_Definition",
-  "DiagConcepts" : [ ]
 }, {
   "ID" : "_19_0_3_8710274_1581665834898_520724_48775",
   "Documentation" : "Describes the relationships between operational capabilities and to other related concepts.",
@@ -1905,7 +1897,7 @@
     "Name" : "containing"
   }, {
     "ID" : "_19_0_4_26f0132_1624611043495_845903_880",
-    "Name" : "System Partial Function"
+    "Name" : "System Partial Function_deprecated"
   }, {
     "ID" : "_19_0_4_26f0132_1624611972707_746294_1003",
     "Name" : "Context Function"
@@ -1976,11 +1968,6 @@
     "ID" : "_2021x_2_8710274_1698680465664_931289_40252",
     "Name" : "having"
   } ]
-}, {
-  "ID" : "_2021x_2_6d8019d_1701080157136_976247_25019",
-  "Documentation" : "",
-  "Name" : "SAF_security_concept_Definition",
-  "DiagConcepts" : [ ]
 }, {
   "ID" : "_2021x_2_8710274_1681801250811_140159_24329",
   "Documentation" : "Overview about the relationships between interface related concepts used in the SAF Functional/Logical Domain and the SAF Physical Domain",
@@ -2650,7 +2637,7 @@
     "Name" : "System Process"
   }, {
     "ID" : "_19_0_4_26f0132_1624611043495_845903_880",
-    "Name" : "System Partial Function"
+    "Name" : "System Partial Function_deprecated"
   }, {
     "ID" : "_19_0_4_26f0132_1624611972707_746294_1003",
     "Name" : "Context Function"
@@ -2665,7 +2652,7 @@
     "Name" : "Context Function in System Process"
   }, {
     "ID" : "_2024x_8710274_1716826749795_177784_16590",
-    "Name" : "System Partial Function in System Function"
+    "Name" : "System Function in System Function"
   } ]
 }, {
   "ID" : "_2024x_3_ea40342_1760280983343_954755_218",
@@ -3537,7 +3524,7 @@
     "Name" : "beeing in"
   }, {
     "ID" : "_19_0_4_26f0132_1624611043495_845903_880",
-    "Name" : "System Partial Function"
+    "Name" : "System Partial Function_deprecated"
   }, {
     "ID" : "_19_0_4_26f0132_1624614161928_694281_1954",
     "Name" : "General Function"

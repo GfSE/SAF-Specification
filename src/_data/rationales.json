@@ -6154,4 +6154,484 @@
     "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
     "Name" : "Hardware Developer"
   }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1793916072242_515181_217",
+  "Documentation" : "In my role, I assess whether the internal functional realization supports the required system capabilities and architectural objectives.",
+  "Concern" : {
+    "ID" : "_2026x_26f0132_1793915638702_88454_203",
+    "Name" : "How is the functional behaviour of the System of Interest realized internally?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
+    "Name" : "Acquirer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1793916072336_217689_218",
+  "Documentation" : "In my role, I assess whether the internal functional realization is consistent with the intended system behaviour and architectural expectations.",
+  "Concern" : {
+    "ID" : "_2026x_26f0132_1793915638702_88454_203",
+    "Name" : "How is the functional behaviour of the System of Interest realized internally?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653236737_36605_43554",
+    "Name" : "Customer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1793916072446_290494_219",
+  "Documentation" : "In my role, I assess the consistency between the internal functional realization and the externally visible functional behaviour of the System of Interest.",
+  "Concern" : {
+    "ID" : "_2026x_26f0132_1793915638702_88454_203",
+    "Name" : "How is the functional behaviour of the System of Interest realized internally?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_525021_92401",
+    "Name" : "IV&V Engineer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1793916072564_993330_220",
+  "Documentation" : "In my role, I use the viewpoint to understand the allocation and dependencies of functional responsibilities within the System of Interest.",
+  "Concern" : {
+    "ID" : "_2026x_26f0132_1793915638702_88454_203",
+    "Name" : "How is the functional behaviour of the System of Interest realized internally?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567281039295_665940_53199",
+    "Name" : "Project Manager"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1793916072669_952842_221",
+  "Documentation" : "In my role, I define and assess the internal functional realization and collaboration of the Conceptual Systems constituting the System of Interest.",
+  "Concern" : {
+    "ID" : "_2026x_26f0132_1793915638702_88454_203",
+    "Name" : "How is the functional behaviour of the System of Interest realized internally?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1793916072780_6060_222",
+  "Documentation" : "In my role, I use the viewpoint to understand the internal realization of functions relevant to intended system use.",
+  "Concern" : {
+    "ID" : "_2026x_26f0132_1793915638702_88454_203",
+    "Name" : "How is the functional behaviour of the System of Interest realized internally?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280920665_435327_53193",
+    "Name" : "User"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1793916072883_995949_223",
+  "Documentation" : "In my role, I use the viewpoint to understand functional responsibilities and interactions relevant to hardware realization.",
+  "Concern" : {
+    "ID" : "_2026x_26f0132_1793915638819_522349_205",
+    "Name" : "Which Conceptual Systems are involved in the realization of the functional behaviour?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
+    "Name" : "Hardware Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1793916073001_486641_224",
+  "Documentation" : "In my role, I assess the consistency between the internal functional realization and the externally visible functional behaviour of the System of Interest.",
+  "Concern" : {
+    "ID" : "_2026x_26f0132_1793915638819_522349_205",
+    "Name" : "Which Conceptual Systems are involved in the realization of the functional behaviour?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_525021_92401",
+    "Name" : "IV&V Engineer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1793916073108_197669_225",
+  "Documentation" : "In my role, I use the viewpoint to understand the allocation and dependencies of functional responsibilities within the System of Interest.",
+  "Concern" : {
+    "ID" : "_2026x_26f0132_1793915638819_522349_205",
+    "Name" : "Which Conceptual Systems are involved in the realization of the functional behaviour?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567281039295_665940_53199",
+    "Name" : "Project Manager"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1793916073212_34828_226",
+  "Documentation" : "In my role, I use the viewpoint to understand functional responsibilities and interactions relevant to software realization.",
+  "Concern" : {
+    "ID" : "_2026x_26f0132_1793915638819_522349_205",
+    "Name" : "Which Conceptual Systems are involved in the realization of the functional behaviour?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
+    "Name" : "Software Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1793916104861_597461_227",
+  "Documentation" : "In my role, I use the viewpoint to understand allocated functional responsibilities and interactions relevant to supplied system elements.",
+  "Concern" : {
+    "ID" : "_2026x_26f0132_1793915638819_522349_205",
+    "Name" : "Which Conceptual Systems are involved in the realization of the functional behaviour?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567282723132_468249_52793",
+    "Name" : "Supplier"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1793916105102_571553_228",
+  "Documentation" : "In my role, I define and assess the internal functional realization and collaboration of the Conceptual Systems constituting the System of Interest.",
+  "Concern" : {
+    "ID" : "_2026x_26f0132_1793915638819_522349_205",
+    "Name" : "Which Conceptual Systems are involved in the realization of the functional behaviour?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1793916105431_332926_229",
+  "Documentation" : "In my role, I use the viewpoint to understand functional responsibilities and interactions relevant to hardware realization.",
+  "Concern" : {
+    "ID" : "_2026x_26f0132_1793915638949_382112_207",
+    "Name" : "How do the Conceptual Systems collaborate to realize the functional behaviour of the System of Interest?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
+    "Name" : "Hardware Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1793916105650_937393_230",
+  "Documentation" : "In my role, I assess the consistency between the internal functional realization and the externally visible functional behaviour of the System of Interest.",
+  "Concern" : {
+    "ID" : "_2026x_26f0132_1793915638949_382112_207",
+    "Name" : "How do the Conceptual Systems collaborate to realize the functional behaviour of the System of Interest?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_525021_92401",
+    "Name" : "IV&V Engineer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1793916105884_73277_231",
+  "Documentation" : "In my role, I use the viewpoint to understand the internal functional realization relevant to operation and operational interactions.",
+  "Concern" : {
+    "ID" : "_2026x_26f0132_1793915638949_382112_207",
+    "Name" : "How do the Conceptual Systems collaborate to realize the functional behaviour of the System of Interest?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653238260_245225_43556",
+    "Name" : "Operator"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1793916105980_673083_232",
+  "Documentation" : "In my role, I assess the internal functional realization and interactions relevant to safety-related functions and behaviour.",
+  "Concern" : {
+    "ID" : "_2026x_26f0132_1793915638949_382112_207",
+    "Name" : "How do the Conceptual Systems collaborate to realize the functional behaviour of the System of Interest?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_410133_92403",
+    "Name" : "Safety Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1793916106186_10636_233",
+  "Documentation" : "In my role, I assess the internal functional realization and interactions relevant to security-related functions and behaviour.",
+  "Concern" : {
+    "ID" : "_2026x_26f0132_1793915638949_382112_207",
+    "Name" : "How do the Conceptual Systems collaborate to realize the functional behaviour of the System of Interest?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
+    "Name" : "Security Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1793916106418_40071_234",
+  "Documentation" : "In my role, I use the viewpoint to understand functional responsibilities and interactions relevant to software realization.",
+  "Concern" : {
+    "ID" : "_2026x_26f0132_1793915638949_382112_207",
+    "Name" : "How do the Conceptual Systems collaborate to realize the functional behaviour of the System of Interest?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
+    "Name" : "Software Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1793916106655_906756_235",
+  "Documentation" : "In my role, I use the viewpoint to understand allocated functional responsibilities and interactions relevant to supplied system elements.",
+  "Concern" : {
+    "ID" : "_2026x_26f0132_1793915638949_382112_207",
+    "Name" : "How do the Conceptual Systems collaborate to realize the functional behaviour of the System of Interest?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567282723132_468249_52793",
+    "Name" : "Supplier"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1793916106916_901530_236",
+  "Documentation" : "In my role, I define and assess the internal functional realization and collaboration of the Conceptual Systems constituting the System of Interest.",
+  "Concern" : {
+    "ID" : "_2026x_26f0132_1793915638949_382112_207",
+    "Name" : "How do the Conceptual Systems collaborate to realize the functional behaviour of the System of Interest?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1793916137418_479431_237",
+  "Documentation" : "In my role, I use the viewpoint to understand functional responsibilities and interactions relevant to hardware realization.",
+  "Concern" : {
+    "ID" : "_2026x_26f0132_1793915639101_167654_209",
+    "Name" : "Which Conceptual Systems participate in interactions between the System of Interest and Context Elements?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
+    "Name" : "Hardware Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1793916137638_452813_238",
+  "Documentation" : "In my role, I use the viewpoint to understand the internal functional realization relevant to operation and operational interactions.",
+  "Concern" : {
+    "ID" : "_2026x_26f0132_1793915639101_167654_209",
+    "Name" : "Which Conceptual Systems participate in interactions between the System of Interest and Context Elements?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653238260_245225_43556",
+    "Name" : "Operator"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1793916137754_428985_239",
+  "Documentation" : "In my role, I use the viewpoint to understand functional responsibilities and interactions relevant to software realization.",
+  "Concern" : {
+    "ID" : "_2026x_26f0132_1793915639101_167654_209",
+    "Name" : "Which Conceptual Systems participate in interactions between the System of Interest and Context Elements?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
+    "Name" : "Software Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1793916137983_896187_240",
+  "Documentation" : "In my role, I use the viewpoint to understand allocated functional responsibilities and interactions relevant to supplied system elements.",
+  "Concern" : {
+    "ID" : "_2026x_26f0132_1793915639101_167654_209",
+    "Name" : "Which Conceptual Systems participate in interactions between the System of Interest and Context Elements?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567282723132_468249_52793",
+    "Name" : "Supplier"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1793916138211_369872_241",
+  "Documentation" : "In my role, I define and assess the internal functional realization and collaboration of the Conceptual Systems constituting the System of Interest.",
+  "Concern" : {
+    "ID" : "_2026x_26f0132_1793915639101_167654_209",
+    "Name" : "Which Conceptual Systems participate in interactions between the System of Interest and Context Elements?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1793916138467_315657_242",
+  "Documentation" : "In my role, I use the viewpoint to understand the internal realization of functions relevant to intended system use.",
+  "Concern" : {
+    "ID" : "_2026x_26f0132_1793915639101_167654_209",
+    "Name" : "Which Conceptual Systems participate in interactions between the System of Interest and Context Elements?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280920665_435327_53193",
+    "Name" : "User"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1793916138593_115835_243",
+  "Documentation" : "In my role, I assess whether the internal functional realization supports the required system capabilities and architectural objectives.",
+  "Concern" : {
+    "ID" : "_2026x_26f0132_1793915639167_452510_211",
+    "Name" : "How are the functional responsibilities allocated among the Conceptual Systems?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
+    "Name" : "Acquirer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1793916138720_959919_244",
+  "Documentation" : "In my role, I assess whether the internal functional realization is consistent with the intended system behaviour and architectural expectations.",
+  "Concern" : {
+    "ID" : "_2026x_26f0132_1793915639167_452510_211",
+    "Name" : "How are the functional responsibilities allocated among the Conceptual Systems?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653236737_36605_43554",
+    "Name" : "Customer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1793916138830_580149_245",
+  "Documentation" : "In my role, I use the viewpoint to understand functional responsibilities and interactions relevant to hardware realization.",
+  "Concern" : {
+    "ID" : "_2026x_26f0132_1793915639167_452510_211",
+    "Name" : "How are the functional responsibilities allocated among the Conceptual Systems?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
+    "Name" : "Hardware Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1793916139087_549530_246",
+  "Documentation" : "In my role, I use the viewpoint to understand the allocation and dependencies of functional responsibilities within the System of Interest.",
+  "Concern" : {
+    "ID" : "_2026x_26f0132_1793915639167_452510_211",
+    "Name" : "How are the functional responsibilities allocated among the Conceptual Systems?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567281039295_665940_53199",
+    "Name" : "Project Manager"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1793916163626_955417_247",
+  "Documentation" : "In my role, I use the viewpoint to understand functional responsibilities and interactions relevant to software realization.",
+  "Concern" : {
+    "ID" : "_2026x_26f0132_1793915639167_452510_211",
+    "Name" : "How are the functional responsibilities allocated among the Conceptual Systems?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
+    "Name" : "Software Developer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1793916186784_982261_248",
+  "Documentation" : "In my role, I use the viewpoint to understand allocated functional responsibilities and interactions relevant to supplied system elements.",
+  "Concern" : {
+    "ID" : "_2026x_26f0132_1793915639167_452510_211",
+    "Name" : "How are the functional responsibilities allocated among the Conceptual Systems?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567282723132_468249_52793",
+    "Name" : "Supplier"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1793916186974_875685_249",
+  "Documentation" : "In my role, I define and assess the internal functional realization and collaboration of the Conceptual Systems constituting the System of Interest.",
+  "Concern" : {
+    "ID" : "_2026x_26f0132_1793915639167_452510_211",
+    "Name" : "How are the functional responsibilities allocated among the Conceptual Systems?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1793916187180_989182_250",
+  "Documentation" : "In my role, I assess whether the internal functional realization supports the required system capabilities and architectural objectives.",
+  "Concern" : {
+    "ID" : "_2026x_26f0132_1793915639230_893213_213",
+    "Name" : "Is the internal functional realization consistent with the externally visible functional behaviour of the System of Interest?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280211417_154511_52831",
+    "Name" : "Acquirer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1793916187276_107529_251",
+  "Documentation" : "In my role, I assess whether the internal functional realization is consistent with the intended system behaviour and architectural expectations.",
+  "Concern" : {
+    "ID" : "_2026x_26f0132_1793915639230_893213_213",
+    "Name" : "Is the internal functional realization consistent with the externally visible functional behaviour of the System of Interest?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1554653236737_36605_43554",
+    "Name" : "Customer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1793916187372_125163_252",
+  "Documentation" : "In my role, I assess the consistency between the internal functional realization and the externally visible functional behaviour of the System of Interest.",
+  "Concern" : {
+    "ID" : "_2026x_26f0132_1793915639230_893213_213",
+    "Name" : "Is the internal functional realization consistent with the externally visible functional behaviour of the System of Interest?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_525021_92401",
+    "Name" : "IV&V Engineer"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1793916187605_839889_253",
+  "Documentation" : "In my role, I assess the internal functional realization and interactions relevant to safety-related functions and behaviour.",
+  "Concern" : {
+    "ID" : "_2026x_26f0132_1793915639230_893213_213",
+    "Name" : "Is the internal functional realization consistent with the externally visible functional behaviour of the System of Interest?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_26f0132_1562303526473_410133_92403",
+    "Name" : "Safety Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1793916187847_472673_254",
+  "Documentation" : "In my role, I assess the internal functional realization and interactions relevant to security-related functions and behaviour.",
+  "Concern" : {
+    "ID" : "_2026x_26f0132_1793915639230_893213_213",
+    "Name" : "Is the internal functional realization consistent with the externally visible functional behaviour of the System of Interest?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567337062655_160733_52757",
+    "Name" : "Security Expert"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1793916188072_721169_255",
+  "Documentation" : "In my role, I define and assess the internal functional realization and collaboration of the Conceptual Systems constituting the System of Interest.",
+  "Concern" : {
+    "ID" : "_2026x_26f0132_1793915639230_893213_213",
+    "Name" : "Is the internal functional realization consistent with the externally visible functional behaviour of the System of Interest?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
+    "Name" : "System Architect"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1793916188307_440246_256",
+  "Documentation" : "In my role, I use the viewpoint to understand the internal realization of functions relevant to intended system use.",
+  "Concern" : {
+    "ID" : "_2026x_26f0132_1793915639230_893213_213",
+    "Name" : "Is the internal functional realization consistent with the externally visible functional behaviour of the System of Interest?"
+  },
+  "Stakeholder" : {
+    "ID" : "_19_0_2_ebf0350_1567280920665_435327_53193",
+    "Name" : "User"
+  }
 } ]
