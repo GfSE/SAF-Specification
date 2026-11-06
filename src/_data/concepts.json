@@ -241,10 +241,7 @@
   "ClassType" : "Association",
   "IsGeneralFor" : [ ]
 }, {
-  "InViewpoint" : [ {
-    "ID" : "_2026x_26f0132_1793918191913_265921_386",
-    "Name" : "System Process White Box Viewpoint"
-  } ],
+  "InViewpoint" : [ ],
   "Documentation" : "Represents an abstract element in the given System Context on Conceptual Level, outside the SOI scope, interacting with the SOI.",
   "AssociationEnds" : [ ],
   "Name" : "Conceptual Context Element",
@@ -268,9 +265,6 @@
   }, {
     "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
     "Name" : "System Context Definition Viewpoint"
-  }, {
-    "ID" : "_2026x_26f0132_1793918191913_265921_386",
-    "Name" : "System Process White Box Viewpoint"
   } ],
   "Documentation" : "A Conceptual External System in the Conceptual Domain, outside the SOI scope, interacting with the SOI. E.g., power grid, mobile network, fresh water system (in a house).",
   "AssociationEnds" : [ ],
@@ -1704,9 +1698,6 @@
   }, {
     "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
     "Name" : "System Context Definition Viewpoint"
-  }, {
-    "ID" : "_2026x_26f0132_1793918191913_265921_386",
-    "Name" : "System Process White Box Viewpoint"
   } ],
   "Documentation" : "A Conceptual Environment in the Conceptual Domain, outside the SOI scope, interacting with the SOI. E.g., air, dirt, sun, road.",
   "AssociationEnds" : [ ],
@@ -2415,9 +2406,6 @@
   }, {
     "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
     "Name" : "System Context Definition Viewpoint"
-  }, {
-    "ID" : "_2026x_26f0132_1793918191913_265921_386",
-    "Name" : "System Process White Box Viewpoint"
   } ],
   "Documentation" : "The Conceptual User is the representation for a human in the Conceptual Domain, outside the SOI scope, interacting with the SOI.",
   "AssociationEnds" : [ ],
@@ -3353,9 +3341,6 @@
   }, {
     "ID" : "_2021x_2_6d8019d_1690628661558_769067_24257",
     "Name" : "System Capability Mapping Viewpoint"
-  }, {
-    "ID" : "_2026x_26f0132_1793918191913_265921_386",
-    "Name" : "System Process White Box Viewpoint"
   } ],
   "Documentation" : "Specifies the fact that a System Process captures system behavior as a specific sequence of actions or tasks, and system exchanges including information, materials, energy, etc.",
   "AssociationEnds" : [ ],
@@ -3403,9 +3388,6 @@
   }, {
     "ID" : "_19_0_4_26f0132_1629448496383_291730_10342",
     "Name" : "System Functional Breakdown Structure Viewpoint"
-  }, {
-    "ID" : "_2026x_26f0132_1793918191913_265921_386",
-    "Name" : "System Process White Box Viewpoint"
   } ],
   "Documentation" : "Specifies the fact that a fundamental action or task is expected to be carried out by an External Entity. \nNote: The intention is to capture the expectations and to explicitly dissect the functionality. This must not be interpreted as an attempt for a behavior specification of an External Entity. Capturing this valuable information is the basis to reach agreement on the functionality at the System boundary by clarifying the expectations about what is performed by Context Elements.",
   "AssociationEnds" : [ ],
@@ -6702,6 +6684,9 @@
   }, {
     "ID" : "_2021x_2_8710274_1676723256334_812178_26576",
     "Name" : "System Functional Refinement Viewpoint"
+  }, {
+    "ID" : "_2026x_26f0132_1793918191913_265921_386",
+    "Name" : "System Process White Box Viewpoint"
   } ],
   "Documentation" : "Specifies that a System Function is decomposed into a subordinate system functions",
   "AssociationEnds" : [ {
@@ -6918,6 +6903,23 @@
   "ID" : "_2026x_26f0132_1792700117129_367317_235",
   "InheritsFrom" : [ ],
   "ClassType" : "AssociationClass",
+  "IsGeneralFor" : [ ]
+}, {
+  "InViewpoint" : [ ],
+  "Documentation" : "",
+  "AssociationEnds" : [ {
+    "ID" : "_2024x_8710274_1716826749795_177784_16590",
+    "Name" : "System Function in System Function",
+    "Multiplicity" : "1"
+  }, {
+    "ID" : "_19_0_2_26f0132_1562303524176_981340_91082",
+    "Name" : "Conceptual Internal Role",
+    "Multiplicity" : "1"
+  } ],
+  "Name" : "",
+  "ID" : "_2026x_26f0132_1793978531155_596735_16034",
+  "InheritsFrom" : [ ],
+  "ClassType" : "Association",
   "IsGeneralFor" : [ ]
 }, {
   "InViewpoint" : [ ],

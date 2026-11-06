@@ -6400,7 +6400,7 @@
   "Documentation" : "In my role, I use the viewpoint to understand functional responsibilities and interactions relevant to hardware realization.",
   "Concern" : {
     "ID" : "_2026x_26f0132_1793915639101_167654_209",
-    "Name" : "Which Conceptual Systems participate in interactions between the System of Interest and Context Elements?"
+    "Name" : "Which Conceptual Systems participate in interactions between the System of Interest and the system boundary?"
   },
   "Stakeholder" : {
     "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
@@ -6412,7 +6412,7 @@
   "Documentation" : "In my role, I use the viewpoint to understand the internal functional realization relevant to operation and operational interactions.",
   "Concern" : {
     "ID" : "_2026x_26f0132_1793915639101_167654_209",
-    "Name" : "Which Conceptual Systems participate in interactions between the System of Interest and Context Elements?"
+    "Name" : "Which Conceptual Systems participate in interactions between the System of Interest and the system boundary?"
   },
   "Stakeholder" : {
     "ID" : "_19_0_2_ebf0350_1554653238260_245225_43556",
@@ -6424,7 +6424,7 @@
   "Documentation" : "In my role, I use the viewpoint to understand functional responsibilities and interactions relevant to software realization.",
   "Concern" : {
     "ID" : "_2026x_26f0132_1793915639101_167654_209",
-    "Name" : "Which Conceptual Systems participate in interactions between the System of Interest and Context Elements?"
+    "Name" : "Which Conceptual Systems participate in interactions between the System of Interest and the system boundary?"
   },
   "Stakeholder" : {
     "ID" : "_19_0_2_26f0132_1562303526473_98534_92400",
@@ -6436,7 +6436,7 @@
   "Documentation" : "In my role, I use the viewpoint to understand allocated functional responsibilities and interactions relevant to supplied system elements.",
   "Concern" : {
     "ID" : "_2026x_26f0132_1793915639101_167654_209",
-    "Name" : "Which Conceptual Systems participate in interactions between the System of Interest and Context Elements?"
+    "Name" : "Which Conceptual Systems participate in interactions between the System of Interest and the system boundary?"
   },
   "Stakeholder" : {
     "ID" : "_19_0_2_ebf0350_1567282723132_468249_52793",
@@ -6448,7 +6448,7 @@
   "Documentation" : "In my role, I define and assess the internal functional realization and collaboration of the Conceptual Systems constituting the System of Interest.",
   "Concern" : {
     "ID" : "_2026x_26f0132_1793915639101_167654_209",
-    "Name" : "Which Conceptual Systems participate in interactions between the System of Interest and Context Elements?"
+    "Name" : "Which Conceptual Systems participate in interactions between the System of Interest and the system boundary?"
   },
   "Stakeholder" : {
     "ID" : "_19_0_2_ebf0350_1555170687022_190510_43698",
@@ -6460,7 +6460,7 @@
   "Documentation" : "In my role, I use the viewpoint to understand the internal realization of functions relevant to intended system use.",
   "Concern" : {
     "ID" : "_2026x_26f0132_1793915639101_167654_209",
-    "Name" : "Which Conceptual Systems participate in interactions between the System of Interest and Context Elements?"
+    "Name" : "Which Conceptual Systems participate in interactions between the System of Interest and the system boundary?"
   },
   "Stakeholder" : {
     "ID" : "_19_0_2_ebf0350_1567280920665_435327_53193",

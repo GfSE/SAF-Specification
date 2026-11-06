@@ -5004,35 +5004,11 @@
   }
 }, {
   "Name" : "",
-  "ID" : "_2026x_26f0132_1793919217071_256188_525",
-  "Documentation" : "",
-  "ExposedConcept" : {
-    "ID" : "_19_0_4_26f0132_1624610613457_313794_115",
-    "Name" : "System Process"
-  },
-  "Viewpoint" : {
-    "ID" : "_2026x_26f0132_1793918191913_265921_386",
-    "Name" : "System Process White Box Viewpoint"
-  }
-}, {
-  "Name" : "",
   "ID" : "_2026x_26f0132_1793919217147_806679_526",
   "Documentation" : "",
   "ExposedConcept" : {
     "ID" : "_19_0_2_26f0132_1562303524176_845719_91080",
     "Name" : "Conceptual System"
-  },
-  "Viewpoint" : {
-    "ID" : "_2026x_26f0132_1793918191913_265921_386",
-    "Name" : "System Process White Box Viewpoint"
-  }
-}, {
-  "Name" : "",
-  "ID" : "_2026x_26f0132_1793919217225_765966_527",
-  "Documentation" : "",
-  "ExposedConcept" : {
-    "ID" : "_19_0_2_26f0132_1558075062569_130489_44874",
-    "Name" : "Conceptual External System"
   },
   "Viewpoint" : {
     "ID" : "_2026x_26f0132_1793918191913_265921_386",
@@ -5088,18 +5064,6 @@
   }
 }, {
   "Name" : "",
-  "ID" : "_2026x_26f0132_1793919217609_759700_532",
-  "Documentation" : "",
-  "ExposedConcept" : {
-    "ID" : "_19_0_4_26f0132_1624611972707_746294_1003",
-    "Name" : "Context Function"
-  },
-  "Viewpoint" : {
-    "ID" : "_2026x_26f0132_1793918191913_265921_386",
-    "Name" : "System Process White Box Viewpoint"
-  }
-}, {
-  "Name" : "",
   "ID" : "_2026x_26f0132_1793919217685_631881_533",
   "Documentation" : "",
   "ExposedConcept" : {
@@ -5112,35 +5076,11 @@
   }
 }, {
   "Name" : "",
-  "ID" : "_2026x_26f0132_1793919217761_825260_534",
+  "ID" : "_2026x_26f0132_1793978253906_628256_15925",
   "Documentation" : "",
   "ExposedConcept" : {
-    "ID" : "_19_0_2_26f0132_1558075029411_79067_44836",
-    "Name" : "Conceptual Context Element"
-  },
-  "Viewpoint" : {
-    "ID" : "_2026x_26f0132_1793918191913_265921_386",
-    "Name" : "System Process White Box Viewpoint"
-  }
-}, {
-  "Name" : "",
-  "ID" : "_2026x_26f0132_1793919217839_769930_535",
-  "Documentation" : "",
-  "ExposedConcept" : {
-    "ID" : "_19_0_2_26f0132_1562303989622_501728_139950",
-    "Name" : "Conceptual Environment"
-  },
-  "Viewpoint" : {
-    "ID" : "_2026x_26f0132_1793918191913_265921_386",
-    "Name" : "System Process White Box Viewpoint"
-  }
-}, {
-  "Name" : "",
-  "ID" : "_2026x_26f0132_1793919217919_73826_536",
-  "Documentation" : "",
-  "ExposedConcept" : {
-    "ID" : "_19_0_2_8710274_1558534130432_293473_45375",
-    "Name" : "Conceptual User"
+    "ID" : "_2024x_8710274_1716826749795_177784_16590",
+    "Name" : "System Function in System Function"
   },
   "Viewpoint" : {
     "ID" : "_2026x_26f0132_1793918191913_265921_386",

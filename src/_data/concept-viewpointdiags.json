@@ -2065,12 +2065,6 @@
 }, {
   "Name" : "System Process White Box Concept",
   "DiagConcepts" : [ {
-    "ID" : "_19_0_2_26f0132_1558075029411_79067_44836",
-    "Name" : "Conceptual Context Element"
-  }, {
-    "ID" : "_19_0_2_26f0132_1558075062569_130489_44874",
-    "Name" : "Conceptual External System"
-  }, {
     "ID" : "_19_0_2_26f0132_1562303524161_367314_91006",
     "Name" : "allocated  to"
   }, {
@@ -2083,32 +2077,14 @@
     "ID" : "_19_0_2_26f0132_1562303524176_981340_91082",
     "Name" : "Conceptual Internal Role"
   }, {
-    "ID" : "_19_0_2_26f0132_1562303989622_501728_139950",
-    "Name" : "Conceptual Environment"
-  }, {
-    "ID" : "_19_0_2_8710274_1558534130432_293473_45375",
-    "Name" : "Conceptual User"
-  }, {
     "ID" : "_19_0_2_8710274_1567168520242_378357_56193",
     "Name" : "General Functional Exchange"
   }, {
-    "ID" : "_19_0_4_26f0132_1624610613457_313794_115",
-    "Name" : "System Process"
-  }, {
-    "ID" : "_19_0_4_26f0132_1624611972707_746294_1003",
-    "Name" : "Context Function"
-  }, {
-    "ID" : "_19_0_4_6d8019d_1654685045905_147820_659",
-    "Name" : "allocated to"
-  }, {
-    "ID" : "_2021x_2_8710274_1675981331374_205908_29130",
-    "Name" : "System Function in System Process"
-  }, {
-    "ID" : "_2021x_2_8710274_1675981347806_599070_29437",
-    "Name" : "Context Function in System Process"
-  }, {
     "ID" : "_2024x_8710274_1716826749795_177784_16590",
     "Name" : "System Function in System Function"
+  }, {
+    "ID" : "_2026x_26f0132_1793978531155_596735_16034",
+    "Name" : ""
   } ],
   "Documentation" : "",
   "VP_ID" : "_2026x_26f0132_1793918191913_265921_386",
