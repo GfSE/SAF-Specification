@@ -961,7 +961,7 @@
 }, {
   "Name" : "SAF_P8_PFUM_Matrix",
   "ID" : "_2021x_2_6d8019d_1677946801652_589028_24613",
-  "Documentation" : "<html>Implementation of <A HREF='https://saf.gfse.org/userdoc/Physical Domain/Physical Functional Mapping Viewpoint'>Physical Functional Mapping Viewpoint</A><BR>Purpose:<BR>The Physical Functional Mapping Viewpoint supports the analysis of the assigment of system functions and system partial functions to physical system elements. The result shall be computed from the assigment of functions to logial system elements and the assignment of logical system elements to physical system elements<BR>Presentation:<BR>A FBS_to_PBS mapping matrix featuring\n* Functional Breakdown Structure (FBS)\n* Physical Breakdown Structure (PBS)\n* mapping (it is a derived relationship) from system functions and system partial functions to physical SOI elements</html>",
+  "Documentation" : "<html>Implementation of <A HREF='https://saf.gfse.org/userdoc/Physical Domain/Physical Functional Mapping Viewpoint'>Physical Functional Mapping Viewpoint</A><BR>Purpose:<BR>The Physical Functional Mapping Viewpoint supports the analysis of the assigment of system functions and subordinate functions functions to physical system elements. The result shall be computed from the assigment of functions to logial system elements and the assignment of logical system elements to physical system elements<BR>Presentation:<BR>A FBS_to_PBS mapping matrix featuring\n* Functional Breakdown Structure (FBS)\n* Physical Breakdown Structure (PBS)\n* mapping (it is a derived relationship) from system functions and system partial functions to physical SOI elements</html>",
   "MetaClass" : [ "Diagram" ],
   "General" : [ "DependencyMatrix", "SAF_Diagram", "InvisibleStereotype" ]
 }, {

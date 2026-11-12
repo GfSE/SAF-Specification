@@ -354,7 +354,7 @@
   "Presentation" : [ "A block definition diagram (BDD) featuring states, and state transitions. Note: References to model elements that are dependent of states, or transitions shall be shown as callout, or compartment notation." ],
   "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_ebf0350_1554653236737_36605_43554", "_2021x_2_8710274_1674680055517_468796_22923", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "Concern" : [ "_2024x_2_26f0132_1751005177169_420757_1216", "_2024x_2_26f0132_1751005074373_263380_1200", "_2024x_2_26f0132_1751632678372_112390_48" ],
-  "RecommendedVP" : [ "_19_0_4_6d8019d_1618589543897_213858_307", "_19_0_2_26f0132_1562303526536_778418_92552", "_19_0_2_8710274_1567167552896_772779_54664" ],
+  "RecommendedVP" : [ "_19_0_2_26f0132_1567778254489_369345_55863", "_19_0_2_26f0132_1576232878029_619084_56885", "_19_0_3_8710274_1581675958756_500127_50979" ],
   "RequiredVP" : [ ],
   "Exposure" : "NotApplicable",
   "VP_ID" : "O3_OSTA"
@@ -437,7 +437,7 @@
   "Name" : "Physical Functional Mapping Viewpoint",
   "ID" : "_2021x_2_8710274_1675987942868_617787_33116",
   "Maturity" : "released",
-  "Purpose" : "The Physical Functional Mapping Viewpoint supports the analysis of the assigment of system functions and system partial functions to physical system elements. The result shall be computed from the assigment of functions to logial system elements and the assignment of logical system elements to physical system elements",
+  "Purpose" : "The Physical Functional Mapping Viewpoint supports the analysis of the assigment of system functions and subordinate functions functions to physical system elements. The result shall be computed from the assigment of functions to logial system elements and the assignment of logical system elements to physical system elements",
   "Applicability" : "The Physical Functional Mapping Viewpoint supports the “Design Definition Process” activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.5] and contributes to the artifact \"Traceability Mapping\".\n\nFurthermore, the Physical Functional Mapping Viewpoint supports the \"Allocation and Partitioning of Functional Entities to Physical Entities\" activities.",
   "Aspect" : "Traceability & Mapping",
   "Domain" : "Physical",
@@ -489,8 +489,8 @@
   "Presentation" : [ "The P4_PITI Physical Internal Interaction Viewpoint is presented as a sequence diagram showing exchanges between physical systems within the system boundary through physical connections.\n\nThe sequence may represent ordering, timing, duration, periodicity, synchronization and temporal constraints of exchanges." ],
   "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_26f0132_1562303526473_525021_92401", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "Concern" : [ "_2026x_26f0132_1792700702858_379463_371" ],
-  "RecommendedVP" : [ ],
-  "RequiredVP" : [ "_19_0_3_ebf0350_1580652072992_42812_53692", "_2021x_2_8710274_1674680950433_310726_23659" ],
+  "RecommendedVP" : [ "_2021x_2_8710274_1674680950433_310726_23659" ],
+  "RequiredVP" : [ "_19_0_3_ebf0350_1580652072992_42812_53692" ],
   "Exposure" : "WhiteBox",
   "VP_ID" : "P4_PITI"
 }, {
@@ -579,7 +579,7 @@
   "Presentation" : [ "A tabular format lisiting\n* unique requirement ID, text, and attributes,\n* traceability reference to justifying model artefacts, e.g. operational stories, operational capabilities, identified concerns of stakeholders, and compliance statements\nNote: Stakeholder Requirements are to be structured in a way that the Stakeholder behind the Requirement is identifiable. When appropriate, the relationships between identified Stakeholder Requirements are and the justifying model artefacts, Operational Story, Operational Capability, Operational Performer, Operational Process, and Operational Exchange are presented.\n* \"One Requirement Package for each Stakeholder\" is a best-practice modeling rule. A package contains the Requirements specific for one Stakeholder.\n* Even if different Stakeholders may have intersecting interests and / or concerns resulting in a similar set of Requirements, each Stakeholder shall have its own set managed in a dedicated Requirement Package. Requirements must not be shared due to their different life cycles. Resolving duplications and conflicts is subject of the requirement analysis resulting in an agreed and consolidated set of System Requirements." ],
   "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_ebf0350_1554653236737_36605_43554", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "Concern" : [ "_2021x_2_8710274_1674576758810_143872_23303", "_2021x_2_8710274_1674576758798_122991_23285", "_2021x_2_8710274_1674576758774_361095_23253", "_2021x_2_8710274_1674576758818_166273_23310", "_2021x_2_8710274_1674576759042_480392_23467", "_2021x_2_8710274_1674576758902_700830_23378" ],
-  "RecommendedVP" : [ "_19_0_2_26f0132_1561750369203_901730_48359", "_19_0_2_26f0132_1576232878029_619084_56885", "_19_0_3_8710274_1581675970682_325249_52535", "_19_0_3_8710274_1581675958756_500127_50979", "_19_0_2_26f0132_1561752880161_57347_50198", "_19_0_3_6d8019d_1603027079337_312898_286", "_19_0_3_26f0132_1601459636216_111430_6921" ],
+  "RecommendedVP" : [ "_19_0_2_26f0132_1561750369203_901730_48359", "_19_0_2_26f0132_1576232878029_619084_56885", "_19_0_3_8710274_1581675970682_325249_52535", "_19_0_3_8710274_1581675958756_500127_50979", "_19_0_2_26f0132_1561752880161_57347_50198", "_19_0_3_6d8019d_1603027079337_312898_286", "_19_0_3_26f0132_1601459636216_111430_6921", "_19_0_2_26f0132_1565093441772_890565_49326" ],
   "RequiredVP" : [ "_19_0_2_26f0132_1565093441772_881981_49327" ],
   "Exposure" : "NotApplicable",
   "VP_ID" : "O6_SKRD"
@@ -594,7 +594,7 @@
   "Presentation" : [ "A block definition diagram (BDD) featuring System Capabilities, their composition, specialization, and dependency relationships.\nNote: The relationship to operational capabilities shall be shown if applicable.", "A tabular format listing System Capabilities, their composition, specialisation, and dependency relationships, as well as relations to operational capabilities." ],
   "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_ebf0350_1567282723132_468249_52793", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "Concern" : [ "_2021x_2_8710274_1674576759126_506455_23537" ],
-  "RecommendedVP" : [ "_19_0_3_8710274_1581675970682_325249_52535", "_19_0_1_26f0132_1554446728606_740631_45702", "_19_0_2_8710274_1567167552896_772779_54664" ],
+  "RecommendedVP" : [ "_19_0_3_8710274_1581675970682_325249_52535", "_19_0_1_26f0132_1554446728606_740631_45702" ],
   "RequiredVP" : [ ],
   "Exposure" : "BlackBox",
   "VP_ID" : "C2_SCYD"
@@ -678,14 +678,14 @@
   "ID" : "_19_0_2_26f0132_1575539296547_649713_56759",
   "Maturity" : "released",
   "Purpose" : "The System Function Mapping Viewpoint supports the definition of assignment of system functions (and their sub functions) to conceptual system elements.",
-  "Applicability" : "The Systtem Function Mapping Viewpoint supports the “System Architecture Definition Process” activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.4] and contributes to the artifact \"Traceability Mapping\".\n\nFurthermore, the System Function Mapping Viewpoint supports the \"Allocation and Partitioning of Functional Entities to Logical Entities\" activities.",
+  "Applicability" : "The System Function Mapping Viewpoint supports the “System Architecture Definition Process” activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.4] and contributes to the artifact \"Traceability Mapping\".\n\nFurthermore, the System Function Mapping Viewpoint supports the \"Allocation and Partitioning of Functional Entities to Logical Entities\" activities.",
   "Aspect" : "Traceability & Mapping",
   "Domain" : "Conceptual",
   "Presentation" : [ "A FBS to CBS mapping matrix featuring\n* Functional Breakdown Structure (FBS)\n* Conceptual Breakdown Structure (CBS)\n* Allocation from system functions and system partial functions to conceptual system elements" ],
   "Stakeholders" : [ "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "Concern" : [ "_2021x_2_8710274_1674576759104_328839_23526" ],
-  "RecommendedVP" : [ "_19_0_4_26f0132_1629448496383_291730_10342" ],
-  "RequiredVP" : [ "_19_0_2_8710274_1567167552896_772779_54664", "_2021x_2_8710274_1676723256334_812178_26576", "_19_0_2_26f0132_1562303526536_284838_92559" ],
+  "RecommendedVP" : [ "_19_0_4_26f0132_1629448496383_291730_10342", "_2021x_2_8710274_1676723256334_812178_26576" ],
+  "RequiredVP" : [ "_19_0_2_8710274_1567167552896_772779_54664", "_19_0_2_26f0132_1562303526536_284838_92559" ],
   "Exposure" : "WhiteBox",
   "VP_ID" : "C8_SFUM"
 }, {
@@ -774,7 +774,7 @@
   "Presentation" : [ "An activity diagram featuring the ordered execution of System Process Actions. The activity diagram swim lanes are typed with Context Element usage and SOI usage from the same System Context. \nNote: In order to improve the clarity of presentation it may be appropriate to use several activity diagrams for one System Process.", "A tabular format listing all identified System Functions, the System Processes in which they appear, and the Comtext Exchange with the Context Functions." ],
   "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_ebf0350_1554653236737_36605_43554", "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_26f0132_1562303526473_525021_92401", "_19_0_2_ebf0350_1554653238260_245225_43556", "_19_0_2_ebf0350_1567281039295_665940_53199", "_19_0_2_26f0132_1562303526473_410133_92403", "_19_0_2_ebf0350_1567337062655_160733_52757", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1567282723132_468249_52793", "_19_0_2_ebf0350_1555170687022_190510_43698", "_19_0_2_ebf0350_1567280920665_435327_53193" ],
   "Concern" : [ "_2021x_2_8710274_1674576758952_658537_23403", "_2021x_2_8710274_1674576758710_799233_23181", "_2021x_2_8710274_1674576758674_250912_23143", "_2021x_2_8710274_1674576758630_745758_23103", "_2021x_2_8710274_1674576758960_189958_23415", "_2021x_2_8710274_1674576758798_462644_23290", "_2021x_2_8710274_1674576758808_527146_23298", "_2021x_2_8710274_1674576758924_539039_23390", "_2021x_2_8710274_1674576758649_392764_23120" ],
-  "RecommendedVP" : [ "_19_0_2_26f0132_1567778254489_369345_55863", "_19_0_4_26f0132_1631280350392_855780_562", "_19_0_4_6d8019d_1618589543897_213858_307", "_19_0_2_26f0132_1562303526536_778418_92552" ],
+  "RecommendedVP" : [ "_19_0_4_6d8019d_1618589543897_213858_307", "_19_0_2_26f0132_1562303526536_778418_92552" ],
   "RequiredVP" : [ ],
   "Exposure" : "BlackBox",
   "VP_ID" : "C3_SPRO"
@@ -820,7 +820,7 @@
   "Stakeholders" : [ "_19_0_2_ebf0350_1567281039295_665940_53199", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "Concern" : [ "_2021x_2_8710274_1674576758848_939582_23337", "_2021x_2_8710274_1674576758563_692887_23057", "_2021x_2_8710274_1674576758668_405619_23141", "_2021x_2_8710274_1674576758640_156873_23115" ],
   "RecommendedVP" : [ "_19_0_1_26f0132_1554446728606_740631_45702", "_19_0_4_6d8019d_1618757838536_301313_442", "_19_0_4_6d8019d_1618060963677_605184_292", "_19_0_4_26f0132_1626790419043_61789_443", "_19_0_2_8710274_1567167552896_772779_54664", "_2021x_2_8710274_1676723256334_812178_26576", "_19_0_2_26f0132_1562303526536_189439_92549" ],
-  "RequiredVP" : [ "_19_0_2_26f0132_1565093441772_890565_49326", "_19_0_2_26f0132_1565104337297_671823_55529" ],
+  "RequiredVP" : [ "_19_0_2_26f0132_1565104337297_671823_55529" ],
   "Exposure" : "NotApplicable",
   "VP_ID" : "C8_SRQT"
 }, {
@@ -834,7 +834,7 @@
   "Presentation" : [ "A block definition diagram (BDD) featuring states, and state transitions. \nNote: References to model elements that are dependent of states, or transitions shall be shown as callout, or compartment notation.", "A tabular format listing states, state transitions, and the conditons to be fullfilled before the transition will occur. References to model elements that are dependent of states (Domain Item Kinds, System Functions, System Use Cases, etc.), or transitions shall be shown in the table." ],
   "Stakeholders" : [ "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_26f0132_1562303526473_525021_92401", "_19_0_2_26f0132_1566037895381_430904_56516", "_19_0_2_ebf0350_1554653234809_156018_43552", "_19_0_2_26f0132_1562303526473_410133_92403", "_19_0_2_ebf0350_1567337062655_160733_52757", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "Concern" : [ "_2021x_2_8710274_1674576759199_155259_23602", "_2021x_2_8710274_1674576759086_661396_23504" ],
-  "RecommendedVP" : [ "_19_0_4_6d8019d_1618589543897_213858_307", "_19_0_2_26f0132_1562303526536_778418_92552", "_19_0_2_8710274_1567167552896_772779_54664" ],
+  "RecommendedVP" : [ "_19_0_2_26f0132_1562303526536_778418_92552", "_19_0_2_8710274_1567167552896_772779_54664", "_2026x_26f0132_1793918191913_265921_386", "_19_0_2_26f0132_1562303526536_284838_92559" ],
   "RequiredVP" : [ ],
   "Exposure" : "BlackBox",
   "VP_ID" : "C3_SSTA"
@@ -849,7 +849,7 @@
   "Presentation" : [ "A block definition diagram (BDD) featuring the conceptual system block and conceptual system blocks for parts of the system. These elements are connected to the system block by means of aggregation relationships. \nNote: Multiple relationships to a kind of element are allowed. This means, that this kind of element is used in several roles." ],
   "Stakeholders" : [ "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "Concern" : [ "_2021x_2_8710274_1674576758828_494985_23322" ],
-  "RecommendedVP" : [ "_19_0_2_8710274_1567167552896_772779_54664", "_2021x_2_8710274_1676723256334_812178_26576" ],
+  "RecommendedVP" : [ "_19_0_2_8710274_1567167552896_772779_54664" ],
   "RequiredVP" : [ "_19_0_4_26f0132_1629448496383_291730_10342" ],
   "Exposure" : "WhiteBox",
   "VP_ID" : "C2_SSTD"
