@@ -475,7 +475,7 @@
 }, {
   "Name" : "SAF_ContextFunction_deprecated",
   "ID" : "_19_0_4_6d8019d_1624825970650_773062_2087",
-  "Documentation" : "<html>Specifies the fact that a fundamental action or task is expected to be carried out by an External Entity. \nNote: The intention is to capture the expectations and to explicitly dissect the functionality. This must not be interpreted as an attempt for a behavior specification of an External Entity. Capturing this valuable information is the basis to reach agreement on the functionality at the System boundary by clarifying the expectations about what is performed by Context Elements.<BR><BR>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_4_26f0132_1624611972707_746294_1003'>Context Function</A></html>",
+  "Documentation" : "<html>Not implementing a concept</html>",
   "MetaClass" : [ "Activity" ],
   "General" : [ "SAF_AbstractItem" ]
 }, {
@@ -589,13 +589,13 @@
 }, {
   "Name" : "SAF_Function",
   "ID" : "_19_0_1_26f0132_1548408079060_514464_44018",
-  "Documentation" : "<html>Specifies the fundamental action or task that have to take place in the System in accepting and processing the\ninputs and in processing and generating the outputs.\nA System Function\n * accepts input from the System boundary \n * exposes its output at the System boundary\n * changes the System's State\n * is dependent on System's State\nNote: A System Function does not need to expose observable output, when it changes the System's state in a way that is observable by other system functions. Furthermore, a System Function does not need to accept any input from the system boundary, when it is dependent on the System State, which in turn is changeable by other System Functions.<BR><BR>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_26f0132_1562303524161_394471_91009'>System Function</A></html>",
+  "Documentation" : "<html>Implementation of SAF Concepts\n <ul><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_26f0132_1562303524161_394471_91009'>System Function</A></LI><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_4_26f0132_1624611972707_746294_1003'>Context Function</A></LI></ul></html>",
   "MetaClass" : [ "Activity" ],
   "General" : [ "SAF_AbstractItem" ]
 }, {
   "Name" : "SAF_FunctionAction",
   "ID" : "_19_0_4_6d8019d_1629825338987_420088_594",
-  "Documentation" : "<html>Implementation of SAF Concepts\n <ul><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_26f0132_1562303524161_907005_91002'>General Functional Usage</A></LI><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_2021x_2_8710274_1675981331374_205908_29130'>System Function in System Process</A></LI></ul></html>",
+  "Documentation" : "<html>Specifies a General Usage of a General Function within  one or more other General Functions.<BR><BR>Implementation of SAF Concept <A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_4_26f0132_1624614161928_694281_1954'>General Function</A> <A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_2_26f0132_1562303524161_907005_91002'>General Functional Usage</A> <A HREF='https://saf.gfse.org/devdoc/concepts.html#_19_0_4_26f0132_1624614161928_694281_1954'>General Function</A></html>",
   "MetaClass" : [ "CallBehaviorAction" ],
   "General" : [ "SAF_AbstractItem" ]
 }, {
@@ -607,7 +607,7 @@
 }, {
   "Name" : "SAF_FunctionContribution",
   "ID" : "_2026x_26f0132_1774017505995_714140_4361",
-  "Documentation" : "<html>Not implementing a concept</html>",
+  "Documentation" : "<html>Implementation of SAF Concepts\n <ul><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_2021x_2_8710274_1675981331374_205908_29130'>System Function in System Process</A></LI><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_2024x_8710274_1716826749795_177784_16590'>System Function in System Function</A></LI><LI><A HREF='https://saf.gfse.org/devdoc/concepts.html#_2021x_2_8710274_1675981347806_599070_29437'>Context Function in System Process</A></LI></ul></html>",
   "MetaClass" : [ "Dependency" ],
   "General" : [ "SAF_AbstractItem" ]
 }, {

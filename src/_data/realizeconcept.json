@@ -1051,8 +1051,8 @@
     "Name" : "Context Function"
   },
   "RealizationOfConcept" : {
-    "ID" : "_19_0_4_6d8019d_1624825970650_773062_2087",
-    "Name" : "SAF_ContextFunction_deprecated"
+    "ID" : "_19_0_1_26f0132_1548408079060_514464_44018",
+    "Name" : "SAF_Function"
   }
 }, {
   "Name" : "",
@@ -1065,18 +1065,6 @@
   "RealizationOfConcept" : {
     "ID" : "_9_0_62a020a_1105704893364_624946_8539",
     "Name" : "ControlFlow"
-  }
-}, {
-  "Name" : "",
-  "ID" : "_19_0_4_26f0132_1624964176456_877521_4429",
-  "Documentation" : "",
-  "RealizedConcept" : {
-    "ID" : "_2021x_2_8710274_1675981331374_205908_29130",
-    "Name" : "System Function in System Process"
-  },
-  "RealizationOfConcept" : {
-    "ID" : "_19_0_4_6d8019d_1629825338987_420088_594",
-    "Name" : "SAF_FunctionAction"
   }
 }, {
   "Name" : "",
@@ -4605,6 +4593,54 @@
   "RealizationOfConcept" : {
     "ID" : "_2024x_8710274_1717680274694_162060_14786",
     "Name" : "SAF_A2_CSTD_Table"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_1_26f0132_1794519080868_825829_3229",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1675981331374_205908_29130",
+    "Name" : "System Function in System Process"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2024x_8710274_1716829149831_366341_18205",
+    "Name" : ""
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_1_26f0132_1794519877700_488435_9165",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1675981331374_205908_29130",
+    "Name" : "System Function in System Process"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2026x_26f0132_1774017505995_714140_4361",
+    "Name" : "SAF_FunctionContribution"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_1_26f0132_1794519931571_299124_9167",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2024x_8710274_1716826749795_177784_16590",
+    "Name" : "System Function in System Function"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2026x_26f0132_1774017505995_714140_4361",
+    "Name" : "SAF_FunctionContribution"
+  }
+}, {
+  "Name" : "",
+  "ID" : "_2026x_1_26f0132_1794519940261_896286_9169",
+  "Documentation" : "",
+  "RealizedConcept" : {
+    "ID" : "_2021x_2_8710274_1675981347806_599070_29437",
+    "Name" : "Context Function in System Process"
+  },
+  "RealizationOfConcept" : {
+    "ID" : "_2026x_26f0132_1774017505995_714140_4361",
+    "Name" : "SAF_FunctionContribution"
   }
 }, {
   "Name" : "",

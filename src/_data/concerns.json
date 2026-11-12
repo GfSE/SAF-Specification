@@ -135,9 +135,6 @@
   "ConcernsViewpoints" : [ {
     "Name" : "System Process Viewpoint",
     "ID" : "_19_0_2_8710274_1567167552896_772779_54664"
-  }, {
-    "Name" : "System Functional Breakdown Structure Viewpoint",
-    "ID" : "_19_0_4_26f0132_1629448496383_291730_10342"
   } ]
 }, {
   "Documentation" : "",
@@ -283,14 +280,14 @@
 }, {
   "Documentation" : "",
   "Owner" : "functional",
-  "Name" : "How are the system functions decomposed into smaller, and more manageable sub-functions? ",
+  "Name" : "Which system functions does a system process require?",
   "ID" : "_2021x_2_8710274_1674576758790_775644_23272",
   "ConcernsViewpoints" : [ {
+    "Name" : "System Process Viewpoint",
+    "ID" : "_19_0_2_8710274_1567167552896_772779_54664"
+  }, {
     "Name" : "System Functional Breakdown Structure Viewpoint",
     "ID" : "_19_0_4_26f0132_1629448496383_291730_10342"
-  }, {
-    "Name" : "System Functional Refinement Viewpoint",
-    "ID" : "_2021x_2_8710274_1676723256334_812178_26576"
   } ]
 }, {
   "Documentation" : "",
@@ -328,9 +325,6 @@
   "Name" : "Which are the conceptual interfaces of the system?",
   "ID" : "_2021x_2_8710274_1674576758808_527146_23298",
   "ConcernsViewpoints" : [ {
-    "Name" : "System Process Viewpoint",
-    "ID" : "_19_0_2_8710274_1567167552896_772779_54664"
-  }, {
     "Name" : "System Context Exchange Viewpoint",
     "ID" : "_19_0_4_6d8019d_1618060963677_605184_292"
   } ]
@@ -525,15 +519,6 @@
   "Owner" : "functional",
   "Name" : "How does a system function interact with its environment?",
   "ID" : "_2021x_2_8710274_1674576758952_658537_23403",
-  "ConcernsViewpoints" : [ {
-    "Name" : "System Process Viewpoint",
-    "ID" : "_19_0_2_8710274_1567167552896_772779_54664"
-  } ]
-}, {
-  "Documentation" : "",
-  "Owner" : "functional",
-  "Name" : "What is the functional scope of the system?",
-  "ID" : "_2021x_2_8710274_1674576758960_189958_23415",
   "ConcernsViewpoints" : [ {
     "Name" : "System Process Viewpoint",
     "ID" : "_19_0_2_8710274_1567167552896_772779_54664"
