@@ -1,16 +1,408 @@
 [
     {
-        "File": "examples_ea/ea_example1.svg",
+        "File": "examples_ea/ea_A2_CSTD_A2_CSTD_ANSI_586.svg",
         "Documentation": "",
-        "Name": "Spax_Sample_Diag_For_A2_CSTD",
+        "Name": "A2_CSTD ANSI 586",
         "ExampleForVPID": "A2_CSTD",
-        "Tool" : "EA"
+        "Tool": "EA"
     },
     {
-        "File": "examples_ea/ea_example2.svg",
+        "File": "examples_ea/ea_A2_CSTD_A2_CSTD_Systems_Engineering_Standards.svg",
         "Documentation": "",
-        "Name": "Spax_Sample_Diag_For_P5_PIFD",
+        "Name": "A2_CSTD Systems Engineering Standards",
+        "ExampleForVPID": "A2_CSTD",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_A2_TRMD_A2_TRMD_FFDS_Glossary.svg",
+        "Documentation": "",
+        "Name": "A2_TRMD FFDS Glossary",
+        "ExampleForVPID": "A2_TRMD",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_A8_EATR_A8_EATR_NAF_ADMBw_Mappings.svg",
+        "Documentation": "",
+        "Name": "A8_EATR NAF_ADMBw Mappings",
+        "ExampleForVPID": "A8_EATR",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_C1_SCXD_C1_SXCD_FFDS_Context_Definition.svg",
+        "Documentation": "",
+        "Name": "C1_SXCD FFDS Context Definition",
+        "ExampleForVPID": "C1_SCXD",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_C1_SCXE_FFDS_Context_Exchange.svg",
+        "Documentation": "",
+        "Name": "FFDS Context Exchange",
+        "ExampleForVPID": "C1_SCXE",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_C1_SUCD_C1_SUCD_FFDS_Use_Case_A_Day_in_Life_of_the_System.svg",
+        "Documentation": "",
+        "Name": "C1_SUCD FFDS Use Case A Day in Life of the System",
+        "ExampleForVPID": "C1_SUCD",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_C1_SUCD_C1_SUCD_System_Use_Case_Viewpoint.svg",
+        "Documentation": "",
+        "Name": "C1_SUCD System Use Case Viewpoint",
+        "ExampleForVPID": "C1_SUCD",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_C2_SCYD_C2_SCYD_FFDS_Capability_Definition.svg",
+        "Documentation": "",
+        "Name": "C2_SCYD FFDS Capability Definition",
+        "ExampleForVPID": "C2_SCYD",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_C2_SETD_C2_SETD_FFDS_Context_Exchange_Type_Definition.svg",
+        "Documentation": "",
+        "Name": "C2_SETD FFDS Context Exchange Type Definition",
+        "ExampleForVPID": "C2_SETD",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_C2_SETD_C2_SETD_FFDS_System_Exchange_Type_Definition.svg",
+        "Documentation": "",
+        "Name": "C2_SETD FFDS System Exchange Type Definition",
+        "ExampleForVPID": "C2_SETD",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_C2_SFBS_C2_SFBS_System_Functional_Breakdown_Structure_Viewpoint.svg",
+        "Documentation": "",
+        "Name": "C2_SFBS System Functional Breakdown Structure Viewpoint",
+        "ExampleForVPID": "C2_SFBS",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_C2_SSTD_C2_SSTD_FFDS_Conceptual_Architecture_Definition.svg",
+        "Documentation": "",
+        "Name": "C2_SSTD FFDS Conceptual Architecture Definition",
+        "ExampleForVPID": "C2_SSTD",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_C2_SSTD_CCS_Product_Tree.svg",
+        "Documentation": "",
+        "Name": "CCS Product Tree",
+        "ExampleForVPID": "C2_SSTD",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_C2_SSTD_FSE_Product_Tree.svg",
+        "Documentation": "",
+        "Name": "FSE Product Tree",
+        "ExampleForVPID": "C2_SSTD",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_C3_SPRO_C3_SPRO_Fire_Detection_and_Monitoring.svg",
+        "Documentation": "",
+        "Name": "C3_SPRO Fire Detection and Monitoring",
+        "ExampleForVPID": "C3_SPRO",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_C3_SPRO_C3_SPRO_Maintain_System.svg",
+        "Documentation": "",
+        "Name": "C3_SPRO Maintain System",
+        "ExampleForVPID": "C3_SPRO",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_C3_SSTA_C3_SSTA_FFDS_System_Modes_and_States.svg",
+        "Documentation": "",
+        "Name": "C3_SSTA FFDS System Modes and States",
+        "ExampleForVPID": "C3_SSTA",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_C4_SCXI_C4_SCXI_FFDS_Context_Interaction.svg",
+        "Documentation": "",
+        "Name": "C4_SCXI FFDS Context Interaction",
+        "ExampleForVPID": "C4_SCXI",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_C4_SIEX_C4_SIEX_System_Internal_Exchange_Viewpoint.svg",
+        "Documentation": "",
+        "Name": "C4_SIEX System Internal Exchange Viewpoint",
+        "ExampleForVPID": "C4_SIEX",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_C4_SITI_C4_SITI_FFDS_Internal_Interaction.svg",
+        "Documentation": "",
+        "Name": "C4_SITI FFDS Internal Interaction",
+        "ExampleForVPID": "C4_SITI",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_C5_SIFD_C5_SFID_FFDS_System_Interface_Definition.svg",
+        "Documentation": "",
+        "Name": "C5_SFID FFDS System Interface Definition",
+        "ExampleForVPID": "C5_SIFD",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_C5_SIFD_C5_SIFD_CCS_Interfaces.svg",
+        "Documentation": "",
+        "Name": "C5_SIFD CCS Interfaces",
+        "ExampleForVPID": "C5_SIFD",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_C6_SRQD_C6_SRQD_FFDS_System_Requirement_Definition.svg",
+        "Documentation": "",
+        "Name": "C6_SRQD FFDS System Requirement Definition",
+        "ExampleForVPID": "C6_SRQD",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_C8_SCYM_C8_SCYM_System_Capability_Mapping_Viewpoint.svg",
+        "Documentation": "",
+        "Name": "C8_SCYM System Capability Mapping Viewpoint",
+        "ExampleForVPID": "C8_SCYM",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_C8_SFUM_C8_SFUM_System_Function_Mapping_Viewpoint.svg",
+        "Documentation": "",
+        "Name": "C8_SFUM System Function Mapping Viewpoint",
+        "ExampleForVPID": "C8_SFUM",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_C8_SRQT_C8_SRQT_System_Requirement_Traceability_Viewpoint.svg",
+        "Documentation": "",
+        "Name": "C8_SRQT System Requirement Traceability Viewpoint",
+        "ExampleForVPID": "C8_SRQT",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_O1_OCXD_O1_OCXD_FDN_OperationalContext.svg",
+        "Documentation": "",
+        "Name": "O1_OCXD FDN OperationalContext",
+        "ExampleForVPID": "O1_OCXD",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_O1_OSTY_O1_OSTY_FFDS_Stories.svg",
+        "Documentation": "",
+        "Name": "O1_OSTY FFDS Stories",
+        "ExampleForVPID": "O1_OSTY",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_O2_OCYD_O2_OCYD_Capabilities.svg",
+        "Documentation": "",
+        "Name": "O2_OCYD Capabilities",
+        "ExampleForVPID": "O2_OCYD",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_O2_OETD_O2_OETD_OperationalExchangeTypes.svg",
+        "Documentation": "",
+        "Name": "O2_OETD OperationalExchangeTypes",
+        "ExampleForVPID": "O2_OETD",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_O2_OETD_O2_OETD_OperationalExchangeTypes_-_List.svg",
+        "Documentation": "",
+        "Name": "O2_OETD OperationalExchangeTypes - List",
+        "ExampleForVPID": "O2_OETD",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_O2_OPRF_O2_OPRF_Aerial_Vehicles_Taxonomy.svg",
+        "Documentation": "",
+        "Name": "O2_OPRF Aerial Vehicles Taxonomy",
+        "ExampleForVPID": "O2_OPRF",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_O2_OPRF_O2_OPRF_Fire_Center_Decomposition.svg",
+        "Documentation": "",
+        "Name": "O2_OPRF Fire Center Decomposition",
+        "ExampleForVPID": "O2_OPRF",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_O2_OPRF_O2_OPRF_OperationalPerformer_List.svg",
+        "Documentation": "",
+        "Name": "O2_OPRF OperationalPerformer List",
+        "ExampleForVPID": "O2_OPRF",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_O2_STID_O2_STID_FFDS_Stakeholder.svg",
+        "Documentation": "",
+        "Name": "O2_STID FFDS Stakeholder",
+        "ExampleForVPID": "O2_STID",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_O3_OSTA_O3_OSTA_Operational_States.svg",
+        "Documentation": "",
+        "Name": "O3_OSTA Operational States",
+        "ExampleForVPID": "O3_OSTA",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_O6_SKRD_O6_SKRD_FFDS_StRS.svg",
+        "Documentation": "",
+        "Name": "O6_SKRD FFDS StRS",
+        "ExampleForVPID": "O6_SKRD",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_O6_SKRD_O6_SKRD_Req_Fire_Propagation_Estimation.svg",
+        "Documentation": "",
+        "Name": "O6_SKRD Req Fire Propagation Estimation",
+        "ExampleForVPID": "O6_SKRD",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_O8_OCYM_O8_OCYM_Capability_Mapping.svg",
+        "Documentation": "",
+        "Name": "O8_OCYM Capability Mapping",
+        "ExampleForVPID": "O8_OCYM",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_O8_OCYM_O8_OCYM_Fire_Sources_early_Detection_Mapping.svg",
+        "Documentation": "",
+        "Name": "O8_OCYM Fire Sources early Detection Mapping",
+        "ExampleForVPID": "O8_OCYM",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_O8_OPRM_O8_OPRM_Process_Mappings.svg",
+        "Documentation": "",
+        "Name": "O8_OPRM Process Mappings",
+        "ExampleForVPID": "O8_OPRM",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_P1_PCXD_P1_PCXD_FFDS_POC_System_Physical_Context_Definition.svg",
+        "Documentation": "",
+        "Name": "P1_PCXD FFDS_POC System Physical Context Definition",
+        "ExampleForVPID": "P1_PCXD",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_P2_PETD_P2_PETD_Physical_Exchange_Type_Definition_Viewpoint_-_graphical.svg",
+        "Documentation": "",
+        "Name": "P2_PETD Physical Exchange Type Definition Viewpoint - graphical",
+        "ExampleForVPID": "P2_PETD",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_P2_PETD_P2_PETD_Physical_Exchange_Type_Definition_Viewpoint_-_spec.svg",
+        "Documentation": "",
+        "Name": "P2_PETD Physical Exchange Type Definition Viewpoint - spec",
+        "ExampleForVPID": "P2_PETD",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_P2_PSTD_P2_PSTD_POC_CCU.svg",
+        "Documentation": "",
+        "Name": "P2_PSTD POC CCU",
+        "ExampleForVPID": "P2_PSTD",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_P2_PSTD_P2_PSTD_POC_Comms_Node.svg",
+        "Documentation": "",
+        "Name": "P2_PSTD POC Comms Node",
+        "ExampleForVPID": "P2_PSTD",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_P2_PSTD_P2_PSTD_POC_Dev_Sensor_Node.svg",
+        "Documentation": "",
+        "Name": "P2_PSTD POC Dev Sensor Node",
+        "ExampleForVPID": "P2_PSTD",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_P2_PSTD_P2_PSTD_POC_FFDS_System_1.svg",
+        "Documentation": "",
+        "Name": "P2_PSTD POC FFDS System 1",
+        "ExampleForVPID": "P2_PSTD",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_P4_PCXI_P4_PCXI_PhysSensNode_Bench_Test.svg",
+        "Documentation": "",
+        "Name": "P4_PCXI PhysSensNode Bench Test",
+        "ExampleForVPID": "P4_PCXI",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_P4_PIEX_P4_PIEX_POC_Comms_Node_Environmental_and_Mounting.svg",
+        "Documentation": "",
+        "Name": "P4_PIEX POC Comms Node Environmental and Mounting",
+        "ExampleForVPID": "P4_PIEX",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_P4_PIEX_P4_PIEX_POC_Comms_Node_Network_Aspects.svg",
+        "Documentation": "",
+        "Name": "P4_PIEX POC Comms Node Network Aspects",
+        "ExampleForVPID": "P4_PIEX",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_P4_PITI_P4_PITI_POC_Dev_Sensor_Node.svg",
+        "Documentation": "",
+        "Name": "P4_PITI POC Dev Sensor Node",
+        "ExampleForVPID": "P4_PITI",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_P5_PIFD_P5_PIFD_Arduino_Interface_Types.svg",
+        "Documentation": "",
+        "Name": "P5_PIFD Arduino Interface Types",
         "ExampleForVPID": "P5_PIFD",
-        "Tool" : "EA"
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_P5_PIFD_P5_PIFD_Boundary_Interfaces.svg",
+        "Documentation": "",
+        "Name": "P5_PIFD Boundary Interfaces",
+        "ExampleForVPID": "P5_PIFD",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_P5_PIFD_P5_PIFD_Internal_Interfaces.svg",
+        "Documentation": "",
+        "Name": "P5_PIFD Internal Interfaces",
+        "ExampleForVPID": "P5_PIFD",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_P5_PIFD_P5_PIFD_Telecommunications_outlet_connector.svg",
+        "Documentation": "",
+        "Name": "P5_PIFD Telecommunications outlet/connector",
+        "ExampleForVPID": "P5_PIFD",
+        "Tool": "EA"
+    },
+    {
+        "File": "examples_ea/ea_P8_PLOM_P8_PLOM_Physical_Logical_Internal_Mapping.svg",
+        "Documentation": "",
+        "Name": "P8_PLOM Physical Logical Internal Mapping",
+        "ExampleForVPID": "P8_PLOM",
+        "Tool": "EA"
     }
 ]
