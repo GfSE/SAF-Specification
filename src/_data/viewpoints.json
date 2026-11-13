@@ -406,7 +406,7 @@
 }, {
   "Name" : "Physical Context Interaction Viewpoint",
   "ID" : "_2026x_26f0132_1790279984505_372916_59",
-  "Maturity" : "under construction",
+  "Maturity" : "released",
   "Purpose" : "The P4_PCXI Physical Context Interaction Viewpoint supports the specification of sequences of interactions between the physical system and physical external systems across physical connections.\n\nIt captures interaction behaviour that is relevant to the physical realization of the system, particularly where it results from physical or technical architectural decisions, such as initialization, handshaking, synchronization, startup, shutdown or recovery.\n\nThe viewpoint provides a means to specify the ordering and temporal characteristics of exchanges of information, signals, energy, material or mechanical quantities across physical interfaces.\n\nThe viewpoint complements the conceptual System Context Interaction Viewpoint by capturing interaction behaviour that is specific to, or relevant because of, the physical realization of the system",
   "Applicability" : "\n\nThe Physical Context Interaction Viewpoint supports the \"create system design\" activity part of the \"Design Definition Process\" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.5] and contributes to the artifacts \"System Design Description\" and \"System Interface Definition\".\n\nFurthermore, the viewpoint supports the \"Interface Management\" approach of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§3.2.4].",
   "Aspect" : "Interaction & Collaboration",
@@ -437,7 +437,7 @@
   "Name" : "Physical Functional Mapping Viewpoint",
   "ID" : "_2021x_2_8710274_1675987942868_617787_33116",
   "Maturity" : "released",
-  "Purpose" : "The Physical Functional Mapping Viewpoint supports the analysis of the assigment of system functions and subordinate functions functions to physical system elements. The result shall be computed from the assigment of functions to logial system elements and the assignment of logical system elements to physical system elements",
+  "Purpose" : "The Physical Functional Mapping Viewpoint supports the analysis of the assigment of system functions and subordinate functions to physical system elements. The result shall be computed from the assigment of functions to logial system elements and the assignment of logical system elements to physical system elements",
   "Applicability" : "The Physical Functional Mapping Viewpoint supports the “Design Definition Process” activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.5] and contributes to the artifact \"Traceability Mapping\".\n\nFurthermore, the Physical Functional Mapping Viewpoint supports the \"Allocation and Partitioning of Functional Entities to Physical Entities\" activities.",
   "Aspect" : "Traceability & Mapping",
   "Domain" : "Physical",
@@ -481,7 +481,7 @@
 }, {
   "Name" : "Physical Internal Interaction Viewpoint",
   "ID" : "_2026x_26f0132_1792701198578_467010_500",
-  "Maturity" : "under construction",
+  "Maturity" : "released",
   "Purpose" : "The P4_PITI Physical Internal Interaction Viewpoint supports the specification of sequences of interactions between physical systems within the system boundary through physical connections. It captures interaction behaviour that is relevant to the physical realization of the system, particularly where it results from physical or technical architectural decisions, such as initialization, handshaking, synchronization, startup, shutdown or recovery. The viewpoint uses the physical structure defined in the P2_PSTD Physical Structure Definition Viewpoint.",
   "Applicability" : "\n\nThe P4_PITI Physical Internal Interaction Viewpoint supports the \"create system design\" activity part of the \"Design Definition Process\" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.5] and contributes to the artifacts \"System Design Description\" and \"System Interface Definition\".\n\nFurthermore, the viewpoint supports the \"Interface Management\" approach of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§3.2.4].",
   "Aspect" : "Interaction & Collaboration",
