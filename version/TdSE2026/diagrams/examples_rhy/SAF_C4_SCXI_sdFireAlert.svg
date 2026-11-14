@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+  xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+  xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0"
+  version="1.0"
+  width="235.24001mm"
+  height="213.24001mm">
+<defs>
+
+   <pattern id="EMFhbasepattern"     
+        patternUnits="userSpaceOnUse"
+        width="6"                    
+        height="6"                   
+        x="0"                        
+        y="0">                       
+   </pattern>                          
+</defs>
+   <rect 
+	style="fill:none;stroke:#ffffff;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	x="0" y="0" width="889.61764" height="807.70646" /> 
+   <rect 
+	style="fill:#f7f7f7;fill-rule:evenodd;fill-opacity:1;stroke:#c2c0c0;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	x="11.405354" y="11.405354" width="866.80693" height="784.89575" /> 
+   <path 
+	style="fill:#f7f7f7;fill-rule:evenodd;fill-opacity:1;stroke:#c2c0c0;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 11.405354,11.405354 
+	L 11.405354,11.405354 
+	L 448.95622,11.405354 
+	L 448.95622,11.405354 
+	L 448.95622,19.700157 
+	L 441.69827,26.95811 
+	L 11.405354,26.95811 
+	L 11.405354,26.95811 
+	z " /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,32.142362,11.405354)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#0000FF;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>C4_SCXI - sd [Package] SystemUseCase01_24hFireDetection_Pkg [sdFireAlert]</tspan></tspan></text>
+   <path 
+	style="fill:none;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 87.095433,180.41197 
+	L 87.095433,180.41197 
+	L 135.8274,180.41197 
+	L 135.8274,180.41197 
+	L 135.8274,188.70677 
+	L 128.56945,195.96472 
+	L 87.095433,195.96472 
+	L 87.095433,195.96472 
+	z " /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,92.279685,180.411969)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#0000FF;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>parallel</tspan></tspan></text>
+<g diagram:semanticTargetId="6a89a9db-dd23-4563-8347-530dd9fb9d27" diagram:parentSemanticTargetId="50a88e7f-4bce-459a-b207-e3e36a80f6ae"  diagram:x="86.577008" diagram:y="179.89354" diagram:width="738.23748" diagram:height="152.41701">
+   <rect 
+	style="fill:#ffffff;fill-rule:evenodd;fill-opacity:1;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	x="87.095433" y="180.41197" width="737.20063" height="151.38016" /> 
+</g>
+<g diagram:semanticTargetId="7fd1c046-8bb8-49cb-8f54-d4732045973b" diagram:parentSemanticTargetId="50a88e7f-4bce-459a-b207-e3e36a80f6ae"  diagram:x="757.41921" diagram:y="41.992441" diagram:width="100.57449" diagram:height="734.09007">
+   <path 
+	style="fill:none;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:3,1;stroke-dashoffset:0;stroke-opacity:1;" 
+	
+	d="
+	M 807.70646,96.427087 
+	L 807.70646,775.56409  " /> 
+   <rect 
+	style="fill:#ffffff;fill-rule:evenodd;fill-opacity:1;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	x="757.93764" y="42.510866" width="99.537638" height="53.91622" /> 
+   <path 
+	style="fill:none;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 794.2274,775.56409 
+	L 821.18551,775.56409  " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="758.97449" y="43.547717" width="97.463937" height="52.87937" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:118.497188%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:center;text-anchor:middle;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,765.195591,43.547717)"
+x="41.589844" y="11.380554"
+><tspan sodipodi:role="line"
+x="41.589844" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000000;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>:MeteorologyDat</tspan></tspan><tspan sodipodi:role="line"
+x="41.854073" y="24.859609"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000000;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>aSystem</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="35dfc416-c834-4a93-9d86-2e95d5597bd2" diagram:parentSemanticTargetId="50a88e7f-4bce-459a-b207-e3e36a80f6ae"  diagram:x="638.18141" diagram:y="41.992441" diagram:width="100.57449" diagram:height="734.09007">
+   <path 
+	style="fill:none;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:3,1;stroke-dashoffset:0;stroke-opacity:1;" 
+	
+	d="
+	M 688.46866,96.427087 
+	L 688.46866,775.56409  " /> 
+   <rect 
+	style="fill:#ffffff;fill-rule:evenodd;fill-opacity:1;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	x="638.69984" y="42.510866" width="99.537638" height="53.91622" /> 
+   <path 
+	style="fill:none;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 674.98961,775.56409 
+	L 701.94772,775.56409  " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="639.73669" y="43.547717" width="97.463937" height="52.87937" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,666.694803,43.547717)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000000;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>:Satellite</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="1fa6f8f0-a5a5-44bc-975a-4f5381c75a1e" diagram:parentSemanticTargetId="50a88e7f-4bce-459a-b207-e3e36a80f6ae"  diagram:x="518.94362" diagram:y="41.992441" diagram:width="100.57449" diagram:height="734.09007">
+   <path 
+	style="fill:none;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:3,1;stroke-dashoffset:0;stroke-opacity:1;" 
+	
+	d="
+	M 569.23087,96.427087 
+	L 569.23087,775.56409  " /> 
+   <rect 
+	style="fill:#ffffff;fill-rule:evenodd;fill-opacity:1;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	x="519.46205" y="42.510866" width="99.537638" height="53.91622" /> 
+   <path 
+	style="fill:none;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 555.75181,775.56409 
+	L 582.70992,775.56409  " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="520.4989" y="43.547717" width="97.463937" height="52.87937" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,533.977953,43.547717)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000000;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>:AnimalSensor</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="53d5e6f7-2eab-4faf-b3a4-b3b884c6fe34" diagram:parentSemanticTargetId="50a88e7f-4bce-459a-b207-e3e36a80f6ae"  diagram:x="368.60031" diagram:y="132.71685" diagram:width="113.53512" diagram:height="39.918745">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 369.11874,147.23276 
+	L 400.22425,147.23276 
+	L 400.22425,167.96976 
+	L 369.11874,167.96976  " /> 
+   <path 
+	style="fill:#808080;fill-rule:evenodd;fill-opacity:1;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 369.11874,167.96976 
+	L 379.48724,172.11717 
+	L 379.48724,163.82236 
+	z " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="369.11874" y="132.71685" width="113.01669" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,374.302992,133.753701)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>2. RequestFFdata()</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="6a907679-f736-445b-92ac-ad0b90e1c15d" diagram:parentSemanticTargetId="50a88e7f-4bce-459a-b207-e3e36a80f6ae"  diagram:x="318.83149" diagram:y="41.992441" diagram:width="100.57449" diagram:height="734.09007">
+   <path 
+	style="fill:none;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:3,1;stroke-dashoffset:0;stroke-opacity:1;" 
+	
+	d="
+	M 369.11874,96.427087 
+	L 369.11874,775.56409  " /> 
+   <rect 
+	style="fill:#ffffff;fill-rule:evenodd;fill-opacity:1;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	x="319.34992" y="42.510866" width="99.537638" height="53.91622" /> 
+   <path 
+	style="fill:none;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 355.63969,775.56409 
+	L 382.5978,775.56409  " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="320.38677" y="43.547717" width="97.463937" height="52.87937" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,336.976378,43.547717)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000000;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>:Funct_FFDS</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="e053249d-11b3-4167-a5b2-81ba27987111" diagram:parentSemanticTargetId="50a88e7f-4bce-459a-b207-e3e36a80f6ae"  diagram:x="368.60031" diagram:y="180.41197" diagram:width="409.03748" diagram:height="50.287245">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 369.11874,205.29638 
+	L 400.22425,205.29638 
+	L 400.22425,226.03339 
+	L 369.11874,226.03339  " /> 
+   <path 
+	style="fill:#808080;fill-rule:evenodd;fill-opacity:1;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 369.11874,226.03339 
+	L 379.48724,230.18079 
+	L 379.48724,221.88598 
+	z " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="405.4085" y="180.41197" width="372.22929" height="34.216063" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:118.497188%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,410.592756,187.669921)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>3. RetrieveFFdata(SatelliteImageData SatImg,WeatherForecastData </tspan></tspan><tspan sodipodi:role="line"
+x="0.000000" y="24.859609"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>Weather,SensorNodeData SensorNodes,updVisualObsData VisData)</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="d45323da-b6f5-4024-8126-17e8cd5adb15" diagram:parentSemanticTargetId="50a88e7f-4bce-459a-b207-e3e36a80f6ae"  diagram:x="368.60031" diagram:y="342.16063" diagram:width="121.82993" diagram:height="39.918735">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 369.11874,356.67654 
+	L 400.22425,356.67654 
+	L 400.22425,377.41354 
+	L 369.11874,377.41354  " /> 
+   <path 
+	style="fill:#808080;fill-rule:evenodd;fill-opacity:1;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 369.11874,377.41354 
+	L 379.48724,381.56094 
+	L 379.48724,373.26614 
+	z " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="369.11874" y="342.16063" width="121.3115" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,374.302992,343.197480)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>8. AcquireMetadata()</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="aa43436e-18df-41bc-b349-4ffc7b91efd7" diagram:parentSemanticTargetId="50a88e7f-4bce-459a-b207-e3e36a80f6ae"  diagram:x="368.60031" diagram:y="383.63465" diagram:width="116.64567" diagram:height="39.918735">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 369.11874,398.15055 
+	L 400.22425,398.15055 
+	L 400.22425,418.88756 
+	L 369.11874,418.88756  " /> 
+   <path 
+	style="fill:#808080;fill-rule:evenodd;fill-opacity:1;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 369.11874,418.88756 
+	L 379.48724,423.03496 
+	L 379.48724,414.74016 
+	z " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="369.11874" y="383.63465" width="116.12724" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,374.302992,384.671496)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>9. VisualizeFFdata()</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="64d7bcb6-c4e6-46bd-9866-48b8556b9b05" diagram:parentSemanticTargetId="50a88e7f-4bce-459a-b207-e3e36a80f6ae"  diagram:x="368.60031" diagram:y="448.95622" diagram:width="120.79308" diagram:height="39.918745">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 369.11874,463.47213 
+	L 400.22425,463.47213 
+	L 400.22425,484.20913 
+	L 369.11874,484.20913  " /> 
+   <path 
+	style="fill:#808080;fill-rule:evenodd;fill-opacity:1;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 369.11874,484.20913 
+	L 379.48724,488.35654 
+	L 379.48724,480.06173 
+	z " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="369.11874" y="448.95622" width="120.27465" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,374.302992,449.993071)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>11. AnalyzeFFdata()</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="890bd525-354d-4843-841a-47eb7babd023" diagram:parentSemanticTargetId="50a88e7f-4bce-459a-b207-e3e36a80f6ae"  diagram:x="368.60031" diagram:y="543.30961" diagram:width="85.540157" diagram:height="41.992435">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 369.11874,557.82551 
+	L 400.22425,557.82551 
+	L 400.22425,580.63622 
+	L 369.11874,580.63622  " /> 
+   <path 
+	style="fill:#808080;fill-rule:evenodd;fill-opacity:1;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 369.11874,580.63622 
+	L 379.48724,584.78362 
+	L 379.48724,576.48882 
+	z " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="369.11874" y="543.30961" width="85.021732" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,374.302992,544.346457)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>12. AlertFire()</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="28c24350-384c-43ff-a2c3-aa0f6179a0a3" diagram:parentSemanticTargetId="50a88e7f-4bce-459a-b207-e3e36a80f6ae"  diagram:x="368.60031" diagram:y="608.63118" diagram:width="93.83496" diagram:height="47.176695">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 369.11874,623.14709 
+	L 400.22425,623.14709 
+	L 400.22425,651.14205 
+	L 369.11874,651.14205  " /> 
+   <path 
+	style="fill:#808080;fill-rule:evenodd;fill-opacity:1;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 369.11874,651.14205 
+	L 379.48724,655.28945 
+	L 379.48724,646.99465 
+	z " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="369.11874" y="608.63118" width="93.316535" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,374.302992,609.668031)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>14. ReportFire()</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="b494fb45-99d3-41ac-8d3e-365949316e54" diagram:parentSemanticTargetId="50a88e7f-4bce-459a-b207-e3e36a80f6ae"  diagram:x="167.45133" diagram:y="41.992441" diagram:width="142.0485" diagram:height="734.09007">
+   <path 
+	style="fill:none;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:3,1;stroke-dashoffset:0;stroke-opacity:1;" 
+	
+	d="
+	M 238.47559,96.427087 
+	L 238.47559,775.56409  " /> 
+   <rect 
+	style="fill:#ffffff;fill-rule:evenodd;fill-opacity:1;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	x="167.96976" y="42.510866" width="141.01165" height="53.91622" /> 
+   <path 
+	style="fill:none;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 219.81228,775.56409 
+	L 257.1389,775.56409  " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="169.00661" y="43.547717" width="138.93795" height="52.87937" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,179.375118,43.547717)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000000;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>:FireDepartmentSystem</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="123a994e-bf68-43da-bc9b-63e1abdd59a6" diagram:parentSemanticTargetId="50a88e7f-4bce-459a-b207-e3e36a80f6ae"  diagram:x="57.545197" diagram:y="41.992441" diagram:width="100.57449" diagram:height="734.09007">
+   <path 
+	style="fill:none;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:3,1;stroke-dashoffset:0;stroke-opacity:1;" 
+	
+	d="
+	M 107.83244,96.427087 
+	L 107.83244,775.56409  " /> 
+   <rect 
+	style="fill:#ffffff;fill-rule:evenodd;fill-opacity:1;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	x="58.063622" y="42.510866" width="99.537638" height="53.91622" /> 
+   <path 
+	style="fill:none;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 94.353386,775.56409 
+	L 121.3115,775.56409  " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="59.100472" y="43.547717" width="97.463937" height="52.87937" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,82.948031,43.547717)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000000;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>:Operator</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="fe5a5867-6458-4020-b3cd-f84a92b144b2" diagram:parentSemanticTargetId="6a89a9db-dd23-4563-8347-530dd9fb9d27"  diagram:x="87.095433" diagram:y="180.41197" diagram:width="737.20063" diagram:height="151.38016">
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="87.095433" y="180.41197" width="737.20063" height="151.38016" /> 
+</g>
+<g diagram:semanticTargetId="7e36a5f6-7c8f-4aa3-84ee-e3fb3b429625" diagram:parentSemanticTargetId="6a907679-f736-445b-92ac-ad0b90e1c15d"  diagram:x="256.62047" diagram:y="497.16976" diagram:width="226.03338" diagram:height="32.14236">
+   <path 
+	style="fill:#ffffff;fill-rule:evenodd;fill-opacity:1;stroke:#6da3d9;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 278.91276,497.68819 
+	L 460.36157,497.68819 
+	L 482.13543,514.2778 
+	L 460.36157,528.7937 
+	L 278.91276,528.7937 
+	L 257.1389,514.2778 
+	L 257.1389,514.2778 
+	z " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="272.69165" y="501.83559" width="195.96472" height="24.884409" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,289.281260,501.835591)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000000;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>[Classification= &quot;ConfirmedFire&quot;]</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="53d5e6f7-2eab-4faf-b3a4-b3b884c6fe34" diagram:parentSemanticTargetId="50a88e7f-4bce-459a-b207-e3e36a80f6ae"  diagram:x="368.60031" diagram:y="132.71685" diagram:width="113.53512" diagram:height="39.918745">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 369.11874,147.23276 
+	L 400.22425,147.23276 
+	L 400.22425,167.96976 
+	L 369.11874,167.96976  " /> 
+   <path 
+	style="fill:#808080;fill-rule:evenodd;fill-opacity:1;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 369.11874,167.96976 
+	L 379.48724,172.11717 
+	L 379.48724,163.82236 
+	z " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="369.11874" y="132.71685" width="113.01669" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,374.302992,133.753701)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>2. RequestFFdata()</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="e053249d-11b3-4167-a5b2-81ba27987111" diagram:parentSemanticTargetId="50a88e7f-4bce-459a-b207-e3e36a80f6ae"  diagram:x="368.60031" diagram:y="180.41197" diagram:width="409.03748" diagram:height="50.287245">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 369.11874,205.29638 
+	L 400.22425,205.29638 
+	L 400.22425,226.03339 
+	L 369.11874,226.03339  " /> 
+   <path 
+	style="fill:#808080;fill-rule:evenodd;fill-opacity:1;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 369.11874,226.03339 
+	L 379.48724,230.18079 
+	L 379.48724,221.88598 
+	z " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="405.4085" y="180.41197" width="372.22929" height="34.216063" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:118.497188%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,410.592756,187.669921)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>3. RetrieveFFdata(SatelliteImageData SatImg,WeatherForecastData </tspan></tspan><tspan sodipodi:role="line"
+x="0.000000" y="24.859609"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>Weather,SensorNodeData SensorNodes,updVisualObsData VisData)</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="d45323da-b6f5-4024-8126-17e8cd5adb15" diagram:parentSemanticTargetId="50a88e7f-4bce-459a-b207-e3e36a80f6ae"  diagram:x="368.60031" diagram:y="342.16063" diagram:width="121.82993" diagram:height="39.918735">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 369.11874,356.67654 
+	L 400.22425,356.67654 
+	L 400.22425,377.41354 
+	L 369.11874,377.41354  " /> 
+   <path 
+	style="fill:#808080;fill-rule:evenodd;fill-opacity:1;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 369.11874,377.41354 
+	L 379.48724,381.56094 
+	L 379.48724,373.26614 
+	z " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="369.11874" y="342.16063" width="121.3115" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,374.302992,343.197480)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>8. AcquireMetadata()</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="aa43436e-18df-41bc-b349-4ffc7b91efd7" diagram:parentSemanticTargetId="50a88e7f-4bce-459a-b207-e3e36a80f6ae"  diagram:x="368.60031" diagram:y="383.63465" diagram:width="116.64567" diagram:height="39.918735">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 369.11874,398.15055 
+	L 400.22425,398.15055 
+	L 400.22425,418.88756 
+	L 369.11874,418.88756  " /> 
+   <path 
+	style="fill:#808080;fill-rule:evenodd;fill-opacity:1;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 369.11874,418.88756 
+	L 379.48724,423.03496 
+	L 379.48724,414.74016 
+	z " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="369.11874" y="383.63465" width="116.12724" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,374.302992,384.671496)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>9. VisualizeFFdata()</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="64d7bcb6-c4e6-46bd-9866-48b8556b9b05" diagram:parentSemanticTargetId="50a88e7f-4bce-459a-b207-e3e36a80f6ae"  diagram:x="368.60031" diagram:y="448.95622" diagram:width="120.79308" diagram:height="39.918745">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 369.11874,463.47213 
+	L 400.22425,463.47213 
+	L 400.22425,484.20913 
+	L 369.11874,484.20913  " /> 
+   <path 
+	style="fill:#808080;fill-rule:evenodd;fill-opacity:1;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 369.11874,484.20913 
+	L 379.48724,488.35654 
+	L 379.48724,480.06173 
+	z " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="369.11874" y="448.95622" width="120.27465" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,374.302992,449.993071)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>11. AnalyzeFFdata()</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="b6cae46e-c366-4ac5-840d-3e3540be6355" diagram:parentSemanticTargetId="50a88e7f-4bce-459a-b207-e3e36a80f6ae"  diagram:x="368.60031" diagram:y="257.1389" diagram:width="319.34992" diagram:height="23.329135">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 687.43181,271.6548 
+	L 369.11874,271.6548  " /> 
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 381.56094,279.94961 
+	L 369.11874,271.6548 
+	L 381.56094,263.36  " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="465.54583" y="257.1389" width="221.88598" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,484.209134,258.175748)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>5. updSatelliteData(SatelliteImageData)</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="af842a32-dec7-4bd0-8c81-21fbfdcc9b7c" diagram:parentSemanticTargetId="50a88e7f-4bce-459a-b207-e3e36a80f6ae"  diagram:x="368.60031" diagram:y="231.21764" diagram:width="438.58772" diagram:height="23.329135">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 806.66961,245.73354 
+	L 369.11874,245.73354  " /> 
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 381.56094,254.02835 
+	L 369.11874,245.73354 
+	L 381.56094,237.43874  " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="686.39496" y="231.21764" width="120.27465" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,693.652913,232.254488)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>4. updWeatherData()</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="7eff784e-8394-4582-9832-3f478545d1f1" diagram:parentSemanticTargetId="50a88e7f-4bce-459a-b207-e3e36a80f6ae"  diagram:x="368.60031" diagram:y="280.98646" diagram:width="242.10457" diagram:height="26.439685">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 568.19402,298.61291 
+	L 369.11874,298.61291  " /> 
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 381.56094,306.90772 
+	L 369.11874,298.61291 
+	L 381.56094,290.31811  " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="380.52409" y="280.98646" width="230.18079" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,397.113701,282.023307)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>6. updSensorNodeData(SensorNodeData)</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="890bd525-354d-4843-841a-47eb7babd023" diagram:parentSemanticTargetId="50a88e7f-4bce-459a-b207-e3e36a80f6ae"  diagram:x="368.60031" diagram:y="543.30961" diagram:width="85.540157" diagram:height="41.992435">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 369.11874,557.82551 
+	L 400.22425,557.82551 
+	L 400.22425,580.63622 
+	L 369.11874,580.63622  " /> 
+   <path 
+	style="fill:#808080;fill-rule:evenodd;fill-opacity:1;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 369.11874,580.63622 
+	L 379.48724,584.78362 
+	L 379.48724,576.48882 
+	z " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="369.11874" y="543.30961" width="85.021732" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,374.302992,544.346457)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>12. AlertFire()</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="28c24350-384c-43ff-a2c3-aa0f6179a0a3" diagram:parentSemanticTargetId="50a88e7f-4bce-459a-b207-e3e36a80f6ae"  diagram:x="368.60031" diagram:y="608.63118" diagram:width="93.83496" diagram:height="47.176695">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 369.11874,623.14709 
+	L 400.22425,623.14709 
+	L 400.22425,651.14205 
+	L 369.11874,651.14205  " /> 
+   <path 
+	style="fill:#808080;fill-rule:evenodd;fill-opacity:1;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 369.11874,651.14205 
+	L 379.48724,655.28945 
+	L 379.48724,646.99465 
+	z " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="369.11874" y="608.63118" width="93.316535" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,374.302992,609.668031)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>14. ReportFire()</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="507a9265-c618-4a62-bd00-1a5179642e0f" diagram:parentSemanticTargetId="50a88e7f-4bce-459a-b207-e3e36a80f6ae"  diagram:x="237.95716" diagram:y="588.93102" diagram:width="130.64315" diagram:height="23.329135">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 368.08189,603.44693 
+	L 238.47559,603.44693  " /> 
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 250.9178,611.74173 
+	L 238.47559,603.44693 
+	L 250.9178,595.15213  " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="241.58614" y="588.93102" width="126.49575" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,252.991496,589.967874)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>13. evRaiseFireAlert()</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="de1a2dac-5cd1-433a-93ed-261c8557d60c" diagram:parentSemanticTargetId="50a88e7f-4bce-459a-b207-e3e36a80f6ae"  diagram:x="107.31401" diagram:y="102.64819" diagram:width="261.2863" diagram:height="23.329135">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 107.83244,117.16409 
+	L 368.08189,117.16409  " /> 
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 355.63969,108.86929 
+	L 368.08189,117.16409 
+	L 355.63969,125.4589  " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="107.83244" y="102.64819" width="214.62803" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,113.016693,103.685039)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>1. evChooseAreaOfInterest(MapArea)</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="018cf00a-950a-493e-987a-2e7240d5de94" diagram:parentSemanticTargetId="50a88e7f-4bce-459a-b207-e3e36a80f6ae"  diagram:x="107.31401" diagram:y="304.83402" diagram:width="261.2863" diagram:height="23.329125">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 107.83244,319.34992 
+	L 368.08189,319.34992  " /> 
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 355.63969,311.05512 
+	L 368.08189,319.34992 
+	L 355.63969,327.64472  " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="107.83244" y="304.83402" width="252.9915" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,113.016693,305.870866)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>7. updVisualObsData(VisualObservationData)</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="dacbf874-dd52-4543-a25d-0452cd8d2972" diagram:parentSemanticTargetId="50a88e7f-4bce-459a-b207-e3e36a80f6ae"  diagram:x="107.31401" diagram:y="425.10866" diagram:width="261.2863" diagram:height="23.329135">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 368.08189,439.62457 
+	L 107.83244,439.62457  " /> 
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 120.27465,447.91937 
+	L 107.83244,439.62457 
+	L 120.27465,431.32976  " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="121.3115" y="425.10866" width="246.77039" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,138.937953,426.145512)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>10. updFFSitReport(ForestFireSituationData)</tspan></tspan></text>
+</g>
+<g diagram:semanticTargetId="2f27de11-33d4-463c-b524-3a26498d3f44" diagram:parentSemanticTargetId="50a88e7f-4bce-459a-b207-e3e36a80f6ae"  diagram:x="107.31401" diagram:y="657.36315" diagram:width="261.2863" diagram:height="23.329135">
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 368.08189,671.87906 
+	L 107.83244,671.87906  " /> 
+   <path 
+	style="fill:none;stroke:#808080;stroke-width:1.0368505px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" 
+	
+	d="
+	M 120.27465,680.17386 
+	L 107.83244,671.87906 
+	L 120.27465,663.58425  " /> 
+   <rect 
+	style="fill:none;stroke:none;" 
+	x="214.62803" y="657.36315" width="153.45386" height="14.515906" /> 
+<text
+xml:space="preserve"
+style="font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;text-align:start;text-anchor:start;"
+transform="matrix(1.000000,-0.000000,0.000000,1.000000,226.033386,658.400000)"
+x="0.000000" y="11.380554"
+><tspan sodipodi:role="line"
+x="0.000000" y="11.380554"
+><tspan
+dx="0.000000" dy="0.000000" style="fill:#000080;font-size:11.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Tahoma;"
+>15. evIssueOperatorAlert()</tspan></tspan></text>
+</g>
+</svg>
