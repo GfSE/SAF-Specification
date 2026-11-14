@@ -1,12 +1,8 @@
 # SAF Specification Source
-If you would like to read the System Architecture Framework (SAF) documentation, please visit [saf.gfse.org](https://saf.gfse.org)
+If you would like to read the TdSE 2026 Release System Architecture Framework (SAF) documentation, please visit [saf.gfse.org/version/TdSE2026](https://saf.gfse.org/version/TdSE2026)
+For the latest version head over to  [saf.gfse.org](https://saf.gfse.org)
 
-We have changed the way the documentation is generated and github is now the source repository for an automatic document generation process. 
-
-The main branch of this repository reflects the current state of development and will be updated as needed. 
-Release branches are also available, selectable at the documentation site at [saf.gfse.org](https://saf.gfse.org).
-
-The earlier SAF releases are still available in the legacy documentation format in separate branches.
+The this is the source repo of the TdSE2026 release branch of the SAF Specification. 
 
 ## Forking this repository
 
