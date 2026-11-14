@@ -94,7 +94,7 @@ function handleVersionedDocs(basePath, releases) {
     menuElement.className = 'plugin-version-menu-background-fonts-style';
     menuElement.style.cssText = `
       position: relative;
-      width: 180px;
+      width: 210px;
       border: 1px solit transparent;
       padding: 1rem 1rem;
       background-image: ${menuBackgroundImageClosed};
