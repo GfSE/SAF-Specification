@@ -9703,7 +9703,7 @@
   },"1386": {
     "doc": "Icons",
     "title": "Domain codes, colors and names",
-    "content": ". | A A5A5A5 Architecture Management Domain | O 4472C4 Operational Domain | C FFC000 Conceptual Domain | P 92D050 Physical Domain | D C040C0 SAF Development Domain | . ",
+    "content": ". | A A5A5A5 Architecture Management Domain . | O 4472C4 Operational Domain | C FFC000 Conceptual Domain | P 92D050 Physical Domain | D C040C0 SAF Development Domain | . | . ",
     "url": "/devdoc/icons/readme.html#domain-codes-colors-and-names",
     
     "relUrl": "/devdoc/icons/readme.html#domain-codes-colors-and-names"
@@ -9731,21 +9731,21 @@
   },"1390": {
     "doc": "Icons",
     "title": "Table Icons",
-    "content": ". | Tables in CD : | Tables in OD : | Tables in FD : | Tables in LD : | Tables in PD : | . ",
+    "content": ". | Tables in AD : | Tables in OD : | Tables in CD : | Tables in PD : | . ",
     "url": "/devdoc/icons/readme.html#table-icons",
     
     "relUrl": "/devdoc/icons/readme.html#table-icons"
   },"1391": {
     "doc": "Icons",
     "title": "BDD Icons",
-    "content": ". | BDD in CD : | BDD in OD : | BDD in FD : | BDD in LD : | BDD in PD : | . ",
+    "content": ". | BDD in AD : | BDD in OD : | BDD in CD : | BDD in PD : | . ",
     "url": "/devdoc/icons/readme.html#bdd-icons",
     
     "relUrl": "/devdoc/icons/readme.html#bdd-icons"
   },"1392": {
     "doc": "Icons",
     "title": "IBD Icons",
-    "content": ". | IBD in OD : | IBD in FD : | IBD in LD : | IBD in PD : | . ",
+    "content": ". | IBD in OD : | IBD in CD : | IBD in PD : | . ",
     "url": "/devdoc/icons/readme.html#ibd-icons",
     
     "relUrl": "/devdoc/icons/readme.html#ibd-icons"
