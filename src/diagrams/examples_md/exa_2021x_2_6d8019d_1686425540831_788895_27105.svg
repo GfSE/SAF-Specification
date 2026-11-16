@@ -145,7 +145,7 @@
       ><path d="M0 0 L16 0 L16 16 L0 16 L0 0 Z"
       /></clipPath
       ><clipPath clipPathUnits="userSpaceOnUse" id="a4"
-      ><path d="M0 0 L16 0 L16 -16 L0 -16 L0 0 Z"
+      ><path d="M0 0 L-16 0 L-16 16 L0 16 L0 0 Z"
       /></clipPath
       ><clipPath clipPathUnits="userSpaceOnUse" id="a5"
       ><path d="M-118 -39 L1272 -39 L1272 1050 L-118 1050 L-118 -39 Z"
@@ -237,7 +237,7 @@
           /><circle stroke-linecap="butt" clip-path="url(#a3)" fill="none" r="3" cx="3.275" cy="3.275" stroke="black" stroke-width="0.5"
         /></g
         ><g text-rendering="geometricPrecision" stroke-miterlimit="4" stroke-width="0.5" stroke-linecap="butt"
-        ><path d="M2.4168 -4.7764 Q1.804 -4.7764 1.4515 -4.365 Q1.0991 -3.9553 1.0991 -3.2417 Q1.0991 -2.5317 1.4272 -2.1185 Q1.7553 -1.7053 2.4116 -1.7053 Q2.6616 -1.7053 2.8855 -1.7469 Q3.1095 -1.7903 3.323 -1.8546 L3.323 -1.4379 Q3.1095 -1.3581 2.8821 -1.3216 Q2.6564 -1.2834 2.3421 -1.2834 Q1.7606 -1.2834 1.3717 -1.523 Q0.9828 -1.7643 0.7866 -2.207 Q0.5922 -2.6497 0.5922 -3.2469 Q0.5922 -3.8233 0.8022 -4.2625 Q1.014 -4.7018 1.4237 -4.95 Q1.8352 -5.1983 2.422 -5.1983 Q3.0244 -5.1983 3.4723 -4.9744 L3.2814 -4.5698 Q3.1043 -4.6497 2.8873 -4.7122 Q2.672 -4.7764 2.4168 -4.7764 Z" clip-path="url(#a4)" transform="matrix(1,0,0,-1,0,0)" stroke="none"
+        ><path d="M-2.1919 4.9706 L-2.6502 3.7918 L-4.1589 3.7918 L-4.612 4.9706 L-5.0981 4.9706 L-3.6103 1.146 L-3.178 1.146 L-1.6954 4.9706 L-2.1919 4.9706 ZM-3.2214 2.2137 Q-3.237 2.1703 -3.2752 2.0592 Q-3.3117 1.9463 -3.3464 1.8266 Q-3.3811 1.7068 -3.402 1.6425 Q-3.4402 1.8075 -3.4888 1.9654 Q-3.5357 2.1234 -3.5669 2.2137 L-3.9992 3.3647 L-2.7943 3.3647 L-3.2214 2.2137 Z" clip-path="url(#a4)" transform="matrix(-1,0,0,1,0,0)" stroke="none"
         /></g
         ><g text-rendering="geometricPrecision" stroke-miterlimit="4" stroke-width="0.5" stroke-linecap="butt"
         ><rect fill="none" x="0.2745" width="15.4511" height="15.4511" y="0.2745" clip-path="url(#a3)"
@@ -429,7 +429,7 @@ DLT4ixJEAAAAAElFTkSuQmCC"
     ><g fill="white" stroke="white"
     ><rect x="0" width="1390" height="1089" y="0" clip-path="url(#a1)" stroke="none"
     /></g
-    ><g fill="rgb(64,64,64)" text-rendering="geometricPrecision" stroke-width="3" stroke-linecap="round" stroke="rgb(64,64,64)" stroke-linejoin="round"
+    ><g fill="rgb(165,165,165)" text-rendering="geometricPrecision" stroke-width="3" stroke-linecap="round" stroke="rgb(165,165,165)" stroke-linejoin="round"
     ><rect fill="none" x="5" width="1380" height="1079" y="5" clip-path="url(#a1)"
       /><line y2="69" fill="none" x1="5" clip-path="url(#a1)" x2="483" y1="69"
       /><line y2="53" fill="none" x1="492" clip-path="url(#a1)" x2="492" y1="5"
