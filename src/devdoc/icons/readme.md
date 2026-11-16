@@ -43,23 +43,29 @@ Icons shall encode the SAF Domain of primary use, by the colored, and the domain
 
 ## Table Icons
 
-*   Tables in AD : ![Tables in OD](./SAF_A_Table.svg)
+*   Tables in AD : ![Tables in AD](./SAF_A_Table.svg)
 *   Tables in OD : ![Tables in OD](./SAF_O_Table.svg)
-*   Tables in CD : ![Tables in OD](./SAF_C_Table.svg)
-*   Tables in PD : ![Tables in OD](./SAF_P_Table.svg)
+*   Tables in CD : ![Tables in CD](./SAF_C_Table.svg)
+*   Tables in PD : ![Tables in PD](./SAF_P_Table.svg)
 
 ## BDD Icons
 
-*   BDD in AD : ![Tables in OD](./SAF_A_BDD.svg)
+*   BDD in AD : ![Tables in AD](./SAF_A_BDD.svg)
 *   BDD in OD : ![Tables in OD](./SAF_O_BDD.svg)
-*   BDD in CD : ![Tables in OD](./SAF_C_BDD.svg)
-*   BDD in PD : ![Tables in OD](./SAF_P_BDD.svg)
+*   BDD in CD : ![Tables in CD](./SAF_C_BDD.svg)
+*   BDD in PD : ![Tables in PD](./SAF_P_BDD.svg)
 
 ## IBD Icons
 
 *   IBD in OD : ![IBD in OD](./SAF_O_IBD.svg)
-*   IBD in CD : ![IBD in OD](./SAF_C_IBD.svg)
-*   IBD in PD : ![IBD in OD](./SAF_P_IBD.svg)
+*   IBD in CD : ![IBD in CD](./SAF_C_IBD.svg)
+*   IBD in PD : ![IBD in PD](./SAF_P_IBD.svg)
+
+## SD Icons
+
+*   SD in OD : ![SD in OD](./SAF_O_SD.svg)
+*   SD in CD : ![SD in CD](./SAF_C_SD.svg)
+*   SD in PD : ![SD in PD](./SAF_P_SD.svg)
 
 # Examples for Stereotyped Elements Icons
 
