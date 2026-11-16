@@ -218,12 +218,6 @@
     "ID" : "_19_0_1_26f0132_1554446894573_10154_45796",
     "Name" : "System Of Interest"
   }, {
-    "ID" : "_19_0_2_26f0132_1558075212525_51415_45174",
-    "Name" : "Logical Context SOI_ Deprecated"
-  }, {
-    "ID" : "_19_0_2_26f0132_1558075337119_355128_45325",
-    "Name" : "Physical SOI_deprecated"
-  }, {
     "ID" : "_19_0_2_26f0132_1562303524161_107047_91004",
     "Name" : "General Physical Role"
   }, {
@@ -484,9 +478,6 @@
     "ID" : "_19_0_2_26f0132_1558075136166_927385_45031",
     "Name" : "Physical Environment"
   }, {
-    "ID" : "_19_0_2_26f0132_1558075337119_355128_45325",
-    "Name" : "Physical SOI_deprecated"
-  }, {
     "ID" : "_19_0_2_26f0132_1558075355803_462669_45365",
     "Name" : "Physical Context Element"
   }, {
@@ -575,9 +566,6 @@
   }, {
     "ID" : "_19_0_2_26f0132_1558075062569_130489_44874",
     "Name" : "Conceptual External System"
-  }, {
-    "ID" : "_19_0_2_26f0132_1558075212525_51415_45174",
-    "Name" : "Logical Context SOI_ Deprecated"
   }, {
     "ID" : "_19_0_2_26f0132_1561753378434_784618_50481",
     "Name" : "Conceptual Exchange Type"
@@ -798,9 +786,6 @@
     "ID" : "_19_0_2_26f0132_1558075086129_173532_44926",
     "Name" : "Conceptual System Context"
   }, {
-    "ID" : "_19_0_2_26f0132_1558075212525_51415_45174",
-    "Name" : "Logical Context SOI_ Deprecated"
-  }, {
     "ID" : "_19_0_2_26f0132_1562303524161_367314_91006",
     "Name" : "allocated  to"
   }, {
@@ -831,9 +816,6 @@
     "ID" : "_19_0_2_8710274_1567171329121_821656_60902",
     "Name" : "Conceptual SOI Role"
   }, {
-    "ID" : "_19_0_4_26f0132_1624611043495_845903_880",
-    "Name" : "System Partial Function_deprecated"
-  }, {
     "ID" : "_19_0_4_26f0132_1624611972707_746294_1003",
     "Name" : "Context Function"
   }, {
@@ -845,12 +827,6 @@
   }, {
     "ID" : "_2021x_2_6d8019d_1677665541732_554257_25017",
     "Name" : "implementing"
-  }, {
-    "ID" : "_2021x_2_6d8019d_1677750594124_815801_24716",
-    "Name" : "allocated to"
-  }, {
-    "ID" : "_2021x_2_6d8019d_1677952512216_184791_24859",
-    "Name" : "allocated to"
   }, {
     "ID" : "_2021x_2_8710274_1675987240210_459780_32823",
     "Name" : "implementing"
@@ -1016,9 +992,6 @@
   }, {
     "ID" : "_19_0_2_26f0132_1558075086129_173532_44926",
     "Name" : "Conceptual System Context"
-  }, {
-    "ID" : "_19_0_2_26f0132_1558075212525_51415_45174",
-    "Name" : "Logical Context SOI_ Deprecated"
   }, {
     "ID" : "_19_0_2_8710274_1567171243005_813677_60746",
     "Name" : "Conceptual Context Element Role"
@@ -1297,9 +1270,6 @@
     "ID" : "_19_0_1_26f0132_1554446894573_10154_45796",
     "Name" : "System Of Interest"
   }, {
-    "ID" : "_19_0_2_26f0132_1558075212525_51415_45174",
-    "Name" : "Logical Context SOI_ Deprecated"
-  }, {
     "ID" : "_19_0_2_26f0132_1562303523973_719860_90882",
     "Name" : "System State"
   }, {
@@ -1361,9 +1331,6 @@
   }, {
     "ID" : "_19_0_2_26f0132_1558075086129_173532_44926",
     "Name" : "Conceptual System Context"
-  }, {
-    "ID" : "_19_0_2_26f0132_1558075212525_51415_45174",
-    "Name" : "Logical Context SOI_ Deprecated"
   }, {
     "ID" : "_19_0_2_26f0132_1562303521707_858780_89137",
     "Name" : "uses"
@@ -2373,9 +2340,6 @@
     "ID" : "_19_0_2_26f0132_1558075086129_173532_44926",
     "Name" : "Conceptual System Context"
   }, {
-    "ID" : "_19_0_2_26f0132_1558075212525_51415_45174",
-    "Name" : "Logical Context SOI_ Deprecated"
-  }, {
     "ID" : "_19_0_2_26f0132_1561750989144_963009_48675",
     "Name" : "Operational Story"
   }, {
@@ -2635,9 +2599,6 @@
   }, {
     "ID" : "_19_0_4_26f0132_1624610613457_313794_115",
     "Name" : "System Process"
-  }, {
-    "ID" : "_19_0_4_26f0132_1624611043495_845903_880",
-    "Name" : "System Partial Function_deprecated"
   }, {
     "ID" : "_19_0_4_26f0132_1624611972707_746294_1003",
     "Name" : "Context Function"
