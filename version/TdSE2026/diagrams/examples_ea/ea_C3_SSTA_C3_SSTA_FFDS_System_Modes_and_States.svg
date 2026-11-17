@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
 
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28.57cm" height="23.31cm" viewBox="0 0 1080 881">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40.59cm" height="20.27cm" viewBox="0 0 1534 766">
 <title></title>
 <desc>Created with Enterprise Architect (Build: 1721) 2</desc>
 
 <g style="fill:#FFFFFF;fill-opacity:1.00;">
-	 <rect x="0" y="0" width="1080" height="881" shape-rendering="auto"/>
+	 <rect x="0" y="0" width="1534" height="766" shape-rendering="auto"/>
 </g><g style="stroke-width:2;stroke-linecap:square;stroke-linejoin:miter; fill:#000000;fill-opacity:0.00; stroke:#B4B4B4; stroke-opacity:1.00;">
-  <path d="M 10 10 L 10 871 L 1070 871 L 1070 10 L 10 10" shape-rendering="auto"/>
+  <path d="M 10 10 L 10 756 L 1524 756 L 1524 10 L 10 10" shape-rendering="auto"/>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#9A8484; stroke-opacity:1.00;">
-  <path d="M 10 10 L 10 871 L 1070 871 L 1070 10 L 10 10" shape-rendering="auto"/>
+  <path d="M 10 10 L 10 756 L 1524 756 L 1524 10 L 10 10" shape-rendering="auto"/>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#FFFFFF;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
   <path d="M 10 30 L 382 30 L 395 16 L 395 10 L 10 10 Z" shape-rendering="auto"/>
@@ -21,218 +21,182 @@
 	<text x="32.00" y="23.00" textLength="348" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 32.00 23.00)">[package] C3_SSTA System State Viewpoint [C3_SSTA FFDS System Modes and States]</text>
 </g>
 <g style="stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel; fill:#F5EDD8;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
- <rect x="327" y="624" width="194" height="60" rx="20.00" shape-rendering="auto"  />
+ <rect x="535" y="508" width="260" height="90" rx="20.00" shape-rendering="auto"  />
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
-	<text x="383.00" y="640.00" textLength="82" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 383.00 640.00)">«SAF_SystemState»</text>
-	<text x="409.00" y="653.00" textLength="29" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 409.00 653.00)">Testing</text>
+	<text x="624.00" y="524.00" textLength="82" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 624.00 524.00)">«SAF_SystemState»</text>
+	<text x="650.00" y="537.00" textLength="29" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 650.00 537.00)">Testing</text>
 </g>
 <g style="stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#9A8484; stroke-opacity:1.00;">
-  <path d="M 327 661 L 520 661" shape-rendering="auto"/>
+  <path d="M 535 545 L 794 545" shape-rendering="auto"/>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#455633;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
-	<text x="332.00" y="675.00" textLength="103" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#455633;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 332.00 675.00)">do / Run Observation Test</text>
+	<text x="540.00" y="559.00" textLength="103" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#455633;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 540.00 559.00)">do / Run Observation Test</text>
 </g>
 <g style="stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel; fill:#F5EDD8;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
- <rect x="30" y="435" width="120" height="60" rx="20.00" shape-rendering="auto"  />
+ <rect x="100" y="508" width="260" height="90" rx="20.00" shape-rendering="auto"  />
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
-	<text x="49.00" y="451.00" textLength="82" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 49.00 451.00)">«SAF_SystemState»</text>
-	<text x="80.00" y="464.00" textLength="20" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 80.00 464.00)">Fault</text>
+	<text x="189.00" y="524.00" textLength="82" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 189.00 524.00)">«SAF_SystemState»</text>
+	<text x="220.00" y="537.00" textLength="20" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 220.00 537.00)">Fault</text>
 </g>
 <g style="stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel; fill:#F5EDD8;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
- <rect x="753" y="334" width="120" height="60" rx="20.00" shape-rendering="auto"  />
+ <rect x="1205" y="221" width="200" height="70" rx="20.00" shape-rendering="auto"  />
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
-	<text x="772.00" y="350.00" textLength="82" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 772.00 350.00)">«SAF_SystemState»</text>
-	<text x="786.00" y="363.00" textLength="53" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 786.00 363.00)">Maintenance</text>
+	<text x="1264.00" y="237.00" textLength="82" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 1264.00 237.00)">«SAF_SystemState»</text>
+	<text x="1278.00" y="250.00" textLength="53" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 1278.00 250.00)">Maintenance</text>
 </g>
 <g style="stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel; fill:#F5EDD8;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
- <rect x="30" y="129" width="120" height="60" rx="20.00" shape-rendering="auto"  />
+ <rect x="100" y="220" width="200" height="70" rx="20.00" shape-rendering="auto"  />
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
-	<text x="49.00" y="145.00" textLength="82" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 49.00 145.00)">«SAF_SystemState»</text>
-	<text x="83.00" y="158.00" textLength="13" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 83.00 158.00)">Off</text>
+	<text x="159.00" y="236.00" textLength="82" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 159.00 236.00)">«SAF_SystemState»</text>
+	<text x="193.00" y="249.00" textLength="13" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 193.00 249.00)">Off</text>
 </g>
 <g style="stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel; fill:#F5EDD8;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
- <rect x="327" y="210" width="206" height="89" rx="20.00" shape-rendering="auto"  />
+ <rect x="531" y="220" width="260" height="90" rx="20.00" shape-rendering="auto"  />
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
-	<text x="389.00" y="226.00" textLength="82" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 389.00 226.00)">«SAF_SystemState»</text>
-	<text x="409.00" y="239.00" textLength="41" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 409.00 239.00)">Operating</text>
+	<text x="620.00" y="236.00" textLength="82" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 620.00 236.00)">«SAF_SystemState»</text>
+	<text x="640.00" y="249.00" textLength="41" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 640.00 249.00)">Operating</text>
 </g>
 <g style="stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#9A8484; stroke-opacity:1.00;">
-  <path d="M 327 247 L 532 247" shape-rendering="auto"/>
+  <path d="M 531 257 L 790 257" shape-rendering="auto"/>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#455633;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
-	<text x="332.00" y="261.00" textLength="136" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#455633;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 332.00 261.00)">do / Fire Detection and Monitoring</text>
+	<text x="536.00" y="271.00" textLength="136" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#455633;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 536.00 271.00)">do / Fire Detection and Monitoring</text>
 </g>
 <g style="stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel; fill:#FBF7DB;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
- <rect x="478" y="418" width="462" height="90" rx="15.00" shape-rendering="auto"  />
+ <rect x="770" y="372" width="200" height="52" rx="15.00" shape-rendering="auto"  />
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
-	<text x="676.00" y="439.00" textLength="65" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 676.00 439.00)">«SAF_Function»</text>
-	<text x="637.00" y="452.00" textLength="144" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 637.00 452.00)">Switch System to Operational Mode</text>
-</g>
-<g style="stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#9A8484; stroke-opacity:1.00;">
-  <path d="M 478 455 L 939 455" shape-rendering="auto"/>
-</g>
-<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
-	<text x="700.00" y="469.00" textLength="17" style="font-family:Calibri; font-weight:0; font-style:italic; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 700.00 469.00)">tags</text>
-	<text x="483.00" y="482.00" textLength="269" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 483.00 482.00)">PostConditionStates = {E822AABC-C234-4d4e-BBE6-6CBE77A6FE7B}</text>
-	<text x="483.00" y="495.00" textLength="452" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 483.00 495.00)">PreConditionStates = {4ADAF8E1-E6A9-4511-9DFE-B40A5FE8550C},{9063BEA4-3CAB-44c6-87DE-E6E59ED44176}</text>
-	<text x="669.00" y="523.00" textLength="80" style="font-family:Calibri; font-weight:0; font-style:italic; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 669.00 523.00)">(from Maintenance)</text>
+	<text x="837.00" y="393.00" textLength="65" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 837.00 393.00)">«SAF_Function»</text>
+	<text x="798.00" y="406.00" textLength="144" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 798.00 406.00)">Switch System to Operational Mode</text>
+	<text x="830.00" y="439.00" textLength="80" style="font-family:Calibri; font-weight:0; font-style:italic; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 830.00 439.00)">(from Maintenance)</text>
 </g>
 <g style="stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel; fill:#FBF7DB;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
- <rect x="574" y="259" width="459" height="90" rx="15.00" shape-rendering="auto"  />
+ <rect x="1015" y="372" width="200" height="52" rx="15.00" shape-rendering="auto"  />
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
-	<text x="771.00" y="280.00" textLength="65" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 771.00 280.00)">«SAF_Function»</text>
-	<text x="745.00" y="293.00" textLength="117" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 745.00 293.00)">Switch to Maintenance Mode</text>
-</g>
-<g style="stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#9A8484; stroke-opacity:1.00;">
-  <path d="M 574 296 L 1032 296" shape-rendering="auto"/>
-</g>
-<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
-	<text x="795.00" y="310.00" textLength="17" style="font-family:Calibri; font-weight:0; font-style:italic; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 795.00 310.00)">tags</text>
-	<text x="579.00" y="323.00" textLength="272" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 579.00 323.00)">PostConditionStates = {4ADAF8E1-E6A9-4511-9DFE-B40A5FE8550C}</text>
-	<text x="579.00" y="336.00" textLength="449" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 579.00 336.00)">PreConditionStates = {E822AABC-C234-4d4e-BBE6-6CBE77A6FE7B},{9063BEA4-3CAB-44c6-87DE-E6E59ED44176}</text>
-	<text x="763.00" y="364.00" textLength="80" style="font-family:Calibri; font-weight:0; font-style:italic; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 763.00 364.00)">(from Maintenance)</text>
+	<text x="1082.00" y="393.00" textLength="65" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 1082.00 393.00)">«SAF_Function»</text>
+	<text x="1056.00" y="406.00" textLength="117" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 1056.00 406.00)">Switch to Maintenance Mode</text>
+	<text x="1075.00" y="439.00" textLength="80" style="font-family:Calibri; font-weight:0; font-style:italic; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 1075.00 439.00)">(from Maintenance)</text>
 </g>
 <g style="stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel; fill:#FBF7DB;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
- <rect x="171" y="330" width="464" height="90" rx="15.00" shape-rendering="auto"  />
+ <rect x="306" y="372" width="200" height="52" rx="15.00" shape-rendering="auto"  />
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
-	<text x="370.00" y="351.00" textLength="65" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 370.00 351.00)">«SAF_Function»</text>
-	<text x="367.00" y="364.00" textLength="72" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 367.00 364.00)">Switch System On</text>
-</g>
-<g style="stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#9A8484; stroke-opacity:1.00;">
-  <path d="M 171 367 L 634 367" shape-rendering="auto"/>
-</g>
-<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
-	<text x="394.00" y="381.00" textLength="17" style="font-family:Calibri; font-weight:0; font-style:italic; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 394.00 381.00)">tags</text>
-	<text x="176.00" y="394.00" textLength="454" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 176.00 394.00)">PostConditionStates = {F77F5F69-BC91-47c5-B17A-AD66261D62A4},{E822AABC-C234-4d4e-BBE6-6CBE77A6FE7B}</text>
-	<text x="176.00" y="407.00" textLength="264" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 176.00 407.00)">PreConditionStates = {61A43883-C793-4876-8645-3BCB9C008D26}</text>
-	<text x="363.00" y="435.00" textLength="80" style="font-family:Calibri; font-weight:0; font-style:italic; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 363.00 435.00)">(from Maintenance)</text>
+	<text x="373.00" y="393.00" textLength="65" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 373.00 393.00)">«SAF_Function»</text>
+	<text x="370.00" y="406.00" textLength="72" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 370.00 406.00)">Switch System On</text>
+	<text x="366.00" y="439.00" textLength="80" style="font-family:Calibri; font-weight:0; font-style:italic; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 366.00 439.00)">(from Maintenance)</text>
 </g>
 <g style="stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel; fill:#FBF7DB;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
- <rect x="320" y="722" width="462" height="90" rx="15.00" shape-rendering="auto"  />
+ <rect x="350" y="645" width="200" height="52" rx="15.00" shape-rendering="auto"  />
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
-	<text x="518.00" y="743.00" textLength="65" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 518.00 743.00)">«SAF_Function»</text>
-	<text x="510.00" y="756.00" textLength="81" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 510.00 756.00)">Switch to Test Mode</text>
-</g>
-<g style="stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#9A8484; stroke-opacity:1.00;">
-  <path d="M 320 759 L 781 759" shape-rendering="auto"/>
-</g>
-<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
-	<text x="542.00" y="773.00" textLength="17" style="font-family:Calibri; font-weight:0; font-style:italic; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 542.00 773.00)">tags</text>
-	<text x="325.00" y="786.00" textLength="269" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 325.00 786.00)">PostConditionStates = {9063BEA4-3CAB-44c6-87DE-E6E59ED44176}</text>
-	<text x="325.00" y="799.00" textLength="452" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 325.00 799.00)">PreConditionStates = {4ADAF8E1-E6A9-4511-9DFE-B40A5FE8550C},{E822AABC-C234-4d4e-BBE6-6CBE77A6FE7B}</text>
-	<text x="511.00" y="827.00" textLength="80" style="font-family:Calibri; font-weight:0; font-style:italic; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 511.00 827.00)">(from Maintenance)</text>
+	<text x="417.00" y="666.00" textLength="65" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 417.00 666.00)">«SAF_Function»</text>
+	<text x="409.00" y="679.00" textLength="81" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 409.00 679.00)">Switch to Test Mode</text>
+	<text x="410.00" y="712.00" textLength="80" style="font-family:Calibri; font-weight:0; font-style:italic; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 410.00 712.00)">(from Maintenance)</text>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#9A8484;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
-<ellipse cx="91.00" cy="63.00" rx="10.00" ry="10.00" shape-rendering="auto"  />
+<ellipse cx="190.00" cy="110.00" rx="10.00" ry="10.00" shape-rendering="auto"  />
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
-	<text x="80.00" y="45.00" textLength="19" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 80.00 45.00)">Start</text>
+	<text x="179.00" y="92.00" textLength="19" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 179.00 92.00)">Start</text>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#FFFFFF;fill-opacity:1.00; stroke:#658A99; stroke-opacity:1.00;">
-  <polygon points="410 41 410 129 760 129 760 53 748 41" shape-rendering="auto"   style="fill-rule:evenodd;"/>
+  <polygon points="939 50 939 108 1487 108 1487 62 1475 50" shape-rendering="auto"   style="fill-rule:evenodd;"/>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#DCDCDC;fill-opacity:1.00; stroke:#658A99; stroke-opacity:1.00;">
-  <polygon points="748 41 748 53 760 53" shape-rendering="auto"   style="fill-rule:evenodd;"/>
+  <polygon points="1475 50 1475 62 1487 62" shape-rendering="auto"   style="fill-rule:evenodd;"/>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#3C3C3C;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
-	<text x="415.00" y="78.00" textLength="325" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#3C3C3C;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 415.00 78.00)">1. The dependencies between transitions and system functions are only visual aids</text>
-	<text x="415.00" y="91.00" textLength="95" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#3C3C3C;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 415.00 91.00)">and not required by SAF</text>
-	<text x="415.00" y="104.00" textLength="330" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#3C3C3C;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 415.00 104.00)">2. The system functions are not an effect of the transitions but cause the transitions,</text>
-	<text x="415.00" y="117.00" textLength="148" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#3C3C3C;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 415.00 117.00)">see system process maintain system.</text>
+	<text x="944.00" y="87.00" textLength="422" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#3C3C3C;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 944.00 87.00)">1. The dependencies between transitions and system functions are only visual aids and not required by SAF</text>
+	<text x="944.00" y="100.00" textLength="480" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#3C3C3C;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 944.00 100.00)">2. The system functions are not an effect of the transitions but cause the transitions, see system process maintain system.</text>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00;">
-  <path d="M 150 189 L 150 244 L 327 244" shape-rendering="auto"/>
-  <path d="M 313 249 L 327 244 L 313 239" shape-rendering="auto"/>
-  <path d="M 122 189 L 122 434" shape-rendering="auto"/>
-  <path d="M 117 420 L 122 434 L 127 420" shape-rendering="auto"/>
-  <path d="M 533 221 L 781 221 L 781 334" shape-rendering="auto"/>
-  <path d="M 776 320 L 781 334 L 786 320" shape-rendering="auto"/>
-  <path d="M 391 210 L 391 175 L 150 175" shape-rendering="auto"/>
-  <path d="M 164 170 L 150 175 L 164 180" shape-rendering="auto"/>
-  <path d="M 346 299 L 346 623" shape-rendering="auto"/>
-  <path d="M 341 609 L 346 623 L 351 609" shape-rendering="auto"/>
-  <path d="M 55 435 L 55 190" shape-rendering="auto"/>
-  <path d="M 60 204 L 55 190 L 50 204" shape-rendering="auto"/>
-  <path d="M 849 394 L 849 664 L 521 664" shape-rendering="auto"/>
-  <path d="M 535 659 L 521 664 L 535 669" shape-rendering="auto"/>
-  <path d="M 753 367 L 486 367 L 486 299" shape-rendering="auto"/>
-  <path d="M 491 313 L 486 299 L 481 313" shape-rendering="auto"/>
-  <path d="M 852 334 L 852 151 L 150 151" shape-rendering="auto"/>
-  <path d="M 164 146 L 150 151 L 164 156" shape-rendering="auto"/>
-  <path d="M 521 629 L 787 629 L 787 394" shape-rendering="auto"/>
-  <path d="M 792 408 L 787 394 L 782 408" shape-rendering="auto"/>
-  <path d="M 423 623 L 423 299" shape-rendering="auto"/>
-  <path d="M 428 313 L 423 299 L 418 313" shape-rendering="auto"/>
+  <path d="M 301 265 L 531 265" shape-rendering="auto"/>
+  <path d="M 517 270 L 531 265 L 517 260" shape-rendering="auto"/>
+  <path d="M 240 291 L 240 508" shape-rendering="auto"/>
+  <path d="M 235 494 L 240 508 L 245 494" shape-rendering="auto"/>
+  <path d="M 791 257 L 1204 257" shape-rendering="auto"/>
+  <path d="M 1190 262 L 1204 257 L 1190 252" shape-rendering="auto"/>
+  <path d="M 670 220 L 670 175 L 249 175 L 249 220" shape-rendering="auto"/>
+  <path d="M 244 206 L 249 220 L 254 206" shape-rendering="auto"/>
+  <path d="M 613 310 L 613 507" shape-rendering="auto"/>
+  <path d="M 608 493 L 613 507 L 618 493" shape-rendering="auto"/>
+  <path d="M 153 508 L 153 291" shape-rendering="auto"/>
+  <path d="M 158 305 L 153 291 L 148 305" shape-rendering="auto"/>
+  <path d="M 1324 291 L 1324 638 L 661 638 L 661 598" shape-rendering="auto"/>
+  <path d="M 666 612 L 661 598 L 656 612" shape-rendering="auto"/>
+  <path d="M 1315 221 L 1315 146 L 226 146 L 226 220" shape-rendering="auto"/>
+  <path d="M 221 206 L 226 220 L 231 206" shape-rendering="auto"/>
+  <path d="M 795 537 L 1265 537 L 1265 291" shape-rendering="auto"/>
+  <path d="M 1270 305 L 1265 291 L 1260 305" shape-rendering="auto"/>
+  <path d="M 665 508 L 665 311" shape-rendering="auto"/>
+  <path d="M 670 325 L 665 311 L 660 325" shape-rendering="auto"/>
 </g>
 <g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:round; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00;" stroke-dasharray="6,3">
-  <path d="M 478 463 L 424 463 M 478 463" shape-rendering="auto"/>
+  <path d="M 770 398 L 666 398 M 770 398" shape-rendering="auto"/>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00;">
-  <path d="M 463 468 L 478 463 L 463 458" shape-rendering="auto"/>
+  <path d="M 755 403 L 770 398 L 755 393" shape-rendering="auto"/>
 </g>
 <g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:round; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00;" stroke-dasharray="6,3">
-  <path d="M 567 417 L 567 374 M 567 418 L 567 417 M 567 418" shape-rendering="auto"/>
+  <path d="M 871 372 L 871 257 M 871 372" shape-rendering="auto"/>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00;">
-  <path d="M 562 403 L 567 418 L 572 403" shape-rendering="auto"/>
+  <path d="M 866 357 L 871 372 L 876 357" shape-rendering="auto"/>
 </g>
 <g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:round; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00;" stroke-dasharray="6,3">
-  <path d="M 657 258 L 657 228 M 657 259 L 657 258 M 657 259" shape-rendering="auto"/>
+  <path d="M 1115 372 L 1115 264 M 1115 372" shape-rendering="auto"/>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00;">
-  <path d="M 652 244 L 657 259 L 662 244" shape-rendering="auto"/>
+  <path d="M 1110 357 L 1115 372 L 1120 357" shape-rendering="auto"/>
 </g>
 <g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:round; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00;" stroke-dasharray="6,3">
-  <path d="M 788 629 L 675 629 M 788 349 L 788 629 M 788 349" shape-rendering="auto"/>
+  <path d="M 1115 424 L 1115 537 M 1115 424" shape-rendering="auto"/>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00;">
-  <path d="M 793 364 L 788 349 L 783 364" shape-rendering="auto"/>
+  <path d="M 1120 439 L 1115 424 L 1110 439" shape-rendering="auto"/>
 </g>
 <g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:round; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00;" stroke-dasharray="6,3">
-  <path d="M 246 244 L 245 244 M 246 330 L 246 244 M 246 330" shape-rendering="auto"/>
+  <path d="M 405 265 L 443 265 M 405 372 L 405 265 M 405 372" shape-rendering="auto"/>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00;">
-  <path d="M 241 315 L 246 330 L 251 315" shape-rendering="auto"/>
+  <path d="M 400 357 L 405 372 L 410 357" shape-rendering="auto"/>
 </g>
 <g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:round; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00;" stroke-dasharray="6,3">
-  <path d="M 171 366 L 129 366 M 171 366" shape-rendering="auto"/>
+  <path d="M 306 398 L 199 398 M 306 398" shape-rendering="auto"/>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00;">
-  <path d="M 156 371 L 171 366 L 156 361" shape-rendering="auto"/>
+  <path d="M 291 403 L 306 398 L 291 393" shape-rendering="auto"/>
 </g>
 <g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:round; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00;" stroke-dasharray="6,3">
-  <path d="M 204 468 L 339 468 M 204 769 L 204 468 M 320 769 L 204 769 M 320 769" shape-rendering="auto"/>
+  <path d="M 457 451 L 606 451 M 457 645 L 457 451 M 457 645" shape-rendering="auto"/>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00;">
-  <path d="M 305 774 L 320 769 L 305 764" shape-rendering="auto"/>
+  <path d="M 452 630 L 457 645 L 462 630" shape-rendering="auto"/>
 </g>
 <g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:round; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00;" stroke-dasharray="6,3">
-  <path d="M 689 812 L 689 671 M 689 812" shape-rendering="auto"/>
+  <path d="M 881 675 L 881 645 M 550 675 L 881 675 M 550 675" shape-rendering="auto"/>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00;">
-  <path d="M 684 797 L 689 812 L 694 797" shape-rendering="auto"/>
-  <path d="M 90 73 L 90 129" shape-rendering="auto"/>
-  <path d="M 85 115 L 90 129 L 95 115" shape-rendering="auto"/>
+  <path d="M 565 670 L 550 675 L 565 680" shape-rendering="auto"/>
+  <path d="M 190 120 L 190 220" shape-rendering="auto"/>
+  <path d="M 185 206 L 190 220 L 195 206" shape-rendering="auto"/>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
-	<text x="24.00" y="308.00" textLength="63" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 24.00 308.00)">StopTheSystem</text>
-	<text x="433.00" y="329.00" textLength="107" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 433.00 329.00)">SwitchToOperationalMode</text>
-	<text x="731.00" y="507.00" textLength="113" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 731.00 507.00)">SwitchToMaintenanceMode</text>
-	<text x="339.00" y="501.00" textLength="77" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-90.00 339.00 501.00)">SwitchToTestMode</text>
-	<text x="90.00" y="307.00" textLength="64" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 90.00 307.00)">StartTheSystem</text>
-	<text x="647.00" y="660.00" textLength="77" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 647.00 660.00)">SwitchToTestMode</text>
-	<text x="206.00" y="240.00" textLength="64" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 206.00 240.00)">StartTheSystem</text>
-	<text x="410.00" y="521.00" textLength="108" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-90.00 410.00 521.00)">SwitchToOperationalMode</text>
-	<text x="473.00" y="147.00" textLength="57" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 473.00 147.00)">StopTheSignal</text>
-	<text x="239.00" y="171.00" textLength="63" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 239.00 171.00)">StopTheSystem</text>
+	<text x="523.00" y="482.00" textLength="77" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 523.00 482.00)">SwitchToTestMode</text>
+	<text x="1139.00" y="338.00" textLength="113" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 1139.00 338.00)">SwitchToMaintenanceMode</text>
+	<text x="158.00" y="395.00" textLength="64" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 158.00 395.00)">StartTheSystem</text>
+	<text x="679.00" y="343.00" textLength="107" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 679.00 343.00)">SwitchToOperationalMode</text>
+	<text x="384.00" y="251.00" textLength="64" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 384.00 251.00)">StartTheSystem</text>
+	<text x="72.00" y="395.00" textLength="63" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 72.00 395.00)">StopTheSystem</text>
+	<text x="944.00" y="243.00" textLength="107" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 944.00 243.00)">SwitchToOperationalMode</text>
+	<text x="742.00" y="132.00" textLength="57" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 742.00 132.00)">StopTheSignal</text>
+	<text x="954.00" y="624.00" textLength="77" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 954.00 624.00)">SwitchToTestMode</text>
+	<text x="428.00" y="161.00" textLength="63" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 428.00 161.00)">StopTheSystem</text>
 </g>
 </svg>
