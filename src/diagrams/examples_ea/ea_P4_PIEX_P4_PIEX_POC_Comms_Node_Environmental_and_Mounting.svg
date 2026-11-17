@@ -1,303 +1,296 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
 
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="29.69cm" height="18.92cm" viewBox="0 0 1122 715">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26.99cm" height="15.69cm" viewBox="0 0 1020 593">
 <title></title>
 <desc>Created with Enterprise Architect (Build: 1721) 2</desc>
 
 <g style="fill:#FFFFFF;fill-opacity:1.00;">
-	 <rect x="0" y="0" width="1122" height="715" shape-rendering="auto"/>
-</g><g style="stroke-width:2;stroke-linecap:square;stroke-linejoin:miter; fill:#000000;fill-opacity:0.00; stroke:#B4B4B4; stroke-opacity:1.00;">
-  <path d="M 10 10 L 10 705 L 1112 705 L 1112 10 L 10 10" shape-rendering="auto"/>
+	 <rect x="0" y="0" width="1020" height="593" shape-rendering="auto"/>
+</g><g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
+ <rect x="890" y="60" width="16" height="413" rx="0.00" shape-rendering="auto"  />
+ <rect x="40" y="542" width="184" height="16" rx="0.00" shape-rendering="auto"  />
+ <rect x="437" y="543" width="15" height="15" rx="0.00" shape-rendering="auto"  />
 </g>
-<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#9A8484; stroke-opacity:1.00;">
-  <path d="M 10 10 L 10 705 L 1112 705 L 1112 10 L 10 10" shape-rendering="auto"/>
+<g style="stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#B4B4B4; stroke-opacity:1.00;">
+  <path d="M 10 10 L 10 550 L 898 550 L 898 10 L 10 10" shape-rendering="auto"/>
 </g>
-<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#FFFFFF;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
-  <path d="M 10 30 L 494 30 L 507 16 L 507 10 L 10 10 Z" shape-rendering="auto"/>
+<g style="stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#32CD32; stroke-opacity:1.00;">
+  <path d="M 10 10 L 10 550 L 898 550 L 898 10 L 10 10" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel; fill:#FFFFFF;fill-opacity:1.00; stroke:#32CD32; stroke-opacity:1.00;">
+  <path d="M 10 30 L 431 30 L 444 16 L 444 10 L 10 10 Z" shape-rendering="auto"/>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
 	<text x="15.00" y="23.00" textLength="12" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 15.00 23.00)">ibd</text>
-	<text x="29.00" y="23.00" textLength="457" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 29.00 23.00)">[package] P4_PIEX Physical Internal Exchange Viewpoint [P4_PIEX POC Comms Node Environmental and Mounting]</text>
-</g>
-<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#9A8484; stroke-opacity:1.00;">
-  <path d="M 30 45 L 30 668 L 1075 668 L 1075 45 L 30 45" shape-rendering="auto"/>
-</g>
-<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#FFFFFF;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
-  <path d="M 30 45 L 30 65 L 451 65 L 464 51 L 464 45 Z" shape-rendering="auto"/>
-</g>
-<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
-	<text x="35.00" y="58.00" textLength="414" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 35.00 58.00)">ibd [SAF_PhysicalSystem] POC Comms Node [P4_PIEX POC Comms Node Environmental and Mounting]</text>
+	<text x="29.00" y="23.00" textLength="396" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 29.00 23.00)">[SAF_PhysicalSystem] POC Comms Node [P4_PIEX POC Comms Node Environmental and Mounting]</text>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
- <rect x="925" y="130" width="16" height="413" rx="0.00" shape-rendering="auto"  />
- <rect x="75" y="612" width="184" height="16" rx="0.00" shape-rendering="auto"  />
- <rect x="472" y="613" width="15" height="15" rx="0.00" shape-rendering="auto"  />
- <rect x="925" y="130" width="16" height="413" rx="0.00" shape-rendering="auto"  />
+ <rect x="890" y="60" width="16" height="413" rx="0.00" shape-rendering="auto"  />
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
-	<text x="958.00" y="556.00" textLength="64" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 958.00 556.00)">wind if of forest:</text>
-	<text x="936.00" y="569.00" textLength="108" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 936.00 569.00)">CommsNodeWindInterface</text>
+	<text x="923.00" y="486.00" textLength="64" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 923.00 486.00)">wind if of forest:</text>
+	<text x="901.00" y="499.00" textLength="108" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 901.00 499.00)">CommsNodeWindInterface</text>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
- <rect x="75" y="612" width="184" height="16" rx="0.00" shape-rendering="auto"  />
+ <rect x="40" y="542" width="184" height="16" rx="0.00" shape-rendering="auto"  />
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
-	<text x="152.00" y="641.00" textLength="31" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 152.00 641.00)">ground:</text>
-	<text x="124.00" y="654.00" textLength="86" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 124.00 654.00)">MastGroundInterface</text>
+	<text x="117.00" y="571.00" textLength="31" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 117.00 571.00)">ground:</text>
+	<text x="89.00" y="584.00" textLength="86" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 89.00 584.00)">MastGroundInterface</text>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
- <rect x="472" y="613" width="15" height="15" rx="0.00" shape-rendering="auto"  />
+ <rect x="437" y="543" width="15" height="15" rx="0.00" shape-rendering="auto"  />
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
-	<text x="452.00" y="641.00" textLength="54" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 452.00 641.00)">sun radiation:</text>
-	<text x="440.00" y="654.00" textLength="77" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 440.00 654.00)">MastSolarInterface</text>
+	<text x="417.00" y="571.00" textLength="54" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 417.00 571.00)">sun radiation:</text>
+	<text x="405.00" y="584.00" textLength="77" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 405.00 584.00)">MastSolarInterface</text>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
- <rect x="115" y="605" width="15" height="15" rx="0.00" shape-rendering="auto"  />
+ <rect x="80" y="535" width="15" height="15" rx="0.00" shape-rendering="auto"  />
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
-	<text x="129.00" y="605.00" textLength="69" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 129.00 605.00)">«proxy» electrical</text>
+	<text x="94.00" y="535.00" textLength="69" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 94.00 535.00)">«proxy» electrical</text>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
- <rect x="215" y="605" width="15" height="15" rx="0.00" shape-rendering="auto"  />
+ <rect x="180" y="535" width="15" height="15" rx="0.00" shape-rendering="auto"  />
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
-	<text x="238.00" y="605.00" textLength="79" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 238.00 605.00)">«proxy» mechanical</text>
+	<text x="203.00" y="535.00" textLength="79" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 203.00 535.00)">«proxy» mechanical</text>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
- <rect x="395" y="325" width="15" height="15" rx="0.00" shape-rendering="auto"  />
- <rect x="544" y="325" width="15" height="15" rx="0.00" shape-rendering="auto"  />
+ <rect x="360" y="255" width="15" height="15" rx="0.00" shape-rendering="auto"  />
+ <rect x="509" y="255" width="15" height="15" rx="0.00" shape-rendering="auto"  />
 </g>
 <g style="stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel; fill:#F0FFF0;fill-opacity:1.00; stroke:#32CD32; stroke-opacity:1.00;">
- <rect x="402" y="302" width="149" height="54" rx="0.00" shape-rendering="auto"  />
+ <rect x="367" y="232" width="149" height="54" rx="0.00" shape-rendering="auto"  />
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
-	<text x="415.00" y="317.00" textLength="123" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 415.00 317.00)">«SAF_PhysicalInternalRole,S...</text>
-	<text x="421.00" y="333.00" textLength="110" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 421.00 333.00)">lora modem: Dragino HP0D</text>
+	<text x="380.00" y="247.00" textLength="123" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 380.00 247.00)">«SAF_PhysicalInternalRole,S...</text>
+	<text x="386.00" y="263.00" textLength="110" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 386.00 263.00)">lora modem: Dragino HP0D</text>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
- <rect x="395" y="325" width="15" height="15" rx="0.00" shape-rendering="auto"  />
+ <rect x="360" y="255" width="15" height="15" rx="0.00" shape-rendering="auto"  />
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
-	<text x="371.00" y="353.00" textLength="20" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 371.00 353.00)">mast</text>
-	<text x="368.00" y="366.00" textLength="26" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 368.00 366.00)">mount</text>
+	<text x="336.00" y="283.00" textLength="20" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 336.00 283.00)">mast</text>
+	<text x="333.00" y="296.00" textLength="26" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 333.00 296.00)">mount</text>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
- <rect x="544" y="325" width="15" height="15" rx="0.00" shape-rendering="auto"  />
+ <rect x="509" y="255" width="15" height="15" rx="0.00" shape-rendering="auto"  />
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
-	<text x="554.00" y="353.00" textLength="61" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 554.00 353.00)">: LoRA Antenna</text>
+	<text x="519.00" y="283.00" textLength="61" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 519.00 283.00)">: LoRA Antenna</text>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
- <rect x="769" y="214" width="15" height="44" rx="0.00" shape-rendering="auto"  />
- <rect x="620" y="233" width="15" height="15" rx="0.00" shape-rendering="auto"  />
+ <rect x="734" y="144" width="15" height="44" rx="0.00" shape-rendering="auto"  />
+ <rect x="585" y="163" width="15" height="15" rx="0.00" shape-rendering="auto"  />
 </g>
 <g style="stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel; fill:#F0FFF0;fill-opacity:1.00; stroke:#32CD32; stroke-opacity:1.00;">
- <rect x="627" y="211" width="149" height="54" rx="0.00" shape-rendering="auto"  />
+ <rect x="592" y="141" width="149" height="54" rx="0.00" shape-rendering="auto"  />
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
-	<text x="646.00" y="226.00" textLength="111" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 646.00 226.00)">«SAF_PhysicalInternalRole»</text>
-	<text x="639.00" y="242.00" textLength="125" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 639.00 242.00)">lte modem &amp;antenna: Mikrotik</text>
-	<text x="679.00" y="255.00" textLength="44" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 679.00 255.00)">LHG LTE kit</text>
+	<text x="611.00" y="156.00" textLength="111" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 611.00 156.00)">«SAF_PhysicalInternalRole»</text>
+	<text x="604.00" y="172.00" textLength="125" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 604.00 172.00)">lte modem &amp;antenna: Mikrotik</text>
+	<text x="644.00" y="185.00" textLength="44" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 644.00 185.00)">LHG LTE kit</text>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
- <rect x="769" y="214" width="15" height="44" rx="0.00" shape-rendering="auto"  />
+ <rect x="734" y="144" width="15" height="44" rx="0.00" shape-rendering="auto"  />
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
-	<text x="779.00" y="271.00" textLength="103" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 779.00 271.00)">: LTE Modem RF Interface</text>
+	<text x="744.00" y="201.00" textLength="103" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 744.00 201.00)">: LTE Modem RF Interface</text>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
- <rect x="620" y="233" width="15" height="15" rx="0.00" shape-rendering="auto"  />
- <rect x="777" y="233" width="15" height="15" rx="0.00" shape-rendering="auto"  />
+ <rect x="585" y="163" width="15" height="15" rx="0.00" shape-rendering="auto"  />
+ <rect x="742" y="163" width="15" height="15" rx="0.00" shape-rendering="auto"  />
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
-	<text x="787.00" y="261.00" textLength="74" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 787.00 261.00)">: LTE Dish Antenna</text>
+	<text x="752.00" y="191.00" textLength="74" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 752.00 191.00)">: LTE Dish Antenna</text>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
- <rect x="395" y="230" width="15" height="15" rx="0.00" shape-rendering="auto"  />
- <rect x="544" y="233" width="15" height="15" rx="0.00" shape-rendering="auto"  />
+ <rect x="360" y="160" width="15" height="15" rx="0.00" shape-rendering="auto"  />
+ <rect x="509" y="163" width="15" height="15" rx="0.00" shape-rendering="auto"  />
 </g>
 <g style="stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel; fill:#F0FFF0;fill-opacity:1.00; stroke:#32CD32; stroke-opacity:1.00;">
- <rect x="402" y="211" width="149" height="54" rx="0.00" shape-rendering="auto"  />
+ <rect x="367" y="141" width="149" height="54" rx="0.00" shape-rendering="auto"  />
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
-	<text x="421.00" y="226.00" textLength="111" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 421.00 226.00)">«SAF_PhysicalInternalRole»</text>
-	<text x="432.00" y="242.00" textLength="88" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 432.00 242.00)">mast mount: Mikrotik</text>
-	<text x="454.00" y="255.00" textLength="45" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 454.00 255.00)">Solidmount</text>
+	<text x="386.00" y="156.00" textLength="111" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 386.00 156.00)">«SAF_PhysicalInternalRole»</text>
+	<text x="397.00" y="172.00" textLength="88" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 397.00 172.00)">mast mount: Mikrotik</text>
+	<text x="419.00" y="185.00" textLength="45" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 419.00 185.00)">Solidmount</text>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
- <rect x="395" y="230" width="15" height="15" rx="0.00" shape-rendering="auto"  />
+ <rect x="360" y="160" width="15" height="15" rx="0.00" shape-rendering="auto"  />
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
-	<text x="371.00" y="258.00" textLength="20" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 371.00 258.00)">mast</text>
-	<text x="368.00" y="271.00" textLength="26" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 368.00 271.00)">mount</text>
+	<text x="336.00" y="188.00" textLength="20" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 336.00 188.00)">mast</text>
+	<text x="333.00" y="201.00" textLength="26" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 333.00 201.00)">mount</text>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
- <rect x="544" y="233" width="15" height="15" rx="0.00" shape-rendering="auto"  />
- <rect x="395" y="422" width="15" height="15" rx="0.00" shape-rendering="auto"  />
+ <rect x="509" y="163" width="15" height="15" rx="0.00" shape-rendering="auto"  />
+ <rect x="360" y="352" width="15" height="15" rx="0.00" shape-rendering="auto"  />
 </g>
 <g style="stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel; fill:#F0FFF0;fill-opacity:1.00; stroke:#32CD32; stroke-opacity:1.00;">
- <rect x="402" y="406" width="149" height="54" rx="0.00" shape-rendering="auto"  />
+ <rect x="367" y="336" width="149" height="54" rx="0.00" shape-rendering="auto"  />
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
-	<text x="421.00" y="421.00" textLength="111" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 421.00 421.00)">«SAF_PhysicalInternalRole»</text>
-	<text x="445.00" y="437.00" textLength="62" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 445.00 437.00)">cabling: Cabling</text>
+	<text x="386.00" y="351.00" textLength="111" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 386.00 351.00)">«SAF_PhysicalInternalRole»</text>
+	<text x="410.00" y="367.00" textLength="62" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 410.00 367.00)">cabling: Cabling</text>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
- <rect x="395" y="422" width="15" height="15" rx="0.00" shape-rendering="auto"  />
+ <rect x="360" y="352" width="15" height="15" rx="0.00" shape-rendering="auto"  />
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
-	<text x="364.00" y="450.00" textLength="20" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 364.00 450.00)">mast</text>
-	<text x="361.00" y="463.00" textLength="26" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 361.00 463.00)">mount</text>
+	<text x="336.00" y="380.00" textLength="20" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 336.00 380.00)">mast</text>
+	<text x="333.00" y="393.00" textLength="26" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 333.00 393.00)">mount</text>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
- <rect x="74" y="531" width="186" height="16" rx="0.00" shape-rendering="auto"  />
- <rect x="252" y="371" width="15" height="15" rx="0.00" shape-rendering="auto"  />
+ <rect x="39" y="461" width="186" height="16" rx="0.00" shape-rendering="auto"  />
+ <rect x="217" y="301" width="15" height="15" rx="0.00" shape-rendering="auto"  />
 </g>
 <g style="stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel; fill:#F0FFF0;fill-opacity:1.00; stroke:#32CD32; stroke-opacity:1.00;">
- <rect x="75" y="133" width="184" height="406" rx="0.00" shape-rendering="auto"  />
+ <rect x="40" y="63" width="184" height="406" rx="0.00" shape-rendering="auto"  />
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
-	<text x="111.00" y="148.00" textLength="111" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 111.00 148.00)">«SAF_PhysicalInternalRole»</text>
-	<text x="144.00" y="164.00" textLength="46" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 144.00 164.00)">mast: Mast</text>
+	<text x="76.00" y="78.00" textLength="111" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 76.00 78.00)">«SAF_PhysicalInternalRole»</text>
+	<text x="109.00" y="94.00" textLength="46" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 109.00 94.00)">mast: Mast</text>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
- <rect x="74" y="531" width="186" height="16" rx="0.00" shape-rendering="auto"  />
+ <rect x="39" y="461" width="186" height="16" rx="0.00" shape-rendering="auto"  />
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
-	<text x="124.00" y="527.00" textLength="91" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 124.00 527.00)">: MastGroundInterface</text>
+	<text x="89.00" y="457.00" textLength="91" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 89.00 457.00)">: MastGroundInterface</text>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
- <rect x="252" y="371" width="15" height="15" rx="0.00" shape-rendering="auto"  />
+ <rect x="217" y="301" width="15" height="15" rx="0.00" shape-rendering="auto"  />
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
-	<text x="262.00" y="399.00" textLength="83" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 262.00 399.00)">: MastWindInterface</text>
+	<text x="227.00" y="329.00" textLength="83" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 227.00 329.00)">: MastWindInterface</text>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
- <rect x="115" y="540" width="15" height="15" rx="0.00" shape-rendering="auto"  />
+ <rect x="80" y="470" width="15" height="15" rx="0.00" shape-rendering="auto"  />
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
-	<text x="131.00" y="567.00" textLength="69" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 131.00 567.00)">«proxy» electrical</text>
+	<text x="96.00" y="497.00" textLength="69" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 96.00 497.00)">«proxy» electrical</text>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
- <rect x="215" y="540" width="15" height="15" rx="0.00" shape-rendering="auto"  />
+ <rect x="180" y="470" width="15" height="15" rx="0.00" shape-rendering="auto"  />
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
-	<text x="237.00" y="566.00" textLength="79" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 237.00 566.00)">«proxy» mechanical</text>
+	<text x="202.00" y="496.00" textLength="79" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 202.00 496.00)">«proxy» mechanical</text>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
- <rect x="395" y="501" width="15" height="15" rx="0.00" shape-rendering="auto"  />
- <rect x="471" y="531" width="15" height="15" rx="0.00" shape-rendering="auto"  />
+ <rect x="360" y="431" width="15" height="15" rx="0.00" shape-rendering="auto"  />
+ <rect x="436" y="461" width="15" height="15" rx="0.00" shape-rendering="auto"  />
 </g>
 <g style="stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel; fill:#F0FFF0;fill-opacity:1.00; stroke:#32CD32; stroke-opacity:1.00;">
- <rect x="402" y="484" width="149" height="54" rx="0.00" shape-rendering="auto"  />
+ <rect x="367" y="414" width="149" height="54" rx="0.00" shape-rendering="auto"  />
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
-	<text x="421.00" y="499.00" textLength="111" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 421.00 499.00)">«SAF_PhysicalInternalRole»</text>
-	<text x="430.00" y="515.00" textLength="92" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 430.00 515.00)">psu: Comms Node PSU</text>
+	<text x="386.00" y="429.00" textLength="111" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 386.00 429.00)">«SAF_PhysicalInternalRole»</text>
+	<text x="395.00" y="445.00" textLength="92" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 395.00 445.00)">psu: Comms Node PSU</text>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
- <rect x="395" y="501" width="15" height="15" rx="0.00" shape-rendering="auto"  />
+ <rect x="360" y="431" width="15" height="15" rx="0.00" shape-rendering="auto"  />
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
-	<text x="364.00" y="529.00" textLength="20" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 364.00 529.00)">mast</text>
-	<text x="361.00" y="542.00" textLength="26" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 361.00 542.00)">mount</text>
+	<text x="336.00" y="459.00" textLength="20" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 336.00 459.00)">mast</text>
+	<text x="333.00" y="472.00" textLength="26" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 333.00 472.00)">mount</text>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
- <rect x="471" y="531" width="15" height="15" rx="0.00" shape-rendering="auto"  />
+ <rect x="436" y="461" width="15" height="15" rx="0.00" shape-rendering="auto"  />
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
-	<text x="491.00" y="553.00" textLength="82" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 491.00 553.00)">: MastSolarInterface</text>
+	<text x="456.00" y="483.00" textLength="82" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 456.00 483.00)">: MastSolarInterface</text>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
- <rect x="395" y="153" width="15" height="15" rx="0.00" shape-rendering="auto"  />
+ <rect x="360" y="83" width="15" height="15" rx="0.00" shape-rendering="auto"  />
 </g>
 <g style="stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel; fill:#F0FFF0;fill-opacity:1.00; stroke:#32CD32; stroke-opacity:1.00;">
- <rect x="402" y="133" width="149" height="54" rx="0.00" shape-rendering="auto"  />
+ <rect x="367" y="63" width="149" height="54" rx="0.00" shape-rendering="auto"  />
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
-	<text x="421.00" y="148.00" textLength="111" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 421.00 148.00)">«SAF_PhysicalInternalRole»</text>
-	<text x="422.00" y="164.00" textLength="109" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 422.00 164.00)">camera Assembly: Camera</text>
-	<text x="457.00" y="177.00" textLength="39" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 457.00 177.00)">Assembly</text>
+	<text x="386.00" y="78.00" textLength="111" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 386.00 78.00)">«SAF_PhysicalInternalRole»</text>
+	<text x="387.00" y="94.00" textLength="109" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 387.00 94.00)">camera Assembly: Camera</text>
+	<text x="422.00" y="107.00" textLength="39" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 422.00 107.00)">Assembly</text>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
- <rect x="395" y="153" width="15" height="15" rx="0.00" shape-rendering="auto"  />
+ <rect x="360" y="83" width="15" height="15" rx="0.00" shape-rendering="auto"  />
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
-	<text x="371.00" y="181.00" textLength="20" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 371.00 181.00)">mast</text>
-	<text x="368.00" y="194.00" textLength="26" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 368.00 194.00)">mount</text>
+	<text x="336.00" y="111.00" textLength="20" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 336.00 111.00)">mast</text>
+	<text x="333.00" y="124.00" textLength="26" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 333.00 124.00)">mount</text>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#658A99; stroke-opacity:1.00;" stroke-dasharray="3,3">
-  <path d="M 657 408 L 596 381" shape-rendering="auto"/>
-  <path d="M 700 406 L 742 332" shape-rendering="auto"/>
+  <path d="M 622 338 L 561 311" shape-rendering="auto"/>
+  <path d="M 665 336 L 707 262" shape-rendering="auto"/>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#FFFFFF;fill-opacity:1.00; stroke:#658A99; stroke-opacity:1.00;">
-  <polygon points="657 406 657 443 725 443 725 418 713 406" shape-rendering="auto"   style="fill-rule:evenodd;"/>
+  <polygon points="622 336 622 373 690 373 690 348 678 336" shape-rendering="auto"   style="fill-rule:evenodd;"/>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#DCDCDC;fill-opacity:1.00; stroke:#658A99; stroke-opacity:1.00;">
-  <polygon points="713 406 713 418 725 418" shape-rendering="auto"   style="fill-rule:evenodd;"/>
+  <polygon points="678 336 678 348 690 348" shape-rendering="auto"   style="fill-rule:evenodd;"/>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#3C3C3C;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
-	<text x="662.00" y="430.00" textLength="53" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#3C3C3C;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 662.00 430.00)">wind load tbd</text>
+	<text x="627.00" y="360.00" textLength="53" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#3C3C3C;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 627.00 360.00)">wind load tbd</text>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00;">
-  <path d="M 925 157 L 551 157" shape-rendering="auto"/>
+  <path d="M 890 87 L 516 87" shape-rendering="auto"/>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#69738C;fill-opacity:1.00; stroke:#69738C; stroke-opacity:1.00;">
-  <polygon points="644 157 654 162 654 152" shape-rendering="auto"   style="fill-rule:evenodd;"/>
+  <polygon points="609 87 619 92 619 82" shape-rendering="auto"   style="fill-rule:evenodd;"/>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
-	<text x="666.00" y="135.00" textLength="121" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 666.00 135.00)">«SAF_PhysicalExchangeType»</text>
-	<text x="683.00" y="148.00" textLength="88" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 683.00 148.00)">windload camera assy</text>
+	<text x="631.00" y="65.00" textLength="121" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 631.00 65.00)">«SAF_PhysicalExchangeType»</text>
+	<text x="648.00" y="78.00" textLength="88" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 648.00 78.00)">windload camera assy</text>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00;">
-  <path d="M 925 332 L 559 332" shape-rendering="auto"/>
+  <path d="M 890 262 L 524 262" shape-rendering="auto"/>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#69738C;fill-opacity:1.00; stroke:#69738C; stroke-opacity:1.00;">
-  <polygon points="650 332 660 337 660 327" shape-rendering="auto"   style="fill-rule:evenodd;"/>
+  <polygon points="615 262 625 267 625 257" shape-rendering="auto"   style="fill-rule:evenodd;"/>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
-	<text x="659.00" y="315.00" textLength="121" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 659.00 315.00)">«SAF_PhysicalExchangeType»</text>
-	<text x="674.00" y="328.00" textLength="92" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 674.00 328.00)">windload LoRa antenna</text>
+	<text x="624.00" y="245.00" textLength="121" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 624.00 245.00)">«SAF_PhysicalExchangeType»</text>
+	<text x="639.00" y="258.00" textLength="92" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 639.00 258.00)">windload LoRa antenna</text>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00;">
-  <path d="M 925 381 L 267 381" shape-rendering="auto"/>
+  <path d="M 890 311 L 232 311" shape-rendering="auto"/>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#69738C;fill-opacity:1.00; stroke:#69738C; stroke-opacity:1.00;">
-  <polygon points="431 381 441 386 441 376" shape-rendering="auto"   style="fill-rule:evenodd;"/>
+  <polygon points="396 311 406 316 406 306" shape-rendering="auto"   style="fill-rule:evenodd;"/>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
-	<text x="660.00" y="360.00" textLength="121" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 660.00 360.00)">«SAF_PhysicalExchangeType»</text>
-	<text x="692.00" y="373.00" textLength="58" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 692.00 373.00)">windload mast</text>
+	<text x="625.00" y="290.00" textLength="121" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 625.00 290.00)">«SAF_PhysicalExchangeType»</text>
+	<text x="657.00" y="303.00" textLength="58" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 657.00 303.00)">windload mast</text>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00;">
-  <path d="M 925 245 L 792 245" shape-rendering="auto"/>
+  <path d="M 890 175 L 757 175" shape-rendering="auto"/>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#69738C;fill-opacity:1.00; stroke:#69738C; stroke-opacity:1.00;">
-  <polygon points="825 245 835 250 835 240" shape-rendering="auto"   style="fill-rule:evenodd;"/>
+  <polygon points="790 175 800 180 800 170" shape-rendering="auto"   style="fill-rule:evenodd;"/>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
-	<text x="793.00" y="225.00" textLength="121" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 793.00 225.00)">«SAF_PhysicalExchangeType»</text>
-	<text x="819.00" y="238.00" textLength="70" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 819.00 238.00)">windload LTE dish</text>
+	<text x="758.00" y="155.00" textLength="121" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 758.00 155.00)">«SAF_PhysicalExchangeType»</text>
+	<text x="784.00" y="168.00" textLength="70" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 784.00 168.00)">windload LTE dish</text>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00;">
-  <path d="M 91 547 L 91 612" shape-rendering="auto"/>
-  <path d="M 395 165 L 260 165 L 259 165" shape-rendering="auto"/>
-  <path d="M 395 241 L 259 241" shape-rendering="auto"/>
-  <path d="M 395 332 L 259 332" shape-rendering="auto"/>
-  <path d="M 395 429 L 259 429" shape-rendering="auto"/>
-  <path d="M 395 507 L 259 507" shape-rendering="auto"/>
+  <path d="M 56 477 L 56 542" shape-rendering="auto"/>
+  <path d="M 360 95 L 225 95 L 224 95" shape-rendering="auto"/>
+  <path d="M 360 171 L 224 171" shape-rendering="auto"/>
+  <path d="M 360 262 L 224 262" shape-rendering="auto"/>
+  <path d="M 360 359 L 224 359" shape-rendering="auto"/>
+  <path d="M 360 437 L 224 437" shape-rendering="auto"/>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#658A99; stroke-opacity:1.00;" stroke-dasharray="3,3">
-  <path d="M 553 340 L 657 416 M 553 340" shape-rendering="auto"/>
+  <path d="M 518 270 L 622 346 M 518 270" shape-rendering="auto"/>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00;">
-  <path d="M 620 240 L 559 240" shape-rendering="auto"/>
-  <path d="M 478 613 L 478 546" shape-rendering="auto"/>
+  <path d="M 585 170 L 524 170" shape-rendering="auto"/>
+  <path d="M 443 543 L 443 476" shape-rendering="auto"/>
 </g>
 <g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
-	<text x="479.00" y="591.00" textLength="32" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 479.00 591.00)">«equal»</text>
-	<text x="92.00" y="591.00" textLength="32" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 92.00 591.00)">«equal»</text>
+	<text x="444.00" y="521.00" textLength="32" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 444.00 521.00)">«equal»</text>
+	<text x="57.00" y="521.00" textLength="32" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 57.00 521.00)">«equal»</text>
 </g>
 </svg>

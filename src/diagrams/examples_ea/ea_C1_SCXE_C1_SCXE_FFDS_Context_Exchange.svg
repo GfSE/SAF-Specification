@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30.64cm" height="17.44cm" viewBox="0 0 1158 659">
+<title></title>
+<desc>Created with Enterprise Architect (Build: 1721) 2</desc>
+
+<g style="fill:#FFFFFF;fill-opacity:1.00;">
+	 <rect x="0" y="0" width="1158" height="659" shape-rendering="auto"/>
+</g><g style="stroke-width:2;stroke-linecap:square;stroke-linejoin:miter; fill:#000000;fill-opacity:0.00; stroke:#B4B4B4; stroke-opacity:1.00;">
+  <path d="M 10 10 L 10 649 L 1148 649 L 1148 10 L 10 10" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:2;stroke-linecap:round;stroke-linejoin:round; fill:#000000;fill-opacity:0.00; stroke:#9A8484; stroke-opacity:1.00;">
+  <path d="M 10 10 L 10 649 L 1148 649 L 1148 10 L 10 10" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:2;stroke-linecap:round;stroke-linejoin:round; fill:#FFFFFF;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
+  <path d="M 10 30 L 254 30 L 267 16 L 267 10 L 10 10 Z" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:round; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
+	<text x="15.00" y="23.00" textLength="12" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 15.00 23.00)">ibd</text>
+	<text x="29.00" y="23.00" textLength="219" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 29.00 23.00)">[Class] FFDS Context [C1_SCXE FFDS Context Exchange]</text>
+</g>
+<g style="stroke-width:2;stroke-linecap:square;stroke-linejoin:round; fill:#000000;fill-opacity:0.00; stroke:#4169E1; stroke-opacity:1.00;" stroke-dasharray="7,4">
+ <rect x="102" y="194" width="494" height="131" rx="12.00" shape-rendering="auto" stroke-dasharray="7,4" />
+</g>
+<g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:round; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
+	<text x="312.00" y="210.00" textLength="73" style="font-family:Calibri; font-weight:400; font-style:normal; font-size:13px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 312.00 210.00)">SoI Black Box</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:round; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
+ <rect x="147" y="286" width="201" height="24" rx="0.00" shape-rendering="auto"  />
+ <rect x="439" y="286" width="115" height="26" rx="0.00" shape-rendering="auto"  />
+  <path d="M 521 215 L 536 215 L 536 230 L 521 230 L 521 215 Z" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#9A8484; stroke-opacity:1.00;">
+  <path d="M 528 218 L 528 227" shape-rendering="auto"/>
+  <path d="M 526 224 L 528 227" shape-rendering="auto"/>
+  <path d="M 532 224 L 528 227" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
+  <path d="M 435 215 L 450 215 L 450 230 L 435 230 L 435 215 Z" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#9A8484; stroke-opacity:1.00;">
+  <path d="M 442 218 L 442 227" shape-rendering="auto"/>
+  <path d="M 440 224 L 442 227" shape-rendering="auto"/>
+  <path d="M 446 224 L 442 227" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#FF9999;fill-opacity:1.00; stroke:#000000; stroke-opacity:1.00;">
+ <rect x="128" y="220" width="444" height="78" rx="0.00" shape-rendering="auto"  />
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
+	<text x="280.00" y="235.00" textLength="140" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 280.00 235.00)">«SAF_ConceptualContextRole_SoI»</text>
+	<text x="325.00" y="251.00" textLength="50" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 325.00 251.00)">SoI: FFDS[1]</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:round; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
+ <rect x="147" y="286" width="201" height="24" rx="0.00" shape-rendering="auto"  />
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:round; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
+	<text x="220.00" y="298.00" textLength="41" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 220.00 298.00)">: SIF FFDS</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:round; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
+ <rect x="439" y="286" width="115" height="26" rx="0.00" shape-rendering="auto"  />
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:round; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
+	<text x="474.00" y="299.00" textLength="42" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 474.00 299.00)">: HIF FFDS</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
+  <path d="M 521 215 L 536 215 L 536 230 L 521 230 L 521 215 Z" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#9A8484; stroke-opacity:1.00;">
+  <path d="M 528 218 L 528 227" shape-rendering="auto"/>
+  <path d="M 526 224 L 528 227" shape-rendering="auto"/>
+  <path d="M 532 224 L 528 227" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
+	<text x="539.00" y="218.00" textLength="35" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 539.00 218.00)">: EIF Fire</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
+  <path d="M 435 215 L 450 215 L 450 230 L 435 230 L 435 215 Z" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#9A8484; stroke-opacity:1.00;">
+  <path d="M 442 218 L 442 227" shape-rendering="auto"/>
+  <path d="M 440 224 L 442 227" shape-rendering="auto"/>
+  <path d="M 446 224 L 442 227" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
+	<text x="453.00" y="218.00" textLength="50" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 453.00 218.00)">: EIF Climate</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
+  <path d="M 198 303 L 213 303 L 213 318 L 198 318 L 198 303 Z" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#9A8484; stroke-opacity:1.00;">
+  <path d="M 206 306 L 206 315" shape-rendering="auto"/>
+  <path d="M 202 312 L 206 315" shape-rendering="auto"/>
+  <path d="M 208 312 L 206 315" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
+	<text x="226.00" y="491.00" textLength="159" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-90.00 226.00 491.00)">SIF_acu: SIF Fire Department reporting</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
+  <path d="M 337 303 L 352 303 L 352 318 L 337 318 L 337 303 Z" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#9A8484; stroke-opacity:1.00;">
+  <path d="M 344 306 L 342 309" shape-rendering="auto"/>
+  <path d="M 344 306 L 348 309" shape-rendering="auto"/>
+  <path d="M 344 315 L 342 312" shape-rendering="auto"/>
+  <path d="M 344 315 L 348 312" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
+	<text x="365.00" y="473.00" textLength="143" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-90.00 365.00 473.00)">SIF_rcu: SIF Research Analysis data</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
+  <path d="M 147 303 L 162 303 L 162 318 L 147 318 L 147 303 Z" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#9A8484; stroke-opacity:1.00;">
+  <path d="M 154 306 L 154 315" shape-rendering="auto"/>
+  <path d="M 152 309 L 154 306" shape-rendering="auto"/>
+  <path d="M 158 309 L 154 306" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
+	<text x="174.00" y="462.00" textLength="131" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-90.00 174.00 462.00)">SIF_scu: SIF Satellite Image data</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
+  <path d="M 266 303 L 281 303 L 281 318 L 266 318 L 266 303 Z" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#9A8484; stroke-opacity:1.00;">
+  <path d="M 274 306 L 274 315" shape-rendering="auto"/>
+  <path d="M 270 309 L 274 306" shape-rendering="auto"/>
+  <path d="M 276 309 L 274 306" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
+	<text x="293.00" y="479.00" textLength="147" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-90.00 293.00 479.00)">SIF_wcu: SIF Weather Forecast data</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:round; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
+ <rect x="534" y="304" width="15" height="15" rx="0.00" shape-rendering="auto"  />
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:round; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
+	<text x="563.00" y="372.00" textLength="39" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-90.00 563.00 372.00)">HIF_admi</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:round; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
+ <rect x="492" y="304" width="15" height="15" rx="0.00" shape-rendering="auto"  />
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:round; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
+	<text x="518.00" y="367.00" textLength="35" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-90.00 518.00 367.00)">HIF_mnt</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
+  <path d="M 450 304 L 465 304 L 465 319 L 450 319 L 450 304 Z" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#9A8484; stroke-opacity:1.00;">
+  <path d="M 458 307 L 454 310" shape-rendering="auto"/>
+  <path d="M 458 307 L 460 310" shape-rendering="auto"/>
+  <path d="M 458 316 L 454 313" shape-rendering="auto"/>
+  <path d="M 458 316 L 460 313" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
+	<text x="478.00" y="426.00" textLength="92" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-90.00 478.00 426.00)">HIF_ocu: HIF Operator</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
+  <path d="M 690 172 L 705 172 L 705 187 L 690 187 L 690 172 Z" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#9A8484; stroke-opacity:1.00;">
+  <path d="M 693 180 L 702 180" shape-rendering="auto"/>
+  <path d="M 696 176 L 693 180" shape-rendering="auto"/>
+  <path d="M 696 182 L 693 180" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#B5E6CB;fill-opacity:1.00; stroke:#000000; stroke-opacity:1.00;">
+ <rect x="696" y="151" width="165" height="54" rx="0.00" shape-rendering="auto"  />
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
+	<text x="717.00" y="166.00" textLength="122" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 717.00 166.00)">«SAF_ConceptualContextRole»</text>
+	<text x="750.00" y="182.00" textLength="57" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 750.00 182.00)">fire: Fire[0..*]</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
+  <path d="M 690 172 L 705 172 L 705 187 L 690 187 L 690 172 Z" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#9A8484; stroke-opacity:1.00;">
+  <path d="M 693 180 L 702 180" shape-rendering="auto"/>
+  <path d="M 696 176 L 693 180" shape-rendering="auto"/>
+  <path d="M 696 182 L 693 180" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
+	<text x="656.00" y="200.00" textLength="40" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 656.00 200.00)">: ~EIF Fire</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
+  <path d="M 690 98 L 705 98 L 705 113 L 690 113 L 690 98 Z" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#9A8484; stroke-opacity:1.00;">
+  <path d="M 693 106 L 702 106" shape-rendering="auto"/>
+  <path d="M 696 102 L 693 106" shape-rendering="auto"/>
+  <path d="M 696 108 L 693 106" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#B5E6CB;fill-opacity:1.00; stroke:#000000; stroke-opacity:1.00;">
+ <rect x="696" y="78" width="165" height="54" rx="0.00" shape-rendering="auto"  />
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
+	<text x="717.00" y="93.00" textLength="122" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 717.00 93.00)">«SAF_ConceptualContextRole»</text>
+	<text x="735.00" y="109.00" textLength="86" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 735.00 109.00)">climate: Climate[1..*]</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
+  <path d="M 690 98 L 705 98 L 705 113 L 690 113 L 690 98 Z" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#9A8484; stroke-opacity:1.00;">
+  <path d="M 693 106 L 702 106" shape-rendering="auto"/>
+  <path d="M 696 102 L 693 106" shape-rendering="auto"/>
+  <path d="M 696 108 L 693 106" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
+	<text x="660.00" y="126.00" textLength="23" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 660.00 126.00)">: ~EIF</text>
+	<text x="657.00" y="139.00" textLength="30" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 657.00 139.00)">Climate</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
+  <path d="M 198 552 L 213 552 L 213 567 L 198 567 L 198 552 Z" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#9A8484; stroke-opacity:1.00;">
+  <path d="M 206 555 L 206 564" shape-rendering="auto"/>
+  <path d="M 202 561 L 206 564" shape-rendering="auto"/>
+  <path d="M 208 561 L 206 564" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#D3D3D3;fill-opacity:1.00; stroke:#000000; stroke-opacity:1.00;">
+ <rect x="58" y="558" width="252" height="54" rx="0.00" shape-rendering="auto"  />
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
+	<text x="123.00" y="573.00" textLength="122" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 123.00 573.00)">«SAF_ConceptualContextRole»</text>
+	<text x="115.00" y="589.00" textLength="138" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 115.00 589.00)">fds: Fire Department System[1..*]</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
+  <path d="M 198 552 L 213 552 L 213 567 L 198 567 L 198 552 Z" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#9A8484; stroke-opacity:1.00;">
+  <path d="M 206 555 L 206 564" shape-rendering="auto"/>
+  <path d="M 202 561 L 206 564" shape-rendering="auto"/>
+  <path d="M 208 561 L 206 564" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
+	<text x="236.00" y="520.00" textLength="40" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 236.00 520.00)">: ~SIF Fire</text>
+	<text x="232.00" y="533.00" textLength="48" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 232.00 533.00)">Department</text>
+	<text x="238.00" y="546.00" textLength="36" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 238.00 546.00)">reporting</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
+  <path d="M 635 552 L 650 552 L 650 567 L 635 567 L 635 552 Z" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#9A8484; stroke-opacity:1.00;">
+  <path d="M 642 555 L 640 558" shape-rendering="auto"/>
+  <path d="M 642 555 L 646 558" shape-rendering="auto"/>
+  <path d="M 642 564 L 640 561" shape-rendering="auto"/>
+  <path d="M 642 564 L 646 561" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#D3D3D3;fill-opacity:1.00; stroke:#000000; stroke-opacity:1.00;">
+ <rect x="607" y="558" width="252" height="54" rx="0.00" shape-rendering="auto"  />
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
+	<text x="672.00" y="573.00" textLength="122" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 672.00 573.00)">«SAF_ConceptualContextRole»</text>
+	<text x="660.00" y="589.00" textLength="145" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 660.00 589.00)">ras: Research Analysis System[1..*]</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
+  <path d="M 635 552 L 650 552 L 650 567 L 635 567 L 635 552 Z" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#9A8484; stroke-opacity:1.00;">
+  <path d="M 642 555 L 640 558" shape-rendering="auto"/>
+  <path d="M 642 555 L 646 558" shape-rendering="auto"/>
+  <path d="M 642 564 L 640 561" shape-rendering="auto"/>
+  <path d="M 642 564 L 646 561" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
+	<text x="653.00" y="555.00" textLength="116" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 653.00 555.00)">: ~SIF Research Analysis data</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
+  <path d="M 71 127 L 86 127 L 86 142 L 71 142 L 71 127 Z" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#9A8484; stroke-opacity:1.00;">
+  <path d="M 78 130 L 78 139" shape-rendering="auto"/>
+  <path d="M 76 136 L 78 139" shape-rendering="auto"/>
+  <path d="M 82 136 L 78 139" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#D3D3D3;fill-opacity:1.00; stroke:#000000; stroke-opacity:1.00;">
+ <rect x="41" y="78" width="252" height="54" rx="0.00" shape-rendering="auto"  />
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
+	<text x="106.00" y="93.00" textLength="122" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 106.00 93.00)">«SAF_ConceptualContextRole»</text>
+	<text x="113.00" y="109.00" textLength="107" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 113.00 109.00)">sats: Satellite System[1..*]</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
+  <path d="M 71 127 L 86 127 L 86 142 L 71 142 L 71 127 Z" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#9A8484; stroke-opacity:1.00;">
+  <path d="M 78 130 L 78 139" shape-rendering="auto"/>
+  <path d="M 76 136 L 78 139" shape-rendering="auto"/>
+  <path d="M 82 136 L 78 139" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
+	<text x="87.00" y="152.00" textLength="85" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 87.00 152.00)">: ~SIF Satellite Image</text>
+	<text x="121.00" y="165.00" textLength="18" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 121.00 165.00)">data</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
+  <path d="M 364 552 L 379 552 L 379 567 L 364 567 L 364 552 Z" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#9A8484; stroke-opacity:1.00;">
+  <path d="M 372 555 L 372 564" shape-rendering="auto"/>
+  <path d="M 368 558 L 372 555" shape-rendering="auto"/>
+  <path d="M 374 558 L 372 555" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#D3D3D3;fill-opacity:1.00; stroke:#000000; stroke-opacity:1.00;">
+ <rect x="333" y="558" width="252" height="54" rx="0.00" shape-rendering="auto"  />
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
+	<text x="398.00" y="573.00" textLength="122" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 398.00 573.00)">«SAF_ConceptualContextRole»</text>
+	<text x="397.00" y="589.00" textLength="124" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 397.00 589.00)">ms: Meteorology System[1..*]</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
+  <path d="M 364 552 L 379 552 L 379 567 L 364 567 L 364 552 Z" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#9A8484; stroke-opacity:1.00;">
+  <path d="M 372 555 L 372 564" shape-rendering="auto"/>
+  <path d="M 368 558 L 372 555" shape-rendering="auto"/>
+  <path d="M 374 558 L 372 555" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
+	<text x="382.00" y="555.00" textLength="116" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 382.00 555.00)">: ~SIF Weather Forecast data</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
+  <path d="M 688 462 L 703 462 L 703 477 L 688 477 L 688 462 Z" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#9A8484; stroke-opacity:1.00;">
+  <path d="M 691 470 L 694 466" shape-rendering="auto"/>
+  <path d="M 691 470 L 694 472" shape-rendering="auto"/>
+  <path d="M 700 470 L 697 466" shape-rendering="auto"/>
+  <path d="M 700 470 L 697 472" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#87CEFA;fill-opacity:1.00; stroke:#000000; stroke-opacity:1.00;">
+ <rect x="695" y="443" width="165" height="54" rx="0.00" shape-rendering="auto"  />
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
+	<text x="716.00" y="458.00" textLength="122" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 716.00 458.00)">«SAF_ConceptualContextRole»</text>
+	<text x="751.00" y="474.00" textLength="53" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 751.00 474.00)">op: Operator</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#DAEAFC;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00;">
+  <path d="M 688 462 L 703 462 L 703 477 L 688 477 L 688 462 Z" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#9A8484; stroke-opacity:1.00;">
+  <path d="M 691 470 L 694 466" shape-rendering="auto"/>
+  <path d="M 691 470 L 694 472" shape-rendering="auto"/>
+  <path d="M 700 470 L 697 466" shape-rendering="auto"/>
+  <path d="M 700 470 L 697 472" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
+	<text x="654.00" y="490.00" textLength="24" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 654.00 490.00)">: ~HIF</text>
+	<text x="648.00" y="503.00" textLength="36" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 648.00 503.00)">Operator</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#87CEFA;fill-opacity:1.00; stroke:#000000; stroke-opacity:1.00;">
+ <rect x="695" y="303" width="165" height="54" rx="0.00" shape-rendering="auto"  />
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
+	<text x="716.00" y="318.00" textLength="122" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 716.00 318.00)">«SAF_ConceptualContextRole»</text>
+	<text x="738.00" y="334.00" textLength="79" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 738.00 334.00)">adm: Administrator</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#87CEFA;fill-opacity:1.00; stroke:#000000; stroke-opacity:1.00;">
+ <rect x="695" y="373" width="165" height="54" rx="0.00" shape-rendering="auto"  />
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
+	<text x="716.00" y="388.00" textLength="122" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 716.00 388.00)">«SAF_ConceptualContextRole»</text>
+	<text x="741.00" y="404.00" textLength="73" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 741.00 404.00)">maint: Maintainer</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#F0F0F0;fill-opacity:1.00; stroke:#D7D7D7; stroke-opacity:1.00;">
+ <rect x="907" y="78" width="204" height="114" rx="3.00" shape-rendering="auto"  />
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#FF9999;fill-opacity:1.00; stroke:#000000; stroke-opacity:1.00;">
+ <rect x="917" y="108" width="17" height="17" rx="0.00" shape-rendering="auto"  />
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#003060;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
+	<text x="939.00" y="120.00" textLength="13" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#003060;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 939.00 120.00)">SoI</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#D3D3D3;fill-opacity:1.00; stroke:#000000; stroke-opacity:1.00;">
+ <rect x="917" y="127" width="17" height="17" rx="0.00" shape-rendering="auto"  />
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#003060;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
+	<text x="939.00" y="139.00" textLength="64" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#003060;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 939.00 139.00)">External System</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#87CEFA;fill-opacity:1.00; stroke:#000000; stroke-opacity:1.00;">
+ <rect x="917" y="146" width="17" height="17" rx="0.00" shape-rendering="auto"  />
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#003060;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
+	<text x="939.00" y="158.00" textLength="18" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#003060;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 939.00 158.00)">User</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#B5E6CB;fill-opacity:1.00; stroke:#000000; stroke-opacity:1.00;">
+ <rect x="917" y="165" width="17" height="17" rx="0.00" shape-rendering="auto"  />
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#003060;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
+	<text x="939.00" y="177.00" textLength="51" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#003060;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 939.00 177.00)">Environment</text>
+	<text x="927.00" y="97.00" textLength="164" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:16px; fill:#003060;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 927.00 97.00)">Conceptual Context Members</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00;">
+  <path d="M 695 332 L 666 332 L 666 379 L 541 379 L 541 319" shape-rendering="auto"/>
+  <path d="M 695 402 L 499 402 L 499 319" shape-rendering="auto"/>
+  <path d="M 79 142 L 79 354 L 154 354 L 154 318" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#69738C;fill-opacity:1.00; stroke:#69738C; stroke-opacity:1.00;">
+  <polygon points="154 336 149 346 159 346" shape-rendering="auto"   style="fill-rule:evenodd;"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
+	<text x="58.00" y="356.00" textLength="134" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-90.00 58.00 356.00)">«SAF_ConceptualExchangeType»</text>
+	<text x="71.00" y="329.00" textLength="80" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-90.00 71.00 329.00)">Satellite Image data</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00;">
+  <path d="M 690 109 L 442 109 L 442 215" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#69738C;fill-opacity:1.00; stroke:#69738C; stroke-opacity:1.00;">
+  <polygon points="442 162 447 152 437 152" shape-rendering="auto"   style="fill-rule:evenodd;"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
+	<text x="441.00" y="77.00" textLength="228" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 441.00 77.00)">«SAF_ConceptualExchangeType» Atmospheric pressure,</text>
+	<text x="468.00" y="90.00" textLength="175" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 468.00 90.00)">«SAF_ConceptualExchangeType» Humidity,</text>
+	<text x="460.00" y="103.00" textLength="190" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 460.00 103.00)">«SAF_ConceptualExchangeType» Temperature</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00;">
+  <path d="M 690 182 L 526 182 L 526 215" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#69738C;fill-opacity:1.00; stroke:#69738C; stroke-opacity:1.00;">
+  <polygon points="526 199 531 189 521 189" shape-rendering="auto"   style="fill-rule:evenodd;"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
+	<text x="499.00" y="150.00" textLength="158" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 499.00 150.00)">«SAF_ConceptualExchangeType» Heat,</text>
+	<text x="495.00" y="163.00" textLength="167" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 495.00 163.00)">«SAF_ConceptualExchangeType» Smoke,</text>
+	<text x="472.00" y="176.00" textLength="212" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 472.00 176.00)">«SAF_ConceptualExchangeType» Visual Observation</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00;">
+  <path d="M 688 471 L 456 471 L 456 319" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#69738C;fill-opacity:1.00; stroke:#69738C; stroke-opacity:1.00;">
+  <polygon points="572 471 562 466 562 476" shape-rendering="auto"   style="fill-rule:evenodd;"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
+	<text x="468.00" y="436.00" textLength="217" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 468.00 436.00)">«SAF_ConceptualExchangeType» Fire Danger Report,</text>
+	<text x="466.00" y="449.00" textLength="220" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 466.00 449.00)">«SAF_ConceptualExchangeType» Fire Situation report,</text>
+	<text x="470.00" y="462.00" textLength="212" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 470.00 462.00)">«SAF_ConceptualExchangeType» Visual Observation</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#69738C;fill-opacity:1.00; stroke:#69738C; stroke-opacity:1.00;">
+  <polygon points="456 395 451 405 461 405" shape-rendering="auto"   style="fill-rule:evenodd;"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
+	<text x="434.00" y="482.00" textLength="134" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-90.00 434.00 482.00)">«SAF_ConceptualExchangeType»</text>
+	<text x="447.00" y="447.00" textLength="64" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-90.00 447.00 447.00)">Area of Interest</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00;">
+  <path d="M 646 552 L 646 485 L 343 485 L 343 318" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#69738C;fill-opacity:1.00; stroke:#69738C; stroke-opacity:1.00;">
+  <polygon points="646 519 651 509 641 509" shape-rendering="auto"   style="fill-rule:evenodd;"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
+	<text x="501.00" y="499.00" textLength="133" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 501.00 499.00)">«SAF_ConceptualExchangeType»</text>
+	<text x="525.00" y="512.00" textLength="86" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 525.00 512.00)">Research Analsis data</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#69738C;fill-opacity:1.00; stroke:#69738C; stroke-opacity:1.00;">
+  <polygon points="343 401 338 411 348 411" shape-rendering="auto"   style="fill-rule:evenodd;"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
+	<text x="322.00" y="497.00" textLength="134" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-90.00 322.00 497.00)">«SAF_ConceptualExchangeType»</text>
+	<text x="335.00" y="474.00" textLength="88" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-90.00 335.00 474.00)">Research Analsis data</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00;">
+  <path d="M 369 552 L 369 518 L 272 518 L 272 318" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#69738C;fill-opacity:1.00; stroke:#69738C; stroke-opacity:1.00;">
+  <polygon points="272 418 267 428 277 428" shape-rendering="auto"   style="fill-rule:evenodd;"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
+	<text x="252.00" y="505.00" textLength="134" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-90.00 252.00 505.00)">«SAF_ConceptualExchangeType»</text>
+	<text x="265.00" y="482.00" textLength="88" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-90.00 265.00 482.00)">Research Analsis data</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00;">
+  <path d="M 205 318 L 205 552" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#69738C;fill-opacity:1.00; stroke:#69738C; stroke-opacity:1.00;">
+  <polygon points="205 494 210 484 200 484" shape-rendering="auto"   style="fill-rule:evenodd;"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00;">
+	<text x="189.00" y="510.00" textLength="134" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-90.00 189.00 510.00)">«SAF_ConceptualExchangeType»</text>
+	<text x="202.00" y="476.00" textLength="66" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00; stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-90.00 202.00 476.00)">Fire Alert report</text>
+</g>
+</svg>
